@@ -29,30 +29,30 @@ namespace Microsoft::Win32 {
 class CORDL_TYPE NativeMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CloseProcess, addr 0x643d110, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CloseProcess, addr 0x643d760, size 0x60, virtual false, abstract: false, final false
   static inline bool CloseProcess(::System::IntPtr handle);
 
-  /// @brief Method DuplicateHandle, addr 0x643cdb8, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method DuplicateHandle, addr 0x643d408, size 0x168, virtual false, abstract: false, final false
   static inline bool DuplicateHandle(::System::Runtime::InteropServices::HandleRef hSourceProcessHandle, ::System::Runtime::InteropServices::HandleRef hSourceHandle,
                                      ::System::Runtime::InteropServices::HandleRef hTargetProcess, ::by_ref<::Microsoft::Win32::SafeHandles::SafeProcessHandle*> targetHandle, int32_t dwDesiredAccess,
                                      bool bInheritHandle, int32_t dwOptions);
 
-  /// @brief Method GetCurrentProcess, addr 0x643cf4c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentProcess, addr 0x643d59c, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetCurrentProcess();
 
-  /// @brief Method GetCurrentProcessId, addr 0x643d10c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentProcessId, addr 0x643d75c, size 0x4, virtual false, abstract: false, final false
   static inline int32_t GetCurrentProcessId();
 
-  /// @brief Method GetExitCodeProcess, addr 0x643cf60, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetExitCodeProcess, addr 0x643d5b0, size 0xac, virtual false, abstract: false, final false
   static inline bool GetExitCodeProcess(::Microsoft::Win32::SafeHandles::SafeProcessHandle* processHandle, ::by_ref<int32_t> exitCode);
 
-  /// @brief Method GetExitCodeProcess, addr 0x643cf60, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetExitCodeProcess, addr 0x643d5b0, size 0xac, virtual false, abstract: false, final false
   static inline bool GetExitCodeProcess(::System::IntPtr processHandle, ::by_ref<int32_t> exitCode);
 
-  /// @brief Method GetProcessTimes, addr 0x643d014, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetProcessTimes, addr 0x643d664, size 0xf8, virtual false, abstract: false, final false
   static inline bool GetProcessTimes(::Microsoft::Win32::SafeHandles::SafeProcessHandle* handle, ::by_ref<int64_t> creation, ::by_ref<int64_t> exit, ::by_ref<int64_t> kernel, ::by_ref<int64_t> user);
 
-  /// @brief Method GetProcessTimes, addr 0x643d00c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetProcessTimes, addr 0x643d65c, size 0x8, virtual false, abstract: false, final false
   static inline bool GetProcessTimes(::System::IntPtr handle, ::by_ref<int64_t> creation, ::by_ref<int64_t> exit, ::by_ref<int64_t> kernel, ::by_ref<int64_t> user);
 
 protected:

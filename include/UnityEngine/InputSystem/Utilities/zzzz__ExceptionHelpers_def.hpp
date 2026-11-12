@@ -24,7 +24,7 @@ class CORDL_TYPE ExceptionHelpers : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method IsExceptionIndicatingBugInCode, addr 0x6966fac, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method IsExceptionIndicatingBugInCode, addr 0x696808c, size 0xf0, virtual false, abstract: false, final false
   static inline bool IsExceptionIndicatingBugInCode(::System::Exception* exception);
 
 protected:

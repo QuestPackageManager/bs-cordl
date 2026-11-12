@@ -32,19 +32,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::DepthState>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::DepthState>*();
 
-  /// @brief Method Equals, addr 0x6fbbf30, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6fbd010, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6fbbf08, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6fbcfe8, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::DepthState other);
 
-  /// @brief Method GetHashCode, addr 0x6fbbfbc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6fbd09c, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6fbbe98, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fbcf78, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(bool writeEnabled, ::UnityEngine::Rendering::CompareFunction compareFunction);
 
-  /// @brief Method get_defaultValue, addr 0x6fbbe74, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_defaultValue, addr 0x6fbcf54, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DepthState get_defaultValue();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::DepthState>"

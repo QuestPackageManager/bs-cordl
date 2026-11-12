@@ -65,28 +65,28 @@ public:
   /// @brief Field req, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_req, put = __cordl_internal_set_req)) ::Org::BouncyCastle::Asn1::Ocsp::OcspRequest* req;
 
-  /// @brief Method GetCertList, addr 0x3821890, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method GetCertList, addr 0x3825d28, size 0x4c4, virtual false, abstract: false, final false
   inline ::System::Collections::IList* GetCertList();
 
-  /// @brief Method GetCertificates, addr 0x3821ffc, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetCertificates, addr 0x3826494, size 0x194, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCertificates(::StringW type);
 
-  /// @brief Method GetCerts, addr 0x3821d54, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method GetCerts, addr 0x38261ec, size 0x2a8, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::X509::X509Certificate*> GetCerts();
 
-  /// @brief Method GetEncoded, addr 0x38224d8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x3826970, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetEncoded();
 
-  /// @brief Method GetRequestList, addr 0x3821638, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetRequestList, addr 0x3825ad0, size 0x138, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Ocsp::Req*> GetRequestList();
 
-  /// @brief Method GetSignature, addr 0x3821854, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetSignature, addr 0x3825cec, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetSignature();
 
-  /// @brief Method GetTbsRequest, addr 0x38214e4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetTbsRequest, addr 0x382597c, size 0xf8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetTbsRequest();
 
-  /// @brief Method GetX509Extensions, addr 0x38217ec, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetX509Extensions, addr 0x3825c84, size 0x4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
 
   static inline ::Org::BouncyCastle::Ocsp::OcspReq* New_ctor(::Org::BouncyCastle::Asn1::Asn1InputStream* aIn);
@@ -97,7 +97,7 @@ public:
 
   static inline ::Org::BouncyCastle::Ocsp::OcspReq* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::OcspRequest* req);
 
-  /// @brief Method Verify, addr 0x3822190, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method Verify, addr 0x3826628, size 0x348, virtual false, abstract: false, final false
   inline bool Verify(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
   constexpr ::Org::BouncyCastle::Asn1::Ocsp::OcspRequest* const& __cordl_internal_get_req() const;
@@ -106,31 +106,31 @@ public:
 
   constexpr void __cordl_internal_set_req(::Org::BouncyCastle::Asn1::Ocsp::OcspRequest* value);
 
-  /// @brief Method .ctor, addr 0x3821324, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x38257bc, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1InputStream* aIn);
 
-  /// @brief Method .ctor, addr 0x3821468, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3825900, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStr);
 
-  /// @brief Method .ctor, addr 0x38212b4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x382574c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> req);
 
-  /// @brief Method .ctor, addr 0x38212ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3825744, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::OcspRequest* req);
 
-  /// @brief Method get_IsSigned, addr 0x3821834, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IsSigned, addr 0x3825ccc, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsSigned();
 
-  /// @brief Method get_RequestExtensions, addr 0x3821778, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_RequestExtensions, addr 0x3825c10, size 0x74, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_RequestExtensions();
 
-  /// @brief Method get_RequestorName, addr 0x3821610, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_RequestorName, addr 0x3825aa8, size 0x28, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_RequestorName();
 
-  /// @brief Method get_SignatureAlgOid, addr 0x38217f0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureAlgOid, addr 0x3825c88, size 0x44, virtual false, abstract: false, final false
   inline ::StringW get_SignatureAlgOid();
 
-  /// @brief Method get_Version, addr 0x38215dc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x3825a74, size 0x34, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
 protected:

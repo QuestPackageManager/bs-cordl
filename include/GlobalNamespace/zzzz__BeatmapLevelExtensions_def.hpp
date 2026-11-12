@@ -100,10 +100,10 @@ public:
 
   static inline ::GlobalNamespace::BeatmapLevelExtensions___c* New_ctor();
 
-  /// @brief Method <ToRuntime>b__5_0, addr 0x39d53c4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ToRuntime>b__5_0, addr 0x39d98c0, size 0x18, virtual false, abstract: false, final false
   inline ::StringW _ToRuntime_b__5_0(::StringW l);
 
-  /// @brief Method .ctor, addr 0x39d53c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d98bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::BeatmapLevelExtensions___c* getStaticF___9();
@@ -129,7 +129,7 @@ public:
   BeatmapLevelExtensions___c(BeatmapLevelExtensions___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14437 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14438 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -184,34 +184,34 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x39d53f8, size 0x298, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39d98f4, size 0x298, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::BeatmapLevelExtensions__WithBeatSaberContent_d__1* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerable<BeatmapLevel>.GetEnumerator, addr 0x39d578c, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<BeatmapLevel>.GetEnumerator, addr 0x39d9c88, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapLevel*>* System_Collections_Generic_IEnumerable_BeatmapLevel__GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<BeatmapLevel>.get_Current, addr 0x39d5744, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<BeatmapLevel>.get_Current, addr 0x39d9c40, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapLevel* System_Collections_Generic_IEnumerator_BeatmapLevel__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x39d5824, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x39d9d20, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39d574c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39d9c48, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39d5784, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39d9c80, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x39d53dc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x39d98d8, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -250,11 +250,11 @@ public:
 
   constexpr void __cordl_internal_set_beatmapLevels(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevel*>* value);
 
-  /// @brief Method <>m__Finally1, addr 0x39d5690, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x39d9b8c, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x39d3580, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d7a7c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevel*>"
@@ -287,7 +287,7 @@ public:
   BeatmapLevelExtensions__WithBeatSaberContent_d__1(BeatmapLevelExtensions__WithBeatSaberContent_d__1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14438 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14439 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -337,45 +337,45 @@ public:
 
   using __c = ::GlobalNamespace::BeatmapLevelExtensions___c;
 
-  /// @brief Method CompareLevelNames, addr 0x39d364c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CompareLevelNames, addr 0x39d7b48, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t CompareLevelNames(::GlobalNamespace::BeatmapLevelSO* beatmapLevelSo1, ::GlobalNamespace::BeatmapLevelSO* beatmapLevelSo2);
 
-  /// @brief Method CreateBeatmapBasicData, addr 0x39d4ce4, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method CreateBeatmapBasicData, addr 0x39d91e0, size 0x1b0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapBasicData* CreateBeatmapBasicData(::GlobalNamespace::BeatmapLevelSO* beatmapLevelSo, ::GlobalNamespace::BeatmapCharacteristic characteristic,
                                                                             ::GlobalNamespace::BeatmapLevelSO_PreviewDifficultyBeatmap* difficultyBeatmap,
                                                                             ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::EnvironmentName>* environmentNames,
                                                                             bool hasEnvironmentNamesList);
 
-  /// @brief Method CreateCensoredBeatmapBasicData, addr 0x39d3f8c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method CreateCensoredBeatmapBasicData, addr 0x39d8488, size 0x194, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapBasicData* CreateCensoredBeatmapBasicData(::GlobalNamespace::BeatmapLevelSO_PreviewDifficultyBeatmap* difficultyBeatmap);
 
-  /// @brief Method CreateColorScheme, addr 0x39d50e4, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method CreateColorScheme, addr 0x39d95e0, size 0x288, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ColorScheme* CreateColorScheme(int32_t idx, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelSO_ColorScheme*>* colorSchemes);
 
   /// [Extension]
-  /// @brief Method HasBeatSaberContent, addr 0x39d34e4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HasBeatSaberContent, addr 0x39d79e0, size 0x2c, virtual false, abstract: false, final false
   static inline bool HasBeatSaberContent(::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
   /// [Extension]
-  /// @brief Method HasBeatSaberContent, addr 0x39d35a0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method HasBeatSaberContent, addr 0x39d7a9c, size 0xac, virtual false, abstract: false, final false
   static inline bool HasBeatSaberContent(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack);
 
-  /// @brief Method ResolveEnvironmentName, addr 0x39d4e9c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method ResolveEnvironmentName, addr 0x39d9398, size 0x1a4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentName ResolveEnvironmentName(int32_t environmentNameIdx, ::GlobalNamespace::BeatmapCharacteristic characteristic,
                                                                           ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::EnvironmentName>* environmentNames,
                                                                           bool hasEnvironmentNamesList);
 
   /// [Extension]
-  /// @brief Method ToCensoredRuntime, addr 0x39d36a8, size 0x7e0, virtual false, abstract: false, final false
+  /// @brief Method ToCensoredRuntime, addr 0x39d7ba4, size 0x7e0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapLevel* ToCensoredRuntime(::GlobalNamespace::BeatmapLevelSO* beatmapLevelSo, ::UnityEngine::Sprite* coverSprite, ::StringW censoredLocalizedSongName);
 
   /// [Extension]
-  /// @brief Method ToRuntime, addr 0x39d4120, size 0xb20, virtual false, abstract: false, final false
+  /// @brief Method ToRuntime, addr 0x39d861c, size 0xb20, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapLevel* ToRuntime(::GlobalNamespace::BeatmapLevelSO* beatmapLevelSo);
 
   /// [IteratorStateMachine(typeof(BeatmapLevelExtensions::<WithBeatSaberContent>d__1))]
   /// [Extension]
-  /// @brief Method WithBeatSaberContent, addr 0x39d3510, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method WithBeatSaberContent, addr 0x39d7a0c, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevel*>*
   WithBeatSaberContent(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevel*>* beatmapLevels);
 
@@ -394,7 +394,7 @@ public:
   BeatmapLevelExtensions(BeatmapLevelExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14439 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14440 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

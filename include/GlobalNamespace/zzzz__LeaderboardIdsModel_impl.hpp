@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardIdsModel::*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*)>(
     &::GlobalNamespace::LeaderboardIdsModel::_ctor)> {
   constexpr static std::size_t size = 0x5e4;
-  constexpr static std::size_t addrs = 0x3a09914;
+  constexpr static std::size_t addrs = 0x3a0e99c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LeaderboardIdsModel::*)(::by_ref<::GlobalNamespace::BeatmapKey const>, ::by_ref<::StringW>)>(
     &::GlobalNamespace::LeaderboardIdsModel::TryGetPlatformLeaderboardId)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3a09ef8;
+  constexpr static std::size_t addrs = 0x3a0ef80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

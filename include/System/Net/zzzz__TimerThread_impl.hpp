@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::TimerThread_Queue::*)(int32_t)>(&::System::Net::TimerThread_Queue::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x687dc70;
+  constexpr static std::size_t addrs = 0x687e2c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::TimerThread_Queue*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::TimerThread_Queue::*)()>(&::System::Net::TimerThread_Queue::get_Duration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x687dc78;
+  constexpr static std::size_t addrs = 0x687e2c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::TimerThread_Queue*>(), { "get_Duration", {}, {} })));
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::TimerThread_Timer::*)(int32_t)>(&::System::Net::TimerThread_Timer::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x687dc80;
+  constexpr static std::size_t addrs = 0x687e2d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::TimerThread_Timer*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::TimerThread_Timer::*)()>(&::System::Net::TimerThread_Timer::get_StartTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x687dc9c;
+  constexpr static std::size_t addrs = 0x687e2ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::TimerThread_Timer*>(), { "get_StartTime", {}, {} })));
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::TimerThread_Timer::*)()>(&::System::Net::TimerThread_Timer::get_Expiration)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x687dca4;
+  constexpr static std::size_t addrs = 0x687e2f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::TimerThread_Timer*>(), { "get_Expiration", {}, {} })));
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::TimerThread_Timer::*)()>(&::System::Net::TimerThread_Timer::Dispose)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x687dcb0;
+  constexpr static std::size_t addrs = 0x687e300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::TimerThread_Timer*>(), { "Dispose", {}, {} })));
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::TimerThread_Callback::*)(::System::Object*, ::System::IntPtr)>(&::System::Net::TimerThread_Callback::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6869a08;
+  constexpr static std::size_t addrs = 0x686a058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::TimerThread_Callback::*)(::System::Net::TimerThread_Timer*, int32_t, ::System::Object*)>(
     &::System::Net::TimerThread_Callback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x687dcbc;
+  constexpr static std::size_t addrs = 0x687e30c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::TimerThread_TimerQueue::*)(int32_t)>(&::System::Net::TimerThread_TimerQueue::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x687cf6c;
+  constexpr static std::size_t addrs = 0x687d5bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::TimerThread_TimerQueue*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::TimerThread_Timer* (::System::Net::TimerThread_TimerQueue::*)(::System::Net::TimerThread_Callback*, ::System::Object*)>(
     &::System::Net::TimerThread_TimerQueue::CreateTimer)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x687dcf4;
+  constexpr static std::size_t addrs = 0x687e344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::TimerThread_TimerQueue::*)(::by_ref<int32_t>)>(&::System::Net::TimerThread_TimerQueue::Fire)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x687d96c;
+  constexpr static std::size_t addrs = 0x687dfbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -346,7 +346,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::TimerThread_InfiniteTimerQueue::*)()>(&::System::Net::TimerThread_InfiniteTimerQueue::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x687cf60;
+  constexpr static std::size_t addrs = 0x687d5b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::TimerThread_InfiniteTimerQueue*>(), { ".ctor", {}, {} })));
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::TimerThread_Timer* (::System::Net::TimerThread_InfiniteTimerQueue::*)(::System::Net::TimerThread_Callback*, ::System::Object*)>(
     &::System::Net::TimerThread_InfiniteTimerQueue::CreateTimer)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x687e17c;
+  constexpr static std::size_t addrs = 0x687e7cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -397,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::TimerThread_TimerNode::*)(::System::Net::TimerThread_Callback*, ::System::Object*, int32_t, ::System::Object*)>(
     &::System::Net::TimerThread_TimerNode::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x687ded0;
+  constexpr static std::size_t addrs = 0x687e520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -413,7 +413,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::TimerThread_TimerNode::*)()>(&::System::Net::TimerThread_TimerNode::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x687dcd0;
+  constexpr static std::size_t addrs = 0x687e320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::TimerThread_TimerNode*>(), { ".ctor", {}, {} })));
@@ -425,7 +425,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::TimerThread_TimerNode::*)()>(&::System::Net::TimerThread_TimerNode::get_HasExpired)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x687e200;
+  constexpr static std::size_t addrs = 0x687e850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -438,7 +438,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::TimerThread_TimerNode* (::System::Net::TimerThread_TimerNode::*)()>(&::System::Net::TimerThread_TimerNode::get_Next)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x687e210;
+  constexpr static std::size_t addrs = 0x687e860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::TimerThread_TimerNode*>(), { "get_Next", {}, {} })));
@@ -450,7 +450,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::TimerThread_TimerNode::*)(::System::Net::TimerThread_TimerNode*)>(&::System::Net::TimerThread_TimerNode::set_Next)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x687e218;
+  constexpr static std::size_t addrs = 0x687e868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -463,7 +463,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::TimerThread_TimerNode* (::System::Net::TimerThread_TimerNode::*)()>(&::System::Net::TimerThread_TimerNode::get_Prev)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x687e220;
+  constexpr static std::size_t addrs = 0x687e870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::TimerThread_TimerNode*>(), { "get_Prev", {}, {} })));
@@ -475,7 +475,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::TimerThread_TimerNode::*)(::System::Net::TimerThread_TimerNode*)>(&::System::Net::TimerThread_TimerNode::set_Prev)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x687e228;
+  constexpr static std::size_t addrs = 0x687e878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -488,7 +488,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::TimerThread_TimerNode::*)()>(&::System::Net::TimerThread_TimerNode::Cancel)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x687e230;
+  constexpr static std::size_t addrs = 0x687e880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -501,7 +501,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::TimerThread_TimerNode::*)()>(&::System::Net::TimerThread_TimerNode::Fire)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x687df18;
+  constexpr static std::size_t addrs = 0x687e568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::TimerThread_TimerNode*>(), { "Fire", {}, {} })));
@@ -636,7 +636,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::TimerThread_InfiniteTimer::*)()>(&::System::Net::TimerThread_InfiniteTimer::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x687e1e0;
+  constexpr static std::size_t addrs = 0x687e830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::TimerThread_InfiniteTimer*>(), { ".ctor", {}, {} })));
@@ -648,7 +648,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::TimerThread_InfiniteTimer::*)()>(&::System::Net::TimerThread_InfiniteTimer::get_HasExpired)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x687e350;
+  constexpr static std::size_t addrs = 0x687e9a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -661,7 +661,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::TimerThread_InfiniteTimer::*)()>(&::System::Net::TimerThread_InfiniteTimer::Cancel)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x687e358;
+  constexpr static std::size_t addrs = 0x687e9a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -703,7 +703,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::TimerThread_Queue* (*)(int32_t)>(&::System::Net::TimerThread::CreateQueue)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x6878c48;
+  constexpr static std::size_t addrs = 0x6879298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::TimerThread*>(), { "CreateQueue", {}, { ::i2c::type_of<int32_t>() } })));
@@ -715,7 +715,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::TimerThread_Queue* (*)(int32_t)>(&::System::Net::TimerThread::GetOrCreateQueue)> {
   constexpr static std::size_t size = 0x904;
-  constexpr static std::size_t addrs = 0x686d720;
+  constexpr static std::size_t addrs = 0x686dd70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::TimerThread*>(), { "GetOrCreateQueue", {}, { ::i2c::type_of<int32_t>() } })));
@@ -727,7 +727,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Net::TimerThread::Prod)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x687cfe8;
+  constexpr static std::size_t addrs = 0x687d638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::TimerThread*>(), { "Prod", {}, {} })));
@@ -739,7 +739,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Net::TimerThread::ThreadProc)> {
   constexpr static std::size_t size = 0x860;
-  constexpr static std::size_t addrs = 0x687d10c;
+  constexpr static std::size_t addrs = 0x687d75c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::TimerThread*>(), { "ThreadProc", {}, {} })));
@@ -751,7 +751,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Net::TimerThread::StopTimerThread)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x687db2c;
+  constexpr static std::size_t addrs = 0x687e17c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::TimerThread*>(), { "StopTimerThread", {}, {} })));
@@ -763,7 +763,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t, int32_t, int32_t)>(&::System::Net::TimerThread::IsTickBetween)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x687db08;
+  constexpr static std::size_t addrs = 0x687e158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -777,7 +777,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, ::System::EventArgs*)>(&::System::Net::TimerThread::OnDomainUnload)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x687dbac;
+  constexpr static std::size_t addrs = 0x687e1fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

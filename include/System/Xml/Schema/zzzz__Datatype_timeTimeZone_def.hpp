@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Xml::Schema::Datatype_timeTimeZone* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6624c98, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66252e8, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

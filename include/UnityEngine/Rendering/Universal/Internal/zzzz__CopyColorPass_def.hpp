@@ -156,7 +156,7 @@ public:
 
   constexpr void __cordl_internal_set_useProceduralBlit(bool value);
 
-  /// @brief Method .ctor, addr 0x6d5e6d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d5f7b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -235,11 +235,11 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c* New_ctor();
 
-  /// @brief Method <AddDownsampleAndCopyColorRenderPass>b__17_0, addr 0x6d5e734, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method <AddDownsampleAndCopyColorRenderPass>b__17_0, addr 0x6d5f814, size 0xbc, virtual false, abstract: false, final false
   inline void _AddDownsampleAndCopyColorRenderPass_b__17_0(::UnityEngine::Rendering::Universal::Internal::CopyColorPass_PassData* data,
                                                            ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x6d5e730, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d5f810, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c* getStaticF___9();
@@ -305,20 +305,20 @@ public:
   /// @brief Field m_SamplingMaterial, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_m_SamplingMaterial, put = __cordl_internal_set_m_SamplingMaterial)) ::UnityW<::UnityEngine::Material> m_SamplingMaterial;
 
-  /// @brief Method AddDownsampleAndCopyColorRenderPass, addr 0x6d5e168, size 0x4e0, virtual false, abstract: false, final false
+  /// @brief Method AddDownsampleAndCopyColorRenderPass, addr 0x6d5f248, size 0x4e0, virtual false, abstract: false, final false
   inline void AddDownsampleAndCopyColorRenderPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> destination,
                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source, bool useProceduralBlit, ::StringW passName);
 
-  /// @brief Method ConfigureDescriptor, addr 0x6d5d6cc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ConfigureDescriptor, addr 0x6d5e7ac, size 0x54, virtual false, abstract: false, final false
   static inline void ConfigureDescriptor(::UnityEngine::Rendering::Universal::Downsampling downsamplingMethod, ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor,
                                          ::by_ref<::UnityEngine::FilterMode> filterMode);
 
   /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
-  /// @brief Method Execute, addr 0x6d5d5d0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x6d5e6b0, size 0x4, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x6d5d774, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6d5e854, size 0x398, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::Internal::CopyColorPass_PassData* passData,
                                  ::UnityEngine::Rendering::RTHandle* source, bool useDrawProceduralBlit);
 
@@ -326,31 +326,31 @@ public:
                                                                                        ::UnityEngine::Material* copyColorMaterial, ::StringW customPassName);
 
   /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
-  /// @brief Method OnCameraSetup, addr 0x6d5d5cc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnCameraSetup, addr 0x6d5e6ac, size 0x4, virtual true, abstract: false, final false
   inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Render, addr 0x6d5db0c, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6d5ebec, size 0x1d4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                                                                            ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
                                                                            ::UnityEngine::Rendering::Universal::Downsampling downsampling);
 
-  /// @brief Method RenderInternal, addr 0x6d5dce0, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method RenderInternal, addr 0x6d5edc0, size 0x3d4, virtual false, abstract: false, final false
   inline void RenderInternal(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> destination,
                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source, bool useProceduralBlit);
 
-  /// @brief Method RenderToExistingTexture, addr 0x6d5e0b4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method RenderToExistingTexture, addr 0x6d5f194, size 0xb4, virtual false, abstract: false, final false
   inline void RenderToExistingTexture(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> destination,
                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
                                       ::UnityEngine::Rendering::Universal::Downsampling downsampling);
 
-  /// @brief Method Setup, addr 0x6d5d76c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6d5e84c, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Rendering::RTHandle* destination, ::UnityEngine::Rendering::Universal::Downsampling downsampling);
 
   /// [Obsolete("Use RTHandles for source and destination #from(2022.1) #breakingFrom(2023.1).", true)]
-  /// @brief Method Setup, addr 0x6d5d720, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6d5e800, size 0x4c, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::RenderTargetIdentifier source, ::UnityEngine::Rendering::Universal::RenderTargetHandle destination,
                     ::UnityEngine::Rendering::Universal::Downsampling downsampling);
 
@@ -378,7 +378,7 @@ public:
 
   constexpr void __cordl_internal_set_m_SamplingMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x6d5d5d4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d5e6b4, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Material* samplingMaterial, ::UnityEngine::Material* copyColorMaterial, ::StringW customPassName);
 
   static inline ::StringW getStaticF_k_CopyColorPassName();

@@ -60,7 +60,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x6cce880, size 0x308, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6ccf960, size 0x308, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -258,10 +258,10 @@ public:
 
   __declspec(property(get = get_maxDrawDistance, put = set_maxDrawDistance)) float_t maxDrawDistance;
 
-  /// @brief Method Execute, addr 0x6cce504, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x6ccf5e4, size 0x1cc, virtual false, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method Execute, addr 0x6cce6d0, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x6ccf7b0, size 0x1b0, virtual false, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::Universal::DecalCachedChunk* cachedChunk, ::UnityEngine::Rendering::Universal::DecalCulledChunk* culledChunk,
                       ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* drawCallChunk, int32_t count);
 
@@ -285,13 +285,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Sampler(::UnityEngine::Rendering::ProfilingSampler* value);
 
-  /// @brief Method .ctor, addr 0x6cce46c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ccf54c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager, float_t maxDrawDistance);
 
-  /// @brief Method get_maxDrawDistance, addr 0x6cce45c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxDrawDistance, addr 0x6ccf53c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxDrawDistance();
 
-  /// @brief Method set_maxDrawDistance, addr 0x6cce464, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxDrawDistance, addr 0x6ccf544, size 0x8, virtual false, abstract: false, final false
   inline void set_maxDrawDistance(float_t value);
 
 protected:

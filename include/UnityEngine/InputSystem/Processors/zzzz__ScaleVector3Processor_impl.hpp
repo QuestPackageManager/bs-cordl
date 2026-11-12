@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::InputSystem::Processors::ScaleVector3Processor::*)(
     ::UnityEngine::Vector3, ::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::InputSystem::Processors::ScaleVector3Processor::Process)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6a27ea4;
+  constexpr static std::size_t addrs = 0x6a28f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Processors::ScaleVector3Processor*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::Processors::ScaleVector3Processor::*)()>(
     &::UnityEngine::InputSystem::Processors::ScaleVector3Processor::ToString)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6a27ebc;
+  constexpr static std::size_t addrs = 0x6a28f9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Processors::ScaleVector3Processor*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Processors::ScaleVector3Processor::*)()>(
     &::UnityEngine::InputSystem::Processors::ScaleVector3Processor::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6a27f94;
+  constexpr static std::size_t addrs = 0x6a29074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Processors::ScaleVector3Processor*>(), { ".ctor", {}, {} })));

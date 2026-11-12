@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::JumpReceiver::*)()>(&::GlobalNamespace::JumpReceiver::get_jumpToDestinationValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca6df4;
+  constexpr static std::size_t addrs = 0x5ca55a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::JumpReceiver*>(), { "get_jumpToDestinationValid", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::JumpReceiver::*)(bool)>(&::GlobalNamespace::JumpReceiver::set_jumpToDestinationValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca6dfc;
+  constexpr static std::size_t addrs = 0x5ca55ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::JumpReceiver::*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::INotification*, ::System::Object*)>(
     &::GlobalNamespace::JumpReceiver::OnNotify)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5ca6e04;
+  constexpr static std::size_t addrs = 0x5ca55b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::JumpReceiver::*)()>(&::GlobalNamespace::JumpReceiver::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ca6f4c;
+  constexpr static std::size_t addrs = 0x5ca56fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::JumpReceiver*>(), { ".ctor", {}, {} })));

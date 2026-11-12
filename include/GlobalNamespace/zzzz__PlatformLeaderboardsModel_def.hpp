@@ -183,7 +183,7 @@ public:
   static ::GlobalNamespace::PlatformLeaderboardsModel_State const NotInitialized;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14782 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14790 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -242,7 +242,7 @@ public:
   static ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresResult const Ok;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14783 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14791 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -301,7 +301,7 @@ public:
   static ::GlobalNamespace::PlatformLeaderboardsModel_UploadScoreResult const Ok;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14784 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14792 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -360,7 +360,7 @@ public:
   static ::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope const Global;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14785 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14793 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -383,20 +383,20 @@ namespace GlobalNamespace {
 class CORDL_TYPE PlatformLeaderboardsModel_GetScoresCompletionHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3a0feb8, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3a14f40, size 0xac, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::PlatformLeaderboardsModel_GetScoresResult result, ::ArrayW<::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*> scores,
                                              int32_t referencePlayerScoreIndex, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3a0ff64, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3a14fec, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3a0fea4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3a14f2c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::GlobalNamespace::PlatformLeaderboardsModel_GetScoresResult result, ::ArrayW<::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*> scores,
                      int32_t referencePlayerScoreIndex);
 
   static inline ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3a0fc18, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a14ca0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -414,7 +414,7 @@ public:
   PlatformLeaderboardsModel_GetScoresCompletionHandler(PlatformLeaderboardsModel_GetScoresCompletionHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14786 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14794 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -429,18 +429,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE PlatformLeaderboardsModel_UploadScoreCompletionHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3a0ff84, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3a1500c, size 0x88, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::PlatformLeaderboardsModel_UploadScoreResult result, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3a1000c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3a15094, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3a0ff70, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3a14ff8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::GlobalNamespace::PlatformLeaderboardsModel_UploadScoreResult result);
 
   static inline ::GlobalNamespace::PlatformLeaderboardsModel_UploadScoreCompletionHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3a0b714, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a1079c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -458,7 +458,7 @@ public:
   PlatformLeaderboardsModel_UploadScoreCompletionHandler(PlatformLeaderboardsModel_UploadScoreCompletionHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14787 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14795 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -488,7 +488,7 @@ public:
   /// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*>"
   constexpr operator ::System::IComparable_1<::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*>*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x3a10018, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x3a150a0, size 0x24, virtual true, abstract: false, final true
   inline int32_t CompareTo(::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore* other);
 
   static inline ::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore* New_ctor(int32_t score, int32_t rank, ::StringW playerName, uint64_t playerId);
@@ -517,7 +517,7 @@ public:
 
   constexpr void __cordl_internal_set_score(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3a0f180, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a14208, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t score, int32_t rank, ::StringW playerName, uint64_t playerId);
 
   /// @brief Convert to "::System::IComparable_1<::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*>"
@@ -539,7 +539,7 @@ public:
   PlatformLeaderboardsModel_LeaderboardScore(PlatformLeaderboardsModel_LeaderboardScore const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14788 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14796 };
 
   /// @brief Field score, offset: 0x10, size: 0x4, def value: None
   int32_t ___score;
@@ -583,10 +583,10 @@ public:
 
   static inline ::GlobalNamespace::PlatformLeaderboardsModel___c* New_ctor();
 
-  /// @brief Method <GetScores>b__26_2, addr 0x3a10094, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <GetScores>b__26_2, addr 0x3a1511c, size 0x1c, virtual false, abstract: false, final false
   inline bool _GetScores_b__26_2(::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore* entry);
 
-  /// @brief Method .ctor, addr 0x3a10090, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a15118, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::PlatformLeaderboardsModel___c* getStaticF___9();
@@ -612,7 +612,7 @@ public:
   PlatformLeaderboardsModel___c(PlatformLeaderboardsModel___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14789 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14797 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -661,13 +661,13 @@ public:
 
   static inline ::GlobalNamespace::PlatformLeaderboardsModel___c__DisplayClass26_0* New_ctor();
 
-  /// @brief Method <GetScores>b__0, addr 0x3a100b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <GetScores>b__0, addr 0x3a15138, size 0x28, virtual false, abstract: false, final false
   inline void _GetScores_b__0(::GlobalNamespace::HMAsyncRequest* _);
 
-  /// @brief Method <GetScores>b__3, addr 0x3a1065c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <GetScores>b__3, addr 0x3a156e4, size 0x2c, virtual false, abstract: false, final false
   inline bool _GetScores_b__3(::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore* entry);
 
-  /// @brief Method <GetScores>g__HandleGetScoresCompleted|1, addr 0x3a100d8, size 0x584, virtual false, abstract: false, final false
+  /// @brief Method <GetScores>g__HandleGetScoresCompleted|1, addr 0x3a15160, size 0x584, virtual false, abstract: false, final false
   inline void _GetScores_g__HandleGetScoresCompleted_1(::GlobalNamespace::PlatformLeaderboardsModel_GetScoresResult result,
                                                        ::ArrayW<::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*> entries, int32_t referencePlayerScoreIndex);
 
@@ -731,7 +731,7 @@ public:
 
   constexpr void __cordl_internal_set_searchRange(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3a0fc14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a14c9c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -749,7 +749,7 @@ public:
   PlatformLeaderboardsModel___c__DisplayClass26_0(PlatformLeaderboardsModel___c__DisplayClass26_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14790 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14798 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> _____4__this;
@@ -866,41 +866,41 @@ public:
 
   __declspec(property(get = get_playerId)) uint64_t playerId;
 
-  /// @brief Method GetFriendsScores, addr 0x3a0fd0c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetFriendsScores, addr 0x3a14d94, size 0x34, virtual false, abstract: false, final false
   inline ::GlobalNamespace::HMAsyncRequest* GetFriendsScores(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, int32_t count, int32_t fromRank,
                                                              ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler* completionHandler);
 
-  /// @brief Method GetScores, addr 0x3a0f938, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method GetScores, addr 0x3a149c0, size 0x2dc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::HMAsyncRequest* GetScores(::GlobalNamespace::BeatmapKey beatmapKey, int32_t count, int32_t fromRank, ::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope scope,
                                                       ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler* completionHandler);
 
-  /// @brief Method GetScores, addr 0x3a0fca0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetScores, addr 0x3a14d28, size 0x34, virtual false, abstract: false, final false
   inline ::GlobalNamespace::HMAsyncRequest* GetScores(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, int32_t count, int32_t fromRank,
                                                       ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler* completionHandler);
 
-  /// @brief Method GetScoresAroundPlayer, addr 0x3a0fcd4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetScoresAroundPlayer, addr 0x3a14d5c, size 0x38, virtual false, abstract: false, final false
   inline ::GlobalNamespace::HMAsyncRequest* GetScoresAroundPlayer(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, int32_t count,
                                                                   ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler* completionHandler);
 
-  /// @brief Method HandleAllScoresDidUpload, addr 0x3a0fc84, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleAllScoresDidUpload, addr 0x3a14d0c, size 0x1c, virtual false, abstract: false, final false
   inline void HandleAllScoresDidUpload();
 
-  /// @brief Method Initialize, addr 0x3a0f464, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3a144ec, size 0x148, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method InitializeForUserInfo, addr 0x3a0f6c4, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method InitializeForUserInfo, addr 0x3a1474c, size 0x1f4, virtual false, abstract: false, final false
   inline void InitializeForUserInfo(uint64_t userId);
 
   static inline ::GlobalNamespace::PlatformLeaderboardsModel* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3a0f5ac, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3a14634, size 0x118, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method UploadScore, addr 0x3a0f8b8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method UploadScore, addr 0x3a14940, size 0x80, virtual false, abstract: false, final false
   inline ::GlobalNamespace::HMAsyncRequest* UploadScore(::GlobalNamespace::LeaderboardScoreUploader_ScoreData* scoreData,
                                                         ::GlobalNamespace::PlatformLeaderboardsModel_UploadScoreCompletionHandler* completionHandler);
 
-  /// @brief Method UploadScore, addr 0x3a0fd40, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method UploadScore, addr 0x3a14dc8, size 0x160, virtual false, abstract: false, final false
   inline void UploadScore(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, int32_t multipliedScore, int32_t modifiedScore, int32_t maxPossibleMultipliedScore,
                           bool fullCombo, int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount, int32_t maxCombo, float_t energy, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
@@ -958,21 +958,21 @@ public:
 
   constexpr void __cordl_internal_set_allScoresDidUploadEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3a0fea0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a14f28, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_allScoresDidUploadEvent, addr 0x3a0f2dc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_allScoresDidUploadEvent, addr 0x3a14364, size 0xac, virtual false, abstract: false, final false
   inline void add_allScoresDidUploadEvent(::System::Action* value);
 
-  /// @brief Method get_initialized, addr 0x3a0f43c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_initialized, addr 0x3a144c4, size 0x28, virtual false, abstract: false, final false
   inline bool get_initialized();
 
-  /// @brief Method get_playerId, addr 0x3a0f434, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerId, addr 0x3a144bc, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_playerId();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_allScoresDidUploadEvent, addr 0x3a0f388, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_allScoresDidUploadEvent, addr 0x3a14410, size 0xac, virtual false, abstract: false, final false
   inline void remove_allScoresDidUploadEvent(::System::Action* value);
 
 protected:
@@ -990,7 +990,7 @@ public:
   PlatformLeaderboardsModel(PlatformLeaderboardsModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14799 };
 
   /// [SerializeField]
   /// @brief Field _gameplayModifiersModel, offset: 0x20, size: 0x8, def value: None

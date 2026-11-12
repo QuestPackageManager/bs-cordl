@@ -29,13 +29,13 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x382b0f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x382f58c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x382b0f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x382f590, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x382b0fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x382f594, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::UInt16::*)(::System::Object*)>(&::System::UInt16::CompareTo)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x60ba358;
+  constexpr static std::size_t addrs = 0x60ba5e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::UInt16>(), { "CompareTo", {}, { ::i2c::type_of<::System::Object*>() } })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::UInt16::*)(uint16_t)>(&::System::UInt16::CompareTo)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x60ba3d4;
+  constexpr static std::size_t addrs = 0x60ba65c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::UInt16>(), { "CompareTo", {}, { ::i2c::type_of<uint16_t>() } })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::UInt16::*)(::System::Object*)>(&::System::UInt16::Equals)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x60ba3e0;
+  constexpr static std::size_t addrs = 0x60ba668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::UInt16>(), { ::i2c::class_of<::System::UInt16>(), 0 }));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::UInt16::*)(uint16_t)>(&::System::UInt16::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x60ba414;
+  constexpr static std::size_t addrs = 0x60ba69c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::UInt16>(), { "Equals", {}, { ::i2c::type_of<uint16_t>() } })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::UInt16::*)()>(&::System::UInt16::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60ba424;
+  constexpr static std::size_t addrs = 0x60ba6ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::UInt16>(), { ::i2c::class_of<::System::UInt16>(), 2 }));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::UInt16::*)()>(&::System::UInt16::ToString)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x60ba42c;
+  constexpr static std::size_t addrs = 0x60ba6b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::UInt16>(), { ::i2c::class_of<::System::UInt16>(), 3 }));
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::UInt16::*)(::System::IFormatProvider*)>(&::System::UInt16::ToString)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x60ba4c8;
+  constexpr static std::size_t addrs = 0x60ba750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::UInt16>(), { "ToString", {}, { ::i2c::type_of<::System::IFormatProvider*>() } })));
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::UInt16::*)(::StringW)>(&::System::UInt16::ToString)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x60ba570;
+  constexpr static std::size_t addrs = 0x60ba7f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::UInt16>(), { "ToString", {}, { ::i2c::type_of<::StringW>() } })));
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::UInt16::*)(::StringW, ::System::IFormatProvider*)>(&::System::UInt16::ToString)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x60ba628;
+  constexpr static std::size_t addrs = 0x60ba8b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::UInt16::*)(::System::Span_1<char16_t>, ::by_ref<int32_t>, ::System::ReadOnlySpan_1<char16_t>, ::System::IFormatProvider*)>(
     &::System::UInt16::TryFormat)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x60ba6e4;
+  constexpr static std::size_t addrs = 0x60ba96c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (*)(::StringW)>(&::System::UInt16::Parse)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x60ba78c;
+  constexpr static std::size_t addrs = 0x60baa14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::UInt16>(), { "Parse", {}, { ::i2c::type_of<::StringW>() } })));
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (*)(::StringW, ::System::IFormatProvider*)>(&::System::UInt16::Parse)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x60ba988;
+  constexpr static std::size_t addrs = 0x60bac10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (*)(::StringW, ::System::Globalization::NumberStyles, ::System::IFormatProvider*)>(&::System::UInt16::Parse)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x60baa00;
+  constexpr static std::size_t addrs = 0x60bac88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (*)(::System::ReadOnlySpan_1<char16_t>, ::System::Globalization::NumberStyles, ::System::Globalization::NumberFormatInfo*)>(
     &::System::UInt16::Parse)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x60ba7f4;
+  constexpr static std::size_t addrs = 0x60baa7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<uint16_t>)>(&::System::UInt16::TryParse)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x60baa88;
+  constexpr static std::size_t addrs = 0x60bad10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::System::Globalization::NumberStyles, ::System::IFormatProvider*, ::by_ref<uint16_t>)>(&::System::UInt16::TryParse)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x60babcc;
+  constexpr static std::size_t addrs = 0x60bae54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::Globalization::NumberStyles, ::System::Globalization::NumberFormatInfo*, ::by_ref<uint16_t>)>(&::System::UInt16::TryParse)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x60bab0c;
+  constexpr static std::size_t addrs = 0x60bad94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TypeCode (::System::UInt16::*)()>(&::System::UInt16::GetTypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60bac78;
+  constexpr static std::size_t addrs = 0x60baf00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::UInt16>(), { "GetTypeCode", {}, {} })));
@@ -263,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::UInt16::*)(::System::IFormatProvider*)>(&::System::UInt16::System_IConvertible_ToBoolean)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x60bac80;
+  constexpr static std::size_t addrs = 0x60baf08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -276,7 +276,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::System::UInt16::*)(::System::IFormatProvider*)>(&::System::UInt16::System_IConvertible_ToChar)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x60bace0;
+  constexpr static std::size_t addrs = 0x60baf68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -289,7 +289,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::System::UInt16::*)(::System::IFormatProvider*)>(&::System::UInt16::System_IConvertible_ToSByte)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x60bad3c;
+  constexpr static std::size_t addrs = 0x60bafc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -302,7 +302,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::System::UInt16::*)(::System::IFormatProvider*)>(&::System::UInt16::System_IConvertible_ToByte)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x60bad9c;
+  constexpr static std::size_t addrs = 0x60bb024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -315,7 +315,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::System::UInt16::*)(::System::IFormatProvider*)>(&::System::UInt16::System_IConvertible_ToInt16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x60badfc;
+  constexpr static std::size_t addrs = 0x60bb084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -328,7 +328,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::System::UInt16::*)(::System::IFormatProvider*)>(&::System::UInt16::System_IConvertible_ToUInt16)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60bae5c;
+  constexpr static std::size_t addrs = 0x60bb0e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -341,7 +341,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::UInt16::*)(::System::IFormatProvider*)>(&::System::UInt16::System_IConvertible_ToInt32)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x60bae64;
+  constexpr static std::size_t addrs = 0x60bb0ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -354,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::System::UInt16::*)(::System::IFormatProvider*)>(&::System::UInt16::System_IConvertible_ToUInt32)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x60baec0;
+  constexpr static std::size_t addrs = 0x60bb148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -367,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::UInt16::*)(::System::IFormatProvider*)>(&::System::UInt16::System_IConvertible_ToInt64)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x60baf1c;
+  constexpr static std::size_t addrs = 0x60bb1a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -380,7 +380,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::System::UInt16::*)(::System::IFormatProvider*)>(&::System::UInt16::System_IConvertible_ToUInt64)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x60baf78;
+  constexpr static std::size_t addrs = 0x60bb200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -393,7 +393,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::System::UInt16::*)(::System::IFormatProvider*)>(&::System::UInt16::System_IConvertible_ToSingle)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x60bafd4;
+  constexpr static std::size_t addrs = 0x60bb25c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -406,7 +406,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::System::UInt16::*)(::System::IFormatProvider*)>(&::System::UInt16::System_IConvertible_ToDouble)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x60bb030;
+  constexpr static std::size_t addrs = 0x60bb2b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -419,7 +419,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (::System::UInt16::*)(::System::IFormatProvider*)>(&::System::UInt16::System_IConvertible_ToDecimal)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x60bb08c;
+  constexpr static std::size_t addrs = 0x60bb314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -432,7 +432,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::UInt16::*)(::System::IFormatProvider*)>(&::System::UInt16::System_IConvertible_ToDateTime)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x60bb0ec;
+  constexpr static std::size_t addrs = 0x60bb374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -445,7 +445,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::UInt16::*)(::System::Type*, ::System::IFormatProvider*)>(&::System::UInt16::System_IConvertible_ToType)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x60bb170;
+  constexpr static std::size_t addrs = 0x60bb3f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -46,22 +46,22 @@ public:
 
   constexpr void __cordl_internal_set__controllersProfile(::BeatSaber::GameSettings::ControllerProfilesModel* value);
 
-  /// @brief Method .ctor, addr 0x3a08be8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0dc70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_alternativeHandling, addr 0x3a08b10, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_alternativeHandling, addr 0x3a0db98, size 0x28, virtual true, abstract: false, final false
   inline bool get_alternativeHandling();
 
-  /// @brief Method get_leftPositionOffset, addr 0x3a08b38, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_leftPositionOffset, addr 0x3a0dbc0, size 0x2c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_leftPositionOffset();
 
-  /// @brief Method get_leftRotationOffset, addr 0x3a08b64, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_leftRotationOffset, addr 0x3a0dbec, size 0x2c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_leftRotationOffset();
 
-  /// @brief Method get_rightPositionOffset, addr 0x3a08b90, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_rightPositionOffset, addr 0x3a0dc18, size 0x2c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_rightPositionOffset();
 
-  /// @brief Method get_rightRotationOffset, addr 0x3a08bbc, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_rightRotationOffset, addr 0x3a0dc44, size 0x2c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_rightRotationOffset();
 
 protected:
@@ -79,7 +79,7 @@ public:
   VRControllersValueSettingsOffsets(VRControllersValueSettingsOffsets const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14730 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14738 };
 
   /// [Inject]
   /// @brief Field _controllersProfile, offset: 0x20, size: 0x8, def value: None

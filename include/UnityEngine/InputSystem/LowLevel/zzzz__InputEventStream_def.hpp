@@ -37,37 +37,37 @@ public:
 
   __declspec(property(get = get_remainingEventCount)) int32_t remainingEventCount;
 
-  /// @brief Method Advance, addr 0x6a1a56c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Advance, addr 0x6a1b64c, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEvent* Advance(bool leaveEventInBuffer);
 
-  /// @brief Method CleanUpAfterException, addr 0x6a1a308, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CleanUpAfterException, addr 0x6a1b3e8, size 0x70, virtual false, abstract: false, final false
   inline void CleanUpAfterException();
 
-  /// @brief Method Close, addr 0x6a1a1e8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x6a1b2c8, size 0x120, virtual false, abstract: false, final false
   inline void Close(::by_ref<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> eventBuffer);
 
-  /// @brief Method Peek, addr 0x6a1a60c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Peek, addr 0x6a1b6ec, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEvent* Peek();
 
-  /// @brief Method Write, addr 0x6a1a378, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x6a1b458, size 0x1f4, virtual false, abstract: false, final false
   inline void Write(::UnityEngine::InputSystem::LowLevel::InputEvent* eventPtr);
 
-  /// @brief Method .ctor, addr 0x6a1a164, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a1b244, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> eventBuffer, int32_t maxAppendedEvents);
 
-  /// @brief Method get_currentEventPtr, addr 0x6a1a0e4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_currentEventPtr, addr 0x6a1b1c4, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEvent* get_currentEventPtr();
 
-  /// @brief Method get_isOpen, addr 0x6a1a0c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isOpen, addr 0x6a1b1a4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isOpen();
 
-  /// @brief Method get_numBytesRetainedInBuffer, addr 0x6a1a118, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_numBytesRetainedInBuffer, addr 0x6a1b1f8, size 0x4c, virtual false, abstract: false, final false
   inline uint32_t get_numBytesRetainedInBuffer();
 
-  /// @brief Method get_numEventsRetainedInBuffer, addr 0x6a1a0dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numEventsRetainedInBuffer, addr 0x6a1b1bc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numEventsRetainedInBuffer();
 
-  /// @brief Method get_remainingEventCount, addr 0x6a1a0cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_remainingEventCount, addr 0x6a1b1ac, size 0x10, virtual false, abstract: false, final false
   inline int32_t get_remainingEventCount();
 
   // Ctor Parameters []

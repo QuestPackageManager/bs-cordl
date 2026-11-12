@@ -88,16 +88,16 @@ public:
 
   constexpr void __cordl_internal_set__whiteBoost(float_t value);
 
-  /// @brief Method .ctor, addr 0x352588c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3527ee4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_darkerColorMultiplier, addr 0x352587c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_darkerColorMultiplier, addr 0x3527ed4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_darkerColorMultiplier();
 
-  /// @brief Method get_defaultColor, addr 0x3525870, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_defaultColor, addr 0x3527ec8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_defaultColor();
 
-  /// @brief Method get_whiteBoost, addr 0x3525884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_whiteBoost, addr 0x3527edc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_whiteBoost();
 
 protected:
@@ -115,7 +115,7 @@ public:
   MulticolorAvatarPartPropertyBlockSetter_ColorData(MulticolorAvatarPartPropertyBlockSetter_ColorData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23156 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23171 };
 
   /// [SerializeField]
   /// @brief Field _defaultColor, offset: 0x10, size: 0x10, def value: None
@@ -158,10 +158,10 @@ public:
 
   static inline ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c* New_ctor();
 
-  /// @brief Method <OnValidate>b__9_0, addr 0x35258fc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <OnValidate>b__9_0, addr 0x3527f54, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Color _OnValidate_b__9_0(::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData* x);
 
-  /// @brief Method .ctor, addr 0x35258f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3527f50, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c* getStaticF___9();
@@ -187,7 +187,7 @@ public:
   MulticolorAvatarPartPropertyBlockSetter___c(MulticolorAvatarPartPropertyBlockSetter___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23157 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23172 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -233,16 +233,16 @@ public:
 
   static inline ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x3525488, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x3527ae0, size 0x1d8, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetColors, addr 0x3525088, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x35276e0, size 0x208, virtual false, abstract: false, final false
   inline void SetColors(/* [ParamArray] */ ::ArrayW<::UnityEngine::Color> colors);
 
-  /// @brief Method SetHighlight, addr 0x35253b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetHighlight, addr 0x3527a08, size 0xc, virtual false, abstract: false, final false
   inline void SetHighlight(bool highlighted, int32_t uvSegment);
 
-  /// @brief Method UpdateRenderer, addr 0x3525660, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method UpdateRenderer, addr 0x3527cb8, size 0x1a0, virtual false, abstract: false, final false
   inline void UpdateRenderer();
 
   constexpr ::ArrayW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*> const& __cordl_internal_get__colorDataList() const;
@@ -287,7 +287,7 @@ public:
 
   constexpr void __cordl_internal_set__uvSegment(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3525800, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3527e58, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
@@ -309,7 +309,7 @@ public:
   MulticolorAvatarPartPropertyBlockSetter(MulticolorAvatarPartPropertyBlockSetter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23158 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23173 };
 
   /// [SerializeField]
   /// @brief Field _colorDataList, offset: 0x20, size: 0x8, def value: None

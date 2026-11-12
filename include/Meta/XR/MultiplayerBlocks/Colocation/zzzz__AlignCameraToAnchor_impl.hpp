@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::OVRSpatialAnchor> (::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::get_CameraAlignmentAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5eceaac;
+  constexpr static std::size_t addrs = 0x5eced2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::*)(::GlobalNamespace::OVRSpatialAnchor*)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::set_CameraAlignmentAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5eceab4;
+  constexpr static std::size_t addrs = 0x5eced34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5eceabc;
+  constexpr static std::size_t addrs = 0x5eced3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>(), { "Update", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::RealignToAnchor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5ec6b48;
+  constexpr static std::size_t addrs = 0x5ec6dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::*)(::UnityEngine::Transform*)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::Align)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x5eceac0;
+  constexpr static std::size_t addrs = 0x5eced40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ececc4;
+  constexpr static std::size_t addrs = 0x5ecef44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor*>(), { ".ctor", {}, {} })));

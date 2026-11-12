@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::DateTimeResult::*)(::System::ReadOnlySpan_1<char16_t>)>(&::System::DateTimeResult::Init)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6095d54;
+  constexpr static std::size_t addrs = 0x6095fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::DateTimeResult::*)(int32_t, int32_t, int32_t)>(&::System::DateTimeResult::SetDate)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6095d78;
+  constexpr static std::size_t addrs = 0x6096000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::DateTimeResult::*)()>(&::System::DateTimeResult::SetBadFormatSpecifierFailure)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6095d84;
+  constexpr static std::size_t addrs = 0x609600c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeResult>(), { "SetBadFormatSpecifierFailure", {}, {} })));
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::DateTimeResult::*)(::System::ReadOnlySpan_1<char16_t>)>(&::System::DateTimeResult::SetBadFormatSpecifierFailure)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6095e04;
+  constexpr static std::size_t addrs = 0x609608c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::DateTimeResult::*)()>(&::System::DateTimeResult::SetBadDateTimeFailure)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6095e6c;
+  constexpr static std::size_t addrs = 0x60960f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeResult>(), { "SetBadDateTimeFailure", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::DateTimeResult::*)(::System::ParseFailureKind, ::StringW)>(&::System::DateTimeResult::SetFailure)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6095ec0;
+  constexpr static std::size_t addrs = 0x6096148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::DateTimeResult::*)(::System::ParseFailureKind, ::StringW, ::System::Object*)>(&::System::DateTimeResult::SetFailure)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6095ecc;
+  constexpr static std::size_t addrs = 0x6096154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::DateTimeResult::*)(::System::ParseFailureKind, ::StringW, ::System::Object*, ::StringW)>(
     &::System::DateTimeResult::SetFailure)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6095ed8;
+  constexpr static std::size_t addrs = 0x6096160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

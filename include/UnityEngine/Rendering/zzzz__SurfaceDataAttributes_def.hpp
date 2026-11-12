@@ -86,10 +86,10 @@ public:
 
   constexpr void __cordl_internal_set_sRGBDisplay(bool value);
 
-  /// @brief Method .ctor, addr 0x6bff764, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c00844, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, bool isDirection, bool sRGBDisplay, ::UnityEngine::Rendering::FieldPrecision precision, bool checkIsNormalized, ::StringW preprocessor);
 
-  /// @brief Method .ctor, addr 0x6bff820, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c00900, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW> displayNames, bool isDirection, bool sRGBDisplay, ::UnityEngine::Rendering::FieldPrecision precision, bool checkIsNormalized, ::StringW preprocessor);
 
 protected:

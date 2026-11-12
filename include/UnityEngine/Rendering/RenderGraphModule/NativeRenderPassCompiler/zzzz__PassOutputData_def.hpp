@@ -25,7 +25,7 @@ namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct CORDL_TYPE PassOutputData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6c63b94, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c64c74, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> resource);
 
   // Ctor Parameters []

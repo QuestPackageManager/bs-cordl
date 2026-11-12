@@ -10,6 +10,9 @@ namespace GlobalNamespace {
 struct BeatmapObjectSpawnMovementData_NoteJumpValueType;
 }
 namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
 class PlayerSpecificSettings;
 }
 // Forward declare root types
@@ -26,7 +29,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapObjectSpawnControllerHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetNoteJumpValues, addr 0x5d1ae20, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetMinRelativeNoteJumpSpeedUntilLastBeatmapObject, addr 0x5d1a354, size 0x4d8, virtual false, abstract: false, final false
+  static inline float_t GetMinRelativeNoteJumpSpeedUntilLastBeatmapObject(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
+
+  /// @brief Method GetNoteJumpValues, addr 0x5d1afd8, size 0x34, virtual false, abstract: false, final false
   static inline void GetNoteJumpValues(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, float_t defaultNoteJumpStartBeatOffset,
                                        ::by_ref<::GlobalNamespace::BeatmapObjectSpawnMovementData_NoteJumpValueType> noteJumpValueType, ::by_ref<float_t> noteJumpValue);
 

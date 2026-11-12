@@ -65,13 +65,13 @@ public:
 
   constexpr void __cordl_internal_set__prefabAssetReference(::UnityEngine::AddressableAssets::AssetReference* value);
 
-  /// @brief Method .ctor, addr 0x3529724, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x352bd64, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_id, addr 0x3529714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x352bd54, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
-  /// @brief Method get_prefabAssetReference, addr 0x352971c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_prefabAssetReference, addr 0x352bd5c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReference* get_prefabAssetReference();
 
 protected:
@@ -89,7 +89,7 @@ public:
   BTSCharacterDataModel_PrefabWithId(BTSCharacterDataModel_PrefabWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22968 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22982 };
 
   /// [SerializeField]
   /// @brief Field _id, offset: 0x10, size: 0x4, def value: None
@@ -141,13 +141,13 @@ public:
 
   constexpr void __cordl_internal_set__id(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3529738, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x352bd78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animationClipAssetReference, addr 0x3529730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animationClipAssetReference, addr 0x352bd70, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReference* get_animationClipAssetReference();
 
-  /// @brief Method get_id, addr 0x3529728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x352bd68, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
 protected:
@@ -165,7 +165,7 @@ public:
   BTSCharacterDataModel_AnimationClipWithId(BTSCharacterDataModel_AnimationClipWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22969 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22983 };
 
   /// [SerializeField]
   /// @brief Field _id, offset: 0x10, size: 0x4, def value: None
@@ -221,13 +221,13 @@ public:
 
   constexpr void __cordl_internal_set__prefabsWithIds(::ArrayW<::GlobalNamespace::BTSCharacterDataModel_PrefabWithId*> value);
 
-  /// @brief Method .ctor, addr 0x3529710, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x352bd50, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animationClipsWithIds, addr 0x3529708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animationClipsWithIds, addr 0x352bd48, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::BTSCharacterDataModel_AnimationClipWithId*> get_animationClipsWithIds();
 
-  /// @brief Method get_prefabsWithIds, addr 0x3529700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_prefabsWithIds, addr 0x352bd40, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::BTSCharacterDataModel_PrefabWithId*> get_prefabsWithIds();
 
 protected:
@@ -245,7 +245,7 @@ public:
   BTSCharacterDataModel(BTSCharacterDataModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22970 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22984 };
 
   /// [SerializeField]
   /// @brief Field _prefabsWithIds, offset: 0x20, size: 0x8, def value: None

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI::*)()>(&::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x67baadc;
+  constexpr static std::size_t addrs = 0x67bb12c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI::*)(int32_t)>(
     &::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67b90f0;
+  constexpr static std::size_t addrs = 0x67b9740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Net::NetworkInformation::NetworkInterface*> (::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI::*)()>(
     &::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI::GetAllNetworkInterfaces)> {
   constexpr static std::size_t size = 0x994;
-  constexpr static std::size_t addrs = 0x67baae8;
+  constexpr static std::size_t addrs = 0x67bb138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI*>(),

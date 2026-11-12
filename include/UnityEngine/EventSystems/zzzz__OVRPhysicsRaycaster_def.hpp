@@ -70,13 +70,13 @@ public:
 
   static inline ::UnityEngine::EventSystems::OVRPhysicsRaycaster___c* New_ctor();
 
-  /// @brief Method <Raycast>b__15_0, addr 0x62a563c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <Raycast>b__15_0, addr 0x62a58c4, size 0x64, virtual false, abstract: false, final false
   inline int32_t _Raycast_b__15_0(::UnityEngine::RaycastHit r1, ::UnityEngine::RaycastHit r2);
 
-  /// @brief Method <Spherecast>b__16_0, addr 0x62a56a0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <Spherecast>b__16_0, addr 0x62a5928, size 0x64, virtual false, abstract: false, final false
   inline int32_t _Spherecast_b__16_0(::UnityEngine::RaycastHit r1, ::UnityEngine::RaycastHit r2);
 
-  /// @brief Method .ctor, addr 0x62a5638, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62a58c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::EventSystems::OVRPhysicsRaycaster___c* getStaticF___9();
@@ -140,15 +140,15 @@ public:
 
   __declspec(property(get = get_sortOrderPriority)) int32_t sortOrderPriority;
 
-  /// @brief Method GetScreenPos, addr 0x62a3884, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetScreenPos, addr 0x62a3b0c, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetScreenPos(::UnityEngine::Vector3 worldPosition);
 
   static inline ::UnityEngine::EventSystems::OVRPhysicsRaycaster* New_ctor();
 
-  /// @brief Method Raycast, addr 0x62a523c, size 0x3a8, virtual true, abstract: false, final false
+  /// @brief Method Raycast, addr 0x62a54c4, size 0x3a8, virtual true, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
-  /// @brief Method Spherecast, addr 0x62a34d4, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method Spherecast, addr 0x62a375c, size 0x3b0, virtual false, abstract: false, final false
   inline void Spherecast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList,
                          float_t radius);
 
@@ -164,25 +164,25 @@ public:
 
   constexpr void __cordl_internal_set_sortOrder(int32_t value);
 
-  /// @brief Method .ctor, addr 0x62a5028, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62a52b0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_depth, addr 0x62a50a4, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method get_depth, addr 0x62a532c, size 0xc8, virtual true, abstract: false, final false
   inline int32_t get_depth();
 
-  /// @brief Method get_eventCamera, addr 0x62a5034, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method get_eventCamera, addr 0x62a52bc, size 0x70, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
 
-  /// @brief Method get_eventMask, addr 0x62a522c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventMask, addr 0x62a54b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_eventMask();
 
-  /// @brief Method get_finalEventMask, addr 0x62a5174, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_finalEventMask, addr 0x62a53fc, size 0xb8, virtual false, abstract: false, final false
   inline int32_t get_finalEventMask();
 
-  /// @brief Method get_sortOrderPriority, addr 0x62a516c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_sortOrderPriority, addr 0x62a53f4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_sortOrderPriority();
 
-  /// @brief Method set_eventMask, addr 0x62a5234, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eventMask, addr 0x62a54bc, size 0x8, virtual false, abstract: false, final false
   inline void set_eventMask(::UnityEngine::LayerMask value);
 
 protected:

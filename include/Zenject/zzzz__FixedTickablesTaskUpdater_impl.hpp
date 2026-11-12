@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::FixedTickablesTaskUpdater::*)(::Zenject::IFixedTickable*)>(&::Zenject::FixedTickablesTaskUpdater::UpdateItem)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x73707e4;
+  constexpr static std::size_t addrs = 0x7372ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::FixedTickablesTaskUpdater::*)()>(&::Zenject::FixedTickablesTaskUpdater::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x7370884;
+  constexpr static std::size_t addrs = 0x7372b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FixedTickablesTaskUpdater*>(), { ".ctor", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*>)>(&::Zenject::FixedTickablesTaskUpdater::__zenCreate)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x73708d0;
+  constexpr static std::size_t addrs = 0x7372bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::FixedTickablesTaskUpdater::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x7370924;
+  constexpr static std::size_t addrs = 0x7372c04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FixedTickablesTaskUpdater*>(), { "__zenCreateInjectTypeInfo", {}, {} })));

@@ -35,19 +35,19 @@ namespace UnityEngine {
 class CORDL_TYPE Cursor : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetCursor, addr 0x6f5ee80, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetCursor, addr 0x6f5ff60, size 0x9c, virtual false, abstract: false, final false
   static inline void SetCursor(::UnityEngine::Texture2D* texture, ::UnityEngine::Vector2 hotspot, ::UnityEngine::CursorMode cursorMode);
 
-  /// @brief Method SetCursor_Injected, addr 0x6f5ef1c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetCursor_Injected, addr 0x6f5fffc, size 0x54, virtual false, abstract: false, final false
   static inline void SetCursor_Injected(::System::IntPtr texture, ::by_ref<::UnityEngine::Vector2 const> hotspot, ::UnityEngine::CursorMode cursorMode);
 
-  /// @brief Method get_lockState, addr 0x6f5efac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_lockState, addr 0x6f6008c, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::CursorLockMode get_lockState();
 
-  /// @brief Method set_lockState, addr 0x6f5efd4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_lockState, addr 0x6f600b4, size 0x3c, virtual false, abstract: false, final false
   static inline void set_lockState(::UnityEngine::CursorLockMode value);
 
-  /// @brief Method set_visible, addr 0x6f5ef70, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_visible, addr 0x6f60050, size 0x3c, virtual false, abstract: false, final false
   static inline void set_visible(bool value);
 
 protected:

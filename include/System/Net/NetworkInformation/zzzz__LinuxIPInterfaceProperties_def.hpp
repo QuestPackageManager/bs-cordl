@@ -40,13 +40,13 @@ public:
   static inline ::System::Net::NetworkInformation::LinuxIPInterfaceProperties* New_ctor(::System::Net::NetworkInformation::LinuxNetworkInterface* iface,
                                                                                         ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses);
 
-  /// @brief Method ParseRouteInfo, addr 0x67b921c, size 0x484, virtual false, abstract: false, final false
+  /// @brief Method ParseRouteInfo, addr 0x67b986c, size 0x484, virtual false, abstract: false, final false
   inline ::System::Net::NetworkInformation::IPAddressCollection* ParseRouteInfo(::StringW iface);
 
-  /// @brief Method .ctor, addr 0x67b91b4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67b9804, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::NetworkInformation::LinuxNetworkInterface* iface, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses);
 
-  /// @brief Method get_GatewayAddresses, addr 0x67b96a0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_GatewayAddresses, addr 0x67b9cf0, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
 
 protected:

@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader___c::*)()>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a2e0e0;
+  constexpr static std::size_t addrs = 0x3a33948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader___c*>(), { ".ctor", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader___c::*)(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader___c::_LoadInternalAsync_b__4_0)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3a2e0e4;
+  constexpr static std::size_t addrs = 0x3a3394c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,8 +79,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader__LoadInternalAsync_d__4::*)()>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader__LoadInternalAsync_d__4::MoveNext)> {
-  constexpr static std::size_t size = 0x66c;
-  constexpr static std::size_t addrs = 0x3a2e1c8;
+  constexpr static std::size_t size = 0x628;
+  constexpr static std::size_t addrs = 0x3a33a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader__LoadInternalAsync_d__4::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader__LoadInternalAsync_d__4::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3a2e834;
+  constexpr static std::size_t addrs = 0x3a34058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader__LoadInternalAsync_d__4>(),
@@ -125,12 +125,12 @@ BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader__LoadInternalAsync_d__4::i___Sys
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
 // "::UnityW<::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "container", ty: "::Zenject::DiContainer*", modifiers: "",
 // def_value: Some("{}"), comment: None }, CppParam { name: "registry", ty: "::BGLib::AppFlow::Initialization::IInstallerRegistry*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
-// name: "_shouldUseMock_5__2", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>", modifiers: "", def_value: Some("{}"), comment: None }]
+// name: "_shouldUseMock_5__2", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader__LoadInternalAsync_d__4::MetaRemoteAssetsLoader__LoadInternalAsync_d__4(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader> __4__this,
     ::Zenject::DiContainer* container, ::BGLib::AppFlow::Initialization::IInstallerRegistry* registry, bool _shouldUseMock_5__2,
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> __u__1) noexcept {
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BGLib::AppFlow::Initialization::AsyncLoader_SynchronizationStep (::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader::*)()>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader::get_synchronizationStep)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a2db3c;
+  constexpr static std::size_t addrs = 0x3a333a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -162,7 +162,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader::*)(::BGLib::AppFlow::Initialization::IInstallerRegistry*, ::Zenject::DiContainer*, ::System::Threading::CancellationToken)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader::LoadInternalAsync)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3a2db44;
+  constexpr static std::size_t addrs = 0x3a333ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader::*)()>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader::ApplyAddressablesOverrides)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3a2dc0c;
+  constexpr static std::size_t addrs = 0x3a33474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader::*)(::UnityEngine::Networking::UnityWebRequest*)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader::WebRequestOverride)> {
   constexpr static std::size_t size = 0x37c;
-  constexpr static std::size_t addrs = 0x3a2dd0c;
+  constexpr static std::size_t addrs = 0x3a33574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader*>(),
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader::*)()>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a2e088;
+  constexpr static std::size_t addrs = 0x3a338f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader*>(), { ".ctor", {}, {} })));

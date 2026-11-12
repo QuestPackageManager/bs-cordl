@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::BatchRendererGroupGlobals (*)()>(&::UnityEngine::Rendering::BatchRendererGroupGlobals::get_Default)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6c0e02c;
+  constexpr static std::size_t addrs = 0x6c0f10c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BatchRendererGroupGlobals>(), { "get_Default", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::BatchRendererGroupGlobals::*)(::UnityEngine::Rendering::BatchRendererGroupGlobals)>(
     &::UnityEngine::Rendering::BatchRendererGroupGlobals::Equals)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6c0e18c;
+  constexpr static std::size_t addrs = 0x6c0f26c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BatchRendererGroupGlobals>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::BatchRendererGroupGlobals::*)(::System::Object*)>(
     &::UnityEngine::Rendering::BatchRendererGroupGlobals::Equals)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6c0e2ac;
+  constexpr static std::size_t addrs = 0x6c0f38c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::BatchRendererGroupGlobals::*)()>(&::UnityEngine::Rendering::BatchRendererGroupGlobals::GetHashCode)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6c0e350;
+  constexpr static std::size_t addrs = 0x6c0f430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::BatchRendererGroupGlobals, ::UnityEngine::Rendering::BatchRendererGroupGlobals)>(
     &::UnityEngine::Rendering::BatchRendererGroupGlobals::op_Equality)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6c0e468;
+  constexpr static std::size_t addrs = 0x6c0f548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::BatchRendererGroupGlobals, ::UnityEngine::Rendering::BatchRendererGroupGlobals)>(
     &::UnityEngine::Rendering::BatchRendererGroupGlobals::op_Inequality)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6c0e4f0;
+  constexpr static std::size_t addrs = 0x6c0f5d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

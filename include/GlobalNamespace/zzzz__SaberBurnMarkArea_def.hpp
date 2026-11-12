@@ -123,23 +123,23 @@ public:
   /// @brief Field kBufferNames, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_kBufferNames, put = __cordl_internal_set_kBufferNames)) ::ArrayW<::StringW> kBufferNames;
 
-  /// @brief Method GetBurnMarkPos, addr 0x5de30f4, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method GetBurnMarkPos, addr 0x5de3204, size 0x324, virtual false, abstract: false, final false
   static inline bool GetBurnMarkPos(::UnityEngine::Transform* transform, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds const> bounds, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Plane const> plane,
                                     ::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos, ::by_ref<::UnityEngine::Vector3> burnMarkPos);
 
   /// [Inject]
-  /// @brief Method Initialize, addr 0x5de2500, size 0x444, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5de2610, size 0x444, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::SaberManager* saberManager, ::GlobalNamespace::ColorManager* colorManager);
 
-  /// @brief Method LateUpdate, addr 0x5de2a9c, size 0x658, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5de2bac, size 0x658, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SaberBurnMarkArea* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5de2944, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5de2a54, size 0x158, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method WorldToNormalized, addr 0x5de3418, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method WorldToNormalized, addr 0x5de3528, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 WorldToNormalized(::UnityEngine::Vector3 worldPos);
 
   constexpr bool const& __cordl_internal_get__anyActive() const;
@@ -238,7 +238,7 @@ public:
 
   constexpr void __cordl_internal_set_kBufferNames(::ArrayW<::StringW> value);
 
-  /// @brief Method .ctor, addr 0x5de347c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5de358c, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__aspectShaderPropertyID();

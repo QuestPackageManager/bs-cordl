@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::LimitAvatarPoseRestriction_Parameters::*)()>(
     &::BeatSaber::AvatarCore::LimitAvatarPoseRestriction_Parameters::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3516ac4;
+  constexpr static std::size_t addrs = 0x3518f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::LimitAvatarPoseRestriction_Parameters*>(), { ".ctor", {}, {} })));
@@ -144,7 +144,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Avatar
     ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>,
     ::by_ref<::UnityEngine::Vector3>)>(&::BeatSaber::AvatarCore::LimitAvatarPoseRestriction::RestrictPose)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x3516824;
+  constexpr static std::size_t addrs = 0x3518c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::BeatSaber::AvatarCore::LimitAvatarPoseRestriction::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::BeatSaber::AvatarCore::LimitAvatarPoseRestriction::LimitHandPositionRelativeToHead)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3516a24;
+  constexpr static std::size_t addrs = 0x3518e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::LimitAvatarPoseRestriction::*)()>(&::BeatSaber::AvatarCore::LimitAvatarPoseRestriction::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3516ac0;
+  constexpr static std::size_t addrs = 0x3518f00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::LimitAvatarPoseRestriction*>(), { ".ctor", {}, {} })));

@@ -80,28 +80,28 @@ public:
 
   constexpr void __cordl_internal_set__PropertyDescriptor_k__BackingField(::System::ComponentModel::PropertyDescriptor* value);
 
-  /// @brief Method .ctor, addr 0x6827c20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6828270, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::ListChangedType listChangedType, int32_t newIndex);
 
-  /// @brief Method .ctor, addr 0x6827c28, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6828278, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::ListChangedType listChangedType, int32_t newIndex, int32_t oldIndex);
 
-  /// @brief Method .ctor, addr 0x6827ca0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68282f0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::ListChangedType listChangedType, int32_t newIndex, ::System::ComponentModel::PropertyDescriptor* propDesc);
 
-  /// @brief Method .ctor, addr 0x6827cd0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6828320, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::ListChangedType listChangedType, ::System::ComponentModel::PropertyDescriptor* propDesc);
 
   /// [CompilerGenerated]
-  /// @brief Method get_ListChangedType, addr 0x6827d3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ListChangedType, addr 0x682838c, size 0x8, virtual false, abstract: false, final false
   inline ::System::ComponentModel::ListChangedType get_ListChangedType();
 
   /// [CompilerGenerated]
-  /// @brief Method get_NewIndex, addr 0x6827d44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NewIndex, addr 0x6828394, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NewIndex();
 
   /// [CompilerGenerated]
-  /// @brief Method get_OldIndex, addr 0x6827d4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OldIndex, addr 0x682839c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_OldIndex();
 
 protected:

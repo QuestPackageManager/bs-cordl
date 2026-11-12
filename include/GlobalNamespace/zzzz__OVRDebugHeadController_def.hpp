@@ -51,15 +51,15 @@ public:
   /// @brief Field StrafeSpeed, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_StrafeSpeed, put = __cordl_internal_set_StrafeSpeed)) float_t StrafeSpeed;
 
-  /// @brief Method Awake, addr 0x6274f50, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x62751d8, size 0x10c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::OVRDebugHeadController* New_ctor();
 
-  /// @brief Method Start, addr 0x627505c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x62752e4, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x6275060, size 0x59c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x62752e8, size 0x59c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_AllowMovement() const;
@@ -116,7 +116,7 @@ public:
 
   constexpr void __cordl_internal_set_StrafeSpeed(float_t value);
 
-  /// @brief Method .ctor, addr 0x62755fc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6275884, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -173,16 +173,16 @@ public:
 
   static inline ::System::Security::Cryptography::DerSequenceReader___c* New_ctor();
 
-  /// @brief Method <ReadT61String>b__45_0, addr 0x6806e18, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method <ReadT61String>b__45_0, addr 0x6807468, size 0x84, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* _ReadT61String_b__45_0();
 
-  /// @brief Method <ReadT61String>b__45_1, addr 0x6806e9c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <ReadT61String>b__45_1, addr 0x68074ec, size 0x48, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* _ReadT61String_b__45_1();
 
-  /// @brief Method <ReadTime>b__51_0, addr 0x6806ee4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method <ReadTime>b__51_0, addr 0x6807534, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Globalization::DateTimeFormatInfo* _ReadTime_b__51_0();
 
-  /// @brief Method .ctor, addr 0x6806e14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6807464, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Security::Cryptography::DerSequenceReader___c* getStaticF___9();
@@ -260,13 +260,13 @@ public:
   /// @brief Field s_validityDateTimeFormatInfo, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_validityDateTimeFormatInfo, put = setStaticF_s_validityDateTimeFormatInfo)) ::System::Globalization::DateTimeFormatInfo* s_validityDateTimeFormatInfo;
 
-  /// @brief Method CheckTag, addr 0x6806550, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CheckTag, addr 0x6806ba0, size 0x98, virtual false, abstract: false, final false
   static inline void CheckTag(::System::Security::Cryptography::DerSequenceReader_DerTag expected, ::ArrayW<uint8_t> data, int32_t position);
 
-  /// @brief Method EatLength, addr 0x68059e0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EatLength, addr 0x6806030, size 0x3c, virtual false, abstract: false, final false
   inline int32_t EatLength();
 
-  /// @brief Method EatTag, addr 0x6805960, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method EatTag, addr 0x6805fb0, size 0x80, virtual false, abstract: false, final false
   inline void EatTag(::System::Security::Cryptography::DerSequenceReader_DerTag expected);
 
   static inline ::System::Security::Cryptography::DerSequenceReader* New_ctor(::ArrayW<uint8_t> data);
@@ -276,76 +276,76 @@ public:
   static inline ::System::Security::Cryptography::DerSequenceReader* New_ctor(::System::Security::Cryptography::DerSequenceReader_DerTag tagToEat, ::ArrayW<uint8_t> data, int32_t offset,
                                                                               int32_t length);
 
-  /// @brief Method PeekTag, addr 0x6805a2c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method PeekTag, addr 0x680607c, size 0x94, virtual false, abstract: false, final false
   inline uint8_t PeekTag();
 
-  /// @brief Method ReadBMPString, addr 0x6806d40, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ReadBMPString, addr 0x6807390, size 0x80, virtual false, abstract: false, final false
   inline ::StringW ReadBMPString();
 
-  /// @brief Method ReadBitString, addr 0x6805f30, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ReadBitString, addr 0x6806580, size 0x148, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> ReadBitString();
 
-  /// @brief Method ReadBoolean, addr 0x6805ce8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ReadBoolean, addr 0x6806338, size 0xc8, virtual false, abstract: false, final false
   inline bool ReadBoolean();
 
-  /// @brief Method ReadCollectionWithTag, addr 0x680648c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ReadCollectionWithTag, addr 0x6806adc, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::DerSequenceReader* ReadCollectionWithTag(::System::Security::Cryptography::DerSequenceReader_DerTag expected);
 
-  /// @brief Method ReadContentAsBytes, addr 0x6805e7c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ReadContentAsBytes, addr 0x68064cc, size 0xb4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> ReadContentAsBytes();
 
-  /// @brief Method ReadGeneralizedTime, addr 0x6806aa8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ReadGeneralizedTime, addr 0x68070f8, size 0x50, virtual false, abstract: false, final false
   inline ::System::DateTime ReadGeneralizedTime();
 
-  /// @brief Method ReadIA5String, addr 0x6806678, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ReadIA5String, addr 0x6806cc8, size 0x80, virtual false, abstract: false, final false
   inline ::StringW ReadIA5String();
 
-  /// @brief Method ReadInteger, addr 0x6805db0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ReadInteger, addr 0x6806400, size 0xb0, virtual false, abstract: false, final false
   inline int32_t ReadInteger();
 
-  /// @brief Method ReadIntegerBytes, addr 0x6805e60, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ReadIntegerBytes, addr 0x68064b0, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> ReadIntegerBytes();
 
-  /// @brief Method ReadNextEncodedValue, addr 0x6805b10, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ReadNextEncodedValue, addr 0x6806160, size 0xb8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> ReadNextEncodedValue();
 
-  /// @brief Method ReadOctetString, addr 0x6806078, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ReadOctetString, addr 0x68066c8, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> ReadOctetString();
 
-  /// @brief Method ReadOidAsString, addr 0x6806094, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method ReadOidAsString, addr 0x68066e4, size 0x324, virtual false, abstract: false, final false
   inline ::StringW ReadOidAsString();
 
-  /// @brief Method ReadPrintableString, addr 0x68065f8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ReadPrintableString, addr 0x6806c48, size 0x80, virtual false, abstract: false, final false
   inline ::StringW ReadPrintableString();
 
-  /// @brief Method ReadSequence, addr 0x68065e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadSequence, addr 0x6806c38, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::DerSequenceReader* ReadSequence();
 
-  /// @brief Method ReadSet, addr 0x68065f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadSet, addr 0x6806c40, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::DerSequenceReader* ReadSet();
 
-  /// @brief Method ReadT61String, addr 0x68066f8, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method ReadT61String, addr 0x6806d48, size 0x2e0, virtual false, abstract: false, final false
   inline ::StringW ReadT61String();
 
-  /// @brief Method ReadTime, addr 0x6806af8, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method ReadTime, addr 0x6807148, size 0x248, virtual false, abstract: false, final false
   inline ::System::DateTime ReadTime(::System::Security::Cryptography::DerSequenceReader_DerTag timeTag, ::StringW formatString);
 
-  /// @brief Method ReadUtcTime, addr 0x6806a58, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ReadUtcTime, addr 0x68070a8, size 0x50, virtual false, abstract: false, final false
   inline ::System::DateTime ReadUtcTime();
 
-  /// @brief Method ReadUtf8String, addr 0x68063b8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ReadUtf8String, addr 0x6806a08, size 0x80, virtual false, abstract: false, final false
   inline ::StringW ReadUtf8String();
 
-  /// @brief Method ReadX509Date, addr 0x68069d8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ReadX509Date, addr 0x6807028, size 0x80, virtual false, abstract: false, final false
   inline ::System::DateTime ReadX509Date();
 
-  /// @brief Method ScanContentLength, addr 0x6805bc8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ScanContentLength, addr 0x6806218, size 0x120, virtual false, abstract: false, final false
   static inline int32_t ScanContentLength(::ArrayW<uint8_t> data, int32_t offset, int32_t end, ::by_ref<int32_t> bytesConsumed);
 
-  /// @brief Method SkipValue, addr 0x6805ac0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SkipValue, addr 0x6806110, size 0x50, virtual false, abstract: false, final false
   inline void SkipValue();
 
-  /// @brief Method TrimTrailingNulls, addr 0x6806438, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method TrimTrailingNulls, addr 0x6806a88, size 0x54, virtual false, abstract: false, final false
   static inline ::StringW TrimTrailingNulls(::StringW value);
 
   constexpr int32_t const& __cordl_internal_get__ContentLength_k__BackingField() const;
@@ -372,13 +372,13 @@ public:
 
   constexpr void __cordl_internal_set__position(int32_t value);
 
-  /// @brief Method .ctor, addr 0x680586c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6805ebc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> data);
 
-  /// @brief Method .ctor, addr 0x680588c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6805edc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> data, int32_t offset, int32_t length);
 
-  /// @brief Method .ctor, addr 0x68058a0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6805ef0, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::DerSequenceReader_DerTag tagToEat, ::ArrayW<uint8_t> data, int32_t offset, int32_t length);
 
   static inline ::System::Text::Encoding* getStaticF_s_latin1Encoding();
@@ -387,7 +387,7 @@ public:
 
   static inline ::System::Globalization::DateTimeFormatInfo* getStaticF_s_validityDateTimeFormatInfo();
 
-  /// @brief Method get_HasData, addr 0x6805a1c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasData, addr 0x680606c, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasData();
 
   static inline void setStaticF_s_latin1Encoding(::System::Text::Encoding* value);
@@ -397,7 +397,7 @@ public:
   static inline void setStaticF_s_validityDateTimeFormatInfo(::System::Globalization::DateTimeFormatInfo* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ContentLength, addr 0x6805864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ContentLength, addr 0x6805eb4, size 0x8, virtual false, abstract: false, final false
   inline void set_ContentLength(int32_t value);
 
 protected:

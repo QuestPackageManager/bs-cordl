@@ -33,22 +33,22 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::SecondarySpriteTexture>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::SecondarySpriteTexture>*();
 
-  /// @brief Method Equals, addr 0x6ef1234, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6ef2314, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6ef11cc, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6ef22ac, size 0x68, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::SecondarySpriteTexture other);
 
-  /// @brief Method GetHashCode, addr 0x6ef12b4, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6ef2394, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::SecondarySpriteTexture>"
   constexpr ::System::IEquatable_1<::UnityEngine::SecondarySpriteTexture>* i___System__IEquatable_1___UnityEngine__SecondarySpriteTexture_();
 
-  /// @brief Method op_Equality, addr 0x6ef1330, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6ef2410, size 0x2c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::SecondarySpriteTexture lhs, ::UnityEngine::SecondarySpriteTexture rhs);
 
-  /// @brief Method op_Inequality, addr 0x6ef135c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6ef243c, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::SecondarySpriteTexture lhs, ::UnityEngine::SecondarySpriteTexture rhs);
 
   // Ctor Parameters []

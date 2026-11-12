@@ -28,46 +28,46 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::XRSRPSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6c2e8e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2f9c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_enabled, addr 0x6c2e1b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x6c2f290, size 0x28, virtual false, abstract: false, final false
   static inline bool get_enabled();
 
-  /// @brief Method get_eyeTextureDesc, addr 0x6c2e33c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method get_eyeTextureDesc, addr 0x6c2f41c, size 0xd4, virtual false, abstract: false, final false
   static inline ::UnityEngine::RenderTextureDescriptor get_eyeTextureDesc();
 
-  /// @brief Method get_eyeTextureHeight, addr 0x6c2e468, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_eyeTextureHeight, addr 0x6c2f548, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_eyeTextureHeight();
 
-  /// @brief Method get_eyeTextureWidth, addr 0x6c2e410, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_eyeTextureWidth, addr 0x6c2f4f0, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_eyeTextureWidth();
 
-  /// @brief Method get_isDeviceActive, addr 0x6c2e1d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_isDeviceActive, addr 0x6c2f2b8, size 0x58, virtual false, abstract: false, final false
   static inline bool get_isDeviceActive();
 
-  /// @brief Method get_loadedDeviceName, addr 0x6c2e230, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_loadedDeviceName, addr 0x6c2f310, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW get_loadedDeviceName();
 
-  /// @brief Method get_mirrorViewMode, addr 0x6c2e7d0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_mirrorViewMode, addr 0x6c2f8b0, size 0x88, virtual false, abstract: false, final false
   static inline int32_t get_mirrorViewMode();
 
-  /// @brief Method get_occlusionMeshScale, addr 0x6c2e4c0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get_occlusionMeshScale, addr 0x6c2f5a0, size 0xbc, virtual false, abstract: false, final false
   static inline float_t get_occlusionMeshScale();
 
-  /// @brief Method get_supportedDevices, addr 0x6c2e2a8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_supportedDevices, addr 0x6c2f388, size 0x94, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> get_supportedDevices();
 
-  /// @brief Method get_useVisibilityMesh, addr 0x6c2e640, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_useVisibilityMesh, addr 0x6c2f720, size 0xc8, virtual false, abstract: false, final false
   static inline bool get_useVisibilityMesh();
 
-  /// @brief Method set_mirrorViewMode, addr 0x6c2e858, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method set_mirrorViewMode, addr 0x6c2f938, size 0x8c, virtual false, abstract: false, final false
   static inline void set_mirrorViewMode(int32_t value);
 
-  /// @brief Method set_occlusionMeshScale, addr 0x6c2e57c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method set_occlusionMeshScale, addr 0x6c2f65c, size 0xc4, virtual false, abstract: false, final false
   static inline void set_occlusionMeshScale(float_t value);
 
-  /// @brief Method set_useVisibilityMesh, addr 0x6c2e708, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method set_useVisibilityMesh, addr 0x6c2f7e8, size 0xc8, virtual false, abstract: false, final false
   static inline void set_useVisibilityMesh(bool value);
 
 protected:

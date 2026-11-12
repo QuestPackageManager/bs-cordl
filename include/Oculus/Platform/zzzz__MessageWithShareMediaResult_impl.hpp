@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithShareMediaResult::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithShareMediaResult::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x622e5f4;
+  constexpr static std::size_t addrs = 0x622e87c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::ShareMediaResult* (::Oculus::Platform::MessageWithShareMediaResult::*)()>(
     &::Oculus::Platform::MessageWithShareMediaResult::GetShareMediaResult)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6233538;
+  constexpr static std::size_t addrs = 0x62337c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::ShareMediaResult* (::Oculus::Platform::MessageWithShareMediaResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithShareMediaResult::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x623357c;
+  constexpr static std::size_t addrs = 0x6233804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

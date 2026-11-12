@@ -34,52 +34,52 @@ namespace System::IO {
 class CORDL_TYPE FileSystem : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CopyDanglingSymlink, addr 0x6048da8, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method CopyDanglingSymlink, addr 0x6049030, size 0x16c, virtual false, abstract: false, final false
   static inline bool CopyDanglingSymlink(::StringW sourceFullPath, ::StringW destFullPath);
 
-  /// @brief Method CopyFile, addr 0x6048f14, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method CopyFile, addr 0x604919c, size 0x3c0, virtual false, abstract: false, final false
   static inline void CopyFile(::StringW sourceFullPath, ::StringW destFullPath, bool overwrite);
 
-  /// @brief Method CreateDirectory, addr 0x6049c94, size 0x5a4, virtual false, abstract: false, final false
+  /// @brief Method CreateDirectory, addr 0x6049f1c, size 0x5a4, virtual false, abstract: false, final false
   static inline void CreateDirectory(::StringW fullPath);
 
-  /// @brief Method DeleteFile, addr 0x6049898, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method DeleteFile, addr 0x6049b20, size 0x1a8, virtual false, abstract: false, final false
   static inline void DeleteFile(::StringW fullPath);
 
-  /// @brief Method DirectoryExists, addr 0x60492d4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DirectoryExists, addr 0x604955c, size 0x1c, virtual false, abstract: false, final false
   static inline bool DirectoryExists(::System::ReadOnlySpan_1<char16_t> fullPath);
 
-  /// @brief Method DirectoryExists, addr 0x604a4bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method DirectoryExists, addr 0x604a744, size 0xc, virtual false, abstract: false, final false
   static inline bool DirectoryExists(::System::ReadOnlySpan_1<char16_t> fullPath, ::by_ref<::GlobalNamespace::Interop_ErrorInfo> errorInfo);
 
-  /// @brief Method FileExists, addr 0x604a440, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method FileExists, addr 0x604a6c8, size 0x7c, virtual false, abstract: false, final false
   static inline bool FileExists(::System::ReadOnlySpan_1<char16_t> fullPath);
 
-  /// @brief Method FileExists, addr 0x6049b80, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method FileExists, addr 0x6049e08, size 0x114, virtual false, abstract: false, final false
   static inline bool FileExists(::System::ReadOnlySpan_1<char16_t> fullPath, int32_t fileType, ::by_ref<::GlobalNamespace::Interop_ErrorInfo> errorInfo);
 
-  /// @brief Method GetAttributes, addr 0x604aedc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x604b164, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::IO::FileAttributes GetAttributes(::StringW fullPath);
 
-  /// @brief Method GetLogicalDrives, addr 0x604b08c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetLogicalDrives, addr 0x604b314, size 0x4, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> GetLogicalDrives();
 
-  /// @brief Method LinkOrCopyFile, addr 0x60492f0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method LinkOrCopyFile, addr 0x6049578, size 0x18c, virtual false, abstract: false, final false
   static inline void LinkOrCopyFile(::StringW sourceFullPath, ::StringW destFullPath);
 
-  /// @brief Method MoveFile, addr 0x604977c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method MoveFile, addr 0x6049a04, size 0x11c, virtual false, abstract: false, final false
   static inline void MoveFile(::StringW sourceFullPath, ::StringW destFullPath);
 
-  /// @brief Method RemoveDirectory, addr 0x604a4c8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method RemoveDirectory, addr 0x604a750, size 0xc0, virtual false, abstract: false, final false
   static inline void RemoveDirectory(::StringW fullPath, bool recursive);
 
-  /// @brief Method RemoveDirectoryInternal, addr 0x604a614, size 0x68c, virtual false, abstract: false, final false
+  /// @brief Method RemoveDirectoryInternal, addr 0x604a89c, size 0x68c, virtual false, abstract: false, final false
   static inline void RemoveDirectoryInternal(::System::IO::DirectoryInfo* directory, bool recursive, bool throwOnTopLevelDirectoryNotFound);
 
-  /// @brief Method ReplaceFile, addr 0x604960c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method ReplaceFile, addr 0x6049894, size 0x170, virtual false, abstract: false, final false
   static inline void ReplaceFile(::StringW sourceFullPath, ::StringW destFullPath, ::StringW destBackupFullPath, bool ignoreMetadataErrors);
 
-  /// @brief Method ShouldIgnoreDirectory, addr 0x604ad64, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ShouldIgnoreDirectory, addr 0x604afec, size 0x84, virtual false, abstract: false, final false
   static inline bool ShouldIgnoreDirectory(::StringW name);
 
 protected:

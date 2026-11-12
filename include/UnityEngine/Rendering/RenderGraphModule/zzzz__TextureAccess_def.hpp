@@ -29,11 +29,11 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 struct CORDL_TYPE TextureAccess {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6c4768c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c4876c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureAccess const> access,
                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> handle);
 
-  /// @brief Method .ctor, addr 0x6c47924, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c48a04, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> handle, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags,
                     int32_t mipLevel, int32_t depthSlice);
 

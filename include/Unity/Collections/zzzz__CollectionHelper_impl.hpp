@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::CollectionHelper_DummyJob::*)()>(&::Unity::Collections::CollectionHelper_DummyJob::Execute)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6911ca0;
+  constexpr static std::size_t addrs = 0x6912d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::CollectionHelper_DummyJob>(), { "Execute", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Collections::AllocatorManager_AllocatorHandle)>(&::Unity::Collections::CollectionHelper::CheckAllocator)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x691151c;
+  constexpr static std::size_t addrs = 0x69125fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::CollectionHelper*>(),
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::Unity::Collections::CollectionHelper::Log2Floor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x69115ac;
+  constexpr static std::size_t addrs = 0x691268c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::Unity::Collections::CollectionHelper::Log2Ceil)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x69115e4;
+  constexpr static std::size_t addrs = 0x69126c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::Unity::Collections::CollectionHelper::Align)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x691161c;
+  constexpr static std::size_t addrs = 0x69126fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(int64_t, int32_t)>(&::Unity::Collections::CollectionHelper::Align)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6911638;
+  constexpr static std::size_t addrs = 0x6912718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t, uint64_t)>(&::Unity::Collections::CollectionHelper::Align)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6911658;
+  constexpr static std::size_t addrs = 0x6912738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (*)(void*, int32_t)>(&::Unity::Collections::CollectionHelper::AlignPointer)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6911674;
+  constexpr static std::size_t addrs = 0x6912754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(void*, int32_t)>(&::Unity::Collections::CollectionHelper::IsAligned)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6911694;
+  constexpr static std::size_t addrs = 0x6912774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint64_t, int32_t)>(&::Unity::Collections::CollectionHelper::IsAligned)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69116a8;
+  constexpr static std::size_t addrs = 0x6912788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t)>(&::Unity::Collections::CollectionHelper::IsPowerOfTwo)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x69116bc;
+  constexpr static std::size_t addrs = 0x691279c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(void*, int32_t)>(&::Unity::Collections::CollectionHelper::Hash)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x69116cc;
+  constexpr static std::size_t addrs = 0x69127ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Type*)>(&::Unity::Collections::CollectionHelper::WriteLayout)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x691170c;
+  constexpr static std::size_t addrs = 0x69127ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Unity::Collections::AllocatorManager_AllocatorHandle)>(&::Unity::Collections::CollectionHelper::ShouldDeallocate)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69115a0;
+  constexpr static std::size_t addrs = 0x6912680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::CollectionHelper*>(),
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::Unity::Collections::CollectionHelper::AssumePositive)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6911968;
+  constexpr static std::size_t addrs = 0x6912a48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::Unity::Collections::CollectionHelper::CheckIntPositivePowerOfTwo)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x691196c;
+  constexpr static std::size_t addrs = 0x6912a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t)>(&::Unity::Collections::CollectionHelper::CheckUlongPositivePowerOfTwo)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6911a00;
+  constexpr static std::size_t addrs = 0x6912ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t)>(&::Unity::Collections::CollectionHelper::CheckIndexInRange)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6911a8c;
+  constexpr static std::size_t addrs = 0x6912b6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t, int32_t)>(&::Unity::Collections::CollectionHelper::CheckCapacityInRange)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x6911b30;
+  constexpr static std::size_t addrs = 0x6912c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -305,7 +305,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t)>(&::Unity::Collections::CollectionHelper::CheckCapacityInRange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6911c9c;
+  constexpr static std::size_t addrs = 0x6912d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

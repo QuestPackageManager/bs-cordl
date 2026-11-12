@@ -81,19 +81,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRIOBuffer__Open : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6298784, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6298a0c, size 0xe4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchPath, ::OVR::OpenVR::EIOBufferMode mode, uint32_t unElementSize, uint32_t unElements, ::by_ref<uint64_t> pulBuffer,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x6298868, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6298af0, size 0x24, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError EndInvoke(::by_ref<uint64_t> pulBuffer, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x6298770, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x62989f8, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError Invoke(::StringW pchPath, ::OVR::OpenVR::EIOBufferMode mode, uint32_t unElementSize, uint32_t unElements, ::by_ref<uint64_t> pulBuffer);
 
   static inline ::OVR::OpenVR::IVRIOBuffer__Open* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x62986f0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6298978, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -127,18 +127,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRIOBuffer__Close : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x629890c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6298b94, size 0x54, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulBuffer, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x6298960, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6298be8, size 0x24, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x62988f8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6298b80, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError Invoke(uint64_t ulBuffer);
 
   static inline ::OVR::OpenVR::IVRIOBuffer__Close* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x629888c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6298b14, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -172,18 +172,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRIOBuffer__Read : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6298a04, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6298c8c, size 0xa8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulBuffer, ::System::IntPtr pDst, uint32_t unBytes, ::by_ref<uint32_t> punRead, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x6298aac, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6298d34, size 0x24, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError EndInvoke(::by_ref<uint32_t> punRead, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x62989f0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6298c78, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError Invoke(uint64_t ulBuffer, ::System::IntPtr pDst, uint32_t unBytes, ::by_ref<uint32_t> punRead);
 
   static inline ::OVR::OpenVR::IVRIOBuffer__Read* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6298984, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6298c0c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -217,18 +217,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRIOBuffer__Write : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6298b50, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6298dd8, size 0x90, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulBuffer, ::System::IntPtr pSrc, uint32_t unBytes, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x6298be0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6298e68, size 0x24, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x6298b3c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6298dc4, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError Invoke(uint64_t ulBuffer, ::System::IntPtr pSrc, uint32_t unBytes);
 
   static inline ::OVR::OpenVR::IVRIOBuffer__Write* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6298ad0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6298d58, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -262,18 +262,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRIOBuffer__PropertyContainer : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6298c84, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6298f0c, size 0x54, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulBuffer, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x6298cd8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6298f60, size 0x24, virtual true, abstract: false, final false
   inline uint64_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x6298c70, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6298ef8, size 0x14, virtual true, abstract: false, final false
   inline uint64_t Invoke(uint64_t ulBuffer);
 
   static inline ::OVR::OpenVR::IVRIOBuffer__PropertyContainer* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6298c04, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6298e8c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

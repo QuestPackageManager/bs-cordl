@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x4ac;
-  constexpr static std::size_t addrs = 0x5e2043c;
+  constexpr static std::size_t addrs = 0x5e2086c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller*>(),
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::*)()>(&::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e208e8;
+  constexpr static std::size_t addrs = 0x5e20d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller*>(), { ".ctor", {}, {} })));

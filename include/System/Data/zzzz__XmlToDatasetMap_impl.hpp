@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlToDatasetMap_XmlNodeIdentety::*)(::StringW, ::StringW)>(&::System::Data::XmlToDatasetMap_XmlNodeIdentety::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64c80c0;
+  constexpr static std::size_t addrs = 0x64c8710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::XmlToDatasetMap_XmlNodeIdentety::*)()>(&::System::Data::XmlToDatasetMap_XmlNodeIdentety::GetHashCode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x64c8a94;
+  constexpr static std::size_t addrs = 0x64c90e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::XmlToDatasetMap_XmlNodeIdentety::*)(::System::Object*)>(&::System::Data::XmlToDatasetMap_XmlNodeIdentety::Equals)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x64c8ab0;
+  constexpr static std::size_t addrs = 0x64c9100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlToDatasetMap_XmlNodeIdHashtable::*)(int32_t)>(&::System::Data::XmlToDatasetMap_XmlNodeIdHashtable::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x64c8b5c;
+  constexpr static std::size_t addrs = 0x64c91ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::XmlToDatasetMap_XmlNodeIdHashtable::*)(::System::Xml::XmlNode*)>(
     &::System::Data::XmlToDatasetMap_XmlNodeIdHashtable::get_Item)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x64c8bdc;
+  constexpr static std::size_t addrs = 0x64c922c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::XmlToDatasetMap_XmlNodeIdHashtable::*)(::System::Xml::XmlReader*)>(
     &::System::Data::XmlToDatasetMap_XmlNodeIdHashtable::get_Item)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x64c8c54;
+  constexpr static std::size_t addrs = 0x64c92a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::XmlToDatasetMap_XmlNodeIdHashtable::*)(::System::Data::DataTable*)>(
     &::System::Data::XmlToDatasetMap_XmlNodeIdHashtable::get_Item)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x64c8cc4;
+  constexpr static std::size_t addrs = 0x64c9314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::XmlToDatasetMap_XmlNodeIdHashtable::*)(::StringW)>(
     &::System::Data::XmlToDatasetMap_XmlNodeIdHashtable::get_Item)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x64c8d34;
+  constexpr static std::size_t addrs = 0x64c9384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlToDatasetMap_TableSchemaInfo::*)(::System::Data::DataTable*)>(
     &::System::Data::XmlToDatasetMap_TableSchemaInfo::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x64c8d6c;
+  constexpr static std::size_t addrs = 0x64c93bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -259,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlToDatasetMap::*)(::System::Data::DataSet*, ::System::Xml::XmlNameTable*)>(&::System::Data::XmlToDatasetMap::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64c28d0;
+  constexpr static std::size_t addrs = 0x64c2f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -273,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlToDatasetMap::*)(::System::Xml::XmlNameTable*, ::System::Data::DataSet*)>(&::System::Data::XmlToDatasetMap::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64c3f38;
+  constexpr static std::size_t addrs = 0x64c4588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -287,7 +287,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlToDatasetMap::*)(::System::Data::DataTable*, ::System::Xml::XmlNameTable*)>(&::System::Data::XmlToDatasetMap::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64c28cc;
+  constexpr static std::size_t addrs = 0x64c2f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -301,7 +301,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlToDatasetMap::*)(::System::Xml::XmlNameTable*, ::System::Data::DataTable*)>(&::System::Data::XmlToDatasetMap::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64c3f3c;
+  constexpr static std::size_t addrs = 0x64c458c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -315,7 +315,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Data::DataColumn*)>(&::System::Data::XmlToDatasetMap::IsMappedColumn)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x64c3924;
+  constexpr static std::size_t addrs = 0x64c3f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -329,7 +329,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::XmlToDatasetMap_TableSchemaInfo* (::System::Data::XmlToDatasetMap::*)(::System::Data::DataTable*, ::System::Xml::XmlNameTable*)>(
     &::System::Data::XmlToDatasetMap::AddTableSchema)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x64c7fa8;
+  constexpr static std::size_t addrs = 0x64c85f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::XmlToDatasetMap_TableSchemaInfo* (::System::Data::XmlToDatasetMap::*)(::System::Xml::XmlNameTable*, ::System::Data::DataTable*)>(
     &::System::Data::XmlToDatasetMap::AddTableSchema)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x64c80c8;
+  constexpr static std::size_t addrs = 0x64c8718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::XmlToDatasetMap::*)(
     ::System::Data::DataColumn*, ::System::Xml::XmlNameTable*, ::System::Data::XmlToDatasetMap_XmlNodeIdHashtable*)>(&::System::Data::XmlToDatasetMap::AddColumnSchema)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x64c8230;
+  constexpr static std::size_t addrs = 0x64c8880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -376,7 +376,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::XmlToDatasetMap::*)(
     ::System::Xml::XmlNameTable*, ::System::Data::DataColumn*, ::System::Data::XmlToDatasetMap_XmlNodeIdHashtable*)>(&::System::Data::XmlToDatasetMap::AddColumnSchema)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x64c84b4;
+  constexpr static std::size_t addrs = 0x64c8b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -393,7 +393,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlToDatasetMap::*)(::System::Data::DataSet*, ::System::Xml::XmlNameTable*)>(
     &::System::Data::XmlToDatasetMap::BuildIdentityMap)> {
   constexpr static std::size_t size = 0x5c0;
-  constexpr static std::size_t addrs = 0x64c6238;
+  constexpr static std::size_t addrs = 0x64c6888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -408,7 +408,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlToDatasetMap::*)(::System::Xml::XmlNameTable*, ::System::Data::DataSet*)>(
     &::System::Data::XmlToDatasetMap::BuildIdentityMap)> {
   constexpr static std::size_t size = 0xa60;
-  constexpr static std::size_t addrs = 0x64c67f8;
+  constexpr static std::size_t addrs = 0x64c6e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -423,7 +423,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlToDatasetMap::*)(::System::Data::DataTable*, ::System::Xml::XmlNameTable*)>(
     &::System::Data::XmlToDatasetMap::BuildIdentityMap)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x64c7258;
+  constexpr static std::size_t addrs = 0x64c78a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -438,7 +438,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlToDatasetMap::*)(::System::Xml::XmlNameTable*, ::System::Data::DataTable*)>(
     &::System::Data::XmlToDatasetMap::BuildIdentityMap)> {
   constexpr static std::size_t size = 0xa24;
-  constexpr static std::size_t addrs = 0x64c7584;
+  constexpr static std::size_t addrs = 0x64c7bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -453,7 +453,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ArrayList* (::System::Data::XmlToDatasetMap::*)(::System::Data::DataTable*)>(
     &::System::Data::XmlToDatasetMap::GetSelfAndDescendants)> {
   constexpr static std::size_t size = 0x43c;
-  constexpr static std::size_t addrs = 0x64c8658;
+  constexpr static std::size_t addrs = 0x64c8ca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -466,7 +466,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::XmlToDatasetMap::*)(::System::Xml::XmlNode*, bool)>(&::System::Data::XmlToDatasetMap::GetColumnSchema)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x64c2354;
+  constexpr static std::size_t addrs = 0x64c29a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -481,7 +481,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::XmlToDatasetMap::*)(::System::Data::DataTable*, ::System::Xml::XmlReader*, bool)>(
     &::System::Data::XmlToDatasetMap::GetColumnSchema)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x64c57d4;
+  constexpr static std::size_t addrs = 0x64c5e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -495,7 +495,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::XmlToDatasetMap::*)(::System::Xml::XmlNode*, bool)>(&::System::Data::XmlToDatasetMap::GetSchemaForNode)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x64c28d4;
+  constexpr static std::size_t addrs = 0x64c2f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -510,7 +510,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataTable* (::System::Data::XmlToDatasetMap::*)(::System::Xml::XmlReader*, bool)>(
     &::System::Data::XmlToDatasetMap::GetTableForNode)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x64c4864;
+  constexpr static std::size_t addrs = 0x64c4eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -525,7 +525,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlToDatasetMap::*)(
     ::System::Data::DataColumn*, ::System::Xml::XmlNameTable*, ::System::Data::XmlToDatasetMap_XmlNodeIdHashtable*)>(&::System::Data::XmlToDatasetMap::HandleSpecialColumn)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x64c8354;
+  constexpr static std::size_t addrs = 0x64c89a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -75,11 +75,11 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
   constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x6cfa8a0, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x6cfb980, size 0xb8, virtual true, abstract: false, final true
   inline bool IsActive();
 
   /// [Obsolete("Unused. #from(2023.1)")]
-  /// @brief Method IsTileCompatible, addr 0x6cfa958, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsTileCompatible, addr 0x6cfba38, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
   static inline ::UnityEngine::Rendering::Universal::DepthOfField* New_ctor();
@@ -150,7 +150,7 @@ public:
 
   constexpr void __cordl_internal_set_mode(::UnityEngine::Rendering::Universal::DepthOfFieldModeParameter* value);
 
-  /// @brief Method .ctor, addr 0x6cfa960, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfba40, size 0x258, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"

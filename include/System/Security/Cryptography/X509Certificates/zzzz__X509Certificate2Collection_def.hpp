@@ -40,40 +40,40 @@ public:
   /// @brief Field newline_split, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_newline_split, put = setStaticF_newline_split)) ::ArrayW<::StringW> newline_split;
 
-  /// @brief Method Add, addr 0x680c8e8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x680cf38, size 0x70, virtual false, abstract: false, final false
   inline int32_t Add(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
   /// [MonoTODO("Method isn\'t transactional (like documented)")]
-  /// @brief Method AddRange, addr 0x680c748, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method AddRange, addr 0x680cd98, size 0x70, virtual false, abstract: false, final false
   inline void AddRange(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* certificates);
 
-  /// @brief Method Contains, addr 0x680c958, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x680cfa8, size 0x314, virtual false, abstract: false, final false
   inline bool Contains(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
   /// [MonoTODO("Does not support X509FindType.FindByTemplateName, FindByApplicationPolicy and FindByCertificatePolicy")]
-  /// @brief Method Find, addr 0x680cd3c, size 0x1010, virtual false, abstract: false, final false
+  /// @brief Method Find, addr 0x680d38c, size 0x1010, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* Find(::System::Security::Cryptography::X509Certificates::X509FindType findType, ::System::Object* findValue,
                                                                                               bool validOnly);
 
-  /// @brief Method GetEnumerator, addr 0x680dd4c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x680e39c, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator* GetEnumerator();
 
-  /// @brief Method GetKeyIdentifier, addr 0x680cc6c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetKeyIdentifier, addr 0x680d2bc, size 0xd0, virtual false, abstract: false, final false
   inline ::StringW GetKeyIdentifier(::System::Security::Cryptography::X509Certificates::X509Certificate2* x);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* New_ctor();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* New_ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* certificates);
 
-  /// @brief Method .ctor, addr 0x680c70c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x680cd5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x680c71c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x680cd6c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* certificates);
 
   static inline ::ArrayW<::StringW> getStaticF_newline_split();
 
-  /// @brief Method get_Item, addr 0x680c7b8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x680ce08, size 0x130, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* get_Item(int32_t index);
 
   static inline void setStaticF_newline_split(::ArrayW<::StringW> value);

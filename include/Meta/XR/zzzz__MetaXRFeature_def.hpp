@@ -26,42 +26,42 @@ public:
   // Declarations
   __declspec(property(get = get_userPresent)) bool userPresent;
 
-  /// @brief Method HookGetInstanceProcAddr, addr 0x62a6034, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method HookGetInstanceProcAddr, addr 0x62a62bc, size 0x130, virtual true, abstract: false, final false
   inline ::System::IntPtr HookGetInstanceProcAddr(::System::IntPtr func);
 
   static inline ::Meta::XR::MetaXRFeature* New_ctor();
 
-  /// @brief Method OnAppSpaceChange, addr 0x62a6614, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method OnAppSpaceChange, addr 0x62a689c, size 0xe4, virtual true, abstract: false, final false
   inline void OnAppSpaceChange(uint64_t xrSpace);
 
-  /// @brief Method OnInstanceCreate, addr 0x62a6164, size 0x2f8, virtual true, abstract: false, final false
+  /// @brief Method OnInstanceCreate, addr 0x62a63ec, size 0x2f8, virtual true, abstract: false, final false
   inline bool OnInstanceCreate(uint64_t xrInstance);
 
-  /// @brief Method OnInstanceDestroy, addr 0x62a645c, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method OnInstanceDestroy, addr 0x62a66e4, size 0xdc, virtual true, abstract: false, final false
   inline void OnInstanceDestroy(uint64_t xrInstance);
 
-  /// @brief Method OnSessionBegin, addr 0x62a67fc, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method OnSessionBegin, addr 0x62a6a84, size 0xdc, virtual true, abstract: false, final false
   inline void OnSessionBegin(uint64_t xrSession);
 
-  /// @brief Method OnSessionCreate, addr 0x62a6538, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method OnSessionCreate, addr 0x62a67c0, size 0xdc, virtual true, abstract: false, final false
   inline void OnSessionCreate(uint64_t xrSession);
 
-  /// @brief Method OnSessionDestroy, addr 0x62a6a90, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method OnSessionDestroy, addr 0x62a6d18, size 0xdc, virtual true, abstract: false, final false
   inline void OnSessionDestroy(uint64_t xrSession);
 
-  /// @brief Method OnSessionEnd, addr 0x62a68d8, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method OnSessionEnd, addr 0x62a6b60, size 0xdc, virtual true, abstract: false, final false
   inline void OnSessionEnd(uint64_t xrSession);
 
-  /// @brief Method OnSessionExiting, addr 0x62a69b4, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method OnSessionExiting, addr 0x62a6c3c, size 0xdc, virtual true, abstract: false, final false
   inline void OnSessionExiting(uint64_t xrSession);
 
-  /// @brief Method OnSessionStateChange, addr 0x62a66f8, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method OnSessionStateChange, addr 0x62a6980, size 0x104, virtual true, abstract: false, final false
   inline void OnSessionStateChange(int32_t oldState, int32_t newState);
 
-  /// @brief Method .ctor, addr 0x62a6b6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62a6df4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_userPresent, addr 0x62a5fa8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_userPresent, addr 0x62a6230, size 0x8c, virtual false, abstract: false, final false
   inline bool get_userPresent();
 
 protected:

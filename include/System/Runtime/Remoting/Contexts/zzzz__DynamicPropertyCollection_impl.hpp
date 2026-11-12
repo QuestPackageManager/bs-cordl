@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Contexts::DynamicPropertyCollection_DynamicPropertyReg::*)()>(
     &::System::Runtime::Remoting::Contexts::DynamicPropertyCollection_DynamicPropertyReg::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f8d06c;
+  constexpr static std::size_t addrs = 0x5f8d2f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::*)()>(
     &::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::get_HasProperties)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5f8b1ec;
+  constexpr static std::size_t addrs = 0x5f8b474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::*)(::System::Runtime::Remoting::Contexts::IDynamicProperty*)>(
     &::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::RegisterDynamicProperty)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x5f8b420;
+  constexpr static std::size_t addrs = 0x5f8b6a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::*)(::StringW)>(
     &::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::UnregisterDynamicProperty)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x5f8b7a0;
+  constexpr static std::size_t addrs = 0x5f8ba28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::*)(bool, ::System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(
     &::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::NotifyMessage)> {
   constexpr static std::size_t size = 0x5e0;
-  constexpr static std::size_t addrs = 0x5f8ba78;
+  constexpr static std::size_t addrs = 0x5f8bd00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::*)(::StringW)>(
     &::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::FindProperty)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5f8cf04;
+  constexpr static std::size_t addrs = 0x5f8d18c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::*)()>(
     &::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5f8b918;
+  constexpr static std::size_t addrs = 0x5f8bba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Contexts::DynamicPropertyCollection*>(), { ".ctor", {}, {} })));

@@ -25,13 +25,13 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 struct CORDL_TYPE BufferDesc {
 public:
   // Declarations
-  /// @brief Method GetHashCode, addr 0x6c49db8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c4ae98, size 0x3c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6c49d90, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c4ae70, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(int32_t count, int32_t stride);
 
-  /// @brief Method .ctor, addr 0x6c49da8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c4ae88, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t count, int32_t stride, ::UnityEngine::GraphicsBuffer_Target target);
 
   // Ctor Parameters []

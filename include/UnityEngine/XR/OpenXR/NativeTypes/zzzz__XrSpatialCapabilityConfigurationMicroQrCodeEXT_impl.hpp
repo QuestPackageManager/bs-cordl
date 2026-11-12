@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType (
     ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationMicroQrCodeEXT::*)()>(&::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationMicroQrCodeEXT::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e8098c;
+  constexpr static std::size_t addrs = 0x6e81a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationMicroQrCodeEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationMicroQrCodeEXT::get_next)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e80994;
+  constexpr static std::size_t addrs = 0x6e81a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityEXT (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationMicroQrCodeEXT::*)()>(
         &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationMicroQrCodeEXT::get_capability)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e8099c;
+  constexpr static std::size_t addrs = 0x6e81a7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationMicroQrCodeEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationMicroQrCodeEXT::get_enabledComponentCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e809a4;
+  constexpr static std::size_t addrs = 0x6e81a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT* (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationMicroQrCodeEXT::*)()>(
         &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationMicroQrCodeEXT::get_enabledComponents)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e809ac;
+  constexpr static std::size_t addrs = 0x6e81a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationMicroQrCodeEXT::*)(
     void*, uint32_t, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT*)>(&::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationMicroQrCodeEXT::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6e809b4;
+  constexpr static std::size_t addrs = 0x6e81a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationMicroQrCodeEXT::*)(
     uint32_t, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT*)>(&::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationMicroQrCodeEXT::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6e809d0;
+  constexpr static std::size_t addrs = 0x6e81ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::
     void*, ::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT>)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationMicroQrCodeEXT::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6e809ec;
+  constexpr static std::size_t addrs = 0x6e81acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::
     ::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT>)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationMicroQrCodeEXT::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6e80a60;
+  constexpr static std::size_t addrs = 0x6e81b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::
     void*, ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT>)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationMicroQrCodeEXT::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6e80ac8;
+  constexpr static std::size_t addrs = 0x6e81ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -169,7 +169,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::
     ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT>)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationMicroQrCodeEXT::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6e80b50;
+  constexpr static std::size_t addrs = 0x6e81c30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

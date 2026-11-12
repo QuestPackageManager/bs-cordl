@@ -31,7 +31,7 @@ public:
   /// @brief Field StoreReasonMessages, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_StoreReasonMessages, put = setStaticF_StoreReasonMessages)) ::ArrayW<::StringW> StoreReasonMessages;
 
-  /// @brief Method .ctor, addr 0x6c650d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c661b8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::StoreReason setReason, int32_t setPassId,
                     ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::StoreReason setMsaaReason, int32_t setMsaaPassId);
 

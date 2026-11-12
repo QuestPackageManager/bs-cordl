@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::IComponent* (::System::ComponentModel::ComponentCollection::*)(::StringW)>(
     &::System::ComponentModel::ComponentCollection::get_Item)> {
   constexpr static std::size_t size = 0x558;
-  constexpr static std::size_t addrs = 0x6818aa0;
+  constexpr static std::size_t addrs = 0x68190f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

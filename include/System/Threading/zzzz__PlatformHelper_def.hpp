@@ -35,7 +35,7 @@ public:
 
   static inline int32_t getStaticF_s_processorCount();
 
-  /// @brief Method get_ProcessorCount, addr 0x6101bac, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessorCount, addr 0x6101e34, size 0xe4, virtual false, abstract: false, final false
   static inline int32_t get_ProcessorCount();
 
   static inline void setStaticF_IsSingleProcessor(bool value);

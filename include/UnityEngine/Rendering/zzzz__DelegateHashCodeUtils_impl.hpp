@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DelegateHashCodeUtils___c::*)()>(&::UnityEngine::Rendering::DelegateHashCodeUtils___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c20b20;
+  constexpr static std::size_t addrs = 0x6c21c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DelegateHashCodeUtils___c*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<int32_t, bool>* (::UnityEngine::Rendering::DelegateHashCodeUtils___c::*)()>(
     &::UnityEngine::Rendering::DelegateHashCodeUtils___c::__cctor_b__4_0)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6c20b24;
+  constexpr static std::size_t addrs = 0x6c21c04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DelegateHashCodeUtils___c*>(), { "<.cctor>b__4_0", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Delegate*)>(&::UnityEngine::Rendering::DelegateHashCodeUtils::GetFuncHashCode)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x6c2056c;
+  constexpr static std::size_t addrs = 0x6c2164c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::Rendering::DelegateHashCodeUtils::GetTotalCacheCount)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6c20818;
+  constexpr static std::size_t addrs = 0x6c218f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DelegateHashCodeUtils*>(), { "GetTotalCacheCount", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Rendering::DelegateHashCodeUtils::ClearCache)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6c208e0;
+  constexpr static std::size_t addrs = 0x6c219c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DelegateHashCodeUtils*>(), { "ClearCache", {}, {} })));

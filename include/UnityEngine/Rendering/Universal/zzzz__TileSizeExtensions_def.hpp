@@ -24,7 +24,7 @@ class CORDL_TYPE TileSizeExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method IsValid, addr 0x6d36368, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6d37448, size 0x20, virtual false, abstract: false, final false
   static inline bool IsValid(::UnityEngine::Rendering::Universal::TileSize tileSize);
 
 protected:

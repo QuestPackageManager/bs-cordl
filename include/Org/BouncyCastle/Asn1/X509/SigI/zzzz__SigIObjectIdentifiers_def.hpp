@@ -45,7 +45,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::SigIObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3806634, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x380aacc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdSigI();

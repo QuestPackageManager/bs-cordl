@@ -176,16 +176,16 @@ public:
       get = getStaticF_s_NativeEntryComparer,
       put = setStaticF_s_NativeEntryComparer)) ::UnityEngine::Rendering::DynamicArray_1_SortComparer<::GlobalNamespace::RenderGraphCompilationCache_HashEntry_1<Il2CppObject*>>* s_NativeEntryComparer;
 
-  /// @brief Method Cleanup, addr 0x6b94da8, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x6b95e88, size 0x230, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method Clear, addr 0x6b94bc8, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6b95ca8, size 0x1e0, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method GetCompilationCache, addr 0x6b94a58, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetCompilationCache, addr 0x6b95b38, size 0xb8, virtual false, abstract: false, final false
   inline bool GetCompilationCache(int32_t hash, int32_t frameIndex, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_CompiledGraph*> outGraph);
 
-  /// @brief Method GetCompilationCache, addr 0x6b94b10, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetCompilationCache, addr 0x6b95bf0, size 0xb8, virtual false, abstract: false, final false
   inline bool GetCompilationCache(int32_t hash, int32_t frameIndex, ::by_ref<Il2CppObject*> outGraph);
 
   /// @brief Method GetCompilationCache, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -227,7 +227,7 @@ public:
 
   constexpr void __cordl_internal_set_m_NativeHashEntries(::UnityEngine::Rendering::DynamicArray_1<::GlobalNamespace::RenderGraphCompilationCache_HashEntry_1<Il2CppObject*>>* value);
 
-  /// @brief Method .ctor, addr 0x6b9482c, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b9590c, size 0x22c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::DynamicArray_1_SortComparer<

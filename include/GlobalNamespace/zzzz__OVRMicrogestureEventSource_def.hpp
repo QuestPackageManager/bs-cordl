@@ -37,12 +37,12 @@ public:
   /// @brief Field _hand, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__hand, put = __cordl_internal_set__hand)) ::UnityW<::GlobalNamespace::OVRHand> _hand;
 
-  /// @brief Method CheckForNewGesture, addr 0x62c9274, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CheckForNewGesture, addr 0x62c94fc, size 0x70, virtual false, abstract: false, final false
   inline void CheckForNewGesture(::GlobalNamespace::OVRHand_MicrogestureType gesture);
 
   static inline ::GlobalNamespace::OVRMicrogestureEventSource* New_ctor();
 
-  /// @brief Method Update, addr 0x62c9234, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x62c94bc, size 0x40, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::Events::UnityEvent_1<::GlobalNamespace::OVRHand_MicrogestureType>* const& __cordl_internal_get_GestureRecognizedEvent() const;
@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set__hand(::UnityW<::GlobalNamespace::OVRHand> value);
 
-  /// @brief Method .ctor, addr 0x62c92e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62c956c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Hand, addr 0x62c9224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Hand, addr 0x62c94ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OVRHand> get_Hand();
 
-  /// @brief Method set_Hand, addr 0x62c922c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Hand, addr 0x62c94b4, size 0x8, virtual false, abstract: false, final false
   inline void set_Hand(::GlobalNamespace::OVRHand* value);
 
 protected:

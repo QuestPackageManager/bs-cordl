@@ -27,7 +27,7 @@ class CORDL_TYPE LightExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method GetUniversalAdditionalLightData, addr 0x6d3d8b8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetUniversalAdditionalLightData, addr 0x6d3e998, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalLightData> GetUniversalAdditionalLightData(::UnityEngine::Light* light);
 
 protected:

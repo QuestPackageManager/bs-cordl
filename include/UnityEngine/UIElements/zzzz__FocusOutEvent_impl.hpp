@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FocusOutEvent___c::*)()>(&::UnityEngine::UIElements::FocusOutEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x7267400;
+  constexpr static std::size_t addrs = 0x72684e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FocusOutEvent___c*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::FocusOutEvent* (::UnityEngine::UIElements::FocusOutEvent___c::*)()>(
     &::UnityEngine::UIElements::FocusOutEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x7267404;
+  constexpr static std::size_t addrs = 0x72684e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FocusOutEvent___c*>(), { "<.cctor>b__0_0", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FocusOutEvent::*)()>(&::UnityEngine::UIElements::FocusOutEvent::Init)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x72670b0;
+  constexpr static std::size_t addrs = 0x7268190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FocusOutEvent::*)()>(&::UnityEngine::UIElements::FocusOutEvent::LocalInit)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x7267108;
+  constexpr static std::size_t addrs = 0x72681e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FocusOutEvent*>(), { "LocalInit", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FocusOutEvent::*)()>(&::UnityEngine::UIElements::FocusOutEvent::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x7267114;
+  constexpr static std::size_t addrs = 0x72681f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FocusOutEvent*>(), { ".ctor", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FocusOutEvent::*)(::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::FocusOutEvent::PostDispatch)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x726716c;
+  constexpr static std::size_t addrs = 0x726824c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

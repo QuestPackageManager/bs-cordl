@@ -44,51 +44,51 @@ public:
 
   __declspec(property(get = get_ReturnType)) ::System::Type* ReturnType;
 
-  /// @brief Method CreateDelegate, addr 0x5fd489c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method CreateDelegate, addr 0x5fd4b24, size 0x4c, virtual true, abstract: false, final false
   inline ::System::Delegate* CreateDelegate(::System::Type* delegateType);
 
-  /// @brief Method CreateDelegate, addr 0x5fd48e8, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method CreateDelegate, addr 0x5fd4b70, size 0x4c, virtual true, abstract: false, final false
   inline ::System::Delegate* CreateDelegate(::System::Type* delegateType, ::System::Object* target);
 
-  /// @brief Method Equals, addr 0x5fd4934, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5fd4bbc, size 0xc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
   /// @brief Method GetBaseDefinition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Reflection::MethodInfo* GetBaseDefinition();
 
-  /// @brief Method GetGenericArguments, addr 0x5fd47b8, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetGenericArguments, addr 0x5fd4a40, size 0x4c, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Type*> GetGenericArguments();
 
-  /// @brief Method GetGenericMethodDefinition, addr 0x5fd4804, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetGenericMethodDefinition, addr 0x5fd4a8c, size 0x4c, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodInfo* GetGenericMethodDefinition();
 
-  /// @brief Method GetHashCode, addr 0x5fd4940, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5fd4bc8, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method MakeGenericMethod, addr 0x5fd4850, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method MakeGenericMethod, addr 0x5fd4ad8, size 0x4c, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodInfo* MakeGenericMethod(/* [ParamArray] */ ::ArrayW<::System::Type*> typeArguments);
 
   static inline ::System::Reflection::MethodInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5fd475c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fd49e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_GenericParameterCount, addr 0x5fd4954, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_GenericParameterCount, addr 0x5fd4bdc, size 0x28, virtual true, abstract: false, final false
   inline int32_t get_GenericParameterCount();
 
-  /// @brief Method get_MemberType, addr 0x5fd4760, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MemberType, addr 0x5fd49e8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::MemberTypes get_MemberType();
 
-  /// @brief Method get_ReturnParameter, addr 0x5fd4768, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnParameter, addr 0x5fd49f0, size 0x28, virtual true, abstract: false, final false
   inline ::System::Reflection::ParameterInfo* get_ReturnParameter();
 
-  /// @brief Method get_ReturnType, addr 0x5fd4790, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x5fd4a18, size 0x28, virtual true, abstract: false, final false
   inline ::System::Type* get_ReturnType();
 
-  /// @brief Method op_Equality, addr 0x5fd40ec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x5fd4374, size 0x2c, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Reflection::MethodInfo* left, ::System::Reflection::MethodInfo* right);
 
-  /// @brief Method op_Inequality, addr 0x5fd40b0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x5fd4338, size 0x3c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Reflection::MethodInfo* left, ::System::Reflection::MethodInfo* right);
 
 protected:

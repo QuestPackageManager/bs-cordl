@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::*)()>(
     &::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::Start)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5e89f58;
+  constexpr static std::size_t addrs = 0x5e8a1d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::*)(::GlobalNamespace::OVRSpatialAnchor*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult)>(
         &::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::SaveAnchorUuidToLocalStorage)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x5e8a068;
+  constexpr static std::size_t addrs = 0x5e8a2e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::*)(::GlobalNamespace::OVRSpatialAnchor*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult)>(
         &::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::RemoveAnchorFromLocalStorage)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x5e8a188;
+  constexpr static std::size_t addrs = 0x5e8a408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::*)(::System::Collections::Generic::List_1<::System::Guid>*)>(
     &::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::GetAnchorAnchorUuidFromLocalStorage)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x5e89d58;
+  constexpr static std::size_t addrs = 0x5e89fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::*)()>(
     &::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::Reset)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5e8a340;
+  constexpr static std::size_t addrs = 0x5e8a5c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::*)()>(
     &::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::OnDestroy)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5e8a38c;
+  constexpr static std::size_t addrs = 0x5e8a60c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::*)()>(
     &::Meta::XR::BuildingBlocks::SpatialAnchorLocalStorageManagerBuildingBlock::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e8a3b4;
+  constexpr static std::size_t addrs = 0x5e8a634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::StringW, ::StringW)>(&::Org::BouncyCastle::Cms::CmsSignedHelper::AddEntries)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x397425c;
+  constexpr static std::size_t addrs = 0x39786f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Cms::CmsSignedHelper::*)(::StringW)>(&::Org::BouncyCastle::Cms::CmsSignedHelper::GetDigestAlgName)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3963f6c;
+  constexpr static std::size_t addrs = 0x3968404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1
     ::Org::BouncyCastle::Cms::CmsSignedHelper::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::Asn1Encodable*)>(
     &::Org::BouncyCastle::Cms::CmsSignedHelper::GetEncAlgorithmIdentifier)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x39645e8;
+  constexpr static std::size_t addrs = 0x3968a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (::Org::BouncyCastle::Cms::CmsSignedHelper::*)(::StringW)>(&::Org::BouncyCastle::Cms::CmsSignedHelper::GetDigestAliases)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x39760f4;
+  constexpr static std::size_t addrs = 0x397a58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Cms::CmsSignedHelper::*)(::StringW)>(&::Org::BouncyCastle::Cms::CmsSignedHelper::GetEncryptionAlgName)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x396406c;
+  constexpr static std::size_t addrs = 0x3968504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IDigest* (::Org::BouncyCastle::Cms::CmsSignedHelper::*)(::StringW)>(
     &::Org::BouncyCastle::Cms::CmsSignedHelper::GetDigestInstance)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x39643dc;
+  constexpr static std::size_t addrs = 0x3968874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::ISigner* (::Org::BouncyCastle::Cms::CmsSignedHelper::*)(::StringW)>(
     &::Org::BouncyCastle::Cms::CmsSignedHelper::GetSignatureInstance)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3969658;
+  constexpr static std::size_t addrs = 0x396daf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::X509::Store::IX509Store* (::Org::BouncyCastle::Cms::CmsSignedHelper::*)(::StringW, ::Org::BouncyCastle::Asn1::Asn1Set*)>(
     &::Org::BouncyCastle::Cms::CmsSignedHelper::CreateAttributeStore)> {
   constexpr static std::size_t size = 0x644;
-  constexpr static std::size_t addrs = 0x395d184;
+  constexpr static std::size_t addrs = 0x396161c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::X509::Store::IX509Store* (::Org::BouncyCastle::Cms::CmsSignedHelper::*)(::StringW, ::Org::BouncyCastle::Asn1::Asn1Set*)>(
     &::Org::BouncyCastle::Cms::CmsSignedHelper::CreateCertificateStore)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x395d85c;
+  constexpr static std::size_t addrs = 0x3961cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::X509::Store::IX509Store* (::Org::BouncyCastle::Cms::CmsSignedHelper::*)(::StringW, ::Org::BouncyCastle::Asn1::Asn1Set*)>(
     &::Org::BouncyCastle::Cms::CmsSignedHelper::CreateCrlStore)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x395daa0;
+  constexpr static std::size_t addrs = 0x3961f38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedHelper::*)(::System::Collections::IList*, ::Org::BouncyCastle::Asn1::Asn1Set*)>(
     &::Org::BouncyCastle::Cms::CmsSignedHelper::AddCertsFromSet)> {
   constexpr static std::size_t size = 0x4cc;
-  constexpr static std::size_t addrs = 0x3976248;
+  constexpr static std::size_t addrs = 0x397a6e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedHelper::*)(::System::Collections::IList*, ::Org::BouncyCastle::Asn1::Asn1Set*)>(
     &::Org::BouncyCastle::Cms::CmsSignedHelper::AddCrlsFromSet)> {
   constexpr static std::size_t size = 0x470;
-  constexpr static std::size_t addrs = 0x3976714;
+  constexpr static std::size_t addrs = 0x397abac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (
     ::Org::BouncyCastle::Cms::CmsSignedHelper::*)(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(&::Org::BouncyCastle::Cms::CmsSignedHelper::FixAlgID)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x395e3b8;
+  constexpr static std::size_t addrs = 0x3962850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::CmsSignedHelper*>(),
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Cms::CmsSignedHelper::*)(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::StringW)>(
     &::Org::BouncyCastle::Cms::CmsSignedHelper::GetEncOid)> {
   constexpr static std::size_t size = 0x50c;
-  constexpr static std::size_t addrs = 0x3960ac0;
+  constexpr static std::size_t addrs = 0x3964f58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedHelper::*)()>(&::Org::BouncyCastle::Cms::CmsSignedHelper::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39760f0;
+  constexpr static std::size_t addrs = 0x397a588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::CmsSignedHelper*>(), { ".ctor", {}, {} })));

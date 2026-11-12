@@ -75,46 +75,46 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AllocBuffer, addr 0x6c004fc, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method AllocBuffer, addr 0x6c015dc, size 0x190, virtual false, abstract: false, final false
   inline void AllocBuffer(int32_t bufferId, ::System::Func_3<::UnityEngine::Rendering::RTHandleSystem*, int32_t, ::UnityEngine::Rendering::RTHandle*>* allocator, int32_t bufferCount);
 
-  /// @brief Method AllocBuffer, addr 0x6c007b4, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method AllocBuffer, addr 0x6c01894, size 0x374, virtual false, abstract: false, final false
   inline void AllocBuffer(int32_t bufferId, int32_t bufferCount, ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::UnityEngine::FilterMode filterMode,
                           ::UnityEngine::TextureWrapMode wrapMode, bool isShadowMap, int32_t anisoLevel, float_t mipMapBias, ::StringW name);
 
-  /// @brief Method CalculateRatioAgainstMaxSize, addr 0x6c01334, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CalculateRatioAgainstMaxSize, addr 0x6c02414, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 CalculateRatioAgainstMaxSize(int32_t width, int32_t height);
 
-  /// @brief Method ClearBuffers, addr 0x6c00330, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method ClearBuffers, addr 0x6c01410, size 0x1cc, virtual false, abstract: false, final false
   inline void ClearBuffers(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method Dispose, addr 0x6c0182c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6c0290c, size 0x8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6c015a4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6c02684, size 0x44, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetFrameRT, addr 0x6c00264, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetFrameRT, addr 0x6c01344, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* GetFrameRT(int32_t bufferId, int32_t frameIndex);
 
-  /// @brief Method GetNumFramesAllocated, addr 0x6c01280, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetNumFramesAllocated, addr 0x6c02360, size 0xb4, virtual false, abstract: false, final false
   inline int32_t GetNumFramesAllocated(int32_t bufferId);
 
   static inline ::UnityEngine::Rendering::BufferedRTHandleSystem* New_ctor();
 
-  /// @brief Method ReleaseAll, addr 0x6c015e8, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseAll, addr 0x6c026c8, size 0x23c, virtual false, abstract: false, final false
   inline void ReleaseAll();
 
-  /// @brief Method ReleaseBuffer, addr 0x6c00d60, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ReleaseBuffer, addr 0x6c01e40, size 0xf4, virtual false, abstract: false, final false
   inline void ReleaseBuffer(int32_t bufferId);
 
-  /// @brief Method ResetReferenceSize, addr 0x6c01258, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ResetReferenceSize, addr 0x6c02338, size 0x1c, virtual false, abstract: false, final false
   inline void ResetReferenceSize(int32_t width, int32_t height);
 
-  /// @brief Method Swap, addr 0x6c00ea0, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method Swap, addr 0x6c01f80, size 0x3b0, virtual false, abstract: false, final false
   inline void Swap();
 
-  /// @brief Method SwapAndSetReferenceSize, addr 0x6c00e64, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SwapAndSetReferenceSize, addr 0x6c01f44, size 0x3c, virtual false, abstract: false, final false
   inline void SwapAndSetReferenceSize(int32_t width, int32_t height);
 
   constexpr bool const& __cordl_internal_get_m_DisposedValue() const;
@@ -135,16 +135,16 @@ public:
 
   constexpr void __cordl_internal_set_m_RTHandles(::System::Collections::Generic::Dictionary_2<int32_t, ::ArrayW<::UnityEngine::Rendering::RTHandle*>>* value);
 
-  /// @brief Method .ctor, addr 0x6c01834, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c02914, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_maxHeight, addr 0x6c00228, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_maxHeight, addr 0x6c01308, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_maxHeight();
 
-  /// @brief Method get_maxWidth, addr 0x6c00210, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_maxWidth, addr 0x6c012f0, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_maxWidth();
 
-  /// @brief Method get_rtHandleProperties, addr 0x6c00240, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_rtHandleProperties, addr 0x6c01320, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandleProperties get_rtHandleProperties();
 
   /// @brief Convert to "::System::IDisposable"

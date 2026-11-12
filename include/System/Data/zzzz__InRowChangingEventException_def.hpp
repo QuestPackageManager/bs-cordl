@@ -32,13 +32,13 @@ public:
 
   static inline ::System::Data::InRowChangingEventException* New_ctor(::StringW s);
 
-  /// @brief Method .ctor, addr 0x645e174, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x645e7c4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x645e16c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x645e7bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x645e1d4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x645e824, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW s);
 
 protected:

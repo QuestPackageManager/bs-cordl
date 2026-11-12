@@ -110,7 +110,7 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void Unmarshal(::by_ref<::ArrayW<T>> array);
 
-  /// @brief Method .ctor, addr 0x6f96f48, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f98028, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(void* data, int32_t size);
 
   // Ctor Parameters []

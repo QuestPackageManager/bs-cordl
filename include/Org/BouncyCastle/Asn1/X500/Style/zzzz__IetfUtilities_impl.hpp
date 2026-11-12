@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::Org::BouncyCastle::Asn1::Asn1Encodable*)>(&::Org::BouncyCastle::Asn1::X500::Style::IetfUtilities::ValueToString)> {
   constexpr static std::size_t size = 0x4f4;
-  constexpr static std::size_t addrs = 0x3801f98;
+  constexpr static std::size_t addrs = 0x3806430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X500::Style::IetfUtilities*>(),
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::Org::BouncyCastle::Asn1::X500::Style::IetfUtilities::Canonicalize)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x380248c;
+  constexpr static std::size_t addrs = 0x3806924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::Org::BouncyCastle::Asn1::Asn1Encodable*)>(&::Org::BouncyCastle::Asn1::X500::Style::IetfUtilities::CanonicalString)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x38029a4;
+  constexpr static std::size_t addrs = 0x3806e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X500::Style::IetfUtilities*>(),
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (*)(::StringW)>(&::Org::BouncyCastle::Asn1::X500::Style::IetfUtilities::DecodeObject)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3802708;
+  constexpr static std::size_t addrs = 0x3806ba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::Org::BouncyCastle::Asn1::X500::Style::IetfUtilities::StripInternalSpaces)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3802858;
+  constexpr static std::size_t addrs = 0x3806cf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Org::BouncyCastle::Asn1::X500::Rdn*, ::Org::BouncyCastle::Asn1::X500::Rdn*)>(
     &::Org::BouncyCastle::Asn1::X500::Style::IetfUtilities::RdnAreEqual)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x38029b4;
+  constexpr static std::size_t addrs = 0x3806e4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue*, ::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue*)>(
     &::Org::BouncyCastle::Asn1::X500::Style::IetfUtilities::AtvAreEqual)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3802aa4;
+  constexpr static std::size_t addrs = 0x3806f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X500::Style::IetfUtilities::*)()>(&::Org::BouncyCastle::Asn1::X500::Style::IetfUtilities::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3802b70;
+  constexpr static std::size_t addrs = 0x3807008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X500::Style::IetfUtilities*>(), { ".ctor", {}, {} })));

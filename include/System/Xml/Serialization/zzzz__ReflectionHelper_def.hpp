@@ -40,21 +40,21 @@ public:
   /// @brief Field empty_modifiers, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_empty_modifiers, put = setStaticF_empty_modifiers)) ::ArrayW<::System::Reflection::ParameterModifier> empty_modifiers;
 
-  /// @brief Method CheckSerializableType, addr 0x6750d80, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method CheckSerializableType, addr 0x67513d0, size 0x2d0, virtual false, abstract: false, final false
   static inline void CheckSerializableType(::System::Type* type, bool allowPrivateConstructors);
 
-  /// @brief Method GetRegisteredClrType, addr 0x6750c44, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetRegisteredClrType, addr 0x6751294, size 0x13c, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapping* GetRegisteredClrType(::System::Type* type, ::StringW ns);
 
-  /// @brief Method GetRegisteredSchemaType, addr 0x6750a38, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetRegisteredSchemaType, addr 0x6751088, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapping* GetRegisteredSchemaType(::StringW xmlType, ::StringW ns);
 
   static inline ::System::Xml::Serialization::ReflectionHelper* New_ctor();
 
-  /// @brief Method RegisterClrType, addr 0x6750b14, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method RegisterClrType, addr 0x6751164, size 0x130, virtual false, abstract: false, final false
   inline void RegisterClrType(::System::Xml::Serialization::XmlTypeMapping* map, ::System::Type* type, ::StringW ns);
 
-  /// @brief Method RegisterSchemaType, addr 0x6750968, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method RegisterSchemaType, addr 0x6750fb8, size 0xd0, virtual false, abstract: false, final false
   inline void RegisterSchemaType(::System::Xml::Serialization::XmlTypeMapping* map, ::StringW xmlType, ::StringW ns);
 
   constexpr ::System::Collections::Hashtable* const& __cordl_internal_get__clrTypes() const;
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set__schemaTypes(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x67510c0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6751710, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Reflection::ParameterModifier> getStaticF_empty_modifiers();

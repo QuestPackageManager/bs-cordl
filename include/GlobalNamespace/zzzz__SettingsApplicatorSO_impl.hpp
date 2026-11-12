@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)(::System::Action*)>(
     &::GlobalNamespace::SettingsApplicatorSO::add_roomTransformOffsetDidUpdateEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5d565b0;
+  constexpr static std::size_t addrs = 0x5d55b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)(::System::Action*)>(
     &::GlobalNamespace::SettingsApplicatorSO::remove_roomTransformOffsetDidUpdateEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5d5665c;
+  constexpr static std::size_t addrs = 0x5d55bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)(::by_ref<::BeatSaber::Settings::Settings const>)>(
     &::GlobalNamespace::SettingsApplicatorSO::ApplyGameSettings)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5d564a0;
+  constexpr static std::size_t addrs = 0x5d55a14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsApplicatorSO*>(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)(::by_ref<::BeatSaber::Settings::Settings const>, ::GlobalNamespace::SceneType)>(
     &::GlobalNamespace::SettingsApplicatorSO::ApplyGraphicSettings)> {
   constexpr static std::size_t size = 0x3c0;
-  constexpr static std::size_t addrs = 0x5d56064;
+  constexpr static std::size_t addrs = 0x5d555d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)(::by_ref<::BeatSaber::Settings::WindowSettings const>)>(
     &::GlobalNamespace::SettingsApplicatorSO::ApplyWindowSettings)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d56724;
+  constexpr static std::size_t addrs = 0x5d55c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)()>(&::GlobalNamespace::SettingsApplicatorSO::NotifyRoomTransformOffsetWasUpdated)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5d56708;
+  constexpr static std::size_t addrs = 0x5d55c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)()>(&::GlobalNamespace::SettingsApplicatorSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d5642c;
+  constexpr static std::size_t addrs = 0x5d559a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsApplicatorSO*>(), { ".ctor", {}, {} })));

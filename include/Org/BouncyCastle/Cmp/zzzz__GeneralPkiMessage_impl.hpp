@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiMessage* (*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Cmp::GeneralPkiMessage::ParseBytes)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x394e290;
+  constexpr static std::size_t addrs = 0x3952728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cmp::GeneralPkiMessage::*)(::Org::BouncyCastle::Asn1::Cmp::PkiMessage*)>(
     &::Org::BouncyCastle::Cmp::GeneralPkiMessage::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x394e2a8;
+  constexpr static std::size_t addrs = 0x3952740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cmp::GeneralPkiMessage::*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Cmp::GeneralPkiMessage::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x394e2b0;
+  constexpr static std::size_t addrs = 0x3952748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiHeader* (::Org::BouncyCastle::Cmp::GeneralPkiMessage::*)()>(
     &::Org::BouncyCastle::Cmp::GeneralPkiMessage::get_Header)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x394e2d8;
+  constexpr static std::size_t addrs = 0x3952770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::GeneralPkiMessage*>(), { "get_Header", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiBody* (::Org::BouncyCastle::Cmp::GeneralPkiMessage::*)()>(
     &::Org::BouncyCastle::Cmp::GeneralPkiMessage::get_Body)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x394e2f4;
+  constexpr static std::size_t addrs = 0x395278c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::GeneralPkiMessage*>(), { "get_Body", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Cmp::GeneralPkiMessage::*)()>(&::Org::BouncyCastle::Cmp::GeneralPkiMessage::get_HasProtection)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x394e310;
+  constexpr static std::size_t addrs = 0x39527a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::GeneralPkiMessage*>(), { "get_HasProtection", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiMessage* (::Org::BouncyCastle::Cmp::GeneralPkiMessage::*)()>(
     &::Org::BouncyCastle::Cmp::GeneralPkiMessage::ToAsn1Structure)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x394e33c;
+  constexpr static std::size_t addrs = 0x39527d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::GeneralPkiMessage*>(), { "ToAsn1Structure", {}, {} })));

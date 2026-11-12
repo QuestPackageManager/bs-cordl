@@ -173,10 +173,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c* New_ctor();
 
-  /// @brief Method <UpdateCameraStack>b__50_0, addr 0x6d3d858, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <UpdateCameraStack>b__50_0, addr 0x6d3e938, size 0x60, virtual false, abstract: false, final false
   inline bool _UpdateCameraStack_b__50_0(::UnityEngine::Camera* cam);
 
-  /// @brief Method .ctor, addr 0x6d3d854, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d3e934, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c* getStaticF___9();
@@ -392,36 +392,36 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IAdditionalData"
   constexpr operator ::UnityEngine::Rendering::IAdditionalData*() noexcept;
 
-  /// @brief Method GetOrCreateVolumeStack, addr 0x6d3c140, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateVolumeStack, addr 0x6d3d220, size 0x148, virtual false, abstract: false, final false
   inline void GetOrCreateVolumeStack();
 
-  /// @brief Method GetRawRenderer, addr 0x6d3d510, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetRawRenderer, addr 0x6d3e5f0, size 0x118, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::ScriptableRenderer* GetRawRenderer();
 
   static inline ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x6d3d4b0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x6d3e590, size 0x60, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDrawGizmos, addr 0x6d3d388, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmos, addr 0x6d3e468, size 0x128, virtual false, abstract: false, final false
   inline void OnDrawGizmos();
 
-  /// @brief Method OnValidate, addr 0x6d3d2f0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x6d3e3d0, size 0x98, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetRenderer, addr 0x6d3d16c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetRenderer, addr 0x6d3e24c, size 0x8, virtual false, abstract: false, final false
   inline void SetRenderer(int32_t index);
 
-  /// @brief Method Start, addr 0x6d3ca4c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x6d3db2c, size 0x34, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x6d3d6d0, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x6d3e7b0, size 0x30, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x6d3d6b8, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x6d3e798, size 0x18, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
 
-  /// @brief Method UpdateCameraStack, addr 0x6d3cd64, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method UpdateCameraStack, addr 0x6d3de44, size 0x2c8, virtual false, abstract: false, final false
   inline void UpdateCameraStack();
 
   constexpr bool const& __cordl_internal_get_m_AllowHDROutput() const;
@@ -592,107 +592,107 @@ public:
 
   constexpr void __cordl_internal_set_m_VolumeTrigger(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x6d3c87c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d3d95c, size 0x128, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeStack*>* getStaticF_s_CachedVolumeStacks();
 
   static inline ::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData> getStaticF_s_DefaultAdditionalCameraData();
 
-  /// @brief Method get_allowHDROutput, addr 0x6d3d2e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allowHDROutput, addr 0x6d3e3c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_allowHDROutput();
 
-  /// @brief Method get_allowXRRendering, addr 0x6d3d290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allowXRRendering, addr 0x6d3e370, size 0x8, virtual false, abstract: false, final false
   inline bool get_allowXRRendering();
 
-  /// @brief Method get_antialiasing, addr 0x6d3d1bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_antialiasing, addr 0x6d3e29c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::AntialiasingMode get_antialiasing();
 
-  /// @brief Method get_antialiasingQuality, addr 0x6d3d1cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_antialiasingQuality, addr 0x6d3e2ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::AntialiasingQuality get_antialiasingQuality();
 
-  /// @brief Method get_camera, addr 0x6d3c9a4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_camera, addr 0x6d3da84, size 0xa8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_camera();
 
-  /// @brief Method get_cameraStack, addr 0x6d33984, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method get_cameraStack, addr 0x6d34a64, size 0x1b8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* get_cameraStack();
 
-  /// @brief Method get_clearDepth, addr 0x6d3d02c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clearDepth, addr 0x6d3e10c, size 0x8, virtual false, abstract: false, final false
   inline bool get_clearDepth();
 
-  /// @brief Method get_defaultAdditionalCameraData, addr 0x6d3c7cc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_defaultAdditionalCameraData, addr 0x6d3d8ac, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData> get_defaultAdditionalCameraData();
 
-  /// @brief Method get_dithering, addr 0x6d3d280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dithering, addr 0x6d3e360, size 0x8, virtual false, abstract: false, final false
   inline bool get_dithering();
 
-  /// @brief Method get_history, addr 0x6d3d1e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_history, addr 0x6d3e2c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ICameraHistoryReadAccess* get_history();
 
-  /// @brief Method get_historyManager, addr 0x6d3d1ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_historyManager, addr 0x6d3e2cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::UniversalCameraHistory* get_historyManager();
 
-  /// @brief Method get_motionVectorsPersistentData, addr 0x6d3d1f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_motionVectorsPersistentData, addr 0x6d3e2d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::MotionVectorsPersistentData* get_motionVectorsPersistentData();
 
-  /// @brief Method get_renderPostProcessing, addr 0x6d3d1ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderPostProcessing, addr 0x6d3e28c, size 0x8, virtual false, abstract: false, final false
   inline bool get_renderPostProcessing();
 
-  /// @brief Method get_renderShadows, addr 0x6d3ca80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderShadows, addr 0x6d3db60, size 0x8, virtual false, abstract: false, final false
   inline bool get_renderShadows();
 
-  /// @brief Method get_renderType, addr 0x6d3cab0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderType, addr 0x6d3db90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::CameraRenderType get_renderType();
 
-  /// @brief Method get_requiresColorOption, addr 0x6d3caa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_requiresColorOption, addr 0x6d3db80, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::CameraOverrideOption get_requiresColorOption();
 
-  /// @brief Method get_requiresColorTexture, addr 0x6d3d0d0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_requiresColorTexture, addr 0x6d3e1b0, size 0x84, virtual false, abstract: false, final false
   inline bool get_requiresColorTexture();
 
-  /// @brief Method get_requiresDepthOption, addr 0x6d3ca90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_requiresDepthOption, addr 0x6d3db70, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::CameraOverrideOption get_requiresDepthOption();
 
-  /// @brief Method get_requiresDepthTexture, addr 0x6d3d034, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_requiresDepthTexture, addr 0x6d3e114, size 0x84, virtual false, abstract: false, final false
   inline bool get_requiresDepthTexture();
 
-  /// @brief Method get_requiresVolumeFrameworkUpdate, addr 0x6d3bf4c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_requiresVolumeFrameworkUpdate, addr 0x6d3d02c, size 0x84, virtual false, abstract: false, final false
   inline bool get_requiresVolumeFrameworkUpdate();
 
-  /// @brief Method get_resetHistory, addr 0x6d3d1fc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_resetHistory, addr 0x6d3e2dc, size 0x10, virtual false, abstract: false, final false
   inline bool get_resetHistory();
 
-  /// @brief Method get_screenCoordScaleBias, addr 0x6d3d2c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_screenCoordScaleBias, addr 0x6d3e3a8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_screenCoordScaleBias();
 
-  /// @brief Method get_screenSizeOverride, addr 0x6d3d2b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_screenSizeOverride, addr 0x6d3e390, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_screenSizeOverride();
 
-  /// @brief Method get_scriptableRenderer, addr 0x6d3cac0, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method get_scriptableRenderer, addr 0x6d3dba0, size 0x2a4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::ScriptableRenderer* get_scriptableRenderer();
 
-  /// @brief Method get_stopNaN, addr 0x6d3d270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stopNaN, addr 0x6d3e350, size 0x8, virtual false, abstract: false, final false
   inline bool get_stopNaN();
 
-  /// @brief Method get_taaSettings, addr 0x6d3d1dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_taaSettings, addr 0x6d3e2bc, size 0x8, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::Universal::TemporalAA_Settings> get_taaSettings();
 
-  /// @brief Method get_useScreenCoordOverride, addr 0x6d3d2a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useScreenCoordOverride, addr 0x6d3e380, size 0x8, virtual false, abstract: false, final false
   inline bool get_useScreenCoordOverride();
 
-  /// @brief Method get_version, addr 0x6d3d700, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x6d3e7e0, size 0xc, virtual false, abstract: false, final false
   inline float_t get_version();
 
-  /// @brief Method get_volumeFrameworkUpdateMode, addr 0x6d3d194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_volumeFrameworkUpdateMode, addr 0x6d3e274, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode get_volumeFrameworkUpdateMode();
 
-  /// @brief Method get_volumeLayerMask, addr 0x6d3d174, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_volumeLayerMask, addr 0x6d3e254, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_volumeLayerMask();
 
-  /// @brief Method get_volumeStack, addr 0x6d3d1a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_volumeStack, addr 0x6d3e284, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::VolumeStack* get_volumeStack();
 
-  /// @brief Method get_volumeTrigger, addr 0x6d3d184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_volumeTrigger, addr 0x6d3e264, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_volumeTrigger();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
@@ -705,67 +705,67 @@ public:
 
   static inline void setStaticF_s_DefaultAdditionalCameraData(::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData> value);
 
-  /// @brief Method set_allowHDROutput, addr 0x6d3d2e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_allowHDROutput, addr 0x6d3e3c8, size 0x8, virtual false, abstract: false, final false
   inline void set_allowHDROutput(bool value);
 
-  /// @brief Method set_allowXRRendering, addr 0x6d3d298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_allowXRRendering, addr 0x6d3e378, size 0x8, virtual false, abstract: false, final false
   inline void set_allowXRRendering(bool value);
 
-  /// @brief Method set_antialiasing, addr 0x6d3d1c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_antialiasing, addr 0x6d3e2a4, size 0x8, virtual false, abstract: false, final false
   inline void set_antialiasing(::UnityEngine::Rendering::Universal::AntialiasingMode value);
 
-  /// @brief Method set_antialiasingQuality, addr 0x6d3d1d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_antialiasingQuality, addr 0x6d3e2b4, size 0x8, virtual false, abstract: false, final false
   inline void set_antialiasingQuality(::UnityEngine::Rendering::Universal::AntialiasingQuality value);
 
-  /// @brief Method set_dithering, addr 0x6d3d288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_dithering, addr 0x6d3e368, size 0x8, virtual false, abstract: false, final false
   inline void set_dithering(bool value);
 
-  /// @brief Method set_renderPostProcessing, addr 0x6d3d1b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_renderPostProcessing, addr 0x6d3e294, size 0x8, virtual false, abstract: false, final false
   inline void set_renderPostProcessing(bool value);
 
-  /// @brief Method set_renderShadows, addr 0x6d3ca88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_renderShadows, addr 0x6d3db68, size 0x8, virtual false, abstract: false, final false
   inline void set_renderShadows(bool value);
 
-  /// @brief Method set_renderType, addr 0x6d3cab8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_renderType, addr 0x6d3db98, size 0x8, virtual false, abstract: false, final false
   inline void set_renderType(::UnityEngine::Rendering::Universal::CameraRenderType value);
 
-  /// @brief Method set_requiresColorOption, addr 0x6d3caa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_requiresColorOption, addr 0x6d3db88, size 0x8, virtual false, abstract: false, final false
   inline void set_requiresColorOption(::UnityEngine::Rendering::Universal::CameraOverrideOption value);
 
-  /// @brief Method set_requiresColorTexture, addr 0x6d3d154, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_requiresColorTexture, addr 0x6d3e234, size 0x18, virtual false, abstract: false, final false
   inline void set_requiresColorTexture(bool value);
 
-  /// @brief Method set_requiresDepthOption, addr 0x6d3ca98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_requiresDepthOption, addr 0x6d3db78, size 0x8, virtual false, abstract: false, final false
   inline void set_requiresDepthOption(::UnityEngine::Rendering::Universal::CameraOverrideOption value);
 
-  /// @brief Method set_requiresDepthTexture, addr 0x6d3d0b8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_requiresDepthTexture, addr 0x6d3e198, size 0x18, virtual false, abstract: false, final false
   inline void set_requiresDepthTexture(bool value);
 
-  /// @brief Method set_resetHistory, addr 0x6d3d20c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_resetHistory, addr 0x6d3e2ec, size 0x64, virtual false, abstract: false, final false
   inline void set_resetHistory(bool value);
 
-  /// @brief Method set_screenCoordScaleBias, addr 0x6d3d2d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_screenCoordScaleBias, addr 0x6d3e3b4, size 0xc, virtual false, abstract: false, final false
   inline void set_screenCoordScaleBias(::UnityEngine::Vector4 value);
 
-  /// @brief Method set_screenSizeOverride, addr 0x6d3d2bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_screenSizeOverride, addr 0x6d3e39c, size 0xc, virtual false, abstract: false, final false
   inline void set_screenSizeOverride(::UnityEngine::Vector4 value);
 
-  /// @brief Method set_stopNaN, addr 0x6d3d278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stopNaN, addr 0x6d3e358, size 0x8, virtual false, abstract: false, final false
   inline void set_stopNaN(bool value);
 
-  /// @brief Method set_useScreenCoordOverride, addr 0x6d3d2a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useScreenCoordOverride, addr 0x6d3e388, size 0x8, virtual false, abstract: false, final false
   inline void set_useScreenCoordOverride(bool value);
 
-  /// @brief Method set_volumeFrameworkUpdateMode, addr 0x6d3d19c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_volumeFrameworkUpdateMode, addr 0x6d3e27c, size 0x8, virtual false, abstract: false, final false
   inline void set_volumeFrameworkUpdateMode(::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode value);
 
-  /// @brief Method set_volumeLayerMask, addr 0x6d3d17c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_volumeLayerMask, addr 0x6d3e25c, size 0x8, virtual false, abstract: false, final false
   inline void set_volumeLayerMask(::UnityEngine::LayerMask value);
 
-  /// @brief Method set_volumeStack, addr 0x6d3c504, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method set_volumeStack, addr 0x6d3d5e4, size 0x144, virtual false, abstract: false, final false
   inline void set_volumeStack(::UnityEngine::Rendering::VolumeStack* value);
 
-  /// @brief Method set_volumeTrigger, addr 0x6d3d18c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_volumeTrigger, addr 0x6d3e26c, size 0x8, virtual false, abstract: false, final false
   inline void set_volumeTrigger(::UnityEngine::Transform* value);
 
 protected:

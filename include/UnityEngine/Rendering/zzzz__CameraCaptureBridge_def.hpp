@@ -75,7 +75,7 @@ public:
   constexpr void __cordl_internal_set_cachedEnumerator(
       ::System::Collections::Generic::IEnumerator_1<::System::Action_2<::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::CommandBuffer*>*>* value);
 
-  /// @brief Method .ctor, addr 0x6c15050, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c16130, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -128,32 +128,32 @@ public:
                       put =
                           setStaticF_actionDict)) ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::UnityEngine::Rendering::CameraCaptureBridge_CameraEntry*>* actionDict;
 
-  /// @brief Method AddCaptureAction, addr 0x6c14e48, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method AddCaptureAction, addr 0x6c15f28, size 0x208, virtual false, abstract: false, final false
   static inline void AddCaptureAction(::UnityEngine::Camera* camera, ::System::Action_2<::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::CommandBuffer*>* action);
 
-  /// @brief Method GetCachedCaptureActionsEnumerator, addr 0x6c14cf4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetCachedCaptureActionsEnumerator, addr 0x6c15dd4, size 0x154, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerator_1<::System::Action_2<::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::CommandBuffer*>*>*
   GetCachedCaptureActionsEnumerator(::UnityEngine::Camera* camera);
 
-  /// @brief Method GetCaptureActions, addr 0x6c14bd8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetCaptureActions, addr 0x6c15cb8, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerator_1<::System::Action_2<::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::CommandBuffer*>*>*
   GetCaptureActions(::UnityEngine::Camera* camera);
 
-  /// @brief Method RemoveCaptureAction, addr 0x6c15054, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method RemoveCaptureAction, addr 0x6c16134, size 0x170, virtual false, abstract: false, final false
   static inline void RemoveCaptureAction(::UnityEngine::Camera* camera, ::System::Action_2<::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::CommandBuffer*>* action);
 
   static inline bool getStaticF__enabled();
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::UnityEngine::Rendering::CameraCaptureBridge_CameraEntry*>* getStaticF_actionDict();
 
-  /// @brief Method get_enabled, addr 0x6c14b18, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x6c15bf8, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_enabled();
 
   static inline void setStaticF__enabled(bool value);
 
   static inline void setStaticF_actionDict(::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::UnityEngine::Rendering::CameraCaptureBridge_CameraEntry*>* value);
 
-  /// @brief Method set_enabled, addr 0x6c14b74, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x6c15c54, size 0x64, virtual false, abstract: false, final false
   static inline void set_enabled(bool value);
 
 protected:

@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixParameters::*)(::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Pkix::PkixParameters::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x386bee4;
+  constexpr static std::size_t addrs = 0x387037c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixParameters::*)()>(&::Org::BouncyCastle::Pkix::PkixParameters::get_IsRevocationEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x386c02c;
+  constexpr static std::size_t addrs = 0x38704c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixParameters::*)(bool)>(&::Org::BouncyCastle::Pkix::PkixParameters::set_IsRevocationEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x386c034;
+  constexpr static std::size_t addrs = 0x38704cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixParameters::*)()>(&::Org::BouncyCastle::Pkix::PkixParameters::get_IsExplicitPolicyRequired)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x386c03c;
+  constexpr static std::size_t addrs = 0x38704d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixParameters::*)(bool)>(&::Org::BouncyCastle::Pkix::PkixParameters::set_IsExplicitPolicyRequired)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x386c044;
+  constexpr static std::size_t addrs = 0x38704dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixParameters::*)()>(&::Org::BouncyCastle::Pkix::PkixParameters::get_IsAnyPolicyInhibited)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x386c04c;
+  constexpr static std::size_t addrs = 0x38704e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixParameters::*)(bool)>(&::Org::BouncyCastle::Pkix::PkixParameters::set_IsAnyPolicyInhibited)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x386c054;
+  constexpr static std::size_t addrs = 0x38704ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixParameters::*)()>(&::Org::BouncyCastle::Pkix::PkixParameters::get_IsPolicyMappingInhibited)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x386c05c;
+  constexpr static std::size_t addrs = 0x38704f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixParameters::*)(bool)>(&::Org::BouncyCastle::Pkix::PkixParameters::set_IsPolicyMappingInhibited)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x386c064;
+  constexpr static std::size_t addrs = 0x38704fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixParameters::*)()>(&::Org::BouncyCastle::Pkix::PkixParameters::get_IsPolicyQualifiersRejected)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x386c06c;
+  constexpr static std::size_t addrs = 0x3870504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixParameters::*)(bool)>(&::Org::BouncyCastle::Pkix::PkixParameters::set_IsPolicyQualifiersRejected)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x386c074;
+  constexpr static std::size_t addrs = 0x387050c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Utilities::Date::DateTimeObject* (::Org::BouncyCastle::Pkix::PkixParameters::*)()>(
     &::Org::BouncyCastle::Pkix::PkixParameters::get_Date)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x386c07c;
+  constexpr static std::size_t addrs = 0x3870514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixParameters::*)(::Org::BouncyCastle::Utilities::Date::DateTimeObject*)>(
     &::Org::BouncyCastle::Pkix::PkixParameters::set_Date)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x386c084;
+  constexpr static std::size_t addrs = 0x387051c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (::Org::BouncyCastle::Pkix::PkixParameters::*)()>(
     &::Org::BouncyCastle::Pkix::PkixParameters::GetTrustAnchors)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x386c08c;
+  constexpr static std::size_t addrs = 0x3870524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixParameters::*)(::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Pkix::PkixParameters::SetTrustAnchors)> {
   constexpr static std::size_t size = 0x4b4;
-  constexpr static std::size_t addrs = 0x386c0f0;
+  constexpr static std::size_t addrs = 0x3870588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::X509::Store::X509CertStoreSelector* (::Org::BouncyCastle::Pkix::PkixParameters::*)()>(
     &::Org::BouncyCastle::Pkix::PkixParameters::GetTargetCertConstraints)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x386c5a4;
+  constexpr static std::size_t addrs = 0x3870a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixParameters::*)(::Org::BouncyCastle::X509::Store::IX509Selector*)>(
     &::Org::BouncyCastle::Pkix::PkixParameters::SetTargetCertConstraints)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x386c69c;
+  constexpr static std::size_t addrs = 0x3870b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (::Org::BouncyCastle::Pkix::PkixParameters::*)()>(
     &::Org::BouncyCastle::Pkix::PkixParameters::GetInitialPolicies)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x386c7a0;
+  constexpr static std::size_t addrs = 0x3870c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixParameters::*)(::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Pkix::PkixParameters::SetInitialPolicies)> {
   constexpr static std::size_t size = 0x394;
-  constexpr static std::size_t addrs = 0x386c81c;
+  constexpr static std::size_t addrs = 0x3870cb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixParameters::*)(::System::Collections::IList*)>(
     &::Org::BouncyCastle::Pkix::PkixParameters::SetCertPathCheckers)> {
   constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x386cbb0;
+  constexpr static std::size_t addrs = 0x3871048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IList* (::Org::BouncyCastle::Pkix::PkixParameters::*)()>(
     &::Org::BouncyCastle::Pkix::PkixParameters::GetCertPathCheckers)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x386cf88;
+  constexpr static std::size_t addrs = 0x3871420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixParameters::*)(::Org::BouncyCastle::Pkix::PkixCertPathChecker*)>(
     &::Org::BouncyCastle::Pkix::PkixParameters::AddCertPathChecker)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x386d358;
+  constexpr static std::size_t addrs = 0x38717f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -314,7 +314,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Org::BouncyCastle::Pkix::PkixParameters::*)()>(&::Org::BouncyCastle::Pkix::PkixParameters::Clone)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x386d438;
+  constexpr static std::size_t addrs = 0x38718d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -328,7 +328,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixParameters::*)(::Org::BouncyCastle::Pkix::PkixParameters*)>(
     &::Org::BouncyCastle::Pkix::PkixParameters::SetParams)> {
   constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x386d4d0;
+  constexpr static std::size_t addrs = 0x3871968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -341,7 +341,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixParameters::*)()>(&::Org::BouncyCastle::Pkix::PkixParameters::get_IsUseDeltasEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x386d878;
+  constexpr static std::size_t addrs = 0x3871d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -354,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixParameters::*)(bool)>(&::Org::BouncyCastle::Pkix::PkixParameters::set_IsUseDeltasEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x386d880;
+  constexpr static std::size_t addrs = 0x3871d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -367,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Pkix::PkixParameters::*)()>(&::Org::BouncyCastle::Pkix::PkixParameters::get_ValidityModel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x386d888;
+  constexpr static std::size_t addrs = 0x3871d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -380,7 +380,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixParameters::*)(int32_t)>(&::Org::BouncyCastle::Pkix::PkixParameters::set_ValidityModel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x386d890;
+  constexpr static std::size_t addrs = 0x3871d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -393,7 +393,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixParameters::*)(::System::Collections::IList*)>(&::Org::BouncyCastle::Pkix::PkixParameters::SetStores)> {
   constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x386d898;
+  constexpr static std::size_t addrs = 0x3871d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -407,7 +407,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixParameters::*)(::Org::BouncyCastle::X509::Store::IX509Store*)>(
     &::Org::BouncyCastle::Pkix::PkixParameters::AddStore)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x386dca4;
+  constexpr static std::size_t addrs = 0x387213c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -421,7 +421,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixParameters::*)(::Org::BouncyCastle::X509::Store::IX509Store*)>(
     &::Org::BouncyCastle::Pkix::PkixParameters::AddAdditionalStore)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x386dd70;
+  constexpr static std::size_t addrs = 0x3872208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -435,7 +435,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IList* (::Org::BouncyCastle::Pkix::PkixParameters::*)()>(
     &::Org::BouncyCastle::Pkix::PkixParameters::GetAdditionalStores)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x386de3c;
+  constexpr static std::size_t addrs = 0x38722d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -448,7 +448,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IList* (::Org::BouncyCastle::Pkix::PkixParameters::*)()>(&::Org::BouncyCastle::Pkix::PkixParameters::GetStores)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x386de9c;
+  constexpr static std::size_t addrs = 0x3872334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -461,7 +461,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixParameters::*)()>(&::Org::BouncyCastle::Pkix::PkixParameters::get_IsAdditionalLocationsEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x386defc;
+  constexpr static std::size_t addrs = 0x3872394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -474,7 +474,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixParameters::*)(bool)>(&::Org::BouncyCastle::Pkix::PkixParameters::SetAdditionalLocationsEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x386df04;
+  constexpr static std::size_t addrs = 0x387239c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -488,7 +488,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::X509::Store::IX509Selector* (::Org::BouncyCastle::Pkix::PkixParameters::*)()>(
     &::Org::BouncyCastle::Pkix::PkixParameters::GetTargetConstraints)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x386df0c;
+  constexpr static std::size_t addrs = 0x38723a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -502,7 +502,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixParameters::*)(::Org::BouncyCastle::X509::Store::IX509Selector*)>(
     &::Org::BouncyCastle::Pkix::PkixParameters::SetTargetConstraints)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x386dff4;
+  constexpr static std::size_t addrs = 0x387248c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -516,7 +516,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (::Org::BouncyCastle::Pkix::PkixParameters::*)()>(
     &::Org::BouncyCastle::Pkix::PkixParameters::GetTrustedACIssuers)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x386e0f8;
+  constexpr static std::size_t addrs = 0x3872590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -530,7 +530,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixParameters::*)(::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Pkix::PkixParameters::SetTrustedACIssuers)> {
   constexpr static std::size_t size = 0x440;
-  constexpr static std::size_t addrs = 0x386e15c;
+  constexpr static std::size_t addrs = 0x38725f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -544,7 +544,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (::Org::BouncyCastle::Pkix::PkixParameters::*)()>(
     &::Org::BouncyCastle::Pkix::PkixParameters::GetNecessaryACAttributes)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x386e59c;
+  constexpr static std::size_t addrs = 0x3872a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -558,7 +558,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixParameters::*)(::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Pkix::PkixParameters::SetNecessaryACAttributes)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x386e600;
+  constexpr static std::size_t addrs = 0x3872a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -572,7 +572,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (::Org::BouncyCastle::Pkix::PkixParameters::*)()>(
     &::Org::BouncyCastle::Pkix::PkixParameters::GetProhibitedACAttributes)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x386e988;
+  constexpr static std::size_t addrs = 0x3872e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -586,7 +586,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixParameters::*)(::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Pkix::PkixParameters::SetProhibitedACAttributes)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x386e9ec;
+  constexpr static std::size_t addrs = 0x3872e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -600,7 +600,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (::Org::BouncyCastle::Pkix::PkixParameters::*)()>(
     &::Org::BouncyCastle::Pkix::PkixParameters::GetAttrCertCheckers)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x386ed74;
+  constexpr static std::size_t addrs = 0x387320c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -614,7 +614,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixParameters::*)(::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Pkix::PkixParameters::SetAttrCertCheckers)> {
   constexpr static std::size_t size = 0x440;
-  constexpr static std::size_t addrs = 0x386edd8;
+  constexpr static std::size_t addrs = 0x3873270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

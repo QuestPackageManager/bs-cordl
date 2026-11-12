@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerUtcTime* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::DerUtcTime::GetInstance)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x393d904;
+  constexpr static std::size_t addrs = 0x3941d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerUtcTime* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::DerUtcTime::GetInstance)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x393d9f0;
+  constexpr static std::size_t addrs = 0x3941e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerUtcTime::*)(::StringW)>(&::Org::BouncyCastle::Asn1::DerUtcTime::_ctor)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x393db20;
+  constexpr static std::size_t addrs = 0x3941fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerUtcTime::*)(::System::DateTime)>(&::Org::BouncyCastle::Asn1::DerUtcTime::_ctor)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x393dcc0;
+  constexpr static std::size_t addrs = 0x3942158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerUtcTime::*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Asn1::DerUtcTime::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3930680;
+  constexpr static std::size_t addrs = 0x3934b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::Org::BouncyCastle::Asn1::DerUtcTime::*)()>(&::Org::BouncyCastle::Asn1::DerUtcTime::ToDateTime)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x393dc6c;
+  constexpr static std::size_t addrs = 0x3942104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DerUtcTime*>(), { "ToDateTime", {}, {} })));
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::Org::BouncyCastle::Asn1::DerUtcTime::*)()>(&::Org::BouncyCastle::Asn1::DerUtcTime::ToAdjustedDateTime)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x393e16c;
+  constexpr static std::size_t addrs = 0x3942604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DerUtcTime*>(), { "ToAdjustedDateTime", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::Org::BouncyCastle::Asn1::DerUtcTime::*)(::StringW, ::StringW)>(&::Org::BouncyCastle::Asn1::DerUtcTime::ParseDateString)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x393e0b0;
+  constexpr static std::size_t addrs = 0x3942548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Asn1::DerUtcTime::*)()>(&::Org::BouncyCastle::Asn1::DerUtcTime::get_TimeString)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x393ddac;
+  constexpr static std::size_t addrs = 0x3942244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DerUtcTime*>(), { "get_TimeString", {}, {} })));
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Asn1::DerUtcTime::*)()>(&::Org::BouncyCastle::Asn1::DerUtcTime::get_AdjustedTime)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x393e260;
+  constexpr static std::size_t addrs = 0x39426f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DerUtcTime*>(), { "get_AdjustedTime", {}, {} })));
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Asn1::DerUtcTime::*)()>(&::Org::BouncyCastle::Asn1::DerUtcTime::get_AdjustedTimeString)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x393e1c0;
+  constexpr static std::size_t addrs = 0x3942658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DerUtcTime*>(), { "get_AdjustedTimeString", {}, {} })));
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Asn1::DerUtcTime::*)()>(&::Org::BouncyCastle::Asn1::DerUtcTime::GetOctets)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x393e264;
+  constexpr static std::size_t addrs = 0x39426fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DerUtcTime*>(), { "GetOctets", {}, {} })));
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerUtcTime::*)(::Org::BouncyCastle::Asn1::DerOutputStream*)>(&::Org::BouncyCastle::Asn1::DerUtcTime::Encode)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x393e270;
+  constexpr static std::size_t addrs = 0x3942708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Asn1::DerUtcTime::*)(::Org::BouncyCastle::Asn1::Asn1Object*)>(&::Org::BouncyCastle::Asn1::DerUtcTime::Asn1Equals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x393e2a0;
+  constexpr static std::size_t addrs = 0x3942738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::DerUtcTime::*)()>(&::Org::BouncyCastle::Asn1::DerUtcTime::Asn1GetHashCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x393e348;
+  constexpr static std::size_t addrs = 0x39427e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Asn1::DerUtcTime::*)()>(&::Org::BouncyCastle::Asn1::DerUtcTime::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x393e35c;
+  constexpr static std::size_t addrs = 0x39427f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

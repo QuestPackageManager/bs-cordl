@@ -22,7 +22,7 @@ namespace UnityEngine {
 struct CORDL_TYPE MeshLodRange {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x6f4ac48, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6f4bd28, size 0xb4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []

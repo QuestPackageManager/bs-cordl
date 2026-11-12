@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Sockets::AddressFamily (::System::Net::EndPoint::*)()>(&::System::Net::EndPoint::get_AddressFamily)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x68709c0;
+  constexpr static std::size_t addrs = 0x6871010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::EndPoint*>(), { ::i2c::class_of<::System::Net::EndPoint*>(), 4 }));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::SocketAddress* (::System::Net::EndPoint::*)()>(&::System::Net::EndPoint::Serialize)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6870a68;
+  constexpr static std::size_t addrs = 0x68710b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::EndPoint*>(), { ::i2c::class_of<::System::Net::EndPoint*>(), 5 }));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::EndPoint* (::System::Net::EndPoint::*)(::System::Net::SocketAddress*)>(&::System::Net::EndPoint::Create)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6870b10;
+  constexpr static std::size_t addrs = 0x6871160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::EndPoint*>(), { ::i2c::class_of<::System::Net::EndPoint*>(), 6 }));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::EndPoint::*)()>(&::System::Net::EndPoint::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6870b34;
+  constexpr static std::size_t addrs = 0x6871184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::EndPoint*>(), { ".ctor", {}, {} })));

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithAppDownloadProgressResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithAppDownloadProgressResult::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x622d5c8;
+  constexpr static std::size_t addrs = 0x622d850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AppDownloadProgressResult* (::Oculus::Platform::MessageWithAppDownloadProgressResult::*)()>(
     &::Oculus::Platform::MessageWithAppDownloadProgressResult::GetAppDownloadProgressResult)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x622fdd8;
+  constexpr static std::size_t addrs = 0x6230060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::MessageWithAppDownloadProgressResult*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AppDownloadProgressResult* (::Oculus::Platform::MessageWithAppDownloadProgressResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithAppDownloadProgressResult::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x622fe1c;
+  constexpr static std::size_t addrs = 0x62300a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::MessageWithAppDownloadProgressResult*>(),

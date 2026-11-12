@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::PaniniProjection::*)()>(&::UnityEngine::Rendering::Universal::PaniniProjection::IsActive)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6cfb3d0;
+  constexpr static std::size_t addrs = 0x6cfc4b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PaniniProjection*>(), { "IsActive", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::PaniniProjection::*)()>(&::UnityEngine::Rendering::Universal::PaniniProjection::IsTileCompatible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cfb400;
+  constexpr static std::size_t addrs = 0x6cfc4e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PaniniProjection*>(), { "IsTileCompatible", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PaniniProjection::*)()>(&::UnityEngine::Rendering::Universal::PaniniProjection::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6cfb408;
+  constexpr static std::size_t addrs = 0x6cfc4e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PaniniProjection*>(), { ".ctor", {}, {} })));

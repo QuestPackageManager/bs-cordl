@@ -38,10 +38,10 @@ public:
   /// @brief Field data, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::StringW data;
 
-  /// @brief Method CheckOnData, addr 0x671f390, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method CheckOnData, addr 0x671f9e0, size 0x38, virtual false, abstract: false, final false
   inline bool CheckOnData(::StringW data);
 
-  /// @brief Method DecideXPNodeTypeForTextNodes, addr 0x671f3c8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method DecideXPNodeTypeForTextNodes, addr 0x671fa18, size 0xd8, virtual false, abstract: false, final false
   inline bool DecideXPNodeTypeForTextNodes(::System::Xml::XmlNode* node, ::by_ref<::System::Xml::XPath::XPathNodeType> xnt);
 
   static inline ::System::Xml::XmlCharacterData* New_ctor(::StringW data, ::System::Xml::XmlDocument* doc);
@@ -52,25 +52,25 @@ public:
 
   constexpr void __cordl_internal_set_data(::StringW value);
 
-  /// @brief Method .ctor, addr 0x671f090, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x671f6e0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW data, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_Data, addr 0x671f2d0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Data, addr 0x671f920, size 0x20, virtual true, abstract: false, final false
   inline ::StringW get_Data();
 
-  /// @brief Method get_InnerText, addr 0x671f2b8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_InnerText, addr 0x671f908, size 0xc, virtual true, abstract: false, final false
   inline ::StringW get_InnerText();
 
-  /// @brief Method get_Value, addr 0x671f298, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x671f8e8, size 0x10, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Data, addr 0x671f2f0, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method set_Data, addr 0x671f940, size 0xa0, virtual true, abstract: false, final false
   inline void set_Data(::StringW value);
 
-  /// @brief Method set_InnerText, addr 0x671f2c4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method set_InnerText, addr 0x671f914, size 0xc, virtual true, abstract: false, final false
   inline void set_InnerText(::StringW value);
 
-  /// @brief Method set_Value, addr 0x671f2a8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x671f8f8, size 0x10, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:

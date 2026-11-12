@@ -21,13 +21,13 @@ namespace System::Net::Mail {
 class CORDL_TYPE QuotedStringFormatReader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValidQtext, addr 0x67d4a0c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method IsValidQtext, addr 0x67d505c, size 0xbc, virtual false, abstract: false, final false
   static inline bool IsValidQtext(bool allowUnicode, char16_t ch);
 
-  /// @brief Method ReadReverseQuoted, addr 0x67d45e8, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ReadReverseQuoted, addr 0x67d4c38, size 0x1bc, virtual false, abstract: false, final false
   static inline int32_t ReadReverseQuoted(::StringW data, int32_t index, bool permitUnicode);
 
-  /// @brief Method ReadReverseUnQuoted, addr 0x67d47a4, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method ReadReverseUnQuoted, addr 0x67d4df4, size 0x19c, virtual false, abstract: false, final false
   static inline int32_t ReadReverseUnQuoted(::StringW data, int32_t index, bool permitUnicode, bool expectCommaDelimiter);
 
 protected:

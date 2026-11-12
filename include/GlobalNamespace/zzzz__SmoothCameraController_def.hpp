@@ -26,28 +26,38 @@ namespace GlobalNamespace {
 class CORDL_TYPE SmoothCameraController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief Field _isOverriddenByExternalCamera, offset 0x30, size 0x1
+  __declspec(property(get = __cordl_internal_get__isOverriddenByExternalCamera, put = __cordl_internal_set__isOverriddenByExternalCamera)) bool _isOverriddenByExternalCamera;
+
   /// @brief Field _settingsManager, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsManager, put = __cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager* _settingsManager;
 
   /// @brief Field _smoothCamera, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__smoothCamera, put = __cordl_internal_set__smoothCamera)) ::UnityW<::GlobalNamespace::SmoothCamera> _smoothCamera;
 
-  /// @brief Method ActivateSmoothCameraIfNeeded, addr 0x5e4faa8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ActivateSmoothCameraIfNeeded, addr 0x5e4fed8, size 0x98, virtual false, abstract: false, final false
   inline void ActivateSmoothCameraIfNeeded();
 
-  /// @brief Method HandleDidActivate, addr 0x5e4fb38, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleDidActivate, addr 0x5e4ff9c, size 0x40, virtual false, abstract: false, final false
   inline void HandleDidActivate();
 
-  /// @brief Method HandleDidDeactivate, addr 0x5e4fb78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleDidDeactivate, addr 0x5e4ffdc, size 0x4, virtual false, abstract: false, final false
   inline void HandleDidDeactivate();
 
   static inline ::GlobalNamespace::SmoothCameraController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5e4fb34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5e4ff70, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x5e4faa4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetOverrideWithExternalCamera, addr 0x5e4ff74, size 0x28, virtual false, abstract: false, final false
+  inline void SetOverrideWithExternalCamera(bool isOverridden);
+
+  /// @brief Method Start, addr 0x5e4fed4, size 0x4, virtual false, abstract: false, final false
   inline void Start();
+
+  constexpr bool const& __cordl_internal_get__isOverriddenByExternalCamera() const;
+
+  constexpr bool& __cordl_internal_get__isOverriddenByExternalCamera();
 
   constexpr ::GlobalNamespace::SettingsManager* const& __cordl_internal_get__settingsManager() const;
 
@@ -57,11 +67,13 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::SmoothCamera>& __cordl_internal_get__smoothCamera();
 
+  constexpr void __cordl_internal_set__isOverriddenByExternalCamera(bool value);
+
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
   constexpr void __cordl_internal_set__smoothCamera(::UnityW<::GlobalNamespace::SmoothCamera> value);
 
-  /// @brief Method .ctor, addr 0x5e4fb7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e4ffe0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -79,7 +91,7 @@ public:
   SmoothCameraController(SmoothCameraController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6397 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6398 };
 
   /// [SerializeField]
   /// @brief Field _smoothCamera, offset: 0x20, size: 0x8, def value: None
@@ -89,6 +101,9 @@ public:
   /// @brief Field _settingsManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
+  /// @brief Field _isOverriddenByExternalCamera, offset: 0x30, size: 0x1, def value: None
+  bool ____isOverriddenByExternalCamera;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -96,6 +111,8 @@ static_assert(offsetof(::GlobalNamespace::SmoothCameraController, ____smoothCame
 
 static_assert(offsetof(::GlobalNamespace::SmoothCameraController, ____settingsManager) == 0x28, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::SmoothCameraController) == 0x30, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SmoothCameraController, ____isOverriddenByExternalCamera) == 0x30, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::SmoothCameraController) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace

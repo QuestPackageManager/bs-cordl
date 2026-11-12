@@ -34,18 +34,18 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE ScaleFunc : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6c04e14, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6c05ef4, size 0x88, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::Vector2Int size, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x6c04e9c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6c05f7c, size 0x24, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2Int EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x6c04e00, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6c05ee0, size 0x14, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2Int Invoke(::UnityEngine::Vector2Int size);
 
   static inline ::UnityEngine::Rendering::ScaleFunc* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6c04d94, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c05e74, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

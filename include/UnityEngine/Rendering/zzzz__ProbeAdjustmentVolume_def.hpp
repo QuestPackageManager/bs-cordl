@@ -399,10 +399,10 @@ public:
 
   static inline ::UnityEngine::Rendering::ProbeAdjustmentVolume* New_ctor();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x6bdfc34, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x6be0d14, size 0x44, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x6bdfc1c, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x6be0cfc, size 0x18, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
 
   constexpr int32_t const& __cordl_internal_get_directSampleCount() const;
@@ -549,7 +549,7 @@ public:
 
   constexpr void __cordl_internal_set_virtualOffsetThreshold(float_t value);
 
-  /// @brief Method .ctor, addr 0x6bdb364, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bdc444, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"

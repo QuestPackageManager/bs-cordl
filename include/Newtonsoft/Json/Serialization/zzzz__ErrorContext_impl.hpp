@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::ErrorContext::*)(::System::Object*, ::System::Object*, ::StringW, ::System::Exception*)>(
     &::Newtonsoft::Json::Serialization::ErrorContext::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6197464;
+  constexpr static std::size_t addrs = 0x61976ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Serialization::ErrorContext::*)()>(&::Newtonsoft::Json::Serialization::ErrorContext::get_Traced)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6197470;
+  constexpr static std::size_t addrs = 0x61976f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::ErrorContext*>(), { "get_Traced", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::ErrorContext::*)(bool)>(&::Newtonsoft::Json::Serialization::ErrorContext::set_Traced)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6197478;
+  constexpr static std::size_t addrs = 0x6197700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::Newtonsoft::Json::Serialization::ErrorContext::*)()>(&::Newtonsoft::Json::Serialization::ErrorContext::get_Error)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6197480;
+  constexpr static std::size_t addrs = 0x6197708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::ErrorContext*>(), { "get_Error", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Newtonsoft::Json::Serialization::ErrorContext::*)()>(
     &::Newtonsoft::Json::Serialization::ErrorContext::get_OriginalObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6197488;
+  constexpr static std::size_t addrs = 0x6197710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::ErrorContext*>(), { "get_OriginalObject", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Newtonsoft::Json::Serialization::ErrorContext::*)()>(&::Newtonsoft::Json::Serialization::ErrorContext::get_Member)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6197490;
+  constexpr static std::size_t addrs = 0x6197718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::ErrorContext*>(), { "get_Member", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Newtonsoft::Json::Serialization::ErrorContext::*)()>(&::Newtonsoft::Json::Serialization::ErrorContext::get_Path)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6197498;
+  constexpr static std::size_t addrs = 0x6197720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::ErrorContext*>(), { "get_Path", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Serialization::ErrorContext::*)()>(&::Newtonsoft::Json::Serialization::ErrorContext::get_Handled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61974a0;
+  constexpr static std::size_t addrs = 0x6197728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::ErrorContext*>(), { "get_Handled", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::ErrorContext::*)(bool)>(&::Newtonsoft::Json::Serialization::ErrorContext::set_Handled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61974a8;
+  constexpr static std::size_t addrs = 0x6197730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

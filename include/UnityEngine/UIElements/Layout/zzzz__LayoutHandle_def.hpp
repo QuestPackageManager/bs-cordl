@@ -24,19 +24,19 @@ namespace UnityEngine::UIElements::Layout {
 struct CORDL_TYPE LayoutHandle {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x71cfe8c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x71d0f6c, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x71cfe64, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x71d0f44, size 0x28, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::UIElements::Layout::LayoutHandle other);
 
-  /// @brief Method GetHashCode, addr 0x71cff18, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x71d0ff8, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x71cfe5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71d0f3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, int32_t version);
 
-  /// @brief Method get_Undefined, addr 0x71cfc5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Undefined, addr 0x71d0d3c, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Layout::LayoutHandle get_Undefined();
 
   // Ctor Parameters []

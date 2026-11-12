@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set_creatorType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x687353c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6873b8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW P, ::System::Net::IWebRequestCreate* C);
 
-  /// @brief Method get_Creator, addr 0x687334c, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method get_Creator, addr 0x687399c, size 0x1e8, virtual false, abstract: false, final false
   inline ::System::Net::IWebRequestCreate* get_Creator();
 
-  /// @brief Method set_Creator, addr 0x6873534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Creator, addr 0x6873b84, size 0x8, virtual false, abstract: false, final false
   inline void set_Creator(::System::Net::IWebRequestCreate* value);
 
 protected:

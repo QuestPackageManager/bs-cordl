@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::ProductInfoHeaderValue::*)(::System::Net::Http::Headers::ProductHeaderValue*)>(
     &::System::Net::Http::Headers::ProductInfoHeaderValue::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x654699c;
+  constexpr static std::size_t addrs = 0x6546fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::ProductInfoHeaderValue*>(),
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::ProductInfoHeaderValue::*)()>(&::System::Net::Http::Headers::ProductInfoHeaderValue::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65469e0;
+  constexpr static std::size_t addrs = 0x6547030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::ProductInfoHeaderValue*>(), { ".ctor", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::Http::Headers::ProductInfoHeaderValue::*)()>(&::System::Net::Http::Headers::ProductInfoHeaderValue::get_Comment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65469e4;
+  constexpr static std::size_t addrs = 0x6547034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::ProductInfoHeaderValue*>(), { "get_Comment", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::ProductInfoHeaderValue::*)(::StringW)>(&::System::Net::Http::Headers::ProductInfoHeaderValue::set_Comment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65469ec;
+  constexpr static std::size_t addrs = 0x654703c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Http::Headers::ProductHeaderValue* (::System::Net::Http::Headers::ProductInfoHeaderValue::*)()>(
     &::System::Net::Http::Headers::ProductInfoHeaderValue::get_Product)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65469f4;
+  constexpr static std::size_t addrs = 0x6547044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::ProductInfoHeaderValue*>(), { "get_Product", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::ProductInfoHeaderValue::*)(::System::Net::Http::Headers::ProductHeaderValue*)>(
     &::System::Net::Http::Headers::ProductInfoHeaderValue::set_Product)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65469fc;
+  constexpr static std::size_t addrs = 0x654704c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::ProductInfoHeaderValue*>(),
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Net::Http::Headers::ProductInfoHeaderValue::*)()>(
     &::System::Net::Http::Headers::ProductInfoHeaderValue::System_ICloneable_Clone)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6546a04;
+  constexpr static std::size_t addrs = 0x6547054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Http::Headers::ProductInfoHeaderValue::*)(::System::Object*)>(
     &::System::Net::Http::Headers::ProductInfoHeaderValue::Equals)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6546a08;
+  constexpr static std::size_t addrs = 0x6547058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::ProductInfoHeaderValue*>(),
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Http::Headers::ProductInfoHeaderValue::*)()>(&::System::Net::Http::Headers::ProductInfoHeaderValue::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6546ac8;
+  constexpr static std::size_t addrs = 0x6547118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::ProductInfoHeaderValue*>(),
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, int32_t, ::by_ref<::System::Collections::Generic::List_1<::System::Net::Http::Headers::ProductInfoHeaderValue*>*>)>(
     &::System::Net::Http::Headers::ProductInfoHeaderValue::TryParse)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x6546af0;
+  constexpr static std::size_t addrs = 0x6547140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Net::Http::Headers::Lexer*, ::by_ref<::System::Net::Http::Headers::ProductInfoHeaderValue*>)>(
     &::System::Net::Http::Headers::ProductInfoHeaderValue::TryParseElement)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x6546ca4;
+  constexpr static std::size_t addrs = 0x65472f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::Http::Headers::ProductInfoHeaderValue::*)()>(&::System::Net::Http::Headers::ProductInfoHeaderValue::ToString)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6546e80;
+  constexpr static std::size_t addrs = 0x65474d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::ProductInfoHeaderValue*>(),

@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController__TryExecuteCommand_d__22::*)()>(
     &::GlobalNamespace::TerminalController__TryExecuteCommand_d__22::MoveNext)> {
   constexpr static std::size_t size = 0x678;
-  constexpr static std::size_t addrs = 0x359510c;
+  constexpr static std::size_t addrs = 0x35982cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController__TryExecuteCommand_d__22>(), { "MoveNext", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController__TryExecuteCommand_d__22::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::TerminalController__TryExecuteCommand_d__22::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3595784;
+  constexpr static std::size_t addrs = 0x3598944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController__TryExecuteCommand_d__22>(),
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController__TryExecuteCommands_d__14::*)()>(
     &::GlobalNamespace::TerminalController__TryExecuteCommands_d__14::MoveNext)> {
   constexpr static std::size_t size = 0x614;
-  constexpr static std::size_t addrs = 0x35957f0;
+  constexpr static std::size_t addrs = 0x35989b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController__TryExecuteCommands_d__14::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::TerminalController__TryExecuteCommands_d__14::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3595e04;
+  constexpr static std::size_t addrs = 0x3598fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController__TryExecuteCommands_d__14>(),
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalNamespace::TerminalController::Init)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x35934d0;
+  constexpr static std::size_t addrs = 0x3596690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController*>(), { "Init", {}, {} })));
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController::*)()>(&::GlobalNamespace::TerminalController::Initialize)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3593560;
+  constexpr static std::size_t addrs = 0x3596720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController*>(), { "Initialize", {}, {} })));
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController::*)(::StringW)>(&::GlobalNamespace::TerminalController::HandleLaunchParameters)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3594028;
+  constexpr static std::size_t addrs = 0x35971e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController::*)()>(&::GlobalNamespace::TerminalController::Dispose)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3594124;
+  constexpr static std::size_t addrs = 0x35972e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController*>(), { "Dispose", {}, {} })));
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController::*)()>(&::GlobalNamespace::TerminalController::Tick)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35941d4;
+  constexpr static std::size_t addrs = 0x3597394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController*>(), { "Tick", {}, {} })));
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::TerminalController::*)()>(&::GlobalNamespace::TerminalController::TryExecuteCommands)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3594294;
+  constexpr static std::size_t addrs = 0x3597454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController*>(), { "TryExecuteCommands", {}, {} })));
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController::*)(::StringW)>(&::GlobalNamespace::TerminalController::QueueNewInput)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x359409c;
+  constexpr static std::size_t addrs = 0x359725c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -242,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController::*)(::StringW)>(&::GlobalNamespace::TerminalController::QueueNewInputFirst)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3594348;
+  constexpr static std::size_t addrs = 0x3597508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController::*)()>(&::GlobalNamespace::TerminalController::ClearCommandQueue)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x358c6d0;
+  constexpr static std::size_t addrs = 0x358f900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController*>(), { "ClearCommandQueue", {}, {} })));
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::CommandNode*> (::GlobalNamespace::TerminalController::*)(::StringW, bool)>(
     &::GlobalNamespace::TerminalController::FindAutocompleteNode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x35943d0;
+  constexpr static std::size_t addrs = 0x3597590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::AutocompleteResult (::GlobalNamespace::TerminalController::*)(::StringW)>(
     &::GlobalNamespace::TerminalController::TryFindAutocompleteText)> {
   constexpr static std::size_t size = 0x47c;
-  constexpr static std::size_t addrs = 0x35943ec;
+  constexpr static std::size_t addrs = 0x35975ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -295,7 +295,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::TerminalController::*)(::StringW)>(&::GlobalNamespace::TerminalController::IsArgumentName)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3594868;
+  constexpr static std::size_t addrs = 0x3597a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -308,7 +308,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::TerminalController::*)(::StringW)>(&::GlobalNamespace::TerminalController::IsArgumentValue)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3594898;
+  constexpr static std::size_t addrs = 0x3597a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -322,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::GlobalNamespace::TerminalController::*)(::StringW, ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(&::GlobalNamespace::TerminalController::TryExecuteCommand)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x35948d8;
+  constexpr static std::size_t addrs = 0x3597a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -338,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ConsoleMessage (::GlobalNamespace::TerminalController::*)(::StringW)>(
     &::GlobalNamespace::TerminalController::CommandNotFoundMessage)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x35949a0;
+  constexpr static std::size_t addrs = 0x3597b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -351,7 +351,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::TerminalController::*)(::StringW)>(&::GlobalNamespace::TerminalController::StripExtraWhitespace)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3594a14;
+  constexpr static std::size_t addrs = 0x3597bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -365,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController::*)(::ArrayW<::GlobalNamespace::ConsoleCommandBase*>)>(
     &::GlobalNamespace::TerminalController::FillDictOfCommands)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3593eb0;
+  constexpr static std::size_t addrs = 0x3597070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController*>(),
@@ -379,7 +379,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController::*)(::ArrayW<::GlobalNamespace::ConsoleCommandBase*>)>(
     &::GlobalNamespace::TerminalController::GenerateCommandTree)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3593fb4;
+  constexpr static std::size_t addrs = 0x3597174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController*>(),
@@ -392,7 +392,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController::*)(::GlobalNamespace::ConsoleCommandBase*)>(&::GlobalNamespace::TerminalController::CheckCommand)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3594b10;
+  constexpr static std::size_t addrs = 0x3597cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -406,7 +406,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ConsoleCommandBase*>* (::GlobalNamespace::TerminalController::*)()>(
     &::GlobalNamespace::TerminalController::GetAllConsoleCommandInstances)> {
   constexpr static std::size_t size = 0x818;
-  constexpr static std::size_t addrs = 0x3593698;
+  constexpr static std::size_t addrs = 0x3596858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController*>(), { "GetAllConsoleCommandInstances", {}, {} })));
@@ -418,7 +418,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::TerminalController::*)(::System::Type*)>(&::GlobalNamespace::TerminalController::IsCommandClass)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3594c50;
+  constexpr static std::size_t addrs = 0x3597e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -432,7 +432,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyDictionary_2<::StringW, ::GlobalNamespace::ConsoleCommandBase*>* (
     ::GlobalNamespace::TerminalController::*)()>(&::GlobalNamespace::TerminalController::GetCommands)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3594d80;
+  constexpr static std::size_t addrs = 0x3597f40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController*>(), { "GetCommands", {}, {} })));
@@ -445,7 +445,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ConsoleCommandBase* (::GlobalNamespace::TerminalController::*)(::StringW)>(
     &::GlobalNamespace::TerminalController::GetCommand)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3594d88;
+  constexpr static std::size_t addrs = 0x3597f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -458,7 +458,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController::*)(::GlobalNamespace::ConsoleMessage)>(&::GlobalNamespace::TerminalController::DisplayMessage)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x358c9bc;
+  constexpr static std::size_t addrs = 0x358fbec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -472,7 +472,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController::*)(::StringW, ::StringW, ::UnityEngine::LogType)>(
     &::GlobalNamespace::TerminalController::OnUnityLogMessageReceived)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x3594e04;
+  constexpr static std::size_t addrs = 0x3597fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -486,7 +486,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController::*)()>(&::GlobalNamespace::TerminalController::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3594fc4;
+  constexpr static std::size_t addrs = 0x3598184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController*>(), { ".ctor", {}, {} })));

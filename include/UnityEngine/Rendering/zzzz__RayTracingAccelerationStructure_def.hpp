@@ -216,15 +216,15 @@ public:
 
   __declspec(property(put = set_relativeOrigin)) ::UnityEngine::Vector3 relativeOrigin;
 
-  /// @brief Method .ctor, addr 0x6fa46cc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fa57ac, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method set_buildFlags, addr 0x6fa46b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_buildFlags, addr 0x6fa5798, size 0x8, virtual false, abstract: false, final false
   inline void set_buildFlags(::UnityEngine::Rendering::RayTracingAccelerationStructureBuildFlags value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_relativeOrigin, addr 0x6fa46c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_relativeOrigin, addr 0x6fa57a0, size 0xc, virtual false, abstract: false, final false
   inline void set_relativeOrigin(::UnityEngine::Vector3 value);
 
   // Ctor Parameters []
@@ -276,19 +276,19 @@ public:
 
   __declspec(property(put = set_enableCompaction)) bool enableCompaction;
 
-  /// @brief Method .ctor, addr 0x6fa4744, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fa5824, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method set_buildFlagsDynamicGeometries, addr 0x6fa4734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_buildFlagsDynamicGeometries, addr 0x6fa5814, size 0x8, virtual false, abstract: false, final false
   inline void set_buildFlagsDynamicGeometries(::UnityEngine::Rendering::RayTracingAccelerationStructureBuildFlags value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_buildFlagsStaticGeometries, addr 0x6fa472c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_buildFlagsStaticGeometries, addr 0x6fa580c, size 0x8, virtual false, abstract: false, final false
   inline void set_buildFlagsStaticGeometries(::UnityEngine::Rendering::RayTracingAccelerationStructureBuildFlags value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_enableCompaction, addr 0x6fa473c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_enableCompaction, addr 0x6fa581c, size 0x8, virtual false, abstract: false, final false
   inline void set_enableCompaction(bool value);
 
   // Ctor Parameters []
@@ -362,7 +362,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE RayTracingAccelerationStructure_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToNative, addr 0x6fa4760, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x6fa5840, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::Rendering::RayTracingAccelerationStructure* rayTracingAccelerationStructure);
 
 protected:
@@ -412,88 +412,88 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AddInstance, addr 0x6fa3f08, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method AddInstance, addr 0x6fa4fe8, size 0x2b8, virtual false, abstract: false, final false
   inline int32_t AddInstance(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RayTracingMeshInstanceConfig const> config, ::UnityEngine::Matrix4x4 matrix,
                              /* [DefaultValue("null")] */ ::System::Nullable_1<::UnityEngine::Matrix4x4> prevMatrix, uint32_t id);
 
   /// [FreeFunction("RayTracingAccelerationStructure_Bindings::AddMeshInstance", HasExplicitThis = true)]
-  /// @brief Method AddMeshInstance, addr 0x6fa41c0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method AddMeshInstance, addr 0x6fa52a0, size 0x80, virtual false, abstract: false, final false
   inline int32_t AddMeshInstance(::UnityEngine::Rendering::RayTracingMeshInstanceConfig config, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Matrix4x4* prevMatrix, uint32_t id);
 
-  /// @brief Method AddMeshInstance_Injected, addr 0x6fa464c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method AddMeshInstance_Injected, addr 0x6fa572c, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t AddMeshInstance_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::RayTracingMeshInstanceConfig const> config,
                                                  ::by_ref<::UnityEngine::Matrix4x4 const> matrix, ::UnityEngine::Matrix4x4* prevMatrix, uint32_t id);
 
   /// [FreeFunction(Name = "RayTracingAccelerationStructure_Bindings::ClearInstances", HasExplicitThis = true)]
-  /// @brief Method ClearInstances, addr 0x6fa4408, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ClearInstances, addr 0x6fa54e8, size 0x50, virtual false, abstract: false, final false
   inline void ClearInstances();
 
-  /// @brief Method ClearInstances_Injected, addr 0x6fa4458, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClearInstances_Injected, addr 0x6fa5538, size 0x3c, virtual false, abstract: false, final false
   static inline void ClearInstances_Injected(::System::IntPtr _unity_self);
 
   /// [FreeFunction("RayTracingAccelerationStructure_Bindings::Create")]
-  /// @brief Method Create, addr 0x6fa3ecc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6fa4fac, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create(::UnityEngine::Rendering::RayTracingAccelerationStructure_Settings desc);
 
-  /// @brief Method Create_Injected, addr 0x6fa4494, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Create_Injected, addr 0x6fa5574, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create_Injected(::by_ref<::UnityEngine::Rendering::RayTracingAccelerationStructure_Settings const> desc);
 
   /// [FreeFunction("RayTracingAccelerationStructure_Bindings::Destroy")]
-  /// @brief Method Destroy, addr 0x6fa3e28, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x6fa4f08, size 0x48, virtual false, abstract: false, final false
   static inline void Destroy(::UnityEngine::Rendering::RayTracingAccelerationStructure* accelStruct);
 
-  /// @brief Method Destroy_Injected, addr 0x6fa44d0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Destroy_Injected, addr 0x6fa55b0, size 0x3c, virtual false, abstract: false, final false
   static inline void Destroy_Injected(::System::IntPtr accelStruct);
 
-  /// @brief Method Dispose, addr 0x6fa3d90, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6fa4e70, size 0x98, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6fa3d38, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6fa4e18, size 0x58, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x6fa3d30, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6fa4e10, size 0x8, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::UnityEngine::Rendering::RayTracingAccelerationStructure* New_ctor(::UnityEngine::Rendering::RayTracingAccelerationStructure_Settings settings);
 
-  /// @brief Method RemoveInstance, addr 0x6fa4240, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RemoveInstance, addr 0x6fa5320, size 0x4, virtual false, abstract: false, final false
   inline void RemoveInstance(int32_t handle);
 
   /// [FreeFunction(Name = "RayTracingAccelerationStructure_Bindings::RemoveInstance", HasExplicitThis = true)]
-  /// @brief Method RemoveInstance_InstanceID, addr 0x6fa4244, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RemoveInstance_InstanceID, addr 0x6fa5324, size 0x58, virtual false, abstract: false, final false
   inline void RemoveInstance_InstanceID(int32_t instanceID);
 
-  /// @brief Method RemoveInstance_InstanceID_Injected, addr 0x6fa450c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RemoveInstance_InstanceID_Injected, addr 0x6fa55ec, size 0x44, virtual false, abstract: false, final false
   static inline void RemoveInstance_InstanceID_Injected(::System::IntPtr _unity_self, int32_t instanceID);
 
-  /// @brief Method UpdateInstanceID, addr 0x6fa4330, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method UpdateInstanceID, addr 0x6fa5410, size 0x4, virtual false, abstract: false, final false
   inline void UpdateInstanceID(int32_t handle, uint32_t instanceID);
 
   /// [FreeFunction(Name = "RayTracingAccelerationStructure_Bindings::UpdateInstanceID", HasExplicitThis = true)]
-  /// @brief Method UpdateInstanceID_Handle, addr 0x6fa4334, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdateInstanceID_Handle, addr 0x6fa5414, size 0x68, virtual false, abstract: false, final false
   inline void UpdateInstanceID_Handle(int32_t handle, uint32_t id);
 
-  /// @brief Method UpdateInstanceID_Handle_Injected, addr 0x6fa45f8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method UpdateInstanceID_Handle_Injected, addr 0x6fa56d8, size 0x54, virtual false, abstract: false, final false
   static inline void UpdateInstanceID_Handle_Injected(::System::IntPtr _unity_self, int32_t handle, uint32_t id);
 
-  /// @brief Method UpdateInstanceMask, addr 0x6fa439c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method UpdateInstanceMask, addr 0x6fa547c, size 0x4, virtual false, abstract: false, final false
   inline void UpdateInstanceMask(int32_t handle, uint32_t mask);
 
   /// [FreeFunction(Name = "RayTracingAccelerationStructure_Bindings::UpdateInstanceMask", HasExplicitThis = true)]
-  /// @brief Method UpdateInstanceMask_Handle, addr 0x6fa43a0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdateInstanceMask_Handle, addr 0x6fa5480, size 0x68, virtual false, abstract: false, final false
   inline void UpdateInstanceMask_Handle(int32_t handle, uint32_t mask);
 
-  /// @brief Method UpdateInstanceMask_Handle_Injected, addr 0x6fa45a4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method UpdateInstanceMask_Handle_Injected, addr 0x6fa5684, size 0x54, virtual false, abstract: false, final false
   static inline void UpdateInstanceMask_Handle_Injected(::System::IntPtr _unity_self, int32_t handle, uint32_t mask);
 
-  /// @brief Method UpdateInstanceTransform, addr 0x6fa429c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method UpdateInstanceTransform, addr 0x6fa537c, size 0x2c, virtual false, abstract: false, final false
   inline void UpdateInstanceTransform(int32_t handle, ::UnityEngine::Matrix4x4 matrix);
 
   /// [FreeFunction(Name = "RayTracingAccelerationStructure_Bindings::UpdateInstanceTransform", HasExplicitThis = true)]
-  /// @brief Method UpdateInstanceTransform_Handle, addr 0x6fa42c8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdateInstanceTransform_Handle, addr 0x6fa53a8, size 0x68, virtual false, abstract: false, final false
   inline void UpdateInstanceTransform_Handle(int32_t handle, ::UnityEngine::Matrix4x4 matrix);
 
-  /// @brief Method UpdateInstanceTransform_Handle_Injected, addr 0x6fa4550, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method UpdateInstanceTransform_Handle_Injected, addr 0x6fa5630, size 0x54, virtual false, abstract: false, final false
   static inline void UpdateInstanceTransform_Handle_Injected(::System::IntPtr _unity_self, int32_t handle, ::by_ref<::UnityEngine::Matrix4x4 const> matrix);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
@@ -502,7 +502,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x6fa3e70, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fa4f50, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RayTracingAccelerationStructure_Settings settings);
 
   /// @brief Convert to "::System::IDisposable"

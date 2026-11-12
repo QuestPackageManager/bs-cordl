@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::DiContainer* (::Zenject::MonoInstallerBase::*)()>(&::Zenject::MonoInstallerBase::get_Container)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x734eb90;
+  constexpr static std::size_t addrs = 0x7350e70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::MonoInstallerBase*>(), { "get_Container", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::MonoInstallerBase::*)(::Zenject::DiContainer*)>(&::Zenject::MonoInstallerBase::set_Container)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x734eb98;
+  constexpr static std::size_t addrs = 0x7350e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::MonoInstallerBase::*)()>(&::Zenject::MonoInstallerBase::get_IsEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x734eba0;
+  constexpr static std::size_t addrs = 0x7350e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Zenject::MonoInstallerBase*>(), { ::i2c::class_of<::Zenject::MonoInstallerBase*>(), 6 }));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::MonoInstallerBase::*)()>(&::Zenject::MonoInstallerBase::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x734eba8;
+  constexpr static std::size_t addrs = 0x7350e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Zenject::MonoInstallerBase*>(), { ::i2c::class_of<::Zenject::MonoInstallerBase*>(), 7 }));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::MonoInstallerBase::*)()>(&::Zenject::MonoInstallerBase::InstallBindings)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x734ebac;
+  constexpr static std::size_t addrs = 0x7350e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Zenject::MonoInstallerBase*>(), { ::i2c::class_of<::Zenject::MonoInstallerBase*>(), 8 }));
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::MonoInstallerBase::*)()>(&::Zenject::MonoInstallerBase::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x734ea44;
+  constexpr static std::size_t addrs = 0x7350d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::MonoInstallerBase*>(), { ".ctor", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, ::System::Object*)>(&::Zenject::MonoInstallerBase::__zenPropertySetter0)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x734ebe4;
+  constexpr static std::size_t addrs = 0x7350ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::MonoInstallerBase::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x734ecc4;
+  constexpr static std::size_t addrs = 0x7350fa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::MonoInstallerBase*>(), { "__zenCreateInjectTypeInfo", {}, {} })));

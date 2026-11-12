@@ -305,70 +305,70 @@ public:
   __declspec(property(get = __cordl_internal_get_usedRendererListList,
                       put = __cordl_internal_set_usedRendererListList)) ::System::Collections::Generic::List_1<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle>* usedRendererListList;
 
-  /// @brief Method AddResourceRead, addr 0x6c47264, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method AddResourceRead, addr 0x6c48344, size 0x144, virtual false, abstract: false, final false
   inline void AddResourceRead(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> res);
 
-  /// @brief Method AddResourceWrite, addr 0x6c47120, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method AddResourceWrite, addr 0x6c48200, size 0x144, virtual false, abstract: false, final false
   inline void AddResourceWrite(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> res);
 
-  /// @brief Method AddTransientResource, addr 0x6c473a8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method AddTransientResource, addr 0x6c48488, size 0x144, virtual false, abstract: false, final false
   inline void AddTransientResource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> res);
 
-  /// @brief Method AllowGlobalState, addr 0x6c475d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AllowGlobalState, addr 0x6c486b0, size 0x8, virtual false, abstract: false, final false
   inline void AllowGlobalState(bool value);
 
-  /// @brief Method AllowPassCulling, addr 0x6c475b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AllowPassCulling, addr 0x6c48698, size 0x8, virtual false, abstract: false, final false
   inline void AllowPassCulling(bool value);
 
-  /// @brief Method AllowRendererListCulling, addr 0x6c475c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AllowRendererListCulling, addr 0x6c486a8, size 0x8, virtual false, abstract: false, final false
   inline void AllowRendererListCulling(bool value);
 
-  /// @brief Method Clear, addr 0x6c4651c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6c475fc, size 0x1ac, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ComputeHash, addr 0x6c48a04, size 0xab4, virtual false, abstract: false, final false
+  /// @brief Method ComputeHash, addr 0x6c49ae4, size 0xab4, virtual false, abstract: false, final false
   inline void ComputeHash(::by_ref<::UnityEngine::Rendering::HashFNV1A32> generator, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources);
 
-  /// @brief Method ComputeHashForTextureAccess, addr 0x6c48958, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ComputeHashForTextureAccess, addr 0x6c49a38, size 0xac, virtual false, abstract: false, final false
   static inline void ComputeHashForTextureAccess(::by_ref<::UnityEngine::Rendering::HashFNV1A32> generator,
                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> handle,
                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureAccess const> textureAccess);
 
-  /// @brief Method ComputeTextureHash, addr 0x6c480e4, size 0x4ec, virtual false, abstract: false, final false
+  /// @brief Method ComputeTextureHash, addr 0x6c491c4, size 0x4ec, virtual false, abstract: false, final false
   inline void ComputeTextureHash(::by_ref<::UnityEngine::Rendering::HashFNV1A32> generator, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> handle,
                                  ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources);
 
-  /// @brief Method EnableAsyncCompute, addr 0x6c475b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EnableAsyncCompute, addr 0x6c48690, size 0x8, virtual false, abstract: false, final false
   inline void EnableAsyncCompute(bool value);
 
-  /// @brief Method EnableFoveatedRasterization, addr 0x6c475c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EnableFoveatedRasterization, addr 0x6c486a0, size 0x8, virtual false, abstract: false, final false
   inline void EnableFoveatedRasterization(bool value);
 
   /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Execute(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* renderGraphContext);
 
-  /// @brief Method GenerateDebugData, addr 0x6c475d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GenerateDebugData, addr 0x6c486b8, size 0x8, virtual false, abstract: false, final false
   inline void GenerateDebugData(bool value);
 
   /// @brief Method GetRenderFuncHash, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetRenderFuncHash();
 
-  /// @brief Method HasRenderAttachments, addr 0x6c466c8, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method HasRenderAttachments, addr 0x6c477a8, size 0x1fc, virtual false, abstract: false, final false
   inline bool HasRenderAttachments();
 
   /// @brief Method HasRenderFunc, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool HasRenderFunc();
 
-  /// @brief Method IsAttachment, addr 0x6c46e80, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method IsAttachment, addr 0x6c47f60, size 0x2a0, virtual false, abstract: false, final false
   inline bool IsAttachment(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> res);
 
-  /// @brief Method IsRead, addr 0x6c46c14, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method IsRead, addr 0x6c47cf4, size 0x26c, virtual false, abstract: false, final false
   inline bool IsRead(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> res);
 
-  /// @brief Method IsTransient, addr 0x6c468c4, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method IsTransient, addr 0x6c479a4, size 0x1a8, virtual false, abstract: false, final false
   inline bool IsTransient(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> res);
 
-  /// @brief Method IsWritten, addr 0x6c46a6c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method IsWritten, addr 0x6c47b4c, size 0x1a8, virtual false, abstract: false, final false
   inline bool IsWritten(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> res);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* New_ctor();
@@ -376,45 +376,45 @@ public:
   /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Release(::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool* pool);
 
-  /// @brief Method SetColorBuffer, addr 0x6c475e0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SetColorBuffer, addr 0x6c486c0, size 0xac, virtual false, abstract: false, final false
   inline void SetColorBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> resource, int32_t index);
 
-  /// @brief Method SetColorBufferRaw, addr 0x6c476a8, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method SetColorBufferRaw, addr 0x6c48788, size 0x27c, virtual false, abstract: false, final false
   inline void SetColorBufferRaw(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> resource, int32_t index,
                                 ::UnityEngine::Rendering::RenderGraphModule::AccessFlags accessFlags, int32_t mipLevel, int32_t depthSlice);
 
-  /// @brief Method SetDepthBuffer, addr 0x6c47e98, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetDepthBuffer, addr 0x6c48f78, size 0x60, virtual false, abstract: false, final false
   inline void SetDepthBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> resource, ::UnityEngine::Rendering::RenderGraphModule::DepthAccess flags);
 
-  /// @brief Method SetDepthBufferRaw, addr 0x6c47ef8, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method SetDepthBufferRaw, addr 0x6c48fd8, size 0x1ec, virtual false, abstract: false, final false
   inline void SetDepthBufferRaw(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> resource,
                                 ::UnityEngine::Rendering::RenderGraphModule::AccessFlags accessFlags, int32_t mipLevel, int32_t depthSlice);
 
-  /// @brief Method SetExtendedFeatureFlags, addr 0x6c49674, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetExtendedFeatureFlags, addr 0x6c4a754, size 0x10, virtual false, abstract: false, final false
   inline void SetExtendedFeatureFlags(::UnityEngine::Rendering::RenderGraphModule::ExtendedFeatureFlags value);
 
-  /// @brief Method SetFragmentInputRaw, addr 0x6c47938, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method SetFragmentInputRaw, addr 0x6c48a18, size 0x27c, virtual false, abstract: false, final false
   inline void SetFragmentInputRaw(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> resource, int32_t index,
                                   ::UnityEngine::Rendering::RenderGraphModule::AccessFlags accessFlags, int32_t mipLevel, int32_t depthSlice);
 
-  /// @brief Method SetRandomWriteResourceRaw, addr 0x6c47bb4, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method SetRandomWriteResourceRaw, addr 0x6c48c94, size 0x2e4, virtual false, abstract: false, final false
   inline void SetRandomWriteResourceRaw(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> resource, int32_t index, bool preserveCounterValue,
                                         ::UnityEngine::Rendering::RenderGraphModule::AccessFlags accessFlags);
 
-  /// @brief Method SetShadingRateCombiner, addr 0x6c49600, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetShadingRateCombiner, addr 0x6c4a6e0, size 0x74, virtual false, abstract: false, final false
   inline void SetShadingRateCombiner(::UnityEngine::Rendering::ShadingRateCombinerStage stage, ::UnityEngine::Rendering::ShadingRateCombiner combiner);
 
-  /// @brief Method SetShadingRateFragmentSize, addr 0x6c495b0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SetShadingRateFragmentSize, addr 0x6c4a690, size 0x50, virtual false, abstract: false, final false
   inline void SetShadingRateFragmentSize(::UnityEngine::Rendering::ShadingRateFragmentSize shadingRateFragmentSize);
 
-  /// @brief Method SetShadingRateImage, addr 0x6c49514, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetShadingRateImage, addr 0x6c4a5f4, size 0x9c, virtual false, abstract: false, final false
   inline void SetShadingRateImage(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> shadingRateImage,
                                   ::UnityEngine::Rendering::RenderGraphModule::AccessFlags accessFlags, int32_t mipLevel, int32_t depthSlice);
 
-  /// @brief Method SetShadingRateImageRaw, addr 0x6c494b8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetShadingRateImageRaw, addr 0x6c4a598, size 0x5c, virtual false, abstract: false, final false
   inline void SetShadingRateImageRaw(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> shadingRateImage);
 
-  /// @brief Method UseRendererList, addr 0x6c474ec, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method UseRendererList, addr 0x6c485cc, size 0xc4, virtual false, abstract: false, final false
   inline void UseRendererList(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle const> rendererList);
 
   constexpr bool const& __cordl_internal_get__allowGlobalState_k__BackingField() const;
@@ -603,199 +603,199 @@ public:
 
   constexpr void __cordl_internal_set_usedRendererListList(::System::Collections::Generic::List_1<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle>* value);
 
-  /// @brief Method .ctor, addr 0x6c46210, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c472f0, size 0x30c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_allowGlobalState, addr 0x6c460b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allowGlobalState, addr 0x6c47190, size 0x8, virtual false, abstract: false, final false
   inline bool get_allowGlobalState();
 
   /// [CompilerGenerated]
-  /// @brief Method get_allowPassCulling, addr 0x6c460a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allowPassCulling, addr 0x6c47180, size 0x8, virtual false, abstract: false, final false
   inline bool get_allowPassCulling();
 
   /// [CompilerGenerated]
-  /// @brief Method get_allowRendererListCulling, addr 0x6c46200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allowRendererListCulling, addr 0x6c472e0, size 0x8, virtual false, abstract: false, final false
   inline bool get_allowRendererListCulling();
 
   /// [CompilerGenerated]
-  /// @brief Method get_colorBufferAccess, addr 0x6c46110, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorBufferAccess, addr 0x6c471f0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureAccess> get_colorBufferAccess();
 
   /// [CompilerGenerated]
-  /// @brief Method get_colorBufferMaxIndex, addr 0x6c46120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorBufferMaxIndex, addr 0x6c47200, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_colorBufferMaxIndex();
 
   /// [CompilerGenerated]
-  /// @brief Method get_customSampler, addr 0x6c46080, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customSampler, addr 0x6c47160, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProfilingSampler* get_customSampler();
 
   /// [CompilerGenerated]
-  /// @brief Method get_depthAccess, addr 0x6c460e0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_depthAccess, addr 0x6c471c0, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureAccess get_depthAccess();
 
   /// [CompilerGenerated]
-  /// @brief Method get_enableAsyncCompute, addr 0x6c46090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableAsyncCompute, addr 0x6c47170, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableAsyncCompute();
 
   /// [CompilerGenerated]
-  /// @brief Method get_enableFoveatedRasterization, addr 0x6c460c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableFoveatedRasterization, addr 0x6c471a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableFoveatedRasterization();
 
   /// [CompilerGenerated]
-  /// @brief Method get_extendedFeatureFlags, addr 0x6c460d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_extendedFeatureFlags, addr 0x6c471b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::ExtendedFeatureFlags get_extendedFeatureFlags();
 
   /// [CompilerGenerated]
-  /// @brief Method get_fragmentInputAccess, addr 0x6c461b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fragmentInputAccess, addr 0x6c47290, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureAccess> get_fragmentInputAccess();
 
   /// [CompilerGenerated]
-  /// @brief Method get_fragmentInputMaxIndex, addr 0x6c461c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fragmentInputMaxIndex, addr 0x6c472a0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_fragmentInputMaxIndex();
 
   /// [CompilerGenerated]
-  /// @brief Method get_fragmentShadingRateCombiner, addr 0x6c461a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fragmentShadingRateCombiner, addr 0x6c47280, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ShadingRateCombiner get_fragmentShadingRateCombiner();
 
   /// [CompilerGenerated]
-  /// @brief Method get_generateDebugData, addr 0x6c461f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_generateDebugData, addr 0x6c472d0, size 0x8, virtual false, abstract: false, final false
   inline bool get_generateDebugData();
 
   /// [CompilerGenerated]
-  /// @brief Method get_hasShadingRateImage, addr 0x6c46130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasShadingRateImage, addr 0x6c47210, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasShadingRateImage();
 
   /// [CompilerGenerated]
-  /// @brief Method get_hasShadingRateStates, addr 0x6c46170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasShadingRateStates, addr 0x6c47250, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasShadingRateStates();
 
   /// [CompilerGenerated]
-  /// @brief Method get_index, addr 0x6c46060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_index, addr 0x6c47140, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_index();
 
   /// [CompilerGenerated]
-  /// @brief Method get_name, addr 0x6c46050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x6c47130, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
   /// [CompilerGenerated]
-  /// @brief Method get_primitiveShadingRateCombiner, addr 0x6c46190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_primitiveShadingRateCombiner, addr 0x6c47270, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ShadingRateCombiner get_primitiveShadingRateCombiner();
 
   /// [CompilerGenerated]
-  /// @brief Method get_randomAccessResource, addr 0x6c461d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_randomAccessResource, addr 0x6c472b0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass_RandomWriteResourceInfo> get_randomAccessResource();
 
   /// [CompilerGenerated]
-  /// @brief Method get_randomAccessResourceMaxIndex, addr 0x6c461e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_randomAccessResourceMaxIndex, addr 0x6c472c0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_randomAccessResourceMaxIndex();
 
   /// [CompilerGenerated]
-  /// @brief Method get_shadingRateAccess, addr 0x6c46140, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_shadingRateAccess, addr 0x6c47220, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureAccess get_shadingRateAccess();
 
   /// [CompilerGenerated]
-  /// @brief Method get_shadingRateFragmentSize, addr 0x6c46180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shadingRateFragmentSize, addr 0x6c47260, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ShadingRateFragmentSize get_shadingRateFragmentSize();
 
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6c46070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6c47150, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphPassType get_type();
 
   /// [CompilerGenerated]
-  /// @brief Method set_allowGlobalState, addr 0x6c460b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_allowGlobalState, addr 0x6c47198, size 0x8, virtual false, abstract: false, final false
   inline void set_allowGlobalState(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_allowPassCulling, addr 0x6c460a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_allowPassCulling, addr 0x6c47188, size 0x8, virtual false, abstract: false, final false
   inline void set_allowPassCulling(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_allowRendererListCulling, addr 0x6c46208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_allowRendererListCulling, addr 0x6c472e8, size 0x8, virtual false, abstract: false, final false
   inline void set_allowRendererListCulling(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_colorBufferAccess, addr 0x6c46118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colorBufferAccess, addr 0x6c471f8, size 0x8, virtual false, abstract: false, final false
   inline void set_colorBufferAccess(::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureAccess> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_colorBufferMaxIndex, addr 0x6c46128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colorBufferMaxIndex, addr 0x6c47208, size 0x8, virtual false, abstract: false, final false
   inline void set_colorBufferMaxIndex(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_customSampler, addr 0x6c46088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_customSampler, addr 0x6c47168, size 0x8, virtual false, abstract: false, final false
   inline void set_customSampler(::UnityEngine::Rendering::ProfilingSampler* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_depthAccess, addr 0x6c460f4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_depthAccess, addr 0x6c471d4, size 0x1c, virtual false, abstract: false, final false
   inline void set_depthAccess(::UnityEngine::Rendering::RenderGraphModule::TextureAccess value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_enableAsyncCompute, addr 0x6c46098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_enableAsyncCompute, addr 0x6c47178, size 0x8, virtual false, abstract: false, final false
   inline void set_enableAsyncCompute(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_enableFoveatedRasterization, addr 0x6c460c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_enableFoveatedRasterization, addr 0x6c471a8, size 0x8, virtual false, abstract: false, final false
   inline void set_enableFoveatedRasterization(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_extendedFeatureFlags, addr 0x6c460d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_extendedFeatureFlags, addr 0x6c471b8, size 0x8, virtual false, abstract: false, final false
   inline void set_extendedFeatureFlags(::UnityEngine::Rendering::RenderGraphModule::ExtendedFeatureFlags value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_fragmentInputAccess, addr 0x6c461b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fragmentInputAccess, addr 0x6c47298, size 0x8, virtual false, abstract: false, final false
   inline void set_fragmentInputAccess(::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureAccess> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_fragmentInputMaxIndex, addr 0x6c461c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fragmentInputMaxIndex, addr 0x6c472a8, size 0x8, virtual false, abstract: false, final false
   inline void set_fragmentInputMaxIndex(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_fragmentShadingRateCombiner, addr 0x6c461a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fragmentShadingRateCombiner, addr 0x6c47288, size 0x8, virtual false, abstract: false, final false
   inline void set_fragmentShadingRateCombiner(::UnityEngine::Rendering::ShadingRateCombiner value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_generateDebugData, addr 0x6c461f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_generateDebugData, addr 0x6c472d8, size 0x8, virtual false, abstract: false, final false
   inline void set_generateDebugData(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_hasShadingRateImage, addr 0x6c46138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hasShadingRateImage, addr 0x6c47218, size 0x8, virtual false, abstract: false, final false
   inline void set_hasShadingRateImage(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_hasShadingRateStates, addr 0x6c46178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hasShadingRateStates, addr 0x6c47258, size 0x8, virtual false, abstract: false, final false
   inline void set_hasShadingRateStates(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_index, addr 0x6c46068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_index, addr 0x6c47148, size 0x8, virtual false, abstract: false, final false
   inline void set_index(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_name, addr 0x6c46058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x6c47138, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_primitiveShadingRateCombiner, addr 0x6c46198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_primitiveShadingRateCombiner, addr 0x6c47278, size 0x8, virtual false, abstract: false, final false
   inline void set_primitiveShadingRateCombiner(::UnityEngine::Rendering::ShadingRateCombiner value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_randomAccessResource, addr 0x6c461d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_randomAccessResource, addr 0x6c472b8, size 0x8, virtual false, abstract: false, final false
   inline void set_randomAccessResource(::ArrayW<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass_RandomWriteResourceInfo> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_randomAccessResourceMaxIndex, addr 0x6c461e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_randomAccessResourceMaxIndex, addr 0x6c472c8, size 0x8, virtual false, abstract: false, final false
   inline void set_randomAccessResourceMaxIndex(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_shadingRateAccess, addr 0x6c46154, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_shadingRateAccess, addr 0x6c47234, size 0x1c, virtual false, abstract: false, final false
   inline void set_shadingRateAccess(::UnityEngine::Rendering::RenderGraphModule::TextureAccess value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_shadingRateFragmentSize, addr 0x6c46188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_shadingRateFragmentSize, addr 0x6c47268, size 0x8, virtual false, abstract: false, final false
   inline void set_shadingRateFragmentSize(::UnityEngine::Rendering::ShadingRateFragmentSize value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_type, addr 0x6c46078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_type, addr 0x6c47158, size 0x8, virtual false, abstract: false, final false
   inline void set_type(::UnityEngine::Rendering::RenderGraphModule::RenderGraphPassType value);
 
 protected:

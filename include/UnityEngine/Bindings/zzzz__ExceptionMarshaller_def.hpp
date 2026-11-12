@@ -27,7 +27,7 @@ public:
   __declspec(property(get = getStaticF_s_pendingException, put = setStaticF_s_pendingException)) ::System::Exception* s_pendingException;
 
   /// [RequiredByNativeCode]
-  /// @brief Method SetPendingException, addr 0x6f96f60, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetPendingException, addr 0x6f98040, size 0x84, virtual false, abstract: false, final false
   static inline void SetPendingException(::System::Exception* ex);
 
   static inline ::System::Exception* getStaticF_s_pendingException();

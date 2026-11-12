@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::PKCS7_ContentInfo::*)()>(&::Mono::Security::PKCS7_ContentInfo::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5edf4bc;
+  constexpr static std::size_t addrs = 0x5edf744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::PKCS7_ContentInfo*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::PKCS7_ContentInfo::*)(::StringW)>(&::Mono::Security::PKCS7_ContentInfo::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5edf518;
+  constexpr static std::size_t addrs = 0x5edf7a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::PKCS7_ContentInfo*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::PKCS7_ContentInfo::*)(::ArrayW<uint8_t>)>(&::Mono::Security::PKCS7_ContentInfo::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5edf53c;
+  constexpr static std::size_t addrs = 0x5edf7c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::PKCS7_ContentInfo::*)(::Mono::Security::ASN1*)>(&::Mono::Security::PKCS7_ContentInfo::_ctor)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x5edf5a8;
+  constexpr static std::size_t addrs = 0x5edf830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::ASN1* (::Mono::Security::PKCS7_ContentInfo::*)()>(&::Mono::Security::PKCS7_ContentInfo::get_ASN1)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5edf720;
+  constexpr static std::size_t addrs = 0x5edf9a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::PKCS7_ContentInfo*>(), { "get_ASN1", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::ASN1* (::Mono::Security::PKCS7_ContentInfo::*)()>(&::Mono::Security::PKCS7_ContentInfo::get_Content)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5edf7cc;
+  constexpr static std::size_t addrs = 0x5edfa54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::PKCS7_ContentInfo*>(), { "get_Content", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::PKCS7_ContentInfo::*)(::Mono::Security::ASN1*)>(&::Mono::Security::PKCS7_ContentInfo::set_Content)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5edf7d4;
+  constexpr static std::size_t addrs = 0x5edfa5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Security::PKCS7_ContentInfo::*)()>(&::Mono::Security::PKCS7_ContentInfo::get_ContentType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5edf7dc;
+  constexpr static std::size_t addrs = 0x5edfa64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::PKCS7_ContentInfo*>(), { "get_ContentType", {}, {} })));
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::PKCS7_ContentInfo::*)(::StringW)>(&::Mono::Security::PKCS7_ContentInfo::set_ContentType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5edf7e4;
+  constexpr static std::size_t addrs = 0x5edfa6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::ASN1* (::Mono::Security::PKCS7_ContentInfo::*)()>(&::Mono::Security::PKCS7_ContentInfo::GetASN1)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5edf724;
+  constexpr static std::size_t addrs = 0x5edf9ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::PKCS7_ContentInfo*>(), { "GetASN1", {}, {} })));
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::PKCS7_EncryptedData::*)()>(&::Mono::Security::PKCS7_EncryptedData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5edf7ec;
+  constexpr static std::size_t addrs = 0x5edfa74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::PKCS7_EncryptedData*>(), { ".ctor", {}, {} })));
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::PKCS7_EncryptedData::*)(::Mono::Security::ASN1*)>(&::Mono::Security::PKCS7_EncryptedData::_ctor)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x5edf7f4;
+  constexpr static std::size_t addrs = 0x5edfa7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::PKCS7_ContentInfo* (::Mono::Security::PKCS7_EncryptedData::*)()>(
     &::Mono::Security::PKCS7_EncryptedData::get_EncryptionAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5edfa90;
+  constexpr static std::size_t addrs = 0x5edfd18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::PKCS7_EncryptedData*>(), { "get_EncryptionAlgorithm", {}, {} })));
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Mono::Security::PKCS7_EncryptedData::*)()>(&::Mono::Security::PKCS7_EncryptedData::get_EncryptedContent)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5edfa98;
+  constexpr static std::size_t addrs = 0x5edfd20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::PKCS7_EncryptedData*>(), { "get_EncryptedContent", {}, {} })));
@@ -340,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::PKCS7_SignedData::*)(::Mono::Security::ASN1*)>(&::Mono::Security::PKCS7_SignedData::_ctor)> {
   constexpr static std::size_t size = 0x4d0;
-  constexpr static std::size_t addrs = 0x5edfb0c;
+  constexpr static std::size_t addrs = 0x5edfd94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -354,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::X509::X509CertificateCollection* (::Mono::Security::PKCS7_SignedData::*)()>(
     &::Mono::Security::PKCS7_SignedData::get_Certificates)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ee07d4;
+  constexpr static std::size_t addrs = 0x5ee0a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::PKCS7_SignedData*>(), { "get_Certificates", {}, {} })));
@@ -366,7 +366,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::PKCS7_ContentInfo* (::Mono::Security::PKCS7_SignedData::*)()>(&::Mono::Security::PKCS7_SignedData::get_ContentInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ee07dc;
+  constexpr static std::size_t addrs = 0x5ee0a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::PKCS7_SignedData*>(), { "get_ContentInfo", {}, {} })));
@@ -378,7 +378,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::PKCS7_SignedData::*)(::StringW)>(&::Mono::Security::PKCS7_SignedData::set_HashName)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5ee07b8;
+  constexpr static std::size_t addrs = 0x5ee0a40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -391,7 +391,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::PKCS7_SignerInfo* (::Mono::Security::PKCS7_SignedData::*)()>(&::Mono::Security::PKCS7_SignedData::get_SignerInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ee07e4;
+  constexpr static std::size_t addrs = 0x5ee0a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::PKCS7_SignedData*>(), { "get_SignerInfo", {}, {} })));
@@ -403,7 +403,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Security::PKCS7_SignedData::*)(::StringW)>(&::Mono::Security::PKCS7_SignedData::OidToName)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x5ee05dc;
+  constexpr static std::size_t addrs = 0x5ee0864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -532,7 +532,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::PKCS7_SignerInfo::*)()>(&::Mono::Security::PKCS7_SignerInfo::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5ee0560;
+  constexpr static std::size_t addrs = 0x5ee07e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::PKCS7_SignerInfo*>(), { ".ctor", {}, {} })));
@@ -544,7 +544,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::PKCS7_SignerInfo::*)(::Mono::Security::ASN1*)>(&::Mono::Security::PKCS7_SignerInfo::_ctor)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x5ee01ec;
+  constexpr static std::size_t addrs = 0x5ee0474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -557,7 +557,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Security::PKCS7_SignerInfo::*)()>(&::Mono::Security::PKCS7_SignerInfo::get_IssuerName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ee0934;
+  constexpr static std::size_t addrs = 0x5ee0bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::PKCS7_SignerInfo*>(), { "get_IssuerName", {}, {} })));
@@ -569,7 +569,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Mono::Security::PKCS7_SignerInfo::*)()>(&::Mono::Security::PKCS7_SignerInfo::get_SerialNumber)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5ee093c;
+  constexpr static std::size_t addrs = 0x5ee0bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::PKCS7_SignerInfo*>(), { "get_SerialNumber", {}, {} })));
@@ -581,7 +581,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ArrayList* (::Mono::Security::PKCS7_SignerInfo::*)()>(&::Mono::Security::PKCS7_SignerInfo::get_AuthenticatedAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ee09b0;
+  constexpr static std::size_t addrs = 0x5ee0c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::PKCS7_SignerInfo*>(), { "get_AuthenticatedAttributes", {}, {} })));
@@ -593,7 +593,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Security::PKCS7_SignerInfo::*)()>(&::Mono::Security::PKCS7_SignerInfo::get_HashName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ee09b8;
+  constexpr static std::size_t addrs = 0x5ee0c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::PKCS7_SignerInfo*>(), { "get_HashName", {}, {} })));
@@ -605,7 +605,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::PKCS7_SignerInfo::*)(::StringW)>(&::Mono::Security::PKCS7_SignerInfo::set_HashName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ee09c0;
+  constexpr static std::size_t addrs = 0x5ee0c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -618,7 +618,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Mono::Security::PKCS7_SignerInfo::*)()>(&::Mono::Security::PKCS7_SignerInfo::get_Signature)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5ee09c8;
+  constexpr static std::size_t addrs = 0x5ee0c50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::PKCS7_SignerInfo*>(), { "get_Signature", {}, {} })));
@@ -631,7 +631,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ArrayList* (::Mono::Security::PKCS7_SignerInfo::*)()>(
     &::Mono::Security::PKCS7_SignerInfo::get_UnauthenticatedAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ee0a3c;
+  constexpr static std::size_t addrs = 0x5ee0cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::PKCS7_SignerInfo*>(), { "get_UnauthenticatedAttributes", {}, {} })));
@@ -643,7 +643,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Mono::Security::PKCS7_SignerInfo::*)()>(&::Mono::Security::PKCS7_SignerInfo::get_Version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ee0a44;
+  constexpr static std::size_t addrs = 0x5ee0ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::PKCS7_SignerInfo*>(), { "get_Version", {}, {} })));

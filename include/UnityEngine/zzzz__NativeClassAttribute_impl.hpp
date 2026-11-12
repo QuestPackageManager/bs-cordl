@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::NativeClassAttribute::*)(::StringW)>(&::UnityEngine::NativeClassAttribute::set_QualifiedNativeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7051940;
+  constexpr static std::size_t addrs = 0x7052a20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::NativeClassAttribute::*)(::StringW)>(&::UnityEngine::NativeClassAttribute::set_Declaration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7051948;
+  constexpr static std::size_t addrs = 0x7052a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::NativeClassAttribute::*)(::StringW)>(&::UnityEngine::NativeClassAttribute::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x7051950;
+  constexpr static std::size_t addrs = 0x7052a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::NativeClassAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::NativeClassAttribute::*)(::StringW, ::StringW)>(&::UnityEngine::NativeClassAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70519b8;
+  constexpr static std::size_t addrs = 0x7052a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

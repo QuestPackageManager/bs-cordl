@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HWStack::*)(int32_t)>(&::System::Xml::HWStack::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x673242c;
+  constexpr static std::size_t addrs = 0x6732a7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::HWStack*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HWStack::*)(int32_t, int32_t)>(&::System::Xml::HWStack::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6732434;
+  constexpr static std::size_t addrs = 0x6732a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::HWStack::*)()>(&::System::Xml::HWStack::Push)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x67324a0;
+  constexpr static std::size_t addrs = 0x6732af0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::HWStack*>(), { "Push", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::HWStack::*)()>(&::System::Xml::HWStack::Pop)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x67325d8;
+  constexpr static std::size_t addrs = 0x6732c28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::HWStack*>(), { "Pop", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::HWStack::*)()>(&::System::Xml::HWStack::Peek)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6732620;
+  constexpr static std::size_t addrs = 0x6732c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::HWStack*>(), { "Peek", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HWStack::*)(::System::Object*)>(&::System::Xml::HWStack::AddToTop)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6732664;
+  constexpr static std::size_t addrs = 0x6732cb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::HWStack*>(), { "AddToTop", {}, { ::i2c::type_of<::System::Object*>() } })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::HWStack::*)(int32_t)>(&::System::Xml::HWStack::get_Item)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x67326d0;
+  constexpr static std::size_t addrs = 0x6732d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::HWStack*>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HWStack::*)(int32_t, ::System::Object*)>(&::System::Xml::HWStack::set_Item)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6732744;
+  constexpr static std::size_t addrs = 0x6732d94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::HWStack::*)()>(&::System::Xml::HWStack::get_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67327ec;
+  constexpr static std::size_t addrs = 0x6732e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::HWStack*>(), { "get_Length", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HWStack::*)(::ArrayW<::System::Object*>, int32_t, int32_t, int32_t)>(&::System::Xml::HWStack::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x67327f4;
+  constexpr static std::size_t addrs = 0x6732e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::HWStack::*)()>(&::System::Xml::HWStack::Clone)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6732804;
+  constexpr static std::size_t addrs = 0x6732e54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::HWStack*>(), { "Clone", {}, {} })));

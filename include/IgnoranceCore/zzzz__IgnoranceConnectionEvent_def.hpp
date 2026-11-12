@@ -29,8 +29,14 @@ public:
   // None }, CppParam { name: "NativePeerId", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "IP", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr IgnoranceConnectionEvent(uint8_t EventType, uint16_t Port, uint32_t NativePeerId, ::StringW IP) noexcept;
 
+  /// @brief Field DisconnectedEventType offset 0xffffffff size 0x1
+  static constexpr uint8_t DisconnectedEventType{ static_cast<uint8_t>(0x1u) };
+
+  /// @brief Field TimedOutEventType offset 0xffffffff size 0x1
+  static constexpr uint8_t TimedOutEventType{ static_cast<uint8_t>(0x2u) };
+
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22514 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22565 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

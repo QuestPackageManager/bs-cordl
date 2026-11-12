@@ -84,219 +84,219 @@ public:
 
   __declspec(property(get = get_Quotas)) ::System::Xml::XmlDictionaryReaderQuotas* Quotas;
 
-  /// @brief Method CheckArray, addr 0x6586644, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method CheckArray, addr 0x6586c94, size 0x234, virtual false, abstract: false, final false
   inline void CheckArray(::System::Array* array, int32_t offset, int32_t count);
 
-  /// @brief Method CreateBinaryReader, addr 0x6584330, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CreateBinaryReader, addr 0x6584980, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlDictionaryReader* CreateBinaryReader(::System::IO::Stream* stream, ::System::Xml::IXmlDictionary* dictionary, ::System::Xml::XmlDictionaryReaderQuotas* quotas);
 
-  /// @brief Method CreateBinaryReader, addr 0x658433c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateBinaryReader, addr 0x658498c, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlDictionaryReader* CreateBinaryReader(::System::IO::Stream* stream, ::System::Xml::IXmlDictionary* dictionary, ::System::Xml::XmlDictionaryReaderQuotas* quotas,
                                                                        ::System::Xml::XmlBinaryReaderSession* session);
 
-  /// @brief Method CreateBinaryReader, addr 0x6584344, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CreateBinaryReader, addr 0x6584994, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlDictionaryReader* CreateBinaryReader(::System::IO::Stream* stream, ::System::Xml::IXmlDictionary* dictionary, ::System::Xml::XmlDictionaryReaderQuotas* quotas,
                                                                        ::System::Xml::XmlBinaryReaderSession* session, ::System::Xml::OnXmlDictionaryReaderClose* onClose);
 
-  /// @brief Method CreateBinaryReader, addr 0x658431c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CreateBinaryReader, addr 0x658496c, size 0x14, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlDictionaryReader* CreateBinaryReader(::System::IO::Stream* stream, ::System::Xml::XmlDictionaryReaderQuotas* quotas);
 
-  /// @brief Method CreateDictionaryReader, addr 0x658421c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method CreateDictionaryReader, addr 0x658486c, size 0xd8, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlDictionaryReader* CreateDictionaryReader(::System::Xml::XmlReader* reader);
 
-  /// @brief Method CreateTextReader, addr 0x65843f8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CreateTextReader, addr 0x6584a48, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlDictionaryReader* CreateTextReader(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, ::System::Xml::XmlDictionaryReaderQuotas* quotas,
                                                                      ::System::Xml::OnXmlDictionaryReaderClose* onClose);
 
-  /// @brief Method CreateTextReader, addr 0x65843e8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CreateTextReader, addr 0x6584a38, size 0x10, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlDictionaryReader* CreateTextReader(::System::IO::Stream* stream, ::System::Xml::XmlDictionaryReaderQuotas* quotas);
 
-  /// @brief Method IndexOfLocalName, addr 0x6584908, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method IndexOfLocalName, addr 0x6584f58, size 0x144, virtual true, abstract: false, final false
   inline int32_t IndexOfLocalName(::ArrayW<::System::Xml::XmlDictionaryString*> localNames, ::System::Xml::XmlDictionaryString* namespaceUri);
 
-  /// @brief Method IsLocalName, addr 0x6584754, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method IsLocalName, addr 0x6584da4, size 0x24, virtual true, abstract: false, final false
   inline bool IsLocalName(::StringW localName);
 
-  /// @brief Method IsLocalName, addr 0x6584778, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method IsLocalName, addr 0x6584dc8, size 0x4c, virtual true, abstract: false, final false
   inline bool IsLocalName(::System::Xml::XmlDictionaryString* localName);
 
-  /// @brief Method IsNamespaceUri, addr 0x65847c4, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method IsNamespaceUri, addr 0x6584e14, size 0x54, virtual true, abstract: false, final false
   inline bool IsNamespaceUri(::StringW namespaceUri);
 
-  /// @brief Method IsNamespaceUri, addr 0x6584818, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method IsNamespaceUri, addr 0x6584e68, size 0x4c, virtual true, abstract: false, final false
   inline bool IsNamespaceUri(::System::Xml::XmlDictionaryString* namespaceUri);
 
-  /// @brief Method IsStartArray, addr 0x6586878, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method IsStartArray, addr 0x6586ec8, size 0xc, virtual true, abstract: false, final false
   inline bool IsStartArray(::by_ref<::System::Type*> type);
 
-  /// @brief Method IsStartElement, addr 0x6584864, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method IsStartElement, addr 0x6584eb4, size 0x98, virtual true, abstract: false, final false
   inline bool IsStartElement(::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri);
 
-  /// @brief Method IsTextNode, addr 0x658543c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsTextNode, addr 0x6585a8c, size 0x18, virtual false, abstract: false, final false
   inline bool IsTextNode(::System::Xml::XmlNodeType nodeType);
 
-  /// @brief Method MoveToStartElement, addr 0x65846d0, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method MoveToStartElement, addr 0x6584d20, size 0x2c, virtual true, abstract: false, final false
   inline void MoveToStartElement();
 
   static inline ::System::Xml::XmlDictionaryReader* New_ctor();
 
-  /// @brief Method ReadArray, addr 0x6587518, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method ReadArray, addr 0x6587b68, size 0xe8, virtual true, abstract: false, final false
   inline int32_t ReadArray(::StringW localName, ::StringW namespaceUri, ::ArrayW<::System::DateTime> array, int32_t offset, int32_t count);
 
-  /// @brief Method ReadArray, addr 0x6587370, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method ReadArray, addr 0x65879c0, size 0xe8, virtual true, abstract: false, final false
   inline int32_t ReadArray(::StringW localName, ::StringW namespaceUri, ::ArrayW<::System::Decimal> array, int32_t offset, int32_t count);
 
-  /// @brief Method ReadArray, addr 0x65876c0, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method ReadArray, addr 0x6587d10, size 0xe8, virtual true, abstract: false, final false
   inline int32_t ReadArray(::StringW localName, ::StringW namespaceUri, ::ArrayW<::System::Guid> array, int32_t offset, int32_t count);
 
-  /// @brief Method ReadArray, addr 0x6587868, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method ReadArray, addr 0x6587eb8, size 0xe8, virtual true, abstract: false, final false
   inline int32_t ReadArray(::StringW localName, ::StringW namespaceUri, ::ArrayW<::System::TimeSpan> array, int32_t offset, int32_t count);
 
-  /// @brief Method ReadArray, addr 0x6586890, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ReadArray, addr 0x6586ee0, size 0xec, virtual true, abstract: false, final false
   inline int32_t ReadArray(::StringW localName, ::StringW namespaceUri, ::ArrayW<bool> array, int32_t offset, int32_t count);
 
-  /// @brief Method ReadArray, addr 0x65871c8, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method ReadArray, addr 0x6587818, size 0xe8, virtual true, abstract: false, final false
   inline int32_t ReadArray(::StringW localName, ::StringW namespaceUri, ::ArrayW<double_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method ReadArray, addr 0x6587020, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method ReadArray, addr 0x6587670, size 0xe8, virtual true, abstract: false, final false
   inline int32_t ReadArray(::StringW localName, ::StringW namespaceUri, ::ArrayW<float_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method ReadArray, addr 0x6586a3c, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method ReadArray, addr 0x658708c, size 0x178, virtual true, abstract: false, final false
   inline int32_t ReadArray(::StringW localName, ::StringW namespaceUri, ::ArrayW<int16_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method ReadArray, addr 0x6586cd0, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method ReadArray, addr 0x6587320, size 0xe8, virtual true, abstract: false, final false
   inline int32_t ReadArray(::StringW localName, ::StringW namespaceUri, ::ArrayW<int32_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method ReadArray, addr 0x6586e78, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method ReadArray, addr 0x65874c8, size 0xe8, virtual true, abstract: false, final false
   inline int32_t ReadArray(::StringW localName, ::StringW namespaceUri, ::ArrayW<int64_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method ReadArray, addr 0x6587600, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ReadArray, addr 0x6587c50, size 0xc0, virtual true, abstract: false, final false
   inline int32_t ReadArray(::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<::System::DateTime> array, int32_t offset, int32_t count);
 
-  /// @brief Method ReadArray, addr 0x6587458, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ReadArray, addr 0x6587aa8, size 0xc0, virtual true, abstract: false, final false
   inline int32_t ReadArray(::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<::System::Decimal> array, int32_t offset, int32_t count);
 
-  /// @brief Method ReadArray, addr 0x65877a8, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ReadArray, addr 0x6587df8, size 0xc0, virtual true, abstract: false, final false
   inline int32_t ReadArray(::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<::System::Guid> array, int32_t offset, int32_t count);
 
-  /// @brief Method ReadArray, addr 0x6587950, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ReadArray, addr 0x6587fa0, size 0xc0, virtual true, abstract: false, final false
   inline int32_t ReadArray(::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<::System::TimeSpan> array, int32_t offset, int32_t count);
 
-  /// @brief Method ReadArray, addr 0x658697c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ReadArray, addr 0x6586fcc, size 0xc0, virtual true, abstract: false, final false
   inline int32_t ReadArray(::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<bool> array, int32_t offset, int32_t count);
 
-  /// @brief Method ReadArray, addr 0x65872b0, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ReadArray, addr 0x6587900, size 0xc0, virtual true, abstract: false, final false
   inline int32_t ReadArray(::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<double_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method ReadArray, addr 0x6587108, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ReadArray, addr 0x6587758, size 0xc0, virtual true, abstract: false, final false
   inline int32_t ReadArray(::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<float_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method ReadArray, addr 0x6586c10, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ReadArray, addr 0x6587260, size 0xc0, virtual true, abstract: false, final false
   inline int32_t ReadArray(::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<int16_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method ReadArray, addr 0x6586db8, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ReadArray, addr 0x6587408, size 0xc0, virtual true, abstract: false, final false
   inline int32_t ReadArray(::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<int32_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method ReadArray, addr 0x6586f60, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ReadArray, addr 0x65875b0, size 0xc0, virtual true, abstract: false, final false
   inline int32_t ReadArray(::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<int64_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method ReadContentAs, addr 0x6585524, size 0x350, virtual true, abstract: false, final false
+  /// @brief Method ReadContentAs, addr 0x6585b74, size 0x350, virtual true, abstract: false, final false
   inline ::System::Object* ReadContentAs(::System::Type* type, ::System::Xml::IXmlNamespaceResolver* namespaceResolver);
 
-  /// @brief Method ReadContentAsBase64, addr 0x6584a90, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method ReadContentAsBase64, addr 0x65850e0, size 0x34, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> ReadContentAsBase64();
 
-  /// @brief Method ReadContentAsBase64, addr 0x6584ac4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ReadContentAsBase64, addr 0x6585114, size 0x110, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> ReadContentAsBase64(int32_t maxByteArrayContentLength, int32_t maxInitialCount);
 
-  /// @brief Method ReadContentAsBytes, addr 0x6584c9c, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method ReadContentAsBytes, addr 0x65852ec, size 0x23c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> ReadContentAsBytes(bool base64, int32_t maxByteArrayContentLength);
 
-  /// @brief Method ReadContentAsChars, addr 0x6585454, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method ReadContentAsChars, addr 0x6585aa4, size 0xd0, virtual true, abstract: false, final false
   inline int32_t ReadContentAsChars(::ArrayW<char16_t> chars, int32_t offset, int32_t count);
 
-  /// @brief Method ReadContentAsDecimal, addr 0x6585874, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ReadContentAsDecimal, addr 0x6585ec4, size 0x74, virtual true, abstract: false, final false
   inline ::System::Decimal ReadContentAsDecimal();
 
-  /// @brief Method ReadContentAsFloat, addr 0x65858e8, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ReadContentAsFloat, addr 0x6585f38, size 0x74, virtual true, abstract: false, final false
   inline float_t ReadContentAsFloat();
 
-  /// @brief Method ReadContentAsGuid, addr 0x65859d0, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ReadContentAsGuid, addr 0x6586020, size 0x74, virtual true, abstract: false, final false
   inline ::System::Guid ReadContentAsGuid();
 
-  /// @brief Method ReadContentAsString, addr 0x6584ed8, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method ReadContentAsString, addr 0x6585528, size 0x30, virtual true, abstract: false, final false
   inline ::StringW ReadContentAsString();
 
-  /// @brief Method ReadContentAsString, addr 0x6584f08, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method ReadContentAsString, addr 0x6585558, size 0x220, virtual false, abstract: false, final false
   inline ::StringW ReadContentAsString(int32_t maxStringContentLength);
 
-  /// @brief Method ReadContentAsTimeSpan, addr 0x6585a44, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ReadContentAsTimeSpan, addr 0x6586094, size 0x74, virtual true, abstract: false, final false
   inline ::System::TimeSpan ReadContentAsTimeSpan();
 
-  /// @brief Method ReadContentAsUniqueId, addr 0x658595c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ReadContentAsUniqueId, addr 0x6585fac, size 0x74, virtual true, abstract: false, final false
   inline ::System::Xml::UniqueId* ReadContentAsUniqueId();
 
-  /// @brief Method ReadElementContentAsBase64, addr 0x6586540, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method ReadElementContentAsBase64, addr 0x6586b90, size 0xe0, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> ReadElementContentAsBase64();
 
-  /// @brief Method ReadElementContentAsBoolean, addr 0x6585b68, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method ReadElementContentAsBoolean, addr 0x65861b8, size 0xfc, virtual true, abstract: false, final false
   inline bool ReadElementContentAsBoolean();
 
-  /// @brief Method ReadElementContentAsDateTime, addr 0x6586174, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method ReadElementContentAsDateTime, addr 0x65867c4, size 0x1e8, virtual true, abstract: false, final false
   inline ::System::DateTime ReadElementContentAsDateTime();
 
-  /// @brief Method ReadElementContentAsDecimal, addr 0x658606c, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method ReadElementContentAsDecimal, addr 0x65866bc, size 0x108, virtual true, abstract: false, final false
   inline ::System::Decimal ReadElementContentAsDecimal();
 
-  /// @brief Method ReadElementContentAsDouble, addr 0x6585f64, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method ReadElementContentAsDouble, addr 0x65865b4, size 0x108, virtual true, abstract: false, final false
   inline double_t ReadElementContentAsDouble();
 
-  /// @brief Method ReadElementContentAsFloat, addr 0x6585e5c, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method ReadElementContentAsFloat, addr 0x65864ac, size 0x108, virtual true, abstract: false, final false
   inline float_t ReadElementContentAsFloat();
 
-  /// @brief Method ReadElementContentAsGuid, addr 0x658635c, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method ReadElementContentAsGuid, addr 0x65869ac, size 0xe8, virtual true, abstract: false, final false
   inline ::System::Guid ReadElementContentAsGuid();
 
-  /// @brief Method ReadElementContentAsInt, addr 0x6585c64, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method ReadElementContentAsInt, addr 0x65862b4, size 0xfc, virtual true, abstract: false, final false
   inline int32_t ReadElementContentAsInt();
 
-  /// @brief Method ReadElementContentAsLong, addr 0x6585d60, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method ReadElementContentAsLong, addr 0x65863b0, size 0xfc, virtual true, abstract: false, final false
   inline int64_t ReadElementContentAsLong();
 
-  /// @brief Method ReadElementContentAsString, addr 0x6585ab8, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ReadElementContentAsString, addr 0x6586108, size 0xb0, virtual true, abstract: false, final false
   inline ::StringW ReadElementContentAsString();
 
-  /// @brief Method ReadElementContentAsTimeSpan, addr 0x6586444, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method ReadElementContentAsTimeSpan, addr 0x6586a94, size 0xfc, virtual true, abstract: false, final false
   inline ::System::TimeSpan ReadElementContentAsTimeSpan();
 
-  /// @brief Method ReadString, addr 0x6585198, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method ReadString, addr 0x65857e8, size 0x30, virtual true, abstract: false, final false
   inline ::StringW ReadString();
 
-  /// @brief Method ReadString, addr 0x65851c8, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method ReadString, addr 0x6585818, size 0x274, virtual false, abstract: false, final false
   inline ::StringW ReadString(int32_t maxStringContentLength);
 
-  /// @brief Method ReadValueAsBase64, addr 0x6584a58, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ReadValueAsBase64, addr 0x65850a8, size 0x38, virtual true, abstract: false, final false
   inline int32_t ReadValueAsBase64(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method TryGetArrayLength, addr 0x6586884, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method TryGetArrayLength, addr 0x6586ed4, size 0xc, virtual true, abstract: false, final false
   inline bool TryGetArrayLength(::by_ref<int32_t> count);
 
-  /// @brief Method TryGetBase64ContentLength, addr 0x6584a4c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method TryGetBase64ContentLength, addr 0x658509c, size 0xc, virtual true, abstract: false, final false
   inline bool TryGetBase64ContentLength(::by_ref<int32_t> length);
 
-  /// @brief Method TryGetLocalNameAsDictionaryString, addr 0x6586620, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method TryGetLocalNameAsDictionaryString, addr 0x6586c70, size 0xc, virtual true, abstract: false, final false
   inline bool TryGetLocalNameAsDictionaryString(::by_ref<::System::Xml::XmlDictionaryString*> localName);
 
-  /// @brief Method TryGetNamespaceUriAsDictionaryString, addr 0x658662c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method TryGetNamespaceUriAsDictionaryString, addr 0x6586c7c, size 0xc, virtual true, abstract: false, final false
   inline bool TryGetNamespaceUriAsDictionaryString(::by_ref<::System::Xml::XmlDictionaryString*> namespaceUri);
 
-  /// @brief Method TryGetValueAsDictionaryString, addr 0x6586638, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method TryGetValueAsDictionaryString, addr 0x6586c88, size 0xc, virtual true, abstract: false, final false
   inline bool TryGetValueAsDictionaryString(::by_ref<::System::Xml::XmlDictionaryString*> value);
 
-  /// @brief Method .ctor, addr 0x6587a10, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6588060, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Quotas, addr 0x658463c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method get_Quotas, addr 0x6584c8c, size 0x94, virtual true, abstract: false, final false
   inline ::System::Xml::XmlDictionaryReaderQuotas* get_Quotas();
 
 protected:
@@ -314,7 +314,7 @@ public:
   XmlDictionaryReader(XmlDictionaryReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16394 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16402 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

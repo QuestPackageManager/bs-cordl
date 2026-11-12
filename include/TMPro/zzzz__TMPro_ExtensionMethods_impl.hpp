@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW)>(&::TMPro::TMPro_ExtensionMethods::TagToInt)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6dff25c;
+  constexpr static std::size_t addrs = 0x6e0033c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMPro_ExtensionMethods*>(), { "TagToInt", {}, { ::i2c::type_of<::StringW>() } })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (*)(::StringW)>(&::TMPro::TMPro_ExtensionMethods::ToIntArray)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6dff2c4;
+  constexpr static std::size_t addrs = 0x6e003a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::ArrayW<char16_t>)>(&::TMPro::TMPro_ExtensionMethods::ArrayToString)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6dff374;
+  constexpr static std::size_t addrs = 0x6e00454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::ArrayW<int32_t>)>(&::TMPro::TMPro_ExtensionMethods::IntToString)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6dff42c;
+  constexpr static std::size_t addrs = 0x6e0050c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Collections::Generic::List_1<uint32_t>*)>(&::TMPro::TMPro_ExtensionMethods::UintToString)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6dff4c0;
+  constexpr static std::size_t addrs = 0x6e005a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::ArrayW<int32_t>, int32_t, int32_t)>(&::TMPro::TMPro_ExtensionMethods::IntToString)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6dff5a0;
+  constexpr static std::size_t addrs = 0x6e00680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Color32, ::UnityEngine::Color32)>(&::TMPro::TMPro_ExtensionMethods::Compare)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6dff694;
+  constexpr static std::size_t addrs = 0x6e00774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMPro_ExtensionMethods*>(),
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Color32, ::UnityEngine::Color32)>(&::TMPro::TMPro_ExtensionMethods::CompareRGB)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6dff6a4;
+  constexpr static std::size_t addrs = 0x6e00784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Color, ::UnityEngine::Color)>(&::TMPro::TMPro_ExtensionMethods::Compare)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6dff6b4;
+  constexpr static std::size_t addrs = 0x6e00794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Color, ::UnityEngine::Color)>(&::TMPro::TMPro_ExtensionMethods::CompareRGB)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6dff6dc;
+  constexpr static std::size_t addrs = 0x6e007bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMPro_ExtensionMethods*>(),
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color32 (*)(::UnityEngine::Color32, ::UnityEngine::Color32)>(&::TMPro::TMPro_ExtensionMethods::Multiply)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6dff700;
+  constexpr static std::size_t addrs = 0x6e007e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color32 (*)(::UnityEngine::Color32, ::UnityEngine::Color32)>(&::TMPro::TMPro_ExtensionMethods::Tint)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6dff7e4;
+  constexpr static std::size_t addrs = 0x6e008c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color32 (*)(::UnityEngine::Color32, float_t)>(&::TMPro::TMPro_ExtensionMethods::Tint)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6dff8c8;
+  constexpr static std::size_t addrs = 0x6e009a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color32 (*)(::UnityEngine::Color32)>(&::TMPro::TMPro_ExtensionMethods::GammaToLinear)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6dff9b0;
+  constexpr static std::size_t addrs = 0x6e00a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (*)(uint8_t)>(&::TMPro::TMPro_ExtensionMethods::GammaToLinear)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6dffa04;
+  constexpr static std::size_t addrs = 0x6e00ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color, ::UnityEngine::Color)>(&::TMPro::TMPro_ExtensionMethods::MinAlpha)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6dffaa4;
+  constexpr static std::size_t addrs = 0x6e00b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, int32_t)>(&::TMPro::TMPro_ExtensionMethods::Compare)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6dffab0;
+  constexpr static std::size_t addrs = 0x6e00b90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion, int32_t)>(&::TMPro::TMPro_ExtensionMethods::Compare)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6dffb30;
+  constexpr static std::size_t addrs = 0x6e00c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

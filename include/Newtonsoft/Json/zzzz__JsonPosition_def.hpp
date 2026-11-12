@@ -46,23 +46,23 @@ public:
   /// @brief Field SpecialCharacters, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_SpecialCharacters, put = setStaticF_SpecialCharacters)) ::ArrayW<char16_t> SpecialCharacters;
 
-  /// @brief Method BuildPath, addr 0x612e040, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method BuildPath, addr 0x612e2c8, size 0x2d4, virtual false, abstract: false, final false
   static inline ::StringW BuildPath(::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>* positions, ::System::Nullable_1<::Newtonsoft::Json::JsonPosition> currentPosition);
 
-  /// @brief Method CalculateLength, addr 0x612dd7c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CalculateLength, addr 0x612e004, size 0x94, virtual false, abstract: false, final false
   inline int32_t CalculateLength();
 
-  /// @brief Method FormatMessage, addr 0x612d79c, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method FormatMessage, addr 0x612da24, size 0x328, virtual false, abstract: false, final false
   static inline ::StringW FormatMessage(/* [Nullable(2)] */ ::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::StringW message);
 
-  /// @brief Method TypeHasIndex, addr 0x612dd6c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method TypeHasIndex, addr 0x612dff4, size 0x10, virtual false, abstract: false, final false
   static inline bool TypeHasIndex(::Newtonsoft::Json::JsonContainerType type);
 
   /// [NullableContext(2)]
-  /// @brief Method WriteTo, addr 0x612de10, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x612e098, size 0x230, virtual false, abstract: false, final false
   inline void WriteTo(/* [Nullable(1)] */ ::System::Text::StringBuilder* sb, ::by_ref<::System::IO::StringWriter*> writer, ::by_ref<::ArrayW<char16_t>> buffer);
 
-  /// @brief Method .ctor, addr 0x612dcec, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x612df74, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::JsonContainerType type);
 
   static inline ::ArrayW<char16_t> getStaticF_SpecialCharacters();

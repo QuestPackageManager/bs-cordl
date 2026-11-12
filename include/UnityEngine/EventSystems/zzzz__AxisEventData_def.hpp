@@ -54,23 +54,23 @@ public:
 
   constexpr void __cordl_internal_set__moveVector_k__BackingField(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x72eff44, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72f1024, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
   /// [CompilerGenerated]
-  /// @brief Method get_moveDir, addr 0x72eff34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_moveDir, addr 0x72f1014, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::MoveDirection get_moveDir();
 
   /// [CompilerGenerated]
-  /// @brief Method get_moveVector, addr 0x72eff24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_moveVector, addr 0x72f1004, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_moveVector();
 
   /// [CompilerGenerated]
-  /// @brief Method set_moveDir, addr 0x72eff3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_moveDir, addr 0x72f101c, size 0x8, virtual false, abstract: false, final false
   inline void set_moveDir(::UnityEngine::EventSystems::MoveDirection value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_moveVector, addr 0x72eff2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_moveVector, addr 0x72f100c, size 0x8, virtual false, abstract: false, final false
   inline void set_moveVector(::UnityEngine::Vector2 value);
 
 protected:
@@ -88,7 +88,7 @@ public:
   AxisEventData(AxisEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18076 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18084 };
 
   /// [CompilerGenerated]
   /// @brief Field <moveVector>k__BackingField, offset: 0x20, size: 0x8, def value: None

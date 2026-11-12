@@ -27,16 +27,16 @@ public:
   static inline ::Newtonsoft::Json::Serialization::SnakeCaseNamingStrategy* New_ctor(bool processDictionaryKeys, bool overrideSpecifiedNames, bool processExtensionDataNames);
 
   /// [NullableContext(1)]
-  /// @brief Method ResolvePropertyName, addr 0x61b0c6c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ResolvePropertyName, addr 0x61b0ef4, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ResolvePropertyName(::StringW name);
 
-  /// @brief Method .ctor, addr 0x61b0c68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61b0ef0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x61b0c4c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61b0ed4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool processDictionaryKeys, bool overrideSpecifiedNames);
 
-  /// @brief Method .ctor, addr 0x61b0c58, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61b0ee0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool processDictionaryKeys, bool overrideSpecifiedNames, bool processExtensionDataNames);
 
 protected:

@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ExpressionEvaluator_Expression::*)(::StringW)>(&::UnityEngine::ExpressionEvaluator_Expression::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6f0d810;
+  constexpr static std::size_t addrs = 0x6f0e8f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ExpressionEvaluator_Expression::*)(::System::Object*)>(&::UnityEngine::ExpressionEvaluator_Expression::Equals)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6f0d88c;
+  constexpr static std::size_t addrs = 0x6f0e96c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ExpressionEvaluator_Expression::*)()>(&::UnityEngine::ExpressionEvaluator_Expression::GetHashCode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6f0d944;
+  constexpr static std::size_t addrs = 0x6f0ea24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ExpressionEvaluator_Expression::*)()>(&::UnityEngine::ExpressionEvaluator_Expression::ToString)> {
   constexpr static std::size_t size = 0x684;
-  constexpr static std::size_t addrs = 0x6f0d960;
+  constexpr static std::size_t addrs = 0x6f0ea40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ExpressionEvaluator_PcgRandom::*)(uint64_t, uint64_t)>(&::UnityEngine::ExpressionEvaluator_PcgRandom::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6f0dfe4;
+  constexpr static std::size_t addrs = 0x6f0f0c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::ExpressionEvaluator_PcgRandom::*)()>(&::UnityEngine::ExpressionEvaluator_PcgRandom::GetUInt)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6f0e02c;
+  constexpr static std::size_t addrs = 0x6f0f10c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ExpressionEvaluator_PcgRandom>(), { "GetUInt", {}, {} })));
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, int32_t)>(&::UnityEngine::ExpressionEvaluator_PcgRandom::RotateRight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f0e07c;
+  constexpr static std::size_t addrs = 0x6f0f15c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint64_t)>(&::UnityEngine::ExpressionEvaluator_PcgRandom::XshRr)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6f0e064;
+  constexpr static std::size_t addrs = 0x6f0f144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ExpressionEvaluator_PcgRandom::*)()>(&::UnityEngine::ExpressionEvaluator_PcgRandom::Step)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6f0e00c;
+  constexpr static std::size_t addrs = 0x6f0f0ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ExpressionEvaluator_PcgRandom>(), { "Step", {}, {} })));
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ExpressionEvaluator_Operator::*)(
     ::UnityEngine::ExpressionEvaluator_Op, int32_t, int32_t, ::UnityEngine::ExpressionEvaluator_Associativity)>(&::UnityEngine::ExpressionEvaluator_Operator::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6f0e084;
+  constexpr static std::size_t addrs = 0x6f0f164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ExpressionEvaluator_Operator*>(),
@@ -324,7 +324,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ExpressionEvaluator___c::*)()>(&::UnityEngine::ExpressionEvaluator___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6f0e0e4;
+  constexpr static std::size_t addrs = 0x6f0f1c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ExpressionEvaluator___c*>(), { ".ctor", {}, {} })));
@@ -336,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ExpressionEvaluator___c::*)(::StringW)>(&::UnityEngine::ExpressionEvaluator___c::_ExpressionToTokens_b__14_0)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6f0e0e8;
+  constexpr static std::size_t addrs = 0x6f0f1c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -375,7 +375,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<::StringW>, ::by_ref<double_t>, int32_t, int32_t)>(&::UnityEngine::ExpressionEvaluator::EvaluateDouble)> {
   constexpr static std::size_t size = 0x530;
-  constexpr static std::size_t addrs = 0x6f0ba48;
+  constexpr static std::size_t addrs = 0x6f0cb28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -390,7 +390,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (*)(::ArrayW<::StringW>)>(&::UnityEngine::ExpressionEvaluator::InfixToRPN)> {
   constexpr static std::size_t size = 0x434;
-  constexpr static std::size_t addrs = 0x6f0c4e0;
+  constexpr static std::size_t addrs = 0x6f0d5c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -404,7 +404,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Collections::Generic::Stack_1<::StringW>*, ::UnityEngine::ExpressionEvaluator_Operator*)>(
     &::UnityEngine::ExpressionEvaluator::NeedToPop)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6f0c984;
+  constexpr static std::size_t addrs = 0x6f0da64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -419,7 +419,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (*)(::StringW, ::by_ref<bool>)>(&::UnityEngine::ExpressionEvaluator::ExpressionToTokens)> {
   constexpr static std::size_t size = 0x44c;
-  constexpr static std::size_t addrs = 0x6f0ca88;
+  constexpr static std::size_t addrs = 0x6f0db68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -433,7 +433,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::UnityEngine::ExpressionEvaluator::IsCommand)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6f0c0c0;
+  constexpr static std::size_t addrs = 0x6f0d1a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -446,7 +446,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::UnityEngine::ExpressionEvaluator::IsVariable)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6f0c494;
+  constexpr static std::size_t addrs = 0x6f0d574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -459,7 +459,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::UnityEngine::ExpressionEvaluator::IsDelayedFunction)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6f0c914;
+  constexpr static std::size_t addrs = 0x6f0d9f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -472,7 +472,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::UnityEngine::ExpressionEvaluator::IsOperator)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6f0bf78;
+  constexpr static std::size_t addrs = 0x6f0d058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -485,7 +485,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ExpressionEvaluator_Operator* (*)(::StringW)>(&::UnityEngine::ExpressionEvaluator::TokenToOperator)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6f0c018;
+  constexpr static std::size_t addrs = 0x6f0d0f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -498,7 +498,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::ExpressionEvaluator::PreFormatExpression)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x6f0ced4;
+  constexpr static std::size_t addrs = 0x6f0dfb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -511,7 +511,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (*)(::ArrayW<::StringW>)>(&::UnityEngine::ExpressionEvaluator::FixUnaryOperators)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x6f0d09c;
+  constexpr static std::size_t addrs = 0x6f0e17c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -524,7 +524,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::ArrayW<double_t>, ::UnityEngine::ExpressionEvaluator_Op, int32_t, int32_t)>(&::UnityEngine::ExpressionEvaluator::EvaluateOp)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x6f0c15c;
+  constexpr static std::size_t addrs = 0x6f0d23c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

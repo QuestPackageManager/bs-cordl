@@ -4,6 +4,8 @@
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEditorStartTestLevelData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEditorStartTestLevelData_def.hpp"
+#include "GlobalNamespace/zzzz__PlaymodeOptions_def.hpp"
+#include "GlobalNamespace/zzzz__RecordingPlaybackSettings_def.hpp"
 #include "UnityEngine/zzzz__ComputeBuffer_def.hpp"
 // Ctor Parameters [CppParam { name: "enabled", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cameraFov", ty: "int32_t", modifiers: "", def_value: Some("{}"),
 // comment: None }]
@@ -25,16 +27,53 @@ constexpr ::GlobalNamespace::BeatmapEditorStartTestLevelData_OverdrawData::Beatm
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapEditorStartTestLevelData_OverdrawData::BeatmapEditorStartTestLevelData_OverdrawData() {}
+//  Writing Method size for method: ::GlobalNamespace::BeatmapEditorStartTestLevelData_RecordingData.get_playmodeOptions
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlaymodeOptions (::GlobalNamespace::BeatmapEditorStartTestLevelData_RecordingData::*)()>(
+    &::GlobalNamespace::BeatmapEditorStartTestLevelData_RecordingData::get_playmodeOptions)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5d6220c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEditorStartTestLevelData_RecordingData>(), { "get_playmodeOptions", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::BeatmapEditorStartTestLevelData_RecordingData.CreatePlaybackSettings
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::RecordingPlaybackSettings* (::GlobalNamespace::BeatmapEditorStartTestLevelData_RecordingData::*)()>(
+    &::GlobalNamespace::BeatmapEditorStartTestLevelData_RecordingData::CreatePlaybackSettings)> {
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x5d6222c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEditorStartTestLevelData_RecordingData>(), { "CreatePlaybackSettings", {}, {} })));
+    return ___internal_method;
+  }
+};
+inline ::GlobalNamespace::PlaymodeOptions GlobalNamespace::BeatmapEditorStartTestLevelData_RecordingData::get_playmodeOptions() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEditorStartTestLevelData_RecordingData>(), { "get_playmodeOptions", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PlaymodeOptions>(*this, ___internal_method);
+}
+inline ::GlobalNamespace::RecordingPlaybackSettings* GlobalNamespace::BeatmapEditorStartTestLevelData_RecordingData::CreatePlaybackSettings() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEditorStartTestLevelData_RecordingData>(), { "CreatePlaybackSettings", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::RecordingPlaybackSettings*>(*this, ___internal_method);
+}
 // Ctor Parameters [CppParam { name: "recorderMode", ty: "::GlobalNamespace::VRControllersRecorder_Mode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "positionOffset", ty:
 // "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rotationOffset", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None
 // }, CppParam { name: "headSmoothing", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "controllersSmoothing", ty: "float_t", modifiers: "", def_value:
 // Some("{}"), comment: None }, CppParam { name: "controllersTimeOffset", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cameraFov", ty: "float_t", modifiers:
-// "", def_value: Some("{}"), comment: None }, CppParam { name: "fpfc", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "recordingPath", ty: "::StringW", modifiers:
-// "", def_value: Some("{}"), comment: None }]
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "recordingPath", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::BeatmapEditorStartTestLevelData_RecordingData::BeatmapEditorStartTestLevelData_RecordingData(::GlobalNamespace::VRControllersRecorder_Mode recorderMode,
                                                                                                                           ::UnityEngine::Vector3 positionOffset, ::UnityEngine::Vector3 rotationOffset,
                                                                                                                           float_t headSmoothing, float_t controllersSmoothing,
-                                                                                                                          float_t controllersTimeOffset, float_t cameraFov, bool fpfc,
+                                                                                                                          float_t controllersTimeOffset, float_t cameraFov,
                                                                                                                           ::StringW recordingPath) noexcept {
   this->recorderMode = recorderMode;
   this->positionOffset = positionOffset;
@@ -43,7 +82,6 @@ constexpr ::GlobalNamespace::BeatmapEditorStartTestLevelData_RecordingData::Beat
   this->controllersSmoothing = controllersSmoothing;
   this->controllersTimeOffset = controllersTimeOffset;
   this->cameraFov = cameraFov;
-  this->fpfc = fpfc;
   this->recordingPath = recordingPath;
 }
 // Ctor Parameters []

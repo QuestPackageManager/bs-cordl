@@ -66,10 +66,10 @@ public:
 
   static inline ::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c* New_ctor();
 
-  /// @brief Method <SetData>b__11_0, addr 0x5e70ffc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <SetData>b__11_0, addr 0x5e70f14, size 0x6c, virtual false, abstract: false, final false
   inline int32_t _SetData_b__11_0(::GlobalNamespace::BeatmapCharacteristic a, ::GlobalNamespace::BeatmapCharacteristic b);
 
-  /// @brief Method .ctor, addr 0x5e70ff8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e70f10, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c* getStaticF___9();
@@ -136,18 +136,18 @@ public:
 
   __declspec(property(get = get_selectedBeatmapCharacteristic)) ::GlobalNamespace::BeatmapCharacteristic selectedBeatmapCharacteristic;
 
-  /// @brief Method Awake, addr 0x5e705cc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5e704e4, size 0x90, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleBeatmapCharacteristicSegmentedControlDidSelectCell, addr 0x5e70e90, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapCharacteristicSegmentedControlDidSelectCell, addr 0x5e70da8, size 0x98, virtual false, abstract: false, final false
   inline void HandleBeatmapCharacteristicSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellIdx);
 
   static inline ::GlobalNamespace::BeatmapCharacteristicSegmentedControlController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5e7065c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5e70574, size 0xdc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetData, addr 0x5e70738, size 0x758, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x5e70650, size 0x758, virtual false, abstract: false, final false
   inline void SetData(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapCharacteristic>* beatmapCharacteristics,
                       ::GlobalNamespace::BeatmapCharacteristic selectedBeatmapCharacteristic,
                       ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapCharacteristic>* notAllowedCharacteristics);
@@ -185,19 +185,19 @@ public:
   constexpr void __cordl_internal_set_didSelectBeatmapCharacteristicEvent(
       ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>, ::GlobalNamespace::BeatmapCharacteristic>* value);
 
-  /// @brief Method .ctor, addr 0x5e70f28, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e70e40, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_didSelectBeatmapCharacteristicEvent, addr 0x5e70444, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectBeatmapCharacteristicEvent, addr 0x5e7035c, size 0xc0, virtual false, abstract: false, final false
   inline void
   add_didSelectBeatmapCharacteristicEvent(::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>, ::GlobalNamespace::BeatmapCharacteristic>* value);
 
-  /// @brief Method get_selectedBeatmapCharacteristic, addr 0x5e705c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedBeatmapCharacteristic, addr 0x5e704dc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapCharacteristic get_selectedBeatmapCharacteristic();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didSelectBeatmapCharacteristicEvent, addr 0x5e70504, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectBeatmapCharacteristicEvent, addr 0x5e7041c, size 0xc0, virtual false, abstract: false, final false
   inline void
   remove_didSelectBeatmapCharacteristicEvent(::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>, ::GlobalNamespace::BeatmapCharacteristic>* value);
 

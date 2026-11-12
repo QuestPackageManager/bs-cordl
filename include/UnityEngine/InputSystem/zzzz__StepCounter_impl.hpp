@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::IntegerControl* (::UnityEngine::InputSystem::StepCounter::*)()>(
     &::UnityEngine::InputSystem::StepCounter::get_stepCounter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cf5fc;
+  constexpr static std::size_t addrs = 0x69d06dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::StepCounter*>(), { "get_stepCounter", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::StepCounter::*)(::UnityEngine::InputSystem::Controls::IntegerControl*)>(
     &::UnityEngine::InputSystem::StepCounter::set_stepCounter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cf604;
+  constexpr static std::size_t addrs = 0x69d06e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::StepCounter*>(),
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::StepCounter* (*)()>(&::UnityEngine::InputSystem::StepCounter::get_current)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x69cf60c;
+  constexpr static std::size_t addrs = 0x69d06ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::StepCounter*>(), { "get_current", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::StepCounter*)>(&::UnityEngine::InputSystem::StepCounter::set_current)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x69cf658;
+  constexpr static std::size_t addrs = 0x69d0738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::StepCounter::*)()>(&::UnityEngine::InputSystem::StepCounter::MakeCurrent)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x69cf6a8;
+  constexpr static std::size_t addrs = 0x69d0788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::StepCounter::*)()>(&::UnityEngine::InputSystem::StepCounter::OnRemoved)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x69cf6f8;
+  constexpr static std::size_t addrs = 0x69d07d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::StepCounter::*)()>(&::UnityEngine::InputSystem::StepCounter::FinishSetup)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x69cf788;
+  constexpr static std::size_t addrs = 0x69d0868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::StepCounter::*)()>(&::UnityEngine::InputSystem::StepCounter::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69cf7f8;
+  constexpr static std::size_t addrs = 0x69d08d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::StepCounter*>(), { ".ctor", {}, {} })));

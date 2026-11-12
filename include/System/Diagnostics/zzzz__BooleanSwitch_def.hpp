@@ -23,10 +23,10 @@ public:
   // Declarations
   static inline ::System::Diagnostics::BooleanSwitch* New_ctor(::StringW displayName, ::StringW description);
 
-  /// @brief Method OnValueChanged, addr 0x67fbe00, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method OnValueChanged, addr 0x67fc450, size 0x68, virtual true, abstract: false, final false
   inline void OnValueChanged();
 
-  /// @brief Method .ctor, addr 0x67fbd2c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67fc37c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW description);
 
 protected:

@@ -58,7 +58,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method WithButton, addr 0x6a1701c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method WithButton, addr 0x6a180fc, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::PenState WithButton(::UnityEngine::InputSystem::PenButton button, bool state);
 
   constexpr uint16_t const& __cordl_internal_get_buttons() const;
@@ -103,10 +103,10 @@ public:
 
   constexpr void __cordl_internal_set_twist(float_t value);
 
-  /// @brief Method get_Format, addr 0x6a17010, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x6a180f0, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
 
-  /// @brief Method get_format, addr 0x6a17050, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x6a18130, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"

@@ -31,7 +31,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
   constexpr operator ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*() noexcept;
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x6bff388, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x6c00468, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild();
 
   /// @brief Method get_volumeProfile, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

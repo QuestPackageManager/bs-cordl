@@ -189,27 +189,27 @@ public:
 
   __declspec(property(get = get_yaw, put = set_yaw)) float_t yaw;
 
-  /// @brief Method GetWorldSpaceAxes, addr 0x6b958b8, size 0xa28, virtual false, abstract: false, final false
+  /// @brief Method GetWorldSpaceAxes, addr 0x6b96998, size 0xa28, virtual false, abstract: false, final false
   inline ::UnityEngine::LightAnchor_Axes GetWorldSpaceAxes(::UnityEngine::Camera* camera, ::UnityEngine::Vector3 anchor);
 
   static inline ::UnityEngine::LightAnchor* New_ctor();
 
-  /// @brief Method NormalizeAngleDegree, addr 0x6b951cc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method NormalizeAngleDegree, addr 0x6b962ac, size 0x34, virtual false, abstract: false, final false
   static inline float_t NormalizeAngleDegree(float_t angle);
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x6b96720, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x6b97800, size 0xdc, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method SynchronizeOnTransform, addr 0x6b953f4, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method SynchronizeOnTransform, addr 0x6b964d4, size 0x4c4, virtual false, abstract: false, final false
   inline void SynchronizeOnTransform(::UnityEngine::Camera* camera);
 
-  /// @brief Method Update, addr 0x6b9661c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6b976fc, size 0x104, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateTransform, addr 0x6b962e0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdateTransform, addr 0x6b973c0, size 0x68, virtual false, abstract: false, final false
   inline void UpdateTransform(::UnityEngine::Camera* camera, ::UnityEngine::Vector3 anchor);
 
-  /// @brief Method UpdateTransform, addr 0x6b96348, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method UpdateTransform, addr 0x6b97428, size 0x2d4, virtual false, abstract: false, final false
   inline void UpdateTransform(::UnityEngine::Vector3 up, ::UnityEngine::Vector3 right, ::UnityEngine::Vector3 forward, ::UnityEngine::Vector3 anchor);
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_AnchorPositionOffset() const;
@@ -254,52 +254,52 @@ public:
 
   constexpr void __cordl_internal_set_m_Yaw(float_t value);
 
-  /// @brief Method .ctor, addr 0x6b967fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b978dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_anchorPosition, addr 0x6b952bc, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method get_anchorPosition, addr 0x6b9639c, size 0x110, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_anchorPosition();
 
-  /// @brief Method get_anchorPositionOffset, addr 0x6b953dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_anchorPositionOffset, addr 0x6b964bc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_anchorPositionOffset();
 
-  /// @brief Method get_anchorPositionOverride, addr 0x6b953cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_anchorPositionOverride, addr 0x6b964ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_anchorPositionOverride();
 
-  /// @brief Method get_distance, addr 0x6b95280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distance, addr 0x6b96360, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distance();
 
-  /// @brief Method get_frameSpace, addr 0x6b952ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_frameSpace, addr 0x6b9638c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LightAnchor_UpDirection get_frameSpace();
 
-  /// @brief Method get_pitch, addr 0x6b95200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pitch, addr 0x6b962e0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pitch();
 
-  /// @brief Method get_roll, addr 0x6b95240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_roll, addr 0x6b96320, size 0x8, virtual false, abstract: false, final false
   inline float_t get_roll();
 
-  /// @brief Method get_yaw, addr 0x6b9518c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yaw, addr 0x6b9626c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_yaw();
 
-  /// @brief Method set_anchorPositionOffset, addr 0x6b953e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_anchorPositionOffset, addr 0x6b964c8, size 0xc, virtual false, abstract: false, final false
   inline void set_anchorPositionOffset(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_anchorPositionOverride, addr 0x6b953d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_anchorPositionOverride, addr 0x6b964b4, size 0x8, virtual false, abstract: false, final false
   inline void set_anchorPositionOverride(::UnityEngine::Transform* value);
 
-  /// @brief Method set_distance, addr 0x6b95288, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_distance, addr 0x6b96368, size 0x24, virtual false, abstract: false, final false
   inline void set_distance(float_t value);
 
-  /// @brief Method set_frameSpace, addr 0x6b952b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_frameSpace, addr 0x6b96394, size 0x8, virtual false, abstract: false, final false
   inline void set_frameSpace(::UnityEngine::LightAnchor_UpDirection value);
 
-  /// @brief Method set_pitch, addr 0x6b95208, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_pitch, addr 0x6b962e8, size 0x38, virtual false, abstract: false, final false
   inline void set_pitch(float_t value);
 
-  /// @brief Method set_roll, addr 0x6b95248, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_roll, addr 0x6b96328, size 0x38, virtual false, abstract: false, final false
   inline void set_roll(float_t value);
 
-  /// @brief Method set_yaw, addr 0x6b95194, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_yaw, addr 0x6b96274, size 0x38, virtual false, abstract: false, final false
   inline void set_yaw(float_t value);
 
 protected:

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType (
     ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier::*)()>(&::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7208978;
+  constexpr static std::size_t addrs = 0x7209a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier::*)(
     ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType)>(&::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier::set_type)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x7209e60;
+  constexpr static std::size_t addrs = 0x720af40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier::*)(
     ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType)>(&::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x7209e50;
+  constexpr static std::size_t addrs = 0x720af30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier::*)(
     ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType)>(&::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier::SetType)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x7209e64;
+  constexpr static std::size_t addrs = 0x720af44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

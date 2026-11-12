@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::RecordManager::*)(::System::Data::DataTable*)>(&::System::Data::RecordManager::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x64a4444;
+  constexpr static std::size_t addrs = 0x64a4a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::RecordManager::*)()>(&::System::Data::RecordManager::GrowRecordCapacity)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x64a4504;
+  constexpr static std::size_t addrs = 0x64a4b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::RecordManager*>(), { "GrowRecordCapacity", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::RecordManager::*)()>(&::System::Data::RecordManager::get_LastFreeRecord)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64a46dc;
+  constexpr static std::size_t addrs = 0x64a4d2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::RecordManager*>(), { "get_LastFreeRecord", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::RecordManager::*)()>(&::System::Data::RecordManager::get_MinimumCapacity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64a46e4;
+  constexpr static std::size_t addrs = 0x64a4d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::RecordManager*>(), { "get_MinimumCapacity", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::RecordManager::*)(int32_t)>(&::System::Data::RecordManager::set_MinimumCapacity)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x64a46ec;
+  constexpr static std::size_t addrs = 0x64a4d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::RecordManager::*)()>(&::System::Data::RecordManager::get_RecordCapacity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64a472c;
+  constexpr static std::size_t addrs = 0x64a4d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::RecordManager*>(), { "get_RecordCapacity", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::RecordManager::*)(int32_t)>(&::System::Data::RecordManager::set_RecordCapacity)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x64a464c;
+  constexpr static std::size_t addrs = 0x64a4c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::Data::RecordManager::NewCapacity)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64a4604;
+  constexpr static std::size_t addrs = 0x64a4c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::RecordManager*>(), { "NewCapacity", {}, { ::i2c::type_of<int32_t>() } })));
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::RecordManager::*)(int32_t)>(&::System::Data::RecordManager::NormalizedMinimumCapacity)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x64a4618;
+  constexpr static std::size_t addrs = 0x64a4c68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::RecordManager::*)()>(&::System::Data::RecordManager::NewRecordBase)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x64a4734;
+  constexpr static std::size_t addrs = 0x64a4d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::RecordManager*>(), { "NewRecordBase", {}, {} })));
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::RecordManager::*)(::by_ref<int32_t>)>(&::System::Data::RecordManager::FreeRecord)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x64a4810;
+  constexpr static std::size_t addrs = 0x64a4e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::RecordManager::*)(bool)>(&::System::Data::RecordManager::Clear)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x64a49d8;
+  constexpr static std::size_t addrs = 0x64a5028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::RecordManager*>(), { "Clear", {}, { ::i2c::type_of<bool>() } })));
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataRow* (::System::Data::RecordManager::*)(int32_t)>(&::System::Data::RecordManager::get_Item)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x64a4be4;
+  constexpr static std::size_t addrs = 0x64a5234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::RecordManager*>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::RecordManager::*)(int32_t, ::System::Data::DataRow*)>(&::System::Data::RecordManager::set_Item)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x64a4974;
+  constexpr static std::size_t addrs = 0x64a4fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::RecordManager::*)(::System::Data::DataTable*, int32_t)>(&::System::Data::RecordManager::ImportRecord)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64a4c14;
+  constexpr static std::size_t addrs = 0x64a5264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::RecordManager::*)(::System::Data::DataTable*, int32_t, int32_t)>(&::System::Data::RecordManager::CopyRecord)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x64a4c1c;
+  constexpr static std::size_t addrs = 0x64a526c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::RecordManager::*)(::ArrayW<::System::Data::DataRow*>)>(&::System::Data::RecordManager::SetRowCache)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64a4f94;
+  constexpr static std::size_t addrs = 0x64a55e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

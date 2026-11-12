@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::ColorType)>(&::GlobalNamespace::ColorTypeExtensions::GetDefaultColorLabel)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x34fa254;
+  constexpr static std::size_t addrs = 0x34fc694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ColorType (*)(::GlobalNamespace::ColorType)>(&::GlobalNamespace::ColorTypeExtensions::Opposite)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x34fa2f8;
+  constexpr static std::size_t addrs = 0x34fc738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -61,19 +61,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRExtendedDisplay__GetWindowBounds : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x62859e8, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6285c70, size 0xac, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::by_ref<int32_t> pnX, ::by_ref<int32_t> pnY, ::by_ref<uint32_t> pnWidth, ::by_ref<uint32_t> pnHeight, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x6285a94, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6285d1c, size 0x28, virtual true, abstract: false, final false
   inline void EndInvoke(::by_ref<int32_t> pnX, ::by_ref<int32_t> pnY, ::by_ref<uint32_t> pnWidth, ::by_ref<uint32_t> pnHeight, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x62859d4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6285c5c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::by_ref<int32_t> pnX, ::by_ref<int32_t> pnY, ::by_ref<uint32_t> pnWidth, ::by_ref<uint32_t> pnHeight);
 
   static inline ::OVR::OpenVR::IVRExtendedDisplay__GetWindowBounds* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6285954, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6285bdc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -107,19 +107,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRExtendedDisplay__GetEyeOutputViewport : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6285b3c, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6285dc4, size 0xfc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVREye eEye, ::by_ref<uint32_t> pnX, ::by_ref<uint32_t> pnY, ::by_ref<uint32_t> pnWidth, ::by_ref<uint32_t> pnHeight,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x6285c38, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6285ec0, size 0x28, virtual true, abstract: false, final false
   inline void EndInvoke(::by_ref<uint32_t> pnX, ::by_ref<uint32_t> pnY, ::by_ref<uint32_t> pnWidth, ::by_ref<uint32_t> pnHeight, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x6285b28, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6285db0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::OVR::OpenVR::EVREye eEye, ::by_ref<uint32_t> pnX, ::by_ref<uint32_t> pnY, ::by_ref<uint32_t> pnWidth, ::by_ref<uint32_t> pnHeight);
 
   static inline ::OVR::OpenVR::IVRExtendedDisplay__GetEyeOutputViewport* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6285abc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6285d44, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -153,18 +153,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRExtendedDisplay__GetDXGIOutputInfo : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6285cf4, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6285f7c, size 0x70, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::by_ref<int32_t> pnAdapterIndex, ::by_ref<int32_t> pnAdapterOutputIndex, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x6285d64, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6285fec, size 0x24, virtual true, abstract: false, final false
   inline void EndInvoke(::by_ref<int32_t> pnAdapterIndex, ::by_ref<int32_t> pnAdapterOutputIndex, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x6285ce0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6285f68, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::by_ref<int32_t> pnAdapterIndex, ::by_ref<int32_t> pnAdapterOutputIndex);
 
   static inline ::OVR::OpenVR::IVRExtendedDisplay__GetDXGIOutputInfo* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6285c60, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6285ee8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

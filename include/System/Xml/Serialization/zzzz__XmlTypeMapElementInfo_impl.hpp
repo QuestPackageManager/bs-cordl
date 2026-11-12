@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlTypeMapElementInfo::*)(
     ::System::Xml::Serialization::XmlTypeMapMember*, ::System::Xml::Serialization::TypeData*)>(&::System::Xml::Serialization::XmlTypeMapElementInfo::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6776d6c;
+  constexpr static std::size_t addrs = 0x67773bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Serialization::TypeData* (::System::Xml::Serialization::XmlTypeMapElementInfo::*)()>(
     &::System::Xml::Serialization::XmlTypeMapElementInfo::get_TypeData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6776e10;
+  constexpr static std::size_t addrs = 0x6777460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlTypeMapElementInfo*>(), { "get_TypeData", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Serialization::XmlTypeMapElementInfo::*)()>(
     &::System::Xml::Serialization::XmlTypeMapElementInfo::get_ChoiceValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6776e18;
+  constexpr static std::size_t addrs = 0x6777468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlTypeMapElementInfo*>(), { "get_ChoiceValue", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlTypeMapElementInfo::*)(::System::Object*)>(
     &::System::Xml::Serialization::XmlTypeMapElementInfo::set_ChoiceValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6776e20;
+  constexpr static std::size_t addrs = 0x6777470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Serialization::XmlTypeMapElementInfo::*)()>(&::System::Xml::Serialization::XmlTypeMapElementInfo::get_ElementName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6776e28;
+  constexpr static std::size_t addrs = 0x6777478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlTypeMapElementInfo*>(), { "get_ElementName", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlTypeMapElementInfo::*)(::StringW)>(
     &::System::Xml::Serialization::XmlTypeMapElementInfo::set_ElementName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6776e30;
+  constexpr static std::size_t addrs = 0x6777480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Serialization::XmlTypeMapElementInfo::*)()>(&::System::Xml::Serialization::XmlTypeMapElementInfo::get_Namespace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6776e38;
+  constexpr static std::size_t addrs = 0x6777488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlTypeMapElementInfo*>(), { "get_Namespace", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlTypeMapElementInfo::*)(::StringW)>(&::System::Xml::Serialization::XmlTypeMapElementInfo::set_Namespace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6776e40;
+  constexpr static std::size_t addrs = 0x6777490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Serialization::XmlTypeMapElementInfo::*)()>(
     &::System::Xml::Serialization::XmlTypeMapElementInfo::get_DataTypeNamespace)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6773f84;
+  constexpr static std::size_t addrs = 0x67745d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Serialization::XmlTypeMapElementInfo::*)()>(&::System::Xml::Serialization::XmlTypeMapElementInfo::get_DataTypeName)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6773f58;
+  constexpr static std::size_t addrs = 0x67745a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlTypeMapElementInfo*>(), { "get_DataTypeName", {}, {} })));
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaForm (::System::Xml::Serialization::XmlTypeMapElementInfo::*)()>(
     &::System::Xml::Serialization::XmlTypeMapElementInfo::get_Form)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6776e48;
+  constexpr static std::size_t addrs = 0x6777498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlTypeMapElementInfo*>(), { "get_Form", {}, {} })));
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlTypeMapElementInfo::*)(::System::Xml::Schema::XmlSchemaForm)>(
     &::System::Xml::Serialization::XmlTypeMapElementInfo::set_Form)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6776e50;
+  constexpr static std::size_t addrs = 0x67774a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Serialization::XmlTypeMapping* (::System::Xml::Serialization::XmlTypeMapElementInfo::*)()>(
     &::System::Xml::Serialization::XmlTypeMapElementInfo::get_MappedType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6776e58;
+  constexpr static std::size_t addrs = 0x67774a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlTypeMapElementInfo*>(), { "get_MappedType", {}, {} })));
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlTypeMapElementInfo::*)(::System::Xml::Serialization::XmlTypeMapping*)>(
     &::System::Xml::Serialization::XmlTypeMapElementInfo::set_MappedType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6776e60;
+  constexpr static std::size_t addrs = 0x67774b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlTypeMapElementInfo*>(),
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Serialization::XmlTypeMapElementInfo::*)()>(&::System::Xml::Serialization::XmlTypeMapElementInfo::get_IsNullable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6776e68;
+  constexpr static std::size_t addrs = 0x67774b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlTypeMapElementInfo*>(), { "get_IsNullable", {}, {} })));
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlTypeMapElementInfo::*)(bool)>(&::System::Xml::Serialization::XmlTypeMapElementInfo::set_IsNullable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6776e70;
+  constexpr static std::size_t addrs = 0x67774c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Serialization::XmlTypeMapMember* (::System::Xml::Serialization::XmlTypeMapElementInfo::*)()>(
     &::System::Xml::Serialization::XmlTypeMapElementInfo::get_Member)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6776e78;
+  constexpr static std::size_t addrs = 0x67774c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlTypeMapElementInfo*>(), { "get_Member", {}, {} })));
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlTypeMapElementInfo::*)(int32_t)>(
     &::System::Xml::Serialization::XmlTypeMapElementInfo::set_NestingLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6776e80;
+  constexpr static std::size_t addrs = 0x67774d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Serialization::XmlTypeMapElementInfo::*)()>(&::System::Xml::Serialization::XmlTypeMapElementInfo::get_MultiReferenceType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6776e88;
+  constexpr static std::size_t addrs = 0x67774d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Serialization::XmlTypeMapElementInfo::*)()>(&::System::Xml::Serialization::XmlTypeMapElementInfo::get_WrappedElement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6776ea8;
+  constexpr static std::size_t addrs = 0x67774f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlTypeMapElementInfo*>(), { "get_WrappedElement", {}, {} })));
@@ -277,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlTypeMapElementInfo::*)(bool)>(&::System::Xml::Serialization::XmlTypeMapElementInfo::set_WrappedElement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6776eb0;
+  constexpr static std::size_t addrs = 0x6777500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Serialization::XmlTypeMapElementInfo::*)()>(&::System::Xml::Serialization::XmlTypeMapElementInfo::get_IsTextElement)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6776eb8;
+  constexpr static std::size_t addrs = 0x6777508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlTypeMapElementInfo*>(), { "get_IsTextElement", {}, {} })));
@@ -302,7 +302,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlTypeMapElementInfo::*)(bool)>(&::System::Xml::Serialization::XmlTypeMapElementInfo::set_IsTextElement)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6776f04;
+  constexpr static std::size_t addrs = 0x6777554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Serialization::XmlTypeMapElementInfo::*)()>(
     &::System::Xml::Serialization::XmlTypeMapElementInfo::get_IsUnnamedAnyElement)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6776fb8;
+  constexpr static std::size_t addrs = 0x6777608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlTypeMapElementInfo::*)(bool)>(
     &::System::Xml::Serialization::XmlTypeMapElementInfo::set_IsUnnamedAnyElement)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6776fd0;
+  constexpr static std::size_t addrs = 0x6777620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -343,7 +343,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Serialization::XmlTypeMapElementInfo::*)()>(&::System::Xml::Serialization::XmlTypeMapElementInfo::get_ExplicitOrder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6777038;
+  constexpr static std::size_t addrs = 0x6777688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlTypeMapElementInfo*>(), { "get_ExplicitOrder", {}, {} })));
@@ -356,7 +356,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlTypeMapElementInfo::*)(int32_t)>(
     &::System::Xml::Serialization::XmlTypeMapElementInfo::set_ExplicitOrder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6777040;
+  constexpr static std::size_t addrs = 0x6777690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -370,7 +370,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Serialization::XmlTypeMapElementInfo::*)(::System::Object*)>(
     &::System::Xml::Serialization::XmlTypeMapElementInfo::Equals)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x6777048;
+  constexpr static std::size_t addrs = 0x6777698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlTypeMapElementInfo*>(),
@@ -383,7 +383,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Serialization::XmlTypeMapElementInfo::*)()>(&::System::Xml::Serialization::XmlTypeMapElementInfo::GetHashCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6777180;
+  constexpr static std::size_t addrs = 0x67777d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlTypeMapElementInfo*>(),

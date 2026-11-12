@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRResetOrientation::*)()>(&::GlobalNamespace::OVRResetOrientation::Update)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6362e9c;
+  constexpr static std::size_t addrs = 0x6363124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRResetOrientation*>(), { "Update", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRResetOrientation::*)()>(&::GlobalNamespace::OVRResetOrientation::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6362f8c;
+  constexpr static std::size_t addrs = 0x6363214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRResetOrientation*>(), { ".ctor", {}, {} })));

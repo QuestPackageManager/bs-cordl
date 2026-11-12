@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::OVRFaceExpressions> (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::get_FaceExpressions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x624f244;
+  constexpr static std::size_t addrs = 0x624f4cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { "get_FaceExpressions", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRFace::*)(::GlobalNamespace::OVRFaceExpressions*)>(&::GlobalNamespace::OVRFace::set_FaceExpressions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x624f24c;
+  constexpr static std::size_t addrs = 0x624f4d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::get_BlendShapeStrengthMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x624f254;
+  constexpr static std::size_t addrs = 0x624f4dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { "get_BlendShapeStrengthMultiplier", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRFace::*)(float_t)>(&::GlobalNamespace::OVRFace::set_BlendShapeStrengthMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x624f25c;
+  constexpr static std::size_t addrs = 0x624f4e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::SkinnedMeshRenderer> (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::get_SkinnedMesh)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x624f264;
+  constexpr static std::size_t addrs = 0x624f4ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { "get_SkinnedMesh", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::SkinnedMeshRenderer> (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::RetrieveSkinnedMeshRenderer)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x624f26c;
+  constexpr static std::size_t addrs = 0x624f4f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { "RetrieveSkinnedMeshRenderer", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::OVRFaceExpressions> (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::SearchFaceExpressions)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x624f2b8;
+  constexpr static std::size_t addrs = 0x624f540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { "SearchFaceExpressions", {}, {} })));
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::Awake)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x624f314;
+  constexpr static std::size_t addrs = 0x624f59c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { ::i2c::class_of<::GlobalNamespace::OVRFace*>(), 4 }));
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::OnEnable)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x624f470;
+  constexpr static std::size_t addrs = 0x624f6f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { "OnEnable", {}, {} })));
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::Start)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x624e67c;
+  constexpr static std::size_t addrs = 0x624e904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { ::i2c::class_of<::GlobalNamespace::OVRFace*>(), 5 }));
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::Update)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x624f560;
+  constexpr static std::size_t addrs = 0x624f7e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { ::i2c::class_of<::GlobalNamespace::OVRFace*>(), 6 }));
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRFaceExpressions_FaceExpression (::GlobalNamespace::OVRFace::*)(int32_t)>(&::GlobalNamespace::OVRFace::GetFaceExpression)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x624f6ec;
+  constexpr static std::size_t addrs = 0x624f974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { ::i2c::class_of<::GlobalNamespace::OVRFace*>(), 7 }));
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRFace::*)(int32_t, ::by_ref<float_t>)>(&::GlobalNamespace::OVRFace::GetWeightValue)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x624f6f4;
+  constexpr static std::size_t addrs = 0x624f97c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { ::i2c::class_of<::GlobalNamespace::OVRFace*>(), 8 }));
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRFace::*)()>(&::GlobalNamespace::OVRFace::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x624e854;
+  constexpr static std::size_t addrs = 0x624eadc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRFace*>(), { ".ctor", {}, {} })));

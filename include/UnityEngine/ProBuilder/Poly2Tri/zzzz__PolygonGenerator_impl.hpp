@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::Polygon* (*)(double_t, int32_t)>(
     &::UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator::RandomCircleSweep)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x6b1b6c8;
+  constexpr static std::size_t addrs = 0x6b1c7a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::Polygon* (*)(double_t, int32_t)>(
     &::UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator::RandomCircleSweep2)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x6b1b9b4;
+  constexpr static std::size_t addrs = 0x6b1ca94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator*>(),
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator::*)()>(&::UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b1bc10;
+  constexpr static std::size_t addrs = 0x6b1ccf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator*>(), { ".ctor", {}, {} })));

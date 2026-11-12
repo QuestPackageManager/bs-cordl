@@ -50,7 +50,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Sche
                                                                                                            ::System::Xml::IXmlNamespaceResolver*, ::System::Xml::Schema::XmlSchemaValidationFlags)>(
     &::System::Xml::Schema::XmlSchemaValidator::_ctor)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x66a1704;
+  constexpr static std::size_t addrs = 0x66a1d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)()>(&::System::Xml::Schema::XmlSchemaValidator::Init)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x66a18d4;
+  constexpr static std::size_t addrs = 0x66a1f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(), { "Init", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)()>(&::System::Xml::Schema::XmlSchemaValidator::Reset)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x66a1d04;
+  constexpr static std::size_t addrs = 0x66a2354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(), { "Reset", {}, {} })));
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::XmlResolver*)>(&::System::Xml::Schema::XmlSchemaValidator::set_XmlResolver)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66a1e64;
+  constexpr static std::size_t addrs = 0x66a24b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::IXmlLineInfo*)>(
     &::System::Xml::Schema::XmlSchemaValidator::set_LineInfoProvider)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x66a1e6c;
+  constexpr static std::size_t addrs = 0x66a24bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Uri*)>(&::System::Xml::Schema::XmlSchemaValidator::set_SourceUri)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x66a1e7c;
+  constexpr static std::size_t addrs = 0x66a24cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Object*)>(&::System::Xml::Schema::XmlSchemaValidator::set_ValidationEventSender)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66a1eb0;
+  constexpr static std::size_t addrs = 0x66a2500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::ValidationEventHandler*)>(
     &::System::Xml::Schema::XmlSchemaValidator::add_ValidationEventHandler)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x66a1eb8;
+  constexpr static std::size_t addrs = 0x66a2508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::ValidationEventHandler*)>(
     &::System::Xml::Schema::XmlSchemaValidator::remove_ValidationEventHandler)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x66a1f44;
+  constexpr static std::size_t addrs = 0x66a2594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::XmlSchema*)>(&::System::Xml::Schema::XmlSchemaValidator::AddSchema)> {
   constexpr static std::size_t size = 0x404;
-  constexpr static std::size_t addrs = 0x66a1fd0;
+  constexpr static std::size_t addrs = 0x66a2620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)()>(&::System::Xml::Schema::XmlSchemaValidator::Initialize)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x66a2738;
+  constexpr static std::size_t addrs = 0x66a2d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(), { "Initialize", {}, {} })));
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::XmlSchemaObject*)>(
     &::System::Xml::Schema::XmlSchemaValidator::Initialize)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x66a2864;
+  constexpr static std::size_t addrs = 0x66a2eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::StringW, ::System::Xml::Schema::XmlSchemaInfo*, ::StringW, ::StringW, ::StringW,
                                                                                                            ::StringW)>(&::System::Xml::Schema::XmlSchemaValidator::ValidateElement)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x66a2af4;
+  constexpr static std::size_t addrs = 0x66a3144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -233,7 +233,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Object* (::System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::StringW, ::System::Xml::Schema::XmlValueGetter*, ::System::Xml::Schema::XmlSchemaInfo*)>(
         &::System::Xml::Schema::XmlSchemaValidator::ValidateAttribute)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x66a435c;
+  constexpr static std::size_t addrs = 0x66a49ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -252,7 +252,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Object* (::System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::StringW, ::System::Xml::Schema::XmlValueGetter*, ::StringW, ::System::Xml::Schema::XmlSchemaInfo*)>(
         &::System::Xml::Schema::XmlSchemaValidator::ValidateAttribute)> {
   constexpr static std::size_t size = 0x928;
-  constexpr static std::size_t addrs = 0x66a43b8;
+  constexpr static std::size_t addrs = 0x66a4a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::XmlSchemaInfo*)>(
     &::System::Xml::Schema::XmlSchemaValidator::ValidateEndOfAttributes)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x66a5708;
+  constexpr static std::size_t addrs = 0x66a5d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(),
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::XmlValueGetter*)>(
     &::System::Xml::Schema::XmlSchemaValidator::ValidateText)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x66a5994;
+  constexpr static std::size_t addrs = 0x66a5fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::System::Xml::Schema::XmlValueGetter*)>(
     &::System::Xml::Schema::XmlSchemaValidator::ValidateText)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x66a59f0;
+  constexpr static std::size_t addrs = 0x66a6040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -313,7 +313,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::XmlValueGetter*)>(
     &::System::Xml::Schema::XmlSchemaValidator::ValidateWhitespace)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x66a6330;
+  constexpr static std::size_t addrs = 0x66a6980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -328,7 +328,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::System::Xml::Schema::XmlValueGetter*)>(
     &::System::Xml::Schema::XmlSchemaValidator::ValidateWhitespace)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x66a638c;
+  constexpr static std::size_t addrs = 0x66a69dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -343,7 +343,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::XmlSchemaInfo*)>(
     &::System::Xml::Schema::XmlSchemaValidator::ValidateEndElement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66a6554;
+  constexpr static std::size_t addrs = 0x66a6ba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -358,7 +358,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::XmlSchemaInfo*)>(
     &::System::Xml::Schema::XmlSchemaValidator::SkipToEndElement)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x66a6a3c;
+  constexpr static std::size_t addrs = 0x66a708c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -372,7 +372,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)()>(&::System::Xml::Schema::XmlSchemaValidator::EndValidation)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x66a6d84;
+  constexpr static std::size_t addrs = 0x66a73d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(), { "EndValidation", {}, {} })));
@@ -385,7 +385,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Collections::ArrayList*, bool)>(
     &::System::Xml::Schema::XmlSchemaValidator::GetUnspecifiedDefaultAttributes)> {
   constexpr static std::size_t size = 0x574;
-  constexpr static std::size_t addrs = 0x66a6f5c;
+  constexpr static std::size_t addrs = 0x66a75ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -400,7 +400,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaSet* (::System::Xml::Schema::XmlSchemaValidator::*)()>(
     &::System::Xml::Schema::XmlSchemaValidator::get_SchemaSet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66a7870;
+  constexpr static std::size_t addrs = 0x66a7ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(), { "get_SchemaSet", {}, {} })));
@@ -413,7 +413,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaValidationFlags (::System::Xml::Schema::XmlSchemaValidator::*)()>(
     &::System::Xml::Schema::XmlSchemaValidator::get_ValidationFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66a7878;
+  constexpr static std::size_t addrs = 0x66a7ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(), { "get_ValidationFlags", {}, {} })));
@@ -426,7 +426,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaContentType (::System::Xml::Schema::XmlSchemaValidator::*)()>(
     &::System::Xml::Schema::XmlSchemaValidator::get_CurrentContentType)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x66a7880;
+  constexpr static std::size_t addrs = 0x66a7ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(), { "get_CurrentContentType", {}, {} })));
@@ -438,7 +438,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::IDtdInfo*)>(&::System::Xml::Schema::XmlSchemaValidator::SetDtdSchemaInfo)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x66a78b4;
+  constexpr static std::size_t addrs = 0x66a7f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -451,7 +451,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::XmlSchemaValidator::*)()>(&::System::Xml::Schema::XmlSchemaValidator::get_StrictlyAssessed)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x66a78c4;
+  constexpr static std::size_t addrs = 0x66a7f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(), { "get_StrictlyAssessed", {}, {} })));
@@ -463,7 +463,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::XmlSchemaValidator::*)()>(&::System::Xml::Schema::XmlSchemaValidator::get_HasSchema)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x66a7904;
+  constexpr static std::size_t addrs = 0x66a7f54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(), { "get_HasSchema", {}, {} })));
@@ -475,7 +475,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::XmlSchemaValidator::*)()>(&::System::Xml::Schema::XmlSchemaValidator::GetConcatenatedValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x66a794c;
+  constexpr static std::size_t addrs = 0x66a7f9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(), { "GetConcatenatedValue", {}, {} })));
@@ -488,7 +488,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::XmlSchemaInfo*, ::System::Object*)>(
     &::System::Xml::Schema::XmlSchemaValidator::InternalValidateEndElement)> {
   constexpr static std::size_t size = 0x4e0;
-  constexpr static std::size_t addrs = 0x66a655c;
+  constexpr static std::size_t addrs = 0x66a6bac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -502,7 +502,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::StringW)>(&::System::Xml::Schema::XmlSchemaValidator::ProcessSchemaLocations)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x66a3750;
+  constexpr static std::size_t addrs = 0x66a3da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(),
@@ -516,7 +516,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::XmlQualifiedName*, ::by_ref<bool>)>(
     &::System::Xml::Schema::XmlSchemaValidator::ValidateElementContext)> {
   constexpr static std::size_t size = 0x450;
-  constexpr static std::size_t addrs = 0x66a30a8;
+  constexpr static std::size_t addrs = 0x66a36f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -531,7 +531,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaElement* (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::XmlSchemaValidator::GetSubstitutionGroupHead)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x66a9464;
+  constexpr static std::size_t addrs = 0x66a9ab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -546,7 +546,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::by_ref<::System::Xml::Schema::XmlSchemaSimpleType*>)>(
     &::System::Xml::Schema::XmlSchemaValidator::ValidateAtomicValue)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x66a7968;
+  constexpr static std::size_t addrs = 0x66a7fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -561,7 +561,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Object*, ::by_ref<::System::Xml::Schema::XmlSchemaSimpleType*>)>(
     &::System::Xml::Schema::XmlSchemaValidator::ValidateAtomicValue)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x66a7bdc;
+  constexpr static std::size_t addrs = 0x66a822c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -576,7 +576,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::SchemaDeclBase*)>(
     &::System::Xml::Schema::XmlSchemaValidator::GetTypeName)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x66aa06c;
+  constexpr static std::size_t addrs = 0x66aa6bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -589,7 +589,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Object*)>(&::System::Xml::Schema::XmlSchemaValidator::SaveTextValue)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x66a5dbc;
+  constexpr static std::size_t addrs = 0x66a640c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -602,7 +602,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::XmlQualifiedName*)>(&::System::Xml::Schema::XmlSchemaValidator::Push)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x66a1c0c;
+  constexpr static std::size_t addrs = 0x66a225c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -615,7 +615,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)()>(&::System::Xml::Schema::XmlSchemaValidator::Pop)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x66a6c4c;
+  constexpr static std::size_t addrs = 0x66a729c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(), { "Pop", {}, {} })));
@@ -628,7 +628,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::SchemaElementDecl* (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::XmlQualifiedName*, ::System::Object*)>(
     &::System::Xml::Schema::XmlSchemaValidator::FastGetElementDecl)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x66a34f8;
+  constexpr static std::size_t addrs = 0x66a3b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -643,7 +643,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::SchemaElementDecl* (
     ::System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::SchemaElementDecl*, ::StringW, ::StringW, ::by_ref<bool>)>(&::System::Xml::Schema::XmlSchemaValidator::CheckXsiTypeAndNil)> {
   constexpr static std::size_t size = 0x5a8;
-  constexpr static std::size_t addrs = 0x66a3a40;
+  constexpr static std::size_t addrs = 0x66a4090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -660,7 +660,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(bool)>(&::System::Xml::Schema::XmlSchemaValidator::ThrowDeclNotFoundWarningOrError)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x66a3fe8;
+  constexpr static std::size_t addrs = 0x66a4638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -673,7 +673,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)()>(&::System::Xml::Schema::XmlSchemaValidator::CheckElementProperties)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x66a4140;
+  constexpr static std::size_t addrs = 0x66a4790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(), { "CheckElementProperties", {}, {} })));
@@ -685,7 +685,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)()>(&::System::Xml::Schema::XmlSchemaValidator::ValidateStartElementIdentityConstraints)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x66a41f0;
+  constexpr static std::size_t addrs = 0x66a4840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -699,7 +699,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::SchemaAttDef* (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::XmlSchemaValidator::CheckIsXmlAttribute)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x66a4e60;
+  constexpr static std::size_t addrs = 0x66a54b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -712,7 +712,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)()>(&::System::Xml::Schema::XmlSchemaValidator::AddXmlNamespaceSchema)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x66aa88c;
+  constexpr static std::size_t addrs = 0x66aaedc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(), { "AddXmlNamespaceSchema", {}, {} })));
@@ -725,7 +725,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlSchemaValidator::*)(::StringW)>(
     &::System::Xml::Schema::XmlSchemaValidator::CheckMixedValueConstraint)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x66a7e98;
+  constexpr static std::size_t addrs = 0x66a84e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -738,7 +738,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::StringW)>(&::System::Xml::Schema::XmlSchemaValidator::LoadSchema)> {
   constexpr static std::size_t size = 0x448;
-  constexpr static std::size_t addrs = 0x66a8f48;
+  constexpr static std::size_t addrs = 0x66a9598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -751,7 +751,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)()>(&::System::Xml::Schema::XmlSchemaValidator::RecompileSchemaSet)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x66a1d90;
+  constexpr static std::size_t addrs = 0x66a23e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(), { "RecompileSchemaSet", {}, {} })));
@@ -764,7 +764,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::XmlTokenizedType, ::StringW, bool)>(
     &::System::Xml::Schema::XmlSchemaValidator::ProcessTokenizedType)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x66aaaf4;
+  constexpr static std::size_t addrs = 0x66ab144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -779,7 +779,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Object*, ::System::Xml::Schema::SchemaAttDef*)>(
     &::System::Xml::Schema::XmlSchemaValidator::CheckAttributeValue)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x66a50c0;
+  constexpr static std::size_t addrs = 0x66a5710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -793,7 +793,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlSchemaValidator::*)(::StringW)>(&::System::Xml::Schema::XmlSchemaValidator::CheckElementValue)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x66a9e7c;
+  constexpr static std::size_t addrs = 0x66aa4cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -807,7 +807,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::XmlSchemaDatatype*, ::System::Object*, bool)>(
     &::System::Xml::Schema::XmlSchemaValidator::CheckTokenizedTypes)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x66a52c4;
+  constexpr static std::size_t addrs = 0x66a5914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -822,7 +822,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlSchemaValidator::*)(::StringW)>(&::System::Xml::Schema::XmlSchemaValidator::FindId)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x66aad98;
+  constexpr static std::size_t addrs = 0x66ab3e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -835,7 +835,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)()>(&::System::Xml::Schema::XmlSchemaValidator::CheckForwardRefs)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x66a6e6c;
+  constexpr static std::size_t addrs = 0x66a74bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(), { "CheckForwardRefs", {}, {} })));
@@ -847,7 +847,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::XmlSchemaValidator::*)()>(&::System::Xml::Schema::XmlSchemaValidator::get_HasIdentityConstraints)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x66a5444;
+  constexpr static std::size_t addrs = 0x66a5a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(), { "get_HasIdentityConstraints", {}, {} })));
@@ -859,7 +859,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::XmlSchemaValidator::*)()>(&::System::Xml::Schema::XmlSchemaValidator::get_ProcessIdentityConstraints)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x66aa0d8;
+  constexpr static std::size_t addrs = 0x66aa728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -872,7 +872,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::XmlSchemaValidator::*)()>(&::System::Xml::Schema::XmlSchemaValidator::get_ReportValidationWarnings)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x66ab068;
+  constexpr static std::size_t addrs = 0x66ab6b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(), { "get_ReportValidationWarnings", {}, {} })));
@@ -884,7 +884,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::XmlSchemaValidator::*)()>(&::System::Xml::Schema::XmlSchemaValidator::get_ProcessSchemaHints)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x66a1e54;
+  constexpr static std::size_t addrs = 0x66a24a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(), { "get_ProcessSchemaHints", {}, {} })));
@@ -897,7 +897,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::ValidatorState, ::StringW)>(
     &::System::Xml::Schema::XmlSchemaValidator::CheckStateTransition)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x66a2e68;
+  constexpr static std::size_t addrs = 0x66a34b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -911,7 +911,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)()>(&::System::Xml::Schema::XmlSchemaValidator::ClearPSVI)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x66a3064;
+  constexpr static std::size_t addrs = 0x66a36b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(), { "ClearPSVI", {}, {} })));
@@ -924,7 +924,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::SchemaElementDecl*)>(
     &::System::Xml::Schema::XmlSchemaValidator::CheckRequiredAttributes)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x66a57d4;
+  constexpr static std::size_t addrs = 0x66a5e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(),
@@ -938,7 +938,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaElement* (::System::Xml::Schema::XmlSchemaValidator::*)()>(
     &::System::Xml::Schema::XmlSchemaValidator::GetSchemaElement)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x66a424c;
+  constexpr static std::size_t addrs = 0x66a489c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(), { "GetSchemaElement", {}, {} })));
@@ -950,7 +950,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::XmlSchemaValidator::*)(::StringW)>(&::System::Xml::Schema::XmlSchemaValidator::GetDefaultAttributePrefix)> {
   constexpr static std::size_t size = 0x3a0;
-  constexpr static std::size_t addrs = 0x66a74d0;
+  constexpr static std::size_t addrs = 0x66a7b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -963,7 +963,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)()>(&::System::Xml::Schema::XmlSchemaValidator::AddIdentityConstraints)> {
   constexpr static std::size_t size = 0x3f4;
-  constexpr static std::size_t addrs = 0x66aa0e4;
+  constexpr static std::size_t addrs = 0x66aa734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(), { "AddIdentityConstraints", {}, {} })));
@@ -975,7 +975,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)()>(&::System::Xml::Schema::XmlSchemaValidator::ElementIdentityConstraints)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x66aa4d8;
+  constexpr static std::size_t addrs = 0x66aab28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(), { "ElementIdentityConstraints", {}, {} })));
@@ -988,7 +988,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(
     ::StringW, ::StringW, ::System::Object*, ::StringW, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::XmlSchemaValidator::AttributeIdentityConstraints)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x66a5464;
+  constexpr static std::size_t addrs = 0x66a5ab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(),
@@ -1005,7 +1005,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Object*, ::StringW, ::System::Xml::Schema::XmlSchemaDatatype*)>(
     &::System::Xml::Schema::XmlSchemaValidator::EndElementIdentityConstraints)> {
   constexpr static std::size_t size = 0xbb4;
-  constexpr static std::size_t addrs = 0x66a8394;
+  constexpr static std::size_t addrs = 0x66a89e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1023,7 +1023,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::X
                                                                 ::System::Object*, ::StringW, int32_t, int32_t, ::System::Xml::Schema::XmlSchemaSet*)>(
     &::System::Xml::Schema::XmlSchemaValidator::ElementValidationError)> {
   constexpr static std::size_t size = 0x600;
-  constexpr static std::size_t addrs = 0x66a987c;
+  constexpr static std::size_t addrs = 0x66a9ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1042,7 +1042,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::Schema::ValidationState*, ::System::Xml::Schema::ValidationEventHandler*, ::System::Object*, ::StringW, int32_t, int32_t,
                                                                 ::System::Xml::Schema::XmlSchemaSet*)>(&::System::Xml::Schema::XmlSchemaValidator::CompleteValidationError)> {
   constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x66a7f88;
+  constexpr static std::size_t addrs = 0x66a85d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1060,7 +1060,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Collections::ArrayList*, bool)>(&::System::Xml::Schema::XmlSchemaValidator::PrintExpectedElements)> {
   constexpr static std::size_t size = 0x3ec;
-  constexpr static std::size_t addrs = 0x66a5f44;
+  constexpr static std::size_t addrs = 0x66a6594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1074,7 +1074,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Collections::ArrayList*)>(&::System::Xml::Schema::XmlSchemaValidator::PrintNames)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x66ab5cc;
+  constexpr static std::size_t addrs = 0x66abc1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1087,7 +1087,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::ArrayList*, ::System::Text::StringBuilder*)>(&::System::Xml::Schema::XmlSchemaValidator::PrintNamesWithNS)> {
   constexpr static std::size_t size = 0x48c;
-  constexpr static std::size_t addrs = 0x66ab140;
+  constexpr static std::size_t addrs = 0x66ab790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1101,7 +1101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*, ::StringW)>(&::System::Xml::Schema::XmlSchemaValidator::EnumerateAny)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x66ab750;
+  constexpr static std::size_t addrs = 0x66abda0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(),
@@ -1114,7 +1114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::System::Xml::Schema::XmlSchemaValidator::QNameString)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x66a5d38;
+  constexpr static std::size_t addrs = 0x66a6388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1127,7 +1127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Xml::XmlQualifiedName*)>(&::System::Xml::Schema::XmlSchemaValidator::BuildElementName)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x66a9624;
+  constexpr static std::size_t addrs = 0x66a9c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1140,7 +1140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::System::Xml::Schema::XmlSchemaValidator::BuildElementName)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x66a5dfc;
+  constexpr static std::size_t addrs = 0x66a644c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1154,7 +1154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::StringW)>(&::System::Xml::Schema::XmlSchemaValidator::ProcessEntity)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x66aadb4;
+  constexpr static std::size_t addrs = 0x66ab404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1167,7 +1167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::StringW)>(&::System::Xml::Schema::XmlSchemaValidator::SendValidationEvent)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x66aa0c4;
+  constexpr static std::size_t addrs = 0x66aa714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1181,7 +1181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::ArrayW<::StringW>)>(
     &::System::Xml::Schema::XmlSchemaValidator::SendValidationEvent)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x66a4f1c;
+  constexpr static std::size_t addrs = 0x66a556c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(),
@@ -1194,7 +1194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::StringW)>(&::System::Xml::Schema::XmlSchemaValidator::SendValidationEvent)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x66a4ce0;
+  constexpr static std::size_t addrs = 0x66a5330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1209,7 +1209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::Schema::XmlSchemaValidator::SendValidationEvent)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x66a968c;
+  constexpr static std::size_t addrs = 0x66a9cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1224,7 +1224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(
     ::StringW, ::ArrayW<::StringW>, ::System::Exception*, ::System::Xml::Schema::XmlSeverityType)>(&::System::Xml::Schema::XmlSchemaValidator::SendValidationEvent)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x66aa918;
+  constexpr static std::size_t addrs = 0x66aaf68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(),
@@ -1241,7 +1241,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::ArrayW<::StringW>, ::System::Exception*)>(
     &::System::Xml::Schema::XmlSchemaValidator::SendValidationEvent)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x66a2588;
+  constexpr static std::size_t addrs = 0x66a2bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1256,7 +1256,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::XmlSchemaValidationException*)>(
     &::System::Xml::Schema::XmlSchemaValidator::SendValidationEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66ab074;
+  constexpr static std::size_t addrs = 0x66ab6c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(),
@@ -1270,7 +1270,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::XmlSchemaException*)>(
     &::System::Xml::Schema::XmlSchemaValidator::SendValidationEvent)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x66a9390;
+  constexpr static std::size_t addrs = 0x66a99e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaValidator*>(),
@@ -1284,7 +1284,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::StringW, ::System::Xml::Schema::XmlSeverityType)>(
     &::System::Xml::Schema::XmlSchemaValidator::SendValidationEvent)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x66a23d4;
+  constexpr static std::size_t addrs = 0x66a2a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1300,7 +1300,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaValidator::*)(
     ::System::Xml::Schema::XmlSchemaValidationException*, ::System::Xml::Schema::XmlSeverityType)>(&::System::Xml::Schema::XmlSchemaValidator::SendValidationEvent)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x66aaf4c;
+  constexpr static std::size_t addrs = 0x66ab59c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1316,7 +1316,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::Schema::ValidationEventHandler*, ::System::Object*, ::System::Xml::Schema::XmlSchemaValidationException*,
                                                                 ::System::Xml::Schema::XmlSeverityType)>(&::System::Xml::Schema::XmlSchemaValidator::SendValidationEvent)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x66ab07c;
+  constexpr static std::size_t addrs = 0x66ab6cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

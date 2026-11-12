@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Zenject::SubContainerCreatorBindInfo*, ::Zenject::DiContainer*)>(&::Zenject::SubContainerCreatorUtil::ApplyBindSettings)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x73633a0;
+  constexpr static std::size_t addrs = 0x7365680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

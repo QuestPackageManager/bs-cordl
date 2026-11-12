@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::EncoderFallbackBuffer::*)()>(&::System::Text::EncoderFallbackBuffer::Reset)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5f28acc;
+  constexpr static std::size_t addrs = 0x5f28d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::EncoderFallbackBuffer::*)()>(&::System::Text::EncoderFallbackBuffer::InternalReset)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5f28af4;
+  constexpr static std::size_t addrs = 0x5f28d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::EncoderFallbackBuffer*>(), { "InternalReset", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::EncoderFallbackBuffer::*)(char16_t*, char16_t*, ::System::Text::EncoderNLS*, bool)>(
     &::System::Text::EncoderFallbackBuffer::InternalInitialize)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5f28b0c;
+  constexpr static std::size_t addrs = 0x5f28d94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::System::Text::EncoderFallbackBuffer::*)()>(&::System::Text::EncoderFallbackBuffer::InternalGetNextChar)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5f28b24;
+  constexpr static std::size_t addrs = 0x5f28dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::EncoderFallbackBuffer*>(), { "InternalGetNextChar", {}, {} })));
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Text::EncoderFallbackBuffer::*)(char16_t, ::by_ref<char16_t*>)>(&::System::Text::EncoderFallbackBuffer::InternalFallback)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x5f28b54;
+  constexpr static std::size_t addrs = 0x5f28ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::EncoderFallbackBuffer::*)(int32_t)>(&::System::Text::EncoderFallbackBuffer::ThrowLastCharRecursive)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5f28cd8;
+  constexpr static std::size_t addrs = 0x5f28f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::EncoderFallbackBuffer::*)()>(&::System::Text::EncoderFallbackBuffer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f280ec;
+  constexpr static std::size_t addrs = 0x5f28374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::EncoderFallbackBuffer*>(), { ".ctor", {}, {} })));

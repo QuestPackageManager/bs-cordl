@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::MutationRequest::*)(::System::Action_1<::OculusStudios::GraphQL::Client::MutationRequest*>*)>(
     &::OculusStudios::GraphQL::Client::MutationRequest::add_performRequestCalled)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x637a130;
+  constexpr static std::size_t addrs = 0x637a3bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::MutationRequest::*)(::System::Action_1<::OculusStudios::GraphQL::Client::MutationRequest*>*)>(
     &::OculusStudios::GraphQL::Client::MutationRequest::remove_performRequestCalled)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x637a1f0;
+  constexpr static std::size_t addrs = 0x637a47c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::MutationRequest::*)(::OculusStudios::GraphQL::Client::GraphQLMutationOperation*, bool)>(
     &::OculusStudios::GraphQL::Client::MutationRequest::_ctor)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x637a2b0;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x637a53c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,12 +51,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Gr
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::OculusStudios::GraphQL::Client::MutationRequest.SupportsClientMutationId
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OculusStudios::GraphQL::Client::MutationRequest::*)()>(&::OculusStudios::GraphQL::Client::MutationRequest::SupportsClientMutationId)> {
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x637a674;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::MutationRequest*>(), { ::i2c::class_of<::OculusStudios::GraphQL::Client::MutationRequest*>(), 9 }));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::MutationRequest.PerformRequest
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::MutationRequest::*)()>(&::OculusStudios::GraphQL::Client::MutationRequest::PerformRequest)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x637a32c;
+  constexpr static std::size_t addrs = 0x637a6cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OculusStudios::GraphQL::ClientInterface::IGraphQLOperation* (::OculusStudios::GraphQL::Client::MutationRequest::*)()>(
     &::OculusStudios::GraphQL::Client::MutationRequest::GetCodeGenInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x637a34c;
+  constexpr static std::size_t addrs = 0x637a6ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,6 +132,11 @@ inline void OculusStudios::GraphQL::Client::MutationRequest::_ctor(::OculusStudi
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::MutationRequest*>(),
                                                            { ".ctor", {}, { ::i2c::type_of<::OculusStudios::GraphQL::Client::GraphQLMutationOperation*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, mutation, forceRequestWhenOffline);
+}
+inline bool OculusStudios::GraphQL::Client::MutationRequest::SupportsClientMutationId() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::Client::MutationRequest*>(), 9 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline void OculusStudios::GraphQL::Client::MutationRequest::PerformRequest() {
   auto* ___internal_method =

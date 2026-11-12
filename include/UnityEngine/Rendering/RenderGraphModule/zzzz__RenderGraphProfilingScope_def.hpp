@@ -33,13 +33,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6c400e0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6c411c0, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6c400e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6c411c4, size 0x4, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method .ctor, addr 0x6c400dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c411bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ProfilingSampler* sampler);
 
   /// @brief Convert to "::System::IDisposable"

@@ -39,7 +39,7 @@ public:
 
   static inline ::UnityEngine::InputSystem::UI::ExtendedAxisEventData* New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method ToString, addr 0x69faa74, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x69fbb54, size 0xe0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityEngine::InputSystem::InputDevice* const& __cordl_internal_get__device_k__BackingField() const;
@@ -48,18 +48,18 @@ public:
 
   constexpr void __cordl_internal_set__device_k__BackingField(::UnityEngine::InputSystem::InputDevice* value);
 
-  /// @brief Method .ctor, addr 0x69faa6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69fbb4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
   /// [CompilerGenerated]
-  /// @brief Method get_device, addr 0x69faa5c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_device, addr 0x69fbb3c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::InputDevice* get_device();
 
   /// @brief Convert to "::UnityEngine::InputSystem::UI::INavigationEventData"
   constexpr ::UnityEngine::InputSystem::UI::INavigationEventData* i___UnityEngine__InputSystem__UI__INavigationEventData() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_device, addr 0x69faa64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_device, addr 0x69fbb44, size 0x8, virtual false, abstract: false, final false
   inline void set_device(::UnityEngine::InputSystem::InputDevice* value);
 
 protected:

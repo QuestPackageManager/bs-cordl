@@ -26,7 +26,7 @@ public:
 
   static inline ::GlobalNamespace::OVRResetOrientation* New_ctor();
 
-  /// @brief Method Update, addr 0x6362e9c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6363124, size 0xf0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::OVRInput_RawButton const& __cordl_internal_get_resetButton() const;
@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set_resetButton(::GlobalNamespace::OVRInput_RawButton value);
 
-  /// @brief Method .ctor, addr 0x6362f8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6363214, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

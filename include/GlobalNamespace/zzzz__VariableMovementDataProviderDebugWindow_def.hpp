@@ -28,7 +28,7 @@ public:
 
   static inline ::GlobalNamespace::VariableMovementDataProviderDebugWindow* New_ctor();
 
-  /// @brief Method OnGUI, addr 0x5d1d9a8, size 0xbf8, virtual false, abstract: false, final false
+  /// @brief Method OnGUI, addr 0x5d1db6c, size 0xbf8, virtual false, abstract: false, final false
   inline void OnGUI();
 
   constexpr ::GlobalNamespace::VariableMovementDataProvider* const& __cordl_internal_get__variableMovementDataProvider() const;
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::VariableMovementDataProvider* value);
 
-  /// @brief Method .ctor, addr 0x5d1e5a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d1e764, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

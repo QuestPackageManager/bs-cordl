@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::Utils::TypeUtils___c::*)()>(&::System::Dynamic::Utils::TypeUtils___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6426408;
+  constexpr static std::size_t addrs = 0x6426a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::Utils::TypeUtils___c*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::Utils::TypeUtils___c::*)(::System::Type*)>(&::System::Dynamic::Utils::TypeUtils___c::__cctor_b__44_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x642640c;
+  constexpr static std::size_t addrs = 0x6426a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Dynamic::Utils::TypeUtils___c::*)(::System::Type*)>(&::System::Dynamic::Utils::TypeUtils___c::__cctor_b__44_1)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6426430;
+  constexpr static std::size_t addrs = 0x6426a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::GetNonNullableType)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x642338c;
+  constexpr static std::size_t addrs = 0x64239dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::GetNullableType)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x64234d4;
+  constexpr static std::size_t addrs = 0x6423b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::IsNullableType)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6423420;
+  constexpr static std::size_t addrs = 0x6423a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::IsNullableOrReferenceType)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x642361c;
+  constexpr static std::size_t addrs = 0x6423c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::IsBool)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x64236a4;
+  constexpr static std::size_t addrs = 0x6423cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::IsNumeric)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6423738;
+  constexpr static std::size_t addrs = 0x6423d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::IsInteger)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x64237fc;
+  constexpr static std::size_t addrs = 0x6423e4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::IsArithmetic)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x64238c0;
+  constexpr static std::size_t addrs = 0x6423f10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::IsUnsignedInt)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6423984;
+  constexpr static std::size_t addrs = 0x6423fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::IsIntegerOrBool)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6423a4c;
+  constexpr static std::size_t addrs = 0x642409c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::IsNumericOrBool)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6423b14;
+  constexpr static std::size_t addrs = 0x6424164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Reflection::MemberInfo*, ::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::IsValidInstanceType)> {
   constexpr static std::size_t size = 0x3f8;
-  constexpr static std::size_t addrs = 0x6423b98;
+  constexpr static std::size_t addrs = 0x64241e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -232,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::HasIdentityPrimitiveOrNullableConversionTo)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x6423f90;
+  constexpr static std::size_t addrs = 0x64245e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -246,7 +246,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::HasReferenceConversionTo)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x6424244;
+  constexpr static std::size_t addrs = 0x6424894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::System::Type*, bool)>(&::System::Dynamic::Utils::TypeUtils::StrictHasReferenceConversionTo)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x64246f8;
+  constexpr static std::size_t addrs = 0x6424d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -274,7 +274,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::HasArrayToInterfaceConversion)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x6424a4c;
+  constexpr static std::size_t addrs = 0x642509c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -288,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::HasInterfaceToArrayConversion)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x6424c10;
+  constexpr static std::size_t addrs = 0x6425260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -302,7 +302,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::IsCovariant)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6424e00;
+  constexpr static std::size_t addrs = 0x6425450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -315,7 +315,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::IsContravariant)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6424e28;
+  constexpr static std::size_t addrs = 0x6425478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -328,7 +328,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::IsInvariant)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6424e50;
+  constexpr static std::size_t addrs = 0x64254a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -341,7 +341,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::IsDelegate)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6424e7c;
+  constexpr static std::size_t addrs = 0x64254cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -354,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::IsLegalExplicitVariantDelegateConversion)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x6424408;
+  constexpr static std::size_t addrs = 0x6424a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -368,7 +368,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::IsConvertible)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6424184;
+  constexpr static std::size_t addrs = 0x64247d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -381,7 +381,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::HasReferenceEquality)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6424f00;
+  constexpr static std::size_t addrs = 0x6425550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::Utils::TypeUtils*>(),
@@ -394,7 +394,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::HasBuiltInEqualityOperator)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x6425000;
+  constexpr static std::size_t addrs = 0x6425650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -408,7 +408,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::IsImplicitlyConvertibleTo)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6425200;
+  constexpr static std::size_t addrs = 0x6425850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -422,7 +422,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (*)(::System::Type*, ::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::GetUserDefinedCoercionMethod)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x6425620;
+  constexpr static std::size_t addrs = 0x6425c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -437,7 +437,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (*)(::ArrayW<::System::Reflection::MethodInfo*>, ::System::Type*, ::System::Type*)>(
     &::System::Dynamic::Utils::TypeUtils::FindConversionOperator)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x6425848;
+  constexpr static std::size_t addrs = 0x6425e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -453,7 +453,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::IsImplicitNumericConversion)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x6425310;
+  constexpr static std::size_t addrs = 0x6425960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -467,7 +467,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::IsImplicitReferenceConversion)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6424dd8;
+  constexpr static std::size_t addrs = 0x6425428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -481,7 +481,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::IsImplicitBoxingConversion)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6425484;
+  constexpr static std::size_t addrs = 0x6425ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -495,7 +495,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::IsImplicitNullableConversion)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6425574;
+  constexpr static std::size_t addrs = 0x6425bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -509,7 +509,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Type*, ::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::FindGenericType)> {
   constexpr static std::size_t size = 0x44c;
-  constexpr static std::size_t addrs = 0x6425a1c;
+  constexpr static std::size_t addrs = 0x642606c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::Utils::TypeUtils*>(),
@@ -522,7 +522,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (*)(::System::Type*, ::StringW)>(&::System::Dynamic::Utils::TypeUtils::GetBooleanOperator)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6425e68;
+  constexpr static std::size_t addrs = 0x64264b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -536,7 +536,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::GetNonRefType)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6425fc0;
+  constexpr static std::size_t addrs = 0x6426610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -549,7 +549,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::AreEquivalent)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6420a5c;
+  constexpr static std::size_t addrs = 0x64210ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -563,7 +563,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::AreReferenceAssignable)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6422494;
+  constexpr static std::size_t addrs = 0x6422ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -577,7 +577,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::IsSameOrSubclass)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x642269c;
+  constexpr static std::size_t addrs = 0x6422cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::Utils::TypeUtils*>(),
@@ -590,7 +590,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Type*, ::StringW)>(&::System::Dynamic::Utils::TypeUtils::ValidateType)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6426008;
+  constexpr static std::size_t addrs = 0x6426658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -603,7 +603,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Type*, ::StringW, bool, bool)>(&::System::Dynamic::Utils::TypeUtils::ValidateType)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6422394;
+  constexpr static std::size_t addrs = 0x64229e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -617,7 +617,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::StringW, int32_t)>(&::System::Dynamic::Utils::TypeUtils::ValidateType)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6426078;
+  constexpr static std::size_t addrs = 0x64266c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -631,7 +631,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (*)(::System::Type*)>(&::System::Dynamic::Utils::TypeUtils::GetInvokeMethod)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6426158;
+  constexpr static std::size_t addrs = 0x64267a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

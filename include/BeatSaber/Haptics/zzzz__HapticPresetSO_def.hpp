@@ -121,10 +121,10 @@ public:
 
   constexpr void __cordl_internal_set__useAdvancedHapticsOnSupportedPlatforms(bool value);
 
-  /// @brief Method .ctor, addr 0x3540c20, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3543bc0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasOculusHapticsClip, addr 0x353f9c8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_hasOculusHapticsClip, addr 0x3542968, size 0xe4, virtual false, abstract: false, final false
   inline bool get_hasOculusHapticsClip();
 
 protected:
@@ -142,7 +142,7 @@ public:
   HapticPresetSO(HapticPresetSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24048 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24066 };
 
   /// [DrawIf("_continuous", false, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _duration, offset: 0x18, size: 0x4, def value: None

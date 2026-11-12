@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Hashtable_SyncHashtable::*)(::System::Collections::Hashtable*)>(&::GlobalNamespace::Hashtable_SyncHashtable::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x604621c;
+  constexpr static std::size_t addrs = 0x60464a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Hashtable_SyncHashtable::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::GlobalNamespace::Hashtable_SyncHashtable::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6047448;
+  constexpr static std::size_t addrs = 0x60476d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Hashtable_SyncHashtable::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::GlobalNamespace::Hashtable_SyncHashtable::GetObjectData)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6047484;
+  constexpr static std::size_t addrs = 0x604770c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::Hashtable_SyncHashtable::*)()>(&::GlobalNamespace::Hashtable_SyncHashtable::get_Count)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x60474bc;
+  constexpr static std::size_t addrs = 0x6047744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::Hashtable_SyncHashtable::*)()>(&::GlobalNamespace::Hashtable_SyncHashtable::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x60474dc;
+  constexpr static std::size_t addrs = 0x6047764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::Hashtable_SyncHashtable::*)()>(&::GlobalNamespace::Hashtable_SyncHashtable::get_IsFixedSize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x60474fc;
+  constexpr static std::size_t addrs = 0x6047784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::Hashtable_SyncHashtable::*)()>(&::GlobalNamespace::Hashtable_SyncHashtable::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x604751c;
+  constexpr static std::size_t addrs = 0x60477a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::Hashtable_SyncHashtable::*)(::System::Object*)>(&::GlobalNamespace::Hashtable_SyncHashtable::get_Item)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6047524;
+  constexpr static std::size_t addrs = 0x60477ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Hashtable_SyncHashtable::*)(::System::Object*, ::System::Object*)>(
     &::GlobalNamespace::Hashtable_SyncHashtable::set_Item)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6047544;
+  constexpr static std::size_t addrs = 0x60477cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::Hashtable_SyncHashtable::*)()>(&::GlobalNamespace::Hashtable_SyncHashtable::get_SyncRoot)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x604763c;
+  constexpr static std::size_t addrs = 0x60478c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Hashtable_SyncHashtable::*)(::System::Object*, ::System::Object*)>(&::GlobalNamespace::Hashtable_SyncHashtable::Add)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x604765c;
+  constexpr static std::size_t addrs = 0x60478e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Hashtable_SyncHashtable::*)()>(&::GlobalNamespace::Hashtable_SyncHashtable::Clear)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6047754;
+  constexpr static std::size_t addrs = 0x60479dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::Hashtable_SyncHashtable::*)(::System::Object*)>(&::GlobalNamespace::Hashtable_SyncHashtable::Contains)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6047834;
+  constexpr static std::size_t addrs = 0x6047abc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::Hashtable_SyncHashtable::*)(::System::Object*)>(&::GlobalNamespace::Hashtable_SyncHashtable::ContainsKey)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6047854;
+  constexpr static std::size_t addrs = 0x6047adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Hashtable_SyncHashtable::*)(::System::Array*, int32_t)>(&::GlobalNamespace::Hashtable_SyncHashtable::CopyTo)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x60478e0;
+  constexpr static std::size_t addrs = 0x6047b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::Hashtable_SyncHashtable::*)()>(&::GlobalNamespace::Hashtable_SyncHashtable::Clone)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x60479d8;
+  constexpr static std::size_t addrs = 0x6047c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::Hashtable_SyncHashtable::*)()>(
     &::GlobalNamespace::Hashtable_SyncHashtable::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6047b38;
+  constexpr static std::size_t addrs = 0x6047dc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IDictionaryEnumerator* (::GlobalNamespace::Hashtable_SyncHashtable::*)()>(
     &::GlobalNamespace::Hashtable_SyncHashtable::GetEnumerator)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6047b58;
+  constexpr static std::size_t addrs = 0x6047de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ICollection* (::GlobalNamespace::Hashtable_SyncHashtable::*)()>(&::GlobalNamespace::Hashtable_SyncHashtable::get_Keys)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6047b78;
+  constexpr static std::size_t addrs = 0x6047e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ICollection* (::GlobalNamespace::Hashtable_SyncHashtable::*)()>(
     &::GlobalNamespace::Hashtable_SyncHashtable::get_Values)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6047c70;
+  constexpr static std::size_t addrs = 0x6047ef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -284,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Hashtable_SyncHashtable::*)(::System::Object*)>(&::GlobalNamespace::Hashtable_SyncHashtable::Remove)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6047d68;
+  constexpr static std::size_t addrs = 0x6047ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -297,7 +297,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Hashtable_SyncHashtable::*)(::System::Object*)>(&::GlobalNamespace::Hashtable_SyncHashtable::OnDeserialization)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6047e58;
+  constexpr static std::size_t addrs = 0x60480e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -48,34 +48,34 @@ public:
   /// @brief Field _segmentNameToId, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__segmentNameToId, put = __cordl_internal_set__segmentNameToId)) ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* _segmentNameToId;
 
-  /// @brief Method AddSegment, addr 0x34ffcfc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method AddSegment, addr 0x350213c, size 0xf4, virtual false, abstract: false, final false
   inline void AddSegment(::StringW segmentId, ::StringW segmentName, ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* type,
                          /* [Nullable(2)] */ ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField* settings);
 
-  /// @brief Method Clear, addr 0x3500cf4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x3503134, size 0xa4, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method GetSegmentState, addr 0x34fffb8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetSegmentState, addr 0x35023f8, size 0x74, virtual false, abstract: false, final false
   inline ::BeatSaber::Analytics::Gameplay::SegmentState* GetSegmentState(::StringW segmentId);
 
-  /// @brief Method IsSegmentFinished, addr 0x34ffc98, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsSegmentFinished, addr 0x35020d8, size 0x64, virtual false, abstract: false, final false
   inline bool IsSegmentFinished(::StringW segmentId);
 
-  /// @brief Method MarkSegmentAsFinished, addr 0x3500a64, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method MarkSegmentAsFinished, addr 0x3502ea4, size 0x70, virtual false, abstract: false, final false
   inline void MarkSegmentAsFinished(::StringW segmentId);
 
   static inline ::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache* New_ctor();
 
-  /// @brief Method RemoveSegment, addr 0x35009a4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method RemoveSegment, addr 0x3502de4, size 0xc0, virtual false, abstract: false, final false
   inline bool RemoveSegment(::StringW segmentName);
 
-  /// @brief Method TryGetSegmentId, addr 0x34ffc2c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TryGetSegmentId, addr 0x350206c, size 0x6c, virtual false, abstract: false, final false
   inline bool TryGetSegmentId(::StringW segmentName, ::by_ref<::StringW> segmentId);
 
-  /// @brief Method UpdateSeqNum, addr 0x3500930, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method UpdateSeqNum, addr 0x3502d70, size 0x74, virtual false, abstract: false, final false
   inline void UpdateSeqNum(::StringW segmentId, int32_t seqNum);
 
-  /// @brief Method UpdateSettings, addr 0x34ff87c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method UpdateSettings, addr 0x3501cbc, size 0x1c, virtual false, abstract: false, final false
   inline void UpdateSettings(::StringW segmentId, ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField* settings);
 
   constexpr ::System::Collections::Generic::HashSet_1<::StringW>* const& __cordl_internal_get__finishedSegmentIds() const;
@@ -96,7 +96,7 @@ public:
 
   constexpr void __cordl_internal_set__segmentNameToId(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x3500ba0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3502fe0, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -114,7 +114,7 @@ public:
   EventsBuilderSharedCache(EventsBuilderSharedCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22851 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22895 };
 
   /// @brief Field _segmentNameToId, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* ____segmentNameToId;

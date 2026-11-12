@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::GlobalNamespace::ScoreSyncStateManager::*)()>(&::GlobalNamespace::ScoreSyncStateManager::get_deltaUpdateFrequencyMs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x612513c;
+  constexpr static std::size_t addrs = 0x61253c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::GlobalNamespace::ScoreSyncStateManager::*)()>(&::GlobalNamespace::ScoreSyncStateManager::get_fullStateUpdateFrequencyMs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6125144;
+  constexpr static std::size_t addrs = 0x61253cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::ScoreSyncStateManager::*)()>(&::GlobalNamespace::ScoreSyncStateManager::get_localBufferSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x612514c;
+  constexpr static std::size_t addrs = 0x61253d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::ScoreSyncStateManager::*)()>(&::GlobalNamespace::ScoreSyncStateManager::get_remoteBufferSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6125154;
+  constexpr static std::size_t addrs = 0x61253dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IPacketPool_1<::GlobalNamespace::StandardScoreSyncStateNetSerializable*>* (::GlobalNamespace::ScoreSyncStateManager::*)()>(
     &::GlobalNamespace::ScoreSyncStateManager::get_serializablePool)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x612515c;
+  constexpr static std::size_t addrs = 0x61253e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IPacketPool_1<::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>* (
     ::GlobalNamespace::ScoreSyncStateManager::*)()>(&::GlobalNamespace::ScoreSyncStateManager::get_deltaSerializablePool)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6125164;
+  constexpr static std::size_t addrs = 0x61253ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NetworkMessageType (::GlobalNamespace::ScoreSyncStateManager::*)()>(
     &::GlobalNamespace::ScoreSyncStateManager::get_messageType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x612516c;
+  constexpr static std::size_t addrs = 0x61253f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NetworkMessageType (::GlobalNamespace::ScoreSyncStateManager::*)()>(
     &::GlobalNamespace::ScoreSyncStateManager::get_deltaMessageType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6125174;
+  constexpr static std::size_t addrs = 0x61253fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::ScoreSyncStateManager::*)(int32_t, int64_t, int32_t, int64_t, int64_t)>(
     &::GlobalNamespace::ScoreSyncStateManager::Interpolate)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x612517c;
+  constexpr static std::size_t addrs = 0x6125404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScoreSyncStateManager::*)()>(&::GlobalNamespace::ScoreSyncStateManager::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6125280;
+  constexpr static std::size_t addrs = 0x6125508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScoreSyncStateManager*>(), { ".ctor", {}, {} })));

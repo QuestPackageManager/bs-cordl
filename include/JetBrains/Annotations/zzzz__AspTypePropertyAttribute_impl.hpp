@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::JetBrains::Annotations::AspTypePropertyAttribute::*)()>(
     &::JetBrains::Annotations::AspTypePropertyAttribute::get_CreateConstructorReferences)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7316e00;
+  constexpr static std::size_t addrs = 0x73190e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::AspTypePropertyAttribute::*)(bool)>(
     &::JetBrains::Annotations::AspTypePropertyAttribute::set_CreateConstructorReferences)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7316e08;
+  constexpr static std::size_t addrs = 0x73190e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::AspTypePropertyAttribute::*)(bool)>(&::JetBrains::Annotations::AspTypePropertyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7316e10;
+  constexpr static std::size_t addrs = 0x73190f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

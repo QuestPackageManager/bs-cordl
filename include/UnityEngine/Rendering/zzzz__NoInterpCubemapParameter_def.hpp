@@ -24,12 +24,12 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE NoInterpCubemapParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityW<::UnityEngine::Cubemap>> {
 public:
   // Declarations
-  /// @brief Method GetHashCode, addr 0x6c28e68, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c29f48, size 0x104, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::Rendering::NoInterpCubemapParameter* New_ctor(::UnityEngine::Cubemap* value, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x6c28e04, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c29ee4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Cubemap* value, bool overrideState);
 
 protected:

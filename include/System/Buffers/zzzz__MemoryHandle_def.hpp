@@ -35,14 +35,14 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6048ab8, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6048d40, size 0xc0, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// [CLSCompliant(false)]
-  /// @brief Method .ctor, addr 0x6048aa4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6048d2c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(void* pointer, ::System::Runtime::InteropServices::GCHandle handle, ::System::Buffers::IPinnable* pinnable);
 
-  /// @brief Method get_Pointer, addr 0x6048ab0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Pointer, addr 0x6048d38, size 0x8, virtual false, abstract: false, final false
   inline void* get_Pointer();
 
   /// @brief Convert to "::System::IDisposable"

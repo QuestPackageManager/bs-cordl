@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Globalization::Unicode::SimpleCollator_Context::*)(::System::Globalization::CompareOptions, uint8_t*, uint8_t*, uint8_t*, uint8_t*,
                                                                                                                         uint8_t*)>(&::Mono::Globalization::Unicode::SimpleCollator_Context::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5f08fa8;
+  constexpr static std::size_t addrs = 0x5f09230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Globalization::Unicode::SimpleCollator_PreviousInfo::*)(bool)>(
     &::Mono::Globalization::Unicode::SimpleCollator_PreviousInfo::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f0ac58;
+  constexpr static std::size_t addrs = 0x5f0aee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Globalization::Unicode::SimpleCollator::*)(::System::Globalization::CultureInfo*)>(
     &::Mono::Globalization::Unicode::SimpleCollator::_ctor)> {
   constexpr static std::size_t size = 0x330;
-  constexpr static std::size_t addrs = 0x5f07688;
+  constexpr static std::size_t addrs = 0x5f07910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Globalizati
     ::System::Globalization::CultureInfo*, ::by_ref<::Mono::Globalization::Unicode::CodePointIndexer*>, ::by_ref<uint8_t*>, ::by_ref<uint8_t*>,
     ::by_ref<::Mono::Globalization::Unicode::CodePointIndexer*>, ::by_ref<uint8_t*>)>(&::Mono::Globalization::Unicode::SimpleCollator::SetCJKTable)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5f079b8;
+  constexpr static std::size_t addrs = 0x5f07c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::CultureInfo* (*)(::System::Globalization::CultureInfo*)>(
     &::Mono::Globalization::Unicode::SimpleCollator::GetNeutralCulture)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5f07a94;
+  constexpr static std::size_t addrs = 0x5f07d1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Globalization::Unicode::SimpleCollator*>(),
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Mono::Globalization::Unicode::SimpleCollator::*)(int32_t)>(&::Mono::Globalization::Unicode::SimpleCollator::Category)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5f07b04;
+  constexpr static std::size_t addrs = 0x5f07d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Mono::Globalization::Unicode::SimpleCollator::*)(int32_t)>(&::Mono::Globalization::Unicode::SimpleCollator::Level1)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5f07ba8;
+  constexpr static std::size_t addrs = 0x5f07e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Mono::Globalization::Unicode::SimpleCollator::*)(int32_t, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType)>(
     &::Mono::Globalization::Unicode::SimpleCollator::Level2)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x5f07c4c;
+  constexpr static std::size_t addrs = 0x5f07ed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t, ::System::Globalization::CompareOptions)>(&::Mono::Globalization::Unicode::SimpleCollator::IsHalfKana)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5f07d88;
+  constexpr static std::size_t addrs = 0x5f08010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Globalization::Unicode::Contraction* (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, int32_t, int32_t)>(
     &::Mono::Globalization::Unicode::SimpleCollator::GetContraction)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5f07e04;
+  constexpr static std::size_t addrs = 0x5f0808c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -233,7 +233,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Mono::Globalization::Unicode::Contraction* (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, int32_t, int32_t, ::ArrayW<::Mono::Globalization::Unicode::Contraction*>)>(
         &::Mono::Globalization::Unicode::SimpleCollator::GetContraction)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5f07ed4;
+  constexpr static std::size_t addrs = 0x5f0815c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Globalization::Unicode::Contraction* (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, int32_t, int32_t)>(
     &::Mono::Globalization::Unicode::SimpleCollator::GetTailContraction)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5f07fa8;
+  constexpr static std::size_t addrs = 0x5f08230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -267,7 +267,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Mono::Globalization::Unicode::Contraction* (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, int32_t, int32_t, ::ArrayW<::Mono::Globalization::Unicode::Contraction*>)>(
         &::Mono::Globalization::Unicode::SimpleCollator::GetTailContraction)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x5f08078;
+  constexpr static std::size_t addrs = 0x5f08300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(int32_t, ::System::Globalization::CompareOptions)>(
     &::Mono::Globalization::Unicode::SimpleCollator::FilterOptions)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5f08220;
+  constexpr static std::size_t addrs = 0x5f084a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Globalization::Unicode::SimpleCollator_ExtenderType (::Mono::Globalization::Unicode::SimpleCollator::*)(int32_t)>(
     &::Mono::Globalization::Unicode::SimpleCollator::GetExtenderType)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5f08320;
+  constexpr static std::size_t addrs = 0x5f085a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -314,7 +314,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (*)(::Mono::Globalization::Unicode::SimpleCollator_ExtenderType, ::System::Globalization::CompareOptions)>(
     &::Mono::Globalization::Unicode::SimpleCollator::ToDashTypeValue)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5f0841c;
+  constexpr static std::size_t addrs = 0x5f086a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(
     int32_t, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType, ::System::Globalization::CompareOptions)>(&::Mono::Globalization::Unicode::SimpleCollator::FilterExtender)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x5f08444;
+  constexpr static std::size_t addrs = 0x5f086cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Globalization::Unicode::SimpleCollator*>(),
@@ -346,7 +346,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t, ::System::Globalization::CompareOptions)>(&::Mono::Globalization::Unicode::SimpleCollator::IsIgnorable)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f08664;
+  constexpr static std::size_t addrs = 0x5f088ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -360,7 +360,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Globalization::Unicode::SimpleCollator::*)(int32_t)>(&::Mono::Globalization::Unicode::SimpleCollator::IsSafe)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5f086e4;
+  constexpr static std::size_t addrs = 0x5f0896c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::SortKey* (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::System::Globalization::CompareOptions)>(
     &::Mono::Globalization::Unicode::SimpleCollator::GetSortKey)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5f08740;
+  constexpr static std::size_t addrs = 0x5f089c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -389,7 +389,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::SortKey* (
     ::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(&::Mono::Globalization::Unicode::SimpleCollator::GetSortKey)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5f0875c;
+  constexpr static std::size_t addrs = 0x5f089e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -405,7 +405,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Globalization::Unicode::SimpleCollator::*)(
     ::StringW, int32_t, int32_t, ::Mono::Globalization::Unicode::SortKeyBuffer*, ::System::Globalization::CompareOptions)>(&::Mono::Globalization::Unicode::SimpleCollator::GetSortKey)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x5f0899c;
+  constexpr static std::size_t addrs = 0x5f08c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -424,7 +424,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Globalizati
     int32_t, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType, ::Mono::Globalization::Unicode::SortKeyBuffer*, ::System::Globalization::CompareOptions)>(
     &::Mono::Globalization::Unicode::SimpleCollator::FillSortKeyRaw)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x5f08fc4;
+  constexpr static std::size_t addrs = 0x5f0924c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -442,7 +442,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Globalization::Unicode::SimpleCollator::*)(int32_t, ::Mono::Globalization::Unicode::SortKeyBuffer*)>(
     &::Mono::Globalization::Unicode::SimpleCollator::FillSurrogateSortKeyRaw)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5f094e8;
+  constexpr static std::size_t addrs = 0x5f09770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -458,7 +458,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, int32_t, int32_t, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(
         &::Mono::Globalization::Unicode::SimpleCollator::System_Globalization_ISimpleCollator_Compare)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f09630;
+  constexpr static std::size_t addrs = 0x5f098b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -476,7 +476,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(
     ::StringW, int32_t, int32_t, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(&::Mono::Globalization::Unicode::SimpleCollator::Compare)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5f09634;
+  constexpr static std::size_t addrs = 0x5f098bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -493,7 +493,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Globalization::Unicode::SimpleCollator::*)(uint8_t*, int32_t)>(&::Mono::Globalization::Unicode::SimpleCollator::ClearBuffer)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x5f08d44;
+  constexpr static std::size_t addrs = 0x5f08fcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -508,7 +508,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Globaliz
     ::StringW, int32_t, int32_t, ::StringW, int32_t, int32_t, ::by_ref<bool>, ::by_ref<bool>, bool, bool, ::by_ref<::Mono::Globalization::Unicode::SimpleCollator_Context>)>(
     &::Mono::Globalization::Unicode::SimpleCollator::CompareInternal)> {
   constexpr static std::size_t size = 0x1578;
-  constexpr static std::size_t addrs = 0x5f096e0;
+  constexpr static std::size_t addrs = 0x5f09968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -526,7 +526,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(bool, bool)>(&::Mono::Globalization::Unicode::SimpleCollator::CompareFlagPair)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5f0ac68;
+  constexpr static std::size_t addrs = 0x5f0aef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -540,7 +540,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, ::System::Globalization::CompareOptions)>(
     &::Mono::Globalization::Unicode::SimpleCollator::IsPrefix)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5f0ac84;
+  constexpr static std::size_t addrs = 0x5f0af0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -555,7 +555,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(
     &::Mono::Globalization::Unicode::SimpleCollator::IsPrefix)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5f0aca0;
+  constexpr static std::size_t addrs = 0x5f0af28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Globalization::Unicode::SimpleCollator*>(),
@@ -572,7 +572,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Globalization::Unicode::SimpleCollator::*)(
     ::StringW, ::StringW, int32_t, int32_t, bool, ::by_ref<::Mono::Globalization::Unicode::SimpleCollator_Context>)>(&::Mono::Globalization::Unicode::SimpleCollator::IsPrefix)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5f0ad90;
+  constexpr static std::size_t addrs = 0x5f0b018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -590,7 +590,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, ::System::Globalization::CompareOptions)>(
     &::Mono::Globalization::Unicode::SimpleCollator::IsSuffix)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5f0adf8;
+  constexpr static std::size_t addrs = 0x5f0b080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -605,7 +605,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(
     &::Mono::Globalization::Unicode::SimpleCollator::IsSuffix)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5f0ae14;
+  constexpr static std::size_t addrs = 0x5f0b09c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Globalization::Unicode::SimpleCollator*>(),
@@ -622,7 +622,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, int32_t, int32_t, ::by_ref<bool>)>(
     &::Mono::Globalization::Unicode::SimpleCollator::QuickIndexOf)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x5f0b040;
+  constexpr static std::size_t addrs = 0x5f0b2c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -639,7 +639,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(
     &::Mono::Globalization::Unicode::SimpleCollator::IndexOf)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x5f0b168;
+  constexpr static std::size_t addrs = 0x5f0b3f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Globalization::Unicode::SimpleCollator*>(),
@@ -656,7 +656,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, int32_t, int32_t)>(
     &::Mono::Globalization::Unicode::SimpleCollator::IndexOfOrdinal)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5f0b880;
+  constexpr static std::size_t addrs = 0x5f0bb08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -671,7 +671,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, char16_t, int32_t, int32_t)>(
     &::Mono::Globalization::Unicode::SimpleCollator::IndexOfOrdinal)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5f0b948;
+  constexpr static std::size_t addrs = 0x5f0bbd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -687,7 +687,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Globaliz
                                                                                                                    ::by_ref<::Mono::Globalization::Unicode::SimpleCollator_Context>)>(
     &::Mono::Globalization::Unicode::SimpleCollator::IndexOfSortKey)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5f0b9a4;
+  constexpr static std::size_t addrs = 0x5f0bc2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -705,7 +705,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(
     ::StringW, ::StringW, int32_t, int32_t, uint8_t*, ::by_ref<::Mono::Globalization::Unicode::SimpleCollator_Context>)>(&::Mono::Globalization::Unicode::SimpleCollator::IndexOf)> {
   constexpr static std::size_t size = 0x518;
-  constexpr static std::size_t addrs = 0x5f0b368;
+  constexpr static std::size_t addrs = 0x5f0b5f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -723,7 +723,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(
     &::Mono::Globalization::Unicode::SimpleCollator::LastIndexOf)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x5f0aea8;
+  constexpr static std::size_t addrs = 0x5f0b130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Globalization::Unicode::SimpleCollator*>(),
@@ -740,7 +740,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, int32_t, int32_t)>(
     &::Mono::Globalization::Unicode::SimpleCollator::LastIndexOfOrdinal)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5f0c158;
+  constexpr static std::size_t addrs = 0x5f0c3e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -756,7 +756,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Globaliz
                                                                                                                    ::by_ref<::Mono::Globalization::Unicode::SimpleCollator_Context>)>(
     &::Mono::Globalization::Unicode::SimpleCollator::LastIndexOfSortKey)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5f0c25c;
+  constexpr static std::size_t addrs = 0x5f0c4e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -774,7 +774,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(
     ::StringW, ::StringW, int32_t, int32_t, uint8_t*, ::by_ref<::Mono::Globalization::Unicode::SimpleCollator_Context>)>(&::Mono::Globalization::Unicode::SimpleCollator::LastIndexOf)> {
   constexpr static std::size_t size = 0x580;
-  constexpr static std::size_t addrs = 0x5f0bbd8;
+  constexpr static std::size_t addrs = 0x5f0be60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -793,7 +793,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Globalizati
                                                                                                                 ::by_ref<::Mono::Globalization::Unicode::SimpleCollator_Context>)>(
     &::Mono::Globalization::Unicode::SimpleCollator::MatchesForward)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x5f0ba38;
+  constexpr static std::size_t addrs = 0x5f0bcc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -812,7 +812,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Globalizati
     ::StringW, ::by_ref<int32_t>, int32_t, int32_t, uint8_t*, bool, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType, ::by_ref<::Mono::Globalization::Unicode::Contraction*>,
     ::by_ref<::Mono::Globalization::Unicode::SimpleCollator_Context>)>(&::Mono::Globalization::Unicode::SimpleCollator::MatchesForwardCore)> {
   constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x5f0c4a0;
+  constexpr static std::size_t addrs = 0x5f0c728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -833,7 +833,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Globalizati
                                                                                                                 ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType, uint8_t*, int32_t, bool)>(
     &::Mono::Globalization::Unicode::SimpleCollator::MatchesPrimitive)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x5f0c83c;
+  constexpr static std::size_t addrs = 0x5f0cac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Globalization::Unicode::SimpleCollator*>(),
@@ -852,7 +852,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Globalizati
                                                                                                                 ::by_ref<::Mono::Globalization::Unicode::SimpleCollator_Context>)>(
     &::Mono::Globalization::Unicode::SimpleCollator::MatchesBackward)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x5f0c2f8;
+  constexpr static std::size_t addrs = 0x5f0c580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -871,7 +871,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Globalizati
     ::StringW, ::by_ref<int32_t>, int32_t, int32_t, int32_t, uint8_t*, bool, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType, ::by_ref<::Mono::Globalization::Unicode::Contraction*>,
     ::by_ref<::Mono::Globalization::Unicode::SimpleCollator_Context>)>(&::Mono::Globalization::Unicode::SimpleCollator::MatchesBackwardCore)> {
   constexpr static std::size_t size = 0x4e8;
-  constexpr static std::size_t addrs = 0x5f0ca74;
+  constexpr static std::size_t addrs = 0x5f0ccfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

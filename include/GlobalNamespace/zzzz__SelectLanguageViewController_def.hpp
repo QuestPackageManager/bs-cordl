@@ -42,15 +42,15 @@ public:
   __declspec(property(get = __cordl_internal_get_didChangeLanguageEvent,
                       put = __cordl_internal_set_didChangeLanguageEvent)) ::System::Action_1<::BGLib::Polyglot::LocalizationLanguage>* didChangeLanguageEvent;
 
-  /// @brief Method DidActivate, addr 0x5dbd178, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5dbd11c, size 0x138, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleLanguageSettingsControllerOndropDownValueDidChange, addr 0x5dbd3cc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandleLanguageSettingsControllerOndropDownValueDidChange, addr 0x5dbd370, size 0x30, virtual false, abstract: false, final false
   inline void HandleLanguageSettingsControllerOndropDownValueDidChange();
 
   static inline ::GlobalNamespace::SelectLanguageViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5dbd2b0, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5dbd254, size 0x11c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
@@ -71,15 +71,15 @@ public:
 
   constexpr void __cordl_internal_set_didChangeLanguageEvent(::System::Action_1<::BGLib::Polyglot::LocalizationLanguage>* value);
 
-  /// @brief Method .ctor, addr 0x5dbd3fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dbd3a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_didChangeLanguageEvent, addr 0x5dbcff8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeLanguageEvent, addr 0x5dbcf9c, size 0xc0, virtual false, abstract: false, final false
   inline void add_didChangeLanguageEvent(::System::Action_1<::BGLib::Polyglot::LocalizationLanguage>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didChangeLanguageEvent, addr 0x5dbd0b8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeLanguageEvent, addr 0x5dbd05c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didChangeLanguageEvent(::System::Action_1<::BGLib::Polyglot::LocalizationLanguage>* value);
 
 protected:

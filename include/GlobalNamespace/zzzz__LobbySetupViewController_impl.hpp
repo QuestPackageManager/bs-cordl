@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
     &::GlobalNamespace::LobbySetupViewController::add_selectBeatmapEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5db71ec;
+  constexpr static std::size_t addrs = 0x5db7190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
     &::GlobalNamespace::LobbySetupViewController::remove_selectBeatmapEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5db7298;
+  constexpr static std::size_t addrs = 0x5db723c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
     &::GlobalNamespace::LobbySetupViewController::add_selectModifiersEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5db7344;
+  constexpr static std::size_t addrs = 0x5db72e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
     &::GlobalNamespace::LobbySetupViewController::remove_selectModifiersEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5db73f0;
+  constexpr static std::size_t addrs = 0x5db7394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
     &::GlobalNamespace::LobbySetupViewController::add_startGameOrReadyEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5db749c;
+  constexpr static std::size_t addrs = 0x5db7440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
     &::GlobalNamespace::LobbySetupViewController::remove_startGameOrReadyEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5db7548;
+  constexpr static std::size_t addrs = 0x5db74ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
     &::GlobalNamespace::LobbySetupViewController::add_cancelGameOrUnreadyEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5db75f4;
+  constexpr static std::size_t addrs = 0x5db7598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
     &::GlobalNamespace::LobbySetupViewController::remove_cancelGameOrUnreadyEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5db76a0;
+  constexpr static std::size_t addrs = 0x5db7644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
     &::GlobalNamespace::LobbySetupViewController::add_clearSuggestedBeatmapEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5db774c;
+  constexpr static std::size_t addrs = 0x5db76f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
     &::GlobalNamespace::LobbySetupViewController::remove_clearSuggestedBeatmapEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5db77f8;
+  constexpr static std::size_t addrs = 0x5db779c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
     &::GlobalNamespace::LobbySetupViewController::add_clearSuggestedModifiersEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5db78a4;
+  constexpr static std::size_t addrs = 0x5db7848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
     &::GlobalNamespace::LobbySetupViewController::remove_clearSuggestedModifiersEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5db7950;
+  constexpr static std::size_t addrs = 0x5db78f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::GlobalNamespace::BeatmapLevelSelectionMask, bool, bool, bool, bool, bool)>(
     &::GlobalNamespace::LobbySetupViewController::Setup)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x5db79fc;
+  constexpr static std::size_t addrs = 0x5db79a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbySetupViewController*>(),
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::GlobalNamespace::ILobbyPlayerData*)>(
     &::GlobalNamespace::LobbySetupViewController::SetLobbyPlayerData)> {
   constexpr static std::size_t size = 0x3d4;
-  constexpr static std::size_t addrs = 0x5db7cbc;
+  constexpr static std::size_t addrs = 0x5db7c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::StringW)>(&::GlobalNamespace::LobbySetupViewController::SetPlayersMissingLevelText)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5db80b0;
+  constexpr static std::size_t addrs = 0x5db8054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(bool)>(&::GlobalNamespace::LobbySetupViewController::SetPlayerActiveState)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5db8090;
+  constexpr static std::size_t addrs = 0x5db8034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::GlobalNamespace::CannotStartGameReason)>(
     &::GlobalNamespace::LobbySetupViewController::SetStartGameEnabled)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5db8110;
+  constexpr static std::size_t addrs = 0x5db80b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbySetupViewController*>(),
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::GlobalNamespace::MultiplayerLobbyState)>(
     &::GlobalNamespace::LobbySetupViewController::SetLobbyState)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5db8178;
+  constexpr static std::size_t addrs = 0x5db811c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -277,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(bool, bool, bool)>(&::GlobalNamespace::LobbySetupViewController::DidActivate)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x5db8318;
+  constexpr static std::size_t addrs = 0x5db82bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(&::GlobalNamespace::LobbySetupViewController::OnDestroy)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5db86a4;
+  constexpr static std::size_t addrs = 0x5db8648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(bool)>(&::GlobalNamespace::LobbySetupViewController::SetReadyButtonActive)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5db7c8c;
+  constexpr static std::size_t addrs = 0x5db7c30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(&::GlobalNamespace::LobbySetupViewController::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5db86bc;
+  constexpr static std::size_t addrs = 0x5db8660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbySetupViewController*>(), { ".ctor", {}, {} })));
@@ -328,7 +328,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(&::GlobalNamespace::LobbySetupViewController::_DidActivate_b__39_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5db8720;
+  constexpr static std::size_t addrs = 0x5db86c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbySetupViewController*>(), { "<DidActivate>b__39_0", {}, {} })));
@@ -340,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(&::GlobalNamespace::LobbySetupViewController::_DidActivate_b__39_1)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5db873c;
+  constexpr static std::size_t addrs = 0x5db86e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbySetupViewController*>(), { "<DidActivate>b__39_1", {}, {} })));
@@ -352,7 +352,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(&::GlobalNamespace::LobbySetupViewController::_DidActivate_b__39_2)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5db8758;
+  constexpr static std::size_t addrs = 0x5db86fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbySetupViewController*>(), { "<DidActivate>b__39_2", {}, {} })));
@@ -364,7 +364,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(&::GlobalNamespace::LobbySetupViewController::_DidActivate_b__39_3)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5db8774;
+  constexpr static std::size_t addrs = 0x5db8718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbySetupViewController*>(), { "<DidActivate>b__39_3", {}, {} })));
@@ -376,7 +376,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(&::GlobalNamespace::LobbySetupViewController::_DidActivate_b__39_4)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5db8790;
+  constexpr static std::size_t addrs = 0x5db8734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbySetupViewController*>(), { "<DidActivate>b__39_4", {}, {} })));
@@ -388,7 +388,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(&::GlobalNamespace::LobbySetupViewController::_DidActivate_b__39_5)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5db87ac;
+  constexpr static std::size_t addrs = 0x5db8750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbySetupViewController*>(), { "<DidActivate>b__39_5", {}, {} })));

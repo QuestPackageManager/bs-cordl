@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::VerticalScrollIndicator::*)(float_t)>(&::HMUI::VerticalScrollIndicator::set_progress)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5cd8f2c;
+  constexpr static std::size_t addrs = 0x5cd872c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::VerticalScrollIndicator::*)()>(&::HMUI::VerticalScrollIndicator::get_progress)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ce0df4;
+  constexpr static std::size_t addrs = 0x5ce05f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::VerticalScrollIndicator*>(), { "get_progress", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::VerticalScrollIndicator::*)(float_t)>(&::HMUI::VerticalScrollIndicator::set_normalizedPageHeight)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5cd8a6c;
+  constexpr static std::size_t addrs = 0x5cd826c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::VerticalScrollIndicator::*)()>(&::HMUI::VerticalScrollIndicator::get_normalizedPageHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ce0dfc;
+  constexpr static std::size_t addrs = 0x5ce05fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::VerticalScrollIndicator*>(), { "get_normalizedPageHeight", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RectTransform> (::HMUI::VerticalScrollIndicator::*)()>(&::HMUI::VerticalScrollIndicator::get_handle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ce0e04;
+  constexpr static std::size_t addrs = 0x5ce0604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::VerticalScrollIndicator*>(), { "get_handle", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::VerticalScrollIndicator::*)()>(&::HMUI::VerticalScrollIndicator::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ce0e0c;
+  constexpr static std::size_t addrs = 0x5ce060c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::VerticalScrollIndicator*>(), { "OnEnable", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::VerticalScrollIndicator::*)()>(&::HMUI::VerticalScrollIndicator::RefreshHandle)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5ce0ce4;
+  constexpr static std::size_t addrs = 0x5ce04e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::VerticalScrollIndicator*>(), { "RefreshHandle", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::VerticalScrollIndicator::*)()>(&::HMUI::VerticalScrollIndicator::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5ce0e10;
+  constexpr static std::size_t addrs = 0x5ce0610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::VerticalScrollIndicator*>(), { ".ctor", {}, {} })));

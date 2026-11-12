@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter_AttributeSorter::*)(::System::Xml::XmlCanonicalWriter*)>(
     &::System::Xml::XmlCanonicalWriter_AttributeSorter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x657e900;
+  constexpr static std::size_t addrs = 0x657ef50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter_AttributeSorter::*)()>(&::System::Xml::XmlCanonicalWriter_AttributeSorter::Sort)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x657e908;
+  constexpr static std::size_t addrs = 0x657ef58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlCanonicalWriter_AttributeSorter*>(), { "Sort", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlCanonicalWriter_AttributeSorter::*)(::System::Object*, ::System::Object*)>(
     &::System::Xml::XmlCanonicalWriter_AttributeSorter::Compare)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x657ead4;
+  constexpr static std::size_t addrs = 0x657f124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlCanonicalWriter_AttributeSorter*>(),
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)()>(&::System::Xml::XmlCanonicalWriter::Flush)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x657c7fc;
+  constexpr static std::size_t addrs = 0x657ce4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlCanonicalWriter*>(), { "Flush", {}, {} })));
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)()>(&::System::Xml::XmlCanonicalWriter::Close)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x657c834;
+  constexpr static std::size_t addrs = 0x657ce84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlCanonicalWriter*>(), { "Close", {}, {} })));
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)()>(&::System::Xml::XmlCanonicalWriter::WriteDeclaration)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x657c8e0;
+  constexpr static std::size_t addrs = 0x657cf30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlCanonicalWriter*>(), { "WriteDeclaration", {}, {} })));
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)(::StringW)>(&::System::Xml::XmlCanonicalWriter::WriteComment)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x657c8e4;
+  constexpr static std::size_t addrs = 0x657cf34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)()>(&::System::Xml::XmlCanonicalWriter::StartElement)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x657c950;
+  constexpr static std::size_t addrs = 0x657cfa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlCanonicalWriter*>(), { "StartElement", {}, {} })));
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)()>(&::System::Xml::XmlCanonicalWriter::EndElement)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x657ca4c;
+  constexpr static std::size_t addrs = 0x657d09c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlCanonicalWriter*>(), { "EndElement", {}, {} })));
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)(::StringW, ::StringW)>(&::System::Xml::XmlCanonicalWriter::WriteStartElement)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x657ca90;
+  constexpr static std::size_t addrs = 0x657d0e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlCanonicalWriter::*)(::by_ref<::System::Xml::XmlCanonicalWriter_XmlnsAttribute>)>(
     &::System::Xml::XmlCanonicalWriter::IsInclusivePrefix)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x657cc60;
+  constexpr static std::size_t addrs = 0x657d2b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)(bool)>(&::System::Xml::XmlCanonicalWriter::WriteEndStartElement)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x657cf6c;
+  constexpr static std::size_t addrs = 0x657d5bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)(::StringW, ::StringW)>(&::System::Xml::XmlCanonicalWriter::WriteEndElement)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x657d53c;
+  constexpr static std::size_t addrs = 0x657db8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -267,7 +267,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)(int32_t)>(&::System::Xml::XmlCanonicalWriter::EnsureXmlnsBuffer)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x657d5b4;
+  constexpr static std::size_t addrs = 0x657dc04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)(::StringW, ::StringW)>(&::System::Xml::XmlCanonicalWriter::WriteXmlnsAttribute)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x657d6bc;
+  constexpr static std::size_t addrs = 0x657dd0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -293,7 +293,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)(::StringW, ::StringW)>(&::System::Xml::XmlCanonicalWriter::WriteStartAttribute)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x657d8d4;
+  constexpr static std::size_t addrs = 0x657df24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -306,7 +306,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)()>(&::System::Xml::XmlCanonicalWriter::WriteEndAttribute)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x657d9fc;
+  constexpr static std::size_t addrs = 0x657e04c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlCanonicalWriter*>(), { "WriteEndAttribute", {}, {} })));
@@ -318,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)(int32_t)>(&::System::Xml::XmlCanonicalWriter::WriteCharEntity)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x657db84;
+  constexpr static std::size_t addrs = 0x657e1d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -331,7 +331,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)(::StringW)>(&::System::Xml::XmlCanonicalWriter::WriteEscapedText)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x657dcc0;
+  constexpr static std::size_t addrs = 0x657e310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -344,7 +344,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Xml::XmlCanonicalWriter::WriteEscapedText)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x657dd48;
+  constexpr static std::size_t addrs = 0x657e398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -358,7 +358,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::System::Xml::XmlCanonicalWriter::WriteEscapedText)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x657dc38;
+  constexpr static std::size_t addrs = 0x657e288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -372,7 +372,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)(int32_t)>(&::System::Xml::XmlCanonicalWriter::WriteText)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x657dc8c;
+  constexpr static std::size_t addrs = 0x657e2dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlCanonicalWriter*>(), { "WriteText", {}, { ::i2c::type_of<int32_t>() } })));
@@ -384,7 +384,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Xml::XmlCanonicalWriter::WriteText)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x657df9c;
+  constexpr static std::size_t addrs = 0x657e5ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -398,7 +398,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)(::StringW)>(&::System::Xml::XmlCanonicalWriter::WriteText)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x657e1d8;
+  constexpr static std::size_t addrs = 0x657e828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -411,7 +411,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::System::Xml::XmlCanonicalWriter::WriteText)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x657e26c;
+  constexpr static std::size_t addrs = 0x657e8bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -425,7 +425,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)()>(&::System::Xml::XmlCanonicalWriter::ThrowIfClosed)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x657c820;
+  constexpr static std::size_t addrs = 0x657ce70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlCanonicalWriter*>(), { "ThrowIfClosed", {}, {} })));
@@ -437,7 +437,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)()>(&::System::Xml::XmlCanonicalWriter::ThrowClosed)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x657e4a8;
+  constexpr static std::size_t addrs = 0x657eaf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlCanonicalWriter*>(), { "ThrowClosed", {}, {} })));
@@ -450,7 +450,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)(::by_ref<::System::Xml::XmlCanonicalWriter_XmlnsAttribute>)>(
     &::System::Xml::XmlCanonicalWriter::WriteXmlnsAttribute)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x657d350;
+  constexpr static std::size_t addrs = 0x657d9a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -464,7 +464,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)()>(&::System::Xml::XmlCanonicalWriter::SortAttributes)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x657d390;
+  constexpr static std::size_t addrs = 0x657d9e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlCanonicalWriter*>(), { "SortAttributes", {}, {} })));
@@ -477,7 +477,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)(::by_ref<::System::Xml::XmlCanonicalWriter_Attribute>)>(
     &::System::Xml::XmlCanonicalWriter::AddAttribute)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x657da7c;
+  constexpr static std::size_t addrs = 0x657e0cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -492,7 +492,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)(::by_ref<::System::Xml::XmlCanonicalWriter_XmlnsAttribute>)>(
     &::System::Xml::XmlCanonicalWriter::AddXmlnsAttribute)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x657cd30;
+  constexpr static std::size_t addrs = 0x657d380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -507,7 +507,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)(int32_t, int32_t, ::by_ref<int32_t>, ::by_ref<int32_t>)>(
     &::System::Xml::XmlCanonicalWriter::ResolvePrefix)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x657e5b0;
+  constexpr static std::size_t addrs = 0x657ec00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -523,7 +523,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)(::by_ref<::System::Xml::XmlCanonicalWriter_Attribute>)>(
     &::System::Xml::XmlCanonicalWriter::ResolvePrefix)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x657e6dc;
+  constexpr static std::size_t addrs = 0x657ed2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -537,7 +537,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCanonicalWriter::*)()>(&::System::Xml::XmlCanonicalWriter::ResolvePrefixes)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x657d218;
+  constexpr static std::size_t addrs = 0x657d868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlCanonicalWriter*>(), { "ResolvePrefixes", {}, {} })));
@@ -550,7 +550,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlCanonicalWriter::*)(
     ::by_ref<::System::Xml::XmlCanonicalWriter_XmlnsAttribute>, ::by_ref<::System::Xml::XmlCanonicalWriter_XmlnsAttribute>)>(&::System::Xml::XmlCanonicalWriter::Compare)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x657e584;
+  constexpr static std::size_t addrs = 0x657ebd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -567,7 +567,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlCanonicalWriter::*)(
     ::by_ref<::System::Xml::XmlCanonicalWriter_Attribute>, ::by_ref<::System::Xml::XmlCanonicalWriter_Attribute>)>(&::System::Xml::XmlCanonicalWriter::Compare)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x657e50c;
+  constexpr static std::size_t addrs = 0x657eb5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -583,7 +583,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlCanonicalWriter::*)(::ArrayW<uint8_t>, int32_t, int32_t, int32_t, int32_t)>(
     &::System::Xml::XmlCanonicalWriter::Compare)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x657e6f8;
+  constexpr static std::size_t addrs = 0x657ed48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -599,7 +599,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlCanonicalWriter::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::Xml::XmlCanonicalWriter::Compare)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x657e718;
+  constexpr static std::size_t addrs = 0x657ed68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -617,7 +617,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlCanonicalWriter::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::Xml::XmlCanonicalWriter::Equals)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x657d2ac;
+  constexpr static std::size_t addrs = 0x657d8fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

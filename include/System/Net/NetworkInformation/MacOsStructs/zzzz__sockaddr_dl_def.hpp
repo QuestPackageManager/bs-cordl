@@ -24,7 +24,7 @@ namespace System::Net::NetworkInformation::MacOsStructs {
 struct CORDL_TYPE sockaddr_dl {
 public:
   // Declarations
-  /// @brief Method Read, addr 0x67bb47c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x67bbacc, size 0x138, virtual false, abstract: false, final false
   inline void Read(::System::IntPtr ptr);
 
   // Ctor Parameters []

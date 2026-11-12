@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::*)()>(
     &::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ded3dc;
+  constexpr static std::size_t addrs = 0x5ded50c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::*)(
     ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex)>(&::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::_Awake_b__10_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5ded3e0;
+  constexpr static std::size_t addrs = 0x5ded510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::*)(
     ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex)>(&::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::_Awake_b__10_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ded3f4;
+  constexpr static std::size_t addrs = 0x5ded524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)()>(
     &::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::Awake)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x5decde4;
+  constexpr static std::size_t addrs = 0x5decf10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)()>(
     &::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::Start)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5decf90;
+  constexpr static std::size_t addrs = 0x5ded0bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)()>(
     &::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::OnDestroy)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5ded020;
+  constexpr static std::size_t addrs = 0x5ded14c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::SetValue)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x5ded0ec;
+  constexpr static std::size_t addrs = 0x5ded218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>(),
@@ -176,11 +176,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::TriggerValue)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x5ded20c;
+  constexpr static std::size_t addrs = 0x5ded338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>(),
                                                                                           { ::i2c::class_of<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>(), 5 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget.ApplyDataIfReceived
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)()>(
+    &::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::ApplyDataIfReceived)> {
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5ded458;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>(), { "ApplyDataIfReceived", {}, {} })));
     return ___internal_method;
   }
 };
@@ -189,8 +203,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)()>(
     &::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5ded32c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5ded4b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>(),
@@ -204,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)()>(
     &::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ded384;
+  constexpr static std::size_t addrs = 0x5ded4b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -347,6 +361,11 @@ inline void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::Tr
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, groupId, elementId, value);
+}
+inline void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::ApplyDataIfReceived() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>(), { "ApplyDataIfReceived", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>(),

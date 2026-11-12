@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelsPromoModel::*)(::GlobalNamespace::BeatmapLevelsPromoDataSO*)>(
     &::GlobalNamespace::BeatmapLevelsPromoModel::_ctor)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x3a01264;
+  constexpr static std::size_t addrs = 0x3a05fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BeatmapLevelsPromoModel::*)(::GlobalNamespace::BeatmapLevelPack*)>(
     &::GlobalNamespace::BeatmapLevelsPromoModel::IsBeatmapLevelPackPromoted)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3a0141c;
+  constexpr static std::size_t addrs = 0x3a06170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelsPromoModel*>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BeatmapLevelsPromoModel::*)(::GlobalNamespace::BeatmapLevelPack*)>(
     &::GlobalNamespace::BeatmapLevelsPromoModel::IsBeatmapLevelPackUpdated)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3a01484;
+  constexpr static std::size_t addrs = 0x3a061d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelsPromoModel*>(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BeatmapLevelsPromoModel::*)(::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::BeatmapLevelsPromoModel::IsBeatmapLevelPromoted)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3a014ec;
+  constexpr static std::size_t addrs = 0x3a06240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BeatmapLevelsPromoModel::*)(::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::BeatmapLevelsPromoModel::IsBeatmapLevelUpdated)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3a01554;
+  constexpr static std::size_t addrs = 0x3a062a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

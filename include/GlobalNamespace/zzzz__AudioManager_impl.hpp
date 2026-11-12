@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioManager__FadeMainVolume_d__46::*)(int32_t)>(&::GlobalNamespace::AudioManager__FadeMainVolume_d__46::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d668;
+  constexpr static std::size_t addrs = 0x350faa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioManager__FadeMainVolume_d__46::*)()>(
     &::GlobalNamespace::AudioManager__FadeMainVolume_d__46::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x350d6a0;
+  constexpr static std::size_t addrs = 0x350fae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::AudioManager__FadeMainVolume_d__46::*)()>(&::GlobalNamespace::AudioManager__FadeMainVolume_d__46::MoveNext)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x350d6a4;
+  constexpr static std::size_t addrs = 0x350fae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioManager__FadeMainVolume_d__46*>(), { "MoveNext", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::AudioManager__FadeMainVolume_d__46::*)()>(
     &::GlobalNamespace::AudioManager__FadeMainVolume_d__46::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d7d0;
+  constexpr static std::size_t addrs = 0x350fc10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioManager__FadeMainVolume_d__46::*)()>(
     &::GlobalNamespace::AudioManager__FadeMainVolume_d__46::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x350d7d8;
+  constexpr static std::size_t addrs = 0x350fc18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::AudioManager__FadeMainVolume_d__46::*)()>(
     &::GlobalNamespace::AudioManager__FadeMainVolume_d__46::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d810;
+  constexpr static std::size_t addrs = 0x350fc50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -264,7 +264,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AudioManager::*)()>(&::GlobalNamespace::AudioManager::get_sfxLatency)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x350d030;
+  constexpr static std::size_t addrs = 0x350f470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioManager*>(), { "get_sfxLatency", {}, {} })));
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioManager::*)(::GlobalNamespace::AudioManagerConfigSO*, ::GlobalNamespace::GameScenesManager*,
                                                                                                  ::GlobalNamespace::ICoroutineStarter*)>(&::GlobalNamespace::AudioManager::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x350d09c;
+  constexpr static std::size_t addrs = 0x350f4dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -294,7 +294,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AudioManager::*)()>(&::GlobalNamespace::AudioManager::get_mainVolumeFade)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d190;
+  constexpr static std::size_t addrs = 0x350f5d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioManager*>(), { "get_mainVolumeFade", {}, {} })));
@@ -306,7 +306,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AudioManager::*)()>(&::GlobalNamespace::AudioManager::get_mainVolume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d198;
+  constexpr static std::size_t addrs = 0x350f5d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioManager*>(), { "get_mainVolume", {}, {} })));
@@ -318,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioManager::*)(float_t)>(&::GlobalNamespace::AudioManager::set_mainVolume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d1a0;
+  constexpr static std::size_t addrs = 0x350f5e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -331,7 +331,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioManager::*)(float_t)>(&::GlobalNamespace::AudioManager::set_musicVolume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d234;
+  constexpr static std::size_t addrs = 0x350f674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -344,7 +344,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AudioManager::*)()>(&::GlobalNamespace::AudioManager::get_sfxVolume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d29c;
+  constexpr static std::size_t addrs = 0x350f6dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioManager*>(), { "get_sfxVolume", {}, {} })));
@@ -356,7 +356,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioManager::*)(float_t)>(&::GlobalNamespace::AudioManager::set_sfxVolume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350c3ac;
+  constexpr static std::size_t addrs = 0x350e7ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -369,7 +369,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::AudioManager::*)()>(&::GlobalNamespace::AudioManager::get_sfxEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d318;
+  constexpr static std::size_t addrs = 0x350f758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioManager*>(), { "get_sfxEnabled", {}, {} })));
@@ -381,7 +381,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioManager::*)(bool)>(&::GlobalNamespace::AudioManager::set_sfxEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d320;
+  constexpr static std::size_t addrs = 0x350f760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioManager*>(), { "set_sfxEnabled", {}, { ::i2c::type_of<bool>() } })));
@@ -393,7 +393,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioManager::*)(float_t)>(&::GlobalNamespace::AudioManager::set_musicPitch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d328;
+  constexpr static std::size_t addrs = 0x350f768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -406,7 +406,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioManager::*)(float_t)>(&::GlobalNamespace::AudioManager::set_musicSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d444;
+  constexpr static std::size_t addrs = 0x350f884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -420,7 +420,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioManager::*)(::GlobalNamespace::AudioManager_AudioFadeType, float_t)>(
     &::GlobalNamespace::AudioManager::StartMainVolumeFade)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x350d4a8;
+  constexpr static std::size_t addrs = 0x350f8e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -435,7 +435,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::AudioManager::*)(::GlobalNamespace::AudioManager_AudioFadeType, float_t)>(
     &::GlobalNamespace::AudioManager::FadeMainVolume)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x350d5f4;
+  constexpr static std::size_t addrs = 0x350fa34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -449,7 +449,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioManager::*)()>(&::GlobalNamespace::AudioManager::UpdateMusicPitch)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x350d330;
+  constexpr static std::size_t addrs = 0x350f770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioManager*>(), { "UpdateMusicPitch", {}, {} })));
@@ -461,7 +461,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioManager::*)()>(&::GlobalNamespace::AudioManager::UpdateMusicVolume)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x350d23c;
+  constexpr static std::size_t addrs = 0x350f67c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioManager*>(), { "UpdateMusicVolume", {}, {} })));
@@ -473,7 +473,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioManager::*)()>(&::GlobalNamespace::AudioManager::UpdateMainVolume)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x350d1a8;
+  constexpr static std::size_t addrs = 0x350f5e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioManager*>(), { "UpdateMainVolume", {}, {} })));
@@ -485,7 +485,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioManager::*)()>(&::GlobalNamespace::AudioManager::UpdateSfxVolume)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x350d2a4;
+  constexpr static std::size_t addrs = 0x350f6e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioManager*>(), { "UpdateSfxVolume", {}, {} })));
@@ -497,7 +497,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioManager::*)()>(&::GlobalNamespace::AudioManager::UpdateMusicSpeed)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x350d44c;
+  constexpr static std::size_t addrs = 0x350f88c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioManager*>(), { "UpdateMusicSpeed", {}, {} })));
@@ -509,7 +509,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioManager::*)()>(&::GlobalNamespace::AudioManager::OnResetAudio)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x350d670;
+  constexpr static std::size_t addrs = 0x350fab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioManager*>(), { "OnResetAudio", {}, {} })));

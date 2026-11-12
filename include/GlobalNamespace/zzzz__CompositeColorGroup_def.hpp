@@ -108,10 +108,10 @@ public:
 
   constexpr void __cordl_internal_set__colorTargets(::ArrayW<::UnityW<::GlobalNamespace::LightWithIdMonoBehaviour>> value);
 
-  /// @brief Method .ctor, addr 0x5de5464, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5de5574, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colorTargets, addr 0x5de545c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorTargets, addr 0x5de556c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::LightWithIdMonoBehaviour>> get_colorTargets();
 
 protected:

@@ -82,7 +82,7 @@ public:
   /// @brief Method CheckCanAddToCollection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CheckCanAddToCollection(::System::Data::ConstraintCollection* constraint);
 
-  /// @brief Method CheckConstraint, addr 0x6476340, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CheckConstraint, addr 0x6476990, size 0x54, virtual false, abstract: false, final false
   inline void CheckConstraint();
 
   /// @brief Method CheckConstraint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -91,7 +91,7 @@ public:
   /// @brief Method CheckState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CheckState();
 
-  /// @brief Method CheckStateForProperty, addr 0x6476394, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method CheckStateForProperty, addr 0x64769e4, size 0x140, virtual false, abstract: false, final false
   inline void CheckStateForProperty();
 
   /// @brief Method Clone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -108,7 +108,7 @@ public:
 
   static inline ::System::Data::Constraint* New_ctor();
 
-  /// @brief Method ToString, addr 0x64764dc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6476b2c, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Data::DataSet* const& __cordl_internal_get__dataSet() const;
@@ -141,34 +141,34 @@ public:
 
   constexpr void __cordl_internal_set__schemaName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x64764e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6476b38, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ConstraintName, addr 0x6475e28, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConstraintName, addr 0x6476478, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_ConstraintName();
 
-  /// @brief Method get_ExtendedProperties, addr 0x64762d4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_ExtendedProperties, addr 0x6476924, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Data::PropertyCollection* get_ExtendedProperties();
 
-  /// @brief Method get_InCollection, addr 0x647628c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_InCollection, addr 0x64768dc, size 0x8, virtual true, abstract: false, final false
   inline bool get_InCollection();
 
-  /// @brief Method get_SchemaName, addr 0x6476254, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaName, addr 0x64768a4, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_SchemaName();
 
   /// @brief Method get_Table, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Data::DataTable* get_Table();
 
-  /// @brief Method get__DataSet, addr 0x64764d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get__DataSet, addr 0x6476b24, size 0x8, virtual true, abstract: false, final false
   inline ::System::Data::DataSet* get__DataSet();
 
-  /// @brief Method set_ConstraintName, addr 0x6475e30, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method set_ConstraintName, addr 0x6476480, size 0x1c4, virtual true, abstract: false, final false
   inline void set_ConstraintName(::StringW value);
 
-  /// @brief Method set_InCollection, addr 0x6476294, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method set_InCollection, addr 0x64768e4, size 0x40, virtual true, abstract: false, final false
   inline void set_InCollection(bool value);
 
-  /// @brief Method set_SchemaName, addr 0x6476278, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_SchemaName, addr 0x64768c8, size 0x14, virtual false, abstract: false, final false
   inline void set_SchemaName(::StringW value);
 
 protected:

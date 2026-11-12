@@ -38,12 +38,12 @@ public:
   /// @brief Field _volume, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__volume, put = __cordl_internal_set__volume)) float_t _volume;
 
-  /// @brief Method DiffAndSend, addr 0x35063a4, size 0x448, virtual false, abstract: false, final false
+  /// @brief Method DiffAndSend, addr 0x35087e4, size 0x448, virtual false, abstract: false, final false
   inline void DiffAndSend(::BeatSaber::Settings::AudioSettings s);
 
   static inline ::BeatSaber::Analytics::Settings::AudioSettingsTracker* New_ctor(::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* sender);
 
-  /// @brief Method TakeSnapshot, addr 0x3506390, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method TakeSnapshot, addr 0x35087d0, size 0x14, virtual false, abstract: false, final false
   inline void TakeSnapshot(::BeatSaber::Settings::AudioSettings s);
 
   constexpr float_t const& __cordl_internal_get__ambientVolumeScale() const;
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__volume(float_t value);
 
-  /// @brief Method .ctor, addr 0x3506178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35085b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* sender);
 
 protected:
@@ -88,7 +88,7 @@ public:
   AudioSettingsTracker(AudioSettingsTracker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22765 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22778 };
 
   /// @brief Field _sender, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* ____sender;

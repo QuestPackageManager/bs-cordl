@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Scope_TypeLimiter___c::*)()>(&::System::Data::Scope_TypeLimiter___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6474748;
+  constexpr static std::size_t addrs = 0x6474d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::Scope_TypeLimiter___c*>(), { ".ctor", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::Scope_TypeLimiter___c::*)(::System::Type*)>(&::System::Data::Scope_TypeLimiter___c::__ctor_b__3_0)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x647474c;
+  constexpr static std::size_t addrs = 0x6474d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::TypeLimiter_Scope::*)(
     ::System::Data::TypeLimiter_Scope*, ::System::Collections::Generic::IEnumerable_1<::System::Type*>*)>(&::System::Data::TypeLimiter_Scope::_ctor)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x6473534;
+  constexpr static std::size_t addrs = 0x6473b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::TypeLimiter_Scope::*)()>(&::System::Data::TypeLimiter_Scope::Dispose)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x647397c;
+  constexpr static std::size_t addrs = 0x6473fcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::TypeLimiter_Scope*>(), { "Dispose", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::TypeLimiter_Scope::*)(::System::Type*)>(&::System::Data::TypeLimiter_Scope::IsAllowedType)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x64730f4;
+  constexpr static std::size_t addrs = 0x6473744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::System::Data::TypeLimiter_Scope::IsTypeUnconditionallyAllowed)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x6473a9c;
+  constexpr static std::size_t addrs = 0x64740ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::TypeLimiter___c::*)()>(&::System::Data::TypeLimiter___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64747cc;
+  constexpr static std::size_t addrs = 0x6474e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::TypeLimiter___c*>(), { ".ctor", {}, {} })));
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Data::TypeLimiter___c::*)(::System::Data::DataColumn*)>(
     &::System::Data::TypeLimiter___c::_GetPreviouslyDeclaredDataTypes_b__10_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64747d0;
+  constexpr static std::size_t addrs = 0x6474e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>* (::System::Data::TypeLimiter___c::*)(::System::Data::DataTable*)>(
     &::System::Data::TypeLimiter___c::_GetPreviouslyDeclaredDataTypes_b__11_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64747e4;
+  constexpr static std::size_t addrs = 0x6474e34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -271,7 +271,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::TypeLimiter::*)(::System::Data::TypeLimiter_Scope*)>(&::System::Data::TypeLimiter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6472f10;
+  constexpr static std::size_t addrs = 0x6473560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -284,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Data::TypeLimiter::get_IsTypeLimitingDisabled)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6472f18;
+  constexpr static std::size_t addrs = 0x6473568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::TypeLimiter*>(), { "get_IsTypeLimitingDisabled", {}, {} })));
@@ -296,7 +296,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::TypeLimiter* (*)()>(&::System::Data::TypeLimiter::Capture)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6472fa4;
+  constexpr static std::size_t addrs = 0x64735f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::TypeLimiter*>(), { "Capture", {}, {} })));
@@ -308,7 +308,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Type*, ::System::Data::TypeLimiter*)>(&::System::Data::TypeLimiter::EnsureTypeIsAllowed)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x647302c;
+  constexpr static std::size_t addrs = 0x647367c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -322,7 +322,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IDisposable* (*)(::System::Data::DataSet*)>(&::System::Data::TypeLimiter::EnterRestrictedScope)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6473278;
+  constexpr static std::size_t addrs = 0x64738c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -335,7 +335,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IDisposable* (*)(::System::Data::DataTable*)>(&::System::Data::TypeLimiter::EnterRestrictedScope)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x64736c0;
+  constexpr static std::size_t addrs = 0x6473d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>* (*)(::System::Data::DataTable*)>(
     &::System::Data::TypeLimiter::GetPreviouslyDeclaredDataTypes)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x64737c8;
+  constexpr static std::size_t addrs = 0x6473e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -363,7 +363,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>* (*)(::System::Data::DataSet*)>(
     &::System::Data::TypeLimiter::GetPreviouslyDeclaredDataTypes)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x6473380;
+  constexpr static std::size_t addrs = 0x64739d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

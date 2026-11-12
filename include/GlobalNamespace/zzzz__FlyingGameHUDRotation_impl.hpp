@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingGameHUDRotation::*)()>(&::GlobalNamespace::FlyingGameHUDRotation::Start)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5dfd7d4;
+  constexpr static std::size_t addrs = 0x5dfdbd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FlyingGameHUDRotation*>(), { "Start", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingGameHUDRotation::*)()>(&::GlobalNamespace::FlyingGameHUDRotation::FixedUpdate)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5dfd8b4;
+  constexpr static std::size_t addrs = 0x5dfdcb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FlyingGameHUDRotation*>(), { "FixedUpdate", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingGameHUDRotation::*)()>(&::GlobalNamespace::FlyingGameHUDRotation::LateUpdate)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5dfd9f4;
+  constexpr static std::size_t addrs = 0x5dfddf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FlyingGameHUDRotation*>(), { "LateUpdate", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingGameHUDRotation::*)()>(&::GlobalNamespace::FlyingGameHUDRotation::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5dfda3c;
+  constexpr static std::size_t addrs = 0x5dfde40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FlyingGameHUDRotation*>(), { ".ctor", {}, {} })));

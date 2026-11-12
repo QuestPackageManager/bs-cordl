@@ -79,15 +79,21 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method BeatSaber.GraphQL.IGraphQLClientProvider.InitializeAsync, addr 0x353ea1c, size 0x170, virtual true, abstract: false, final true
+  /// @brief Method BeatSaber.GraphQL.IGraphQLClientProvider.InitializeAsync, addr 0x3541910, size 0x1e4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* BeatSaber_GraphQL_IGraphQLClientProvider_InitializeAsync(::System::Threading::CancellationToken ctx);
+
+  /// @brief Method HandleRequestFailed, addr 0x3541b18, size 0x1c, virtual false, abstract: false, final false
+  inline void HandleRequestFailed(::OculusStudios::GraphQL::ClientInterface::Request* request);
+
+  /// @brief Method HandleRequestSucceeded, addr 0x3541afc, size 0x1c, virtual false, abstract: false, final false
+  inline void HandleRequestSucceeded(::OculusStudios::GraphQL::ClientInterface::Request* request);
 
   static inline ::BeatSaber::GraphQL::GraphQLDummyClientProvider* New_ctor();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x353eb90, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3541af8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method Zenject.IInitializable.Initialize, addr 0x353eb8c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Zenject.IInitializable.Initialize, addr 0x3541af4, size 0x4, virtual true, abstract: false, final true
   inline void Zenject_IInitializable_Initialize();
 
   constexpr ::BeatSaber::GraphQL::DummyGraphQLClient* const& __cordl_internal_get__graphQLClient() const;
@@ -114,25 +120,25 @@ public:
 
   constexpr void __cordl_internal_set_initializationDidFinishEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x353eb94, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3541b34, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_globalRequestFailureEvent, addr 0x353e89c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_globalRequestFailureEvent, addr 0x3541790, size 0xc0, virtual true, abstract: false, final true
   inline void add_globalRequestFailureEvent(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_globalRequestSucceededEvent, addr 0x353e71c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_globalRequestSucceededEvent, addr 0x3541610, size 0xc0, virtual true, abstract: false, final true
   inline void add_globalRequestSucceededEvent(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_initializationDidFinishEvent, addr 0x353e5c4, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_initializationDidFinishEvent, addr 0x35414b8, size 0xac, virtual true, abstract: false, final true
   inline void add_initializationDidFinishEvent(::System::Action* value);
 
-  /// @brief Method get_graphQLClient, addr 0x353e5bc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_graphQLClient, addr 0x35414b0, size 0x8, virtual true, abstract: false, final true
   inline ::OculusStudios::GraphQL::ClientInterface::IGraphQLClient* get_graphQLClient();
 
-  /// @brief Method get_initializationState, addr 0x353e5b4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_initializationState, addr 0x35414a8, size 0x8, virtual true, abstract: false, final true
   inline ::BeatSaber::GraphQL::BSClientProviderInitializationState get_initializationState();
 
   /// @brief Convert to "::BeatSaber::GraphQL::IGraphQLClientProvider"
@@ -145,15 +151,15 @@ public:
   constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_globalRequestFailureEvent, addr 0x353e95c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_globalRequestFailureEvent, addr 0x3541850, size 0xc0, virtual true, abstract: false, final true
   inline void remove_globalRequestFailureEvent(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_globalRequestSucceededEvent, addr 0x353e7dc, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_globalRequestSucceededEvent, addr 0x35416d0, size 0xc0, virtual true, abstract: false, final true
   inline void remove_globalRequestSucceededEvent(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_initializationDidFinishEvent, addr 0x353e670, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_initializationDidFinishEvent, addr 0x3541564, size 0xac, virtual true, abstract: false, final true
   inline void remove_initializationDidFinishEvent(::System::Action* value);
 
 protected:
@@ -171,7 +177,7 @@ public:
   GraphQLDummyClientProvider(GraphQLDummyClientProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23534 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23365 };
 
   /// [CompilerGenerated]
   /// @brief Field initializationDidFinishEvent, offset: 0x10, size: 0x8, def value: None

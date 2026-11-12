@@ -40,7 +40,7 @@ public:
   /// @brief Field _list, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__list, put = __cordl_internal_set__list)) ::System::Collections::Hashtable* _list;
 
-  /// @brief Method Remove, addr 0x648eaf4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x648f144, size 0x20, virtual false, abstract: false, final false
   inline void Remove(::System::Data::DataTable* table);
 
   constexpr ::System::Data::DataViewManager* const& __cordl_internal_get__dataViewManager() const;
@@ -55,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set__list(::System::Collections::Hashtable* value);
 
-  /// @brief Method get_Item, addr 0x648e950, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x648efa0, size 0x124, virtual true, abstract: false, final false
   inline ::System::Data::DataViewSetting* get_Item(::System::Data::DataTable* table);
 
-  /// @brief Method set_Item, addr 0x648ea74, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method set_Item, addr 0x648f0c4, size 0x80, virtual true, abstract: false, final false
   inline void set_Item(::System::Data::DataTable* table, ::System::Data::DataViewSetting* value);
 
 protected:

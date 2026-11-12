@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::*)()>(
     &::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::Start)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x5e1bba8;
+  constexpr static std::size_t addrs = 0x5e1bfd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::*)()>(
     &::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::OnDestroy)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x5e1bddc;
+  constexpr static std::size_t addrs = 0x5e1c20c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::*)()>(
     &::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::TryResize)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5e1bfa0;
+  constexpr static std::size_t addrs = 0x5e1c3d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::*)()>(
     &::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::Resize)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x5e1bfb8;
+  constexpr static std::size_t addrs = 0x5e1c3e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::*)(float_t)>(
     &::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::HandleSpawnCenterDistanceWasFound)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5e1bdc4;
+  constexpr static std::size_t addrs = 0x5e1c1f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController*>(),
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::*)(float_t)>(
     &::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::HandleEdgeDistanceFromCenterWasCalculated)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5e1bdac;
+  constexpr static std::size_t addrs = 0x5e1c1dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController*>(),
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::*)()>(
     &::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e1c270;
+  constexpr static std::size_t addrs = 0x5e1c6a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

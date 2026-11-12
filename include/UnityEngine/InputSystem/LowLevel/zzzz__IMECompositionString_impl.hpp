@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::LowLevel::IMECompositionString::*)()>(
     &::UnityEngine::InputSystem::LowLevel::IMECompositionString::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18134;
+  constexpr static std::size_t addrs = 0x6a19214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::IMECompositionString>(), { "get_Count", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::UnityEngine::InputSystem::LowLevel::IMECompositionString::*)(int32_t)>(
     &::UnityEngine::InputSystem::LowLevel::IMECompositionString::get_Item)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6a1813c;
+  constexpr static std::size_t addrs = 0x6a1921c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::LowLevel::IMECompositionString::*)(::StringW)>(
     &::UnityEngine::InputSystem::LowLevel::IMECompositionString::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6a180d0;
+  constexpr static std::size_t addrs = 0x6a191b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::LowLevel::IMECompositionString::*)()>(
     &::UnityEngine::InputSystem::LowLevel::IMECompositionString::ToString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a181a4;
+  constexpr static std::size_t addrs = 0x6a19284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::IMECompositionString>(),
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<char16_t>* (::UnityEngine::InputSystem::LowLevel::IMECompositionString::*)()>(
     &::UnityEngine::InputSystem::LowLevel::IMECompositionString::GetEnumerator)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6a181b0;
+  constexpr static std::size_t addrs = 0x6a19290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::InputSystem::LowLevel::IMECompositionString::*)()>(
     &::UnityEngine::InputSystem::LowLevel::IMECompositionString::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a1826c;
+  constexpr static std::size_t addrs = 0x6a1934c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::LowLevel::IMECompositionString_Enumerator::*)(::UnityEngine::InputSystem::LowLevel::IMECompositionString)>(
     &::UnityEngine::InputSystem::LowLevel::IMECompositionString_Enumerator::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6a18248;
+  constexpr static std::size_t addrs = 0x6a19328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::IMECompositionString_Enumerator>(),
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::IMECompositionString_Enumerator::*)()>(
     &::UnityEngine::InputSystem::LowLevel::IMECompositionString_Enumerator::MoveNext)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6a18270;
+  constexpr static std::size_t addrs = 0x6a19350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::LowLevel::IMECompositionString_Enumerator::*)()>(
     &::UnityEngine::InputSystem::LowLevel::IMECompositionString_Enumerator::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a182a0;
+  constexpr static std::size_t addrs = 0x6a19380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::LowLevel::IMECompositionString_Enumerator::*)()>(
     &::UnityEngine::InputSystem::LowLevel::IMECompositionString_Enumerator::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a182ac;
+  constexpr static std::size_t addrs = 0x6a1938c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::UnityEngine::InputSystem::LowLevel::IMECompositionString_Enumerator::*)()>(
     &::UnityEngine::InputSystem::LowLevel::IMECompositionString_Enumerator::get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a182b0;
+  constexpr static std::size_t addrs = 0x6a19390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::InputSystem::LowLevel::IMECompositionString_Enumerator::*)()>(
     &::UnityEngine::InputSystem::LowLevel::IMECompositionString_Enumerator::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6a182b8;
+  constexpr static std::size_t addrs = 0x6a19398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

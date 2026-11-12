@@ -33,11 +33,11 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
   constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x6cf9dbc, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x6cfae9c, size 0x30, virtual true, abstract: false, final true
   inline bool IsActive();
 
   /// [Obsolete("Unused. #from(2023.1)")]
-  /// @brief Method IsTileCompatible, addr 0x6cf9dec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsTileCompatible, addr 0x6cfaecc, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
   static inline ::UnityEngine::Rendering::Universal::ChromaticAberration* New_ctor();
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_intensity(::UnityEngine::Rendering::ClampedFloatParameter* value);
 
-  /// @brief Method .ctor, addr 0x6cf9df4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfaed4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"

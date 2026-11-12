@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AppInit___c::*)()>(&::GlobalNamespace::AppInit___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35aa954;
+  constexpr static std::size_t addrs = 0x35adb14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AppInit___c*>(), { ".ctor", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::AppInit___c::*)()>(&::GlobalNamespace::AppInit___c::_InitializeAsync_b__10_1)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x35aa958;
+  constexpr static std::size_t addrs = 0x35adb18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AppInit___c*>(), { "<InitializeAsync>b__10_1", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AppInit__Awake_d__7::*)()>(&::GlobalNamespace::AppInit__Awake_d__7::MoveNext)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x35aa980;
+  constexpr static std::size_t addrs = 0x35adb40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AppInit__Awake_d__7>(), { "MoveNext", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AppInit__Awake_d__7::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::AppInit__Awake_d__7::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35aac04;
+  constexpr static std::size_t addrs = 0x35addc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AppInit__Awake_d__7>(),
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AppInit__InitializeAsync_d__10::*)()>(&::GlobalNamespace::AppInit__InitializeAsync_d__10::MoveNext)> {
   constexpr static std::size_t size = 0x5d8;
-  constexpr static std::size_t addrs = 0x35aac0c;
+  constexpr static std::size_t addrs = 0x35addcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AppInit__InitializeAsync_d__10>(), { "MoveNext", {}, {} })));
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AppInit__InitializeAsync_d__10::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::AppInit__InitializeAsync_d__10::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35ab314;
+  constexpr static std::size_t addrs = 0x35ae4d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AppInit__InitializeAsync_d__10>(),
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AppInit__StartGameAsync_d__8::*)()>(&::GlobalNamespace::AppInit__StartGameAsync_d__8::MoveNext)> {
   constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x35ab380;
+  constexpr static std::size_t addrs = 0x35ae540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AppInit__StartGameAsync_d__8>(), { "MoveNext", {}, {} })));
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AppInit__StartGameAsync_d__8::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::AppInit__StartGameAsync_d__8::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35aba58;
+  constexpr static std::size_t addrs = 0x35aec18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AppInit__StartGameAsync_d__8>(),
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext> (::GlobalNamespace::AppInit::*)()>(
     &::GlobalNamespace::AppInit::get_asyncSceneContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35aa404;
+  constexpr static std::size_t addrs = 0x35ad5c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AppInit*>(), { "get_asyncSceneContext", {}, {} })));
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::GameScenesManager> (::GlobalNamespace::AppInit::*)()>(&::GlobalNamespace::AppInit::get_gameScenesManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35aa40c;
+  constexpr static std::size_t addrs = 0x35ad5cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AppInit*>(), { "get_gameScenesManager", {}, {} })));
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AppInit::*)()>(&::GlobalNamespace::AppInit::Awake)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x35aa414;
+  constexpr static std::size_t addrs = 0x35ad5d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AppInit*>(), { "Awake", {}, {} })));
@@ -277,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::AppInit::*)()>(&::GlobalNamespace::AppInit::StartGameAsync)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x35aa4b8;
+  constexpr static std::size_t addrs = 0x35ad678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AppInit*>(), { "StartGameAsync", {}, {} })));
@@ -301,7 +301,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::AppInit::*)(::Zenject::DiContainer*)>(&::GlobalNamespace::AppInit::InitializeAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x35aa56c;
+  constexpr static std::size_t addrs = 0x35ad72c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -314,7 +314,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AppInit::*)()>(&::GlobalNamespace::AppInit::OnDestroy)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x35aa61c;
+  constexpr static std::size_t addrs = 0x35ad7dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AppInit*>(), { "OnDestroy", {}, {} })));
@@ -327,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AppInit::*)(::System::Collections::Generic::IReadOnlyList_1<::StringW>*)>(
     &::GlobalNamespace::AppInit::HandleBeforeDismissingScenes)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x35aa7b4;
+  constexpr static std::size_t addrs = 0x35ad974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -341,7 +341,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::GlobalNamespace::AppInit::Quit)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x35aa854;
+  constexpr static std::size_t addrs = 0x35ada14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AppInit*>(), { "Quit", {}, { ::i2c::type_of<int32_t>() } })));
@@ -377,7 +377,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AppInit::*)()>(&::GlobalNamespace::AppInit::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35aa8cc;
+  constexpr static std::size_t addrs = 0x35ada8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AppInit*>(), { ".ctor", {}, {} })));
@@ -389,7 +389,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::AppInit::*)()>(&::GlobalNamespace::AppInit::_InitializeAsync_b__10_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x35aa8d0;
+  constexpr static std::size_t addrs = 0x35ada90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AppInit*>(), { "<InitializeAsync>b__10_0", {}, {} })));

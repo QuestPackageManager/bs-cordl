@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::OSSpecificSynchronizationContext_InvocationEntryDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Threading::OSSpecificSynchronizationContext_InvocationEntryDelegate::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6108bac;
+  constexpr static std::size_t addrs = 0x6108e34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::OSSpecificSynchronizationContext_InvocationEntryDelegate*>(),
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::OSSpecificSynchronizationContext_InvocationEntryDelegate::*)(::System::IntPtr)>(
     &::System::Threading::OSSpecificSynchronizationContext_InvocationEntryDelegate::Invoke)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x6108cd8;
+  constexpr static std::size_t addrs = 0x6108f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Threading::OSSpecificSynchronizationContext_InvocationEntryDelegate*>(),
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::OSSpecificSynchronizationContext_InvocationContext::*)(::System::Threading::SendOrPostCallback*, ::System::Object*)>(
     &::System::Threading::OSSpecificSynchronizationContext_InvocationContext::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6108c18;
+  constexpr static std::size_t addrs = 0x6108ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::OSSpecificSynchronizationContext_InvocationContext::*)()>(
     &::System::Threading::OSSpecificSynchronizationContext_InvocationContext::Invoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6108c24;
+  constexpr static std::size_t addrs = 0x6108eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::OSSpecificSynchronizationContext___c::*)()>(&::System::Threading::OSSpecificSynchronizationContext___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6108fc4;
+  constexpr static std::size_t addrs = 0x610924c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::OSSpecificSynchronizationContext___c*>(), { ".ctor", {}, {} })));
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::OSSpecificSynchronizationContext* (::System::Threading::OSSpecificSynchronizationContext___c::*)(::System::Object*)>(
     &::System::Threading::OSSpecificSynchronizationContext___c::_Get_b__3_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6108fc8;
+  constexpr static std::size_t addrs = 0x6109250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::OSSpecificSynchronizationContext::*)(::System::Object*)>(
     &::System::Threading::OSSpecificSynchronizationContext::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61089e0;
+  constexpr static std::size_t addrs = 0x6108c68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::OSSpecificSynchronizationContext* (*)()>(&::System::Threading::OSSpecificSynchronizationContext::Get)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6108718;
+  constexpr static std::size_t addrs = 0x61089a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::OSSpecificSynchronizationContext*>(), { "Get", {}, {} })));
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::SynchronizationContext* (::System::Threading::OSSpecificSynchronizationContext::*)()>(
     &::System::Threading::OSSpecificSynchronizationContext::CreateCopy)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x61089f0;
+  constexpr static std::size_t addrs = 0x6108c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Threading::OSSpecificSynchronizationContext*>(),
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::OSSpecificSynchronizationContext::*)(::System::Threading::SendOrPostCallback*, ::System::Object*)>(
     &::System::Threading::OSSpecificSynchronizationContext::Send)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6108a44;
+  constexpr static std::size_t addrs = 0x6108ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Threading::OSSpecificSynchronizationContext*>(),
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::OSSpecificSynchronizationContext::*)(::System::Threading::SendOrPostCallback*, ::System::Object*)>(
     &::System::Threading::OSSpecificSynchronizationContext::Post)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6108a7c;
+  constexpr static std::size_t addrs = 0x6108d04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Threading::OSSpecificSynchronizationContext*>(),
@@ -256,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::System::Threading::OSSpecificSynchronizationContext::InvocationEntry)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x6108804;
+  constexpr static std::size_t addrs = 0x6108a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -269,7 +269,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)()>(&::System::Threading::OSSpecificSynchronizationContext::GetOSContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61089e8;
+  constexpr static std::size_t addrs = 0x6108c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::OSSpecificSynchronizationContext*>(), { "GetOSContext", {}, {} })));
@@ -281,7 +281,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, ::System::IntPtr, ::System::IntPtr)>(&::System::Threading::OSSpecificSynchronizationContext::PostInternal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6108c20;
+  constexpr static std::size_t addrs = 0x6108ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

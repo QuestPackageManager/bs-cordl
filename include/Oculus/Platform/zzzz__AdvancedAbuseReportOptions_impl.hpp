@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::AdvancedAbuseReportOptions::*)()>(&::Oculus::Platform::AdvancedAbuseReportOptions::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x620a380;
+  constexpr static std::size_t addrs = 0x620a608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::AdvancedAbuseReportOptions*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::AdvancedAbuseReportOptions::*)(::StringW, ::StringW)>(
     &::Oculus::Platform::AdvancedAbuseReportOptions::SetDeveloperDefinedContext)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x620a440;
+  constexpr static std::size_t addrs = 0x620a6c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::AdvancedAbuseReportOptions*>(),
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::AdvancedAbuseReportOptions::*)()>(&::Oculus::Platform::AdvancedAbuseReportOptions::ClearDeveloperDefinedContext)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x620a574;
+  constexpr static std::size_t addrs = 0x620a7fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::AdvancedAbuseReportOptions::*)(::StringW)>(&::Oculus::Platform::AdvancedAbuseReportOptions::SetObjectType)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x620a64c;
+  constexpr static std::size_t addrs = 0x620a8d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::AdvancedAbuseReportOptions::*)(::Oculus::Platform::AbuseReportType)>(
     &::Oculus::Platform::AdvancedAbuseReportOptions::SetReportType)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x620a75c;
+  constexpr static std::size_t addrs = 0x620a9e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::AdvancedAbuseReportOptions::*)(uint64_t)>(&::Oculus::Platform::AdvancedAbuseReportOptions::AddSuggestedUser)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x620a84c;
+  constexpr static std::size_t addrs = 0x620aad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::AdvancedAbuseReportOptions::*)()>(&::Oculus::Platform::AdvancedAbuseReportOptions::ClearSuggestedUsers)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x620a93c;
+  constexpr static std::size_t addrs = 0x620abc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::AdvancedAbuseReportOptions*>(), { "ClearSuggestedUsers", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::AdvancedAbuseReportOptions::*)(::Oculus::Platform::AbuseReportVideoMode)>(
     &::Oculus::Platform::AdvancedAbuseReportOptions::SetVideoMode)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x620aa14;
+  constexpr static std::size_t addrs = 0x620ac9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::Oculus::Platform::AdvancedAbuseReportOptions*)>(
     &::Oculus::Platform::AdvancedAbuseReportOptions::op_Explicit___System__IntPtr)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x620ab04;
+  constexpr static std::size_t addrs = 0x620ad8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::AdvancedAbuseReportOptions*>(),
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::AdvancedAbuseReportOptions::*)()>(&::Oculus::Platform::AdvancedAbuseReportOptions::Finalize)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x620ab10;
+  constexpr static std::size_t addrs = 0x620ad98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

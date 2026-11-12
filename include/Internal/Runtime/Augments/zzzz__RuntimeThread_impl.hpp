@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Internal::Runtime::Augments::RuntimeThread::*)(::System::Threading::Thread*)>(&::Internal::Runtime::Augments::RuntimeThread::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f1c0f0;
+  constexpr static std::size_t addrs = 0x5f1c378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Internal::Runtime::Augments::RuntimeThread* (*)(::System::Threading::ParameterizedThreadStart*, int32_t)>(
     &::Internal::Runtime::Augments::RuntimeThread::Create)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5f1c0f8;
+  constexpr static std::size_t addrs = 0x5f1c380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Internal::Runtime::Augments::RuntimeThread::*)(bool)>(&::Internal::Runtime::Augments::RuntimeThread::set_IsBackground)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5f1c188;
+  constexpr static std::size_t addrs = 0x5f1c410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Internal::Runtime::Augments::RuntimeThread::*)(::System::Object*)>(&::Internal::Runtime::Augments::RuntimeThread::Start)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5f1c1a4;
+  constexpr static std::size_t addrs = 0x5f1c42c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::Internal::Runtime::Augments::RuntimeThread::Sleep)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f1c1bc;
+  constexpr static std::size_t addrs = 0x5f1c444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Internal::Runtime::Augments::RuntimeThread::Yield)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5f1c1c4;
+  constexpr static std::size_t addrs = 0x5f1c44c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Internal::Runtime::Augments::RuntimeThread*>(), { "Yield", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t)>(&::Internal::Runtime::Augments::RuntimeThread::SpinWait)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f1c1dc;
+  constexpr static std::size_t addrs = 0x5f1c464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::Internal::Runtime::Augments::RuntimeThread::GetCurrentProcessorId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f1c1e4;
+  constexpr static std::size_t addrs = 0x5f1c46c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Internal::Runtime::Augments::RuntimeThread*>(), { "GetCurrentProcessorId", {}, {} })));

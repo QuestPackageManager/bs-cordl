@@ -68,31 +68,31 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6324dbc, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6325044, size 0x4c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetAt, addr 0x6324c74, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetAt, addr 0x6324efc, size 0x44, virtual false, abstract: false, final false
   inline int32_t GetAt(int32_t index);
 
-  /// @brief Method RemoveAt, addr 0x6324d70, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method RemoveAt, addr 0x6324ff8, size 0x3c, virtual false, abstract: false, final false
   inline void RemoveAt(int32_t index);
 
-  /// @brief Method .ctor, addr 0x6324bc0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6324e48, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, ::Unity::Collections::Allocator allocator);
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_Count, addr 0x6324dac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x6325034, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x6324c68, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6324ef0, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_Item(int32_t index);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// [CompilerGenerated]
-  /// @brief Method set_Count, addr 0x6324db4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Count, addr 0x632503c, size 0x8, virtual false, abstract: false, final false
   inline void set_Count(int32_t value);
 
   // Ctor Parameters []
@@ -138,13 +138,13 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Cross, addr 0x6324cb8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Cross, addr 0x6324f40, size 0x10, virtual false, abstract: false, final false
   static inline float_t Cross(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b);
 
-  /// @brief Method Execute, addr 0x632487c, size 0x344, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6324b04, size 0x344, virtual true, abstract: false, final true
   inline void Execute();
 
-  /// @brief Method PointInTriangle, addr 0x6324cc8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method PointInTriangle, addr 0x6324f50, size 0xa8, virtual false, abstract: false, final false
   static inline bool PointInTriangle(::UnityEngine::Vector2 p, ::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b, ::UnityEngine::Vector2 c);
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -215,19 +215,19 @@ public:
 
   static inline ::GlobalNamespace::OVRScenePlaneMeshFilter* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x63247e4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6324a6c, size 0x94, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method RequestMeshGeneration, addr 0x63237a0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method RequestMeshGeneration, addr 0x6323a28, size 0x30, virtual false, abstract: false, final false
   inline void RequestMeshGeneration();
 
-  /// @brief Method ScheduleMeshGeneration, addr 0x6323d14, size 0x480, virtual false, abstract: false, final false
+  /// @brief Method ScheduleMeshGeneration, addr 0x6323f9c, size 0x480, virtual false, abstract: false, final false
   inline void ScheduleMeshGeneration();
 
-  /// @brief Method Start, addr 0x6323b3c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x6323dc4, size 0x1d8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x6324194, size 0x650, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x632441c, size 0x650, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> const& __cordl_internal_get__boundary() const;
@@ -266,7 +266,7 @@ public:
 
   constexpr void __cordl_internal_set__triangles(::Unity::Collections::NativeArray_1<int32_t> value);
 
-  /// @brief Method .ctor, addr 0x6324878, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6324b00, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

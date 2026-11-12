@@ -100,34 +100,34 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x39eee28, size 0x31c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39f3ed0, size 0x31c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::SongPackMasksModelItem__SelectBeatSaberPackIds_d__10* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerable<System.String>.GetEnumerator, addr 0x39ef240, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.String>.GetEnumerator, addr 0x39f42e8, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::StringW>* System_Collections_Generic_IEnumerable_System_String__GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current, addr 0x39ef1f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current, addr 0x39f42a0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW System_Collections_Generic_IEnumerator_System_String__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x39ef2e0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x39f4388, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39ef200, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39f42a8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39ef238, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39f42e0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x39eee0c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x39f3eb4, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -172,11 +172,11 @@ public:
 
   constexpr void __cordl_internal_set_beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value);
 
-  /// @brief Method <>m__Finally1, addr 0x39ef144, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x39f41ec, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x39eede8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f3e90, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::StringW>"
@@ -209,7 +209,7 @@ public:
   SongPackMasksModelItem__SelectBeatSaberPackIds_d__10(SongPackMasksModelItem__SelectBeatSaberPackIds_d__10 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14584 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14587 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -281,13 +281,13 @@ public:
 
   __declspec(property(get = get_serializedName)) ::StringW serializedName;
 
-  /// @brief Method GetSongPackMask, addr 0x39eea18, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetSongPackMask, addr 0x39f3ac0, size 0x7c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SongPackMask GetSongPackMask(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
 
   static inline ::GlobalNamespace::SongPackMasksModelItem* New_ctor();
 
   /// [IteratorStateMachine(typeof(SongPackMasksModelItem::<SelectBeatSaberPackIds>d__10))]
-  /// @brief Method SelectBeatSaberPackIds, addr 0x39eed70, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SelectBeatSaberPackIds, addr 0x39f3e18, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* SelectBeatSaberPackIds(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
 
   constexpr ::StringW const& __cordl_internal_get__beatmapLevelPackId() const;
@@ -320,13 +320,13 @@ public:
 
   constexpr void __cordl_internal_set__type(::GlobalNamespace::SongPackDataType value);
 
-  /// @brief Method .ctor, addr 0x39eee08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f3eb0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_containsMultiplePacks, addr 0x39eea94, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_containsMultiplePacks, addr 0x39f3b3c, size 0x10, virtual false, abstract: false, final false
   inline bool get_containsMultiplePacks();
 
-  /// @brief Method get_serializedName, addr 0x39ee9fc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_serializedName, addr 0x39f3aa4, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_serializedName();
 
 protected:
@@ -344,7 +344,7 @@ public:
   SongPackMasksModelItem(SongPackMasksModelItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14585 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14588 };
 
   /// @brief Field _type, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::SongPackDataType ____type;

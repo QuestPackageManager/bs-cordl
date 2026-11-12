@@ -57,13 +57,13 @@ public:
 
   static inline ::System::Xml::XPath::XPathItem* New_ctor();
 
-  /// @brief Method ValueAs, addr 0x674d1e0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method ValueAs, addr 0x674d830, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* ValueAs(::System::Type* returnType);
 
   /// @brief Method ValueAs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* ValueAs(::System::Type* returnType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method .ctor, addr 0x674d1f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x674d844, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_TypedValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

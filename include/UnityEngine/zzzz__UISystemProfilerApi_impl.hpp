@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UISystemProfilerApi_SampleType)>(&::UnityEngine::UISystemProfilerApi::BeginSample)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x72c2a0c;
+  constexpr static std::size_t addrs = 0x72c3aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UISystemProfilerApi_SampleType)>(&::UnityEngine::UISystemProfilerApi::EndSample)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x72c2a48;
+  constexpr static std::size_t addrs = 0x72c3b28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::UnityEngine::Object*)>(&::UnityEngine::UISystemProfilerApi::AddMarker)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x72c2a84;
+  constexpr static std::size_t addrs = 0x72c3b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::System::IntPtr)>(&::UnityEngine::UISystemProfilerApi::AddMarker_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x72c2be8;
+  constexpr static std::size_t addrs = 0x72c3cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

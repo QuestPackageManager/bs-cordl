@@ -103,7 +103,7 @@ public:
 
   constexpr void __cordl_internal_set_xr(::UnityEngine::Experimental::Rendering::XRPass* value);
 
-  /// @brief Method .ctor, addr 0x6ce27cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce38ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -162,7 +162,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::XROcclusionMeshPass___c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <Render>b__0, addr 0x6ce27d0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__0, addr 0x6ce38b0, size 0xa0, virtual false, abstract: false, final false
   inline void _Render_b__0(::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
   constexpr ::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData* const& __cordl_internal_get_passData() const;
@@ -171,7 +171,7 @@ public:
 
   constexpr void __cordl_internal_set_passData(::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData* value);
 
-  /// @brief Method .ctor, addr 0x6ce2734, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce3814, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -217,15 +217,15 @@ public:
   __declspec(property(get = __cordl_internal_get_m_IsActiveTargetBackBuffer, put = __cordl_internal_set_m_IsActiveTargetBackBuffer)) bool m_IsActiveTargetBackBuffer;
 
   /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
-  /// @brief Method Execute, addr 0x6ce1fb4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x6ce3094, size 0x4, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x6ce2058, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6ce3138, size 0x8c, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData* data);
 
   static inline ::UnityEngine::Rendering::Universal::XROcclusionMeshPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
-  /// @brief Method Render, addr 0x6ce20e4, size 0x650, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6ce31c4, size 0x650, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> cameraColorAttachment,
                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> cameraDepthAttachment);
@@ -236,7 +236,7 @@ public:
 
   constexpr void __cordl_internal_set_m_IsActiveTargetBackBuffer(bool value);
 
-  /// @brief Method .ctor, addr 0x6ce1fb8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce3098, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
 protected:

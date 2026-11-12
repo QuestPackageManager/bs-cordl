@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass38_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass38_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x359c610;
+  constexpr static std::size_t addrs = 0x359f7d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass38_0*>(), { ".ctor", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass38_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass38_0::_PresentFlowCoordinator_b__1)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x359e62c;
+  constexpr static std::size_t addrs = 0x35a17ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass38_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass38_0::_PresentFlowCoordinator_b__0)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x359e6a4;
+  constexpr static std::size_t addrs = 0x35a1864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass39_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass39_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x359ccb4;
+  constexpr static std::size_t addrs = 0x359fe74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass39_0*>(), { ".ctor", {}, {} })));
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass39_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass39_0::_DismissFlowCoordinator_b__0)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x359e71c;
+  constexpr static std::size_t addrs = 0x35a18dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass42_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass42_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x359d1ac;
+  constexpr static std::size_t addrs = 0x35a036c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass42_0*>(), { ".ctor", {}, {} })));
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass42_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass42_0::_ReplaceChildFlowCoordinator_b__0)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x359e7b8;
+  constexpr static std::size_t addrs = 0x35a1978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -301,7 +301,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass43_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass43_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x359d1b0;
+  constexpr static std::size_t addrs = 0x35a0370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass43_0*>(), { ".ctor", {}, {} })));
@@ -313,7 +313,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass43_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass43_0::_PresentViewController_b__0)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x359e858;
+  constexpr static std::size_t addrs = 0x35a1a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -388,7 +388,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass44_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass44_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x359d530;
+  constexpr static std::size_t addrs = 0x35a06f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass44_0*>(), { ".ctor", {}, {} })));
@@ -400,7 +400,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass44_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass44_0::_DismissViewController_b__0)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x359e8d8;
+  constexpr static std::size_t addrs = 0x35a1a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -487,7 +487,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass46_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass46_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x359d614;
+  constexpr static std::size_t addrs = 0x35a07d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass46_0*>(), { ".ctor", {}, {} })));
@@ -499,7 +499,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass46_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass46_0::_ReplaceTopViewController_b__0)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x359e998;
+  constexpr static std::size_t addrs = 0x35a1b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -574,7 +574,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass47_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass47_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x359d798;
+  constexpr static std::size_t addrs = 0x35a0958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass47_0*>(), { ".ctor", {}, {} })));
@@ -587,7 +587,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass47_0::*)()>(
     &::HMUI::FlowCoordinator___c__DisplayClass47_0::_PushViewControllerToNavigationController_b__0)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x359ea18;
+  constexpr static std::size_t addrs = 0x35a1bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -662,7 +662,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass50_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass50_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x359da3c;
+  constexpr static std::size_t addrs = 0x35a0bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass50_0*>(), { ".ctor", {}, {} })));
@@ -675,7 +675,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass50_0::*)()>(
     &::HMUI::FlowCoordinator___c__DisplayClass50_0::_PopViewControllerFromNavigationController_b__0)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x359ea98;
+  constexpr static std::size_t addrs = 0x35a1c58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -750,7 +750,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass51_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass51_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x359dbb0;
+  constexpr static std::size_t addrs = 0x35a0d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass51_0*>(), { ".ctor", {}, {} })));
@@ -763,7 +763,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass51_0::*)()>(
     &::HMUI::FlowCoordinator___c__DisplayClass51_0::_PopViewControllersFromNavigationController_b__0)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x359eb18;
+  constexpr static std::size_t addrs = 0x35a1cd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -839,7 +839,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__40::*)()>(
     &::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__40::MoveNext)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x359eb98;
+  constexpr static std::size_t addrs = 0x35a1d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -853,7 +853,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__40::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__40::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x359eed8;
+  constexpr static std::size_t addrs = 0x35a2098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__40>(),
@@ -900,7 +900,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__41::*)()>(
     &::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__41::MoveNext)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x359ef44;
+  constexpr static std::size_t addrs = 0x35a2104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -914,7 +914,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__41::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__41::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x359f194;
+  constexpr static std::size_t addrs = 0x35a2354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__41>(),
@@ -960,7 +960,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::HMUI::ViewController> (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::get_topViewController)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x359b620;
+  constexpr static std::size_t addrs = 0x359e7e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "get_topViewController", {}, {} })));
@@ -972,7 +972,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::HMUI::ViewController> (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::get_rightScreenViewController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x359b6a4;
+  constexpr static std::size_t addrs = 0x359e864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "get_rightScreenViewController", {}, {} })));
@@ -984,7 +984,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::HMUI::FlowCoordinator> (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::get_childFlowCoordinator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x359b6ac;
+  constexpr static std::size_t addrs = 0x359e86c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "get_childFlowCoordinator", {}, {} })));
@@ -996,7 +996,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::get_isActivated)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x359b6b4;
+  constexpr static std::size_t addrs = 0x359e874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "get_isActivated", {}, {} })));
@@ -1008,7 +1008,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::get_isInTransition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x359b6bc;
+  constexpr static std::size_t addrs = 0x359e87c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "get_isInTransition", {}, {} })));
@@ -1020,7 +1020,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::get_title)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x359b6c4;
+  constexpr static std::size_t addrs = 0x359e884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "get_title", {}, {} })));
@@ -1032,7 +1032,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::StringW, ::HMUI::ViewController_AnimationType)>(&::HMUI::FlowCoordinator::SetTitle)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x359b6cc;
+  constexpr static std::size_t addrs = 0x359e88c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1046,7 +1046,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(bool)>(&::HMUI::FlowCoordinator::set_showBackButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x359b834;
+  constexpr static std::size_t addrs = 0x359e9f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "set_showBackButton", {}, { ::i2c::type_of<bool>() } })));
@@ -1058,7 +1058,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::get_showBackButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x359b83c;
+  constexpr static std::size_t addrs = 0x359e9fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "get_showBackButton", {}, {} })));
@@ -1070,7 +1070,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::ScreenSystem*)>(&::HMUI::FlowCoordinator::__StartOnScreenSystem)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x359b844;
+  constexpr static std::size_t addrs = 0x359ea04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1084,7 +1084,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::FlowCoordinator*, ::System::Action*, ::HMUI::ViewController_AnimationDirection, bool, bool)>(
     &::HMUI::FlowCoordinator::PresentFlowCoordinator)> {
   constexpr static std::size_t size = 0x42c;
-  constexpr static std::size_t addrs = 0x359c1e4;
+  constexpr static std::size_t addrs = 0x359f3a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1102,7 +1102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::FlowCoordinator*, ::HMUI::ViewController_AnimationDirection, ::System::Action*, bool)>(
     &::HMUI::FlowCoordinator::DismissFlowCoordinator)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x359c96c;
+  constexpr static std::size_t addrs = 0x359fb2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1119,7 +1119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::HMUI::FlowCoordinator::*)(bool)>(&::HMUI::FlowCoordinator::DismissChildFlowCoordinatorsRecursively)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x359ccf4;
+  constexpr static std::size_t addrs = 0x359feb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1132,7 +1132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::HMUI::FlowCoordinator::*)(bool)>(&::HMUI::FlowCoordinator::DismissChildViewControllersRecursively)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x359cdbc;
+  constexpr static std::size_t addrs = 0x359ff7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1146,7 +1146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::FlowCoordinator*, ::System::Action*, ::HMUI::ViewController_AnimationDirection, bool)>(
     &::HMUI::FlowCoordinator::ReplaceChildFlowCoordinator)> {
   constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x359ce84;
+  constexpr static std::size_t addrs = 0x35a0044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1163,7 +1163,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::ViewController*, ::System::Action*, ::HMUI::ViewController_AnimationDirection, bool)>(
     &::HMUI::FlowCoordinator::PresentViewController)> {
   constexpr static std::size_t size = 0x3ec;
-  constexpr static std::size_t addrs = 0x359bdf8;
+  constexpr static std::size_t addrs = 0x359efb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1180,7 +1180,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::HMUI::FlowCoordinator::*)(::HMUI::ViewController*, ::HMUI::ViewController_AnimationDirection,
                                                                                                                       ::System::Action*, bool)>(&::HMUI::FlowCoordinator::DismissViewController)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x359d2a8;
+  constexpr static std::size_t addrs = 0x35a0468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1197,7 +1197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::ViewController*, ::System::Action*, ::HMUI::ViewController_AnimationType,
                                                                                          ::HMUI::ViewController_AnimationDirection)>(&::HMUI::FlowCoordinator::ReplaceTopViewController)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x359d534;
+  constexpr static std::size_t addrs = 0x35a06f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1216,7 +1216,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordin
                                                                                          ::HMUI::ViewController_AnimationType, ::HMUI::ViewController_AnimationDirection)>(
     &::HMUI::FlowCoordinator::ReplaceTopViewController)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x359c6fc;
+  constexpr static std::size_t addrs = 0x359f8bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1235,7 +1235,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::NavigationController*, ::HMUI::ViewController*, ::System::Action*, bool)>(
     &::HMUI::FlowCoordinator::PushViewControllerToNavigationController)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x359d638;
+  constexpr static std::size_t addrs = 0x35a07f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1252,7 +1252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::NavigationController*, ::ArrayW<::HMUI::ViewController*>)>(
     &::HMUI::FlowCoordinator::SetViewControllersToNavigationController)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x359d8b0;
+  constexpr static std::size_t addrs = 0x35a0a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1268,7 +1268,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::NavigationController*, ::HMUI::ViewController*)>(
     &::HMUI::FlowCoordinator::SetViewControllerToNavigationController)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x359d8c8;
+  constexpr static std::size_t addrs = 0x35a0a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1283,7 +1283,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::NavigationController*, ::System::Action*, bool)>(
     &::HMUI::FlowCoordinator::PopViewControllerFromNavigationController)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x359d8e0;
+  constexpr static std::size_t addrs = 0x35a0aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1299,7 +1299,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::NavigationController*, int32_t, ::System::Action*, bool)>(
     &::HMUI::FlowCoordinator::PopViewControllersFromNavigationController)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x359da50;
+  constexpr static std::size_t addrs = 0x35a0c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1316,7 +1316,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::ViewController*, ::HMUI::ViewController_AnimationType)>(
     &::HMUI::FlowCoordinator::SetLeftScreenViewController)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x359ba98;
+  constexpr static std::size_t addrs = 0x359ec58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1331,7 +1331,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::ViewController*, ::HMUI::ViewController_AnimationType)>(
     &::HMUI::FlowCoordinator::SetRightScreenViewController)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x359bb70;
+  constexpr static std::size_t addrs = 0x359ed30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1346,7 +1346,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::ViewController*, ::HMUI::ViewController_AnimationType)>(
     &::HMUI::FlowCoordinator::SetBottomScreenViewController)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x359bc48;
+  constexpr static std::size_t addrs = 0x359ee08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1361,7 +1361,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::ViewController*, ::HMUI::ViewController_AnimationType)>(
     &::HMUI::FlowCoordinator::SetTopScreenViewController)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x359bd20;
+  constexpr static std::size_t addrs = 0x359eee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1375,7 +1375,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::StringW, ::HMUI::ViewController_AnimationType)>(&::HMUI::FlowCoordinator::PresentTitle)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x359b7c0;
+  constexpr static std::size_t addrs = 0x359e980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1389,7 +1389,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::FlowCoordinator::*)(::HMUI::FlowCoordinator*)>(&::HMUI::FlowCoordinator::IsFlowCoordinatorInHierarchy)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x359b71c;
+  constexpr static std::size_t addrs = 0x359e8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1402,7 +1402,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::HMUI::FlowCoordinator> (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::YoungestChildFlowCoordinatorOrSelf)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x359de10;
+  constexpr static std::size_t addrs = 0x35a0fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "YoungestChildFlowCoordinatorOrSelf", {}, {} })));
@@ -1415,7 +1415,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::ViewController*, ::HMUI::ViewController*, ::HMUI::ViewController*, ::HMUI::ViewController*,
                                                                                          ::HMUI::ViewController*)>(&::HMUI::FlowCoordinator::ProvideInitialViewControllers)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x359de90;
+  constexpr static std::size_t addrs = 0x35a1050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1432,7 +1432,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(bool, bool, bool)>(&::HMUI::FlowCoordinator::Activate)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x359b9cc;
+  constexpr static std::size_t addrs = 0x359eb8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1445,7 +1445,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(bool, bool)>(&::HMUI::FlowCoordinator::Deactivate)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x359c614;
+  constexpr static std::size_t addrs = 0x359f7d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1458,7 +1458,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::__ExternalActivate)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x359e000;
+  constexpr static std::size_t addrs = 0x35a11c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "__ExternalActivate", {}, {} })));
@@ -1470,7 +1470,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::__ExternalDeactivate)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x359e1fc;
+  constexpr static std::size_t addrs = 0x35a13bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "__ExternalDeactivate", {}, {} })));
@@ -1482,7 +1482,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::HandleScreenSystemBackButtonWasPressed)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x359e408;
+  constexpr static std::size_t addrs = 0x35a15c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "HandleScreenSystemBackButtonWasPressed", {}, {} })));
@@ -1494,7 +1494,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::CanPressBackButton)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x359e440;
+  constexpr static std::size_t addrs = 0x35a1600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "CanPressBackButton", {}, {} })));
@@ -1506,7 +1506,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(bool)>(&::HMUI::FlowCoordinator::SetGlobalUserInteraction)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x359ccb8;
+  constexpr static std::size_t addrs = 0x359fe78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1531,7 +1531,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(bool, bool)>(&::HMUI::FlowCoordinator::DidDeactivate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x359e534;
+  constexpr static std::size_t addrs = 0x35a16f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { ::i2c::class_of<::HMUI::FlowCoordinator*>(), 5 }));
@@ -1543,7 +1543,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::TransitionDidStart)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x359e538;
+  constexpr static std::size_t addrs = 0x35a16f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { ::i2c::class_of<::HMUI::FlowCoordinator*>(), 6 }));
@@ -1555,7 +1555,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::TransitionDidFinish)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x359e544;
+  constexpr static std::size_t addrs = 0x35a1704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { ::i2c::class_of<::HMUI::FlowCoordinator*>(), 7 }));
@@ -1568,7 +1568,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::ViewController*, ::HMUI::ViewController*, ::HMUI::ViewController_AnimationType)>(
     &::HMUI::FlowCoordinator::TopViewControllerWillChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x359e54c;
+  constexpr static std::size_t addrs = 0x35a170c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { ::i2c::class_of<::HMUI::FlowCoordinator*>(), 8 }));
@@ -1580,7 +1580,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::InitialViewControllerWasPresented)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x359e550;
+  constexpr static std::size_t addrs = 0x35a1710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { ::i2c::class_of<::HMUI::FlowCoordinator*>(), 9 }));
@@ -1592,7 +1592,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::ViewController*)>(&::HMUI::FlowCoordinator::BackButtonWasPressed)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x359e554;
+  constexpr static std::size_t addrs = 0x35a1714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { ::i2c::class_of<::HMUI::FlowCoordinator*>(), 10 }));
@@ -1604,7 +1604,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::HMUI::FlowCoordinator::Log)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x359e558;
+  constexpr static std::size_t addrs = 0x35a1718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "Log", {}, { ::i2c::type_of<::StringW>() } })));
@@ -1616,7 +1616,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x359e5b4;
+  constexpr static std::size_t addrs = 0x35a1774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { ".ctor", {}, {} })));

@@ -37,16 +37,16 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::RasterState>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::RasterState>*();
 
-  /// @brief Method Equals, addr 0x6fbcf54, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6fbe034, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6fbced8, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6fbdfb8, size 0x7c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::RasterState other);
 
-  /// @brief Method GetHashCode, addr 0x6fbd008, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6fbe0e8, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6fbce44, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fbdf24, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::CullMode cullingMode, int32_t offsetUnits, float_t offsetFactor, bool depthClip);
 
   static inline ::UnityEngine::Rendering::RasterState getStaticF_defaultValue();

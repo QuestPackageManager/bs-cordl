@@ -46,92 +46,92 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method SetEntityIds, addr 0x6e7fd08, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SetEntityIds, addr 0x6e80de8, size 0x50, virtual false, abstract: false, final false
   inline void SetEntityIds(::Unity::Collections::NativeArray_1<uint64_t> ids);
 
-  /// @brief Method SetEntityStates, addr 0x6e7fd58, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SetEntityStates, addr 0x6e80e38, size 0x50, virtual false, abstract: false, final false
   inline void SetEntityStates(::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityTrackingStateEXT> states);
 
-  /// @brief Method .ctor, addr 0x6e7fc2c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e80d0c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(uint32_t entityIdCapacityInput, uint32_t entityIdCountOutput, uint64_t* entityIds, uint32_t entityStateCapacityInput, uint32_t entityStateCountOutput,
                     ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityTrackingStateEXT* entityStates);
 
-  /// @brief Method .ctor, addr 0x6e7fcec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e80dcc, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(void* next);
 
-  /// @brief Method .ctor, addr 0x6e7fcc8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e80da8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(void* next, uint32_t entityIdCapacityInput, uint32_t entityIdCountOutput, uint64_t* entityIds, uint32_t entityStateCapacityInput, uint32_t entityStateCountOutput,
                     ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityTrackingStateEXT* entityStates);
 
-  /// @brief Method get_defaultValue, addr 0x6e7fc08, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_defaultValue, addr 0x6e80ce8, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentDataQueryResultEXT get_defaultValue();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_entityIdCapacityInput, addr 0x6e7fc68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_entityIdCapacityInput, addr 0x6e80d48, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_entityIdCapacityInput();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_entityIdCountOutput, addr 0x6e7fc78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_entityIdCountOutput, addr 0x6e80d58, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_entityIdCountOutput();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_entityIds, addr 0x6e7fc88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_entityIds, addr 0x6e80d68, size 0x8, virtual false, abstract: false, final false
   inline uint64_t* get_entityIds();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_entityStateCapacityInput, addr 0x6e7fc98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_entityStateCapacityInput, addr 0x6e80d78, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_entityStateCapacityInput();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_entityStateCountOutput, addr 0x6e7fca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_entityStateCountOutput, addr 0x6e80d88, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_entityStateCountOutput();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_entityStates, addr 0x6e7fcb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_entityStates, addr 0x6e80d98, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityTrackingStateEXT* get_entityStates();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e7fc58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e80d38, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e7fc50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e80d30, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   /// [CompilerGenerated]
-  /// @brief Method set_entityIdCapacityInput, addr 0x6e7fc70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_entityIdCapacityInput, addr 0x6e80d50, size 0x8, virtual false, abstract: false, final false
   inline void set_entityIdCapacityInput(uint32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_entityIdCountOutput, addr 0x6e7fc80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_entityIdCountOutput, addr 0x6e80d60, size 0x8, virtual false, abstract: false, final false
   inline void set_entityIdCountOutput(uint32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_entityIds, addr 0x6e7fc90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_entityIds, addr 0x6e80d70, size 0x8, virtual false, abstract: false, final false
   inline void set_entityIds(uint64_t* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_entityStateCapacityInput, addr 0x6e7fca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_entityStateCapacityInput, addr 0x6e80d80, size 0x8, virtual false, abstract: false, final false
   inline void set_entityStateCapacityInput(uint32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_entityStateCountOutput, addr 0x6e7fcb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_entityStateCountOutput, addr 0x6e80d90, size 0x8, virtual false, abstract: false, final false
   inline void set_entityStateCountOutput(uint32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_entityStates, addr 0x6e7fcc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_entityStates, addr 0x6e80da0, size 0x8, virtual false, abstract: false, final false
   inline void set_entityStates(::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityTrackingStateEXT* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_next, addr 0x6e7fc60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_next, addr 0x6e80d40, size 0x8, virtual false, abstract: false, final false
   inline void set_next(void* value);
 
   // Ctor Parameters []
@@ -150,7 +150,7 @@ public:
                                                  ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityTrackingStateEXT* _entityStates_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17592 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17600 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

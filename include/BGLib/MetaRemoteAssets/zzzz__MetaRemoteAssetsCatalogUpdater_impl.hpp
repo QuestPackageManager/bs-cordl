@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater___c::*)()>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35c2c14;
+  constexpr static std::size_t addrs = 0x35c6590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater___c*>(), { ".ctor", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater___c::*)(::StringW)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater___c::_HandleGameSceneChanged_b__9_0)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x35c2c18;
+  constexpr static std::size_t addrs = 0x35c6594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater___c*>(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater__CheckForCatalogUpdateWithInterval_d__10::*)()>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater__CheckForCatalogUpdateWithInterval_d__10::MoveNext)> {
   constexpr static std::size_t size = 0x540;
-  constexpr static std::size_t addrs = 0x35c2c64;
+  constexpr static std::size_t addrs = 0x35c65e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater__CheckForCatalogUpdateWithInterval_d__10::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater__CheckForCatalogUpdateWithInterval_d__10::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35c3344;
+  constexpr static std::size_t addrs = 0x35c6cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater::*)(
     ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*, ::GlobalNamespace::GameScenesManager*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x35c270c;
+  constexpr static std::size_t addrs = 0x35c6088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater::*)()>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater::Initialize)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x35c2788;
+  constexpr static std::size_t addrs = 0x35c6104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater*>(), { "Initialize", {}, {} })));
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater::*)()>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater::Dispose)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x35c28fc;
+  constexpr static std::size_t addrs = 0x35c6278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater*>(), { "Dispose", {}, {} })));
@@ -187,7 +187,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemote
                                                                                                                            ::GlobalNamespace::ScenesTransitionSetupData*, ::Zenject::DiContainer*)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater::HandleGameSceneChanged)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x35c2a20;
+  constexpr static std::size_t addrs = 0x35c639c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater::*)(::System::Threading::CancellationToken)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater::CheckForCatalogUpdateWithInterval)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35c283c;
+  constexpr static std::size_t addrs = 0x35c61b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater*>(),

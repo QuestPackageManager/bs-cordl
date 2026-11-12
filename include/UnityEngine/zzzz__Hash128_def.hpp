@@ -58,16 +58,16 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void Append(::by_ref<T> val);
 
-  /// @brief Method Append, addr 0x6f5da5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x6f5eb3c, size 0x4, virtual false, abstract: false, final false
   inline void Append(int32_t val);
 
-  /// @brief Method CompareTo, addr 0x6f5db84, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x6f5ec64, size 0xb8, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* obj);
 
-  /// @brief Method CompareTo, addr 0x6f5d4d8, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x6f5e5b8, size 0x4c, virtual true, abstract: false, final true
   inline int32_t CompareTo(::UnityEngine::Hash128 rhs);
 
-  /// @brief Method Compute, addr 0x6f5d9e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Compute, addr 0x6f5eac0, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::Hash128 Compute(::StringW data);
 
   /// @brief Method Compute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -75,59 +75,59 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   static inline ::UnityEngine::Hash128 Compute(::by_ref<T> val);
 
-  /// @brief Method Compute, addr 0x6f5da04, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Compute, addr 0x6f5eae4, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::Hash128 Compute(int32_t val);
 
   /// [FreeFunction("ComputeHash128FromScriptPointer", IsThreadSafe = true)]
-  /// @brief Method ComputeFromPtr, addr 0x6f5d974, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ComputeFromPtr, addr 0x6f5ea54, size 0x6c, virtual false, abstract: false, final false
   static inline void ComputeFromPtr(::System::IntPtr data, int32_t start, int32_t count, int32_t elemSize, ::by_ref<::UnityEngine::Hash128> hash);
 
   /// [FreeFunction("ComputeHash128FromScriptString", IsThreadSafe = true)]
-  /// @brief Method ComputeFromString, addr 0x6f5d7fc, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method ComputeFromString, addr 0x6f5e8dc, size 0x134, virtual false, abstract: false, final false
   static inline void ComputeFromString(::StringW data, ::by_ref<::UnityEngine::Hash128> hash);
 
-  /// @brief Method ComputeFromString_Injected, addr 0x6f5d930, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ComputeFromString_Injected, addr 0x6f5ea10, size 0x44, virtual false, abstract: false, final false
   static inline void ComputeFromString_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> data, ::by_ref<::UnityEngine::Hash128> hash);
 
-  /// @brief Method Equals, addr 0x6f5dac8, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f5eba8, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6f5db58, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6f5ec38, size 0x14, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Hash128 obj);
 
-  /// @brief Method GetHashCode, addr 0x6f5db6c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6f5ec4c, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// [FreeFunction("Hash128ToString", IsThreadSafe = true)]
-  /// @brief Method Hash128ToStringImpl, addr 0x6f5d570, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Hash128ToStringImpl, addr 0x6f5e650, size 0xd0, virtual false, abstract: false, final false
   static inline ::StringW Hash128ToStringImpl(::UnityEngine::Hash128 hash);
 
-  /// @brief Method Hash128ToStringImpl_Injected, addr 0x6f5d7b8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Hash128ToStringImpl_Injected, addr 0x6f5e898, size 0x44, virtual false, abstract: false, final false
   static inline void Hash128ToStringImpl_Injected(::by_ref<::UnityEngine::Hash128 const> hash, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
   /// [FreeFunction("StringToHash128", IsThreadSafe = true)]
-  /// @brief Method Parse, addr 0x6f5d640, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x6f5e720, size 0x134, virtual false, abstract: false, final false
   static inline ::UnityEngine::Hash128 Parse(::StringW hashString);
 
-  /// @brief Method Parse_Injected, addr 0x6f5d774, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Parse_Injected, addr 0x6f5e854, size 0x44, virtual false, abstract: false, final false
   static inline void Parse_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> hashString, ::by_ref<::UnityEngine::Hash128> ret);
 
-  /// @brief Method Rot64, addr 0x6f5dde0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Rot64, addr 0x6f5eec0, size 0x14, virtual false, abstract: false, final false
   static inline void Rot64(::by_ref<uint64_t> x, int32_t k);
 
-  /// @brief Method ShortEnd, addr 0x6f5dc4c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method ShortEnd, addr 0x6f5ed2c, size 0x194, virtual false, abstract: false, final false
   static inline void ShortEnd(::by_ref<uint64_t> h0, ::by_ref<uint64_t> h1, ::by_ref<uint64_t> h2, ::by_ref<uint64_t> h3);
 
-  /// @brief Method ShortHash4, addr 0x6f5da60, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ShortHash4, addr 0x6f5eb40, size 0x68, virtual false, abstract: false, final false
   inline void ShortHash4(uint32_t data);
 
-  /// @brief Method ToString, addr 0x6f5d564, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6f5e644, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6f5d4b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f5e590, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint64_t u64_0, uint64_t u64_1);
 
-  /// @brief Method get_isValid, addr 0x6f5d4b8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_isValid, addr 0x6f5e598, size 0x20, virtual false, abstract: false, final false
   inline bool get_isValid();
 
   /// @brief Convert to "::System::IComparable"
@@ -139,16 +139,16 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Hash128>"
   constexpr ::System::IEquatable_1<::UnityEngine::Hash128>* i___System__IEquatable_1___UnityEngine__Hash128_();
 
-  /// @brief Method op_Equality, addr 0x6f5db48, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6f5ec28, size 0x10, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Hash128 hash1, ::UnityEngine::Hash128 hash2);
 
-  /// @brief Method op_GreaterThan, addr 0x6f5d53c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThan, addr 0x6f5e61c, size 0x28, virtual false, abstract: false, final false
   static inline bool op_GreaterThan(::UnityEngine::Hash128 x, ::UnityEngine::Hash128 y);
 
-  /// @brief Method op_Inequality, addr 0x6f5dc3c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6f5ed1c, size 0x10, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Hash128 hash1, ::UnityEngine::Hash128 hash2);
 
-  /// @brief Method op_LessThan, addr 0x6f5d524, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_LessThan, addr 0x6f5e604, size 0x18, virtual false, abstract: false, final false
   static inline bool op_LessThan(::UnityEngine::Hash128 x, ::UnityEngine::Hash128 y);
 
   // Ctor Parameters []

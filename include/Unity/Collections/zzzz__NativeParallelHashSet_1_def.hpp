@@ -101,7 +101,7 @@ public:
   constexpr NativeParallelHashSet_1_ParallelWriter(::Unity::Collections::NativeParallelHashMap_2_ParallelWriter<T, bool> m_Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15937 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15945 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -169,7 +169,7 @@ public:
   constexpr NativeParallelHashSet_1_Enumerator(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator m_Enumerator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15938 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15946 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -261,7 +261,7 @@ public:
   constexpr NativeParallelHashSet_1_ReadOnly(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMap_2<T, bool> m_Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15939 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15947 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -388,7 +388,7 @@ public:
   static constexpr int32_t MaxCapacity{ static_cast<int32_t>(0x3fffffff) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15940 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15948 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

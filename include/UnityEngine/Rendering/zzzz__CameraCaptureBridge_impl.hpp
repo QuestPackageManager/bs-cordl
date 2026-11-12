@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CameraCaptureBridge_CameraEntry::*)()>(&::UnityEngine::Rendering::CameraCaptureBridge_CameraEntry::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c15050;
+  constexpr static std::size_t addrs = 0x6c16130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CameraCaptureBridge_CameraEntry*>(), { ".ctor", {}, {} })));
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::CameraCaptureBridge::get_enabled)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6c14b18;
+  constexpr static std::size_t addrs = 0x6c15bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CameraCaptureBridge*>(), { "get_enabled", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::Rendering::CameraCaptureBridge::set_enabled)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6c14b74;
+  constexpr static std::size_t addrs = 0x6c15c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
     ::System::Collections::Generic::IEnumerator_1<::System::Action_2<::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::CommandBuffer*>*>* (*)(::UnityEngine::Camera*)>(
     &::UnityEngine::Rendering::CameraCaptureBridge::GetCaptureActions)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6c14bd8;
+  constexpr static std::size_t addrs = 0x6c15cb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
     ::System::Collections::Generic::IEnumerator_1<::System::Action_2<::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::CommandBuffer*>*>* (*)(::UnityEngine::Camera*)>(
     &::UnityEngine::Rendering::CameraCaptureBridge::GetCachedCaptureActionsEnumerator)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x6c14cf4;
+  constexpr static std::size_t addrs = 0x6c15dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CameraCaptureBridge*>(),
@@ -123,7 +123,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::UnityEngine::Camera*, ::System::Action_2<::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::CommandBuffer*>*)>(
         &::UnityEngine::Rendering::CameraCaptureBridge::AddCaptureAction)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x6c14e48;
+  constexpr static std::size_t addrs = 0x6c15f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::UnityEngine::Camera*, ::System::Action_2<::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::CommandBuffer*>*)>(
         &::UnityEngine::Rendering::CameraCaptureBridge::RemoveCaptureAction)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6c15054;
+  constexpr static std::size_t addrs = 0x6c16134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

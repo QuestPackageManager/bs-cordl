@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::RuntimeInitializeOnLoadMethodAttribute::*)()>(&::UnityEngine::RuntimeInitializeOnLoadMethodAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f7d498;
+  constexpr static std::size_t addrs = 0x6f7e578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RuntimeInitializeOnLoadMethodAttribute*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::RuntimeInitializeOnLoadMethodAttribute::*)(::UnityEngine::RuntimeInitializeLoadType)>(
     &::UnityEngine::RuntimeInitializeOnLoadMethodAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f7d4a8;
+  constexpr static std::size_t addrs = 0x6f7e588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::RuntimeInitializeOnLoadMethodAttribute::*)(::UnityEngine::RuntimeInitializeLoadType)>(
     &::UnityEngine::RuntimeInitializeOnLoadMethodAttribute::set_loadType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f7d4a0;
+  constexpr static std::size_t addrs = 0x6f7e580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RuntimeInitializeOnLoadMethodAttribute*>(),

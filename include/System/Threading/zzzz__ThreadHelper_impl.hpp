@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ThreadHelper::*)(::System::Delegate*)>(&::System::Threading::ThreadHelper::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6109018;
+  constexpr static std::size_t addrs = 0x61092a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ThreadHelper::*)(::System::Threading::ExecutionContext*)>(
     &::System::Threading::ThreadHelper::SetExecutionContextHelper)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6109020;
+  constexpr static std::size_t addrs = 0x61092a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::System::Threading::ThreadHelper::ThreadStart_Context)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6109028;
+  constexpr static std::size_t addrs = 0x61092b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ThreadHelper::*)(::System::Object*)>(&::System::Threading::ThreadHelper::ThreadStart)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6109130;
+  constexpr static std::size_t addrs = 0x61093b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ThreadHelper::*)()>(&::System::Threading::ThreadHelper::ThreadStart)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6109240;
+  constexpr static std::size_t addrs = 0x61094c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ThreadHelper*>(), { "ThreadStart", {}, {} })));

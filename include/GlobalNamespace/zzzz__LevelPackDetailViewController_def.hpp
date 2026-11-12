@@ -159,11 +159,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5daaa78, size 0x3b0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5daac0c, size 0x3b0, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5daae28, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5daafbc, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -224,11 +224,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5daae30, size 0x87c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5daafc4, size 0x888, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5dab6ac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5dab84c, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -359,47 +359,47 @@ public:
   /// @brief Field _steamMessageGameObject, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__steamMessageGameObject, put = __cordl_internal_set__steamMessageGameObject)) ::UnityW<::UnityEngine::GameObject> _steamMessageGameObject;
 
-  /// @brief Method BuyPackButtonWasPressed, addr 0x5daa57c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method BuyPackButtonWasPressed, addr 0x5daa710, size 0x9c, virtual false, abstract: false, final false
   inline void BuyPackButtonWasPressed();
 
-  /// @brief Method DidActivate, addr 0x5daa050, size 0x288, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5daa1e4, size 0x288, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5daa2d8, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5daa46c, size 0x12c, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x5daa8f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x5daaa84, size 0x4, virtual false, abstract: false, final false
   inline void HandleAdditionalContentModelDidInvalidateData();
 
   static inline ::GlobalNamespace::LevelPackDetailViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5daa404, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5daa598, size 0x178, virtual true, abstract: false, final false
   inline void OnDestroy();
 
   /// [AsyncStateMachine(typeof(LevelPackDetailViewController::<OpenLevelPackProductStoreAsync>d__27))]
-  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x5daa618, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x5daa7ac, size 0xa4, virtual false, abstract: false, final false
   inline void OpenLevelPackProductStoreAsync();
 
   /// [AsyncStateMachine(typeof(LevelPackDetailViewController::<RefreshAvailabilityAsync>d__25))]
-  /// @brief Method RefreshAvailabilityAsync, addr 0x5da9fac, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method RefreshAvailabilityAsync, addr 0x5daa140, size 0xa4, virtual false, abstract: false, final false
   inline void RefreshAvailabilityAsync();
 
-  /// @brief Method SetData, addr 0x5da56d0, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x5da584c, size 0x300, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::BeatmapLevelPack* pack);
 
-  /// @brief Method ShowContent, addr 0x5daa6bc, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method ShowContent, addr 0x5daa850, size 0x234, virtual false, abstract: false, final false
   inline void ShowContent(::GlobalNamespace::LevelPackDetailViewController_ContentType contentType, ::StringW errorText);
 
   /// [CompilerGenerated]
-  /// @brief Method <DidActivate>b__22_1, addr 0x5daa958, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__22_1, addr 0x5daaaec, size 0x90, virtual false, abstract: false, final false
   inline void _DidActivate_b__22_1();
 
   /// [CompilerGenerated]
-  /// @brief Method <DidActivate>b__22_2, addr 0x5daa9e8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__22_2, addr 0x5daab7c, size 0x90, virtual false, abstract: false, final false
   inline void _DidActivate_b__22_2();
 
   /// [CompilerGenerated]
-  /// @brief Method <DidActivate>g__HandleDidPressRefreshButton|22_0, addr 0x5daa954, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>g__HandleDidPressRefreshButton|22_0, addr 0x5daaae8, size 0x4, virtual false, abstract: false, final false
   inline void _DidActivate_g__HandleDidPressRefreshButton_22_0();
 
   constexpr ::GlobalNamespace::IAdditionalContentModel* const& __cordl_internal_get__additionalContentModel() const;
@@ -510,7 +510,7 @@ public:
 
   constexpr void __cordl_internal_set__steamMessageGameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x5daa8f4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5daaa88, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

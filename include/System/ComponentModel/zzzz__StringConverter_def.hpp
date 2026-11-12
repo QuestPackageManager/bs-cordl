@@ -31,15 +31,15 @@ namespace System::ComponentModel {
 class CORDL_TYPE StringConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method CanConvertFrom, addr 0x682db28, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x682e178, size 0x80, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method ConvertFrom, addr 0x682dba8, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x682e1f8, size 0x30, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
   static inline ::System::ComponentModel::StringConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x682dbd8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x682e228, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

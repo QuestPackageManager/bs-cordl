@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0::*)()>(
     &::Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x617ea40;
+  constexpr static std::size_t addrs = 0x617ecc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0*>(), { ".ctor", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0::*)(::System::Object*, ::ArrayW<::System::Object*>)>(
     &::Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0::_CreateFSharpFuncCall_b__0)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x617ed68;
+  constexpr static std::size_t addrs = 0x617eff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(::System::Reflection::Assembly*)>(&::Newtonsoft::Json::Utilities::FSharpUtils::_ctor)> {
   constexpr static std::size_t size = 0x500;
-  constexpr static std::size_t addrs = 0x617e084;
+  constexpr static std::size_t addrs = 0x617e30c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Utilities::FSharpUtils* (*)()>(&::Newtonsoft::Json::Utilities::FSharpUtils::get_Instance)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x617e7dc;
+  constexpr static std::size_t addrs = 0x617ea64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::FSharpUtils*>(), { "get_Instance", {}, {} })));
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::Assembly* (::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::get_FSharpCoreAssembly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x617e838;
+  constexpr static std::size_t addrs = 0x617eac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::FSharpUtils*>(), { "get_FSharpCoreAssembly", {}, {} })));
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(::System::Reflection::Assembly*)>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::set_FSharpCoreAssembly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x617e840;
+  constexpr static std::size_t addrs = 0x617eac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* (::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::get_IsUnion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x617e848;
+  constexpr static std::size_t addrs = 0x617ead0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::FSharpUtils*>(), { "get_IsUnion", {}, {} })));
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*)>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::set_IsUnion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x617e850;
+  constexpr static std::size_t addrs = 0x617ead8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* (::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::get_GetUnionCases)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x617e858;
+  constexpr static std::size_t addrs = 0x617eae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::FSharpUtils*>(), { "get_GetUnionCases", {}, {} })));
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*)>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::set_GetUnionCases)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x617e860;
+  constexpr static std::size_t addrs = 0x617eae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* (::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::get_PreComputeUnionTagReader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x617e868;
+  constexpr static std::size_t addrs = 0x617eaf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*)>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::set_PreComputeUnionTagReader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x617e870;
+  constexpr static std::size_t addrs = 0x617eaf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* (::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::get_PreComputeUnionReader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x617e878;
+  constexpr static std::size_t addrs = 0x617eb00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::FSharpUtils*>(), { "get_PreComputeUnionReader", {}, {} })));
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*)>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::set_PreComputeUnionReader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x617e880;
+  constexpr static std::size_t addrs = 0x617eb08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -327,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* (::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::get_PreComputeUnionConstructor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x617e888;
+  constexpr static std::size_t addrs = 0x617eb10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -341,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*)>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::set_PreComputeUnionConstructor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x617e890;
+  constexpr static std::size_t addrs = 0x617eb18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -356,7 +356,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_2<::System::Object*, ::System::Object*>* (::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::get_GetUnionCaseInfoDeclaringType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x617e898;
+  constexpr static std::size_t addrs = 0x617eb20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -370,7 +370,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(::System::Func_2<::System::Object*, ::System::Object*>*)>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::set_GetUnionCaseInfoDeclaringType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x617e8a0;
+  constexpr static std::size_t addrs = 0x617eb28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -385,7 +385,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_2<::System::Object*, ::System::Object*>* (::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::get_GetUnionCaseInfoName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x617e8a8;
+  constexpr static std::size_t addrs = 0x617eb30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::FSharpUtils*>(), { "get_GetUnionCaseInfoName", {}, {} })));
@@ -398,7 +398,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(::System::Func_2<::System::Object*, ::System::Object*>*)>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::set_GetUnionCaseInfoName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x617e8b0;
+  constexpr static std::size_t addrs = 0x617eb38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -413,7 +413,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_2<::System::Object*, ::System::Object*>* (::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::get_GetUnionCaseInfoTag)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x617e8b8;
+  constexpr static std::size_t addrs = 0x617eb40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::FSharpUtils*>(), { "get_GetUnionCaseInfoTag", {}, {} })));
@@ -426,7 +426,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(::System::Func_2<::System::Object*, ::System::Object*>*)>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::set_GetUnionCaseInfoTag)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x617e8c0;
+  constexpr static std::size_t addrs = 0x617eb48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -441,7 +441,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* (::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::get_GetUnionCaseInfoFields)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x617e8c8;
+  constexpr static std::size_t addrs = 0x617eb50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::FSharpUtils*>(), { "get_GetUnionCaseInfoFields", {}, {} })));
@@ -454,7 +454,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*)>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::set_GetUnionCaseInfoFields)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x617e8d0;
+  constexpr static std::size_t addrs = 0x617eb58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -468,7 +468,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Reflection::Assembly*)>(&::Newtonsoft::Json::Utilities::FSharpUtils::EnsureInitialized)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x617e8d8;
+  constexpr static std::size_t addrs = 0x617eb60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -482,7 +482,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (*)(::System::Type*, ::StringW, ::System::Reflection::BindingFlags)>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::GetMethodWithNonPublicFallback)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x617e584;
+  constexpr static std::size_t addrs = 0x617e80c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -498,7 +498,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* (*)(::System::Type*, ::StringW)>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::CreateFSharpFuncCall)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x617e5dc;
+  constexpr static std::size_t addrs = 0x617e864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::FSharpUtils*>(),
@@ -512,7 +512,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* (::Newtonsoft::Json::Utilities::FSharpUtils::*)(::System::Type*)>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::CreateSeq)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x617ea44;
+  constexpr static std::size_t addrs = 0x617eccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -526,7 +526,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* (
     ::Newtonsoft::Json::Utilities::FSharpUtils::*)(::System::Type*, ::System::Type*)>(&::Newtonsoft::Json::Utilities::FSharpUtils::CreateMap)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x617eb48;
+  constexpr static std::size_t addrs = 0x617edd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::FSharpUtils*>(),

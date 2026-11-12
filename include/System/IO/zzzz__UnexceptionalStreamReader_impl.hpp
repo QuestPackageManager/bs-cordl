@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::UnexceptionalStreamReader::*)(::System::IO::Stream*, ::System::Text::Encoding*)>(
     &::System::IO::UnexceptionalStreamReader::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6076830;
+  constexpr static std::size_t addrs = 0x6076ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::UnexceptionalStreamReader*>(),
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::IO::UnexceptionalStreamReader::*)()>(&::System::IO::UnexceptionalStreamReader::Peek)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x60768ac;
+  constexpr static std::size_t addrs = 0x6076b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::IO::UnexceptionalStreamReader::*)()>(&::System::IO::UnexceptionalStreamReader::Read)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6076938;
+  constexpr static std::size_t addrs = 0x6076bc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::IO::UnexceptionalStreamReader::*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::System::IO::UnexceptionalStreamReader::Read)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x60769c4;
+  constexpr static std::size_t addrs = 0x6076c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::IO::UnexceptionalStreamReader::*)(char16_t)>(&::System::IO::UnexceptionalStreamReader::CheckEOL)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x6076c50;
+  constexpr static std::size_t addrs = 0x6076ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::IO::UnexceptionalStreamReader::*)()>(&::System::IO::UnexceptionalStreamReader::ReadLine)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6076df4;
+  constexpr static std::size_t addrs = 0x607707c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::IO::UnexceptionalStreamReader::*)()>(&::System::IO::UnexceptionalStreamReader::ReadToEnd)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6076e80;
+  constexpr static std::size_t addrs = 0x6077108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

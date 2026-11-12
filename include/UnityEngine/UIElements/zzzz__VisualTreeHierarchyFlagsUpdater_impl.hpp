@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Profiling::ProfilerMarker (::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::*)()>(
     &::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::get_profilerMarker)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x7195a28;
+  constexpr static std::size_t addrs = 0x7196b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater*>(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VersionChangeType)>(&::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::OnVersionChanged)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x7195a84;
+  constexpr static std::size_t addrs = 0x7196b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater*>(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElementFlags (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VersionChangeType)>(
     &::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::GetChildrenMustDirtyFlags)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x7195b84;
+  constexpr static std::size_t addrs = 0x7196c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElementFlags)>(
     &::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::DirtyChildrenHierarchy)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x7195bb8;
+  constexpr static std::size_t addrs = 0x7196c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::DirtyBoundingBoxHierarchy)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x7195cf0;
+  constexpr static std::size_t addrs = 0x7196dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater*>(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElementFlags)>(
     &::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::DirtyParentHierarchy)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x7195dac;
+  constexpr static std::size_t addrs = 0x7196e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::*)()>(&::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::Update)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x7195e4c;
+  constexpr static std::size_t addrs = 0x7196f2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater*>(),
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::*)()>(&::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7195ee4;
+  constexpr static std::size_t addrs = 0x7196fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater*>(), { ".ctor", {}, {} })));

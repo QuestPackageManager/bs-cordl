@@ -44,10 +44,10 @@ public:
 
   static inline ::UnityEngine::Timeline::BlendUtility___c* New_ctor();
 
-  /// @brief Method <ComputeBlendsFromOverlaps>b__1_0, addr 0x6e33288, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method <ComputeBlendsFromOverlaps>b__1_0, addr 0x6e34368, size 0x120, virtual false, abstract: false, final false
   inline int32_t _ComputeBlendsFromOverlaps_b__1_0(::UnityEngine::Timeline::TimelineClip* c1, ::UnityEngine::Timeline::TimelineClip* c2);
 
-  /// @brief Method .ctor, addr 0x6e33284, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e34364, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Timeline::BlendUtility___c* getStaticF___9();
@@ -73,7 +73,7 @@ public:
   BlendUtility___c(BlendUtility___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19399 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19407 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -90,13 +90,13 @@ public:
   // Declarations
   using __c = ::UnityEngine::Timeline::BlendUtility___c;
 
-  /// @brief Method ComputeBlendsFromOverlaps, addr 0x6e32ed8, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method ComputeBlendsFromOverlaps, addr 0x6e33fb8, size 0x20c, virtual false, abstract: false, final false
   static inline void ComputeBlendsFromOverlaps(::ArrayW<::UnityEngine::Timeline::TimelineClip*> clips);
 
-  /// @brief Method Overlaps, addr 0x6e32dd8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Overlaps, addr 0x6e33eb8, size 0x100, virtual false, abstract: false, final false
   static inline bool Overlaps(::UnityEngine::Timeline::TimelineClip* blendOut, ::UnityEngine::Timeline::TimelineClip* blendIn);
 
-  /// @brief Method UpdateClipIntersection, addr 0x6e330e4, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method UpdateClipIntersection, addr 0x6e341c4, size 0x14c, virtual false, abstract: false, final false
   static inline void UpdateClipIntersection(::UnityEngine::Timeline::TimelineClip* blendOutClip, ::UnityEngine::Timeline::TimelineClip* blendInClip);
 
 protected:
@@ -114,7 +114,7 @@ public:
   BlendUtility(BlendUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19400 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19408 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

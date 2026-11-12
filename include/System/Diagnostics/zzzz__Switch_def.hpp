@@ -69,23 +69,23 @@ public:
   /// @brief Field switches, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_switches, put = setStaticF_switches)) ::System::Collections::Generic::List_1<::System::WeakReference*>* switches;
 
-  /// @brief Method Initialize, addr 0x67fcb48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x67fd198, size 0x4, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method InitializeConfigSettings, addr 0x67fcb4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InitializeConfigSettings, addr 0x67fd19c, size 0x8, virtual false, abstract: false, final false
   inline bool InitializeConfigSettings();
 
-  /// @brief Method InitializeWithStatus, addr 0x67fca24, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method InitializeWithStatus, addr 0x67fd074, size 0x124, virtual false, abstract: false, final false
   inline bool InitializeWithStatus();
 
   static inline ::System::Diagnostics::Switch* New_ctor(::StringW displayName, ::StringW description);
 
   static inline ::System::Diagnostics::Switch* New_ctor(::StringW displayName, ::StringW description, ::StringW defaultSwitchValue);
 
-  /// @brief Method OnSwitchSettingChanged, addr 0x67fcb54, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnSwitchSettingChanged, addr 0x67fd1a4, size 0x4, virtual true, abstract: false, final false
   inline void OnSwitchSettingChanged();
 
-  /// @brief Method OnValueChanged, addr 0x67fbf94, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnValueChanged, addr 0x67fc5e4, size 0x84, virtual true, abstract: false, final false
   inline void OnValueChanged();
 
   constexpr ::StringW const& __cordl_internal_get_defaultValue() const;
@@ -142,33 +142,33 @@ public:
 
   constexpr void __cordl_internal_set_switchValueString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x67fbd9c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67fc3ec, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW description);
 
-  /// @brief Method .ctor, addr 0x67fc160, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67fc7b0, size 0x234, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW description, ::StringW defaultSwitchValue);
 
-  /// @brief Method _pruneCachedSwitches, addr 0x67fc518, size 0x50c, virtual false, abstract: false, final false
+  /// @brief Method _pruneCachedSwitches, addr 0x67fcb68, size 0x50c, virtual false, abstract: false, final false
   static inline void _pruneCachedSwitches();
 
   static inline int32_t getStaticF_s_LastCollectionCount();
 
   static inline ::System::Collections::Generic::List_1<::System::WeakReference*>* getStaticF_switches();
 
-  /// @brief Method get_IntializedLock, addr 0x67fc4ac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_IntializedLock, addr 0x67fcafc, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Object* get_IntializedLock();
 
-  /// @brief Method get_SwitchSetting, addr 0x67fc398, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_SwitchSetting, addr 0x67fc9e8, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_SwitchSetting();
 
-  /// @brief Method get_Value, addr 0x67fbe68, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x67fc4b8, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
   static inline void setStaticF_s_LastCollectionCount(int32_t value);
 
   static inline void setStaticF_switches(::System::Collections::Generic::List_1<::System::WeakReference*>* value);
 
-  /// @brief Method set_SwitchSetting, addr 0x67fbe84, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method set_SwitchSetting, addr 0x67fc4d4, size 0x110, virtual false, abstract: false, final false
   inline void set_SwitchSetting(int32_t value);
 
 protected:

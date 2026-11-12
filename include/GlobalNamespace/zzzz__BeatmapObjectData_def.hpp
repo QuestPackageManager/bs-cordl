@@ -48,19 +48,19 @@ public:
 
   constexpr void __cordl_internal_set__rotation_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x34fa1c0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34fc600, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t beat, int32_t rotation, int32_t subtypeIdentifier);
 
   /// [CompilerGenerated]
-  /// @brief Method get_beat, addr 0x34fa1a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beat, addr 0x34fc5e8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beat();
 
   /// [CompilerGenerated]
-  /// @brief Method get_rotation, addr 0x34fa1b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x34fc5f0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_rotation();
 
   /// [CompilerGenerated]
-  /// @brief Method set_rotation, addr 0x34fa1b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rotation, addr 0x34fc5f8, size 0x8, virtual false, abstract: false, final false
   inline void set_rotation(int32_t value);
 
 protected:
@@ -78,7 +78,7 @@ public:
   BeatmapObjectData(BeatmapObjectData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22031 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21975 };
 
   /// [CompilerGenerated]
   /// @brief Field <beat>k__BackingField, offset: 0x28, size: 0x4, def value: None

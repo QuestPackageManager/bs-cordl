@@ -128,10 +128,10 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <CreateParameterizedConstructor>b__0, addr 0x6183c40, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <CreateParameterizedConstructor>b__0, addr 0x6183ec8, size 0x30, virtual false, abstract: false, final false
   inline ::System::Object* _CreateParameterizedConstructor_b__0(/* [Nullable(new[] { 1, 2 })] */ ::ArrayW<::System::Object*> a);
 
-  /// @brief Method <CreateParameterizedConstructor>b__1, addr 0x6183c70, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <CreateParameterizedConstructor>b__1, addr 0x6183ef8, size 0x34, virtual false, abstract: false, final false
   inline ::System::Object* _CreateParameterizedConstructor_b__1(/* [Nullable(new[] { 1, 2 })] */ ::ArrayW<::System::Object*> a);
 
   constexpr ::System::Reflection::ConstructorInfo* const& __cordl_internal_get_c() const;
@@ -146,7 +146,7 @@ public:
 
   constexpr void __cordl_internal_set_method(::System::Reflection::MethodBase* value);
 
-  /// @brief Method .ctor, addr 0x6183be0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6183e68, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -574,7 +574,7 @@ public:
   /// @brief Method CreateMethodCall, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline ::Newtonsoft::Json::Utilities::MethodCall_2<T, ::System::Object*>* CreateMethodCall(::System::Reflection::MethodBase* method);
 
-  /// @brief Method CreateParameterizedConstructor, addr 0x6183a94, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method CreateParameterizedConstructor, addr 0x6183d1c, size 0x14c, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* CreateParameterizedConstructor(::System::Reflection::MethodBase* method);
 
   /// @brief Method CreateSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -585,12 +585,12 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6183be4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6183e6c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory* getStaticF__instance();
 
-  /// @brief Method get_Instance, addr 0x6183a38, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x6183cc0, size 0x5c, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Utilities::ReflectionDelegateFactory* get_Instance();
 
   static inline void setStaticF__instance(::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory* value);

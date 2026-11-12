@@ -130,7 +130,7 @@ public:
 
   constexpr void __cordl_internal_set_zTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x5de7c20, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5de7d30, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(bool xMirrored, bool yMirrored, bool zMirrored, ::UnityEngine::Transform* xTransform, ::UnityEngine::Transform* yTransform, ::UnityEngine::Transform* zTransform,
                     ::GlobalNamespace::CompositeTransformMode transformMode);
 
@@ -233,30 +233,30 @@ public:
   /// @brief Field _zRotationTween, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__zRotationTween, put = __cordl_internal_set__zRotationTween)) ::Tweening::FloatTween* _zRotationTween;
 
-  /// @brief Method ApplyCurrentRotation, addr 0x5debae8, size 0x66c, virtual false, abstract: false, final false
+  /// @brief Method ApplyCurrentRotation, addr 0x5debc14, size 0x66c, virtual false, abstract: false, final false
   inline void ApplyCurrentRotation();
 
-  /// @brief Method Cleanup, addr 0x5de765c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x5de776c, size 0x8c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method ComputeTargetAngle, addr 0x5deba14, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ComputeTargetAngle, addr 0x5debb40, size 0xd0, virtual false, abstract: false, final false
   static inline float_t ComputeTargetAngle(float_t startAngle, float_t targetAngle, int32_t loopCount, ::GlobalNamespace::LightRotationDirection rotationOrientation);
 
-  /// @brief Method HandleRotationEvent, addr 0x5dea074, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method HandleRotationEvent, addr 0x5dea184, size 0x48, virtual false, abstract: false, final false
   inline void HandleRotationEvent(::GlobalNamespace::LightRotationBeatmapEventData* currentEventData);
 
-  /// @brief Method MaybeMirror, addr 0x5dec154, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method MaybeMirror, addr 0x5dec280, size 0x10, virtual false, abstract: false, final false
   static inline float_t MaybeMirror(float_t value, bool mirrored);
 
   static inline ::GlobalNamespace::LightRotationEventHandler* New_ctor(::GlobalNamespace::LightRotationEventHandler_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager);
 
-  /// @brief Method ProcessAxisEvent, addr 0x5deb8ac, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ProcessAxisEvent, addr 0x5deb9d8, size 0x148, virtual false, abstract: false, final false
   inline void ProcessAxisEvent(::Tweening::FloatTween* rotationTween, ::GlobalNamespace::LightRotationBeatmapEventData* currentEventData);
 
-  /// @brief Method SetRotation, addr 0x5debae4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetRotation, addr 0x5debc10, size 0x4, virtual false, abstract: false, final false
   inline void SetRotation(float_t _);
 
-  /// @brief Method SetTweenData, addr 0x5deb9f4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetTweenData, addr 0x5debb20, size 0x20, virtual false, abstract: false, final false
   static inline void SetTweenData(::Tweening::FloatTween* tween, float_t from, float_t to, float_t startTime, float_t endTime, ::GlobalNamespace::EaseType easeType);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* const& __cordl_internal_get__baseRotations() const;
@@ -319,7 +319,7 @@ public:
 
   constexpr void __cordl_internal_set__zRotationTween(::Tweening::FloatTween* value);
 
-  /// @brief Method .ctor, addr 0x5de7c3c, size 0xd48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5de7d4c, size 0xd48, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightRotationEventHandler_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager);
 
 protected:

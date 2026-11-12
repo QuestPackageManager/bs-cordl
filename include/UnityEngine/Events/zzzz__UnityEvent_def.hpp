@@ -40,25 +40,25 @@ public:
   /// @brief Field m_InvokeArray, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_InvokeArray, put = __cordl_internal_set_m_InvokeArray)) ::ArrayW<::System::Object*> m_InvokeArray;
 
-  /// @brief Method AddListener, addr 0x6f96afc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AddListener, addr 0x6f97bdc, size 0x2c, virtual false, abstract: false, final false
   inline void AddListener(::UnityEngine::Events::UnityAction* call);
 
-  /// @brief Method FindMethod_Impl, addr 0x6f96bd0, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method FindMethod_Impl, addr 0x6f97cb0, size 0x68, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodInfo* FindMethod_Impl(::StringW name, ::System::Type* targetObjType);
 
-  /// @brief Method GetDelegate, addr 0x6f96b28, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetDelegate, addr 0x6f97c08, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Events::BaseInvokableCall* GetDelegate(::UnityEngine::Events::UnityAction* action);
 
-  /// @brief Method GetDelegate, addr 0x6f96c38, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetDelegate, addr 0x6f97d18, size 0x6c, virtual true, abstract: false, final false
   inline ::UnityEngine::Events::BaseInvokableCall* GetDelegate(::System::Object* target, ::System::Reflection::MethodInfo* theFunction);
 
-  /// @brief Method Invoke, addr 0x6f96ca4, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6f97d84, size 0x194, virtual false, abstract: false, final false
   inline void Invoke();
 
   /// @brief [RequiredByNativeCode]
   static inline ::UnityEngine::Events::UnityEvent* New_ctor();
 
-  /// @brief Method RemoveListener, addr 0x6f96b84, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method RemoveListener, addr 0x6f97c64, size 0x4c, virtual false, abstract: false, final false
   inline void RemoveListener(::UnityEngine::Events::UnityAction* call);
 
   constexpr ::ArrayW<::System::Object*> const& __cordl_internal_get_m_InvokeArray() const;
@@ -68,7 +68,7 @@ public:
   constexpr void __cordl_internal_set_m_InvokeArray(::ArrayW<::System::Object*> value);
 
   /// [RequiredByNativeCode]
-  /// @brief Method .ctor, addr 0x6f96af4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f97bd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

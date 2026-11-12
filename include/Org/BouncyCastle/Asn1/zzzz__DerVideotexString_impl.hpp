@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerVideotexString* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::DerVideotexString::GetInstance)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x393e69c;
+  constexpr static std::size_t addrs = 0x3942b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerVideotexString* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::DerVideotexString::GetInstance)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x393e8c4;
+  constexpr static std::size_t addrs = 0x3942d5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerVideotexString::*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Asn1::DerVideotexString::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x39306f4;
+  constexpr static std::size_t addrs = 0x3934b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Asn1::DerVideotexString::*)()>(&::Org::BouncyCastle::Asn1::DerVideotexString::GetString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x393e9e4;
+  constexpr static std::size_t addrs = 0x3942e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Asn1::DerVideotexString::*)()>(&::Org::BouncyCastle::Asn1::DerVideotexString::GetOctets)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x393e9f0;
+  constexpr static std::size_t addrs = 0x3942e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DerVideotexString*>(), { "GetOctets", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerVideotexString::*)(::Org::BouncyCastle::Asn1::DerOutputStream*)>(
     &::Org::BouncyCastle::Asn1::DerVideotexString::Encode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x393ea50;
+  constexpr static std::size_t addrs = 0x3942ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::DerVideotexString::*)()>(&::Org::BouncyCastle::Asn1::DerVideotexString::Asn1GetHashCode)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x393ea6c;
+  constexpr static std::size_t addrs = 0x3942f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Asn1::DerVideotexString::*)(::Org::BouncyCastle::Asn1::Asn1Object*)>(
     &::Org::BouncyCastle::Asn1::DerVideotexString::Asn1Equals)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x393eacc;
+  constexpr static std::size_t addrs = 0x3942f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

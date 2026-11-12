@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::PhysicsScene::*)()>(&::UnityEngine::PhysicsScene::ToString)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x703c5c8;
+  constexpr static std::size_t addrs = 0x703d6a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::PhysicsScene>(), { ::i2c::class_of<::UnityEngine::PhysicsScene>(), 3 }));
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::PhysicsScene, ::UnityEngine::PhysicsScene)>(&::UnityEngine::PhysicsScene::op_Equality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x703c67c;
+  constexpr static std::size_t addrs = 0x703d75c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::PhysicsScene, ::UnityEngine::PhysicsScene)>(&::UnityEngine::PhysicsScene::op_Inequality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x703c688;
+  constexpr static std::size_t addrs = 0x703d768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::PhysicsScene::*)()>(&::UnityEngine::PhysicsScene::GetHashCode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x703c694;
+  constexpr static std::size_t addrs = 0x703d774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::PhysicsScene>(), { ::i2c::class_of<::UnityEngine::PhysicsScene>(), 2 }));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::PhysicsScene::*)(::System::Object*)>(&::UnityEngine::PhysicsScene::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x703c710;
+  constexpr static std::size_t addrs = 0x703d7f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::PhysicsScene>(), { ::i2c::class_of<::UnityEngine::PhysicsScene>(), 0 }));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::PhysicsScene::*)(::UnityEngine::PhysicsScene)>(&::UnityEngine::PhysicsScene::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x703c78c;
+  constexpr static std::size_t addrs = 0x703d86c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::PhysicsScene::*)()>(&::UnityEngine::PhysicsScene::IsValid)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x703c79c;
+  constexpr static std::size_t addrs = 0x703d87c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::PhysicsScene>(), { "IsValid", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::PhysicsScene)>(&::UnityEngine::PhysicsScene::IsValid_Internal)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x703c7e4;
+  constexpr static std::size_t addrs = 0x703d8c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::PhysicsScene (*)()>(&::UnityEngine::PhysicsScene::GetDefaultScene)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x703c864;
+  constexpr static std::size_t addrs = 0x703d944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::PhysicsScene>(), { "GetDefaultScene", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::PhysicsScene::*)()>(&::UnityEngine::PhysicsScene::IsEmpty)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x703c86c;
+  constexpr static std::size_t addrs = 0x703d94c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::PhysicsScene>(), { "IsEmpty", {}, {} })));
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::PhysicsScene)>(&::UnityEngine::PhysicsScene::IsEmpty_Internal)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x703c934;
+  constexpr static std::size_t addrs = 0x703da14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::PhysicsScene::*)(float_t)>(&::UnityEngine::PhysicsScene::Simulate)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x703c9b4;
+  constexpr static std::size_t addrs = 0x703da94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::PhysicsScene>(), { "Simulate", {}, { ::i2c::type_of<float_t>() } })));
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::PhysicsScene::*)(float_t, ::UnityEngine::SimulationStage, ::UnityEngine::SimulationOption)>(
     &::UnityEngine::PhysicsScene::RunSimulationStages)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x703cb38;
+  constexpr static std::size_t addrs = 0x703dc18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::PhysicsScene)>(&::UnityEngine::PhysicsScene::ReleasePhysicsSceneSimulationBuffers_Internal)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x703cccc;
+  constexpr static std::size_t addrs = 0x703ddac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::PhysicsScene::*)()>(&::UnityEngine::PhysicsScene::ReleaseLastSimulationStepBuffers)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x703cd48;
+  constexpr static std::size_t addrs = 0x703de28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::PhysicsScene>(), { "ReleaseLastSimulationStepBuffers", {}, {} })));
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::PhysicsScene::*)()>(&::UnityEngine::PhysicsScene::InterpolateBodies)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x703cd8c;
+  constexpr static std::size_t addrs = 0x703de6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::PhysicsScene>(), { "InterpolateBodies", {}, {} })));
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::PhysicsScene::*)()>(&::UnityEngine::PhysicsScene::ResetInterpolationPoses)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x703cedc;
+  constexpr static std::size_t addrs = 0x703dfbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::PhysicsScene>(), { "ResetInterpolationPoses", {}, {} })));
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::PhysicsScene::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, int32_t, ::UnityEngine::QueryTriggerInteraction)>(
     &::UnityEngine::PhysicsScene::Raycast)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x702d744;
+  constexpr static std::size_t addrs = 0x702e824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::PhysicsScene, ::UnityEngine::Ray, float_t, int32_t, ::UnityEngine::QueryTriggerInteraction)>(
     &::UnityEngine::PhysicsScene::Internal_RaycastTest)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x703d02c;
+  constexpr static std::size_t addrs = 0x703e10c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::PhysicsScene::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::by_ref<::UnityEngine::RaycastHit>, float_t, int32_t,
                                                                                              ::UnityEngine::QueryTriggerInteraction)>(&::UnityEngine::PhysicsScene::Raycast)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x702dc10;
+  constexpr static std::size_t addrs = 0x702ecf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -289,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::PhysicsScene, ::UnityEngine::Ray, float_t, ::by_ref<::UnityEngine::RaycastHit>, int32_t,
                                                                 ::UnityEngine::QueryTriggerInteraction)>(&::UnityEngine::PhysicsScene::Internal_Raycast)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x703d114;
+  constexpr static std::size_t addrs = 0x703e1f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::PhysicsScene::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::ArrayW<::UnityEngine::RaycastHit>, float_t, int32_t,
                                                                                                 ::UnityEngine::QueryTriggerInteraction)>(&::UnityEngine::PhysicsScene::Raycast)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x703106c;
+  constexpr static std::size_t addrs = 0x703214c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -325,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::PhysicsScene, ::UnityEngine::Ray, ::ArrayW<::UnityEngine::RaycastHit>, float_t, int32_t,
                                                                    ::UnityEngine::QueryTriggerInteraction)>(&::UnityEngine::PhysicsScene::Internal_RaycastNonAlloc)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x703d20c;
+  constexpr static std::size_t addrs = 0x703e2ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -344,7 +344,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::P
                                                                 ::by_ref<::UnityEngine::RaycastHit>, int32_t, ::UnityEngine::QueryTriggerInteraction)>(
     &::UnityEngine::PhysicsScene::Query_CapsuleCast)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x703d38c;
+  constexpr static std::size_t addrs = 0x703e46c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -364,7 +364,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::P
                                                                 ::by_ref<::UnityEngine::RaycastHit>, float_t, int32_t, ::UnityEngine::QueryTriggerInteraction)>(
     &::UnityEngine::PhysicsScene::Internal_CapsuleCast)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x703d4d4;
+  constexpr static std::size_t addrs = 0x703e5b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -384,7 +384,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Phys
                                                                                              ::by_ref<::UnityEngine::RaycastHit>, float_t, int32_t, ::UnityEngine::QueryTriggerInteraction)>(
     &::UnityEngine::PhysicsScene::CapsuleCast)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x702eb24;
+  constexpr static std::size_t addrs = 0x702fc04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -404,7 +404,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine
                                                                    ::ArrayW<::UnityEngine::RaycastHit>, float_t, int32_t, ::UnityEngine::QueryTriggerInteraction)>(
     &::UnityEngine::PhysicsScene::Internal_CapsuleCastNonAlloc)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x703d630;
+  constexpr static std::size_t addrs = 0x703e710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -424,7 +424,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::P
                                                                                                 ::ArrayW<::UnityEngine::RaycastHit>, float_t, int32_t, ::UnityEngine::QueryTriggerInteraction)>(
     &::UnityEngine::PhysicsScene::CapsuleCast)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x7033edc;
+  constexpr static std::size_t addrs = 0x7034fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -443,7 +443,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::PhysicsScene, ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, ::ArrayW<::UnityEngine::Collider*>, int32_t,
                                                                    ::UnityEngine::QueryTriggerInteraction)>(&::UnityEngine::PhysicsScene::OverlapCapsuleNonAlloc_Internal)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x703d7f4;
+  constexpr static std::size_t addrs = 0x703e8d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -462,7 +462,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::PhysicsScene::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, ::ArrayW<::UnityEngine::Collider*>, int32_t,
                                                                                                 ::UnityEngine::QueryTriggerInteraction)>(&::UnityEngine::PhysicsScene::OverlapCapsule)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7036c30;
+  constexpr static std::size_t addrs = 0x7037d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -480,7 +480,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::PhysicsScene, ::UnityEngine::Vector3, float_t, ::UnityEngine::Vector3, float_t, ::by_ref<::UnityEngine::RaycastHit>,
                                                                 int32_t, ::UnityEngine::QueryTriggerInteraction)>(&::UnityEngine::PhysicsScene::Query_SphereCast)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x703d908;
+  constexpr static std::size_t addrs = 0x703e9e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -499,7 +499,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::PhysicsScene, ::UnityEngine::Vector3, float_t, ::UnityEngine::Vector3, ::by_ref<::UnityEngine::RaycastHit>, float_t,
                                                                 int32_t, ::UnityEngine::QueryTriggerInteraction)>(&::UnityEngine::PhysicsScene::Internal_SphereCast)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x703da2c;
+  constexpr static std::size_t addrs = 0x703eb0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -518,7 +518,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::PhysicsScene::*)(::UnityEngine::Vector3, float_t, ::UnityEngine::Vector3, ::by_ref<::UnityEngine::RaycastHit>, float_t,
                                                                                              int32_t, ::UnityEngine::QueryTriggerInteraction)>(&::UnityEngine::PhysicsScene::SphereCast)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x702f394;
+  constexpr static std::size_t addrs = 0x7030474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -537,7 +537,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::PhysicsScene, ::UnityEngine::Vector3, float_t, ::UnityEngine::Vector3, ::ArrayW<::UnityEngine::RaycastHit>, float_t,
                                                                    int32_t, ::UnityEngine::QueryTriggerInteraction)>(&::UnityEngine::PhysicsScene::Internal_SphereCastNonAlloc)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x703db68;
+  constexpr static std::size_t addrs = 0x703ec48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -556,7 +556,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::PhysicsScene::*)(::UnityEngine::Vector3, float_t, ::UnityEngine::Vector3, ::ArrayW<::UnityEngine::RaycastHit>, float_t,
                                                                                                 int32_t, ::UnityEngine::QueryTriggerInteraction)>(&::UnityEngine::PhysicsScene::SphereCast)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x7034434;
+  constexpr static std::size_t addrs = 0x7035514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -575,7 +575,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::PhysicsScene, ::UnityEngine::Vector3, float_t, ::ArrayW<::UnityEngine::Collider*>, int32_t,
                                                                    ::UnityEngine::QueryTriggerInteraction)>(&::UnityEngine::PhysicsScene::OverlapSphereNonAlloc_Internal)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x703dd08;
+  constexpr static std::size_t addrs = 0x703ede8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -593,7 +593,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::PhysicsScene::*)(::UnityEngine::Vector3, float_t, ::ArrayW<::UnityEngine::Collider*>, int32_t,
                                                                                                 ::UnityEngine::QueryTriggerInteraction)>(&::UnityEngine::PhysicsScene::OverlapSphere)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70339ac;
+  constexpr static std::size_t addrs = 0x7034a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -611,7 +611,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::PhysicsScene, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, float_t,
                                                                 ::by_ref<::UnityEngine::RaycastHit>, int32_t, ::UnityEngine::QueryTriggerInteraction)>(&::UnityEngine::PhysicsScene::Query_BoxCast)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x703de08;
+  constexpr static std::size_t addrs = 0x703eee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -631,7 +631,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::P
                                                                 ::by_ref<::UnityEngine::RaycastHit>, float_t, int32_t, ::UnityEngine::QueryTriggerInteraction)>(
     &::UnityEngine::PhysicsScene::Internal_BoxCast)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x703df58;
+  constexpr static std::size_t addrs = 0x703f038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -651,7 +651,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Phys
     ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::by_ref<::UnityEngine::RaycastHit>, ::UnityEngine::Quaternion, float_t, int32_t, ::UnityEngine::QueryTriggerInteraction)>(
     &::UnityEngine::PhysicsScene::BoxCast)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x702fc94;
+  constexpr static std::size_t addrs = 0x7030d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -670,7 +670,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::PhysicsScene::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3,
                                                                                              ::by_ref<::UnityEngine::RaycastHit>)>(&::UnityEngine::PhysicsScene::BoxCast)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x703e0b8;
+  constexpr static std::size_t addrs = 0x703f198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -689,7 +689,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine
                                                                    ::UnityEngine::Quaternion, int32_t, ::UnityEngine::QueryTriggerInteraction)>(
     &::UnityEngine::PhysicsScene::OverlapBoxNonAlloc_Internal)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x703e1ac;
+  constexpr static std::size_t addrs = 0x703f28c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -709,7 +709,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::P
                                                                                                 ::UnityEngine::Quaternion, int32_t, ::UnityEngine::QueryTriggerInteraction)>(
     &::UnityEngine::PhysicsScene::OverlapBox)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x7035920;
+  constexpr static std::size_t addrs = 0x7036a00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -727,7 +727,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::PhysicsScene::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::ArrayW<::UnityEngine::Collider*>)>(
     &::UnityEngine::PhysicsScene::OverlapBox)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x703e2b8;
+  constexpr static std::size_t addrs = 0x703f398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -744,7 +744,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine
                                                                    ::ArrayW<::UnityEngine::RaycastHit>, ::UnityEngine::Quaternion, float_t, int32_t, ::UnityEngine::QueryTriggerInteraction)>(
     &::UnityEngine::PhysicsScene::Internal_BoxCastNonAlloc)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x703e38c;
+  constexpr static std::size_t addrs = 0x703f46c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -764,7 +764,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::P
     ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::ArrayW<::UnityEngine::RaycastHit>, ::UnityEngine::Quaternion, float_t, int32_t, ::UnityEngine::QueryTriggerInteraction)>(
     &::UnityEngine::PhysicsScene::BoxCast)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x7035d5c;
+  constexpr static std::size_t addrs = 0x7036e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -783,7 +783,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::PhysicsScene::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3,
                                                                                                 ::ArrayW<::UnityEngine::RaycastHit>)>(&::UnityEngine::PhysicsScene::BoxCast)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x703e554;
+  constexpr static std::size_t addrs = 0x703f634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -800,7 +800,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::PhysicsScene const>)>(&::UnityEngine::PhysicsScene::IsValid_Internal_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x703c828;
+  constexpr static std::size_t addrs = 0x703d908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -814,7 +814,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::PhysicsScene const>)>(&::UnityEngine::PhysicsScene::IsEmpty_Internal_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x703c978;
+  constexpr static std::size_t addrs = 0x703da58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -828,7 +828,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::PhysicsScene const>)>(&::UnityEngine::PhysicsScene::ReleasePhysicsSceneSimulationBuffers_Internal_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x703cd0c;
+  constexpr static std::size_t addrs = 0x703ddec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -843,7 +843,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::PhysicsScene const>, ::by_ref<::UnityEngine::Ray const>, float_t, int32_t,
                                                                 ::UnityEngine::QueryTriggerInteraction)>(&::UnityEngine::PhysicsScene::Internal_RaycastTest_Injected)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x703d0a8;
+  constexpr static std::size_t addrs = 0x703e188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -861,7 +861,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::PhysicsScene const>, ::by_ref<::UnityEngine::Ray const>, float_t, ::by_ref<::UnityEngine::RaycastHit>, int32_t,
                                                                 ::UnityEngine::QueryTriggerInteraction)>(&::UnityEngine::PhysicsScene::Internal_Raycast_Injected)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x703d190;
+  constexpr static std::size_t addrs = 0x703e270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -880,7 +880,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::Un
                                                                    ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, float_t, int32_t, ::UnityEngine::QueryTriggerInteraction)>(
     &::UnityEngine::PhysicsScene::Internal_RaycastNonAlloc_Injected)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x703d310;
+  constexpr static std::size_t addrs = 0x703e3f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -900,7 +900,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
                                                                 ::by_ref<::UnityEngine::Vector3 const>, float_t, ::by_ref<::UnityEngine::RaycastHit>, int32_t, ::UnityEngine::QueryTriggerInteraction)>(
     &::UnityEngine::PhysicsScene::Query_CapsuleCast_Injected)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x703d438;
+  constexpr static std::size_t addrs = 0x703e518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -921,7 +921,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::Un
                                                                    ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, float_t, int32_t,
                                                                    ::UnityEngine::QueryTriggerInteraction)>(&::UnityEngine::PhysicsScene::Internal_CapsuleCastNonAlloc_Injected)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x703d758;
+  constexpr static std::size_t addrs = 0x703e838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -942,7 +942,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::Un
                                                                    ::ArrayW<::UnityEngine::Collider*>, int32_t, ::UnityEngine::QueryTriggerInteraction)>(
     &::UnityEngine::PhysicsScene::OverlapCapsuleNonAlloc_Internal_Injected)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x703d884;
+  constexpr static std::size_t addrs = 0x703e964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -962,7 +962,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
                                                                 float_t, ::by_ref<::UnityEngine::RaycastHit>, int32_t, ::UnityEngine::QueryTriggerInteraction)>(
     &::UnityEngine::PhysicsScene::Query_SphereCast_Injected)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x703d9a0;
+  constexpr static std::size_t addrs = 0x703ea80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -982,7 +982,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::Un
                                                                    ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, float_t, int32_t, ::UnityEngine::QueryTriggerInteraction)>(
     &::UnityEngine::PhysicsScene::Internal_SphereCastNonAlloc_Injected)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x703dc7c;
+  constexpr static std::size_t addrs = 0x703ed5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1001,7 +1001,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::UnityEngine::PhysicsScene const>, ::by_ref<::UnityEngine::Vector3 const>, float_t, ::ArrayW<::UnityEngine::Collider*>,
                                                                    int32_t, ::UnityEngine::QueryTriggerInteraction)>(&::UnityEngine::PhysicsScene::OverlapSphereNonAlloc_Internal_Injected)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x703dd8c;
+  constexpr static std::size_t addrs = 0x703ee6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1020,7 +1020,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
                                                                 ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Quaternion const>, float_t, ::by_ref<::UnityEngine::RaycastHit>,
                                                                 int32_t, ::UnityEngine::QueryTriggerInteraction)>(&::UnityEngine::PhysicsScene::Query_BoxCast_Injected)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x703debc;
+  constexpr static std::size_t addrs = 0x703ef9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1041,7 +1041,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::Un
                                                                    ::ArrayW<::UnityEngine::Collider*>, ::by_ref<::UnityEngine::Quaternion const>, int32_t, ::UnityEngine::QueryTriggerInteraction)>(
     &::UnityEngine::PhysicsScene::OverlapBoxNonAlloc_Internal_Injected)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x703e234;
+  constexpr static std::size_t addrs = 0x703f314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1063,7 +1063,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                             ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Quaternion const>, float_t, int32_t, ::UnityEngine::QueryTriggerInteraction)>(
         &::UnityEngine::PhysicsScene::Internal_BoxCastNonAlloc_Injected)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x703e4b8;
+  constexpr static std::size_t addrs = 0x703f598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

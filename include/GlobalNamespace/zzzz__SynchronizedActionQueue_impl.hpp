@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SynchronizedActionQueue_SynchronizedAction::*)(float_t, ::System::Action*)>(
     &::GlobalNamespace::SynchronizedActionQueue_SynchronizedAction::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x35edd28;
+  constexpr static std::size_t addrs = 0x35f21c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SynchronizedActionQueue_SynchronizedAction>(),
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SynchronizedActionQueue::*)()>(&::GlobalNamespace::SynchronizedActionQueue::Clear)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x35edbe8;
+  constexpr static std::size_t addrs = 0x35f2080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SynchronizedActionQueue*>(), { "Clear", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SynchronizedActionQueue::*)(float_t, ::System::Action*)>(&::GlobalNamespace::SynchronizedActionQueue::EnqueueAction)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x35edc60;
+  constexpr static std::size_t addrs = 0x35f20f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SynchronizedActionQueue::*)(float_t)>(&::GlobalNamespace::SynchronizedActionQueue::Update)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x35edd34;
+  constexpr static std::size_t addrs = 0x35f21cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SynchronizedActionQueue::*)()>(&::GlobalNamespace::SynchronizedActionQueue::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x35ede3c;
+  constexpr static std::size_t addrs = 0x35f22d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SynchronizedActionQueue*>(), { ".ctor", {}, {} })));

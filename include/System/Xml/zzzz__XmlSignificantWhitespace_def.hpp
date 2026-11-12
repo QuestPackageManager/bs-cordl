@@ -51,45 +51,45 @@ public:
 
   __declspec(property(get = get_XPNodeType)) ::System::Xml::XPath::XPathNodeType XPNodeType;
 
-  /// @brief Method CloneNode, addr 0x67319d8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x6732028, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
   static inline ::System::Xml::XmlSignificantWhitespace* New_ctor(::StringW strData, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method WriteContentTo, addr 0x6731b18, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteContentTo, addr 0x6732168, size 0x4, virtual true, abstract: false, final false
   inline void WriteContentTo(::System::Xml::XmlWriter* w);
 
-  /// @brief Method WriteTo, addr 0x6731ad8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x6732128, size 0x40, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* w);
 
-  /// @brief Method .ctor, addr 0x673184c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6731e9c, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::StringW strData, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_IsText, addr 0x6731b44, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsText, addr 0x6732194, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsText();
 
-  /// @brief Method get_LocalName, addr 0x673191c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x6731f6c, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x67318f4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6731f44, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NodeType, addr 0x6731944, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x6731f94, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_ParentNode, addr 0x673194c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method get_ParentNode, addr 0x6731f9c, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* get_ParentNode();
 
-  /// @brief Method get_PreviousText, addr 0x6731b4c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_PreviousText, addr 0x673219c, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* get_PreviousText();
 
-  /// @brief Method get_Value, addr 0x6731a34, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x6732084, size 0x10, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method get_XPNodeType, addr 0x6731b1c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_XPNodeType, addr 0x673216c, size 0x28, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathNodeType get_XPNodeType();
 
-  /// @brief Method set_Value, addr 0x6731a44, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x6732094, size 0x94, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:

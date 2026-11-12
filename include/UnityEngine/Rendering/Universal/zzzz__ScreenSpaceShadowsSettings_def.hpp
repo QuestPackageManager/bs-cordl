@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d26598, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d27678, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

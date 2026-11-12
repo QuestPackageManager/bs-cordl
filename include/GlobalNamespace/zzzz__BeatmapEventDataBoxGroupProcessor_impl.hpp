@@ -7,17 +7,16 @@
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::BeatmapEventDataBoxGroupProcessor.get_dirtyBoxGroups
+//  Writing Method size for method: ::GlobalNamespace::BeatmapEventDataBoxGroupProcessor.get_dirtyElements
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* (
-    ::GlobalNamespace::BeatmapEventDataBoxGroupProcessor::*)()>(&::GlobalNamespace::BeatmapEventDataBoxGroupProcessor::get_dirtyBoxGroups)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBoxGroup_ElementData*>* (
+    ::GlobalNamespace::BeatmapEventDataBoxGroupProcessor::*)()>(&::GlobalNamespace::BeatmapEventDataBoxGroupProcessor::get_dirtyElements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c6230;
+  constexpr static std::size_t addrs = 0x39ca708;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEventDataBoxGroupProcessor*>(), { "get_dirtyBoxGroups", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEventDataBoxGroupProcessor*>(), { "get_dirtyElements", {}, {} })));
     return ___internal_method;
   }
 };
@@ -26,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEventDataBoxGroupProcessor::*)(
     ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*)>(&::GlobalNamespace::BeatmapEventDataBoxGroupProcessor::ProcessInsertedData)> {
-  constexpr static std::size_t size = 0x5cc;
-  constexpr static std::size_t addrs = 0x39c6238;
+  constexpr static std::size_t size = 0x5c8;
+  constexpr static std::size_t addrs = 0x39ca710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEventDataBoxGroupProcessor::*)(
     ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*)>(&::GlobalNamespace::BeatmapEventDataBoxGroupProcessor::ProcessBeforeDeleteData)> {
-  constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x39c6804;
+  constexpr static std::size_t size = 0x368;
+  constexpr static std::size_t addrs = 0x39cacd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEventDataBoxGroupProcessor::*)()>(&::GlobalNamespace::BeatmapEventDataBoxGroupProcessor::ClearDirtyData)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x39c5758;
+  constexpr static std::size_t addrs = 0x39c9ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEventDataBoxGroupProcessor*>(), { "ClearDirtyData", {}, {} })));
@@ -69,30 +68,31 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEventDataBoxGroupProcessor::*)()>(&::GlobalNamespace::BeatmapEventDataBoxGroupProcessor::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x39c5390;
+  constexpr static std::size_t addrs = 0x39c9ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEventDataBoxGroupProcessor*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*& GlobalNamespace::BeatmapEventDataBoxGroupProcessor::__cordl_internal_get__dirtyBoxGroups() {
+constexpr ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup_ElementData*>*&
+GlobalNamespace::BeatmapEventDataBoxGroupProcessor::__cordl_internal_get__dirtyElements() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____dirtyBoxGroups;
+  return this->____dirtyElements;
 }
-constexpr ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* const&
-GlobalNamespace::BeatmapEventDataBoxGroupProcessor::__cordl_internal_get__dirtyBoxGroups() const {
+constexpr ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup_ElementData*>* const&
+GlobalNamespace::BeatmapEventDataBoxGroupProcessor::__cordl_internal_get__dirtyElements() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____dirtyBoxGroups;
+  return this->____dirtyElements;
 }
 constexpr void
-GlobalNamespace::BeatmapEventDataBoxGroupProcessor::__cordl_internal_set__dirtyBoxGroups(::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* value) {
+GlobalNamespace::BeatmapEventDataBoxGroupProcessor::__cordl_internal_set__dirtyElements(::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup_ElementData*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____dirtyBoxGroups = value;
+  this->____dirtyElements = value;
 }
-inline ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* GlobalNamespace::BeatmapEventDataBoxGroupProcessor::get_dirtyBoxGroups() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEventDataBoxGroupProcessor*>(), { "get_dirtyBoxGroups", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*>(this, ___internal_method);
+inline ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBoxGroup_ElementData*>* GlobalNamespace::BeatmapEventDataBoxGroupProcessor::get_dirtyElements() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEventDataBoxGroupProcessor*>(), { "get_dirtyElements", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBoxGroup_ElementData*>*>(this, ___internal_method);
 }
 inline void GlobalNamespace::BeatmapEventDataBoxGroupProcessor::ProcessInsertedData(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* insertedNode) {
   static auto* ___internal_method = THROW_UNLESS(

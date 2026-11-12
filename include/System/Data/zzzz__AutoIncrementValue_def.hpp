@@ -42,7 +42,7 @@ public:
   /// @brief Field <Auto>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__Auto_k__BackingField, put = __cordl_internal_set__Auto_k__BackingField)) bool _Auto_k__BackingField;
 
-  /// @brief Method Clone, addr 0x645c500, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x645cb50, size 0x110, virtual false, abstract: false, final false
   inline ::System::Data::AutoIncrementValue* Clone();
 
   /// @brief Method MoveAfter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -62,11 +62,11 @@ public:
 
   constexpr void __cordl_internal_set__Auto_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x645d3e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x645da38, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Auto, addr 0x645d3d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Auto, addr 0x645da28, size 0x8, virtual false, abstract: false, final false
   inline bool get_Auto();
 
   /// @brief Method get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -82,7 +82,7 @@ public:
   inline int64_t get_Step();
 
   /// [CompilerGenerated]
-  /// @brief Method set_Auto, addr 0x645d3e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Auto, addr 0x645da30, size 0x8, virtual false, abstract: false, final false
   inline void set_Auto(bool value);
 
   /// @brief Method set_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

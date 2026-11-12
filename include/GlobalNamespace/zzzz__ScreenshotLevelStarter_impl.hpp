@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_SerializedBeatmapKey::*)(::StringW, ::StringW, ::StringW)>(
     &::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_SerializedBeatmapKey::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d6742c;
+  constexpr static std::size_t addrs = 0x5d6705c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapKey (::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_SerializedBeatmapKey::*)(
     ::GlobalNamespace::BeatmapLevelsModel*)>(&::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_SerializedBeatmapKey::ToBeatmapKey)> {
   constexpr static std::size_t size = 0x41c;
-  constexpr static std::size_t addrs = 0x5d68368;
+  constexpr static std::size_t addrs = 0x5d67fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_SerializedBeatmapKey>(),
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::*)()>(
     &::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d68784;
+  constexpr static std::size_t addrs = 0x5d683c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0*>(), { ".ctor", {}, {} })));
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::*)()>(
     &::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::_RunScreenshotLevel_b__0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5d68788;
+  constexpr static std::size_t addrs = 0x5d683c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::*)()>(
     &::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::_RunScreenshotLevel_b__1)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5d687a8;
+  constexpr static std::size_t addrs = 0x5d683e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,8 +202,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::*)()>(
     &::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::_RunScreenshotLevel_g__HandleLevelEnded_2)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5d687c8;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x5d68408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::*)()>(
     &::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::_RunScreenshotLevel_g__GetNextScreenshotTime_3)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5d688bc;
+  constexpr static std::size_t addrs = 0x5d684f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1::*)()>(
     &::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d68950;
+  constexpr static std::size_t addrs = 0x5d6858c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1*>(), { ".ctor", {}, {} })));
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1::*)()>(
     &::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1::_RunScreenshotLevel_b__4)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d68954;
+  constexpr static std::size_t addrs = 0x5d68590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -386,7 +386,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::*)(int32_t)>(
     &::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d6896c;
+  constexpr static std::size_t addrs = 0x5d675a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -400,7 +400,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::*)()>(
     &::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5d68974;
+  constexpr static std::size_t addrs = 0x5d685a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -413,8 +413,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::*)()>(
     &::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::MoveNext)> {
-  constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x5d689b8;
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x5d685ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -428,7 +428,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::*)()>(
     &::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::__m__Finally1)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5d68b4c;
+  constexpr static std::size_t addrs = 0x5d6877c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -442,7 +442,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::*)()>(
     &::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d68b6c;
+  constexpr static std::size_t addrs = 0x5d6879c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49*>(),
@@ -456,7 +456,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::*)()>(
     &::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5d68b74;
+  constexpr static std::size_t addrs = 0x5d687a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -470,7 +470,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::*)()>(
     &::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d68bac;
+  constexpr static std::size_t addrs = 0x5d687dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -588,7 +588,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::*)(int32_t)>(
     &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d68bb4;
+  constexpr static std::size_t addrs = 0x5d67628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -602,7 +602,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::*)()>(
     &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5d68bbc;
+  constexpr static std::size_t addrs = 0x5d687e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -615,8 +615,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::*)()>(
     &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::MoveNext)> {
-  constexpr static std::size_t size = 0x20b8;
-  constexpr static std::size_t addrs = 0x5d68bd8;
+  constexpr static std::size_t size = 0x20a0;
+  constexpr static std::size_t addrs = 0x5d68800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -630,7 +630,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::*)()>(
     &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__m__Finally1)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5d6ac90;
+  constexpr static std::size_t addrs = 0x5d6a8a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -644,7 +644,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::*)()>(
     &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d6ad44;
+  constexpr static std::size_t addrs = 0x5d6a954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53*>(),
@@ -658,7 +658,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::*)()>(
     &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5d6ad4c;
+  constexpr static std::size_t addrs = 0x5d6a95c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -672,7 +672,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::*)()>(
     &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d6ad84;
+  constexpr static std::size_t addrs = 0x5d6a994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -920,7 +920,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::*)(int32_t)>(
     &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d6ad8c;
+  constexpr static std::size_t addrs = 0x5d6a99c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -934,7 +934,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::*)()>(
     &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d6ad94;
+  constexpr static std::size_t addrs = 0x5d6a9a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -948,7 +948,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::*)()>(
     &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::MoveNext)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x5d6ad98;
+  constexpr static std::size_t addrs = 0x5d6a9a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -962,7 +962,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::*)()>(
     &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d6b020;
+  constexpr static std::size_t addrs = 0x5d6ac30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52*>(),
@@ -976,7 +976,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::*)()>(
     &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5d6b028;
+  constexpr static std::size_t addrs = 0x5d6ac38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -990,7 +990,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::*)()>(
     &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d6b060;
+  constexpr static std::size_t addrs = 0x5d6ac70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1101,7 +1101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ScreenshotLevelStarter::*)()>(&::GlobalNamespace::ScreenshotLevelStarter::get_isScreenshotting)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5d673dc;
+  constexpr static std::size_t addrs = 0x5d6700c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(), { "get_isScreenshotting", {}, {} })));
@@ -1114,7 +1114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter::*)(::StringW, ::StringW, ::StringW, float_t, ::System::Collections::Generic::List_1<float_t>*,
                                                                                                            int32_t)>(&::GlobalNamespace::ScreenshotLevelStarter::EnqueueScreenshotLevel)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5d673fc;
+  constexpr static std::size_t addrs = 0x5d6702c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1132,7 +1132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter::*)(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command)>(
     &::GlobalNamespace::ScreenshotLevelStarter::EnqueueScreenshotLevel)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x5d67438;
+  constexpr static std::size_t addrs = 0x5d67068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1146,7 +1146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter::*)()>(&::GlobalNamespace::ScreenshotLevelStarter::StopScreenshotting)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x5d675a8;
+  constexpr static std::size_t addrs = 0x5d671d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(), { "StopScreenshotting", {}, {} })));
@@ -1158,7 +1158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter::*)()>(&::GlobalNamespace::ScreenshotLevelStarter::StartPopWhenTransitionSettles)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5d67850;
+  constexpr static std::size_t addrs = 0x5d67480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1172,7 +1172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::ScreenshotLevelStarter::*)()>(
     &::GlobalNamespace::ScreenshotLevelStarter::PopWhenTransitionSettles)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5d67920;
+  constexpr static std::size_t addrs = 0x5d67550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(), { "PopWhenTransitionSettles", {}, {} })));
@@ -1184,7 +1184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter::*)()>(&::GlobalNamespace::ScreenshotLevelStarter::RestoreCaptureState)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5d6771c;
+  constexpr static std::size_t addrs = 0x5d6734c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(), { "RestoreCaptureState", {}, {} })));
@@ -1196,7 +1196,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter::*)()>(&::GlobalNamespace::ScreenshotLevelStarter::DestroyScreenshotTexture)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5d677c0;
+  constexpr static std::size_t addrs = 0x5d673f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(), { "DestroyScreenshotTexture", {}, {} })));
@@ -1209,7 +1209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::ScreenshotLevelStarter::*)()>(
     &::GlobalNamespace::ScreenshotLevelStarter::RunScreenshotLevelQueue)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5d67554;
+  constexpr static std::size_t addrs = 0x5d67184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(), { "RunScreenshotLevelQueue", {}, {} })));
@@ -1222,7 +1222,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (
     ::GlobalNamespace::ScreenshotLevelStarter::*)(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command)>(&::GlobalNamespace::ScreenshotLevelStarter::RunScreenshotLevel)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5d67974;
+  constexpr static std::size_t addrs = 0x5d675ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1238,7 +1238,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespac
                                                                 ::by_ref<::GlobalNamespace::PlayerSpecificSettings* const>, ::by_ref<::GlobalNamespace::GameplayModifiers* const>)>(
     &::GlobalNamespace::ScreenshotLevelStarter::SaveMetadata)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5d679f0;
+  constexpr static std::size_t addrs = 0x5d67630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1256,7 +1256,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::GlobalNamespace::ScreenshotLevelStarter::SaveDeviceMetadata)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x5d67d74;
+  constexpr static std::size_t addrs = 0x5d679b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1269,7 +1269,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::by_ref<::StringW const>)>(&::GlobalNamespace::ScreenshotLevelStarter::SaveBuildSpecificMetadata)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5d67f7c;
+  constexpr static std::size_t addrs = 0x5d67bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1283,7 +1283,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, ::StringW)>(&::GlobalNamespace::ScreenshotLevelStarter::SaveMetadataObject)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x5d67b48;
+  constexpr static std::size_t addrs = 0x5d67788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(),
@@ -1296,7 +1296,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Camera*, ::UnityEngine::Texture2D*)>(&::GlobalNamespace::ScreenshotLevelStarter::TakeScreenshotFromCamera)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x5d6806c;
+  constexpr static std::size_t addrs = 0x5d67cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1311,7 +1311,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter::*)(::System::Action_1<bool>*)>(
     &::GlobalNamespace::ScreenshotLevelStarter::HandlePauseControllerCanPause)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5d6826c;
+  constexpr static std::size_t addrs = 0x5d67eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1325,7 +1325,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter::*)()>(&::GlobalNamespace::ScreenshotLevelStarter::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5d68288;
+  constexpr static std::size_t addrs = 0x5d67ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(), { ".ctor", {}, {} })));

@@ -88,25 +88,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedAndHighlightedAlpha(float_t value);
 
-  /// @brief Method .ctor, addr 0x68aa394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68aa9ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledAlpha, addr 0x68aa37c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledAlpha, addr 0x68aa9d4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_disabledAlpha();
 
-  /// @brief Method get_highlightedAlpha, addr 0x68aa36c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedAlpha, addr 0x68aa9c4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_highlightedAlpha();
 
-  /// @brief Method get_normalAlpha, addr 0x68aa364, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalAlpha, addr 0x68aa9bc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_normalAlpha();
 
-  /// @brief Method get_pressedAlpha, addr 0x68aa374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedAlpha, addr 0x68aa9cc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pressedAlpha();
 
-  /// @brief Method get_selectedAlpha, addr 0x68aa384, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAlpha, addr 0x68aa9dc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_selectedAlpha();
 
-  /// @brief Method get_selectedAndHighlightedAlpha, addr 0x68aa38c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedAlpha, addr 0x68aa9e4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_selectedAndHighlightedAlpha();
 
 protected:
@@ -124,7 +124,7 @@ public:
   CanvasGroupTransitionSO(CanvasGroupTransitionSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23176 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23191 };
 
   /// [SerializeField]
   /// @brief Field _normalAlpha, offset: 0x20, size: 0x4, def value: None

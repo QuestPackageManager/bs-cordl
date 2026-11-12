@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Color32Serializable::*)(::UnityEngine::Color32)>(&::GlobalNamespace::Color32Serializable::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a382bc;
+  constexpr static std::size_t addrs = 0x3a3ca50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Color32Serializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(&::GlobalNamespace::Color32Serializable::Serialize)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3a382c4;
+  constexpr static std::size_t addrs = 0x3a3ca58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Color32Serializable::*)(::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::Color32Serializable::Deserialize)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3a38324;
+  constexpr static std::size_t addrs = 0x3a3cab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color32 (*)(::GlobalNamespace::Color32Serializable)>(
     &::GlobalNamespace::Color32Serializable::op_Implicit___UnityEngine__Color32)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a38388;
+  constexpr static std::size_t addrs = 0x3a3cb1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Color32Serializable (*)(::UnityEngine::Color32)>(
     &::GlobalNamespace::Color32Serializable::op_Implicit___GlobalNamespace__Color32Serializable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a3838c;
+  constexpr static std::size_t addrs = 0x3a3cb20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::Color32Serializable::*)(::GlobalNamespace::Color32Serializable)>(&::GlobalNamespace::Color32Serializable::Equals)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3a38390;
+  constexpr static std::size_t addrs = 0x3a3cb24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::Color32Serializable::*)(::System::Object*)>(&::GlobalNamespace::Color32Serializable::Equals)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3a383d8;
+  constexpr static std::size_t addrs = 0x3a3cb6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::Color32Serializable::*)()>(&::GlobalNamespace::Color32Serializable::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a38484;
+  constexpr static std::size_t addrs = 0x3a3cc18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::Color32Serializable::*)()>(&::GlobalNamespace::Color32Serializable::ToString)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3a3848c;
+  constexpr static std::size_t addrs = 0x3a3cc20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

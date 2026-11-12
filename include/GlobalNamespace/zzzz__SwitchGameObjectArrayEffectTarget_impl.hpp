@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SwitchGameObjectArrayEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::SwitchGameObjectArrayEffectTarget::SetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5df00fc;
+  constexpr static std::size_t addrs = 0x5df03b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SwitchGameObjectArrayEffectTarget*>(),
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SwitchGameObjectArrayEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::SwitchGameObjectArrayEffectTarget::TriggerValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5df01b0;
+  constexpr static std::size_t addrs = 0x5df046c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SwitchGameObjectArrayEffectTarget*>(),
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SwitchGameObjectArrayEffectTarget::*)(float_t)>(&::GlobalNamespace::SwitchGameObjectArrayEffectTarget::SetFloat)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5df0100;
+  constexpr static std::size_t addrs = 0x5df03bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SwitchGameObjectArrayEffectTarget::*)()>(&::GlobalNamespace::SwitchGameObjectArrayEffectTarget::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5df01b4;
+  constexpr static std::size_t addrs = 0x5df0470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SwitchGameObjectArrayEffectTarget*>(), { ".ctor", {}, {} })));

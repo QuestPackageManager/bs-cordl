@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectableCellSelectableStateController::*)()>(&::GlobalNamespace::SelectableCellSelectableStateController::OnEnable)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x68ab678;
+  constexpr static std::size_t addrs = 0x68abcd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SelectableCellSelectableStateController*>(), { "OnEnable", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectableCellSelectableStateController::*)()>(
     &::GlobalNamespace::SelectableCellSelectableStateController::OnDisable)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x68ab854;
+  constexpr static std::size_t addrs = 0x68abeac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SelectableCellSelectableStateController*>(), { "OnDisable", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectableCellSelectableStateController::*)(::HMUI::Interactable*, bool)>(
     &::GlobalNamespace::SelectableCellSelectableStateController::HandleSelectableCellInteractableDidChange)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x68ab9ac;
+  constexpr static std::size_t addrs = 0x68ac004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectableCellSelectableStateController::*)(::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType)>(
     &::GlobalNamespace::SelectableCellSelectableStateController::HandleSelectableCellHighlightDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68aba40;
+  constexpr static std::size_t addrs = 0x68ac098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectableCellSelectableStateController::*)(
     ::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType, ::System::Object*)>(&::GlobalNamespace::SelectableCellSelectableStateController::HandleSelectableCellSelectionStateDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68aba44;
+  constexpr static std::size_t addrs = 0x68ac09c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectableCellSelectableStateController::*)(::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType)>(
     &::GlobalNamespace::SelectableCellSelectableStateController::ResolveState)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x68ab7e0;
+  constexpr static std::size_t addrs = 0x68abe38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectableCellSelectableStateController::*)()>(&::GlobalNamespace::SelectableCellSelectableStateController::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x68aba48;
+  constexpr static std::size_t addrs = 0x68ac0a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SelectableCellSelectableStateController*>(), { ".ctor", {}, {} })));

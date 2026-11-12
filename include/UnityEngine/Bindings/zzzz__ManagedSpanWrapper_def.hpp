@@ -30,7 +30,7 @@ public:
   /// @brief Method ToReadOnlySpan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::ReadOnlySpan_1<T> ToReadOnlySpan(::UnityEngine::Bindings::ManagedSpanWrapper spanWrapper);
 
-  /// @brief Method .ctor, addr 0x6f82960, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f83a40, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(void* begin, int32_t length);
 
   // Ctor Parameters []

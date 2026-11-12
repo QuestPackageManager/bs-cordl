@@ -33,7 +33,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::LocalVariable* New_ctor(int32_t index, bool closure);
 
-  /// @brief Method ToString, addr 0x640c5c8, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x640cc18, size 0x118, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get_Index() const;
@@ -48,16 +48,16 @@ public:
 
   constexpr void __cordl_internal_set__flags(int32_t value);
 
-  /// @brief Method .ctor, addr 0x640c5b4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x640cc04, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, bool closure);
 
-  /// @brief Method get_InClosure, addr 0x6407390, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_InClosure, addr 0x64079e0, size 0xc, virtual false, abstract: false, final false
   inline bool get_InClosure();
 
-  /// @brief Method get_IsBoxed, addr 0x640739c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsBoxed, addr 0x64079ec, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsBoxed();
 
-  /// @brief Method set_IsBoxed, addr 0x640c5a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_IsBoxed, addr 0x640cbf4, size 0x10, virtual false, abstract: false, final false
   inline void set_IsBoxed(bool value);
 
 protected:
@@ -75,7 +75,7 @@ public:
   LocalVariable(LocalVariable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17029 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17037 };
 
   /// @brief Field Index, offset: 0x10, size: 0x4, def value: None
   int32_t ___Index;

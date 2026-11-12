@@ -95,26 +95,26 @@ public:
 
   __declspec(property(get = get_isAccessible, put = set_isAccessible)) bool isAccessible;
 
-  /// @brief Method CheckAndGetTextureHandle, addr 0x6cf295c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method CheckAndGetTextureHandle, addr 0x6cf3a3c, size 0x100, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> CheckAndGetTextureHandle(::by_ref<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>> handle);
 
-  /// @brief Method CheckAndGetTextureHandle, addr 0x6cf2b5c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CheckAndGetTextureHandle, addr 0x6cf3c3c, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle CheckAndGetTextureHandle(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> handle);
 
-  /// @brief Method CheckAndSetTextureHandle, addr 0x6cf2a68, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method CheckAndSetTextureHandle, addr 0x6cf3b48, size 0xec, virtual false, abstract: false, final false
   inline void CheckAndSetTextureHandle(::by_ref<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>> handle,
                                        ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> newHandle);
 
-  /// @brief Method CheckAndSetTextureHandle, addr 0x6cf2c38, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method CheckAndSetTextureHandle, addr 0x6cf3d18, size 0x2c, virtual false, abstract: false, final false
   inline void CheckAndSetTextureHandle(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> handle, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle newHandle);
 
-  /// @brief Method CheckAndWarnAboutAccessibility, addr 0x6cf27c8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CheckAndWarnAboutAccessibility, addr 0x6cf38a8, size 0x94, virtual false, abstract: false, final false
   inline bool CheckAndWarnAboutAccessibility();
 
-  /// @brief Method EndFrame, addr 0x6cf0d0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EndFrame, addr 0x6cf1dec, size 0x8, virtual false, abstract: false, final false
   inline void EndFrame();
 
-  /// @brief Method InitFrame, addr 0x6cedba0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InitFrame, addr 0x6ceec80, size 0xc, virtual false, abstract: false, final false
   inline void InitFrame();
 
   static inline ::UnityEngine::Rendering::Universal::UniversalResourceDataBase* New_ctor();
@@ -125,15 +125,15 @@ public:
 
   constexpr void __cordl_internal_set__isAccessible_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6cf3180, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cf4260, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_isAccessible, addr 0x6cf3238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isAccessible, addr 0x6cf4318, size 0x8, virtual false, abstract: false, final false
   inline bool get_isAccessible();
 
   /// [CompilerGenerated]
-  /// @brief Method set_isAccessible, addr 0x6cf3240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isAccessible, addr 0x6cf4320, size 0x8, virtual false, abstract: false, final false
   inline void set_isAccessible(bool value);
 
 protected:

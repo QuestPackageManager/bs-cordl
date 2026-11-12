@@ -58,11 +58,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5dc136c, size 0x894, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5dc1310, size 0x894, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5dc1c00, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5dc1ba4, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -153,11 +153,11 @@ public:
 
   static inline ::GlobalNamespace::BlurredCoverImageView* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5dc1204, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5dc11a8, size 0xb4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   /// [AsyncStateMachine(typeof(BlurredCoverImageView::<SetTextureAsync>d__7))]
-  /// @brief Method SetTextureAsync, addr 0x5dc12b8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SetTextureAsync, addr 0x5dc125c, size 0xb0, virtual false, abstract: false, final false
   inline void SetTextureAsync(::GlobalNamespace::BeatmapLevel* level);
 
   constexpr ::GlobalNamespace::BeatmapLevel* const& __cordl_internal_get__beatmapLevel() const;
@@ -196,7 +196,7 @@ public:
 
   constexpr void __cordl_internal_set__settingTextureForLevelId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5dc1368, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dc130c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

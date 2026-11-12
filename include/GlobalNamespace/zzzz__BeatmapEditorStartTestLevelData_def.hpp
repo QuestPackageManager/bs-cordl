@@ -19,6 +19,12 @@ struct BeatmapEditorStartTestLevelData_OverdrawData;
 namespace GlobalNamespace {
 struct BeatmapEditorStartTestLevelData_RecordingData;
 }
+namespace GlobalNamespace {
+struct PlaymodeOptions;
+}
+namespace GlobalNamespace {
+class RecordingPlaybackSettings;
+}
 namespace UnityEngine {
 class ComputeBuffer;
 }
@@ -60,7 +66,7 @@ public:
   constexpr BeatmapEditorStartTestLevelData_FpfcData(bool enabled, int32_t cameraFov) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6857 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6856 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -98,7 +104,7 @@ public:
   constexpr BeatmapEditorStartTestLevelData_OverdrawData(bool enabled, ::UnityEngine::ComputeBuffer* computeBuffer, int32_t audioClipFrequency, float_t samplesPerOverdrawBucket) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6858 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6857 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -136,6 +142,14 @@ namespace GlobalNamespace {
 struct CORDL_TYPE BeatmapEditorStartTestLevelData_RecordingData {
 public:
   // Declarations
+  __declspec(property(get = get_playmodeOptions)) ::GlobalNamespace::PlaymodeOptions playmodeOptions;
+
+  /// @brief Method CreatePlaybackSettings, addr 0x5d6222c, size 0x8c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::RecordingPlaybackSettings* CreatePlaybackSettings();
+
+  /// @brief Method get_playmodeOptions, addr 0x5d6220c, size 0x20, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PlaymodeOptions get_playmodeOptions();
+
   // Ctor Parameters []
   // @brief default ctor
   constexpr BeatmapEditorStartTestLevelData_RecordingData();
@@ -144,14 +158,12 @@ public:
   // "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "rotationOffset", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None },
   // CppParam { name: "headSmoothing", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "controllersSmoothing", ty: "float_t", modifiers: "", def_value: None, comment:
   // None }, CppParam { name: "controllersTimeOffset", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "cameraFov", ty: "float_t", modifiers: "", def_value: None,
-  // comment: None }, CppParam { name: "fpfc", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "recordingPath", ty: "::StringW", modifiers: "", def_value: None, comment:
-  // None }]
+  // comment: None }, CppParam { name: "recordingPath", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr BeatmapEditorStartTestLevelData_RecordingData(::GlobalNamespace::VRControllersRecorder_Mode recorderMode, ::UnityEngine::Vector3 positionOffset, ::UnityEngine::Vector3 rotationOffset,
-                                                          float_t headSmoothing, float_t controllersSmoothing, float_t controllersTimeOffset, float_t cameraFov, bool fpfc,
-                                                          ::StringW recordingPath) noexcept;
+                                                          float_t headSmoothing, float_t controllersSmoothing, float_t controllersTimeOffset, float_t cameraFov, ::StringW recordingPath) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6859 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6858 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -177,9 +189,6 @@ public:
   /// @brief Field cameraFov, offset: 0x28, size: 0x4, def value: None
   float_t cameraFov;
 
-  /// @brief Field fpfc, offset: 0x2c, size: 0x1, def value: None
-  bool fpfc;
-
   /// @brief Field recordingPath, offset: 0x30, size: 0x8, def value: None
   ::StringW recordingPath;
 
@@ -199,8 +208,6 @@ static_assert(offsetof(::GlobalNamespace::BeatmapEditorStartTestLevelData_Record
 static_assert(offsetof(::GlobalNamespace::BeatmapEditorStartTestLevelData_RecordingData, controllersTimeOffset) == 0x24, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatmapEditorStartTestLevelData_RecordingData, cameraFov) == 0x28, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::BeatmapEditorStartTestLevelData_RecordingData, fpfc) == 0x2c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatmapEditorStartTestLevelData_RecordingData, recordingPath) == 0x30, "Offset mismatch!");
 
@@ -231,7 +238,7 @@ public:
                                             ::GlobalNamespace::BeatmapEditorStartTestLevelData_RecordingData recordingData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6860 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6859 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };

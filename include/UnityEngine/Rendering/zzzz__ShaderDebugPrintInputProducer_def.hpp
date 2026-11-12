@@ -22,7 +22,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE ShaderDebugPrintInputProducer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Get, addr 0x6bdb1d8, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x6bdc2b8, size 0x17c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::ShaderDebugPrintInput Get();
 
 protected:

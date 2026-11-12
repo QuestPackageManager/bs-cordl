@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::Evidence::*)(::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*)>(
     &::Org::BouncyCastle::Asn1::Cms::Evidence::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36064c0;
+  constexpr static std::size_t addrs = 0x360a958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::Evidence*>(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::Evidence::*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*)>(
     &::Org::BouncyCastle::Asn1::Cms::Evidence::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x36064c8;
+  constexpr static std::size_t addrs = 0x360a960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cms::Evidence* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Cms::Evidence::GetInstance)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x3606584;
+  constexpr static std::size_t addrs = 0x360aa1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cms::Evidence* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::Cms::Evidence::GetInstance)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x36066e4;
+  constexpr static std::size_t addrs = 0x360ab7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* (::Org::BouncyCastle::Asn1::Cms::Evidence::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::Evidence::get_TstEvidence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x360670c;
+  constexpr static std::size_t addrs = 0x360aba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cms::Evidence::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::Evidence::ToAsn1Object)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3606714;
+  constexpr static std::size_t addrs = 0x360abac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

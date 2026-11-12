@@ -58,13 +58,13 @@ public:
 
   static inline ::GlobalNamespace::PageControl* New_ctor();
 
-  /// @brief Method SetPagesCount, addr 0x5dbe2e0, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method SetPagesCount, addr 0x5dbe284, size 0x39c, virtual false, abstract: false, final false
   inline void SetPagesCount(int32_t pagesCount);
 
-  /// @brief Method SetSelectedPageIndex, addr 0x5dbe67c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetSelectedPageIndex, addr 0x5dbe620, size 0xe0, virtual false, abstract: false, final false
   inline void SetSelectedPageIndex(int32_t page);
 
-  /// @brief Method SetVisible, addr 0x5dc49f4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetVisible, addr 0x5dc4a0c, size 0x30, virtual false, abstract: false, final false
   inline void SetVisible(bool isVisible);
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PageControlElement>>* const& __cordl_internal_get__activeElements() const;
@@ -109,7 +109,7 @@ public:
 
   constexpr void __cordl_internal_set__spacing(float_t value);
 
-  /// @brief Method .ctor, addr 0x5dc4a24, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dc4a3c, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

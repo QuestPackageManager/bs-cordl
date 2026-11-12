@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)(::System::Action*)>(
     &::GlobalNamespace::RelativeScoreAndImmediateRankCounter::add_relativeScoreOrImmediateRankDidChangeEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e0316c;
+  constexpr static std::size_t addrs = 0x5e03570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RelativeScoreAndImmediateRankCounter*>(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)(::System::Action*)>(
     &::GlobalNamespace::RelativeScoreAndImmediateRankCounter::remove_relativeScoreOrImmediateRankDidChangeEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e03c70;
+  constexpr static std::size_t addrs = 0x5e04074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RelativeScoreAndImmediateRankCounter*>(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)()>(
     &::GlobalNamespace::RelativeScoreAndImmediateRankCounter::get_relativeScore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e03d1c;
+  constexpr static std::size_t addrs = 0x5e04120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)(float_t)>(
     &::GlobalNamespace::RelativeScoreAndImmediateRankCounter::set_relativeScore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e03d24;
+  constexpr static std::size_t addrs = 0x5e04128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::RankModel_Rank (::GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)()>(
     &::GlobalNamespace::RelativeScoreAndImmediateRankCounter::get_immediateRank)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e03d2c;
+  constexpr static std::size_t addrs = 0x5e04130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)(::GlobalNamespace::RankModel_Rank)>(
     &::GlobalNamespace::RelativeScoreAndImmediateRankCounter::set_immediateRank)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e03d34;
+  constexpr static std::size_t addrs = 0x5e04138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RelativeScoreAndImmediateRankCounter*>(),
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)()>(&::GlobalNamespace::RelativeScoreAndImmediateRankCounter::Start)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x5e03d3c;
+  constexpr static std::size_t addrs = 0x5e04140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RelativeScoreAndImmediateRankCounter*>(), { "Start", {}, {} })));
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)()>(&::GlobalNamespace::RelativeScoreAndImmediateRankCounter::OnDestroy)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x5e03eb4;
+  constexpr static std::size_t addrs = 0x5e042b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RelativeScoreAndImmediateRankCounter*>(), { "OnDestroy", {}, {} })));
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)(int32_t, int32_t)>(
     &::GlobalNamespace::RelativeScoreAndImmediateRankCounter::HandleScoreDidChange)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5e03ff0;
+  constexpr static std::size_t addrs = 0x5e043f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RelativeScoreAndImmediateRankCounter*>(),
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)(int32_t, int32_t, int32_t, int32_t)>(
     &::GlobalNamespace::RelativeScoreAndImmediateRankCounter::UpdateRelativeScoreAndImmediateRank)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5e04130;
+  constexpr static std::size_t addrs = 0x5e04534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)()>(&::GlobalNamespace::RelativeScoreAndImmediateRankCounter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e041bc;
+  constexpr static std::size_t addrs = 0x5e045c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RelativeScoreAndImmediateRankCounter*>(), { ".ctor", {}, {} })));

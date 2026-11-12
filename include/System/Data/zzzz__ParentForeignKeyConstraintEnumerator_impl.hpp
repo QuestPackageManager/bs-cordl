@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::ParentForeignKeyConstraintEnumerator::*)(::System::Data::DataSet*, ::System::Data::DataTable*)>(
     &::System::Data::ParentForeignKeyConstraintEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6479184;
+  constexpr static std::size_t addrs = 0x64797d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::ParentForeignKeyConstraintEnumerator::*)(::System::Data::Constraint*)>(
     &::System::Data::ParentForeignKeyConstraintEnumerator::IsValidCandidate)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x64791a8;
+  constexpr static std::size_t addrs = 0x64797f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::ParentForeignKeyConstraintEnumerator*>(),

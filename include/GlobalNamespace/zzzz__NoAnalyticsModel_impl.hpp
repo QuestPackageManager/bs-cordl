@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::NoAnalyticsModel::*)()>(&::GlobalNamespace::NoAnalyticsModel::get_supportsOpenDataPrivacyPage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34f408c;
+  constexpr static std::size_t addrs = 0x34f6374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoAnalyticsModel*>(), { "get_supportsOpenDataPrivacyPage", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoAnalyticsModel::*)()>(&::GlobalNamespace::NoAnalyticsModel::OpenDataPrivacyPage)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x34f4094;
+  constexpr static std::size_t addrs = 0x34f637c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoAnalyticsModel*>(), { "OpenDataPrivacyPage", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoAnalyticsModel::*)(::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::NoAnalyticsModel::LogEditAvatarEvent)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x34f4098;
+  constexpr static std::size_t addrs = 0x34f6380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoAnalyticsModel::*)(::GlobalNamespace::BeatSaberSessionEventType, int32_t)>(
     &::GlobalNamespace::NoAnalyticsModel::LogSessionEvent)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x34f409c;
+  constexpr static std::size_t addrs = 0x34f6384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoAnalyticsModel::*)(::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::NoAnalyticsModel::LogEvent)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x34f40a0;
+  constexpr static std::size_t addrs = 0x34f6388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoAnalyticsModel::*)(::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::NoAnalyticsModel::LogClick)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x34f40a4;
+  constexpr static std::size_t addrs = 0x34f638c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoAnalyticsModel::*)(::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::NoAnalyticsModel::LogImpression)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x34f40a8;
+  constexpr static std::size_t addrs = 0x34f6390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoAnalyticsModel::*)(::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::NoAnalyticsModel::LogExposure)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x34f40ac;
+  constexpr static std::size_t addrs = 0x34f6394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoAnalyticsModel::*)()>(&::GlobalNamespace::NoAnalyticsModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x34f40b0;
+  constexpr static std::size_t addrs = 0x34f6398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoAnalyticsModel*>(), { ".ctor", {}, {} })));

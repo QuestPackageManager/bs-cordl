@@ -158,30 +158,30 @@ public:
   /// @brief Field serializedBakingSet, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_serializedBakingSet, put = __cordl_internal_set_serializedBakingSet)) ::UnityW<::UnityEngine::Rendering::ProbeVolumeBakingSet> serializedBakingSet;
 
-  /// @brief Method Clear, addr 0x6bee75c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6bef83c, size 0x18, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Initialize, addr 0x6beeae0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6befbc0, size 0xc0, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::UnityEngine::Rendering::ProbeVolumePerSceneData* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x6beea24, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6befb04, size 0xb8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x6bee974, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6befa54, size 0xb0, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x6beeadc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x6befbbc, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method QueueSceneLoading, addr 0x6bee874, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method QueueSceneLoading, addr 0x6bef954, size 0x100, virtual false, abstract: false, final false
   inline void QueueSceneLoading();
 
-  /// @brief Method QueueSceneRemoval, addr 0x6bee774, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method QueueSceneRemoval, addr 0x6bef854, size 0x100, virtual false, abstract: false, final false
   inline void QueueSceneRemoval();
 
-  /// @brief Method ResolveCellData, addr 0x6beeba0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ResolveCellData, addr 0x6befc80, size 0xa4, virtual false, abstract: false, final false
   inline bool ResolveCellData();
 
   constexpr ::UnityW<::UnityEngine::Rendering::ObsoleteProbeVolumeAsset> const& __cordl_internal_get_obsoleteAsset() const;
@@ -222,10 +222,10 @@ public:
 
   constexpr void __cordl_internal_set_serializedBakingSet(::UnityW<::UnityEngine::Rendering::ProbeVolumeBakingSet> value);
 
-  /// @brief Method .ctor, addr 0x6beec44, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6befd24, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bakingSet, addr 0x6bee754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bakingSet, addr 0x6bef834, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::ProbeVolumeBakingSet> get_bakingSet();
 
 protected:

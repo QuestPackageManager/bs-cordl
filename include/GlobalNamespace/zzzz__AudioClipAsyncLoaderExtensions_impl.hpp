@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (*)(::GlobalNamespace::AudioClipAsyncLoader*, ::GlobalNamespace::BeatmapLevel*)>(
         &::GlobalNamespace::AudioClipAsyncLoaderExtensions::LoadPreview)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x39ce254;
+  constexpr static std::size_t addrs = 0x39d2750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::AudioClipAsyncLoader*, ::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::AudioClipAsyncLoaderExtensions::UnloadPreview)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x39ce300;
+  constexpr static std::size_t addrs = 0x39d27fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (*)(::GlobalNamespace::AudioClipAsyncLoader*, ::GlobalNamespace::IBeatmapLevelData*)>(
         &::GlobalNamespace::AudioClipAsyncLoaderExtensions::LoadSong)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x39ce3ac;
+  constexpr static std::size_t addrs = 0x39d28a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::AudioClipAsyncLoader*, ::GlobalNamespace::IBeatmapLevelData*)>(
     &::GlobalNamespace::AudioClipAsyncLoaderExtensions::UnloadSong)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x39ccb34;
+  constexpr static std::size_t addrs = 0x39d1030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

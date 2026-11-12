@@ -26,16 +26,16 @@ namespace UnityEngine::InputSystem::Android {
 class CORDL_TYPE AndroidSupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x6a147b4, size 0x974, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6a15894, size 0x974, virtual false, abstract: false, final false
   static inline void Initialize();
 
   static inline ::UnityEngine::InputSystem::Android::AndroidSupport* New_ctor();
 
-  /// @brief Method OnFindLayoutForDevice, addr 0x6a15128, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method OnFindLayoutForDevice, addr 0x6a16208, size 0x258, virtual false, abstract: false, final false
   static inline ::StringW OnFindLayoutForDevice(::by_ref<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout,
                                                 ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* executeCommandDelegate);
 
-  /// @brief Method .ctor, addr 0x6a15444, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a16524, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

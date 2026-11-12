@@ -33,15 +33,15 @@ public:
 
   constexpr void __cordl_internal_set__SampleName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x62a70cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62a7354, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW sampleName);
 
   /// [CompilerGenerated]
-  /// @brief Method get_SampleName, addr 0x62a70d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SampleName, addr 0x62a735c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SampleName();
 
   /// [CompilerGenerated]
-  /// @brief Method set_SampleName, addr 0x62a70dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SampleName, addr 0x62a7364, size 0x8, virtual false, abstract: false, final false
   inline void set_SampleName(::StringW value);
 
 protected:

@@ -41,21 +41,21 @@ public:
   /// @brief Field _particlesPerFrame, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__particlesPerFrame, put = __cordl_internal_set__particlesPerFrame)) int32_t _particlesPerFrame;
 
-  /// @brief Method Awake, addr 0x5df645c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5df6860, size 0x13c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleNoteDidStartJump, addr 0x5df679c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteDidStartJump, addr 0x5df6ba0, size 0xc, virtual false, abstract: false, final false
   inline void HandleNoteDidStartJump();
 
-  /// @brief Method HandleNoteMovementDidInit, addr 0x5df6790, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteMovementDidInit, addr 0x5df6b94, size 0xc, virtual false, abstract: false, final false
   inline void HandleNoteMovementDidInit();
 
   static inline ::GlobalNamespace::NoteTrailEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5df6598, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5df699c, size 0x194, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update, addr 0x5df672c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5df6b30, size 0x64, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__maxSpawnDistance() const;
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set__particlesPerFrame(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5df67a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5df6bac, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -100,7 +100,7 @@ public:
   NoteTrailEffect(NoteTrailEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6049 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6050 };
 
   /// [SerializeField]
   /// @brief Field _particlesPerFrame, offset: 0x20, size: 0x4, def value: None

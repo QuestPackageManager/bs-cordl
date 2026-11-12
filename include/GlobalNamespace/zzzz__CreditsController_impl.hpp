@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreditsController___c::*)()>(&::GlobalNamespace::CreditsController___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35270d8;
+  constexpr static std::size_t addrs = 0x3529730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreditsController___c*>(), { ".ctor", {}, {} })));
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CreditsController___c::*)(::GlobalNamespace::PackDefinitionSO*)>(
     &::GlobalNamespace::CreditsController___c::_StartAsync_b__15_0)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x35270dc;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x3529734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::CreditsController___c::*)(::GlobalNamespace::PackDefinitionSO*)>(
     &::GlobalNamespace::CreditsController___c::_StartAsync_b__15_1)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3527100;
+  constexpr static std::size_t addrs = 0x352974c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::GameObject>>* (
     ::GlobalNamespace::CreditsController___c::*)(::GlobalNamespace::PackDefinitionSO*)>(&::GlobalNamespace::CreditsController___c::_StartAsync_b__15_2)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3527120;
+  constexpr static std::size_t addrs = 0x352976c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,8 +88,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CreditsController___c::*)(::GlobalNamespace::PackDefinitionSO*)>(
     &::GlobalNamespace::CreditsController___c::_OnDestroy_b__16_0)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x35271b4;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x3529800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreditsController__ScrollCoroutine_d__18::*)(int32_t)>(
     &::GlobalNamespace::CreditsController__ScrollCoroutine_d__18::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3526a78;
+  constexpr static std::size_t addrs = 0x35290d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreditsController__ScrollCoroutine_d__18::*)()>(
     &::GlobalNamespace::CreditsController__ScrollCoroutine_d__18::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35271d8;
+  constexpr static std::size_t addrs = 0x3529818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CreditsController__ScrollCoroutine_d__18::*)()>(
     &::GlobalNamespace::CreditsController__ScrollCoroutine_d__18::MoveNext)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x35271dc;
+  constexpr static std::size_t addrs = 0x352981c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreditsController__ScrollCoroutine_d__18*>(), { "MoveNext", {}, {} })));
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::CreditsController__ScrollCoroutine_d__18::*)()>(
     &::GlobalNamespace::CreditsController__ScrollCoroutine_d__18::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3527468;
+  constexpr static std::size_t addrs = 0x3529aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreditsController__ScrollCoroutine_d__18*>(),
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreditsController__ScrollCoroutine_d__18::*)()>(
     &::GlobalNamespace::CreditsController__ScrollCoroutine_d__18::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3527470;
+  constexpr static std::size_t addrs = 0x3529ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::CreditsController__ScrollCoroutine_d__18::*)()>(
     &::GlobalNamespace::CreditsController__ScrollCoroutine_d__18::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35274a8;
+  constexpr static std::size_t addrs = 0x3529ae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -400,7 +400,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreditsController__StartAsync_d__15::*)()>(&::GlobalNamespace::CreditsController__StartAsync_d__15::MoveNext)> {
   constexpr static std::size_t size = 0x768;
-  constexpr static std::size_t addrs = 0x35274b0;
+  constexpr static std::size_t addrs = 0x3529af0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreditsController__StartAsync_d__15>(), { "MoveNext", {}, {} })));
@@ -413,7 +413,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreditsController__StartAsync_d__15::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::CreditsController__StartAsync_d__15::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3527c18;
+  constexpr static std::size_t addrs = 0x352a258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreditsController__StartAsync_d__15>(),
@@ -457,7 +457,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreditsController::*)()>(&::GlobalNamespace::CreditsController::Start)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x35262a4;
+  constexpr static std::size_t addrs = 0x35288fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreditsController*>(), { "Start", {}, {} })));
@@ -469,7 +469,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::CreditsController::*)()>(&::GlobalNamespace::CreditsController::StartAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3526324;
+  constexpr static std::size_t addrs = 0x352897c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreditsController*>(), { "StartAsync", {}, {} })));
@@ -481,7 +481,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreditsController::*)()>(&::GlobalNamespace::CreditsController::OnDestroy)> {
   constexpr static std::size_t size = 0x4e0;
-  constexpr static std::size_t addrs = 0x35263d4;
+  constexpr static std::size_t addrs = 0x3528a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreditsController*>(), { "OnDestroy", {}, {} })));
@@ -493,7 +493,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreditsController::*)()>(&::GlobalNamespace::CreditsController::Finish)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x35268b4;
+  constexpr static std::size_t addrs = 0x3528f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreditsController*>(), { "Finish", {}, {} })));
@@ -505,7 +505,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::CreditsController::*)()>(&::GlobalNamespace::CreditsController::ScrollCoroutine)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3526a24;
+  constexpr static std::size_t addrs = 0x352907c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreditsController*>(), { "ScrollCoroutine", {}, {} })));
@@ -518,7 +518,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreditsController::*)(::GlobalNamespace::XRSystemEventType)>(
     &::GlobalNamespace::CreditsController::HandleSystemStateChange)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3526a80;
+  constexpr static std::size_t addrs = 0x35290d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -532,7 +532,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreditsController::*)()>(&::GlobalNamespace::CreditsController::PauseCredits)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3526af4;
+  constexpr static std::size_t addrs = 0x352914c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreditsController*>(), { "PauseCredits", {}, {} })));
@@ -544,7 +544,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreditsController::*)()>(&::GlobalNamespace::CreditsController::UnpauseCredits)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3526b24;
+  constexpr static std::size_t addrs = 0x352917c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreditsController*>(), { "UnpauseCredits", {}, {} })));
@@ -557,7 +557,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreditsController::*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*)>(
     &::GlobalNamespace::CreditsController::SpawnAllCredits)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3526b50;
+  constexpr static std::size_t addrs = 0x35291a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -572,7 +572,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::CreditsController::*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*, float_t)>(
     &::GlobalNamespace::CreditsController::SpawnCredits)> {
   constexpr static std::size_t size = 0x43c;
-  constexpr static std::size_t addrs = 0x3526be8;
+  constexpr static std::size_t addrs = 0x3529240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -587,7 +587,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreditsController::*)()>(&::GlobalNamespace::CreditsController::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3527024;
+  constexpr static std::size_t addrs = 0x352967c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreditsController*>(), { ".ctor", {}, {} })));

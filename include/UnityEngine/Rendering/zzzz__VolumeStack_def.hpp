@@ -55,13 +55,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Clear, addr 0x6c29e70, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6c2af50, size 0x180, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Dispose, addr 0x6c2a26c, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6c2b34c, size 0x18, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetComponent, addr 0x6c2a1f8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetComponent, addr 0x6c2b2d8, size 0x74, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::VolumeComponent> GetComponent(::System::Type* type);
 
   /// @brief Method GetComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -71,7 +71,7 @@ public:
 
   static inline ::UnityEngine::Rendering::VolumeStack* New_ctor();
 
-  /// @brief Method Reload, addr 0x6c29ff0, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method Reload, addr 0x6c2b0d0, size 0x208, virtual false, abstract: false, final false
   inline void Reload(::ArrayW<::System::Type*> componentTypes);
 
   constexpr bool const& __cordl_internal_get__isValid_k__BackingField() const;
@@ -104,18 +104,18 @@ public:
 
   constexpr void __cordl_internal_set_requiresResetForAllProperties(bool value);
 
-  /// @brief Method .ctor, addr 0x6c29dd0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2aeb0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_isValid, addr 0x6c2a284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isValid, addr 0x6c2b364, size 0x8, virtual false, abstract: false, final false
   inline bool get_isValid();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_isValid, addr 0x6c2a28c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isValid, addr 0x6c2b36c, size 0x8, virtual false, abstract: false, final false
   inline void set_isValid(bool value);
 
 protected:

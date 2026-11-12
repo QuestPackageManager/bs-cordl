@@ -51,31 +51,31 @@ namespace UnityEngine::Experimental::GlobalIllumination {
 struct CORDL_TYPE LightDataGI {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x6fc9d74, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6fcae54, size 0x78, virtual false, abstract: false, final false
   inline void Init(::by_ref<::UnityEngine::Experimental::GlobalIllumination::DirectionalLight> light);
 
-  /// @brief Method Init, addr 0x6fc9b10, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6fcabf0, size 0x74, virtual false, abstract: false, final false
   inline void Init(::by_ref<::UnityEngine::Experimental::GlobalIllumination::DirectionalLight> light, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie);
 
-  /// @brief Method Init, addr 0x6fc9cf8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6fcadd8, size 0x7c, virtual false, abstract: false, final false
   inline void Init(::by_ref<::UnityEngine::Experimental::GlobalIllumination::DiscLight> light, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie);
 
-  /// @brief Method Init, addr 0x6fc9dec, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6fcaecc, size 0x74, virtual false, abstract: false, final false
   inline void Init(::by_ref<::UnityEngine::Experimental::GlobalIllumination::PointLight> light);
 
-  /// @brief Method Init, addr 0x6fc9b84, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6fcac64, size 0x7c, virtual false, abstract: false, final false
   inline void Init(::by_ref<::UnityEngine::Experimental::GlobalIllumination::PointLight> light, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie);
 
-  /// @brief Method Init, addr 0x6fc9c80, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6fcad60, size 0x78, virtual false, abstract: false, final false
   inline void Init(::by_ref<::UnityEngine::Experimental::GlobalIllumination::RectangleLight> light, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie);
 
-  /// @brief Method Init, addr 0x6fc9e60, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6fcaf40, size 0x28, virtual false, abstract: false, final false
   inline void Init(::by_ref<::UnityEngine::Experimental::GlobalIllumination::SpotLight> light);
 
-  /// @brief Method Init, addr 0x6fc9c00, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6fcace0, size 0x80, virtual false, abstract: false, final false
   inline void Init(::by_ref<::UnityEngine::Experimental::GlobalIllumination::SpotLight> light, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie);
 
-  /// @brief Method InitNoBake, addr 0x6fc9e88, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method InitNoBake, addr 0x6fcaf68, size 0x10, virtual false, abstract: false, final false
   inline void InitNoBake(::UnityEngine::EntityId lightEntityId);
 
   // Ctor Parameters []

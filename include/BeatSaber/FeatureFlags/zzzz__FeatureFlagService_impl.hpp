@@ -39,25 +39,25 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService___c::*)()>(&::BeatSaber::FeatureFlags::FeatureFlagService___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x353334c;
+  constexpr static std::size_t addrs = 0x3535998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::FeatureFlags::FeatureFlagService___c._QueryRemoteFlagsAsync_b__12_0
+//  Writing Method size for method: ::BeatSaber::FeatureFlags::FeatureFlagService___c._QueryRemoteFlagsAsync_b__13_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BeatSaber::FeatureFlags::FeatureFlagService___c::*)(::GlobalNamespace::FeatureConfiguration_Remote*)>(
-    &::BeatSaber::FeatureFlags::FeatureFlagService___c::_QueryRemoteFlagsAsync_b__12_0)> {
+    &::BeatSaber::FeatureFlags::FeatureFlagService___c::_QueryRemoteFlagsAsync_b__13_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3533350;
+  constexpr static std::size_t addrs = 0x353599c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService___c*>(),
-                                                             { "<QueryRemoteFlagsAsync>b__12_0", {}, { ::i2c::type_of<::GlobalNamespace::FeatureConfiguration_Remote*>() } })));
+                                                             { "<QueryRemoteFlagsAsync>b__13_0", {}, { ::i2c::type_of<::GlobalNamespace::FeatureConfiguration_Remote*>() } })));
     return ___internal_method;
   }
 };
@@ -68,21 +68,21 @@ inline void BeatSaber::FeatureFlags::FeatureFlagService___c::setStaticF___9(::Be
 inline ::BeatSaber::FeatureFlags::FeatureFlagService___c* BeatSaber::FeatureFlags::FeatureFlagService___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::BeatSaber::FeatureFlags::FeatureFlagService___c*, "<>9", ::BeatSaber::FeatureFlags::FeatureFlagService___c*>();
 }
-inline void BeatSaber::FeatureFlags::FeatureFlagService___c::setStaticF___9__12_0(::System::Func_2<::GlobalNamespace::FeatureConfiguration_Remote*, ::StringW>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::FeatureConfiguration_Remote*, ::StringW>*, "<>9__12_0", ::BeatSaber::FeatureFlags::FeatureFlagService___c*>(
+inline void BeatSaber::FeatureFlags::FeatureFlagService___c::setStaticF___9__13_0(::System::Func_2<::GlobalNamespace::FeatureConfiguration_Remote*, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::FeatureConfiguration_Remote*, ::StringW>*, "<>9__13_0", ::BeatSaber::FeatureFlags::FeatureFlagService___c*>(
       std::forward<::System::Func_2<::GlobalNamespace::FeatureConfiguration_Remote*, ::StringW>*>(value));
 }
-inline ::System::Func_2<::GlobalNamespace::FeatureConfiguration_Remote*, ::StringW>* BeatSaber::FeatureFlags::FeatureFlagService___c::getStaticF___9__12_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::FeatureConfiguration_Remote*, ::StringW>*, "<>9__12_0", ::BeatSaber::FeatureFlags::FeatureFlagService___c*>();
+inline ::System::Func_2<::GlobalNamespace::FeatureConfiguration_Remote*, ::StringW>* BeatSaber::FeatureFlags::FeatureFlagService___c::getStaticF___9__13_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::FeatureConfiguration_Remote*, ::StringW>*, "<>9__13_0", ::BeatSaber::FeatureFlags::FeatureFlagService___c*>();
 }
 inline void BeatSaber::FeatureFlags::FeatureFlagService___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::StringW BeatSaber::FeatureFlags::FeatureFlagService___c::_QueryRemoteFlagsAsync_b__12_0(::GlobalNamespace::FeatureConfiguration_Remote* remote) {
+inline ::StringW BeatSaber::FeatureFlags::FeatureFlagService___c::_QueryRemoteFlagsAsync_b__13_0(::GlobalNamespace::FeatureConfiguration_Remote* remote) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService___c*>(),
-                                                           { "<QueryRemoteFlagsAsync>b__12_0", {}, { ::i2c::type_of<::GlobalNamespace::FeatureConfiguration_Remote*>() } })));
+                                                           { "<QueryRemoteFlagsAsync>b__13_0", {}, { ::i2c::type_of<::GlobalNamespace::FeatureConfiguration_Remote*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, remote);
 }
 inline ::BeatSaber::FeatureFlags::FeatureFlagService___c* BeatSaber::FeatureFlags::FeatureFlagService___c::New_ctor() {
@@ -90,57 +90,57 @@ inline ::BeatSaber::FeatureFlags::FeatureFlagService___c* BeatSaber::FeatureFlag
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::FeatureFlags::FeatureFlagService___c::FeatureFlagService___c() {}
-//  Writing Method size for method: ::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__11.MoveNext
+//  Writing Method size for method: ::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__12.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__11::*)()>(
-    &::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__11::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__12::*)()>(
+    &::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__12::MoveNext)> {
   constexpr static std::size_t size = 0x74c;
-  constexpr static std::size_t addrs = 0x3533364;
+  constexpr static std::size_t addrs = 0x35359b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__11>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__12>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__11.SetStateMachine
+//  Writing Method size for method: ::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__12.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__11::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__11::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__12::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__12::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3533ab0;
+  constexpr static std::size_t addrs = 0x35360fc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__11>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__12>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__11::MoveNext() {
+inline void BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__12::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__11>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__12>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__11::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__11>(),
+inline void BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__12::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__12>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__11::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__12::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__11::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__12::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BeatSaber::FeatureFlags::FeatureFlagService_State>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
 // "__4__this", ty: "::BeatSaber::FeatureFlags::FeatureFlagService*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__11::FeatureFlagService__InitializeAsync_d__11(
+constexpr ::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__12::FeatureFlagService__InitializeAsync_d__12(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BeatSaber::FeatureFlags::FeatureFlagService_State> __t__builder,
     ::BeatSaber::FeatureFlags::FeatureFlagService* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
@@ -149,59 +149,59 @@ constexpr ::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__11::
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__11::FeatureFlagService__InitializeAsync_d__11() {}
-//  Writing Method size for method: ::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__14.MoveNext
+constexpr ::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__12::FeatureFlagService__InitializeAsync_d__12() {}
+//  Writing Method size for method: ::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__15.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__14::*)()>(
-    &::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__14::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__15::*)()>(
+    &::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__15::MoveNext)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x3533b30;
+  constexpr static std::size_t addrs = 0x353617c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__14>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__15>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__14.SetStateMachine
+//  Writing Method size for method: ::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__15.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__14::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__14::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__15::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__15::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3533e4c;
+  constexpr static std::size_t addrs = 0x3536498;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__14>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__15>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__14::MoveNext() {
+inline void BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__15::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__14>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__15>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__14::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__14>(),
+inline void BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__15::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__15>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__14::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__15::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__14::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__15::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
 // "::BeatSaber::FeatureFlags::FeatureFlagService*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "feature", ty: "::BeatSaber::FeatureFlags::Feature", modifiers: "",
 // def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__14::FeatureFlagService__IsFeatureEnabledAsync_d__14(
+constexpr ::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__15::FeatureFlagService__IsFeatureEnabledAsync_d__15(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::BeatSaber::FeatureFlags::FeatureFlagService* __4__this,
     ::BeatSaber::FeatureFlags::Feature feature, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
@@ -211,59 +211,59 @@ constexpr ::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__14::FeatureFlagService__IsFeatureEnabledAsync_d__14() {}
-//  Writing Method size for method: ::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__12.MoveNext
+constexpr ::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__15::FeatureFlagService__IsFeatureEnabledAsync_d__15() {}
+//  Writing Method size for method: ::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__13.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__12::*)()>(
-    &::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__12::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__13::*)()>(
+    &::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__13::MoveNext)> {
   constexpr static std::size_t size = 0x898;
-  constexpr static std::size_t addrs = 0x3533ecc;
+  constexpr static std::size_t addrs = 0x3536518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__12>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__13>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__12.SetStateMachine
+//  Writing Method size for method: ::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__13.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__12::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__12::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__13::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__13::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x353478c;
+  constexpr static std::size_t addrs = 0x3536dd8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__12>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__13>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__12::MoveNext() {
+inline void BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__13::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__12>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__13>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__12::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__12>(),
+inline void BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__13::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__13>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__12::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__13::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__12::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__13::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
 // "::BeatSaber::FeatureFlags::FeatureFlagService*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Main::GraphQL::Models::FeatureFlagsEnabledModel*>", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__12::FeatureFlagService__QueryRemoteFlagsAsync_d__12(
+constexpr ::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__13::FeatureFlagService__QueryRemoteFlagsAsync_d__13(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::BeatSaber::FeatureFlags::FeatureFlagService* __4__this,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::Main::GraphQL::Models::FeatureFlagsEnabledModel*> __u__1) noexcept {
   this->__1__state = __1__state;
@@ -272,59 +272,59 @@ constexpr ::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__12::FeatureFlagService__QueryRemoteFlagsAsync_d__12() {}
-//  Writing Method size for method: ::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__17.MoveNext
+constexpr ::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__13::FeatureFlagService__QueryRemoteFlagsAsync_d__13() {}
+//  Writing Method size for method: ::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__18.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__17::*)()>(
-    &::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__17::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__18::*)()>(
+    &::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__18::MoveNext)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x35347f8;
+  constexpr static std::size_t addrs = 0x3536e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__17>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__18>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__17.SetStateMachine
+//  Writing Method size for method: ::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__18.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__17::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__17::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__18::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__18::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35349c4;
+  constexpr static std::size_t addrs = 0x3537010;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__17>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__18>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__17::MoveNext() {
+inline void BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__18::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__17>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__18>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__17::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__17>(),
+inline void BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__18::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__18>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__17::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__18::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__17::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__18::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
 // "::BeatSaber::FeatureFlags::FeatureFlagService*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
 // modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__17::FeatureFlagService__WaitForInitialization_d__17(
+constexpr ::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__18::FeatureFlagService__WaitForInitialization_d__18(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::BeatSaber::FeatureFlags::FeatureFlagService* __4__this,
     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
@@ -333,14 +333,14 @@ constexpr ::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__17::FeatureFlagService__WaitForInitialization_d__17() {}
+constexpr ::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__18::FeatureFlagService__WaitForInitialization_d__18() {}
 //  Writing Method size for method: ::BeatSaber::FeatureFlags::FeatureFlagService._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService::*)(::BeatSaber::GraphQL::IGraphQLClientProvider*, ::BeatSaber::FeatureFlags::IFeatureFlags*,
                                                                                                                int32_t)>(&::BeatSaber::FeatureFlags::FeatureFlagService::_ctor)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3532884;
+  constexpr static std::size_t addrs = 0x3534ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -355,11 +355,23 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Featur
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService::*)()>(&::BeatSaber::FeatureFlags::FeatureFlagService::Initialize)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3532994;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x3534fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService*>(), { "Initialize", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::FeatureFlags::FeatureFlagService.StartInitialization
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService::*)()>(&::BeatSaber::FeatureFlags::FeatureFlagService::StartInitialization)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x3534fe4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService*>(), { "StartInitialization", {}, {} })));
     return ___internal_method;
   }
 };
@@ -369,7 +381,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::BeatSaber::FeatureFlags::FeatureFlagService_State>* (::BeatSaber::FeatureFlags::FeatureFlagService::*)()>(
     &::BeatSaber::FeatureFlags::FeatureFlagService::InitializeAsync)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3532a58;
+  constexpr static std::size_t addrs = 0x35350a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService*>(), { "InitializeAsync", {}, {} })));
@@ -382,7 +394,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BeatSaber::FeatureFlags::FeatureFlagService::*)()>(
     &::BeatSaber::FeatureFlags::FeatureFlagService::QueryRemoteFlagsAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3532b34;
+  constexpr static std::size_t addrs = 0x3535180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService*>(), { "QueryRemoteFlagsAsync", {}, {} })));
@@ -395,7 +407,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<bool> (::BeatSaber::FeatureFlags::FeatureFlagService::*)(::BeatSaber::FeatureFlags::Feature)>(
     &::BeatSaber::FeatureFlags::FeatureFlagService::IsFeatureEnabled)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x3532be4;
+  constexpr static std::size_t addrs = 0x3535230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -410,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::BeatSaber::FeatureFlags::FeatureFlagService::*)(::BeatSaber::FeatureFlags::Feature)>(
     &::BeatSaber::FeatureFlags::FeatureFlagService::IsFeatureEnabledAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x35330a4;
+  constexpr static std::size_t addrs = 0x35356f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService*>(),
@@ -424,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<bool> (::BeatSaber::FeatureFlags::FeatureFlagService::*)(::GlobalNamespace::FeatureConfiguration_Remote*)>(
     &::BeatSaber::FeatureFlags::FeatureFlagService::GetRemoteFlag)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3532f7c;
+  constexpr static std::size_t addrs = 0x35355c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService*>(),
@@ -438,7 +450,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<bool> (::BeatSaber::FeatureFlags::FeatureFlagService::*)(::GlobalNamespace::FeatureConfiguration_RemoteWithDependency*)>(
     &::BeatSaber::FeatureFlags::FeatureFlagService::GetRemoteFlagWithDependency)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3532ebc;
+  constexpr static std::size_t addrs = 0x3535508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -453,7 +465,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BeatSaber::FeatureFlags::FeatureFlagService::*)()>(
     &::BeatSaber::FeatureFlags::FeatureFlagService::WaitForInitialization)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3533194;
+  constexpr static std::size_t addrs = 0x35357e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService*>(), { "WaitForInitialization", {}, {} })));
@@ -465,25 +477,26 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService::*)()>(&::BeatSaber::FeatureFlags::FeatureFlagService::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3533244;
+  constexpr static std::size_t addrs = 0x3535890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService*>(), { "Dispose", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::FeatureFlags::FeatureFlagService._Initialize_b__10_0
+//  Writing Method size for method: ::BeatSaber::FeatureFlags::FeatureFlagService._StartInitialization_b__11_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService::*)(
-    ::System::Threading::Tasks::Task_1<::BeatSaber::FeatureFlags::FeatureFlagService_State>*)>(&::BeatSaber::FeatureFlags::FeatureFlagService::_Initialize_b__10_0)> {
+    ::System::Threading::Tasks::Task_1<::BeatSaber::FeatureFlags::FeatureFlagService_State>*)>(&::BeatSaber::FeatureFlags::FeatureFlagService::_StartInitialization_b__11_0)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3533248;
+  constexpr static std::size_t addrs = 0x3535894;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService*>(),
-                                                { "<Initialize>b__10_0", {}, { ::i2c::type_of<::System::Threading::Tasks::Task_1<::BeatSaber::FeatureFlags::FeatureFlagService_State>*>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService*>(),
+                                         { "<StartInitialization>b__11_0", {}, { ::i2c::type_of<::System::Threading::Tasks::Task_1<::BeatSaber::FeatureFlags::FeatureFlagService_State>*>() } })));
     return ___internal_method;
   }
 };
@@ -596,6 +609,10 @@ inline void BeatSaber::FeatureFlags::FeatureFlagService::Initialize() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService*>(), { "Initialize", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
+inline void BeatSaber::FeatureFlags::FeatureFlagService::StartInitialization() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService*>(), { "StartInitialization", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
 inline ::System::Threading::Tasks::Task_1<::BeatSaber::FeatureFlags::FeatureFlagService_State>* BeatSaber::FeatureFlags::FeatureFlagService::InitializeAsync() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService*>(), { "InitializeAsync", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::BeatSaber::FeatureFlags::FeatureFlagService_State>*>(this, ___internal_method);
@@ -635,10 +652,10 @@ inline void BeatSaber::FeatureFlags::FeatureFlagService::Dispose() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService*>(), { "Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void BeatSaber::FeatureFlags::FeatureFlagService::_Initialize_b__10_0(::System::Threading::Tasks::Task_1<::BeatSaber::FeatureFlags::FeatureFlagService_State>* task) {
+inline void BeatSaber::FeatureFlags::FeatureFlagService::_StartInitialization_b__11_0(::System::Threading::Tasks::Task_1<::BeatSaber::FeatureFlags::FeatureFlagService_State>* task) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService*>(),
-                                              { "<Initialize>b__10_0", {}, { ::i2c::type_of<::System::Threading::Tasks::Task_1<::BeatSaber::FeatureFlags::FeatureFlagService_State>*>() } })));
+                                              { "<StartInitialization>b__11_0", {}, { ::i2c::type_of<::System::Threading::Tasks::Task_1<::BeatSaber::FeatureFlags::FeatureFlagService_State>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, task);
 }
 inline ::BeatSaber::FeatureFlags::FeatureFlagService* BeatSaber::FeatureFlags::FeatureFlagService::New_ctor(::BeatSaber::GraphQL::IGraphQLClientProvider* graphQlClientProvider,

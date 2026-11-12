@@ -43,13 +43,13 @@ public:
   /// @brief Field _LocalDomainName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__LocalDomainName, put = setStaticF__LocalDomainName)) ::StringW _LocalDomainName;
 
-  /// @brief Method GetLocalHost, addr 0x6873060, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetLocalHost, addr 0x68736b0, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Net::IPHostEntry* GetLocalHost();
 
-  /// @brief Method IsAddressLocal, addr 0x6872b24, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsAddressLocal, addr 0x6873174, size 0x8c, virtual false, abstract: false, final false
   static inline bool IsAddressLocal(::System::Net::IPAddress* ipAddress);
 
-  /// @brief Method IsFatal, addr 0x6872a4c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method IsFatal, addr 0x687309c, size 0xd8, virtual false, abstract: false, final false
   static inline bool IsFatal(::System::Exception* exception);
 
   static inline ::ArrayW<::System::Net::IPAddress*> getStaticF__LocalAddresses();
@@ -58,10 +58,10 @@ public:
 
   static inline ::StringW getStaticF__LocalDomainName();
 
-  /// @brief Method get_LocalAddresses, addr 0x6872bb0, size 0x4b0, virtual false, abstract: false, final false
+  /// @brief Method get_LocalAddresses, addr 0x6873200, size 0x4b0, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Net::IPAddress*> get_LocalAddresses();
 
-  /// @brief Method get_LocalAddressesLock, addr 0x6873078, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_LocalAddressesLock, addr 0x68736c8, size 0x98, virtual false, abstract: false, final false
   static inline ::System::Object* get_LocalAddressesLock();
 
   static inline void setStaticF__LocalAddresses(::ArrayW<::System::Net::IPAddress*> value);

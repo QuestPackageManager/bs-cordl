@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::MetaQuestSupport::MetaQuestFeature::*)()>(
     &::UnityEngine::XR::OpenXR::Features::MetaQuestSupport::MetaQuestFeature::OnBeforeSerialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e830cc;
+  constexpr static std::size_t addrs = 0x6e841ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::MetaQuestSupport::MetaQuestFeature::*)()>(
     &::UnityEngine::XR::OpenXR::Features::MetaQuestSupport::MetaQuestFeature::OnAfterDeserialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e830d0;
+  constexpr static std::size_t addrs = 0x6e841b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::MetaQuestSupport::MetaQuestFeature::*)()>(
     &::UnityEngine::XR::OpenXR::Features::MetaQuestSupport::MetaQuestFeature::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e830d4;
+  constexpr static std::size_t addrs = 0x6e841b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

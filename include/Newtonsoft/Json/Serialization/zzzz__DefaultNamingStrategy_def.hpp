@@ -23,10 +23,10 @@ public:
   static inline ::Newtonsoft::Json::Serialization::DefaultNamingStrategy* New_ctor();
 
   /// [NullableContext(1)]
-  /// @brief Method ResolvePropertyName, addr 0x61961e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ResolvePropertyName, addr 0x619646c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ResolvePropertyName(::StringW name);
 
-  /// @brief Method .ctor, addr 0x61961ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6196474, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

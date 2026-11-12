@@ -43,18 +43,18 @@ public:
   /// @brief [MonoTODO("Not implemented.")]
   static inline ::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy* New_ctor(::System::Security::Authentication::ExtendedProtection::PolicyEnforcement policyEnforcement);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x68057b8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x6805e08, size 0x38, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   /// [MonoTODO]
-  /// @brief Method ToString, addr 0x68057b0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6805e00, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6805778, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6805dc8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   /// [MonoTODO("Not implemented.")]
-  /// @brief Method .ctor, addr 0x6805774, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6805dc4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Authentication::ExtendedProtection::PolicyEnforcement policyEnforcement);
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"

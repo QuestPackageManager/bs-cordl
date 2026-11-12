@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativeMethodAttribute::*)(::StringW)>(&::UnityEngine::Bindings::NativeMethodAttribute::set_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7051c00;
+  constexpr static std::size_t addrs = 0x7052ce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativeMethodAttribute::*)(bool)>(&::UnityEngine::Bindings::NativeMethodAttribute::set_IsThreadSafe)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7051c08;
+  constexpr static std::size_t addrs = 0x7052ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativeMethodAttribute::*)(bool)>(&::UnityEngine::Bindings::NativeMethodAttribute::set_IsFreeFunction)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7051c10;
+  constexpr static std::size_t addrs = 0x7052cf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativeMethodAttribute::*)(bool)>(&::UnityEngine::Bindings::NativeMethodAttribute::set_ThrowsException)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7051c18;
+  constexpr static std::size_t addrs = 0x7052cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativeMethodAttribute::*)(bool)>(&::UnityEngine::Bindings::NativeMethodAttribute::set_HasExplicitThis)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7051c20;
+  constexpr static std::size_t addrs = 0x7052d00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativeMethodAttribute::*)()>(&::UnityEngine::Bindings::NativeMethodAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x7051c28;
+  constexpr static std::size_t addrs = 0x7052d08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bindings::NativeMethodAttribute*>(), { ".ctor", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativeMethodAttribute::*)(::StringW)>(&::UnityEngine::Bindings::NativeMethodAttribute::_ctor)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x7051c2c;
+  constexpr static std::size_t addrs = 0x7052d0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativeMethodAttribute::*)(::StringW, bool)>(&::UnityEngine::Bindings::NativeMethodAttribute::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x7051d24;
+  constexpr static std::size_t addrs = 0x7052e04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativeMethodAttribute::*)(::StringW, bool, bool)>(&::UnityEngine::Bindings::NativeMethodAttribute::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x7051d48;
+  constexpr static std::size_t addrs = 0x7052e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bindings::NativeMethodAttribute*>(),

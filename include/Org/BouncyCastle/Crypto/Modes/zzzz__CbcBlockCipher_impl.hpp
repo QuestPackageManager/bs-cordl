@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::*)(::Org::BouncyCastle::Crypto::IBlockCipher*)>(
     &::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::_ctor)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3693560;
+  constexpr static std::size_t addrs = 0x36979f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IBlockCipher* (::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::*)()>(
     &::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::GetUnderlyingCipher)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369eba4;
+  constexpr static std::size_t addrs = 0x36a303c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher*>(), { "GetUnderlyingCipher", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::Init)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x369ebac;
+  constexpr static std::size_t addrs = 0x36a3044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::*)()>(&::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::get_AlgorithmName)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x369ee80;
+  constexpr static std::size_t addrs = 0x36a3318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher*>(), { "get_AlgorithmName", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::*)()>(&::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::get_IsPartialBlockOkay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369ef48;
+  constexpr static std::size_t addrs = 0x36a33e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::*)()>(&::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::GetBlockSize)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x369ef50;
+  constexpr static std::size_t addrs = 0x36a33e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher*>(), { "GetBlockSize", {}, {} })));
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::*)(::ArrayW<uint8_t>, int32_t, ::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::ProcessBlock)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x369eff8;
+  constexpr static std::size_t addrs = 0x36a3490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::*)()>(&::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::Reset)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x369eda0;
+  constexpr static std::size_t addrs = 0x36a3238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher*>(), { "Reset", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::*)(::ArrayW<uint8_t>, int32_t, ::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::EncryptBlock)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x369f1dc;
+  constexpr static std::size_t addrs = 0x36a3674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::*)(::ArrayW<uint8_t>, int32_t, ::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::DecryptBlock)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x369f008;
+  constexpr static std::size_t addrs = 0x36a34a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

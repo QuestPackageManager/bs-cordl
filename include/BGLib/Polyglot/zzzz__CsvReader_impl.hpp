@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::StringW>*>* (*)(::StringW)>(
     &::BGLib::Polyglot::CsvReader::Parse)> {
   constexpr static std::size_t size = 0x820;
-  constexpr static std::size_t addrs = 0x35c925c;
+  constexpr static std::size_t addrs = 0x35cd6b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::CsvReader*>(), { "Parse", {}, { ::i2c::type_of<::StringW>() } })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::Polyglot::CsvReader::*)()>(&::BGLib::Polyglot::CsvReader::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35cc91c;
+  constexpr static std::size_t addrs = 0x35d0d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::CsvReader*>(), { ".ctor", {}, {} })));

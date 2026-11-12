@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::GizmoTypeInfo::*)(::System::Action_1<::System::Object*>*)>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::GizmoTypeInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ec415c;
+  constexpr static std::size_t addrs = 0x5ec43dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::CanvasGroupTransitionSO::*)()>(&::GlobalNamespace::CanvasGroupTransitionSO::get_normalAlpha)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68aa364;
+  constexpr static std::size_t addrs = 0x68aa9bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CanvasGroupTransitionSO*>(), { "get_normalAlpha", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::CanvasGroupTransitionSO::*)()>(&::GlobalNamespace::CanvasGroupTransitionSO::get_highlightedAlpha)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68aa36c;
+  constexpr static std::size_t addrs = 0x68aa9c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CanvasGroupTransitionSO*>(), { "get_highlightedAlpha", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::CanvasGroupTransitionSO::*)()>(&::GlobalNamespace::CanvasGroupTransitionSO::get_pressedAlpha)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68aa374;
+  constexpr static std::size_t addrs = 0x68aa9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CanvasGroupTransitionSO*>(), { "get_pressedAlpha", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::CanvasGroupTransitionSO::*)()>(&::GlobalNamespace::CanvasGroupTransitionSO::get_disabledAlpha)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68aa37c;
+  constexpr static std::size_t addrs = 0x68aa9d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CanvasGroupTransitionSO*>(), { "get_disabledAlpha", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::CanvasGroupTransitionSO::*)()>(&::GlobalNamespace::CanvasGroupTransitionSO::get_selectedAlpha)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68aa384;
+  constexpr static std::size_t addrs = 0x68aa9dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CanvasGroupTransitionSO*>(), { "get_selectedAlpha", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::CanvasGroupTransitionSO::*)()>(&::GlobalNamespace::CanvasGroupTransitionSO::get_selectedAndHighlightedAlpha)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68aa38c;
+  constexpr static std::size_t addrs = 0x68aa9e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CanvasGroupTransitionSO::*)()>(&::GlobalNamespace::CanvasGroupTransitionSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68aa394;
+  constexpr static std::size_t addrs = 0x68aa9ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CanvasGroupTransitionSO*>(), { ".ctor", {}, {} })));

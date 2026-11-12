@@ -73,7 +73,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar_Factory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5e3cefc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e3d32c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -91,7 +91,7 @@ public:
   MultiplayerResultsPyramidViewAvatar_Factory(MultiplayerResultsPyramidViewAvatar_Factory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6303 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6304 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -189,15 +189,15 @@ public:
 
   __declspec(property(get = get_badgeDirector)) ::UnityW<::UnityEngine::Playables::PlayableDirector> badgeDirector;
 
-  /// @brief Method Awake, addr 0x5e3cebc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5e3d2ec, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar* New_ctor();
 
-  /// @brief Method Setup, addr 0x5e3c8dc, size 0x534, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x5e3cd0c, size 0x534, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::MultiplayerPlayerResultsData* resultData, int32_t position, int32_t playerCount);
 
-  /// @brief Method SetupBadgeTimeline, addr 0x5e3c394, size 0x548, virtual false, abstract: false, final false
+  /// @brief Method SetupBadgeTimeline, addr 0x5e3c7c4, size 0x548, virtual false, abstract: false, final false
   inline void SetupBadgeTimeline(::UnityEngine::Transform* startTransform, ::UnityEngine::Transform* midTransform);
 
   constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__badgeCanvas() const;
@@ -356,10 +356,10 @@ public:
 
   constexpr void __cordl_internal_set__trophyImage(::UnityW<::HMUI::ImageView> value);
 
-  /// @brief Method .ctor, addr 0x5e3ced8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e3d308, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_badgeDirector, addr 0x5e3ceb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_badgeDirector, addr 0x5e3d2e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Playables::PlayableDirector> get_badgeDirector();
 
 protected:
@@ -377,7 +377,7 @@ public:
   MultiplayerResultsPyramidViewAvatar(MultiplayerResultsPyramidViewAvatar const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6304 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6305 };
 
   /// [Header("New")]
   /// [SerializeField]

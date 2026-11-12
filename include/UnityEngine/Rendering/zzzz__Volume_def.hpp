@@ -81,30 +81,30 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IVolume"
   constexpr operator ::UnityEngine::Rendering::IVolume*() noexcept;
 
-  /// @brief Method HasInstantiatedProfile, addr 0x6c24f94, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method HasInstantiatedProfile, addr 0x6c26074, size 0x64, virtual false, abstract: false, final false
   inline bool HasInstantiatedProfile();
 
   static inline ::UnityEngine::Rendering::Volume* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x6c25090, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6c26170, size 0x6c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x6c24ff8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6c260d8, size 0x98, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x6c25280, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x6c26360, size 0x14, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method Update, addr 0x6c250fc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6c261dc, size 0x18, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateColliders, addr 0x6c24c2c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method UpdateColliders, addr 0x6c25d0c, size 0x50, virtual false, abstract: false, final false
   inline void UpdateColliders();
 
-  /// @brief Method UpdateLayer, addr 0x6c25114, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method UpdateLayer, addr 0x6c261f4, size 0xa0, virtual false, abstract: false, final false
   inline void UpdateLayer();
 
-  /// @brief Method UpdatePriority, addr 0x6c251b4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method UpdatePriority, addr 0x6c26294, size 0xcc, virtual false, abstract: false, final false
   inline void UpdatePriority();
 
   constexpr float_t const& __cordl_internal_get_blendDistance() const;
@@ -167,31 +167,31 @@ public:
 
   constexpr void __cordl_internal_set_weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x6c25294, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c26374, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cachedGameObject, addr 0x6c24f10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cachedGameObject, addr 0x6c25ff0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_cachedGameObject();
 
-  /// @brief Method get_colliders, addr 0x6c24f08, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_colliders, addr 0x6c25fe8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Collider>>* get_colliders();
 
-  /// @brief Method get_isGlobal, addr 0x6c24c14, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isGlobal, addr 0x6c25cf4, size 0x8, virtual true, abstract: false, final true
   inline bool get_isGlobal();
 
-  /// @brief Method get_profile, addr 0x6c24c7c, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method get_profile, addr 0x6c25d5c, size 0x284, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::VolumeProfile> get_profile();
 
-  /// @brief Method get_profileRef, addr 0x6c24f18, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_profileRef, addr 0x6c25ff8, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::VolumeProfile> get_profileRef();
 
   /// @brief Convert to "::UnityEngine::Rendering::IVolume"
   constexpr ::UnityEngine::Rendering::IVolume* i___UnityEngine__Rendering__IVolume() noexcept;
 
-  /// @brief Method set_isGlobal, addr 0x6c24c1c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method set_isGlobal, addr 0x6c25cfc, size 0x10, virtual true, abstract: false, final true
   inline void set_isGlobal(bool value);
 
-  /// @brief Method set_profile, addr 0x6c24f00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_profile, addr 0x6c25fe0, size 0x8, virtual false, abstract: false, final false
   inline void set_profile(::UnityEngine::Rendering::VolumeProfile* value);
 
 protected:

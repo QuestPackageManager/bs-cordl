@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Array*, int32_t, ::System::Array*, int32_t, int32_t)>(&::System::Buffer::InternalBlockCopy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x60cb104;
+  constexpr static std::size_t addrs = 0x60cb38c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint8_t*, uint8_t, int32_t, int32_t)>(&::System::Buffer::IndexOfByte)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x60cb108;
+  constexpr static std::size_t addrs = 0x60cb390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Array*)>(&::System::Buffer::_ByteLength)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x60cb22c;
+  constexpr static std::size_t addrs = 0x60cb4b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Buffer*>(), { "_ByteLength", {}, { ::i2c::type_of<::System::Array*>() } })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, int64_t)>(&::System::Buffer::ZeroMemory)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x60cb230;
+  constexpr static std::size_t addrs = 0x60cb4b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, int32_t, ::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Buffer::Memcpy)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x60cb254;
+  constexpr static std::size_t addrs = 0x60cb4dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, uint8_t*, int32_t)>(&::System::Buffer::InternalMemcpy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60cb384;
+  constexpr static std::size_t addrs = 0x60cb60c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Array*)>(&::System::Buffer::ByteLength)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x60cb38c;
+  constexpr static std::size_t addrs = 0x60cb614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Buffer*>(), { "ByteLength", {}, { ::i2c::type_of<::System::Array*>() } })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Array*, int32_t, ::System::Array*, int32_t, int32_t)>(&::System::Buffer::BlockCopy)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x60cb420;
+  constexpr static std::size_t addrs = 0x60cb6a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, void*, int64_t, int64_t)>(&::System::Buffer::MemoryCopy)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x60cb5c8;
+  constexpr static std::size_t addrs = 0x60cb850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, uint8_t*, int32_t)>(&::System::Buffer::memcpy4)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x60cb6ec;
+  constexpr static std::size_t addrs = 0x60cb974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, uint8_t*, int32_t)>(&::System::Buffer::memcpy2)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x60cb780;
+  constexpr static std::size_t addrs = 0x60cba08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, uint8_t*, int32_t)>(&::System::Buffer::memcpy1)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x60cb804;
+  constexpr static std::size_t addrs = 0x60cba8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, uint8_t*, int32_t)>(&::System::Buffer::Memcpy)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x60cb288;
+  constexpr static std::size_t addrs = 0x60cb510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, uint8_t*, uint32_t)>(&::System::Buffer::Memmove)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x60cb6c4;
+  constexpr static std::size_t addrs = 0x60cb94c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

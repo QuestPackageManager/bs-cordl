@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FloatField_UxmlFactory::*)()>(&::UnityEngine::UIElements::FloatField_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x71f0ef8;
+  constexpr static std::size_t addrs = 0x71f1fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField_UxmlFactory*>(), { ".ctor", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FloatField_UxmlTraits::*)()>(&::UnityEngine::UIElements::FloatField_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x71f0f60;
+  constexpr static std::size_t addrs = 0x71f2040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField_UxmlTraits*>(), { ".ctor", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::FloatField* (::UnityEngine::UIElements::FloatField_FloatInput::*)()>(
     &::UnityEngine::UIElements::FloatField_FloatInput::get_parentFloatField)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x71f0fac;
+  constexpr static std::size_t addrs = 0x71f208c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField_FloatInput*>(), { "get_parentFloatField", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FloatField_FloatInput::*)()>(&::UnityEngine::UIElements::FloatField_FloatInput::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x71f0d00;
+  constexpr static std::size_t addrs = 0x71f1de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField_FloatInput*>(), { ".ctor", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::FloatField_FloatInput::*)()>(&::UnityEngine::UIElements::FloatField_FloatInput::get_allowedCharacters)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x71f1028;
+  constexpr static std::size_t addrs = 0x71f2108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FloatField_FloatInput::*)(::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, float_t)>(
     &::UnityEngine::UIElements::FloatField_FloatInput::ApplyInputDeviceDelta)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x71f10d0;
+  constexpr static std::size_t addrs = 0x71f21b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::FloatField_FloatInput::*)(float_t)>(&::UnityEngine::UIElements::FloatField_FloatInput::ValueToString)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x71f1344;
+  constexpr static std::size_t addrs = 0x71f2424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::FloatField_FloatInput::*)(::StringW)>(&::UnityEngine::UIElements::FloatField_FloatInput::StringToValue)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x71f13a0;
+  constexpr static std::size_t addrs = 0x71f2480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::FloatField_FloatInput* (::UnityEngine::UIElements::FloatField::*)()>(
     &::UnityEngine::UIElements::FloatField::get_floatInput)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x71f0858;
+  constexpr static std::size_t addrs = 0x71f1938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), { "get_floatInput", {}, {} })));
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::FloatField::*)(float_t)>(&::UnityEngine::UIElements::FloatField::ValueToString)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x71f08e8;
+  constexpr static std::size_t addrs = 0x71f19c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::FloatField::*)(::StringW)>(&::UnityEngine::UIElements::FloatField::StringToValue)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x71f09a8;
+  constexpr static std::size_t addrs = 0x71f1a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FloatField::*)()>(&::UnityEngine::UIElements::FloatField::UpdateValueFromText)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x71f0ab8;
+  constexpr static std::size_t addrs = 0x71f1b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FloatField::*)()>(&::UnityEngine::UIElements::FloatField::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x71f0b74;
+  constexpr static std::size_t addrs = 0x71f1c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), { ".ctor", {}, {} })));
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FloatField::*)(::StringW, int32_t)>(&::UnityEngine::UIElements::FloatField::_ctor)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x71f0b80;
+  constexpr static std::size_t addrs = 0x71f1c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::FloatField::*)(::StringW)>(&::UnityEngine::UIElements::FloatField::CanTryParse)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x71f0d9c;
+  constexpr static std::size_t addrs = 0x71f1e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FloatField::*)(::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, float_t)>(
     &::UnityEngine::UIElements::FloatField::ApplyInputDeviceDelta)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x71f0dc0;
+  constexpr static std::size_t addrs = 0x71f1ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

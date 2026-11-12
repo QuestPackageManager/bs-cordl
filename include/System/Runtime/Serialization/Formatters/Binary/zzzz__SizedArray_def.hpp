@@ -39,10 +39,10 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x5fbf500, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x5fbf788, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method IncreaseCapacity, addr 0x5fbf55c, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method IncreaseCapacity, addr 0x5fbf7e4, size 0x218, virtual false, abstract: false, final false
   inline void IncreaseCapacity(int32_t index);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::SizedArray* New_ctor();
@@ -63,22 +63,22 @@ public:
 
   constexpr void __cordl_internal_set_objects(::ArrayW<::System::Object*> value);
 
-  /// @brief Method .ctor, addr 0x5fbbd68, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fbbff0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5fbbe38, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fbc0c0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(int32_t length);
 
-  /// @brief Method .ctor, addr 0x5fbf44c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fbf6d4, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::Formatters::Binary::SizedArray* sizedArray);
 
-  /// @brief Method get_Item, addr 0x5fbe360, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x5fbe5e8, size 0x74, virtual false, abstract: false, final false
   inline ::System::Object* get_Item(int32_t index);
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_Item, addr 0x5fbe260, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x5fbe4e8, size 0x100, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, ::System::Object* value);
 
 protected:

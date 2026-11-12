@@ -71,13 +71,13 @@ public:
   /// @brief Convert operator to "::UnityEngine::Jobs::IJobParallelForTransform"
   constexpr operator ::UnityEngine::Jobs::IJobParallelForTransform*();
 
-  /// @brief Method DistanceBetweenQuaternions, addr 0x6cd3ac4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method DistanceBetweenQuaternions, addr 0x6cd4ba4, size 0x30, virtual false, abstract: false, final false
   inline float_t DistanceBetweenQuaternions(::Unity::Mathematics::quaternion a, ::Unity::Mathematics::quaternion b);
 
-  /// @brief Method Execute, addr 0x6cd3af4, size 0x590, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6cd4bd4, size 0x590, virtual true, abstract: false, final true
   inline void Execute(int32_t index, ::UnityEngine::Jobs::TransformAccess transform);
 
-  /// @brief Method GetDecalProjectBoundingSphere, addr 0x6cd4084, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetDecalProjectBoundingSphere, addr 0x6cd5164, size 0x11c, virtual false, abstract: false, final false
   inline ::UnityEngine::BoundingSphere GetDecalProjectBoundingSphere(::UnityEngine::Matrix4x4 decalToWorld);
 
   static inline ::Unity::Mathematics::quaternion getStaticF_k_MinusYtoZRotation();
@@ -194,10 +194,10 @@ public:
   /// @brief Field m_SamplerJob, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_SamplerJob, put = __cordl_internal_set_m_SamplerJob)) ::UnityEngine::Rendering::ProfilingSampler* m_SamplerJob;
 
-  /// @brief Method Execute, addr 0x6cd36bc, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x6cd479c, size 0x170, virtual false, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method Execute, addr 0x6cd382c, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x6cd490c, size 0x298, virtual false, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::Universal::DecalEntityChunk* entityChunk, ::UnityEngine::Rendering::Universal::DecalCachedChunk* cachedChunk, int32_t count);
 
   static inline ::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem* New_ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager);
@@ -220,7 +220,7 @@ public:
 
   constexpr void __cordl_internal_set_m_SamplerJob(::UnityEngine::Rendering::ProfilingSampler* value);
 
-  /// @brief Method .ctor, addr 0x6cd3600, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cd46e0, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager);
 
 protected:

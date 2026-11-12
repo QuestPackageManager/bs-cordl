@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberTrail::*)()>(&::GlobalNamespace::SaberTrail::Start)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x63ab964;
+  constexpr static std::size_t addrs = 0x63abfb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberTrail*>(), { "Start", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberTrail::*)(::UnityEngine::Color, ::GlobalNamespace::IBladeMovementData*, ::GlobalNamespace::SaberType)>(
     &::GlobalNamespace::SaberTrail::Setup)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x63ababc;
+  constexpr static std::size_t addrs = 0x63ac10c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberTrail::*)()>(&::GlobalNamespace::SaberTrail::Init)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x63abae0;
+  constexpr static std::size_t addrs = 0x63ac130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberTrail*>(), { "Init", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberTrail::*)(bool)>(&::GlobalNamespace::SaberTrail::ApplyRenderOrder)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x63abfc0;
+  constexpr static std::size_t addrs = 0x63ac610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberTrail*>(), { "ApplyRenderOrder", {}, { ::i2c::type_of<bool>() } })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberTrail::*)(bool)>(&::GlobalNamespace::SaberTrail::HandleDeterminismSet)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x63ac088;
+  constexpr static std::size_t addrs = 0x63ac6d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberTrail::*)()>(&::GlobalNamespace::SaberTrail::ResetTrailData)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x63ac0c4;
+  constexpr static std::size_t addrs = 0x63ac714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberTrail*>(), { "ResetTrailData", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberTrail::*)()>(&::GlobalNamespace::SaberTrail::LateUpdate)> {
   constexpr static std::size_t size = 0x3fc;
-  constexpr static std::size_t addrs = 0x63ac238;
+  constexpr static std::size_t addrs = 0x63ac888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberTrail*>(), { "LateUpdate", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberTrail::*)()>(&::GlobalNamespace::SaberTrail::OnEnable)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x63ac930;
+  constexpr static std::size_t addrs = 0x63acf80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberTrail*>(), { "OnEnable", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberTrail::*)()>(&::GlobalNamespace::SaberTrail::OnDisable)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x63aca7c;
+  constexpr static std::size_t addrs = 0x63ad0cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberTrail*>(), { "OnDisable", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberTrail::*)()>(&::GlobalNamespace::SaberTrail::OnDestroy)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x63acba0;
+  constexpr static std::size_t addrs = 0x63ad1f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberTrail*>(), { "OnDestroy", {}, {} })));
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::SaberTrail::*)(::GlobalNamespace::BladeMovementDataElement)>(&::GlobalNamespace::SaberTrail::GetTrailWidth)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x63abf34;
+  constexpr static std::size_t addrs = 0x63ac584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberTrail::*)()>(&::GlobalNamespace::SaberTrail::OnDrawGizmosSelected)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x63acc4c;
+  constexpr static std::size_t addrs = 0x63ad29c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberTrail*>(), { "OnDrawGizmosSelected", {}, {} })));
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberTrail::*)()>(&::GlobalNamespace::SaberTrail::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x63ace60;
+  constexpr static std::size_t addrs = 0x63ad4b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberTrail*>(), { ".ctor", {}, {} })));

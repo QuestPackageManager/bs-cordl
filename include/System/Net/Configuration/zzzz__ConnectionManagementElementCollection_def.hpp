@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::System::Net::Configuration::ConnectionManagementElementCollection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x67d6a30, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67d7080, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

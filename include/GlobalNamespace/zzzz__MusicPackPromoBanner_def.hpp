@@ -5,9 +5,13 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
+#include <cstdint>
 CORDL_MODULE_EXPORT(MusicPackPromoBanner)
 namespace GlobalNamespace {
 class DlcPromoPanelModel_PromoInfo;
+}
+namespace GlobalNamespace {
+class FloatCvar;
 }
 namespace TMPro {
 class TextMeshProUGUI;
@@ -44,6 +48,12 @@ public:
   /// @brief Field _loadingIndicator, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__loadingIndicator, put = __cordl_internal_set__loadingIndicator)) ::UnityW<::UnityEngine::GameObject> _loadingIndicator;
 
+  /// @brief Field _mipmapBias, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF__mipmapBias, put = setStaticF__mipmapBias)) ::GlobalNamespace::FloatCvar* _mipmapBias;
+
+  /// @brief Field _mipmapBiasId, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF__mipmapBiasId, put = setStaticF__mipmapBiasId)) int32_t _mipmapBiasId;
+
   /// @brief Field _promoBannerGo, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__promoBannerGo, put = __cordl_internal_set__promoBannerGo)) ::UnityW<::UnityEngine::GameObject> _promoBannerGo;
 
@@ -61,12 +71,21 @@ public:
 
   __declspec(property(get = get_promoInfo, put = set_promoInfo)) ::GlobalNamespace::DlcPromoPanelModel_PromoInfo* promoInfo;
 
+  /// @brief Method HandleMipmapBiasChanged, addr 0x5d2b9bc, size 0xe4, virtual false, abstract: false, final false
+  inline void HandleMipmapBiasChanged();
+
   static inline ::GlobalNamespace::MusicPackPromoBanner* New_ctor();
 
-  /// @brief Method Setup, addr 0x5d2bd18, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5d2b73c, size 0xd8, virtual false, abstract: false, final false
+  inline void OnDisable();
+
+  /// @brief Method OnEnable, addr 0x5d2b664, size 0xd8, virtual false, abstract: false, final false
+  inline void OnEnable();
+
+  /// @brief Method Setup, addr 0x5d2b880, size 0x13c, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* newPromoInfo, bool probablyOwned);
 
-  /// @brief Method StartLoading, addr 0x5d2bcac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method StartLoading, addr 0x5d2b814, size 0x6c, virtual false, abstract: false, final false
   inline void StartLoading();
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__backgroundImage() const;
@@ -111,18 +130,26 @@ public:
 
   constexpr void __cordl_internal_set__text(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5d2be54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d2baa0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_promoButtonText, addr 0x5d2bca4, size 0x8, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::FloatCvar* getStaticF__mipmapBias();
+
+  static inline int32_t getStaticF__mipmapBiasId();
+
+  /// @brief Method get_promoButtonText, addr 0x5d2b65c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_promoButtonText();
 
   /// [CompilerGenerated]
-  /// @brief Method get_promoInfo, addr 0x5d2bc94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_promoInfo, addr 0x5d2b64c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::DlcPromoPanelModel_PromoInfo* get_promoInfo();
 
+  static inline void setStaticF__mipmapBias(::GlobalNamespace::FloatCvar* value);
+
+  static inline void setStaticF__mipmapBiasId(int32_t value);
+
   /// [CompilerGenerated]
-  /// @brief Method set_promoInfo, addr 0x5d2bc9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_promoInfo, addr 0x5d2b654, size 0x8, virtual false, abstract: false, final false
   inline void set_promoInfo(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* value);
 
 protected:
@@ -140,7 +167,7 @@ public:
   MusicPackPromoBanner(MusicPackPromoBanner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6614 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6613 };
 
   /// @brief Field kGetNow offset 0xffffffff size 0x8
   static constexpr ::ConstString kGetNow{ u"PROMO_GET_NOW_LABEL" };

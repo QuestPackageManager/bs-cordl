@@ -43,7 +43,7 @@ public:
       get = __cordl_internal_get__Expressions_k__BackingField,
       put = __cordl_internal_set__Expressions_k__BackingField)) ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* _Expressions_k__BackingField;
 
-  /// @brief Method IsMatch, addr 0x61e9418, size 0x224, virtual true, abstract: false, final false
+  /// @brief Method IsMatch, addr 0x61e96a0, size 0x224, virtual true, abstract: false, final false
   inline bool IsMatch(::Newtonsoft::Json::Linq::JToken* root, ::Newtonsoft::Json::Linq::JToken* t, /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::CompositeExpression* New_ctor(::Newtonsoft::Json::Linq::JsonPath::QueryOperator _cordl_operator);
@@ -54,15 +54,15 @@ public:
 
   constexpr void __cordl_internal_set__Expressions_k__BackingField(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* value);
 
-  /// @brief Method .ctor, addr 0x61e8c4c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61e8ed4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JsonPath::QueryOperator _cordl_operator);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Expressions, addr 0x61e9408, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Expressions, addr 0x61e9690, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* get_Expressions();
 
   /// [CompilerGenerated]
-  /// @brief Method set_Expressions, addr 0x61e9410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Expressions, addr 0x61e9698, size 0x8, virtual false, abstract: false, final false
   inline void set_Expressions(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* value);
 
 protected:

@@ -34,7 +34,7 @@ public:
 
   __declspec(property(get = get_colorScheme, put = set_colorScheme)) ::UnityW<::GlobalNamespace::ColorSchemeSO> colorScheme;
 
-  /// @brief Method InstallBindings, addr 0x5d607c0, size 0xf9c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x5d5fd34, size 0xf9c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::LightmappingSceneSetup* New_ctor();
@@ -51,13 +51,13 @@ public:
 
   constexpr void __cordl_internal_set__gameplayCoreSceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  /// @brief Method .ctor, addr 0x5d6175c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d60cd0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colorScheme, addr 0x5d607b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorScheme, addr 0x5d5fd24, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::ColorSchemeSO> get_colorScheme();
 
-  /// @brief Method set_colorScheme, addr 0x5d607b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colorScheme, addr 0x5d5fd2c, size 0x8, virtual false, abstract: false, final false
   inline void set_colorScheme(::GlobalNamespace::ColorSchemeSO* value);
 
 protected:
@@ -75,7 +75,7 @@ public:
   LightmappingSceneSetup(LightmappingSceneSetup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6841 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6840 };
 
   /// [SerializeField]
   /// @brief Field _colorScheme, offset: 0x28, size: 0x8, def value: None

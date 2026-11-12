@@ -115,11 +115,11 @@ public:
 
   constexpr void __cordl_internal_set_sizeInBits(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6bff938, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c00a18, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::UnityEngine::Rendering::FieldPacking packingScheme, int32_t bitSize, int32_t offsetInSource, float_t minValue, float_t maxValue, bool isDirection,
                     bool sRGBDisplay, bool checkIsNormalized, ::StringW preprocessor);
 
-  /// @brief Method .ctor, addr 0x6bff848, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c00928, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW> displayNames, ::UnityEngine::Rendering::FieldPacking packingScheme, int32_t bitSize, int32_t offsetInSource, float_t minValue, float_t maxValue,
                     bool isDirection, bool sRGBDisplay, bool checkIsNormalized, ::StringW preprocessor);
 

@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FireworksController__SpawningCoroutine_d__10::*)(int32_t)>(
     &::GlobalNamespace::FireworksController__SpawningCoroutine_d__10::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dde46c;
+  constexpr static std::size_t addrs = 0x5dde588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FireworksController__SpawningCoroutine_d__10::*)()>(
     &::GlobalNamespace::FireworksController__SpawningCoroutine_d__10::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5dde554;
+  constexpr static std::size_t addrs = 0x5dde670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::FireworksController__SpawningCoroutine_d__10::*)()>(
     &::GlobalNamespace::FireworksController__SpawningCoroutine_d__10::MoveNext)> {
   constexpr static std::size_t size = 0x3f0;
-  constexpr static std::size_t addrs = 0x5dde558;
+  constexpr static std::size_t addrs = 0x5dde674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::FireworksController__SpawningCoroutine_d__10::*)()>(
     &::GlobalNamespace::FireworksController__SpawningCoroutine_d__10::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dde948;
+  constexpr static std::size_t addrs = 0x5ddea64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FireworksController__SpawningCoroutine_d__10*>(),
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FireworksController__SpawningCoroutine_d__10::*)()>(
     &::GlobalNamespace::FireworksController__SpawningCoroutine_d__10::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5dde950;
+  constexpr static std::size_t addrs = 0x5ddea6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::FireworksController__SpawningCoroutine_d__10::*)()>(
     &::GlobalNamespace::FireworksController__SpawningCoroutine_d__10::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dde988;
+  constexpr static std::size_t addrs = 0x5ddeaa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FireworksController::*)()>(&::GlobalNamespace::FireworksController::OnEnable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5dde270;
+  constexpr static std::size_t addrs = 0x5dde38c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FireworksController*>(), { "OnEnable", {}, {} })));
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FireworksController::*)()>(&::GlobalNamespace::FireworksController::OnDisable)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5dde2e4;
+  constexpr static std::size_t addrs = 0x5dde400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FireworksController*>(), { "OnDisable", {}, {} })));
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::FireworksController::*)()>(&::GlobalNamespace::FireworksController::SpawningCoroutine)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5dde290;
+  constexpr static std::size_t addrs = 0x5dde3ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FireworksController*>(), { "SpawningCoroutine", {}, {} })));
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FireworksController::*)(::GlobalNamespace::FireworkItemController*)>(
     &::GlobalNamespace::FireworksController::ClearFireworkItemController)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5dde380;
+  constexpr static std::size_t addrs = 0x5dde49c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FireworksController*>(),
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FireworksController::*)()>(&::GlobalNamespace::FireworksController::OnDrawGizmosSelected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5dde474;
+  constexpr static std::size_t addrs = 0x5dde590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FireworksController*>(), { "OnDrawGizmosSelected", {}, {} })));
@@ -259,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FireworksController::*)()>(&::GlobalNamespace::FireworksController::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5dde4c8;
+  constexpr static std::size_t addrs = 0x5dde5e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FireworksController*>(), { ".ctor", {}, {} })));

@@ -87,10 +87,10 @@ public:
 
   __declspec(property(get = get_missionId, put = set_missionId)) ::StringW missionId;
 
-  /// @brief Method Finish, addr 0x5dc8a2c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x5dc8b48, size 0x28, virtual false, abstract: false, final false
   inline void Finish(::GlobalNamespace::MissionCompletionResults* levelCompletionResults);
 
-  /// @brief Method Init, addr 0x5dc8618, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5dc8734, size 0x414, virtual false, abstract: false, final false
   inline void Init(::StringW missionId, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                    /* [Nullable(2)] */ ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::ArrayW<::GlobalNamespace::MissionObjective*> missionObjectives,
                    /* [Nullable(2)] */ ::GlobalNamespace::ColorScheme* playerOverrideColorScheme, bool playerOverrideLightshowColors, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
@@ -119,33 +119,33 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*>* value);
 
-  /// @brief Method .ctor, addr 0x5dc8a54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dc8b70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_didFinishEvent, addr 0x5dc8460, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x5dc857c, size 0xc0, virtual false, abstract: false, final false
   inline void
   add_didFinishEvent(/* [Nullable(new[] { 2, 1, 1 })] */ ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method get_beatmapKey, addr 0x5dc85f0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapKey, addr 0x5dc870c, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
 
   /// [CompilerGenerated]
-  /// @brief Method get_missionId, addr 0x5dc85e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionId, addr 0x5dc86fc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_missionId();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didFinishEvent, addr 0x5dc8520, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x5dc863c, size 0xc0, virtual false, abstract: false, final false
   inline void
   remove_didFinishEvent(/* [Nullable(new[] { 2, 1, 1 })] */ ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_beatmapKey, addr 0x5dc8604, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapKey, addr 0x5dc8720, size 0x14, virtual false, abstract: false, final false
   inline void set_beatmapKey(::GlobalNamespace::BeatmapKey value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_missionId, addr 0x5dc85e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_missionId, addr 0x5dc8704, size 0x8, virtual false, abstract: false, final false
   inline void set_missionId(::StringW value);
 
 protected:

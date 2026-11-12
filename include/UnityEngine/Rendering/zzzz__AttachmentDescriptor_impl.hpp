@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::AttachmentDescriptor::*)(::UnityEngine::Rendering::RenderBufferLoadAction)>(
     &::UnityEngine::Rendering::AttachmentDescriptor::set_loadAction)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fb880c;
+  constexpr static std::size_t addrs = 0x6fb98ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AttachmentDescriptor>(),
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderBufferStoreAction (::UnityEngine::Rendering::AttachmentDescriptor::*)()>(
     &::UnityEngine::Rendering::AttachmentDescriptor::get_storeAction)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fb8814;
+  constexpr static std::size_t addrs = 0x6fb98f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AttachmentDescriptor>(), { "get_storeAction", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::AttachmentDescriptor::*)(::UnityEngine::Rendering::RenderBufferStoreAction)>(
     &::UnityEngine::Rendering::AttachmentDescriptor::set_storeAction)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fb881c;
+  constexpr static std::size_t addrs = 0x6fb98fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AttachmentDescriptor>(),
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderTargetIdentifier (::UnityEngine::Rendering::AttachmentDescriptor::*)()>(
     &::UnityEngine::Rendering::AttachmentDescriptor::get_loadStoreTarget)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6fb8824;
+  constexpr static std::size_t addrs = 0x6fb9904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AttachmentDescriptor>(), { "get_loadStoreTarget", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::AttachmentDescriptor::*)(::UnityEngine::Rendering::RenderTargetIdentifier)>(
     &::UnityEngine::Rendering::AttachmentDescriptor::set_loadStoreTarget)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6fb8838;
+  constexpr static std::size_t addrs = 0x6fb9918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AttachmentDescriptor>(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::AttachmentDescriptor::*)(::UnityEngine::Rendering::RenderTargetIdentifier)>(
     &::UnityEngine::Rendering::AttachmentDescriptor::set_resolveTarget)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6fb884c;
+  constexpr static std::size_t addrs = 0x6fb992c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AttachmentDescriptor>(),
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::AttachmentDescriptor::*)(::UnityEngine::Color)>(
     &::UnityEngine::Rendering::AttachmentDescriptor::set_clearColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6fb8864;
+  constexpr static std::size_t addrs = 0x6fb9944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::AttachmentDescriptor::*)(float_t)>(&::UnityEngine::Rendering::AttachmentDescriptor::set_clearDepth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fb8870;
+  constexpr static std::size_t addrs = 0x6fb9950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::AttachmentDescriptor::*)(uint32_t)>(&::UnityEngine::Rendering::AttachmentDescriptor::set_clearStencil)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fb8878;
+  constexpr static std::size_t addrs = 0x6fb9958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::AttachmentDescriptor::*)(::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Rendering::AttachmentDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6fb8880;
+  constexpr static std::size_t addrs = 0x6fb9960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AttachmentDescriptor>(),
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::AttachmentDescriptor::*)(::UnityEngine::Rendering::AttachmentDescriptor)>(
     &::UnityEngine::Rendering::AttachmentDescriptor::Equals)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x6fb88e4;
+  constexpr static std::size_t addrs = 0x6fb99c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::AttachmentDescriptor::*)(::System::Object*)>(&::UnityEngine::Rendering::AttachmentDescriptor::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6fb8b38;
+  constexpr static std::size_t addrs = 0x6fb9c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::AttachmentDescriptor::*)()>(&::UnityEngine::Rendering::AttachmentDescriptor::GetHashCode)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6fb8bcc;
+  constexpr static std::size_t addrs = 0x6fb9cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

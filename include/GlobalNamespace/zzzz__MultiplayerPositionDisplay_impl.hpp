@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerPositionDisplay::*)()>(&::GlobalNamespace::MultiplayerPositionDisplay::Start)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x5e3b368;
+  constexpr static std::size_t addrs = 0x5e3b798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerPositionDisplay*>(), { "Start", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerPositionDisplay::*)()>(&::GlobalNamespace::MultiplayerPositionDisplay::OnDestroy)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5e3b484;
+  constexpr static std::size_t addrs = 0x5e3b8b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerPositionDisplay*>(), { "OnDestroy", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerPositionDisplay::*)()>(&::GlobalNamespace::MultiplayerPositionDisplay::Update)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5e3b60c;
+  constexpr static std::size_t addrs = 0x5e3ba3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerPositionDisplay*>(), { "Update", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerPositionDisplay::*)()>(&::GlobalNamespace::MultiplayerPositionDisplay::UpdateColors)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5e3b658;
+  constexpr static std::size_t addrs = 0x5e3ba88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerPositionDisplay*>(), { "UpdateColors", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerPositionDisplay::*)()>(&::GlobalNamespace::MultiplayerPositionDisplay::UpdatePosition)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x5e3b710;
+  constexpr static std::size_t addrs = 0x5e3bb40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerPositionDisplay*>(), { "UpdatePosition", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerPositionDisplay::*)()>(&::GlobalNamespace::MultiplayerPositionDisplay::HandlePlayerFailed)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5e3b8b0;
+  constexpr static std::size_t addrs = 0x5e3bce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerPositionDisplay*>(), { "HandlePlayerFailed", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerPositionDisplay::*)(::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*)>(
     &::GlobalNamespace::MultiplayerPositionDisplay::HandleFirstPlayerDidChange)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5e3b8c8;
+  constexpr static std::size_t addrs = 0x5e3bcf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerPositionDisplay::*)(::UnityEngine::Color, float_t)>(
     &::GlobalNamespace::MultiplayerPositionDisplay::ChangeColor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5e3b570;
+  constexpr static std::size_t addrs = 0x5e3b9a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerPositionDisplay*>(),
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerPositionDisplay::*)()>(&::GlobalNamespace::MultiplayerPositionDisplay::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e3b97c;
+  constexpr static std::size_t addrs = 0x5e3bdac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerPositionDisplay*>(), { ".ctor", {}, {} })));

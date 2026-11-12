@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::*)(
     ::System::Runtime::Remoting::Messaging::MessageDictionary*)>(&::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5f9bfb4;
+  constexpr static std::size_t addrs = 0x5f9c23c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator*>(),
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5f9c08c;
+  constexpr static std::size_t addrs = 0x5f9c314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x5f9c244;
+  constexpr static std::size_t addrs = 0x5f9c4cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::Reset)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5f9c40c;
+  constexpr static std::size_t addrs = 0x5f9c694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::DictionaryEntry (::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::get_Entry)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x5f9c0f4;
+  constexpr static std::size_t addrs = 0x5f9c37c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::get_Key)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f9c4bc;
+  constexpr static std::size_t addrs = 0x5f9c744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator::get_Value)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5f9c4c0;
+  constexpr static std::size_t addrs = 0x5f9c748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::MessageDictionary::*)(::System::Runtime::Remoting::Messaging::IMethodMessage*)>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f98c10;
+  constexpr static std::size_t addrs = 0x5f98e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::MessageDictionary*>(),
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::HasUserData)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x5f95af0;
+  constexpr static std::size_t addrs = 0x5f95d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::MessageDictionary*>(), { "HasUserData", {}, {} })));
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IDictionary* (::System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::get_InternalDictionary)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5f95c04;
+  constexpr static std::size_t addrs = 0x5f95e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::MessageDictionary::*)(::ArrayW<::StringW>)>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::set_MethodKeys)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f9ae5c;
+  constexpr static std::size_t addrs = 0x5f9b0e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IDictionary* (::System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::AllocInternalProperties)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5f9ae64;
+  constexpr static std::size_t addrs = 0x5f9b0ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::MessageDictionary*>(),
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IDictionary* (::System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::GetInternalProperties)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5f97d28;
+  constexpr static std::size_t addrs = 0x5f97fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Remoting::Messaging::MessageDictionary::*)(::StringW)>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::IsOverridenKey)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5f9aecc;
+  constexpr static std::size_t addrs = 0x5f9b154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::get_IsFixedSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f9af50;
+  constexpr static std::size_t addrs = 0x5f9b1d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -321,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f9af58;
+  constexpr static std::size_t addrs = 0x5f9b1e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -335,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::MessageDictionary::*)(::System::Object*)>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::get_Item)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x5f9af60;
+  constexpr static std::size_t addrs = 0x5f9b1e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::MessageDictionary::*)(::System::Object*, ::System::Object*)>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::set_Item)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f9b09c;
+  constexpr static std::size_t addrs = 0x5f9b324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::MessageDictionary*>(),
@@ -363,7 +363,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::MessageDictionary::*)(::StringW)>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::GetMethodProperty)> {
   constexpr static std::size_t size = 0x5ac;
-  constexpr static std::size_t addrs = 0x5f98ff0;
+  constexpr static std::size_t addrs = 0x5f99278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::MessageDictionary*>(),
@@ -377,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::MessageDictionary::*)(::StringW, ::System::Object*)>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::SetMethodProperty)> {
   constexpr static std::size_t size = 0x33c;
-  constexpr static std::size_t addrs = 0x5f9980c;
+  constexpr static std::size_t addrs = 0x5f99a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::MessageDictionary*>(),
@@ -391,7 +391,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ICollection* (::System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::get_Keys)> {
   constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x5f9b1f8;
+  constexpr static std::size_t addrs = 0x5f9b480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::MessageDictionary*>(), { "get_Keys", {}, {} })));
@@ -404,7 +404,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ICollection* (::System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::get_Values)> {
   constexpr static std::size_t size = 0x3f8;
-  constexpr static std::size_t addrs = 0x5f9b604;
+  constexpr static std::size_t addrs = 0x5f9b88c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::MessageDictionary*>(), { "get_Values", {}, {} })));
@@ -417,7 +417,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::MessageDictionary::*)(::System::Object*, ::System::Object*)>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::Add)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5f9b0a0;
+  constexpr static std::size_t addrs = 0x5f9b328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::MessageDictionary*>(),
@@ -430,7 +430,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(&::System::Runtime::Remoting::Messaging::MessageDictionary::Clear)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5f9b9fc;
+  constexpr static std::size_t addrs = 0x5f9bc84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::MessageDictionary*>(), { "Clear", {}, {} })));
@@ -443,7 +443,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Remoting::Messaging::MessageDictionary::*)(::System::Object*)>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::Contains)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5f9baac;
+  constexpr static std::size_t addrs = 0x5f9bd34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -457,7 +457,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::MessageDictionary::*)(::System::Object*)>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::Remove)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x5f9bbe4;
+  constexpr static std::size_t addrs = 0x5f9be6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -471,7 +471,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::get_Count)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5f9bd58;
+  constexpr static std::size_t addrs = 0x5f9bfe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::MessageDictionary*>(), { "get_Count", {}, {} })));
@@ -484,7 +484,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f9be24;
+  constexpr static std::size_t addrs = 0x5f9c0ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -498,7 +498,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::get_SyncRoot)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f9be2c;
+  constexpr static std::size_t addrs = 0x5f9c0b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::MessageDictionary*>(), { "get_SyncRoot", {}, {} })));
@@ -511,7 +511,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::MessageDictionary::*)(::System::Array*, int32_t)>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::CopyTo)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5f9be30;
+  constexpr static std::size_t addrs = 0x5f9c0b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::MessageDictionary*>(),
@@ -525,7 +525,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5f9bef4;
+  constexpr static std::size_t addrs = 0x5f9c17c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -539,7 +539,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IDictionaryEnumerator* (::System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(
     &::System::Runtime::Remoting::Messaging::MessageDictionary::GetEnumerator)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5f9bf54;
+  constexpr static std::size_t addrs = 0x5f9c1dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

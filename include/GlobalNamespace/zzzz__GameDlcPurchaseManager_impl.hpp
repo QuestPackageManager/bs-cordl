@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameDlcPurchaseManager__GetGameDlcEntitlementStatusAsync_d__11::*)()>(
     &::GlobalNamespace::GameDlcPurchaseManager__GetGameDlcEntitlementStatusAsync_d__11::MoveNext)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x39f02cc;
+  constexpr static std::size_t addrs = 0x39f5374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameDlcPurchaseManager__GetGameDlcEntitlementStatusAsync_d__11::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::GameDlcPurchaseManager__GetGameDlcEntitlementStatusAsync_d__11::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39f0554;
+  constexpr static std::size_t addrs = 0x39f55fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameDlcPurchaseManager__GetGameDlcEntitlementStatusAsync_d__11>(),
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameDlcPurchaseManager__PurchaseGameDlcAsync_d__12::*)()>(
     &::GlobalNamespace::GameDlcPurchaseManager__PurchaseGameDlcAsync_d__12::MoveNext)> {
   constexpr static std::size_t size = 0x4a0;
-  constexpr static std::size_t addrs = 0x39f05d4;
+  constexpr static std::size_t addrs = 0x39f567c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameDlcPurchaseManager__PurchaseGameDlcAsync_d__12::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::GameDlcPurchaseManager__PurchaseGameDlcAsync_d__12::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39f0a74;
+  constexpr static std::size_t addrs = 0x39f5b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameDlcPurchaseManager__PurchaseGameDlcAsync_d__12>(),
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameDlcPurchaseManager__RequestEntitlementStatusAsync_d__15::*)()>(
     &::GlobalNamespace::GameDlcPurchaseManager__RequestEntitlementStatusAsync_d__15::MoveNext)> {
   constexpr static std::size_t size = 0x504;
-  constexpr static std::size_t addrs = 0x39f0af4;
+  constexpr static std::size_t addrs = 0x39f5b9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameDlcPurchaseManager__RequestEntitlementStatusAsync_d__15::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::GameDlcPurchaseManager__RequestEntitlementStatusAsync_d__15::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39f0ff8;
+  constexpr static std::size_t addrs = 0x39f60a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameDlcPurchaseManager__RequestEntitlementStatusAsync_d__15>(),
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameDlcPurchaseManager::*)(::System::Action_2<::StringW, ::GlobalNamespace::EntitlementStatus>*)>(
     &::GlobalNamespace::GameDlcPurchaseManager::add_gameDlcEntitlementDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x39ef640;
+  constexpr static std::size_t addrs = 0x39f46e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameDlcPurchaseManager::*)(::System::Action_2<::StringW, ::GlobalNamespace::EntitlementStatus>*)>(
     &::GlobalNamespace::GameDlcPurchaseManager::remove_gameDlcEntitlementDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x39ef700;
+  constexpr static std::size_t addrs = 0x39f47a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameDlcPurchaseManager::*)(::GlobalNamespace::IEntitlementModel*, ::GlobalNamespace::IAdditionalContentModel*)>(
     &::GlobalNamespace::GameDlcPurchaseManager::_ctor)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x39ef7c0;
+  constexpr static std::size_t addrs = 0x39f4868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -263,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameDlcPurchaseManager::*)()>(&::GlobalNamespace::GameDlcPurchaseManager::Dispose)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x39efa20;
+  constexpr static std::size_t addrs = 0x39f4ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameDlcPurchaseManager*>(), { "Dispose", {}, {} })));
@@ -276,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* (
     ::GlobalNamespace::GameDlcPurchaseManager::*)(::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::GameDlcPurchaseManager::GetGameDlcEntitlementStatusAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x39efb44;
+  constexpr static std::size_t addrs = 0x39f4bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::GameDlcPurchaseResult>* (
     ::GlobalNamespace::GameDlcPurchaseManager::*)(::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::GameDlcPurchaseManager::PurchaseGameDlcAsync)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x39efc34;
+  constexpr static std::size_t addrs = 0x39f4cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* (::GlobalNamespace::GameDlcPurchaseManager::*)(::StringW)>(
     &::GlobalNamespace::GameDlcPurchaseManager::GetOrStartEntitlementRequestAsync)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x39efd28;
+  constexpr static std::size_t addrs = 0x39f4dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -320,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* (::GlobalNamespace::GameDlcPurchaseManager::*)(::StringW)>(
     &::GlobalNamespace::GameDlcPurchaseManager::RefreshEntitlementStatusAsync)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x39efe5c;
+  constexpr static std::size_t addrs = 0x39f4f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -334,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* (::GlobalNamespace::GameDlcPurchaseManager::*)(::StringW)>(
     &::GlobalNamespace::GameDlcPurchaseManager::RequestEntitlementStatusAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x39eff3c;
+  constexpr static std::size_t addrs = 0x39f4fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -348,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameDlcPurchaseManager::*)(::StringW, ::GlobalNamespace::EntitlementStatus)>(
     &::GlobalNamespace::GameDlcPurchaseManager::SetEntitlementStatus)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x39f002c;
+  constexpr static std::size_t addrs = 0x39f50d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -362,7 +362,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameDlcPurchaseManager::*)()>(&::GlobalNamespace::GameDlcPurchaseManager::HandleAdditionalContentDidInvalidateData)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x39f0128;
+  constexpr static std::size_t addrs = 0x39f51d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

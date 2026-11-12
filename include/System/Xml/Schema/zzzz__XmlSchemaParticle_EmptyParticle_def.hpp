@@ -23,10 +23,10 @@ public:
 
   static inline ::GlobalNamespace::XmlSchemaParticle_EmptyParticle* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6698a54, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66990a4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsEmpty, addr 0x6698aac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x66990fc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsEmpty();
 
 protected:

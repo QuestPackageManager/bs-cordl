@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::UIR::EntryPreProcessor::*)()>(&::UnityEngine::UIElements::UIR::EntryPreProcessor::get_childrenIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71a562c;
+  constexpr static std::size_t addrs = 0x71a670c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryPreProcessor*>(), { "get_childrenIndex", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::EntryPreProcessor_AllocSize>* (
     ::UnityEngine::UIElements::UIR::EntryPreProcessor::*)()>(&::UnityEngine::UIElements::UIR::EntryPreProcessor::get_headAllocs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71a5634;
+  constexpr static std::size_t addrs = 0x71a6714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryPreProcessor*>(), { "get_headAllocs", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::EntryPreProcessor_AllocSize>* (
     ::UnityEngine::UIElements::UIR::EntryPreProcessor::*)()>(&::UnityEngine::UIElements::UIR::EntryPreProcessor::get_tailAllocs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71a563c;
+  constexpr static std::size_t addrs = 0x71a671c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryPreProcessor*>(), { "get_tailAllocs", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Entry*>* (::UnityEngine::UIElements::UIR::EntryPreProcessor::*)()>(
     &::UnityEngine::UIElements::UIR::EntryPreProcessor::get_flattenedEntries)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71a5644;
+  constexpr static std::size_t addrs = 0x71a6724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryPreProcessor*>(), { "get_flattenedEntries", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryPreProcessor::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryPreProcessor::PreProcess)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x71a564c;
+  constexpr static std::size_t addrs = 0x71a672c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryPreProcessor::*)()>(&::UnityEngine::UIElements::UIR::EntryPreProcessor::ClearReferences)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x71a5be4;
+  constexpr static std::size_t addrs = 0x71a6cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryPreProcessor*>(), { "ClearReferences", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryPreProcessor::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryPreProcessor::DoEvaluate)> {
   constexpr static std::size_t size = 0x3b8;
-  constexpr static std::size_t addrs = 0x71a582c;
+  constexpr static std::size_t addrs = 0x71a690c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryPreProcessor::*)(int32_t, int32_t)>(&::UnityEngine::UIElements::UIR::EntryPreProcessor::Add)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x71a5c5c;
+  constexpr static std::size_t addrs = 0x71a6d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryPreProcessor::*)()>(&::UnityEngine::UIElements::UIR::EntryPreProcessor::Flush)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x71a5dc4;
+  constexpr static std::size_t addrs = 0x71a6ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryPreProcessor*>(), { "Flush", {}, {} })));
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryPreProcessor::*)()>(&::UnityEngine::UIElements::UIR::EntryPreProcessor::_ctor)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x71a5e74;
+  constexpr static std::size_t addrs = 0x71a6f54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryPreProcessor*>(), { ".ctor", {}, {} })));

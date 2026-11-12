@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::*)(int32_t)>(&::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d6b1dc;
+  constexpr static std::size_t addrs = 0x5d6adec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::*)()>(
     &::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d6b418;
+  constexpr static std::size_t addrs = 0x5d6b028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,8 +56,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::*)()>(&::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::MoveNext)> {
-  constexpr static std::size_t size = 0x6f8;
-  constexpr static std::size_t addrs = 0x5d6b41c;
+  constexpr static std::size_t size = 0x708;
+  constexpr static std::size_t addrs = 0x5d6b02c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16*>(), { "MoveNext", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::*)()>(
     &::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d6bb14;
+  constexpr static std::size_t addrs = 0x5d6b734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16*>(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::*)()>(
     &::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5d6bb1c;
+  constexpr static std::size_t addrs = 0x5d6b73c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::*)()>(
     &::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d6bb54;
+  constexpr static std::size_t addrs = 0x5d6b774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleLevelStarter::*)()>(&::GlobalNamespace::SimpleLevelStarter::Awake)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5d6b068;
+  constexpr static std::size_t addrs = 0x5d6ac78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter*>(), { "Awake", {}, {} })));
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleLevelStarter::*)()>(&::GlobalNamespace::SimpleLevelStarter::OnDestroy)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5d6b130;
+  constexpr static std::size_t addrs = 0x5d6ad40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter*>(), { "OnDestroy", {}, {} })));
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::SimpleLevelStarter::*)()>(&::GlobalNamespace::SimpleLevelStarter::StartLevel)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5d6b188;
+  constexpr static std::size_t addrs = 0x5d6ad98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter*>(), { "StartLevel", {}, {} })));
@@ -260,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleLevelStarter::*)(::GlobalNamespace::ScenesTransitionSetupData*, ::Zenject::DiContainer*)>(
     &::GlobalNamespace::SimpleLevelStarter::InstallEarlyBindings)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5d6b1e4;
+  constexpr static std::size_t addrs = 0x5d6adf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -274,7 +274,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleLevelStarter::*)()>(&::GlobalNamespace::SimpleLevelStarter::ButtonPressed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5d6b328;
+  constexpr static std::size_t addrs = 0x5d6af38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter*>(), { "ButtonPressed", {}, {} })));
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleLevelStarter::*)(
     ::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*)>(&::GlobalNamespace::SimpleLevelStarter::HandleLevelDidFinish)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5d6b348;
+  constexpr static std::size_t addrs = 0x5d6af58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleLevelStarter::*)()>(&::GlobalNamespace::SimpleLevelStarter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d6b384;
+  constexpr static std::size_t addrs = 0x5d6af94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter*>(), { ".ctor", {}, {} })));
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleLevelStarter::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::SimpleLevelStarter::_StartLevel_g__AfterSceneSwitchCallback_16_0)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5d6b388;
+  constexpr static std::size_t addrs = 0x5d6af98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter*>(),

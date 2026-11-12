@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::UnityEngine::XR::XRDisplaySubsystemDescriptor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x7311ad0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7313db0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   XRDisplaySubsystemDescriptor(XRDisplaySubsystemDescriptor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22747 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22486 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

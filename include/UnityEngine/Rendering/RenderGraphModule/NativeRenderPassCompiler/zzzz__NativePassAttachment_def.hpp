@@ -35,7 +35,7 @@ namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct CORDL_TYPE NativePassAttachment {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6c64f44, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c66024, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> handle, ::UnityEngine::Rendering::RenderBufferLoadAction loadAction,
                     ::UnityEngine::Rendering::RenderBufferStoreAction storeAction, bool memoryless, int32_t mipLevel, int32_t depthSlice);
 

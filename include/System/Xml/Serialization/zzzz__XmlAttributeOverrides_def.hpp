@@ -43,10 +43,10 @@ public:
   /// @brief Field overrides, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_overrides, put = __cordl_internal_set_overrides)) ::System::Collections::Hashtable* overrides;
 
-  /// @brief Method AddKeyHash, addr 0x6751398, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x67519e8, size 0x4c4, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
-  /// @brief Method GetKey, addr 0x6757c84, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetKey, addr 0x67582d4, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::TypeMember* GetKey(::System::Type* type, ::StringW member);
 
   static inline ::System::Xml::Serialization::XmlAttributeOverrides* New_ctor();
@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set_overrides(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x6757b58, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67581a8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Item, addr 0x6757bb8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6758208, size 0x14, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlAttributes* get_Item(::System::Type* type);
 
-  /// @brief Method get_Item, addr 0x6757bcc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x675821c, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlAttributes* get_Item(::System::Type* type, ::StringW member);
 
 protected:

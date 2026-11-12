@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::EdgeLookup___c__DisplayClass16_0::*)()>(&::UnityEngine::ProBuilder::EdgeLookup___c__DisplayClass16_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b028c8;
+  constexpr static std::size_t addrs = 0x6b039a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::EdgeLookup___c__DisplayClass16_0*>(), { ".ctor", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::EdgeLookup (::UnityEngine::ProBuilder::EdgeLookup___c__DisplayClass16_0::*)(::UnityEngine::ProBuilder::Edge)>(
     &::UnityEngine::ProBuilder::EdgeLookup___c__DisplayClass16_0::_GetEdgeLookup_b__0)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b02c5c;
+  constexpr static std::size_t addrs = 0x6b03d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::EdgeLookup___c__DisplayClass16_0*>(),
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::EdgeLookup::*)()>(&::UnityEngine::ProBuilder::EdgeLookup::get_local)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b022b0;
+  constexpr static std::size_t addrs = 0x6b03390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::EdgeLookup>(), { "get_local", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::EdgeLookup::*)(::UnityEngine::ProBuilder::Edge)>(&::UnityEngine::ProBuilder::EdgeLookup::set_local)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b022b8;
+  constexpr static std::size_t addrs = 0x6b03398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::EdgeLookup::*)()>(&::UnityEngine::ProBuilder::EdgeLookup::get_common)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b022c0;
+  constexpr static std::size_t addrs = 0x6b033a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::EdgeLookup>(), { "get_common", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::EdgeLookup::*)(::UnityEngine::ProBuilder::Edge)>(&::UnityEngine::ProBuilder::EdgeLookup::set_common)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b022c8;
+  constexpr static std::size_t addrs = 0x6b033a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::EdgeLookup::*)(::UnityEngine::ProBuilder::Edge, ::UnityEngine::ProBuilder::Edge)>(
     &::UnityEngine::ProBuilder::EdgeLookup::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b022d0;
+  constexpr static std::size_t addrs = 0x6b033b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::EdgeLookup::*)(int32_t, int32_t, int32_t, int32_t)>(&::UnityEngine::ProBuilder::EdgeLookup::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6b022d8;
+  constexpr static std::size_t addrs = 0x6b033b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::EdgeLookup::*)(::UnityEngine::ProBuilder::EdgeLookup)>(&::UnityEngine::ProBuilder::EdgeLookup::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b022f0;
+  constexpr static std::size_t addrs = 0x6b033d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::EdgeLookup::*)(::System::Object*)>(&::UnityEngine::ProBuilder::EdgeLookup::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b02380;
+  constexpr static std::size_t addrs = 0x6b03460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::EdgeLookup::*)()>(&::UnityEngine::ProBuilder::EdgeLookup::GetHashCode)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6b02410;
+  constexpr static std::size_t addrs = 0x6b034f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::EdgeLookup)>(&::UnityEngine::ProBuilder::EdgeLookup::op_Equality)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6b02488;
+  constexpr static std::size_t addrs = 0x6b03568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::EdgeLookup)>(&::UnityEngine::ProBuilder::EdgeLookup::op_Inequality)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6b02554;
+  constexpr static std::size_t addrs = 0x6b03634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ProBuilder::EdgeLookup::*)()>(&::UnityEngine::ProBuilder::EdgeLookup::ToString)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x6b02618;
+  constexpr static std::size_t addrs = 0x6b036f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -228,7 +228,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::UnityEngine::ProBuilder::EdgeLookup>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*)>(
     &::UnityEngine::ProBuilder::EdgeLookup::GetEdgeLookup)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6b027b8;
+  constexpr static std::size_t addrs = 0x6b03898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::EdgeLookup>(),
@@ -246,7 +246,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::UnityEngine::ProBuilder::EdgeLookup>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*)>(
     &::UnityEngine::ProBuilder::EdgeLookup::GetEdgeLookupHashSet)> {
   constexpr static std::size_t size = 0x390;
-  constexpr static std::size_t addrs = 0x6b028cc;
+  constexpr static std::size_t addrs = 0x6b039ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::EdgeLookup>(),

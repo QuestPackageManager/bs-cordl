@@ -32,28 +32,28 @@ public:
 
   __declspec(property(get = get_device, put = set_device)) ::UnityEngine::InputSystem::InputDevice* device;
 
-  /// @brief Method EnqueueRumble, addr 0x69f49fc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method EnqueueRumble, addr 0x69f5adc, size 0xc4, virtual false, abstract: false, final false
   inline void EnqueueRumble(::ArrayW<uint8_t> samples);
 
-  /// @brief Method .ctor, addr 0x69f4898, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69f5978, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::InputDevice* device);
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_capabilities, addr 0x69f4860, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_capabilities, addr 0x69f5940, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities get_capabilities();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_device, addr 0x69f4888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_device, addr 0x69f5968, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* get_device();
 
   /// [CompilerGenerated]
-  /// @brief Method set_capabilities, addr 0x69f4874, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_capabilities, addr 0x69f5954, size 0x14, virtual false, abstract: false, final false
   inline void set_capabilities(::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_device, addr 0x69f4890, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_device, addr 0x69f5970, size 0x8, virtual false, abstract: false, final false
   inline void set_device(::UnityEngine::InputSystem::InputDevice* value);
 
   // Ctor Parameters []

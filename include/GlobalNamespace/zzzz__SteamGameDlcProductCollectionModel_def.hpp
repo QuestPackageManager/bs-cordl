@@ -34,7 +34,7 @@ public:
       get = __cordl_internal_get__gameDlcIdToProductData,
       put = __cordl_internal_set__gameDlcIdToProductData)) ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::SteamGameDlcProductSO>>* _gameDlcIdToProductData;
 
-  /// @brief Method GetGameDlcProductData, addr 0x39f7288, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetGameDlcProductData, addr 0x39fc53c, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::SteamGameDlcProductSO> GetGameDlcProductData(::StringW gameDlcId);
 
   static inline ::GlobalNamespace::SteamGameDlcProductCollectionModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamGameDlcProductSO>>* gameDlcProducts);
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set__gameDlcIdToProductData(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::SteamGameDlcProductSO>>* value);
 
-  /// @brief Method .ctor, addr 0x39f6f24, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39fc1d8, size 0x364, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamGameDlcProductSO>>* gameDlcProducts);
 
 protected:
@@ -63,7 +63,7 @@ public:
   SteamGameDlcProductCollectionModel(SteamGameDlcProductCollectionModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14616 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14625 };
 
   /// @brief Field _gameDlcIdToProductData, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::SteamGameDlcProductSO>>* ____gameDlcIdToProductData;

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::LightGroupCountProviderDefault::*)()>(&::GlobalNamespace::LightGroupCountProviderDefault::get_count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cba3c0;
+  constexpr static std::size_t addrs = 0x5cb8bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightGroupCountProviderDefault*>(), { "get_count", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::LightGroupCountProviderDefault::*)()>(&::GlobalNamespace::LightGroupCountProviderDefault::get_numberOfElements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cba3c8;
+  constexpr static std::size_t addrs = 0x5cb8c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::LightGroupCountProviderDefault::*)()>(&::GlobalNamespace::LightGroupCountProviderDefault::GetColorCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cba3d0;
+  constexpr static std::size_t addrs = 0x5cb8c08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::LightGroupCountProviderDefault::*)()>(&::GlobalNamespace::LightGroupCountProviderDefault::GetFloatFxCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cba3d8;
+  constexpr static std::size_t addrs = 0x5cb8c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::LightGroupCountProviderDefault::*)(::GlobalNamespace::LightGroupAxis)>(
     &::GlobalNamespace::LightGroupCountProviderDefault::GetRotationCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cba3e0;
+  constexpr static std::size_t addrs = 0x5cb8c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::LightGroupCountProviderDefault::*)(::GlobalNamespace::LightGroupAxis)>(
     &::GlobalNamespace::LightGroupCountProviderDefault::GetTranslationCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cba3e8;
+  constexpr static std::size_t addrs = 0x5cb8c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightGroupCountProviderDefault::*)()>(&::GlobalNamespace::LightGroupCountProviderDefault::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cb920c;
+  constexpr static std::size_t addrs = 0x5cb7a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightGroupCountProviderDefault*>(), { ".ctor", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightGroupCountProviderDefault::*)(int32_t)>(&::GlobalNamespace::LightGroupCountProviderDefault::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5cba3f0;
+  constexpr static std::size_t addrs = 0x5cb8c28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

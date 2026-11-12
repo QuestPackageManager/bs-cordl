@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VisualMetronome::*)(float_t)>(&::GlobalNamespace::VisualMetronome::set_zeroOffset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5e59748;
+  constexpr static std::size_t addrs = 0x5e59bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::VisualMetronome::*)()>(&::GlobalNamespace::VisualMetronome::get_zeroOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e59758;
+  constexpr static std::size_t addrs = 0x5e59bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VisualMetronome*>(), { "get_zeroOffset", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VisualMetronome::*)()>(&::GlobalNamespace::VisualMetronome::Awake)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5e59760;
+  constexpr static std::size_t addrs = 0x5e59bdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VisualMetronome*>(), { "Awake", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VisualMetronome::*)()>(&::GlobalNamespace::VisualMetronome::OnEnable)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5e597f8;
+  constexpr static std::size_t addrs = 0x5e59c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VisualMetronome*>(), { "OnEnable", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VisualMetronome::*)()>(&::GlobalNamespace::VisualMetronome::OnDisable)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5e59840;
+  constexpr static std::size_t addrs = 0x5e59cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VisualMetronome*>(), { "OnDisable", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VisualMetronome::*)()>(&::GlobalNamespace::VisualMetronome::Update)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x5e59888;
+  constexpr static std::size_t addrs = 0x5e59d04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VisualMetronome*>(), { "Update", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VisualMetronome::*)(float_t)>(&::GlobalNamespace::VisualMetronome::SetMovingTickerNormalizedPosition)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5e599e8;
+  constexpr static std::size_t addrs = 0x5e59e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VisualMetronome::*)()>(&::GlobalNamespace::VisualMetronome::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5e59abc;
+  constexpr static std::size_t addrs = 0x5e59f38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VisualMetronome*>(), { ".ctor", {}, {} })));

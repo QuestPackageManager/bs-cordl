@@ -27,13 +27,13 @@ namespace UnityEngine {
 struct CORDL_TYPE AssemblyFullName {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x6f74178, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f75258, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method GetHashCode, addr 0x6f74228, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6f75308, size 0x90, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x6f742b8, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6f75398, size 0x1a8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []

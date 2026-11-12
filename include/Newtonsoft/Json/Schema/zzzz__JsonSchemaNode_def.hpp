@@ -58,13 +58,13 @@ public:
 
   static inline ::Newtonsoft::Json::Schema::JsonSchemaNode___c* New_ctor();
 
-  /// @brief Method <GetId>b__26_0, addr 0x61bd970, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <GetId>b__26_0, addr 0x61bdbf8, size 0x14, virtual false, abstract: false, final false
   inline ::StringW _GetId_b__26_0(::Newtonsoft::Json::Schema::JsonSchema* s);
 
-  /// @brief Method <GetId>b__26_1, addr 0x61bd984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetId>b__26_1, addr 0x61bdc0c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _GetId_b__26_1(::StringW id);
 
-  /// @brief Method .ctor, addr 0x61bd96c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61bdbf4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Schema::JsonSchemaNode___c* getStaticF___9();
@@ -155,10 +155,10 @@ public:
   __declspec(property(get = __cordl_internal_get__Schemas_k__BackingField,
                       put = __cordl_internal_set__Schemas_k__BackingField)) ::System::Collections::ObjectModel::ReadOnlyCollection_1<::Newtonsoft::Json::Schema::JsonSchema*>* _Schemas_k__BackingField;
 
-  /// @brief Method Combine, addr 0x61bcf74, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x61bd1fc, size 0x6c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchemaNode* Combine(::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method GetId, addr 0x61bcb38, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x61bcdc0, size 0x264, virtual false, abstract: false, final false
   static inline ::StringW GetId(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Schema::JsonSchema*>* schemata);
 
   static inline ::Newtonsoft::Json::Schema::JsonSchemaNode* New_ctor(::Newtonsoft::Json::Schema::JsonSchema* schema);
@@ -207,46 +207,46 @@ public:
 
   constexpr void __cordl_internal_set__Schemas_k__BackingField(::System::Collections::ObjectModel::ReadOnlyCollection_1<::Newtonsoft::Json::Schema::JsonSchema*>* value);
 
-  /// @brief Method .ctor, addr 0x61bcd9c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61bd024, size 0x1d8, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method .ctor, addr 0x61bd6d4, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61bd95c, size 0x244, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Schema::JsonSchemaNode* source, ::Newtonsoft::Json::Schema::JsonSchema* schema);
 
   /// [CompilerGenerated]
-  /// @brief Method get_AdditionalItems, addr 0x61bd6c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AdditionalItems, addr 0x61bd94c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchemaNode* get_AdditionalItems();
 
   /// [CompilerGenerated]
-  /// @brief Method get_AdditionalProperties, addr 0x61bd6b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AdditionalProperties, addr 0x61bd93c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchemaNode* get_AdditionalProperties();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Id, addr 0x61bd68c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x61bd914, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Items, addr 0x61bd6ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Items, addr 0x61bd934, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Schema::JsonSchemaNode*>* get_Items();
 
   /// [CompilerGenerated]
-  /// @brief Method get_PatternProperties, addr 0x61bd6a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PatternProperties, addr 0x61bd92c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaNode*>* get_PatternProperties();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Properties, addr 0x61bd69c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x61bd924, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaNode*>* get_Properties();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Schemas, addr 0x61bd694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Schemas, addr 0x61bd91c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::Newtonsoft::Json::Schema::JsonSchema*>* get_Schemas();
 
   /// [CompilerGenerated]
-  /// @brief Method set_AdditionalItems, addr 0x61bd6cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AdditionalItems, addr 0x61bd954, size 0x8, virtual false, abstract: false, final false
   inline void set_AdditionalItems(::Newtonsoft::Json::Schema::JsonSchemaNode* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_AdditionalProperties, addr 0x61bd6bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AdditionalProperties, addr 0x61bd944, size 0x8, virtual false, abstract: false, final false
   inline void set_AdditionalProperties(::Newtonsoft::Json::Schema::JsonSchemaNode* value);
 
 protected:

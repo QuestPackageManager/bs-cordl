@@ -102,15 +102,15 @@ public:
   /// @brief Field writeMode, offset 0x150, size 0x4
   __declspec(property(get = __cordl_internal_get_writeMode, put = __cordl_internal_set_writeMode)) ::UnityEngine::InputSystem::Controls::DiscreteButtonControl_WriteMode writeMode;
 
-  /// @brief Method FinishSetup, addr 0x6960af4, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x6961bd4, size 0x100, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::Controls::DiscreteButtonControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x6960bf4, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x6961cd4, size 0x18c, virtual true, abstract: false, final false
   inline float_t ReadUnprocessedValueFromState(void* statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x6960d84, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x6961e64, size 0x140, virtual true, abstract: false, final false
   inline void WriteValueIntoState(float_t value, void* statePtr);
 
   constexpr int32_t const& __cordl_internal_get_maxValue() const;
@@ -143,7 +143,7 @@ public:
 
   constexpr void __cordl_internal_set_writeMode(::UnityEngine::InputSystem::Controls::DiscreteButtonControl_WriteMode value);
 
-  /// @brief Method .ctor, addr 0x6960ec8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6961fa8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

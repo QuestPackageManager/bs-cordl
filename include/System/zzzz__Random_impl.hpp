@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Random::*)()>(&::System::Random::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x60af34c;
+  constexpr static std::size_t addrs = 0x60af5d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Random*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Random::*)(int32_t)>(&::System::Random::_ctor)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x60af5b8;
+  constexpr static std::size_t addrs = 0x60af840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Random*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::System::Random::*)()>(&::System::Random::Sample)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x60af754;
+  constexpr static std::size_t addrs = 0x60af9dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Random*>(), { ::i2c::class_of<::System::Random*>(), 4 }));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Random::*)()>(&::System::Random::InternalSample)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x60af774;
+  constexpr static std::size_t addrs = 0x60af9fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Random*>(), { "InternalSample", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::System::Random::GenerateSeed)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x60af3ac;
+  constexpr static std::size_t addrs = 0x60af634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Random*>(), { "GenerateSeed", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::System::Random::GenerateGlobalSeed)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x60af804;
+  constexpr static std::size_t addrs = 0x60afa8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Random*>(), { "GenerateGlobalSeed", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Random::*)()>(&::System::Random::Next)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x60af828;
+  constexpr static std::size_t addrs = 0x60afab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Random*>(), { ::i2c::class_of<::System::Random*>(), 5 }));
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::System::Random::*)()>(&::System::Random::GetSampleForLargeRange)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x60af82c;
+  constexpr static std::size_t addrs = 0x60afab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Random*>(), { "GetSampleForLargeRange", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Random::*)(int32_t, int32_t)>(&::System::Random::Next)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x60af878;
+  constexpr static std::size_t addrs = 0x60afb00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Random*>(), { ::i2c::class_of<::System::Random*>(), 6 }));
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Random::*)(int32_t)>(&::System::Random::Next)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x60af990;
+  constexpr static std::size_t addrs = 0x60afc18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Random*>(), { ::i2c::class_of<::System::Random*>(), 7 }));
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::System::Random::*)()>(&::System::Random::NextDouble)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x60afa54;
+  constexpr static std::size_t addrs = 0x60afcdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Random*>(), { ::i2c::class_of<::System::Random*>(), 8 }));
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Random::*)(::ArrayW<uint8_t>)>(&::System::Random::NextBytes)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x60afa60;
+  constexpr static std::size_t addrs = 0x60afce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Random*>(), { ::i2c::class_of<::System::Random*>(), 9 }));

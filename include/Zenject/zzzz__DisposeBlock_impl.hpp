@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Zenject::DisposeBlock::NoDomainReloadInit)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x7374a2c;
+  constexpr static std::size_t addrs = 0x7376d0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DisposeBlock*>(), { "NoDomainReloadInit", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Zenject::DisposeBlock*)>(&::Zenject::DisposeBlock::OnSpawned)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x7374b6c;
+  constexpr static std::size_t addrs = 0x7376e4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Zenject::DisposeBlock*)>(&::Zenject::DisposeBlock::OnDespawned)> {
   constexpr static std::size_t size = 0x3b8;
-  constexpr static std::size_t addrs = 0x7374b98;
+  constexpr static std::size_t addrs = 0x7376e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::DisposeBlock::*)()>(&::Zenject::DisposeBlock::LazyInitializeDisposableList)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x7374f50;
+  constexpr static std::size_t addrs = 0x7377230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DisposeBlock*>(), { "LazyInitializeDisposableList", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::DisposeBlock::*)(::System::IDisposable*)>(&::Zenject::DisposeBlock::Add)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x7375060;
+  constexpr static std::size_t addrs = 0x7377340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DisposeBlock*>(), { "Add", {}, { ::i2c::type_of<::System::IDisposable*>() } })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::DisposeBlock::*)(::System::IDisposable*)>(&::Zenject::DisposeBlock::Remove)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x7375158;
+  constexpr static std::size_t addrs = 0x7377438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::DisposeBlock* (*)()>(&::Zenject::DisposeBlock::Spawn)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x73751c0;
+  constexpr static std::size_t addrs = 0x73774a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DisposeBlock*>(), { "Spawn", {}, {} })));
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::DisposeBlock::*)()>(&::Zenject::DisposeBlock::Dispose)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x7375240;
+  constexpr static std::size_t addrs = 0x7377520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DisposeBlock*>(), { "Dispose", {}, {} })));
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::DisposeBlock::*)()>(&::Zenject::DisposeBlock::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x73752c8;
+  constexpr static std::size_t addrs = 0x73775a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DisposeBlock*>(), { ".ctor", {}, {} })));

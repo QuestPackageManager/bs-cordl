@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(float_t, float_t, float_t, float_t, float_t, float_t)>(&::UnityEngine::UIElements::ProjectionUtils::Ortho)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x72ae8bc;
+  constexpr static std::size_t addrs = 0x72af99c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

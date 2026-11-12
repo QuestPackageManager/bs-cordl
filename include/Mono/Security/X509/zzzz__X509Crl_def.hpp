@@ -90,16 +90,16 @@ public:
 
   constexpr void __cordl_internal_set_sn(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x5ee8eb0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ee9138, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::ASN1* entry);
 
-  /// @brief Method get_Extensions, addr 0x5ee9a80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Extensions, addr 0x5ee9d08, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509ExtensionCollection* get_Extensions();
 
-  /// @brief Method get_RevocationDate, addr 0x5ee9a78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationDate, addr 0x5ee9d00, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_RevocationDate();
 
-  /// @brief Method get_SerialNumber, addr 0x5ee950c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x5ee9794, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_SerialNumber();
 
 protected:
@@ -117,7 +117,7 @@ public:
   X509Crl_X509CrlEntry(X509Crl_X509CrlEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19830 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20016 };
 
   /// @brief Field sn, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t> ___sn;
@@ -188,27 +188,27 @@ public:
   /// @brief Field version, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) uint8_t version;
 
-  /// @brief Method Compare, addr 0x5ee9298, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x5ee9520, size 0x70, virtual false, abstract: false, final false
   inline bool Compare(::ArrayW<uint8_t> array1, ::ArrayW<uint8_t> array2);
 
-  /// @brief Method GetCrlEntry, addr 0x5ee9384, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetCrlEntry, addr 0x5ee960c, size 0x188, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Crl_X509CrlEntry* GetCrlEntry(::ArrayW<uint8_t> serialNumber);
 
-  /// @brief Method GetCrlEntry, addr 0x5ee9308, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetCrlEntry, addr 0x5ee9590, size 0x7c, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Crl_X509CrlEntry* GetCrlEntry(::Mono::Security::X509::X509Certificate* x509);
 
   static inline ::Mono::Security::X509::X509Crl* New_ctor(::ArrayW<uint8_t> crl);
 
-  /// @brief Method Parse, addr 0x5ee8808, size 0x6a8, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x5ee8a90, size 0x6a8, virtual false, abstract: false, final false
   inline void Parse(::ArrayW<uint8_t> crl);
 
-  /// @brief Method VerifySignature, addr 0x5ee98f0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x5ee9b78, size 0x188, virtual false, abstract: false, final false
   inline bool VerifySignature(::System::Security::Cryptography::AsymmetricAlgorithm* aa);
 
-  /// @brief Method VerifySignature, addr 0x5ee9584, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x5ee980c, size 0x294, virtual false, abstract: false, final false
   inline bool VerifySignature(::System::Security::Cryptography::DSA* dsa);
 
-  /// @brief Method VerifySignature, addr 0x5ee9818, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x5ee9aa0, size 0xd8, virtual false, abstract: false, final false
   inline bool VerifySignature(::System::Security::Cryptography::RSA* rsa);
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_encoded() const;
@@ -271,19 +271,19 @@ public:
 
   constexpr void __cordl_internal_set_version(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x5ee8720, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ee89a8, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> crl);
 
-  /// @brief Method get_Extensions, addr 0x5ee90b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Extensions, addr 0x5ee9340, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509ExtensionCollection* get_Extensions();
 
-  /// @brief Method get_Hash, addr 0x5ee90c0, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method get_Hash, addr 0x5ee9348, size 0x1c8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Hash();
 
-  /// @brief Method get_IssuerName, addr 0x5ee9288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerName, addr 0x5ee9510, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_IssuerName();
 
-  /// @brief Method get_NextUpdate, addr 0x5ee9290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NextUpdate, addr 0x5ee9518, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_NextUpdate();
 
 protected:
@@ -301,7 +301,7 @@ public:
   X509Crl(X509Crl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19831 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20017 };
 
   /// @brief Field issuer, offset: 0x10, size: 0x8, def value: None
   ::StringW ___issuer;

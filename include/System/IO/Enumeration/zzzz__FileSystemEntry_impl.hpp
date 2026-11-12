@@ -24,7 +24,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::FileAttribu
                                                                                         ::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>,
                                                                                         ::System::Span_1<char16_t>)>(&::System::IO::Enumeration::FileSystemEntry::Initialize)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x607814c;
+  constexpr static std::size_t addrs = 0x60783d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<char16_t> (::System::IO::Enumeration::FileSystemEntry::*)()>(
     &::System::IO::Enumeration::FileSystemEntry::get_FullPath)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x607842c;
+  constexpr static std::size_t addrs = 0x60786b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Enumeration::FileSystemEntry>(), { "get_FullPath", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<char16_t> (::System::IO::Enumeration::FileSystemEntry::*)()>(
     &::System::IO::Enumeration::FileSystemEntry::get_FileName)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6078588;
+  constexpr static std::size_t addrs = 0x6078810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Enumeration::FileSystemEntry>(), { "get_FileName", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<char16_t> (::System::IO::Enumeration::FileSystemEntry::*)()>(
     &::System::IO::Enumeration::FileSystemEntry::get_Directory)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6078608;
+  constexpr static std::size_t addrs = 0x6078890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Enumeration::FileSystemEntry>(), { "get_Directory", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::Enumeration::FileSystemEntry::*)(::System::ReadOnlySpan_1<char16_t>)>(
     &::System::IO::Enumeration::FileSystemEntry::set_Directory)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6078618;
+  constexpr static std::size_t addrs = 0x60788a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<char16_t> (::System::IO::Enumeration::FileSystemEntry::*)()>(
     &::System::IO::Enumeration::FileSystemEntry::get_RootDirectory)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6078624;
+  constexpr static std::size_t addrs = 0x60788ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Enumeration::FileSystemEntry>(), { "get_RootDirectory", {}, {} })));
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::Enumeration::FileSystemEntry::*)(::System::ReadOnlySpan_1<char16_t>)>(
     &::System::IO::Enumeration::FileSystemEntry::set_RootDirectory)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6078634;
+  constexpr static std::size_t addrs = 0x60788bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<char16_t> (::System::IO::Enumeration::FileSystemEntry::*)()>(
     &::System::IO::Enumeration::FileSystemEntry::get_OriginalRootDirectory)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6078640;
+  constexpr static std::size_t addrs = 0x60788c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Enumeration::FileSystemEntry>(), { "get_OriginalRootDirectory", {}, {} })));
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::Enumeration::FileSystemEntry::*)(::System::ReadOnlySpan_1<char16_t>)>(
     &::System::IO::Enumeration::FileSystemEntry::set_OriginalRootDirectory)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6078650;
+  constexpr static std::size_t addrs = 0x60788d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Enumeration::FileSystemEntry>(),
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::FileAttributes (::System::IO::Enumeration::FileSystemEntry::*)()>(&::System::IO::Enumeration::FileSystemEntry::get_Attributes)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x607865c;
+  constexpr static std::size_t addrs = 0x60788e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Enumeration::FileSystemEntry>(), { "get_Attributes", {}, {} })));
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::IO::Enumeration::FileSystemEntry::*)()>(&::System::IO::Enumeration::FileSystemEntry::get_IsDirectory)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60786a4;
+  constexpr static std::size_t addrs = 0x607892c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Enumeration::FileSystemEntry>(), { "get_IsDirectory", {}, {} })));
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::IO::Enumeration::FileSystemEntry::*)()>(&::System::IO::Enumeration::FileSystemEntry::ToSpecifiedFullPath)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x60786ac;
+  constexpr static std::size_t addrs = 0x6078934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Enumeration::FileSystemEntry>(), { "ToSpecifiedFullPath", {}, {} })));

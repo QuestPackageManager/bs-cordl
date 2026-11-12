@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BTSCharacterDataModel_PrefabWithId::*)()>(&::GlobalNamespace::BTSCharacterDataModel_PrefabWithId::get_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3529714;
+  constexpr static std::size_t addrs = 0x352bd54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BTSCharacterDataModel_PrefabWithId*>(), { "get_id", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AddressableAssets::AssetReference* (::GlobalNamespace::BTSCharacterDataModel_PrefabWithId::*)()>(
     &::GlobalNamespace::BTSCharacterDataModel_PrefabWithId::get_prefabAssetReference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x352971c;
+  constexpr static std::size_t addrs = 0x352bd5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BTSCharacterDataModel_PrefabWithId::*)()>(&::GlobalNamespace::BTSCharacterDataModel_PrefabWithId::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3529724;
+  constexpr static std::size_t addrs = 0x352bd64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BTSCharacterDataModel_PrefabWithId*>(), { ".ctor", {}, {} })));
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BTSCharacterDataModel_AnimationClipWithId::*)()>(
     &::GlobalNamespace::BTSCharacterDataModel_AnimationClipWithId::get_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3529728;
+  constexpr static std::size_t addrs = 0x352bd68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BTSCharacterDataModel_AnimationClipWithId*>(), { "get_id", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AddressableAssets::AssetReference* (::GlobalNamespace::BTSCharacterDataModel_AnimationClipWithId::*)()>(
     &::GlobalNamespace::BTSCharacterDataModel_AnimationClipWithId::get_animationClipAssetReference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3529730;
+  constexpr static std::size_t addrs = 0x352bd70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BTSCharacterDataModel_AnimationClipWithId::*)()>(
     &::GlobalNamespace::BTSCharacterDataModel_AnimationClipWithId::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3529738;
+  constexpr static std::size_t addrs = 0x352bd78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BTSCharacterDataModel_AnimationClipWithId*>(), { ".ctor", {}, {} })));
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::BTSCharacterDataModel_PrefabWithId*> (::GlobalNamespace::BTSCharacterDataModel::*)()>(
     &::GlobalNamespace::BTSCharacterDataModel::get_prefabsWithIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3529700;
+  constexpr static std::size_t addrs = 0x352bd40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BTSCharacterDataModel*>(), { "get_prefabsWithIds", {}, {} })));
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::BTSCharacterDataModel_AnimationClipWithId*> (::GlobalNamespace::BTSCharacterDataModel::*)()>(
     &::GlobalNamespace::BTSCharacterDataModel::get_animationClipsWithIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3529708;
+  constexpr static std::size_t addrs = 0x352bd48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BTSCharacterDataModel*>(), { "get_animationClipsWithIds", {}, {} })));
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BTSCharacterDataModel::*)()>(&::GlobalNamespace::BTSCharacterDataModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3529710;
+  constexpr static std::size_t addrs = 0x352bd50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BTSCharacterDataModel*>(), { ".ctor", {}, {} })));

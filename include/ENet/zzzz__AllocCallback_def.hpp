@@ -31,18 +31,18 @@ namespace ENet {
 class CORDL_TYPE AllocCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x5ce10d0, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x5ce08d0, size 0x54, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr size, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x5ce1124, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x5ce0924, size 0x24, virtual true, abstract: false, final false
   inline ::System::IntPtr EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x5ce10bc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5ce08bc, size 0x14, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(::System::IntPtr size);
 
   static inline ::ENet::AllocCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5ce1050, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ce0850, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -60,7 +60,7 @@ public:
   AllocCallback(AllocCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22488 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22539 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

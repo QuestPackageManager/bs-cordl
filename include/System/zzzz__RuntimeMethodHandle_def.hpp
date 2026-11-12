@@ -49,29 +49,29 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*();
 
-  /// @brief Method ConstructInstantiation, addr 0x60ee630, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ConstructInstantiation, addr 0x60ee8b8, size 0x164, virtual false, abstract: false, final false
   static inline ::StringW ConstructInstantiation(::System::Reflection::RuntimeMethodInfo* method, ::System::TypeNameFormatFlags format);
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
-  /// @brief Method Equals, addr 0x60ee540, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x60ee7c8, size 0xe8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x60ee628, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x60ee8b0, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetObjectData, addr 0x60ee3b4, size 0x18c, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x60ee63c, size 0x18c, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method IsNullHandle, addr 0x60ee794, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsNullHandle, addr 0x60eea1c, size 0x10, virtual false, abstract: false, final false
   inline bool IsNullHandle();
 
-  /// @brief Method .ctor, addr 0x60ee228, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60ee4b0, size 0x184, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x60ee220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60ee4a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr v);
 
-  /// @brief Method get_Value, addr 0x60ee3ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x60ee634, size 0x8, virtual false, abstract: false, final false
   inline ::System::IntPtr get_Value();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"

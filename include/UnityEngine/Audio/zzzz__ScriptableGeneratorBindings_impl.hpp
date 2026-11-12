@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Object*, ::by_ref<::UnityEngine::Audio::ControlHeader>, ::by_ref<::UnityEngine::Audio::GeneratorInstance>)>(
     &::UnityEngine::Audio::ScriptableGeneratorBindings::InstantiateGeneratorFromObject)> {
   constexpr static std::size_t size = 0x7a0;
-  constexpr static std::size_t addrs = 0x6ee8dbc;
+  constexpr static std::size_t addrs = 0x6ee9e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::A
                                                                 ::UnityEngine::Audio::ProcessorInstance_InitializationFlags)>(
     &::UnityEngine::Audio::ScriptableGeneratorBindings::InitializeGeneratorHandle)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6ee955c;
+  constexpr static std::size_t addrs = 0x6eea63c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, void*, ::UnityEngine::AudioConfiguration*, ::UnityEngine::Audio::ProcessorInstance_InitializationFlags)>(
     &::UnityEngine::Audio::ScriptableGeneratorBindings::InternalInitializeGeneratorHandle)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6ee95b8;
+  constexpr static std::size_t addrs = 0x6eea698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableGeneratorBindings*>(),

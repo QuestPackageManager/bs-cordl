@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::AddressablesInternalBridge::Runtime::CatalogLocationData::*)()>(
     &::AddressablesInternalBridge::Runtime::CatalogLocationData::get_LocatorId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68af92c;
+  constexpr static std::size_t addrs = 0x68b0e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::AddressablesInternalBridge::Runtime::CatalogLocationData::*)()>(
     &::AddressablesInternalBridge::Runtime::CatalogLocationData::get_LocalHash)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68af934;
+  constexpr static std::size_t addrs = 0x68b0e50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (::AddressablesInternalBridge::Runtime::CatalogLocationData::*)()>(
     &::AddressablesInternalBridge::Runtime::CatalogLocationData::get_CatalogLocation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68af93c;
+  constexpr static std::size_t addrs = 0x68b0e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::AddressablesInternalBridge::Runtime::CatalogLocationData::*)(
     ::StringW, ::StringW, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&::AddressablesInternalBridge::Runtime::CatalogLocationData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68af2fc;
+  constexpr static std::size_t addrs = 0x68af958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

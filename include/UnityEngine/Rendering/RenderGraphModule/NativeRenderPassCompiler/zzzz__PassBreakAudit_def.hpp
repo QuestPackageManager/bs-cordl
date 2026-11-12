@@ -31,7 +31,7 @@ public:
   /// @brief Field BreakReasonMessages, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_BreakReasonMessages, put = setStaticF_BreakReasonMessages)) ::ArrayW<::StringW> BreakReasonMessages;
 
-  /// @brief Method .ctor, addr 0x6c65278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c66358, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason reason, int32_t breakPass);
 
   static inline ::ArrayW<::StringW> getStaticF_BreakReasonMessages();

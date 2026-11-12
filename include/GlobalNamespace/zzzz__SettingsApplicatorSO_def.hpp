@@ -96,18 +96,18 @@ public:
   /// @brief Field roomTransformOffsetDidUpdateEvent, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_roomTransformOffsetDidUpdateEvent, put = __cordl_internal_set_roomTransformOffsetDidUpdateEvent)) ::System::Action* roomTransformOffsetDidUpdateEvent;
 
-  /// @brief Method ApplyGameSettings, addr 0x5d564a0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ApplyGameSettings, addr 0x5d55a14, size 0x10c, virtual false, abstract: false, final false
   inline void ApplyGameSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings const> settings);
 
-  /// @brief Method ApplyGraphicSettings, addr 0x5d56064, size 0x3c0, virtual true, abstract: false, final false
+  /// @brief Method ApplyGraphicSettings, addr 0x5d555d8, size 0x3c0, virtual true, abstract: false, final false
   inline void ApplyGraphicSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings const> settings, ::GlobalNamespace::SceneType sceneType);
 
-  /// @brief Method ApplyWindowSettings, addr 0x5d56724, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ApplyWindowSettings, addr 0x5d55c98, size 0x4, virtual true, abstract: false, final false
   inline void ApplyWindowSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::WindowSettings const> settings);
 
   static inline ::GlobalNamespace::SettingsApplicatorSO* New_ctor();
 
-  /// @brief Method NotifyRoomTransformOffsetWasUpdated, addr 0x5d56708, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method NotifyRoomTransformOffsetWasUpdated, addr 0x5d55c7c, size 0x1c, virtual false, abstract: false, final false
   inline void NotifyRoomTransformOffsetWasUpdated();
 
   constexpr ::GlobalNamespace::AudioManager* const& __cordl_internal_get__audioManager() const;
@@ -170,15 +170,15 @@ public:
 
   constexpr void __cordl_internal_set_roomTransformOffsetDidUpdateEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x5d5642c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d559a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_roomTransformOffsetDidUpdateEvent, addr 0x5d565b0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_roomTransformOffsetDidUpdateEvent, addr 0x5d55b24, size 0xac, virtual false, abstract: false, final false
   inline void add_roomTransformOffsetDidUpdateEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_roomTransformOffsetDidUpdateEvent, addr 0x5d5665c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_roomTransformOffsetDidUpdateEvent, addr 0x5d55bd0, size 0xac, virtual false, abstract: false, final false
   inline void remove_roomTransformOffsetDidUpdateEvent(::System::Action* value);
 
 protected:
@@ -196,7 +196,7 @@ public:
   SettingsApplicatorSO(SettingsApplicatorSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6790 };
 
   /// [SerializeField]
   /// @brief Field _mirrorRendererGraphicsSettingsPresets, offset: 0x18, size: 0x8, def value: None

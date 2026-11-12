@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::CollectionAccessAttribute::*)(::JetBrains::Annotations::CollectionAccessType)>(
     &::JetBrains::Annotations::CollectionAccessAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7316d64;
+  constexpr static std::size_t addrs = 0x7319044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::CollectionAccessAttribute*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::JetBrains::Annotations::CollectionAccessType (::JetBrains::Annotations::CollectionAccessAttribute::*)()>(
     &::JetBrains::Annotations::CollectionAccessAttribute::get_CollectionAccessType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7316d6c;
+  constexpr static std::size_t addrs = 0x731904c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::CollectionAccessAttribute::*)(::JetBrains::Annotations::CollectionAccessType)>(
     &::JetBrains::Annotations::CollectionAccessAttribute::set_CollectionAccessType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7316d74;
+  constexpr static std::size_t addrs = 0x7319054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::CollectionAccessAttribute*>(),

@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::MockedEntitlements___c__DisplayClass5_0::*)()>(
     &::OculusStudios::Platform::Core::MockedEntitlements___c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x638712c;
+  constexpr static std::size_t addrs = 0x6387574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OculusStudios::Platform::Core::MockedEntitlements___c__DisplayClass5_0::*)(::OculusStudios::Platform::Core::Product*)>(
     &::OculusStudios::Platform::Core::MockedEntitlements___c__DisplayClass5_0::_GetAllProductsAsync_b__0)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6387130;
+  constexpr static std::size_t addrs = 0x6387578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::MockedEntitlements___c__DisplayClass5_0*>(),
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::MockedEntitlements__GetAllProductsAsync_d__5::*)()>(
     &::OculusStudios::Platform::Core::MockedEntitlements__GetAllProductsAsync_d__5::MoveNext)> {
   constexpr static std::size_t size = 0x1044;
-  constexpr static std::size_t addrs = 0x63871fc;
+  constexpr static std::size_t addrs = 0x6387644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::MockedEntitlements__GetAllProductsAsync_d__5::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::OculusStudios::Platform::Core::MockedEntitlements__GetAllProductsAsync_d__5::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6388240;
+  constexpr static std::size_t addrs = 0x6388688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::MockedEntitlements__GetAllProductsAsync_d__5>(),
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::MockedEntitlements::*)(::OculusStudios::Platform::Core::PlatformInitParams*)>(
     &::OculusStudios::Platform::Core::MockedEntitlements::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6386f24;
+  constexpr static std::size_t addrs = 0x638736c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::MockedEntitlements*>(),
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::Product*>*>* (
     ::OculusStudios::Platform::Core::MockedEntitlements::*)()>(&::OculusStudios::Platform::Core::MockedEntitlements::GetAllProductsAsync)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6386fe0;
+  constexpr static std::size_t addrs = 0x6387428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::MockedEntitlements::*)(
     ::System::Collections::Generic::IEnumerable_1<::OculusStudios::Platform::Core::IProductDefinition*>*)>(&::OculusStudios::Platform::Core::MockedEntitlements::RegisterNewProducts)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x63870b4;
+  constexpr static std::size_t addrs = 0x63874fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

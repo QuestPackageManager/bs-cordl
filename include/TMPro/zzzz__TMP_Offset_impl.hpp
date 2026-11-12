@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::TMP_Offset::*)()>(&::TMPro::TMP_Offset::get_left)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d8d74c;
+  constexpr static std::size_t addrs = 0x6d8e82c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Offset>(), { "get_left", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Offset::*)(float_t)>(&::TMPro::TMP_Offset::set_left)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d8d754;
+  constexpr static std::size_t addrs = 0x6d8e834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Offset>(), { "set_left", {}, { ::i2c::type_of<float_t>() } })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::TMP_Offset::*)()>(&::TMPro::TMP_Offset::get_right)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d8d75c;
+  constexpr static std::size_t addrs = 0x6d8e83c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Offset>(), { "get_right", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Offset::*)(float_t)>(&::TMPro::TMP_Offset::set_right)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d8d764;
+  constexpr static std::size_t addrs = 0x6d8e844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Offset>(), { "set_right", {}, { ::i2c::type_of<float_t>() } })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::TMP_Offset::*)()>(&::TMPro::TMP_Offset::get_top)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d8d76c;
+  constexpr static std::size_t addrs = 0x6d8e84c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Offset>(), { "get_top", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Offset::*)(float_t)>(&::TMPro::TMP_Offset::set_top)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d8d774;
+  constexpr static std::size_t addrs = 0x6d8e854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Offset>(), { "set_top", {}, { ::i2c::type_of<float_t>() } })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::TMP_Offset::*)()>(&::TMPro::TMP_Offset::get_bottom)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d8d77c;
+  constexpr static std::size_t addrs = 0x6d8e85c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Offset>(), { "get_bottom", {}, {} })));
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Offset::*)(float_t)>(&::TMPro::TMP_Offset::set_bottom)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d8d784;
+  constexpr static std::size_t addrs = 0x6d8e864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Offset>(), { "set_bottom", {}, { ::i2c::type_of<float_t>() } })));
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::TMP_Offset::*)()>(&::TMPro::TMP_Offset::get_horizontal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d8d78c;
+  constexpr static std::size_t addrs = 0x6d8e86c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Offset>(), { "get_horizontal", {}, {} })));
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Offset::*)(float_t)>(&::TMPro::TMP_Offset::set_horizontal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d8d794;
+  constexpr static std::size_t addrs = 0x6d8e874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Offset>(), { "set_horizontal", {}, { ::i2c::type_of<float_t>() } })));
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::TMP_Offset::*)()>(&::TMPro::TMP_Offset::get_vertical)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d8d79c;
+  constexpr static std::size_t addrs = 0x6d8e87c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Offset>(), { "get_vertical", {}, {} })));
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Offset::*)(float_t)>(&::TMPro::TMP_Offset::set_vertical)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d8d7a4;
+  constexpr static std::size_t addrs = 0x6d8e884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Offset>(), { "set_vertical", {}, { ::i2c::type_of<float_t>() } })));
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_Offset (*)()>(&::TMPro::TMP_Offset::get_zero)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6d8d7ac;
+  constexpr static std::size_t addrs = 0x6d8e88c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Offset>(), { "get_zero", {}, {} })));
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Offset::*)(float_t, float_t, float_t, float_t)>(&::TMPro::TMP_Offset::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6d8d80c;
+  constexpr static std::size_t addrs = 0x6d8e8ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Offset::*)(float_t, float_t)>(&::TMPro::TMP_Offset::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6d8d818;
+  constexpr static std::size_t addrs = 0x6d8e8f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::TMPro::TMP_Offset, ::TMPro::TMP_Offset)>(&::TMPro::TMP_Offset::op_Equality)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6d8d824;
+  constexpr static std::size_t addrs = 0x6d8e904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -203,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::TMPro::TMP_Offset, ::TMPro::TMP_Offset)>(&::TMPro::TMP_Offset::op_Inequality)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6d8d84c;
+  constexpr static std::size_t addrs = 0x6d8e92c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_Offset (*)(::TMPro::TMP_Offset, float_t)>(&::TMPro::TMP_Offset::op_Multiply)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6d8d900;
+  constexpr static std::size_t addrs = 0x6d8e9e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_Offset::*)()>(&::TMPro::TMP_Offset::GetHashCode)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6d8d914;
+  constexpr static std::size_t addrs = 0x6d8e9f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_Offset>(), { ::i2c::class_of<::TMPro::TMP_Offset>(), 2 }));
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_Offset::*)(::System::Object*)>(&::TMPro::TMP_Offset::Equals)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6d8d978;
+  constexpr static std::size_t addrs = 0x6d8ea58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_Offset>(), { ::i2c::class_of<::TMPro::TMP_Offset>(), 0 }));
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_Offset::*)(::TMPro::TMP_Offset)>(&::TMPro::TMP_Offset::Equals)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6d8d9e8;
+  constexpr static std::size_t addrs = 0x6d8eac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Offset>(), { "Equals", {}, { ::i2c::type_of<::TMPro::TMP_Offset>() } })));

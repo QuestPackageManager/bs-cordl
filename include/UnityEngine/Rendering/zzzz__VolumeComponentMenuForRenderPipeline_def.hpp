@@ -39,11 +39,11 @@ public:
 
   constexpr void __cordl_internal_set__pipelineTypes_k__BackingField(::ArrayW<::System::Type*> value);
 
-  /// @brief Method .ctor, addr 0x6c260b8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c27198, size 0x1b8, virtual false, abstract: false, final false
   inline void _ctor(::StringW menu, /* [ParamArray] */ ::ArrayW<::System::Type*> pipelineTypes);
 
   /// [CompilerGenerated]
-  /// @brief Method get_pipelineTypes, addr 0x6c260b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pipelineTypes, addr 0x6c27190, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*> get_pipelineTypes();
 
 protected:

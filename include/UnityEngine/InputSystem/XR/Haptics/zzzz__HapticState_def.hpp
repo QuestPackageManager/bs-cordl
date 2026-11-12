@@ -24,25 +24,25 @@ public:
 
   __declspec(property(get = get_samplesQueued, put = set_samplesQueued)) uint32_t samplesQueued;
 
-  /// @brief Method .ctor, addr 0x69f4be8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69f5cc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint32_t samplesQueued, uint32_t samplesAvailable);
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_samplesAvailable, addr 0x69f4c00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_samplesAvailable, addr 0x69f5ce0, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_samplesAvailable();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_samplesQueued, addr 0x69f4bf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_samplesQueued, addr 0x69f5cd0, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_samplesQueued();
 
   /// [CompilerGenerated]
-  /// @brief Method set_samplesAvailable, addr 0x69f4c08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_samplesAvailable, addr 0x69f5ce8, size 0x8, virtual false, abstract: false, final false
   inline void set_samplesAvailable(uint32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_samplesQueued, addr 0x69f4bf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_samplesQueued, addr 0x69f5cd8, size 0x8, virtual false, abstract: false, final false
   inline void set_samplesQueued(uint32_t value);
 
   // Ctor Parameters []

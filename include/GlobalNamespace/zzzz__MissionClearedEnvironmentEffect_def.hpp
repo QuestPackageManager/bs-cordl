@@ -35,15 +35,15 @@ public:
                       put = __cordl_internal_set__missionObjectiveCheckersManager)) ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager>
       _missionObjectiveCheckersManager;
 
-  /// @brief Method Awake, addr 0x5d6bd54, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5d6b974, size 0x8c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleMissionObjectiveCheckersManagerObjectiveWasCleared, addr 0x5d6bfc4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionObjectiveCheckersManagerObjectiveWasCleared, addr 0x5d6bbe4, size 0x7c, virtual false, abstract: false, final false
   inline void HandleMissionObjectiveCheckersManagerObjectiveWasCleared();
 
   static inline ::GlobalNamespace::MissionClearedEnvironmentEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5d6be8c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5d6baac, size 0x8c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__missionObjectiveCheckersManager(::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> value);
 
-  /// @brief Method .ctor, addr 0x5d6c040, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d6bc60, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,7 +76,7 @@ public:
   MissionClearedEnvironmentEffect(MissionClearedEnvironmentEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6901 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6900 };
 
   /// [SerializeField]
   /// @brief Field _missionObjectiveCheckersManager, offset: 0x20, size: 0x8, def value: None

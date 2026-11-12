@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6f997cc;
+  constexpr static std::size_t addrs = 0x6f9a8ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction*>(),
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction::*)()>(&::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6f99834;
+  constexpr static std::size_t addrs = 0x6f9a914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction*>(),
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::LowLevel::PlayerLoopSystem::*)()>(&::UnityEngine::LowLevel::PlayerLoopSystem::ToString)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6f997b0;
+  constexpr static std::size_t addrs = 0x6f9a890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

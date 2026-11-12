@@ -47,15 +47,15 @@ public:
   /// @brief Convert operator to "::System::Threading::IThreadPoolWorkItem"
   constexpr operator ::System::Threading::IThreadPoolWorkItem*() noexcept;
 
-  /// @brief Method MarkDisposed, addr 0x67df6d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method MarkDisposed, addr 0x67dfd28, size 0x1c, virtual false, abstract: false, final false
   inline void MarkDisposed();
 
   static inline ::System::IOSelectorJob* New_ctor(::System::IOOperation operation, ::System::IOAsyncCallback* callback, ::System::IOAsyncResult* state);
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x67df6b0, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x67dfd00, size 0x24, virtual true, abstract: false, final true
   inline void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.MarkAborted, addr 0x67df6d4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.MarkAborted, addr 0x67dfd24, size 0x4, virtual true, abstract: false, final true
   inline void System_Threading_IThreadPoolWorkItem_MarkAborted(::System::Threading::ThreadAbortException* tae);
 
   constexpr ::System::IOAsyncCallback* const& __cordl_internal_get_callback() const;
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_state(::System::IOAsyncResult* value);
 
-  /// @brief Method .ctor, addr 0x67df6a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67dfcf4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IOOperation operation, ::System::IOAsyncCallback* callback, ::System::IOAsyncResult* state);
 
   /// @brief Convert to "::System::Threading::IThreadPoolWorkItem"

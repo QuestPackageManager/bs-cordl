@@ -39,22 +39,22 @@ public:
   __declspec(property(get = get_size)) float_t size;
 
   /// [FreeFunction("GetLODs_Binding", HasExplicitThis = true)]
-  /// @brief Method GetLODs, addr 0x6f395bc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetLODs, addr 0x6f3a69c, size 0x80, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::LOD> GetLODs();
 
-  /// @brief Method GetLODs_Injected, addr 0x6f3963c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetLODs_Injected, addr 0x6f3a71c, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::LOD> GetLODs_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_localReferencePoint, addr 0x6f3941c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_localReferencePoint, addr 0x6f3a4fc, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_localReferencePoint();
 
-  /// @brief Method get_localReferencePoint_Injected, addr 0x6f394bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_localReferencePoint_Injected, addr 0x6f3a59c, size 0x44, virtual false, abstract: false, final false
   static inline void get_localReferencePoint_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_size, addr 0x6f39500, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x6f3a5e0, size 0x80, virtual false, abstract: false, final false
   inline float_t get_size();
 
-  /// @brief Method get_size_Injected, addr 0x6f39580, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_size_Injected, addr 0x6f3a660, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_size_Injected(::System::IntPtr _unity_self);
 
 protected:

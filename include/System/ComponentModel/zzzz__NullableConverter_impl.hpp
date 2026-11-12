@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::NullableConverter::*)(::System::Type*)>(&::System::ComponentModel::NullableConverter::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x68285dc;
+  constexpr static std::size_t addrs = 0x6828c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(
     &::System::ComponentModel::NullableConverter::CanConvertFrom)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x68286e0;
+  constexpr static std::size_t addrs = 0x6828d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Object* (::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*)>(
         &::System::ComponentModel::NullableConverter::ConvertFrom)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6828774;
+  constexpr static std::size_t addrs = 0x6828dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(
     &::System::ComponentModel::NullableConverter::CanConvertTo)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x682885c;
+  constexpr static std::size_t addrs = 0x6828eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Syst
                                                                                                                           ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*)>(
     &::System::ComponentModel::NullableConverter::ConvertTo)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x68288f0;
+  constexpr static std::size_t addrs = 0x6828f40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Object* (::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Collections::IDictionary*)>(
         &::System::ComponentModel::NullableConverter::CreateInstance)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6828a84;
+  constexpr static std::size_t addrs = 0x68290d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::NullableConverter::GetCreateInstanceSupported)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6828a9c;
+  constexpr static std::size_t addrs = 0x68290ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel:
     ::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Object*, ::ArrayW<::System::Attribute*>)>(
     &::System::ComponentModel::NullableConverter::GetProperties)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6828ab4;
+  constexpr static std::size_t addrs = 0x6829104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::NullableConverter::GetPropertiesSupported)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6828acc;
+  constexpr static std::size_t addrs = 0x682911c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::TypeConverter_StandardValuesCollection* (
     ::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(&::System::ComponentModel::NullableConverter::GetStandardValues)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x6828ae4;
+  constexpr static std::size_t addrs = 0x6829134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::NullableConverter::GetStandardValuesExclusive)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6828e7c;
+  constexpr static std::size_t addrs = 0x68294cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::NullableConverter::GetStandardValuesSupported)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6828e98;
+  constexpr static std::size_t addrs = 0x68294e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Object*)>(
     &::System::ComponentModel::NullableConverter::IsValid)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6828eb4;
+  constexpr static std::size_t addrs = 0x6829504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::ComponentModel::NullableConverter::*)()>(&::System::ComponentModel::NullableConverter::get_NullableType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6828ee8;
+  constexpr static std::size_t addrs = 0x6829538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::NullableConverter*>(), { "get_NullableType", {}, {} })));
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::ComponentModel::NullableConverter::*)()>(&::System::ComponentModel::NullableConverter::get_UnderlyingType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6828ef0;
+  constexpr static std::size_t addrs = 0x6829540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::NullableConverter*>(), { "get_UnderlyingType", {}, {} })));
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::TypeConverter* (::System::ComponentModel::NullableConverter::*)()>(
     &::System::ComponentModel::NullableConverter::get_UnderlyingTypeConverter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6828ef8;
+  constexpr static std::size_t addrs = 0x6829548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

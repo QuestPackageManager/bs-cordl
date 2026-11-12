@@ -150,10 +150,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::DecalEntityManager___c* New_ctor();
 
-  /// @brief Method <Update>b__26_0, addr 0x6cd2b38, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method <Update>b__26_0, addr 0x6cd3c18, size 0xa8, virtual false, abstract: false, final false
   inline int32_t _Update_b__26_0(::UnityEngine::Rendering::Universal::DecalEntityManager_CombinedChunks a, ::UnityEngine::Rendering::Universal::DecalEntityManager_CombinedChunks b);
 
-  /// @brief Method .ctor, addr 0x6cd2b34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cd3c14, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::DecalEntityManager___c* getStaticF___9();
@@ -253,30 +253,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CreateChunkIndex, addr 0x6cd0cc0, size 0x594, virtual false, abstract: false, final false
+  /// @brief Method CreateChunkIndex, addr 0x6cd1da0, size 0x594, virtual false, abstract: false, final false
   inline int32_t CreateChunkIndex(::UnityEngine::Material* material);
 
-  /// @brief Method CreateDecalEntity, addr 0x6cd0800, size 0x4c0, virtual false, abstract: false, final false
+  /// @brief Method CreateDecalEntity, addr 0x6cd18e0, size 0x4c0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DecalEntity CreateDecalEntity(::UnityEngine::Rendering::Universal::DecalProjector* decalProjector);
 
-  /// @brief Method DestroyDecalEntity, addr 0x6cd1758, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method DestroyDecalEntity, addr 0x6cd2838, size 0x1e8, virtual false, abstract: false, final false
   inline void DestroyDecalEntity(::UnityEngine::Rendering::Universal::DecalEntity decalEntity);
 
-  /// @brief Method Dispose, addr 0x6cd2348, size 0x798, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6cd3428, size 0x798, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method IsValid, addr 0x6cd07ec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6cd18cc, size 0x14, virtual false, abstract: false, final false
   inline bool IsValid(::UnityEngine::Rendering::Universal::DecalEntity decalEntity);
 
   static inline ::UnityEngine::Rendering::Universal::DecalEntityManager* New_ctor();
 
-  /// @brief Method Update, addr 0x6cd1940, size 0xa08, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6cd2a20, size 0xa08, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateAllDecalEntitiesData, addr 0x6cd1580, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method UpdateAllDecalEntitiesData, addr 0x6cd2660, size 0x1d8, virtual false, abstract: false, final false
   inline void UpdateAllDecalEntitiesData();
 
-  /// @brief Method UpdateDecalEntityData, addr 0x6cd1254, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method UpdateDecalEntityData, addr 0x6cd2334, size 0x324, virtual false, abstract: false, final false
   inline void UpdateDecalEntityData(::UnityEngine::Rendering::Universal::DecalEntity decalEntity, ::UnityEngine::Rendering::Universal::DecalProjector* decalProjector);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::DecalCachedChunk*>* const& __cordl_internal_get_cachedChunks() const;
@@ -363,13 +363,13 @@ public:
 
   constexpr void __cordl_internal_set_m_SortChunks(::UnityEngine::Rendering::ProfilingSampler* value);
 
-  /// @brief Method .ctor, addr 0x6cd04c4, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cd15a4, size 0x328, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_decalProjectorMesh, addr 0x6ccf2b4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_decalProjectorMesh, addr 0x6cd0394, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_decalProjectorMesh();
 
-  /// @brief Method get_errorMaterial, addr 0x6ccc088, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_errorMaterial, addr 0x6ccd168, size 0xd8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_errorMaterial();
 
   /// @brief Convert to "::System::IDisposable"

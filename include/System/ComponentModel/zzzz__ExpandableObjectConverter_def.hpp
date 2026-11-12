@@ -32,16 +32,16 @@ namespace System::ComponentModel {
 class CORDL_TYPE ExpandableObjectConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method GetProperties, addr 0x6826848, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x6826e98, size 0x6c, virtual true, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Object* value,
                                                                                ::ArrayW<::System::Attribute*> attributes);
 
-  /// @brief Method GetPropertiesSupported, addr 0x68268b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPropertiesSupported, addr 0x6826f04, size 0x8, virtual true, abstract: false, final false
   inline bool GetPropertiesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
   static inline ::System::ComponentModel::ExpandableObjectConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6826844, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6826e94, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

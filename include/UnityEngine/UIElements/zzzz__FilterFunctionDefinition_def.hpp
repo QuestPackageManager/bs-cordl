@@ -68,25 +68,25 @@ public:
 
   constexpr void __cordl_internal_set_m_Passes(::ArrayW<::UnityEngine::UIElements::PostProcessingPass> value);
 
-  /// @brief Method .ctor, addr 0x7272e48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7273f28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_filterName, addr 0x7272e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_filterName, addr 0x7273ef8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_filterName();
 
-  /// @brief Method get_parameters, addr 0x7272e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parameters, addr 0x7273f08, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::FilterParameterDeclaration> get_parameters();
 
-  /// @brief Method get_passes, addr 0x7272e38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_passes, addr 0x7273f18, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::PostProcessingPass> get_passes();
 
-  /// @brief Method set_filterName, addr 0x7272e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_filterName, addr 0x7273f00, size 0x8, virtual false, abstract: false, final false
   inline void set_filterName(::StringW value);
 
-  /// @brief Method set_parameters, addr 0x7272e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parameters, addr 0x7273f10, size 0x8, virtual false, abstract: false, final false
   inline void set_parameters(::ArrayW<::UnityEngine::UIElements::FilterParameterDeclaration> value);
 
-  /// @brief Method set_passes, addr 0x7272e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_passes, addr 0x7273f20, size 0x8, virtual false, abstract: false, final false
   inline void set_passes(::ArrayW<::UnityEngine::UIElements::PostProcessingPass> value);
 
 protected:

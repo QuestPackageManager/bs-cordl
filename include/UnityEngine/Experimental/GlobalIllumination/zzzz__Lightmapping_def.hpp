@@ -53,12 +53,12 @@ namespace UnityEngine::Experimental::GlobalIllumination {
 class CORDL_TYPE Lightmapping_RequestLightsDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6fcae28, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6fcbf08, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::ArrayW<::UnityEngine::Light*> requests, ::Unity::Collections::NativeArray_1<::UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput);
 
   static inline ::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6fcada8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fcbe88, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -97,10 +97,10 @@ public:
 
   static inline ::UnityEngine::Experimental::GlobalIllumination::Lightmapping___c* New_ctor();
 
-  /// @brief Method <.cctor>b__7_0, addr 0x6fcae94, size 0x428, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__7_0, addr 0x6fcbf74, size 0x428, virtual false, abstract: false, final false
   inline void __cctor_b__7_0(::ArrayW<::UnityEngine::Light*> requests, ::Unity::Collections::NativeArray_1<::UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput);
 
-  /// @brief Method .ctor, addr 0x6fcae90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fcbf70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Experimental::GlobalIllumination::Lightmapping___c* getStaticF___9();
@@ -149,19 +149,19 @@ public:
                       put = setStaticF_s_RequestLightsDelegate)) ::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate* s_RequestLightsDelegate;
 
   /// [RequiredByNativeCode]
-  /// @brief Method GetDelegate, addr 0x6fcab6c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetDelegate, addr 0x6fcbc4c, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate* GetDelegate();
 
   /// [RequiredByNativeCode]
-  /// @brief Method RequestLights, addr 0x6fcac28, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method RequestLights, addr 0x6fcbd08, size 0xa8, virtual false, abstract: false, final false
   static inline void RequestLights(::ArrayW<::UnityEngine::Light*> lights, ::System::IntPtr outLightsPtr, int32_t outLightsCount);
 
   /// [RequiredByNativeCode]
-  /// @brief Method ResetDelegate, addr 0x6fcabc8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ResetDelegate, addr 0x6fcbca8, size 0x60, virtual false, abstract: false, final false
   static inline void ResetDelegate();
 
   /// [RequiredByNativeCode]
-  /// @brief Method SetDelegate, addr 0x6fcaaf0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetDelegate, addr 0x6fcbbd0, size 0x7c, virtual false, abstract: false, final false
   static inline void SetDelegate(::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate* del);
 
   static inline ::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate* getStaticF_s_DefaultDelegate();

@@ -34,10 +34,10 @@ public:
 
   constexpr void __cordl_internal_set_height(float_t value);
 
-  /// @brief Method .ctor, addr 0x6f6ee9c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f6ff7c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6f6eeb0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f6ff90, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t height);
 
 protected:

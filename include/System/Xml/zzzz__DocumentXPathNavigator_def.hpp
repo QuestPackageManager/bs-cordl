@@ -86,74 +86,74 @@ public:
   /// @brief Field source, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::System::Xml::XmlNode* source;
 
-  /// @brief Method CalibrateText, addr 0x6718b2c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method CalibrateText, addr 0x671917c, size 0x48, virtual false, abstract: false, final false
   inline void CalibrateText();
 
-  /// @brief Method CheckAttributePosition, addr 0x6719be0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CheckAttributePosition, addr 0x671a230, size 0x94, virtual false, abstract: false, final false
   static inline bool CheckAttributePosition(::System::Xml::XmlAttribute* attribute, ::by_ref<::System::Xml::XmlAttributeCollection*> attributes, int32_t index);
 
-  /// @brief Method Clone, addr 0x6718a68, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x67190b8, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathNavigator* Clone();
 
-  /// @brief Method IsSamePosition, addr 0x6719ffc, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method IsSamePosition, addr 0x671a64c, size 0x9c, virtual true, abstract: false, final false
   inline bool IsSamePosition(::System::Xml::XPath::XPathNavigator* other);
 
-  /// @brief Method LookupNamespace, addr 0x6719e54, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method LookupNamespace, addr 0x671a4a4, size 0x5c, virtual true, abstract: false, final false
   inline ::StringW LookupNamespace(::StringW prefix);
 
-  /// @brief Method MoveToFirstNamespace, addr 0x671931c, size 0x200, virtual true, abstract: false, final false
+  /// @brief Method MoveToFirstNamespace, addr 0x671996c, size 0x200, virtual true, abstract: false, final false
   inline bool MoveToFirstNamespace(::System::Xml::XPath::XPathNamespaceScope scope);
 
-  /// @brief Method MoveToFirstNamespaceGlobal, addr 0x67196c4, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method MoveToFirstNamespaceGlobal, addr 0x6719d14, size 0x144, virtual false, abstract: false, final false
   static inline bool MoveToFirstNamespaceGlobal(::by_ref<::System::Xml::XmlAttributeCollection*> attributes, ::by_ref<int32_t> index);
 
-  /// @brief Method MoveToFirstNamespaceLocal, addr 0x671951c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method MoveToFirstNamespaceLocal, addr 0x6719b6c, size 0x60, virtual false, abstract: false, final false
   static inline bool MoveToFirstNamespaceLocal(::System::Xml::XmlAttributeCollection* attributes, ::by_ref<int32_t> index);
 
-  /// @brief Method MoveToNamespace, addr 0x6719040, size 0x238, virtual true, abstract: false, final false
+  /// @brief Method MoveToNamespace, addr 0x6719690, size 0x238, virtual true, abstract: false, final false
   inline bool MoveToNamespace(::StringW name);
 
-  /// @brief Method MoveToNextNamespace, addr 0x671994c, size 0x294, virtual true, abstract: false, final false
+  /// @brief Method MoveToNextNamespace, addr 0x6719f9c, size 0x294, virtual true, abstract: false, final false
   inline bool MoveToNextNamespace(::System::Xml::XPath::XPathNamespaceScope scope);
 
-  /// @brief Method MoveToNextNamespaceGlobal, addr 0x6719808, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method MoveToNextNamespaceGlobal, addr 0x6719e58, size 0x144, virtual false, abstract: false, final false
   static inline bool MoveToNextNamespaceGlobal(::by_ref<::System::Xml::XmlAttributeCollection*> attributes, ::by_ref<int32_t> index);
 
-  /// @brief Method MoveToNextNamespaceLocal, addr 0x6719d08, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MoveToNextNamespaceLocal, addr 0x671a358, size 0x54, virtual false, abstract: false, final false
   static inline bool MoveToNextNamespaceLocal(::System::Xml::XmlAttributeCollection* attributes, ::by_ref<int32_t> index);
 
-  /// @brief Method MoveToParent, addr 0x6719eb0, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method MoveToParent, addr 0x671a500, size 0xd4, virtual true, abstract: false, final false
   inline bool MoveToParent();
 
   static inline ::System::Xml::DocumentXPathNavigator* New_ctor(::System::Xml::XmlDocument* document, ::System::Xml::XmlNode* node);
 
   static inline ::System::Xml::DocumentXPathNavigator* New_ctor(::System::Xml::DocumentXPathNavigator* other);
 
-  /// @brief Method NextSibling, addr 0x6718fcc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method NextSibling, addr 0x671961c, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNode* NextSibling(::System::Xml::XmlNode* node);
 
-  /// @brief Method NextSiblingTail, addr 0x671a15c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method NextSiblingTail, addr 0x671a7ac, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNode* NextSiblingTail(::System::Xml::XmlNode* node, ::System::Xml::XmlNode* sibling);
 
-  /// @brief Method ParentNode, addr 0x6719f84, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ParentNode, addr 0x671a5d4, size 0x78, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNode* ParentNode(::System::Xml::XmlNode* node);
 
-  /// @brief Method ParentNodeTail, addr 0x671a114, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ParentNodeTail, addr 0x671a764, size 0x48, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNode* ParentNodeTail(::System::Xml::XmlNode* parent);
 
-  /// @brief Method PathHasDuplicateNamespace, addr 0x6719d5c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method PathHasDuplicateNamespace, addr 0x671a3ac, size 0xf8, virtual false, abstract: false, final false
   inline bool PathHasDuplicateNamespace(::System::Xml::XmlElement* top, ::System::Xml::XmlElement* bottom, ::StringW localName);
 
-  /// @brief Method PreviousText, addr 0x671a0b8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method PreviousText, addr 0x671a708, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNode* PreviousText(::System::Xml::XmlNode* node);
 
-  /// @brief Method PreviousTextTail, addr 0x671a210, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method PreviousTextTail, addr 0x671a860, size 0x104, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNode* PreviousTextTail(::System::Xml::XmlNode* node, ::System::Xml::XmlNode* text);
 
-  /// @brief Method ResetAttributePosition, addr 0x6719c74, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ResetAttributePosition, addr 0x671a2c4, size 0x94, virtual false, abstract: false, final false
   static inline bool ResetAttributePosition(::System::Xml::XmlAttribute* attribute, ::System::Xml::XmlAttributeCollection* attributes, ::by_ref<int32_t> index);
 
-  /// @brief Method ResetPosition, addr 0x6718918, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ResetPosition, addr 0x6718f68, size 0xd0, virtual false, abstract: false, final false
   inline void ResetPosition(::System::Xml::XmlNode* node);
 
   constexpr int32_t const& __cordl_internal_get_attributeIndex() const;
@@ -180,40 +180,40 @@ public:
 
   constexpr void __cordl_internal_set_source(::System::Xml::XmlNode* value);
 
-  /// @brief Method .ctor, addr 0x67188a8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6718ef8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDocument* document, ::System::Xml::XmlNode* node);
 
-  /// @brief Method .ctor, addr 0x67189e8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6719038, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::DocumentXPathNavigator* other);
 
-  /// @brief Method get_LocalName, addr 0x6718b74, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x67191c4, size 0x20, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NameTable, addr 0x6718ac4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_NameTable, addr 0x6719114, size 0x24, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
-  /// @brief Method get_NamespaceURI, addr 0x6718b94, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method get_NamespaceURI, addr 0x67191e4, size 0xb4, virtual true, abstract: false, final false
   inline ::StringW get_NamespaceURI();
 
-  /// @brief Method get_NodeType, addr 0x6718b00, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x6719150, size 0x2c, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathNodeType get_NodeType();
 
-  /// @brief Method get_Prefix, addr 0x6718c78, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x67192c8, size 0xb4, virtual true, abstract: false, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_SchemaInfo, addr 0x671a098, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_SchemaInfo, addr 0x671a6e8, size 0x20, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::IXmlSchemaInfo* get_SchemaInfo();
 
-  /// @brief Method get_UnderlyingObject, addr 0x6719028, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_UnderlyingObject, addr 0x6719678, size 0x18, virtual true, abstract: false, final false
   inline ::System::Object* get_UnderlyingObject();
 
-  /// @brief Method get_Value, addr 0x6718d2c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x671937c, size 0x98, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method get_ValueDocument, addr 0x6718dc4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_ValueDocument, addr 0x6719414, size 0x44, virtual false, abstract: false, final false
   inline ::StringW get_ValueDocument();
 
-  /// @brief Method get_ValueText, addr 0x6718e08, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method get_ValueText, addr 0x6719458, size 0x134, virtual false, abstract: false, final false
   inline ::StringW get_ValueText();
 
 protected:

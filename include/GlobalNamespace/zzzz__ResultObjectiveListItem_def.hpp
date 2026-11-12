@@ -95,31 +95,31 @@ public:
 
   constexpr void __cordl_internal_set__valueText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x5dc4b14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dc4c44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_conditionText, addr 0x5db50d8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_conditionText, addr 0x5dc4b9c, size 0x20, virtual false, abstract: false, final false
   inline void set_conditionText(::StringW value);
 
-  /// @brief Method set_hideConditionText, addr 0x5db519c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_hideConditionText, addr 0x5dc4bbc, size 0x34, virtual false, abstract: false, final false
   inline void set_hideConditionText(bool value);
 
-  /// @brief Method set_hideValueText, addr 0x5db5168, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_hideValueText, addr 0x5dc4c10, size 0x34, virtual false, abstract: false, final false
   inline void set_hideValueText(bool value);
 
-  /// @brief Method set_icon, addr 0x5db5118, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_icon, addr 0x5dc4b4c, size 0x18, virtual false, abstract: false, final false
   inline void set_icon(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_iconColor, addr 0x5db5148, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_iconColor, addr 0x5dc4b2c, size 0x20, virtual false, abstract: false, final false
   inline void set_iconColor(::UnityEngine::Color value);
 
-  /// @brief Method set_iconGlow, addr 0x5db5130, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_iconGlow, addr 0x5dc4b64, size 0x18, virtual false, abstract: false, final false
   inline void set_iconGlow(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_title, addr 0x5db50b8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_title, addr 0x5dc4b7c, size 0x20, virtual false, abstract: false, final false
   inline void set_title(::StringW value);
 
-  /// @brief Method set_valueText, addr 0x5db50f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_valueText, addr 0x5dc4bf0, size 0x20, virtual false, abstract: false, final false
   inline void set_valueText(::StringW value);
 
 protected:

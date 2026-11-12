@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_rendererList(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle value);
 
-  /// @brief Method .ctor, addr 0x6cccbc0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ccdca0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -125,10 +125,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::DecalPreviewPass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__6_0, addr 0x6cccc1c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__6_0, addr 0x6ccdcfc, size 0x58, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__6_0(::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext rgContext);
 
-  /// @brief Method .ctor, addr 0x6cccc18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ccdcf8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::DecalPreviewPass___c* getStaticF___9();
@@ -186,13 +186,13 @@ public:
   __declspec(property(get = __cordl_internal_get_m_ShaderTagIdList,
                       put = __cordl_internal_set_m_ShaderTagIdList)) ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* m_ShaderTagIdList;
 
-  /// @brief Method ExecutePass, addr 0x6ccc360, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6ccd440, size 0x38, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData* passData,
                                  ::UnityEngine::Rendering::RendererList rendererList);
 
   static inline ::UnityEngine::Rendering::Universal::DecalPreviewPass* New_ctor();
 
-  /// @brief Method RecordRenderGraph, addr 0x6ccc398, size 0x828, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x6ccd478, size 0x828, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
   constexpr ::UnityEngine::Rendering::FilteringSettings const& __cordl_internal_get_m_FilteringSettings() const;
@@ -213,7 +213,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ShaderTagIdList(::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* value);
 
-  /// @brief Method .ctor, addr 0x6ccc160, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ccd240, size 0x200, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

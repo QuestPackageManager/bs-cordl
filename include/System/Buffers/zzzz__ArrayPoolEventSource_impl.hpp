@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Buffers::ArrayPoolEventSource::*)()>(&::System::Buffers::ArrayPoolEventSource::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6048814;
+  constexpr static std::size_t addrs = 0x6048a9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Buffers::ArrayPoolEventSource*>(), { ".ctor", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Buffers::ArrayPoolEventSource::*)(int32_t, int32_t, int32_t, int32_t)>(&::System::Buffers::ArrayPoolEventSource::BufferRented)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6048860;
+  constexpr static std::size_t addrs = 0x6048ae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Buffers::ArrayPoolEventSource::*)(
     int32_t, int32_t, int32_t, int32_t, ::System::Buffers::ArrayPoolEventSource_BufferAllocatedReason)>(&::System::Buffers::ArrayPoolEventSource::BufferAllocated)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6048910;
+  constexpr static std::size_t addrs = 0x6048b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Buffers::ArrayPoolEventSource::*)(int32_t, int32_t, int32_t)>(&::System::Buffers::ArrayPoolEventSource::BufferReturned)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x60489cc;
+  constexpr static std::size_t addrs = 0x6048c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Buffers::ArrayPoolEventSource::*)(int32_t, int32_t, int32_t)>(&::System::Buffers::ArrayPoolEventSource::BufferTrimmed)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x60489e4;
+  constexpr static std::size_t addrs = 0x6048c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Buffers::ArrayPoolEventSource::*)(int32_t, int32_t)>(&::System::Buffers::ArrayPoolEventSource::BufferTrimPoll)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x60489fc;
+  constexpr static std::size_t addrs = 0x6048c84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

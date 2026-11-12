@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::NoInterpRenderTextureParameter::*)(::UnityEngine::RenderTexture*, bool)>(
     &::UnityEngine::Rendering::NoInterpRenderTextureParameter::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6c28b34;
+  constexpr static std::size_t addrs = 0x6c29c14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::NoInterpRenderTextureParameter*>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::NoInterpRenderTextureParameter::*)()>(
     &::UnityEngine::Rendering::NoInterpRenderTextureParameter::GetHashCode)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6c28b98;
+  constexpr static std::size_t addrs = 0x6c29c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::NoInterpRenderTextureParameter*>(),

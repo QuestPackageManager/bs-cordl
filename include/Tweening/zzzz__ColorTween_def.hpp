@@ -40,7 +40,7 @@ public:
   __declspec(property(get = getStaticF_Pool, put = setStaticF_Pool)) ::Zenject::StaticMemoryPool_7<::UnityEngine::Color, ::UnityEngine::Color, ::System::Action_1<::UnityEngine::Color>*, float_t,
                                                                                                    ::GlobalNamespace::EaseType, float_t, ::Tweening::ColorTween*>* Pool;
 
-  /// @brief Method GetValue, addr 0x68adf78, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x68ae5d4, size 0x3c, virtual true, abstract: false, final false
   inline ::UnityEngine::Color GetValue(float_t t);
 
   static inline ::Tweening::ColorTween* New_ctor();
@@ -51,14 +51,14 @@ public:
   static inline ::Tweening::ColorTween* New_ctor(::UnityEngine::Color fromValue, ::UnityEngine::Color toValue, ::System::Action_1<::UnityEngine::Color>* onUpdate, float_t duration,
                                                  ::GlobalNamespace::EaseType easeType, float_t delay);
 
-  /// @brief Method .ctor, addr 0x68add7c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68ae3d8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x68adea8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68ae504, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color fromValue, ::UnityEngine::Color toValue, ::System::Action_1<::UnityEngine::Color>* onUpdate, float_t duration, ::UnityEngine::AnimationCurve* animationCurve,
                     float_t delay);
 
-  /// @brief Method .ctor, addr 0x68adddc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68ae438, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color fromValue, ::UnityEngine::Color toValue, ::System::Action_1<::UnityEngine::Color>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType,
                     float_t delay);
 
@@ -84,7 +84,7 @@ public:
   ColorTween(ColorTween const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23855 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23873 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

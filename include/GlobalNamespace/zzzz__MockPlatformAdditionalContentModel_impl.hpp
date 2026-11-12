@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__12::*)()>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__12::MoveNext)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x39a89a4;
+  constexpr static std::size_t addrs = 0x39ace3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__12::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MockPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__12::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39a8c5c;
+  constexpr static std::size_t addrs = 0x39ad0f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__10::*)()>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__10::MoveNext)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x39a8cdc;
+  constexpr static std::size_t addrs = 0x39ad174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__10::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MockPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__10::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39a8f60;
+  constexpr static std::size_t addrs = 0x39ad3f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__11::*)()>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__11::MoveNext)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x39a8fe0;
+  constexpr static std::size_t addrs = 0x39ad478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__11::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MockPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__11::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39a929c;
+  constexpr static std::size_t addrs = 0x39ad734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__14::*)()>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__14::MoveNext)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x39a931c;
+  constexpr static std::size_t addrs = 0x39ad7b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__14::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MockPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__14::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39a9570;
+  constexpr static std::size_t addrs = 0x39ada08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__16::*)()>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__16::MoveNext)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x39a95f0;
+  constexpr static std::size_t addrs = 0x39ada88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__16::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MockPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__16::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39a98e0;
+  constexpr static std::size_t addrs = 0x39add78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__16>(),
@@ -358,7 +358,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__21::*)()>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__21::MoveNext)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x39a9960;
+  constexpr static std::size_t addrs = 0x39addf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -372,7 +372,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__21::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__21::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39a9c04;
+  constexpr static std::size_t addrs = 0x39ae09c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -424,7 +424,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__15::*)()>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__15::MoveNext)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x39a9c84;
+  constexpr static std::size_t addrs = 0x39ae11c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -438,7 +438,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__15::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__15::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39a9f74;
+  constexpr static std::size_t addrs = 0x39ae40c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__15>(),
@@ -489,7 +489,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*)>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel::_ctor)> {
   constexpr static std::size_t size = 0x938;
-  constexpr static std::size_t addrs = 0x39a755c;
+  constexpr static std::size_t addrs = 0x39ab9f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -503,7 +503,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel::*)()>(&::GlobalNamespace::MockPlatformAdditionalContentModel::Initialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39a7ea0;
+  constexpr static std::size_t addrs = 0x39ac338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlatformAdditionalContentModel*>(),
@@ -516,7 +516,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel::*)()>(&::GlobalNamespace::MockPlatformAdditionalContentModel::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39a7ea4;
+  constexpr static std::size_t addrs = 0x39ac33c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlatformAdditionalContentModel*>(),
@@ -530,7 +530,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel::*)()>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel::InvalidateDataInternal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39a7ea8;
+  constexpr static std::size_t addrs = 0x39ac340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlatformAdditionalContentModel*>(),
@@ -545,7 +545,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel::GetLevelEntitlementStatusInternalAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x39a7eac;
+  constexpr static std::size_t addrs = 0x39ac344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlatformAdditionalContentModel*>(),
@@ -560,7 +560,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel::GetPackEntitlementStatusInternalAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x39a7f9c;
+  constexpr static std::size_t addrs = 0x39ac434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlatformAdditionalContentModel*>(),
@@ -575,7 +575,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel::GetGameDlcEntitlementStatusInternalAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x39a808c;
+  constexpr static std::size_t addrs = 0x39ac524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlatformAdditionalContentModel*>(),
@@ -590,7 +590,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel::GetLevelDataVersionInternalAsync)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x39a817c;
+  constexpr static std::size_t addrs = 0x39ac614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlatformAdditionalContentModel*>(),
@@ -605,7 +605,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel::IsPackBetterBuyThanLevelAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x39a81ec;
+  constexpr static std::size_t addrs = 0x39ac684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlatformAdditionalContentModel*>(),
@@ -619,7 +619,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* (
     ::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::MockPlatformAdditionalContentModel::OpenLevelProductStoreAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x39a82dc;
+  constexpr static std::size_t addrs = 0x39ac774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlatformAdditionalContentModel*>(),
@@ -634,7 +634,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel::OpenGameDlcProductStoreAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x39a83cc;
+  constexpr static std::size_t addrs = 0x39ac864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlatformAdditionalContentModel*>(),
@@ -647,7 +647,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::StringW)>(&::GlobalNamespace::MockPlatformAdditionalContentModel::OpenStore)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39a84bc;
+  constexpr static std::size_t addrs = 0x39ac954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlatformAdditionalContentModel*>(),
@@ -655,13 +655,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MockPlatformAdditionalContentModel.GetExcludedLevelIdsInternalAsync
+//  Writing Method size for method: ::GlobalNamespace::MockPlatformAdditionalContentModel.GetDiscontinuedLevelIdsInternalAsync
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* (
-    ::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::MockPlatformAdditionalContentModel::GetExcludedLevelIdsInternalAsync)> {
+    ::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::MockPlatformAdditionalContentModel::GetDiscontinuedLevelIdsInternalAsync)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x39a84c0;
+  constexpr static std::size_t addrs = 0x39ac958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlatformAdditionalContentModel*>(),
@@ -675,7 +675,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::StringW)>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel::BuyGameDlc)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x39a85a4;
+  constexpr static std::size_t addrs = 0x39aca3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -688,7 +688,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::StringW)>(&::GlobalNamespace::MockPlatformAdditionalContentModel::BuyLevel)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x39a86b0;
+  constexpr static std::size_t addrs = 0x39acb48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -703,7 +703,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel::OpenLevelPackProductStoreAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x39a87b0;
+  constexpr static std::size_t addrs = 0x39acc48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlatformAdditionalContentModel*>(),
@@ -717,7 +717,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel::Wait)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x39a88a0;
+  constexpr static std::size_t addrs = 0x39acd38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -874,7 +874,8 @@ inline void GlobalNamespace::MockPlatformAdditionalContentModel::OpenStore(::Str
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MockPlatformAdditionalContentModel*>(), 29 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, uri);
 }
-inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* GlobalNamespace::MockPlatformAdditionalContentModel::GetExcludedLevelIdsInternalAsync(::System::Threading::CancellationToken token) {
+inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>*
+GlobalNamespace::MockPlatformAdditionalContentModel::GetDiscontinuedLevelIdsInternalAsync(::System::Threading::CancellationToken token) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MockPlatformAdditionalContentModel*>(), 30 })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>*>(this, ___internal_method, token);

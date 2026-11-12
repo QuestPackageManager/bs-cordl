@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PresentHiddenSettingsAfterNClicks::*)()>(&::GlobalNamespace::PresentHiddenSettingsAfterNClicks::OnEnable)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5d99c74;
+  constexpr static std::size_t addrs = 0x5d99a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PresentHiddenSettingsAfterNClicks*>(), { "OnEnable", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PresentHiddenSettingsAfterNClicks::*)()>(&::GlobalNamespace::PresentHiddenSettingsAfterNClicks::OnDisable)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d99d14;
+  constexpr static std::size_t addrs = 0x5d99ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PresentHiddenSettingsAfterNClicks*>(), { "OnDisable", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PresentHiddenSettingsAfterNClicks::*)()>(&::GlobalNamespace::PresentHiddenSettingsAfterNClicks::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5d99d2c;
+  constexpr static std::size_t addrs = 0x5d99afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PresentHiddenSettingsAfterNClicks*>(), { ".ctor", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PresentHiddenSettingsAfterNClicks::*)()>(&::GlobalNamespace::PresentHiddenSettingsAfterNClicks::_OnEnable_b__6_0)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5d99d90;
+  constexpr static std::size_t addrs = 0x5d99b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PresentHiddenSettingsAfterNClicks*>(), { "<OnEnable>b__6_0", {}, {} })));

@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpriteAsyncLoader__DestroySpriteTask_d__10::*)()>(
     &::GlobalNamespace::SpriteAsyncLoader__DestroySpriteTask_d__10::MoveNext)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x5e7fdd8;
+  constexpr static std::size_t addrs = 0x5e80058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteAsyncLoader__DestroySpriteTask_d__10>(), { "MoveNext", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpriteAsyncLoader__DestroySpriteTask_d__10::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::SpriteAsyncLoader__DestroySpriteTask_d__10::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e80080;
+  constexpr static std::size_t addrs = 0x5e80300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteAsyncLoader__DestroySpriteTask_d__10>(),
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpriteAsyncLoader__UnloadSprite_d__9::*)()>(&::GlobalNamespace::SpriteAsyncLoader__UnloadSprite_d__9::MoveNext)> {
   constexpr static std::size_t size = 0x458;
-  constexpr static std::size_t addrs = 0x5e80088;
+  constexpr static std::size_t addrs = 0x5e80308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteAsyncLoader__UnloadSprite_d__9>(), { "MoveNext", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpriteAsyncLoader__UnloadSprite_d__9::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::SpriteAsyncLoader__UnloadSprite_d__9::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e804e0;
+  constexpr static std::size_t addrs = 0x5e80760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteAsyncLoader__UnloadSprite_d__9>(),
@@ -143,7 +143,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Func_3<::StringW, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>*, ::System::Action_1<::UnityW<::UnityEngine::Sprite>>*,
     int32_t)>(&::GlobalNamespace::SpriteAsyncLoader::_ctor)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5e7f58c;
+  constexpr static std::size_t addrs = 0x5e7f80c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* (::GlobalNamespace::SpriteAsyncLoader::*)(::StringW)>(
     &::GlobalNamespace::SpriteAsyncLoader::LoadSpriteAsync)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x5e7f6e4;
+  constexpr static std::size_t addrs = 0x5e7f964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpriteAsyncLoader::*)(::StringW)>(&::GlobalNamespace::SpriteAsyncLoader::UnloadSprite)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5e7f858;
+  constexpr static std::size_t addrs = 0x5e7fad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpriteAsyncLoader::*)()>(&::GlobalNamespace::SpriteAsyncLoader::ClearCache)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x5e7f920;
+  constexpr static std::size_t addrs = 0x5e7fba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteAsyncLoader*>(), { "ClearCache", {}, {} })));
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpriteAsyncLoader::*)(::StringW, ::StringW)>(&::GlobalNamespace::SpriteAsyncLoader::HandleItemWillBeRemovedFromCache)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5e7fd14;
+  constexpr static std::size_t addrs = 0x5e7ff94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteAsyncLoader*>(),
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpriteAsyncLoader::*)(
     ::GlobalNamespace::IReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>*, ::StringW)>(&::GlobalNamespace::SpriteAsyncLoader::UnloadSprite)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5e7f868;
+  constexpr static std::size_t addrs = 0x5e7fae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpriteAsyncLoader::*)(::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*)>(
     &::GlobalNamespace::SpriteAsyncLoader::DestroySpriteTask)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e7fc68;
+  constexpr static std::size_t addrs = 0x5e7fee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -246,7 +246,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Sprite*)>(&::GlobalNamespace::SpriteAsyncLoader::DestroySprite)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5e7fd24;
+  constexpr static std::size_t addrs = 0x5e7ffa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

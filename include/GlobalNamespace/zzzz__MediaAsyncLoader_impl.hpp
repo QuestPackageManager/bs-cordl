@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MediaAsyncLoader__LoadAudioClipAsync_d__2::*)()>(
     &::GlobalNamespace::MediaAsyncLoader__LoadAudioClipAsync_d__2::MoveNext)> {
   constexpr static std::size_t size = 0x474;
-  constexpr static std::size_t addrs = 0x5e7e17c;
+  constexpr static std::size_t addrs = 0x5e7e3fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MediaAsyncLoader__LoadAudioClipAsync_d__2>(), { "MoveNext", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MediaAsyncLoader__LoadAudioClipAsync_d__2::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::MediaAsyncLoader__LoadAudioClipAsync_d__2::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5e7e5f0;
+  constexpr static std::size_t addrs = 0x5e7e870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MediaAsyncLoader__LoadAudioClipAsync_d__2>(),
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MediaAsyncLoader__LoadSpriteAsync_d__4::*)()>(&::GlobalNamespace::MediaAsyncLoader__LoadSpriteAsync_d__4::MoveNext)> {
   constexpr static std::size_t size = 0x5a0;
-  constexpr static std::size_t addrs = 0x5e7e670;
+  constexpr static std::size_t addrs = 0x5e7e8f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MediaAsyncLoader__LoadSpriteAsync_d__4>(), { "MoveNext", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MediaAsyncLoader__LoadSpriteAsync_d__4::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::MediaAsyncLoader__LoadSpriteAsync_d__4::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5e7ec10;
+  constexpr static std::size_t addrs = 0x5e7ee90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MediaAsyncLoader__LoadSpriteAsync_d__4>(),
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MediaAsyncLoader__LoadTextureAsync_d__3::*)()>(&::GlobalNamespace::MediaAsyncLoader__LoadTextureAsync_d__3::MoveNext)> {
   constexpr static std::size_t size = 0x3f4;
-  constexpr static std::size_t addrs = 0x5e7ec90;
+  constexpr static std::size_t addrs = 0x5e7ef10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MediaAsyncLoader__LoadTextureAsync_d__3>(), { "MoveNext", {}, {} })));
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MediaAsyncLoader__LoadTextureAsync_d__3::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::MediaAsyncLoader__LoadTextureAsync_d__3::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5e7f084;
+  constexpr static std::size_t addrs = 0x5e7f304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MediaAsyncLoader__LoadTextureAsync_d__3>(),
@@ -203,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MediaAsyncLoader__LoadWebpage_d__0::*)()>(&::GlobalNamespace::MediaAsyncLoader__LoadWebpage_d__0::MoveNext)> {
   constexpr static std::size_t size = 0x408;
-  constexpr static std::size_t addrs = 0x5e7f104;
+  constexpr static std::size_t addrs = 0x5e7f384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MediaAsyncLoader__LoadWebpage_d__0>(), { "MoveNext", {}, {} })));
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MediaAsyncLoader__LoadWebpage_d__0::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::MediaAsyncLoader__LoadWebpage_d__0::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5e7f50c;
+  constexpr static std::size_t addrs = 0x5e7f78c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MediaAsyncLoader__LoadWebpage_d__0>(),
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MediaAsyncLoader::LoadWebpage)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5e7dd60;
+  constexpr static std::size_t addrs = 0x5e7dfe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (::GlobalNamespace::MediaAsyncLoader::*)(::StringW)>(
     &::GlobalNamespace::MediaAsyncLoader::LoadAudioClipFromFilePathAsync)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e7de4c;
+  constexpr static std::size_t addrs = 0x5e7e0cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (*)(::StringW, bool)>(
     &::GlobalNamespace::MediaAsyncLoader::LoadAudioClipAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5e7de58;
+  constexpr static std::size_t addrs = 0x5e7e0d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Texture2D>>* (*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MediaAsyncLoader::LoadTextureAsync)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5e7df48;
+  constexpr static std::size_t addrs = 0x5e7e1c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -322,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* (*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MediaAsyncLoader::LoadSpriteAsync)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5e7e034;
+  constexpr static std::size_t addrs = 0x5e7e2b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -336,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::GlobalNamespace::MediaAsyncLoader::Log)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5e7e120;
+  constexpr static std::size_t addrs = 0x5e7e3a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MediaAsyncLoader*>(), { "Log", {}, { ::i2c::type_of<::StringW>() } })));
@@ -348,7 +348,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MediaAsyncLoader::*)()>(&::GlobalNamespace::MediaAsyncLoader::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e7c684;
+  constexpr static std::size_t addrs = 0x5e7c904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MediaAsyncLoader*>(), { ".ctor", {}, {} })));

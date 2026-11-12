@@ -137,13 +137,13 @@ public:
 
   static inline ::GlobalNamespace::RunSongScreenshotsConsoleCommand___c* New_ctor();
 
-  /// @brief Method <EnqueueScreenshotLevelManually>b__19_2, addr 0x359123c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <EnqueueScreenshotLevelManually>b__19_2, addr 0x359442c, size 0x5c, virtual false, abstract: false, final false
   inline ::StringW _EnqueueScreenshotLevelManually_b__19_2(::GlobalNamespace::BeatmapCharacteristic x);
 
-  /// @brief Method <EnqueueScreenshotLevelManually>b__19_3, addr 0x3591298, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <EnqueueScreenshotLevelManually>b__19_3, addr 0x3594488, size 0x68, virtual false, abstract: false, final false
   inline ::StringW _EnqueueScreenshotLevelManually_b__19_3(::GlobalNamespace::BeatmapDifficulty x);
 
-  /// @brief Method .ctor, addr 0x3591238, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3594428, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::RunSongScreenshotsConsoleCommand___c* getStaticF___9();
@@ -173,7 +173,7 @@ public:
   RunSongScreenshotsConsoleCommand___c(RunSongScreenshotsConsoleCommand___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19795 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19804 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -194,7 +194,7 @@ public:
 
   static inline ::GlobalNamespace::RunSongScreenshotsConsoleCommand___c__DisplayClass19_0* New_ctor();
 
-  /// @brief Method <EnqueueScreenshotLevelManually>b__0, addr 0x3591304, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <EnqueueScreenshotLevelManually>b__0, addr 0x35944f4, size 0x70, virtual false, abstract: false, final false
   inline bool _EnqueueScreenshotLevelManually_b__0(::GlobalNamespace::BeatmapCharacteristic characteristic);
 
   constexpr ::StringW const& __cordl_internal_get_characteristicStr() const;
@@ -203,7 +203,7 @@ public:
 
   constexpr void __cordl_internal_set_characteristicStr(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3591300, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35944f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -221,7 +221,7 @@ public:
   RunSongScreenshotsConsoleCommand___c__DisplayClass19_0(RunSongScreenshotsConsoleCommand___c__DisplayClass19_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19796 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19805 };
 
   /// @brief Field characteristicStr, offset: 0x10, size: 0x8, def value: None
   ::StringW ___characteristicStr;
@@ -245,11 +245,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3591374, size 0x1864, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3594564, size 0x1834, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3592bd8, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3595d98, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -275,7 +275,7 @@ public:
                                                                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19797 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19806 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -342,11 +342,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3592c58, size 0x388, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3595e18, size 0x388, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3592fe0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x35961a0, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -367,7 +367,7 @@ public:
                                                                  ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19798 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19807 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -433,26 +433,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3593064, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3596224, size 0x104, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__21* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3593168, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3596328, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3593170, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3596330, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x35931a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3596368, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x3593060, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3596220, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -474,7 +474,7 @@ public:
   constexpr void __cordl_internal_set___4__this(::GlobalNamespace::RunSongScreenshotsConsoleCommand* value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x3590a54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3593c44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -501,7 +501,7 @@ public:
   RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__21(RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__21 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19799 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19808 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -586,35 +586,35 @@ public:
   __declspec(property(get = get_description)) ::StringW description;
 
   /// [AsyncStateMachine(typeof(RunSongScreenshotsConsoleCommand::<EnqueueScreenshotLevelManually>d__19))]
-  /// @brief Method EnqueueScreenshotLevelManually, addr 0x35907c0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method EnqueueScreenshotLevelManually, addr 0x35939b0, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* EnqueueScreenshotLevelManually(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
   /// [AsyncStateMachine(typeof(RunSongScreenshotsConsoleCommand::<ExecuteAsync>d__18))]
-  /// @brief Method ExecuteAsync, addr 0x35906d0, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ExecuteAsync, addr 0x35938c0, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ExecuteAsync(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
-  /// @brief Method Initialize, addr 0x3590178, size 0x558, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3593368, size 0x558, virtual true, abstract: false, final false
   inline void Initialize();
 
   static inline ::GlobalNamespace::RunSongScreenshotsConsoleCommand* New_ctor();
 
-  /// @brief Method WaitUntilScreenshotQueueEmpty, addr 0x35908b4, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method WaitUntilScreenshotQueueEmpty, addr 0x3593aa4, size 0x14c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* WaitUntilScreenshotQueueEmpty();
 
   /// [IteratorStateMachine(typeof(RunSongScreenshotsConsoleCommand::<WaitUntilScreenshotQueueEmptyCoroutine>d__21))]
-  /// @brief Method WaitUntilScreenshotQueueEmptyCoroutine, addr 0x3590a00, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method WaitUntilScreenshotQueueEmptyCoroutine, addr 0x3593bf0, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* WaitUntilScreenshotQueueEmptyCoroutine();
 
   /// [CompilerGenerated]
-  /// @brief Method <EnqueueScreenshotLevelManually>g__ParseNumber|19_1, addr 0x35910f8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <EnqueueScreenshotLevelManually>g__ParseNumber|19_1, addr 0x35942e8, size 0x94, virtual false, abstract: false, final false
   static inline float_t _EnqueueScreenshotLevelManually_g__ParseNumber_19_1(::StringW x);
 
   /// [CompilerGenerated]
-  /// @brief Method <WaitUntilScreenshotQueueEmptyCoroutine>b__21_0, addr 0x35911b4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <WaitUntilScreenshotQueueEmptyCoroutine>b__21_0, addr 0x35943a4, size 0x30, virtual false, abstract: false, final false
   inline bool _WaitUntilScreenshotQueueEmptyCoroutine_b__21_0();
 
   /// [CompilerGenerated]
-  /// @brief Method <WaitUntilScreenshotQueueEmpty>b__20_0, addr 0x359118c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <WaitUntilScreenshotQueueEmpty>b__20_0, addr 0x359437c, size 0x28, virtual false, abstract: false, final false
   inline bool _WaitUntilScreenshotQueueEmpty_b__20_0();
 
   constexpr ::System::Threading::Barrier* const& __cordl_internal_get__barrier() const;
@@ -695,13 +695,13 @@ public:
 
   constexpr void __cordl_internal_set__wait(::GlobalNamespace::OptionalArgument_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x3590a5c, size 0x69c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3593c4c, size 0x69c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_commandName, addr 0x35900f0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_commandName, addr 0x35932e0, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_commandName();
 
-  /// @brief Method get_description, addr 0x3590134, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_description, addr 0x3593324, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_description();
 
 protected:
@@ -719,7 +719,7 @@ public:
   RunSongScreenshotsConsoleCommand(RunSongScreenshotsConsoleCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19800 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19809 };
 
   /// [Inject]
   /// @brief Field _beatmapLevels, offset: 0x38, size: 0x8, def value: None

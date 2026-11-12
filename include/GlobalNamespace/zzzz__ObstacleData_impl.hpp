@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::ObstacleData::*)()>(&::GlobalNamespace::ObstacleData::get_endBeat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34fb210;
+  constexpr static std::size_t addrs = 0x34fd650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleData*>(), { "get_endBeat", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleData::*)(float_t)>(&::GlobalNamespace::ObstacleData::set_endBeat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34fb218;
+  constexpr static std::size_t addrs = 0x34fd658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleData*>(), { "set_endBeat", {}, { ::i2c::type_of<float_t>() } })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::ObstacleData::*)()>(&::GlobalNamespace::ObstacleData::get_lineIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34fb220;
+  constexpr static std::size_t addrs = 0x34fd660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleData*>(), { "get_lineIndex", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleData::*)(int32_t)>(&::GlobalNamespace::ObstacleData::set_lineIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34fb228;
+  constexpr static std::size_t addrs = 0x34fd668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NoteLineLayer (::GlobalNamespace::ObstacleData::*)()>(&::GlobalNamespace::ObstacleData::get_lineLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34fb230;
+  constexpr static std::size_t addrs = 0x34fd670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleData*>(), { "get_lineLayer", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleData::*)(::GlobalNamespace::NoteLineLayer)>(&::GlobalNamespace::ObstacleData::set_lineLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34fb238;
+  constexpr static std::size_t addrs = 0x34fd678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::ObstacleData::*)()>(&::GlobalNamespace::ObstacleData::get_duration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34fb240;
+  constexpr static std::size_t addrs = 0x34fd680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleData*>(), { "get_duration", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleData::*)(float_t)>(&::GlobalNamespace::ObstacleData::set_duration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34fb248;
+  constexpr static std::size_t addrs = 0x34fd688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::ObstacleData::*)()>(&::GlobalNamespace::ObstacleData::get_width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34fb250;
+  constexpr static std::size_t addrs = 0x34fd690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleData*>(), { "get_width", {}, {} })));
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleData::*)(int32_t)>(&::GlobalNamespace::ObstacleData::set_width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34fb258;
+  constexpr static std::size_t addrs = 0x34fd698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleData*>(), { "set_width", {}, { ::i2c::type_of<int32_t>() } })));
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::ObstacleData::*)()>(&::GlobalNamespace::ObstacleData::get_height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34fb260;
+  constexpr static std::size_t addrs = 0x34fd6a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleData*>(), { "get_height", {}, {} })));
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleData::*)(int32_t)>(&::GlobalNamespace::ObstacleData::set_height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34fb268;
+  constexpr static std::size_t addrs = 0x34fd6a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleData*>(), { "set_height", {}, { ::i2c::type_of<int32_t>() } })));
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleData::*)(float_t, float_t, float_t, int32_t, int32_t, ::GlobalNamespace::NoteLineLayer, float_t, int32_t,
                                                                                                  int32_t)>(&::GlobalNamespace::ObstacleData::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x34fb270;
+  constexpr static std::size_t addrs = 0x34fd6b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleData::*)(float_t)>(&::GlobalNamespace::ObstacleData::UpdateDuration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34fb2c8;
+  constexpr static std::size_t addrs = 0x34fd708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::ObstacleData::*)()>(&::GlobalNamespace::ObstacleData::GetCopy)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x34fb2d0;
+  constexpr static std::size_t addrs = 0x34fd710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -201,11 +201,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleData::*)(int32_t)>(&::GlobalNamespace::ObstacleData::Mirror)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x34fb37c;
+  constexpr static std::size_t addrs = 0x34fd7bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleData*>(), { ::i2c::class_of<::GlobalNamespace::ObstacleData*>(), 7 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleData*>(), { ::i2c::class_of<::GlobalNamespace::ObstacleData*>(), 8 }));
     return ___internal_method;
   }
 };
@@ -350,7 +350,7 @@ inline ::GlobalNamespace::BeatmapDataItem* GlobalNamespace::ObstacleData::GetCop
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapDataItem*>(this, ___internal_method);
 }
 inline void GlobalNamespace::ObstacleData::Mirror(int32_t lineCount) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ObstacleData*>(), 7 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ObstacleData*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, lineCount);
 }
 inline ::GlobalNamespace::ObstacleData* GlobalNamespace::ObstacleData::New_ctor(float_t time, float_t startBeat, float_t endBeat, int32_t rotation, int32_t lineIndex,

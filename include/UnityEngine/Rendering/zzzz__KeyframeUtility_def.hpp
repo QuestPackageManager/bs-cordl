@@ -30,32 +30,32 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE KeyframeUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EvalCurveSegmentAndDeriv, addr 0x6c24528, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method EvalCurveSegmentAndDeriv, addr 0x6c25608, size 0xcc, virtual false, abstract: false, final false
   static inline void EvalCurveSegmentAndDeriv(::by_ref<float_t> dstValue, ::by_ref<float_t> dstDeriv, ::UnityEngine::Keyframe lhsKey, ::UnityEngine::Keyframe rhsKey, float_t desiredTime);
 
-  /// @brief Method EvalKeyAtTime, addr 0x6c245f4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method EvalKeyAtTime, addr 0x6c256d4, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Keyframe EvalKeyAtTime(/* [DisallowNull] */ ::Unity::Collections::NativeArray_1<::UnityEngine::Keyframe> keys, int32_t lhsIndex, int32_t rhsIndex, float_t startTime,
                                                       float_t endTime, float_t currTime);
 
-  /// @brief Method FetchKeyFromIndexClampEdge, addr 0x6c24498, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method FetchKeyFromIndexClampEdge, addr 0x6c25578, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Keyframe FetchKeyFromIndexClampEdge(/* [DisallowNull] */ ::Unity::Collections::NativeArray_1<::UnityEngine::Keyframe> keys, int32_t index, float_t segmentStartTime,
                                                                    float_t segmentEndTime);
 
-  /// @brief Method GetKeyframeAndClampEdge, addr 0x6c243a8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetKeyframeAndClampEdge, addr 0x6c25488, size 0xf0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Keyframe GetKeyframeAndClampEdge(/* [DisallowNull] */ ::Unity::Collections::NativeArray_1<::UnityEngine::Keyframe> keys, int32_t index);
 
-  /// @brief Method InterpAnimationCurve, addr 0x6c24698, size 0x578, virtual false, abstract: false, final false
+  /// @brief Method InterpAnimationCurve, addr 0x6c25778, size 0x578, virtual false, abstract: false, final false
   static inline void InterpAnimationCurve(::by_ref<::UnityEngine::AnimationCurve*> lhsAndResultCurve, /* [DisallowNull] */ ::UnityEngine::AnimationCurve* rhsCurve, float_t t);
 
-  /// @brief Method LerpSingleKeyframe, addr 0x6c24350, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method LerpSingleKeyframe, addr 0x6c25430, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::Keyframe LerpSingleKeyframe(::UnityEngine::Keyframe lhs, ::UnityEngine::Keyframe rhs, float_t t);
 
   static inline ::UnityEngine::Rendering::KeyframeUtility* New_ctor();
 
-  /// @brief Method ResetAnimationCurve, addr 0x6c2433c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ResetAnimationCurve, addr 0x6c2541c, size 0x14, virtual false, abstract: false, final false
   static inline void ResetAnimationCurve(::UnityEngine::AnimationCurve* curve);
 
-  /// @brief Method .ctor, addr 0x6c24c10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c25cf0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

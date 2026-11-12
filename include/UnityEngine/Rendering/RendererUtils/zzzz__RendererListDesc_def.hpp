@@ -60,37 +60,37 @@ public:
   /// @brief Field s_EmptyName, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_EmptyName, put = setStaticF_s_EmptyName)) ::UnityEngine::Rendering::ShaderTagId s_EmptyName;
 
-  /// @brief Method ConvertToParameters, addr 0x6fc8ddc, size 0x750, virtual false, abstract: false, final false
+  /// @brief Method ConvertToParameters, addr 0x6fc9ebc, size 0x750, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RendererListParams ConvertToParameters(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RendererUtils::RendererListDesc const> desc);
 
-  /// @brief Method IsValid, addr 0x6fc8cb8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6fc9d98, size 0x124, virtual false, abstract: false, final false
   inline bool IsValid();
 
   static inline ::UnityEngine::Rendering::ShaderTagId getStaticF_s_EmptyName();
 
   /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_batchLayerMask, addr 0x6fc8c8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_batchLayerMask, addr 0x6fc9d6c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_batchLayerMask();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_camera, addr 0x6fc8ca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_camera, addr 0x6fc9d80, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_camera();
 
   /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_cullingResult, addr 0x6fc8c94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_cullingResult, addr 0x6fc9d74, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::CullingResults get_cullingResult();
 
   /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_passName, addr 0x6fc8ca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_passName, addr 0x6fc9d88, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ShaderTagId get_passName();
 
   /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_passNames, addr 0x6fc8cb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_passNames, addr 0x6fc9d90, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::ShaderTagId> get_passNames();
 
   static inline void setStaticF_s_EmptyName(::UnityEngine::Rendering::ShaderTagId value);

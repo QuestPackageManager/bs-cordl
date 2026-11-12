@@ -63,11 +63,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x61d0d4c, size 0x574, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x61d0fd4, size 0x574, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x61d12c0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x61d1548, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -149,14 +149,14 @@ public:
   // Declarations
   using _CreateAsync_d__0 = ::Newtonsoft::Json::Linq::JRaw__CreateAsync_d__0;
 
-  /// @brief Method CloneToken, addr 0x61d0cdc, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method CloneToken, addr 0x61d0f64, size 0x70, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JToken* CloneToken(/* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonCloneSettings* settings);
 
-  /// @brief Method Create, addr 0x61d09e8, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x61d0c70, size 0x2f4, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JRaw* Create(::Newtonsoft::Json::JsonReader* reader);
 
   /// [AsyncStateMachine(typeof(Newtonsoft.Json.Linq.JRaw::<CreateAsync>d__0))]
-  /// @brief Method CreateAsync, addr 0x61d08d8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method CreateAsync, addr 0x61d0b60, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JRaw*>* CreateAsync(::Newtonsoft::Json::JsonReader* reader, ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::Newtonsoft::Json::Linq::JRaw* New_ctor(::Newtonsoft::Json::Linq::JRaw* other);
@@ -166,14 +166,14 @@ public:
   /// @brief [NullableContext(2)]
   static inline ::Newtonsoft::Json::Linq::JRaw* New_ctor(::System::Object* rawJson);
 
-  /// @brief Method .ctor, addr 0x61d09c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61d0c50, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JRaw* other);
 
-  /// @brief Method .ctor, addr 0x61d09d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61d0c5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JRaw* other, /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonCloneSettings* settings);
 
   /// [NullableContext(2)]
-  /// @brief Method .ctor, addr 0x61d09dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61d0c64, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* rawJson);
 
 protected:

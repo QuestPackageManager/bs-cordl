@@ -149,21 +149,21 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method Create, addr 0x6cdf13c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x6ce021c, size 0xa4, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::ScriptableRenderer* Create();
 
   static inline ::UnityEngine::Rendering::Universal::UniversalRendererData* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x6ce06e0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6ce17c0, size 0xc, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ReloadAllNullProperties, addr 0x6cdf1e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ReloadAllNullProperties, addr 0x6ce02c0, size 0x4, virtual false, abstract: false, final false
   inline void ReloadAllNullProperties();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x6ce06f8, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x6ce17d8, size 0x30, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x6ce06ec, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x6ce17cc, size 0xc, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
 
   constexpr bool const& __cordl_internal_get_m_AccurateGbufferNormals() const;
@@ -268,100 +268,100 @@ public:
 
   constexpr void __cordl_internal_set_xrSystemData(::UnityW<::UnityEngine::Rendering::Universal::XRSystemData> value);
 
-  /// @brief Method .ctor, addr 0x6ce0728, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce1808, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_accurateGbufferNormals, addr 0x6ce0668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_accurateGbufferNormals, addr 0x6ce1748, size 0x8, virtual false, abstract: false, final false
   inline bool get_accurateGbufferNormals();
 
-  /// @brief Method get_copyDepthMode, addr 0x6ce0360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_copyDepthMode, addr 0x6ce1440, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::CopyDepthMode get_copyDepthMode();
 
-  /// @brief Method get_defaultStencilState, addr 0x6ce0300, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultStencilState, addr 0x6ce13e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::StencilStateData* get_defaultStencilState();
 
-  /// @brief Method get_depthAttachmentFormat, addr 0x6ce0378, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get_depthAttachmentFormat, addr 0x6ce1458, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DepthFormat get_depthAttachmentFormat();
 
-  /// @brief Method get_depthPrimingMode, addr 0x6ce0348, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_depthPrimingMode, addr 0x6ce1428, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DepthPrimingMode get_depthPrimingMode();
 
-  /// @brief Method get_depthTextureFormat, addr 0x6ce0528, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method get_depthTextureFormat, addr 0x6ce1608, size 0x130, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DepthFormat get_depthTextureFormat();
 
-  /// @brief Method get_intermediateTextureMode, addr 0x6ce0680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intermediateTextureMode, addr 0x6ce1760, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::IntermediateTextureMode get_intermediateTextureMode();
 
-  /// @brief Method get_opaqueLayerMask, addr 0x6ce02d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_opaqueLayerMask, addr 0x6ce13b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_opaqueLayerMask();
 
-  /// @brief Method get_prepassLayerMask, addr 0x6ce02b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_prepassLayerMask, addr 0x6ce1398, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_prepassLayerMask();
 
-  /// @brief Method get_renderingMode, addr 0x6ce0330, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderingMode, addr 0x6ce1410, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::RenderingMode get_renderingMode();
 
-  /// @brief Method get_shadowTransparentReceive, addr 0x6ce0318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shadowTransparentReceive, addr 0x6ce13f8, size 0x8, virtual false, abstract: false, final false
   inline bool get_shadowTransparentReceive();
 
-  /// @brief Method get_stripAdditionalLightOffVariants, addr 0x6ce06d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_stripAdditionalLightOffVariants, addr 0x6ce17b0, size 0x8, virtual true, abstract: false, final false
   inline bool get_stripAdditionalLightOffVariants();
 
-  /// @brief Method get_stripShadowsOffVariants, addr 0x6ce06c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_stripShadowsOffVariants, addr 0x6ce17a0, size 0x8, virtual true, abstract: false, final false
   inline bool get_stripShadowsOffVariants();
 
-  /// @brief Method get_transparentLayerMask, addr 0x6ce02e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_transparentLayerMask, addr 0x6ce13c8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_transparentLayerMask();
 
-  /// @brief Method get_usesClusterLightLoop, addr 0x6ce06ac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_usesClusterLightLoop, addr 0x6ce178c, size 0x14, virtual false, abstract: false, final false
   inline bool get_usesClusterLightLoop();
 
-  /// @brief Method get_usesDeferredLighting, addr 0x6ce0698, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_usesDeferredLighting, addr 0x6ce1778, size 0x14, virtual false, abstract: false, final false
   inline bool get_usesDeferredLighting();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
-  /// @brief Method set_accurateGbufferNormals, addr 0x6ce0670, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_accurateGbufferNormals, addr 0x6ce1750, size 0x10, virtual false, abstract: false, final false
   inline void set_accurateGbufferNormals(bool value);
 
-  /// @brief Method set_copyDepthMode, addr 0x6ce0368, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_copyDepthMode, addr 0x6ce1448, size 0x10, virtual false, abstract: false, final false
   inline void set_copyDepthMode(::UnityEngine::Rendering::Universal::CopyDepthMode value);
 
-  /// @brief Method set_defaultStencilState, addr 0x6ce0308, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_defaultStencilState, addr 0x6ce13e8, size 0x10, virtual false, abstract: false, final false
   inline void set_defaultStencilState(::UnityEngine::Rendering::Universal::StencilStateData* value);
 
-  /// @brief Method set_depthAttachmentFormat, addr 0x6ce0434, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method set_depthAttachmentFormat, addr 0x6ce1514, size 0xf4, virtual false, abstract: false, final false
   inline void set_depthAttachmentFormat(::UnityEngine::Rendering::Universal::DepthFormat value);
 
-  /// @brief Method set_depthPrimingMode, addr 0x6ce0350, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_depthPrimingMode, addr 0x6ce1430, size 0x10, virtual false, abstract: false, final false
   inline void set_depthPrimingMode(::UnityEngine::Rendering::Universal::DepthPrimingMode value);
 
-  /// @brief Method set_depthTextureFormat, addr 0x6ce0658, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_depthTextureFormat, addr 0x6ce1738, size 0x10, virtual false, abstract: false, final false
   inline void set_depthTextureFormat(::UnityEngine::Rendering::Universal::DepthFormat value);
 
-  /// @brief Method set_intermediateTextureMode, addr 0x6ce0688, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_intermediateTextureMode, addr 0x6ce1768, size 0x10, virtual false, abstract: false, final false
   inline void set_intermediateTextureMode(::UnityEngine::Rendering::Universal::IntermediateTextureMode value);
 
-  /// @brief Method set_opaqueLayerMask, addr 0x6ce02d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_opaqueLayerMask, addr 0x6ce13b8, size 0x10, virtual false, abstract: false, final false
   inline void set_opaqueLayerMask(::UnityEngine::LayerMask value);
 
-  /// @brief Method set_prepassLayerMask, addr 0x6ce02c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_prepassLayerMask, addr 0x6ce13a0, size 0x10, virtual false, abstract: false, final false
   inline void set_prepassLayerMask(::UnityEngine::LayerMask value);
 
-  /// @brief Method set_renderingMode, addr 0x6ce0338, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_renderingMode, addr 0x6ce1418, size 0x10, virtual false, abstract: false, final false
   inline void set_renderingMode(::UnityEngine::Rendering::Universal::RenderingMode value);
 
-  /// @brief Method set_shadowTransparentReceive, addr 0x6ce0320, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_shadowTransparentReceive, addr 0x6ce1400, size 0x10, virtual false, abstract: false, final false
   inline void set_shadowTransparentReceive(bool value);
 
-  /// @brief Method set_stripAdditionalLightOffVariants, addr 0x6ce06d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_stripAdditionalLightOffVariants, addr 0x6ce17b8, size 0x8, virtual true, abstract: false, final false
   inline void set_stripAdditionalLightOffVariants(bool value);
 
-  /// @brief Method set_stripShadowsOffVariants, addr 0x6ce06c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_stripShadowsOffVariants, addr 0x6ce17a8, size 0x8, virtual true, abstract: false, final false
   inline void set_stripShadowsOffVariants(bool value);
 
-  /// @brief Method set_transparentLayerMask, addr 0x6ce02f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_transparentLayerMask, addr 0x6ce13d0, size 0x10, virtual false, abstract: false, final false
   inline void set_transparentLayerMask(::UnityEngine::LayerMask value);
 
 protected:

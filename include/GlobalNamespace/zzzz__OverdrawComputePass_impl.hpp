@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OverdrawComputePass_PassData::*)()>(&::GlobalNamespace::OverdrawComputePass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63a4418;
+  constexpr static std::size_t addrs = 0x63a4a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OverdrawComputePass_PassData*>(), { ".ctor", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OverdrawComputePass___c::*)()>(&::GlobalNamespace::OverdrawComputePass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63a4470;
+  constexpr static std::size_t addrs = 0x63a4ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OverdrawComputePass___c*>(), { ".ctor", {}, {} })));
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OverdrawComputePass___c::*)(
     ::GlobalNamespace::OverdrawComputePass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*)>(&::GlobalNamespace::OverdrawComputePass___c::_RecordRenderGraph_b__4_0)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x63a4474;
+  constexpr static std::size_t addrs = 0x63a4ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OverdrawComputePass::*)()>(&::GlobalNamespace::OverdrawComputePass::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x63a3ca0;
+  constexpr static std::size_t addrs = 0x63a42f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OverdrawComputePass*>(), { ".ctor", {}, {} })));
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OverdrawComputePass::*)(
     ::System::Action_4<::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, int32_t, int32_t>*)>(&::GlobalNamespace::OverdrawComputePass::Setup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63a3d64;
+  constexpr static std::size_t addrs = 0x63a43b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OverdrawComputePass::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*)>(&::GlobalNamespace::OverdrawComputePass::RecordRenderGraph)> {
   constexpr static std::size_t size = 0x5bc;
-  constexpr static std::size_t addrs = 0x63a3d6c;
+  constexpr static std::size_t addrs = 0x63a43bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::OverdrawComputePass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*)>(
     &::GlobalNamespace::OverdrawComputePass::Execute)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x63a4328;
+  constexpr static std::size_t addrs = 0x63a4978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

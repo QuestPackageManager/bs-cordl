@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyViewModelNodesEnumerable_Predicate::*)(::System::Object*, ::System::IntPtr)>(
     &::Unity::Hierarchy::HierarchyViewModelNodesEnumerable_Predicate::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6fd2d38;
+  constexpr static std::size_t addrs = 0x6fd3e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModelNodesEnumerable_Predicate*>(),
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Hierarchy::HierarchyViewModelNodesEnumerable_Predicate::*)(
     ::by_ref<::Unity::Hierarchy::HierarchyNode const>, ::Unity::Hierarchy::HierarchyNodeFlags)>(&::Unity::Hierarchy::HierarchyViewModelNodesEnumerable_Predicate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6fd2db8;
+  constexpr static std::size_t addrs = 0x6fd3e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModelNodesEnumerable_Predicate*>(),
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyViewModelNodesEnumerable_Enumerator::*)(::Unity::Hierarchy::HierarchyViewModelNodesEnumerable)>(
     &::Unity::Hierarchy::HierarchyViewModelNodesEnumerable_Enumerator::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6fd2cfc;
+  constexpr static std::size_t addrs = 0x6fd3ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModelNodesEnumerable_Enumerator>(),
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::Unity::Hierarchy::HierarchyNode> (::Unity::Hierarchy::HierarchyViewModelNodesEnumerable_Enumerator::*)()>(
     &::Unity::Hierarchy::HierarchyViewModelNodesEnumerable_Enumerator::get_Current)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6fd2dcc;
+  constexpr static std::size_t addrs = 0x6fd3eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Hierarchy::HierarchyViewModelNodesEnumerable_Enumerator::*)()>(
     &::Unity::Hierarchy::HierarchyViewModelNodesEnumerable_Enumerator::MoveNext)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6fd2ed8;
+  constexpr static std::size_t addrs = 0x6fd3fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyViewModelNodesEnumerable_Enumerator::*)()>(
     &::Unity::Hierarchy::HierarchyViewModelNodesEnumerable_Enumerator::ThrowIfVersionChanged)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6fd3030;
+  constexpr static std::size_t addrs = 0x6fd4110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy:
                                                                                                                        ::Unity::Hierarchy::HierarchyViewModelNodesEnumerable_Predicate*)>(
     &::Unity::Hierarchy::HierarchyViewModelNodesEnumerable::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6fd2c38;
+  constexpr static std::size_t addrs = 0x6fd3d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Hierarchy::HierarchyViewModelNodesEnumerable_Enumerator (::Unity::Hierarchy::HierarchyViewModelNodesEnumerable::*)()>(
     &::Unity::Hierarchy::HierarchyViewModelNodesEnumerable::GetEnumerator)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6fd2cc0;
+  constexpr static std::size_t addrs = 0x6fd3da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModelNodesEnumerable>(), { "GetEnumerator", {}, {} })));

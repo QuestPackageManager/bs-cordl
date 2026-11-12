@@ -43,7 +43,7 @@ public:
   /// @brief Method SetNextOutputBuffer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetNextOutputBuffer(::System::Array* array, int32_t offset, int32_t len);
 
-  /// @brief Method .ctor, addr 0x6616204, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6616854, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_DecodedCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

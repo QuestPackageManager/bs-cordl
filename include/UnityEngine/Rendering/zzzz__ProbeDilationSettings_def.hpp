@@ -24,10 +24,10 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE ProbeDilationSettings {
 public:
   // Declarations
-  /// @brief Method SetDefaults, addr 0x6be975c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetDefaults, addr 0x6bea83c, size 0x20, virtual false, abstract: false, final false
   inline void SetDefaults();
 
-  /// @brief Method UpgradeFromTo, addr 0x6be977c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method UpgradeFromTo, addr 0x6bea85c, size 0x4, virtual false, abstract: false, final false
   inline void UpgradeFromTo(::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion from, ::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion to);
 
   // Ctor Parameters []

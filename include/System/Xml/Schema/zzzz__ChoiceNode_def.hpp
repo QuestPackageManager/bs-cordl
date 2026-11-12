@@ -37,22 +37,22 @@ public:
   // Declarations
   __declspec(property(get = get_IsNullable)) bool IsNullable;
 
-  /// @brief Method ConstructChildPos, addr 0x67841d0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ConstructChildPos, addr 0x6784820, size 0xd8, virtual false, abstract: false, final false
   static inline void ConstructChildPos(::System::Xml::Schema::SyntaxTreeNode* child, ::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                                        ::ArrayW<::System::Xml::Schema::BitSet*> followpos);
 
-  /// @brief Method ConstructPos, addr 0x67842a8, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method ConstructPos, addr 0x67848f8, size 0x118, virtual true, abstract: false, final false
   inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos, ::ArrayW<::System::Xml::Schema::BitSet*> followpos);
 
-  /// @brief Method ExpandTree, addr 0x6784454, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExpandTree, addr 0x6784aa4, size 0x4, virtual true, abstract: false, final false
   inline void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
 
   static inline ::System::Xml::Schema::ChoiceNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x67839f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6784048, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsNullable, addr 0x67843c0, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x6784a10, size 0x94, virtual true, abstract: false, final false
   inline bool get_IsNullable();
 
 protected:

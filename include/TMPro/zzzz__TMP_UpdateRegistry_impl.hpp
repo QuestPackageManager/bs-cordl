@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_UpdateRegistry* (*)()>(&::TMPro::TMP_UpdateRegistry::get_instance)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6dfdeb0;
+  constexpr static std::size_t addrs = 0x6dfef90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_UpdateRegistry*>(), { "get_instance", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_UpdateRegistry::*)()>(&::TMPro::TMP_UpdateRegistry::_ctor)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6dfdf28;
+  constexpr static std::size_t addrs = 0x6dff008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_UpdateRegistry*>(), { ".ctor", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UI::ICanvasElement*)>(&::TMPro::TMP_UpdateRegistry::RegisterCanvasElementForLayoutRebuild)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6dfe078;
+  constexpr static std::size_t addrs = 0x6dff158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_UpdateRegistry::*)(::UnityEngine::UI::ICanvasElement*)>(
     &::TMPro::TMP_UpdateRegistry::InternalRegisterCanvasElementForLayoutRebuild)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x6dfe098;
+  constexpr static std::size_t addrs = 0x6dff178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UI::ICanvasElement*)>(&::TMPro::TMP_UpdateRegistry::RegisterCanvasElementForGraphicRebuild)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6dfe214;
+  constexpr static std::size_t addrs = 0x6dff2f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_UpdateRegistry::*)(::UnityEngine::UI::ICanvasElement*)>(
     &::TMPro::TMP_UpdateRegistry::InternalRegisterCanvasElementForGraphicRebuild)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x6dfe234;
+  constexpr static std::size_t addrs = 0x6dff314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_UpdateRegistry::*)()>(&::TMPro::TMP_UpdateRegistry::PerformUpdateForCanvasRendererObjects)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x6dfe3b0;
+  constexpr static std::size_t addrs = 0x6dff490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_UpdateRegistry*>(), { "PerformUpdateForCanvasRendererObjects", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_UpdateRegistry::*)()>(&::TMPro::TMP_UpdateRegistry::PerformUpdateForMeshRendererObjects)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6dfe624;
+  constexpr static std::size_t addrs = 0x6dff704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_UpdateRegistry*>(), { "PerformUpdateForMeshRendererObjects", {}, {} })));
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UI::ICanvasElement*)>(&::TMPro::TMP_UpdateRegistry::UnRegisterCanvasElementForRebuild)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6dfe694;
+  constexpr static std::size_t addrs = 0x6dff774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_UpdateRegistry::*)(::UnityEngine::UI::ICanvasElement*)>(
     &::TMPro::TMP_UpdateRegistry::InternalUnRegisterCanvasElementForLayoutRebuild)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6dfe6c4;
+  constexpr static std::size_t addrs = 0x6dff7a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_UpdateRegistry::*)(::UnityEngine::UI::ICanvasElement*)>(
     &::TMPro::TMP_UpdateRegistry::InternalUnRegisterCanvasElementForGraphicRebuild)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6dfe7b4;
+  constexpr static std::size_t addrs = 0x6dff894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

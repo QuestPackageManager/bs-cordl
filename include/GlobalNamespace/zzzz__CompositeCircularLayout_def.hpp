@@ -26,12 +26,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE CompositeCircularLayout : public ::GlobalNamespace::CompositeLayoutBase {
 public:
   // Declarations
-  /// @brief Method Apply, addr 0x5de543c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Apply, addr 0x5de554c, size 0x4, virtual true, abstract: false, final false
   inline void Apply(::System::Collections::Generic::IReadOnlyList_1<::UnityW<::UnityEngine::Transform>>* childTransforms, int32_t numberOfElements, int32_t sameIdElements);
 
   static inline ::GlobalNamespace::CompositeCircularLayout* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5de5440, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5de5550, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

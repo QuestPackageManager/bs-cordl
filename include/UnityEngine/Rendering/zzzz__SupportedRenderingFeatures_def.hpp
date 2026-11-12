@@ -320,55 +320,55 @@ public:
   __declspec(property(put = set_supportsHDR)) bool supportsHDR;
 
   /// [RequiredByNativeCode]
-  /// @brief Method FallbackLightmapperByRef, addr 0x6fc39b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FallbackLightmapperByRef, addr 0x6fc4a94, size 0xc, virtual false, abstract: false, final false
   static inline void FallbackLightmapperByRef(::System::IntPtr lightmapperPtr);
 
   /// [RequiredByNativeCode]
-  /// @brief Method FallbackMixedLightingModeByRef, addr 0x6fc33a0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method FallbackMixedLightingModeByRef, addr 0x6fc4480, size 0x124, virtual false, abstract: false, final false
   static inline void FallbackMixedLightingModeByRef(::System::IntPtr fallbackModePtr);
 
   /// [RequiredByNativeCode]
-  /// @brief Method IsAmbientProbeBakingSupported, addr 0x6fc387c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method IsAmbientProbeBakingSupported, addr 0x6fc495c, size 0x68, virtual false, abstract: false, final false
   static inline void IsAmbientProbeBakingSupported(::System::IntPtr isSupportedPtr);
 
   /// [RequiredByNativeCode]
-  /// @brief Method IsDefaultReflectionProbeBakingSupported, addr 0x6fc38e4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method IsDefaultReflectionProbeBakingSupported, addr 0x6fc49c4, size 0x68, virtual false, abstract: false, final false
   static inline void IsDefaultReflectionProbeBakingSupported(::System::IntPtr isSupportedPtr);
 
-  /// @brief Method IsLightmapBakeTypeSupported, addr 0x6fc362c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IsLightmapBakeTypeSupported, addr 0x6fc470c, size 0x70, virtual false, abstract: false, final false
   static inline bool IsLightmapBakeTypeSupported(::UnityEngine::LightmapBakeType bakeType);
 
   /// [RequiredByNativeCode]
-  /// @brief Method IsLightmapBakeTypeSupportedByRef, addr 0x6fc369c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method IsLightmapBakeTypeSupportedByRef, addr 0x6fc477c, size 0xec, virtual false, abstract: false, final false
   static inline void IsLightmapBakeTypeSupportedByRef(::UnityEngine::LightmapBakeType bakeType, ::System::IntPtr isSupportedPtr);
 
   /// [RequiredByNativeCode]
-  /// @brief Method IsLightmapperSupportedByRef, addr 0x6fc3804, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsLightmapperSupportedByRef, addr 0x6fc48e4, size 0x10, virtual false, abstract: false, final false
   static inline void IsLightmapperSupportedByRef(int32_t lightmapper, ::System::IntPtr isSupportedPtr);
 
   /// [RequiredByNativeCode]
-  /// @brief Method IsLightmapsModeSupportedByRef, addr 0x6fc3788, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsLightmapsModeSupportedByRef, addr 0x6fc4868, size 0x7c, virtual false, abstract: false, final false
   static inline void IsLightmapsModeSupportedByRef(::UnityEngine::LightmapsMode mode, ::System::IntPtr isSupportedPtr);
 
-  /// @brief Method IsMixedLightingModeSupported, addr 0x6fc34c4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IsMixedLightingModeSupported, addr 0x6fc45a4, size 0x70, virtual false, abstract: false, final false
   static inline bool IsMixedLightingModeSupported(::UnityEngine::MixedLightingMode mixedMode);
 
   /// [RequiredByNativeCode]
-  /// @brief Method IsMixedLightingModeSupportedByRef, addr 0x6fc3534, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method IsMixedLightingModeSupportedByRef, addr 0x6fc4614, size 0xf8, virtual false, abstract: false, final false
   static inline void IsMixedLightingModeSupportedByRef(::UnityEngine::MixedLightingMode mixedMode, ::System::IntPtr isSupportedPtr);
 
   /// [RequiredByNativeCode]
-  /// @brief Method IsRotatingReflectionProbesSupported, addr 0x6fc39c0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsRotatingReflectionProbesSupported, addr 0x6fc4aa0, size 0x6c, virtual false, abstract: false, final false
   static inline void IsRotatingReflectionProbesSupported(::System::IntPtr isSupportedPtr);
 
   /// [RequiredByNativeCode]
-  /// @brief Method IsUIOverlayRenderedBySRP, addr 0x6fc3814, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method IsUIOverlayRenderedBySRP, addr 0x6fc48f4, size 0x68, virtual false, abstract: false, final false
   static inline void IsUIOverlayRenderedBySRP(::System::IntPtr isSupportedPtr);
 
   static inline ::UnityEngine::Rendering::SupportedRenderingFeatures* New_ctor();
 
   /// [RequiredByNativeCode]
-  /// @brief Method OverridesLightProbeSystem, addr 0x6fc394c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method OverridesLightProbeSystem, addr 0x6fc4a2c, size 0x68, virtual false, abstract: false, final false
   static inline void OverridesLightProbeSystem(::System::IntPtr overridesPtr);
 
   constexpr bool const& __cordl_internal_get__ambientProbeBaking_k__BackingField() const;
@@ -563,77 +563,77 @@ public:
 
   constexpr void __cordl_internal_set__supportsHDR_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6fc3294, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fc4374, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::SupportedRenderingFeatures* getStaticF_s_Active();
 
-  /// @brief Method get_active, addr 0x6fc31f0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_active, addr 0x6fc42d0, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::SupportedRenderingFeatures* get_active();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ambientProbeBaking, addr 0x6fc3378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ambientProbeBaking, addr 0x6fc4458, size 0x8, virtual false, abstract: false, final false
   inline bool get_ambientProbeBaking();
 
   /// [CompilerGenerated]
-  /// @brief Method get_defaultMixedLightingModes, addr 0x6fc3338, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultMixedLightingModes, addr 0x6fc4418, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::SupportedRenderingFeatures_LightmapMixedBakeModes get_defaultMixedLightingModes();
 
   /// [CompilerGenerated]
-  /// @brief Method get_defaultReflectionProbeBaking, addr 0x6fc3380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultReflectionProbeBaking, addr 0x6fc4460, size 0x8, virtual false, abstract: false, final false
   inline bool get_defaultReflectionProbeBaking();
 
   /// [CompilerGenerated]
-  /// @brief Method get_enlighten, addr 0x6fc3358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enlighten, addr 0x6fc4438, size 0x8, virtual false, abstract: false, final false
   inline bool get_enlighten();
 
   /// [CompilerGenerated]
-  /// @brief Method get_lightmapBakeTypes, addr 0x6fc3348, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmapBakeTypes, addr 0x6fc4428, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LightmapBakeType get_lightmapBakeTypes();
 
   /// [CompilerGenerated]
-  /// @brief Method get_lightmapsModes, addr 0x6fc3350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmapsModes, addr 0x6fc4430, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LightmapsMode get_lightmapsModes();
 
   /// [CompilerGenerated]
-  /// @brief Method get_mixedLightingModes, addr 0x6fc3340, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mixedLightingModes, addr 0x6fc4420, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::SupportedRenderingFeatures_LightmapMixedBakeModes get_mixedLightingModes();
 
   /// [CompilerGenerated]
-  /// @brief Method get_overridesLightProbeSystem, addr 0x6fc3388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overridesLightProbeSystem, addr 0x6fc4468, size 0x8, virtual false, abstract: false, final false
   inline bool get_overridesLightProbeSystem();
 
   /// [CompilerGenerated]
-  /// @brief Method get_reflectionProbeModes, addr 0x6fc3328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reflectionProbeModes, addr 0x6fc4408, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::SupportedRenderingFeatures_ReflectionProbeModes get_reflectionProbeModes();
 
   /// [CompilerGenerated]
-  /// @brief Method get_rendersUIOverlay, addr 0x6fc3368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rendersUIOverlay, addr 0x6fc4448, size 0x8, virtual false, abstract: false, final false
   inline bool get_rendersUIOverlay();
 
   static inline void setStaticF_s_Active(::UnityEngine::Rendering::SupportedRenderingFeatures* value);
 
-  /// @brief Method set_active, addr 0x6fbeb44, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_active, addr 0x6fbfc24, size 0x60, virtual false, abstract: false, final false
   static inline void set_active(::UnityEngine::Rendering::SupportedRenderingFeatures* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_overridesLightProbeSystem, addr 0x6fc3390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_overridesLightProbeSystem, addr 0x6fc4470, size 0x8, virtual false, abstract: false, final false
   inline void set_overridesLightProbeSystem(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_reflectionProbeModes, addr 0x6fc3330, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_reflectionProbeModes, addr 0x6fc4410, size 0x8, virtual false, abstract: false, final false
   inline void set_reflectionProbeModes(::UnityEngine::Rendering::SupportedRenderingFeatures_ReflectionProbeModes value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_rendersUIOverlay, addr 0x6fc3370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rendersUIOverlay, addr 0x6fc4450, size 0x8, virtual false, abstract: false, final false
   inline void set_rendersUIOverlay(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_skyOcclusion, addr 0x6fc3360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_skyOcclusion, addr 0x6fc4440, size 0x8, virtual false, abstract: false, final false
   inline void set_skyOcclusion(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_supportsHDR, addr 0x6fc3398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_supportsHDR, addr 0x6fc4478, size 0x8, virtual false, abstract: false, final false
   inline void set_supportsHDR(bool value);
 
 protected:

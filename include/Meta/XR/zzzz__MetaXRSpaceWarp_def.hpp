@@ -21,27 +21,27 @@ namespace Meta::XR {
 class CORDL_TYPE MetaXRSpaceWarp : public ::UnityEngine::XR::OpenXR::Features::OpenXRFeature {
 public:
   // Declarations
-  /// @brief Method MetaSetAppSpacePosition, addr 0x62a6ef4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method MetaSetAppSpacePosition, addr 0x62a717c, size 0x90, virtual false, abstract: false, final false
   static inline void MetaSetAppSpacePosition(float_t x, float_t y, float_t z);
 
-  /// @brief Method MetaSetAppSpaceRotation, addr 0x62a6f88, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method MetaSetAppSpaceRotation, addr 0x62a7210, size 0x98, virtual false, abstract: false, final false
   static inline void MetaSetAppSpaceRotation(float_t x, float_t y, float_t z, float_t w);
 
-  /// @brief Method MetaSetSpaceWarp, addr 0x62a6e74, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method MetaSetSpaceWarp, addr 0x62a70fc, size 0x7c, virtual false, abstract: false, final false
   static inline void MetaSetSpaceWarp(bool enabled);
 
   static inline ::Meta::XR::MetaXRSpaceWarp* New_ctor();
 
-  /// @brief Method SetAppSpacePosition, addr 0x62a6ef0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetAppSpacePosition, addr 0x62a7178, size 0x4, virtual false, abstract: false, final false
   static inline void SetAppSpacePosition(float_t x, float_t y, float_t z);
 
-  /// @brief Method SetAppSpaceRotation, addr 0x62a6f84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetAppSpaceRotation, addr 0x62a720c, size 0x4, virtual false, abstract: false, final false
   static inline void SetAppSpaceRotation(float_t x, float_t y, float_t z, float_t w);
 
-  /// @brief Method SetSpaceWarp, addr 0x62a6e70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetSpaceWarp, addr 0x62a70f8, size 0x4, virtual false, abstract: false, final false
   static inline void SetSpaceWarp(bool enabled);
 
-  /// @brief Method .ctor, addr 0x62a7020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62a72a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

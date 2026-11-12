@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BasicBeatmapEventType)>(&::GlobalNamespace::BeatmapEventTypeExtensions::IsCoreLightIntensityChangeEvent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x34f78b8;
+  constexpr static std::size_t addrs = 0x34f9bb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEventTypeExtensions*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BasicBeatmapEventType)>(&::GlobalNamespace::BeatmapEventTypeExtensions::IsLightIntensityChangeEvent)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x34f78c4;
+  constexpr static std::size_t addrs = 0x34f9bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEventTypeExtensions*>(),

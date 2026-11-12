@@ -107,15 +107,15 @@ public:
   /// @brief Field uvScaleBias, offset 0x98, size 0x10
   __declspec(property(get = __cordl_internal_get_uvScaleBias, put = __cordl_internal_set_uvScaleBias)) ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4> uvScaleBias;
 
-  /// @brief Method Dispose, addr 0x6cd33e8, size 0x218, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6cd44c8, size 0x218, virtual true, abstract: false, final false
   inline void Dispose();
 
   static inline ::UnityEngine::Rendering::Universal::DecalCachedChunk* New_ctor();
 
-  /// @brief Method RemoveAtSwapBack, addr 0x6cd2e68, size 0x2fc, virtual true, abstract: false, final false
+  /// @brief Method RemoveAtSwapBack, addr 0x6cd3f48, size 0x2fc, virtual true, abstract: false, final false
   inline void RemoveAtSwapBack(int32_t entityIndex);
 
-  /// @brief Method SetCapacity, addr 0x6cd3164, size 0x284, virtual true, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x6cd4244, size 0x284, virtual true, abstract: false, final false
   inline void SetCapacity(int32_t newCapacity);
 
   constexpr ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float2> const& __cordl_internal_get_angleFades() const;
@@ -262,7 +262,7 @@ public:
 
   constexpr void __cordl_internal_set_uvScaleBias(::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4> value);
 
-  /// @brief Method .ctor, addr 0x6cd1578, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cd2658, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

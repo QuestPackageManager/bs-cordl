@@ -78,26 +78,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5e72318, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e72230, size 0xb8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::EndOfLifeNoticeViewController__EnableOkButton_d__7* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5e723d0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5e722e8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5e723d8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5e722f0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5e72410, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5e72328, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x5e72314, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5e7222c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -119,7 +119,7 @@ public:
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::EndOfLifeNoticeViewController> value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x5e72308, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e72220, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -196,11 +196,11 @@ public:
   /// @brief Field _okButton, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__okButton, put = __cordl_internal_set__okButton)) ::UnityW<::UnityEngine::UI::Button> _okButton;
 
-  /// @brief Method DidActivate, addr 0x5e72104, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5e7201c, size 0x1b0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   /// [IteratorStateMachine(typeof(EndOfLifeNoticeViewController::<EnableOkButton>d__7))]
-  /// @brief Method EnableOkButton, addr 0x5e722b4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method EnableOkButton, addr 0x5e721cc, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* EnableOkButton();
 
   static inline ::GlobalNamespace::EndOfLifeNoticeViewController* New_ctor();
@@ -241,7 +241,7 @@ public:
 
   constexpr void __cordl_internal_set__okButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  /// @brief Method .ctor, addr 0x5e72310, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e72228, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

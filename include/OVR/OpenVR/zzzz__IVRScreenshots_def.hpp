@@ -105,19 +105,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRScreenshots__RequestScreenshot : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6296190, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6296418, size 0xc0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::by_ref<uint32_t> pOutScreenshotHandle, ::OVR::OpenVR::EVRScreenshotType type, ::StringW pchPreviewFilename, ::StringW pchVRFilename,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x6296250, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x62964d8, size 0x24, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRScreenshotError EndInvoke(::by_ref<uint32_t> pOutScreenshotHandle, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x629617c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6296404, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRScreenshotError Invoke(::by_ref<uint32_t> pOutScreenshotHandle, ::OVR::OpenVR::EVRScreenshotType type, ::StringW pchPreviewFilename, ::StringW pchVRFilename);
 
   static inline ::OVR::OpenVR::IVRScreenshots__RequestScreenshot* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x62960fc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6296384, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -151,18 +151,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRScreenshots__HookScreenshot : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6296308, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6296590, size 0x5c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::ArrayW<::OVR::OpenVR::EVRScreenshotType> pSupportedTypes, int32_t numTypes, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x6296364, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x62965ec, size 0x24, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRScreenshotError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x62962f4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x629657c, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRScreenshotError Invoke(::ArrayW<::OVR::OpenVR::EVRScreenshotType> pSupportedTypes, int32_t numTypes);
 
   static inline ::OVR::OpenVR::IVRScreenshots__HookScreenshot* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6296274, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62964fc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -196,18 +196,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRScreenshots__GetScreenshotPropertyType : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6296408, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6296690, size 0xac, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t screenshotHandle, ::by_ref<::OVR::OpenVR::EVRScreenshotError> pError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x62964b4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x629673c, size 0x24, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRScreenshotType EndInvoke(::by_ref<::OVR::OpenVR::EVRScreenshotError> pError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x62963f4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x629667c, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRScreenshotType Invoke(uint32_t screenshotHandle, ::by_ref<::OVR::OpenVR::EVRScreenshotError> pError);
 
   static inline ::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyType* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6296388, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6296610, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -241,20 +241,20 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRScreenshots__GetScreenshotPropertyFilename : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6296558, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x62967e0, size 0xf4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t screenshotHandle, ::OVR::OpenVR::EVRScreenshotPropertyFilenames filenameType, ::System::Text::StringBuilder* pchFilename, uint32_t cchFilename,
                                              ::by_ref<::OVR::OpenVR::EVRScreenshotError> pError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x629664c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x62968d4, size 0x24, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::by_ref<::OVR::OpenVR::EVRScreenshotError> pError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x6296544, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x62967cc, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(uint32_t screenshotHandle, ::OVR::OpenVR::EVRScreenshotPropertyFilenames filenameType, ::System::Text::StringBuilder* pchFilename, uint32_t cchFilename,
                          ::by_ref<::OVR::OpenVR::EVRScreenshotError> pError);
 
   static inline ::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyFilename* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x62964d8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6296760, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -288,18 +288,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRScreenshots__UpdateScreenshotProgress : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x62966f0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6296978, size 0x78, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t screenshotHandle, float_t flProgress, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x6296768, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x62969f0, size 0x24, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRScreenshotError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x62966dc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6296964, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRScreenshotError Invoke(uint32_t screenshotHandle, float_t flProgress);
 
   static inline ::OVR::OpenVR::IVRScreenshots__UpdateScreenshotProgress* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6296670, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62968f8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -333,19 +333,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRScreenshots__TakeStereoScreenshot : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6296820, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6296aa8, size 0x64, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::by_ref<uint32_t> pOutScreenshotHandle, ::StringW pchPreviewFilename, ::StringW pchVRFilename, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x6296884, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6296b0c, size 0x24, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRScreenshotError EndInvoke(::by_ref<uint32_t> pOutScreenshotHandle, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x629680c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6296a94, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRScreenshotError Invoke(::by_ref<uint32_t> pOutScreenshotHandle, ::StringW pchPreviewFilename, ::StringW pchVRFilename);
 
   static inline ::OVR::OpenVR::IVRScreenshots__TakeStereoScreenshot* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x629678c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6296a14, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -379,19 +379,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRScreenshots__SubmitScreenshot : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6296928, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6296bb0, size 0xb4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t screenshotHandle, ::OVR::OpenVR::EVRScreenshotType type, ::StringW pchSourcePreviewFilename, ::StringW pchSourceVRFilename,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x62969dc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6296c64, size 0x24, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRScreenshotError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x6296914, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6296b9c, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRScreenshotError Invoke(uint32_t screenshotHandle, ::OVR::OpenVR::EVRScreenshotType type, ::StringW pchSourcePreviewFilename, ::StringW pchSourceVRFilename);
 
   static inline ::OVR::OpenVR::IVRScreenshots__SubmitScreenshot* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x62968a8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6296b30, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

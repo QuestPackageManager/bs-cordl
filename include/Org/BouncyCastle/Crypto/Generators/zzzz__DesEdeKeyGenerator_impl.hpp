@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::DesEdeKeyGenerator::*)()>(&::Org::BouncyCastle::Crypto::Generators::DesEdeKeyGenerator::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x368119c;
+  constexpr static std::size_t addrs = 0x3685634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::DesEdeKeyGenerator*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::DesEdeKeyGenerator::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Generators::DesEdeKeyGenerator::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x36811a8;
+  constexpr static std::size_t addrs = 0x3685640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::DesEdeKeyGenerator::*)(::Org::BouncyCastle::Crypto::KeyGenerationParameters*)>(
     &::Org::BouncyCastle::Crypto::Generators::DesEdeKeyGenerator::engineInit)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x36811ac;
+  constexpr static std::size_t addrs = 0x3685644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::DesEdeKeyGenerator*>(),
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Generators::DesEdeKeyGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::DesEdeKeyGenerator::engineGenerateKey)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x36813a4;
+  constexpr static std::size_t addrs = 0x368583c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::DesEdeKeyGenerator*>(),

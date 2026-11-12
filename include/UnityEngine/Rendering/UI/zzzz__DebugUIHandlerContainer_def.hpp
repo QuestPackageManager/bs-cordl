@@ -43,7 +43,7 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerContainer___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <IsDirectChild>b__0, addr 0x6c6dd30, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <IsDirectChild>b__0, addr 0x6c6ee10, size 0x70, virtual false, abstract: false, final false
   inline bool _IsDirectChild_b__0(::UnityEngine::Rendering::UI::DebugUIHandlerWidget* x);
 
   constexpr ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> const& __cordl_internal_get_widget() const;
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_widget(::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> value);
 
-  /// @brief Method .ctor, addr 0x6c6dd28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c6ee08, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -95,16 +95,16 @@ public:
   /// @brief Field contentHolder, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_contentHolder, put = __cordl_internal_set_contentHolder)) ::UnityW<::UnityEngine::RectTransform> contentHolder;
 
-  /// @brief Method GetActiveChildren, addr 0x6c6d95c, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method GetActiveChildren, addr 0x6c6ea3c, size 0x3cc, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget>>* GetActiveChildren();
 
-  /// @brief Method GetFirstItem, addr 0x6c6a584, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetFirstItem, addr 0x6c6b664, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> GetFirstItem();
 
-  /// @brief Method GetLastItem, addr 0x6c6a28c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetLastItem, addr 0x6c6b36c, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> GetLastItem();
 
-  /// @brief Method IsDirectChild, addr 0x6c6a184, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method IsDirectChild, addr 0x6c6b264, size 0x108, virtual false, abstract: false, final false
   inline bool IsDirectChild(::UnityEngine::Rendering::UI::DebugUIHandlerWidget* widget);
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerContainer* New_ctor();
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_contentHolder(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x6c6dd2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c6ee0c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

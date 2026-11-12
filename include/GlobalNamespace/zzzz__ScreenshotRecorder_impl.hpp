@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::ScreenshotRecorder::*)()>(&::GlobalNamespace::ScreenshotRecorder::get_directory)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca589c;
+  constexpr static std::size_t addrs = 0x5ca404c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotRecorder*>(), { "get_directory", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotRecorder::*)(::StringW)>(&::GlobalNamespace::ScreenshotRecorder::set_directory)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca58a4;
+  constexpr static std::size_t addrs = 0x5ca4054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotRecorder::*)()>(&::GlobalNamespace::ScreenshotRecorder::OnEnable)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x5ca58ac;
+  constexpr static std::size_t addrs = 0x5ca405c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotRecorder*>(), { "OnEnable", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotRecorder::*)()>(&::GlobalNamespace::ScreenshotRecorder::OnDisable)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5ca5a60;
+  constexpr static std::size_t addrs = 0x5ca4210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotRecorder*>(), { "OnDisable", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotRecorder::*)()>(&::GlobalNamespace::ScreenshotRecorder::LateUpdate)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5ca5b28;
+  constexpr static std::size_t addrs = 0x5ca42d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotRecorder*>(), { "LateUpdate", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotRecorder::*)(bool)>(&::GlobalNamespace::ScreenshotRecorder::OnApplicationFocus)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5ca5cf0;
+  constexpr static std::size_t addrs = 0x5ca44a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotRecorder::*)()>(&::GlobalNamespace::ScreenshotRecorder::SaveCameraScreenshot)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5ca5c68;
+  constexpr static std::size_t addrs = 0x5ca4418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotRecorder*>(), { "SaveCameraScreenshot", {}, {} })));
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotRecorder::*)(::UnityEngine::Texture2D*)>(&::GlobalNamespace::ScreenshotRecorder::SaveTextureScreenshot)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5ca5e04;
+  constexpr static std::size_t addrs = 0x5ca45b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture2D> (::GlobalNamespace::ScreenshotRecorder::*)(::UnityEngine::RenderTexture*)>(
     &::GlobalNamespace::ScreenshotRecorder::ConvertRenderTexture)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5ca5d08;
+  constexpr static std::size_t addrs = 0x5ca44b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotRecorder::*)()>(&::GlobalNamespace::ScreenshotRecorder::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5ca5f5c;
+  constexpr static std::size_t addrs = 0x5ca470c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotRecorder*>(), { ".ctor", {}, {} })));

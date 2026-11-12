@@ -87,21 +87,21 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent"
   constexpr operator ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*() noexcept;
 
-  /// @brief Method Awake, addr 0x5d21118, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5d212f4, size 0x1dc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleNoteControllerDidInit, addr 0x5d21524, size 0x178, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteControllerDidInit, addr 0x5d21700, size 0x178, virtual true, abstract: false, final true
   inline void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
 
-  /// @brief Method HandleNoteControllerNoteDidPassJumpThreeQuarters, addr 0x5d2169c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteControllerNoteDidPassJumpThreeQuarters, addr 0x5d21878, size 0x20, virtual true, abstract: false, final true
   inline void HandleNoteControllerNoteDidPassJumpThreeQuarters(::GlobalNamespace::NoteControllerBase* noteController);
 
-  /// @brief Method HandleNoteControllerNoteDidStartDissolving, addr 0x5d216bc, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteControllerNoteDidStartDissolving, addr 0x5d21898, size 0x20, virtual true, abstract: false, final true
   inline void HandleNoteControllerNoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController, float_t duration);
 
   static inline ::GlobalNamespace::ColorNoteVisuals* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5d212f4, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5d214d0, size 0x230, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>> const& __cordl_internal_get__arrowMeshRenderers() const;
@@ -152,11 +152,11 @@ public:
 
   constexpr void __cordl_internal_set_didInitEvent(::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>* value);
 
-  /// @brief Method .ctor, addr 0x5d216dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d218b8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_didInitEvent, addr 0x5d20ed0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didInitEvent, addr 0x5d210ac, size 0xc0, virtual false, abstract: false, final false
   inline void add_didInitEvent(::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>* value);
 
   static inline int32_t getStaticF__colorId();
@@ -171,15 +171,15 @@ public:
   constexpr ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent* i___GlobalNamespace__INoteControllerNoteDidStartDissolvingEvent() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didInitEvent, addr 0x5d20f90, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didInitEvent, addr 0x5d2116c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didInitEvent(::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>* value);
 
   static inline void setStaticF__colorId(int32_t value);
 
-  /// @brief Method set_showArrow, addr 0x5d21050, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_showArrow, addr 0x5d2122c, size 0x64, virtual false, abstract: false, final false
   inline void set_showArrow(bool value);
 
-  /// @brief Method set_showCircle, addr 0x5d210b4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_showCircle, addr 0x5d21290, size 0x64, virtual false, abstract: false, final false
   inline void set_showCircle(bool value);
 
 protected:

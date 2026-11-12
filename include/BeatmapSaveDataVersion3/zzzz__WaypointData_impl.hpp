@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapSaveDataVersion3::WaypointData::*)()>(&::BeatmapSaveDataVersion3::WaypointData::get_line)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a12530;
+  constexpr static std::size_t addrs = 0x3a175b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::WaypointData*>(), { "get_line", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapSaveDataVersion3::WaypointData::*)()>(&::BeatmapSaveDataVersion3::WaypointData::get_layer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a12538;
+  constexpr static std::size_t addrs = 0x3a175c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::WaypointData*>(), { "get_layer", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataCommon::OffsetDirection (::BeatmapSaveDataVersion3::WaypointData::*)()>(
     &::BeatmapSaveDataVersion3::WaypointData::get_offsetDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a12540;
+  constexpr static std::size_t addrs = 0x3a175c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::WaypointData*>(), { "get_offsetDirection", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVersion3::WaypointData::*)(float_t, int32_t, int32_t, ::BeatmapSaveDataCommon::OffsetDirection)>(
     &::BeatmapSaveDataVersion3::WaypointData::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3a12548;
+  constexpr static std::size_t addrs = 0x3a175d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::Org::BouncyCastle::Crypto::Tls::ByteQueue::NextTwoPow)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x36e3eb0;
+  constexpr static std::size_t addrs = 0x36e8348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::ByteQueue::*)()>(&::Org::BouncyCastle::Crypto::Tls::ByteQueue::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36e3ecc;
+  constexpr static std::size_t addrs = 0x36e8364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::ByteQueue*>(), { ".ctor", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::ByteQueue::*)(int32_t)>(&::Org::BouncyCastle::Crypto::Tls::ByteQueue::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x36e3ed4;
+  constexpr static std::size_t addrs = 0x36e836c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::ByteQueue::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::ByteQueue::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x36e3f78;
+  constexpr static std::size_t addrs = 0x36e8410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::ByteQueue::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::ByteQueue::AddData)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x36e3f8c;
+  constexpr static std::size_t addrs = 0x36e8424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::ByteQueue::*)()>(&::Org::BouncyCastle::Crypto::Tls::ByteQueue::get_Available)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36e4100;
+  constexpr static std::size_t addrs = 0x36e8598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::ByteQueue*>(), { "get_Available", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::ByteQueue::*)(::System::IO::Stream*, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::ByteQueue::CopyTo)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x36e4108;
+  constexpr static std::size_t addrs = 0x36e85a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::ByteQueue::*)(::ArrayW<uint8_t>, int32_t, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::ByteQueue::Read)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x36e42a0;
+  constexpr static std::size_t addrs = 0x36e8738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::MemoryStream* (::Org::BouncyCastle::Crypto::Tls::ByteQueue::*)(int32_t)>(&::Org::BouncyCastle::Crypto::Tls::ByteQueue::ReadFrom)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x36e44c0;
+  constexpr static std::size_t addrs = 0x36e8958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::ByteQueue::*)(int32_t)>(&::Org::BouncyCastle::Crypto::Tls::ByteQueue::RemoveData)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x36e4694;
+  constexpr static std::size_t addrs = 0x36e8b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::ByteQueue::*)(::ArrayW<uint8_t>, int32_t, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::ByteQueue::RemoveData)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x36e4800;
+  constexpr static std::size_t addrs = 0x36e8c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Tls::ByteQueue::*)(int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::ByteQueue::RemoveData)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x36e482c;
+  constexpr static std::size_t addrs = 0x36e8cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::ByteQueue::*)()>(&::Org::BouncyCastle::Crypto::Tls::ByteQueue::Shrink)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x36e48b8;
+  constexpr static std::size_t addrs = 0x36e8d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::ByteQueue*>(), { "Shrink", {}, {} })));

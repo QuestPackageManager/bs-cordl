@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::HDROutputSettings::*)()>(&::UnityEngine::HDROutputSettings::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f1c7cc;
+  constexpr static std::size_t addrs = 0x6f1d8ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HDROutputSettings*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::HDROutputSettings::*)(int32_t)>(&::UnityEngine::HDROutputSettings::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f1c7d4;
+  constexpr static std::size_t addrs = 0x6f1d8b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HDROutputSettings*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::HDROutputSettings* (*)()>(&::UnityEngine::HDROutputSettings::get_main)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6f1c7dc;
+  constexpr static std::size_t addrs = 0x6f1d8bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HDROutputSettings*>(), { "get_main", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::HDROutputSettings::*)()>(&::UnityEngine::HDROutputSettings::get_active)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6f1c838;
+  constexpr static std::size_t addrs = 0x6f1d918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HDROutputSettings*>(), { "get_active", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::HDROutputSettings::*)()>(&::UnityEngine::HDROutputSettings::get_available)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6f1c8f0;
+  constexpr static std::size_t addrs = 0x6f1d9d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HDROutputSettings*>(), { "get_available", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::HDROutputSettings::*)()>(&::UnityEngine::HDROutputSettings::get_automaticHDRTonemapping)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6f1c9a8;
+  constexpr static std::size_t addrs = 0x6f1da88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HDROutputSettings*>(), { "get_automaticHDRTonemapping", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::HDROutputSettings::*)(bool)>(&::UnityEngine::HDROutputSettings::set_automaticHDRTonemapping)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6f1ca60;
+  constexpr static std::size_t addrs = 0x6f1db40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ColorGamut (::UnityEngine::HDROutputSettings::*)()>(&::UnityEngine::HDROutputSettings::get_displayColorGamut)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6f1cb30;
+  constexpr static std::size_t addrs = 0x6f1dc10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HDROutputSettings*>(), { "get_displayColorGamut", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::Rendering::GraphicsFormat (::UnityEngine::HDROutputSettings::*)()>(
     &::UnityEngine::HDROutputSettings::get_graphicsFormat)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6f1cbe8;
+  constexpr static std::size_t addrs = 0x6f1dcc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HDROutputSettings*>(), { "get_graphicsFormat", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::HDROutputSettings::*)()>(&::UnityEngine::HDROutputSettings::get_paperWhiteNits)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6f1cca0;
+  constexpr static std::size_t addrs = 0x6f1dd80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HDROutputSettings*>(), { "get_paperWhiteNits", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::HDROutputSettings::*)()>(&::UnityEngine::HDROutputSettings::get_maxFullFrameToneMapLuminance)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6f1cd58;
+  constexpr static std::size_t addrs = 0x6f1de38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HDROutputSettings*>(), { "get_maxFullFrameToneMapLuminance", {}, {} })));
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::HDROutputSettings::*)()>(&::UnityEngine::HDROutputSettings::get_maxToneMapLuminance)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6f1ce10;
+  constexpr static std::size_t addrs = 0x6f1def0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HDROutputSettings*>(), { "get_maxToneMapLuminance", {}, {} })));
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::HDROutputSettings::*)()>(&::UnityEngine::HDROutputSettings::get_minToneMapLuminance)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6f1cec8;
+  constexpr static std::size_t addrs = 0x6f1dfa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HDROutputSettings*>(), { "get_minToneMapLuminance", {}, {} })));
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::HDROutputSettings::*)()>(&::UnityEngine::HDROutputSettings::get_HDRModeChangeRequested)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6f1cf80;
+  constexpr static std::size_t addrs = 0x6f1e060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HDROutputSettings*>(), { "get_HDRModeChangeRequested", {}, {} })));
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::HDROutputSettings::*)(bool)>(&::UnityEngine::HDROutputSettings::RequestHDRModeChange)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6f1d038;
+  constexpr static std::size_t addrs = 0x6f1e118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t)>(&::UnityEngine::HDROutputSettings::GetActive)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f1c8b4;
+  constexpr static std::size_t addrs = 0x6f1d994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HDROutputSettings*>(), { "GetActive", {}, { ::i2c::type_of<int32_t>() } })));
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t)>(&::UnityEngine::HDROutputSettings::GetAvailable)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f1c96c;
+  constexpr static std::size_t addrs = 0x6f1da4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t)>(&::UnityEngine::HDROutputSettings::GetAutomaticHDRTonemapping)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f1ca24;
+  constexpr static std::size_t addrs = 0x6f1db04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, bool)>(&::UnityEngine::HDROutputSettings::SetAutomaticHDRTonemapping)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f1caec;
+  constexpr static std::size_t addrs = 0x6f1dbcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ColorGamut (*)(int32_t)>(&::UnityEngine::HDROutputSettings::GetDisplayColorGamut)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f1cbac;
+  constexpr static std::size_t addrs = 0x6f1dc8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -256,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::Rendering::GraphicsFormat (*)(int32_t)>(&::UnityEngine::HDROutputSettings::GetGraphicsFormat)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f1cc64;
+  constexpr static std::size_t addrs = 0x6f1dd44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -269,7 +269,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(int32_t)>(&::UnityEngine::HDROutputSettings::GetPaperWhiteNits)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f1cd1c;
+  constexpr static std::size_t addrs = 0x6f1ddfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -282,7 +282,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::HDROutputSettings::GetMaxFullFrameToneMapLuminance)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f1cdd4;
+  constexpr static std::size_t addrs = 0x6f1deb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -295,7 +295,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::HDROutputSettings::GetMaxToneMapLuminance)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f1ce8c;
+  constexpr static std::size_t addrs = 0x6f1df6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -308,7 +308,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::HDROutputSettings::GetMinToneMapLuminance)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f1cf44;
+  constexpr static std::size_t addrs = 0x6f1e024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -321,7 +321,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t)>(&::UnityEngine::HDROutputSettings::GetHDRModeChangeRequested)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f1cffc;
+  constexpr static std::size_t addrs = 0x6f1e0dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -334,7 +334,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, bool)>(&::UnityEngine::HDROutputSettings::RequestHDRModeChangeInternal)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f1d0c4;
+  constexpr static std::size_t addrs = 0x6f1e1a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set_min(float_t value);
 
-  /// @brief Method .ctor, addr 0x6c27d3c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c28e1c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 value, float_t min, float_t max, bool overrideState);
 
-  /// @brief Method get_value, addr 0x6c27d08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_value, addr 0x6c28de8, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 get_value();
 
-  /// @brief Method set_value, addr 0x6c27d10, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method set_value, addr 0x6c28df0, size 0x2c, virtual true, abstract: false, final false
   inline void set_value(::UnityEngine::Vector2 value);
 
 protected:

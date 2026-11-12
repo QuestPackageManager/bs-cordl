@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_m_oldName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6f96e38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f97f18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW oldName);
 
 protected:

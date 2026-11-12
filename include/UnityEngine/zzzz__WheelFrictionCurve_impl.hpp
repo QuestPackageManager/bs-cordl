@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::WheelFrictionCurve::*)()>(&::UnityEngine::WheelFrictionCurve::get_extremumSlip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x701ad6c;
+  constexpr static std::size_t addrs = 0x701be4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::WheelFrictionCurve>(), { "get_extremumSlip", {}, {} })));
@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::WheelFrictionCurve::*)(float_t)>(&::UnityEngine::WheelFrictionCurve::set_extremumSlip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x701ad74;
+  constexpr static std::size_t addrs = 0x701be54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::WheelFrictionCurve::*)()>(&::UnityEngine::WheelFrictionCurve::get_extremumValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x701ad7c;
+  constexpr static std::size_t addrs = 0x701be5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::WheelFrictionCurve>(), { "get_extremumValue", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::WheelFrictionCurve::*)(float_t)>(&::UnityEngine::WheelFrictionCurve::set_extremumValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x701ad84;
+  constexpr static std::size_t addrs = 0x701be64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::WheelFrictionCurve::*)()>(&::UnityEngine::WheelFrictionCurve::get_asymptoteSlip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x701ad8c;
+  constexpr static std::size_t addrs = 0x701be6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::WheelFrictionCurve>(), { "get_asymptoteSlip", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::WheelFrictionCurve::*)(float_t)>(&::UnityEngine::WheelFrictionCurve::set_asymptoteSlip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x701ad94;
+  constexpr static std::size_t addrs = 0x701be74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::WheelFrictionCurve::*)()>(&::UnityEngine::WheelFrictionCurve::get_asymptoteValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x701ad9c;
+  constexpr static std::size_t addrs = 0x701be7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::WheelFrictionCurve>(), { "get_asymptoteValue", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::WheelFrictionCurve::*)(float_t)>(&::UnityEngine::WheelFrictionCurve::set_asymptoteValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x701ada4;
+  constexpr static std::size_t addrs = 0x701be84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::WheelFrictionCurve::*)()>(&::UnityEngine::WheelFrictionCurve::get_stiffness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x701adac;
+  constexpr static std::size_t addrs = 0x701be8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::WheelFrictionCurve>(), { "get_stiffness", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::WheelFrictionCurve::*)(float_t)>(&::UnityEngine::WheelFrictionCurve::set_stiffness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x701adb4;
+  constexpr static std::size_t addrs = 0x701be94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

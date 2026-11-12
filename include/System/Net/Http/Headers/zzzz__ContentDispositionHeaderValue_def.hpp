@@ -56,16 +56,16 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method EncodeBase64Value, addr 0x653e324, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method EncodeBase64Value, addr 0x653e974, size 0x1fc, virtual false, abstract: false, final false
   static inline ::StringW EncodeBase64Value(::StringW value);
 
-  /// @brief Method EncodeRFC5987, addr 0x653e5b8, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method EncodeRFC5987, addr 0x653ec08, size 0x2b4, virtual false, abstract: false, final false
   static inline ::StringW EncodeRFC5987(::StringW value);
 
-  /// @brief Method Equals, addr 0x653e8c8, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x653ef18, size 0xd0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x653eb00, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x653f150, size 0x80, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::ContentDispositionHeaderValue* New_ctor();
@@ -74,16 +74,16 @@ public:
 
   static inline ::System::Net::Http::Headers::ContentDispositionHeaderValue* New_ctor(::System::Net::Http::Headers::ContentDispositionHeaderValue* source);
 
-  /// @brief Method SetValue, addr 0x653e520, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x653eb70, size 0x98, virtual false, abstract: false, final false
   inline void SetValue(::StringW key, ::StringW value);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x653e86c, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x653eebc, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x653eb80, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x653f1d0, size 0x5c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x653ebdc, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x653f22c, size 0x16c, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::by_ref<::System::Net::Http::Headers::ContentDispositionHeaderValue*> parsedValue);
 
   constexpr ::StringW const& __cordl_internal_get_dispositionType() const;
@@ -98,31 +98,31 @@ public:
 
   constexpr void __cordl_internal_set_parameters(::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* value);
 
-  /// @brief Method .ctor, addr 0x653e040, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x653e690, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x653ad1c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x653b36c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW dispositionType);
 
-  /// @brief Method .ctor, addr 0x653e06c, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x653e6bc, size 0x220, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::Headers::ContentDispositionHeaderValue* source);
 
-  /// @brief Method get_Parameters, addr 0x653e28c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x653e8dc, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* get_Parameters();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_DispositionType, addr 0x653e044, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_DispositionType, addr 0x653e694, size 0x28, virtual false, abstract: false, final false
   inline void set_DispositionType(::StringW value);
 
-  /// @brief Method set_FileName, addr 0x653adb4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_FileName, addr 0x653b404, size 0x70, virtual false, abstract: false, final false
   inline void set_FileName(::StringW value);
 
-  /// @brief Method set_FileNameStar, addr 0x653ae24, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_FileNameStar, addr 0x653b474, size 0x70, virtual false, abstract: false, final false
   inline void set_FileNameStar(::StringW value);
 
-  /// @brief Method set_Name, addr 0x653ad44, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x653b394, size 0x70, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
 protected:
@@ -140,7 +140,7 @@ public:
   ContentDispositionHeaderValue(ContentDispositionHeaderValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21001 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21015 };
 
   /// @brief Field dispositionType, offset: 0x10, size: 0x8, def value: None
   ::StringW ___dispositionType;

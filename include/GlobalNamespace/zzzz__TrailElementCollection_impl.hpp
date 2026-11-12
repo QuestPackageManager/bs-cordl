@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrailElementCollection::*)(int32_t, ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(
     &::GlobalNamespace::TrailElementCollection::_ctor)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x63abda0;
+  constexpr static std::size_t addrs = 0x63ac3f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrailElementCollection::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(
     &::GlobalNamespace::TrailElementCollection::InitSnapshots)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x63ac1a8;
+  constexpr static std::size_t addrs = 0x63ac7f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrailElementCollection::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(
     &::GlobalNamespace::TrailElementCollection::SetHeadData)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x63ac634;
+  constexpr static std::size_t addrs = 0x63acc84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrailElementCollection::*)()>(&::GlobalNamespace::TrailElementCollection::MoveTailToHead)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x63ac6e8;
+  constexpr static std::size_t addrs = 0x63acd38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TrailElementCollection*>(), { "MoveTailToHead", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrailElementCollection::*)()>(&::GlobalNamespace::TrailElementCollection::UpdateDistances)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x63ac784;
+  constexpr static std::size_t addrs = 0x63acdd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TrailElementCollection*>(), { "UpdateDistances", {}, {} })));
@@ -91,7 +91,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                            ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<float_t>)>(
     &::GlobalNamespace::TrailElementCollection::Interpolate)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x63ad750;
+  constexpr static std::size_t addrs = 0x63adda0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrailElementCollection::*)(float_t, ::by_ref<::GlobalNamespace::TrailElementCollection_InterpolationState>)>(
     &::GlobalNamespace::TrailElementCollection::UpdateLerpState)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x63add08;
+  constexpr static std::size_t addrs = 0x63ae358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::TrailElement* (::GlobalNamespace::TrailElementCollection::*)(int32_t)>(
     &::GlobalNamespace::TrailElementCollection::GetElement)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x63ade24;
+  constexpr static std::size_t addrs = 0x63ae474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

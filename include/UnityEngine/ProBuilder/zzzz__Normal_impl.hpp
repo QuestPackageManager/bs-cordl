@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ProBuilder::Normal::*)()>(&::UnityEngine::ProBuilder::Normal::get_normal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b20460;
+  constexpr static std::size_t addrs = 0x6b21540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Normal>(), { "get_normal", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Normal::*)(::UnityEngine::Vector3)>(&::UnityEngine::ProBuilder::Normal::set_normal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b2046c;
+  constexpr static std::size_t addrs = 0x6b2154c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (::UnityEngine::ProBuilder::Normal::*)()>(&::UnityEngine::ProBuilder::Normal::get_tangent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b20478;
+  constexpr static std::size_t addrs = 0x6b21558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Normal>(), { "get_tangent", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Normal::*)(::UnityEngine::Vector4)>(&::UnityEngine::ProBuilder::Normal::set_tangent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b20484;
+  constexpr static std::size_t addrs = 0x6b21564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ProBuilder::Normal::*)()>(&::UnityEngine::ProBuilder::Normal::get_bitangent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b20490;
+  constexpr static std::size_t addrs = 0x6b21570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Normal>(), { "get_bitangent", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Normal::*)(::UnityEngine::Vector3)>(&::UnityEngine::ProBuilder::Normal::set_bitangent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b2049c;
+  constexpr static std::size_t addrs = 0x6b2157c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::Normal::*)(::System::Object*)>(&::UnityEngine::ProBuilder::Normal::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6b204a8;
+  constexpr static std::size_t addrs = 0x6b21588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::Normal::*)()>(&::UnityEngine::ProBuilder::Normal::GetHashCode)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6b20604;
+  constexpr static std::size_t addrs = 0x6b216e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::Normal::*)(::UnityEngine::ProBuilder::Normal)>(&::UnityEngine::ProBuilder::Normal::Equals)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6b2053c;
+  constexpr static std::size_t addrs = 0x6b2161c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::ProBuilder::Normal, ::UnityEngine::ProBuilder::Normal)>(&::UnityEngine::ProBuilder::Normal::op_Equality)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6b20668;
+  constexpr static std::size_t addrs = 0x6b21748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::ProBuilder::Normal, ::UnityEngine::ProBuilder::Normal)>(&::UnityEngine::ProBuilder::Normal::op_Inequality)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6b20698;
+  constexpr static std::size_t addrs = 0x6b21778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

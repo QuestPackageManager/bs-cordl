@@ -66,7 +66,7 @@ namespace System::Text::RegularExpressions {
 struct CORDL_TYPE RegexCharClass_LowerCaseMapping {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x67eeb7c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67ef1cc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(char16_t chMin, char16_t chMax, int32_t lcOp, int32_t data);
 
   // Ctor Parameters []
@@ -122,12 +122,12 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::System::Text::RegularExpressions::RegexCharClass_SingleRange>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::System::Text::RegularExpressions::RegexCharClass_SingleRange>*() noexcept;
 
-  /// @brief Method Compare, addr 0x67eeb90, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x67ef1e0, size 0x38, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Text::RegularExpressions::RegexCharClass_SingleRange x, ::System::Text::RegularExpressions::RegexCharClass_SingleRange y);
 
   static inline ::System::Text::RegularExpressions::RegexCharClass_SingleRangeComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x67eeb8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67ef1dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Text::RegularExpressions::RegexCharClass_SingleRangeComparer* getStaticF_Instance();
@@ -169,7 +169,7 @@ namespace System::Text::RegularExpressions {
 struct CORDL_TYPE RegexCharClass_SingleRange {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x67eec1c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67ef26c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(char16_t first, char16_t last);
 
   // Ctor Parameters []
@@ -277,88 +277,88 @@ public:
   /// @brief Field s_word, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_word, put = setStaticF_s_word)) ::StringW s_word;
 
-  /// @brief Method AddCategory, addr 0x67e8910, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method AddCategory, addr 0x67e8f60, size 0x18, virtual false, abstract: false, final false
   inline void AddCategory(::StringW category);
 
-  /// @brief Method AddCategoryFromName, addr 0x67e83f4, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method AddCategoryFromName, addr 0x67e8a44, size 0x234, virtual false, abstract: false, final false
   inline void AddCategoryFromName(::StringW categoryName, bool invert, bool caseInsensitive, ::StringW pattern);
 
-  /// @brief Method AddChar, addr 0x67e7ed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddChar, addr 0x67e8520, size 0x8, virtual false, abstract: false, final false
   inline void AddChar(char16_t c);
 
-  /// @brief Method AddCharClass, addr 0x67e7fec, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method AddCharClass, addr 0x67e863c, size 0x174, virtual false, abstract: false, final false
   inline void AddCharClass(::System::Text::RegularExpressions::RegexCharClass* cc);
 
-  /// @brief Method AddDigit, addr 0x67e8e9c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method AddDigit, addr 0x67e94ec, size 0xd0, virtual false, abstract: false, final false
   inline void AddDigit(bool ecma, bool negate, ::StringW pattern);
 
-  /// @brief Method AddLowercase, addr 0x67e8928, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method AddLowercase, addr 0x67e8f78, size 0x130, virtual false, abstract: false, final false
   inline void AddLowercase(::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method AddLowercaseRange, addr 0x67e8a58, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method AddLowercaseRange, addr 0x67e90a8, size 0x234, virtual false, abstract: false, final false
   inline void AddLowercaseRange(char16_t chMin, char16_t chMax, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method AddRange, addr 0x67e7ed8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method AddRange, addr 0x67e8528, size 0x114, virtual false, abstract: false, final false
   inline void AddRange(char16_t first, char16_t last);
 
-  /// @brief Method AddSet, addr 0x67e8214, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method AddSet, addr 0x67e8864, size 0x1d8, virtual false, abstract: false, final false
   inline void AddSet(::StringW set);
 
-  /// @brief Method AddSpace, addr 0x67e8d94, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method AddSpace, addr 0x67e93e4, size 0x108, virtual false, abstract: false, final false
   inline void AddSpace(bool ecma, bool negate);
 
-  /// @brief Method AddSubtraction, addr 0x67e83ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddSubtraction, addr 0x67e8a3c, size 0x8, virtual false, abstract: false, final false
   inline void AddSubtraction(::System::Text::RegularExpressions::RegexCharClass* sub);
 
-  /// @brief Method AddWord, addr 0x67e8c8c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method AddWord, addr 0x67e92dc, size 0x108, virtual false, abstract: false, final false
   inline void AddWord(bool ecma, bool negate);
 
-  /// @brief Method Canonicalize, addr 0x67e9da0, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method Canonicalize, addr 0x67ea3f0, size 0x260, virtual false, abstract: false, final false
   inline void Canonicalize();
 
-  /// @brief Method CharInCategory, addr 0x67e96b4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method CharInCategory, addr 0x67e9d04, size 0x18c, virtual false, abstract: false, final false
   static inline bool CharInCategory(char16_t ch, ::StringW set, int32_t start, int32_t mySetLength, int32_t myCategoryLength);
 
-  /// @brief Method CharInCategoryGroup, addr 0x67e9840, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CharInCategoryGroup, addr 0x67e9e90, size 0xc8, virtual false, abstract: false, final false
   static inline bool CharInCategoryGroup(char16_t ch, ::System::Globalization::UnicodeCategory chcategory, ::StringW category, ::by_ref<int32_t> i);
 
-  /// @brief Method CharInClass, addr 0x67e938c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CharInClass, addr 0x67e99dc, size 0x6c, virtual false, abstract: false, final false
   static inline bool CharInClass(char16_t ch, ::StringW set);
 
-  /// @brief Method CharInClassInternal, addr 0x67e95a4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method CharInClassInternal, addr 0x67e9bf4, size 0x110, virtual false, abstract: false, final false
   static inline bool CharInClassInternal(char16_t ch, ::StringW set, int32_t start, int32_t mySetLength, int32_t myCategoryLength);
 
-  /// @brief Method CharInClassRecursive, addr 0x67e9478, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method CharInClassRecursive, addr 0x67e9ac8, size 0x12c, virtual false, abstract: false, final false
   static inline bool CharInClassRecursive(char16_t ch, ::StringW set, int32_t start);
 
-  /// @brief Method GetRangeAt, addr 0x67e81b0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetRangeAt, addr 0x67e8800, size 0x64, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexCharClass_SingleRange GetRangeAt(int32_t i);
 
-  /// @brief Method IsECMAWordChar, addr 0x67e9318, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method IsECMAWordChar, addr 0x67e9968, size 0x74, virtual false, abstract: false, final false
   static inline bool IsECMAWordChar(char16_t ch);
 
-  /// @brief Method IsEmpty, addr 0x67e90b4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x67e9704, size 0xa0, virtual false, abstract: false, final false
   static inline bool IsEmpty(::StringW charClass);
 
-  /// @brief Method IsMergeable, addr 0x67e8f98, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method IsMergeable, addr 0x67e95e8, size 0xa8, virtual false, abstract: false, final false
   static inline bool IsMergeable(::StringW charClass);
 
-  /// @brief Method IsNegated, addr 0x67e9040, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsNegated, addr 0x67e9690, size 0x2c, virtual false, abstract: false, final false
   static inline bool IsNegated(::StringW set);
 
-  /// @brief Method IsSingleton, addr 0x67e9154, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method IsSingleton, addr 0x67e97a4, size 0xe0, virtual false, abstract: false, final false
   static inline bool IsSingleton(::StringW set);
 
-  /// @brief Method IsSingletonInverse, addr 0x67e9234, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method IsSingletonInverse, addr 0x67e9884, size 0xe4, virtual false, abstract: false, final false
   static inline bool IsSingletonInverse(::StringW set);
 
-  /// @brief Method IsSubtraction, addr 0x67e906c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method IsSubtraction, addr 0x67e96bc, size 0x48, virtual false, abstract: false, final false
   static inline bool IsSubtraction(::StringW charClass);
 
-  /// @brief Method IsWordChar, addr 0x67e93f8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method IsWordChar, addr 0x67e9a48, size 0x80, virtual false, abstract: false, final false
   static inline bool IsWordChar(char16_t ch);
 
-  /// @brief Method NegateCategory, addr 0x67e8628, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method NegateCategory, addr 0x67e8c78, size 0x84, virtual false, abstract: false, final false
   static inline ::StringW NegateCategory(::StringW category);
 
   static inline ::System::Text::RegularExpressions::RegexCharClass* New_ctor();
@@ -367,22 +367,22 @@ public:
                                                                              ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexCharClass_SingleRange>* ranges,
                                                                              ::System::Text::StringBuilder* categories, ::System::Text::RegularExpressions::RegexCharClass* subtraction);
 
-  /// @brief Method Parse, addr 0x67e9908, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x67e9f58, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::RegexCharClass* Parse(::StringW charClass);
 
-  /// @brief Method ParseRecursive, addr 0x67e9964, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method ParseRecursive, addr 0x67e9fb4, size 0x278, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::RegexCharClass* ParseRecursive(::StringW charClass, int32_t start);
 
-  /// @brief Method RangeCount, addr 0x67e8160, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method RangeCount, addr 0x67e87b0, size 0x50, virtual false, abstract: false, final false
   inline int32_t RangeCount();
 
-  /// @brief Method SetFromProperty, addr 0x67e86ac, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method SetFromProperty, addr 0x67e8cfc, size 0x264, virtual false, abstract: false, final false
   static inline ::StringW SetFromProperty(::StringW capname, bool invert, ::StringW pattern);
 
-  /// @brief Method SingletonChar, addr 0x67e8f6c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SingletonChar, addr 0x67e95bc, size 0x2c, virtual false, abstract: false, final false
   static inline char16_t SingletonChar(::StringW set);
 
-  /// @brief Method ToStringClass, addr 0x67e9bdc, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method ToStringClass, addr 0x67ea22c, size 0x1c4, virtual false, abstract: false, final false
   inline ::StringW ToStringClass();
 
   constexpr bool const& __cordl_internal_get__canonical() const;
@@ -415,10 +415,10 @@ public:
 
   constexpr void __cordl_internal_set__subtractor(::System::Text::RegularExpressions::RegexCharClass* value);
 
-  /// @brief Method .ctor, addr 0x67e7de0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e8430, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x67e7e90, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e84e0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(bool negate, ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexCharClass_SingleRange>* ranges, ::System::Text::StringBuilder* categories,
                     ::System::Text::RegularExpressions::RegexCharClass* subtraction);
 
@@ -450,7 +450,7 @@ public:
 
   static inline ::StringW getStaticF_s_word();
 
-  /// @brief Method get_CanMerge, addr 0x67e7ea8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_CanMerge, addr 0x67e84f8, size 0x20, virtual false, abstract: false, final false
   inline bool get_CanMerge();
 
   static inline void setStaticF_DigitClass(::StringW value);
@@ -481,7 +481,7 @@ public:
 
   static inline void setStaticF_s_word(::StringW value);
 
-  /// @brief Method set_Negate, addr 0x67e7ec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Negate, addr 0x67e8518, size 0x8, virtual false, abstract: false, final false
   inline void set_Negate(bool value);
 
 protected:

@@ -135,16 +135,16 @@ public:
 
   __declspec(property(get = get_transform)) ::UnityEngine::LowLevelPhysics2D::PhysicsTransform transform;
 
-  /// @brief Method ToString, addr 0x7014098, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x7015178, size 0x100, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_body, addr 0x7014088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_body, addr 0x7015168, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsBody get_body();
 
-  /// @brief Method get_fellAsleep, addr 0x7014090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fellAsleep, addr 0x7015170, size 0x8, virtual false, abstract: false, final false
   inline bool get_fellAsleep();
 
-  /// @brief Method get_transform, addr 0x701407c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_transform, addr 0x701515c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsTransform get_transform();
 
   // Ctor Parameters []
@@ -158,7 +158,7 @@ public:
                                           bool m_FellAsleep) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21595 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21609 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -201,13 +201,13 @@ public:
 
   __declspec(property(get = get_visitorShape)) ::UnityEngine::LowLevelPhysics2D::PhysicsShape visitorShape;
 
-  /// @brief Method ToString, addr 0x70141a8, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x7015288, size 0xc8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_triggerShape, addr 0x7014198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_triggerShape, addr 0x7015278, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsShape get_triggerShape();
 
-  /// @brief Method get_visitorShape, addr 0x70141a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_visitorShape, addr 0x7015280, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsShape get_visitorShape();
 
   // Ctor Parameters []
@@ -219,7 +219,7 @@ public:
   constexpr PhysicsEvents_TriggerBeginEvent(::UnityEngine::LowLevelPhysics2D::PhysicsShape m_TriggerShape, ::UnityEngine::LowLevelPhysics2D::PhysicsShape m_VisitorShape) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21596 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21610 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -252,13 +252,13 @@ public:
 
   __declspec(property(get = get_visitorShape)) ::UnityEngine::LowLevelPhysics2D::PhysicsShape visitorShape;
 
-  /// @brief Method ToString, addr 0x7014280, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x7015360, size 0xc8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_triggerShape, addr 0x7014270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_triggerShape, addr 0x7015350, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsShape get_triggerShape();
 
-  /// @brief Method get_visitorShape, addr 0x7014278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_visitorShape, addr 0x7015358, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsShape get_visitorShape();
 
   // Ctor Parameters []
@@ -270,7 +270,7 @@ public:
   constexpr PhysicsEvents_TriggerEndEvent(::UnityEngine::LowLevelPhysics2D::PhysicsShape m_TriggerShape, ::UnityEngine::LowLevelPhysics2D::PhysicsShape m_VisitorShape) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21597 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21611 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -305,16 +305,16 @@ public:
 
   __declspec(property(get = get_shapeB)) ::UnityEngine::LowLevelPhysics2D::PhysicsShape shapeB;
 
-  /// @brief Method ToString, addr 0x7014368, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x7015448, size 0x104, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_contactId, addr 0x7014358, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_contactId, addr 0x7015438, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsShape_ContactId get_contactId();
 
-  /// @brief Method get_shapeA, addr 0x7014348, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shapeA, addr 0x7015428, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsShape get_shapeA();
 
-  /// @brief Method get_shapeB, addr 0x7014350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shapeB, addr 0x7015430, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsShape get_shapeB();
 
   // Ctor Parameters []
@@ -328,7 +328,7 @@ public:
                                             ::UnityEngine::LowLevelPhysics2D::PhysicsShape_ContactId m_ContactId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21598 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21612 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
@@ -368,16 +368,16 @@ public:
 
   __declspec(property(get = get_shapeB)) ::UnityEngine::LowLevelPhysics2D::PhysicsShape shapeB;
 
-  /// @brief Method ToString, addr 0x701448c, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x701556c, size 0x104, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_contactId, addr 0x701447c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_contactId, addr 0x701555c, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsShape_ContactId get_contactId();
 
-  /// @brief Method get_shapeA, addr 0x701446c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shapeA, addr 0x701554c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsShape get_shapeA();
 
-  /// @brief Method get_shapeB, addr 0x7014474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shapeB, addr 0x7015554, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsShape get_shapeB();
 
   // Ctor Parameters []
@@ -391,7 +391,7 @@ public:
                                           ::UnityEngine::LowLevelPhysics2D::PhysicsShape_ContactId m_ContactId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21599 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21613 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
@@ -431,16 +431,16 @@ public:
 
   __declspec(property(get = get_shapeB)) ::UnityEngine::LowLevelPhysics2D::PhysicsShape shapeB;
 
-  /// @brief Method ToString, addr 0x70145a8, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x7015688, size 0x104, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_physicsWorld, addr 0x7014590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_physicsWorld, addr 0x7015670, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsWorld get_physicsWorld();
 
-  /// @brief Method get_shapeA, addr 0x7014598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shapeA, addr 0x7015678, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsShape get_shapeA();
 
-  /// @brief Method get_shapeB, addr 0x70145a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shapeB, addr 0x7015680, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsShape get_shapeB();
 
   // Ctor Parameters []
@@ -454,7 +454,7 @@ public:
                                              ::UnityEngine::LowLevelPhysics2D::PhysicsShape m_ShapeB) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21600 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21614 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
@@ -498,22 +498,22 @@ public:
 
   __declspec(property(get = get_shapeB)) ::UnityEngine::LowLevelPhysics2D::PhysicsShape shapeB;
 
-  /// @brief Method ToString, addr 0x70146d4, size 0x224, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x70157b4, size 0x224, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_normal, addr 0x70146cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normal, addr 0x70157ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_normal();
 
-  /// @brief Method get_physicsWorld, addr 0x70146ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_physicsWorld, addr 0x701578c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsWorld get_physicsWorld();
 
-  /// @brief Method get_point, addr 0x70146c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_point, addr 0x70157a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_point();
 
-  /// @brief Method get_shapeA, addr 0x70146b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shapeA, addr 0x7015794, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsShape get_shapeA();
 
-  /// @brief Method get_shapeB, addr 0x70146bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shapeB, addr 0x701579c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsShape get_shapeB();
 
   // Ctor Parameters []
@@ -528,7 +528,7 @@ public:
                                         ::UnityEngine::LowLevelPhysics2D::PhysicsShape m_ShapeB, ::UnityEngine::Vector2 m_Point, ::UnityEngine::Vector2 m_Normal) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21601 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21615 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
@@ -574,10 +574,10 @@ public:
   // Declarations
   __declspec(property(get = get_joint)) ::UnityEngine::LowLevelPhysics2D::PhysicsJoint joint;
 
-  /// @brief Method ToString, addr 0x7014900, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x70159e0, size 0xac, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_joint, addr 0x70148f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_joint, addr 0x70159d8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsJoint get_joint();
 
   // Ctor Parameters []
@@ -589,7 +589,7 @@ public:
   constexpr PhysicsEvents_JointThresholdEvent(::UnityEngine::LowLevelPhysics2D::PhysicsJoint m_Joint, ::System::IntPtr m_UserData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21602 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21616 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -617,12 +617,12 @@ namespace UnityEngine::LowLevelPhysics2D {
 class CORDL_TYPE PhysicsEvents_PreSimulateEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x7014a18, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x7015af8, size 0x18, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::LowLevelPhysics2D::PhysicsWorld world, float_t deltaTime);
 
   static inline ::UnityEngine::LowLevelPhysics2D::PhysicsEvents_PreSimulateEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x70149ac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7015a8c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -640,7 +640,7 @@ public:
   PhysicsEvents_PreSimulateEventHandler(PhysicsEvents_PreSimulateEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21603 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21617 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -683,35 +683,35 @@ public:
   __declspec(property(get = getStaticF_s_PreSimulate, put = setStaticF_s_PreSimulate)) ::UnityEngine::LowLevelPhysics2D::PhysicsEvents_PreSimulateEventHandler* s_PreSimulate;
 
   /// [RequiredByNativeCode]
-  /// @brief Method InvokePostSimulate, addr 0x70131a0, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method InvokePostSimulate, addr 0x7014280, size 0x168, virtual false, abstract: false, final false
   static inline void InvokePostSimulate(::UnityEngine::LowLevelPhysics2D::PhysicsWorld world, float_t deltaTime);
 
   /// [RequiredByNativeCode]
-  /// @brief Method InvokePreSimulate, addr 0x7013038, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method InvokePreSimulate, addr 0x7014118, size 0x168, virtual false, abstract: false, final false
   static inline void InvokePreSimulate(::UnityEngine::LowLevelPhysics2D::PhysicsWorld world, float_t deltaTime);
 
   /// [RequiredByNativeCode]
-  /// @brief Method SendBodyUpdateCallbacks, addr 0x70134f8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SendBodyUpdateCallbacks, addr 0x70145d8, size 0x18, virtual false, abstract: false, final false
   static inline void SendBodyUpdateCallbacks(::UnityEngine::LowLevelPhysics2D::PhysicsWorld world);
 
   /// [RequiredByNativeCode]
-  /// @brief Method SendContactCallbacks, addr 0x7013704, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SendContactCallbacks, addr 0x70147e4, size 0x18, virtual false, abstract: false, final false
   static inline void SendContactCallbacks(::UnityEngine::LowLevelPhysics2D::PhysicsWorld world);
 
   /// [RequiredByNativeCode]
-  /// @brief Method SendContactFilterCallback, addr 0x7013308, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SendContactFilterCallback, addr 0x70143e8, size 0xf8, virtual false, abstract: false, final false
   static inline bool SendContactFilterCallback(::System::Object* callbackTarget, ::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactFilterEvent contactFilterEvent);
 
   /// [RequiredByNativeCode]
-  /// @brief Method SendJointThresholdCallbacks, addr 0x7013e94, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SendJointThresholdCallbacks, addr 0x7014f74, size 0x18, virtual false, abstract: false, final false
   static inline void SendJointThresholdCallbacks(::UnityEngine::LowLevelPhysics2D::PhysicsWorld world);
 
   /// [RequiredByNativeCode]
-  /// @brief Method SendPreSolveCallback, addr 0x7013400, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SendPreSolveCallback, addr 0x70144e0, size 0xf8, virtual false, abstract: false, final false
   static inline bool SendPreSolveCallback(::System::Object* callbackTarget, ::UnityEngine::LowLevelPhysics2D::PhysicsEvents_PreSolveEvent preSolveEvent);
 
   /// [RequiredByNativeCode]
-  /// @brief Method SendTriggerCallbacks, addr 0x7013af8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SendTriggerCallbacks, addr 0x7014bd8, size 0x18, virtual false, abstract: false, final false
   static inline void SendTriggerCallbacks(::UnityEngine::LowLevelPhysics2D::PhysicsWorld world);
 
   static inline ::UnityEngine::LowLevelPhysics2D::PhysicsEvents_PreSimulateEventHandler* getStaticF_s_PostSimulate();
@@ -727,7 +727,7 @@ public:
   constexpr PhysicsEvents();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21604 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21618 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

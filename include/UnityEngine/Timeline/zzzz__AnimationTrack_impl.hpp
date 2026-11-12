@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Timeline::AnimationTrack*)>(&::UnityEngine::Timeline::AnimationTrack_AnimationTrackUpgrade::ConvertRotationsToEuler)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6e16fac;
+  constexpr static std::size_t addrs = 0x6e1808c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack_AnimationTrackUpgrade*>(),
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Timeline::AnimationTrack*)>(&::UnityEngine::Timeline::AnimationTrack_AnimationTrackUpgrade::ConvertRootMotion)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6e17024;
+  constexpr static std::size_t addrs = 0x6e18104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack_AnimationTrackUpgrade*>(),
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Timeline::AnimationTrack*)>(&::UnityEngine::Timeline::AnimationTrack_AnimationTrackUpgrade::ConvertInfiniteTrack)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6e170ac;
+  constexpr static std::size_t addrs = 0x6e1818c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack_AnimationTrackUpgrade*>(),
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack__get_outputs_d__49::*)(int32_t)>(
     &::UnityEngine::Timeline::AnimationTrack__get_outputs_d__49::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6e130f0;
+  constexpr static std::size_t addrs = 0x6e141d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack__get_outputs_d__49::*)()>(
     &::UnityEngine::Timeline::AnimationTrack__get_outputs_d__49::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e17298;
+  constexpr static std::size_t addrs = 0x6e18378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::AnimationTrack__get_outputs_d__49::*)()>(&::UnityEngine::Timeline::AnimationTrack__get_outputs_d__49::MoveNext)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e1729c;
+  constexpr static std::size_t addrs = 0x6e1837c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack__get_outputs_d__49*>(), { "MoveNext", {}, {} })));
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::PlayableBinding (::UnityEngine::Timeline::AnimationTrack__get_outputs_d__49::*)()>(
     &::UnityEngine::Timeline::AnimationTrack__get_outputs_d__49::System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__get_Current)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6e1731c;
+  constexpr static std::size_t addrs = 0x6e183fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack__get_outputs_d__49*>(),
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack__get_outputs_d__49::*)()>(
     &::UnityEngine::Timeline::AnimationTrack__get_outputs_d__49::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6e1732c;
+  constexpr static std::size_t addrs = 0x6e1840c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Timeline::AnimationTrack__get_outputs_d__49::*)()>(
     &::UnityEngine::Timeline::AnimationTrack__get_outputs_d__49::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6e17364;
+  constexpr static std::size_t addrs = 0x6e18444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -185,7 +185,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>* (::UnityEngine::Timeline::AnimationTrack__get_outputs_d__49::*)()>(
         &::UnityEngine::Timeline::AnimationTrack__get_outputs_d__49::System_Collections_Generic_IEnumerable_UnityEngine_Playables_PlayableBinding__GetEnumerator)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6e173c8;
+  constexpr static std::size_t addrs = 0x6e184a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack__get_outputs_d__49*>(),
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::Timeline::AnimationTrack__get_outputs_d__49::*)()>(
     &::UnityEngine::Timeline::AnimationTrack__get_outputs_d__49::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e17460;
+  constexpr static std::size_t addrs = 0x6e18540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -348,7 +348,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Timeline::AnimationTrack::*)()>(&::UnityEngine::Timeline::AnimationTrack::get_position)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e12e7c;
+  constexpr static std::size_t addrs = 0x6e13f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(), { "get_position", {}, {} })));
@@ -360,7 +360,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(::UnityEngine::Vector3)>(&::UnityEngine::Timeline::AnimationTrack::set_position)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e12e88;
+  constexpr static std::size_t addrs = 0x6e13f68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -373,7 +373,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (::UnityEngine::Timeline::AnimationTrack::*)()>(&::UnityEngine::Timeline::AnimationTrack::get_rotation)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6e12e94;
+  constexpr static std::size_t addrs = 0x6e13f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(), { "get_rotation", {}, {} })));
@@ -385,7 +385,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(::UnityEngine::Quaternion)>(&::UnityEngine::Timeline::AnimationTrack::set_rotation)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6e12ee0;
+  constexpr static std::size_t addrs = 0x6e13fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -398,7 +398,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Timeline::AnimationTrack::*)()>(&::UnityEngine::Timeline::AnimationTrack::get_eulerAngles)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e12f30;
+  constexpr static std::size_t addrs = 0x6e14010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(), { "get_eulerAngles", {}, {} })));
@@ -410,7 +410,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(::UnityEngine::Vector3)>(&::UnityEngine::Timeline::AnimationTrack::set_eulerAngles)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e12f3c;
+  constexpr static std::size_t addrs = 0x6e1401c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -423,7 +423,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::AnimationTrack::*)()>(&::UnityEngine::Timeline::AnimationTrack::get_applyOffsets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e12f48;
+  constexpr static std::size_t addrs = 0x6e14028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(), { "get_applyOffsets", {}, {} })));
@@ -435,7 +435,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(bool)>(&::UnityEngine::Timeline::AnimationTrack::set_applyOffsets)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e12f50;
+  constexpr static std::size_t addrs = 0x6e14030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -449,7 +449,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::TrackOffset (::UnityEngine::Timeline::AnimationTrack::*)()>(
     &::UnityEngine::Timeline::AnimationTrack::get_trackOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e12f54;
+  constexpr static std::size_t addrs = 0x6e14034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(), { "get_trackOffset", {}, {} })));
@@ -462,7 +462,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(::UnityEngine::Timeline::TrackOffset)>(
     &::UnityEngine::Timeline::AnimationTrack::set_trackOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e12f5c;
+  constexpr static std::size_t addrs = 0x6e1403c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -476,7 +476,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::MatchTargetFields (::UnityEngine::Timeline::AnimationTrack::*)()>(
     &::UnityEngine::Timeline::AnimationTrack::get_matchTargetFields)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e12f64;
+  constexpr static std::size_t addrs = 0x6e14044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(), { "get_matchTargetFields", {}, {} })));
@@ -489,7 +489,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(::UnityEngine::Timeline::MatchTargetFields)>(
     &::UnityEngine::Timeline::AnimationTrack::set_matchTargetFields)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e12f6c;
+  constexpr static std::size_t addrs = 0x6e1404c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(),
@@ -503,7 +503,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::AnimationClip> (::UnityEngine::Timeline::AnimationTrack::*)()>(
     &::UnityEngine::Timeline::AnimationTrack::get_infiniteClip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e12f78;
+  constexpr static std::size_t addrs = 0x6e14058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(), { "get_infiniteClip", {}, {} })));
@@ -515,7 +515,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(::UnityEngine::AnimationClip*)>(&::UnityEngine::Timeline::AnimationTrack::set_infiniteClip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e12f80;
+  constexpr static std::size_t addrs = 0x6e14060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -528,7 +528,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::AnimationTrack::*)()>(&::UnityEngine::Timeline::AnimationTrack::get_infiniteClipRemoveOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e12f88;
+  constexpr static std::size_t addrs = 0x6e14068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(), { "get_infiniteClipRemoveOffset", {}, {} })));
@@ -540,7 +540,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(bool)>(&::UnityEngine::Timeline::AnimationTrack::set_infiniteClipRemoveOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e12f90;
+  constexpr static std::size_t addrs = 0x6e14070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -553,7 +553,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::AvatarMask> (::UnityEngine::Timeline::AnimationTrack::*)()>(&::UnityEngine::Timeline::AnimationTrack::get_avatarMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e12f98;
+  constexpr static std::size_t addrs = 0x6e14078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(), { "get_avatarMask", {}, {} })));
@@ -565,7 +565,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(::UnityEngine::AvatarMask*)>(&::UnityEngine::Timeline::AnimationTrack::set_avatarMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e12fa0;
+  constexpr static std::size_t addrs = 0x6e14080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -578,7 +578,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::AnimationTrack::*)()>(&::UnityEngine::Timeline::AnimationTrack::get_applyAvatarMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e12fa8;
+  constexpr static std::size_t addrs = 0x6e14088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(), { "get_applyAvatarMask", {}, {} })));
@@ -590,7 +590,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(bool)>(&::UnityEngine::Timeline::AnimationTrack::set_applyAvatarMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e12fb0;
+  constexpr static std::size_t addrs = 0x6e14090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -603,7 +603,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::AnimationTrack::*)()>(&::UnityEngine::Timeline::AnimationTrack::CanCompileClips)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6e12fb8;
+  constexpr static std::size_t addrs = 0x6e14098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -617,7 +617,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* (::UnityEngine::Timeline::AnimationTrack::*)()>(
     &::UnityEngine::Timeline::AnimationTrack::get_outputs)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6e13080;
+  constexpr static std::size_t addrs = 0x6e14160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -630,7 +630,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::AnimationTrack::*)()>(&::UnityEngine::Timeline::AnimationTrack::get_inClipMode)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6e13110;
+  constexpr static std::size_t addrs = 0x6e141f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(), { "get_inClipMode", {}, {} })));
@@ -643,7 +643,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Timeline::AnimationTrack::*)()>(
     &::UnityEngine::Timeline::AnimationTrack::get_infiniteClipOffsetPosition)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e131fc;
+  constexpr static std::size_t addrs = 0x6e142dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(), { "get_infiniteClipOffsetPosition", {}, {} })));
@@ -656,7 +656,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::Timeline::AnimationTrack::set_infiniteClipOffsetPosition)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e13208;
+  constexpr static std::size_t addrs = 0x6e142e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -670,7 +670,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (::UnityEngine::Timeline::AnimationTrack::*)()>(
     &::UnityEngine::Timeline::AnimationTrack::get_infiniteClipOffsetRotation)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6e13214;
+  constexpr static std::size_t addrs = 0x6e142f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(), { "get_infiniteClipOffsetRotation", {}, {} })));
@@ -683,7 +683,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(::UnityEngine::Quaternion)>(
     &::UnityEngine::Timeline::AnimationTrack::set_infiniteClipOffsetRotation)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6e13260;
+  constexpr static std::size_t addrs = 0x6e14340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -698,7 +698,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Timeline::AnimationTrack::*)()>(
     &::UnityEngine::Timeline::AnimationTrack::get_infiniteClipOffsetEulerAngles)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e132b0;
+  constexpr static std::size_t addrs = 0x6e14390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -712,7 +712,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::Timeline::AnimationTrack::set_infiniteClipOffsetEulerAngles)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e132bc;
+  constexpr static std::size_t addrs = 0x6e1439c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -726,7 +726,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::AnimationTrack::*)()>(&::UnityEngine::Timeline::AnimationTrack::get_infiniteClipApplyFootIK)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e132c8;
+  constexpr static std::size_t addrs = 0x6e143a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(), { "get_infiniteClipApplyFootIK", {}, {} })));
@@ -738,7 +738,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(bool)>(&::UnityEngine::Timeline::AnimationTrack::set_infiniteClipApplyFootIK)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e132d0;
+  constexpr static std::size_t addrs = 0x6e143b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -751,7 +751,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::Timeline::AnimationTrack::*)()>(&::UnityEngine::Timeline::AnimationTrack::get_infiniteClipTimeOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e132d8;
+  constexpr static std::size_t addrs = 0x6e143b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(), { "get_infiniteClipTimeOffset", {}, {} })));
@@ -763,7 +763,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(double_t)>(&::UnityEngine::Timeline::AnimationTrack::set_infiniteClipTimeOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e132e0;
+  constexpr static std::size_t addrs = 0x6e143c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -777,7 +777,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::TimelineClip_ClipExtrapolation (::UnityEngine::Timeline::AnimationTrack::*)()>(
     &::UnityEngine::Timeline::AnimationTrack::get_infiniteClipPreExtrapolation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e132e8;
+  constexpr static std::size_t addrs = 0x6e143c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -791,7 +791,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(::UnityEngine::Timeline::TimelineClip_ClipExtrapolation)>(
     &::UnityEngine::Timeline::AnimationTrack::set_infiniteClipPreExtrapolation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e132f0;
+  constexpr static std::size_t addrs = 0x6e143d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -806,7 +806,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::TimelineClip_ClipExtrapolation (::UnityEngine::Timeline::AnimationTrack::*)()>(
     &::UnityEngine::Timeline::AnimationTrack::get_infiniteClipPostExtrapolation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e132f8;
+  constexpr static std::size_t addrs = 0x6e143d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -820,7 +820,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(::UnityEngine::Timeline::TimelineClip_ClipExtrapolation)>(
     &::UnityEngine::Timeline::AnimationTrack::set_infiniteClipPostExtrapolation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e13300;
+  constexpr static std::size_t addrs = 0x6e143e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -835,7 +835,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::AnimationPlayableAsset_LoopMode (::UnityEngine::Timeline::AnimationTrack::*)()>(
     &::UnityEngine::Timeline::AnimationTrack::get_infiniteClipLoop)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e13308;
+  constexpr static std::size_t addrs = 0x6e143e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(), { "get_infiniteClipLoop", {}, {} })));
@@ -848,7 +848,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(::UnityEngine::Timeline::AnimationPlayableAsset_LoopMode)>(
     &::UnityEngine::Timeline::AnimationTrack::set_infiniteClipLoop)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e13310;
+  constexpr static std::size_t addrs = 0x6e143f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -862,7 +862,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)()>(&::UnityEngine::Timeline::AnimationTrack::ResetOffsets)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6e13318;
+  constexpr static std::size_t addrs = 0x6e143f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(), { "ResetOffsets", {}, {} })));
@@ -875,7 +875,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::TimelineClip* (::UnityEngine::Timeline::AnimationTrack::*)(::UnityEngine::AnimationClip*)>(
     &::UnityEngine::Timeline::AnimationTrack::CreateClip)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6e1338c;
+  constexpr static std::size_t addrs = 0x6e1446c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -888,7 +888,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(::StringW)>(&::UnityEngine::Timeline::AnimationTrack::CreateInfiniteClip)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6e13654;
+  constexpr static std::size_t addrs = 0x6e14734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -902,7 +902,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::TimelineClip* (::UnityEngine::Timeline::AnimationTrack::*)(::StringW)>(
     &::UnityEngine::Timeline::AnimationTrack::CreateRecordableClip)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6e13770;
+  constexpr static std::size_t addrs = 0x6e14850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -916,7 +916,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(::UnityEngine::Timeline::TimelineClip*)>(
     &::UnityEngine::Timeline::AnimationTrack::OnCreateClip)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6e13b40;
+  constexpr static std::size_t addrs = 0x6e14c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -929,7 +929,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Timeline::AnimationTrack::*)()>(&::UnityEngine::Timeline::AnimationTrack::CalculateItemsHash)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6e13d00;
+  constexpr static std::size_t addrs = 0x6e14de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -942,7 +942,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)()>(&::UnityEngine::Timeline::AnimationTrack::UpdateClipOffsets)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e13388;
+  constexpr static std::size_t addrs = 0x6e14468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(), { "UpdateClipOffsets", {}, {} })));
@@ -956,7 +956,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables:
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Timeline::AnimationTrack*, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement*>*,
     ::UnityEngine::Timeline::AppliedOffsetMode)>(&::UnityEngine::Timeline::AnimationTrack::CompileTrackPlayable)> {
   constexpr static std::size_t size = 0x414;
-  constexpr static std::size_t addrs = 0x6e13f2c;
+  constexpr static std::size_t addrs = 0x6e1500c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -975,7 +975,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::Playable (::UnityEngine::Timeline::AnimationTrack::*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, int32_t)>(&::UnityEngine::Timeline::AnimationTrack::UnityEngine_Timeline_ILayerable_CreateLayerMixer)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6e148d4;
+  constexpr static std::size_t addrs = 0x6e159b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -993,7 +993,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables:
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement*>*)>(
     &::UnityEngine::Timeline::AnimationTrack::CreateMixerPlayableGraph)> {
   constexpr static std::size_t size = 0x9c8;
-  constexpr static std::size_t addrs = 0x6e14928;
+  constexpr static std::size_t addrs = 0x6e15a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1006,7 +1006,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Timeline::AnimationTrack::*)()>(&::UnityEngine::Timeline::AnimationTrack::GetDefaultBlendCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e15858;
+  constexpr static std::size_t addrs = 0x6e16938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(), { "GetDefaultBlendCount", {}, {} })));
@@ -1019,7 +1019,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Animations::AnimationLayerMixerPlayable, bool)>(&::UnityEngine::Timeline::AnimationTrack::AttachDefaultBlend)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e15d84;
+  constexpr static std::size_t addrs = 0x6e16e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1037,7 +1037,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::Playable (::UnityEngine::Timeline::AnimationTrack::*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Playables::Playable, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::UnityEngine::Timeline::AnimationTrack::AttachOffsetPlayable)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x6e15d98;
+  constexpr static std::size_t addrs = 0x6e16e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1055,7 +1055,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::AnimationTrack::*)(::UnityEngine::Timeline::AppliedOffsetMode, ::UnityEngine::GameObject*)>(
     &::UnityEngine::Timeline::AnimationTrack::RequiresMotionXPlayable)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6e15c6c;
+  constexpr static std::size_t addrs = 0x6e16d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1069,7 +1069,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Timeline::AppliedOffsetMode)>(&::UnityEngine::Timeline::AnimationTrack::UsesAbsoluteMotion)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6e15d88;
+  constexpr static std::size_t addrs = 0x6e16e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1083,7 +1083,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::AnimationTrack::*)(::UnityEngine::GameObject*)>(&::UnityEngine::Timeline::AnimationTrack::HasController)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6e160f0;
+  constexpr static std::size_t addrs = 0x6e171d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1097,7 +1097,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Animator> (::UnityEngine::Timeline::AnimationTrack::*)(::UnityEngine::Playables::PlayableDirector*)>(
     &::UnityEngine::Timeline::AnimationTrack::GetBinding)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x6e15efc;
+  constexpr static std::size_t addrs = 0x6e16fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1111,7 +1111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Animations::AnimationLayerMixerPlayable (*)(::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, int32_t)>(
     &::UnityEngine::Timeline::AnimationTrack::CreateGroupMixer)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6e15860;
+  constexpr static std::size_t addrs = 0x6e16940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1128,7 +1128,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables:
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement*>*,
     ::UnityEngine::Timeline::AppliedOffsetMode)>(&::UnityEngine::Timeline::AnimationTrack::CreateInfiniteTrackPlayable)> {
   constexpr static std::size_t size = 0x394;
-  constexpr static std::size_t addrs = 0x6e158d8;
+  constexpr static std::size_t addrs = 0x6e169b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(),
@@ -1147,7 +1147,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables:
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Playables::Playable, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::AppliedOffsetMode)>(
     &::UnityEngine::Timeline::AnimationTrack::ApplyTrackOffset)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x6e146f8;
+  constexpr static std::size_t addrs = 0x6e157d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1165,7 +1165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(::by_ref<double_t>, ::by_ref<double_t>)>(
     &::UnityEngine::Timeline::AnimationTrack::GetEvaluationTime)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6e16220;
+  constexpr static std::size_t addrs = 0x6e17300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1179,7 +1179,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(::by_ref<double_t>, ::by_ref<double_t>)>(
     &::UnityEngine::Timeline::AnimationTrack::GetSequenceTime)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6e164e8;
+  constexpr static std::size_t addrs = 0x6e175c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1193,7 +1193,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::AnimationClip*)>(
     &::UnityEngine::Timeline::AnimationTrack::AssignAnimationClip)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x6e1343c;
+  constexpr static std::size_t addrs = 0x6e1451c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1208,7 +1208,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Timeline::IPropertyCollector*)>(
     &::UnityEngine::Timeline::AnimationTrack::GatherProperties)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e1677c;
+  constexpr static std::size_t addrs = 0x6e1785c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1222,7 +1222,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AnimationClip>>*)>(
     &::UnityEngine::Timeline::AnimationTrack::GetAnimationClips)> {
   constexpr static std::size_t size = 0x554;
-  constexpr static std::size_t addrs = 0x6e16780;
+  constexpr static std::size_t addrs = 0x6e17860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1237,7 +1237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::AppliedOffsetMode (::UnityEngine::Timeline::AnimationTrack::*)(::UnityEngine::GameObject*, bool)>(
     &::UnityEngine::Timeline::AnimationTrack::GetOffsetMode)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6e15744;
+  constexpr static std::size_t addrs = 0x6e16824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(),
@@ -1251,7 +1251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::AnimationTrack::*)(::UnityEngine::GameObject*, ::UnityEngine::Transform*)>(
     &::UnityEngine::Timeline::AnimationTrack::IsRootTransformDisabledByMask)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x6e154c4;
+  constexpr static std::size_t addrs = 0x6e165a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1266,7 +1266,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (::UnityEngine::Timeline::AnimationTrack::*)(::UnityEngine::GameObject*)>(
     &::UnityEngine::Timeline::AnimationTrack::GetGenericRootNode)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x6e152f0;
+  constexpr static std::size_t addrs = 0x6e163d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1279,7 +1279,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::AnimationTrack::*)()>(&::UnityEngine::Timeline::AnimationTrack::AnimatesRootTransform)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x6e14344;
+  constexpr static std::size_t addrs = 0x6e15424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(), { "AnimatesRootTransform", {}, {} })));
@@ -1292,7 +1292,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (*)(::UnityEngine::Transform*, ::StringW)>(
     &::UnityEngine::Timeline::AnimationTrack::FindInHierarchyBreadthFirst)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x6e16cd4;
+  constexpr static std::size_t addrs = 0x6e17db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1306,7 +1306,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Timeline::AnimationTrack::*)()>(&::UnityEngine::Timeline::AnimationTrack::get_openClipOffsetPosition)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e16ebc;
+  constexpr static std::size_t addrs = 0x6e17f9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(), { "get_openClipOffsetPosition", {}, {} })));
@@ -1319,7 +1319,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::Timeline::AnimationTrack::set_openClipOffsetPosition)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e16ec8;
+  constexpr static std::size_t addrs = 0x6e17fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1333,7 +1333,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (::UnityEngine::Timeline::AnimationTrack::*)()>(
     &::UnityEngine::Timeline::AnimationTrack::get_openClipOffsetRotation)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6e16ed4;
+  constexpr static std::size_t addrs = 0x6e17fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(), { "get_openClipOffsetRotation", {}, {} })));
@@ -1346,7 +1346,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(::UnityEngine::Quaternion)>(
     &::UnityEngine::Timeline::AnimationTrack::set_openClipOffsetRotation)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e16f20;
+  constexpr static std::size_t addrs = 0x6e18000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1360,7 +1360,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Timeline::AnimationTrack::*)()>(
     &::UnityEngine::Timeline::AnimationTrack::get_openClipOffsetEulerAngles)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e16f24;
+  constexpr static std::size_t addrs = 0x6e18004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(), { "get_openClipOffsetEulerAngles", {}, {} })));
@@ -1373,7 +1373,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::Timeline::AnimationTrack::set_openClipOffsetEulerAngles)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e16f30;
+  constexpr static std::size_t addrs = 0x6e18010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1387,7 +1387,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::TimelineClip_ClipExtrapolation (::UnityEngine::Timeline::AnimationTrack::*)()>(
     &::UnityEngine::Timeline::AnimationTrack::get_openClipPreExtrapolation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e16f3c;
+  constexpr static std::size_t addrs = 0x6e1801c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(), { "get_openClipPreExtrapolation", {}, {} })));
@@ -1400,7 +1400,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(::UnityEngine::Timeline::TimelineClip_ClipExtrapolation)>(
     &::UnityEngine::Timeline::AnimationTrack::set_openClipPreExtrapolation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e16f44;
+  constexpr static std::size_t addrs = 0x6e18024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1415,7 +1415,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::TimelineClip_ClipExtrapolation (::UnityEngine::Timeline::AnimationTrack::*)()>(
     &::UnityEngine::Timeline::AnimationTrack::get_openClipPostExtrapolation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e16f4c;
+  constexpr static std::size_t addrs = 0x6e1802c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(), { "get_openClipPostExtrapolation", {}, {} })));
@@ -1428,7 +1428,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(::UnityEngine::Timeline::TimelineClip_ClipExtrapolation)>(
     &::UnityEngine::Timeline::AnimationTrack::set_openClipPostExtrapolation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e16f54;
+  constexpr static std::size_t addrs = 0x6e18034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1442,7 +1442,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(int32_t)>(&::UnityEngine::Timeline::AnimationTrack::OnUpgradeFromVersion)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6e16f5c;
+  constexpr static std::size_t addrs = 0x6e1803c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1455,7 +1455,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)()>(&::UnityEngine::Timeline::AnimationTrack::_ctor)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6e170c8;
+  constexpr static std::size_t addrs = 0x6e181a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationTrack*>(), { ".ctor", {}, {} })));

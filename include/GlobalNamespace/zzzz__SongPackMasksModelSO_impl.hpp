@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::StringW>* (::GlobalNamespace::SongPackMasksModelSO::*)()>(
     &::GlobalNamespace::SongPackMasksModelSO::get_defaultSongPackMaskItems)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ef2e4;
+  constexpr static std::size_t addrs = 0x39f438c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPackMasksModelSO*>(), { "get_defaultSongPackMaskItems", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::SongPackMasksModelItem*> (::GlobalNamespace::SongPackMasksModelSO::*)()>(
     &::GlobalNamespace::SongPackMasksModelSO::get_customSongPackMaskItems)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ef2ec;
+  constexpr static std::size_t addrs = 0x39f4394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPackMasksModelSO*>(), { "get_customSongPackMaskItems", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPackMasksModelSO::*)()>(&::GlobalNamespace::SongPackMasksModelSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ef2f4;
+  constexpr static std::size_t addrs = 0x39f439c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPackMasksModelSO*>(), { ".ctor", {}, {} })));

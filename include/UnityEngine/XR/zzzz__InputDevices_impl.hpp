@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::InputDevice (*)(::UnityEngine::XR::XRNode)>(&::UnityEngine::XR::InputDevices::GetDeviceAtXRNode)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x7310448;
+  constexpr static std::size_t addrs = 0x73126d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t, ::UnityEngine::XR::ConnectionChangeType)>(&::UnityEngine::XR::InputDevices::InvokeConnectionEvent)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x731048c;
+  constexpr static std::size_t addrs = 0x7312718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint64_t, uint32_t, float_t, float_t)>(&::UnityEngine::XR::InputDevices::SendHapticImpulse)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x730fffc;
+  constexpr static std::size_t addrs = 0x73120a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,11 +54,25 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t)>(&::UnityEngine::XR::InputDevices::StopHaptics)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x73100b0;
+  constexpr static std::size_t addrs = 0x731215c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::InputDevices*>(), { "StopHaptics", {}, { ::i2c::type_of<uint64_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::XR::InputDevices.TryGetFeatureValue_bool
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint64_t, ::StringW, ::by_ref<bool>)>(&::UnityEngine::XR::InputDevices::TryGetFeatureValue_bool)> {
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x7312230;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::InputDevices*>(),
+                                                             { "TryGetFeatureValue_bool", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<bool>>() } })));
     return ___internal_method;
   }
 };
@@ -67,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint64_t)>(&::UnityEngine::XR::InputDevices::IsDeviceValid)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x730fc58;
+  constexpr static std::size_t addrs = 0x7311d04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(uint64_t)>(&::UnityEngine::XR::InputDevices::GetDeviceName)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x730fcb4;
+  constexpr static std::size_t addrs = 0x7311d60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(uint64_t)>(&::UnityEngine::XR::InputDevices::GetDeviceManufacturer)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x730fda0;
+  constexpr static std::size_t addrs = 0x7311e4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,11 +120,28 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::InputDeviceCharacteristics (*)(uint64_t)>(&::UnityEngine::XR::InputDevices::GetDeviceCharacteristics)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x730fec8;
+  constexpr static std::size_t addrs = 0x7311f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::InputDevices*>(), { "GetDeviceCharacteristics", {}, { ::i2c::type_of<uint64_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::XR::InputDevices.TryGetFeatureValue_bool_Injected
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint64_t, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<bool>)>(
+    &::UnityEngine::XR::InputDevices::TryGetFeatureValue_bool_Injected)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x73127dc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::XR::InputDevices*>(),
+            { "TryGetFeatureValue_bool_Injected", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<bool>>() } })));
     return ___internal_method;
   }
 };
@@ -119,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::XR::InputDevices::GetDeviceName_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x7310550;
+  constexpr static std::size_t addrs = 0x7312830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::XR::InputDevices::GetDeviceManufacturer_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x7310594;
+  constexpr static std::size_t addrs = 0x7312874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,6 +215,12 @@ inline void UnityEngine::XR::InputDevices::StopHaptics(uint64_t deviceId) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::InputDevices*>(), { "StopHaptics", {}, { ::i2c::type_of<uint64_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, deviceId);
 }
+inline bool UnityEngine::XR::InputDevices::TryGetFeatureValue_bool(uint64_t deviceId, ::StringW usage, ::by_ref<bool> value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::InputDevices*>(),
+                                                           { "TryGetFeatureValue_bool", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<bool>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, deviceId, usage, value);
+}
 inline bool UnityEngine::XR::InputDevices::IsDeviceValid(uint64_t deviceId) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::InputDevices*>(), { "IsDeviceValid", {}, { ::i2c::type_of<uint64_t>() } })));
@@ -203,6 +240,14 @@ inline ::UnityEngine::XR::InputDeviceCharacteristics UnityEngine::XR::InputDevic
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::InputDevices*>(), { "GetDeviceCharacteristics", {}, { ::i2c::type_of<uint64_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::InputDeviceCharacteristics>(nullptr, ___internal_method, deviceId);
+}
+inline bool UnityEngine::XR::InputDevices::TryGetFeatureValue_bool_Injected(uint64_t deviceId, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> usage, ::by_ref<bool> value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::XR::InputDevices*>(),
+          { "TryGetFeatureValue_bool_Injected", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<bool>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, deviceId, usage, value);
 }
 inline void UnityEngine::XR::InputDevices::GetDeviceName_Injected(uint64_t deviceId, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret) {
   static auto* ___internal_method =

@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriter::*)(::System::IO::TextWriter*, ::System::Xml::XmlWriterSettings*)>(
     &::System::Xml::HtmlEncodedRawTextWriter::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6611830;
+  constexpr static std::size_t addrs = 0x6611e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriter::*)(::System::IO::Stream*, ::System::Xml::XmlWriterSettings*)>(
     &::System::Xml::HtmlEncodedRawTextWriter::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6611aa0;
+  constexpr static std::size_t addrs = 0x66120f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriter::*)(::System::Xml::XmlStandalone)>(
     &::System::Xml::HtmlEncodedRawTextWriter::WriteXmlDeclaration)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6611d60;
+  constexpr static std::size_t addrs = 0x66123b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriter::*)(::StringW)>(&::System::Xml::HtmlEncodedRawTextWriter::WriteXmlDeclaration)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6611d64;
+  constexpr static std::size_t addrs = 0x66123b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriter::*)(::StringW, ::StringW, ::StringW, ::StringW)>(
     &::System::Xml::HtmlEncodedRawTextWriter::WriteDocType)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x6611d68;
+  constexpr static std::size_t addrs = 0x66123b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriter::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::HtmlEncodedRawTextWriter::WriteStartElement)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6612050;
+  constexpr static std::size_t addrs = 0x66126a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriter::*)()>(&::System::Xml::HtmlEncodedRawTextWriter::StartElementContent)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6612348;
+  constexpr static std::size_t addrs = 0x6612998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriter::*)(::StringW, ::StringW, ::StringW)>(&::System::Xml::HtmlEncodedRawTextWriter::WriteEndElement)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x66124ac;
+  constexpr static std::size_t addrs = 0x6612afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriter::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::HtmlEncodedRawTextWriter::WriteFullEndElement)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6612718;
+  constexpr static std::size_t addrs = 0x6612d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriter::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::HtmlEncodedRawTextWriter::WriteStartAttribute)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x661291c;
+  constexpr static std::size_t addrs = 0x6612f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriter::*)()>(&::System::Xml::HtmlEncodedRawTextWriter::WriteEndAttribute)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6612bbc;
+  constexpr static std::size_t addrs = 0x661320c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriter::*)(::StringW, ::StringW)>(&::System::Xml::HtmlEncodedRawTextWriter::WriteProcessingInstruction)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6612cdc;
+  constexpr static std::size_t addrs = 0x661332c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriter::*)(::StringW)>(&::System::Xml::HtmlEncodedRawTextWriter::WriteString)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x66130e0;
+  constexpr static std::size_t addrs = 0x6613730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriter::*)(::StringW)>(&::System::Xml::HtmlEncodedRawTextWriter::WriteEntityRef)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6613194;
+  constexpr static std::size_t addrs = 0x66137e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriter::*)(char16_t)>(&::System::Xml::HtmlEncodedRawTextWriter::WriteCharEntity)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x66131e4;
+  constexpr static std::size_t addrs = 0x6613834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriter::*)(char16_t, char16_t)>(&::System::Xml::HtmlEncodedRawTextWriter::WriteSurrogateCharEntity)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6613234;
+  constexpr static std::size_t addrs = 0x6613884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -232,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriter::*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::System::Xml::HtmlEncodedRawTextWriter::WriteChars)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6613284;
+  constexpr static std::size_t addrs = 0x66138d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -245,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriter::*)(::System::Xml::XmlWriterSettings*)>(&::System::Xml::HtmlEncodedRawTextWriter::Init)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x6611938;
+  constexpr static std::size_t addrs = 0x6611f88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -258,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriter::*)()>(&::System::Xml::HtmlEncodedRawTextWriter::WriteMetaElement)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x661239c;
+  constexpr static std::size_t addrs = 0x66129ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::HtmlEncodedRawTextWriter*>(), { "WriteMetaElement", {}, {} })));
@@ -270,7 +270,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriter::*)(char16_t*, char16_t*)>(&::System::Xml::HtmlEncodedRawTextWriter::WriteHtmlElementTextBlock)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6613184;
+  constexpr static std::size_t addrs = 0x66137d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::HtmlEncodedRawTextWriter*>(),
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriter::*)(char16_t*, char16_t*)>(
     &::System::Xml::HtmlEncodedRawTextWriter::WriteHtmlAttributeTextBlock)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6613144;
+  constexpr static std::size_t addrs = 0x6613794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::HtmlEncodedRawTextWriter*>(),
@@ -297,7 +297,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriter::*)(char16_t*, char16_t*)>(&::System::Xml::HtmlEncodedRawTextWriter::WriteHtmlAttributeText)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x6613d58;
+  constexpr static std::size_t addrs = 0x66143a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -311,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriter::*)(char16_t*, char16_t*)>(&::System::Xml::HtmlEncodedRawTextWriter::WriteUriAttributeText)> {
   constexpr static std::size_t size = 0x3a0;
-  constexpr static std::size_t addrs = 0x66139b8;
+  constexpr static std::size_t addrs = 0x6614008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -325,7 +325,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriter::*)()>(&::System::Xml::HtmlEncodedRawTextWriter::OutputRestAmps)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6612c48;
+  constexpr static std::size_t addrs = 0x6613298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::HtmlEncodedRawTextWriter*>(), { "OutputRestAmps", {}, {} })));

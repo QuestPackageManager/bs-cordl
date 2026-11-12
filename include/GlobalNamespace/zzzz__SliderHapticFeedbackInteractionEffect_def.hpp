@@ -43,21 +43,21 @@ public:
   /// @brief Field _saberType, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__saberType, put = __cordl_internal_set__saberType)) ::GlobalNamespace::SaberType _saberType;
 
-  /// @brief Method EndEffect, addr 0x5dd22d0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndEffect, addr 0x5dd23ec, size 0xc, virtual true, abstract: false, final false
   inline void EndEffect();
 
   static inline ::GlobalNamespace::SliderHapticFeedbackInteractionEffect* New_ctor();
 
-  /// @brief Method Start, addr 0x5dd2018, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x5dd2134, size 0x4c, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartEffect, addr 0x5dd2288, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method StartEffect, addr 0x5dd23a4, size 0x48, virtual true, abstract: false, final false
   inline void StartEffect(float_t saberInteractionParam);
 
-  /// @brief Method Update, addr 0x5dd2168, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5dd2284, size 0xd8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method Vibrate, addr 0x5dd2258, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Vibrate, addr 0x5dd2374, size 0x30, virtual false, abstract: false, final false
   inline void Vibrate();
 
   constexpr ::GlobalNamespace::IGamePause* const& __cordl_internal_get__gamePause() const;
@@ -84,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set__saberType(::GlobalNamespace::SaberType value);
 
-  /// @brief Method .ctor, addr 0x5dd22dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd23f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

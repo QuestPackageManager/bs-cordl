@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::MeshInfo::*)(int32_t, bool)>(&::UnityEngine::TextCore::Text::MeshInfo::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x706cb20;
+  constexpr static std::size_t addrs = 0x706dc00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::MeshInfo::*)(int32_t, bool)>(&::UnityEngine::TextCore::Text::MeshInfo::ResizeMeshInfo)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x706cbbc;
+  constexpr static std::size_t addrs = 0x706dc9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::MeshInfo::*)(bool)>(&::UnityEngine::TextCore::Text::MeshInfo::Clear)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x706cc34;
+  constexpr static std::size_t addrs = 0x706dd14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::MeshInfo>(), { "Clear", {}, { ::i2c::type_of<bool>() } })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::MeshInfo::*)()>(&::UnityEngine::TextCore::Text::MeshInfo::ClearUnusedVertices)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x706cc74;
+  constexpr static std::size_t addrs = 0x706dd54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::MeshInfo>(), { "ClearUnusedVertices", {}, {} })));

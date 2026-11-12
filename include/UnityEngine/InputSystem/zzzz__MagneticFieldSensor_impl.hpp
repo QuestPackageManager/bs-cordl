@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::InputSystem::MagneticFieldSensor::*)()>(
     &::UnityEngine::InputSystem::MagneticFieldSensor::get_magneticField)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ce954;
+  constexpr static std::size_t addrs = 0x69cfa34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::MagneticFieldSensor*>(), { "get_magneticField", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::MagneticFieldSensor::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::UnityEngine::InputSystem::MagneticFieldSensor::set_magneticField)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ce95c;
+  constexpr static std::size_t addrs = 0x69cfa3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::MagneticFieldSensor*>(),
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::MagneticFieldSensor* (*)()>(&::UnityEngine::InputSystem::MagneticFieldSensor::get_current)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x69ce964;
+  constexpr static std::size_t addrs = 0x69cfa44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::MagneticFieldSensor*>(), { "get_current", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::MagneticFieldSensor*)>(&::UnityEngine::InputSystem::MagneticFieldSensor::set_current)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x69ce9b0;
+  constexpr static std::size_t addrs = 0x69cfa90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::MagneticFieldSensor*>(),
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::MagneticFieldSensor::*)()>(&::UnityEngine::InputSystem::MagneticFieldSensor::MakeCurrent)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x69cea00;
+  constexpr static std::size_t addrs = 0x69cfae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::MagneticFieldSensor::*)()>(&::UnityEngine::InputSystem::MagneticFieldSensor::OnRemoved)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x69cea50;
+  constexpr static std::size_t addrs = 0x69cfb30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::MagneticFieldSensor::*)()>(&::UnityEngine::InputSystem::MagneticFieldSensor::FinishSetup)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x69ceae0;
+  constexpr static std::size_t addrs = 0x69cfbc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::MagneticFieldSensor::*)()>(&::UnityEngine::InputSystem::MagneticFieldSensor::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69ceb50;
+  constexpr static std::size_t addrs = 0x69cfc30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::MagneticFieldSensor*>(), { ".ctor", {}, {} })));

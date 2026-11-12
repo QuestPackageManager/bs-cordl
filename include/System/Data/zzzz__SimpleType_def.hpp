@@ -112,44 +112,44 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method CanHaveMaxLength, addr 0x64aa958, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CanHaveMaxLength, addr 0x64aafa8, size 0x68, virtual false, abstract: false, final false
   inline bool CanHaveMaxLength();
 
-  /// @brief Method ConvertToAnnonymousSimpleType, addr 0x64aa9c0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ConvertToAnnonymousSimpleType, addr 0x64ab010, size 0x3c, virtual false, abstract: false, final false
   inline void ConvertToAnnonymousSimpleType();
 
-  /// @brief Method CreateByteArrayType, addr 0x64aa614, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CreateByteArrayType, addr 0x64aac64, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Data::SimpleType* CreateByteArrayType(::StringW encoding);
 
-  /// @brief Method CreateEnumeratedType, addr 0x64aa574, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CreateEnumeratedType, addr 0x64aabc4, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::Data::SimpleType* CreateEnumeratedType(::StringW values);
 
-  /// @brief Method CreateLimitedStringType, addr 0x64aa6b0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CreateLimitedStringType, addr 0x64aad00, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Data::SimpleType* CreateLimitedStringType(int32_t length);
 
-  /// @brief Method CreateSimpleType, addr 0x64aa74c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method CreateSimpleType, addr 0x64aad9c, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Data::SimpleType* CreateSimpleType(::System::Data::Common::StorageType typeCode, ::System::Type* type);
 
-  /// @brief Method HasConflictingDefinition, addr 0x64aa840, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method HasConflictingDefinition, addr 0x64aae90, size 0x118, virtual false, abstract: false, final false
   inline ::StringW HasConflictingDefinition(::System::Data::SimpleType* otherSimpleType);
 
-  /// @brief Method IsPlainString, addr 0x64a9e84, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method IsPlainString, addr 0x64aa4d4, size 0x140, virtual false, abstract: false, final false
   inline bool IsPlainString();
 
-  /// @brief Method LoadTypeValues, addr 0x64a9594, size 0x8b8, virtual false, abstract: false, final false
+  /// @brief Method LoadTypeValues, addr 0x64a9be4, size 0x8b8, virtual false, abstract: false, final false
   inline void LoadTypeValues(::System::Xml::Schema::XmlSchemaSimpleType* node);
 
   static inline ::System::Data::SimpleType* New_ctor(::StringW baseType);
 
   static inline ::System::Data::SimpleType* New_ctor(::System::Xml::Schema::XmlSchemaSimpleType* node);
 
-  /// @brief Method QualifiedName, addr 0x64aa078, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method QualifiedName, addr 0x64aa6c8, size 0x84, virtual false, abstract: false, final false
   inline ::StringW QualifiedName(::StringW name);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x64a9e4c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x64aa49c, size 0x38, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ToNode, addr 0x64aa0fc, size 0x478, virtual false, abstract: false, final false
+  /// @brief Method ToNode, addr 0x64aa74c, size 0x478, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNode* ToNode(::System::Xml::XmlDocument* dc, ::System::Collections::Hashtable* prefixes, bool inRemoting);
 
   constexpr ::System::Data::SimpleType* const& __cordl_internal_get__baseSimpleType() const;
@@ -236,40 +236,40 @@ public:
 
   constexpr void __cordl_internal_set__xmlBaseType(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method .ctor, addr 0x64a9458, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64a9aa8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW baseType);
 
-  /// @brief Method .ctor, addr 0x64a9494, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64a9ae4, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaSimpleType* node);
 
-  /// @brief Method get_BaseSimpleType, addr 0x64a9ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseSimpleType, addr 0x64aa64c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::SimpleType* get_BaseSimpleType();
 
-  /// @brief Method get_BaseType, addr 0x64a9fc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseType, addr 0x64aa614, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BaseType();
 
-  /// @brief Method get_Length, addr 0x64a9fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x64aa634, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
-  /// @brief Method get_MaxLength, addr 0x64a9fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxLength, addr 0x64aa63c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxLength();
 
-  /// @brief Method get_Name, addr 0x64a9fd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x64aa624, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Namespace, addr 0x64a9fdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x64aa62c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method get_SimpleTypeQualifiedName, addr 0x64aa004, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_SimpleTypeQualifiedName, addr 0x64aa654, size 0x74, virtual false, abstract: false, final false
   inline ::StringW get_SimpleTypeQualifiedName();
 
-  /// @brief Method get_XmlBaseType, addr 0x64a9fcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlBaseType, addr 0x64aa61c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_XmlBaseType();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  /// @brief Method set_MaxLength, addr 0x64a9ff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaxLength, addr 0x64aa644, size 0x8, virtual false, abstract: false, final false
   inline void set_MaxLength(int32_t value);
 
 protected:

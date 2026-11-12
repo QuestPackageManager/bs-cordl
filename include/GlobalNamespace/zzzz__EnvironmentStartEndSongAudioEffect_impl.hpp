@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentStartEndSongAudioEffect::*)()>(&::GlobalNamespace::EnvironmentStartEndSongAudioEffect::Start)> {
   constexpr static std::size_t size = 0x4ec;
-  constexpr static std::size_t addrs = 0x5d06c8c;
+  constexpr static std::size_t addrs = 0x5d064c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentStartEndSongAudioEffect*>(), { "Start", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentStartEndSongAudioEffect::*)()>(&::GlobalNamespace::EnvironmentStartEndSongAudioEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x5d07178;
+  constexpr static std::size_t addrs = 0x5d069b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentStartEndSongAudioEffect*>(), { "OnDestroy", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentStartEndSongAudioEffect::*)()>(&::GlobalNamespace::EnvironmentStartEndSongAudioEffect::Update)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x5d07440;
+  constexpr static std::size_t addrs = 0x5d06c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentStartEndSongAudioEffect*>(), { "Update", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentStartEndSongAudioEffect::*)()>(
     &::GlobalNamespace::EnvironmentStartEndSongAudioEffect::LevelWillFinishWithinAheadTime)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5d07710;
+  constexpr static std::size_t addrs = 0x5d06f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentStartEndSongAudioEffect::*)()>(&::GlobalNamespace::EnvironmentStartEndSongAudioEffect::HandleLevelFailed)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5d07794;
+  constexpr static std::size_t addrs = 0x5d06fcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentStartEndSongAudioEffect::*)()>(
     &::GlobalNamespace::EnvironmentStartEndSongAudioEffect::HandleGamePauseDidResume)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d07850;
+  constexpr static std::size_t addrs = 0x5d07088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentStartEndSongAudioEffect::*)()>(
     &::GlobalNamespace::EnvironmentStartEndSongAudioEffect::HandleGamePauseDidPause)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d07874;
+  constexpr static std::size_t addrs = 0x5d070ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentStartEndSongAudioEffect::*)()>(&::GlobalNamespace::EnvironmentStartEndSongAudioEffect::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5d07898;
+  constexpr static std::size_t addrs = 0x5d070d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentStartEndSongAudioEffect*>(), { ".ctor", {}, {} })));

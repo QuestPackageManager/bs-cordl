@@ -24,7 +24,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE RegionToLocalizationKeyPair {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x354529c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x354823c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::Region region, ::StringW localizationKey);
 
   // Ctor Parameters []
@@ -36,7 +36,7 @@ public:
   constexpr RegionToLocalizationKeyPair(::GlobalNamespace::Region region, ::StringW localizationKey) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24499 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24517 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

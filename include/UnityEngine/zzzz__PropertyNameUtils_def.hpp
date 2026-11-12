@@ -28,10 +28,10 @@ class CORDL_TYPE PropertyNameUtils : public ::System::Object {
 public:
   // Declarations
   /// [FreeFunction("PropertyNameFromStringICall", IsThreadSafe = true)]
-  /// @brief Method PropertyNameFromString, addr 0x6f6ef54, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method PropertyNameFromString, addr 0x6f70034, size 0x134, virtual false, abstract: false, final false
   static inline ::UnityEngine::PropertyName PropertyNameFromString(::StringW name);
 
-  /// @brief Method PropertyNameFromString_Injected, addr 0x6f6f088, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method PropertyNameFromString_Injected, addr 0x6f70168, size 0x44, virtual false, abstract: false, final false
   static inline void PropertyNameFromString_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name, ::by_ref<::UnityEngine::PropertyName> ret);
 
 protected:

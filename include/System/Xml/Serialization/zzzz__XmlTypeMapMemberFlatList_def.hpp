@@ -35,13 +35,13 @@ public:
 
   constexpr void __cordl_internal_set__listMap(::System::Xml::Serialization::ListMap* value);
 
-  /// @brief Method .ctor, addr 0x6777ce8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6778338, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ListMap, addr 0x6777cd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ListMap, addr 0x6778328, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::ListMap* get_ListMap();
 
-  /// @brief Method set_ListMap, addr 0x6777ce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ListMap, addr 0x6778330, size 0x8, virtual false, abstract: false, final false
   inline void set_ListMap(::System::Xml::Serialization::ListMap* value);
 
 protected:

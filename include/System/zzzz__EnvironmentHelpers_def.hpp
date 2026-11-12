@@ -19,7 +19,7 @@ namespace System {
 class CORDL_TYPE EnvironmentHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsWindowsVistaOrAbove, addr 0x67df308, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsWindowsVistaOrAbove, addr 0x67df958, size 0x8, virtual false, abstract: false, final false
   static inline bool IsWindowsVistaOrAbove();
 
 protected:

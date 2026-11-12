@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::BMPAlloc::*)(::UnityEngine::UIElements::UIR::BMPAlloc)>(
     &::UnityEngine::UIElements::UIR::BMPAlloc::Equals)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x71c0b30;
+  constexpr static std::size_t addrs = 0x71c1c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::BMPAlloc::*)()>(&::UnityEngine::UIElements::UIR::BMPAlloc::IsValid)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x71c43c8;
+  constexpr static std::size_t addrs = 0x71c54a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::BMPAlloc>(), { "IsValid", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::UIR::BMPAlloc::*)()>(&::UnityEngine::UIElements::UIR::BMPAlloc::ToString)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x71c43d8;
+  constexpr static std::size_t addrs = 0x71c54b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

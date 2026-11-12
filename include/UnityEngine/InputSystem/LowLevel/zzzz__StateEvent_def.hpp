@@ -106,22 +106,22 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*();
 
-  /// @brief Method From, addr 0x6a1e714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method From, addr 0x6a1f7f4, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeArray_1<uint8_t> From(::UnityEngine::InputSystem::InputDevice* device, ::by_ref<::UnityEngine::InputSystem::LowLevel::InputEventPtr> eventPtr,
                                                                   ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method From, addr 0x6a1e71c, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method From, addr 0x6a1f7fc, size 0x350, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeArray_1<uint8_t> From(::UnityEngine::InputSystem::InputDevice* device, ::by_ref<::UnityEngine::InputSystem::LowLevel::InputEventPtr> eventPtr,
                                                                   ::Unity::Collections::Allocator allocator, bool useDefaultState);
 
-  /// @brief Method From, addr 0x6a19da4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method From, addr 0x6a1ae84, size 0x130, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::StateEvent* From(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
 
-  /// @brief Method FromDefaultStateFor, addr 0x6a1ea6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FromDefaultStateFor, addr 0x6a1fb4c, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeArray_1<uint8_t> FromDefaultStateFor(::UnityEngine::InputSystem::InputDevice* device,
                                                                                  ::by_ref<::UnityEngine::InputSystem::LowLevel::InputEventPtr> eventPtr, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method FromUnchecked, addr 0x6a19bc4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FromUnchecked, addr 0x6a1aca4, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::StateEvent* FromUnchecked(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
 
   /// @brief Method GetEventSizeWithPayload, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -141,7 +141,7 @@ public:
              ::cordl_internals::default_constructor_constraint<TState>)
   static inline TState GetState(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
 
-  /// @brief Method ToEventPtr, addr 0x6a1e704, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToEventPtr, addr 0x6a1f7e4, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventPtr ToEventPtr();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __cordl_internal_get_baseEvent() const;
@@ -162,13 +162,13 @@ public:
 
   constexpr void __cordl_internal_set_stateFormat(::UnityEngine::InputSystem::Utilities::FourCC value);
 
-  /// @brief Method get_state, addr 0x6a1e6fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_state, addr 0x6a1f7dc, size 0x8, virtual false, abstract: false, final false
   inline void* get_state();
 
-  /// @brief Method get_stateSizeInBytes, addr 0x6a19ed4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_stateSizeInBytes, addr 0x6a1afb4, size 0xc, virtual false, abstract: false, final false
   inline uint32_t get_stateSizeInBytes();
 
-  /// @brief Method get_typeStatic, addr 0x6a1e708, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x6a1f7e8, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"

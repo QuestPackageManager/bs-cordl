@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, int32_t, int32_t, ::by_ref<bool>)>(&::System::UncNameHelper::ParseCanonicalName)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67df038;
+  constexpr static std::size_t addrs = 0x67df688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t*, uint16_t, ::by_ref<int32_t>, bool)>(&::System::UncNameHelper::IsValid)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x67df03c;
+  constexpr static std::size_t addrs = 0x67df68c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

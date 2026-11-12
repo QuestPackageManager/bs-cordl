@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::EventSystems::BaseRaycaster::*)()>(&::UnityEngine::EventSystems::BaseRaycaster::get_priority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72fb478;
+  constexpr static std::size_t addrs = 0x72fc558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::EventSystems::BaseRaycaster::*)()>(&::UnityEngine::EventSystems::BaseRaycaster::get_sortOrderPriority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72fb480;
+  constexpr static std::size_t addrs = 0x72fc560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::EventSystems::BaseRaycaster::*)()>(&::UnityEngine::EventSystems::BaseRaycaster::get_renderOrderPriority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72fb488;
+  constexpr static std::size_t addrs = 0x72fc568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::EventSystems::BaseRaycaster> (::UnityEngine::EventSystems::BaseRaycaster::*)()>(
     &::UnityEngine::EventSystems::BaseRaycaster::get_rootRaycaster)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x72f1bc0;
+  constexpr static std::size_t addrs = 0x72f2ca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::BaseRaycaster*>(), { "get_rootRaycaster", {}, {} })));
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::EventSystems::BaseRaycaster::*)()>(&::UnityEngine::EventSystems::BaseRaycaster::ToString)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x72fb490;
+  constexpr static std::size_t addrs = 0x72fc570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::BaseRaycaster::*)()>(&::UnityEngine::EventSystems::BaseRaycaster::OnEnable)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x72fb66c;
+  constexpr static std::size_t addrs = 0x72fc74c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::BaseRaycaster::*)()>(&::UnityEngine::EventSystems::BaseRaycaster::OnDisable)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x72fb6c4;
+  constexpr static std::size_t addrs = 0x72fc7a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::BaseRaycaster::*)()>(&::UnityEngine::EventSystems::BaseRaycaster::OnCanvasHierarchyChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72fb71c;
+  constexpr static std::size_t addrs = 0x72fc7fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::BaseRaycaster::*)()>(&::UnityEngine::EventSystems::BaseRaycaster::OnTransformParentChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72fb728;
+  constexpr static std::size_t addrs = 0x72fc808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::BaseRaycaster::*)()>(&::UnityEngine::EventSystems::BaseRaycaster::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x72edf14;
+  constexpr static std::size_t addrs = 0x72eeff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::BaseRaycaster*>(), { ".ctor", {}, {} })));

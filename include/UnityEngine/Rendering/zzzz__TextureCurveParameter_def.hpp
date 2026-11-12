@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::TextureCurveParameter* New_ctor(::UnityEngine::Rendering::TextureCurve* value, bool overrideState);
 
-  /// @brief Method Release, addr 0x6c236d0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Release, addr 0x6c247b0, size 0x14, virtual true, abstract: false, final false
   inline void Release();
 
-  /// @brief Method .ctor, addr 0x6c2366c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2474c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::TextureCurve* value, bool overrideState);
 
 protected:

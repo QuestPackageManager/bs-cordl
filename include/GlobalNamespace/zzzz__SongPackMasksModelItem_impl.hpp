@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPackMasksModelItem__SelectBeatSaberPackIds_d__10::*)(int32_t)>(
     &::GlobalNamespace::SongPackMasksModelItem__SelectBeatSaberPackIds_d__10::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x39eede8;
+  constexpr static std::size_t addrs = 0x39f3e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPackMasksModelItem__SelectBeatSaberPackIds_d__10::*)()>(
     &::GlobalNamespace::SongPackMasksModelItem__SelectBeatSaberPackIds_d__10::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39eee0c;
+  constexpr static std::size_t addrs = 0x39f3eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SongPackMasksModelItem__SelectBeatSaberPackIds_d__10::*)()>(
     &::GlobalNamespace::SongPackMasksModelItem__SelectBeatSaberPackIds_d__10::MoveNext)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x39eee28;
+  constexpr static std::size_t addrs = 0x39f3ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPackMasksModelItem__SelectBeatSaberPackIds_d__10::*)()>(
     &::GlobalNamespace::SongPackMasksModelItem__SelectBeatSaberPackIds_d__10::__m__Finally1)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x39ef144;
+  constexpr static std::size_t addrs = 0x39f41ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::SongPackMasksModelItem__SelectBeatSaberPackIds_d__10::*)()>(
     &::GlobalNamespace::SongPackMasksModelItem__SelectBeatSaberPackIds_d__10::System_Collections_Generic_IEnumerator_System_String__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ef1f8;
+  constexpr static std::size_t addrs = 0x39f42a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPackMasksModelItem__SelectBeatSaberPackIds_d__10*>(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPackMasksModelItem__SelectBeatSaberPackIds_d__10::*)()>(
     &::GlobalNamespace::SongPackMasksModelItem__SelectBeatSaberPackIds_d__10::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x39ef200;
+  constexpr static std::size_t addrs = 0x39f42a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SongPackMasksModelItem__SelectBeatSaberPackIds_d__10::*)()>(
     &::GlobalNamespace::SongPackMasksModelItem__SelectBeatSaberPackIds_d__10::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ef238;
+  constexpr static std::size_t addrs = 0x39f42e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::StringW>* (::GlobalNamespace::SongPackMasksModelItem__SelectBeatSaberPackIds_d__10::*)()>(
     &::GlobalNamespace::SongPackMasksModelItem__SelectBeatSaberPackIds_d__10::System_Collections_Generic_IEnumerable_System_String__GetEnumerator)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x39ef240;
+  constexpr static std::size_t addrs = 0x39f42e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPackMasksModelItem__SelectBeatSaberPackIds_d__10*>(),
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::SongPackMasksModelItem__SelectBeatSaberPackIds_d__10::*)()>(
     &::GlobalNamespace::SongPackMasksModelItem__SelectBeatSaberPackIds_d__10::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39ef2e0;
+  constexpr static std::size_t addrs = 0x39f4388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -329,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::SongPackMasksModelItem::*)()>(&::GlobalNamespace::SongPackMasksModelItem::get_serializedName)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39ee9fc;
+  constexpr static std::size_t addrs = 0x39f3aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPackMasksModelItem*>(), { "get_serializedName", {}, {} })));
@@ -342,7 +342,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SongPackMask (::GlobalNamespace::SongPackMasksModelItem::*)(::GlobalNamespace::BeatmapLevelsModel*)>(
     &::GlobalNamespace::SongPackMasksModelItem::GetSongPackMask)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x39eea18;
+  constexpr static std::size_t addrs = 0x39f3ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -356,7 +356,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SongPackMasksModelItem::*)()>(&::GlobalNamespace::SongPackMasksModelItem::get_containsMultiplePacks)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39eea94;
+  constexpr static std::size_t addrs = 0x39f3b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPackMasksModelItem*>(), { "get_containsMultiplePacks", {}, {} })));
@@ -369,7 +369,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (
     ::GlobalNamespace::SongPackMasksModelItem::*)(::GlobalNamespace::BeatmapLevelsModel*)>(&::GlobalNamespace::SongPackMasksModelItem::SelectBeatSaberPackIds)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x39eed70;
+  constexpr static std::size_t addrs = 0x39f3e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPackMasksModelItem*>(),
@@ -382,7 +382,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPackMasksModelItem::*)()>(&::GlobalNamespace::SongPackMasksModelItem::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39eee08;
+  constexpr static std::size_t addrs = 0x39f3eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPackMasksModelItem*>(), { ".ctor", {}, {} })));

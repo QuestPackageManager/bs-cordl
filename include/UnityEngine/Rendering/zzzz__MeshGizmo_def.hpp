@@ -125,25 +125,25 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AddWireCube, addr 0x6c22034, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method AddWireCube, addr 0x6c23114, size 0x220, virtual false, abstract: false, final false
   inline void AddWireCube(::UnityEngine::Vector3 center, ::UnityEngine::Vector3 size, ::UnityEngine::Color color);
 
-  /// @brief Method Clear, addr 0x6c21f8c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6c2306c, size 0xa8, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Dispose, addr 0x6c22770, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6c23850, size 0x5c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DrawMesh, addr 0x6c22578, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method DrawMesh, addr 0x6c23658, size 0x1bc, virtual false, abstract: false, final false
   inline void DrawMesh(::UnityEngine::Matrix4x4 trs, ::UnityEngine::Material* mat, ::UnityEngine::MeshTopology topology, ::UnityEngine::Rendering::CompareFunction depthTest, ::StringW gizmoName);
 
   static inline ::UnityEngine::Rendering::MeshGizmo* New_ctor(int32_t capacity);
 
-  /// @brief Method RenderWireframe, addr 0x6c22734, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method RenderWireframe, addr 0x6c23814, size 0x3c, virtual false, abstract: false, final false
   inline void RenderWireframe(::UnityEngine::Matrix4x4 trs, ::UnityEngine::Rendering::CompareFunction depthTest, ::StringW gizmoName);
 
   /// [CompilerGenerated]
-  /// @brief Method <AddWireCube>g__AddEdge|10_0, addr 0x6c22254, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method <AddWireCube>g__AddEdge|10_0, addr 0x6c23334, size 0x324, virtual false, abstract: false, final false
   inline void _AddWireCube_g__AddEdge_10_0(::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2,
                                            ::by_ref<::UnityEngine::Rendering::MeshGizmo___c__DisplayClass10_0> _cordl_fixed_empty_name_whitespace);
 
@@ -189,7 +189,7 @@ public:
 
   constexpr void __cordl_internal_set_wireMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x6c21e18, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c22ef8, size 0x174, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
   static inline int32_t getStaticF_vertexCountPerCube();

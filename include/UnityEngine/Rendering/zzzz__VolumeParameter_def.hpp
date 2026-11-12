@@ -47,18 +47,18 @@ public:
   /// @brief Method Interp, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Interp(::UnityEngine::Rendering::VolumeParameter* from, ::UnityEngine::Rendering::VolumeParameter* to, float_t t);
 
-  /// @brief Method IsObjectParameter, addr 0x6c27034, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method IsObjectParameter, addr 0x6c28114, size 0x120, virtual false, abstract: false, final false
   static inline bool IsObjectParameter(::System::Type* type);
 
   static inline ::UnityEngine::Rendering::VolumeParameter* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x6c27350, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6c28430, size 0x4, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x6c2734c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6c2842c, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Release, addr 0x6c27354, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Release, addr 0x6c28434, size 0x4, virtual true, abstract: false, final false
   inline void Release();
 
   /// @brief Method SetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -70,16 +70,16 @@ public:
 
   constexpr void __cordl_internal_set_m_OverrideState(bool value);
 
-  /// @brief Method .ctor, addr 0x6c27358, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c28438, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_overrideState, addr 0x6c2733c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_overrideState, addr 0x6c2841c, size 0x8, virtual true, abstract: false, final false
   inline bool get_overrideState();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_overrideState, addr 0x6c27344, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_overrideState, addr 0x6c28424, size 0x8, virtual true, abstract: false, final false
   inline void set_overrideState(bool value);
 
 protected:

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::AspMvcActionAttribute::*)()>(&::JetBrains::Annotations::AspMvcActionAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x7316cac;
+  constexpr static std::size_t addrs = 0x7318f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::AspMvcActionAttribute*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::AspMvcActionAttribute::*)(::StringW)>(&::JetBrains::Annotations::AspMvcActionAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7316cb0;
+  constexpr static std::size_t addrs = 0x7318f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::JetBrains::Annotations::AspMvcActionAttribute::*)()>(&::JetBrains::Annotations::AspMvcActionAttribute::get_AnonymousProperty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7316cb8;
+  constexpr static std::size_t addrs = 0x7318f98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::AspMvcActionAttribute*>(), { "get_AnonymousProperty", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::AspMvcActionAttribute::*)(::StringW)>(&::JetBrains::Annotations::AspMvcActionAttribute::set_AnonymousProperty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7316cc0;
+  constexpr static std::size_t addrs = 0x7318fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

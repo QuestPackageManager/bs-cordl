@@ -28,16 +28,16 @@ namespace UnityEngine::Sprites {
 class CORDL_TYPE DataUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetInnerUV, addr 0x6fcc6dc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetInnerUV, addr 0x6fcd7bc, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetInnerUV(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method GetMinSize, addr 0x6fcc718, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetMinSize, addr 0x6fcd7f8, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetMinSize(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method GetOuterUV, addr 0x6fcc6f0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetOuterUV, addr 0x6fcd7d0, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetOuterUV(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method GetPadding, addr 0x6fcc704, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetPadding, addr 0x6fcd7e4, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetPadding(::UnityEngine::Sprite* sprite);
 
 protected:

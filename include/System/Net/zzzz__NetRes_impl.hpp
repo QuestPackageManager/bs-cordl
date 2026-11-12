@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::System::Net::WebExceptionStatus)>(&::System::Net::NetRes::GetWebStatusString)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6873270;
+  constexpr static std::size_t addrs = 0x68738c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Net::WebExceptionStatus)>(&::System::Net::NetRes::GetWebStatusString)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x687ca44;
+  constexpr static std::size_t addrs = 0x687d094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Net::FtpStatusCode, ::StringW)>(&::System::Net::NetRes::GetWebStatusCodeString)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x687ca9c;
+  constexpr static std::size_t addrs = 0x687d0ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

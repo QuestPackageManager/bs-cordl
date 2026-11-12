@@ -38,8 +38,8 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IAdditionalContentModel"
   constexpr operator ::GlobalNamespace::IAdditionalContentModel*() noexcept;
 
-  /// @brief Method GetExcludedLevelIdsAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* GetExcludedLevelIdsAsync(::System::Threading::CancellationToken token);
+  /// @brief Method GetDiscontinuedLevelIdsAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* GetDiscontinuedLevelIdsAsync(::System::Threading::CancellationToken token);
 
   /// @brief Method GetGameDlcEntitlementStatusAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetGameDlcEntitlementStatusAsync(::StringW gameDlcId, ::System::Threading::CancellationToken token);

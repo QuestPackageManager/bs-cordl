@@ -119,7 +119,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE InstanceDataSystemBurst_ReallocateInstances_000002A0$PostfixBurstDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6c9ff58, size 0x248, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6ca1038, size 0x248, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> rendererGroupIDs,
                                              /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData> const> packedRendererData,
                                              /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const> instanceOffsets,
@@ -131,10 +131,10 @@ public:
                                              ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>> rendererGroupInstanceMultiHash,
                                              ::System::AsyncCallback* _cordl_fixed_empty_name_whitespace, ::System::Object* _cordl_fixed_empty_name_whitespace_param_12);
 
-  /// @brief Method EndInvoke, addr 0x6ca01a0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6ca1280, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method Invoke, addr 0x6c9ff30, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6ca1010, size 0x28, virtual true, abstract: false, final false
   inline void Invoke(bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> rendererGroupIDs,
                      /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData> const> packedRendererData,
                      /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const> instanceOffsets,
@@ -146,7 +146,7 @@ public:
   static inline ::UnityEngine::Rendering::InstanceDataSystemBurst_ReallocateInstances_000002A0$PostfixBurstDelegate* New_ctor(::System::Object* _cordl_fixed_empty_name_whitespace,
                                                                                                                               ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1);
 
-  /// @brief Method .ctor, addr 0x6c9fec4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ca0fa4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* _cordl_fixed_empty_name_whitespace, ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1);
 
 protected:
@@ -164,7 +164,7 @@ public:
   InstanceDataSystemBurst_ReallocateInstances_000002A0$PostfixBurstDelegate(InstanceDataSystemBurst_ReallocateInstances_000002A0$PostfixBurstDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18282 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18290 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -182,14 +182,14 @@ public:
   /// @brief Field Pointer, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Pointer, put = setStaticF_Pointer)) ::System::IntPtr Pointer;
 
-  /// @brief Method GetFunctionPointer, addr 0x6ca02b8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointer, addr 0x6ca1398, size 0x18, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFunctionPointer();
 
   /// [BurstDiscard]
-  /// @brief Method GetFunctionPointerDiscard, addr 0x6ca01ac, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointerDiscard, addr 0x6ca128c, size 0x10c, virtual false, abstract: false, final false
   static inline void GetFunctionPointerDiscard(::by_ref<::System::IntPtr> _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method Invoke, addr 0x6c9f214, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6ca02f4, size 0x130, virtual false, abstract: false, final false
   static inline void Invoke(bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> rendererGroupIDs,
                             /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData> const> packedRendererData,
                             /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const> instanceOffsets,
@@ -218,7 +218,7 @@ public:
   InstanceDataSystemBurst_ReallocateInstances_000002A0$BurstDirectCall(InstanceDataSystemBurst_ReallocateInstances_000002A0$BurstDirectCall const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18283 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18291 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -234,7 +234,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE InstanceDataSystemBurst_FreeRendererGroupInstances_000002A1$PostfixBurstDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6ca0364, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6ca1444, size 0x190, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const> rendererGroupsID,
                                              ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators, ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData,
                                              ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData,
@@ -242,10 +242,10 @@ public:
                                              ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>> rendererGroupInstanceMultiHash,
                                              ::System::AsyncCallback* _cordl_fixed_empty_name_whitespace, ::System::Object* _cordl_fixed_empty_name_whitespace_param_7);
 
-  /// @brief Method EndInvoke, addr 0x6ca04f4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6ca15d4, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method Invoke, addr 0x6ca0350, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6ca1430, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const> rendererGroupsID,
                      ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators, ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData,
                      ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> sharedInstanceData,
@@ -254,7 +254,7 @@ public:
   static inline ::UnityEngine::Rendering::InstanceDataSystemBurst_FreeRendererGroupInstances_000002A1$PostfixBurstDelegate* New_ctor(::System::Object* _cordl_fixed_empty_name_whitespace,
                                                                                                                                      ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1);
 
-  /// @brief Method .ctor, addr 0x6ca02d0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ca13b0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* _cordl_fixed_empty_name_whitespace, ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1);
 
 protected:
@@ -272,7 +272,7 @@ public:
   InstanceDataSystemBurst_FreeRendererGroupInstances_000002A1$PostfixBurstDelegate(InstanceDataSystemBurst_FreeRendererGroupInstances_000002A1$PostfixBurstDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18284 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18292 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -290,14 +290,14 @@ public:
   /// @brief Field Pointer, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Pointer, put = setStaticF_Pointer)) ::System::IntPtr Pointer;
 
-  /// @brief Method GetFunctionPointer, addr 0x6ca060c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointer, addr 0x6ca16ec, size 0x18, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFunctionPointer();
 
   /// [BurstDiscard]
-  /// @brief Method GetFunctionPointerDiscard, addr 0x6ca0500, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointerDiscard, addr 0x6ca15e0, size 0x10c, virtual false, abstract: false, final false
   static inline void GetFunctionPointerDiscard(::by_ref<::System::IntPtr> _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method Invoke, addr 0x6c9f344, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6ca0424, size 0xec, virtual false, abstract: false, final false
   static inline void Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const> rendererGroupsID,
                             ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators, ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData,
                             ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> sharedInstanceData,
@@ -322,7 +322,7 @@ public:
   InstanceDataSystemBurst_FreeRendererGroupInstances_000002A1$BurstDirectCall(InstanceDataSystemBurst_FreeRendererGroupInstances_000002A1$BurstDirectCall const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18285 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18293 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -338,7 +338,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE InstanceDataSystemBurst_FreeInstances_000002A2$PostfixBurstDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6ca06b8, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6ca1798, size 0x190, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle> const> instances,
                                              ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators, ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData,
                                              ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData,
@@ -346,10 +346,10 @@ public:
                                              ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>> rendererGroupInstanceMultiHash,
                                              ::System::AsyncCallback* _cordl_fixed_empty_name_whitespace, ::System::Object* _cordl_fixed_empty_name_whitespace_param_7);
 
-  /// @brief Method EndInvoke, addr 0x6ca0848, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6ca1928, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method Invoke, addr 0x6ca06a4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6ca1784, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle> const> instances,
                      ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators, ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData,
                      ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> sharedInstanceData,
@@ -358,7 +358,7 @@ public:
   static inline ::UnityEngine::Rendering::InstanceDataSystemBurst_FreeInstances_000002A2$PostfixBurstDelegate* New_ctor(::System::Object* _cordl_fixed_empty_name_whitespace,
                                                                                                                         ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1);
 
-  /// @brief Method .ctor, addr 0x6ca0624, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ca1704, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* _cordl_fixed_empty_name_whitespace, ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1);
 
 protected:
@@ -376,7 +376,7 @@ public:
   InstanceDataSystemBurst_FreeInstances_000002A2$PostfixBurstDelegate(InstanceDataSystemBurst_FreeInstances_000002A2$PostfixBurstDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18286 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18294 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -394,14 +394,14 @@ public:
   /// @brief Field Pointer, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Pointer, put = setStaticF_Pointer)) ::System::IntPtr Pointer;
 
-  /// @brief Method GetFunctionPointer, addr 0x6ca0960, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointer, addr 0x6ca1a40, size 0x18, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFunctionPointer();
 
   /// [BurstDiscard]
-  /// @brief Method GetFunctionPointerDiscard, addr 0x6ca0854, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointerDiscard, addr 0x6ca1934, size 0x10c, virtual false, abstract: false, final false
   static inline void GetFunctionPointerDiscard(::by_ref<::System::IntPtr> _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method Invoke, addr 0x6c9f430, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6ca0510, size 0xec, virtual false, abstract: false, final false
   static inline void Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle> const> instances,
                             ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators, ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData,
                             ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> sharedInstanceData,
@@ -426,7 +426,7 @@ public:
   InstanceDataSystemBurst_FreeInstances_000002A2$BurstDirectCall(InstanceDataSystemBurst_FreeInstances_000002A2$BurstDirectCall const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18287 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18295 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -456,14 +456,14 @@ public:
 
   /// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
   /// [MonoPInvokeCallback(typeof(UnityEngine.Rendering.UnityEngine.Rendering.InstanceDataSystemBurst::FreeInstances_000002A2$PostfixBurstDelegate))]
-  /// @brief Method FreeInstances, addr 0x6c9f210, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FreeInstances, addr 0x6ca02f0, size 0x4, virtual false, abstract: false, final false
   static inline void FreeInstances(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle> const> instances,
                                    ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators, ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData,
                                    ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> sharedInstanceData,
                                    ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>> rendererGroupInstanceMultiHash);
 
   /// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
-  /// @brief Method FreeInstances$BurstManaged, addr 0x6c9fb8c, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method FreeInstances$BurstManaged, addr 0x6ca0c6c, size 0x338, virtual false, abstract: false, final false
   static inline void FreeInstances$BurstManaged(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle> const> instances,
                                                 ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators, ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData,
                                                 ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData,
@@ -472,7 +472,7 @@ public:
 
   /// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
   /// [MonoPInvokeCallback(typeof(UnityEngine.Rendering.UnityEngine.Rendering.InstanceDataSystemBurst::FreeRendererGroupInstances_000002A1$PostfixBurstDelegate))]
-  /// @brief Method FreeRendererGroupInstances, addr 0x6c9f20c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FreeRendererGroupInstances, addr 0x6ca02ec, size 0x4, virtual false, abstract: false, final false
   static inline void FreeRendererGroupInstances(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const> rendererGroupsID,
                                                 ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators, ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData,
                                                 ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData,
@@ -480,7 +480,7 @@ public:
                                                 ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>> rendererGroupInstanceMultiHash);
 
   /// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
-  /// @brief Method FreeRendererGroupInstances$BurstManaged, addr 0x6c9f8ec, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method FreeRendererGroupInstances$BurstManaged, addr 0x6ca09cc, size 0x2a0, virtual false, abstract: false, final false
   static inline void
   FreeRendererGroupInstances$BurstManaged(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const> rendererGroupsID,
                                           ::by_ref<::UnityEngine::Rendering::InstanceAllocators> instanceAllocators, ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData,
@@ -490,7 +490,7 @@ public:
 
   /// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
   /// [MonoPInvokeCallback(typeof(UnityEngine.Rendering.UnityEngine.Rendering.InstanceDataSystemBurst::ReallocateInstances_000002A0$PostfixBurstDelegate))]
-  /// @brief Method ReallocateInstances, addr 0x6c9f1f8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ReallocateInstances, addr 0x6ca02d8, size 0x14, virtual false, abstract: false, final false
   static inline void ReallocateInstances(bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> rendererGroupIDs,
                                          /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData> const> packedRendererData,
                                          /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const> instanceOffsets,
@@ -502,7 +502,7 @@ public:
                                          ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>> rendererGroupInstanceMultiHash);
 
   /// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
-  /// @brief Method ReallocateInstances$BurstManaged, addr 0x6c9f51c, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method ReallocateInstances$BurstManaged, addr 0x6ca05fc, size 0x3d0, virtual false, abstract: false, final false
   static inline void ReallocateInstances$BurstManaged(bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> rendererGroupIDs,
                                                       /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedRendererData> const> packedRendererData,
                                                       /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const> instanceOffsets,
@@ -528,7 +528,7 @@ public:
   InstanceDataSystemBurst(InstanceDataSystemBurst const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18288 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18296 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -50,10 +50,10 @@ public:
 
   static inline ::UnityEngine::UIElements::WheelEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__1_0, addr 0x726a6dc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__1_0, addr 0x726b7bc, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::WheelEvent* __cctor_b__1_0();
 
-  /// @brief Method .ctor, addr 0x726a6d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x726b7b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::WheelEvent___c* getStaticF___9();
@@ -97,22 +97,22 @@ public:
 
   __declspec(property(get = get_delta, put = set_delta)) ::UnityEngine::Vector3 delta;
 
-  /// @brief Method Dispatch, addr 0x726a5fc, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x726b6dc, size 0x88, virtual true, abstract: false, final false
   inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-  /// @brief Method GetPooled, addr 0x726a364, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x726b444, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::WheelEvent* GetPooled(::UnityEngine::Vector3 delta, ::UnityEngine::Vector3 mousePosition, ::UnityEngine::EventModifiers modifiers);
 
-  /// @brief Method GetPooled, addr 0x726a444, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x726b524, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::WheelEvent* GetPooled(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::IPointerEvent* pointerEvent);
 
-  /// @brief Method GetPooled, addr 0x726a2ec, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x726b3cc, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::WheelEvent* GetPooled(::UnityEngine::Event* systemEvent);
 
-  /// @brief Method Init, addr 0x726a4c0, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x726b5a0, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x726a514, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x726b5f4, size 0x94, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::WheelEvent* New_ctor();
@@ -123,15 +123,15 @@ public:
 
   constexpr void __cordl_internal_set__delta_k__BackingField(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x726a5a8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x726b688, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_delta, addr 0x726a2d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_delta, addr 0x726b3b4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_delta();
 
   /// [CompilerGenerated]
-  /// @brief Method set_delta, addr 0x726a2e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_delta, addr 0x726b3c0, size 0xc, virtual false, abstract: false, final false
   inline void set_delta(::UnityEngine::Vector3 value);
 
 protected:

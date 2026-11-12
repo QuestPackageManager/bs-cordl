@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::AggregateException::*)()>(&::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x60019bc;
+  constexpr static std::size_t addrs = 0x6001c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::AggregateException*>(), { ".ctor", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::AggregateException::*)(::System::Collections::Generic::IEnumerable_1<::System::Exception*>*)>(
     &::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6001af4;
+  constexpr static std::size_t addrs = 0x6001d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::AggregateException::*)(::ArrayW<::System::Exception*>)>(&::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6001c18;
+  constexpr static std::size_t addrs = 0x6001ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::AggregateException::*)(::StringW, ::System::Collections::Generic::IEnumerable_1<::System::Exception*>*)>(
     &::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6001b50;
+  constexpr static std::size_t addrs = 0x6001dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::AggregateException::*)(::StringW, ::ArrayW<::System::Exception*>)>(&::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6001c74;
+  constexpr static std::size_t addrs = 0x6001efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::AggregateException::*)(::StringW, ::System::Collections::Generic::IList_1<::System::Exception*>*)>(
     &::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x6001c78;
+  constexpr static std::size_t addrs = 0x6001f00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::AggregateException::*)(
     ::System::Collections::Generic::IEnumerable_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>*)>(&::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6002068;
+  constexpr static std::size_t addrs = 0x60022f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::AggregateException::*)(
     ::StringW, ::System::Collections::Generic::IEnumerable_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>*)>(&::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x60020c4;
+  constexpr static std::size_t addrs = 0x600234c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::AggregateException::*)(
     ::StringW, ::System::Collections::Generic::IList_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>*)>(&::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0x44c;
-  constexpr static std::size_t addrs = 0x600218c;
+  constexpr static std::size_t addrs = 0x6002414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::AggregateException::*)(::System::Runtime::Serialization::SerializationInfo*,
                                                                                               ::System::Runtime::Serialization::StreamingContext)>(&::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x60025d8;
+  constexpr static std::size_t addrs = 0x6002860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::AggregateException::*)(::System::Runtime::Serialization::SerializationInfo*,
                                                                                               ::System::Runtime::Serialization::StreamingContext)>(&::System::AggregateException::GetObjectData)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x60027a8;
+  constexpr static std::size_t addrs = 0x6002a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::AggregateException*>(), { ::i2c::class_of<::System::AggregateException*>(), 10 }));
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Exception*>* (::System::AggregateException::*)()>(
     &::System::AggregateException::get_InnerExceptions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6002900;
+  constexpr static std::size_t addrs = 0x6002b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::AggregateException*>(), { "get_InnerExceptions", {}, {} })));
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::AggregateException* (::System::AggregateException::*)()>(&::System::AggregateException::Flatten)> {
   constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x6002908;
+  constexpr static std::size_t addrs = 0x6002b90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::AggregateException*>(), { "Flatten", {}, {} })));
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::AggregateException::*)()>(&::System::AggregateException::get_Message)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x6002cec;
+  constexpr static std::size_t addrs = 0x6002f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::AggregateException*>(), { ::i2c::class_of<::System::AggregateException*>(), 5 }));
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::AggregateException::*)()>(&::System::AggregateException::ToString)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x6002e90;
+  constexpr static std::size_t addrs = 0x6003118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::AggregateException*>(), { ::i2c::class_of<::System::AggregateException*>(), 3 }));

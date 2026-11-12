@@ -65,12 +65,12 @@ public:
   /// @brief Field willBeRevokedAt, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_willBeRevokedAt, put = __cordl_internal_set_willBeRevokedAt)) ::Org::BouncyCastle::Asn1::DerGeneralizedTime* willBeRevokedAt;
 
-  /// @brief Method GetInstance, addr 0x35f8180, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x35fc618, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevAnnContent* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevAnnContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x35fcc00, size 0x1d8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3601098, size 0x1d8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime* const& __cordl_internal_get_badSinceDate() const;
@@ -103,22 +103,22 @@ public:
 
   constexpr void __cordl_internal_set_willBeRevokedAt(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
 
-  /// @brief Method .ctor, addr 0x35fca78, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3600f10, size 0x160, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_BadSinceDate, addr 0x35fcbf0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BadSinceDate, addr 0x3601088, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_BadSinceDate();
 
-  /// @brief Method get_CertID, addr 0x35fcbe0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertID, addr 0x3601078, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertId* get_CertID();
 
-  /// @brief Method get_CrlDetails, addr 0x35fcbf8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CrlDetails, addr 0x3601090, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_CrlDetails();
 
-  /// @brief Method get_Status, addr 0x35fcbd8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Status, addr 0x3601070, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* get_Status();
 
-  /// @brief Method get_WillBeRevokedAt, addr 0x35fcbe8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_WillBeRevokedAt, addr 0x3601080, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_WillBeRevokedAt();
 
 protected:

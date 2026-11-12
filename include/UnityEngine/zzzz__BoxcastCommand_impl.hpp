@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BoxcastCommand::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3,
                                                                                                ::UnityEngine::QueryParameters, float_t)>(&::UnityEngine::BoxcastCommand::_ctor)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x703f8fc;
+  constexpr static std::size_t addrs = 0x70409dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Boxc
                                                                                                ::UnityEngine::Vector3, ::UnityEngine::QueryParameters, float_t)>(
     &::UnityEngine::BoxcastCommand::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x703f9f4;
+  constexpr static std::size_t addrs = 0x7040ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::BoxcastCommand::*)()>(&::UnityEngine::BoxcastCommand::get_center)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x703fa2c;
+  constexpr static std::size_t addrs = 0x7040b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoxcastCommand>(), { "get_center", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BoxcastCommand::*)(::UnityEngine::Vector3)>(&::UnityEngine::BoxcastCommand::set_center)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x703fa38;
+  constexpr static std::size_t addrs = 0x7040b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::BoxcastCommand::*)()>(&::UnityEngine::BoxcastCommand::get_halfExtents)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x703fa44;
+  constexpr static std::size_t addrs = 0x7040b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoxcastCommand>(), { "get_halfExtents", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BoxcastCommand::*)(::UnityEngine::Vector3)>(&::UnityEngine::BoxcastCommand::set_halfExtents)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x703fa50;
+  constexpr static std::size_t addrs = 0x7040b30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (::UnityEngine::BoxcastCommand::*)()>(&::UnityEngine::BoxcastCommand::get_orientation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x703fa5c;
+  constexpr static std::size_t addrs = 0x7040b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoxcastCommand>(), { "get_orientation", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BoxcastCommand::*)(::UnityEngine::Quaternion)>(&::UnityEngine::BoxcastCommand::set_orientation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x703fa68;
+  constexpr static std::size_t addrs = 0x7040b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::BoxcastCommand::*)()>(&::UnityEngine::BoxcastCommand::get_direction)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x703fa74;
+  constexpr static std::size_t addrs = 0x7040b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoxcastCommand>(), { "get_direction", {}, {} })));
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BoxcastCommand::*)(::UnityEngine::Vector3)>(&::UnityEngine::BoxcastCommand::set_direction)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x703fa80;
+  constexpr static std::size_t addrs = 0x7040b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::BoxcastCommand::*)()>(&::UnityEngine::BoxcastCommand::get_distance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x703fa8c;
+  constexpr static std::size_t addrs = 0x7040b6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoxcastCommand>(), { "get_distance", {}, {} })));
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BoxcastCommand::*)(float_t)>(&::UnityEngine::BoxcastCommand::set_distance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x703fa94;
+  constexpr static std::size_t addrs = 0x7040b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoxcastCommand>(), { "set_distance", {}, { ::i2c::type_of<float_t>() } })));
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::PhysicsScene (::UnityEngine::BoxcastCommand::*)()>(&::UnityEngine::BoxcastCommand::get_physicsScene)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x703fa9c;
+  constexpr static std::size_t addrs = 0x7040b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoxcastCommand>(), { "get_physicsScene", {}, {} })));
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BoxcastCommand::*)(::UnityEngine::PhysicsScene)>(&::UnityEngine::BoxcastCommand::set_physicsScene)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x703faa4;
+  constexpr static std::size_t addrs = 0x7040b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle 
                                                                                     ::Unity::Collections::NativeArray_1<::UnityEngine::RaycastHit>, int32_t, int32_t, ::Unity::Jobs::JobHandle)>(
     &::UnityEngine::BoxcastCommand::ScheduleBatch)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x703faac;
+  constexpr static std::size_t addrs = 0x7040b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -227,7 +227,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle 
                                                                                     ::Unity::Collections::NativeArray_1<::UnityEngine::RaycastHit>, int32_t, ::Unity::Jobs::JobHandle)>(
     &::UnityEngine::BoxcastCommand::ScheduleBatch)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x703fcf4;
+  constexpr static std::size_t addrs = 0x7040dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (*)(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters>, void*, int32_t, void*, int32_t,
                                                                                     int32_t, int32_t)>(&::UnityEngine::BoxcastCommand::ScheduleBoxcastBatch)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x703fc58;
+  constexpr static std::size_t addrs = 0x7040d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BoxcastCommand::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3,
                                                                                                float_t, int32_t)>(&::UnityEngine::BoxcastCommand::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x703fda4;
+  constexpr static std::size_t addrs = 0x7040e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BoxcastCommand::*)(::UnityEngine::PhysicsScene, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion,
                                                                                                ::UnityEngine::Vector3, float_t, int32_t)>(&::UnityEngine::BoxcastCommand::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x703feac;
+  constexpr static std::size_t addrs = 0x7040f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -298,7 +298,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::BoxcastCommand::*)()>(&::UnityEngine::BoxcastCommand::get_layerMask)> {
   constexpr static std::size_t size = 0x474;
-  constexpr static std::size_t addrs = 0x703fef0;
+  constexpr static std::size_t addrs = 0x7040fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoxcastCommand>(), { "get_layerMask", {}, {} })));
@@ -310,7 +310,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BoxcastCommand::*)(int32_t)>(&::UnityEngine::BoxcastCommand::set_layerMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x703fea4;
+  constexpr static std::size_t addrs = 0x7040f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoxcastCommand>(), { "set_layerMask", {}, { ::i2c::type_of<int32_t>() } })));
@@ -323,7 +323,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters>, void*, int32_t, void*, int32_t, int32_t, int32_t,
                                                                 ::by_ref<::Unity::Jobs::JobHandle>)>(&::UnityEngine::BoxcastCommand::ScheduleBoxcastBatch_Injected)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x703fd18;
+  constexpr static std::size_t addrs = 0x7040df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -53,16 +53,16 @@ public:
 
   static inline ::GlobalNamespace::OVRCubemapCapture* New_ctor();
 
-  /// @brief Method RenderIntoCubemap, addr 0x634e2ac, size 0x578, virtual false, abstract: false, final false
+  /// @brief Method RenderIntoCubemap, addr 0x634e534, size 0x578, virtual false, abstract: false, final false
   static inline void RenderIntoCubemap(::UnityEngine::Camera* ownerCamera, ::UnityEngine::Cubemap* outCubemap);
 
-  /// @brief Method SaveCubemapCapture, addr 0x634e824, size 0x7bc, virtual false, abstract: false, final false
+  /// @brief Method SaveCubemapCapture, addr 0x634eaac, size 0x7bc, virtual false, abstract: false, final false
   static inline bool SaveCubemapCapture(::UnityEngine::Cubemap* cubemap, ::StringW pathName);
 
-  /// @brief Method TriggerCubemapCapture, addr 0x634dff0, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method TriggerCubemapCapture, addr 0x634e278, size 0x2bc, virtual false, abstract: false, final false
   static inline void TriggerCubemapCapture(::UnityEngine::Vector3 capturePos, int32_t cubemapSize, ::StringW pathName);
 
-  /// @brief Method Update, addr 0x634df04, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x634e18c, size 0xec, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_autoTriggerAfterLaunch() const;
@@ -101,7 +101,7 @@ public:
 
   constexpr void __cordl_internal_set_triggeredByKey(::UnityEngine::KeyCode value);
 
-  /// @brief Method .ctor, addr 0x634efe0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x634f268, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

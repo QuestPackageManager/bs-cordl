@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(::System::Action*)>(
     &::GlobalNamespace::PlayerSettingsPanelController::add_didChangePlayerSettingsEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5d9c098;
+  constexpr static std::size_t addrs = 0x5d9c214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(::System::Action*)>(
     &::GlobalNamespace::PlayerSettingsPanelController::remove_didChangePlayerSettingsEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5d9d1a8;
+  constexpr static std::size_t addrs = 0x5d9d324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSettingsPanelController*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerSpecificSettings* (::GlobalNamespace::PlayerSettingsPanelController::*)()>(
     &::GlobalNamespace::PlayerSettingsPanelController::get_playerSpecificSettings)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x5d9b234;
+  constexpr static std::size_t addrs = 0x5d9b4b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(::GlobalNamespace::PlayerData*)>(
     &::GlobalNamespace::PlayerSettingsPanelController::SetData)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5d9be2c;
+  constexpr static std::size_t addrs = 0x5d9bfa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(::GlobalNamespace::PlayerSettingsPanelController_PlayerSettingsPanelLayout)>(
     &::GlobalNamespace::PlayerSettingsPanelController::SetLayout)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d9b6c8;
+  constexpr static std::size_t addrs = 0x5d9b844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)()>(&::GlobalNamespace::PlayerSettingsPanelController::Awake)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5d9d2b8;
+  constexpr static std::size_t addrs = 0x5d9d434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSettingsPanelController*>(), { "Awake", {}, {} })));
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)()>(&::GlobalNamespace::PlayerSettingsPanelController::OnEnable)> {
   constexpr static std::size_t size = 0x5c8;
-  constexpr static std::size_t addrs = 0x5d9d318;
+  constexpr static std::size_t addrs = 0x5d9d494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSettingsPanelController*>(), { "OnEnable", {}, {} })));
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)()>(&::GlobalNamespace::PlayerSettingsPanelController::OnDisable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d9d8e0;
+  constexpr static std::size_t addrs = 0x5d9da5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSettingsPanelController*>(), { "OnDisable", {}, {} })));
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)()>(&::GlobalNamespace::PlayerSettingsPanelController::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d9d918;
+  constexpr static std::size_t addrs = 0x5d9da94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSettingsPanelController*>(), { "OnDestroy", {}, {} })));
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)()>(&::GlobalNamespace::PlayerSettingsPanelController::UnsubscribeAllUICallbacks)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5d9d8e4;
+  constexpr static std::size_t addrs = 0x5d9da60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)()>(&::GlobalNamespace::PlayerSettingsPanelController::Refresh)> {
   constexpr static std::size_t size = 0x3b8;
-  constexpr static std::size_t addrs = 0x5d9cca8;
+  constexpr static std::size_t addrs = 0x5d9ce24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSettingsPanelController*>(), { "Refresh", {}, {} })));
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(::GlobalNamespace::FormattedFloatListSettingsController*, float_t)>(
     &::GlobalNamespace::PlayerSettingsPanelController::HandleSFXVolumeSettingsControllerValueDidChange)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d9da3c;
+  constexpr static std::size_t addrs = 0x5d9dbb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(int32_t, ::GlobalNamespace::ArcVisibilityType)>(
     &::GlobalNamespace::PlayerSettingsPanelController::HandleArcVisibilityDropdownDidSelectCellWithIdx)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5d9da84;
+  constexpr static std::size_t addrs = 0x5d9dc00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(::GlobalNamespace::FormattedFloatListSettingsController*, float_t)>(
     &::GlobalNamespace::PlayerSettingsPanelController::HandleSaberTrailIntensitySettingsControllerValueDidChange)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d9dae4;
+  constexpr static std::size_t addrs = 0x5d9dc60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(float_t)>(
     &::GlobalNamespace::PlayerSettingsPanelController::HandlePlayerHeightSettingsControllerValueDidChange)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d9db08;
+  constexpr static std::size_t addrs = 0x5d9dc84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSettingsPanelController*>(),
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(::GlobalNamespace::FormattedFloatListSettingsController*, float_t)>(
     &::GlobalNamespace::PlayerSettingsPanelController::HandleHeadsetHapticIntensityControllerValueDidChange)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d9db2c;
+  constexpr static std::size_t addrs = 0x5d9dca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(int32_t, float_t)>(
     &::GlobalNamespace::PlayerSettingsPanelController::HandleNoteJumpStartBeatOffsetPositionSelected)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d9db50;
+  constexpr static std::size_t addrs = 0x5d9dccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(int32_t, ::GlobalNamespace::EnvironmentEffectsFilterPreset)>(
     &::GlobalNamespace::PlayerSettingsPanelController::HandleLightReductionAmountSelected)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d9db74;
+  constexpr static std::size_t addrs = 0x5d9dcf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -292,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(
     &::GlobalNamespace::PlayerSettingsPanelController::HandleAdvancedHudToggleChanged)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5d9db98;
+  constexpr static std::size_t addrs = 0x5d9dd14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(int32_t, ::GlobalNamespace::NoteJumpDurationTypeSettings)>(
     &::GlobalNamespace::PlayerSettingsPanelController::HandleNoteJumpDurationTypeSettingsDropdownDidSelectCellWithIdx)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5d9dbe8;
+  constexpr static std::size_t addrs = 0x5d9dd64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -323,7 +323,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(::GlobalNamespace::FormattedFloatListSettingsController*, float_t)>(
     &::GlobalNamespace::PlayerSettingsPanelController::HandleNoteJumpFixedDurationSettingsControllerValueDidChange)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d9dc24;
+  constexpr static std::size_t addrs = 0x5d9dda0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -340,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(
     &::GlobalNamespace::PlayerSettingsPanelController::HandleNoTextsAndHudsToggleChanged)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5d9dc48;
+  constexpr static std::size_t addrs = 0x5d9ddc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -353,7 +353,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)()>(&::GlobalNamespace::PlayerSettingsPanelController::SetIsDirty)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d9da60;
+  constexpr static std::size_t addrs = 0x5d9dbdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSettingsPanelController*>(), { "SetIsDirty", {}, {} })));
@@ -366,7 +366,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(::GlobalNamespace::NoteJumpDurationTypeSettings)>(
     &::GlobalNamespace::PlayerSettingsPanelController::RefreshNoteJumpUI)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5d9d91c;
+  constexpr static std::size_t addrs = 0x5d9da98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSettingsPanelController*>(),
@@ -380,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(::UnityEngine::CanvasGroup*, bool)>(
     &::GlobalNamespace::PlayerSettingsPanelController::SetSectionDisabled)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5d9d254;
+  constexpr static std::size_t addrs = 0x5d9d3d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSettingsPanelController*>(),
@@ -394,7 +394,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(::GlobalNamespace::ArcVisibilityType, bool)>(
     &::GlobalNamespace::PlayerSettingsPanelController::RefreshArcsWarning)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5d9d954;
+  constexpr static std::size_t addrs = 0x5d9dad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -408,7 +408,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)()>(&::GlobalNamespace::PlayerSettingsPanelController::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5d9dc98;
+  constexpr static std::size_t addrs = 0x5d9de14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSettingsPanelController*>(), { ".ctor", {}, {} })));
@@ -420,7 +420,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(&::GlobalNamespace::PlayerSettingsPanelController::_OnEnable_b__42_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d9dcf8;
+  constexpr static std::size_t addrs = 0x5d9de74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -433,7 +433,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(&::GlobalNamespace::PlayerSettingsPanelController::_OnEnable_b__42_1)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d9dd1c;
+  constexpr static std::size_t addrs = 0x5d9de98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -446,7 +446,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(&::GlobalNamespace::PlayerSettingsPanelController::_OnEnable_b__42_2)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d9dd40;
+  constexpr static std::size_t addrs = 0x5d9debc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -459,7 +459,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(&::GlobalNamespace::PlayerSettingsPanelController::_OnEnable_b__42_3)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d9dd64;
+  constexpr static std::size_t addrs = 0x5d9dee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -472,7 +472,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(&::GlobalNamespace::PlayerSettingsPanelController::_OnEnable_b__42_4)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d9dd88;
+  constexpr static std::size_t addrs = 0x5d9df04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -485,7 +485,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(&::GlobalNamespace::PlayerSettingsPanelController::_OnEnable_b__42_5)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5d9ddac;
+  constexpr static std::size_t addrs = 0x5d9df28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -498,7 +498,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(&::GlobalNamespace::PlayerSettingsPanelController::_OnEnable_b__42_6)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d9ddf0;
+  constexpr static std::size_t addrs = 0x5d9df6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -511,7 +511,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)()>(&::GlobalNamespace::PlayerSettingsPanelController::_OnEnable_b__42_7)> {
   constexpr static std::size_t size = 0x548;
-  constexpr static std::size_t addrs = 0x5d9de14;
+  constexpr static std::size_t addrs = 0x5d9df90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSettingsPanelController*>(), { "<OnEnable>b__42_7", {}, {} })));
@@ -523,7 +523,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)()>(&::GlobalNamespace::PlayerSettingsPanelController::_OnEnable_b__42_8)> {
   constexpr static std::size_t size = 0x648;
-  constexpr static std::size_t addrs = 0x5d9e35c;
+  constexpr static std::size_t addrs = 0x5d9e4d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSettingsPanelController*>(), { "<OnEnable>b__42_8", {}, {} })));

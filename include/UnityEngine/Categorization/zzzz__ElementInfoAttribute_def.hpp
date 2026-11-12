@@ -44,11 +44,11 @@ public:
 
   constexpr void __cordl_internal_set__Order_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6f96e48, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f97f28, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method set_Order, addr 0x6f96e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Order, addr 0x6f97f20, size 0x8, virtual false, abstract: false, final false
   inline void set_Order(int32_t value);
 
 protected:

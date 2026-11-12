@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::System::Net::Cache::RequestCacheProtocol* New_ctor(::System::Object* arg1, ::System::Object* arg2);
 
-  /// @brief Method .ctor, addr 0x67bc804, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67bce54, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* arg1, ::System::Object* arg2);
 
 protected:

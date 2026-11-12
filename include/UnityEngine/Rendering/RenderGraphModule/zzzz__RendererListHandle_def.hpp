@@ -31,25 +31,25 @@ public:
   // Declarations
   __declspec(property(get = get_handle, put = set_handle)) int32_t handle;
 
-  /// @brief Method IsValid, addr 0x6c5014c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6c5122c, size 0x8, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method .ctor, addr 0x6c4dc84, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c4ed64, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t handle, ::UnityEngine::Rendering::RenderGraphModule::RendererListHandleType type);
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_handle, addr 0x6c50020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_handle, addr 0x6c51100, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_handle();
 
-  /// @brief Method op_Implicit, addr 0x6c50030, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6c51110, size 0x11c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RendererList op_Implicit___UnityEngine__Rendering__RendererList(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle rendererList);
 
-  /// @brief Method op_Implicit, addr 0x6c4a978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6c4ba58, size 0x8, virtual false, abstract: false, final false
   static inline int32_t op_Implicit_int32_t(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle handle);
 
   /// [CompilerGenerated]
-  /// @brief Method set_handle, addr 0x6c50028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_handle, addr 0x6c51108, size 0x8, virtual false, abstract: false, final false
   inline void set_handle(int32_t value);
 
   // Ctor Parameters []

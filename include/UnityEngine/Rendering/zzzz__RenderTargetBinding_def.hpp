@@ -50,25 +50,25 @@ public:
 
   __declspec(property(get = get_flags)) ::UnityEngine::Rendering::RenderTargetFlags flags;
 
-  /// @brief Method get_colorLoadActions, addr 0x6fa21a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorLoadActions, addr 0x6fa3288, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RenderBufferLoadAction> get_colorLoadActions();
 
-  /// @brief Method get_colorRenderTargets, addr 0x6fa2188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorRenderTargets, addr 0x6fa3268, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier> get_colorRenderTargets();
 
-  /// @brief Method get_colorStoreActions, addr 0x6fa21b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorStoreActions, addr 0x6fa3290, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RenderBufferStoreAction> get_colorStoreActions();
 
-  /// @brief Method get_depthLoadAction, addr 0x6fa21b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_depthLoadAction, addr 0x6fa3298, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderBufferLoadAction get_depthLoadAction();
 
-  /// @brief Method get_depthRenderTarget, addr 0x6fa2190, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_depthRenderTarget, addr 0x6fa3270, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderTargetIdentifier get_depthRenderTarget();
 
-  /// @brief Method get_depthStoreAction, addr 0x6fa21c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_depthStoreAction, addr 0x6fa32a0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderBufferStoreAction get_depthStoreAction();
 
-  /// @brief Method get_flags, addr 0x6fa21c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_flags, addr 0x6fa32a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderTargetFlags get_flags();
 
   // Ctor Parameters []

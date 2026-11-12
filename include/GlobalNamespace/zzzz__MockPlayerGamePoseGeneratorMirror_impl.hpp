@@ -24,7 +24,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*, ::GlobalNamespace::IGameplayRpcManager*, bool, ::GlobalNamespace::NodePoseSyncStateManager*)>(
     &::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::_ctor)> {
   constexpr static std::size_t size = 0x758;
-  constexpr static std::size_t addrs = 0x5e24fbc;
+  constexpr static std::size_t addrs = 0x5e253ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)()>(&::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::Dispose)> {
   constexpr static std::size_t size = 0x514;
-  constexpr static std::size_t addrs = 0x5e25ed4;
+  constexpr static std::size_t addrs = 0x5e26304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerGamePoseGeneratorMirror*>(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)(
     int64_t, ::GlobalNamespace::MockBeatmapData*, ::GlobalNamespace::GameplayModifiers*, ::System::Action*)>(&::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e263e8;
+  constexpr static std::size_t addrs = 0x5e26818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerGamePoseGeneratorMirror*>(),
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)()>(&::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::Tick)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5e263f0;
+  constexpr static std::size_t addrs = 0x5e26820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerGamePoseGeneratorMirror*>(),
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)()>(&::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::FindPlayerToMirror)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x5e264b4;
+  constexpr static std::size_t addrs = 0x5e268e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)(::StringW, int64_t, float_t, ::GlobalNamespace::NoteSpawnInfoNetSerializable*)>(
     &::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::HandleNoteWasSpawned)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5e26834;
+  constexpr static std::size_t addrs = 0x5e26c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)(
     ::StringW, int64_t, float_t, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable*)>(&::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::HandleObstacleWasSpawned)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5e269bc;
+  constexpr static std::size_t addrs = 0x5e26dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)(::StringW, int64_t, float_t, ::GlobalNamespace::SliderSpawnInfoNetSerializable*)>(
     &::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::HandleSliderWasSpawned)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5e26b44;
+  constexpr static std::size_t addrs = 0x5e26f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)(::StringW, int64_t, float_t, ::GlobalNamespace::NoteMissInfoNetSerializable*)>(
     &::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::HandleNoteWasMissed)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5e26ccc;
+  constexpr static std::size_t addrs = 0x5e270fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)(::StringW, int64_t, float_t, ::GlobalNamespace::NoteCutInfoNetSerializable*)>(
     &::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::HandleNoteWasCut)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5e26e54;
+  constexpr static std::size_t addrs = 0x5e27284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)(
     ::GlobalNamespace::StandardScoreSyncStateNetSerializable*, ::GlobalNamespace::IConnectedPlayer*)>(&::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::HandleScoreSyncStateUpdate)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x5e26fdc;
+  constexpr static std::size_t addrs = 0x5e2740c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)(
     ::BeatSaber::AvatarCore::OptionalAvatarDataPacket*, ::GlobalNamespace::IConnectedPlayer*)>(&::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::HandleOptionalAvatarDataReceived)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x5e271bc;
+  constexpr static std::size_t addrs = 0x5e275ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)(::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*)>(
     &::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::HandleLevelFinished)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x5e2739c;
+  constexpr static std::size_t addrs = 0x5e277cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

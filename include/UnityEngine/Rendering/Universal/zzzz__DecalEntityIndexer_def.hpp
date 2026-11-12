@@ -89,27 +89,27 @@ public:
   /// @brief Field m_FreeIndices, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_FreeIndices, put = __cordl_internal_set_m_FreeIndices)) ::System::Collections::Generic::Queue_1<int32_t>* m_FreeIndices;
 
-  /// @brief Method Clear, addr 0x6cd0190, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6cd1270, size 0x90, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method CreateDecalEntity, addr 0x6ccfcf0, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method CreateDecalEntity, addr 0x6cd0dd0, size 0x1a4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DecalEntity CreateDecalEntity(int32_t arrayIndex, int32_t chunkIndex);
 
-  /// @brief Method DestroyDecalEntity, addr 0x6ccfe94, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method DestroyDecalEntity, addr 0x6cd0f74, size 0xc4, virtual false, abstract: false, final false
   inline void DestroyDecalEntity(::UnityEngine::Rendering::Universal::DecalEntity decalEntity);
 
-  /// @brief Method GetItem, addr 0x6ccff58, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetItem, addr 0x6cd1038, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DecalEntityIndexer_DecalEntityItem GetItem(::UnityEngine::Rendering::Universal::DecalEntity decalEntity);
 
-  /// @brief Method IsValid, addr 0x6ccfc54, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6cd0d34, size 0x9c, virtual false, abstract: false, final false
   inline bool IsValid(::UnityEngine::Rendering::Universal::DecalEntity decalEntity);
 
   static inline ::UnityEngine::Rendering::Universal::DecalEntityIndexer* New_ctor();
 
-  /// @brief Method RemapChunkIndices, addr 0x6cd0068, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method RemapChunkIndices, addr 0x6cd1148, size 0x128, virtual false, abstract: false, final false
   inline void RemapChunkIndices(::System::Collections::Generic::List_1<int32_t>* remaper);
 
-  /// @brief Method UpdateIndex, addr 0x6ccffc4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method UpdateIndex, addr 0x6cd10a4, size 0xa4, virtual false, abstract: false, final false
   inline void UpdateIndex(::UnityEngine::Rendering::Universal::DecalEntity decalEntity, int32_t newArrayIndex);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::DecalEntityIndexer_DecalEntityItem>* const& __cordl_internal_get_m_Entities() const;
@@ -124,7 +124,7 @@ public:
 
   constexpr void __cordl_internal_set_m_FreeIndices(::System::Collections::Generic::Queue_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x6cd0220, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cd1300, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

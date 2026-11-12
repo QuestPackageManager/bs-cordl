@@ -78,41 +78,41 @@ public:
   /// @brief Convert operator to "::System::Data::IFilter"
   constexpr operator ::System::Data::IFilter*() noexcept;
 
-  /// @brief Method Bind, addr 0x6499894, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x6499ee4, size 0xfc, virtual false, abstract: false, final false
   inline void Bind(::System::Data::DataTable* table);
 
-  /// @brief Method DependsOn, addr 0x648f924, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DependsOn, addr 0x648ff74, size 0x1c, virtual false, abstract: false, final false
   inline bool DependsOn(::System::Data::DataColumn* column);
 
-  /// @brief Method Evaluate, addr 0x64999f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x649a044, size 0xc, virtual false, abstract: false, final false
   inline ::System::Object* Evaluate();
 
-  /// @brief Method Evaluate, addr 0x6499a00, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x649a050, size 0x234, virtual false, abstract: false, final false
   inline ::System::Object* Evaluate(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
-  /// @brief Method GetDependency, addr 0x6499e48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDependency, addr 0x649a498, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Data::DataColumn*> GetDependency();
 
-  /// @brief Method HasLocalAggregate, addr 0x6499ec4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HasLocalAggregate, addr 0x649a514, size 0x18, virtual false, abstract: false, final false
   inline bool HasLocalAggregate();
 
-  /// @brief Method HasRemoteAggregate, addr 0x6499edc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HasRemoteAggregate, addr 0x649a52c, size 0x18, virtual false, abstract: false, final false
   inline bool HasRemoteAggregate();
 
-  /// @brief Method Invoke, addr 0x6499ccc, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method Invoke, addr 0x649a31c, size 0xe0, virtual true, abstract: false, final true
   inline bool Invoke(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
-  /// @brief Method IsTableAggregate, addr 0x6499e50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsTableAggregate, addr 0x649a4a0, size 0x18, virtual false, abstract: false, final false
   inline bool IsTableAggregate();
 
-  /// @brief Method IsUnknown, addr 0x6499e68, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsUnknown, addr 0x649a4b8, size 0x5c, virtual false, abstract: false, final false
   static inline bool IsUnknown(::System::Object* value);
 
   static inline ::System::Data::DataExpression* New_ctor(::System::Data::DataTable* table, ::StringW expression);
 
   static inline ::System::Data::DataExpression* New_ctor(::System::Data::DataTable* table, ::StringW expression, ::System::Type* type);
 
-  /// @brief Method ToBoolean, addr 0x64968cc, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method ToBoolean, addr 0x6496f1c, size 0x24c, virtual false, abstract: false, final false
   static inline bool ToBoolean(::System::Object* value);
 
   constexpr bool const& __cordl_internal_get__bound() const;
@@ -163,16 +163,16 @@ public:
 
   constexpr void __cordl_internal_set__table(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x648d318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x648d968, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::StringW expression);
 
-  /// @brief Method .ctor, addr 0x6498868, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6498eb8, size 0x1ac, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::StringW expression, ::System::Type* type);
 
-  /// @brief Method get_Expression, addr 0x6499990, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_Expression, addr 0x6499fe0, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_Expression();
 
-  /// @brief Method get_HasValue, addr 0x64999e4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasValue, addr 0x649a034, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasValue();
 
   /// @brief Convert to "::System::Data::IFilter"

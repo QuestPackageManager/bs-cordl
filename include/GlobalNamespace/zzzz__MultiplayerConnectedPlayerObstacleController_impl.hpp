@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerObstacleController_Pool::*)(
     ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController*)>(&::GlobalNamespace::MultiplayerConnectedPlayerObstacleController_Pool::OnCreated)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5e16378;
+  constexpr static std::size_t addrs = 0x5e167a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController_Pool*>(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerObstacleController_Pool::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerObstacleController_Pool::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5e16410;
+  constexpr static std::size_t addrs = 0x5e16840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerObstacleController::*)(
     ::GlobalNamespace::ObstacleData*, ::by_ref<::GlobalNamespace::ObstacleSpawnData const>)>(&::GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Init)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x5e16178;
+  constexpr static std::size_t addrs = 0x5e165a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController*>(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerObstacleController::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerObstacleController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e16370;
+  constexpr static std::size_t addrs = 0x5e167a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController*>(), { ".ctor", {}, {} })));

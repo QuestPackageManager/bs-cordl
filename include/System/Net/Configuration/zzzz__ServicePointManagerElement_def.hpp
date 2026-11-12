@@ -26,10 +26,10 @@ public:
 
   static inline ::System::Net::Configuration::ServicePointManagerElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x67d6e2c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67d747c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties, addr 0x67d6e68, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x67d74b8, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:

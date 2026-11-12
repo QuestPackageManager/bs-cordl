@@ -436,13 +436,13 @@ public:
   /// @brief Field s_hammersley2DSeq64Id, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_hammersley2DSeq64Id, put = setStaticF_s_hammersley2DSeq64Id)) int32_t s_hammersley2DSeq64Id;
 
-  /// @brief Method BindConstants, addr 0x6bffdcc, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method BindConstants, addr 0x6c00eac, size 0x15c, virtual false, abstract: false, final false
   static inline void BindConstants(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::ComputeShader* cs);
 
-  /// @brief Method BindConstants, addr 0x6bfff28, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method BindConstants, addr 0x6c01008, size 0xc4, virtual false, abstract: false, final false
   static inline void BindConstants(::UnityEngine::Rendering::IComputeCommandBuffer* cmd, ::UnityEngine::ComputeShader* cs);
 
-  /// @brief Method Initialize, addr 0x6bffa5c, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6c00b3c, size 0x370, virtual false, abstract: false, final false
   static inline void Initialize();
 
   static inline ::ArrayW<float_t> getStaticF_k_Hammersley2dSeq16();

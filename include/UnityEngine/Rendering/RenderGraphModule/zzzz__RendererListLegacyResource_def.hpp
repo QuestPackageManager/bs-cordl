@@ -20,7 +20,7 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 struct CORDL_TYPE RendererListLegacyResource {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6c50154, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c51234, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<bool const> active);
 
   // Ctor Parameters []

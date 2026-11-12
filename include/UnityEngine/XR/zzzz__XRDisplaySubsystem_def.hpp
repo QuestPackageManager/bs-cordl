@@ -105,7 +105,7 @@ public:
   static ::UnityEngine::XR::XRDisplaySubsystem_LateLatchNode const RightHand;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22739 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22478 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -165,7 +165,7 @@ public:
   static ::UnityEngine::XR::XRDisplaySubsystem_TextureLayout const Texture2DArray;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22740 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22479 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -202,7 +202,7 @@ public:
                                                  ::UnityW<::UnityEngine::Mesh> visibleMesh, int32_t textureArraySlice, ::UnityEngine::Matrix4x4 previousView, bool isPreviousViewValid) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22741 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22480 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xe8 };
@@ -265,15 +265,15 @@ public:
   // Declarations
   /// [NativeMethod(Name = "XRRenderPassScriptApi::GetRenderParameter", IsFreeFunction = true, HasExplicitThis = true, ThrowsException = true)]
   /// [NativeConditional("ENABLE_XR")]
-  /// @brief Method GetRenderParameter, addr 0x7311928, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetRenderParameter, addr 0x7313c08, size 0xa8, virtual false, abstract: false, final false
   inline void GetRenderParameter(::UnityEngine::Camera* camera, int32_t renderParameterIndex, ::by_ref<::UnityEngine::XR::XRDisplaySubsystem_XRRenderParameter> renderParameter);
 
   /// [NativeMethod(Name = "XRRenderPassScriptApi::GetRenderParameterCount", IsFreeFunction = true, HasExplicitThis = true)]
   /// [NativeConditional("ENABLE_XR")]
-  /// @brief Method GetRenderParameterCount, addr 0x7311a2c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetRenderParameterCount, addr 0x7313d0c, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetRenderParameterCount();
 
-  /// @brief Method GetRenderParameter_Injected, addr 0x73119d0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetRenderParameter_Injected, addr 0x7313cb0, size 0x5c, virtual false, abstract: false, final false
   static inline void GetRenderParameter_Injected(::by_ref<::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass> _unity_self, ::System::IntPtr camera, int32_t renderParameterIndex,
                                                  ::by_ref<::UnityEngine::XR::XRDisplaySubsystem_XRRenderParameter> renderParameter);
 
@@ -296,7 +296,7 @@ public:
                                             bool shouldFillOutDepth, bool spaceWarpRightHandedNDC, int32_t cullingPassIndex, ::System::IntPtr foveatedRenderingInfo) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22742 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22481 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xe8 };
@@ -394,7 +394,7 @@ public:
                                             ::System::IntPtr foveatedRenderingInfo, bool srcHdrEncoded, ::UnityEngine::ColorGamut srcHdrColorGamut, int32_t srcHdrMaxLuminance) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22743 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22482 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -455,7 +455,7 @@ public:
   // Declarations
   /// [NativeMethod(Name = "XRMirrorViewBlitDescScriptApi::GetBlitParameter", IsFreeFunction = true, HasExplicitThis = true)]
   /// [NativeConditional("ENABLE_XR")]
-  /// @brief Method GetBlitParameter, addr 0x7311a68, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetBlitParameter, addr 0x7313d48, size 0x54, virtual false, abstract: false, final false
   inline void GetBlitParameter(int32_t blitParameterIndex, ::by_ref<::UnityEngine::XR::XRDisplaySubsystem_XRBlitParams> blitParameter);
 
   // Ctor Parameters []
@@ -468,7 +468,7 @@ public:
   constexpr XRDisplaySubsystem_XRMirrorViewBlitDesc(::System::IntPtr displaySubsystemInstance, bool nativeBlitAvailable, bool nativeBlitInvalidStates, int32_t blitParamsCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22744 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22483 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -506,7 +506,7 @@ namespace UnityEngine::XR {
 class CORDL_TYPE XRDisplaySubsystem_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToNative, addr 0x7311abc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x7313d9c, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(Il2CppObject* xrDisplaySubsystem);
 
 protected:
@@ -524,7 +524,7 @@ public:
   XRDisplaySubsystem_BindingsMarshaller(XRDisplaySubsystem_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22745 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22484 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

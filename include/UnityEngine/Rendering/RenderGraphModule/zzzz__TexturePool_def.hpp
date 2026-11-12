@@ -24,24 +24,24 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 class CORDL_TYPE TexturePool : public ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<::UnityEngine::Rendering::RTHandle*> {
 public:
   // Declarations
-  /// @brief Method GetResourceName, addr 0x6c51b28, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetResourceName, addr 0x6c52c08, size 0x20, virtual true, abstract: false, final false
   inline ::StringW GetResourceName(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle* const> res);
 
-  /// @brief Method GetResourceSize, addr 0x6c51b48, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetResourceSize, addr 0x6c52c28, size 0x1c, virtual true, abstract: false, final false
   inline int64_t GetResourceSize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle* const> res);
 
-  /// @brief Method GetResourceTypeName, addr 0x6c51b64, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetResourceTypeName, addr 0x6c52c44, size 0x44, virtual true, abstract: false, final false
   inline ::StringW GetResourceTypeName();
 
-  /// @brief Method GetSortIndex, addr 0x6c51ba8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetSortIndex, addr 0x6c52c88, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetSortIndex(::UnityEngine::Rendering::RTHandle* res);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::TexturePool* New_ctor();
 
-  /// @brief Method ReleaseInternalResource, addr 0x6c51b10, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method ReleaseInternalResource, addr 0x6c52bf0, size 0x18, virtual true, abstract: false, final false
   inline void ReleaseInternalResource(::UnityEngine::Rendering::RTHandle* res);
 
-  /// @brief Method .ctor, addr 0x6c4b5b0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c4c690, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -74,7 +74,7 @@ public:
   /// @brief Convert operator to "::System::IComparable_1<::UnityEngine::Rendering::ProbeVolumeScratchBufferPool_ScratchBufferPool*>"
   constexpr operator ::System::IComparable_1<::UnityEngine::Rendering::ProbeVolumeScratchBufferPool_ScratchBufferPool*>*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x6bf08e0, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x6bf19c0, size 0x24, virtual true, abstract: false, final true
   inline int32_t CompareTo(::UnityEngine::Rendering::ProbeVolumeScratchBufferPool_ScratchBufferPool* other);
 
   static inline ::UnityEngine::Rendering::ProbeVolumeScratchBufferPool_ScratchBufferPool* New_ctor();
@@ -93,10 +93,10 @@ public:
 
   constexpr void __cordl_internal_set_pool(::System::Collections::Generic::Stack_1<::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer*>* value);
 
-  /// @brief Method .ctor, addr 0x6bf0864, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bf1944, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6bf0490, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bf1570, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(int32_t chunkCount);
 
   /// @brief Convert to "::System::IComparable_1<::UnityEngine::Rendering::ProbeVolumeScratchBufferPool_ScratchBufferPool*>"
@@ -155,13 +155,13 @@ public:
 
   static inline ::UnityEngine::Rendering::ProbeVolumeScratchBufferPool___c* New_ctor();
 
-  /// @brief Method <AllocateScratchBuffer>b__26_0, addr 0x6bf095c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <AllocateScratchBuffer>b__26_0, addr 0x6bf1a3c, size 0x64, virtual false, abstract: false, final false
   inline bool _AllocateScratchBuffer_b__26_0(::UnityEngine::Rendering::ProbeVolumeScratchBufferPool_ScratchBufferPool* o);
 
-  /// @brief Method <ReleaseScratchBuffer>b__27_0, addr 0x6bf09c0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ReleaseScratchBuffer>b__27_0, addr 0x6bf1aa0, size 0x64, virtual false, abstract: false, final false
   inline bool _ReleaseScratchBuffer_b__27_0(::UnityEngine::Rendering::ProbeVolumeScratchBufferPool_ScratchBufferPool* o);
 
-  /// @brief Method .ctor, addr 0x6bf0958, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bf1a38, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::ProbeVolumeScratchBufferPool___c* getStaticF___9();
@@ -261,22 +261,22 @@ public:
   /// @brief Field s_ChunkCount, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_ChunkCount, put = setStaticF_s_ChunkCount)) int32_t s_ChunkCount;
 
-  /// @brief Method AllocateScratchBuffer, addr 0x6bf00e8, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method AllocateScratchBuffer, addr 0x6bf11c8, size 0x3a8, virtual false, abstract: false, final false
   inline bool AllocateScratchBuffer(int32_t chunkCount, ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer*> scratchBuffer,
                                     ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBufferLayout> layout, bool allocateGraphicsBuffers);
 
-  /// @brief Method Cleanup, addr 0x6bf06b0, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x6bf1790, size 0x1b4, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method CreateScratchBuffer, addr 0x6bf0060, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method CreateScratchBuffer, addr 0x6bf1140, size 0x88, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer* CreateScratchBuffer(int32_t chunkCount, bool allocateGraphicsBuffers);
 
-  /// @brief Method GetOrCreateScratchBufferLayout, addr 0x6befde0, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateScratchBufferLayout, addr 0x6bf0ec0, size 0x280, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBufferLayout GetOrCreateScratchBufferLayout(int32_t chunkCount);
 
   static inline ::UnityEngine::Rendering::ProbeVolumeScratchBufferPool* New_ctor(::UnityEngine::Rendering::ProbeVolumeBakingSet* bakingSet, ::UnityEngine::Rendering::ProbeVolumeSHBands shBands);
 
-  /// @brief Method ReleaseScratchBuffer, addr 0x6bf051c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method ReleaseScratchBuffer, addr 0x6bf15fc, size 0x194, virtual false, abstract: false, final false
   inline void ReleaseScratchBuffer(::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer* scratchBuffer);
 
   constexpr int32_t const& __cordl_internal_get__chunkSize_k__BackingField() const;
@@ -357,30 +357,30 @@ public:
 
   constexpr void __cordl_internal_set_m_ValiditySize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6befc7c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bf0d5c, size 0x164, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::ProbeVolumeBakingSet* bakingSet, ::UnityEngine::Rendering::ProbeVolumeSHBands shBands);
 
   static inline int32_t getStaticF_s_ChunkCount();
 
-  /// @brief Method get_allocatedMemory, addr 0x6befc6c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_allocatedMemory, addr 0x6bf0d4c, size 0x10, virtual false, abstract: false, final false
   inline int32_t get_allocatedMemory();
 
   /// [CompilerGenerated]
-  /// @brief Method get_chunkSize, addr 0x6befc4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_chunkSize, addr 0x6bf0d2c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_chunkSize();
 
   /// [CompilerGenerated]
-  /// @brief Method get_maxChunkCount, addr 0x6befc5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxChunkCount, addr 0x6bf0d3c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxChunkCount();
 
   static inline void setStaticF_s_ChunkCount(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_chunkSize, addr 0x6befc54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_chunkSize, addr 0x6bf0d34, size 0x8, virtual false, abstract: false, final false
   inline void set_chunkSize(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_maxChunkCount, addr 0x6befc64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxChunkCount, addr 0x6bf0d44, size 0x8, virtual false, abstract: false, final false
   inline void set_maxChunkCount(int32_t value);
 
 protected:

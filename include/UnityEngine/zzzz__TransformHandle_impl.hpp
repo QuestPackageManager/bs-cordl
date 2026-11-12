@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TransformHandle::*)(::System::Object*)>(&::UnityEngine::TransformHandle::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6f92d8c;
+  constexpr static std::size_t addrs = 0x6f93e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TransformHandle>(), { ::i2c::class_of<::UnityEngine::TransformHandle>(), 0 }));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TransformHandle::*)(::UnityEngine::TransformHandle)>(&::UnityEngine::TransformHandle::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6f92e08;
+  constexpr static std::size_t addrs = 0x6f93ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TransformHandle::*)(::UnityEngine::TransformHandle)>(&::UnityEngine::TransformHandle::CompareTo)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6f92e18;
+  constexpr static std::size_t addrs = 0x6f93ef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TransformHandle::*)()>(&::UnityEngine::TransformHandle::GetHashCode)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6f92e2c;
+  constexpr static std::size_t addrs = 0x6f93f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TransformHandle>(), { ::i2c::class_of<::UnityEngine::TransformHandle>(), 2 }));

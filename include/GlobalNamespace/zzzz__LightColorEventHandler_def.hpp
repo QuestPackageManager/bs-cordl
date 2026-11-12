@@ -75,18 +75,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE LightColorEventHandler_GetColorDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x5deb7a8, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x5deb8d4, size 0xc0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::EnvironmentColorType colorType, bool colorBoost, float_t brightness, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x5deb868, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x5deb994, size 0x28, virtual true, abstract: false, final false
   inline ::UnityEngine::Color EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x5deb794, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5deb8c0, size 0x14, virtual true, abstract: false, final false
   inline ::UnityEngine::Color Invoke(::GlobalNamespace::EnvironmentColorType colorType, bool colorBoost, float_t brightness);
 
   static inline ::GlobalNamespace::LightColorEventHandler_GetColorDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5de9be4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5de9cf4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -199,11 +199,11 @@ public:
 
   constexpr void __cordl_internal_set_tweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x5de9c50, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5de9d60, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, ::GlobalNamespace::LightWithIdManager* lightManager, ::Tweening::SongTimeTweeningManager* tweeningManager,
                     ::GlobalNamespace::ColorManager* colorManager, ::GlobalNamespace::IBpmController* bpmController, ::GlobalNamespace::LightColorEventHandler_GetColorDelegate* getColor);
 
-  /// @brief Method .ctor, addr 0x5deb890, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5deb9bc, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(int32_t lightId, ::GlobalNamespace::LightWithIdManager* lightManager, ::Tweening::SongTimeTweeningManager* tweeningManager, ::GlobalNamespace::ColorManager* colorManager,
                     ::GlobalNamespace::IBpmController* bpmController, ::GlobalNamespace::LightColorEventHandler_GetColorDelegate* getColor);
 
@@ -338,22 +338,22 @@ public:
   /// @brief Field _usingBoostColors, offset 0xa1, size 0x1
   __declspec(property(get = __cordl_internal_get__usingBoostColors, put = __cordl_internal_set__usingBoostColors)) bool _usingBoostColors;
 
-  /// @brief Method Cleanup, addr 0x5de7790, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x5de78a0, size 0x8c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method HandleColorEvent, addr 0x5dea6d8, size 0x448, virtual false, abstract: false, final false
+  /// @brief Method HandleColorEvent, addr 0x5dea7e8, size 0x450, virtual false, abstract: false, final false
   inline void HandleColorEvent(::GlobalNamespace::LightColorBeatmapEventData* currentEventData);
 
   static inline ::GlobalNamespace::LightColorEventHandler* New_ctor(::GlobalNamespace::LightColorEventHandler_InitData* initData);
 
-  /// @brief Method SetColor, addr 0x5deb490, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x5deb5a8, size 0x1b0, virtual false, abstract: false, final false
   inline void SetColor(float_t t);
 
-  /// @brief Method SetData, addr 0x5deb62c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x5deb758, size 0x168, virtual false, abstract: false, final false
   inline void SetData(::UnityEngine::Color fromColor, ::UnityEngine::Color toColor, ::UnityEngine::Color alternativeFromColor, ::UnityEngine::Color alternativeToColor, float_t fromStrobeBeatFrequency,
                       float_t toStrobeBeatFrequency, float_t fromStrobeBrightness, float_t toStrobeBrightness, bool strobeFade);
 
-  /// @brief Method UseBoostColors, addr 0x5deadfc, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method UseBoostColors, addr 0x5deaf14, size 0x160, virtual false, abstract: false, final false
   inline void UseBoostColors(bool useBoostColors);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__alternativeFromColor() const;
@@ -470,7 +470,7 @@ public:
 
   constexpr void __cordl_internal_set__usingBoostColors(bool value);
 
-  /// @brief Method .ctor, addr 0x5de9c6c, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5de9d7c, size 0x2ac, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightColorEventHandler_InitData* initData);
 
 protected:

@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Unity::UnityTlsProvider::*)()>(&::Mono::Unity::UnityTlsProvider::get_Name)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x642dfb8;
+  constexpr static std::size_t addrs = 0x642e608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Guid (::Mono::Unity::UnityTlsProvider::*)()>(&::Mono::Unity::UnityTlsProvider::get_ID)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x642dffc;
+  constexpr static std::size_t addrs = 0x642e64c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Unity::UnityTlsProvider::*)()>(&::Mono::Unity::UnityTlsProvider::get_SupportsSslStream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x642e058;
+  constexpr static std::size_t addrs = 0x642e6a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Unity::UnityTlsProvider::*)()>(&::Mono::Unity::UnityTlsProvider::get_SupportsMonoExtensions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x642e060;
+  constexpr static std::size_t addrs = 0x642e6b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Unity::UnityTlsProvider::*)()>(&::Mono::Unity::UnityTlsProvider::get_SupportsConnectionInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x642e068;
+  constexpr static std::size_t addrs = 0x642e6b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Unity::UnityTlsProvider::*)()>(&::Mono::Unity::UnityTlsProvider::get_SupportsCleanShutdown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x642e070;
+  constexpr static std::size_t addrs = 0x642e6c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Authentication::SslProtocols (::Mono::Unity::UnityTlsProvider::*)()>(
     &::Mono::Unity::UnityTlsProvider::get_SupportedProtocols)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x642e078;
+  constexpr static std::size_t addrs = 0x642e6c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Net::Security::Mo
     ::Mono::Unity::UnityTlsProvider::*)(::System::Net::Security::SslStream*, ::System::IO::Stream*, bool, ::Mono::Security::Interface::MonoTlsSettings*)>(
     &::Mono::Unity::UnityTlsProvider::CreateSslStream)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x642e080;
+  constexpr static std::size_t addrs = 0x642e6d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Unity::UnityTls_u
     void*, ::Mono::Unity::UnityTls_unitytls_x509_ref, ::Mono::Unity::UnityTls_unitytls_x509verify_result, ::Mono::Unity::UnityTls_unitytls_errorstate*)>(
     &::Mono::Unity::UnityTlsProvider::x509verify_callback)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x642df54;
+  constexpr static std::size_t addrs = 0x642e5a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +147,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Unity::Unit
     ::by_ref<::System::Security::Cryptography::X509Certificates::X509Chain*>, ::by_ref<::System::Net::Security::SslPolicyErrors>, ::by_ref<int32_t>)>(
     &::Mono::Unity::UnityTlsProvider::ValidateCertificate)> {
   constexpr static std::size_t size = 0x890;
-  constexpr static std::size_t addrs = 0x642e1a4;
+  constexpr static std::size_t addrs = 0x642e7f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Unity::UnityTlsProvider::*)()>(&::Mono::Unity::UnityTlsProvider::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x642eae4;
+  constexpr static std::size_t addrs = 0x642f134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Unity::UnityTlsProvider*>(), { ".ctor", {}, {} })));

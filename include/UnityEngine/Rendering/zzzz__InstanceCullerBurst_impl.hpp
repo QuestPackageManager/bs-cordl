@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCullerBurst_SetupCullingJobInput_0000014D$PostfixBurstDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::Rendering::InstanceCullerBurst_SetupCullingJobInput_0000014D$PostfixBurstDelegate::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6c8b5bc;
+  constexpr static std::size_t addrs = 0x6c8c69c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     float_t, float_t, ::UnityEngine::Rendering::BatchCullingContext*, ::UnityEngine::Rendering::ReceiverPlanes*, ::UnityEngine::Rendering::ReceiverSphereCuller*,
     ::UnityEngine::Rendering::FrustumPlaneCuller*, float_t*, float_t*)>(&::UnityEngine::Rendering::InstanceCullerBurst_SetupCullingJobInput_0000014D$PostfixBurstDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6c8b628;
+  constexpr static std::size_t addrs = 0x6c8c708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
                                                                                                          ::System::Object*)>(
     &::UnityEngine::Rendering::InstanceCullerBurst_SetupCullingJobInput_0000014D$PostfixBurstDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6c8b63c;
+  constexpr static std::size_t addrs = 0x6c8c71c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCullerBurst_SetupCullingJobInput_0000014D$PostfixBurstDelegate::*)(::System::IAsyncResult*)>(
     &::UnityEngine::Rendering::InstanceCullerBurst_SetupCullingJobInput_0000014D$PostfixBurstDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c8b6e8;
+  constexpr static std::size_t addrs = 0x6c8c7c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::System::IntPtr>)>(
     &::UnityEngine::Rendering::InstanceCullerBurst_SetupCullingJobInput_0000014D$BurstDirectCall::GetFunctionPointerDiscard)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6c8b6f4;
+  constexpr static std::size_t addrs = 0x6c8c7d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::Rendering::InstanceCullerBurst_SetupCullingJobInput_0000014D$BurstDirectCall::GetFunctionPointer)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c8b800;
+  constexpr static std::size_t addrs = 0x6c8c8e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, float_t
                                                                 ::UnityEngine::Rendering::ReceiverSphereCuller*, ::UnityEngine::Rendering::FrustumPlaneCuller*, float_t*, float_t*)>(
     &::UnityEngine::Rendering::InstanceCullerBurst_SetupCullingJobInput_0000014D$BurstDirectCall::Invoke)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6c8b370;
+  constexpr static std::size_t addrs = 0x6c8c450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, float_t
                                                                 ::UnityEngine::Rendering::ReceiverSphereCuller*, ::UnityEngine::Rendering::FrustumPlaneCuller*, float_t*, float_t*)>(
     &::UnityEngine::Rendering::InstanceCullerBurst::SetupCullingJobInput)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c8b36c;
+  constexpr static std::size_t addrs = 0x6c8c44c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, float_t
                                                                 ::UnityEngine::Rendering::ReceiverSphereCuller*, ::UnityEngine::Rendering::FrustumPlaneCuller*, float_t*, float_t*)>(
     &::UnityEngine::Rendering::InstanceCullerBurst::SetupCullingJobInput$BurstManaged)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6c8b480;
+  constexpr static std::size_t addrs = 0x6c8c560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

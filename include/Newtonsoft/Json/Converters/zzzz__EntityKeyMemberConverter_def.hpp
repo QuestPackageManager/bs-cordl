@@ -43,25 +43,25 @@ public:
   /// @brief Field _reflectionObject, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__reflectionObject, put = setStaticF__reflectionObject)) ::Newtonsoft::Json::Utilities::ReflectionObject* _reflectionObject;
 
-  /// @brief Method CanConvert, addr 0x61f149c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x61f1724, size 0x64, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
-  /// @brief Method EnsureReflectionObject, addr 0x61f0fe4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method EnsureReflectionObject, addr 0x61f126c, size 0xf0, virtual false, abstract: false, final false
   static inline void EnsureReflectionObject(::System::Type* objectType);
 
   static inline ::Newtonsoft::Json::Converters::EntityKeyMemberConverter* New_ctor();
 
-  /// @brief Method ReadAndAssertProperty, addr 0x61f10d4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ReadAndAssertProperty, addr 0x61f135c, size 0xf4, virtual false, abstract: false, final false
   static inline void ReadAndAssertProperty(::Newtonsoft::Json::JsonReader* reader, ::StringW propertyName);
 
-  /// @brief Method ReadJson, addr 0x61f11c8, size 0x2d4, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x61f1450, size 0x2d4, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, /* [Nullable(2)] */ ::System::Object* existingValue,
                                     ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x61f0c84, size 0x360, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x61f0f0c, size 0x360, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, /* [Nullable(2)] */ ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x61f1500, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61f1788, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Utilities::ReflectionObject* getStaticF__reflectionObject();

@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::DiContainer* (::GlobalNamespace::GameScenesManager_ScenesStackData::*)()>(
     &::GlobalNamespace::GameScenesManager_ScenesStackData::get_container)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35b0880;
+  constexpr static std::size_t addrs = 0x35b41bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager_ScenesStackData*>(), { "get_container", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager_ScenesStackData::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::GameScenesManager_ScenesStackData::set_container)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35b0888;
+  constexpr static std::size_t addrs = 0x35b41c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager_ScenesStackData::*)(::System::Collections::Generic::IEnumerable_1<::StringW>*)>(
     &::GlobalNamespace::GameScenesManager_ScenesStackData::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x35ac9d8;
+  constexpr static std::size_t addrs = 0x35afe04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager_ScenesStackData*>(),
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager_ScenesStackData::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::GameScenesManager_ScenesStackData::SetDiContainer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35b0890;
+  constexpr static std::size_t addrs = 0x35b41cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,228 +166,121 @@ constexpr ::GlobalNamespace::GameScenesManager_SceneDismissType::GameScenesManag
 constexpr ::GlobalNamespace::GameScenesManager_SceneDismissType GlobalNamespace::GameScenesManager_SceneDismissType::DoNotUnload{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::GameScenesManager_SceneDismissType GlobalNamespace::GameScenesManager_SceneDismissType::Unload{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::GameScenesManager_SceneDismissType GlobalNamespace::GameScenesManager_SceneDismissType::Deactivate{ static_cast<int32_t>(0x2) };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass44_0._ctor
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass44_0::*)()>(&::GlobalNamespace::GameScenesManager___c__DisplayClass44_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c::*)()>(&::GlobalNamespace::GameScenesManager___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35acec4;
+  constexpr static std::size_t addrs = 0x35b4228;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass44_0*>(), { ".ctor", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass44_0._PushScenesAsync_b__0
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c._PreloadScene_b__41_0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass44_0::*)(::Zenject::DiContainer*)>(
-    &::GlobalNamespace::GameScenesManager___c__DisplayClass44_0::_PushScenesAsync_b__0)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x35b0898;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass44_0*>(),
-                                                                                           { "<PushScenesAsync>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
-    return ___internal_method;
-  }
-};
-constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::Zenject::DiContainer*>*& GlobalNamespace::GameScenesManager___c__DisplayClass44_0::__cordl_internal_get_tcs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___tcs;
-}
-constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::Zenject::DiContainer*>* const& GlobalNamespace::GameScenesManager___c__DisplayClass44_0::__cordl_internal_get_tcs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___tcs;
-}
-constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass44_0::__cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<::Zenject::DiContainer*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___tcs = value;
-}
-inline void GlobalNamespace::GameScenesManager___c__DisplayClass44_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass44_0*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline void GlobalNamespace::GameScenesManager___c__DisplayClass44_0::_PushScenesAsync_b__0(::Zenject::DiContainer* container) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass44_0*>(),
-                                                                                         { "<PushScenesAsync>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container);
-}
-inline ::GlobalNamespace::GameScenesManager___c__DisplayClass44_0* GlobalNamespace::GameScenesManager___c__DisplayClass44_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameScenesManager___c__DisplayClass44_0*>());
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::GameScenesManager___c__DisplayClass44_0::GameScenesManager___c__DisplayClass44_0() {}
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass45_0._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass45_0::*)()>(&::GlobalNamespace::GameScenesManager___c__DisplayClass45_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c::*)(
+    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>)>(
+    &::GlobalNamespace::GameScenesManager___c::_PreloadScene_b__41_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35ad2c0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass45_0*>(), { ".ctor", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass45_0._PushScenes_b__0
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass45_0::*)(::Zenject::DiContainer*)>(
-    &::GlobalNamespace::GameScenesManager___c__DisplayClass45_0::_PushScenes_b__0)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35b08fc;
+  constexpr static std::size_t addrs = 0x35b422c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass45_0*>(), { "<PushScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+                     (::i2c::find_method(
+                         ::i2c::class_of<::GlobalNamespace::GameScenesManager___c*>(),
+                         { "<PreloadScene>b__41_0",
+                           {},
+                           { ::i2c::type_of<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass45_0._PushScenes_b__1
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass45_0::*)(::Zenject::DiContainer*)>(
-    &::GlobalNamespace::GameScenesManager___c__DisplayClass45_0::_PushScenes_b__1)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x35b0ab0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass45_0*>(), { "<PushScenes>b__1", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
-    return ___internal_method;
-  }
-};
-constexpr ::GlobalNamespace::GameScenesManager_ScenesStackData*& GlobalNamespace::GameScenesManager___c__DisplayClass45_0::__cordl_internal_get_scenesStackData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___scenesStackData;
+inline void GlobalNamespace::GameScenesManager___c::setStaticF___9(::GlobalNamespace::GameScenesManager___c* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::GameScenesManager___c*, "<>9", ::GlobalNamespace::GameScenesManager___c*>(std::forward<::GlobalNamespace::GameScenesManager___c*>(value));
 }
-constexpr ::GlobalNamespace::GameScenesManager_ScenesStackData* const& GlobalNamespace::GameScenesManager___c__DisplayClass45_0::__cordl_internal_get_scenesStackData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___scenesStackData;
+inline ::GlobalNamespace::GameScenesManager___c* GlobalNamespace::GameScenesManager___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::GameScenesManager___c*, "<>9", ::GlobalNamespace::GameScenesManager___c*>();
 }
-constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass45_0::__cordl_internal_set_scenesStackData(::GlobalNamespace::GameScenesManager_ScenesStackData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___scenesStackData = value;
+inline void GlobalNamespace::GameScenesManager___c::setStaticF___9__41_0(
+    ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>* value) {
+  ::cordl_internals::setStaticField<
+      ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>*, "<>9__41_0",
+      ::GlobalNamespace::GameScenesManager___c*>(
+      std::forward<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>*>(value));
 }
-constexpr ::GlobalNamespace::ScenesTransitionSetupData*& GlobalNamespace::GameScenesManager___c__DisplayClass45_0::__cordl_internal_get_scenesTransitionSetupData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___scenesTransitionSetupData;
+inline ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>*
+GlobalNamespace::GameScenesManager___c::getStaticF___9__41_0() {
+  return ::cordl_internals::getStaticField<
+      ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>*, "<>9__41_0",
+      ::GlobalNamespace::GameScenesManager___c*>();
 }
-constexpr ::GlobalNamespace::ScenesTransitionSetupData* const& GlobalNamespace::GameScenesManager___c__DisplayClass45_0::__cordl_internal_get_scenesTransitionSetupData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___scenesTransitionSetupData;
-}
-constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass45_0::__cordl_internal_set_scenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___scenesTransitionSetupData = value;
-}
-constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& GlobalNamespace::GameScenesManager___c__DisplayClass45_0::__cordl_internal_get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& GlobalNamespace::GameScenesManager___c__DisplayClass45_0::__cordl_internal_get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass45_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GameScenesManager> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____4__this = value;
-}
-constexpr ::System::Action_1<::Zenject::DiContainer*>*& GlobalNamespace::GameScenesManager___c__DisplayClass45_0::__cordl_internal_get_finishCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___finishCallback;
-}
-constexpr ::System::Action_1<::Zenject::DiContainer*>* const& GlobalNamespace::GameScenesManager___c__DisplayClass45_0::__cordl_internal_get_finishCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___finishCallback;
-}
-constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass45_0::__cordl_internal_set_finishCallback(::System::Action_1<::Zenject::DiContainer*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___finishCallback = value;
-}
-inline void GlobalNamespace::GameScenesManager___c__DisplayClass45_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass45_0*>(), { ".ctor", {}, {} })));
+inline void GlobalNamespace::GameScenesManager___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::GameScenesManager___c__DisplayClass45_0::_PushScenes_b__0(::Zenject::DiContainer* container) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass45_0*>(), { "<PushScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container);
+inline void GlobalNamespace::GameScenesManager___c::_PreloadScene_b__41_0(
+    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> handle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c*>(),
+                          { "<PreloadScene>b__41_0",
+                            {},
+                            { ::i2c::type_of<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, handle);
 }
-inline void GlobalNamespace::GameScenesManager___c__DisplayClass45_0::_PushScenes_b__1(::Zenject::DiContainer* container) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass45_0*>(), { "<PushScenes>b__1", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container);
-}
-inline ::GlobalNamespace::GameScenesManager___c__DisplayClass45_0* GlobalNamespace::GameScenesManager___c__DisplayClass45_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameScenesManager___c__DisplayClass45_0*>());
+inline ::GlobalNamespace::GameScenesManager___c* GlobalNamespace::GameScenesManager___c::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameScenesManager___c*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::GameScenesManager___c__DisplayClass45_0::GameScenesManager___c__DisplayClass45_0() {}
+constexpr ::GlobalNamespace::GameScenesManager___c::GameScenesManager___c() {}
 //  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass46_0._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass46_0::*)()>(&::GlobalNamespace::GameScenesManager___c__DisplayClass46_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35ad67c;
+  constexpr static std::size_t addrs = 0x35b02f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass46_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass46_0._PopScenes_b__0
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass46_0._PushScenesAsync_b__0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass46_0::*)(::Zenject::DiContainer*)>(
-    &::GlobalNamespace::GameScenesManager___c__DisplayClass46_0::_PopScenes_b__0)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x35b0b2c;
+    &::GlobalNamespace::GameScenesManager___c__DisplayClass46_0::_PushScenesAsync_b__0)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x35b4230;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass46_0*>(), { "<PopScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass46_0*>(),
+                                                                                           { "<PushScenesAsync>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& GlobalNamespace::GameScenesManager___c__DisplayClass46_0::__cordl_internal_get___4__this() {
+constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::Zenject::DiContainer*>*& GlobalNamespace::GameScenesManager___c__DisplayClass46_0::__cordl_internal_get_tcs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
+  return this->___tcs;
 }
-constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& GlobalNamespace::GameScenesManager___c__DisplayClass46_0::__cordl_internal_get___4__this() const {
+constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::Zenject::DiContainer*>* const& GlobalNamespace::GameScenesManager___c__DisplayClass46_0::__cordl_internal_get_tcs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
+  return this->___tcs;
 }
-constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass46_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GameScenesManager> value) {
+constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass46_0::__cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<::Zenject::DiContainer*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____4__this = value;
-}
-constexpr ::System::Action_1<::Zenject::DiContainer*>*& GlobalNamespace::GameScenesManager___c__DisplayClass46_0::__cordl_internal_get_finishCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___finishCallback;
-}
-constexpr ::System::Action_1<::Zenject::DiContainer*>* const& GlobalNamespace::GameScenesManager___c__DisplayClass46_0::__cordl_internal_get_finishCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___finishCallback;
-}
-constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass46_0::__cordl_internal_set_finishCallback(::System::Action_1<::Zenject::DiContainer*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___finishCallback = value;
+  this->___tcs = value;
 }
 inline void GlobalNamespace::GameScenesManager___c__DisplayClass46_0::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass46_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::GameScenesManager___c__DisplayClass46_0::_PopScenes_b__0(::Zenject::DiContainer* container) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass46_0*>(), { "<PopScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+inline void GlobalNamespace::GameScenesManager___c__DisplayClass46_0::_PushScenesAsync_b__0(::Zenject::DiContainer* container) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass46_0*>(),
+                                                                                         { "<PushScenesAsync>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container);
 }
 inline ::GlobalNamespace::GameScenesManager___c__DisplayClass46_0* GlobalNamespace::GameScenesManager___c__DisplayClass46_0::New_ctor() {
@@ -400,46 +293,105 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass47_0::*)()>(&::GlobalNamespace::GameScenesManager___c__DisplayClass47_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35ad7c4;
+  constexpr static std::size_t addrs = 0x35b06fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass47_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass47_0._ReplaceScenesAsync_b__0
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass47_0._PushScenes_b__0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass47_0::*)(::Zenject::DiContainer*)>(
-    &::GlobalNamespace::GameScenesManager___c__DisplayClass47_0::_ReplaceScenesAsync_b__0)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x35b0be8;
+    &::GlobalNamespace::GameScenesManager___c__DisplayClass47_0::_PushScenes_b__0)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x35b4294;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass47_0*>(),
-                                                                                           { "<ReplaceScenesAsync>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass47_0*>(), { "<PushScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::Zenject::DiContainer*>*& GlobalNamespace::GameScenesManager___c__DisplayClass47_0::__cordl_internal_get_tcs() {
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass47_0._PushScenes_b__1
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass47_0::*)(::Zenject::DiContainer*)>(
+    &::GlobalNamespace::GameScenesManager___c__DisplayClass47_0::_PushScenes_b__1)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x35b4448;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass47_0*>(), { "<PushScenes>b__1", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+    return ___internal_method;
+  }
+};
+constexpr ::GlobalNamespace::GameScenesManager_ScenesStackData*& GlobalNamespace::GameScenesManager___c__DisplayClass47_0::__cordl_internal_get_scenesStackData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___tcs;
+  return this->___scenesStackData;
 }
-constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::Zenject::DiContainer*>* const& GlobalNamespace::GameScenesManager___c__DisplayClass47_0::__cordl_internal_get_tcs() const {
+constexpr ::GlobalNamespace::GameScenesManager_ScenesStackData* const& GlobalNamespace::GameScenesManager___c__DisplayClass47_0::__cordl_internal_get_scenesStackData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___tcs;
+  return this->___scenesStackData;
 }
-constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass47_0::__cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<::Zenject::DiContainer*>* value) {
+constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass47_0::__cordl_internal_set_scenesStackData(::GlobalNamespace::GameScenesManager_ScenesStackData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___tcs = value;
+  this->___scenesStackData = value;
+}
+constexpr ::GlobalNamespace::ScenesTransitionSetupData*& GlobalNamespace::GameScenesManager___c__DisplayClass47_0::__cordl_internal_get_scenesTransitionSetupData() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___scenesTransitionSetupData;
+}
+constexpr ::GlobalNamespace::ScenesTransitionSetupData* const& GlobalNamespace::GameScenesManager___c__DisplayClass47_0::__cordl_internal_get_scenesTransitionSetupData() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___scenesTransitionSetupData;
+}
+constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass47_0::__cordl_internal_set_scenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupData* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___scenesTransitionSetupData = value;
+}
+constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& GlobalNamespace::GameScenesManager___c__DisplayClass47_0::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& GlobalNamespace::GameScenesManager___c__DisplayClass47_0::__cordl_internal_get___4__this() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass47_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GameScenesManager> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____4__this = value;
+}
+constexpr ::System::Action_1<::Zenject::DiContainer*>*& GlobalNamespace::GameScenesManager___c__DisplayClass47_0::__cordl_internal_get_finishCallback() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___finishCallback;
+}
+constexpr ::System::Action_1<::Zenject::DiContainer*>* const& GlobalNamespace::GameScenesManager___c__DisplayClass47_0::__cordl_internal_get_finishCallback() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___finishCallback;
+}
+constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass47_0::__cordl_internal_set_finishCallback(::System::Action_1<::Zenject::DiContainer*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___finishCallback = value;
 }
 inline void GlobalNamespace::GameScenesManager___c__DisplayClass47_0::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass47_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::GameScenesManager___c__DisplayClass47_0::_ReplaceScenesAsync_b__0(::Zenject::DiContainer* container) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass47_0*>(),
-                                                                                         { "<ReplaceScenesAsync>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+inline void GlobalNamespace::GameScenesManager___c__DisplayClass47_0::_PushScenes_b__0(::Zenject::DiContainer* container) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass47_0*>(), { "<PushScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container);
+}
+inline void GlobalNamespace::GameScenesManager___c__DisplayClass47_0::_PushScenes_b__1(::Zenject::DiContainer* container) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass47_0*>(), { "<PushScenes>b__1", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container);
 }
 inline ::GlobalNamespace::GameScenesManager___c__DisplayClass47_0* GlobalNamespace::GameScenesManager___c__DisplayClass47_0::New_ctor() {
@@ -452,52 +404,25 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass48_0::*)()>(&::GlobalNamespace::GameScenesManager___c__DisplayClass48_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35adbec;
+  constexpr static std::size_t addrs = 0x35b0ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass48_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass48_0._ReplaceScenes_b__0
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass48_0._PopScenes_b__0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass48_0::*)(::Zenject::DiContainer*)>(
-    &::GlobalNamespace::GameScenesManager___c__DisplayClass48_0::_ReplaceScenes_b__0)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x35b0c4c;
+    &::GlobalNamespace::GameScenesManager___c__DisplayClass48_0::_PopScenes_b__0)> {
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x35b44c4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass48_0*>(),
-                                                                                           { "<ReplaceScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass48_0._ReplaceScenes_b__1
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass48_0::*)(::Zenject::DiContainer*)>(
-    &::GlobalNamespace::GameScenesManager___c__DisplayClass48_0::_ReplaceScenes_b__1)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35b0d74;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass48_0*>(),
-                                                                                           { "<ReplaceScenes>b__1", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass48_0._ReplaceScenes_b__2
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass48_0::*)(::Zenject::DiContainer*)>(
-    &::GlobalNamespace::GameScenesManager___c__DisplayClass48_0::_ReplaceScenes_b__2)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x35b0de0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass48_0*>(),
-                                                                                           { "<ReplaceScenes>b__2", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass48_0*>(), { "<PopScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
     return ___internal_method;
   }
 };
@@ -513,54 +438,6 @@ constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass48_0::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr ::GlobalNamespace::ScenesTransitionSetupData*& GlobalNamespace::GameScenesManager___c__DisplayClass48_0::__cordl_internal_get_scenesTransitionSetupData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___scenesTransitionSetupData;
-}
-constexpr ::GlobalNamespace::ScenesTransitionSetupData* const& GlobalNamespace::GameScenesManager___c__DisplayClass48_0::__cordl_internal_get_scenesTransitionSetupData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___scenesTransitionSetupData;
-}
-constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass48_0::__cordl_internal_set_scenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___scenesTransitionSetupData = value;
-}
-constexpr ::ArrayW<::StringW>& GlobalNamespace::GameScenesManager___c__DisplayClass48_0::__cordl_internal_get_newSceneNames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___newSceneNames;
-}
-constexpr ::ArrayW<::StringW> const& GlobalNamespace::GameScenesManager___c__DisplayClass48_0::__cordl_internal_get_newSceneNames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___newSceneNames;
-}
-constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass48_0::__cordl_internal_set_newSceneNames(::ArrayW<::StringW> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___newSceneNames = value;
-}
-constexpr ::System::Collections::Generic::List_1<::StringW>*& GlobalNamespace::GameScenesManager___c__DisplayClass48_0::__cordl_internal_get_emptyTransitionSceneNameList() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___emptyTransitionSceneNameList;
-}
-constexpr ::System::Collections::Generic::List_1<::StringW>* const& GlobalNamespace::GameScenesManager___c__DisplayClass48_0::__cordl_internal_get_emptyTransitionSceneNameList() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___emptyTransitionSceneNameList;
-}
-constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass48_0::__cordl_internal_set_emptyTransitionSceneNameList(::System::Collections::Generic::List_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___emptyTransitionSceneNameList = value;
-}
-constexpr ::GlobalNamespace::GameScenesManager_ScenesStackData*& GlobalNamespace::GameScenesManager___c__DisplayClass48_0::__cordl_internal_get_scenesStackData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___scenesStackData;
-}
-constexpr ::GlobalNamespace::GameScenesManager_ScenesStackData* const& GlobalNamespace::GameScenesManager___c__DisplayClass48_0::__cordl_internal_get_scenesStackData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___scenesStackData;
-}
-constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass48_0::__cordl_internal_set_scenesStackData(::GlobalNamespace::GameScenesManager_ScenesStackData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___scenesStackData = value;
-}
 constexpr ::System::Action_1<::Zenject::DiContainer*>*& GlobalNamespace::GameScenesManager___c__DisplayClass48_0::__cordl_internal_get_finishCallback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___finishCallback;
@@ -573,50 +450,14 @@ constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass48_0::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___finishCallback = value;
 }
-constexpr ::System::Action_1<::Zenject::DiContainer*>*& GlobalNamespace::GameScenesManager___c__DisplayClass48_0::__cordl_internal_get___9__1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____9__1;
-}
-constexpr ::System::Action_1<::Zenject::DiContainer*>* const& GlobalNamespace::GameScenesManager___c__DisplayClass48_0::__cordl_internal_get___9__1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____9__1;
-}
-constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass48_0::__cordl_internal_set___9__1(::System::Action_1<::Zenject::DiContainer*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____9__1 = value;
-}
-constexpr ::System::Action_1<::Zenject::DiContainer*>*& GlobalNamespace::GameScenesManager___c__DisplayClass48_0::__cordl_internal_get___9__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____9__2;
-}
-constexpr ::System::Action_1<::Zenject::DiContainer*>* const& GlobalNamespace::GameScenesManager___c__DisplayClass48_0::__cordl_internal_get___9__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____9__2;
-}
-constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass48_0::__cordl_internal_set___9__2(::System::Action_1<::Zenject::DiContainer*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____9__2 = value;
-}
 inline void GlobalNamespace::GameScenesManager___c__DisplayClass48_0::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass48_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::GameScenesManager___c__DisplayClass48_0::_ReplaceScenes_b__0(::Zenject::DiContainer* emptySceneContainer) {
+inline void GlobalNamespace::GameScenesManager___c__DisplayClass48_0::_PopScenes_b__0(::Zenject::DiContainer* container) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass48_0*>(), { "<ReplaceScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, emptySceneContainer);
-}
-inline void GlobalNamespace::GameScenesManager___c__DisplayClass48_0::_ReplaceScenes_b__1(::Zenject::DiContainer* container) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass48_0*>(), { "<ReplaceScenes>b__1", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container);
-}
-inline void GlobalNamespace::GameScenesManager___c__DisplayClass48_0::_ReplaceScenes_b__2(::Zenject::DiContainer* container) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass48_0*>(), { "<ReplaceScenes>b__2", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass48_0*>(), { "<PopScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container);
 }
 inline ::GlobalNamespace::GameScenesManager___c__DisplayClass48_0* GlobalNamespace::GameScenesManager___c__DisplayClass48_0::New_ctor() {
@@ -629,168 +470,46 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass49_0::*)()>(&::GlobalNamespace::GameScenesManager___c__DisplayClass49_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35ae288;
+  constexpr static std::size_t addrs = 0x35b0c28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass49_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass49_0._ClearAndOpenScenes_b__0
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass49_0._ReplaceScenesAsync_b__0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass49_0::*)(::Zenject::DiContainer*)>(
-    &::GlobalNamespace::GameScenesManager___c__DisplayClass49_0::_ClearAndOpenScenes_b__0)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x35b0e5c;
+    &::GlobalNamespace::GameScenesManager___c__DisplayClass49_0::_ReplaceScenesAsync_b__0)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x35b4580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass49_0*>(),
-                                                                                           { "<ClearAndOpenScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+                                                                                           { "<ReplaceScenesAsync>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass49_0._ClearAndOpenScenes_b__1
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass49_0::*)(::Zenject::DiContainer*)>(
-    &::GlobalNamespace::GameScenesManager___c__DisplayClass49_0::_ClearAndOpenScenes_b__1)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35b0f84;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass49_0*>(),
-                                                                                           { "<ClearAndOpenScenes>b__1", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass49_0._ClearAndOpenScenes_b__2
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass49_0::*)(::Zenject::DiContainer*)>(
-    &::GlobalNamespace::GameScenesManager___c__DisplayClass49_0::_ClearAndOpenScenes_b__2)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x35b0ff0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass49_0*>(),
-                                                                                           { "<ClearAndOpenScenes>b__2", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
-    return ___internal_method;
-  }
-};
-constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& GlobalNamespace::GameScenesManager___c__DisplayClass49_0::__cordl_internal_get___4__this() {
+constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::Zenject::DiContainer*>*& GlobalNamespace::GameScenesManager___c__DisplayClass49_0::__cordl_internal_get_tcs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
+  return this->___tcs;
 }
-constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& GlobalNamespace::GameScenesManager___c__DisplayClass49_0::__cordl_internal_get___4__this() const {
+constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::Zenject::DiContainer*>* const& GlobalNamespace::GameScenesManager___c__DisplayClass49_0::__cordl_internal_get_tcs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
+  return this->___tcs;
 }
-constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass49_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GameScenesManager> value) {
+constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass49_0::__cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<::Zenject::DiContainer*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____4__this = value;
-}
-constexpr ::GlobalNamespace::ScenesTransitionSetupData*& GlobalNamespace::GameScenesManager___c__DisplayClass49_0::__cordl_internal_get_scenesTransitionSetupData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___scenesTransitionSetupData;
-}
-constexpr ::GlobalNamespace::ScenesTransitionSetupData* const& GlobalNamespace::GameScenesManager___c__DisplayClass49_0::__cordl_internal_get_scenesTransitionSetupData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___scenesTransitionSetupData;
-}
-constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass49_0::__cordl_internal_set_scenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___scenesTransitionSetupData = value;
-}
-constexpr ::ArrayW<::StringW>& GlobalNamespace::GameScenesManager___c__DisplayClass49_0::__cordl_internal_get_newSceneNames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___newSceneNames;
-}
-constexpr ::ArrayW<::StringW> const& GlobalNamespace::GameScenesManager___c__DisplayClass49_0::__cordl_internal_get_newSceneNames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___newSceneNames;
-}
-constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass49_0::__cordl_internal_set_newSceneNames(::ArrayW<::StringW> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___newSceneNames = value;
-}
-constexpr ::System::Collections::Generic::List_1<::StringW>*& GlobalNamespace::GameScenesManager___c__DisplayClass49_0::__cordl_internal_get_emptyTransitionSceneNameList() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___emptyTransitionSceneNameList;
-}
-constexpr ::System::Collections::Generic::List_1<::StringW>* const& GlobalNamespace::GameScenesManager___c__DisplayClass49_0::__cordl_internal_get_emptyTransitionSceneNameList() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___emptyTransitionSceneNameList;
-}
-constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass49_0::__cordl_internal_set_emptyTransitionSceneNameList(::System::Collections::Generic::List_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___emptyTransitionSceneNameList = value;
-}
-constexpr ::GlobalNamespace::GameScenesManager_ScenesStackData*& GlobalNamespace::GameScenesManager___c__DisplayClass49_0::__cordl_internal_get_scenesStackData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___scenesStackData;
-}
-constexpr ::GlobalNamespace::GameScenesManager_ScenesStackData* const& GlobalNamespace::GameScenesManager___c__DisplayClass49_0::__cordl_internal_get_scenesStackData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___scenesStackData;
-}
-constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass49_0::__cordl_internal_set_scenesStackData(::GlobalNamespace::GameScenesManager_ScenesStackData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___scenesStackData = value;
-}
-constexpr ::System::Action_1<::Zenject::DiContainer*>*& GlobalNamespace::GameScenesManager___c__DisplayClass49_0::__cordl_internal_get_finishCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___finishCallback;
-}
-constexpr ::System::Action_1<::Zenject::DiContainer*>* const& GlobalNamespace::GameScenesManager___c__DisplayClass49_0::__cordl_internal_get_finishCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___finishCallback;
-}
-constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass49_0::__cordl_internal_set_finishCallback(::System::Action_1<::Zenject::DiContainer*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___finishCallback = value;
-}
-constexpr ::System::Action_1<::Zenject::DiContainer*>*& GlobalNamespace::GameScenesManager___c__DisplayClass49_0::__cordl_internal_get___9__1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____9__1;
-}
-constexpr ::System::Action_1<::Zenject::DiContainer*>* const& GlobalNamespace::GameScenesManager___c__DisplayClass49_0::__cordl_internal_get___9__1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____9__1;
-}
-constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass49_0::__cordl_internal_set___9__1(::System::Action_1<::Zenject::DiContainer*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____9__1 = value;
-}
-constexpr ::System::Action_1<::Zenject::DiContainer*>*& GlobalNamespace::GameScenesManager___c__DisplayClass49_0::__cordl_internal_get___9__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____9__2;
-}
-constexpr ::System::Action_1<::Zenject::DiContainer*>* const& GlobalNamespace::GameScenesManager___c__DisplayClass49_0::__cordl_internal_get___9__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____9__2;
-}
-constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass49_0::__cordl_internal_set___9__2(::System::Action_1<::Zenject::DiContainer*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____9__2 = value;
+  this->___tcs = value;
 }
 inline void GlobalNamespace::GameScenesManager___c__DisplayClass49_0::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass49_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::GameScenesManager___c__DisplayClass49_0::_ClearAndOpenScenes_b__0(::Zenject::DiContainer* emptySceneContainer) {
+inline void GlobalNamespace::GameScenesManager___c__DisplayClass49_0::_ReplaceScenesAsync_b__0(::Zenject::DiContainer* container) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass49_0*>(),
-                                                                                         { "<ClearAndOpenScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, emptySceneContainer);
-}
-inline void GlobalNamespace::GameScenesManager___c__DisplayClass49_0::_ClearAndOpenScenes_b__1(::Zenject::DiContainer* container) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass49_0*>(),
-                                                                                         { "<ClearAndOpenScenes>b__1", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container);
-}
-inline void GlobalNamespace::GameScenesManager___c__DisplayClass49_0::_ClearAndOpenScenes_b__2(::Zenject::DiContainer* container) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass49_0*>(),
-                                                                                         { "<ClearAndOpenScenes>b__2", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+                                                                                         { "<ReplaceScenesAsync>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container);
 }
 inline ::GlobalNamespace::GameScenesManager___c__DisplayClass49_0* GlobalNamespace::GameScenesManager___c__DisplayClass49_0::New_ctor() {
@@ -803,54 +522,85 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass50_0::*)()>(&::GlobalNamespace::GameScenesManager___c__DisplayClass50_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35ae714;
+  constexpr static std::size_t addrs = 0x35b10d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass50_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass50_0._AppendScenes_b__0
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass50_0._ReplaceScenes_g__PresentNewScenesCoroutine_0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass50_0::*)(::Zenject::DiContainer*)>(
-    &::GlobalNamespace::GameScenesManager___c__DisplayClass50_0::_AppendScenes_b__0)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35b106c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass50_0*>(), { "<AppendScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass50_0._AppendScenes_b__1
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass50_0::*)(::Zenject::DiContainer*)>(
-    &::GlobalNamespace::GameScenesManager___c__DisplayClass50_0::_AppendScenes_b__1)> {
-  constexpr static std::size_t size = 0x7c;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (
+    ::GlobalNamespace::GameScenesManager___c__DisplayClass50_0::*)(::System::Collections::Generic::IReadOnlyList_1<::StringW>*, float_t, ::System::Action*)>(
+    &::GlobalNamespace::GameScenesManager___c__DisplayClass50_0::_ReplaceScenes_g__PresentNewScenesCoroutine_0)> {
+  constexpr static std::size_t size = 0x124;
   constexpr static std::size_t addrs = 0x35b10d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass50_0*>(), { "<AppendScenes>b__1", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass50_0*>(),
+                                         { "<ReplaceScenes>g__PresentNewScenesCoroutine|0",
+                                           {},
+                                           { ::i2c::type_of<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::System::Action*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::GameScenesManager_ScenesStackData*& GlobalNamespace::GameScenesManager___c__DisplayClass50_0::__cordl_internal_get_scenesStackData() {
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass50_0._ReplaceScenes_b__2
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass50_0::*)(::Zenject::DiContainer*)>(
+    &::GlobalNamespace::GameScenesManager___c__DisplayClass50_0::_ReplaceScenes_b__2)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x35b45e4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass50_0*>(),
+                                                                                           { "<ReplaceScenes>b__2", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass50_0._ReplaceScenes_b__3
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass50_0::*)(::Zenject::DiContainer*)>(
+    &::GlobalNamespace::GameScenesManager___c__DisplayClass50_0::_ReplaceScenes_b__3)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x35b4650;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass50_0*>(),
+                                                                                           { "<ReplaceScenes>b__3", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass50_0._ReplaceScenes_b__1
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass50_0::*)(::Zenject::DiContainer*)>(
+    &::GlobalNamespace::GameScenesManager___c__DisplayClass50_0::_ReplaceScenes_b__1)> {
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x35b46cc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass50_0*>(),
+                                                                                           { "<ReplaceScenes>b__1", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& GlobalNamespace::GameScenesManager___c__DisplayClass50_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___scenesStackData;
+  return this->_____4__this;
 }
-constexpr ::GlobalNamespace::GameScenesManager_ScenesStackData* const& GlobalNamespace::GameScenesManager___c__DisplayClass50_0::__cordl_internal_get_scenesStackData() const {
+constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& GlobalNamespace::GameScenesManager___c__DisplayClass50_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___scenesStackData;
+  return this->_____4__this;
 }
-constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass50_0::__cordl_internal_set_scenesStackData(::GlobalNamespace::GameScenesManager_ScenesStackData* value) {
+constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass50_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GameScenesManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___scenesStackData = value;
+  this->_____4__this = value;
 }
 constexpr ::GlobalNamespace::ScenesTransitionSetupData*& GlobalNamespace::GameScenesManager___c__DisplayClass50_0::__cordl_internal_get_scenesTransitionSetupData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -864,17 +614,29 @@ constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass50_0::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___scenesTransitionSetupData = value;
 }
-constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& GlobalNamespace::GameScenesManager___c__DisplayClass50_0::__cordl_internal_get___4__this() {
+constexpr ::ArrayW<::StringW>& GlobalNamespace::GameScenesManager___c__DisplayClass50_0::__cordl_internal_get_newSceneNames() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
+  return this->___newSceneNames;
 }
-constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& GlobalNamespace::GameScenesManager___c__DisplayClass50_0::__cordl_internal_get___4__this() const {
+constexpr ::ArrayW<::StringW> const& GlobalNamespace::GameScenesManager___c__DisplayClass50_0::__cordl_internal_get_newSceneNames() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
+  return this->___newSceneNames;
 }
-constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass50_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GameScenesManager> value) {
+constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass50_0::__cordl_internal_set_newSceneNames(::ArrayW<::StringW> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____4__this = value;
+  this->___newSceneNames = value;
+}
+constexpr ::GlobalNamespace::GameScenesManager_ScenesStackData*& GlobalNamespace::GameScenesManager___c__DisplayClass50_0::__cordl_internal_get_scenesStackData() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___scenesStackData;
+}
+constexpr ::GlobalNamespace::GameScenesManager_ScenesStackData* const& GlobalNamespace::GameScenesManager___c__DisplayClass50_0::__cordl_internal_get_scenesStackData() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___scenesStackData;
+}
+constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass50_0::__cordl_internal_set_scenesStackData(::GlobalNamespace::GameScenesManager_ScenesStackData* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___scenesStackData = value;
 }
 constexpr ::System::Action_1<::Zenject::DiContainer*>*& GlobalNamespace::GameScenesManager___c__DisplayClass50_0::__cordl_internal_get_finishCallback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -888,21 +650,61 @@ constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass50_0::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___finishCallback = value;
 }
+constexpr bool& GlobalNamespace::GameScenesManager___c__DisplayClass50_0::__cordl_internal_get_shouldReclaimMemory() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___shouldReclaimMemory;
+}
+constexpr bool const& GlobalNamespace::GameScenesManager___c__DisplayClass50_0::__cordl_internal_get_shouldReclaimMemory() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___shouldReclaimMemory;
+}
+constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass50_0::__cordl_internal_set_shouldReclaimMemory(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___shouldReclaimMemory = value;
+}
+constexpr ::System::Collections::Generic::List_1<::StringW>*& GlobalNamespace::GameScenesManager___c__DisplayClass50_0::__cordl_internal_get_emptyTransitionSceneNameList() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___emptyTransitionSceneNameList;
+}
+constexpr ::System::Collections::Generic::List_1<::StringW>* const& GlobalNamespace::GameScenesManager___c__DisplayClass50_0::__cordl_internal_get_emptyTransitionSceneNameList() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___emptyTransitionSceneNameList;
+}
+constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass50_0::__cordl_internal_set_emptyTransitionSceneNameList(::System::Collections::Generic::List_1<::StringW>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___emptyTransitionSceneNameList = value;
+}
 inline void GlobalNamespace::GameScenesManager___c__DisplayClass50_0::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass50_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::GameScenesManager___c__DisplayClass50_0::_AppendScenes_b__0(::Zenject::DiContainer* container) {
+inline ::System::Collections::IEnumerator*
+GlobalNamespace::GameScenesManager___c__DisplayClass50_0::_ReplaceScenes_g__PresentNewScenesCoroutine_0(::System::Collections::Generic::IReadOnlyList_1<::StringW>* scenesToDismiss,
+                                                                                                        float_t presentMinDuration, ::System::Action* presentAfterMinDurationCallback) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass50_0*>(),
+                                              { "<ReplaceScenes>g__PresentNewScenesCoroutine|0",
+                                                {},
+                                                { ::i2c::type_of<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::System::Action*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method, scenesToDismiss, presentMinDuration, presentAfterMinDurationCallback);
+}
+inline void GlobalNamespace::GameScenesManager___c__DisplayClass50_0::_ReplaceScenes_b__2(::Zenject::DiContainer* container) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass50_0*>(), { "<AppendScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass50_0*>(), { "<ReplaceScenes>b__2", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container);
 }
-inline void GlobalNamespace::GameScenesManager___c__DisplayClass50_0::_AppendScenes_b__1(::Zenject::DiContainer* container) {
+inline void GlobalNamespace::GameScenesManager___c__DisplayClass50_0::_ReplaceScenes_b__3(::Zenject::DiContainer* container) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass50_0*>(), { "<AppendScenes>b__1", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass50_0*>(), { "<ReplaceScenes>b__3", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container);
+}
+inline void GlobalNamespace::GameScenesManager___c__DisplayClass50_0::_ReplaceScenes_b__1(::Zenject::DiContainer* emptySceneContainer) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass50_0*>(), { "<ReplaceScenes>b__1", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, emptySceneContainer);
 }
 inline ::GlobalNamespace::GameScenesManager___c__DisplayClass50_0* GlobalNamespace::GameScenesManager___c__DisplayClass50_0::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameScenesManager___c__DisplayClass50_0*>());
@@ -914,39 +716,52 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass51_0::*)()>(&::GlobalNamespace::GameScenesManager___c__DisplayClass51_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35aeba4;
+  constexpr static std::size_t addrs = 0x35b1b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass51_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass51_0._RemoveScenes_b__0
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass51_0._ClearAndOpenScenes_b__0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass51_0::*)(::Zenject::DiContainer*)>(
-    &::GlobalNamespace::GameScenesManager___c__DisplayClass51_0::_RemoveScenes_b__0)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x35b1154;
+    &::GlobalNamespace::GameScenesManager___c__DisplayClass51_0::_ClearAndOpenScenes_b__0)> {
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x35b4700;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass51_0*>(), { "<RemoveScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass51_0*>(),
+                                                                                           { "<ClearAndOpenScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass51_0._RemoveScenes_b__1
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass51_0._ClearAndOpenScenes_b__1
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager___c__DisplayClass51_0::*)(::StringW)>(
-    &::GlobalNamespace::GameScenesManager___c__DisplayClass51_0::_RemoveScenes_b__1)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x35b1210;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass51_0::*)(::Zenject::DiContainer*)>(
+    &::GlobalNamespace::GameScenesManager___c__DisplayClass51_0::_ClearAndOpenScenes_b__1)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x35b4830;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass51_0*>(), { "<RemoveScenes>b__1", {}, { ::i2c::type_of<::StringW>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass51_0*>(),
+                                                                                           { "<ClearAndOpenScenes>b__1", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass51_0._ClearAndOpenScenes_b__2
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass51_0::*)(::Zenject::DiContainer*)>(
+    &::GlobalNamespace::GameScenesManager___c__DisplayClass51_0::_ClearAndOpenScenes_b__2)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x35b489c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass51_0*>(),
+                                                                                           { "<ClearAndOpenScenes>b__2", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
     return ___internal_method;
   }
 };
@@ -962,6 +777,54 @@ constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass51_0::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
+constexpr ::GlobalNamespace::ScenesTransitionSetupData*& GlobalNamespace::GameScenesManager___c__DisplayClass51_0::__cordl_internal_get_scenesTransitionSetupData() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___scenesTransitionSetupData;
+}
+constexpr ::GlobalNamespace::ScenesTransitionSetupData* const& GlobalNamespace::GameScenesManager___c__DisplayClass51_0::__cordl_internal_get_scenesTransitionSetupData() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___scenesTransitionSetupData;
+}
+constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass51_0::__cordl_internal_set_scenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupData* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___scenesTransitionSetupData = value;
+}
+constexpr ::ArrayW<::StringW>& GlobalNamespace::GameScenesManager___c__DisplayClass51_0::__cordl_internal_get_newSceneNames() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___newSceneNames;
+}
+constexpr ::ArrayW<::StringW> const& GlobalNamespace::GameScenesManager___c__DisplayClass51_0::__cordl_internal_get_newSceneNames() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___newSceneNames;
+}
+constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass51_0::__cordl_internal_set_newSceneNames(::ArrayW<::StringW> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___newSceneNames = value;
+}
+constexpr ::System::Collections::Generic::List_1<::StringW>*& GlobalNamespace::GameScenesManager___c__DisplayClass51_0::__cordl_internal_get_emptyTransitionSceneNameList() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___emptyTransitionSceneNameList;
+}
+constexpr ::System::Collections::Generic::List_1<::StringW>* const& GlobalNamespace::GameScenesManager___c__DisplayClass51_0::__cordl_internal_get_emptyTransitionSceneNameList() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___emptyTransitionSceneNameList;
+}
+constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass51_0::__cordl_internal_set_emptyTransitionSceneNameList(::System::Collections::Generic::List_1<::StringW>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___emptyTransitionSceneNameList = value;
+}
+constexpr ::GlobalNamespace::GameScenesManager_ScenesStackData*& GlobalNamespace::GameScenesManager___c__DisplayClass51_0::__cordl_internal_get_scenesStackData() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___scenesStackData;
+}
+constexpr ::GlobalNamespace::GameScenesManager_ScenesStackData* const& GlobalNamespace::GameScenesManager___c__DisplayClass51_0::__cordl_internal_get_scenesStackData() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___scenesStackData;
+}
+constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass51_0::__cordl_internal_set_scenesStackData(::GlobalNamespace::GameScenesManager_ScenesStackData* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___scenesStackData = value;
+}
 constexpr ::System::Action_1<::Zenject::DiContainer*>*& GlobalNamespace::GameScenesManager___c__DisplayClass51_0::__cordl_internal_get_finishCallback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___finishCallback;
@@ -974,32 +837,48 @@ constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass51_0::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___finishCallback = value;
 }
-constexpr ::ArrayW<::StringW>& GlobalNamespace::GameScenesManager___c__DisplayClass51_0::__cordl_internal_get_sceneNamesToRemove() {
+constexpr ::System::Action_1<::Zenject::DiContainer*>*& GlobalNamespace::GameScenesManager___c__DisplayClass51_0::__cordl_internal_get___9__1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___sceneNamesToRemove;
+  return this->_____9__1;
 }
-constexpr ::ArrayW<::StringW> const& GlobalNamespace::GameScenesManager___c__DisplayClass51_0::__cordl_internal_get_sceneNamesToRemove() const {
+constexpr ::System::Action_1<::Zenject::DiContainer*>* const& GlobalNamespace::GameScenesManager___c__DisplayClass51_0::__cordl_internal_get___9__1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___sceneNamesToRemove;
+  return this->_____9__1;
 }
-constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass51_0::__cordl_internal_set_sceneNamesToRemove(::ArrayW<::StringW> value) {
+constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass51_0::__cordl_internal_set___9__1(::System::Action_1<::Zenject::DiContainer*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___sceneNamesToRemove = value;
+  this->_____9__1 = value;
+}
+constexpr ::System::Action_1<::Zenject::DiContainer*>*& GlobalNamespace::GameScenesManager___c__DisplayClass51_0::__cordl_internal_get___9__2() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____9__2;
+}
+constexpr ::System::Action_1<::Zenject::DiContainer*>* const& GlobalNamespace::GameScenesManager___c__DisplayClass51_0::__cordl_internal_get___9__2() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____9__2;
+}
+constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass51_0::__cordl_internal_set___9__2(::System::Action_1<::Zenject::DiContainer*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____9__2 = value;
 }
 inline void GlobalNamespace::GameScenesManager___c__DisplayClass51_0::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass51_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::GameScenesManager___c__DisplayClass51_0::_RemoveScenes_b__0(::Zenject::DiContainer* container) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass51_0*>(), { "<RemoveScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+inline void GlobalNamespace::GameScenesManager___c__DisplayClass51_0::_ClearAndOpenScenes_b__0(::Zenject::DiContainer* emptySceneContainer) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass51_0*>(),
+                                                                                         { "<ClearAndOpenScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, emptySceneContainer);
+}
+inline void GlobalNamespace::GameScenesManager___c__DisplayClass51_0::_ClearAndOpenScenes_b__1(::Zenject::DiContainer* container) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass51_0*>(),
+                                                                                         { "<ClearAndOpenScenes>b__1", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container);
 }
-inline bool GlobalNamespace::GameScenesManager___c__DisplayClass51_0::_RemoveScenes_b__1(::StringW scene) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass51_0*>(), { "<RemoveScenes>b__1", {}, { ::i2c::type_of<::StringW>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, scene);
+inline void GlobalNamespace::GameScenesManager___c__DisplayClass51_0::_ClearAndOpenScenes_b__2(::Zenject::DiContainer* container) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass51_0*>(),
+                                                                                         { "<ClearAndOpenScenes>b__2", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container);
 }
 inline ::GlobalNamespace::GameScenesManager___c__DisplayClass51_0* GlobalNamespace::GameScenesManager___c__DisplayClass51_0::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameScenesManager___c__DisplayClass51_0*>());
@@ -1011,38 +890,54 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass52_0::*)()>(&::GlobalNamespace::GameScenesManager___c__DisplayClass52_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35aee00;
+  constexpr static std::size_t addrs = 0x35b1ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass52_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass52_0._ActivateScenes_b__0
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass52_0._AppendScenes_b__0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass52_0::*)(::Zenject::DiContainer*)>(
-    &::GlobalNamespace::GameScenesManager___c__DisplayClass52_0::_ActivateScenes_b__0)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x35b1278;
+    &::GlobalNamespace::GameScenesManager___c__DisplayClass52_0::_AppendScenes_b__0)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x35b4918;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass52_0*>(),
-                                                                                           { "<ActivateScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass52_0*>(), { "<AppendScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& GlobalNamespace::GameScenesManager___c__DisplayClass52_0::__cordl_internal_get___4__this() {
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass52_0._AppendScenes_b__1
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass52_0::*)(::Zenject::DiContainer*)>(
+    &::GlobalNamespace::GameScenesManager___c__DisplayClass52_0::_AppendScenes_b__1)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x35b4984;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass52_0*>(), { "<AppendScenes>b__1", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+    return ___internal_method;
+  }
+};
+constexpr ::GlobalNamespace::GameScenesManager_ScenesStackData*& GlobalNamespace::GameScenesManager___c__DisplayClass52_0::__cordl_internal_get_scenesStackData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
+  return this->___scenesStackData;
 }
-constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& GlobalNamespace::GameScenesManager___c__DisplayClass52_0::__cordl_internal_get___4__this() const {
+constexpr ::GlobalNamespace::GameScenesManager_ScenesStackData* const& GlobalNamespace::GameScenesManager___c__DisplayClass52_0::__cordl_internal_get_scenesStackData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
+  return this->___scenesStackData;
 }
-constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass52_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GameScenesManager> value) {
+constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass52_0::__cordl_internal_set_scenesStackData(::GlobalNamespace::GameScenesManager_ScenesStackData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____4__this = value;
+  this->___scenesStackData = value;
 }
 constexpr ::GlobalNamespace::ScenesTransitionSetupData*& GlobalNamespace::GameScenesManager___c__DisplayClass52_0::__cordl_internal_get_scenesTransitionSetupData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -1055,6 +950,18 @@ constexpr ::GlobalNamespace::ScenesTransitionSetupData* const& GlobalNamespace::
 constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass52_0::__cordl_internal_set_scenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___scenesTransitionSetupData = value;
+}
+constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& GlobalNamespace::GameScenesManager___c__DisplayClass52_0::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& GlobalNamespace::GameScenesManager___c__DisplayClass52_0::__cordl_internal_get___4__this() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass52_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GameScenesManager> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____4__this = value;
 }
 constexpr ::System::Action_1<::Zenject::DiContainer*>*& GlobalNamespace::GameScenesManager___c__DisplayClass52_0::__cordl_internal_get_finishCallback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -1072,10 +979,16 @@ inline void GlobalNamespace::GameScenesManager___c__DisplayClass52_0::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass52_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::GameScenesManager___c__DisplayClass52_0::_ActivateScenes_b__0(::Zenject::DiContainer* container) {
+inline void GlobalNamespace::GameScenesManager___c__DisplayClass52_0::_AppendScenes_b__0(::Zenject::DiContainer* container) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass52_0*>(), { "<ActivateScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass52_0*>(), { "<AppendScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container);
+}
+inline void GlobalNamespace::GameScenesManager___c__DisplayClass52_0::_AppendScenes_b__1(::Zenject::DiContainer* container) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass52_0*>(), { "<AppendScenes>b__1", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container);
 }
 inline ::GlobalNamespace::GameScenesManager___c__DisplayClass52_0* GlobalNamespace::GameScenesManager___c__DisplayClass52_0::New_ctor() {
@@ -1088,24 +1001,39 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass53_0::*)()>(&::GlobalNamespace::GameScenesManager___c__DisplayClass53_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35af05c;
+  constexpr static std::size_t addrs = 0x35b248c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass53_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass53_0._DeactivateScenes_b__0
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass53_0._RemoveScenes_b__0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass53_0::*)(::Zenject::DiContainer*)>(
-    &::GlobalNamespace::GameScenesManager___c__DisplayClass53_0::_DeactivateScenes_b__0)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x35b12ec;
+    &::GlobalNamespace::GameScenesManager___c__DisplayClass53_0::_RemoveScenes_b__0)> {
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x35b4a00;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass53_0*>(),
-                                                                                           { "<DeactivateScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass53_0*>(), { "<RemoveScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass53_0._RemoveScenes_b__1
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager___c__DisplayClass53_0::*)(::StringW)>(
+    &::GlobalNamespace::GameScenesManager___c__DisplayClass53_0::_RemoveScenes_b__1)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x35b4abc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass53_0*>(), { "<RemoveScenes>b__1", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
@@ -1121,18 +1049,6 @@ constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass53_0::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr ::GlobalNamespace::ScenesTransitionSetupData*& GlobalNamespace::GameScenesManager___c__DisplayClass53_0::__cordl_internal_get_scenesTransitionSetupData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___scenesTransitionSetupData;
-}
-constexpr ::GlobalNamespace::ScenesTransitionSetupData* const& GlobalNamespace::GameScenesManager___c__DisplayClass53_0::__cordl_internal_get_scenesTransitionSetupData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___scenesTransitionSetupData;
-}
-constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass53_0::__cordl_internal_set_scenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___scenesTransitionSetupData = value;
-}
 constexpr ::System::Action_1<::Zenject::DiContainer*>*& GlobalNamespace::GameScenesManager___c__DisplayClass53_0::__cordl_internal_get_finishCallback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___finishCallback;
@@ -1145,1069 +1061,1252 @@ constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass53_0::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___finishCallback = value;
 }
+constexpr ::ArrayW<::StringW>& GlobalNamespace::GameScenesManager___c__DisplayClass53_0::__cordl_internal_get_sceneNamesToRemove() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___sceneNamesToRemove;
+}
+constexpr ::ArrayW<::StringW> const& GlobalNamespace::GameScenesManager___c__DisplayClass53_0::__cordl_internal_get_sceneNamesToRemove() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___sceneNamesToRemove;
+}
+constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass53_0::__cordl_internal_set_sceneNamesToRemove(::ArrayW<::StringW> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___sceneNamesToRemove = value;
+}
 inline void GlobalNamespace::GameScenesManager___c__DisplayClass53_0::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass53_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::GameScenesManager___c__DisplayClass53_0::_DeactivateScenes_b__0(::Zenject::DiContainer* container) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass53_0*>(),
-                                                                                         { "<DeactivateScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+inline void GlobalNamespace::GameScenesManager___c__DisplayClass53_0::_RemoveScenes_b__0(::Zenject::DiContainer* container) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass53_0*>(), { "<RemoveScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container);
+}
+inline bool GlobalNamespace::GameScenesManager___c__DisplayClass53_0::_RemoveScenes_b__1(::StringW scene) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass53_0*>(), { "<RemoveScenes>b__1", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, scene);
 }
 inline ::GlobalNamespace::GameScenesManager___c__DisplayClass53_0* GlobalNamespace::GameScenesManager___c__DisplayClass53_0::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameScenesManager___c__DisplayClass53_0*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameScenesManager___c__DisplayClass53_0::GameScenesManager___c__DisplayClass53_0() {}
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass61_0._ctor
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass54_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass61_0::*)()>(&::GlobalNamespace::GameScenesManager___c__DisplayClass61_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass54_0::*)()>(&::GlobalNamespace::GameScenesManager___c__DisplayClass54_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35b1360;
+  constexpr static std::size_t addrs = 0x35b26f0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass61_0*>(), { ".ctor", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass54_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass61_0._WaitUntilTaskCompleted_b__0
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass54_0._ActivateScenes_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager___c__DisplayClass61_0::*)()>(
-    &::GlobalNamespace::GameScenesManager___c__DisplayClass61_0::_WaitUntilTaskCompleted_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass54_0::*)(::Zenject::DiContainer*)>(
+    &::GlobalNamespace::GameScenesManager___c__DisplayClass54_0::_ActivateScenes_b__0)> {
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x35b4b24;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass54_0*>(),
+                                                                                           { "<ActivateScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& GlobalNamespace::GameScenesManager___c__DisplayClass54_0::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& GlobalNamespace::GameScenesManager___c__DisplayClass54_0::__cordl_internal_get___4__this() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass54_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GameScenesManager> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____4__this = value;
+}
+constexpr ::GlobalNamespace::ScenesTransitionSetupData*& GlobalNamespace::GameScenesManager___c__DisplayClass54_0::__cordl_internal_get_scenesTransitionSetupData() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___scenesTransitionSetupData;
+}
+constexpr ::GlobalNamespace::ScenesTransitionSetupData* const& GlobalNamespace::GameScenesManager___c__DisplayClass54_0::__cordl_internal_get_scenesTransitionSetupData() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___scenesTransitionSetupData;
+}
+constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass54_0::__cordl_internal_set_scenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupData* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___scenesTransitionSetupData = value;
+}
+constexpr ::System::Action_1<::Zenject::DiContainer*>*& GlobalNamespace::GameScenesManager___c__DisplayClass54_0::__cordl_internal_get_finishCallback() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___finishCallback;
+}
+constexpr ::System::Action_1<::Zenject::DiContainer*>* const& GlobalNamespace::GameScenesManager___c__DisplayClass54_0::__cordl_internal_get_finishCallback() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___finishCallback;
+}
+constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass54_0::__cordl_internal_set_finishCallback(::System::Action_1<::Zenject::DiContainer*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___finishCallback = value;
+}
+inline void GlobalNamespace::GameScenesManager___c__DisplayClass54_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass54_0*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void GlobalNamespace::GameScenesManager___c__DisplayClass54_0::_ActivateScenes_b__0(::Zenject::DiContainer* container) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass54_0*>(), { "<ActivateScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container);
+}
+inline ::GlobalNamespace::GameScenesManager___c__DisplayClass54_0* GlobalNamespace::GameScenesManager___c__DisplayClass54_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameScenesManager___c__DisplayClass54_0*>());
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::GameScenesManager___c__DisplayClass54_0::GameScenesManager___c__DisplayClass54_0() {}
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass55_0._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass55_0::*)()>(&::GlobalNamespace::GameScenesManager___c__DisplayClass55_0::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x35b2954;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass55_0*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass55_0._DeactivateScenes_b__0
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass55_0::*)(::Zenject::DiContainer*)>(
+    &::GlobalNamespace::GameScenesManager___c__DisplayClass55_0::_DeactivateScenes_b__0)> {
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x35b4b98;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass55_0*>(),
+                                                                                           { "<DeactivateScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& GlobalNamespace::GameScenesManager___c__DisplayClass55_0::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& GlobalNamespace::GameScenesManager___c__DisplayClass55_0::__cordl_internal_get___4__this() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass55_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GameScenesManager> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____4__this = value;
+}
+constexpr ::GlobalNamespace::ScenesTransitionSetupData*& GlobalNamespace::GameScenesManager___c__DisplayClass55_0::__cordl_internal_get_scenesTransitionSetupData() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___scenesTransitionSetupData;
+}
+constexpr ::GlobalNamespace::ScenesTransitionSetupData* const& GlobalNamespace::GameScenesManager___c__DisplayClass55_0::__cordl_internal_get_scenesTransitionSetupData() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___scenesTransitionSetupData;
+}
+constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass55_0::__cordl_internal_set_scenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupData* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___scenesTransitionSetupData = value;
+}
+constexpr ::System::Action_1<::Zenject::DiContainer*>*& GlobalNamespace::GameScenesManager___c__DisplayClass55_0::__cordl_internal_get_finishCallback() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___finishCallback;
+}
+constexpr ::System::Action_1<::Zenject::DiContainer*>* const& GlobalNamespace::GameScenesManager___c__DisplayClass55_0::__cordl_internal_get_finishCallback() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___finishCallback;
+}
+constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass55_0::__cordl_internal_set_finishCallback(::System::Action_1<::Zenject::DiContainer*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___finishCallback = value;
+}
+inline void GlobalNamespace::GameScenesManager___c__DisplayClass55_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass55_0*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void GlobalNamespace::GameScenesManager___c__DisplayClass55_0::_DeactivateScenes_b__0(::Zenject::DiContainer* container) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass55_0*>(),
+                                                                                         { "<DeactivateScenes>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container);
+}
+inline ::GlobalNamespace::GameScenesManager___c__DisplayClass55_0* GlobalNamespace::GameScenesManager___c__DisplayClass55_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameScenesManager___c__DisplayClass55_0*>());
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::GameScenesManager___c__DisplayClass55_0::GameScenesManager___c__DisplayClass55_0() {}
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass63_0._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass63_0::*)()>(&::GlobalNamespace::GameScenesManager___c__DisplayClass63_0::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x35b4c0c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass63_0*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager___c__DisplayClass63_0._WaitUntilTaskCompleted_b__0
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager___c__DisplayClass63_0::*)()>(
+    &::GlobalNamespace::GameScenesManager___c__DisplayClass63_0::_WaitUntilTaskCompleted_b__0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x35b1364;
+  constexpr static std::size_t addrs = 0x35b4c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass61_0*>(), { "<WaitUntilTaskCompleted>b__0", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass63_0*>(), { "<WaitUntilTaskCompleted>b__0", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::System::Threading::Tasks::Task*& GlobalNamespace::GameScenesManager___c__DisplayClass61_0::__cordl_internal_get_task() {
+constexpr ::System::Threading::Tasks::Task*& GlobalNamespace::GameScenesManager___c__DisplayClass63_0::__cordl_internal_get_task() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___task;
 }
-constexpr ::System::Threading::Tasks::Task* const& GlobalNamespace::GameScenesManager___c__DisplayClass61_0::__cordl_internal_get_task() const {
+constexpr ::System::Threading::Tasks::Task* const& GlobalNamespace::GameScenesManager___c__DisplayClass63_0::__cordl_internal_get_task() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___task;
 }
-constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass61_0::__cordl_internal_set_task(::System::Threading::Tasks::Task* value) {
+constexpr void GlobalNamespace::GameScenesManager___c__DisplayClass63_0::__cordl_internal_set_task(::System::Threading::Tasks::Task* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___task = value;
 }
-inline void GlobalNamespace::GameScenesManager___c__DisplayClass61_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass61_0*>(), { ".ctor", {}, {} })));
+inline void GlobalNamespace::GameScenesManager___c__DisplayClass63_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass63_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool GlobalNamespace::GameScenesManager___c__DisplayClass61_0::_WaitUntilTaskCompleted_b__0() {
+inline bool GlobalNamespace::GameScenesManager___c__DisplayClass63_0::_WaitUntilTaskCompleted_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass61_0*>(), { "<WaitUntilTaskCompleted>b__0", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass63_0*>(), { "<WaitUntilTaskCompleted>b__0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::GlobalNamespace::GameScenesManager___c__DisplayClass61_0* GlobalNamespace::GameScenesManager___c__DisplayClass61_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameScenesManager___c__DisplayClass61_0*>());
+inline ::GlobalNamespace::GameScenesManager___c__DisplayClass63_0* GlobalNamespace::GameScenesManager___c__DisplayClass63_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameScenesManager___c__DisplayClass63_0*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::GameScenesManager___c__DisplayClass61_0::GameScenesManager___c__DisplayClass61_0() {}
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__LoadOneScene_d__56._ctor
+constexpr ::GlobalNamespace::GameScenesManager___c__DisplayClass63_0::GameScenesManager___c__DisplayClass63_0() {}
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__LoadOneScene_d__58._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__LoadOneScene_d__56::*)(int32_t)>(&::GlobalNamespace::GameScenesManager__LoadOneScene_d__56::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__LoadOneScene_d__58::*)(int32_t)>(&::GlobalNamespace::GameScenesManager__LoadOneScene_d__58::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35af060;
+  constexpr static std::size_t addrs = 0x35b2958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__LoadOneScene_d__56*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__LoadOneScene_d__58*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__LoadOneScene_d__56.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__LoadOneScene_d__58.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__LoadOneScene_d__56::*)()>(
-    &::GlobalNamespace::GameScenesManager__LoadOneScene_d__56::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__LoadOneScene_d__58::*)()>(
+    &::GlobalNamespace::GameScenesManager__LoadOneScene_d__58::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35b137c;
+  constexpr static std::size_t addrs = 0x35b4c28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__LoadOneScene_d__56*>(), { "System.IDisposable.Dispose", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__LoadOneScene_d__58*>(), { "System.IDisposable.Dispose", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__LoadOneScene_d__56.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__LoadOneScene_d__58.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager__LoadOneScene_d__56::*)()>(&::GlobalNamespace::GameScenesManager__LoadOneScene_d__56::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager__LoadOneScene_d__58::*)()>(&::GlobalNamespace::GameScenesManager__LoadOneScene_d__58::MoveNext)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x35b1380;
+  constexpr static std::size_t addrs = 0x35b4c2c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__LoadOneScene_d__56*>(), { "MoveNext", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__LoadOneScene_d__58*>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__LoadOneScene_d__56.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__LoadOneScene_d__58.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::GameScenesManager__LoadOneScene_d__56::*)()>(
-    &::GlobalNamespace::GameScenesManager__LoadOneScene_d__56::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::GameScenesManager__LoadOneScene_d__58::*)()>(
+    &::GlobalNamespace::GameScenesManager__LoadOneScene_d__58::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35b14b4;
+  constexpr static std::size_t addrs = 0x35b4d60;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__LoadOneScene_d__56*>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__LoadOneScene_d__58*>(),
                                                                                            { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__LoadOneScene_d__56.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__LoadOneScene_d__58.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__LoadOneScene_d__56::*)()>(
-    &::GlobalNamespace::GameScenesManager__LoadOneScene_d__56::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__LoadOneScene_d__58::*)()>(
+    &::GlobalNamespace::GameScenesManager__LoadOneScene_d__58::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x35b14bc;
+  constexpr static std::size_t addrs = 0x35b4d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__LoadOneScene_d__56*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__LoadOneScene_d__58*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__LoadOneScene_d__56.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__LoadOneScene_d__58.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::GameScenesManager__LoadOneScene_d__56::*)()>(
-    &::GlobalNamespace::GameScenesManager__LoadOneScene_d__56::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::GameScenesManager__LoadOneScene_d__58::*)()>(
+    &::GlobalNamespace::GameScenesManager__LoadOneScene_d__58::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35b14f4;
+  constexpr static std::size_t addrs = 0x35b4da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__LoadOneScene_d__56*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__LoadOneScene_d__58*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::GameScenesManager__LoadOneScene_d__56::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::GameScenesManager__LoadOneScene_d__58::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::GameScenesManager__LoadOneScene_d__56::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::GameScenesManager__LoadOneScene_d__58::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::GameScenesManager__LoadOneScene_d__56::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::GameScenesManager__LoadOneScene_d__58::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::GameScenesManager__LoadOneScene_d__56::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::GameScenesManager__LoadOneScene_d__58::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::System::Object* const& GlobalNamespace::GameScenesManager__LoadOneScene_d__56::__cordl_internal_get___2__current() const {
+constexpr ::System::Object* const& GlobalNamespace::GameScenesManager__LoadOneScene_d__58::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::GameScenesManager__LoadOneScene_d__56::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::GameScenesManager__LoadOneScene_d__58::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
-constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& GlobalNamespace::GameScenesManager__LoadOneScene_d__56::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& GlobalNamespace::GameScenesManager__LoadOneScene_d__58::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& GlobalNamespace::GameScenesManager__LoadOneScene_d__56::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& GlobalNamespace::GameScenesManager__LoadOneScene_d__58::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::GameScenesManager__LoadOneScene_d__56::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GameScenesManager> value) {
+constexpr void GlobalNamespace::GameScenesManager__LoadOneScene_d__58::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GameScenesManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr ::StringW& GlobalNamespace::GameScenesManager__LoadOneScene_d__56::__cordl_internal_get_sceneName() {
+constexpr ::StringW& GlobalNamespace::GameScenesManager__LoadOneScene_d__58::__cordl_internal_get_sceneName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sceneName;
 }
-constexpr ::StringW const& GlobalNamespace::GameScenesManager__LoadOneScene_d__56::__cordl_internal_get_sceneName() const {
+constexpr ::StringW const& GlobalNamespace::GameScenesManager__LoadOneScene_d__58::__cordl_internal_get_sceneName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sceneName;
 }
-constexpr void GlobalNamespace::GameScenesManager__LoadOneScene_d__56::__cordl_internal_set_sceneName(::StringW value) {
+constexpr void GlobalNamespace::GameScenesManager__LoadOneScene_d__58::__cordl_internal_set_sceneName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sceneName = value;
 }
-inline void GlobalNamespace::GameScenesManager__LoadOneScene_d__56::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::GameScenesManager__LoadOneScene_d__58::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__LoadOneScene_d__56*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__LoadOneScene_d__58*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::GameScenesManager__LoadOneScene_d__56::System_IDisposable_Dispose() {
+inline void GlobalNamespace::GameScenesManager__LoadOneScene_d__58::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__LoadOneScene_d__56*>(), { "System.IDisposable.Dispose", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__LoadOneScene_d__58*>(), { "System.IDisposable.Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool GlobalNamespace::GameScenesManager__LoadOneScene_d__56::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__LoadOneScene_d__56*>(), { "MoveNext", {}, {} })));
+inline bool GlobalNamespace::GameScenesManager__LoadOneScene_d__58::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__LoadOneScene_d__58*>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::GameScenesManager__LoadOneScene_d__56::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+inline ::System::Object* GlobalNamespace::GameScenesManager__LoadOneScene_d__58::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__LoadOneScene_d__56*>(), { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__LoadOneScene_d__58*>(), { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline void GlobalNamespace::GameScenesManager__LoadOneScene_d__56::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::GameScenesManager__LoadOneScene_d__58::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__LoadOneScene_d__56*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__LoadOneScene_d__58*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::GameScenesManager__LoadOneScene_d__56::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::GameScenesManager__LoadOneScene_d__58::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__LoadOneScene_d__56*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__LoadOneScene_d__58*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
 /// @brief [DebuggerHidden]
-inline ::GlobalNamespace::GameScenesManager__LoadOneScene_d__56* GlobalNamespace::GameScenesManager__LoadOneScene_d__56::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameScenesManager__LoadOneScene_d__56*>(__1__state));
+inline ::GlobalNamespace::GameScenesManager__LoadOneScene_d__58* GlobalNamespace::GameScenesManager__LoadOneScene_d__58::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameScenesManager__LoadOneScene_d__58*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::GameScenesManager__LoadOneScene_d__56::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr GlobalNamespace::GameScenesManager__LoadOneScene_d__58::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::GameScenesManager__LoadOneScene_d__56::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+GlobalNamespace::GameScenesManager__LoadOneScene_d__58::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::GameScenesManager__LoadOneScene_d__56::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::GameScenesManager__LoadOneScene_d__58::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::GameScenesManager__LoadOneScene_d__56::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::GameScenesManager__LoadOneScene_d__58::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::GameScenesManager__LoadOneScene_d__56::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::GameScenesManager__LoadOneScene_d__58::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::GameScenesManager__LoadOneScene_d__56::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::GameScenesManager__LoadOneScene_d__58::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::GameScenesManager__LoadOneScene_d__56::GameScenesManager__LoadOneScene_d__56() {}
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58._ctor
+constexpr ::GlobalNamespace::GameScenesManager__LoadOneScene_d__58::GameScenesManager__LoadOneScene_d__58() {}
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::*)(int32_t)>(
-    &::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::*)(int32_t)>(
+    &::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35af070;
+  constexpr static std::size_t addrs = 0x35b2968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::*)()>(
-    &::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::*)()>(
+    &::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x35b14fc;
+  constexpr static std::size_t addrs = 0x35b4da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58*>(), { "System.IDisposable.Dispose", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60*>(), { "System.IDisposable.Dispose", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::*)()>(
-    &::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::MoveNext)> {
-  constexpr static std::size_t size = 0x195c;
-  constexpr static std::size_t addrs = 0x35b153c;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::*)()>(
+    &::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::MoveNext)> {
+  constexpr static std::size_t size = 0x1a2c;
+  constexpr static std::size_t addrs = 0x35b4de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58*>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60*>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58.__m__Finally1
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60.__m__Finally1
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::*)()>(
-    &::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__m__Finally1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::*)()>(
+    &::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__m__Finally1)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x35b2e98;
+  constexpr static std::size_t addrs = 0x35b6814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58*>(), { "<>m__Finally1", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60*>(), { "<>m__Finally1", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58.__m__Finally2
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60.__m__Finally2
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::*)()>(
-    &::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__m__Finally2)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::*)()>(
+    &::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__m__Finally2)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x35b2f4c;
+  constexpr static std::size_t addrs = 0x35b68c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58*>(), { "<>m__Finally2", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60*>(), { "<>m__Finally2", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::*)()>(
-    &::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::*)()>(
+    &::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35b3000;
+  constexpr static std::size_t addrs = 0x35b697c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58*>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60*>(),
                                                                                            { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::*)()>(
-    &::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::*)()>(
+    &::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x35b3008;
+  constexpr static std::size_t addrs = 0x35b6984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::*)()>(
-    &::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::*)()>(
+    &::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35b3040;
+  constexpr static std::size_t addrs = 0x35b69bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::System::Object* const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get___2__current() const {
+constexpr ::System::Object* const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
-constexpr ::System::Collections::Generic::IReadOnlyList_1<::StringW>*& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get_scenesToDismiss() {
+constexpr ::System::Collections::Generic::IReadOnlyList_1<::StringW>*& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get_scenesToDismiss() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scenesToDismiss;
 }
-constexpr ::System::Collections::Generic::IReadOnlyList_1<::StringW>* const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get_scenesToDismiss() const {
+constexpr ::System::Collections::Generic::IReadOnlyList_1<::StringW>* const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get_scenesToDismiss() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scenesToDismiss;
 }
-constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_set_scenesToDismiss(::System::Collections::Generic::IReadOnlyList_1<::StringW>* value) {
+constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_set_scenesToDismiss(::System::Collections::Generic::IReadOnlyList_1<::StringW>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___scenesToDismiss = value;
 }
-constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GameScenesManager> value) {
+constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GameScenesManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr ::System::Collections::Generic::IReadOnlyList_1<::StringW>*& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get_scenesToPresent() {
+constexpr ::System::Collections::Generic::IReadOnlyList_1<::StringW>*& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get_scenesToPresent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scenesToPresent;
 }
-constexpr ::System::Collections::Generic::IReadOnlyList_1<::StringW>* const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get_scenesToPresent() const {
+constexpr ::System::Collections::Generic::IReadOnlyList_1<::StringW>* const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get_scenesToPresent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scenesToPresent;
 }
-constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_set_scenesToPresent(::System::Collections::Generic::IReadOnlyList_1<::StringW>* value) {
+constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_set_scenesToPresent(::System::Collections::Generic::IReadOnlyList_1<::StringW>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___scenesToPresent = value;
 }
-constexpr float_t& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get_minDuration() {
+constexpr float_t& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get_minDuration() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minDuration;
 }
-constexpr float_t const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get_minDuration() const {
+constexpr float_t const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get_minDuration() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minDuration;
 }
-constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_set_minDuration(float_t value) {
+constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_set_minDuration(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___minDuration = value;
 }
-constexpr ::GlobalNamespace::GameScenesManager_ScenePresentType& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get_presentType() {
+constexpr ::GlobalNamespace::GameScenesManager_ScenePresentType& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get_presentType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___presentType;
 }
-constexpr ::GlobalNamespace::GameScenesManager_ScenePresentType const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get_presentType() const {
+constexpr ::GlobalNamespace::GameScenesManager_ScenePresentType const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get_presentType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___presentType;
 }
-constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_set_presentType(::GlobalNamespace::GameScenesManager_ScenePresentType value) {
+constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_set_presentType(::GlobalNamespace::GameScenesManager_ScenePresentType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___presentType = value;
 }
-constexpr ::System::Action*& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get_afterMinDurationCallback() {
+constexpr ::System::Action*& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get_afterMinDurationCallback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___afterMinDurationCallback;
 }
-constexpr ::System::Action* const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get_afterMinDurationCallback() const {
+constexpr ::System::Action* const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get_afterMinDurationCallback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___afterMinDurationCallback;
 }
-constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_set_afterMinDurationCallback(::System::Action* value) {
+constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_set_afterMinDurationCallback(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___afterMinDurationCallback = value;
 }
-constexpr ::GlobalNamespace::ScenesTransitionSetupData*& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get_newScenesTransitionSetupData() {
+constexpr ::GlobalNamespace::ScenesTransitionSetupData*& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get_newScenesTransitionSetupData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newScenesTransitionSetupData;
 }
-constexpr ::GlobalNamespace::ScenesTransitionSetupData* const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get_newScenesTransitionSetupData() const {
+constexpr ::GlobalNamespace::ScenesTransitionSetupData* const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get_newScenesTransitionSetupData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newScenesTransitionSetupData;
 }
-constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_set_newScenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupData* value) {
+constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_set_newScenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___newScenesTransitionSetupData = value;
 }
-constexpr ::System::Action_1<::Zenject::DiContainer*>*& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get_extraBindingsCallback() {
+constexpr ::System::Action_1<::Zenject::DiContainer*>*& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get_extraBindingsCallback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extraBindingsCallback;
 }
-constexpr ::System::Action_1<::Zenject::DiContainer*>* const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get_extraBindingsCallback() const {
+constexpr ::System::Action_1<::Zenject::DiContainer*>* const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get_extraBindingsCallback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extraBindingsCallback;
 }
-constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_set_extraBindingsCallback(::System::Action_1<::Zenject::DiContainer*>* value) {
+constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_set_extraBindingsCallback(::System::Action_1<::Zenject::DiContainer*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___extraBindingsCallback = value;
 }
-constexpr ::GlobalNamespace::GameScenesManager_SceneDismissType& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get_dismissType() {
+constexpr ::GlobalNamespace::GameScenesManager_SceneDismissType& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get_dismissType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dismissType;
 }
-constexpr ::GlobalNamespace::GameScenesManager_SceneDismissType const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get_dismissType() const {
+constexpr ::GlobalNamespace::GameScenesManager_SceneDismissType const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get_dismissType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dismissType;
 }
-constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_set_dismissType(::GlobalNamespace::GameScenesManager_SceneDismissType value) {
+constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_set_dismissType(::GlobalNamespace::GameScenesManager_SceneDismissType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___dismissType = value;
 }
-constexpr bool& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get_canTriggerGarbageCollector() {
+constexpr bool& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get_canTriggerGarbageCollector() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___canTriggerGarbageCollector;
 }
-constexpr bool const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get_canTriggerGarbageCollector() const {
+constexpr bool const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get_canTriggerGarbageCollector() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___canTriggerGarbageCollector;
 }
-constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_set_canTriggerGarbageCollector(bool value) {
+constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_set_canTriggerGarbageCollector(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___canTriggerGarbageCollector = value;
 }
-constexpr ::System::Action_1<::Zenject::DiContainer*>*& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get_finishCallback() {
+constexpr bool& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get_shouldReclaimMemory() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___shouldReclaimMemory;
+}
+constexpr bool const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get_shouldReclaimMemory() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___shouldReclaimMemory;
+}
+constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_set_shouldReclaimMemory(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___shouldReclaimMemory = value;
+}
+constexpr ::System::Action_1<::Zenject::DiContainer*>*& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get_finishCallback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___finishCallback;
 }
-constexpr ::System::Action_1<::Zenject::DiContainer*>* const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get_finishCallback() const {
+constexpr ::System::Action_1<::Zenject::DiContainer*>* const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get_finishCallback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___finishCallback;
 }
-constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_set_finishCallback(::System::Action_1<::Zenject::DiContainer*>* value) {
+constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_set_finishCallback(::System::Action_1<::Zenject::DiContainer*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___finishCallback = value;
 }
 constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::EventSystem>>*&
-GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get__allEventSystems_5__2() {
+GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get__allEventSystems_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allEventSystems_5__2;
 }
 constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::EventSystem>>* const&
-GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get__allEventSystems_5__2() const {
+GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get__allEventSystems_5__2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allEventSystems_5__2;
 }
-constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_set__allEventSystems_5__2(
+constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_set__allEventSystems_5__2(
     ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::EventSystem>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____allEventSystems_5__2 = value;
 }
-constexpr ::StringW& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get__sceneName_5__3() {
+constexpr ::StringW& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get__sceneName_5__3() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneName_5__3;
 }
-constexpr ::StringW const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get__sceneName_5__3() const {
+constexpr ::StringW const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get__sceneName_5__3() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneName_5__3;
 }
-constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_set__sceneName_5__3(::StringW value) {
+constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_set__sceneName_5__3(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sceneName_5__3 = value;
 }
-constexpr bool& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get__shouldLoad_5__4() {
+constexpr bool& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get__shouldLoad_5__4() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shouldLoad_5__4;
 }
-constexpr bool const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get__shouldLoad_5__4() const {
+constexpr bool const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get__shouldLoad_5__4() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shouldLoad_5__4;
 }
-constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_set__shouldLoad_5__4(bool value) {
+constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_set__shouldLoad_5__4(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____shouldLoad_5__4 = value;
 }
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>&
-GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get__loadSceneOperationHandle_5__5() {
+GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get__loadSceneOperationHandle_5__5() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____loadSceneOperationHandle_5__5;
 }
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> const&
-GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get__loadSceneOperationHandle_5__5() const {
+GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get__loadSceneOperationHandle_5__5() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____loadSceneOperationHandle_5__5;
 }
-constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_set__loadSceneOperationHandle_5__5(
+constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_set__loadSceneOperationHandle_5__5(
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____loadSceneOperationHandle_5__5 = value;
 }
-constexpr int32_t& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get__sceneNum_5__6() {
+constexpr int32_t& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get__sceneNum_5__6() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneNum_5__6;
 }
-constexpr int32_t const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get__sceneNum_5__6() const {
+constexpr int32_t const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get__sceneNum_5__6() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneNum_5__6;
 }
-constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_set__sceneNum_5__6(int32_t value) {
+constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_set__sceneNum_5__6(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sceneNum_5__6 = value;
 }
-constexpr ::System::Collections::Generic::IEnumerator_1<::StringW>*& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get___7__wrap6() {
+constexpr ::System::Collections::Generic::IEnumerator_1<::StringW>*& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get___7__wrap6() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap6;
 }
-constexpr ::System::Collections::Generic::IEnumerator_1<::StringW>* const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_get___7__wrap6() const {
+constexpr ::System::Collections::Generic::IEnumerator_1<::StringW>* const& GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_get___7__wrap6() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap6;
 }
-constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__cordl_internal_set___7__wrap6(::System::Collections::Generic::IEnumerator_1<::StringW>* value) {
+constexpr void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__cordl_internal_set___7__wrap6(::System::Collections::Generic::IEnumerator_1<::StringW>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____7__wrap6 = value;
 }
-inline void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::System_IDisposable_Dispose() {
+inline void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58*>(), { "System.IDisposable.Dispose", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60*>(), { "System.IDisposable.Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::MoveNext() {
+inline bool GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58*>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60*>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__m__Finally1() {
+inline void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__m__Finally1() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58*>(), { "<>m__Finally1", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60*>(), { "<>m__Finally1", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::__m__Finally2() {
+inline void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::__m__Finally2() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58*>(), { "<>m__Finally2", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60*>(), { "<>m__Finally2", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58*>(),
+inline ::System::Object* GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60*>(),
                                                                                          { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
 /// @brief [DebuggerHidden]
-inline ::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58* GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58*>(__1__state));
+inline ::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60* GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__58::GameScenesManager__ScenesTransitionCoroutine_d__58() {}
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57._ctor
+constexpr ::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__60::GameScenesManager__ScenesTransitionCoroutine_d__60() {}
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::*)(int32_t)>(
-    &::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::*)(int32_t)>(
+    &::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35af068;
+  constexpr static std::size_t addrs = 0x35b2960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::*)()>(
-    &::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::*)()>(
+    &::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35b3048;
+  constexpr static std::size_t addrs = 0x35b69c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57*>(), { "System.IDisposable.Dispose", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59*>(), { "System.IDisposable.Dispose", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::*)()>(&::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::*)()>(&::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::MoveNext)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x35b304c;
+  constexpr static std::size_t addrs = 0x35b69c8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57*>(), { "MoveNext", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59*>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::*)()>(
-    &::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::*)()>(
+    &::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35b3178;
+  constexpr static std::size_t addrs = 0x35b6af4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57*>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59*>(),
                                                                                            { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::*)()>(
-    &::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::*)()>(
+    &::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x35b3180;
+  constexpr static std::size_t addrs = 0x35b6afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::*)()>(
-    &::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::*)()>(
+    &::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35b31b8;
+  constexpr static std::size_t addrs = 0x35b6b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::System::Object* const& GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::__cordl_internal_get___2__current() const {
+constexpr ::System::Object* const& GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
-constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GameScenesManager> value) {
+constexpr void GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GameScenesManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr ::StringW& GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::__cordl_internal_get_sceneName() {
+constexpr ::StringW& GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::__cordl_internal_get_sceneName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sceneName;
 }
-constexpr ::StringW const& GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::__cordl_internal_get_sceneName() const {
+constexpr ::StringW const& GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::__cordl_internal_get_sceneName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sceneName;
 }
-constexpr void GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::__cordl_internal_set_sceneName(::StringW value) {
+constexpr void GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::__cordl_internal_set_sceneName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sceneName = value;
 }
-inline void GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::System_IDisposable_Dispose() {
+inline void GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57*>(), { "System.IDisposable.Dispose", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59*>(), { "System.IDisposable.Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57*>(), { "MoveNext", {}, {} })));
+inline bool GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59*>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57*>(),
+inline ::System::Object* GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59*>(),
                                                                                          { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline void GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
 /// @brief [DebuggerHidden]
-inline ::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57* GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57*>(__1__state));
+inline ::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59* GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::GameScenesManager__UnloadOneScene_d__57::GameScenesManager__UnloadOneScene_d__57() {}
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61._ctor
+constexpr ::GlobalNamespace::GameScenesManager__UnloadOneScene_d__59::GameScenesManager__UnloadOneScene_d__59() {}
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::*)(int32_t)>(
-    &::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::*)(int32_t)>(
+    &::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35af3dc;
+  constexpr static std::size_t addrs = 0x35b2cd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::*)()>(
-    &::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::*)()>(
+    &::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35b31c0;
+  constexpr static std::size_t addrs = 0x35b6b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61*>(), { "System.IDisposable.Dispose", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63*>(), { "System.IDisposable.Dispose", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::*)()>(
-    &::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::*)()>(
+    &::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::MoveNext)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x35b31c4;
+  constexpr static std::size_t addrs = 0x35b6b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61*>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63*>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::*)()>(
-    &::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::*)()>(
+    &::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35b343c;
+  constexpr static std::size_t addrs = 0x35b6db8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61*>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63*>(),
                                                                                            { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::*)()>(
-    &::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::*)()>(
+    &::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x35b3444;
+  constexpr static std::size_t addrs = 0x35b6dc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::*)()>(
-    &::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::*)()>(
+    &::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35b347c;
+  constexpr static std::size_t addrs = 0x35b6df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::System::Object* const& GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::__cordl_internal_get___2__current() const {
+constexpr ::System::Object* const& GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
-constexpr ::System::Threading::Tasks::Task*& GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::__cordl_internal_get_task() {
+constexpr ::System::Threading::Tasks::Task*& GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::__cordl_internal_get_task() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___task;
 }
-constexpr ::System::Threading::Tasks::Task* const& GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::__cordl_internal_get_task() const {
+constexpr ::System::Threading::Tasks::Task* const& GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::__cordl_internal_get_task() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___task;
 }
-constexpr void GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::__cordl_internal_set_task(::System::Threading::Tasks::Task* value) {
+constexpr void GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::__cordl_internal_set_task(::System::Threading::Tasks::Task* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___task = value;
 }
-constexpr ::GlobalNamespace::GameScenesManager___c__DisplayClass61_0*& GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::__cordl_internal_get___8__1() {
+constexpr ::GlobalNamespace::GameScenesManager___c__DisplayClass63_0*& GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::__cordl_internal_get___8__1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____8__1;
 }
-constexpr ::GlobalNamespace::GameScenesManager___c__DisplayClass61_0* const& GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::__cordl_internal_get___8__1() const {
+constexpr ::GlobalNamespace::GameScenesManager___c__DisplayClass63_0* const& GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::__cordl_internal_get___8__1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____8__1;
 }
-constexpr void GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::__cordl_internal_set___8__1(::GlobalNamespace::GameScenesManager___c__DisplayClass61_0* value) {
+constexpr void GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::__cordl_internal_set___8__1(::GlobalNamespace::GameScenesManager___c__DisplayClass63_0* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____8__1 = value;
 }
-inline void GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::System_IDisposable_Dispose() {
+inline void GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61*>(), { "System.IDisposable.Dispose", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63*>(), { "System.IDisposable.Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::MoveNext() {
+inline bool GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61*>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63*>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61*>(),
+inline ::System::Object* GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63*>(),
                                                                                          { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline void GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
 /// @brief [DebuggerHidden]
-inline ::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61* GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61*>(__1__state));
+inline ::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63* GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__61::GameScenesManager__WaitUntilTaskCompleted_d__61() {}
+constexpr ::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__63::GameScenesManager__WaitUntilTaskCompleted_d__63() {}
 //  Writing Method size for method: ::GlobalNamespace::GameScenesManager.add_transitionDidStartEvent
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::System::Action_2<::GlobalNamespace::GameScenesManager_SceneTransitionType, float_t>*)>(
     &::GlobalNamespace::GameScenesManager::add_transitionDidStartEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35abb1c;
+  constexpr static std::size_t addrs = 0x35aecdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2222,7 +2321,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::System::Action_2<::GlobalNamespace::GameScenesManager_SceneTransitionType, float_t>*)>(
     &::GlobalNamespace::GameScenesManager::remove_transitionDidStartEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35abbdc;
+  constexpr static std::size_t addrs = 0x35aed9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2238,7 +2337,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>*)>(
     &::GlobalNamespace::GameScenesManager::add_scenesWillBeDismissedAfterLoadEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35abc9c;
+  constexpr static std::size_t addrs = 0x35aee5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2254,7 +2353,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>*)>(
     &::GlobalNamespace::GameScenesManager::remove_scenesWillBeDismissedAfterLoadEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35abd5c;
+  constexpr static std::size_t addrs = 0x35aef1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2270,7 +2369,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>*)>(
     &::GlobalNamespace::GameScenesManager::add_beforeDismissingScenesEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35ab254;
+  constexpr static std::size_t addrs = 0x35ae414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2285,7 +2384,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>*)>(
     &::GlobalNamespace::GameScenesManager::remove_beforeDismissingScenesEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35aa6f4;
+  constexpr static std::size_t addrs = 0x35ad8b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2301,7 +2400,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_3<::GlobalNamespace::GameScenesManager_SceneTransitionType, ::GlobalNamespace::ScenesTransitionSetupData*, ::Zenject::DiContainer*>*)>(
     &::GlobalNamespace::GameScenesManager::add_transitionDidFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35abe1c;
+  constexpr static std::size_t addrs = 0x35aefdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2321,7 +2420,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_3<::GlobalNamespace::GameScenesManager_SceneTransitionType, ::GlobalNamespace::ScenesTransitionSetupData*, ::Zenject::DiContainer*>*)>(
     &::GlobalNamespace::GameScenesManager::remove_transitionDidFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35abedc;
+  constexpr static std::size_t addrs = 0x35af09c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2340,7 +2439,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::System::Action_2<::GlobalNamespace::ScenesTransitionSetupData*, ::Zenject::DiContainer*>*)>(
     &::GlobalNamespace::GameScenesManager::add_installEarlyBindingsEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35abf9c;
+  constexpr static std::size_t addrs = 0x35af15c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2356,7 +2455,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::System::Action_2<::GlobalNamespace::ScenesTransitionSetupData*, ::Zenject::DiContainer*>*)>(
     &::GlobalNamespace::GameScenesManager::remove_installEarlyBindingsEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35ac05c;
+  constexpr static std::size_t addrs = 0x35af21c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2371,7 +2470,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::DiContainer* (::GlobalNamespace::GameScenesManager::*)()>(&::GlobalNamespace::GameScenesManager::get_currentScenesContainer)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x35ac11c;
+  constexpr static std::size_t addrs = 0x35af2dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager*>(), { "get_currentScenesContainer", {}, {} })));
@@ -2383,7 +2482,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager::*)()>(&::GlobalNamespace::GameScenesManager::get_isInTransition)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x35aa8f0;
+  constexpr static std::size_t addrs = 0x35adab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager*>(), { "get_isInTransition", {}, {} })));
@@ -2395,7 +2494,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager::*)(::StringW)>(&::GlobalNamespace::GameScenesManager::IsSceneOnTop)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x35ac178;
+  constexpr static std::size_t addrs = 0x35af338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2409,7 +2508,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::GameScenesManager_SceneTransitionType (::GlobalNamespace::GameScenesManager::*)()>(
     &::GlobalNamespace::GameScenesManager::get_currentSceneTransitionType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35ac240;
+  constexpr static std::size_t addrs = 0x35af400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager*>(), { "get_currentSceneTransitionType", {}, {} })));
@@ -2422,7 +2521,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::WaitUntil* (::GlobalNamespace::GameScenesManager::*)()>(
     &::GlobalNamespace::GameScenesManager::get_waitUntilSceneTransitionFinish)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x35ac248;
+  constexpr static std::size_t addrs = 0x35af408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2437,7 +2536,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::StringW, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>* (
     ::GlobalNamespace::GameScenesManager::*)()>(&::GlobalNamespace::GameScenesManager::get_sceneNameToSceneOperationHandlesDictionary)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35ac2ec;
+  constexpr static std::size_t addrs = 0x35af4ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2450,7 +2549,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::StringW)>(&::GlobalNamespace::GameScenesManager::MarkSceneAsPersistent)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x35ab1e4;
+  constexpr static std::size_t addrs = 0x35ae3a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2463,11 +2562,24 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::StringW>* (::GlobalNamespace::GameScenesManager::*)()>(
     &::GlobalNamespace::GameScenesManager::GetCurrentlyLoadedSceneNames)> {
-  constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x35ac2f4;
+  constexpr static std::size_t size = 0x24c;
+  constexpr static std::size_t addrs = 0x35af4b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager*>(), { "GetCurrentlyLoadedSceneNames", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::GameScenesManager.PreloadScene
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::StringW)>(&::GlobalNamespace::GameScenesManager::PreloadScene)> {
+  constexpr static std::size_t size = 0x214;
+  constexpr static std::size_t addrs = 0x35af700;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager*>(), { "PreloadScene", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
@@ -2478,7 +2590,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::StringW, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>)>(
     &::GlobalNamespace::GameScenesManager::RegisterExternallyLoadedScene)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x35ac4ec;
+  constexpr static std::size_t addrs = 0x35af914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2496,8 +2608,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::StringW)>(&::GlobalNamespace::GameScenesManager::LoadSingleScene)> {
-  constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x35ac584;
+  constexpr static std::size_t size = 0x280;
+  constexpr static std::size_t addrs = 0x35af9ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2509,8 +2621,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::StringW)>(&::GlobalNamespace::GameScenesManager::UnloadSingleScene)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x35aca98;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x35afec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2523,7 +2635,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager::*)(::StringW)>(&::GlobalNamespace::GameScenesManager::IsSceneActiveOrLoading)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35acd7c;
+  constexpr static std::size_t addrs = 0x35b01ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2537,7 +2649,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::Zenject::DiContainer*>* (
     ::GlobalNamespace::GameScenesManager::*)(::GlobalNamespace::ScenesTransitionSetupData*, float_t, ::System::Action*)>(&::GlobalNamespace::GameScenesManager::PushScenesAsync)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x35acd80;
+  constexpr static std::size_t addrs = 0x35b01b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2552,8 +2664,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(
     ::GlobalNamespace::ScenesTransitionSetupData*, float_t, ::System::Action*, ::System::Action_1<::Zenject::DiContainer*>*)>(&::GlobalNamespace::GameScenesManager::PushScenes)> {
-  constexpr static std::size_t size = 0x3f8;
-  constexpr static std::size_t addrs = 0x35acec8;
+  constexpr static std::size_t size = 0x404;
+  constexpr static std::size_t addrs = 0x35b02f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2570,8 +2682,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(float_t, ::System::Action*, ::System::Action_1<::Zenject::DiContainer*>*)>(
     &::GlobalNamespace::GameScenesManager::PopScenes)> {
-  constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x35ad388;
+  constexpr static std::size_t size = 0x2fc;
+  constexpr static std::size_t addrs = 0x35b07d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2585,37 +2697,38 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::Zenject::DiContainer*>* (
-    ::GlobalNamespace::GameScenesManager::*)(::GlobalNamespace::ScenesTransitionSetupData*, ::ArrayW<::System::Collections::IEnumerator*>, float_t, ::System::Action*)>(
+    ::GlobalNamespace::GameScenesManager::*)(::GlobalNamespace::ScenesTransitionSetupData*, bool, ::ArrayW<::System::Collections::IEnumerator*>, float_t, ::System::Action*)>(
     &::GlobalNamespace::GameScenesManager::ReplaceScenesAsync)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x35ad680;
+  constexpr static std::size_t size = 0x154;
+  constexpr static std::size_t addrs = 0x35b0ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager*>(),
                                                              { "ReplaceScenesAsync",
                                                                {},
-                                                               { ::i2c::type_of<::GlobalNamespace::ScenesTransitionSetupData*>(), ::i2c::type_of<::ArrayW<::System::Collections::IEnumerator*>>(),
-                                                                 ::i2c::type_of<float_t>(), ::i2c::type_of<::System::Action*>() } })));
+                                                               { ::i2c::type_of<::GlobalNamespace::ScenesTransitionSetupData*>(), ::i2c::type_of<bool>(),
+                                                                 ::i2c::type_of<::ArrayW<::System::Collections::IEnumerator*>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::System::Action*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::GameScenesManager.ReplaceScenes
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::GlobalNamespace::ScenesTransitionSetupData*, ::ArrayW<::System::Collections::IEnumerator*>,
-                                                                                                      float_t, ::System::Action*, ::System::Action_1<::Zenject::DiContainer*>*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(
+    ::GlobalNamespace::ScenesTransitionSetupData*, bool, ::ArrayW<::System::Collections::IEnumerator*>, float_t, ::System::Action*, ::System::Action_1<::Zenject::DiContainer*>*)>(
     &::GlobalNamespace::GameScenesManager::ReplaceScenes)> {
-  constexpr static std::size_t size = 0x424;
-  constexpr static std::size_t addrs = 0x35ad7c8;
+  constexpr static std::size_t size = 0x4a8;
+  constexpr static std::size_t addrs = 0x35b0c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager*>(),
-                                                             { "ReplaceScenes",
-                                                               {},
-                                                               { ::i2c::type_of<::GlobalNamespace::ScenesTransitionSetupData*>(), ::i2c::type_of<::ArrayW<::System::Collections::IEnumerator*>>(),
-                                                                 ::i2c::type_of<float_t>(), ::i2c::type_of<::System::Action*>(), ::i2c::type_of<::System::Action_1<::Zenject::DiContainer*>*>() } })));
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager*>(),
+                                         { "ReplaceScenes",
+                                           {},
+                                           { ::i2c::type_of<::GlobalNamespace::ScenesTransitionSetupData*>(), ::i2c::type_of<bool>(), ::i2c::type_of<::ArrayW<::System::Collections::IEnumerator*>>(),
+                                             ::i2c::type_of<float_t>(), ::i2c::type_of<::System::Action*>(), ::i2c::type_of<::System::Action_1<::Zenject::DiContainer*>*>() } })));
     return ___internal_method;
   }
 };
@@ -2624,8 +2737,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(
     ::GlobalNamespace::ScenesTransitionSetupData*, float_t, ::System::Action*, ::System::Action_1<::Zenject::DiContainer*>*, bool)>(&::GlobalNamespace::GameScenesManager::ClearAndOpenScenes)> {
-  constexpr static std::size_t size = 0x698;
-  constexpr static std::size_t addrs = 0x35adbf0;
+  constexpr static std::size_t size = 0x958;
+  constexpr static std::size_t addrs = 0x35b11fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2642,8 +2755,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(
     ::GlobalNamespace::ScenesTransitionSetupData*, bool, float_t, ::System::Action*, ::System::Action_1<::Zenject::DiContainer*>*)>(&::GlobalNamespace::GameScenesManager::AppendScenes)> {
-  constexpr static std::size_t size = 0x488;
-  constexpr static std::size_t addrs = 0x35ae28c;
+  constexpr static std::size_t size = 0x49c;
+  constexpr static std::size_t addrs = 0x35b1b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2660,8 +2773,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(
     ::GlobalNamespace::ScenesTransitionSetupData*, float_t, ::System::Action*, ::System::Action_1<::Zenject::DiContainer*>*)>(&::GlobalNamespace::GameScenesManager::RemoveScenes)> {
-  constexpr static std::size_t size = 0x48c;
-  constexpr static std::size_t addrs = 0x35ae718;
+  constexpr static std::size_t size = 0x494;
+  constexpr static std::size_t addrs = 0x35b1ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2678,8 +2791,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(
     ::GlobalNamespace::ScenesTransitionSetupData*, float_t, ::System::Action*, ::System::Action_1<::Zenject::DiContainer*>*)>(&::GlobalNamespace::GameScenesManager::ActivateScenes)> {
-  constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x35aeba8;
+  constexpr static std::size_t size = 0x260;
+  constexpr static std::size_t addrs = 0x35b2490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2696,8 +2809,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(
     ::GlobalNamespace::ScenesTransitionSetupData*, float_t, ::System::Action*, ::System::Action_1<::Zenject::DiContainer*>*)>(&::GlobalNamespace::GameScenesManager::DeactivateScenes)> {
-  constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x35aee04;
+  constexpr static std::size_t size = 0x260;
+  constexpr static std::size_t addrs = 0x35b26f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2714,7 +2827,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::GameScenesManager::*)(::StringW)>(&::GlobalNamespace::GameScenesManager::LoadOneScene)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x35aca38;
+  constexpr static std::size_t addrs = 0x35afe64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2728,7 +2841,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::GameScenesManager::*)(::StringW)>(
     &::GlobalNamespace::GameScenesManager::UnloadOneScene)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x35acd1c;
+  constexpr static std::size_t addrs = 0x35b014c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2743,9 +2856,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IE
     ::GlobalNamespace::GameScenesManager::*)(::GlobalNamespace::ScenesTransitionSetupData*, ::System::Collections::Generic::IReadOnlyList_1<::StringW>*,
                                              ::GlobalNamespace::GameScenesManager_ScenePresentType, ::System::Collections::Generic::IReadOnlyList_1<::StringW>*,
                                              ::GlobalNamespace::GameScenesManager_SceneDismissType, float_t, bool, ::System::Action*, ::System::Action_1<::Zenject::DiContainer*>*,
-                                             ::System::Action_1<::Zenject::DiContainer*>*)>(&::GlobalNamespace::GameScenesManager::ScenesTransitionCoroutine)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x35ad2c4;
+                                             ::System::Action_1<::Zenject::DiContainer*>*, bool)>(&::GlobalNamespace::GameScenesManager::ScenesTransitionCoroutine)> {
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x35b0700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2756,7 +2869,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IE
                               { ::i2c::type_of<::GlobalNamespace::ScenesTransitionSetupData*>(), ::i2c::type_of<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>(),
                                 ::i2c::type_of<::GlobalNamespace::GameScenesManager_ScenePresentType>(), ::i2c::type_of<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>(),
                                 ::i2c::type_of<::GlobalNamespace::GameScenesManager_SceneDismissType>(), ::i2c::type_of<float_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<::System::Action*>(),
-                                ::i2c::type_of<::System::Action_1<::Zenject::DiContainer*>*>(), ::i2c::type_of<::System::Action_1<::Zenject::DiContainer*>*>() } })));
+                                ::i2c::type_of<::System::Action_1<::Zenject::DiContainer*>*>(), ::i2c::type_of<::System::Action_1<::Zenject::DiContainer*>*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -2765,7 +2878,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Collections::Generic::IReadOnlyList_1<::StringW>*)>(&::GlobalNamespace::GameScenesManager::ShouldUnloadUnusedAssets)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x35af078;
+  constexpr static std::size_t addrs = 0x35b2970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2780,7 +2893,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(
     ::by_ref<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::EventSystem>>*>)>(&::GlobalNamespace::GameScenesManager::BackupToListAndDisableCurrentEventSystem)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x35af228;
+  constexpr static std::size_t addrs = 0x35b2b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2796,7 +2909,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (*)(::System::Threading::Tasks::Task*)>(&::GlobalNamespace::GameScenesManager::WaitUntilTaskCompleted)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x35af388;
+  constexpr static std::size_t addrs = 0x35b2c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2809,7 +2922,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::StringW>*)>(&::GlobalNamespace::GameScenesManager::ActivatePresentedSceneRootObjects)> {
   constexpr static std::size_t size = 0x48c;
-  constexpr static std::size_t addrs = 0x35af3e4;
+  constexpr static std::size_t addrs = 0x35b2cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2824,7 +2937,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager::*)(::System::Collections::Generic::IEnumerable_1<::StringW>*)>(
     &::GlobalNamespace::GameScenesManager::IsAnySceneInStack)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x35af870;
+  constexpr static std::size_t addrs = 0x35b3168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2839,7 +2952,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager::*)(::System::Collections::Generic::IEnumerable_1<::StringW>*)>(
     &::GlobalNamespace::GameScenesManager::AreAllScenesInStack)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x35afb34;
+  constexpr static std::size_t addrs = 0x35b342c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2853,7 +2966,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager::*)(::StringW)>(&::GlobalNamespace::GameScenesManager::IsSceneInStack)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x35ac800;
+  constexpr static std::size_t addrs = 0x35afc2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2866,7 +2979,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::StringW)>(&::GlobalNamespace::GameScenesManager::RemoveSceneFromStack)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x35acbdc;
+  constexpr static std::size_t addrs = 0x35b000c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2880,7 +2993,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::System::Collections::Generic::IEnumerable_1<::StringW>*, bool)>(
     &::GlobalNamespace::GameScenesManager::SetActiveRootObjectsInScenes)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x35afdf0;
+  constexpr static std::size_t addrs = 0x35b36e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2894,7 +3007,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::StringW)>(&::GlobalNamespace::GameScenesManager::ReparentRootGameObjectsToDisabledGameObject)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x35b00e0;
+  constexpr static std::size_t addrs = 0x35b39d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2907,7 +3020,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::StringW)>(&::GlobalNamespace::GameScenesManager::MoveGameObjectsFromContainerToSceneRoot)> {
   constexpr static std::size_t size = 0x390;
-  constexpr static std::size_t addrs = 0x35b0358;
+  constexpr static std::size_t addrs = 0x35b3c50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2920,7 +3033,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::GlobalNamespace::GameScenesManager::Log)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x35b06e8;
+  constexpr static std::size_t addrs = 0x35b3fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager*>(), { "Log", {}, { ::i2c::type_of<::StringW>() } })));
@@ -2931,8 +3044,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::G
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)()>(&::GlobalNamespace::GameScenesManager::_ctor)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x35b0744;
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x35b403c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager*>(), { ".ctor", {}, {} })));
@@ -2944,7 +3057,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager::*)()>(&::GlobalNamespace::GameScenesManager::_get_waitUntilSceneTransitionFinish_b__28_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x35b0870;
+  constexpr static std::size_t addrs = 0x35b41ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3082,6 +3195,24 @@ constexpr void GlobalNamespace::GameScenesManager::__cordl_internal_set__sceneNa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sceneNameToSceneOperationHandlesDictionary = value;
 }
+constexpr ::System::Collections::Generic::Dictionary_2<
+    ::StringW, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>*&
+GlobalNamespace::GameScenesManager::__cordl_internal_get__preloadedSceneOperationHandles() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____preloadedSceneOperationHandles;
+}
+constexpr ::System::Collections::Generic::Dictionary_2<
+    ::StringW, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>* const&
+GlobalNamespace::GameScenesManager::__cordl_internal_get__preloadedSceneOperationHandles() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____preloadedSceneOperationHandles;
+}
+constexpr void GlobalNamespace::GameScenesManager::__cordl_internal_set__preloadedSceneOperationHandles(
+    ::System::Collections::Generic::Dictionary_2<
+        ::StringW, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____preloadedSceneOperationHandles = value;
+}
 inline void GlobalNamespace::GameScenesManager::add_transitionDidStartEvent(::System::Action_2<::GlobalNamespace::GameScenesManager_SceneTransitionType, float_t>* value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager*>(),
@@ -3194,6 +3325,11 @@ inline ::System::Collections::Generic::List_1<::StringW>* GlobalNamespace::GameS
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager*>(), { "GetCurrentlyLoadedSceneNames", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::StringW>*>(this, ___internal_method);
 }
+inline void GlobalNamespace::GameScenesManager::PreloadScene(::StringW sceneName) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager*>(), { "PreloadScene", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, sceneName);
+}
 inline void GlobalNamespace::GameScenesManager::RegisterExternallyLoadedScene(
     ::StringW sceneName, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> asyncOperationHandle) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -3245,27 +3381,29 @@ inline void GlobalNamespace::GameScenesManager::PopScenes(float_t minDuration, :
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, minDuration, afterMinDurationCallback, finishCallback);
 }
 inline ::System::Threading::Tasks::Task_1<::Zenject::DiContainer*>*
-GlobalNamespace::GameScenesManager::ReplaceScenesAsync(::GlobalNamespace::ScenesTransitionSetupData* scenesTransitionSetupData,
+GlobalNamespace::GameScenesManager::ReplaceScenesAsync(::GlobalNamespace::ScenesTransitionSetupData* scenesTransitionSetupData, bool shouldReclaimMemory,
                                                        ::ArrayW<::System::Collections::IEnumerator*> beforeNewScenesActivateRoutines, float_t minDuration, ::System::Action* afterMinDurationCallback) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager*>(),
                                                            { "ReplaceScenesAsync",
                                                              {},
-                                                             { ::i2c::type_of<::GlobalNamespace::ScenesTransitionSetupData*>(), ::i2c::type_of<::ArrayW<::System::Collections::IEnumerator*>>(),
-                                                               ::i2c::type_of<float_t>(), ::i2c::type_of<::System::Action*>() } })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::Zenject::DiContainer*>*>(this, ___internal_method, scenesTransitionSetupData, beforeNewScenesActivateRoutines,
-                                                                                                           minDuration, afterMinDurationCallback);
+                                                             { ::i2c::type_of<::GlobalNamespace::ScenesTransitionSetupData*>(), ::i2c::type_of<bool>(),
+                                                               ::i2c::type_of<::ArrayW<::System::Collections::IEnumerator*>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::System::Action*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::Zenject::DiContainer*>*>(this, ___internal_method, scenesTransitionSetupData, shouldReclaimMemory,
+                                                                                                           beforeNewScenesActivateRoutines, minDuration, afterMinDurationCallback);
 }
-inline void GlobalNamespace::GameScenesManager::ReplaceScenes(::GlobalNamespace::ScenesTransitionSetupData* scenesTransitionSetupData,
+inline void GlobalNamespace::GameScenesManager::ReplaceScenes(::GlobalNamespace::ScenesTransitionSetupData* scenesTransitionSetupData, bool shouldReclaimMemory,
                                                               ::ArrayW<::System::Collections::IEnumerator*> beforeNewScenesActivateRoutines, float_t minDuration,
                                                               ::System::Action* afterMinDurationCallback, ::System::Action_1<::Zenject::DiContainer*>* finishCallback) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager*>(),
-                                                           { "ReplaceScenes",
-                                                             {},
-                                                             { ::i2c::type_of<::GlobalNamespace::ScenesTransitionSetupData*>(), ::i2c::type_of<::ArrayW<::System::Collections::IEnumerator*>>(),
-                                                               ::i2c::type_of<float_t>(), ::i2c::type_of<::System::Action*>(), ::i2c::type_of<::System::Action_1<::Zenject::DiContainer*>*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, scenesTransitionSetupData, beforeNewScenesActivateRoutines, minDuration, afterMinDurationCallback, finishCallback);
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager*>(),
+                                       { "ReplaceScenes",
+                                         {},
+                                         { ::i2c::type_of<::GlobalNamespace::ScenesTransitionSetupData*>(), ::i2c::type_of<bool>(), ::i2c::type_of<::ArrayW<::System::Collections::IEnumerator*>>(),
+                                           ::i2c::type_of<float_t>(), ::i2c::type_of<::System::Action*>(), ::i2c::type_of<::System::Action_1<::Zenject::DiContainer*>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, scenesTransitionSetupData, shouldReclaimMemory, beforeNewScenesActivateRoutines, minDuration, afterMinDurationCallback,
+                                                   finishCallback);
 }
 inline void GlobalNamespace::GameScenesManager::ClearAndOpenScenes(::GlobalNamespace::ScenesTransitionSetupData* scenesTransitionSetupData, float_t minDuration,
                                                                    ::System::Action* afterMinDurationCallback, ::System::Action_1<::Zenject::DiContainer*>* finishCallback, bool unloadAllScenes) {
@@ -3328,7 +3466,7 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::GameScenesManager::S
     ::GlobalNamespace::ScenesTransitionSetupData* newScenesTransitionSetupData, ::System::Collections::Generic::IReadOnlyList_1<::StringW>* scenesToPresent,
     ::GlobalNamespace::GameScenesManager_ScenePresentType presentType, ::System::Collections::Generic::IReadOnlyList_1<::StringW>* scenesToDismiss,
     ::GlobalNamespace::GameScenesManager_SceneDismissType dismissType, float_t minDuration, bool canTriggerGarbageCollector, ::System::Action* afterMinDurationCallback,
-    ::System::Action_1<::Zenject::DiContainer*>* extraBindingsCallback, ::System::Action_1<::Zenject::DiContainer*>* finishCallback) {
+    ::System::Action_1<::Zenject::DiContainer*>* extraBindingsCallback, ::System::Action_1<::Zenject::DiContainer*>* finishCallback, bool shouldReclaimMemory) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager*>(),
@@ -3337,9 +3475,10 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::GameScenesManager::S
                             { ::i2c::type_of<::GlobalNamespace::ScenesTransitionSetupData*>(), ::i2c::type_of<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>(),
                               ::i2c::type_of<::GlobalNamespace::GameScenesManager_ScenePresentType>(), ::i2c::type_of<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>(),
                               ::i2c::type_of<::GlobalNamespace::GameScenesManager_SceneDismissType>(), ::i2c::type_of<float_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<::System::Action*>(),
-                              ::i2c::type_of<::System::Action_1<::Zenject::DiContainer*>*>(), ::i2c::type_of<::System::Action_1<::Zenject::DiContainer*>*>() } })));
+                              ::i2c::type_of<::System::Action_1<::Zenject::DiContainer*>*>(), ::i2c::type_of<::System::Action_1<::Zenject::DiContainer*>*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method, newScenesTransitionSetupData, scenesToPresent, presentType, scenesToDismiss, dismissType,
-                                                                                  minDuration, canTriggerGarbageCollector, afterMinDurationCallback, extraBindingsCallback, finishCallback);
+                                                                                  minDuration, canTriggerGarbageCollector, afterMinDurationCallback, extraBindingsCallback, finishCallback,
+                                                                                  shouldReclaimMemory);
 }
 inline bool GlobalNamespace::GameScenesManager::ShouldUnloadUnusedAssets(::System::Collections::Generic::IReadOnlyList_1<::StringW>* scenesToDismiss) {
   static auto* ___internal_method =

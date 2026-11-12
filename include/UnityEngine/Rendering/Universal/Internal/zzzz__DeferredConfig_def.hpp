@@ -30,11 +30,11 @@ public:
   static inline bool getStaticF__IsOpenGL_k__BackingField();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsDX10, addr 0x6d4f548, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_IsDX10, addr 0x6d50628, size 0x4c, virtual false, abstract: false, final false
   static inline bool get_IsDX10();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsOpenGL, addr 0x6d4f4a8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_IsOpenGL, addr 0x6d50588, size 0x4c, virtual false, abstract: false, final false
   static inline bool get_IsOpenGL();
 
   static inline void setStaticF__IsDX10_k__BackingField(bool value);
@@ -42,11 +42,11 @@ public:
   static inline void setStaticF__IsOpenGL_k__BackingField(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_IsDX10, addr 0x6d4f594, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_IsDX10, addr 0x6d50674, size 0x54, virtual false, abstract: false, final false
   static inline void set_IsDX10(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_IsOpenGL, addr 0x6d4f4f4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_IsOpenGL, addr 0x6d505d4, size 0x54, virtual false, abstract: false, final false
   static inline void set_IsOpenGL(bool value);
 
 protected:

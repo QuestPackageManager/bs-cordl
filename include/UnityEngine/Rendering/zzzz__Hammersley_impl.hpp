@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Rendering::Hammersley::Initialize)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x6bffa5c;
+  constexpr static std::size_t addrs = 0x6c00b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Hammersley*>(), { "Initialize", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::ComputeShader*)>(&::UnityEngine::Rendering::Hammersley::BindConstants)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x6bffdcc;
+  constexpr static std::size_t addrs = 0x6c00eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::IComputeCommandBuffer*, ::UnityEngine::ComputeShader*)>(
     &::UnityEngine::Rendering::Hammersley::BindConstants)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6bfff28;
+  constexpr static std::size_t addrs = 0x6c01008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

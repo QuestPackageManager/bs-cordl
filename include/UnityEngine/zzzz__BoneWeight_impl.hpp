@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::BoneWeight::*)()>(&::UnityEngine::BoneWeight::get_weight0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f4a824;
+  constexpr static std::size_t addrs = 0x6f4b904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoneWeight>(), { "get_weight0", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BoneWeight::*)(float_t)>(&::UnityEngine::BoneWeight::set_weight0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f4a82c;
+  constexpr static std::size_t addrs = 0x6f4b90c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoneWeight>(), { "set_weight0", {}, { ::i2c::type_of<float_t>() } })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::BoneWeight::*)()>(&::UnityEngine::BoneWeight::get_weight1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f4a834;
+  constexpr static std::size_t addrs = 0x6f4b914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoneWeight>(), { "get_weight1", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BoneWeight::*)(float_t)>(&::UnityEngine::BoneWeight::set_weight1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f4a83c;
+  constexpr static std::size_t addrs = 0x6f4b91c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoneWeight>(), { "set_weight1", {}, { ::i2c::type_of<float_t>() } })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::BoneWeight::*)()>(&::UnityEngine::BoneWeight::get_weight2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f4a844;
+  constexpr static std::size_t addrs = 0x6f4b924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoneWeight>(), { "get_weight2", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BoneWeight::*)(float_t)>(&::UnityEngine::BoneWeight::set_weight2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f4a84c;
+  constexpr static std::size_t addrs = 0x6f4b92c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoneWeight>(), { "set_weight2", {}, { ::i2c::type_of<float_t>() } })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::BoneWeight::*)()>(&::UnityEngine::BoneWeight::get_weight3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f4a854;
+  constexpr static std::size_t addrs = 0x6f4b934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoneWeight>(), { "get_weight3", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BoneWeight::*)(float_t)>(&::UnityEngine::BoneWeight::set_weight3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f4a85c;
+  constexpr static std::size_t addrs = 0x6f4b93c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoneWeight>(), { "set_weight3", {}, { ::i2c::type_of<float_t>() } })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::BoneWeight::*)()>(&::UnityEngine::BoneWeight::get_boneIndex0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f4a864;
+  constexpr static std::size_t addrs = 0x6f4b944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoneWeight>(), { "get_boneIndex0", {}, {} })));
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BoneWeight::*)(int32_t)>(&::UnityEngine::BoneWeight::set_boneIndex0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f4a86c;
+  constexpr static std::size_t addrs = 0x6f4b94c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoneWeight>(), { "set_boneIndex0", {}, { ::i2c::type_of<int32_t>() } })));
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::BoneWeight::*)()>(&::UnityEngine::BoneWeight::get_boneIndex1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f4a874;
+  constexpr static std::size_t addrs = 0x6f4b954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoneWeight>(), { "get_boneIndex1", {}, {} })));
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BoneWeight::*)(int32_t)>(&::UnityEngine::BoneWeight::set_boneIndex1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f4a87c;
+  constexpr static std::size_t addrs = 0x6f4b95c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoneWeight>(), { "set_boneIndex1", {}, { ::i2c::type_of<int32_t>() } })));
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::BoneWeight::*)()>(&::UnityEngine::BoneWeight::get_boneIndex2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f4a884;
+  constexpr static std::size_t addrs = 0x6f4b964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoneWeight>(), { "get_boneIndex2", {}, {} })));
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BoneWeight::*)(int32_t)>(&::UnityEngine::BoneWeight::set_boneIndex2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f4a88c;
+  constexpr static std::size_t addrs = 0x6f4b96c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoneWeight>(), { "set_boneIndex2", {}, { ::i2c::type_of<int32_t>() } })));
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::BoneWeight::*)()>(&::UnityEngine::BoneWeight::get_boneIndex3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f4a894;
+  constexpr static std::size_t addrs = 0x6f4b974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoneWeight>(), { "get_boneIndex3", {}, {} })));
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BoneWeight::*)(int32_t)>(&::UnityEngine::BoneWeight::set_boneIndex3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f4a89c;
+  constexpr static std::size_t addrs = 0x6f4b97c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoneWeight>(), { "set_boneIndex3", {}, { ::i2c::type_of<int32_t>() } })));
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::BoneWeight::*)()>(&::UnityEngine::BoneWeight::GetHashCode)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6f4a8a4;
+  constexpr static std::size_t addrs = 0x6f4b984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::BoneWeight>(), { ::i2c::class_of<::UnityEngine::BoneWeight>(), 2 }));
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::BoneWeight::*)(::System::Object*)>(&::UnityEngine::BoneWeight::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6f4a928;
+  constexpr static std::size_t addrs = 0x6f4ba08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::BoneWeight>(), { ::i2c::class_of<::UnityEngine::BoneWeight>(), 0 }));
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::BoneWeight::*)(::UnityEngine::BoneWeight)>(&::UnityEngine::BoneWeight::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6f4a9b4;
+  constexpr static std::size_t addrs = 0x6f4ba94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

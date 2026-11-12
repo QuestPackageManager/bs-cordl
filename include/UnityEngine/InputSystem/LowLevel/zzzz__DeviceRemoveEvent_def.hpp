@@ -40,10 +40,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*();
 
-  /// @brief Method Create, addr 0x6a17f00, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6a18fe0, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::DeviceRemoveEvent Create(int32_t deviceId, double_t time);
 
-  /// @brief Method ToEventPtr, addr 0x6a17efc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToEventPtr, addr 0x6a18fdc, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventPtr ToEventPtr();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __cordl_internal_get_baseEvent() const;
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_baseEvent(::UnityEngine::InputSystem::LowLevel::InputEvent value);
 
-  /// @brief Method get_typeStatic, addr 0x6a17ef0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x6a18fd0, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"

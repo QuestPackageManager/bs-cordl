@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SegmentedControl::*)(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>*)>(
     &::HMUI::SegmentedControl::add_didSelectCellEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x63af01c;
+  constexpr static std::size_t addrs = 0x63af66c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SegmentedControl::*)(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>*)>(
     &::HMUI::SegmentedControl::remove_didSelectCellEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x63af0dc;
+  constexpr static std::size_t addrs = 0x63af72c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SegmentedControl::*)(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>*)>(
     &::HMUI::SegmentedControl::add_didPressNonInteractableCellEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x63af19c;
+  constexpr static std::size_t addrs = 0x63af7ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SegmentedControl::*)(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>*)>(
     &::HMUI::SegmentedControl::remove_didPressNonInteractableCellEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x63af25c;
+  constexpr static std::size_t addrs = 0x63af8ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::HMUI::SegmentedControl_IDataSource* (::HMUI::SegmentedControl::*)()>(&::HMUI::SegmentedControl::get_dataSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63af31c;
+  constexpr static std::size_t addrs = 0x63af96c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::SegmentedControl*>(), { "get_dataSource", {}, {} })));
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SegmentedControl::*)(::HMUI::SegmentedControl_IDataSource*)>(&::HMUI::SegmentedControl::set_dataSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63ae00c;
+  constexpr static std::size_t addrs = 0x63ae65c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::HMUI::SegmentedControl::*)()>(&::HMUI::SegmentedControl::get_selectedCellNumber)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63af324;
+  constexpr static std::size_t addrs = 0x63af974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::SegmentedControl*>(), { "get_selectedCellNumber", {}, {} })));
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::HMUI::SegmentedControlCell>>* (::HMUI::SegmentedControl::*)()>(
     &::HMUI::SegmentedControl::get_cells)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63af32c;
+  constexpr static std::size_t addrs = 0x63af97c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::SegmentedControl*>(), { "get_cells", {}, {} })));
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SegmentedControl::*)()>(&::HMUI::SegmentedControl::CreateCells)> {
   constexpr static std::size_t size = 0x644;
-  constexpr static std::size_t addrs = 0x63af334;
+  constexpr static std::size_t addrs = 0x63af984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::SegmentedControl*>(), { "CreateCells", {}, {} })));
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SegmentedControl::*)(::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType, ::System::Object*)>(
     &::HMUI::SegmentedControl::HandleCellSelectionDidChange)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x63af984;
+  constexpr static std::size_t addrs = 0x63affd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SegmentedControl::*)(::HMUI::SelectableCell*)>(&::HMUI::SegmentedControl::HandleNonInteractableCellWasPressed)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x63afaf8;
+  constexpr static std::size_t addrs = 0x63b0148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SegmentedControl::*)(int32_t, ::System::Action_1<int32_t>*)>(&::HMUI::SegmentedControl::SetCallbackForCell)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x63afbb0;
+  constexpr static std::size_t addrs = 0x63b0200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SegmentedControl::*)()>(&::HMUI::SegmentedControl::ReloadData)> {
   constexpr static std::size_t size = 0x474;
-  constexpr static std::size_t addrs = 0x63ae054;
+  constexpr static std::size_t addrs = 0x63ae6a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::SegmentedControl*>(), { "ReloadData", {}, {} })));
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SegmentedControl::*)(int32_t)>(&::HMUI::SegmentedControl::SelectCellWithNumber)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x63afc2c;
+  constexpr static std::size_t addrs = 0x63b027c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -248,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SegmentedControl::*)()>(&::HMUI::SegmentedControl::_ctor)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x63ae9b8;
+  constexpr static std::size_t addrs = 0x63af008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::SegmentedControl*>(), { ".ctor", {}, {} })));

@@ -41,10 +41,10 @@ public:
   static inline ::BeatSaber::Analytics::Settings::SettingsSnapshotAnalytics* New_ctor(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* dispatcher,
                                                                                       ::GlobalNamespace::IPlayerDataModel* playerDataModel, ::GlobalNamespace::SettingsManager* settingsManager);
 
-  /// @brief Method TodayInDays, addr 0x350bcd4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TodayInDays, addr 0x350e114, size 0x90, virtual false, abstract: false, final false
   static inline int32_t TodayInDays();
 
-  /// @brief Method TrySendSnapshot, addr 0x350b834, size 0x4a0, virtual false, abstract: false, final false
+  /// @brief Method TrySendSnapshot, addr 0x350dc74, size 0x4a0, virtual false, abstract: false, final false
   inline void TrySendSnapshot();
 
   constexpr ::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* const& __cordl_internal_get__dispatcher() const;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x350b828, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x350dc68, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* dispatcher, ::GlobalNamespace::IPlayerDataModel* playerDataModel, ::GlobalNamespace::SettingsManager* settingsManager);
 
 protected:
@@ -83,7 +83,7 @@ public:
   SettingsSnapshotAnalytics(SettingsSnapshotAnalytics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22778 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22791 };
 
   /// @brief Field _dispatcher, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* ____dispatcher;

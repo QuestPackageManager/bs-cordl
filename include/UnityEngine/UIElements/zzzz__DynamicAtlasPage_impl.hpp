@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TextureId (::UnityEngine::UIElements::DynamicAtlasPage::*)()>(
     &::UnityEngine::UIElements::DynamicAtlasPage::get_textureId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72afc3c;
+  constexpr static std::size_t addrs = 0x72b0d1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DynamicAtlasPage*>(), { "get_textureId", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DynamicAtlasPage::*)(::UnityEngine::UIElements::TextureId)>(
     &::UnityEngine::UIElements::DynamicAtlasPage::set_textureId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72afc44;
+  constexpr static std::size_t addrs = 0x72b0d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RenderTexture> (::UnityEngine::UIElements::DynamicAtlasPage::*)()>(
     &::UnityEngine::UIElements::DynamicAtlasPage::get_atlas)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72afc4c;
+  constexpr static std::size_t addrs = 0x72b0d2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DynamicAtlasPage*>(), { "get_atlas", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DynamicAtlasPage::*)(::UnityEngine::RenderTexture*)>(&::UnityEngine::UIElements::DynamicAtlasPage::set_atlas)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72afc54;
+  constexpr static std::size_t addrs = 0x72b0d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::RenderTextureFormat (::UnityEngine::UIElements::DynamicAtlasPage::*)()>(
     &::UnityEngine::UIElements::DynamicAtlasPage::get_format)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72afc5c;
+  constexpr static std::size_t addrs = 0x72b0d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DynamicAtlasPage*>(), { "get_format", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::FilterMode (::UnityEngine::UIElements::DynamicAtlasPage::*)()>(&::UnityEngine::UIElements::DynamicAtlasPage::get_filterMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72afc64;
+  constexpr static std::size_t addrs = 0x72b0d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DynamicAtlasPage*>(), { "get_filterMode", {}, {} })));
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DynamicAtlasPage::*)(::UnityEngine::RenderTextureFormat, ::UnityEngine::FilterMode, ::UnityEngine::Vector2Int,
                                                                                                              ::UnityEngine::Vector2Int)>(&::UnityEngine::UIElements::DynamicAtlasPage::_ctor)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x72afc6c;
+  constexpr static std::size_t addrs = 0x72b0d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DynamicAtlasPage*>(),
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::DynamicAtlasPage::*)()>(&::UnityEngine::UIElements::DynamicAtlasPage::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72afdd8;
+  constexpr static std::size_t addrs = 0x72b0eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DynamicAtlasPage*>(), { "get_disposed", {}, {} })));
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DynamicAtlasPage::*)(bool)>(&::UnityEngine::UIElements::DynamicAtlasPage::set_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72afde0;
+  constexpr static std::size_t addrs = 0x72b0ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DynamicAtlasPage::*)()>(&::UnityEngine::UIElements::DynamicAtlasPage::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x72afde8;
+  constexpr static std::size_t addrs = 0x72b0ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DynamicAtlasPage*>(), { "Dispose", {}, {} })));
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DynamicAtlasPage::*)(bool)>(&::UnityEngine::UIElements::DynamicAtlasPage::Dispose)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x72afe58;
+  constexpr static std::size_t addrs = 0x72b0f38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::DynamicAtlasPage::*)(::UnityEngine::Texture2D*, ::by_ref<::UnityEngine::UIElements::UIR::Allocator2D_Alloc2D>,
                                                                                                              ::by_ref<::UnityEngine::RectInt>)>(&::UnityEngine::UIElements::DynamicAtlasPage::TryAdd)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x72b0418;
+  constexpr static std::size_t addrs = 0x72b14f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DynamicAtlasPage::*)(::UnityEngine::Texture2D*, ::UnityEngine::RectInt)>(
     &::UnityEngine::UIElements::DynamicAtlasPage::Update)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x72b0630;
+  constexpr static std::size_t addrs = 0x72b1710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DynamicAtlasPage::*)(::UnityEngine::UIElements::UIR::Allocator2D_Alloc2D)>(
     &::UnityEngine::UIElements::DynamicAtlasPage::Remove)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x72b07dc;
+  constexpr static std::size_t addrs = 0x72b18bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DynamicAtlasPage*>(),
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DynamicAtlasPage::*)()>(&::UnityEngine::UIElements::DynamicAtlasPage::Commit)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x72b08f4;
+  constexpr static std::size_t addrs = 0x72b19d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DynamicAtlasPage*>(), { "Commit", {}, {} })));
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DynamicAtlasPage::*)()>(&::UnityEngine::UIElements::DynamicAtlasPage::UpdateAtlasTexture)> {
   constexpr static std::size_t size = 0x36c;
-  constexpr static std::size_t addrs = 0x72b0938;
+  constexpr static std::size_t addrs = 0x72b1a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DynamicAtlasPage*>(), { "UpdateAtlasTexture", {}, {} })));
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RenderTexture> (::UnityEngine::UIElements::DynamicAtlasPage::*)()>(
     &::UnityEngine::UIElements::DynamicAtlasPage::CreateAtlasTexture)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x72b0ca4;
+  constexpr static std::size_t addrs = 0x72b1d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DynamicAtlasPage*>(), { "CreateAtlasTexture", {}, {} })));

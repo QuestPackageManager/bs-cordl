@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::IntFxEventBaseData*>* (
     ::BeatmapSaveDataVersion3::FxEventsCollection::*)()>(&::BeatmapSaveDataVersion3::FxEventsCollection::get_intEventsList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a117ac;
+  constexpr static std::size_t addrs = 0x3a16834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::FxEventsCollection*>(), { "get_intEventsList", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::FloatFxEventBaseData*>* (
     ::BeatmapSaveDataVersion3::FxEventsCollection::*)()>(&::BeatmapSaveDataVersion3::FxEventsCollection::get_floatEventsList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a117b4;
+  constexpr static std::size_t addrs = 0x3a1683c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::FxEventsCollection*>(), { "get_floatEventsList", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVersion3::FxEventsCollection::*)()>(&::BeatmapSaveDataVersion3::FxEventsCollection::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3a117bc;
+  constexpr static std::size_t addrs = 0x3a16844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::FxEventsCollection*>(), { ".ctor", {}, {} })));
@@ -51,7 +51,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVe
     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::IntFxEventBaseData*>*, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FloatFxEventBaseData*>*)>(
     &::BeatmapSaveDataVersion3::FxEventsCollection::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3a11878;
+  constexpr static std::size_t addrs = 0x3a16900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapSaveDataVersion3::FxEventsCollection::*)(::BeatmapSaveDataVersion3::FloatFxEventBaseData*)>(
     &::BeatmapSaveDataVersion3::FxEventsCollection::AddEventAndGetIndex)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3a11940;
+  constexpr static std::size_t addrs = 0x3a169c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::FxEventsCollection*>(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapSaveDataVersion3::FxEventsCollection::*)(::BeatmapSaveDataVersion3::IntFxEventBaseData*)>(
     &::BeatmapSaveDataVersion3::FxEventsCollection::AddEventAndGetIndex)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3a11a10;
+  constexpr static std::size_t addrs = 0x3a16a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::FxEventsCollection*>(),

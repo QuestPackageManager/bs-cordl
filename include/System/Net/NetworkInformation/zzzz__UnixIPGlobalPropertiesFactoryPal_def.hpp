@@ -25,13 +25,13 @@ public:
   /// @brief Field <PlatformNeedsLibCWorkaround>k__BackingField, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF__PlatformNeedsLibCWorkaround_k__BackingField, put = setStaticF__PlatformNeedsLibCWorkaround_k__BackingField)) bool _PlatformNeedsLibCWorkaround_k__BackingField;
 
-  /// @brief Method Create, addr 0x67b90f8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x67b9748, size 0xbc, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::IPGlobalProperties* Create();
 
   static inline bool getStaticF__PlatformNeedsLibCWorkaround_k__BackingField();
 
   /// [CompilerGenerated]
-  /// @brief Method get_PlatformNeedsLibCWorkaround, addr 0x67bbc40, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_PlatformNeedsLibCWorkaround, addr 0x67bc290, size 0x4c, virtual false, abstract: false, final false
   static inline bool get_PlatformNeedsLibCWorkaround();
 
   static inline void setStaticF__PlatformNeedsLibCWorkaround_k__BackingField(bool value);

@@ -137,31 +137,31 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(::UnityEngine::Rendering::Universal::URPShaderStrippingSetting_Version value);
 
-  /// @brief Method .ctor, addr 0x6d2e16c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d2f24c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_stripScreenCoordOverrideVariants, addr 0x6d2e0f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stripScreenCoordOverrideVariants, addr 0x6d2f1d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_stripScreenCoordOverrideVariants();
 
-  /// @brief Method get_stripUnusedPostProcessingVariants, addr 0x6d2e004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stripUnusedPostProcessingVariants, addr 0x6d2f0e4, size 0x8, virtual false, abstract: false, final false
   inline bool get_stripUnusedPostProcessingVariants();
 
-  /// @brief Method get_stripUnusedVariants, addr 0x6d2e07c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stripUnusedVariants, addr 0x6d2f15c, size 0x8, virtual false, abstract: false, final false
   inline bool get_stripUnusedVariants();
 
-  /// @brief Method get_version, addr 0x6d2dffc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x6d2f0dc, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
   constexpr ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings* i___UnityEngine__Rendering__IRenderPipelineGraphicsSettings() noexcept;
 
-  /// @brief Method set_stripScreenCoordOverrideVariants, addr 0x6d2e0fc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_stripScreenCoordOverrideVariants, addr 0x6d2f1dc, size 0x70, virtual false, abstract: false, final false
   inline void set_stripScreenCoordOverrideVariants(bool value);
 
-  /// @brief Method set_stripUnusedPostProcessingVariants, addr 0x6d2e00c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_stripUnusedPostProcessingVariants, addr 0x6d2f0ec, size 0x70, virtual false, abstract: false, final false
   inline void set_stripUnusedPostProcessingVariants(bool value);
 
-  /// @brief Method set_stripUnusedVariants, addr 0x6d2e084, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_stripUnusedVariants, addr 0x6d2f164, size 0x70, virtual false, abstract: false, final false
   inline void set_stripUnusedVariants(bool value);
 
 protected:

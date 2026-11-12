@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::GlyphValueRecord_Legacy::*)(::UnityEngine::TextCore::LowLevel::GlyphValueRecord)>(&::TMPro::GlyphValueRecord_Legacy::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6da03f4;
+  constexpr static std::size_t addrs = 0x6da14d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::GlyphValueRecord_Legacy (*)(::TMPro::GlyphValueRecord_Legacy, ::TMPro::GlyphValueRecord_Legacy)>(
     &::TMPro::GlyphValueRecord_Legacy::op_Addition)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6da0400;
+  constexpr static std::size_t addrs = 0x6da14e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

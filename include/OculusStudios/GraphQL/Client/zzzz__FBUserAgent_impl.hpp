@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::FBUserAgent__EncodedPropertyKeys_d__7::*)(int32_t)>(
     &::OculusStudios::GraphQL::Client::FBUserAgent__EncodedPropertyKeys_d__7::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x637a620;
+  constexpr static std::size_t addrs = 0x637a9c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::FBUserAgent__EncodedPropertyKeys_d__7::*)()>(
     &::OculusStudios::GraphQL::Client::FBUserAgent__EncodedPropertyKeys_d__7::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x637b2b8;
+  constexpr static std::size_t addrs = 0x637b658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OculusStudios::GraphQL::Client::FBUserAgent__EncodedPropertyKeys_d__7::*)()>(
     &::OculusStudios::GraphQL::Client::FBUserAgent__EncodedPropertyKeys_d__7::MoveNext)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x637b2bc;
+  constexpr static std::size_t addrs = 0x637b65c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::GraphQL::Client::FBUserAgent__EncodedPropertyKeys_d__7::*)()>(
     &::OculusStudios::GraphQL::Client::FBUserAgent__EncodedPropertyKeys_d__7::System_Collections_Generic_IEnumerator_System_String__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x637b454;
+  constexpr static std::size_t addrs = 0x637b7f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::FBUserAgent__EncodedPropertyKeys_d__7*>(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::FBUserAgent__EncodedPropertyKeys_d__7::*)()>(
     &::OculusStudios::GraphQL::Client::FBUserAgent__EncodedPropertyKeys_d__7::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x637b45c;
+  constexpr static std::size_t addrs = 0x637b7fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::OculusStudios::GraphQL::Client::FBUserAgent__EncodedPropertyKeys_d__7::*)()>(
     &::OculusStudios::GraphQL::Client::FBUserAgent__EncodedPropertyKeys_d__7::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x637b494;
+  constexpr static std::size_t addrs = 0x637b834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::StringW>* (::OculusStudios::GraphQL::Client::FBUserAgent__EncodedPropertyKeys_d__7::*)()>(
     &::OculusStudios::GraphQL::Client::FBUserAgent__EncodedPropertyKeys_d__7::System_Collections_Generic_IEnumerable_System_String__GetEnumerator)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x637b49c;
+  constexpr static std::size_t addrs = 0x637b83c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::FBUserAgent__EncodedPropertyKeys_d__7*>(),
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::OculusStudios::GraphQL::Client::FBUserAgent__EncodedPropertyKeys_d__7::*)()>(
     &::OculusStudios::GraphQL::Client::FBUserAgent__EncodedPropertyKeys_d__7::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x637b528;
+  constexpr static std::size_t addrs = 0x637b8c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -256,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (*)()>(&::OculusStudios::GraphQL::Client::FBUserAgent::EncodedPropertyKeys)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x637a5b8;
+  constexpr static std::size_t addrs = 0x637a958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::FBUserAgent*>(), { "EncodedPropertyKeys", {}, {} })));
@@ -268,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::GraphQL::Client::FBUserAgent::*)()>(&::OculusStudios::GraphQL::Client::FBUserAgent::get_appName)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x637a640;
+  constexpr static std::size_t addrs = 0x637a9e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::FBUserAgent*>(), { "get_appName", {}, {} })));
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::FBUserAgent::*)(::StringW)>(&::OculusStudios::GraphQL::Client::FBUserAgent::set_appName)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x637a734;
+  constexpr static std::size_t addrs = 0x637aad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -293,7 +293,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::GraphQL::Client::FBUserAgent::*)()>(&::OculusStudios::GraphQL::Client::FBUserAgent::get_appVersion)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x637a7bc;
+  constexpr static std::size_t addrs = 0x637ab5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::FBUserAgent*>(), { "get_appVersion", {}, {} })));
@@ -305,7 +305,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::FBUserAgent::*)(::StringW)>(&::OculusStudios::GraphQL::Client::FBUserAgent::set_appVersion)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x637a808;
+  constexpr static std::size_t addrs = 0x637aba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -318,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::GraphQL::Client::FBUserAgent::*)()>(&::OculusStudios::GraphQL::Client::FBUserAgent::get_buildVersion)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x637a890;
+  constexpr static std::size_t addrs = 0x637ac30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::FBUserAgent*>(), { "get_buildVersion", {}, {} })));
@@ -330,7 +330,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::FBUserAgent::*)(::StringW)>(&::OculusStudios::GraphQL::Client::FBUserAgent::set_buildVersion)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x637a8dc;
+  constexpr static std::size_t addrs = 0x637ac7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -343,7 +343,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::GraphQL::Client::FBUserAgent::*)()>(&::OculusStudios::GraphQL::Client::FBUserAgent::get_device)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x637a964;
+  constexpr static std::size_t addrs = 0x637ad04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::FBUserAgent*>(), { "get_device", {}, {} })));
@@ -355,7 +355,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::FBUserAgent::*)(::StringW)>(&::OculusStudios::GraphQL::Client::FBUserAgent::set_device)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x637a9b0;
+  constexpr static std::size_t addrs = 0x637ad50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -368,7 +368,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::GraphQL::Client::FBUserAgent::*)()>(&::OculusStudios::GraphQL::Client::FBUserAgent::get_systemName)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x637aa38;
+  constexpr static std::size_t addrs = 0x637add8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::FBUserAgent*>(), { "get_systemName", {}, {} })));
@@ -380,7 +380,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::FBUserAgent::*)(::StringW)>(&::OculusStudios::GraphQL::Client::FBUserAgent::set_systemName)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x637aa84;
+  constexpr static std::size_t addrs = 0x637ae24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -393,7 +393,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::GraphQL::Client::FBUserAgent::*)()>(&::OculusStudios::GraphQL::Client::FBUserAgent::get_systemVersion)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x637ab0c;
+  constexpr static std::size_t addrs = 0x637aeac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::FBUserAgent*>(), { "get_systemVersion", {}, {} })));
@@ -405,7 +405,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::FBUserAgent::*)(::StringW)>(&::OculusStudios::GraphQL::Client::FBUserAgent::set_systemVersion)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x637ab58;
+  constexpr static std::size_t addrs = 0x637aef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -418,7 +418,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::GraphQL::Client::FBUserAgent::*)()>(&::OculusStudios::GraphQL::Client::FBUserAgent::get_locale)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x637abe0;
+  constexpr static std::size_t addrs = 0x637af80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::FBUserAgent*>(), { "get_locale", {}, {} })));
@@ -430,7 +430,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::FBUserAgent::*)(::StringW)>(&::OculusStudios::GraphQL::Client::FBUserAgent::set_locale)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x637ac2c;
+  constexpr static std::size_t addrs = 0x637afcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -443,7 +443,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::GraphQL::Client::FBUserAgent::*)(::StringW)>(&::OculusStudios::GraphQL::Client::FBUserAgent::GetPropertyOrNull)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x637a68c;
+  constexpr static std::size_t addrs = 0x637aa2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -456,7 +456,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::GraphQL::Client::FBUserAgent::*)()>(&::OculusStudios::GraphQL::Client::FBUserAgent::Serialize)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x637acb4;
+  constexpr static std::size_t addrs = 0x637b054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::FBUserAgent*>(), { "Serialize", {}, {} })));
@@ -468,7 +468,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::FBUserAgent::*)()>(&::OculusStudios::GraphQL::Client::FBUserAgent::AddFriendlyNames)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x637ad34;
+  constexpr static std::size_t addrs = 0x637b0d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::FBUserAgent*>(), { "AddFriendlyNames", {}, {} })));
@@ -480,7 +480,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::FBUserAgent::*)()>(&::OculusStudios::GraphQL::Client::FBUserAgent::AddEncodedProperties)> {
   constexpr static std::size_t size = 0x43c;
-  constexpr static std::size_t addrs = 0x637ade8;
+  constexpr static std::size_t addrs = 0x637b188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::FBUserAgent*>(), { "AddEncodedProperties", {}, {} })));
@@ -492,7 +492,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::FBUserAgent::*)()>(&::OculusStudios::GraphQL::Client::FBUserAgent::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x637b224;
+  constexpr static std::size_t addrs = 0x637b5c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::FBUserAgent*>(), { ".ctor", {}, {} })));

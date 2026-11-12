@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XPath::XPathNodeType (::MS::Internal::Xml::Cache::XPathNode::*)()>(&::MS::Internal::Xml::Cache::XPathNode::get_NodeType)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x66df474;
+  constexpr static std::size_t addrs = 0x66dfac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::Cache::XPathNode>(), { "get_NodeType", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::MS::Internal::Xml::Cache::XPathNode::*)()>(&::MS::Internal::Xml::Cache::XPathNode::get_Prefix)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x66df564;
+  constexpr static std::size_t addrs = 0x66dfbb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::Cache::XPathNode>(), { "get_Prefix", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::MS::Internal::Xml::Cache::XPathNode::*)()>(&::MS::Internal::Xml::Cache::XPathNode::get_LocalName)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x66df4bc;
+  constexpr static std::size_t addrs = 0x66dfb0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::Cache::XPathNode>(), { "get_LocalName", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::MS::Internal::Xml::Cache::XPathNode::*)()>(&::MS::Internal::Xml::Cache::XPathNode::get_NamespaceUri)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x66df510;
+  constexpr static std::size_t addrs = 0x66dfb60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::Cache::XPathNode>(), { "get_NamespaceUri", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XPath::XPathDocument* (::MS::Internal::Xml::Cache::XPathNode::*)()>(&::MS::Internal::Xml::Cache::XPathNode::get_Document)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x66df5c0;
+  constexpr static std::size_t addrs = 0x66dfc10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::Cache::XPathNode>(), { "get_Document", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::MS::Internal::Xml::Cache::XPathNode::*)()>(&::MS::Internal::Xml::Cache::XPathNode::get_LineNumber)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x66dfbf4;
+  constexpr static std::size_t addrs = 0x66e0244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::Cache::XPathNode>(), { "get_LineNumber", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::MS::Internal::Xml::Cache::XPathNode::*)()>(&::MS::Internal::Xml::Cache::XPathNode::get_LinePosition)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x66dfcf4;
+  constexpr static std::size_t addrs = 0x66e0344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::Cache::XPathNode>(), { "get_LinePosition", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::MS::Internal::Xml::Cache::XPathNode::*)()>(&::MS::Internal::Xml::Cache::XPathNode::get_CollapsedLinePosition)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x66dfccc;
+  constexpr static std::size_t addrs = 0x66e031c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::Cache::XPathNode>(), { "get_CollapsedLinePosition", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::Cache::XPathNodePageInfo* (::MS::Internal::Xml::Cache::XPathNode::*)()>(
     &::MS::Internal::Xml::Cache::XPathNode::get_PageInfo)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x66dfd20;
+  constexpr static std::size_t addrs = 0x66e0370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::Cache::XPathNode>(), { "get_PageInfo", {}, {} })));
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::MS::Internal::Xml::Cache::XPathNode::*)(::by_ref<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>>)>(
     &::MS::Internal::Xml::Cache::XPathNode::GetParent)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x66df9c0;
+  constexpr static std::size_t addrs = 0x66e0010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::Cache::XPathNode>(),
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::MS::Internal::Xml::Cache::XPathNode::*)(::by_ref<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>>)>(
     &::MS::Internal::Xml::Cache::XPathNode::GetSibling)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x66df884;
+  constexpr static std::size_t addrs = 0x66dfed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::Cache::XPathNode>(),
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::MS::Internal::Xml::Cache::XPathNode::*)()>(&::MS::Internal::Xml::Cache::XPathNode::get_IsXmlNamespaceNode)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x66df7fc;
+  constexpr static std::size_t addrs = 0x66dfe4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::Cache::XPathNode>(), { "get_IsXmlNamespaceNode", {}, {} })));
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::MS::Internal::Xml::Cache::XPathNode::*)()>(&::MS::Internal::Xml::Cache::XPathNode::get_HasSibling)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x66dfd38;
+  constexpr static std::size_t addrs = 0x66e0388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::Cache::XPathNode>(), { "get_HasSibling", {}, {} })));
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::MS::Internal::Xml::Cache::XPathNode::*)()>(&::MS::Internal::Xml::Cache::XPathNode::get_HasCollapsedText)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x66dfd48;
+  constexpr static std::size_t addrs = 0x66e0398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::Cache::XPathNode>(), { "get_HasCollapsedText", {}, {} })));
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::MS::Internal::Xml::Cache::XPathNode::*)()>(&::MS::Internal::Xml::Cache::XPathNode::get_IsText)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x66dfd54;
+  constexpr static std::size_t addrs = 0x66e03a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::Cache::XPathNode>(), { "get_IsText", {}, {} })));
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::MS::Internal::Xml::Cache::XPathNode::*)()>(&::MS::Internal::Xml::Cache::XPathNode::get_HasNamespaceDecls)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x66dfdbc;
+  constexpr static std::size_t addrs = 0x66e040c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::Cache::XPathNode>(), { "get_HasNamespaceDecls", {}, {} })));
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::MS::Internal::Xml::Cache::XPathNode::*)()>(&::MS::Internal::Xml::Cache::XPathNode::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66dfdc8;
+  constexpr static std::size_t addrs = 0x66e0418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::Cache::XPathNode>(), { "get_Value", {}, {} })));

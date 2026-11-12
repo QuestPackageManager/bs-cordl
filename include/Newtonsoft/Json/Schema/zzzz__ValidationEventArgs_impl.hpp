@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Schema::ValidationEventArgs::*)(::Newtonsoft::Json::Schema::JsonSchemaException*)>(
     &::Newtonsoft::Json::Schema::ValidationEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x61bea60;
+  constexpr static std::size_t addrs = 0x61bece8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Schema::ValidationEventArgs*>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Schema::JsonSchemaException* (::Newtonsoft::Json::Schema::ValidationEventArgs::*)()>(
     &::Newtonsoft::Json::Schema::ValidationEventArgs::get_Exception)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61beaec;
+  constexpr static std::size_t addrs = 0x61bed74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Schema::ValidationEventArgs*>(), { "get_Exception", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Newtonsoft::Json::Schema::ValidationEventArgs::*)()>(&::Newtonsoft::Json::Schema::ValidationEventArgs::get_Path)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x61beaf4;
+  constexpr static std::size_t addrs = 0x61bed7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Schema::ValidationEventArgs*>(), { "get_Path", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Newtonsoft::Json::Schema::ValidationEventArgs::*)()>(&::Newtonsoft::Json::Schema::ValidationEventArgs::get_Message)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x61b3a84;
+  constexpr static std::size_t addrs = 0x61b3d0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Schema::ValidationEventArgs*>(), { "get_Message", {}, {} })));

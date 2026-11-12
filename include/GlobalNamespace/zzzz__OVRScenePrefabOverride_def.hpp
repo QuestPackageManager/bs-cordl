@@ -46,17 +46,17 @@ public:
 
   static inline ::GlobalNamespace::OVRScenePrefabOverride* New_ctor();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x6324e0c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x6325094, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x6324e08, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x6325090, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
 
-  /// @brief Method UpdateEditorClassificationIndex, addr 0x6324e10, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method UpdateEditorClassificationIndex, addr 0x6325098, size 0x170, virtual false, abstract: false, final false
   inline void UpdateEditorClassificationIndex();
 
   /// [CompilerGenerated]
-  /// @brief Method <UpdateEditorClassificationIndex>g__IndexOf|5_0, addr 0x6324f80, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method <UpdateEditorClassificationIndex>g__IndexOf|5_0, addr 0x6325208, size 0x2cc, virtual false, abstract: false, final false
   static inline int32_t _UpdateEditorClassificationIndex_g__IndexOf_5_0(::StringW label, ::System::Collections::Generic::IEnumerable_1<::StringW>* collection);
 
   constexpr ::StringW const& __cordl_internal_get_ClassificationLabel() const;
@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set__editorClassificationIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x632524c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63254d4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"

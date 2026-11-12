@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set_loadHint(::System::Runtime::CompilerServices::LoadHint value);
 
-  /// @brief Method .ctor, addr 0x5fc7658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fc78e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::CompilerServices::LoadHint loadHintArgument);
 
 protected:

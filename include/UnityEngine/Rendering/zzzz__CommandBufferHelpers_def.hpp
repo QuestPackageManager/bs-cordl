@@ -50,19 +50,19 @@ public:
   /// @brief Field unsafeCmd, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_unsafeCmd, put = setStaticF_unsafeCmd)) ::UnityEngine::Rendering::UnsafeCommandBuffer* unsafeCmd;
 
-  /// @brief Method GetComputeCommandBuffer, addr 0x6ba12c0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetComputeCommandBuffer, addr 0x6ba23a0, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::ComputeCommandBuffer* GetComputeCommandBuffer(::UnityEngine::Rendering::CommandBuffer* baseBuffer);
 
-  /// @brief Method GetNativeCommandBuffer, addr 0x6ba1398, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetNativeCommandBuffer, addr 0x6ba2478, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::CommandBuffer* GetNativeCommandBuffer(::UnityEngine::Rendering::UnsafeCommandBuffer* baseBuffer);
 
-  /// @brief Method GetRasterCommandBuffer, addr 0x6ba1254, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetRasterCommandBuffer, addr 0x6ba2334, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RasterCommandBuffer* GetRasterCommandBuffer(::UnityEngine::Rendering::CommandBuffer* baseBuffer);
 
-  /// @brief Method GetUnsafeCommandBuffer, addr 0x6ba132c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetUnsafeCommandBuffer, addr 0x6ba240c, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::UnsafeCommandBuffer* GetUnsafeCommandBuffer(::UnityEngine::Rendering::CommandBuffer* baseBuffer);
 
-  /// @brief Method VFXManager_ProcessCameraCommand, addr 0x6ba13ac, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method VFXManager_ProcessCameraCommand, addr 0x6ba248c, size 0xa8, virtual false, abstract: false, final false
   static inline void VFXManager_ProcessCameraCommand(::UnityEngine::Camera* cam, ::UnityEngine::Rendering::UnsafeCommandBuffer* cmd, ::UnityEngine::VFX::VFXCameraXRSettings camXRSettings,
                                                      ::UnityEngine::Rendering::CullingResults results);
 

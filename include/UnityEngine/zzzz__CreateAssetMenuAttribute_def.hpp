@@ -57,19 +57,19 @@ public:
 
   constexpr void __cordl_internal_set__order_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6f71de0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f72ec0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method set_fileName, addr 0x6f71dd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fileName, addr 0x6f72eb0, size 0x8, virtual false, abstract: false, final false
   inline void set_fileName(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_menuName, addr 0x6f71dc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_menuName, addr 0x6f72ea8, size 0x8, virtual false, abstract: false, final false
   inline void set_menuName(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_order, addr 0x6f71dd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_order, addr 0x6f72eb8, size 0x8, virtual false, abstract: false, final false
   inline void set_order(int32_t value);
 
 protected:

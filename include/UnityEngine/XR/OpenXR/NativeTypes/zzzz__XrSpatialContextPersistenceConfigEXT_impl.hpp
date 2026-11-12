@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextPersistenceConfigEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextPersistenceConfigEXT::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e81558;
+  constexpr static std::size_t addrs = 0x6e82638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextPersistenceConfigEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextPersistenceConfigEXT::get_next)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e81560;
+  constexpr static std::size_t addrs = 0x6e82640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextPersistenceConfigEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextPersistenceConfigEXT::get_persistenceContextCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e81568;
+  constexpr static std::size_t addrs = 0x6e82648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t* (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextPersistenceConfigEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextPersistenceConfigEXT::get_persistenceContexts)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e81570;
+  constexpr static std::size_t addrs = 0x6e82650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextPersistenceConfigEXT::*)(void*, uint32_t, uint64_t*)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextPersistenceConfigEXT::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6e81578;
+  constexpr static std::size_t addrs = 0x6e82658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextPersistenceConfigEXT>(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextPersistenceConfigEXT::*)(uint32_t, uint64_t*)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextPersistenceConfigEXT::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6e81594;
+  constexpr static std::size_t addrs = 0x6e82674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextPersistenceConfigEXT>(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextPersistenceConfigEXT::*)(void*, ::Unity::Collections::NativeArray_1<uint64_t>)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextPersistenceConfigEXT::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6e815b0;
+  constexpr static std::size_t addrs = 0x6e82690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextPersistenceConfigEXT::*)(::Unity::Collections::NativeArray_1<uint64_t>)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextPersistenceConfigEXT::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6e81624;
+  constexpr static std::size_t addrs = 0x6e82704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextPersistenceConfigEXT>(),
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextPersistenceConfigEXT::*)(
     void*, ::Unity::Collections::NativeArray_1_ReadOnly<uint64_t>)>(&::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextPersistenceConfigEXT::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6e8168c;
+  constexpr static std::size_t addrs = 0x6e8276c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextPersistenceConfigEXT::*)(::Unity::Collections::NativeArray_1_ReadOnly<uint64_t>)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextPersistenceConfigEXT::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6e81714;
+  constexpr static std::size_t addrs = 0x6e827f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextPersistenceConfigEXT>(),

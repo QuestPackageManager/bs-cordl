@@ -67,49 +67,49 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRDynamicObject>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRDynamicObject>*();
 
-  /// @brief Method Equals, addr 0x626e5d8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x626e860, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x626e488, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x626e710, size 0x6c, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::OVRDynamicObject other);
 
-  /// @brief Method GetHashCode, addr 0x626e668, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x626e8f0, size 0x70, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IOVRAnchorComponent<OVRDynamicObject>.FromAnchor, addr 0x626e258, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRDynamicObject>.FromAnchor, addr 0x626e4e0, size 0x30, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRDynamicObject IOVRAnchorComponent_OVRDynamicObject__FromAnchor(::GlobalNamespace::OVRAnchor anchor);
 
-  /// @brief Method IOVRAnchorComponent<OVRDynamicObject>.SetEnabledAsync, addr 0x626e43c, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRDynamicObject>.SetEnabledAsync, addr 0x626e6c4, size 0x4c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRTask_1<bool> IOVRAnchorComponent_OVRDynamicObject__SetEnabledAsync(bool enabled, double_t timeout);
 
-  /// @brief Method IOVRAnchorComponent<OVRDynamicObject>.get_Handle, addr 0x626e200, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRDynamicObject>.get_Handle, addr 0x626e488, size 0x58, virtual true, abstract: false, final true
   inline uint64_t IOVRAnchorComponent_OVRDynamicObject__get_Handle();
 
-  /// @brief Method IOVRAnchorComponent<OVRDynamicObject>.get_Type, addr 0x626e19c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRDynamicObject>.get_Type, addr 0x626e424, size 0x58, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRPlugin_SpaceComponentType IOVRAnchorComponent_OVRDynamicObject__get_Type();
 
-  /// @brief Method ToString, addr 0x626e6d8, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x626e960, size 0xc0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x626e288, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x626e510, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRAnchor anchor);
 
   static inline ::GlobalNamespace::OVRDynamicObject getStaticF_Null();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Handle, addr 0x626e798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x626ea20, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Handle();
 
-  /// @brief Method get_IsEnabled, addr 0x626e350, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method get_IsEnabled, addr 0x626e5d8, size 0xec, virtual true, abstract: false, final true
   inline bool get_IsEnabled();
 
-  /// @brief Method get_IsNull, addr 0x626e2f0, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method get_IsNull, addr 0x626e578, size 0x60, virtual true, abstract: false, final true
   inline bool get_IsNull();
 
-  /// @brief Method get_TrackableType, addr 0x626e7a0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_TrackableType, addr 0x626ea28, size 0xb4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRAnchor_TrackableType get_TrackableType();
 
-  /// @brief Method get_Type, addr 0x626e1f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x626e47c, size 0xc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlugin_SpaceComponentType get_Type();
 
   /// @brief Convert to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRDynamicObject>"
@@ -118,10 +118,10 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRDynamicObject>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::OVRDynamicObject>* i___System__IEquatable_1___GlobalNamespace__OVRDynamicObject_();
 
-  /// @brief Method op_Equality, addr 0x626e4f4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x626e77c, size 0x70, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::OVRDynamicObject lhs, ::GlobalNamespace::OVRDynamicObject rhs);
 
-  /// @brief Method op_Inequality, addr 0x626e564, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x626e7ec, size 0x74, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::OVRDynamicObject lhs, ::GlobalNamespace::OVRDynamicObject rhs);
 
   static inline void setStaticF_Null(::GlobalNamespace::OVRDynamicObject value);

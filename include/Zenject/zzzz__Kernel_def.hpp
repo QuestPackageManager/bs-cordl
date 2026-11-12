@@ -81,24 +81,24 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x736c224, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x736e504, size 0x14, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method FixedTick, addr 0x736c3d4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method FixedTick, addr 0x736e6b4, size 0x14, virtual true, abstract: false, final false
   inline void FixedTick();
 
-  /// @brief Method Initialize, addr 0x736c210, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x736e4f0, size 0x14, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method LateDispose, addr 0x736c238, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method LateDispose, addr 0x736e518, size 0x14, virtual true, abstract: false, final false
   inline void LateDispose();
 
-  /// @brief Method LateTick, addr 0x736c310, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method LateTick, addr 0x736e5f0, size 0x14, virtual true, abstract: false, final false
   inline void LateTick();
 
   static inline ::Zenject::Kernel* New_ctor();
 
-  /// @brief Method Tick, addr 0x736c24c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Tick, addr 0x736e52c, size 0x14, virtual true, abstract: false, final false
   inline void Tick();
 
   constexpr ::Zenject::DisposableManager* const& __cordl_internal_get__disposablesManager() const;
@@ -119,23 +119,23 @@ public:
 
   constexpr void __cordl_internal_set__tickableManager(::Zenject::TickableManager* value);
 
-  /// @brief Method __zenCreate, addr 0x736c49c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x736e77c, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
   /// [Preserve]
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x736c84c, size 0x478, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x736eb2c, size 0x478, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenFieldSetter0, addr 0x736c4e0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter0, addr 0x736e7c0, size 0x124, virtual false, abstract: false, final false
   static inline void __zenFieldSetter0(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenFieldSetter1, addr 0x736c604, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter1, addr 0x736e8e4, size 0x124, virtual false, abstract: false, final false
   static inline void __zenFieldSetter1(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenFieldSetter2, addr 0x736c728, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter2, addr 0x736ea08, size 0x124, virtual false, abstract: false, final false
   static inline void __zenFieldSetter2(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method .ctor, addr 0x736c498, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x736e778, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -171,7 +171,7 @@ public:
   Kernel(Kernel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15691 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15699 };
 
   /// [InjectLocal]
   /// @brief Field _tickableManager, offset: 0x10, size: 0x8, def value: None

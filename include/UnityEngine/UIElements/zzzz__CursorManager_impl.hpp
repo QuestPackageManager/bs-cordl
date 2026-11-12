@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::CursorManager::*)()>(&::UnityEngine::UIElements::CursorManager::get_isCursorOverriden)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x725348c;
+  constexpr static std::size_t addrs = 0x725456c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CursorManager*>(), { "get_isCursorOverriden", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CursorManager::*)(bool)>(&::UnityEngine::UIElements::CursorManager::set_isCursorOverriden)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7253494;
+  constexpr static std::size_t addrs = 0x7254574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CursorManager::*)(::UnityEngine::UIElements::Cursor)>(&::UnityEngine::UIElements::CursorManager::SetCursor)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x725349c;
+  constexpr static std::size_t addrs = 0x725457c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CursorManager::*)()>(&::UnityEngine::UIElements::CursorManager::ResetCursor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x7253598;
+  constexpr static std::size_t addrs = 0x7254678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CursorManager*>(), { "ResetCursor", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CursorManager::*)()>(&::UnityEngine::UIElements::CursorManager::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x7253604;
+  constexpr static std::size_t addrs = 0x72546e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CursorManager*>(), { ".ctor", {}, {} })));

@@ -213,7 +213,7 @@ public:
   DebugDisplayGPUResidentDrawer_Strings(DebugDisplayGPUResidentDrawer_Strings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18142 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18150 };
 
   /// @brief Field drawerSettingsContainerName offset 0xffffffff size 0x8
   static constexpr ::ConstString drawerSettingsContainerName{ u"GPU Resident Drawer Settings" };
@@ -282,49 +282,49 @@ public:
 
   static inline ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c* New_ctor();
 
-  /// @brief Method <AddInstanceCullingStatsWidget>b__3_1, addr 0x6c7b9c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <AddInstanceCullingStatsWidget>b__3_1, addr 0x6c7caa0, size 0x28, virtual false, abstract: false, final false
   inline ::System::Object* _AddInstanceCullingStatsWidget_b__3_1();
 
-  /// @brief Method <AddInstanceCullingStatsWidget>b__3_2, addr 0x6c7b9e8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <AddInstanceCullingStatsWidget>b__3_2, addr 0x6c7cac8, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Object* _AddInstanceCullingStatsWidget_b__3_2();
 
-  /// @brief Method <AddInstanceCullingStatsWidget>b__3_3, addr 0x6c7ba64, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <AddInstanceCullingStatsWidget>b__3_3, addr 0x6c7cb44, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Object* _AddInstanceCullingStatsWidget_b__3_3();
 
-  /// @brief Method <AddInstanceCullingStatsWidget>b__3_4, addr 0x6c7bae0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <AddInstanceCullingStatsWidget>b__3_4, addr 0x6c7cbc0, size 0x80, virtual false, abstract: false, final false
   inline ::System::Object* _AddInstanceCullingStatsWidget_b__3_4();
 
-  /// @brief Method <AddInstanceCullingStatsWidget>b__3_5, addr 0x6c7bb60, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <AddInstanceCullingStatsWidget>b__3_5, addr 0x6c7cc40, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Object* _AddInstanceCullingStatsWidget_b__3_5();
 
-  /// @brief Method <AddInstanceCullingStatsWidget>b__3_6, addr 0x6c7bbdc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <AddInstanceCullingStatsWidget>b__3_6, addr 0x6c7ccbc, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Object* _AddInstanceCullingStatsWidget_b__3_6();
 
-  /// @brief Method <AddInstanceCullingStatsWidget>b__3_7, addr 0x6c7bc58, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <AddInstanceCullingStatsWidget>b__3_7, addr 0x6c7cd38, size 0x80, virtual false, abstract: false, final false
   inline ::System::Object* _AddInstanceCullingStatsWidget_b__3_7();
 
-  /// @brief Method <AddOcclusionContextStatsWidget>b__4_1, addr 0x6c7bcd8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <AddOcclusionContextStatsWidget>b__4_1, addr 0x6c7cdb8, size 0x28, virtual false, abstract: false, final false
   inline ::System::Object* _AddOcclusionContextStatsWidget_b__4_1();
 
-  /// @brief Method <.ctor>b__2_0, addr 0x6c7b414, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__2_0, addr 0x6c7c4f4, size 0x4c, virtual false, abstract: false, final false
   inline ::StringW __ctor_b__2_0();
 
-  /// @brief Method <.ctor>b__2_1, addr 0x6c7b804, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__2_1, addr 0x6c7c8e4, size 0x54, virtual false, abstract: false, final false
   inline bool __ctor_b__2_1();
 
-  /// @brief Method <.ctor>b__2_16, addr 0x6c7b900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__2_16, addr 0x6c7c9e0, size 0x8, virtual false, abstract: false, final false
   inline int32_t __ctor_b__2_16();
 
-  /// @brief Method <.ctor>b__2_17, addr 0x6c7b908, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__2_17, addr 0x6c7c9e8, size 0x64, virtual false, abstract: false, final false
   inline int32_t __ctor_b__2_17();
 
-  /// @brief Method <.ctor>b__2_2, addr 0x6c7b8ac, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__2_2, addr 0x6c7c98c, size 0x54, virtual false, abstract: false, final false
   inline bool __ctor_b__2_2();
 
-  /// @brief Method <.ctor>b__2_26, addr 0x6c7b96c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__2_26, addr 0x6c7ca4c, size 0x54, virtual false, abstract: false, final false
   inline bool __ctor_b__2_26();
 
-  /// @brief Method .ctor, addr 0x6c7b410, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c7c4f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c* getStaticF___9();
@@ -402,7 +402,7 @@ public:
   SettingsPanel_DebugDisplayGPUResidentDrawer___c(SettingsPanel_DebugDisplayGPUResidentDrawer___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18143 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18151 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -429,70 +429,70 @@ public:
 
   constexpr void __cordl_internal_set_data(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* value);
 
-  /// @brief Method <.ctor>b__10, addr 0x6c7be20, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__10, addr 0x6c7cf00, size 0x1c, virtual false, abstract: false, final false
   inline void __ctor_b__10(bool value);
 
-  /// @brief Method <.ctor>b__11, addr 0x6c7be3c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__11, addr 0x6c7cf1c, size 0x18, virtual false, abstract: false, final false
   inline bool __ctor_b__11();
 
-  /// @brief Method <.ctor>b__12, addr 0x6c7be54, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__12, addr 0x6c7cf34, size 0x1c, virtual false, abstract: false, final false
   inline void __ctor_b__12(bool value);
 
-  /// @brief Method <.ctor>b__13, addr 0x6c7be70, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__13, addr 0x6c7cf50, size 0x18, virtual false, abstract: false, final false
   inline int32_t __ctor_b__13();
 
-  /// @brief Method <.ctor>b__14, addr 0x6c7be88, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__14, addr 0x6c7cf68, size 0x18, virtual false, abstract: false, final false
   inline void __ctor_b__14(int32_t value);
 
-  /// @brief Method <.ctor>b__15, addr 0x6c7bea0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__15, addr 0x6c7cf80, size 0x20, virtual false, abstract: false, final false
   inline bool __ctor_b__15();
 
-  /// @brief Method <.ctor>b__18, addr 0x6c7bec0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__18, addr 0x6c7cfa0, size 0x18, virtual false, abstract: false, final false
   inline float_t __ctor_b__18();
 
-  /// @brief Method <.ctor>b__19, addr 0x6c7bed8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__19, addr 0x6c7cfb8, size 0x18, virtual false, abstract: false, final false
   inline void __ctor_b__19(float_t value);
 
-  /// @brief Method <.ctor>b__20, addr 0x6c7bef0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__20, addr 0x6c7cfd0, size 0x20, virtual false, abstract: false, final false
   inline bool __ctor_b__20();
 
-  /// @brief Method <.ctor>b__21, addr 0x6c7bf10, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__21, addr 0x6c7cff0, size 0x18, virtual false, abstract: false, final false
   inline float_t __ctor_b__21();
 
-  /// @brief Method <.ctor>b__22, addr 0x6c7bf28, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__22, addr 0x6c7d008, size 0x18, virtual false, abstract: false, final false
   inline void __ctor_b__22(float_t value);
 
-  /// @brief Method <.ctor>b__23, addr 0x6c7bf40, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__23, addr 0x6c7d020, size 0x20, virtual false, abstract: false, final false
   inline bool __ctor_b__23();
 
-  /// @brief Method <.ctor>b__24, addr 0x6c7bf60, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__24, addr 0x6c7d040, size 0x2c, virtual false, abstract: false, final false
   inline bool __ctor_b__24();
 
-  /// @brief Method <.ctor>b__25, addr 0x6c7bf8c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__25, addr 0x6c7d06c, size 0x2c, virtual false, abstract: false, final false
   inline void __ctor_b__25(bool value);
 
-  /// @brief Method <.ctor>b__3, addr 0x6c7bd00, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__3, addr 0x6c7cde0, size 0x2c, virtual false, abstract: false, final false
   inline bool __ctor_b__3();
 
-  /// @brief Method <.ctor>b__4, addr 0x6c7bd2c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__4, addr 0x6c7ce0c, size 0x2c, virtual false, abstract: false, final false
   inline void __ctor_b__4(bool value);
 
-  /// @brief Method <.ctor>b__5, addr 0x6c7bd58, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__5, addr 0x6c7ce38, size 0x2c, virtual false, abstract: false, final false
   inline bool __ctor_b__5();
 
-  /// @brief Method <.ctor>b__6, addr 0x6c7bd84, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__6, addr 0x6c7ce64, size 0x2c, virtual false, abstract: false, final false
   inline void __ctor_b__6(bool value);
 
-  /// @brief Method <.ctor>b__7, addr 0x6c7bdb0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__7, addr 0x6c7ce90, size 0x2c, virtual false, abstract: false, final false
   inline bool __ctor_b__7();
 
-  /// @brief Method <.ctor>b__8, addr 0x6c7bddc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__8, addr 0x6c7cebc, size 0x2c, virtual false, abstract: false, final false
   inline void __ctor_b__8(bool value);
 
-  /// @brief Method <.ctor>b__9, addr 0x6c7be08, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__9, addr 0x6c7cee8, size 0x18, virtual false, abstract: false, final false
   inline bool __ctor_b__9();
 
-  /// @brief Method .ctor, addr 0x6c7a2c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c7b3a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -510,7 +510,7 @@ public:
   SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass2_0(SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass2_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18144 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18152 };
 
   /// @brief Field data, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* ___data;
@@ -536,13 +536,13 @@ public:
 
   static inline ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <AddInstanceCullingStatsWidget>b__0, addr 0x6c7bfb8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <AddInstanceCullingStatsWidget>b__0, addr 0x6c7d098, size 0x34, virtual false, abstract: false, final false
   inline bool _AddInstanceCullingStatsWidget_b__0();
 
-  /// @brief Method <AddInstanceCullingStatsWidget>b__8, addr 0x6c7bfec, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <AddInstanceCullingStatsWidget>b__8, addr 0x6c7d0cc, size 0x34, virtual false, abstract: false, final false
   inline bool _AddInstanceCullingStatsWidget_b__8();
 
-  /// @brief Method <AddInstanceCullingStatsWidget>b__9, addr 0x6c7c020, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <AddInstanceCullingStatsWidget>b__9, addr 0x6c7d100, size 0x34, virtual false, abstract: false, final false
   inline bool _AddInstanceCullingStatsWidget_b__9();
 
   constexpr ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* const& __cordl_internal_get_data() const;
@@ -551,7 +551,7 @@ public:
 
   constexpr void __cordl_internal_set_data(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* value);
 
-  /// @brief Method .ctor, addr 0x6c7b3b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c7c494, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -569,7 +569,7 @@ public:
   SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass3_0(SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18145 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18153 };
 
   /// @brief Field data, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* ___data;
@@ -595,7 +595,7 @@ public:
 
   static inline ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <AddOcclusionContextStatsWidget>b__0, addr 0x6c7c054, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <AddOcclusionContextStatsWidget>b__0, addr 0x6c7d134, size 0x20, virtual false, abstract: false, final false
   inline bool _AddOcclusionContextStatsWidget_b__0();
 
   constexpr ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* const& __cordl_internal_get_data() const;
@@ -604,7 +604,7 @@ public:
 
   constexpr void __cordl_internal_set_data(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* value);
 
-  /// @brief Method .ctor, addr 0x6c7b3b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c7c498, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -622,7 +622,7 @@ public:
   SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0(SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18146 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18154 };
 
   /// @brief Field data, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* ___data;
@@ -653,18 +653,18 @@ public:
 
   __declspec(property(get = get_Flags)) ::UnityEngine::Rendering::DebugUI_Flags Flags;
 
-  /// @brief Method AddInstanceCullingStatsWidget, addr 0x6c7a6dc, size 0xcd8, virtual false, abstract: false, final false
+  /// @brief Method AddInstanceCullingStatsWidget, addr 0x6c7b7bc, size 0xcd8, virtual false, abstract: false, final false
   inline void AddInstanceCullingStatsWidget(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* data);
 
-  /// @brief Method AddOcclusionContextStatsWidget, addr 0x6c7a2c8, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method AddOcclusionContextStatsWidget, addr 0x6c7b3a8, size 0x414, virtual false, abstract: false, final false
   inline void AddOcclusionContextStatsWidget(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* data);
 
   static inline ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel* New_ctor(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* data);
 
-  /// @brief Method .ctor, addr 0x6c78bf4, size 0x144c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c79cd4, size 0x144c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* data);
 
-  /// @brief Method get_Flags, addr 0x6c7a2bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Flags, addr 0x6c7b39c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::DebugUI_Flags get_Flags();
 
 protected:
@@ -682,7 +682,7 @@ public:
   DebugDisplayGPUResidentDrawer_SettingsPanel(DebugDisplayGPUResidentDrawer_SettingsPanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18147 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18155 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -703,25 +703,25 @@ public:
 
   static inline ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0* New_ctor();
 
-  /// @brief Method <AddInstanceCullerViewDataRow>b__0, addr 0x6c7c074, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <AddInstanceCullerViewDataRow>b__0, addr 0x6c7d154, size 0x1c, virtual false, abstract: false, final false
   inline bool _AddInstanceCullerViewDataRow_b__0();
 
-  /// @brief Method <AddInstanceCullerViewDataRow>b__1, addr 0x6c7c090, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <AddInstanceCullerViewDataRow>b__1, addr 0x6c7d170, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Object* _AddInstanceCullerViewDataRow_b__1();
 
-  /// @brief Method <AddInstanceCullerViewDataRow>b__2, addr 0x6c7c0fc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <AddInstanceCullerViewDataRow>b__2, addr 0x6c7d1dc, size 0x38, virtual false, abstract: false, final false
   inline ::System::Object* _AddInstanceCullerViewDataRow_b__2();
 
-  /// @brief Method <AddInstanceCullerViewDataRow>b__3, addr 0x6c7c134, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <AddInstanceCullerViewDataRow>b__3, addr 0x6c7d214, size 0x38, virtual false, abstract: false, final false
   inline ::System::Object* _AddInstanceCullerViewDataRow_b__3();
 
-  /// @brief Method <AddInstanceCullerViewDataRow>b__4, addr 0x6c7c16c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method <AddInstanceCullerViewDataRow>b__4, addr 0x6c7d24c, size 0xbc, virtual false, abstract: false, final false
   inline ::System::Object* _AddInstanceCullerViewDataRow_b__4();
 
-  /// @brief Method <AddInstanceCullerViewDataRow>b__5, addr 0x6c7c228, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method <AddInstanceCullerViewDataRow>b__5, addr 0x6c7d308, size 0xbc, virtual false, abstract: false, final false
   inline ::System::Object* _AddInstanceCullerViewDataRow_b__5();
 
-  /// @brief Method <AddInstanceCullerViewDataRow>b__6, addr 0x6c7c2e4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <AddInstanceCullerViewDataRow>b__6, addr 0x6c7d3c4, size 0x38, virtual false, abstract: false, final false
   inline ::System::Object* _AddInstanceCullerViewDataRow_b__6();
 
   constexpr int32_t const& __cordl_internal_get_viewIndex() const;
@@ -730,7 +730,7 @@ public:
 
   constexpr void __cordl_internal_set_viewIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6c77a64, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c78b44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -748,7 +748,7 @@ public:
   DebugDisplayGPUResidentDrawer___c__DisplayClass29_0(DebugDisplayGPUResidentDrawer___c__DisplayClass29_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18148 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18156 };
 
   /// @brief Field viewIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ___viewIndex;
@@ -774,34 +774,34 @@ public:
 
   static inline ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass36_0* New_ctor();
 
-  /// @brief Method <AddInstanceOcclusionPassDataRow>b__0, addr 0x6c7c31c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <AddInstanceOcclusionPassDataRow>b__0, addr 0x6c7d3fc, size 0x1c, virtual false, abstract: false, final false
   inline bool _AddInstanceOcclusionPassDataRow_b__0();
 
-  /// @brief Method <AddInstanceOcclusionPassDataRow>b__1, addr 0x6c7c338, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <AddInstanceOcclusionPassDataRow>b__1, addr 0x6c7d418, size 0x38, virtual false, abstract: false, final false
   inline ::System::Object* _AddInstanceOcclusionPassDataRow_b__1();
 
-  /// @brief Method <AddInstanceOcclusionPassDataRow>b__2, addr 0x6c7c370, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method <AddInstanceOcclusionPassDataRow>b__2, addr 0x6c7d450, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Object* _AddInstanceOcclusionPassDataRow_b__2();
 
-  /// @brief Method <AddInstanceOcclusionPassDataRow>b__3, addr 0x6c7c428, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <AddInstanceOcclusionPassDataRow>b__3, addr 0x6c7d508, size 0x28, virtual false, abstract: false, final false
   inline ::System::Object* _AddInstanceOcclusionPassDataRow_b__3();
 
-  /// @brief Method <AddInstanceOcclusionPassDataRow>b__4, addr 0x6c7c450, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <AddInstanceOcclusionPassDataRow>b__4, addr 0x6c7d530, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Object* _AddInstanceOcclusionPassDataRow_b__4();
 
-  /// @brief Method <AddInstanceOcclusionPassDataRow>b__5, addr 0x6c7c4f4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <AddInstanceOcclusionPassDataRow>b__5, addr 0x6c7d5d4, size 0x94, virtual false, abstract: false, final false
   inline ::System::Object* _AddInstanceOcclusionPassDataRow_b__5();
 
-  /// @brief Method <AddInstanceOcclusionPassDataRow>b__6, addr 0x6c7c588, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <AddInstanceOcclusionPassDataRow>b__6, addr 0x6c7d668, size 0x28, virtual false, abstract: false, final false
   inline ::System::Object* _AddInstanceOcclusionPassDataRow_b__6();
 
-  /// @brief Method <AddInstanceOcclusionPassDataRow>b__7, addr 0x6c7c5b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <AddInstanceOcclusionPassDataRow>b__7, addr 0x6c7d690, size 0x28, virtual false, abstract: false, final false
   inline ::System::Object* _AddInstanceOcclusionPassDataRow_b__7();
 
-  /// @brief Method <AddInstanceOcclusionPassDataRow>b__8, addr 0x6c7c5d8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <AddInstanceOcclusionPassDataRow>b__8, addr 0x6c7d6b8, size 0x28, virtual false, abstract: false, final false
   inline ::System::Object* _AddInstanceOcclusionPassDataRow_b__8();
 
-  /// @brief Method <AddInstanceOcclusionPassDataRow>b__9, addr 0x6c7c600, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <AddInstanceOcclusionPassDataRow>b__9, addr 0x6c7d6e0, size 0x28, virtual false, abstract: false, final false
   inline ::System::Object* _AddInstanceOcclusionPassDataRow_b__9();
 
   constexpr int32_t const& __cordl_internal_get_eventIndex() const;
@@ -810,7 +810,7 @@ public:
 
   constexpr void __cordl_internal_set_eventIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6c786ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c797cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -828,7 +828,7 @@ public:
   DebugDisplayGPUResidentDrawer___c__DisplayClass36_0(DebugDisplayGPUResidentDrawer___c__DisplayClass36_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18149 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18157 };
 
   /// @brief Field eventIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ___eventIndex;
@@ -854,16 +854,16 @@ public:
 
   static inline ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass37_0* New_ctor();
 
-  /// @brief Method <AddOcclusionContextDataRow>b__0, addr 0x6c7c628, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <AddOcclusionContextDataRow>b__0, addr 0x6c7d708, size 0x1c, virtual false, abstract: false, final false
   inline bool _AddOcclusionContextDataRow_b__0();
 
-  /// @brief Method <AddOcclusionContextDataRow>b__1, addr 0x6c7c644, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <AddOcclusionContextDataRow>b__1, addr 0x6c7d724, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Object* _AddOcclusionContextDataRow_b__1();
 
-  /// @brief Method <AddOcclusionContextDataRow>b__2, addr 0x6c7c670, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <AddOcclusionContextDataRow>b__2, addr 0x6c7d750, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Object* _AddOcclusionContextDataRow_b__2();
 
-  /// @brief Method <AddOcclusionContextDataRow>b__3, addr 0x6c7c69c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method <AddOcclusionContextDataRow>b__3, addr 0x6c7d77c, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Object* _AddOcclusionContextDataRow_b__3();
 
   constexpr int32_t const& __cordl_internal_get_index() const;
@@ -872,7 +872,7 @@ public:
 
   constexpr void __cordl_internal_set_index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6c78b5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c79c3c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -890,7 +890,7 @@ public:
   DebugDisplayGPUResidentDrawer___c__DisplayClass37_0(DebugDisplayGPUResidentDrawer___c__DisplayClass37_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18150 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18158 };
 
   /// @brief Field index, offset: 0x10, size: 0x4, def value: None
   int32_t ___index;
@@ -952,60 +952,60 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IDebugDisplaySettingsQuery"
   constexpr operator ::UnityEngine::Rendering::IDebugDisplaySettingsQuery*() noexcept;
 
-  /// @brief Method AddInstanceCullerViewDataRow, addr 0x6c77320, size 0x744, virtual false, abstract: false, final false
+  /// @brief Method AddInstanceCullerViewDataRow, addr 0x6c78400, size 0x744, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Table_DebugUI_Row* AddInstanceCullerViewDataRow(int32_t viewIndex);
 
-  /// @brief Method AddInstanceOcclusionPassDataRow, addr 0x6c77d40, size 0x9ac, virtual false, abstract: false, final false
+  /// @brief Method AddInstanceOcclusionPassDataRow, addr 0x6c78e20, size 0x9ac, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Table_DebugUI_Row* AddInstanceOcclusionPassDataRow(int32_t eventIndex);
 
-  /// @brief Method AddOcclusionContextDataRow, addr 0x6c786f0, size 0x46c, virtual false, abstract: false, final false
+  /// @brief Method AddOcclusionContextDataRow, addr 0x6c797d0, size 0x46c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Table_DebugUI_Row* AddOcclusionContextDataRow(int32_t index);
 
-  /// @brief Method CulledInstancesString, addr 0x6c77be4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CulledInstancesString, addr 0x6c78cc4, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Object* CulledInstancesString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const> stats);
 
-  /// @brief Method CulledPrimitivesString, addr 0x6c77ccc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CulledPrimitivesString, addr 0x6c78dac, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Object* CulledPrimitivesString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const> stats);
 
-  /// @brief Method GetInstanceCullerViewCount, addr 0x6c77248, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetInstanceCullerViewCount, addr 0x6c78328, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t GetInstanceCullerViewCount();
 
-  /// @brief Method GetInstanceCullerViewStats, addr 0x6c76f58, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetInstanceCullerViewStats, addr 0x6c78038, size 0xd8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::InstanceCullerViewStats GetInstanceCullerViewStats(int32_t viewIndex);
 
-  /// @brief Method GetInstanceOcclusionEventCount, addr 0x6c772b4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetInstanceOcclusionEventCount, addr 0x6c78394, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t GetInstanceOcclusionEventCount();
 
-  /// @brief Method GetInstanceOcclusionEventStats, addr 0x6c77030, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetInstanceOcclusionEventStats, addr 0x6c78110, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::InstanceOcclusionEventStats GetInstanceOcclusionEventStats(int32_t passIndex);
 
-  /// @brief Method GetOccluderStats, addr 0x6c77118, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetOccluderStats, addr 0x6c781f8, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugOccluderStats GetOccluderStats(int32_t occluderIndex);
 
-  /// @brief Method GetOccluderViewInstanceID, addr 0x6c76dac, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetOccluderViewInstanceID, addr 0x6c77e8c, size 0xec, virtual false, abstract: false, final false
   inline bool GetOccluderViewInstanceID(::by_ref<int32_t> viewInstanceID);
 
-  /// @brief Method GetOcclusionContextsCounts, addr 0x6c771dc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetOcclusionContextsCounts, addr 0x6c782bc, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t GetOcclusionContextsCounts();
 
   static inline ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* New_ctor();
 
-  /// @brief Method OccluderVersionString, addr 0x6c77a68, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OccluderVersionString, addr 0x6c78b48, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Object* OccluderVersionString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const> stats);
 
-  /// @brief Method OcclusionTestString, addr 0x6c77ae8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OcclusionTestString, addr 0x6c78bc8, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Object* OcclusionTestString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const> stats);
 
-  /// @brief Method TryGetScreenClearColor, addr 0x6c78b90, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method TryGetScreenClearColor, addr 0x6c79c70, size 0x8, virtual true, abstract: false, final true
   inline bool TryGetScreenClearColor(::by_ref<::UnityEngine::Color> color);
 
-  /// @brief Method UnityEngine.Rendering.IDebugDisplaySettingsData.CreatePanel, addr 0x6c78b98, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IDebugDisplaySettingsData.CreatePanel, addr 0x6c79c78, size 0x5c, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable* UnityEngine_Rendering_IDebugDisplaySettingsData_CreatePanel();
 
-  /// @brief Method VisibleInstancesString, addr 0x6c77b70, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method VisibleInstancesString, addr 0x6c78c50, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Object* VisibleInstancesString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const> stats);
 
-  /// @brief Method VisiblePrimitivesString, addr 0x6c77c58, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method VisiblePrimitivesString, addr 0x6c78d38, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Object* VisiblePrimitivesString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats const> stats);
 
   constexpr bool const& __cordl_internal_get_occluderContextStats() const;
@@ -1032,28 +1032,28 @@ public:
 
   constexpr void __cordl_internal_set_occluderDebugViewRange(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x6c7a040, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c7b120, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AreAnySettingsActive, addr 0x6c78b60, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_AreAnySettingsActive, addr 0x6c79c40, size 0x20, virtual true, abstract: false, final true
   inline bool get_AreAnySettingsActive();
 
-  /// @brief Method get_IsLightingActive, addr 0x6c78b88, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsLightingActive, addr 0x6c79c68, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsLightingActive();
 
-  /// @brief Method get_IsPostProcessingAllowed, addr 0x6c78b80, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsPostProcessingAllowed, addr 0x6c79c60, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsPostProcessingAllowed();
 
-  /// @brief Method get_displayBatcherStats, addr 0x6c76d04, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_displayBatcherStats, addr 0x6c77de4, size 0x20, virtual false, abstract: false, final false
   inline bool get_displayBatcherStats();
 
-  /// @brief Method get_occlusionTestOverlayCountVisible, addr 0x6c76ed8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_occlusionTestOverlayCountVisible, addr 0x6c77fb8, size 0x20, virtual false, abstract: false, final false
   inline bool get_occlusionTestOverlayCountVisible();
 
-  /// @brief Method get_occlusionTestOverlayEnable, addr 0x6c76e98, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_occlusionTestOverlayEnable, addr 0x6c77f78, size 0x20, virtual false, abstract: false, final false
   inline bool get_occlusionTestOverlayEnable();
 
-  /// @brief Method get_overrideOcclusionTestToAlwaysPass, addr 0x6c76f18, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_overrideOcclusionTestToAlwaysPass, addr 0x6c77ff8, size 0x20, virtual false, abstract: false, final false
   inline bool get_overrideOcclusionTestToAlwaysPass();
 
   /// @brief Convert to "::UnityEngine::Rendering::IDebugDisplaySettingsData"
@@ -1062,16 +1062,16 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::IDebugDisplaySettingsQuery"
   constexpr ::UnityEngine::Rendering::IDebugDisplaySettingsQuery* i___UnityEngine__Rendering__IDebugDisplaySettingsQuery() noexcept;
 
-  /// @brief Method set_displayBatcherStats, addr 0x6c76d8c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_displayBatcherStats, addr 0x6c77e6c, size 0x20, virtual false, abstract: false, final false
   inline void set_displayBatcherStats(bool value);
 
-  /// @brief Method set_occlusionTestOverlayCountVisible, addr 0x6c76ef8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_occlusionTestOverlayCountVisible, addr 0x6c77fd8, size 0x20, virtual false, abstract: false, final false
   inline void set_occlusionTestOverlayCountVisible(bool value);
 
-  /// @brief Method set_occlusionTestOverlayEnable, addr 0x6c76eb8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_occlusionTestOverlayEnable, addr 0x6c77f98, size 0x20, virtual false, abstract: false, final false
   inline void set_occlusionTestOverlayEnable(bool value);
 
-  /// @brief Method set_overrideOcclusionTestToAlwaysPass, addr 0x6c76f38, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_overrideOcclusionTestToAlwaysPass, addr 0x6c78018, size 0x20, virtual false, abstract: false, final false
   inline void set_overrideOcclusionTestToAlwaysPass(bool value);
 
 protected:
@@ -1089,7 +1089,7 @@ public:
   DebugDisplayGPUResidentDrawer(DebugDisplayGPUResidentDrawer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18151 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18159 };
 
   /// @brief Field k_FormatString offset 0xffffffff size 0x8
   static constexpr ::ConstString k_FormatString{ u"{0}" };

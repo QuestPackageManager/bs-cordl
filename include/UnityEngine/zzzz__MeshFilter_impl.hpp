@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::MeshFilter::*)()>(&::UnityEngine::MeshFilter::DontStripMeshFilter)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6f37160;
+  constexpr static std::size_t addrs = 0x6f38240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::MeshFilter*>(), { "DontStripMeshFilter", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Mesh> (::UnityEngine::MeshFilter::*)()>(&::UnityEngine::MeshFilter::get_sharedMesh)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6f37164;
+  constexpr static std::size_t addrs = 0x6f38244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::MeshFilter*>(), { "get_sharedMesh", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::MeshFilter::*)(::UnityEngine::Mesh*)>(&::UnityEngine::MeshFilter::set_sharedMesh)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6f372f0;
+  constexpr static std::size_t addrs = 0x6f383d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Mesh> (::UnityEngine::MeshFilter::*)()>(&::UnityEngine::MeshFilter::get_mesh)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6f373f4;
+  constexpr static std::size_t addrs = 0x6f384d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::MeshFilter*>(), { "get_mesh", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::MeshFilter::*)(::UnityEngine::Mesh*)>(&::UnityEngine::MeshFilter::set_mesh)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6f37580;
+  constexpr static std::size_t addrs = 0x6f38660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::MeshFilter::*)()>(&::UnityEngine::MeshFilter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f37684;
+  constexpr static std::size_t addrs = 0x6f38764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::MeshFilter*>(), { ".ctor", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::MeshFilter::get_sharedMesh_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f372b4;
+  constexpr static std::size_t addrs = 0x6f38394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::MeshFilter::set_sharedMesh_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f373b0;
+  constexpr static std::size_t addrs = 0x6f38490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::MeshFilter::get_mesh_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f37544;
+  constexpr static std::size_t addrs = 0x6f38624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::MeshFilter::set_mesh_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f37640;
+  constexpr static std::size_t addrs = 0x6f38720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

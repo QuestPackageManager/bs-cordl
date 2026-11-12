@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set_Root(::System::Text::RegularExpressions::RegexNode* value);
 
-  /// @brief Method .ctor, addr 0x67f4684, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67f4cd4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::RegularExpressions::RegexNode* root, ::System::Collections::Hashtable* caps, ::ArrayW<int32_t> capNumList, int32_t capTop,
                     ::System::Collections::Hashtable* capNames, ::ArrayW<::StringW> capsList, ::System::Text::RegularExpressions::RegexOptions options);
 

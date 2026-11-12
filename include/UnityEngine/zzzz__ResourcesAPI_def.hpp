@@ -36,35 +36,35 @@ public:
   /// @brief Field s_DefaultAPI, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_DefaultAPI, put = setStaticF_s_DefaultAPI)) ::UnityEngine::ResourcesAPI* s_DefaultAPI;
 
-  /// @brief Method FindObjectsOfTypeAll, addr 0x6f7043c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method FindObjectsOfTypeAll, addr 0x6f7151c, size 0x3c, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Object>> FindObjectsOfTypeAll(::System::Type* systemTypeInstance);
 
-  /// @brief Method FindShaderByName, addr 0x6f70478, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method FindShaderByName, addr 0x6f71558, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> FindShaderByName(::StringW name);
 
-  /// @brief Method Load, addr 0x6f70480, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Load, addr 0x6f71560, size 0xc, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> Load(::StringW path, ::System::Type* systemTypeInstance);
 
-  /// @brief Method LoadAll, addr 0x6f7048c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method LoadAll, addr 0x6f7156c, size 0xc, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Object>> LoadAll(::StringW path, ::System::Type* systemTypeInstance);
 
   static inline ::UnityEngine::ResourcesAPI* New_ctor();
 
-  /// @brief Method UnloadAsset, addr 0x6f70498, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method UnloadAsset, addr 0x6f71578, size 0x8, virtual true, abstract: false, final false
   inline void UnloadAsset(::UnityEngine::Object* assetToUnload);
 
-  /// @brief Method .ctor, addr 0x6f70438, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f71518, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ResourcesAPI* getStaticF__overrideAPI_k__BackingField();
 
   static inline ::UnityEngine::ResourcesAPI* getStaticF_s_DefaultAPI();
 
-  /// @brief Method get_ActiveAPI, addr 0x6f70328, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_ActiveAPI, addr 0x6f71408, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourcesAPI* get_ActiveAPI();
 
   /// [CompilerGenerated]
-  /// @brief Method get_overrideAPI, addr 0x6f703dc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_overrideAPI, addr 0x6f714bc, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourcesAPI* get_overrideAPI();
 
   static inline void setStaticF__overrideAPI_k__BackingField(::UnityEngine::ResourcesAPI* value);

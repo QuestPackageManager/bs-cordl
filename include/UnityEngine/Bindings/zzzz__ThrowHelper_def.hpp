@@ -25,11 +25,11 @@ class CORDL_TYPE ThrowHelper : public ::System::Object {
 public:
   // Declarations
   /// [DoesNotReturn]
-  /// @brief Method ThrowArgumentNullException, addr 0x6f816c4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ThrowArgumentNullException, addr 0x6f827a4, size 0x50, virtual false, abstract: false, final false
   static inline void ThrowArgumentNullException(::System::Object* obj, ::StringW parameterName);
 
   /// [DoesNotReturn]
-  /// @brief Method ThrowNullReferenceException, addr 0x6f817f0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ThrowNullReferenceException, addr 0x6f828d0, size 0x44, virtual false, abstract: false, final false
   static inline void ThrowNullReferenceException(::System::Object* obj);
 
 protected:

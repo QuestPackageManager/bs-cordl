@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::*)()>(&::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::IsActive)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6cfb4ac;
+  constexpr static std::size_t addrs = 0x6cfc58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare*>(), { "IsActive", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::IsStreaksActive)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6cfb4dc;
+  constexpr static std::size_t addrs = 0x6cfc5bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::IsTileCompatible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cfb50c;
+  constexpr static std::size_t addrs = 0x6cfc5ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::*)()>(&::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::_ctor)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x6cfb514;
+  constexpr static std::size_t addrs = 0x6cfc5f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare*>(), { ".ctor", {}, {} })));

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::XR::XRDeviceDescriptor::*)()>(&::UnityEngine::InputSystem::XR::XRDeviceDescriptor::ToJson)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f3434;
+  constexpr static std::size_t addrs = 0x69f4514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::XRDeviceDescriptor*>(), { "ToJson", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::XR::XRDeviceDescriptor* (*)(::StringW)>(&::UnityEngine::InputSystem::XR::XRDeviceDescriptor::FromJson)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x69f01dc;
+  constexpr static std::size_t addrs = 0x69f12bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::XRDeviceDescriptor::*)()>(&::UnityEngine::InputSystem::XR::XRDeviceDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69f343c;
+  constexpr static std::size_t addrs = 0x69f451c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::XRDeviceDescriptor*>(), { ".ctor", {}, {} })));

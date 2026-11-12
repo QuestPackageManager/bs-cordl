@@ -61,7 +61,7 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::TextAsset* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x70914f8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x70925d8, size 0x4, virtual true, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityEngine::EntityId const& __cordl_internal_get_m_EntityId() const;
@@ -100,37 +100,37 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x7091308, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70923e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_entityId, addr 0x70913c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_entityId, addr 0x70924a4, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::EntityId get_entityId();
 
-  /// @brief Method get_hashCode, addr 0x7091414, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_hashCode, addr 0x70924f4, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_hashCode();
 
-  /// @brief Method get_instanceID, addr 0x70913ec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_instanceID, addr 0x70924cc, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_instanceID();
 
-  /// @brief Method get_material, addr 0x7091448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_material, addr 0x7092528, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_material();
 
-  /// @brief Method get_materialHashCode, addr 0x7091458, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_materialHashCode, addr 0x7092538, size 0x98, virtual false, abstract: false, final false
   inline int32_t get_materialHashCode();
 
-  /// @brief Method get_version, addr 0x70913b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x7092494, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_version();
 
-  /// @brief Method set_hashCode, addr 0x7091440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hashCode, addr 0x7092520, size 0x8, virtual false, abstract: false, final false
   inline void set_hashCode(int32_t value);
 
-  /// @brief Method set_material, addr 0x7091450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_material, addr 0x7092530, size 0x8, virtual false, abstract: false, final false
   inline void set_material(::UnityEngine::Material* value);
 
-  /// @brief Method set_materialHashCode, addr 0x70914f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_materialHashCode, addr 0x70925d0, size 0x8, virtual false, abstract: false, final false
   inline void set_materialHashCode(int32_t value);
 
-  /// @brief Method set_version, addr 0x70913bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_version, addr 0x709249c, size 0x8, virtual false, abstract: false, final false
   inline void set_version(::StringW value);
 
 protected:
@@ -148,7 +148,7 @@ public:
   TextAsset(TextAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17862 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17870 };
 
   /// [SerializeField]
   /// @brief Field m_Version, offset: 0x18, size: 0x8, def value: None

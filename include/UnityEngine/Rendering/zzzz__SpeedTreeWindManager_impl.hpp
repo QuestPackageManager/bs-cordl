@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::ReadOnlySpan_1<int32_t>, ::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator, bool)>(
     &::UnityEngine::Rendering::SpeedTreeWindManager::UpdateWindAndWriteBufferWindParams)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x70582a0;
+  constexpr static std::size_t addrs = 0x7059380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator const>,
                                                                 bool)>(&::UnityEngine::Rendering::SpeedTreeWindManager::UpdateWindAndWriteBufferWindParams_Injected)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x7058358;
+  constexpr static std::size_t addrs = 0x7059438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

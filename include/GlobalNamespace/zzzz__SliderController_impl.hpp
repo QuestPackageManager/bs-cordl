@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Pool_SliderController_Short::*)()>(&::GlobalNamespace::Pool_SliderController_Short::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5dd1bbc;
+  constexpr static std::size_t addrs = 0x5dd1cd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Pool_SliderController_Short*>(), { ".ctor", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Pool_SliderController_Medium::*)()>(&::GlobalNamespace::Pool_SliderController_Medium::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5dd1bf8;
+  constexpr static std::size_t addrs = 0x5dd1d14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Pool_SliderController_Medium*>(), { ".ctor", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Pool_SliderController_Long::*)()>(&::GlobalNamespace::Pool_SliderController_Long::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5dd1c34;
+  constexpr static std::size_t addrs = 0x5dd1d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Pool_SliderController_Long*>(), { ".ctor", {}, {} })));
@@ -118,7 +118,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::VariableMovementDataProvider*, ::GlobalNamespace::Pool_SliderController_Short*, ::GlobalNamespace::Pool_SliderController_Medium*,
     ::GlobalNamespace::Pool_SliderController_Long*)>(&::GlobalNamespace::SliderController_Pool::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5dd1a5c;
+  constexpr static std::size_t addrs = 0x5dd1b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::SliderController>>* (
     ::GlobalNamespace::SliderController_Pool::*)(::GlobalNamespace::SliderController_LengthType)>(&::GlobalNamespace::SliderController_Pool::GetPool)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5dd1a68;
+  constexpr static std::size_t addrs = 0x5dd1b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SliderController_LengthType (::GlobalNamespace::SliderController_Pool::*)(
     ::GlobalNamespace::SliderData*, ::GlobalNamespace::SliderSpawnData)>(&::GlobalNamespace::SliderController_Pool::GetLengthFromSliderData)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5dd1b18;
+  constexpr static std::size_t addrs = 0x5dd1c34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderController__DissolveCoroutine_d__72::*)(int32_t)>(
     &::GlobalNamespace::SliderController__DissolveCoroutine_d__72::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd0ffc;
+  constexpr static std::size_t addrs = 0x5dd1118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderController__DissolveCoroutine_d__72::*)()>(
     &::GlobalNamespace::SliderController__DissolveCoroutine_d__72::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5dd1c70;
+  constexpr static std::size_t addrs = 0x5dd1d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SliderController__DissolveCoroutine_d__72::*)()>(
     &::GlobalNamespace::SliderController__DissolveCoroutine_d__72::MoveNext)> {
   constexpr static std::size_t size = 0x35c;
-  constexpr static std::size_t addrs = 0x5dd1c74;
+  constexpr static std::size_t addrs = 0x5dd1d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController__DissolveCoroutine_d__72*>(), { "MoveNext", {}, {} })));
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SliderController__DissolveCoroutine_d__72::*)()>(
     &::GlobalNamespace::SliderController__DissolveCoroutine_d__72::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd1fd0;
+  constexpr static std::size_t addrs = 0x5dd20ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController__DissolveCoroutine_d__72*>(),
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderController__DissolveCoroutine_d__72::*)()>(
     &::GlobalNamespace::SliderController__DissolveCoroutine_d__72::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5dd1fd8;
+  constexpr static std::size_t addrs = 0x5dd20f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -313,7 +313,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SliderController__DissolveCoroutine_d__72::*)()>(
     &::GlobalNamespace::SliderController__DissolveCoroutine_d__72::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd2010;
+  constexpr static std::size_t addrs = 0x5dd212c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -435,7 +435,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::ISliderDidFinishJumpEvent*>* (::GlobalNamespace::SliderController::*)()>(
     &::GlobalNamespace::SliderController::get_sliderDidFinishJumpEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dce1dc;
+  constexpr static std::size_t addrs = 0x5dce2f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "get_sliderDidFinishJumpEvent", {}, {} })));
@@ -448,7 +448,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::ISliderDidStartDissolvingEvent*>* (::GlobalNamespace::SliderController::*)()>(
     &::GlobalNamespace::SliderController::get_sliderDidStartDissolvingEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dce1e4;
+  constexpr static std::size_t addrs = 0x5dce300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "get_sliderDidStartDissolvingEvent", {}, {} })));
@@ -461,7 +461,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::ISliderDidDissolveEvent*>* (::GlobalNamespace::SliderController::*)()>(
     &::GlobalNamespace::SliderController::get_sliderDidDissolveEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dce1ec;
+  constexpr static std::size_t addrs = 0x5dce308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "get_sliderDidDissolveEvent", {}, {} })));
@@ -474,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::ISliderHeadDidMovePastCutMarkEvent*>* (::GlobalNamespace::SliderController::*)()>(
     &::GlobalNamespace::SliderController::get_sliderHeadDidMovePastCutMark)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dce1f4;
+  constexpr static std::size_t addrs = 0x5dce310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "get_sliderHeadDidMovePastCutMark", {}, {} })));
@@ -487,7 +487,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::ISliderTailDidMovePastCutMarkEvent*>* (::GlobalNamespace::SliderController::*)()>(
     &::GlobalNamespace::SliderController::get_sliderTailDidMovePastCutMark)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dce1fc;
+  constexpr static std::size_t addrs = 0x5dce318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "get_sliderTailDidMovePastCutMark", {}, {} })));
@@ -500,7 +500,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SliderController_LengthType (::GlobalNamespace::SliderController::*)()>(
     &::GlobalNamespace::SliderController::get_lengthType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dce204;
+  constexpr static std::size_t addrs = 0x5dce320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "get_lengthType", {}, {} })));
@@ -512,7 +512,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SliderData* (::GlobalNamespace::SliderController::*)()>(&::GlobalNamespace::SliderController::get_sliderData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dce20c;
+  constexpr static std::size_t addrs = 0x5dce328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "get_sliderData", {}, {} })));
@@ -524,7 +524,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SliderSpawnData (::GlobalNamespace::SliderController::*)()>(&::GlobalNamespace::SliderController::get_sliderSpawnData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5dce214;
+  constexpr static std::size_t addrs = 0x5dce330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "get_sliderSpawnData", {}, {} })));
@@ -536,7 +536,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::SliderController::*)()>(&::GlobalNamespace::SliderController::get_saberInteractionParam)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5dce220;
+  constexpr static std::size_t addrs = 0x5dce33c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "get_saberInteractionParam", {}, {} })));
@@ -549,7 +549,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::SliderMeshController> (::GlobalNamespace::SliderController::*)()>(
     &::GlobalNamespace::SliderController::get_sliderMeshController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dce284;
+  constexpr static std::size_t addrs = 0x5dce3a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "get_sliderMeshController", {}, {} })));
@@ -562,7 +562,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::SliderMovement> (::GlobalNamespace::SliderController::*)()>(
     &::GlobalNamespace::SliderController::get_sliderMovement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dce28c;
+  constexpr static std::size_t addrs = 0x5dce3a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "get_sliderMovement", {}, {} })));
@@ -574,7 +574,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::SliderController::*)()>(&::GlobalNamespace::SliderController::get_initColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5dce294;
+  constexpr static std::size_t addrs = 0x5dce3b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "get_initColor", {}, {} })));
@@ -586,7 +586,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::SliderController::*)()>(&::GlobalNamespace::SliderController::get_randomValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dce2a0;
+  constexpr static std::size_t addrs = 0x5dce3bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "get_randomValue", {}, {} })));
@@ -598,7 +598,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::SliderController::*)()>(&::GlobalNamespace::SliderController::get_zDistanceBetweenNotes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dce2a8;
+  constexpr static std::size_t addrs = 0x5dce3c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "get_zDistanceBetweenNotes", {}, {} })));
@@ -610,7 +610,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::SliderController::*)()>(&::GlobalNamespace::SliderController::get_sliderDuration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dce2b0;
+  constexpr static std::size_t addrs = 0x5dce3cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "get_sliderDuration", {}, {} })));
@@ -622,7 +622,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::SliderController::*)()>(&::GlobalNamespace::SliderController::get_jumpOffsetY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dce2b8;
+  constexpr static std::size_t addrs = 0x5dce3d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "get_jumpOffsetY", {}, {} })));
@@ -635,7 +635,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::FixedUpdateVector3SmoothValue* (::GlobalNamespace::SliderController::*)()>(
     &::GlobalNamespace::SliderController::get_closeSmoothedSaberInteractionPos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dce2c0;
+  constexpr static std::size_t addrs = 0x5dce3dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -649,7 +649,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::SliderIntensityEffect> (::GlobalNamespace::SliderController::*)()>(
     &::GlobalNamespace::SliderController::get_sliderIntensityEffect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dce2c8;
+  constexpr static std::size_t addrs = 0x5dce3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "get_sliderIntensityEffect", {}, {} })));
@@ -663,7 +663,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                      ::by_ref<::GlobalNamespace::SliderSpawnData const>, float_t, float_t)>(
     &::GlobalNamespace::SliderController::Init)> {
   constexpr static std::size_t size = 0x478;
-  constexpr static std::size_t addrs = 0x5dce2d0;
+  constexpr static std::size_t addrs = 0x5dce3ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -680,7 +680,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderController::*)()>(&::GlobalNamespace::SliderController::Awake)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x5dcf824;
+  constexpr static std::size_t addrs = 0x5dcf940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "Awake", {}, {} })));
@@ -692,7 +692,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderController::*)()>(&::GlobalNamespace::SliderController::Start)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5dcfc0c;
+  constexpr static std::size_t addrs = 0x5dcfd28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "Start", {}, {} })));
@@ -704,7 +704,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderController::*)()>(&::GlobalNamespace::SliderController::OnDestroy)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x5dcfe40;
+  constexpr static std::size_t addrs = 0x5dcff5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "OnDestroy", {}, {} })));
@@ -716,7 +716,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderController::*)()>(&::GlobalNamespace::SliderController::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5dd0460;
+  constexpr static std::size_t addrs = 0x5dd057c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "Update", {}, {} })));
@@ -728,7 +728,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderController::*)()>(&::GlobalNamespace::SliderController::FixedUpdate)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5dd0604;
+  constexpr static std::size_t addrs = 0x5dd0720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "FixedUpdate", {}, {} })));
@@ -740,7 +740,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderController::*)()>(&::GlobalNamespace::SliderController::ManualUpdate)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x5dd0464;
+  constexpr static std::size_t addrs = 0x5dd0580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "ManualUpdate", {}, {} })));
@@ -752,7 +752,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderController::*)(float_t)>(&::GlobalNamespace::SliderController::UpdateMaterialPropertyBlock)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5dcf74c;
+  constexpr static std::size_t addrs = 0x5dcf868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -766,7 +766,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::SliderController::*)(float_t)>(
     &::GlobalNamespace::SliderController::DissolveCoroutine)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5dd0f98;
+  constexpr static std::size_t addrs = 0x5dd10b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -779,7 +779,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderController::*)(float_t)>(&::GlobalNamespace::SliderController::Dissolve)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5dd1004;
+  constexpr static std::size_t addrs = 0x5dd1120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -792,7 +792,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderController::*)(bool)>(&::GlobalNamespace::SliderController::Hide)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5dd107c;
+  constexpr static std::size_t addrs = 0x5dd1198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "Hide", {}, { ::i2c::type_of<bool>() } })));
@@ -804,7 +804,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderController::*)(bool)>(&::GlobalNamespace::SliderController::Pause)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5dd10a8;
+  constexpr static std::size_t addrs = 0x5dd11c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "Pause", {}, { ::i2c::type_of<bool>() } })));
@@ -816,7 +816,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SliderController::*)(::GlobalNamespace::NoteData*)>(&::GlobalNamespace::SliderController::IsNoteStartOfThisSlider)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5dd10b8;
+  constexpr static std::size_t addrs = 0x5dd11d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -829,7 +829,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderController::*)()>(&::GlobalNamespace::SliderController::HandleMovementDidFinish)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x5dd11ac;
+  constexpr static std::size_t addrs = 0x5dd12c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "HandleMovementDidFinish", {}, {} })));
@@ -841,7 +841,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderController::*)()>(&::GlobalNamespace::SliderController::HandleHeadDidMovePastCutMark)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x5dd1344;
+  constexpr static std::size_t addrs = 0x5dd1460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "HandleHeadDidMovePastCutMark", {}, {} })));
@@ -853,7 +853,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderController::*)()>(&::GlobalNamespace::SliderController::HandleTailDidMovePastCutMark)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x5dd1528;
+  constexpr static std::size_t addrs = 0x5dd1644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "HandleTailDidMovePastCutMark", {}, {} })));
@@ -865,7 +865,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderController::*)(::GlobalNamespace::NoteController*)>(&::GlobalNamespace::SliderController::HandleNoteWasMissed)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5dd16cc;
+  constexpr static std::size_t addrs = 0x5dd17e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -879,7 +879,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderController::*)(::GlobalNamespace::NoteController*, ::by_ref<::GlobalNamespace::NoteCutInfo const>)>(
     &::GlobalNamespace::SliderController::HandleNoteWasCut)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5dd1748;
+  constexpr static std::size_t addrs = 0x5dd1864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -894,7 +894,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderController::*)()>(&::GlobalNamespace::SliderController::HandleFadeInDidStart)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd17d8;
+  constexpr static std::size_t addrs = 0x5dd18f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "HandleFadeInDidStart", {}, {} })));
@@ -906,7 +906,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderController::*)(bool)>(&::GlobalNamespace::SliderController::SetSaberAttraction)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5dcf670;
+  constexpr static std::size_t addrs = 0x5dcf78c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -919,7 +919,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::GlobalNamespace::Saber*)>(&::GlobalNamespace::SliderController::GetSaberInteractionPoint)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5dcf6fc;
+  constexpr static std::size_t addrs = 0x5dcf818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -932,7 +932,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderController::*)()>(&::GlobalNamespace::SliderController::_ctor)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x5dd1868;
+  constexpr static std::size_t addrs = 0x5dd1984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { ".ctor", {}, {} })));

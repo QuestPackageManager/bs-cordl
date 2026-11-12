@@ -177,7 +177,7 @@ public:
   KeyValueCollectionPropertyBag_3_KeyValuePairProperty(KeyValueCollectionPropertyBag_3_KeyValuePairProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20788 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20802 };
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
@@ -302,7 +302,7 @@ public:
   Enumerable_KeyValueCollectionPropertyBag_3_Enumerator(Enumerable_KeyValueCollectionPropertyBag_3_Enumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20789 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20803 };
 
   /// @brief Field m_Dictionary, offset: 0x10, size: 0x8, def value: None
   TDictionary ___m_Dictionary;
@@ -367,7 +367,7 @@ public:
                                                        ::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>* m_Property) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20790 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20804 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -484,7 +484,7 @@ public:
   KeyValueCollectionPropertyBag_3(KeyValueCollectionPropertyBag_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20805 };
 
   /// @brief Field m_KeyValuePairProperty, offset: 0x18, size: 0x8, def value: None
   ::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>* ___m_KeyValuePairProperty;

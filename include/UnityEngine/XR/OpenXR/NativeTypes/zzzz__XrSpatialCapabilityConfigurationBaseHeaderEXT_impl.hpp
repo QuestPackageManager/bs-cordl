@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType (
     ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationBaseHeaderEXT::*)()>(&::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationBaseHeaderEXT::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e7f998;
+  constexpr static std::size_t addrs = 0x6e80a78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationBaseHeaderEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationBaseHeaderEXT::get_next)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e7f9a0;
+  constexpr static std::size_t addrs = 0x6e80a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityEXT (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationBaseHeaderEXT::*)()>(
         &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationBaseHeaderEXT::get_capability)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e7f9a8;
+  constexpr static std::size_t addrs = 0x6e80a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationBaseHeaderEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationBaseHeaderEXT::get_enabledComponentCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e7f9b0;
+  constexpr static std::size_t addrs = 0x6e80a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT* (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationBaseHeaderEXT::*)()>(
         &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationBaseHeaderEXT::get_enabledComponents)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e7f9b8;
+  constexpr static std::size_t addrs = 0x6e80a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::
     ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType, void*, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityEXT, uint32_t,
     ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT*)>(&::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationBaseHeaderEXT::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e7f9c0;
+  constexpr static std::size_t addrs = 0x6e80aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::
     ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityEXT, uint32_t,
     ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT*)>(&::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationBaseHeaderEXT::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e7f9d4;
+  constexpr static std::size_t addrs = 0x6e80ab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +127,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::
     ::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT>)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationBaseHeaderEXT::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6e7f9e8;
+  constexpr static std::size_t addrs = 0x6e80ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::
     ::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT>)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationBaseHeaderEXT::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6e7fa64;
+  constexpr static std::size_t addrs = 0x6e80b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

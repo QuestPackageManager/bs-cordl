@@ -24,7 +24,7 @@ public:
   /// @brief Field elements, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_elements, put = __cordl_internal_set_elements)) ::ArrayW<::UnityEngine::Rendering::LensFlareDataElementSRP*> elements;
 
-  /// @brief Method HasAModulateByLightColorElement, addr 0x6bf9e18, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HasAModulateByLightColorElement, addr 0x6bfaef8, size 0x60, virtual false, abstract: false, final false
   inline bool HasAModulateByLightColorElement();
 
   static inline ::UnityEngine::Rendering::LensFlareDataSRP* New_ctor();
@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set_elements(::ArrayW<::UnityEngine::Rendering::LensFlareDataElementSRP*> value);
 
-  /// @brief Method .ctor, addr 0x6bf9dfc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bfaedc, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

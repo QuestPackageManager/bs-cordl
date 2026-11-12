@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::InfiniteRuntimeClip::*)(::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Timeline::InfiniteRuntimeClip::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e16218;
+  constexpr static std::size_t addrs = 0x6e172f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::Timeline::InfiniteRuntimeClip::*)()>(&::UnityEngine::Timeline::InfiniteRuntimeClip::get_intervalStart)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e29b80;
+  constexpr static std::size_t addrs = 0x6e2ac60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::Timeline::InfiniteRuntimeClip::*)()>(&::UnityEngine::Timeline::InfiniteRuntimeClip::get_intervalEnd)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6e29b88;
+  constexpr static std::size_t addrs = 0x6e2ac68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::InfiniteRuntimeClip::*)(bool)>(&::UnityEngine::Timeline::InfiniteRuntimeClip::set_enable)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6e29be4;
+  constexpr static std::size_t addrs = 0x6e2acc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::InfiniteRuntimeClip::*)(double_t, ::UnityEngine::Playables::FrameData)>(
     &::UnityEngine::Timeline::InfiniteRuntimeClip::EvaluateAt)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6e29c6c;
+  constexpr static std::size_t addrs = 0x6e2ad4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::InfiniteRuntimeClip::*)(double_t, double_t, ::UnityEngine::Playables::FrameData)>(
     &::UnityEngine::Timeline::InfiniteRuntimeClip::DisableAt)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6e29cc8;
+  constexpr static std::size_t addrs = 0x6e2ada8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

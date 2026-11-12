@@ -16,3 +16,9 @@ constexpr ::HMUI::RoundedCornersDirection HMUI::RoundedCornersDirection::Down{ s
 constexpr ::HMUI::RoundedCornersDirection HMUI::RoundedCornersDirection::DownLeft{ static_cast<int32_t>(0x6) };
 constexpr ::HMUI::RoundedCornersDirection HMUI::RoundedCornersDirection::Left{ static_cast<int32_t>(0x7) };
 constexpr ::HMUI::RoundedCornersDirection HMUI::RoundedCornersDirection::UpLeft{ static_cast<int32_t>(0x8) };
+constexpr ::HMUI::RoundedCornersDirection HMUI::RoundedCornersDirection::UpAndLeft{ static_cast<int32_t>(0x9) };
+constexpr ::HMUI::RoundedCornersDirection HMUI::RoundedCornersDirection::UpAndRight{ static_cast<int32_t>(0xa) };
+constexpr ::HMUI::RoundedCornersDirection HMUI::RoundedCornersDirection::DownAndLeft{ static_cast<int32_t>(0xb) };
+constexpr ::HMUI::RoundedCornersDirection HMUI::RoundedCornersDirection::DownAndRight{ static_cast<int32_t>(0xc) };
+constexpr ::HMUI::RoundedCornersDirection HMUI::RoundedCornersDirection::UpLeftAndDownRight{ static_cast<int32_t>(0xd) };
+constexpr ::HMUI::RoundedCornersDirection HMUI::RoundedCornersDirection::UpRightAndDownLeft{ static_cast<int32_t>(0xe) };

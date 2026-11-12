@@ -77,7 +77,7 @@ public:
   static ::UnityEngine::Rendering::GPUResidentDrawerResources_Version const Latest;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18176 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18184 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -168,7 +168,7 @@ public:
 
   static inline ::UnityEngine::Rendering::GPUResidentDrawerResources* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_version, addr 0x6c8459c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_version, addr 0x6c8567c, size 0x8, virtual true, abstract: false, final true
   inline int32_t UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_version();
 
   constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_m_DebugOccluderPS() const;
@@ -231,34 +231,34 @@ public:
 
   constexpr void __cordl_internal_set_m_WindDataUpdaterKernels(::UnityW<::UnityEngine::ComputeShader> value);
 
-  /// @brief Method .ctor, addr 0x6c849dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c85abc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_debugOccluderPS, addr 0x6c84964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_debugOccluderPS, addr 0x6c85a44, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_debugOccluderPS();
 
-  /// @brief Method get_debugOcclusionTestPS, addr 0x6c848ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_debugOcclusionTestPS, addr 0x6c859cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_debugOcclusionTestPS();
 
-  /// @brief Method get_instanceDataBufferCopyKernels, addr 0x6c845a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_instanceDataBufferCopyKernels, addr 0x6c85684, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_instanceDataBufferCopyKernels();
 
-  /// @brief Method get_instanceDataBufferUploadKernels, addr 0x6c8461c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_instanceDataBufferUploadKernels, addr 0x6c856fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_instanceDataBufferUploadKernels();
 
-  /// @brief Method get_instanceOcclusionCullingKernels, addr 0x6c847fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_instanceOcclusionCullingKernels, addr 0x6c858dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_instanceOcclusionCullingKernels();
 
-  /// @brief Method get_occluderDepthPyramidKernels, addr 0x6c84784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_occluderDepthPyramidKernels, addr 0x6c85864, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_occluderDepthPyramidKernels();
 
-  /// @brief Method get_occlusionCullingDebugKernels, addr 0x6c84874, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_occlusionCullingDebugKernels, addr 0x6c85954, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_occlusionCullingDebugKernels();
 
-  /// @brief Method get_transformUpdaterKernels, addr 0x6c84694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_transformUpdaterKernels, addr 0x6c85774, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_transformUpdaterKernels();
 
-  /// @brief Method get_windDataUpdaterKernels, addr 0x6c8470c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_windDataUpdaterKernels, addr 0x6c857ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_windDataUpdaterKernels();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
@@ -267,31 +267,31 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineResources"
   constexpr ::UnityEngine::Rendering::IRenderPipelineResources* i___UnityEngine__Rendering__IRenderPipelineResources() noexcept;
 
-  /// @brief Method set_debugOccluderPS, addr 0x6c8496c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_debugOccluderPS, addr 0x6c85a4c, size 0x70, virtual false, abstract: false, final false
   inline void set_debugOccluderPS(::UnityEngine::Shader* value);
 
-  /// @brief Method set_debugOcclusionTestPS, addr 0x6c848f4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_debugOcclusionTestPS, addr 0x6c859d4, size 0x70, virtual false, abstract: false, final false
   inline void set_debugOcclusionTestPS(::UnityEngine::Shader* value);
 
-  /// @brief Method set_instanceDataBufferCopyKernels, addr 0x6c845ac, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_instanceDataBufferCopyKernels, addr 0x6c8568c, size 0x70, virtual false, abstract: false, final false
   inline void set_instanceDataBufferCopyKernels(::UnityEngine::ComputeShader* value);
 
-  /// @brief Method set_instanceDataBufferUploadKernels, addr 0x6c84624, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_instanceDataBufferUploadKernels, addr 0x6c85704, size 0x70, virtual false, abstract: false, final false
   inline void set_instanceDataBufferUploadKernels(::UnityEngine::ComputeShader* value);
 
-  /// @brief Method set_instanceOcclusionCullingKernels, addr 0x6c84804, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_instanceOcclusionCullingKernels, addr 0x6c858e4, size 0x70, virtual false, abstract: false, final false
   inline void set_instanceOcclusionCullingKernels(::UnityEngine::ComputeShader* value);
 
-  /// @brief Method set_occluderDepthPyramidKernels, addr 0x6c8478c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_occluderDepthPyramidKernels, addr 0x6c8586c, size 0x70, virtual false, abstract: false, final false
   inline void set_occluderDepthPyramidKernels(::UnityEngine::ComputeShader* value);
 
-  /// @brief Method set_occlusionCullingDebugKernels, addr 0x6c8487c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_occlusionCullingDebugKernels, addr 0x6c8595c, size 0x70, virtual false, abstract: false, final false
   inline void set_occlusionCullingDebugKernels(::UnityEngine::ComputeShader* value);
 
-  /// @brief Method set_transformUpdaterKernels, addr 0x6c8469c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_transformUpdaterKernels, addr 0x6c8577c, size 0x70, virtual false, abstract: false, final false
   inline void set_transformUpdaterKernels(::UnityEngine::ComputeShader* value);
 
-  /// @brief Method set_windDataUpdaterKernels, addr 0x6c84714, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_windDataUpdaterKernels, addr 0x6c857f4, size 0x70, virtual false, abstract: false, final false
   inline void set_windDataUpdaterKernels(::UnityEngine::ComputeShader* value);
 
 protected:
@@ -309,7 +309,7 @@ public:
   GPUResidentDrawerResources(GPUResidentDrawerResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18177 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18185 };
 
   /// [SerializeField]
   /// [HideInInspector]

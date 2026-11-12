@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Logging::Debug_LoggerLinkedList::*)(::BGNet::Logging::Debug_ILogger*)>(&::BGNet::Logging::Debug_LoggerLinkedList::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35efe24;
+  constexpr static std::size_t addrs = 0x35f42bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::BGNet::Logging::Debug::NoDomainReloadInit)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x35efbd8;
+  constexpr static std::size_t addrs = 0x35f4070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug*>(), { "NoDomainReloadInit", {}, {} })));
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::BGNet::Logging::Debug_ILogger*)>(&::BGNet::Logging::Debug::AddLogger)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x35efc5c;
+  constexpr static std::size_t addrs = 0x35f40f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::BGNet::Logging::Debug_ILogger*)>(&::BGNet::Logging::Debug::RemoveAndDisposeLogger)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x35efe2c;
+  constexpr static std::size_t addrs = 0x35f42c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::BGNet::Logging::Debug::Log)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x35f0124;
+  constexpr static std::size_t addrs = 0x35f45bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug*>(), { "Log", {}, { ::i2c::type_of<::StringW>() } })));
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::BGNet::Logging::Debug::LogError)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x35f0220;
+  constexpr static std::size_t addrs = 0x35f46b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug*>(), { "LogError", {}, { ::i2c::type_of<::StringW>() } })));
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Exception*, ::StringW)>(&::BGNet::Logging::Debug::LogException)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x35f0320;
+  constexpr static std::size_t addrs = 0x35f47b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::BGNet::Logging::Debug::LogWarning)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x35f0428;
+  constexpr static std::size_t addrs = 0x35f48c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug*>(), { "LogWarning", {}, { ::i2c::type_of<::StringW>() } })));
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::BGNet::Logging::Debug::ClearAllLoggers)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x35f0528;
+  constexpr static std::size_t addrs = 0x35f49c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Logging::Debug*>(), { "ClearAllLoggers", {}, {} })));
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::BGNet::Logging::Debug___c__DisplayClass7_0>)>(&::BGNet::Logging::Debug::_RemoveAndDisposeLogger_g__DisposeLogger_7_0)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x35f006c;
+  constexpr static std::size_t addrs = 0x35f4504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

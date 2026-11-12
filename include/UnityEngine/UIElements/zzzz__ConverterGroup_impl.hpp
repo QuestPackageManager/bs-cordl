@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::ConversionRegistry (::UnityEngine::UIElements::ConverterGroup::*)()>(
     &::UnityEngine::UIElements::ConverterGroup::get_registry)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x70c4efc;
+  constexpr static std::size_t addrs = 0x70c5fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ConverterGroup*>(), { "get_registry", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::Unity::Properties::ConversionRegistry> (::UnityEngine::UIElements::ConverterGroup::*)()>(
     &::UnityEngine::UIElements::ConverterGroup::get_registerRef)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70c4f08;
+  constexpr static std::size_t addrs = 0x70c5fe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ConverterGroup*>(), { "get_registerRef", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ConverterGroup::*)(::StringW, ::StringW, ::StringW)>(&::UnityEngine::UIElements::ConverterGroup::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x70c4f10;
+  constexpr static std::size_t addrs = 0x70c5ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

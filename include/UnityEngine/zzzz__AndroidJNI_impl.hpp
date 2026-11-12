@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::AndroidJNI_JStringBinding::*)()>(&::UnityEngine::AndroidJNI_JStringBinding::ToString)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6eb03b0;
+  constexpr static std::size_t addrs = 0x6eb1490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AndroidJNI_JStringBinding::*)()>(&::UnityEngine::AndroidJNI_JStringBinding::Dispose)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6eb54d8;
+  constexpr static std::size_t addrs = 0x6eb65b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI_JStringBinding>(), { "Dispose", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::AndroidJNI_JStringBinding)>(&::UnityEngine::AndroidJNI::ReleaseStringChars)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eae8f8;
+  constexpr static std::size_t addrs = 0x6eaf9d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::AndroidJNI::GetJavaVM)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6eae970;
+  constexpr static std::size_t addrs = 0x6eafa50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "GetJavaVM", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::AndroidJNI::AttachCurrentThread)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6eae998;
+  constexpr static std::size_t addrs = 0x6eafa78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "AttachCurrentThread", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::AndroidJNI::DetachCurrentThread)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6eae9c0;
+  constexpr static std::size_t addrs = 0x6eafaa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "DetachCurrentThread", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action*)>(&::UnityEngine::AndroidJNI::InvokeAction)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6eae9e8;
+  constexpr static std::size_t addrs = 0x6eafac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action*)>(&::UnityEngine::AndroidJNI::InvokeAttached)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eaea08;
+  constexpr static std::size_t addrs = 0x6eafae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::AndroidJNI::GetVersion)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6eaea44;
+  constexpr static std::size_t addrs = 0x6eafb24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "GetVersion", {}, {} })));
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::StringW)>(&::UnityEngine::AndroidJNI::FindClass)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6eaea6c;
+  constexpr static std::size_t addrs = 0x6eafb4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "FindClass", {}, { ::i2c::type_of<::StringW>() } })));
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::FromReflectedMethod)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eaebd4;
+  constexpr static std::size_t addrs = 0x6eafcb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::FromReflectedField)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eaec10;
+  constexpr static std::size_t addrs = 0x6eafcf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, bool)>(&::UnityEngine::AndroidJNI::ToReflectedMethod)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eaec4c;
+  constexpr static std::size_t addrs = 0x6eafd2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, bool)>(&::UnityEngine::AndroidJNI::ToReflectedField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eaeca0;
+  constexpr static std::size_t addrs = 0x6eafd80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetSuperclass)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eaecf4;
+  constexpr static std::size_t addrs = 0x6eafdd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::IsAssignableFrom)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eaed30;
+  constexpr static std::size_t addrs = 0x6eafe10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -250,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::Throw)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eaed74;
+  constexpr static std::size_t addrs = 0x6eafe54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "Throw", {}, { ::i2c::type_of<::System::IntPtr>() } })));
@@ -262,7 +262,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::StringW)>(&::UnityEngine::AndroidJNI::ThrowNew)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6eaedb0;
+  constexpr static std::size_t addrs = 0x6eafe90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::AndroidJNI::ExceptionOccurred)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6eaef30;
+  constexpr static std::size_t addrs = 0x6eb0010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "ExceptionOccurred", {}, {} })));
@@ -287,7 +287,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::AndroidJNI::ExceptionDescribe)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6eaef58;
+  constexpr static std::size_t addrs = 0x6eb0038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "ExceptionDescribe", {}, {} })));
@@ -299,7 +299,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::AndroidJNI::ExceptionClear)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6eaef80;
+  constexpr static std::size_t addrs = 0x6eb0060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "ExceptionClear", {}, {} })));
@@ -311,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::UnityEngine::AndroidJNI::FatalError)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6eaefa8;
+  constexpr static std::size_t addrs = 0x6eb0088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "FatalError", {}, { ::i2c::type_of<::StringW>() } })));
@@ -323,7 +323,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::AndroidJNI::PushLocalFrame)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eaf108;
+  constexpr static std::size_t addrs = 0x6eb01e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "PushLocalFrame", {}, { ::i2c::type_of<int32_t>() } })));
@@ -335,7 +335,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::PopLocalFrame)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eaf144;
+  constexpr static std::size_t addrs = 0x6eb0224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -348,7 +348,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::NewGlobalRef)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eaf180;
+  constexpr static std::size_t addrs = 0x6eb0260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -361,7 +361,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::DeleteGlobalRef)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eaf1bc;
+  constexpr static std::size_t addrs = 0x6eb029c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -374,7 +374,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::QueueDeleteGlobalRef)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eaf1f8;
+  constexpr static std::size_t addrs = 0x6eb02d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -387,7 +387,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)()>(&::UnityEngine::AndroidJNI::GetQueueGlobalRefsCount)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6eaf234;
+  constexpr static std::size_t addrs = 0x6eb0314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "GetQueueGlobalRefsCount", {}, {} })));
@@ -399,7 +399,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::AndroidJNI::CleanQueueGlobalRefs)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6eaf25c;
+  constexpr static std::size_t addrs = 0x6eb033c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "CleanQueueGlobalRefs", {}, {} })));
@@ -411,7 +411,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::NewWeakGlobalRef)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eaf284;
+  constexpr static std::size_t addrs = 0x6eb0364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -424,7 +424,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::DeleteWeakGlobalRef)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eaf2c0;
+  constexpr static std::size_t addrs = 0x6eb03a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -437,7 +437,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::NewLocalRef)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eaf2fc;
+  constexpr static std::size_t addrs = 0x6eb03dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -450,7 +450,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::DeleteLocalRef)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eaf338;
+  constexpr static std::size_t addrs = 0x6eb0418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -463,7 +463,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::IsSameObject)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eaf374;
+  constexpr static std::size_t addrs = 0x6eb0454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -476,7 +476,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::AndroidJNI::EnsureLocalCapacity)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eaf3b8;
+  constexpr static std::size_t addrs = 0x6eb0498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -489,7 +489,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::AllocObject)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eaf3f4;
+  constexpr static std::size_t addrs = 0x6eb04d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -502,7 +502,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::NewObject)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6eaf430;
+  constexpr static std::size_t addrs = 0x6eb0510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -516,7 +516,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::NewObject)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6eaf4a0;
+  constexpr static std::size_t addrs = 0x6eb0580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -531,7 +531,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, ::UnityEngine::jvalue*)>(&::UnityEngine::AndroidJNI::NewObjectA)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eaf52c;
+  constexpr static std::size_t addrs = 0x6eb060c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -545,7 +545,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetObjectClass)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eaf580;
+  constexpr static std::size_t addrs = 0x6eb0660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -558,7 +558,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::IsInstanceOf)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eaf5bc;
+  constexpr static std::size_t addrs = 0x6eb069c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -571,7 +571,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::StringW, ::StringW)>(&::UnityEngine::AndroidJNI::GetMethodID)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x6eaf600;
+  constexpr static std::size_t addrs = 0x6eb06e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -585,7 +585,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::StringW, ::StringW)>(&::UnityEngine::AndroidJNI::GetFieldID)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x6eaf810;
+  constexpr static std::size_t addrs = 0x6eb08f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -599,7 +599,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::StringW, ::StringW)>(&::UnityEngine::AndroidJNI::GetStaticMethodID)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x6eafa20;
+  constexpr static std::size_t addrs = 0x6eb0b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -613,7 +613,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::StringW, ::StringW)>(&::UnityEngine::AndroidJNI::GetStaticFieldID)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x6eafc30;
+  constexpr static std::size_t addrs = 0x6eb0d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -627,7 +627,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::StringW)>(&::UnityEngine::AndroidJNI::NewString)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6eafe40;
+  constexpr static std::size_t addrs = 0x6eb0f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "NewString", {}, { ::i2c::type_of<::StringW>() } })));
@@ -639,7 +639,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::StringW)>(&::UnityEngine::AndroidJNI::NewStringFromStr)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6eafe44;
+  constexpr static std::size_t addrs = 0x6eb0f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -652,7 +652,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::ArrayW<char16_t>)>(&::UnityEngine::AndroidJNI::NewString)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6eaffac;
+  constexpr static std::size_t addrs = 0x6eb108c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -665,7 +665,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::StringW)>(&::UnityEngine::AndroidJNI::NewStringUTF)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6eb00ac;
+  constexpr static std::size_t addrs = 0x6eb118c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "NewStringUTF", {}, { ::i2c::type_of<::StringW>() } })));
@@ -677,7 +677,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStringChars)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6eb0214;
+  constexpr static std::size_t addrs = 0x6eb12f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -690,7 +690,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AndroidJNI_JStringBinding (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStringCharsInternal)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6eb0348;
+  constexpr static std::size_t addrs = 0x6eb1428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -703,7 +703,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStringLength)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eb0420;
+  constexpr static std::size_t addrs = 0x6eb1500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -716,7 +716,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStringUTFLength)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eb045c;
+  constexpr static std::size_t addrs = 0x6eb153c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -729,7 +729,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStringUTFChars)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6eb0498;
+  constexpr static std::size_t addrs = 0x6eb1578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -742,7 +742,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallStringMethod)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6eb05a8;
+  constexpr static std::size_t addrs = 0x6eb1688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -757,7 +757,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallStringMethod)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6eb0618;
+  constexpr static std::size_t addrs = 0x6eb16f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -772,7 +772,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::IntPtr, ::System::IntPtr, ::UnityEngine::jvalue*)>(&::UnityEngine::AndroidJNI::CallStringMethodUnsafe)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x6eb0684;
+  constexpr static std::size_t addrs = 0x6eb1764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -788,7 +788,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AndroidJNI_JStringBinding (*)(::System::IntPtr, ::System::IntPtr, ::UnityEngine::jvalue*)>(
     &::UnityEngine::AndroidJNI::CallStringMethodUnsafeInternal)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6eb07d0;
+  constexpr static std::size_t addrs = 0x6eb18b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -803,7 +803,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallObjectMethod)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6eb08ac;
+  constexpr static std::size_t addrs = 0x6eb198c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -819,7 +819,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(
     &::UnityEngine::AndroidJNI::CallObjectMethod)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6eb091c;
+  constexpr static std::size_t addrs = 0x6eb19fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -834,7 +834,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, ::UnityEngine::jvalue*)>(&::UnityEngine::AndroidJNI::CallObjectMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb09a8;
+  constexpr static std::size_t addrs = 0x6eb1a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -849,7 +849,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallIntMethod)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6eb09fc;
+  constexpr static std::size_t addrs = 0x6eb1adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -864,7 +864,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallIntMethod)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6eb0a6c;
+  constexpr static std::size_t addrs = 0x6eb1b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -879,7 +879,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::System::IntPtr, ::UnityEngine::jvalue*)>(&::UnityEngine::AndroidJNI::CallIntMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb0af8;
+  constexpr static std::size_t addrs = 0x6eb1bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -893,7 +893,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallBooleanMethod)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6eb0b4c;
+  constexpr static std::size_t addrs = 0x6eb1c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -908,7 +908,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallBooleanMethod)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6eb0bbc;
+  constexpr static std::size_t addrs = 0x6eb1c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -923,7 +923,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr, ::UnityEngine::jvalue*)>(&::UnityEngine::AndroidJNI::CallBooleanMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb0c48;
+  constexpr static std::size_t addrs = 0x6eb1d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -938,7 +938,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallShortMethod)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6eb0c9c;
+  constexpr static std::size_t addrs = 0x6eb1d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -953,7 +953,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallShortMethod)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6eb0d0c;
+  constexpr static std::size_t addrs = 0x6eb1dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -968,7 +968,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (*)(::System::IntPtr, ::System::IntPtr, ::UnityEngine::jvalue*)>(&::UnityEngine::AndroidJNI::CallShortMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb0d98;
+  constexpr static std::size_t addrs = 0x6eb1e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -983,7 +983,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallByteMethod)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6eb0dec;
+  constexpr static std::size_t addrs = 0x6eb1ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -998,7 +998,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallSByteMethod)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6eb0df0;
+  constexpr static std::size_t addrs = 0x6eb1ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1013,7 +1013,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallSByteMethod)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6eb0e60;
+  constexpr static std::size_t addrs = 0x6eb1f40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1028,7 +1028,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (*)(::System::IntPtr, ::System::IntPtr, ::UnityEngine::jvalue*)>(&::UnityEngine::AndroidJNI::CallSByteMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb0eec;
+  constexpr static std::size_t addrs = 0x6eb1fcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1043,7 +1043,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallCharMethod)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6eb0f40;
+  constexpr static std::size_t addrs = 0x6eb2020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1058,7 +1058,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallCharMethod)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6eb0fb0;
+  constexpr static std::size_t addrs = 0x6eb2090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1073,7 +1073,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(::System::IntPtr, ::System::IntPtr, ::UnityEngine::jvalue*)>(&::UnityEngine::AndroidJNI::CallCharMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb103c;
+  constexpr static std::size_t addrs = 0x6eb211c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1087,7 +1087,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallFloatMethod)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6eb1090;
+  constexpr static std::size_t addrs = 0x6eb2170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1102,7 +1102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallFloatMethod)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6eb1100;
+  constexpr static std::size_t addrs = 0x6eb21e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1117,7 +1117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr, ::System::IntPtr, ::UnityEngine::jvalue*)>(&::UnityEngine::AndroidJNI::CallFloatMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb118c;
+  constexpr static std::size_t addrs = 0x6eb226c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1132,7 +1132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallDoubleMethod)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6eb11e0;
+  constexpr static std::size_t addrs = 0x6eb22c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1147,7 +1147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallDoubleMethod)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6eb1250;
+  constexpr static std::size_t addrs = 0x6eb2330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1162,7 +1162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::System::IntPtr, ::System::IntPtr, ::UnityEngine::jvalue*)>(&::UnityEngine::AndroidJNI::CallDoubleMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb12dc;
+  constexpr static std::size_t addrs = 0x6eb23bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1177,7 +1177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallLongMethod)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6eb1330;
+  constexpr static std::size_t addrs = 0x6eb2410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1192,7 +1192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallLongMethod)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6eb13a0;
+  constexpr static std::size_t addrs = 0x6eb2480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1207,7 +1207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::System::IntPtr, ::System::IntPtr, ::UnityEngine::jvalue*)>(&::UnityEngine::AndroidJNI::CallLongMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb142c;
+  constexpr static std::size_t addrs = 0x6eb250c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1221,7 +1221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallVoidMethod)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6eb1480;
+  constexpr static std::size_t addrs = 0x6eb2560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1236,7 +1236,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallVoidMethod)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6eb14f0;
+  constexpr static std::size_t addrs = 0x6eb25d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1251,7 +1251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::UnityEngine::jvalue*)>(&::UnityEngine::AndroidJNI::CallVoidMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb157c;
+  constexpr static std::size_t addrs = 0x6eb265c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1265,7 +1265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStringField)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6eb15d0;
+  constexpr static std::size_t addrs = 0x6eb26b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1278,7 +1278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AndroidJNI_JStringBinding (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStringFieldInternal)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6eb170c;
+  constexpr static std::size_t addrs = 0x6eb27ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1292,7 +1292,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetObjectField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb17d0;
+  constexpr static std::size_t addrs = 0x6eb28b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1305,7 +1305,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetBooleanField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb1814;
+  constexpr static std::size_t addrs = 0x6eb28f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1318,7 +1318,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetByteField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb1858;
+  constexpr static std::size_t addrs = 0x6eb2938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1331,7 +1331,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetSByteField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb189c;
+  constexpr static std::size_t addrs = 0x6eb297c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1344,7 +1344,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetCharField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb18e0;
+  constexpr static std::size_t addrs = 0x6eb29c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1357,7 +1357,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetShortField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb1924;
+  constexpr static std::size_t addrs = 0x6eb2a04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1370,7 +1370,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetIntField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb1968;
+  constexpr static std::size_t addrs = 0x6eb2a48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1383,7 +1383,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetLongField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb19ac;
+  constexpr static std::size_t addrs = 0x6eb2a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1396,7 +1396,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetFloatField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb19f0;
+  constexpr static std::size_t addrs = 0x6eb2ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1409,7 +1409,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetDoubleField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb1a34;
+  constexpr static std::size_t addrs = 0x6eb2b14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1422,7 +1422,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::StringW)>(&::UnityEngine::AndroidJNI::SetStringField)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6eb1a78;
+  constexpr static std::size_t addrs = 0x6eb2b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1436,7 +1436,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::SetObjectField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb1c08;
+  constexpr static std::size_t addrs = 0x6eb2ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1450,7 +1450,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, bool)>(&::UnityEngine::AndroidJNI::SetBooleanField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb1c5c;
+  constexpr static std::size_t addrs = 0x6eb2d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1464,7 +1464,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, uint8_t)>(&::UnityEngine::AndroidJNI::SetByteField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb1cb0;
+  constexpr static std::size_t addrs = 0x6eb2d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1478,7 +1478,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int8_t)>(&::UnityEngine::AndroidJNI::SetSByteField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb1d04;
+  constexpr static std::size_t addrs = 0x6eb2de4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1492,7 +1492,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, char16_t)>(&::UnityEngine::AndroidJNI::SetCharField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb1d58;
+  constexpr static std::size_t addrs = 0x6eb2e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1506,7 +1506,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int16_t)>(&::UnityEngine::AndroidJNI::SetShortField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb1dac;
+  constexpr static std::size_t addrs = 0x6eb2e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1520,7 +1520,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int32_t)>(&::UnityEngine::AndroidJNI::SetIntField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb1e00;
+  constexpr static std::size_t addrs = 0x6eb2ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1534,7 +1534,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int64_t)>(&::UnityEngine::AndroidJNI::SetLongField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb1e54;
+  constexpr static std::size_t addrs = 0x6eb2f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1548,7 +1548,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, float_t)>(&::UnityEngine::AndroidJNI::SetFloatField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb1ea8;
+  constexpr static std::size_t addrs = 0x6eb2f88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1562,7 +1562,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, double_t)>(&::UnityEngine::AndroidJNI::SetDoubleField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb1efc;
+  constexpr static std::size_t addrs = 0x6eb2fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1576,7 +1576,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallStaticStringMethod)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6eb1f50;
+  constexpr static std::size_t addrs = 0x6eb3030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1592,7 +1592,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(
     &::UnityEngine::AndroidJNI::CallStaticStringMethod)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6eb1fc0;
+  constexpr static std::size_t addrs = 0x6eb30a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1607,7 +1607,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::IntPtr, ::System::IntPtr, ::UnityEngine::jvalue*)>(&::UnityEngine::AndroidJNI::CallStaticStringMethodUnsafe)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x6eb202c;
+  constexpr static std::size_t addrs = 0x6eb310c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1623,7 +1623,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AndroidJNI_JStringBinding (*)(::System::IntPtr, ::System::IntPtr, ::UnityEngine::jvalue*)>(
     &::UnityEngine::AndroidJNI::CallStaticStringMethodUnsafeInternal)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6eb2178;
+  constexpr static std::size_t addrs = 0x6eb3258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1638,7 +1638,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallStaticObjectMethod)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6eb2254;
+  constexpr static std::size_t addrs = 0x6eb3334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1654,7 +1654,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(
     &::UnityEngine::AndroidJNI::CallStaticObjectMethod)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6eb22c4;
+  constexpr static std::size_t addrs = 0x6eb33a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1669,7 +1669,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, ::UnityEngine::jvalue*)>(&::UnityEngine::AndroidJNI::CallStaticObjectMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb2350;
+  constexpr static std::size_t addrs = 0x6eb3430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1684,7 +1684,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallStaticIntMethod)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6eb23a4;
+  constexpr static std::size_t addrs = 0x6eb3484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1699,7 +1699,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallStaticIntMethod)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6eb2414;
+  constexpr static std::size_t addrs = 0x6eb34f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1714,7 +1714,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::System::IntPtr, ::UnityEngine::jvalue*)>(&::UnityEngine::AndroidJNI::CallStaticIntMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb24a0;
+  constexpr static std::size_t addrs = 0x6eb3580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1729,7 +1729,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallStaticBooleanMethod)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6eb24f4;
+  constexpr static std::size_t addrs = 0x6eb35d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1744,7 +1744,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallStaticBooleanMethod)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6eb2564;
+  constexpr static std::size_t addrs = 0x6eb3644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1759,7 +1759,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr, ::UnityEngine::jvalue*)>(&::UnityEngine::AndroidJNI::CallStaticBooleanMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb25f0;
+  constexpr static std::size_t addrs = 0x6eb36d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1774,7 +1774,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallStaticShortMethod)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6eb2644;
+  constexpr static std::size_t addrs = 0x6eb3724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1789,7 +1789,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallStaticShortMethod)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6eb26b4;
+  constexpr static std::size_t addrs = 0x6eb3794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1804,7 +1804,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (*)(::System::IntPtr, ::System::IntPtr, ::UnityEngine::jvalue*)>(&::UnityEngine::AndroidJNI::CallStaticShortMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb2740;
+  constexpr static std::size_t addrs = 0x6eb3820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1819,7 +1819,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallStaticByteMethod)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6eb2794;
+  constexpr static std::size_t addrs = 0x6eb3874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1834,7 +1834,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallStaticSByteMethod)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6eb2798;
+  constexpr static std::size_t addrs = 0x6eb3878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1849,7 +1849,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallStaticSByteMethod)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6eb2808;
+  constexpr static std::size_t addrs = 0x6eb38e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1864,7 +1864,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (*)(::System::IntPtr, ::System::IntPtr, ::UnityEngine::jvalue*)>(&::UnityEngine::AndroidJNI::CallStaticSByteMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb2894;
+  constexpr static std::size_t addrs = 0x6eb3974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1879,7 +1879,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallStaticCharMethod)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6eb28e8;
+  constexpr static std::size_t addrs = 0x6eb39c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1894,7 +1894,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallStaticCharMethod)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6eb2958;
+  constexpr static std::size_t addrs = 0x6eb3a38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1909,7 +1909,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(::System::IntPtr, ::System::IntPtr, ::UnityEngine::jvalue*)>(&::UnityEngine::AndroidJNI::CallStaticCharMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb29e4;
+  constexpr static std::size_t addrs = 0x6eb3ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1924,7 +1924,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallStaticFloatMethod)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6eb2a38;
+  constexpr static std::size_t addrs = 0x6eb3b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1939,7 +1939,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallStaticFloatMethod)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6eb2aa8;
+  constexpr static std::size_t addrs = 0x6eb3b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1954,7 +1954,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr, ::System::IntPtr, ::UnityEngine::jvalue*)>(&::UnityEngine::AndroidJNI::CallStaticFloatMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb2b34;
+  constexpr static std::size_t addrs = 0x6eb3c14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1969,7 +1969,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallStaticDoubleMethod)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6eb2b88;
+  constexpr static std::size_t addrs = 0x6eb3c68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1984,7 +1984,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallStaticDoubleMethod)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6eb2bf8;
+  constexpr static std::size_t addrs = 0x6eb3cd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1999,7 +1999,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::System::IntPtr, ::System::IntPtr, ::UnityEngine::jvalue*)>(&::UnityEngine::AndroidJNI::CallStaticDoubleMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb2c84;
+  constexpr static std::size_t addrs = 0x6eb3d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2014,7 +2014,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallStaticLongMethod)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6eb2cd8;
+  constexpr static std::size_t addrs = 0x6eb3db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2029,7 +2029,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallStaticLongMethod)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6eb2d48;
+  constexpr static std::size_t addrs = 0x6eb3e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2044,7 +2044,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::System::IntPtr, ::System::IntPtr, ::UnityEngine::jvalue*)>(&::UnityEngine::AndroidJNI::CallStaticLongMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb2dd4;
+  constexpr static std::size_t addrs = 0x6eb3eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2059,7 +2059,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallStaticVoidMethod)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6eb2e28;
+  constexpr static std::size_t addrs = 0x6eb3f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2074,7 +2074,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(&::UnityEngine::AndroidJNI::CallStaticVoidMethod)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6eb2e98;
+  constexpr static std::size_t addrs = 0x6eb3f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2089,7 +2089,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::UnityEngine::jvalue*)>(&::UnityEngine::AndroidJNI::CallStaticVoidMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb2f24;
+  constexpr static std::size_t addrs = 0x6eb4004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2104,7 +2104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStaticStringField)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6eb2f78;
+  constexpr static std::size_t addrs = 0x6eb4058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2118,7 +2118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AndroidJNI_JStringBinding (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStaticStringFieldInternal)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6eb30b4;
+  constexpr static std::size_t addrs = 0x6eb4194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2132,7 +2132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStaticObjectField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb3178;
+  constexpr static std::size_t addrs = 0x6eb4258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2146,7 +2146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStaticBooleanField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb31bc;
+  constexpr static std::size_t addrs = 0x6eb429c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2160,7 +2160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStaticByteField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb3200;
+  constexpr static std::size_t addrs = 0x6eb42e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2174,7 +2174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStaticSByteField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb3244;
+  constexpr static std::size_t addrs = 0x6eb4324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2188,7 +2188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStaticCharField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb3288;
+  constexpr static std::size_t addrs = 0x6eb4368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2202,7 +2202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStaticShortField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb32cc;
+  constexpr static std::size_t addrs = 0x6eb43ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2216,7 +2216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStaticIntField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb3310;
+  constexpr static std::size_t addrs = 0x6eb43f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2230,7 +2230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStaticLongField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb3354;
+  constexpr static std::size_t addrs = 0x6eb4434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2244,7 +2244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStaticFloatField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb3398;
+  constexpr static std::size_t addrs = 0x6eb4478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2258,7 +2258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStaticDoubleField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb33dc;
+  constexpr static std::size_t addrs = 0x6eb44bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2272,7 +2272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::StringW)>(&::UnityEngine::AndroidJNI::SetStaticStringField)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6eb3420;
+  constexpr static std::size_t addrs = 0x6eb4500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2286,7 +2286,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::SetStaticObjectField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb35b0;
+  constexpr static std::size_t addrs = 0x6eb4690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2300,7 +2300,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, bool)>(&::UnityEngine::AndroidJNI::SetStaticBooleanField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb3604;
+  constexpr static std::size_t addrs = 0x6eb46e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2314,7 +2314,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, uint8_t)>(&::UnityEngine::AndroidJNI::SetStaticByteField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb3658;
+  constexpr static std::size_t addrs = 0x6eb4738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2328,7 +2328,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int8_t)>(&::UnityEngine::AndroidJNI::SetStaticSByteField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb36ac;
+  constexpr static std::size_t addrs = 0x6eb478c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2342,7 +2342,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, char16_t)>(&::UnityEngine::AndroidJNI::SetStaticCharField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb3700;
+  constexpr static std::size_t addrs = 0x6eb47e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2356,7 +2356,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int16_t)>(&::UnityEngine::AndroidJNI::SetStaticShortField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb3754;
+  constexpr static std::size_t addrs = 0x6eb4834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2370,7 +2370,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int32_t)>(&::UnityEngine::AndroidJNI::SetStaticIntField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb37a8;
+  constexpr static std::size_t addrs = 0x6eb4888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2384,7 +2384,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int64_t)>(&::UnityEngine::AndroidJNI::SetStaticLongField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb37fc;
+  constexpr static std::size_t addrs = 0x6eb48dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2398,7 +2398,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, float_t)>(&::UnityEngine::AndroidJNI::SetStaticFloatField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb3850;
+  constexpr static std::size_t addrs = 0x6eb4930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2412,7 +2412,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, double_t)>(&::UnityEngine::AndroidJNI::SetStaticDoubleField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb38a4;
+  constexpr static std::size_t addrs = 0x6eb4984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2426,7 +2426,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::ArrayW<bool>)>(&::UnityEngine::AndroidJNI::ConvertToBooleanArray)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6eb38f8;
+  constexpr static std::size_t addrs = 0x6eb49d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2439,7 +2439,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::ArrayW<bool>)>(&::UnityEngine::AndroidJNI::ToBooleanArray)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6eb39f8;
+  constexpr static std::size_t addrs = 0x6eb4ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2452,7 +2452,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::ArrayW<uint8_t>)>(&::UnityEngine::AndroidJNI::ToByteArray)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6eb3a04;
+  constexpr static std::size_t addrs = 0x6eb4ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2465,7 +2465,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::ArrayW<int8_t>)>(&::UnityEngine::AndroidJNI::ToSByteArray)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb3b04;
+  constexpr static std::size_t addrs = 0x6eb4be4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2478,7 +2478,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(int8_t*, int32_t)>(&::UnityEngine::AndroidJNI::ToSByteArray)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb3b58;
+  constexpr static std::size_t addrs = 0x6eb4c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2491,7 +2491,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::ArrayW<char16_t>)>(&::UnityEngine::AndroidJNI::ToCharArray)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb3b9c;
+  constexpr static std::size_t addrs = 0x6eb4c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2504,7 +2504,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(char16_t*, int32_t)>(&::UnityEngine::AndroidJNI::ToCharArray)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb3bf0;
+  constexpr static std::size_t addrs = 0x6eb4cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2517,7 +2517,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::ArrayW<int16_t>)>(&::UnityEngine::AndroidJNI::ToShortArray)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb3c34;
+  constexpr static std::size_t addrs = 0x6eb4d14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2530,7 +2530,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(int16_t*, int32_t)>(&::UnityEngine::AndroidJNI::ToShortArray)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb3c88;
+  constexpr static std::size_t addrs = 0x6eb4d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2543,7 +2543,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::ArrayW<int32_t>)>(&::UnityEngine::AndroidJNI::ToIntArray)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb3ccc;
+  constexpr static std::size_t addrs = 0x6eb4dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2556,7 +2556,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(int32_t*, int32_t)>(&::UnityEngine::AndroidJNI::ToIntArray)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb3d20;
+  constexpr static std::size_t addrs = 0x6eb4e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2569,7 +2569,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::ArrayW<int64_t>)>(&::UnityEngine::AndroidJNI::ToLongArray)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb3d64;
+  constexpr static std::size_t addrs = 0x6eb4e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2582,7 +2582,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(int64_t*, int32_t)>(&::UnityEngine::AndroidJNI::ToLongArray)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb3db8;
+  constexpr static std::size_t addrs = 0x6eb4e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2595,7 +2595,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::ArrayW<float_t>)>(&::UnityEngine::AndroidJNI::ToFloatArray)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb3dfc;
+  constexpr static std::size_t addrs = 0x6eb4edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2608,7 +2608,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(float_t*, int32_t)>(&::UnityEngine::AndroidJNI::ToFloatArray)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb3e50;
+  constexpr static std::size_t addrs = 0x6eb4f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2621,7 +2621,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::ArrayW<double_t>)>(&::UnityEngine::AndroidJNI::ToDoubleArray)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb3e94;
+  constexpr static std::size_t addrs = 0x6eb4f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2634,7 +2634,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(double_t*, int32_t)>(&::UnityEngine::AndroidJNI::ToDoubleArray)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb3ee8;
+  constexpr static std::size_t addrs = 0x6eb4fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2647,7 +2647,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr*, int32_t, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::ToObjectArray)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb3f2c;
+  constexpr static std::size_t addrs = 0x6eb500c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2661,7 +2661,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::ArrayW<::System::IntPtr>, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::ToObjectArray)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6eb3f80;
+  constexpr static std::size_t addrs = 0x6eb5060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2675,7 +2675,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::ArrayW<::System::IntPtr>)>(&::UnityEngine::AndroidJNI::ToObjectArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6eb3fe4;
+  constexpr static std::size_t addrs = 0x6eb50c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2688,7 +2688,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<bool> (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::FromBooleanArray)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6eb3fec;
+  constexpr static std::size_t addrs = 0x6eb50cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2701,7 +2701,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::FromByteArray)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6eb414c;
+  constexpr static std::size_t addrs = 0x6eb522c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2714,7 +2714,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int8_t> (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::FromSByteArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eb42ac;
+  constexpr static std::size_t addrs = 0x6eb538c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2727,7 +2727,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<char16_t> (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::FromCharArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eb42e8;
+  constexpr static std::size_t addrs = 0x6eb53c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2740,7 +2740,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int16_t> (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::FromShortArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eb4324;
+  constexpr static std::size_t addrs = 0x6eb5404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2753,7 +2753,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::FromIntArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eb4360;
+  constexpr static std::size_t addrs = 0x6eb5440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2766,7 +2766,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int64_t> (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::FromLongArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eb439c;
+  constexpr static std::size_t addrs = 0x6eb547c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2779,7 +2779,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<float_t> (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::FromFloatArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eb43d8;
+  constexpr static std::size_t addrs = 0x6eb54b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2792,7 +2792,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<double_t> (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::FromDoubleArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eb4414;
+  constexpr static std::size_t addrs = 0x6eb54f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2805,7 +2805,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::IntPtr> (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::FromObjectArray)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6eb4450;
+  constexpr static std::size_t addrs = 0x6eb5530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2818,7 +2818,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetArrayLength)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eb45b0;
+  constexpr static std::size_t addrs = 0x6eb5690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2831,7 +2831,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(int32_t)>(&::UnityEngine::AndroidJNI::NewBooleanArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eb45ec;
+  constexpr static std::size_t addrs = 0x6eb56cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "NewBooleanArray", {}, { ::i2c::type_of<int32_t>() } })));
@@ -2843,7 +2843,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(int32_t)>(&::UnityEngine::AndroidJNI::NewByteArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eb4628;
+  constexpr static std::size_t addrs = 0x6eb5708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "NewByteArray", {}, { ::i2c::type_of<int32_t>() } })));
@@ -2855,7 +2855,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(int32_t)>(&::UnityEngine::AndroidJNI::NewSByteArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eb4664;
+  constexpr static std::size_t addrs = 0x6eb5744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "NewSByteArray", {}, { ::i2c::type_of<int32_t>() } })));
@@ -2867,7 +2867,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(int32_t)>(&::UnityEngine::AndroidJNI::NewCharArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eb46a0;
+  constexpr static std::size_t addrs = 0x6eb5780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "NewCharArray", {}, { ::i2c::type_of<int32_t>() } })));
@@ -2879,7 +2879,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(int32_t)>(&::UnityEngine::AndroidJNI::NewShortArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eb46dc;
+  constexpr static std::size_t addrs = 0x6eb57bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "NewShortArray", {}, { ::i2c::type_of<int32_t>() } })));
@@ -2891,7 +2891,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(int32_t)>(&::UnityEngine::AndroidJNI::NewIntArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eb4718;
+  constexpr static std::size_t addrs = 0x6eb57f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "NewIntArray", {}, { ::i2c::type_of<int32_t>() } })));
@@ -2903,7 +2903,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(int32_t)>(&::UnityEngine::AndroidJNI::NewLongArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eb4754;
+  constexpr static std::size_t addrs = 0x6eb5834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "NewLongArray", {}, { ::i2c::type_of<int32_t>() } })));
@@ -2915,7 +2915,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(int32_t)>(&::UnityEngine::AndroidJNI::NewFloatArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eb4790;
+  constexpr static std::size_t addrs = 0x6eb5870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "NewFloatArray", {}, { ::i2c::type_of<int32_t>() } })));
@@ -2927,7 +2927,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(int32_t)>(&::UnityEngine::AndroidJNI::NewDoubleArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eb47cc;
+  constexpr static std::size_t addrs = 0x6eb58ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "NewDoubleArray", {}, { ::i2c::type_of<int32_t>() } })));
@@ -2939,7 +2939,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(int32_t, ::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::NewObjectArray)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb4808;
+  constexpr static std::size_t addrs = 0x6eb58e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2953,7 +2953,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, int32_t)>(&::UnityEngine::AndroidJNI::GetBooleanArrayElement)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb485c;
+  constexpr static std::size_t addrs = 0x6eb593c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2966,7 +2966,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (*)(::System::IntPtr, int32_t)>(&::UnityEngine::AndroidJNI::GetByteArrayElement)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb48a0;
+  constexpr static std::size_t addrs = 0x6eb5980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2979,7 +2979,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (*)(::System::IntPtr, int32_t)>(&::UnityEngine::AndroidJNI::GetSByteArrayElement)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb48e4;
+  constexpr static std::size_t addrs = 0x6eb59c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2992,7 +2992,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(::System::IntPtr, int32_t)>(&::UnityEngine::AndroidJNI::GetCharArrayElement)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb4928;
+  constexpr static std::size_t addrs = 0x6eb5a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3005,7 +3005,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (*)(::System::IntPtr, int32_t)>(&::UnityEngine::AndroidJNI::GetShortArrayElement)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb496c;
+  constexpr static std::size_t addrs = 0x6eb5a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3018,7 +3018,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, int32_t)>(&::UnityEngine::AndroidJNI::GetIntArrayElement)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb49b0;
+  constexpr static std::size_t addrs = 0x6eb5a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3031,7 +3031,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::System::IntPtr, int32_t)>(&::UnityEngine::AndroidJNI::GetLongArrayElement)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb49f4;
+  constexpr static std::size_t addrs = 0x6eb5ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3044,7 +3044,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr, int32_t)>(&::UnityEngine::AndroidJNI::GetFloatArrayElement)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb4a38;
+  constexpr static std::size_t addrs = 0x6eb5b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3057,7 +3057,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::System::IntPtr, int32_t)>(&::UnityEngine::AndroidJNI::GetDoubleArrayElement)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb4a7c;
+  constexpr static std::size_t addrs = 0x6eb5b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3070,7 +3070,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, int32_t)>(&::UnityEngine::AndroidJNI::GetObjectArrayElement)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb4ac0;
+  constexpr static std::size_t addrs = 0x6eb5ba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3083,7 +3083,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, uint8_t)>(&::UnityEngine::AndroidJNI::SetBooleanArrayElement)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6eb4b04;
+  constexpr static std::size_t addrs = 0x6eb5be4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3097,7 +3097,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, bool)>(&::UnityEngine::AndroidJNI::SetBooleanArrayElement)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb4b5c;
+  constexpr static std::size_t addrs = 0x6eb5c3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3111,7 +3111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, int8_t)>(&::UnityEngine::AndroidJNI::SetByteArrayElement)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb4bb0;
+  constexpr static std::size_t addrs = 0x6eb5c90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3125,7 +3125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, int8_t)>(&::UnityEngine::AndroidJNI::SetSByteArrayElement)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb4c04;
+  constexpr static std::size_t addrs = 0x6eb5ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3139,7 +3139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, char16_t)>(&::UnityEngine::AndroidJNI::SetCharArrayElement)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb4c58;
+  constexpr static std::size_t addrs = 0x6eb5d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3153,7 +3153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, int16_t)>(&::UnityEngine::AndroidJNI::SetShortArrayElement)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb4cac;
+  constexpr static std::size_t addrs = 0x6eb5d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3167,7 +3167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, int32_t)>(&::UnityEngine::AndroidJNI::SetIntArrayElement)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb4d00;
+  constexpr static std::size_t addrs = 0x6eb5de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3181,7 +3181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, int64_t)>(&::UnityEngine::AndroidJNI::SetLongArrayElement)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb4d54;
+  constexpr static std::size_t addrs = 0x6eb5e34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3195,7 +3195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, float_t)>(&::UnityEngine::AndroidJNI::SetFloatArrayElement)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb4da8;
+  constexpr static std::size_t addrs = 0x6eb5e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3209,7 +3209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, double_t)>(&::UnityEngine::AndroidJNI::SetDoubleArrayElement)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb4dfc;
+  constexpr static std::size_t addrs = 0x6eb5edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3223,7 +3223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::SetObjectArrayElement)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb4e50;
+  constexpr static std::size_t addrs = 0x6eb5f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3237,7 +3237,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(uint8_t*, int64_t)>(&::UnityEngine::AndroidJNI::NewDirectByteBuffer)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb4ea4;
+  constexpr static std::size_t addrs = 0x6eb5f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3250,7 +3250,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::Unity::Collections::NativeArray_1<uint8_t>)>(&::UnityEngine::AndroidJNI::NewDirectByteBuffer)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6eb4ee8;
+  constexpr static std::size_t addrs = 0x6eb5fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3263,7 +3263,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::Unity::Collections::NativeArray_1<int8_t>)>(&::UnityEngine::AndroidJNI::NewDirectByteBuffer)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6eb4f44;
+  constexpr static std::size_t addrs = 0x6eb6024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3276,7 +3276,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t* (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetDirectBufferAddress)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eb4fa0;
+  constexpr static std::size_t addrs = 0x6eb6080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3289,7 +3289,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetDirectBufferCapacity)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eb4fdc;
+  constexpr static std::size_t addrs = 0x6eb60bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3302,7 +3302,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeArray_1<uint8_t> (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetDirectByteBuffer)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6eb5018;
+  constexpr static std::size_t addrs = 0x6eb60f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3315,7 +3315,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeArray_1<int8_t> (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetDirectSByteBuffer)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6eb5064;
+  constexpr static std::size_t addrs = 0x6eb6144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3328,7 +3328,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::ArrayW<::UnityEngine::JNINativeMethod>)>(&::UnityEngine::AndroidJNI::RegisterNatives)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6eb50b0;
+  constexpr static std::size_t addrs = 0x6eb6190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3342,7 +3342,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(int32_t)>(&::UnityEngine::AndroidJNI::RegisterNativesAllocate)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eb51d4;
+  constexpr static std::size_t addrs = 0x6eb62b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3355,7 +3355,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, ::StringW, ::StringW, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::RegisterNativesSet)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x6eb5210;
+  constexpr static std::size_t addrs = 0x6eb62f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3371,7 +3371,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::System::IntPtr, int32_t)>(&::UnityEngine::AndroidJNI::RegisterNativesAndFree)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb53dc;
+  constexpr static std::size_t addrs = 0x6eb64bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3385,7 +3385,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::UnregisterNatives)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eb549c;
+  constexpr static std::size_t addrs = 0x6eb657c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3398,7 +3398,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::AndroidJNI_JStringBinding const>)>(&::UnityEngine::AndroidJNI::ReleaseStringChars_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eae934;
+  constexpr static std::size_t addrs = 0x6eafa14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3412,7 +3412,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::AndroidJNI::FindClass_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eaeb98;
+  constexpr static std::size_t addrs = 0x6eafc78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3426,7 +3426,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::AndroidJNI::ThrowNew_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eaeeec;
+  constexpr static std::size_t addrs = 0x6eaffcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3440,7 +3440,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::AndroidJNI::FatalError_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eaf0cc;
+  constexpr static std::size_t addrs = 0x6eb01ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3455,7 +3455,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>,
                                                                             ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::AndroidJNI::GetMethodID_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eaf7bc;
+  constexpr static std::size_t addrs = 0x6eb089c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3473,7 +3473,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>,
                                                                             ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::AndroidJNI::GetFieldID_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eaf9cc;
+  constexpr static std::size_t addrs = 0x6eb0aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3491,7 +3491,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>,
                                                                             ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::AndroidJNI::GetStaticMethodID_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eafbdc;
+  constexpr static std::size_t addrs = 0x6eb0cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3509,7 +3509,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>,
                                                                             ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::AndroidJNI::GetStaticFieldID_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eafdec;
+  constexpr static std::size_t addrs = 0x6eb0ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3526,7 +3526,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::AndroidJNI::NewStringFromStr_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eaff70;
+  constexpr static std::size_t addrs = 0x6eb1050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3540,7 +3540,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::AndroidJNI::NewString_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eb0070;
+  constexpr static std::size_t addrs = 0x6eb1150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3554,7 +3554,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::AndroidJNI::NewStringUTF_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eb01d8;
+  constexpr static std::size_t addrs = 0x6eb12b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3568,7 +3568,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::AndroidJNI_JStringBinding>)>(&::UnityEngine::AndroidJNI::GetStringCharsInternal_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb03dc;
+  constexpr static std::size_t addrs = 0x6eb14bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3583,7 +3583,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::AndroidJNI::GetStringUTFChars_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb0564;
+  constexpr static std::size_t addrs = 0x6eb1644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3599,7 +3599,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::UnityEngine::jvalue*, ::by_ref<::UnityEngine::AndroidJNI_JStringBinding>)>(
     &::UnityEngine::AndroidJNI::CallStringMethodUnsafeInternal_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6eb0850;
+  constexpr static std::size_t addrs = 0x6eb1930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3617,7 +3617,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::by_ref<::UnityEngine::AndroidJNI_JStringBinding>)>(
     &::UnityEngine::AndroidJNI::GetStringFieldInternal_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb177c;
+  constexpr static std::size_t addrs = 0x6eb285c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3634,7 +3634,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::AndroidJNI::SetStringField_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb1bb4;
+  constexpr static std::size_t addrs = 0x6eb2c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3651,7 +3651,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::UnityEngine::jvalue*, ::by_ref<::UnityEngine::AndroidJNI_JStringBinding>)>(
     &::UnityEngine::AndroidJNI::CallStaticStringMethodUnsafeInternal_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6eb21f8;
+  constexpr static std::size_t addrs = 0x6eb32d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3669,7 +3669,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::by_ref<::UnityEngine::AndroidJNI_JStringBinding>)>(
     &::UnityEngine::AndroidJNI::GetStaticStringFieldInternal_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb3124;
+  constexpr static std::size_t addrs = 0x6eb4204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3686,7 +3686,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::AndroidJNI::SetStaticStringField_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb355c;
+  constexpr static std::size_t addrs = 0x6eb463c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3702,7 +3702,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::AndroidJNI::ConvertToBooleanArray_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eb39bc;
+  constexpr static std::size_t addrs = 0x6eb4a9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3716,7 +3716,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::AndroidJNI::ToByteArray_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eb3ac8;
+  constexpr static std::size_t addrs = 0x6eb4ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3730,7 +3730,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>)>(&::UnityEngine::AndroidJNI::FromBooleanArray_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb4108;
+  constexpr static std::size_t addrs = 0x6eb51e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3745,7 +3745,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>)>(&::UnityEngine::AndroidJNI::FromByteArray_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb4268;
+  constexpr static std::size_t addrs = 0x6eb5348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3759,7 +3759,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>)>(&::UnityEngine::AndroidJNI::FromObjectArray_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb456c;
+  constexpr static std::size_t addrs = 0x6eb564c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3775,7 +3775,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>,
                                                                 ::System::IntPtr)>(&::UnityEngine::AndroidJNI::RegisterNativesSet_Injected)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6eb5430;
+  constexpr static std::size_t addrs = 0x6eb6510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

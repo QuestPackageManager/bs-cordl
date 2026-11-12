@@ -41,7 +41,7 @@ public:
   /// @brief Field m_TimeoutMode, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_m_TimeoutMode, put = __cordl_internal_set_m_TimeoutMode)) ::UnityEngine::WaitTimeoutMode m_TimeoutMode;
 
-  /// @brief Method GetTime, addr 0x6f83d80, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetTime, addr 0x6f84e60, size 0x54, virtual false, abstract: false, final false
   inline double_t GetTime();
 
   static inline ::UnityEngine::WaitUntil* New_ctor(::System::Func_1<bool>* predicate);
@@ -70,10 +70,10 @@ public:
 
   constexpr void __cordl_internal_set_m_TimeoutMode(::UnityEngine::WaitTimeoutMode value);
 
-  /// @brief Method .ctor, addr 0x6f83d70, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f84e50, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_1<bool>* predicate);
 
-  /// @brief Method get_keepWaiting, addr 0x6f83cac, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method get_keepWaiting, addr 0x6f84d8c, size 0xc4, virtual true, abstract: false, final false
   inline bool get_keepWaiting();
 
 protected:

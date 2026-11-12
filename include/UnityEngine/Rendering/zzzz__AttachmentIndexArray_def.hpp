@@ -28,20 +28,20 @@ public:
 
   __declspec(property(get = get_Length)) int32_t Length;
 
-  /// @brief Method .ctor, addr 0x6fb8d0c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fb9dec, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(int32_t numAttachments);
 
   static inline ::UnityEngine::Rendering::AttachmentIndexArray getStaticF_Emtpy();
 
-  /// @brief Method get_Item, addr 0x6fb8d9c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6fb9e7c, size 0xb0, virtual false, abstract: false, final false
   inline int32_t get_Item(int32_t index);
 
-  /// @brief Method get_Length, addr 0x6fb8efc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x6fb9fdc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   static inline void setStaticF_Emtpy(::UnityEngine::Rendering::AttachmentIndexArray value);
 
-  /// @brief Method set_Item, addr 0x6fb8e4c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x6fb9f2c, size 0xb0, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, int32_t value);
 
   // Ctor Parameters []

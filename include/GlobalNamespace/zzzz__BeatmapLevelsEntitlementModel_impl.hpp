@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelsEntitlementModel::*)(::GlobalNamespace::IAdditionalContentEntitlementModel*)>(
     &::GlobalNamespace::BeatmapLevelsEntitlementModel::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39d6cc0;
+  constexpr static std::size_t addrs = 0x39db1f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelsEntitlementModel*>(),
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelsEntitlementModel::*)(::GlobalNamespace::PackDefinitionSO*)>(
     &::GlobalNamespace::BeatmapLevelsEntitlementModel::AddAlwaysOwnedPack)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x39d6d5c;
+  constexpr static std::size_t addrs = 0x39db290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelsEntitlementModel*>(),
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* (
     ::GlobalNamespace::BeatmapLevelsEntitlementModel::*)(::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::BeatmapLevelsEntitlementModel::GetLevelEntitlementStatusAsync)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x39d7090;
+  constexpr static std::size_t addrs = 0x39db5c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* (
     ::GlobalNamespace::BeatmapLevelsEntitlementModel::*)(::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::BeatmapLevelsEntitlementModel::GetPackEntitlementStatusAsync)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x39d71d4;
+  constexpr static std::size_t addrs = 0x39db708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* (
     ::GlobalNamespace::BeatmapLevelsEntitlementModel::*)(::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::BeatmapLevelsEntitlementModel::GetGameDlcEntitlementStatusAsync)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x39d731c;
+  constexpr static std::size_t addrs = 0x39db850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* (
     ::GlobalNamespace::BeatmapLevelsEntitlementModel::*)(::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::BeatmapLevelsEntitlementModel::GetLevelDataVersionAsync)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x39d73dc;
+  constexpr static std::size_t addrs = 0x39db910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,17 +98,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::BeatmapLevelsEntitlementModel.GetExcludedLevelIdsAsync
+//  Writing Method size for method: ::GlobalNamespace::BeatmapLevelsEntitlementModel.GetDiscontinuedLevelIdsAsync
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* (
-    ::GlobalNamespace::BeatmapLevelsEntitlementModel::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::BeatmapLevelsEntitlementModel::GetExcludedLevelIdsAsync)> {
+    ::GlobalNamespace::BeatmapLevelsEntitlementModel::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::BeatmapLevelsEntitlementModel::GetDiscontinuedLevelIdsAsync)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x39d749c;
+  constexpr static std::size_t addrs = 0x39db9d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelsEntitlementModel*>(),
-                                                                                           { "GetExcludedLevelIdsAsync", {}, { ::i2c::type_of<::System::Threading::CancellationToken>() } })));
+                                                                                           { "GetDiscontinuedLevelIdsAsync", {}, { ::i2c::type_of<::System::Threading::CancellationToken>() } })));
     return ___internal_method;
   }
 };
@@ -186,9 +186,9 @@ GlobalNamespace::BeatmapLevelsEntitlementModel::GetLevelDataVersionAsync(::Strin
                                                            { "GetLevelDataVersionAsync", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Threading::CancellationToken>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>*>(this, ___internal_method, levelId, token);
 }
-inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* GlobalNamespace::BeatmapLevelsEntitlementModel::GetExcludedLevelIdsAsync(::System::Threading::CancellationToken token) {
+inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* GlobalNamespace::BeatmapLevelsEntitlementModel::GetDiscontinuedLevelIdsAsync(::System::Threading::CancellationToken token) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelsEntitlementModel*>(),
-                                                                                         { "GetExcludedLevelIdsAsync", {}, { ::i2c::type_of<::System::Threading::CancellationToken>() } })));
+                                                                                         { "GetDiscontinuedLevelIdsAsync", {}, { ::i2c::type_of<::System::Threading::CancellationToken>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>*>(this, ___internal_method, token);
 }
 inline ::GlobalNamespace::BeatmapLevelsEntitlementModel*

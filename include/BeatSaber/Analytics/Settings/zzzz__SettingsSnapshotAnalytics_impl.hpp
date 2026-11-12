@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analyt
     ::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher*, ::GlobalNamespace::IPlayerDataModel*, ::GlobalNamespace::SettingsManager*)>(
     &::BeatSaber::Analytics::Settings::SettingsSnapshotAnalytics::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x350b828;
+  constexpr static std::size_t addrs = 0x350dc68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Settings::SettingsSnapshotAnalytics::*)()>(
     &::BeatSaber::Analytics::Settings::SettingsSnapshotAnalytics::TrySendSnapshot)> {
   constexpr static std::size_t size = 0x4a0;
-  constexpr static std::size_t addrs = 0x350b834;
+  constexpr static std::size_t addrs = 0x350dc74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::BeatSaber::Analytics::Settings::SettingsSnapshotAnalytics::TodayInDays)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x350bcd4;
+  constexpr static std::size_t addrs = 0x350e114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

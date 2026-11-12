@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters::GetInstance)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x361a3e0;
+  constexpr static std::size_t addrs = 0x361e878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters::GetInstance)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x361a3f4;
+  constexpr static std::size_t addrs = 0x361e88c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     int32_t, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3619dd0;
+  constexpr static std::size_t addrs = 0x361e268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters::_ctor)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x361a564;
+  constexpr static std::size_t addrs = 0x361e9fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters*>(),
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters::*)()>(
     &::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters::get_KeySize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x361a678;
+  constexpr static std::size_t addrs = 0x361eb10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters::*)()>(
     &::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters::get_P)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x361a680;
+  constexpr static std::size_t addrs = 0x361eb18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters*>(), { "get_P", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters::*)()>(
     &::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters::get_Q)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x361a694;
+  constexpr static std::size_t addrs = 0x361eb2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters*>(), { "get_Q", {}, {} })));
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters::*)()>(
     &::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters::get_A)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x361a6a8;
+  constexpr static std::size_t addrs = 0x361eb40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters*>(), { "get_A", {}, {} })));
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters::*)()>(
     &::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters::ToAsn1Object)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x361a6bc;
+  constexpr static std::size_t addrs = 0x361eb54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters*>(),

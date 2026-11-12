@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Exp
     ::System::Linq::Expressions::Expression*, ::System::Reflection::PropertyInfo*, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*)>(
     &::System::Linq::Expressions::IndexExpression::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x63de490;
+  constexpr static std::size_t addrs = 0x63deae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::ExpressionType (::System::Linq::Expressions::IndexExpression::*)()>(
     &::System::Linq::Expressions::IndexExpression::get_NodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63de508;
+  constexpr static std::size_t addrs = 0x63deb58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::IndexExpression*>(), { "get_NodeType", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Linq::Expressions::IndexExpression::*)()>(&::System::Linq::Expressions::IndexExpression::get_Type)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x63de510;
+  constexpr static std::size_t addrs = 0x63deb60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::IndexExpression*>(), { "get_Type", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::IndexExpression::*)()>(
     &::System::Linq::Expressions::IndexExpression::get_Object)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63de560;
+  constexpr static std::size_t addrs = 0x63debb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::IndexExpression*>(), { "get_Object", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::PropertyInfo* (::System::Linq::Expressions::IndexExpression::*)()>(
     &::System::Linq::Expressions::IndexExpression::get_Indexer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63de568;
+  constexpr static std::size_t addrs = 0x63debb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::IndexExpression*>(), { "get_Indexer", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::IndexExpression::*)(int32_t)>(
     &::System::Linq::Expressions::IndexExpression::GetArgument)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x63dcbec;
+  constexpr static std::size_t addrs = 0x63dd23c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::IndexExpression::*)()>(&::System::Linq::Expressions::IndexExpression::get_ArgumentCount)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x63dcb48;
+  constexpr static std::size_t addrs = 0x63dd198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::IndexExpression*>(), { "get_ArgumentCount", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::IndexExpression::*)(::System::Linq::Expressions::ExpressionVisitor*)>(
     &::System::Linq::Expressions::IndexExpression::Accept)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x63de570;
+  constexpr static std::size_t addrs = 0x63debc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressio
                                                                                                                                                   ::ArrayW<::System::Linq::Expressions::Expression*>)>(
     &::System::Linq::Expressions::IndexExpression::Rewrite)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x63dda28;
+  constexpr static std::size_t addrs = 0x63de078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

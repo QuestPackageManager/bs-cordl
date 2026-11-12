@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PosesRecorder___c::*)()>(&::GlobalNamespace::PosesRecorder___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d3da50;
+  constexpr static std::size_t addrs = 0x5d3d6b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PosesRecorder___c*>(), { ".ctor", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::PosesRecorder___c::*)(::GlobalNamespace::PoseObject*)>(
     &::GlobalNamespace::PosesRecorder___c::_Init_b__6_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5d3da54;
+  constexpr static std::size_t addrs = 0x5d3d6b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PosesRecorder___c::*)(::GlobalNamespace::PoseObject*)>(&::GlobalNamespace::PosesRecorder___c::_Init_b__6_1)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5d3da68;
+  constexpr static std::size_t addrs = 0x5d3d6c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PosesRecordingData* (::GlobalNamespace::PosesRecorder::*)()>(&::GlobalNamespace::PosesRecorder::get_data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d3d74c;
+  constexpr static std::size_t addrs = 0x5d3d3ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PosesRecorder*>(), { "get_data", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PosesRecorder::*)()>(&::GlobalNamespace::PosesRecorder::LateUpdate)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d3d754;
+  constexpr static std::size_t addrs = 0x5d3d3b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PosesRecorder*>(), { "LateUpdate", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PosesRecorder::*)(
     ::ArrayW<::GlobalNamespace::PoseObject*>, ::GlobalNamespace::PosesRecordingData_ExternalCameraCalibration*)>(&::GlobalNamespace::PosesRecorder::Init)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x5d3b130;
+  constexpr static std::size_t addrs = 0x5d3ad90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PosesRecorder::*)()>(&::GlobalNamespace::PosesRecorder::StartRecording)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d3bb58;
+  constexpr static std::size_t addrs = 0x5d3b7b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PosesRecorder*>(), { "StartRecording", {}, {} })));
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PosesRecorder::*)(float_t)>(&::GlobalNamespace::PosesRecorder::RecordTick)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5d3d76c;
+  constexpr static std::size_t addrs = 0x5d3d3cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PosesRecorder*>(), { "RecordTick", {}, { ::i2c::type_of<float_t>() } })));
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PosesRecorder::*)()>(&::GlobalNamespace::PosesRecorder::StopRecording)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d3bacc;
+  constexpr static std::size_t addrs = 0x5d3b72c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PosesRecorder*>(), { "StopRecording", {}, {} })));
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PosesRecorder::*)()>(&::GlobalNamespace::PosesRecorder::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d3d9f8;
+  constexpr static std::size_t addrs = 0x5d3d658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PosesRecorder*>(), { ".ctor", {}, {} })));

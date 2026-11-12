@@ -20,7 +20,7 @@ class CORDL_TYPE LowerResBlitTexture : public ::UnityEngine::Object {
 public:
   // Declarations
   /// [RequiredByNativeCode]
-  /// @brief Method LowerResBlitTextureDontStripMe, addr 0x6f87e4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LowerResBlitTextureDontStripMe, addr 0x6f88f2c, size 0x4, virtual false, abstract: false, final false
   inline void LowerResBlitTextureDontStripMe();
 
 protected:

@@ -57,54 +57,54 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>*();
 
-  /// @brief Method Equals, addr 0x6c50978, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6c51a58, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6c508a4, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6c51984, size 0xd4, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::RenderGraphModule::TextureHandle other);
 
-  /// @brief Method GetDescriptor, addr 0x6c50d40, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetDescriptor, addr 0x6c51e20, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureDesc GetDescriptor(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph);
 
-  /// @brief Method GetHashCode, addr 0x6c50a0c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c51aec, size 0x58, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsBuiltin, addr 0x6c50d38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsBuiltin, addr 0x6c51e18, size 0x8, virtual false, abstract: false, final false
   inline bool IsBuiltin();
 
-  /// @brief Method IsValid, addr 0x6c50c54, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6c51d34, size 0xe4, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method .ctor, addr 0x6c501cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c512ac, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> h);
 
-  /// @brief Method .ctor, addr 0x6c4cb6c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c4dc4c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(int32_t handle, bool shared, bool builtin);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle getStaticF_s_NullHandle();
 
-  /// @brief Method get_nullHandle, addr 0x6c50170, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_nullHandle, addr 0x6c51250, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_nullHandle();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>* i___System__IEquatable_1___UnityEngine__Rendering__RenderGraphModule__TextureHandle_();
 
-  /// @brief Method op_Equality, addr 0x6c50ad4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6c51bb4, size 0xc0, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::RenderGraphModule::TextureHandle lhs, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle rhs);
 
-  /// @brief Method op_Implicit, addr 0x6c50708, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6c517e8, size 0x19c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RTHandle* op_Implicit___UnityEngine__Rendering__RTHandle_(::UnityEngine::Rendering::RenderGraphModule::TextureHandle texture);
 
-  /// @brief Method op_Implicit, addr 0x6c501e4, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6c512c4, size 0x1e0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier(::UnityEngine::Rendering::RenderGraphModule::TextureHandle texture);
 
-  /// @brief Method op_Implicit, addr 0x6c50564, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6c51644, size 0x1a4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> op_Implicit___UnityW___UnityEngine__RenderTexture_(::UnityEngine::Rendering::RenderGraphModule::TextureHandle texture);
 
-  /// @brief Method op_Implicit, addr 0x6c503c4, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6c514a4, size 0x1a0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture> op_Implicit___UnityW___UnityEngine__Texture_(::UnityEngine::Rendering::RenderGraphModule::TextureHandle texture);
 
-  /// @brief Method op_Inequality, addr 0x6c50b94, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6c51c74, size 0xc0, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Rendering::RenderGraphModule::TextureHandle lhs, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle rhs);
 
   static inline void setStaticF_s_NullHandle(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);

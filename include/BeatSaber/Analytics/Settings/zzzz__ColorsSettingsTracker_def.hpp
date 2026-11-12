@@ -38,12 +38,12 @@ public:
   /// @brief Field _sender, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__sender, put = __cordl_internal_set__sender)) ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* _sender;
 
-  /// @brief Method DiffAndSend, addr 0x350688c, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method DiffAndSend, addr 0x3508ccc, size 0x414, virtual false, abstract: false, final false
   inline void DiffAndSend(::GlobalNamespace::ColorSchemesSettings* s);
 
   static inline ::BeatSaber::Analytics::Settings::ColorsSettingsTracker* New_ctor(::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* sender);
 
-  /// @brief Method TakeSnapshot, addr 0x35067ec, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method TakeSnapshot, addr 0x3508c2c, size 0xa0, virtual false, abstract: false, final false
   inline void TakeSnapshot(::GlobalNamespace::ColorSchemesSettings* s);
 
   constexpr ::StringW const& __cordl_internal_get__colorOverrideType() const;
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__sender(::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* value);
 
-  /// @brief Method .ctor, addr 0x35061d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3508610, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* sender);
 
 protected:
@@ -88,7 +88,7 @@ public:
   ColorsSettingsTracker(ColorsSettingsTracker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22766 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22779 };
 
   /// @brief Field _sender, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* ____sender;

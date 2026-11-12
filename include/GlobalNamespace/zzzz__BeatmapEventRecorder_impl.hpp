@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEventRecorder::*)(int32_t)>(&::GlobalNamespace::BeatmapEventRecorder::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5d40540;
+  constexpr static std::size_t addrs = 0x5d401a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEventRecorder::*)(::GlobalNamespace::BeatmapCallbacksController*)>(
     &::GlobalNamespace::BeatmapEventRecorder::Begin)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d405c4;
+  constexpr static std::size_t addrs = 0x5d40224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEventRecorder::*)()>(&::GlobalNamespace::BeatmapEventRecorder::CaptureFrame)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5d40684;
+  constexpr static std::size_t addrs = 0x5d402e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEventRecorder*>(), { "CaptureFrame", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::BeatmapEventRecorder_EventCounts> (::GlobalNamespace::BeatmapEventRecorder::*)()>(
     &::GlobalNamespace::BeatmapEventRecorder::Finish)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5d40770;
+  constexpr static std::size_t addrs = 0x5d403d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEventRecorder*>(), { "Finish", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::ArrayW<::GlobalNamespace::BeatmapEventRecorder_EventCounts>)>(&::GlobalNamespace::BeatmapEventRecorder::GenerateTableReport)> {
   constexpr static std::size_t size = 0x540;
-  constexpr static std::size_t addrs = 0x5d40844;
+  constexpr static std::size_t addrs = 0x5d404a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEventRecorder::*)()>(&::GlobalNamespace::BeatmapEventRecorder::ClearCallbacks)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5d40814;
+  constexpr static std::size_t addrs = 0x5d40474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEventRecorder*>(), { "ClearCallbacks", {}, {} })));
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEventRecorder::*)(::GlobalNamespace::BeatmapCallbacksController*)>(
     &::GlobalNamespace::BeatmapEventRecorder::SetupCallbacks)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5d405c8;
+  constexpr static std::size_t addrs = 0x5d40228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEventRecorder::*)(::GlobalNamespace::BeatmapEventData*)>(
     &::GlobalNamespace::BeatmapEventRecorder::HandleBeatmapEvent)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x5d40d84;
+  constexpr static std::size_t addrs = 0x5d409e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

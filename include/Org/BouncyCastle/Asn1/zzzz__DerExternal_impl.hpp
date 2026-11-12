@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerExternal::*)(::Org::BouncyCastle::Asn1::Asn1EncodableVector*)>(
     &::Org::BouncyCastle::Asn1::DerExternal::_ctor)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x392e310;
+  constexpr static std::size_t addrs = 0x39327a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
                                                                                                         ::Org::BouncyCastle::Asn1::Asn1Object*, ::Org::BouncyCastle::Asn1::DerTaggedObject*)>(
     &::Org::BouncyCastle::Asn1::DerExternal::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x393a18c;
+  constexpr static std::size_t addrs = 0x393e624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
                                                                                                         ::Org::BouncyCastle::Asn1::Asn1Object*, int32_t, ::Org::BouncyCastle::Asn1::Asn1Object*)>(
     &::Org::BouncyCastle::Asn1::DerExternal::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x393a1ec;
+  constexpr static std::size_t addrs = 0x393e684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerExternal::*)(::Org::BouncyCastle::Asn1::DerOutputStream*)>(
     &::Org::BouncyCastle::Asn1::DerExternal::Encode)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x393a234;
+  constexpr static std::size_t addrs = 0x393e6cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::DerExternal::*)()>(&::Org::BouncyCastle::Asn1::DerExternal::Asn1GetHashCode)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x393a380;
+  constexpr static std::size_t addrs = 0x393e818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Asn1::DerExternal::*)(::Org::BouncyCastle::Asn1::Asn1Object*)>(&::Org::BouncyCastle::Asn1::DerExternal::Asn1Equals)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x393a3f4;
+  constexpr static std::size_t addrs = 0x393e88c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::DerExternal::*)()>(
     &::Org::BouncyCastle::Asn1::DerExternal::get_DataValueDescriptor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x393a53c;
+  constexpr static std::size_t addrs = 0x393e9d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DerExternal*>(), { "get_DataValueDescriptor", {}, {} })));
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerExternal::*)(::Org::BouncyCastle::Asn1::Asn1Object*)>(
     &::Org::BouncyCastle::Asn1::DerExternal::set_DataValueDescriptor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x393a544;
+  constexpr static std::size_t addrs = 0x393e9dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (::Org::BouncyCastle::Asn1::DerExternal::*)()>(
     &::Org::BouncyCastle::Asn1::DerExternal::get_DirectReference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x393a54c;
+  constexpr static std::size_t addrs = 0x393e9e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DerExternal*>(), { "get_DirectReference", {}, {} })));
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerExternal::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Asn1::DerExternal::set_DirectReference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x393a554;
+  constexpr static std::size_t addrs = 0x393e9ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DerExternal*>(),
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::DerExternal::*)()>(&::Org::BouncyCastle::Asn1::DerExternal::get_Encoding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x393a55c;
+  constexpr static std::size_t addrs = 0x393e9f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DerExternal*>(), { "get_Encoding", {}, {} })));
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerExternal::*)(int32_t)>(&::Org::BouncyCastle::Asn1::DerExternal::set_Encoding)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x393a104;
+  constexpr static std::size_t addrs = 0x393e59c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::DerExternal::*)()>(
     &::Org::BouncyCastle::Asn1::DerExternal::get_ExternalContent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x393a564;
+  constexpr static std::size_t addrs = 0x393e9fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DerExternal*>(), { "get_ExternalContent", {}, {} })));
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerExternal::*)(::Org::BouncyCastle::Asn1::Asn1Object*)>(
     &::Org::BouncyCastle::Asn1::DerExternal::set_ExternalContent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x393a56c;
+  constexpr static std::size_t addrs = 0x393ea04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::DerExternal::*)()>(
     &::Org::BouncyCastle::Asn1::DerExternal::get_IndirectReference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x393a574;
+  constexpr static std::size_t addrs = 0x393ea0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DerExternal*>(), { "get_IndirectReference", {}, {} })));
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerExternal::*)(::Org::BouncyCastle::Asn1::DerInteger*)>(
     &::Org::BouncyCastle::Asn1::DerExternal::set_IndirectReference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x393a57c;
+  constexpr static std::size_t addrs = 0x393ea14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (*)(::Org::BouncyCastle::Asn1::Asn1EncodableVector*, int32_t)>(
     &::Org::BouncyCastle::Asn1::DerExternal::GetObjFromVector)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x393a070;
+  constexpr static std::size_t addrs = 0x393e508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -259,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::MemoryStream*, ::Org::BouncyCastle::Asn1::Asn1Encodable*)>(&::Org::BouncyCastle::Asn1::DerExternal::WriteEncodable)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x393a330;
+  constexpr static std::size_t addrs = 0x393e7c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

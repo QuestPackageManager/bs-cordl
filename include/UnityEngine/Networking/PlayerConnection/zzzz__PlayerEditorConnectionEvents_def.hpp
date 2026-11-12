@@ -72,7 +72,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6f9bca4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f9cd84, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -107,7 +107,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6f9bcec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f9cdcc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -172,13 +172,13 @@ public:
 
   constexpr void __cordl_internal_set_subscriberCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6f9bc1c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f9ccfc, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_MessageTypeId, addr 0x6f9b7e0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_MessageTypeId, addr 0x6f9c8c0, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Guid get_MessageTypeId();
 
-  /// @brief Method set_MessageTypeId, addr 0x6f9bc78, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_MessageTypeId, addr 0x6f9cd58, size 0x2c, virtual false, abstract: false, final false
   inline void set_MessageTypeId(::System::Guid value);
 
 protected:
@@ -253,18 +253,18 @@ public:
       get = get_messageTypeSubscribers)) ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>*
       messageTypeSubscribers;
 
-  /// @brief Method AddAndCreate, addr 0x6f9a4c8, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method AddAndCreate, addr 0x6f9b5a8, size 0x1cc, virtual false, abstract: false, final false
   inline ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* AddAndCreate(::System::Guid messageId);
 
-  /// @brief Method BuildLookup, addr 0x6f9b888, size 0x394, virtual false, abstract: false, final false
+  /// @brief Method BuildLookup, addr 0x6f9c968, size 0x394, virtual false, abstract: false, final false
   inline void BuildLookup();
 
-  /// @brief Method InvokeMessageIdSubscribers, addr 0x6f9b31c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method InvokeMessageIdSubscribers, addr 0x6f9c3fc, size 0x184, virtual false, abstract: false, final false
   inline void InvokeMessageIdSubscribers(::System::Guid messageId, ::ArrayW<uint8_t> data, int32_t playerId);
 
   static inline ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents* New_ctor();
 
-  /// @brief Method UnregisterManagedCallback, addr 0x6f9a848, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method UnregisterManagedCallback, addr 0x6f9b928, size 0x148, virtual false, abstract: false, final false
   inline void UnregisterManagedCallback(::System::Guid messageId, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* callback);
 
   constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent* const& __cordl_internal_get_connectionEvent() const;
@@ -296,10 +296,10 @@ public:
   constexpr void __cordl_internal_set_m_SubscriberLookup(
       ::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>* value);
 
-  /// @brief Method .ctor, addr 0x6f9b6c4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f9c7a4, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_messageTypeSubscribers, addr 0x6f9b880, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_messageTypeSubscribers, addr 0x6f9c960, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>* get_messageTypeSubscribers();
 
 protected:

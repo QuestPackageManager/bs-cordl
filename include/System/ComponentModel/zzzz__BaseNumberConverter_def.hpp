@@ -40,16 +40,16 @@ public:
 
   __declspec(property(get = get_TargetType)) ::System::Type* TargetType;
 
-  /// @brief Method CanConvertFrom, addr 0x681b3d8, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x681ba28, size 0x80, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method CanConvertTo, addr 0x681bad8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x681c128, size 0x40, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertFrom, addr 0x681b458, size 0x404, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x681baa8, size 0x404, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo, addr 0x681b85c, size 0x27c, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x681beac, size 0x27c, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
@@ -64,10 +64,10 @@ public:
   /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method .ctor, addr 0x681b3cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x681ba1c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AllowHex, addr 0x681b3d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AllowHex, addr 0x681ba20, size 0x8, virtual true, abstract: false, final false
   inline bool get_AllowHex();
 
   /// @brief Method get_TargetType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

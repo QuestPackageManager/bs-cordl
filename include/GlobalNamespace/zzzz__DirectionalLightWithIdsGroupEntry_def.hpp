@@ -76,13 +76,13 @@ public:
 
   constexpr void __cordl_internal_set__lightGroup(::UnityW<::GlobalNamespace::LightGroupSO> value);
 
-  /// @brief Method .ctor, addr 0x5cbb2d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cb9b20, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightGroupSO* lightGroup);
 
-  /// @brief Method get_groupIntensity, addr 0x5cbb2d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupIntensity, addr 0x5cb9b18, size 0x8, virtual false, abstract: false, final false
   inline float_t get_groupIntensity();
 
-  /// @brief Method get_lightGroup, addr 0x5cbb2c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroup, addr 0x5cb9b10, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightGroupSO> get_lightGroup();
 
 protected:
@@ -100,7 +100,7 @@ public:
   DirectionalLightWithIdsGroupEntry_GroupLightData(DirectionalLightWithIdsGroupEntry_GroupLightData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19998 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19918 };
 
   /// [SerializeField]
   /// @brief Field _lightGroup, offset: 0x10, size: 0x8, def value: None
@@ -151,13 +151,13 @@ public:
 
   constexpr void __cordl_internal_set__lightId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5cbb2f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cb9b40, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t lightId, float_t lightIntensity);
 
-  /// @brief Method get_intensity, addr 0x5cbb2f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x5cb9b38, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method get_lightId, addr 0x5cbb2e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightId, addr 0x5cb9b30, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lightId();
 
 protected:
@@ -175,7 +175,7 @@ public:
   DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId(DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19999 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19919 };
 
   /// [SerializeField]
   /// @brief Field _lightId, offset: 0x10, size: 0x4, def value: None
@@ -225,6 +225,9 @@ public:
       get = __cordl_internal_get__individualLightData,
       put = __cordl_internal_set__individualLightData)) ::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId*>* _individualLightData;
 
+  /// @brief Field _usesCompositeAddressing, offset 0x44, size 0x1
+  __declspec(property(get = __cordl_internal_get__usesCompositeAddressing, put = __cordl_internal_set__usesCompositeAddressing)) bool _usesCompositeAddressing;
+
   __declspec(property(get = get_groupLightData)) ::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLightWithIdsGroupEntry_GroupLightData*>* groupLightData;
 
   __declspec(property(get = get_groupLightsWeighting)) ::GlobalNamespace::ColorMixAndWeightingApproach groupLightsWeighting;
@@ -253,6 +256,10 @@ public:
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId*>*& __cordl_internal_get__individualLightData();
 
+  constexpr bool const& __cordl_internal_get__usesCompositeAddressing() const;
+
+  constexpr bool& __cordl_internal_get__usesCompositeAddressing();
+
   constexpr void __cordl_internal_set__directionalLightWithIds(::UnityW<::GlobalNamespace::DirectionalLightWithIds> value);
 
   constexpr void __cordl_internal_set__excludedLightIds(::ArrayW<int32_t> value);
@@ -263,16 +270,18 @@ public:
 
   constexpr void __cordl_internal_set__individualLightData(::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId*>* value);
 
-  /// @brief Method .ctor, addr 0x5cbb2c4, size 0x4, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__usesCompositeAddressing(bool value);
+
+  /// @brief Method .ctor, addr 0x5cb9b0c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_groupLightData, addr 0x5cbb2ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupLightData, addr 0x5cb9af4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLightWithIdsGroupEntry_GroupLightData*>* get_groupLightData();
 
-  /// @brief Method get_groupLightsWeighting, addr 0x5cbb2bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupLightsWeighting, addr 0x5cb9b04, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorMixAndWeightingApproach get_groupLightsWeighting();
 
-  /// @brief Method get_individualLightData, addr 0x5cbb2b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_individualLightData, addr 0x5cb9afc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId*>* get_individualLightData();
 
 protected:
@@ -290,7 +299,7 @@ public:
   DirectionalLightWithIdsGroupEntry(DirectionalLightWithIdsGroupEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20000 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19920 };
 
   /// [SerializeField]
   /// @brief Field _directionalLightWithIds, offset: 0x20, size: 0x8, def value: None
@@ -314,6 +323,10 @@ public:
   /// @brief Field _groupLightsWeighting, offset: 0x40, size: 0x4, def value: None
   ::GlobalNamespace::ColorMixAndWeightingApproach ____groupLightsWeighting;
 
+  /// [SerializeField]
+  /// @brief Field _usesCompositeAddressing, offset: 0x44, size: 0x1, def value: None
+  bool ____usesCompositeAddressing;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -326,6 +339,8 @@ static_assert(offsetof(::GlobalNamespace::DirectionalLightWithIdsGroupEntry, ___
 static_assert(offsetof(::GlobalNamespace::DirectionalLightWithIdsGroupEntry, ____excludedLightIds) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::DirectionalLightWithIdsGroupEntry, ____groupLightsWeighting) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DirectionalLightWithIdsGroupEntry, ____usesCompositeAddressing) == 0x44, "Offset mismatch!");
 
 static_assert(sizeof(::GlobalNamespace::DirectionalLightWithIdsGroupEntry) == 0x48, "Size mismatch!");
 

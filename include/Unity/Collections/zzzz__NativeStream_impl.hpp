@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeStream::*)(int32_t, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(
     &::Unity::Collections::NativeStream::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x69290b0;
+  constexpr static std::size_t addrs = 0x692a190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle 
                                                                                     ::Unity::Jobs::JobHandle, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(
     &::Unity::Collections::NativeStream::ScheduleConstruct)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x69291d8;
+  constexpr static std::size_t addrs = 0x692a2b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::NativeStream::*)()>(&::Unity::Collections::NativeStream::IsEmpty)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x692927c;
+  constexpr static std::size_t addrs = 0x692a35c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream>(), { "IsEmpty", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::NativeStream::*)()>(&::Unity::Collections::NativeStream::get_IsCreated)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x69292dc;
+  constexpr static std::size_t addrs = 0x692a3bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream>(), { "get_IsCreated", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::NativeStream::*)()>(&::Unity::Collections::NativeStream::get_ForEachCount)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69292ec;
+  constexpr static std::size_t addrs = 0x692a3cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream>(), { "get_ForEachCount", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeStream_Reader (::Unity::Collections::NativeStream::*)()>(&::Unity::Collections::NativeStream::AsReader)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x692931c;
+  constexpr static std::size_t addrs = 0x692a3fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream>(), { "AsReader", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeStream_Writer (::Unity::Collections::NativeStream::*)()>(&::Unity::Collections::NativeStream::AsWriter)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6929364;
+  constexpr static std::size_t addrs = 0x692a444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream>(), { "AsWriter", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::NativeStream::*)()>(&::Unity::Collections::NativeStream::Count)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69293dc;
+  constexpr static std::size_t addrs = 0x692a4bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream>(), { "Count", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeStream::*)()>(&::Unity::Collections::NativeStream::Dispose)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6929434;
+  constexpr static std::size_t addrs = 0x692a514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream>(), { "Dispose", {}, {} })));
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (::Unity::Collections::NativeStream::*)(::Unity::Jobs::JobHandle)>(&::Unity::Collections::NativeStream::Dispose)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6929454;
+  constexpr static std::size_t addrs = 0x692a534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Collections::NativeStream>, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(
     &::Unity::Collections::NativeStream::AllocateBlock)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69290dc;
+  constexpr static std::size_t addrs = 0x692a1bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeStream::*)(int32_t)>(&::Unity::Collections::NativeStream::AllocateForEach)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6929638;
+  constexpr static std::size_t addrs = 0x692a718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::Unity::Collections::NativeStream::CheckForEachCountGreaterThanZero)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x692963c;
+  constexpr static std::size_t addrs = 0x692a71c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeStream::*)()>(&::Unity::Collections::NativeStream::CheckRead)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69296ac;
+  constexpr static std::size_t addrs = 0x692a78c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream>(), { "CheckRead", {}, {} })));
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeStream_ConstructJobList::*)()>(&::Unity::Collections::NativeStream_ConstructJobList::Execute)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69296b0;
+  constexpr static std::size_t addrs = 0x692a790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream_ConstructJobList>(), { "Execute", {}, {} })));
@@ -349,7 +349,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeStream_ConstructJob::*)()>(&::Unity::Collections::NativeStream_ConstructJob::Execute)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69296c8;
+  constexpr static std::size_t addrs = 0x692a7a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream_ConstructJob>(), { "Execute", {}, {} })));
@@ -382,7 +382,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeStream_Writer::*)(::by_ref<::Unity::Collections::NativeStream>)>(
     &::Unity::Collections::NativeStream_Writer::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x692939c;
+  constexpr static std::size_t addrs = 0x692a47c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -395,7 +395,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::NativeStream_Writer::*)()>(&::Unity::Collections::NativeStream_Writer::get_ForEachCount)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6929700;
+  constexpr static std::size_t addrs = 0x692a7e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream_Writer>(), { "get_ForEachCount", {}, {} })));
@@ -407,7 +407,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeStream_Writer::*)(int32_t)>(&::Unity::Collections::NativeStream_Writer::PatchMinMaxRange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6929730;
+  constexpr static std::size_t addrs = 0x692a810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -420,7 +420,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeStream_Writer::*)(int32_t)>(&::Unity::Collections::NativeStream_Writer::BeginForEachIndex)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6929734;
+  constexpr static std::size_t addrs = 0x692a814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -433,7 +433,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeStream_Writer::*)()>(&::Unity::Collections::NativeStream_Writer::EndForEachIndex)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x692976c;
+  constexpr static std::size_t addrs = 0x692a84c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream_Writer>(), { "EndForEachIndex", {}, {} })));
@@ -445,7 +445,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t* (::Unity::Collections::NativeStream_Writer::*)(int32_t)>(&::Unity::Collections::NativeStream_Writer::Allocate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69297c4;
+  constexpr static std::size_t addrs = 0x692a8a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -458,7 +458,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeStream_Writer::*)(int32_t)>(&::Unity::Collections::NativeStream_Writer::CheckBeginForEachIndex)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6929854;
+  constexpr static std::size_t addrs = 0x692a934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -471,7 +471,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeStream_Writer::*)()>(&::Unity::Collections::NativeStream_Writer::CheckEndForEachIndex)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6929858;
+  constexpr static std::size_t addrs = 0x692a938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream_Writer>(), { "CheckEndForEachIndex", {}, {} })));
@@ -483,7 +483,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeStream_Writer::*)(int32_t)>(&::Unity::Collections::NativeStream_Writer::CheckAllocateSize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x692985c;
+  constexpr static std::size_t addrs = 0x692a93c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -561,7 +561,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeStream_Reader::*)(::by_ref<::Unity::Collections::NativeStream>)>(
     &::Unity::Collections::NativeStream_Reader::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6929340;
+  constexpr static std::size_t addrs = 0x692a420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -574,7 +574,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::NativeStream_Reader::*)(int32_t)>(&::Unity::Collections::NativeStream_Reader::BeginForEachIndex)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6929874;
+  constexpr static std::size_t addrs = 0x692a954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -587,7 +587,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeStream_Reader::*)()>(&::Unity::Collections::NativeStream_Reader::EndForEachIndex)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69298cc;
+  constexpr static std::size_t addrs = 0x692a9ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream_Reader>(), { "EndForEachIndex", {}, {} })));
@@ -599,7 +599,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::NativeStream_Reader::*)()>(&::Unity::Collections::NativeStream_Reader::get_ForEachCount)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69298d4;
+  constexpr static std::size_t addrs = 0x692a9b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream_Reader>(), { "get_ForEachCount", {}, {} })));
@@ -611,7 +611,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::NativeStream_Reader::*)()>(&::Unity::Collections::NativeStream_Reader::get_RemainingItemCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6929904;
+  constexpr static std::size_t addrs = 0x692a9e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream_Reader>(), { "get_RemainingItemCount", {}, {} })));
@@ -623,7 +623,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t* (::Unity::Collections::NativeStream_Reader::*)(int32_t)>(&::Unity::Collections::NativeStream_Reader::ReadUnsafePtr)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x692990c;
+  constexpr static std::size_t addrs = 0x692a9ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -636,7 +636,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::NativeStream_Reader::*)()>(&::Unity::Collections::NativeStream_Reader::Count)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6929968;
+  constexpr static std::size_t addrs = 0x692aa48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream_Reader>(), { "Count", {}, {} })));
@@ -648,7 +648,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeStream_Reader::*)(int32_t)>(&::Unity::Collections::NativeStream_Reader::CheckNotReadingOutOfBounds)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69299c0;
+  constexpr static std::size_t addrs = 0x692aaa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -661,7 +661,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeStream_Reader::*)()>(&::Unity::Collections::NativeStream_Reader::CheckRead)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69299c4;
+  constexpr static std::size_t addrs = 0x692aaa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream_Reader>(), { "CheckRead", {}, {} })));
@@ -673,7 +673,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeStream_Reader::*)(int32_t)>(&::Unity::Collections::NativeStream_Reader::CheckReadSize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69299c8;
+  constexpr static std::size_t addrs = 0x692aaa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -686,7 +686,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeStream_Reader::*)(int32_t)>(&::Unity::Collections::NativeStream_Reader::CheckBeginForEachIndex)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69299cc;
+  constexpr static std::size_t addrs = 0x692aaac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -699,7 +699,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeStream_Reader::*)()>(&::Unity::Collections::NativeStream_Reader::CheckEndForEachIndex)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x69299d0;
+  constexpr static std::size_t addrs = 0x692aab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeStream_Reader>(), { "CheckEndForEachIndex", {}, {} })));

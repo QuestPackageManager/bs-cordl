@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::ToggleGroup___c::*)()>(&::UnityEngine::UI::ToggleGroup___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x72e667c;
+  constexpr static std::size_t addrs = 0x72e775c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ToggleGroup___c*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::ToggleGroup___c::*)(::UnityEngine::UI::Toggle*)>(&::UnityEngine::UI::ToggleGroup___c::_AnyTogglesOn_b__13_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x72e6680;
+  constexpr static std::size_t addrs = 0x72e7760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::ToggleGroup___c::*)(::UnityEngine::UI::Toggle*)>(&::UnityEngine::UI::ToggleGroup___c::_ActiveToggles_b__14_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x72e6694;
+  constexpr static std::size_t addrs = 0x72e7774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::ToggleGroup::*)()>(&::UnityEngine::UI::ToggleGroup::get_allowSwitchOff)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72e61b4;
+  constexpr static std::size_t addrs = 0x72e7294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ToggleGroup*>(), { "get_allowSwitchOff", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::ToggleGroup::*)(bool)>(&::UnityEngine::UI::ToggleGroup::set_allowSwitchOff)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72e61bc;
+  constexpr static std::size_t addrs = 0x72e729c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::ToggleGroup::*)()>(&::UnityEngine::UI::ToggleGroup::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x72e61c4;
+  constexpr static std::size_t addrs = 0x72e72a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ToggleGroup*>(), { ".ctor", {}, {} })));
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::ToggleGroup::*)()>(&::UnityEngine::UI::ToggleGroup::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x72e623c;
+  constexpr static std::size_t addrs = 0x72e731c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::ToggleGroup::*)()>(&::UnityEngine::UI::ToggleGroup::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x72e6240;
+  constexpr static std::size_t addrs = 0x72e7320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::ToggleGroup::*)(::UnityEngine::UI::Toggle*)>(&::UnityEngine::UI::ToggleGroup::ValidateToggleIsInGroup)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x72e6244;
+  constexpr static std::size_t addrs = 0x72e7324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::ToggleGroup::*)(::UnityEngine::UI::Toggle*, bool)>(&::UnityEngine::UI::ToggleGroup::NotifyToggleOn)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x72e5e90;
+  constexpr static std::size_t addrs = 0x72e6f70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::ToggleGroup::*)(::UnityEngine::UI::Toggle*)>(&::UnityEngine::UI::ToggleGroup::UnregisterToggle)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x72e5d08;
+  constexpr static std::size_t addrs = 0x72e6de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::ToggleGroup::*)(::UnityEngine::UI::Toggle*)>(&::UnityEngine::UI::ToggleGroup::RegisterToggle)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x72e5dac;
+  constexpr static std::size_t addrs = 0x72e6e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::ToggleGroup::*)()>(&::UnityEngine::UI::ToggleGroup::EnsureValidState)> {
   constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x72e5638;
+  constexpr static std::size_t addrs = 0x72e6718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ToggleGroup*>(), { "EnsureValidState", {}, {} })));
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::ToggleGroup::*)()>(&::UnityEngine::UI::ToggleGroup::AnyTogglesOn)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x72e5fe4;
+  constexpr static std::size_t addrs = 0x72e70c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ToggleGroup*>(), { "AnyTogglesOn", {}, {} })));
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UI::Toggle>>* (::UnityEngine::UI::ToggleGroup::*)()>(
     &::UnityEngine::UI::ToggleGroup::ActiveToggles)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x72e6394;
+  constexpr static std::size_t addrs = 0x72e7474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ToggleGroup*>(), { "ActiveToggles", {}, {} })));
@@ -244,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Toggle> (::UnityEngine::UI::ToggleGroup::*)()>(&::UnityEngine::UI::ToggleGroup::GetFirstActiveToggle)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x72e6498;
+  constexpr static std::size_t addrs = 0x72e7578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ToggleGroup*>(), { "GetFirstActiveToggle", {}, {} })));
@@ -256,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::ToggleGroup::*)(bool)>(&::UnityEngine::UI::ToggleGroup::SetAllTogglesOff)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x72e6528;
+  constexpr static std::size_t addrs = 0x72e7608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -249,7 +249,7 @@ public:
   constexpr void __cordl_internal_set_Value(::System::Object* value);
 
   /// [NullableContext(1)]
-  /// @brief Method .ctor, addr 0x61a7324, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61a75ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
 protected:
@@ -335,22 +335,22 @@ public:
   static inline ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader___c* New_ctor();
 
   /// [NullableContext(0)]
-  /// @brief Method <CreateObjectUsingCreatorWithParameters>b__38_0, addr 0x61a7384, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <CreateObjectUsingCreatorWithParameters>b__38_0, addr 0x61a760c, size 0x14, virtual false, abstract: false, final false
   inline ::StringW _CreateObjectUsingCreatorWithParameters_b__38_0(::Newtonsoft::Json::Serialization::JsonProperty* p);
 
   /// [NullableContext(0)]
-  /// @brief Method <CreateObjectUsingCreatorWithParameters>b__38_2, addr 0x61a7398, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <CreateObjectUsingCreatorWithParameters>b__38_2, addr 0x61a7620, size 0x14, virtual false, abstract: false, final false
   inline ::StringW _CreateObjectUsingCreatorWithParameters_b__38_2(::Newtonsoft::Json::Serialization::JsonProperty* p);
 
   /// [NullableContext(0)]
-  /// @brief Method <PopulateObject>b__42_0, addr 0x61a73ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <PopulateObject>b__42_0, addr 0x61a7634, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonProperty* _PopulateObject_b__42_0(::Newtonsoft::Json::Serialization::JsonProperty* m);
 
   /// [NullableContext(0)]
-  /// @brief Method <PopulateObject>b__42_1, addr 0x61a73b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <PopulateObject>b__42_1, addr 0x61a763c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader_PropertyPresence _PopulateObject_b__42_1(::Newtonsoft::Json::Serialization::JsonProperty* m);
 
-  /// @brief Method .ctor, addr 0x61a7380, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61a7608, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader___c* getStaticF___9();
@@ -410,7 +410,7 @@ public:
   static inline ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader___c__DisplayClass38_0* New_ctor();
 
   /// [NullableContext(0)]
-  /// @brief Method <CreateObjectUsingCreatorWithParameters>b__1, addr 0x61a73c0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <CreateObjectUsingCreatorWithParameters>b__1, addr 0x61a7648, size 0x20, virtual false, abstract: false, final false
   inline bool _CreateObjectUsingCreatorWithParameters_b__1(::Newtonsoft::Json::Serialization::JsonSerializerInternalReader_CreatorPropertyContext* p);
 
   constexpr ::Newtonsoft::Json::Serialization::JsonProperty* const& __cordl_internal_get_property() const;
@@ -419,7 +419,7 @@ public:
 
   constexpr void __cordl_internal_set_property(::Newtonsoft::Json::Serialization::JsonProperty* value);
 
-  /// @brief Method .ctor, addr 0x61a73bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61a7644, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -468,214 +468,214 @@ public:
 
   using __c__DisplayClass38_0 = ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader___c__DisplayClass38_0;
 
-  /// @brief Method AddReference, addr 0x61a418c, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method AddReference, addr 0x61a4414, size 0x3dc, virtual false, abstract: false, final false
   inline void AddReference(::Newtonsoft::Json::JsonReader* reader, ::StringW id, ::System::Object* value);
 
   /// [NullableContext(2)]
-  /// @brief Method CalculatePropertyDetails, addr 0x61a3b2c, size 0x578, virtual false, abstract: false, final false
+  /// @brief Method CalculatePropertyDetails, addr 0x61a3db4, size 0x578, virtual false, abstract: false, final false
   inline bool CalculatePropertyDetails(/* [Nullable(1)] */ ::Newtonsoft::Json::Serialization::JsonProperty* property, ::by_ref<::Newtonsoft::Json::JsonConverter*> propertyConverter,
                                        ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty,
                                        /* [Nullable(1)] */ ::Newtonsoft::Json::JsonReader* reader, /* [Nullable(1)] */ ::System::Object* target, ::by_ref<bool> useExistingValue,
                                        ::by_ref<::System::Object*> currentValue, ::by_ref<::Newtonsoft::Json::Serialization::JsonContract*> propertyContract, ::by_ref<bool> gottenCurrentValue,
                                        ::by_ref<bool> ignoredValue);
 
-  /// @brief Method CheckPropertyName, addr 0x619ec70, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method CheckPropertyName, addr 0x619eef8, size 0x11c, virtual false, abstract: false, final false
   inline bool CheckPropertyName(::Newtonsoft::Json::JsonReader* reader, ::StringW memberName);
 
   /// [NullableContext(2)]
-  /// @brief Method CoerceEmptyStringToNull, addr 0x61a0418, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CoerceEmptyStringToNull, addr 0x61a06a0, size 0xc8, virtual false, abstract: false, final false
   static inline bool CoerceEmptyStringToNull(::System::Type* objectType, ::Newtonsoft::Json::Serialization::JsonContract* contract, /* [Nullable(1)] */ ::StringW s);
 
-  /// @brief Method CreateDynamic, addr 0x61a182c, size 0x658, virtual false, abstract: false, final false
+  /// @brief Method CreateDynamic, addr 0x61a1ab4, size 0x658, virtual false, abstract: false, final false
   inline ::System::Object* CreateDynamic(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Serialization::JsonDynamicContract* contract,
                                          /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* member, /* [Nullable(2)] */ ::StringW id);
 
-  /// @brief Method CreateISerializable, addr 0x61a1e84, size 0x6b8, virtual false, abstract: false, final false
+  /// @brief Method CreateISerializable, addr 0x61a210c, size 0x6b8, virtual false, abstract: false, final false
   inline ::System::Object* CreateISerializable(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Serialization::JsonISerializableContract* contract,
                                                /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* member, /* [Nullable(2)] */ ::StringW id);
 
-  /// @brief Method CreateISerializableItem, addr 0x6199a74, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method CreateISerializableItem, addr 0x6199cfc, size 0x124, virtual false, abstract: false, final false
   inline ::System::Object* CreateISerializableItem(::Newtonsoft::Json::Linq::JToken* token, ::System::Type* type, ::Newtonsoft::Json::Serialization::JsonISerializableContract* contract,
                                                    /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* member);
 
-  /// @brief Method CreateJObject, addr 0x619e918, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method CreateJObject, addr 0x619eba0, size 0x358, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JToken* CreateJObject(::Newtonsoft::Json::JsonReader* reader);
 
   /// [NullableContext(2)]
-  /// @brief Method CreateJToken, addr 0x619e568, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method CreateJToken, addr 0x619e7f0, size 0x3b0, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JToken* CreateJToken(/* [Nullable(1)] */ ::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Serialization::JsonContract* contract);
 
   /// [NullableContext(2)]
-  /// @brief Method CreateList, addr 0x619f800, size 0x690, virtual false, abstract: false, final false
+  /// @brief Method CreateList, addr 0x619fa88, size 0x690, virtual false, abstract: false, final false
   inline ::System::Object* CreateList(/* [Nullable(1)] */ ::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::Newtonsoft::Json::Serialization::JsonContract* contract,
                                       ::Newtonsoft::Json::Serialization::JsonProperty* member, ::System::Object* existingValue, ::StringW id);
 
-  /// @brief Method CreateNewDictionary, addr 0x61a15e4, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method CreateNewDictionary, addr 0x61a186c, size 0x248, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* CreateNewDictionary(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Serialization::JsonDictionaryContract* contract,
                                                                  ::by_ref<bool> createdFromNonDefaultCreator);
 
-  /// @brief Method CreateNewList, addr 0x61a2ca4, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method CreateNewList, addr 0x61a2f2c, size 0x2a0, virtual false, abstract: false, final false
   inline ::System::Collections::IList* CreateNewList(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Serialization::JsonArrayContract* contract,
                                                      ::by_ref<bool> createdFromNonDefaultCreator);
 
-  /// @brief Method CreateNewObject, addr 0x61a13a4, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method CreateNewObject, addr 0x61a162c, size 0x240, virtual false, abstract: false, final false
   inline ::System::Object* CreateNewObject(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Serialization::JsonObjectContract* objectContract,
                                            /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* containerMember,
                                            /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty, /* [Nullable(2)] */ ::StringW id,
                                            ::by_ref<bool> createdFromNonDefaultCreator);
 
   /// [NullableContext(2)]
-  /// @brief Method CreateObject, addr 0x619ed8c, size 0xa74, virtual false, abstract: false, final false
+  /// @brief Method CreateObject, addr 0x619f014, size 0xa74, virtual false, abstract: false, final false
   inline ::System::Object* CreateObject(/* [Nullable(1)] */ ::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::Newtonsoft::Json::Serialization::JsonContract* contract,
                                         ::Newtonsoft::Json::Serialization::JsonProperty* member, ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract,
                                         ::Newtonsoft::Json::Serialization::JsonProperty* containerMember, ::System::Object* existingValue);
 
-  /// @brief Method CreateObjectUsingCreatorWithParameters, addr 0x61a4b2c, size 0x172c, virtual false, abstract: false, final false
+  /// @brief Method CreateObjectUsingCreatorWithParameters, addr 0x61a4db4, size 0x172c, virtual false, abstract: false, final false
   inline ::System::Object* CreateObjectUsingCreatorWithParameters(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Serialization::JsonObjectContract* contract,
                                                                   /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty,
                                                                   ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* creator, /* [Nullable(2)] */ ::StringW id);
 
   /// [NullableContext(2)]
-  /// @brief Method CreateValueInternal, addr 0x619dfb0, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method CreateValueInternal, addr 0x619e238, size 0x4dc, virtual false, abstract: false, final false
   inline ::System::Object* CreateValueInternal(/* [Nullable(1)] */ ::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::Newtonsoft::Json::Serialization::JsonContract* contract,
                                                ::Newtonsoft::Json::Serialization::JsonProperty* member, ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract,
                                                ::Newtonsoft::Json::Serialization::JsonProperty* containerMember, ::System::Object* existingValue);
 
   /// [NullableContext(2)]
-  /// @brief Method Deserialize, addr 0x619d7c8, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x619da50, size 0x358, virtual false, abstract: false, final false
   inline ::System::Object* Deserialize(/* [Nullable(1)] */ ::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, bool checkAdditionalContent);
 
-  /// @brief Method DeserializeConvertable, addr 0x619db8c, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method DeserializeConvertable, addr 0x619de14, size 0x424, virtual false, abstract: false, final false
   inline ::System::Object* DeserializeConvertable(::Newtonsoft::Json::JsonConverter* converter, ::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType,
                                                   /* [Nullable(2)] */ ::System::Object* existingValue);
 
-  /// @brief Method EndProcessProperty, addr 0x61a68e8, size 0x48c, virtual false, abstract: false, final false
+  /// @brief Method EndProcessProperty, addr 0x61a6b70, size 0x48c, virtual false, abstract: false, final false
   inline void EndProcessProperty(::System::Object* newObject, ::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Serialization::JsonObjectContract* contract, int32_t initialDepth,
                                  ::Newtonsoft::Json::Serialization::JsonProperty* property, ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader_PropertyPresence presence,
                                  bool setDefaultValue);
 
-  /// @brief Method EnsureArrayContract, addr 0x61a2b28, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method EnsureArrayContract, addr 0x61a2db0, size 0x17c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonArrayContract* EnsureArrayContract(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType,
                                                                                    ::Newtonsoft::Json::Serialization::JsonContract* contract);
 
   /// [NullableContext(2)]
-  /// @brief Method EnsureType, addr 0x619fe90, size 0x588, virtual false, abstract: false, final false
+  /// @brief Method EnsureType, addr 0x61a0118, size 0x588, virtual false, abstract: false, final false
   inline ::System::Object* EnsureType(/* [Nullable(1)] */ ::Newtonsoft::Json::JsonReader* reader, ::System::Object* value, /* [Nullable(1)] */ ::System::Globalization::CultureInfo* culture,
                                       ::Newtonsoft::Json::Serialization::JsonContract* contract, ::System::Type* targetType);
 
-  /// @brief Method GetContract, addr 0x619d70c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetContract, addr 0x619d994, size 0xbc, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonContract* GetContract(::System::Type* type);
 
   /// [NullableContext(2)]
-  /// @brief Method GetContractSafe, addr 0x619d6b8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetContractSafe, addr 0x619d940, size 0x54, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonContract* GetContractSafe(::System::Type* type);
 
   /// [NullableContext(2)]
-  /// @brief Method GetConverter, addr 0x619db20, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetConverter, addr 0x619dda8, size 0x6c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonConverter* GetConverter(::Newtonsoft::Json::Serialization::JsonContract* contract, ::Newtonsoft::Json::JsonConverter* memberConverter,
                                                          ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract,
                                                          ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty);
 
-  /// @brief Method GetExpectedDescription, addr 0x61a04e0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetExpectedDescription, addr 0x61a0768, size 0xd8, virtual false, abstract: false, final false
   inline ::StringW GetExpectedDescription(::Newtonsoft::Json::Serialization::JsonContract* contract);
 
-  /// @brief Method GetInternalSerializer, addr 0x619e4fc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetInternalSerializer, addr 0x619e784, size 0x6c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonSerializerProxy* GetInternalSerializer();
 
-  /// @brief Method HandleError, addr 0x619e48c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method HandleError, addr 0x619e714, size 0x70, virtual false, abstract: false, final false
   inline void HandleError(::Newtonsoft::Json::JsonReader* reader, bool readPastError, int32_t initialDepth);
 
-  /// @brief Method HasFlag, addr 0x61a4180, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HasFlag, addr 0x61a4408, size 0xc, virtual false, abstract: false, final false
   inline bool HasFlag(::Newtonsoft::Json::DefaultValueHandling value, ::Newtonsoft::Json::DefaultValueHandling flag);
 
   /// [NullableContext(2)]
-  /// @brief Method HasNoDefinedType, addr 0x61a12e4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method HasNoDefinedType, addr 0x61a156c, size 0xc0, virtual false, abstract: false, final false
   inline bool HasNoDefinedType(::Newtonsoft::Json::Serialization::JsonContract* contract);
 
   static inline ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* New_ctor(::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method OnDeserialized, addr 0x61a47a8, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method OnDeserialized, addr 0x61a4a30, size 0x240, virtual false, abstract: false, final false
   inline void OnDeserialized(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Serialization::JsonContract* contract, ::System::Object* value);
 
-  /// @brief Method OnDeserializing, addr 0x61a4568, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method OnDeserializing, addr 0x61a47f0, size 0x240, virtual false, abstract: false, final false
   inline void OnDeserializing(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Serialization::JsonContract* contract, ::System::Object* value);
 
-  /// @brief Method Populate, addr 0x619b730, size 0x548, virtual false, abstract: false, final false
+  /// @brief Method Populate, addr 0x619b9b8, size 0x548, virtual false, abstract: false, final false
   inline void Populate(::Newtonsoft::Json::JsonReader* reader, ::System::Object* target);
 
-  /// @brief Method PopulateDictionary, addr 0x619c1a0, size 0xa4c, virtual false, abstract: false, final false
+  /// @brief Method PopulateDictionary, addr 0x619c428, size 0xa4c, virtual false, abstract: false, final false
   inline ::System::Object* PopulateDictionary(::System::Collections::IDictionary* dictionary, ::Newtonsoft::Json::JsonReader* reader,
                                               ::Newtonsoft::Json::Serialization::JsonDictionaryContract* contract,
                                               /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty, /* [Nullable(2)] */ ::StringW id);
 
-  /// @brief Method PopulateList, addr 0x619bc78, size 0x528, virtual false, abstract: false, final false
+  /// @brief Method PopulateList, addr 0x619bf00, size 0x528, virtual false, abstract: false, final false
   inline ::System::Object* PopulateList(::System::Collections::IList* list, ::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Serialization::JsonArrayContract* contract,
                                         /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty, /* [Nullable(2)] */ ::StringW id);
 
-  /// @brief Method PopulateMultidimensionalArray, addr 0x61a2f44, size 0x708, virtual false, abstract: false, final false
+  /// @brief Method PopulateMultidimensionalArray, addr 0x61a31cc, size 0x708, virtual false, abstract: false, final false
   inline ::System::Object* PopulateMultidimensionalArray(::System::Collections::IList* list, ::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Serialization::JsonArrayContract* contract,
                                                          /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty, /* [Nullable(2)] */ ::StringW id);
 
-  /// @brief Method PopulateObject, addr 0x619cbec, size 0xacc, virtual false, abstract: false, final false
+  /// @brief Method PopulateObject, addr 0x619ce74, size 0xacc, virtual false, abstract: false, final false
   inline ::System::Object* PopulateObject(::System::Object* newObject, ::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Serialization::JsonObjectContract* contract,
                                           /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* member, /* [Nullable(2)] */ ::StringW id);
 
-  /// @brief Method ReadExtensionDataValue, addr 0x61a6d74, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ReadExtensionDataValue, addr 0x61a6ffc, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Object* ReadExtensionDataValue(::Newtonsoft::Json::Serialization::JsonObjectContract* contract, /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* member,
                                                   ::Newtonsoft::Json::JsonReader* reader);
 
   /// [NullableContext(2)]
-  /// @brief Method ReadMetadataProperties, addr 0x61a0cf4, size 0x5f0, virtual false, abstract: false, final false
+  /// @brief Method ReadMetadataProperties, addr 0x61a0f7c, size 0x5f0, virtual false, abstract: false, final false
   inline bool ReadMetadataProperties(/* [Nullable(1)] */ ::Newtonsoft::Json::JsonReader* reader, ::by_ref<::System::Type*> objectType,
                                      ::by_ref<::Newtonsoft::Json::Serialization::JsonContract*> contract, ::Newtonsoft::Json::Serialization::JsonProperty* member,
                                      ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerMember,
                                      ::System::Object* existingValue, ::by_ref<::System::Object*> newValue, ::by_ref<::StringW> id);
 
   /// [NullableContext(2)]
-  /// @brief Method ReadMetadataPropertiesToken, addr 0x61a05b8, size 0x73c, virtual false, abstract: false, final false
+  /// @brief Method ReadMetadataPropertiesToken, addr 0x61a0840, size 0x73c, virtual false, abstract: false, final false
   inline bool ReadMetadataPropertiesToken(/* [Nullable(1)] */ ::Newtonsoft::Json::Linq::JTokenReader* reader, ::by_ref<::System::Type*> objectType,
                                           ::by_ref<::Newtonsoft::Json::Serialization::JsonContract*> contract, ::Newtonsoft::Json::Serialization::JsonProperty* member,
                                           ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerMember,
                                           ::System::Object* existingValue, ::by_ref<::System::Object*> newValue, ::by_ref<::StringW> id);
 
-  /// @brief Method ResolvePropertyAndCreatorValues, addr 0x61a6258, size 0x690, virtual false, abstract: false, final false
+  /// @brief Method ResolvePropertyAndCreatorValues, addr 0x61a64e0, size 0x690, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader_CreatorPropertyContext*>*
   ResolvePropertyAndCreatorValues(::Newtonsoft::Json::Serialization::JsonObjectContract* contract, /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty,
                                   ::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType);
 
   /// [NullableContext(2)]
-  /// @brief Method ResolveTypeName, addr 0x61a253c, size 0x5ec, virtual false, abstract: false, final false
+  /// @brief Method ResolveTypeName, addr 0x61a27c4, size 0x5ec, virtual false, abstract: false, final false
   inline void ResolveTypeName(/* [Nullable(1)] */ ::Newtonsoft::Json::JsonReader* reader, ::by_ref<::System::Type*> objectType, ::by_ref<::Newtonsoft::Json::Serialization::JsonContract*> contract,
                               ::Newtonsoft::Json::Serialization::JsonProperty* member, ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract,
                               ::Newtonsoft::Json::Serialization::JsonProperty* containerMember, /* [Nullable(1)] */ ::StringW qualifiedTypeName);
 
-  /// @brief Method SetExtensionData, addr 0x61a6e40, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method SetExtensionData, addr 0x61a70c8, size 0x16c, virtual false, abstract: false, final false
   inline void SetExtensionData(::Newtonsoft::Json::Serialization::JsonObjectContract* contract, /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* member,
                                ::Newtonsoft::Json::JsonReader* reader, ::StringW memberName, ::System::Object* o);
 
-  /// @brief Method SetPropertyPresence, addr 0x61a7210, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method SetPropertyPresence, addr 0x61a7498, size 0x114, virtual false, abstract: false, final false
   inline void SetPropertyPresence(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Serialization::JsonProperty* property, /* [Nullable(new[] { 2, 1 })] */
                                   ::System::Collections::Generic::Dictionary_2<::Newtonsoft::Json::Serialization::JsonProperty*,
                                                                                ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader_PropertyPresence>* requiredProperties);
 
-  /// @brief Method SetPropertyValue, addr 0x61a364c, size 0x4e0, virtual false, abstract: false, final false
+  /// @brief Method SetPropertyValue, addr 0x61a38d4, size 0x4e0, virtual false, abstract: false, final false
   inline bool SetPropertyValue(::Newtonsoft::Json::Serialization::JsonProperty* property, /* [Nullable(2)] */ ::Newtonsoft::Json::JsonConverter* propertyConverter,
                                /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract,
                                /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty, ::Newtonsoft::Json::JsonReader* reader, ::System::Object* target);
 
-  /// @brief Method ShouldDeserialize, addr 0x61a6fac, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method ShouldDeserialize, addr 0x61a7234, size 0x264, virtual false, abstract: false, final false
   inline bool ShouldDeserialize(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Serialization::JsonProperty* property, ::System::Object* target);
 
   /// [NullableContext(2)]
-  /// @brief Method ShouldSetPropertyValue, addr 0x61a40a4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ShouldSetPropertyValue, addr 0x61a432c, size 0xdc, virtual false, abstract: false, final false
   inline bool ShouldSetPropertyValue(/* [Nullable(1)] */ ::Newtonsoft::Json::Serialization::JsonProperty* property, ::Newtonsoft::Json::Serialization::JsonObjectContract* contract,
                                      ::System::Object* value);
 
-  /// @brief Method ThrowUnexpectedEndException, addr 0x61a49e8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ThrowUnexpectedEndException, addr 0x61a4c70, size 0x144, virtual false, abstract: false, final false
   inline void ThrowUnexpectedEndException(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Serialization::JsonContract* contract, /* [Nullable(2)] */ ::System::Object* currentObject,
                                           ::StringW message);
 
-  /// @brief Method .ctor, addr 0x619b72c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x619b9b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::JsonSerializer* serializer);
 
 protected:

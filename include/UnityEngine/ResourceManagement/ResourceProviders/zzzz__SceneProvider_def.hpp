@@ -135,46 +135,46 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::IUpdateReceiver"
   constexpr operator ::UnityEngine::ResourceManagement::IUpdateReceiver*() noexcept;
 
-  /// @brief Method Destroy, addr 0x6d86bf4, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method Destroy, addr 0x6d87cd4, size 0x1e8, virtual true, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method Execute, addr 0x6d864e4, size 0x4f8, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x6d875c4, size 0x4f8, virtual true, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method GetDependencies, addr 0x6d862fc, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method GetDependencies, addr 0x6d873dc, size 0x10c, virtual true, abstract: false, final false
   inline void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* deps);
 
-  /// @brief Method GetDownloadStatus, addr 0x6d85e78, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method GetDownloadStatus, addr 0x6d86f58, size 0xe0, virtual true, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus(::System::Collections::Generic::HashSet_1<::System::Object*>* visited);
 
-  /// @brief Method Init, addr 0x6d85f58, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6d87038, size 0x40, virtual false, abstract: false, final false
   inline void
   Init(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::SceneManagement::LoadSceneMode loadSceneMode, bool activateOnLoad, int32_t priority,
        ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
            depOp);
 
-  /// @brief Method Init, addr 0x6d85a80, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6d86b60, size 0xf8, virtual false, abstract: false, final false
   inline void
   Init(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::SceneManagement::LoadSceneParameters loadSceneParameters,
        ::UnityEngine::ResourceManagement::ResourceProviders::SceneReleaseMode releaseMode, bool activateOnLoad, int32_t priority,
        ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
            depOp);
 
-  /// @brief Method InternalLoad, addr 0x6d86b88, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method InternalLoad, addr 0x6d87c68, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::AsyncOperation* InternalLoad(::StringW path, bool loadingFromBundle, ::UnityEngine::SceneManagement::LoadSceneParameters loadSceneParameters);
 
-  /// @brief Method InternalLoadScene, addr 0x6d86a88, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method InternalLoadScene, addr 0x6d87b68, size 0x100, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance InternalLoadScene(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
                                                                                                bool loadingFromBundle, ::UnityEngine::SceneManagement::LoadSceneParameters loadSceneParameters,
                                                                                                bool activateOnLoad, int32_t priority);
 
-  /// @brief Method InvokeWaitForCompletion, addr 0x6d85f98, size 0x364, virtual true, abstract: false, final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x6d87078, size 0x364, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp* New_ctor(::UnityEngine::ResourceManagement::ResourceManager* rm,
                                                                                                       ::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider2* provider);
 
-  /// @brief Method UnityEngine.ResourceManagement.IUpdateReceiver.Update, addr 0x6d86ea0, size 0x140, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ResourceManagement.IUpdateReceiver.Update, addr 0x6d87f80, size 0x140, virtual true, abstract: false, final true
   inline void UnityEngine_ResourceManagement_IUpdateReceiver_Update(float_t unscaledDeltaTime);
 
   constexpr bool const& __cordl_internal_get_m_ActivateOnLoad() const;
@@ -237,13 +237,13 @@ public:
 
   constexpr void __cordl_internal_set_m_provider(::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider2* value);
 
-  /// @brief Method .ctor, addr 0x6d85a1c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d86afc, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ResourceManagement::ResourceManager* rm, ::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider2* provider);
 
-  /// @brief Method get_DebugName, addr 0x6d86408, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method get_DebugName, addr 0x6d874e8, size 0xdc, virtual true, abstract: false, final false
   inline ::StringW get_DebugName();
 
-  /// @brief Method get_Progress, addr 0x6d86ddc, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method get_Progress, addr 0x6d87ebc, size 0xc4, virtual true, abstract: false, final false
   inline float_t get_Progress();
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::IUpdateReceiver"
@@ -264,7 +264,7 @@ public:
   SceneProvider_SceneOp(SceneProvider_SceneOp const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19246 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19254 };
 
   /// @brief Field m_ActivateOnLoad, offset: 0xa0, size: 0x1, def value: None
   bool ___m_ActivateOnLoad;
@@ -340,19 +340,19 @@ public:
       put = __cordl_internal_set_m_sceneLoadHandle)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
       m_sceneLoadHandle;
 
-  /// @brief Method Execute, addr 0x6d86fe0, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x6d880c0, size 0x148, virtual true, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method Init, addr 0x6d85dd4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6d86eb4, size 0xa0, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> sceneLoadHandle,
                    ::UnityEngine::SceneManagement::UnloadSceneOptions options);
 
-  /// @brief Method InvokeWaitForCompletion, addr 0x6d8722c, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x6d8830c, size 0xd8, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_UnloadSceneOp* New_ctor();
 
-  /// @brief Method UnloadSceneCompleted, addr 0x6d87128, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method UnloadSceneCompleted, addr 0x6d88208, size 0x104, virtual false, abstract: false, final false
   inline void UnloadSceneCompleted(::UnityEngine::AsyncOperation* obj);
 
   constexpr ::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance const& __cordl_internal_get_m_Instance() const;
@@ -375,10 +375,10 @@ public:
   constexpr void
   __cordl_internal_set_m_sceneLoadHandle(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> value);
 
-  /// @brief Method .ctor, addr 0x6d85d88, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d86e68, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Progress, addr 0x6d87304, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method get_Progress, addr 0x6d883e4, size 0x4c, virtual true, abstract: false, final false
   inline float_t get_Progress();
 
 protected:
@@ -396,7 +396,7 @@ public:
   SceneProvider_UnloadSceneOp(SceneProvider_UnloadSceneOp const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19247 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19255 };
 
   /// @brief Field m_Instance, offset: 0xa0, size: 0x10, def value: None
   ::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance ___m_Instance;
@@ -438,35 +438,35 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider* New_ctor();
 
-  /// @brief Method ProvideScene, addr 0x6d85624, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method ProvideScene, addr 0x6d86704, size 0x40, virtual true, abstract: false, final true
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   ProvideScene(::UnityEngine::ResourceManagement::ResourceManager* resourceManager, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
                ::UnityEngine::SceneManagement::LoadSceneMode loadSceneMode, bool activateOnLoad, int32_t priority);
 
-  /// @brief Method ProvideScene, addr 0x6d85664, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method ProvideScene, addr 0x6d86744, size 0x3c, virtual true, abstract: false, final true
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   ProvideScene(::UnityEngine::ResourceManagement::ResourceManager* resourceManager, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
                ::UnityEngine::SceneManagement::LoadSceneParameters loadSceneParameters, bool activateOnLoad, int32_t priority);
 
-  /// @brief Method ProvideScene, addr 0x6d856a0, size 0x37c, virtual true, abstract: false, final true
+  /// @brief Method ProvideScene, addr 0x6d86780, size 0x37c, virtual true, abstract: false, final true
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   ProvideScene(::UnityEngine::ResourceManagement::ResourceManager* resourceManager, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
                ::UnityEngine::SceneManagement::LoadSceneParameters loadSceneParameters, ::UnityEngine::ResourceManagement::ResourceProviders::SceneReleaseMode releaseMode, bool activateOnLoad,
                int32_t priority);
 
-  /// @brief Method ReleaseScene, addr 0x6d85b78, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method ReleaseScene, addr 0x6d86c58, size 0x104, virtual true, abstract: false, final true
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   ReleaseScene(::UnityEngine::ResourceManagement::ResourceManager* resourceManager,
                ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> sceneLoadHandle);
 
-  /// @brief Method UnityEngine.ResourceManagement.ResourceProviders.ISceneProvider2.ReleaseScene, addr 0x6d85c7c, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ResourceManagement.ResourceProviders.ISceneProvider2.ReleaseScene, addr 0x6d86d5c, size 0x10c, virtual true, abstract: false, final true
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   UnityEngine_ResourceManagement_ResourceProviders_ISceneProvider2_ReleaseScene(
       ::UnityEngine::ResourceManagement::ResourceManager* resourceManager,
       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> sceneLoadHandle,
       ::UnityEngine::SceneManagement::UnloadSceneOptions unloadOptions);
 
-  /// @brief Method .ctor, addr 0x6d85e74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d86f54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider"
@@ -490,7 +490,7 @@ public:
   SceneProvider(SceneProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19248 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19256 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -122,16 +122,16 @@ public:
 
   static inline ::UnityEngine::Rendering::DebugActionState* New_ctor();
 
-  /// @brief Method Reset, addr 0x6bbbb04, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6bbcbe4, size 0x10, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Trigger, addr 0x6bbba50, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Trigger, addr 0x6bbcb30, size 0xb4, virtual false, abstract: false, final false
   inline void Trigger(int32_t triggerCount, float_t state);
 
-  /// @brief Method TriggerWithButton, addr 0x6bb7834, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method TriggerWithButton, addr 0x6bb8914, size 0x7c, virtual false, abstract: false, final false
   inline void TriggerWithButton(::UnityEngine::InputSystem::InputAction* action, float_t state);
 
-  /// @brief Method Update, addr 0x6bb7914, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6bb89f4, size 0x1d4, virtual false, abstract: false, final false
   inline void Update(::UnityEngine::Rendering::DebugActionDesc* desc);
 
   constexpr float_t const& __cordl_internal_get__actionState_k__BackingField() const;
@@ -170,23 +170,23 @@ public:
 
   constexpr void __cordl_internal_set_m_Type(::UnityEngine::Rendering::DebugActionState_DebugActionKeyType value);
 
-  /// @brief Method .ctor, addr 0x6bb76e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb87c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_actionState, addr 0x6bbba40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_actionState, addr 0x6bbcb20, size 0x8, virtual false, abstract: false, final false
   inline float_t get_actionState();
 
   /// [CompilerGenerated]
-  /// @brief Method get_runningAction, addr 0x6bbba30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_runningAction, addr 0x6bbcb10, size 0x8, virtual false, abstract: false, final false
   inline bool get_runningAction();
 
   /// [CompilerGenerated]
-  /// @brief Method set_actionState, addr 0x6bbba48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_actionState, addr 0x6bbcb28, size 0x8, virtual false, abstract: false, final false
   inline void set_actionState(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_runningAction, addr 0x6bbba38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_runningAction, addr 0x6bbcb18, size 0x8, virtual false, abstract: false, final false
   inline void set_runningAction(bool value);
 
 protected:

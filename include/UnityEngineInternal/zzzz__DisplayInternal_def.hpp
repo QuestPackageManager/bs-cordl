@@ -20,11 +20,11 @@ namespace UnityEngineInternal {
 class CORDL_TYPE DisplayInternal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsASecondaryDisplayIndex, addr 0x6ee9ef0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method IsASecondaryDisplayIndex, addr 0x6eeafd0, size 0xa8, virtual false, abstract: false, final false
   static inline bool IsASecondaryDisplayIndex(int32_t displayIndex);
 
   /// [FreeFunction("UnityDisplayManager_PrimaryDisplayIndex")]
-  /// @brief Method PrimaryDisplayIndex, addr 0x6ee9ec8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method PrimaryDisplayIndex, addr 0x6eeafa8, size 0x28, virtual false, abstract: false, final false
   static inline int32_t PrimaryDisplayIndex();
 
 protected:

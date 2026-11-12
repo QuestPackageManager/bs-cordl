@@ -43,30 +43,30 @@ public:
 
   __declspec(property(get = get_XPNodeType)) ::System::Xml::XPath::XPathNodeType XPNodeType;
 
-  /// @brief Method CloneNode, addr 0x671f7f0, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x671fe40, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
   static inline ::System::Xml::XmlComment* New_ctor(::StringW comment, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method WriteContentTo, addr 0x671f88c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteContentTo, addr 0x671fedc, size 0x4, virtual true, abstract: false, final false
   inline void WriteContentTo(::System::Xml::XmlWriter* w);
 
-  /// @brief Method WriteTo, addr 0x671f84c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x671fe9c, size 0x40, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* w);
 
-  /// @brief Method .ctor, addr 0x671f770, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x671fdc0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW comment, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_LocalName, addr 0x671f7c0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x671fe10, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x671f798, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x671fde8, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NodeType, addr 0x671f7e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x671fe38, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_XPNodeType, addr 0x671f890, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_XPNodeType, addr 0x671fee0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathNodeType get_XPNodeType();
 
 protected:

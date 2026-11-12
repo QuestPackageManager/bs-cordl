@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Light> (::UnityEngine::Rendering::VisibleLight::*)()>(&::UnityEngine::Rendering::VisibleLight::get_light)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6fc3a88;
+  constexpr static std::size_t addrs = 0x6fc4b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VisibleLight>(), { "get_light", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LightType (::UnityEngine::Rendering::VisibleLight::*)()>(&::UnityEngine::Rendering::VisibleLight::get_lightType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fc3b1c;
+  constexpr static std::size_t addrs = 0x6fc4bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VisibleLight>(), { "get_lightType", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::Rendering::VisibleLight::*)()>(&::UnityEngine::Rendering::VisibleLight::get_finalColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6fc3b24;
+  constexpr static std::size_t addrs = 0x6fc4c04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VisibleLight>(), { "get_finalColor", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (::UnityEngine::Rendering::VisibleLight::*)()>(&::UnityEngine::Rendering::VisibleLight::get_localToWorldMatrix)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6fc3b30;
+  constexpr static std::size_t addrs = 0x6fc4c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VisibleLight>(), { "get_localToWorldMatrix", {}, {} })));
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::VisibleLight::*)()>(&::UnityEngine::Rendering::VisibleLight::get_range)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fc3b4c;
+  constexpr static std::size_t addrs = 0x6fc4c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VisibleLight>(), { "get_range", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::VisibleLight::*)()>(&::UnityEngine::Rendering::VisibleLight::get_spotAngle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fc3b54;
+  constexpr static std::size_t addrs = 0x6fc4c34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VisibleLight>(), { "get_spotAngle", {}, {} })));
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::VisibleLight::*)(::UnityEngine::Rendering::VisibleLight)>(&::UnityEngine::Rendering::VisibleLight::Equals)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x6fc3b5c;
+  constexpr static std::size_t addrs = 0x6fc4c3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::VisibleLight::*)(::System::Object*)>(&::UnityEngine::Rendering::VisibleLight::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6fc3f38;
+  constexpr static std::size_t addrs = 0x6fc5018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::VisibleLight::*)()>(&::UnityEngine::Rendering::VisibleLight::GetHashCode)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x6fc3fcc;
+  constexpr static std::size_t addrs = 0x6fc50ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

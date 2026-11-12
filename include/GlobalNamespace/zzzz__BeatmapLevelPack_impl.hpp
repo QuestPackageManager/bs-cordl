@@ -8,25 +8,39 @@
 #include "GlobalNamespace/zzzz__BeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__PackBuyOption_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerSensitivityFlag_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::BeatmapLevelPack.get_canBuyPack
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BeatmapLevelPack::*)()>(&::GlobalNamespace::BeatmapLevelPack::get_canBuyPack)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x39d9d24;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelPack*>(), { "get_canBuyPack", {}, {} })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::BeatmapLevelPack._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (::GlobalNamespace::BeatmapLevelPack::*)(::StringW, ::StringW, ::StringW, ::UnityEngine::Sprite*, ::UnityEngine::Sprite*, ::GlobalNamespace::PackBuyOption,
-                                                              ::ArrayW<::GlobalNamespace::BeatmapLevel*>, ::GlobalNamespace::PlayerSensitivityFlag)>(&::GlobalNamespace::BeatmapLevelPack::_ctor)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x39d5828;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelPack::*)(::StringW, ::StringW, ::StringW, ::UnityEngine::Sprite*, ::UnityEngine::Sprite*,
+                                                                                                     ::GlobalNamespace::PackBuyOption, ::ArrayW<::GlobalNamespace::BeatmapLevel*>,
+                                                                                                     ::GlobalNamespace::PlayerSensitivityFlag, bool)>(&::GlobalNamespace::BeatmapLevelPack::_ctor)> {
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x39d9d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelPack*>(),
-                                                             { ".ctor",
-                                                               {},
-                                                               { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::Sprite*>(),
-                                                                 ::i2c::type_of<::UnityEngine::Sprite*>(), ::i2c::type_of<::GlobalNamespace::PackBuyOption>(),
-                                                                 ::i2c::type_of<::ArrayW<::GlobalNamespace::BeatmapLevel*>>(), ::i2c::type_of<::GlobalNamespace::PlayerSensitivityFlag>() } })));
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelPack*>(),
+                                         { ".ctor",
+                                           {},
+                                           { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::Sprite*>(),
+                                             ::i2c::type_of<::UnityEngine::Sprite*>(), ::i2c::type_of<::GlobalNamespace::PackBuyOption>(), ::i2c::type_of<::ArrayW<::GlobalNamespace::BeatmapLevel*>>(),
+                                             ::i2c::type_of<::GlobalNamespace::PlayerSensitivityFlag>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -36,10 +50,23 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>* (::GlobalNamespace::BeatmapLevelPack::*)()>(
     &::GlobalNamespace::BeatmapLevelPack::AllBeatmapLevels)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d593c;
+  constexpr static std::size_t addrs = 0x39d9e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelPack*>(), { "AllBeatmapLevels", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::BeatmapLevelPack.get_additionalBeatmapLevels
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>* (::GlobalNamespace::BeatmapLevelPack::*)()>(
+    &::GlobalNamespace::BeatmapLevelPack::get_additionalBeatmapLevels)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x39d9e6c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelPack*>(), { "get_additionalBeatmapLevels", {}, {} })));
     return ___internal_method;
   }
 };
@@ -48,8 +75,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapLevelPack* (*)(::ArrayW<::GlobalNamespace::BeatmapLevel*>)>(
     &::GlobalNamespace::BeatmapLevelPack::CreateLevelPackForFiltering)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x39d5944;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x39d9e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelPack*>(),
@@ -63,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelPack::*)(::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::BeatmapLevelPack::AddAdditionalBeatmapLevel)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x39d5a10;
+  constexpr static std::size_t addrs = 0x39d9f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelPack::*)()>(&::GlobalNamespace::BeatmapLevelPack::ClearAdditionalBeatmapLevels)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x39d5b04;
+  constexpr static std::size_t addrs = 0x39da038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelPack*>(), { "ClearAdditionalBeatmapLevels", {}, {} })));
@@ -89,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelPack::*)(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>*)>(
     &::GlobalNamespace::BeatmapLevelPack::SetAdditionalBeatmapLevels)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x39d5bc0;
+  constexpr static std::size_t addrs = 0x39da0f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,6 +209,18 @@ constexpr void GlobalNamespace::BeatmapLevelPack::__cordl_internal_set_contentRa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___contentRating = value;
 }
+constexpr bool& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get_isDiscontinued() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___isDiscontinued;
+}
+constexpr bool const& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get_isDiscontinued() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___isDiscontinued;
+}
+constexpr void GlobalNamespace::BeatmapLevelPack::__cordl_internal_set_isDiscontinued(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___isDiscontinued = value;
+}
 constexpr ::ArrayW<::GlobalNamespace::BeatmapLevel*>& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get__beatmapLevels() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevels;
@@ -218,21 +257,30 @@ constexpr void GlobalNamespace::BeatmapLevelPack::__cordl_internal_set__allBeatm
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____allBeatmapLevels = value;
 }
+inline bool GlobalNamespace::BeatmapLevelPack::get_canBuyPack() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelPack*>(), { "get_canBuyPack", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
 inline void GlobalNamespace::BeatmapLevelPack::_ctor(::StringW packID, ::StringW packName, ::StringW shortPackName, ::UnityEngine::Sprite* coverImage, ::UnityEngine::Sprite* smallCoverImage,
                                                      ::GlobalNamespace::PackBuyOption packBuyOption, ::ArrayW<::GlobalNamespace::BeatmapLevel*> beatmapLevels,
-                                                     ::GlobalNamespace::PlayerSensitivityFlag contentRating) {
+                                                     ::GlobalNamespace::PlayerSensitivityFlag contentRating, bool isDiscontinued) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelPack*>(),
-                                                           { ".ctor",
-                                                             {},
-                                                             { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::Sprite*>(),
-                                                               ::i2c::type_of<::UnityEngine::Sprite*>(), ::i2c::type_of<::GlobalNamespace::PackBuyOption>(),
-                                                               ::i2c::type_of<::ArrayW<::GlobalNamespace::BeatmapLevel*>>(), ::i2c::type_of<::GlobalNamespace::PlayerSensitivityFlag>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, packID, packName, shortPackName, coverImage, smallCoverImage, packBuyOption, beatmapLevels, contentRating);
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelPack*>(),
+                                       { ".ctor",
+                                         {},
+                                         { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::Sprite*>(),
+                                           ::i2c::type_of<::UnityEngine::Sprite*>(), ::i2c::type_of<::GlobalNamespace::PackBuyOption>(), ::i2c::type_of<::ArrayW<::GlobalNamespace::BeatmapLevel*>>(),
+                                           ::i2c::type_of<::GlobalNamespace::PlayerSensitivityFlag>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, packID, packName, shortPackName, coverImage, smallCoverImage, packBuyOption, beatmapLevels, contentRating, isDiscontinued);
 }
 inline ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>* GlobalNamespace::BeatmapLevelPack::AllBeatmapLevels() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelPack*>(), { "AllBeatmapLevels", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>*>(this, ___internal_method);
+}
+inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>* GlobalNamespace::BeatmapLevelPack::get_additionalBeatmapLevels() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelPack*>(), { "get_additionalBeatmapLevels", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>*>(this, ___internal_method);
 }
 inline ::GlobalNamespace::BeatmapLevelPack* GlobalNamespace::BeatmapLevelPack::CreateLevelPackForFiltering(::ArrayW<::GlobalNamespace::BeatmapLevel*> beatmapLevels) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelPack*>(),
@@ -257,9 +305,9 @@ inline void GlobalNamespace::BeatmapLevelPack::SetAdditionalBeatmapLevels(::Syst
 inline ::GlobalNamespace::BeatmapLevelPack* GlobalNamespace::BeatmapLevelPack::New_ctor(::StringW packID, ::StringW packName, ::StringW shortPackName, ::UnityEngine::Sprite* coverImage,
                                                                                         ::UnityEngine::Sprite* smallCoverImage, ::GlobalNamespace::PackBuyOption packBuyOption,
                                                                                         ::ArrayW<::GlobalNamespace::BeatmapLevel*> beatmapLevels,
-                                                                                        ::GlobalNamespace::PlayerSensitivityFlag contentRating) {
+                                                                                        ::GlobalNamespace::PlayerSensitivityFlag contentRating, bool isDiscontinued) {
   return THROW_UNLESS(::i2c::no_logger{},
-                      ::i2c::new_ctor<::GlobalNamespace::BeatmapLevelPack*>(packID, packName, shortPackName, coverImage, smallCoverImage, packBuyOption, beatmapLevels, contentRating));
+                      ::i2c::new_ctor<::GlobalNamespace::BeatmapLevelPack*>(packID, packName, shortPackName, coverImage, smallCoverImage, packBuyOption, beatmapLevels, contentRating, isDiscontinued));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapLevelPack::BeatmapLevelPack() {}

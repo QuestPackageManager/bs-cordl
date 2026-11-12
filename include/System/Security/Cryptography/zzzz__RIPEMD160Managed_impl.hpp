@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RIPEMD160Managed::*)()>(&::System::Security::Cryptography::RIPEMD160Managed::_ctor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5f5043c;
+  constexpr static std::size_t addrs = 0x5f506c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RIPEMD160Managed*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RIPEMD160Managed::*)()>(&::System::Security::Cryptography::RIPEMD160Managed::Initialize)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5f54f74;
+  constexpr static std::size_t addrs = 0x5f551fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RIPEMD160Managed::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::Security::Cryptography::RIPEMD160Managed::HashCore)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f54fb8;
+  constexpr static std::size_t addrs = 0x5f55240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Security::Cryptography::RIPEMD160Managed::*)()>(&::System::Security::Cryptography::RIPEMD160Managed::HashFinal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f55130;
+  constexpr static std::size_t addrs = 0x5f553b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RIPEMD160Managed::*)()>(&::System::Security::Cryptography::RIPEMD160Managed::InitializeState)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5f54ef0;
+  constexpr static std::size_t addrs = 0x5f55178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RIPEMD160Managed*>(), { "InitializeState", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RIPEMD160Managed::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::Security::Cryptography::RIPEMD160Managed::_HashData)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x5f54fbc;
+  constexpr static std::size_t addrs = 0x5f55244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Security::Cryptography::RIPEMD160Managed::*)()>(&::System::Security::Cryptography::RIPEMD160Managed::_EndHash)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5f55134;
+  constexpr static std::size_t addrs = 0x5f553bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RIPEMD160Managed*>(), { "_EndHash", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint32_t*, uint32_t*, uint8_t*)>(&::System::Security::Cryptography::RIPEMD160Managed::MDTransform)> {
   constexpr static std::size_t size = 0x1680;
-  constexpr static std::size_t addrs = 0x5f552bc;
+  constexpr static std::size_t addrs = 0x5f55544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t, uint32_t)>(&::System::Security::Cryptography::RIPEMD160Managed::F)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5f5693c;
+  constexpr static std::size_t addrs = 0x5f56bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RIPEMD160Managed*>(),
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t, uint32_t)>(&::System::Security::Cryptography::RIPEMD160Managed::G)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f56948;
+  constexpr static std::size_t addrs = 0x5f56bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RIPEMD160Managed*>(),
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t, uint32_t)>(&::System::Security::Cryptography::RIPEMD160Managed::H)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5f56958;
+  constexpr static std::size_t addrs = 0x5f56be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RIPEMD160Managed*>(),
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t, uint32_t)>(&::System::Security::Cryptography::RIPEMD160Managed::I)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f56964;
+  constexpr static std::size_t addrs = 0x5f56bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RIPEMD160Managed*>(),
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t, uint32_t)>(&::System::Security::Cryptography::RIPEMD160Managed::J)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5f56974;
+  constexpr static std::size_t addrs = 0x5f56bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RIPEMD160Managed*>(),

@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_xrOcclusionMeshPS(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x6cdf138, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce0218, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -112,7 +112,7 @@ public:
 
   constexpr void __cordl_internal_set_shaders(::UnityEngine::Rendering::Universal::XRSystemData_ShaderResources* value);
 
-  /// @brief Method .ctor, addr 0x6cdf130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce0210, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

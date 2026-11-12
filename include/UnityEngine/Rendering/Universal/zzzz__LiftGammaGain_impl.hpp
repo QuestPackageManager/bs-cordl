@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::LiftGammaGain::*)()>(&::UnityEngine::Rendering::Universal::LiftGammaGain::IsActive)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6cfb034;
+  constexpr static std::size_t addrs = 0x6cfc114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::LiftGammaGain*>(), { "IsActive", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::LiftGammaGain::*)()>(&::UnityEngine::Rendering::Universal::LiftGammaGain::IsTileCompatible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cfb0e0;
+  constexpr static std::size_t addrs = 0x6cfc1c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::LiftGammaGain*>(), { "IsTileCompatible", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::LiftGammaGain::*)()>(&::UnityEngine::Rendering::Universal::LiftGammaGain::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6cfb0e8;
+  constexpr static std::size_t addrs = 0x6cfc1c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::LiftGammaGain*>(), { ".ctor", {}, {} })));

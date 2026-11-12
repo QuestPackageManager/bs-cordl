@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::UriBuilder::*)()>(&::System::UriBuilder::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x67d88a4;
+  constexpr static std::size_t addrs = 0x67d8ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::UriBuilder*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::UriBuilder::*)(::StringW)>(&::System::UriBuilder::_ctor)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x67d8998;
+  constexpr static std::size_t addrs = 0x67d8fe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::UriBuilder*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::UriBuilder::*)(::System::Uri*)>(&::System::UriBuilder::_ctor)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x67d8c8c;
+  constexpr static std::size_t addrs = 0x67d92dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::UriBuilder*>(), { ".ctor", {}, { ::i2c::type_of<::System::Uri*>() } })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::UriBuilder::*)(::System::Uri*)>(&::System::UriBuilder::Init)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x67d8b14;
+  constexpr static std::size_t addrs = 0x67d9164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::UriBuilder*>(), { "Init", {}, { ::i2c::type_of<::System::Uri*>() } })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::UriBuilder::*)(::StringW)>(&::System::UriBuilder::set_Host)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x67d8f54;
+  constexpr static std::size_t addrs = 0x67d95a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::UriBuilder*>(), { "set_Host", {}, { ::i2c::type_of<::StringW>() } })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::UriBuilder::*)(::StringW)>(&::System::UriBuilder::set_Path)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x67d9048;
+  constexpr static std::size_t addrs = 0x67d9698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::UriBuilder*>(), { "set_Path", {}, { ::i2c::type_of<::StringW>() } })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::UriBuilder::*)(int32_t)>(&::System::UriBuilder::set_Port)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x67d910c;
+  constexpr static std::size_t addrs = 0x67d975c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::UriBuilder*>(), { "set_Port", {}, { ::i2c::type_of<int32_t>() } })));
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::UriBuilder::*)(::StringW)>(&::System::UriBuilder::set_Query)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x67d9174;
+  constexpr static std::size_t addrs = 0x67d97c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::UriBuilder*>(), { "set_Query", {}, { ::i2c::type_of<::StringW>() } })));
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::UriBuilder::*)(::StringW)>(&::System::UriBuilder::set_Scheme)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x67d9218;
+  constexpr static std::size_t addrs = 0x67d9868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::UriBuilder*>(), { "set_Scheme", {}, { ::i2c::type_of<::StringW>() } })));
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Uri* (::System::UriBuilder::*)()>(&::System::UriBuilder::get_Uri)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x67d935c;
+  constexpr static std::size_t addrs = 0x67d99ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::UriBuilder*>(), { "get_Uri", {}, {} })));
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::UriBuilder::*)(::System::Object*)>(&::System::UriBuilder::Equals)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x67d93f0;
+  constexpr static std::size_t addrs = 0x67d9a40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::UriBuilder*>(), { ::i2c::class_of<::System::UriBuilder*>(), 0 }));
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::UriBuilder::*)()>(&::System::UriBuilder::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x67d944c;
+  constexpr static std::size_t addrs = 0x67d9a9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::UriBuilder*>(), { ::i2c::class_of<::System::UriBuilder*>(), 2 }));
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::UriBuilder::*)(::System::Uri*)>(&::System::UriBuilder::SetFieldsFromUri)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x67d8de0;
+  constexpr static std::size_t addrs = 0x67d9430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::UriBuilder::*)()>(&::System::UriBuilder::ToString)> {
   constexpr static std::size_t size = 0x3b8;
-  constexpr static std::size_t addrs = 0x67d946c;
+  constexpr static std::size_t addrs = 0x67d9abc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::UriBuilder*>(), { ::i2c::class_of<::System::UriBuilder*>(), 3 }));

@@ -91,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set_isXRMobile(bool value);
 
-  /// @brief Method .ctor, addr 0x6d4d9f0, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d4ead0, size 0x168, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -155,10 +155,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::PlatformAutoDetect___c* New_ctor();
 
-  /// @brief Method <.cctor>b__16_0, addr 0x6d4dbb0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__16_0, addr 0x6d4ec90, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::PlatformAutoDetect_PlatformDetectionCache* __cctor_b__16_0();
 
-  /// @brief Method .ctor, addr 0x6d4dbac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d4ec8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::PlatformAutoDetect___c* getStaticF___9();
@@ -205,32 +205,32 @@ public:
   /// @brief Field platformCache, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_platformCache, put = setStaticF_platformCache)) ::System::Lazy_1<::UnityEngine::Rendering::Universal::PlatformAutoDetect_PlatformDetectionCache*>* platformCache;
 
-  /// @brief Method Initialize, addr 0x6d4d228, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6d4e308, size 0xa4, virtual false, abstract: false, final false
   static inline void Initialize();
 
-  /// @brief Method IsRunningXRMobile, addr 0x6d4d2cc, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method IsRunningXRMobile, addr 0x6d4e3ac, size 0x1a4, virtual false, abstract: false, final false
   static inline bool IsRunningXRMobile();
 
-  /// @brief Method ShAutoDetect, addr 0x6d4d7cc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ShAutoDetect, addr 0x6d4e8ac, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::ShEvalMode ShAutoDetect(::UnityEngine::Rendering::Universal::ShEvalMode mode);
 
   static inline ::System::Collections::Generic::List_1<Il2CppObject*>* getStaticF_displaySubsystemList();
 
   static inline ::System::Lazy_1<::UnityEngine::Rendering::Universal::PlatformAutoDetect_PlatformDetectionCache*>* getStaticF_platformCache();
 
-  /// @brief Method get_isRunningOnPowerVRGPU, addr 0x6d4d720, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_isRunningOnPowerVRGPU, addr 0x6d4e800, size 0xac, virtual false, abstract: false, final false
   static inline bool get_isRunningOnPowerVRGPU();
 
-  /// @brief Method get_isShaderAPIMobileDefined, addr 0x6d4d51c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_isShaderAPIMobileDefined, addr 0x6d4e5fc, size 0xac, virtual false, abstract: false, final false
   static inline bool get_isShaderAPIMobileDefined();
 
-  /// @brief Method get_isSwitch, addr 0x6d4d5c8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_isSwitch, addr 0x6d4e6a8, size 0xac, virtual false, abstract: false, final false
   static inline bool get_isSwitch();
 
-  /// @brief Method get_isSwitch2, addr 0x6d4d674, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_isSwitch2, addr 0x6d4e754, size 0xac, virtual false, abstract: false, final false
   static inline bool get_isSwitch2();
 
-  /// @brief Method get_isXRMobile, addr 0x6d4d470, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_isXRMobile, addr 0x6d4e550, size 0xac, virtual false, abstract: false, final false
   static inline bool get_isXRMobile();
 
   static inline void setStaticF_displaySubsystemList(::System::Collections::Generic::List_1<Il2CppObject*>* value);

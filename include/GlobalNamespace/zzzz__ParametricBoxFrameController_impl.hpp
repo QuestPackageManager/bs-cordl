@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::ParametricBoxFrameController::*)()>(
     &::GlobalNamespace::ParametricBoxFrameController::get_localPosition)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5cb4f74;
+  constexpr static std::size_t addrs = 0x5cb37ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ParametricBoxFrameController*>(), { "get_localPosition", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ParametricBoxFrameController::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::ParametricBoxFrameController::set_localPosition)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5cb4f94;
+  constexpr static std::size_t addrs = 0x5cb37cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ParametricBoxFrameController::*)()>(&::GlobalNamespace::ParametricBoxFrameController::Awake)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cb4fdc;
+  constexpr static std::size_t addrs = 0x5cb3814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ParametricBoxFrameController*>(), { "Awake", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ParametricBoxFrameController::*)()>(&::GlobalNamespace::ParametricBoxFrameController::OnEnable)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5cb4ff8;
+  constexpr static std::size_t addrs = 0x5cb3830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ParametricBoxFrameController*>(), { "OnEnable", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ParametricBoxFrameController::*)()>(&::GlobalNamespace::ParametricBoxFrameController::OnDisable)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cb5130;
+  constexpr static std::size_t addrs = 0x5cb3968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ParametricBoxFrameController*>(), { "OnDisable", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ParametricBoxFrameController::*)()>(&::GlobalNamespace::ParametricBoxFrameController::Refresh)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5cb5020;
+  constexpr static std::size_t addrs = 0x5cb3858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ParametricBoxFrameController*>(), { "Refresh", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ParametricBoxFrameController::*)()>(&::GlobalNamespace::ParametricBoxFrameController::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5cb514c;
+  constexpr static std::size_t addrs = 0x5cb3984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ParametricBoxFrameController*>(), { ".ctor", {}, {} })));

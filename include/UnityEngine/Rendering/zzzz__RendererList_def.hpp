@@ -31,12 +31,12 @@ public:
   /// @brief Field nullRendererList, offset 0xffffffff, size 0x18
   __declspec(property(get = getStaticF_nullRendererList, put = setStaticF_nullRendererList)) ::UnityEngine::Rendering::RendererList nullRendererList;
 
-  /// @brief Method .ctor, addr 0x6fbf95c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fc0a3c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::UIntPtr ctx, uint32_t indx);
 
   static inline ::UnityEngine::Rendering::RendererList getStaticF_nullRendererList();
 
-  /// @brief Method get_isValid, addr 0x6fbf920, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isValid, addr 0x6fc0a00, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isValid();
 
   static inline void setStaticF_nullRendererList(::UnityEngine::Rendering::RendererList value);

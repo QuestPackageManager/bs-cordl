@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType (
     ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationAprilTagEXT::*)()>(&::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationAprilTagEXT::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e8048c;
+  constexpr static std::size_t addrs = 0x6e8156c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationAprilTagEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationAprilTagEXT::get_next)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e80494;
+  constexpr static std::size_t addrs = 0x6e81574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityEXT (
     ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationAprilTagEXT::*)()>(&::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationAprilTagEXT::get_capability)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e8049c;
+  constexpr static std::size_t addrs = 0x6e8157c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationAprilTagEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationAprilTagEXT::get_enabledComponentCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e804a4;
+  constexpr static std::size_t addrs = 0x6e81584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT* (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationAprilTagEXT::*)()>(
         &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationAprilTagEXT::get_enabledComponents)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e804ac;
+  constexpr static std::size_t addrs = 0x6e8158c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerAprilTagDictEXT (
     ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationAprilTagEXT::*)()>(&::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationAprilTagEXT::get_aprilDict)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e804b4;
+  constexpr static std::size_t addrs = 0x6e81594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::
     void*, uint32_t, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT*, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerAprilTagDictEXT)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationAprilTagEXT::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6e804bc;
+  constexpr static std::size_t addrs = 0x6e8159c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +121,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::
     uint32_t, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT*, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerAprilTagDictEXT)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationAprilTagEXT::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6e804dc;
+  constexpr static std::size_t addrs = 0x6e815bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::
     void*, ::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT>, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerAprilTagDictEXT)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationAprilTagEXT::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6e804fc;
+  constexpr static std::size_t addrs = 0x6e815dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::
     ::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT>, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerAprilTagDictEXT)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationAprilTagEXT::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6e80578;
+  constexpr static std::size_t addrs = 0x6e81658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -178,7 +178,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::
     void*, ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT>, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerAprilTagDictEXT)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationAprilTagEXT::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e805f0;
+  constexpr static std::size_t addrs = 0x6e816d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::
     ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT>, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerAprilTagDictEXT)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationAprilTagEXT::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6e80680;
+  constexpr static std::size_t addrs = 0x6e81760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

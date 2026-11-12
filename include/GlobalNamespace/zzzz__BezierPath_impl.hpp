@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BezierPath_ControlMode (::GlobalNamespace::BezierPath::*)()>(&::GlobalNamespace::BezierPath::get_controlPointMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d56968;
+  constexpr static std::size_t addrs = 0x5d55edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BezierPath*>(), { "get_controlPointMode", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierPath::*)(::GlobalNamespace::BezierPath_ControlMode)>(&::GlobalNamespace::BezierPath::set_controlPointMode)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5d56970;
+  constexpr static std::size_t addrs = 0x5d55ee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierPath::*)(::System::Action*)>(&::GlobalNamespace::BezierPath::add_bezierPathWasModifiedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5d56a60;
+  constexpr static std::size_t addrs = 0x5d55fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierPath::*)(::System::Action*)>(&::GlobalNamespace::BezierPath::remove_bezierPathWasModifiedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5d56b0c;
+  constexpr static std::size_t addrs = 0x5d56080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BezierPath::*)()>(&::GlobalNamespace::BezierPath::get_pointsCount)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5d56bb8;
+  constexpr static std::size_t addrs = 0x5d5612c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BezierPath*>(), { "get_pointsCount", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BezierPath::*)()>(&::GlobalNamespace::BezierPath::get_anchorPointsCount)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5d56c08;
+  constexpr static std::size_t addrs = 0x5d5617c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BezierPath*>(), { "get_anchorPointsCount", {}, {} })));
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BezierPath::*)()>(&::GlobalNamespace::BezierPath::get_segmentsCount)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5d56c74;
+  constexpr static std::size_t addrs = 0x5d561e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BezierPath*>(), { "get_segmentsCount", {}, {} })));
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierPath::*)(::UnityEngine::Vector3, bool)>(&::GlobalNamespace::BezierPath::_ctor)> {
   constexpr static std::size_t size = 0x560;
-  constexpr static std::size_t addrs = 0x5d56cdc;
+  constexpr static std::size_t addrs = 0x5d56250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierPath::*)(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector3>*)>(
     &::GlobalNamespace::BezierPath::UpdateByAnchorPoints)> {
   constexpr static std::size_t size = 0x61c;
-  constexpr static std::size_t addrs = 0x5d5723c;
+  constexpr static std::size_t addrs = 0x5d567b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierPath::*)(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector3>*)>(
     &::GlobalNamespace::BezierPath::UpdateControlPoints)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x5d57d88;
+  constexpr static std::size_t addrs = 0x5d572fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::BezierPath::*)(int32_t)>(&::GlobalNamespace::BezierPath::get_Item)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d580d0;
+  constexpr static std::size_t addrs = 0x5d57644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BezierPath*>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::BezierPath::*)(int32_t)>(&::GlobalNamespace::BezierPath::GetPoint)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5d580d4;
+  constexpr static std::size_t addrs = 0x5d57648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BezierPath*>(), { "GetPoint", {}, { ::i2c::type_of<int32_t>() } })));
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierPath::*)(int32_t, ::UnityEngine::Vector3, bool)>(&::GlobalNamespace::BezierPath::SetPoint)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5d5800c;
+  constexpr static std::size_t addrs = 0x5d57580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierPath::*)(::UnityEngine::Vector3)>(&::GlobalNamespace::BezierPath::AddSegmentToEnd)> {
   constexpr static std::size_t size = 0x530;
-  constexpr static std::size_t addrs = 0x5d57858;
+  constexpr static std::size_t addrs = 0x5d56dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierPath::*)(int32_t, ::by_ref<::ArrayW<::UnityEngine::Vector3>>)>(
     &::GlobalNamespace::BezierPath::GetPointsInSegment)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5d581d4;
+  constexpr static std::size_t addrs = 0x5d57748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -220,7 +220,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>)>(
     &::GlobalNamespace::BezierPath::GetPointsInSegment)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5d5826c;
+  constexpr static std::size_t addrs = 0x5d577e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -237,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BezierPath::*)(int32_t)>(&::GlobalNamespace::BezierPath::GetAnchorNormalAngle)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5d58374;
+  constexpr static std::size_t addrs = 0x5d578e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -250,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierPath::*)(int32_t, float_t)>(&::GlobalNamespace::BezierPath::SetAnchorNormalAngle)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x5d583e4;
+  constexpr static std::size_t addrs = 0x5d57958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -263,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierPath::*)(int32_t)>(&::GlobalNamespace::BezierPath::AutoSetAllAffectedControlPoints)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5d58138;
+  constexpr static std::size_t addrs = 0x5d576ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -276,7 +276,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierPath::*)()>(&::GlobalNamespace::BezierPath::AutoSetAllControlPoints)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5d569bc;
+  constexpr static std::size_t addrs = 0x5d55f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BezierPath*>(), { "AutoSetAllControlPoints", {}, {} })));
@@ -288,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierPath::*)(int32_t)>(&::GlobalNamespace::BezierPath::AutoSetAnchorControlPoints)> {
   constexpr static std::size_t size = 0x500;
-  constexpr static std::size_t addrs = 0x5d585a0;
+  constexpr static std::size_t addrs = 0x5d57b14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -301,7 +301,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierPath::*)()>(&::GlobalNamespace::BezierPath::AutoSetStartAndEndControls)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x5d58aa0;
+  constexpr static std::size_t addrs = 0x5d58014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BezierPath*>(), { "AutoSetStartAndEndControls", {}, {} })));
@@ -313,7 +313,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BezierPath::*)(int32_t)>(&::GlobalNamespace::BezierPath::LoopIndex)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5d58538;
+  constexpr static std::size_t addrs = 0x5d57aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BezierPath*>(), { "LoopIndex", {}, { ::i2c::type_of<int32_t>() } })));
@@ -325,7 +325,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierPath::*)()>(&::GlobalNamespace::BezierPath::NotifyPathModified)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5d56a44;
+  constexpr static std::size_t addrs = 0x5d55fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BezierPath*>(), { "NotifyPathModified", {}, {} })));

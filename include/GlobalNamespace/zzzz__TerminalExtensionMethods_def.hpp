@@ -38,19 +38,19 @@ class CORDL_TYPE TerminalExtensionMethods : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method AddArguments, addr 0x3596238, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method AddArguments, addr 0x35993f8, size 0x16c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::CommandNode* AddArguments(::GlobalNamespace::CommandNode* node, ::ArrayW<::GlobalNamespace::ArgumentBase*> cmdArguments);
 
   /// [Extension]
-  /// @brief Method ConvertToCommandNode, addr 0x35961b0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ConvertToCommandNode, addr 0x3599370, size 0x88, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::CommandNode* ConvertToCommandNode(::GlobalNamespace::ConsoleCommandBase* command);
 
   /// [Extension]
-  /// @brief Method Duplicate, addr 0x3595e70, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method Duplicate, addr 0x3599030, size 0x340, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::CommandNode* Duplicate(::GlobalNamespace::CommandNode* node);
 
   /// [Extension]
-  /// @brief Method ToConsoleMessage, addr 0x358c478, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ToConsoleMessage, addr 0x358f6a8, size 0x50, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ConsoleMessage ToConsoleMessage(::StringW message, ::UnityEngine::LogType type);
 
 protected:
@@ -68,7 +68,7 @@ public:
   TerminalExtensionMethods(TerminalExtensionMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19807 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19816 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

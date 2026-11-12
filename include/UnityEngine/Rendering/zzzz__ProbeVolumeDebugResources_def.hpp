@@ -113,10 +113,10 @@ public:
 
   constexpr void __cordl_internal_set_probeVolumeSamplingDebugShader(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x6bee6a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bef788, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_version, addr 0x6bee6a0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x6bef780, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"

@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__28::*)()>(
     &::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__28::MoveNext)> {
   constexpr static std::size_t size = 0x5f4;
-  constexpr static std::size_t addrs = 0x5e67cb0;
+  constexpr static std::size_t addrs = 0x5e67bc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__28::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__28::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5e682a4;
+  constexpr static std::size_t addrs = 0x5e681b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__28>(),
@@ -98,8 +98,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__29::*)()>(
     &::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__29::MoveNext)> {
-  constexpr static std::size_t size = 0x3bc;
-  constexpr static std::size_t addrs = 0x5e68310;
+  constexpr static std::size_t size = 0x3c4;
+  constexpr static std::size_t addrs = 0x5e68220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__29::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__29::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5e686cc;
+  constexpr static std::size_t addrs = 0x5e685e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__29>(),
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__27::*)()>(
     &::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__27::MoveNext)> {
   constexpr static std::size_t size = 0x434;
-  constexpr static std::size_t addrs = 0x5e68738;
+  constexpr static std::size_t addrs = 0x5e68650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__27::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__27::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e68b6c;
+  constexpr static std::size_t addrs = 0x5e68a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::SettingsFlowCoordinator_FinishAction>*)>(
     &::GlobalNamespace::SettingsFlowCoordinator::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e669a4;
+  constexpr static std::size_t addrs = 0x5e668b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -243,7 +243,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::SettingsFlowCoordinator_FinishAction>*)>(
     &::GlobalNamespace::SettingsFlowCoordinator::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e66a64;
+  constexpr static std::size_t addrs = 0x5e66974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator::*)(bool, bool, bool)>(&::GlobalNamespace::SettingsFlowCoordinator::DidActivate)> {
   constexpr static std::size_t size = 0x42c;
-  constexpr static std::size_t addrs = 0x5e66b24;
+  constexpr static std::size_t addrs = 0x5e66a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -273,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator::*)(bool, bool)>(&::GlobalNamespace::SettingsFlowCoordinator::DidDeactivate)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x5e67120;
+  constexpr static std::size_t addrs = 0x5e67030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator::*)(::HMUI::ViewController*)>(
     &::GlobalNamespace::SettingsFlowCoordinator::ReplaceViewController)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5e67450;
+  constexpr static std::size_t addrs = 0x5e67360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator::*)(::HMUI::ViewController*)>(
     &::GlobalNamespace::SettingsFlowCoordinator::ShowSecretViewController)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e674ec;
+  constexpr static std::size_t addrs = 0x5e673fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator::*)(::GlobalNamespace::SettingsSubMenuInfo*, int32_t)>(
     &::GlobalNamespace::SettingsFlowCoordinator::HandleDidSelectSettingsSubMenu)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5e674f0;
+  constexpr static std::size_t addrs = 0x5e67400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator::*)(::ArrayW<::System::ValueTuple_2<::StringW, int32_t>>)>(
     &::GlobalNamespace::SettingsFlowCoordinator::HandleRequestToSelectProfileToCopyFrom)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x5e67560;
+  constexpr static std::size_t addrs = 0x5e67470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator::*)(::GlobalNamespace::SettingsNavigationController_FinishAction)>(
     &::GlobalNamespace::SettingsFlowCoordinator::HandleSettingsNavigationControllerDidFinishAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5e679f4;
+  constexpr static std::size_t addrs = 0x5e67904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -360,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::SettingsFlowCoordinator::*)()>(
     &::GlobalNamespace::SettingsFlowCoordinator::ApplySettingsAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5e67aa4;
+  constexpr static std::size_t addrs = 0x5e679b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator*>(), { "ApplySettingsAsync", {}, {} })));
@@ -373,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::SettingsFlowCoordinator::*)()>(
     &::GlobalNamespace::SettingsFlowCoordinator::CancelSettingsAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5e67b54;
+  constexpr static std::size_t addrs = 0x5e67a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator*>(), { "CancelSettingsAsync", {}, {} })));
@@ -385,7 +385,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator::*)()>(&::GlobalNamespace::SettingsFlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e67c04;
+  constexpr static std::size_t addrs = 0x5e67b14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator*>(), { ".ctor", {}, {} })));
@@ -398,7 +398,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator::*)(::System::ValueTuple_2<int32_t, int32_t>)>(
     &::GlobalNamespace::SettingsFlowCoordinator::_HandleRequestToSelectProfileToCopyFrom_b__26_0)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5e67c0c;
+  constexpr static std::size_t addrs = 0x5e67b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -445,6 +445,18 @@ constexpr ::UnityW<::GlobalNamespace::SettingsNavigationController> const& Globa
 constexpr void GlobalNamespace::SettingsFlowCoordinator::__cordl_internal_set__settingsNavigationController(::UnityW<::GlobalNamespace::SettingsNavigationController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____settingsNavigationController = value;
+}
+constexpr ::BeatSaber::GameSettings::ControllerProfilesModel*& GlobalNamespace::SettingsFlowCoordinator::__cordl_internal_get__controllerProfilesModel() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____controllerProfilesModel;
+}
+constexpr ::BeatSaber::GameSettings::ControllerProfilesModel* const& GlobalNamespace::SettingsFlowCoordinator::__cordl_internal_get__controllerProfilesModel() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____controllerProfilesModel;
+}
+constexpr void GlobalNamespace::SettingsFlowCoordinator::__cordl_internal_set__controllerProfilesModel(::BeatSaber::GameSettings::ControllerProfilesModel* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____controllerProfilesModel = value;
 }
 constexpr ::GlobalNamespace::IFileStorage*& GlobalNamespace::SettingsFlowCoordinator::__cordl_internal_get_fileStorage() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -518,18 +530,6 @@ constexpr ::UnityW<::GlobalNamespace::DropdownDialogPromptViewController> const&
 constexpr void GlobalNamespace::SettingsFlowCoordinator::__cordl_internal_set__dropdownDialogPromptViewController(::UnityW<::GlobalNamespace::DropdownDialogPromptViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dropdownDialogPromptViewController = value;
-}
-constexpr ::BeatSaber::GameSettings::ControllerProfilesModel*& GlobalNamespace::SettingsFlowCoordinator::__cordl_internal_get__controllerProfilesModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____controllerProfilesModel;
-}
-constexpr ::BeatSaber::GameSettings::ControllerProfilesModel* const& GlobalNamespace::SettingsFlowCoordinator::__cordl_internal_get__controllerProfilesModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____controllerProfilesModel;
-}
-constexpr void GlobalNamespace::SettingsFlowCoordinator::__cordl_internal_set__controllerProfilesModel(::BeatSaber::GameSettings::ControllerProfilesModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____controllerProfilesModel = value;
 }
 constexpr ::BeatSaber::Analytics::Settings::SettingsChangeAnalytics*& GlobalNamespace::SettingsFlowCoordinator::__cordl_internal_get__settingsChangeAnalytics() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

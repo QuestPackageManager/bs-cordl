@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::NativeBitArray_ReadOnly::*)()>(&::Unity::Collections::NativeBitArray_ReadOnly::get_IsCreated)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6928cd4;
+  constexpr static std::size_t addrs = 0x6929db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeBitArray_ReadOnly>(), { "get_IsCreated", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::NativeBitArray_ReadOnly::*)()>(&::Unity::Collections::NativeBitArray_ReadOnly::get_IsEmpty)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6928cf4;
+  constexpr static std::size_t addrs = 0x6929dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeBitArray_ReadOnly>(), { "get_IsEmpty", {}, {} })));
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeBitArray_ReadOnly::*)(::by_ref<::Unity::Collections::NativeBitArray>)>(
     &::Unity::Collections::NativeBitArray_ReadOnly::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6928cb8;
+  constexpr static std::size_t addrs = 0x6929d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::NativeBitArray_ReadOnly::*)()>(&::Unity::Collections::NativeBitArray_ReadOnly::get_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6928d44;
+  constexpr static std::size_t addrs = 0x6929e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeBitArray_ReadOnly>(), { "get_Length", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Collections::NativeBitArray_ReadOnly::*)(int32_t, int32_t)>(&::Unity::Collections::NativeBitArray_ReadOnly::GetBits)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6928d4c;
+  constexpr static std::size_t addrs = 0x6929e2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::NativeBitArray_ReadOnly::*)(int32_t)>(&::Unity::Collections::NativeBitArray_ReadOnly::IsSet)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6928d8c;
+  constexpr static std::size_t addrs = 0x6929e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::NativeBitArray_ReadOnly::*)(int32_t, int32_t)>(&::Unity::Collections::NativeBitArray_ReadOnly::Find)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6928dbc;
+  constexpr static std::size_t addrs = 0x6929e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::NativeBitArray_ReadOnly::*)(int32_t, int32_t, int32_t)>(&::Unity::Collections::NativeBitArray_ReadOnly::Find)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6928de4;
+  constexpr static std::size_t addrs = 0x6929ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeBitArray_ReadOnly>(),
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::NativeBitArray_ReadOnly::*)(int32_t, int32_t)>(&::Unity::Collections::NativeBitArray_ReadOnly::TestNone)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6928dfc;
+  constexpr static std::size_t addrs = 0x6929edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::NativeBitArray_ReadOnly::*)(int32_t, int32_t)>(&::Unity::Collections::NativeBitArray_ReadOnly::TestAny)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6928e3c;
+  constexpr static std::size_t addrs = 0x6929f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::NativeBitArray_ReadOnly::*)(int32_t, int32_t)>(&::Unity::Collections::NativeBitArray_ReadOnly::TestAll)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6928e7c;
+  constexpr static std::size_t addrs = 0x6929f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::NativeBitArray_ReadOnly::*)(int32_t, int32_t)>(&::Unity::Collections::NativeBitArray_ReadOnly::CountBits)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6928ebc;
+  constexpr static std::size_t addrs = 0x6929f9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeBitArray_ReadOnly::*)()>(&::Unity::Collections::NativeBitArray_ReadOnly::CheckRead)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6928efc;
+  constexpr static std::size_t addrs = 0x6929fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeBitArray_ReadOnly>(), { "CheckRead", {}, {} })));
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeBitArray::*)(int32_t, ::Unity::Collections::AllocatorManager_AllocatorHandle,
                                                                                                       ::Unity::Collections::NativeArrayOptions)>(&::Unity::Collections::NativeBitArray::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6928160;
+  constexpr static std::size_t addrs = 0x6929240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -268,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::NativeBitArray::*)()>(&::Unity::Collections::NativeBitArray::get_IsCreated)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6928250;
+  constexpr static std::size_t addrs = 0x6929330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeBitArray>(), { "get_IsCreated", {}, {} })));
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::NativeBitArray::*)()>(&::Unity::Collections::NativeBitArray::get_IsEmpty)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6928280;
+  constexpr static std::size_t addrs = 0x6929360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeBitArray>(), { "get_IsEmpty", {}, {} })));
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeBitArray::*)(int32_t, ::Unity::Collections::NativeArrayOptions)>(
     &::Unity::Collections::NativeBitArray::Resize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69282a8;
+  constexpr static std::size_t addrs = 0x6929388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -307,7 +307,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeBitArray::*)(int32_t)>(&::Unity::Collections::NativeBitArray::SetCapacity)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6928318;
+  constexpr static std::size_t addrs = 0x69293f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -320,7 +320,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeBitArray::*)()>(&::Unity::Collections::NativeBitArray::TrimExcess)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6928344;
+  constexpr static std::size_t addrs = 0x6929424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeBitArray>(), { "TrimExcess", {}, {} })));
@@ -332,7 +332,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeBitArray::*)()>(&::Unity::Collections::NativeBitArray::Dispose)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6928370;
+  constexpr static std::size_t addrs = 0x6929450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeBitArray>(), { "Dispose", {}, {} })));
@@ -344,7 +344,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (::Unity::Collections::NativeBitArray::*)(::Unity::Jobs::JobHandle)>(&::Unity::Collections::NativeBitArray::Dispose)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x69284a0;
+  constexpr static std::size_t addrs = 0x6929580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -357,7 +357,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::NativeBitArray::*)()>(&::Unity::Collections::NativeBitArray::get_Length)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6928564;
+  constexpr static std::size_t addrs = 0x6929644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeBitArray>(), { "get_Length", {}, {} })));
@@ -369,7 +369,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::NativeBitArray::*)()>(&::Unity::Collections::NativeBitArray::get_Capacity)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x692857c;
+  constexpr static std::size_t addrs = 0x692965c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeBitArray>(), { "get_Capacity", {}, {} })));
@@ -381,7 +381,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeBitArray::*)()>(&::Unity::Collections::NativeBitArray::Clear)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6928594;
+  constexpr static std::size_t addrs = 0x6929674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeBitArray>(), { "Clear", {}, {} })));
@@ -393,7 +393,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeBitArray::*)(int32_t, bool)>(&::Unity::Collections::NativeBitArray::Set)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6928640;
+  constexpr static std::size_t addrs = 0x6929720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -406,7 +406,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeBitArray::*)(int32_t, bool, int32_t)>(&::Unity::Collections::NativeBitArray::SetBits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x692869c;
+  constexpr static std::size_t addrs = 0x692977c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeBitArray>(),
@@ -419,7 +419,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeBitArray::*)(int32_t, uint64_t, int32_t)>(&::Unity::Collections::NativeBitArray::SetBits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6928750;
+  constexpr static std::size_t addrs = 0x6929830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeBitArray>(),
@@ -432,7 +432,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Collections::NativeBitArray::*)(int32_t, int32_t)>(&::Unity::Collections::NativeBitArray::GetBits)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69287fc;
+  constexpr static std::size_t addrs = 0x69298dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -445,7 +445,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::NativeBitArray::*)(int32_t)>(&::Unity::Collections::NativeBitArray::IsSet)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x692883c;
+  constexpr static std::size_t addrs = 0x692991c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeBitArray>(), { "IsSet", {}, { ::i2c::type_of<int32_t>() } })));
@@ -457,7 +457,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeBitArray::*)(int32_t, int32_t, int32_t)>(&::Unity::Collections::NativeBitArray::Copy)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6928870;
+  constexpr static std::size_t addrs = 0x6929950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeBitArray>(),
@@ -471,7 +471,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeBitArray::*)(int32_t, ::by_ref<::Unity::Collections::NativeBitArray>, int32_t, int32_t)>(
     &::Unity::Collections::NativeBitArray::Copy)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69288ac;
+  constexpr static std::size_t addrs = 0x692998c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -486,7 +486,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::NativeBitArray::*)(int32_t, int32_t)>(&::Unity::Collections::NativeBitArray::Find)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6928b64;
+  constexpr static std::size_t addrs = 0x6929c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -499,7 +499,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::NativeBitArray::*)(int32_t, int32_t, int32_t)>(&::Unity::Collections::NativeBitArray::Find)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6928b8c;
+  constexpr static std::size_t addrs = 0x6929c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeBitArray>(),
@@ -512,7 +512,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::NativeBitArray::*)(int32_t, int32_t)>(&::Unity::Collections::NativeBitArray::TestNone)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6928ba8;
+  constexpr static std::size_t addrs = 0x6929c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -525,7 +525,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::NativeBitArray::*)(int32_t, int32_t)>(&::Unity::Collections::NativeBitArray::TestAny)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6928be8;
+  constexpr static std::size_t addrs = 0x6929cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -538,7 +538,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::NativeBitArray::*)(int32_t, int32_t)>(&::Unity::Collections::NativeBitArray::TestAll)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6928c28;
+  constexpr static std::size_t addrs = 0x6929d08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -551,7 +551,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::NativeBitArray::*)(int32_t, int32_t)>(&::Unity::Collections::NativeBitArray::CountBits)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6928c68;
+  constexpr static std::size_t addrs = 0x6929d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -564,7 +564,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeBitArray_ReadOnly (::Unity::Collections::NativeBitArray::*)()>(&::Unity::Collections::NativeBitArray::AsReadOnly)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6928ca8;
+  constexpr static std::size_t addrs = 0x6929d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeBitArray>(), { "AsReadOnly", {}, {} })));
@@ -576,7 +576,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeBitArray::*)()>(&::Unity::Collections::NativeBitArray::CheckRead)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6928ccc;
+  constexpr static std::size_t addrs = 0x6929dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeBitArray>(), { "CheckRead", {}, {} })));
@@ -588,7 +588,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeBitArray::*)()>(&::Unity::Collections::NativeBitArray::CheckWrite)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6928cd0;
+  constexpr static std::size_t addrs = 0x6929db0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeBitArray>(), { "CheckWrite", {}, {} })));

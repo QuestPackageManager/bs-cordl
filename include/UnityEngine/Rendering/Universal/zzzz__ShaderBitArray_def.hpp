@@ -32,31 +32,31 @@ public:
 
   __declspec(property(get = get_elemLength)) int32_t elemLength;
 
-  /// @brief Method Clear, addr 0x6d2e370, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6d2f450, size 0x48, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method GetElementIndexAndBitOffset, addr 0x6d2e3b8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetElementIndexAndBitOffset, addr 0x6d2f498, size 0x14, virtual false, abstract: false, final false
   inline void GetElementIndexAndBitOffset(int32_t index, ::by_ref<int32_t> elemIndex, ::by_ref<int32_t> bitOffset);
 
-  /// @brief Method Resize, addr 0x6d2e240, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x6d2f320, size 0x130, virtual false, abstract: false, final false
   inline void Resize(int32_t bitCount);
 
-  /// @brief Method ToString, addr 0x6d2e438, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6d2f518, size 0x168, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_Item, addr 0x6d2e3cc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6d2f4ac, size 0x2c, virtual false, abstract: false, final false
   inline bool get_Item(int32_t index);
 
-  /// @brief Method get_bitCapacity, addr 0x6d2e21c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_bitCapacity, addr 0x6d2f2fc, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_bitCapacity();
 
-  /// @brief Method get_data, addr 0x6d2e238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_data, addr 0x6d2f318, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<float_t> get_data();
 
-  /// @brief Method get_elemLength, addr 0x6d2e204, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_elemLength, addr 0x6d2f2e4, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_elemLength();
 
-  /// @brief Method set_Item, addr 0x6d2e3f8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x6d2f4d8, size 0x40, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, bool value);
 
   // Ctor Parameters []

@@ -36,7 +36,7 @@ namespace UnityEngine {
 class CORDL_TYPE Ping_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToNative, addr 0x6f6d37c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x6f6e45c, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::Ping* ping);
 
 protected:
@@ -80,28 +80,28 @@ public:
   __declspec(property(get = get_time)) int32_t time;
 
   /// [ThreadAndSerializationSafe]
-  /// @brief Method DestroyPing, addr 0x6f6d18c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method DestroyPing, addr 0x6f6e26c, size 0x4c, virtual false, abstract: false, final false
   inline void DestroyPing();
 
-  /// @brief Method Finalize, addr 0x6f6d10c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6f6e1ec, size 0x80, virtual true, abstract: false, final false
   inline void Finalize();
 
   /// [FreeFunction("CreatePing")]
-  /// @brief Method Internal_Create, addr 0x6f6cfe0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x6f6e0c0, size 0x12c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_Create(::StringW address);
 
-  /// @brief Method Internal_Create_Injected, addr 0x6f6d214, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create_Injected, addr 0x6f6e2f4, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_Create_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> address);
 
   /// [FreeFunction("DestroyPing", IsThreadSafe = true)]
-  /// @brief Method Internal_Destroy, addr 0x6f6d1d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Destroy, addr 0x6f6e2b8, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Destroy(::System::IntPtr ptr);
 
   /// [NativeName("GetIsDone")]
-  /// @brief Method Internal_IsDone, addr 0x6f6d264, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Internal_IsDone, addr 0x6f6e344, size 0x50, virtual false, abstract: false, final false
   inline bool Internal_IsDone();
 
-  /// @brief Method Internal_IsDone_Injected, addr 0x6f6d2b4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_IsDone_Injected, addr 0x6f6e394, size 0x3c, virtual false, abstract: false, final false
   static inline bool Internal_IsDone_Injected(::System::IntPtr _unity_self);
 
   static inline ::UnityEngine::Ping* New_ctor(::StringW address);
@@ -112,16 +112,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x6f6cfc4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f6e0a4, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::StringW address);
 
-  /// @brief Method get_isDone, addr 0x6f6d250, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_isDone, addr 0x6f6e330, size 0x14, virtual false, abstract: false, final false
   inline bool get_isDone();
 
-  /// @brief Method get_time, addr 0x6f6d2f0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x6f6e3d0, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_time();
 
-  /// @brief Method get_time_Injected, addr 0x6f6d340, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_time_Injected, addr 0x6f6e420, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_time_Injected(::System::IntPtr _unity_self);
 
 protected:

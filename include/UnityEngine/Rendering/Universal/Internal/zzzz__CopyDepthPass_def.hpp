@@ -217,7 +217,7 @@ public:
 
   constexpr void __cordl_internal_set_source(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x6d5fc54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d60d34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -301,10 +301,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c* New_ctor();
 
-  /// @brief Method <Render>b__28_0, addr 0x6d5fcb0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__28_0, addr 0x6d60d90, size 0x100, virtual false, abstract: false, final false
   inline void _Render_b__28_0(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x6d5fcac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d60d8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c* getStaticF___9();
@@ -380,38 +380,38 @@ public:
   /// @brief Field m_CopyResolvedDepth, offset 0x70, size 0x1
   __declspec(property(get = __cordl_internal_get_m_CopyResolvedDepth, put = __cordl_internal_set_m_CopyResolvedDepth)) bool m_CopyResolvedDepth;
 
-  /// @brief Method Dispose, addr 0x6d5e9a4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6d5fa84, size 0x60, virtual false, abstract: false, final false
   inline void Dispose();
 
   /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
-  /// @brief Method Execute, addr 0x6d5e7f4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x6d5f8d4, size 0x4, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x6d5ea04, size 0x5e0, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6d5fae4, size 0x5e0, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData* passData,
                                  ::UnityEngine::Rendering::RTHandle* source, bool yflip);
 
   static inline ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Shader* copyDepthShader,
                                                                                        bool shouldClear, bool copyToDepth, bool copyResolvedDepth, ::StringW customPassName);
 
-  /// @brief Method OnCameraCleanup, addr 0x6d5efe4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnCameraCleanup, addr 0x6d600c4, size 0x4, virtual true, abstract: false, final false
   inline void OnCameraCleanup(::UnityEngine::Rendering::CommandBuffer* cmd);
 
   /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
-  /// @brief Method OnCameraSetup, addr 0x6d5e7f0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnCameraSetup, addr 0x6d5f8d0, size 0x4, virtual true, abstract: false, final false
   inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Render, addr 0x6d5f0e0, size 0xa9c, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6d601c0, size 0xa9c, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle source, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
                      ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, bool bindAsCameraDepth, ::StringW passName);
 
-  /// @brief Method Render, addr 0x6d5efe8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6d600c8, size 0xf8, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle source, bool bindAsCameraDepth,
                      ::StringW passName);
 
-  /// @brief Method Setup, addr 0x6d5e998, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6d5fa78, size 0xc, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Rendering::RTHandle* destination);
 
   constexpr bool const& __cordl_internal_get__CopyToBackbuffer_k__BackingField() const;
@@ -450,40 +450,40 @@ public:
 
   constexpr void __cordl_internal_set_m_CopyResolvedDepth(bool value);
 
-  /// @brief Method .ctor, addr 0x6d5e838, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d5f918, size 0x160, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Shader* copyDepthShader, bool shouldClear, bool copyToDepth, bool copyResolvedDepth,
                     ::StringW customPassName);
 
   /// [CompilerGenerated]
-  /// @brief Method get_CopyToBackbuffer, addr 0x6d5e828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CopyToBackbuffer, addr 0x6d5f908, size 0x8, virtual false, abstract: false, final false
   inline bool get_CopyToBackbuffer();
 
   /// [CompilerGenerated]
-  /// @brief Method get_CopyToDepth, addr 0x6d5e808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CopyToDepth, addr 0x6d5f8e8, size 0x8, virtual false, abstract: false, final false
   inline bool get_CopyToDepth();
 
   /// [CompilerGenerated]
-  /// @brief Method get_CopyToDepthXR, addr 0x6d5e818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CopyToDepthXR, addr 0x6d5f8f8, size 0x8, virtual false, abstract: false, final false
   inline bool get_CopyToDepthXR();
 
   /// [CompilerGenerated]
-  /// @brief Method get_MsaaSamples, addr 0x6d5e7f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MsaaSamples, addr 0x6d5f8d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MsaaSamples();
 
   /// [CompilerGenerated]
-  /// @brief Method set_CopyToBackbuffer, addr 0x6d5e830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CopyToBackbuffer, addr 0x6d5f910, size 0x8, virtual false, abstract: false, final false
   inline void set_CopyToBackbuffer(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_CopyToDepth, addr 0x6d5e810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CopyToDepth, addr 0x6d5f8f0, size 0x8, virtual false, abstract: false, final false
   inline void set_CopyToDepth(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_CopyToDepthXR, addr 0x6d5e820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CopyToDepthXR, addr 0x6d5f900, size 0x8, virtual false, abstract: false, final false
   inline void set_CopyToDepthXR(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_MsaaSamples, addr 0x6d5e800, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MsaaSamples, addr 0x6d5f8e0, size 0x8, virtual false, abstract: false, final false
   inline void set_MsaaSamples(int32_t value);
 
 protected:

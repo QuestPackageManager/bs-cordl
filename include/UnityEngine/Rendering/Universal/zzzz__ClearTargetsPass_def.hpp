@@ -100,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set_depth(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x6d4ebd0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d4fcb0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -164,10 +164,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::ClearTargetsPass___c* New_ctor();
 
-  /// @brief Method <Render>b__3_0, addr 0x6d4ec2c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__3_0, addr 0x6d4fd0c, size 0x38, virtual false, abstract: false, final false
   inline void _Render_b__3_0(::UnityEngine::Rendering::Universal::ClearTargetsPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x6d4ec28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d4fd08, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::ClearTargetsPass___c* getStaticF___9();
@@ -220,15 +220,15 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::ClearTargetsPass* New_ctor();
 
-  /// @brief Method Render, addr 0x6d4e36c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6d4f44c, size 0x10c, virtual false, abstract: false, final false
   static inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorHandle,
                             ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depthHandle, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method Render, addr 0x6d4e478, size 0x6c0, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6d4f558, size 0x6c0, virtual false, abstract: false, final false
   static inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorHandle,
                             ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depthHandle, ::UnityEngine::Rendering::RTClearFlags clearFlags, ::UnityEngine::Color clearColor);
 
-  /// @brief Method .ctor, addr 0x6d4eb38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d4fc18, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::ProfilingSampler* getStaticF_s_ClearProfilingSampler();

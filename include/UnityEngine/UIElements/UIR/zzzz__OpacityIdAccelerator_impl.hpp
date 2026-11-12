@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::OpacityIdAccelerator_OpacityIdUpdateJob::*)(int32_t)>(
     &::UnityEngine::UIElements::UIR::OpacityIdAccelerator_OpacityIdUpdateJob::Execute)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x71b319c;
+  constexpr static std::size_t addrs = 0x71b427c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>, ::UnityEngine::Color32, int32_t)>(
     &::UnityEngine::UIElements::UIR::OpacityIdAccelerator::CreateJob)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x71b2d90;
+  constexpr static std::size_t addrs = 0x71b3e70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::OpacityIdAccelerator*>(),
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::OpacityIdAccelerator::*)()>(&::UnityEngine::UIElements::UIR::OpacityIdAccelerator::CompleteJobs)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x71b2ea0;
+  constexpr static std::size_t addrs = 0x71b3f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::OpacityIdAccelerator*>(), { "CompleteJobs", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::OpacityIdAccelerator::*)()>(&::UnityEngine::UIElements::UIR::OpacityIdAccelerator::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71b2f68;
+  constexpr static std::size_t addrs = 0x71b4048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::OpacityIdAccelerator*>(), { "get_disposed", {}, {} })));
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::OpacityIdAccelerator::*)(bool)>(&::UnityEngine::UIElements::UIR::OpacityIdAccelerator::set_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71b2f70;
+  constexpr static std::size_t addrs = 0x71b4050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::OpacityIdAccelerator::*)()>(&::UnityEngine::UIElements::UIR::OpacityIdAccelerator::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x71b2f78;
+  constexpr static std::size_t addrs = 0x71b4058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::OpacityIdAccelerator*>(), { "Dispose", {}, {} })));
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::OpacityIdAccelerator::*)(bool)>(&::UnityEngine::UIElements::UIR::OpacityIdAccelerator::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x71b2fe8;
+  constexpr static std::size_t addrs = 0x71b40c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::OpacityIdAccelerator*>(),
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::OpacityIdAccelerator::*)()>(&::UnityEngine::UIElements::UIR::OpacityIdAccelerator::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x71b3058;
+  constexpr static std::size_t addrs = 0x71b4138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::OpacityIdAccelerator*>(), { ".ctor", {}, {} })));

@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::Unity::XR::GoogleVr::DaydreamHMD* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6937ed0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6938fb0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -52,16 +52,16 @@ public:
 
   constexpr void __cordl_internal_set_source(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6691158, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66917a8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Markup, addr 0x6691148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Markup, addr 0x6691798, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Xml::XmlNode*> get_Markup();
 
-  /// @brief Method set_Markup, addr 0x6691150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Markup, addr 0x66917a0, size 0x8, virtual false, abstract: false, final false
   inline void set_Markup(::ArrayW<::System::Xml::XmlNode*> value);
 
-  /// @brief Method set_Source, addr 0x6691140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Source, addr 0x6691790, size 0x8, virtual false, abstract: false, final false
   inline void set_Source(::StringW value);
 
 protected:

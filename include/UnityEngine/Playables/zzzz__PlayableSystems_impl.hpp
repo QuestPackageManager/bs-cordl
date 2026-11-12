@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Playables::PlayableSystems_PlayableSystemDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::Playables::PlayableSystems_PlayableSystemDelegate::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6fcff40;
+  constexpr static std::size_t addrs = 0x6fd1020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableSystems_PlayableSystemDelegate*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Playables::PlayableSystems_PlayableSystemDelegate::*)(
     ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Playables::DataPlayableOutput>*)>(&::UnityEngine::Playables::PlayableSystems_PlayableSystemDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6fd0084;
+  constexpr static std::size_t addrs = 0x6fd1164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableSystems_PlayableSystemDelegate*>(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Playables::DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator::*)(
     ::UnityEngine::Playables::PlayableSystems_DataPlayableOutputList*)>(&::UnityEngine::Playables::DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6fd0218;
+  constexpr static std::size_t addrs = 0x6fd12f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::Playables::DataPlayableOutput (::UnityEngine::Playables::DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator::*)()>(
         &::UnityEngine::Playables::DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator::get_Current)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6fd022c;
+  constexpr static std::size_t addrs = 0x6fd130c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Playables::DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator::*)()>(
     &::UnityEngine::Playables::DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6fd030c;
+  constexpr static std::size_t addrs = 0x6fd13ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Playables::DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator::*)()>(
     &::UnityEngine::Playables::DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator::Dispose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fd0374;
+  constexpr static std::size_t addrs = 0x6fd1454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Playables::DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator::*)()>(
     &::UnityEngine::Playables::DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6fd037c;
+  constexpr static std::size_t addrs = 0x6fd145c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Playables::DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator::*)()>(
     &::UnityEngine::Playables::DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6fd03a8;
+  constexpr static std::size_t addrs = 0x6fd1488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Playables::PlayableSystems_DataPlayableOutputList::*)(::UnityEngine::Playables::PlayableOutputHandle*, int32_t)>(
     &::UnityEngine::Playables::PlayableSystems_DataPlayableOutputList::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6fcfdd4;
+  constexpr static std::size_t addrs = 0x6fd0eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::DataPlayableOutput (::UnityEngine::Playables::PlayableSystems_DataPlayableOutputList::*)(int32_t)>(
     &::UnityEngine::Playables::PlayableSystems_DataPlayableOutputList::get_Item)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6fd0098;
+  constexpr static std::size_t addrs = 0x6fd1178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Playables::PlayableSystems_DataPlayableOutputList::*)()>(
     &::UnityEngine::Playables::PlayableSystems_DataPlayableOutputList::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fd01b8;
+  constexpr static std::size_t addrs = 0x6fd1298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::DataPlayableOutput>* (
     ::UnityEngine::Playables::PlayableSystems_DataPlayableOutputList::*)()>(&::UnityEngine::Playables::PlayableSystems_DataPlayableOutputList::GetEnumerator)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6fd01c0;
+  constexpr static std::size_t addrs = 0x6fd12a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::Playables::PlayableSystems_DataPlayableOutputList::*)()>(
     &::UnityEngine::Playables::PlayableSystems_DataPlayableOutputList::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6fd0228;
+  constexpr static std::size_t addrs = 0x6fd1308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -420,7 +420,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, ::UnityEngine::Playables::PlayableSystems_PlayableSystemStage)>(
     &::UnityEngine::Playables::PlayableSystems::CombineTypeAndIndex)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6fcfc1c;
+  constexpr static std::size_t addrs = 0x6fd0cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -435,7 +435,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t, ::UnityEngine::Playables::PlayableSystems_PlayableSystemStage, ::System::IntPtr, int32_t)>(
     &::UnityEngine::Playables::PlayableSystems::Internal_CallSystemDelegate)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x6fcfc28;
+  constexpr static std::size_t addrs = 0x6fd0d08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

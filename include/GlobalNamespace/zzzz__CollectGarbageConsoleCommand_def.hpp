@@ -34,18 +34,18 @@ public:
 
   __declspec(property(get = get_description)) ::StringW description;
 
-  /// @brief Method ExecuteAsync, addr 0x3574d4c, size 0x248, virtual true, abstract: false, final false
+  /// @brief Method ExecuteAsync, addr 0x3577e78, size 0x248, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ExecuteAsync(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
   static inline ::GlobalNamespace::CollectGarbageConsoleCommand* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3574f94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35780c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_commandName, addr 0x3574cc4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_commandName, addr 0x3577df0, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_commandName();
 
-  /// @brief Method get_description, addr 0x3574d08, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_description, addr 0x3577e34, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_description();
 
 protected:
@@ -63,7 +63,7 @@ public:
   CollectGarbageConsoleCommand(CollectGarbageConsoleCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19749 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19757 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

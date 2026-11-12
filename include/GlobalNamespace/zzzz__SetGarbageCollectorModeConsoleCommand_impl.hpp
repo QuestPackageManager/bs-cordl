@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::SetGarbageCollectorModeConsoleCommand::*)()>(
     &::GlobalNamespace::SetGarbageCollectorModeConsoleCommand::get_commandName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x35931b0;
+  constexpr static std::size_t addrs = 0x3596370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetGarbageCollectorModeConsoleCommand*>(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::SetGarbageCollectorModeConsoleCommand::*)()>(
     &::GlobalNamespace::SetGarbageCollectorModeConsoleCommand::get_description)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x35931f4;
+  constexpr static std::size_t addrs = 0x35963b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetGarbageCollectorModeConsoleCommand*>(),
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::SetGarbageCollectorModeConsoleCommand::*)(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(
         &::GlobalNamespace::SetGarbageCollectorModeConsoleCommand::ExecuteAsync)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x3593238;
+  constexpr static std::size_t addrs = 0x35963f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetGarbageCollectorModeConsoleCommand*>(),
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetGarbageCollectorModeConsoleCommand::*)()>(&::GlobalNamespace::SetGarbageCollectorModeConsoleCommand::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3593408;
+  constexpr static std::size_t addrs = 0x35965c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetGarbageCollectorModeConsoleCommand*>(), { ".ctor", {}, {} })));

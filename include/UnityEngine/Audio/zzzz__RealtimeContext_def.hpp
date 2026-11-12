@@ -50,22 +50,22 @@ public:
   constexpr operator ::UnityEngine::Audio::ProcessorInstance_IContext*();
 
   /// [IsReadOnly]
-  /// @brief Method Process, addr 0x6ee8a50, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x6ee9b30, size 0xd8, virtual false, abstract: false, final false
   inline ::UnityEngine::Audio::GeneratorInstance_Result Process(::UnityEngine::Audio::GeneratorInstance generatorInstance, ::UnityEngine::Audio::ChannelBuffer buffer,
                                                                 ::UnityEngine::Audio::GeneratorInstance_Arguments args);
 
-  /// @brief Method UnityEngine.Audio.ProcessorInstance.IContext.GetAvailableData, addr 0x6ee8934, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Audio.ProcessorInstance.IContext.GetAvailableData, addr 0x6ee9a14, size 0x54, virtual true, abstract: false, final true
   inline ::UnityEngine::Audio::ProcessorInstance_AvailableData UnityEngine_Audio_ProcessorInstance_IContext_GetAvailableData(::Unity::Audio::Handle handle);
 
-  /// @brief Method UnityEngine.Audio.ProcessorInstance.IContext.SendData, addr 0x6ee89cc, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Audio.ProcessorInstance.IContext.SendData, addr 0x6ee9aac, size 0x84, virtual true, abstract: false, final true
   inline bool UnityEngine_Audio_ProcessorInstance_IContext_SendData(::Unity::Audio::Handle handle, void* data, int32_t size, int32_t align, int64_t typehash);
 
   /// [IsReadOnly]
-  /// @brief Method get_dspTime, addr 0x6ee890c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dspTime, addr 0x6ee99ec, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_dspTime();
 
   /// [IsReadOnly]
-  /// @brief Method get_isCreated, addr 0x6ee8914, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isCreated, addr 0x6ee99f4, size 0x10, virtual false, abstract: false, final false
   inline bool get_isCreated();
 
   /// @brief Convert to "::UnityEngine::Audio::ProcessorInstance_IContext"
@@ -80,7 +80,7 @@ public:
   constexpr RealtimeContext(::UnityEngine::Audio::RealtimeAccess Access, uint64_t m_DSPClock) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20425 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20439 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

@@ -42,18 +42,18 @@ public:
   /// @brief Field _propertyName, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__propertyName, put = __cordl_internal_set__propertyName)) ::StringW _propertyName;
 
-  /// @brief Method ApplyParams, addr 0x5cc08fc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ApplyParams, addr 0x5cbf204, size 0xdc, virtual false, abstract: false, final false
   inline void ApplyParams();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x5cc09d8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x5cbf2e0, size 0x28, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method RefreshPropertyId, addr 0x5cc08dc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RefreshPropertyId, addr 0x5cbf1e4, size 0x20, virtual false, abstract: false, final false
   inline void RefreshPropertyId();
 
-  /// @brief Method Start, addr 0x5cc08b4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5cbf1bc, size 0x28, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set__propertyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5cc0a00, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cbf308, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -104,7 +104,7 @@ public:
   MaterialPropertyBlockControllerRandomValueSetter(MaterialPropertyBlockControllerRandomValueSetter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20048 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19968 };
 
   /// [SerializeField]
   /// @brief Field _materialPropertyBlockController, offset: 0x20, size: 0x8, def value: None

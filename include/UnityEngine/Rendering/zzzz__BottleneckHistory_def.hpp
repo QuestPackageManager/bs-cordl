@@ -37,19 +37,19 @@ public:
   __declspec(property(get = __cordl_internal_get_m_Bottlenecks,
                       put = __cordl_internal_set_m_Bottlenecks)) ::System::Collections::Generic::List_1<::UnityEngine::Rendering::PerformanceBottleneck>* m_Bottlenecks;
 
-  /// @brief Method AddBottleneckFromAveragedSample, addr 0x6bb530c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method AddBottleneckFromAveragedSample, addr 0x6bb63ec, size 0xdc, virtual false, abstract: false, final false
   inline void AddBottleneckFromAveragedSample(::UnityEngine::Rendering::FrameTimeSample frameHistorySampleAverage);
 
-  /// @brief Method Clear, addr 0x6bb6b00, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6bb7be0, size 0x5c, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ComputeHistogram, addr 0x6bb53e8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ComputeHistogram, addr 0x6bb64c8, size 0x118, virtual false, abstract: false, final false
   inline void ComputeHistogram();
 
-  /// @brief Method DetermineBottleneck, addr 0x6bc20ac, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method DetermineBottleneck, addr 0x6bc318c, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::PerformanceBottleneck DetermineBottleneck(::UnityEngine::Rendering::FrameTimeSample s);
 
-  /// @brief Method DiscardOldSamples, addr 0x6bb525c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method DiscardOldSamples, addr 0x6bb633c, size 0xb0, virtual false, abstract: false, final false
   inline void DiscardOldSamples(int32_t historySize);
 
   static inline ::UnityEngine::Rendering::BottleneckHistory* New_ctor(int32_t initialCapacity);
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Bottlenecks(::System::Collections::Generic::List_1<::UnityEngine::Rendering::PerformanceBottleneck>* value);
 
-  /// @brief Method .ctor, addr 0x6bb4bdc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb5cbc, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialCapacity);
 
 protected:

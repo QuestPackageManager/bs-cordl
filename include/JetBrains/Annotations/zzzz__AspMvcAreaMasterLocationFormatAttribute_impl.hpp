@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::AspMvcAreaMasterLocationFormatAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::AspMvcAreaMasterLocationFormatAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7316c1c;
+  constexpr static std::size_t addrs = 0x7318efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::JetBrains::Annotations::AspMvcAreaMasterLocationFormatAttribute::*)()>(
     &::JetBrains::Annotations::AspMvcAreaMasterLocationFormatAttribute::get_Format)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7316c24;
+  constexpr static std::size_t addrs = 0x7318f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::AspMvcAreaMasterLocationFormatAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::AspMvcAreaMasterLocationFormatAttribute::set_Format)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7316c2c;
+  constexpr static std::size_t addrs = 0x7318f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

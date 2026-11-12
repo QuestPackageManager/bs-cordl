@@ -49,7 +49,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRichPresenceData"
   constexpr operator ::GlobalNamespace::IRichPresenceData*() noexcept;
 
-  /// @brief Method GetDestinationLocalizedString, addr 0x5d54628, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetDestinationLocalizedString, addr 0x5d53b9c, size 0x190, virtual false, abstract: false, final false
   static inline ::StringW GetDestinationLocalizedString(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
   static inline ::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData* New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey,
@@ -79,14 +79,14 @@ public:
 
   constexpr void __cordl_internal_set__localizedDescription(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5d547b8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d53d2c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
   /// [CompilerGenerated]
-  /// @brief Method get_apiName, addr 0x5d545f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_apiName, addr 0x5d53b6c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_apiName();
 
-  /// @brief Method get_localizedDescription, addr 0x5d54600, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_localizedDescription, addr 0x5d53b74, size 0x28, virtual true, abstract: false, final true
   inline ::StringW get_localizedDescription();
 
   /// @brief Convert to "::GlobalNamespace::IRichPresenceData"
@@ -107,7 +107,7 @@ public:
   PlayingDifficultyBeatmapRichPresenceData(PlayingDifficultyBeatmapRichPresenceData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6776 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6775 };
 
   /// [CompilerGenerated]
   /// @brief Field <apiName>k__BackingField, offset: 0x10, size: 0x8, def value: None

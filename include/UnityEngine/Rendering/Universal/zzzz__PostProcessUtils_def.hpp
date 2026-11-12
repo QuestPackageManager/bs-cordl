@@ -128,32 +128,32 @@ public:
   using ShaderConstants = ::UnityEngine::Rendering::Universal::PostProcessUtils_ShaderConstants;
 
   /// [Obsolete("This method is obsolete. Use ConfigureDithering override that takes camera pixel width and height instead. #from(2021.1)")]
-  /// @brief Method ConfigureDithering, addr 0x6d1d568, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ConfigureDithering, addr 0x6d1e648, size 0x64, virtual false, abstract: false, final false
   static inline int32_t ConfigureDithering(::UnityEngine::Rendering::Universal::PostProcessData* data, int32_t index, ::UnityEngine::Camera* camera, ::UnityEngine::Material* material);
 
-  /// @brief Method ConfigureDithering, addr 0x6d1d5cc, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method ConfigureDithering, addr 0x6d1e6ac, size 0x224, virtual false, abstract: false, final false
   static inline int32_t ConfigureDithering(::UnityEngine::Rendering::Universal::PostProcessData* data, int32_t index, int32_t cameraPixelWidth, int32_t cameraPixelHeight,
                                            ::UnityEngine::Material* material);
 
   /// [Obsolete("This method is obsolete. Use ConfigureFilmGrain override that takes camera pixel width and height instead. #from(2021.1)")]
-  /// @brief Method ConfigureFilmGrain, addr 0x6d1d7f0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ConfigureFilmGrain, addr 0x6d1e8d0, size 0x64, virtual false, abstract: false, final false
   static inline void ConfigureFilmGrain(::UnityEngine::Rendering::Universal::PostProcessData* data, ::UnityEngine::Rendering::Universal::FilmGrain* settings, ::UnityEngine::Camera* camera,
                                         ::UnityEngine::Material* material);
 
-  /// @brief Method ConfigureFilmGrain, addr 0x6d1d854, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method ConfigureFilmGrain, addr 0x6d1e934, size 0x354, virtual false, abstract: false, final false
   static inline void ConfigureFilmGrain(::UnityEngine::Rendering::Universal::PostProcessData* data, ::UnityEngine::Rendering::Universal::FilmGrain* settings, int32_t cameraPixelWidth,
                                         int32_t cameraPixelHeight, ::UnityEngine::Material* material);
 
-  /// @brief Method SetSourceSize, addr 0x6d146f8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetSourceSize, addr 0x6d157d8, size 0xb4, virtual false, abstract: false, final false
   static inline void SetSourceSize(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source);
 
-  /// @brief Method SetSourceSize, addr 0x6d1aaa0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SetSourceSize, addr 0x6d1bb80, size 0xcc, virtual false, abstract: false, final false
   static inline void SetSourceSize(::UnityEngine::Rendering::CommandBuffer* cmd, float_t width, float_t height, ::UnityEngine::RenderTexture* rt);
 
-  /// @brief Method SetSourceSize, addr 0x6d15240, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetSourceSize, addr 0x6d16320, size 0x64, virtual false, abstract: false, final false
   static inline void SetSourceSize(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source);
 
-  /// @brief Method SetSourceSize, addr 0x6d1dba8, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method SetSourceSize, addr 0x6d1ec88, size 0x148, virtual false, abstract: false, final false
   static inline void SetSourceSize(::UnityEngine::Rendering::RasterCommandBuffer* cmd, float_t width, float_t height, ::UnityEngine::RenderTexture* rt);
 
 protected:

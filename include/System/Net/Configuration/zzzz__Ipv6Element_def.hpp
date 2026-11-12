@@ -26,10 +26,10 @@ public:
 
   static inline ::System::Net::Configuration::Ipv6Element* New_ctor();
 
-  /// @brief Method .ctor, addr 0x67d6c88, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67d72d8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties, addr 0x67d6cc4, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x67d7314, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:

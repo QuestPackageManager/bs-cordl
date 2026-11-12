@@ -124,30 +124,30 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ISaberSwingRatingCounter"
   constexpr operator ::GlobalNamespace::ISaberSwingRatingCounter*() noexcept;
 
-  /// @brief Method DrawGizmos, addr 0x39b9f08, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method DrawGizmos, addr 0x39be4d4, size 0x378, virtual false, abstract: false, final false
   inline void DrawGizmos();
 
-  /// @brief Method Finish, addr 0x39b9d40, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x39be30c, size 0x1c8, virtual false, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method Init, addr 0x39b9058, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x39bd624, size 0x408, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::ISaberMovementData* saberMovementData, ::UnityEngine::Vector3 notePosition, ::UnityEngine::Quaternion noteRotation, bool rateBeforeCut, bool rateAfterCut);
 
   static inline ::GlobalNamespace::SaberSwingRatingCounter* New_ctor();
 
-  /// @brief Method ProcessNewData, addr 0x39b9460, size 0x8e0, virtual true, abstract: false, final true
+  /// @brief Method ProcessNewData, addr 0x39bda2c, size 0x8e0, virtual true, abstract: false, final true
   inline void ProcessNewData(::GlobalNamespace::BladeMovementDataElement newData, ::GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid);
 
-  /// @brief Method RegisterDidChangeReceiver, addr 0x39b8ec8, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method RegisterDidChangeReceiver, addr 0x39bd494, size 0x64, virtual true, abstract: false, final true
   inline void RegisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
 
-  /// @brief Method RegisterDidFinishReceiver, addr 0x39b8f2c, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method RegisterDidFinishReceiver, addr 0x39bd4f8, size 0x64, virtual true, abstract: false, final true
   inline void RegisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
 
-  /// @brief Method UnregisterDidChangeReceiver, addr 0x39b8f90, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method UnregisterDidChangeReceiver, addr 0x39bd55c, size 0x64, virtual true, abstract: false, final true
   inline void UnregisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
 
-  /// @brief Method UnregisterDidFinishReceiver, addr 0x39b8ff4, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method UnregisterDidFinishReceiver, addr 0x39bd5c0, size 0x64, virtual true, abstract: false, final true
   inline void UnregisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__afterCutBottomPos() const;
@@ -276,13 +276,13 @@ public:
 
   constexpr void __cordl_internal_set__saberMovementData(::GlobalNamespace::ISaberMovementData* value);
 
-  /// @brief Method .ctor, addr 0x39ba280, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39be84c, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_afterCutRating, addr 0x39b8ec0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_afterCutRating, addr 0x39bd48c, size 0x8, virtual true, abstract: false, final true
   inline float_t get_afterCutRating();
 
-  /// @brief Method get_beforeCutRating, addr 0x39b8eb8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beforeCutRating, addr 0x39bd484, size 0x8, virtual true, abstract: false, final true
   inline float_t get_beforeCutRating();
 
   /// @brief Convert to "::GlobalNamespace::ISaberMovementDataProcessor"
@@ -306,7 +306,7 @@ public:
   SaberSwingRatingCounter(SaberSwingRatingCounter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14321 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14322 };
 
   /// @brief Field _saberMovementData, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::ISaberMovementData* ____saberMovementData;

@@ -5,6 +5,9 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(ILevelPackProductData_1)
+namespace GlobalNamespace {
+struct ProductDisplayMode;
+}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
@@ -24,9 +27,14 @@ template <typename TLevelProductData>
 class CORDL_TYPE ILevelPackProductData_1 {
 public:
   // Declarations
+  __declspec(property(get = get_displayMode)) ::GlobalNamespace::ProductDisplayMode displayMode;
+
   __declspec(property(get = get_levelPackId)) ::StringW levelPackId;
 
   __declspec(property(get = get_levelProductsData)) ::System::Collections::Generic::IReadOnlyList_1<TLevelProductData>* levelProductsData;
+
+  /// @brief Method get_displayMode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::GlobalNamespace::ProductDisplayMode get_displayMode();
 
   /// @brief Method get_levelPackId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_levelPackId();
@@ -39,7 +47,7 @@ public:
   ILevelPackProductData_1(ILevelPackProductData_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14599 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14602 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

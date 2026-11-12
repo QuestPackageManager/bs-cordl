@@ -23,13 +23,13 @@ public:
   // Declarations
   static inline ::System::Diagnostics::TraceSwitch* New_ctor(::StringW displayName, ::StringW description);
 
-  /// @brief Method OnSwitchSettingChanged, addr 0x68005c4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method OnSwitchSettingChanged, addr 0x6800c14, size 0x38, virtual true, abstract: false, final false
   inline void OnSwitchSettingChanged();
 
-  /// @brief Method OnValueChanged, addr 0x68005fc, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method OnValueChanged, addr 0x6800c4c, size 0xd4, virtual true, abstract: false, final false
   inline void OnValueChanged();
 
-  /// @brief Method .ctor, addr 0x6800554, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6800ba4, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW description);
 
 protected:

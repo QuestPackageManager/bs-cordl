@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org:
                                                                                                                              ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsDsaSigner::GenerateRawSignature)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x372be08;
+  constexpr static std::size_t addrs = 0x37302a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle
                                                                                                                 ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsDsaSigner::VerifyRawSignature)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x372c08c;
+  constexpr static std::size_t addrs = 0x3730524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Cryp
     ::Org::BouncyCastle::Crypto::Tls::TlsDsaSigner::*)(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsDsaSigner::CreateSigner)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x372c260;
+  constexpr static std::size_t addrs = 0x37306f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Cryp
     ::Org::BouncyCastle::Crypto::Tls::TlsDsaSigner::*)(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsDsaSigner::CreateVerifyer)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x372c27c;
+  constexpr static std::size_t addrs = 0x3730714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::ICipherParameters* (
     ::Org::BouncyCastle::Crypto::Tls::TlsDsaSigner::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Crypto::Tls::TlsDsaSigner::MakeInitParameters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x372c298;
+  constexpr static std::size_t addrs = 0x3730730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Cryp
     ::Org::BouncyCastle::Crypto::Tls::TlsDsaSigner::*)(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*, bool, bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsDsaSigner::MakeSigner)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x372c2a0;
+  constexpr static std::size_t addrs = 0x3730738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsDsaSigner::*)()>(&::Org::BouncyCastle::Crypto::Tls::TlsDsaSigner::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x372c508;
+  constexpr static std::size_t addrs = 0x37309a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::TlsDsaSigner*>(), { ".ctor", {}, {} })));

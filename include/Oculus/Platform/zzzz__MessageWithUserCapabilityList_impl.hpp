@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithUserCapabilityList::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithUserCapabilityList::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x622e81c;
+  constexpr static std::size_t addrs = 0x622eaa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::UserCapabilityList* (::Oculus::Platform::MessageWithUserCapabilityList::*)()>(
     &::Oculus::Platform::MessageWithUserCapabilityList::GetUserCapabilityList)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6233a34;
+  constexpr static std::size_t addrs = 0x6233cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::UserCapabilityList* (::Oculus::Platform::MessageWithUserCapabilityList::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithUserCapabilityList::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6233a78;
+  constexpr static std::size_t addrs = 0x6233d00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

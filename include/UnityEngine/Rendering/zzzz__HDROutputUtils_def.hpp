@@ -131,7 +131,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE HDROutputUtils_HDRDisplayInformation {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6c1f864, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c20944, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxFullFrameToneMapLuminance, int32_t maxToneMapLuminance, int32_t minToneMapLuminance, float_t hdrPaperWhiteNits);
 
   // Ctor Parameters []
@@ -305,25 +305,25 @@ public:
 
   using ShaderPropertyId = ::UnityEngine::Rendering::HDROutputUtils_ShaderPropertyId;
 
-  /// @brief Method ConfigureHDROutput, addr 0x6c1f4ac, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method ConfigureHDROutput, addr 0x6c2058c, size 0x250, virtual false, abstract: false, final false
   static inline void ConfigureHDROutput(::UnityEngine::ComputeShader* computeShader, ::UnityEngine::ColorGamut gamut, ::UnityEngine::Rendering::HDROutputUtils_Operation operations);
 
-  /// @brief Method ConfigureHDROutput, addr 0x6c1f028, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method ConfigureHDROutput, addr 0x6c20108, size 0x248, virtual false, abstract: false, final false
   static inline void ConfigureHDROutput(::UnityEngine::Material* material, ::UnityEngine::ColorGamut gamut, ::UnityEngine::Rendering::HDROutputUtils_Operation operations);
 
-  /// @brief Method ConfigureHDROutput, addr 0x6c1f338, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method ConfigureHDROutput, addr 0x6c20418, size 0x174, virtual false, abstract: false, final false
   static inline void ConfigureHDROutput(::UnityEngine::Material* material, ::UnityEngine::Rendering::HDROutputUtils_Operation operations);
 
-  /// @brief Method ConfigureHDROutput, addr 0x6c1f270, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ConfigureHDROutput, addr 0x6c20350, size 0xc8, virtual false, abstract: false, final false
   static inline void ConfigureHDROutput(::UnityEngine::MaterialPropertyBlock* properties, ::UnityEngine::ColorGamut gamut);
 
-  /// @brief Method GetColorEncodingForGamut, addr 0x6c1ee7c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method GetColorEncodingForGamut, addr 0x6c1ff5c, size 0x1ac, virtual false, abstract: false, final false
   static inline bool GetColorEncodingForGamut(::UnityEngine::ColorGamut gamut, ::by_ref<int32_t> encoding);
 
-  /// @brief Method GetColorSpaceForGamut, addr 0x6c1ec28, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method GetColorSpaceForGamut, addr 0x6c1fd08, size 0x254, virtual false, abstract: false, final false
   static inline bool GetColorSpaceForGamut(::UnityEngine::ColorGamut gamut, ::by_ref<int32_t> colorspace);
 
-  /// @brief Method IsShaderVariantValid, addr 0x6c1f6fc, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method IsShaderVariantValid, addr 0x6c207dc, size 0x168, virtual false, abstract: false, final false
   static inline bool IsShaderVariantValid(::UnityEngine::Rendering::ShaderKeywordSet shaderKeywordSet, bool isHDREnabled);
 
 protected:

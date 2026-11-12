@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::UmAlQuraCalendar_DateMapping::*)(int32_t, int32_t, int32_t, int32_t)>(
     &::System::Globalization::UmAlQuraCalendar_DateMapping::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6026334;
+  constexpr static std::size_t addrs = 0x60265bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Globalization::UmAlQuraCalendar_DateMapping> (*)()>(&::System::Globalization::UmAlQuraCalendar::InitDateMapping)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x6024a40;
+  constexpr static std::size_t addrs = 0x6024cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::UmAlQuraCalendar*>(), { "InitDateMapping", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Globalization::UmAlQuraCalendar::*)()>(&::System::Globalization::UmAlQuraCalendar::get_MinSupportedDateTime)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6024bb4;
+  constexpr static std::size_t addrs = 0x6024e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Globalization::UmAlQuraCalendar::*)()>(&::System::Globalization::UmAlQuraCalendar::get_MaxSupportedDateTime)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6024c10;
+  constexpr static std::size_t addrs = 0x6024e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::UmAlQuraCalendar::*)()>(&::System::Globalization::UmAlQuraCalendar::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6024c6c;
+  constexpr static std::size_t addrs = 0x6024ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::UmAlQuraCalendar*>(), { ".ctor", {}, {} })));
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::UmAlQuraCalendar::*)()>(&::System::Globalization::UmAlQuraCalendar::get_BaseCalendarID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6024c7c;
+  constexpr static std::size_t addrs = 0x6024f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::UmAlQuraCalendar::*)()>(&::System::Globalization::UmAlQuraCalendar::get_ID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6024c84;
+  constexpr static std::size_t addrs = 0x6024f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t, int32_t, ::by_ref<int32_t>, ::by_ref<int32_t>, ::by_ref<int32_t>)>(
     &::System::Globalization::UmAlQuraCalendar::ConvertHijriToGregorian)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6024c8c;
+  constexpr static std::size_t addrs = 0x6024f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(int32_t, int32_t, int32_t)>(&::System::Globalization::UmAlQuraCalendar::GetAbsoluteDateUmAlQura)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6024de4;
+  constexpr static std::size_t addrs = 0x602506c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int64_t)>(&::System::Globalization::UmAlQuraCalendar::CheckTicksRange)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x6024eb0;
+  constexpr static std::size_t addrs = 0x6025138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::System::Globalization::UmAlQuraCalendar::CheckEraRange)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6025090;
+  constexpr static std::size_t addrs = 0x6025318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t)>(&::System::Globalization::UmAlQuraCalendar::CheckYearRange)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x6025100;
+  constexpr static std::size_t addrs = 0x6025388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t, int32_t)>(&::System::Globalization::UmAlQuraCalendar::CheckYearMonthRange)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6025238;
+  constexpr static std::size_t addrs = 0x60254c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::DateTime, ::by_ref<int32_t>, ::by_ref<int32_t>, ::by_ref<int32_t>)>(
     &::System::Globalization::UmAlQuraCalendar::ConvertGregorianToHijri)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x6025310;
+  constexpr static std::size_t addrs = 0x6025598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::UmAlQuraCalendar::*)(::System::DateTime, int32_t)>(&::System::Globalization::UmAlQuraCalendar::GetDatePart)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x6025600;
+  constexpr static std::size_t addrs = 0x6025888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -232,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::UmAlQuraCalendar::*)(::System::DateTime)>(&::System::Globalization::UmAlQuraCalendar::GetDayOfMonth)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6025788;
+  constexpr static std::size_t addrs = 0x6025a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DayOfWeek (::System::Globalization::UmAlQuraCalendar::*)(::System::DateTime)>(
     &::System::Globalization::UmAlQuraCalendar::GetDayOfWeek)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x602579c;
+  constexpr static std::size_t addrs = 0x6025a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -259,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::UmAlQuraCalendar::*)(int32_t, int32_t, int32_t)>(&::System::Globalization::UmAlQuraCalendar::GetDaysInMonth)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6025848;
+  constexpr static std::size_t addrs = 0x6025ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::Globalization::UmAlQuraCalendar::RealGetDaysInYear)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6025900;
+  constexpr static std::size_t addrs = 0x6025b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::UmAlQuraCalendar::*)(int32_t, int32_t)>(&::System::Globalization::UmAlQuraCalendar::GetDaysInYear)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x60259a4;
+  constexpr static std::size_t addrs = 0x6025c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -298,7 +298,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::UmAlQuraCalendar::*)(::System::DateTime)>(&::System::Globalization::UmAlQuraCalendar::GetEra)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6025a14;
+  constexpr static std::size_t addrs = 0x6025c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -311,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (::System::Globalization::UmAlQuraCalendar::*)()>(&::System::Globalization::UmAlQuraCalendar::get_Eras)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6025ab0;
+  constexpr static std::size_t addrs = 0x6025d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -324,7 +324,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::UmAlQuraCalendar::*)(::System::DateTime)>(&::System::Globalization::UmAlQuraCalendar::GetMonth)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6025b18;
+  constexpr static std::size_t addrs = 0x6025da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -337,7 +337,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::UmAlQuraCalendar::*)(int32_t, int32_t)>(&::System::Globalization::UmAlQuraCalendar::GetMonthsInYear)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6025b2c;
+  constexpr static std::size_t addrs = 0x6025db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -350,7 +350,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::UmAlQuraCalendar::*)(::System::DateTime)>(&::System::Globalization::UmAlQuraCalendar::GetYear)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6025b9c;
+  constexpr static std::size_t addrs = 0x6025e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -363,7 +363,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::UmAlQuraCalendar::*)(int32_t, int32_t)>(&::System::Globalization::UmAlQuraCalendar::IsLeapYear)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6025bb0;
+  constexpr static std::size_t addrs = 0x6025e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -377,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Globalization::UmAlQuraCalendar::*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(
     &::System::Globalization::UmAlQuraCalendar::ToDateTime)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x6025c2c;
+  constexpr static std::size_t addrs = 0x6025eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -390,7 +390,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::UmAlQuraCalendar::*)()>(&::System::Globalization::UmAlQuraCalendar::get_TwoDigitYearMax)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6025e60;
+  constexpr static std::size_t addrs = 0x60260e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -403,7 +403,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::UmAlQuraCalendar::*)(int32_t)>(&::System::Globalization::UmAlQuraCalendar::set_TwoDigitYearMax)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6025ea4;
+  constexpr static std::size_t addrs = 0x602612c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -416,7 +416,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::UmAlQuraCalendar::*)(int32_t)>(&::System::Globalization::UmAlQuraCalendar::ToFourDigitYear)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6025fac;
+  constexpr static std::size_t addrs = 0x6026234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

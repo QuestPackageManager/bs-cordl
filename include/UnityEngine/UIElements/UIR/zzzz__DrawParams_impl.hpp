@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::DrawParams::*)()>(&::UnityEngine::UIElements::UIR::DrawParams::Reset)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x71cca08;
+  constexpr static std::size_t addrs = 0x71cdae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::DrawParams*>(), { "Reset", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::DrawParams::*)()>(&::UnityEngine::UIElements::UIR::DrawParams::_ctor)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x71c896c;
+  constexpr static std::size_t addrs = 0x71c9a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::DrawParams*>(), { ".ctor", {}, {} })));

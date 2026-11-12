@@ -31,16 +31,16 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerObjectList* New_ctor();
 
-  /// @brief Method OnDecrement, addr 0x6c701b0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnDecrement, addr 0x6c71290, size 0x1c, virtual true, abstract: false, final false
   inline void OnDecrement(bool fast);
 
-  /// @brief Method OnIncrement, addr 0x6c70194, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnIncrement, addr 0x6c71274, size 0x1c, virtual true, abstract: false, final false
   inline void OnIncrement(bool fast);
 
-  /// @brief Method SetWidget, addr 0x6c70130, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x6c71210, size 0x64, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
-  /// @brief Method UpdateValueLabel, addr 0x6c701cc, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method UpdateValueLabel, addr 0x6c712ac, size 0x18c, virtual true, abstract: false, final false
   inline void UpdateValueLabel();
 
   constexpr int32_t const& __cordl_internal_get_m_Index() const;
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6c70358, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c71438, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

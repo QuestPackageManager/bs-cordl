@@ -92,7 +92,7 @@ public:
   constexpr GraphAPIClient_PostOptions(int32_t MaxRetries, int32_t MinWaitTimeForRetryMs, bool WithExponentialBackoff) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18724 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18732 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -162,7 +162,7 @@ public:
                                         ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18725 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18733 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
@@ -252,7 +252,7 @@ public:
                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18726 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18734 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -317,7 +317,7 @@ public:
   /// @brief Field _graphUrl, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__graphUrl, put = __cordl_internal_set__graphUrl)) ::StringW _graphUrl;
 
-  /// @brief Method CalculateDelayMsBeforeRetry, addr 0x35de524, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CalculateDelayMsBeforeRetry, addr 0x35e297c, size 0xb4, virtual false, abstract: false, final false
   static inline int32_t CalculateDelayMsBeforeRetry(int32_t numAttempts, ::GlobalNamespace::GraphAPIClient_PostOptions postOptions);
 
   static inline ::GlobalNamespace::GraphAPIClient* New_ctor(::StringW graphUrl, ::StringW graphAccessToken,
@@ -364,7 +364,7 @@ public:
 
   constexpr void __cordl_internal_set__graphUrl(::StringW value);
 
-  /// @brief Method .ctor, addr 0x35de4a8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35e2900, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW graphUrl, ::StringW graphAccessToken, ::System::Action_1<::System::Net::Http::Headers::HttpRequestHeaders*>* configureRequestHeaders);
 
 protected:
@@ -382,7 +382,7 @@ public:
   GraphAPIClient(GraphAPIClient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18727 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18735 };
 
   /// @brief Field _graphUrl, offset: 0x10, size: 0x8, def value: None
   ::StringW ____graphUrl;

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::Buffers::Utilities::SelectBucketIndex)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6048b78;
+  constexpr static std::size_t addrs = 0x6048e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::Buffers::Utilities::GetMaxSizeForBucket)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6048bf4;
+  constexpr static std::size_t addrs = 0x6048e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

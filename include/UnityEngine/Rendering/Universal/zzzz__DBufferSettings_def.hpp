@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_surfaceData(::UnityEngine::Rendering::Universal::DecalSurfaceData value);
 
-  /// @brief Method .ctor, addr 0x6d23998, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d24a78, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

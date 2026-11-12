@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UxmlNamespaceDefinition (*)()>(&::UnityEngine::UIElements::UxmlNamespaceDefinition::get_Empty)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x71839c4;
+  constexpr static std::size_t addrs = 0x7184aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlNamespaceDefinition>(), { "get_Empty", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::UxmlNamespaceDefinition, ::UnityEngine::UIElements::UxmlNamespaceDefinition)>(
     &::UnityEngine::UIElements::UxmlNamespaceDefinition::op_Equality)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x7183a20;
+  constexpr static std::size_t addrs = 0x7184b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UxmlNamespaceDefinition::*)(::UnityEngine::UIElements::UxmlNamespaceDefinition)>(
     &::UnityEngine::UIElements::UxmlNamespaceDefinition::Equals)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x7183aac;
+  constexpr static std::size_t addrs = 0x7184b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlNamespaceDefinition>(),
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UxmlNamespaceDefinition::*)(::System::Object*)>(&::UnityEngine::UIElements::UxmlNamespaceDefinition::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x7183b24;
+  constexpr static std::size_t addrs = 0x7184c04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::UxmlNamespaceDefinition::*)()>(&::UnityEngine::UIElements::UxmlNamespaceDefinition::GetHashCode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x7183bb8;
+  constexpr static std::size_t addrs = 0x7184c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

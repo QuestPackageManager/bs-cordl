@@ -79,10 +79,10 @@ public:
 
   constexpr void __cordl_internal_set_showAlpha(bool value);
 
-  /// @brief Method .ctor, addr 0x6f6ef14, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f6fff4, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(bool showAlpha);
 
-  /// @brief Method .ctor, addr 0x6f6ef30, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f70010, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(bool showAlpha, bool hdr);
 
 protected:

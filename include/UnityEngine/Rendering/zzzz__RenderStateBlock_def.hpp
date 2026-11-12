@@ -61,46 +61,46 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::RenderStateBlock>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::RenderStateBlock>*();
 
-  /// @brief Method Equals, addr 0x6fbf674, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6fc0754, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6fbf4c4, size 0x100, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6fc05a4, size 0x100, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::RenderStateBlock other);
 
-  /// @brief Method GetHashCode, addr 0x6fbf708, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6fc07e8, size 0xf0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6fbf338, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fc0418, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderStateMask mask);
 
-  /// @brief Method get_mask, addr 0x6fbf4b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mask, addr 0x6fc0594, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderStateMask get_mask();
 
-  /// @brief Method get_stencilReference, addr 0x6fbf4a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stencilReference, addr 0x6fc0584, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_stencilReference();
 
-  /// @brief Method get_stencilState, addr 0x6fbf488, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_stencilState, addr 0x6fc0568, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::StencilState get_stencilState();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::RenderStateBlock>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::RenderStateBlock>* i___System__IEquatable_1___UnityEngine__Rendering__RenderStateBlock_();
 
-  /// @brief Method set_blendState, addr 0x6fbf46c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_blendState, addr 0x6fc054c, size 0x8, virtual false, abstract: false, final false
   inline void set_blendState(::UnityEngine::Rendering::BlendState value);
 
-  /// @brief Method set_depthState, addr 0x6fbf480, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_depthState, addr 0x6fc0560, size 0x8, virtual false, abstract: false, final false
   inline void set_depthState(::UnityEngine::Rendering::DepthState value);
 
-  /// @brief Method set_mask, addr 0x6fbf4bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mask, addr 0x6fc059c, size 0x8, virtual false, abstract: false, final false
   inline void set_mask(::UnityEngine::Rendering::RenderStateMask value);
 
-  /// @brief Method set_rasterState, addr 0x6fbf474, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_rasterState, addr 0x6fc0554, size 0xc, virtual false, abstract: false, final false
   inline void set_rasterState(::UnityEngine::Rendering::RasterState value);
 
-  /// @brief Method set_stencilReference, addr 0x6fbf4ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stencilReference, addr 0x6fc058c, size 0x8, virtual false, abstract: false, final false
   inline void set_stencilReference(int32_t value);
 
-  /// @brief Method set_stencilState, addr 0x6fbf498, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_stencilState, addr 0x6fc0578, size 0xc, virtual false, abstract: false, final false
   inline void set_stencilState(::UnityEngine::Rendering::StencilState value);
 
   // Ctor Parameters []

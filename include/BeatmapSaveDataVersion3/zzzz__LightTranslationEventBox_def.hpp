@@ -127,31 +127,31 @@ public:
 
   constexpr void __cordl_internal_set_t(::BeatmapSaveDataCommon::DistributionParamType value);
 
-  /// @brief Method .ctor, addr 0x3a12400, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a17488, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType,
                     float_t gapDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType gapDistributionParamType, bool gapDistributionShouldAffectFirstBaseEvent,
                     ::BeatmapSaveDataCommon::EaseType gapDistributionEaseType, ::BeatmapSaveDataCommon::Axis axis, bool flipTranslation,
                     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>* lightTranslationBaseDataList);
 
-  /// @brief Method get_axis, addr 0x3a123c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_axis, addr 0x3a17450, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::Axis get_axis();
 
-  /// @brief Method get_flipTranslation, addr 0x3a123d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_flipTranslation, addr 0x3a17458, size 0x10, virtual false, abstract: false, final false
   inline bool get_flipTranslation();
 
-  /// @brief Method get_gapDistributionEaseType, addr 0x3a123f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gapDistributionEaseType, addr 0x3a17478, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::EaseType get_gapDistributionEaseType();
 
-  /// @brief Method get_gapDistributionParam, addr 0x3a123b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gapDistributionParam, addr 0x3a17440, size 0x8, virtual false, abstract: false, final false
   inline float_t get_gapDistributionParam();
 
-  /// @brief Method get_gapDistributionParamType, addr 0x3a123c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gapDistributionParamType, addr 0x3a17448, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::DistributionParamType get_gapDistributionParamType();
 
-  /// @brief Method get_gapDistributionShouldAffectFirstBaseEvent, addr 0x3a123e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_gapDistributionShouldAffectFirstBaseEvent, addr 0x3a17468, size 0x10, virtual false, abstract: false, final false
   inline bool get_gapDistributionShouldAffectFirstBaseEvent();
 
-  /// @brief Method get_lightTranslationBaseDataList, addr 0x3a123f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightTranslationBaseDataList, addr 0x3a17480, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>* get_lightTranslationBaseDataList();
 
 protected:
@@ -169,7 +169,7 @@ public:
   LightTranslationEventBox(LightTranslationEventBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14843 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14851 };
 
   /// [SerializeField]
   /// @brief Field s, offset: 0x20, size: 0x4, def value: None

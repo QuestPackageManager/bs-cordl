@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_normalBlend(::UnityEngine::Rendering::Universal::DecalNormalBlend value);
 
-  /// @brief Method .ctor, addr 0x6d239a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d24a84, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

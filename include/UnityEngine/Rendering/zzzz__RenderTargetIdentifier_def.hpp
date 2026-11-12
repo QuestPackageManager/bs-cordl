@@ -45,37 +45,37 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>*();
 
-  /// @brief Method Equals, addr 0x6fa1f80, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6fa3060, size 0xa0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6fa1f04, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6fa2fe4, size 0x7c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::RenderTargetIdentifier rhs);
 
-  /// @brief Method GetHashCode, addr 0x6fa1eec, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6fa2fcc, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x6fa1c58, size 0x294, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6fa2d38, size 0x294, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6fa18a4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fa2984, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x6fa18dc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fa29bc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t nameID);
 
-  /// @brief Method .ctor, addr 0x6fa18fc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fa29dc, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(int32_t nameID, int32_t mipLevel, ::UnityEngine::CubemapFace cubeFace, int32_t depthSlice);
 
-  /// @brief Method .ctor, addr 0x6fa1918, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fa29f8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderTargetIdentifier renderTargetIdentifier, int32_t mipLevel, ::UnityEngine::CubemapFace cubeFace, int32_t depthSlice);
 
-  /// @brief Method .ctor, addr 0x6fa1944, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fa2a24, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Texture* tex);
 
-  /// @brief Method .ctor, addr 0x6fa1a6c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fa2b4c, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Texture* tex, int32_t mipLevel, ::UnityEngine::CubemapFace cubeFace, int32_t depthSlice);
 
-  /// @brief Method .ctor, addr 0x6fa1884, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fa2964, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::BuiltinRenderTextureType type);
 
   static inline ::UnityEngine::Rendering::RenderTargetIdentifier getStaticF_Invalid();
@@ -83,22 +83,22 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>* i___System__IEquatable_1___UnityEngine__Rendering__RenderTargetIdentifier_();
 
-  /// @brief Method op_Equality, addr 0x6fa2020, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6fa3100, size 0x88, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::RenderTargetIdentifier lhs, ::UnityEngine::Rendering::RenderTargetIdentifier rhs);
 
-  /// @brief Method op_Implicit, addr 0x6fa1bc4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6fa2ca4, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier(::StringW name);
 
-  /// @brief Method op_Implicit, addr 0x6fa1bf8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6fa2cd8, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier(int32_t nameID);
 
-  /// @brief Method op_Implicit, addr 0x6fa1c18, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6fa2cf8, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier(::UnityEngine::Texture* tex);
 
-  /// @brief Method op_Implicit, addr 0x6fa1ba4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6fa2c84, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier(::UnityEngine::Rendering::BuiltinRenderTextureType type);
 
-  /// @brief Method op_Inequality, addr 0x6fa20a8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6fa3188, size 0x8c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Rendering::RenderTargetIdentifier lhs, ::UnityEngine::Rendering::RenderTargetIdentifier rhs);
 
   static inline void setStaticF_Invalid(::UnityEngine::Rendering::RenderTargetIdentifier value);

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::PacketProperty (::LiteNetLib::NetPacket::*)()>(&::LiteNetLib::NetPacket::get_Property)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5cf0e58;
+  constexpr static std::size_t addrs = 0x5cf0660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPacket*>(), { "get_Property", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPacket::*)(::LiteNetLib::PacketProperty)>(&::LiteNetLib::NetPacket::set_Property)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5cf2958;
+  constexpr static std::size_t addrs = 0x5cf2160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::LiteNetLib::NetPacket::*)()>(&::LiteNetLib::NetPacket::get_ConnectionNumber)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5cf3cbc;
+  constexpr static std::size_t addrs = 0x5cf34c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPacket*>(), { "get_ConnectionNumber", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPacket::*)(uint8_t)>(&::LiteNetLib::NetPacket::set_ConnectionNumber)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5cf03d4;
+  constexpr static std::size_t addrs = 0x5cefbdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::LiteNetLib::NetPacket::*)()>(&::LiteNetLib::NetPacket::get_Sequence)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5cf3ce8;
+  constexpr static std::size_t addrs = 0x5cf34f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPacket*>(), { "get_Sequence", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPacket::*)(uint16_t)>(&::LiteNetLib::NetPacket::set_Sequence)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5cf3cf4;
+  constexpr static std::size_t addrs = 0x5cf34fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPacket*>(), { "set_Sequence", {}, { ::i2c::type_of<uint16_t>() } })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::LiteNetLib::NetPacket::*)()>(&::LiteNetLib::NetPacket::get_IsFragmented)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5cf3d08;
+  constexpr static std::size_t addrs = 0x5cf3510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPacket*>(), { "get_IsFragmented", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPacket::*)()>(&::LiteNetLib::NetPacket::MarkFragmented)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5cf3d34;
+  constexpr static std::size_t addrs = 0x5cf353c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPacket*>(), { "MarkFragmented", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::LiteNetLib::NetPacket::*)()>(&::LiteNetLib::NetPacket::get_ChannelId)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5cf3d64;
+  constexpr static std::size_t addrs = 0x5cf356c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPacket*>(), { "get_ChannelId", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPacket::*)(uint8_t)>(&::LiteNetLib::NetPacket::set_ChannelId)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5cf3d90;
+  constexpr static std::size_t addrs = 0x5cf3598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPacket*>(), { "set_ChannelId", {}, { ::i2c::type_of<uint8_t>() } })));
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::LiteNetLib::NetPacket::*)()>(&::LiteNetLib::NetPacket::get_FragmentId)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5cf3dbc;
+  constexpr static std::size_t addrs = 0x5cf35c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPacket*>(), { "get_FragmentId", {}, {} })));
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPacket::*)(uint16_t)>(&::LiteNetLib::NetPacket::set_FragmentId)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5cf3dc8;
+  constexpr static std::size_t addrs = 0x5cf35d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPacket*>(), { "set_FragmentId", {}, { ::i2c::type_of<uint16_t>() } })));
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::LiteNetLib::NetPacket::*)()>(&::LiteNetLib::NetPacket::get_FragmentPart)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5cf3dd8;
+  constexpr static std::size_t addrs = 0x5cf35e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPacket*>(), { "get_FragmentPart", {}, {} })));
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPacket::*)(uint16_t)>(&::LiteNetLib::NetPacket::set_FragmentPart)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5cf3de4;
+  constexpr static std::size_t addrs = 0x5cf35ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPacket*>(), { "set_FragmentPart", {}, { ::i2c::type_of<uint16_t>() } })));
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::LiteNetLib::NetPacket::*)()>(&::LiteNetLib::NetPacket::get_FragmentsTotal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5cf3df4;
+  constexpr static std::size_t addrs = 0x5cf35fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPacket*>(), { "get_FragmentsTotal", {}, {} })));
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPacket::*)(uint16_t)>(&::LiteNetLib::NetPacket::set_FragmentsTotal)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5cf3e00;
+  constexpr static std::size_t addrs = 0x5cf3608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPacket*>(), { "set_FragmentsTotal", {}, { ::i2c::type_of<uint16_t>() } })));
@@ -203,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPacket::*)(int32_t)>(&::LiteNetLib::NetPacket::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5cf3e10;
+  constexpr static std::size_t addrs = 0x5cf3618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPacket*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -215,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPacket::*)(::LiteNetLib::PacketProperty, int32_t)>(&::LiteNetLib::NetPacket::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5cf3e74;
+  constexpr static std::size_t addrs = 0x5cf367c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::LiteNetLib::PacketProperty)>(&::LiteNetLib::NetPacket::GetHeaderSize)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5cf292c;
+  constexpr static std::size_t addrs = 0x5cf2134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::LiteNetLib::NetPacket::*)()>(&::LiteNetLib::NetPacket::GetHeaderSize)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5ced5d4;
+  constexpr static std::size_t addrs = 0x5cecddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPacket*>(), { "GetHeaderSize", {}, {} })));
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::LiteNetLib::NetPacket::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::LiteNetLib::NetPacket::FromBytes)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x5cf0d38;
+  constexpr static std::size_t addrs = 0x5cf0540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

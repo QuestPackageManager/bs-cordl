@@ -35,7 +35,7 @@ public:
   __declspec(property(get = __cordl_internal_get__invoker, put = __cordl_internal_set__invoker)) ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* _invoker;
 
   /// [NullableContext(1)]
-  /// @brief Method Invoke, addr 0x617e058, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x617e2e0, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Object* Invoke(/* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   static inline ::Newtonsoft::Json::Utilities::FSharpFunction* New_ctor(::System::Object* instance,
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__invoker(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x617e050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x617e2d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* instance, /* [Nullable(new[] { 1, 2, 1 })] */ ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* invoker);
 
 protected:

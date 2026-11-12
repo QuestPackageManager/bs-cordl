@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener_OnPeerConnected::*)(::System::Object*, ::System::IntPtr)>(
     &::LiteNetLib::EventBasedNetListener_OnPeerConnected::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5cea734;
+  constexpr static std::size_t addrs = 0x5ce9f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnPeerConnected*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener_OnPeerConnected::*)(::LiteNetLib::NetPeer*)>(
     &::LiteNetLib::EventBasedNetListener_OnPeerConnected::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cea878;
+  constexpr static std::size_t addrs = 0x5cea080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnPeerConnected*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::LiteNetLib::EventBasedNetListener_OnPeerConnected::*)(::LiteNetLib::NetPeer*, ::System::AsyncCallback*, ::System::Object*)>(&::LiteNetLib::EventBasedNetListener_OnPeerConnected::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5cea88c;
+  constexpr static std::size_t addrs = 0x5cea094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnPeerConnected*>(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener_OnPeerConnected::*)(::System::IAsyncResult*)>(
     &::LiteNetLib::EventBasedNetListener_OnPeerConnected::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5cea8ac;
+  constexpr static std::size_t addrs = 0x5cea0b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnPeerConnected*>(),
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener_OnPeerDisconnected::*)(::System::Object*, ::System::IntPtr)>(
     &::LiteNetLib::EventBasedNetListener_OnPeerDisconnected::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5cea8b8;
+  constexpr static std::size_t addrs = 0x5cea0c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnPeerDisconnected*>(),
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener_OnPeerDisconnected::*)(::LiteNetLib::NetPeer*, ::LiteNetLib::DisconnectInfo)>(
     &::LiteNetLib::EventBasedNetListener_OnPeerDisconnected::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5ceaa00;
+  constexpr static std::size_t addrs = 0x5cea208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnPeerDisconnected*>(),
@@ -134,7 +134,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IAsyncResult* (::LiteNetLib::EventBasedNetListener_OnPeerDisconnected::*)(::LiteNetLib::NetPeer*, ::LiteNetLib::DisconnectInfo, ::System::AsyncCallback*, ::System::Object*)>(
         &::LiteNetLib::EventBasedNetListener_OnPeerDisconnected::BeginInvoke)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5ceaa14;
+  constexpr static std::size_t addrs = 0x5cea21c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnPeerDisconnected*>(),
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener_OnPeerDisconnected::*)(::System::IAsyncResult*)>(
     &::LiteNetLib::EventBasedNetListener_OnPeerDisconnected::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ceaaac;
+  constexpr static std::size_t addrs = 0x5cea2b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnPeerDisconnected*>(),
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener_OnNetworkError::*)(::System::Object*, ::System::IntPtr)>(
     &::LiteNetLib::EventBasedNetListener_OnNetworkError::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5ceaab8;
+  constexpr static std::size_t addrs = 0x5cea2c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnNetworkError*>(),
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener_OnNetworkError::*)(::System::Net::IPEndPoint*, ::System::Net::Sockets::SocketError)>(
     &::LiteNetLib::EventBasedNetListener_OnNetworkError::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5ceac00;
+  constexpr static std::size_t addrs = 0x5cea408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -217,7 +217,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
                                                                                                                                        ::System::AsyncCallback*, ::System::Object*)>(
     &::LiteNetLib::EventBasedNetListener_OnNetworkError::BeginInvoke)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5ceac14;
+  constexpr static std::size_t addrs = 0x5cea41c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener_OnNetworkError::*)(::System::IAsyncResult*)>(
     &::LiteNetLib::EventBasedNetListener_OnNetworkError::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ceacac;
+  constexpr static std::size_t addrs = 0x5cea4b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener_OnNetworkReceive::*)(::System::Object*, ::System::IntPtr)>(
     &::LiteNetLib::EventBasedNetListener_OnNetworkReceive::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5ceacb8;
+  constexpr static std::size_t addrs = 0x5cea4c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnNetworkReceive*>(),
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener_OnNetworkReceive::*)(
     ::LiteNetLib::NetPeer*, ::LiteNetLib::NetPacketReader*, ::LiteNetLib::DeliveryMethod)>(&::LiteNetLib::EventBasedNetListener_OnNetworkReceive::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5ceae00;
+  constexpr static std::size_t addrs = 0x5cea608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnNetworkReceive*>(),
@@ -300,7 +300,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::LiteNetLib::EventBasedNetListener_OnNetworkReceive::*)(::LiteNetLib::NetPeer*, ::LiteNetLib::NetPacketReader*, ::LiteNetLib::DeliveryMethod, ::System::AsyncCallback*, ::System::Object*)>(
     &::LiteNetLib::EventBasedNetListener_OnNetworkReceive::BeginInvoke)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5ceae14;
+  constexpr static std::size_t addrs = 0x5cea61c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnNetworkReceive*>(),
@@ -314,7 +314,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener_OnNetworkReceive::*)(::System::IAsyncResult*)>(
     &::LiteNetLib::EventBasedNetListener_OnNetworkReceive::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ceaeb0;
+  constexpr static std::size_t addrs = 0x5cea6b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnNetworkReceive*>(),
@@ -355,7 +355,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener_OnNetworkReceiveUnconnected::*)(::System::Object*, ::System::IntPtr)>(
     &::LiteNetLib::EventBasedNetListener_OnNetworkReceiveUnconnected::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5ceaebc;
+  constexpr static std::size_t addrs = 0x5cea6c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnNetworkReceiveUnconnected*>(),
@@ -369,7 +369,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener_OnNetworkReceiveUnconnected::*)(
     ::System::Net::IPEndPoint*, ::LiteNetLib::NetPacketReader*, ::LiteNetLib::UnconnectedMessageType)>(&::LiteNetLib::EventBasedNetListener_OnNetworkReceiveUnconnected::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5ceb004;
+  constexpr static std::size_t addrs = 0x5cea80c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnNetworkReceiveUnconnected*>(),
@@ -384,7 +384,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::LiteNetLib::EventBasedNetListener_OnNetworkReceiveUnconnected::*)(::System::Net::IPEndPoint*, ::LiteNetLib::NetPacketReader*, ::LiteNetLib::UnconnectedMessageType, ::System::AsyncCallback*,
                                                                         ::System::Object*)>(&::LiteNetLib::EventBasedNetListener_OnNetworkReceiveUnconnected::BeginInvoke)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5ceb018;
+  constexpr static std::size_t addrs = 0x5cea820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnNetworkReceiveUnconnected*>(),
@@ -398,7 +398,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener_OnNetworkReceiveUnconnected::*)(::System::IAsyncResult*)>(
     &::LiteNetLib::EventBasedNetListener_OnNetworkReceiveUnconnected::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ceb0b4;
+  constexpr static std::size_t addrs = 0x5cea8bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnNetworkReceiveUnconnected*>(),
@@ -440,7 +440,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener_OnNetworkLatencyUpdate::*)(::System::Object*, ::System::IntPtr)>(
     &::LiteNetLib::EventBasedNetListener_OnNetworkLatencyUpdate::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5ceb0c0;
+  constexpr static std::size_t addrs = 0x5cea8c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnNetworkLatencyUpdate*>(),
@@ -454,7 +454,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener_OnNetworkLatencyUpdate::*)(::LiteNetLib::NetPeer*, int32_t)>(
     &::LiteNetLib::EventBasedNetListener_OnNetworkLatencyUpdate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5ceb208;
+  constexpr static std::size_t addrs = 0x5ceaa10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnNetworkLatencyUpdate*>(),
@@ -469,7 +469,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IAsyncResult* (::LiteNetLib::EventBasedNetListener_OnNetworkLatencyUpdate::*)(::LiteNetLib::NetPeer*, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::LiteNetLib::EventBasedNetListener_OnNetworkLatencyUpdate::BeginInvoke)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5ceb21c;
+  constexpr static std::size_t addrs = 0x5ceaa24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnNetworkLatencyUpdate*>(),
@@ -483,7 +483,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener_OnNetworkLatencyUpdate::*)(::System::IAsyncResult*)>(
     &::LiteNetLib::EventBasedNetListener_OnNetworkLatencyUpdate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ceb278;
+  constexpr static std::size_t addrs = 0x5ceaa80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnNetworkLatencyUpdate*>(),
@@ -523,7 +523,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener_OnConnectionRequest::*)(::System::Object*, ::System::IntPtr)>(
     &::LiteNetLib::EventBasedNetListener_OnConnectionRequest::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5ceb284;
+  constexpr static std::size_t addrs = 0x5ceaa8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnConnectionRequest*>(),
@@ -537,7 +537,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener_OnConnectionRequest::*)(::LiteNetLib::ConnectionRequest*)>(
     &::LiteNetLib::EventBasedNetListener_OnConnectionRequest::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5ceb3c8;
+  constexpr static std::size_t addrs = 0x5ceabd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnConnectionRequest*>(),
@@ -552,7 +552,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IAsyncResult* (::LiteNetLib::EventBasedNetListener_OnConnectionRequest::*)(::LiteNetLib::ConnectionRequest*, ::System::AsyncCallback*, ::System::Object*)>(
         &::LiteNetLib::EventBasedNetListener_OnConnectionRequest::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5ceb3dc;
+  constexpr static std::size_t addrs = 0x5ceabe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnConnectionRequest*>(),
@@ -566,7 +566,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener_OnConnectionRequest::*)(::System::IAsyncResult*)>(
     &::LiteNetLib::EventBasedNetListener_OnConnectionRequest::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ceb3fc;
+  constexpr static std::size_t addrs = 0x5ceac04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnConnectionRequest*>(),
@@ -606,7 +606,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener_OnDeliveryEvent::*)(::System::Object*, ::System::IntPtr)>(
     &::LiteNetLib::EventBasedNetListener_OnDeliveryEvent::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5ceb408;
+  constexpr static std::size_t addrs = 0x5ceac10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnDeliveryEvent*>(),
@@ -620,7 +620,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener_OnDeliveryEvent::*)(::LiteNetLib::NetPeer*, ::System::Object*)>(
     &::LiteNetLib::EventBasedNetListener_OnDeliveryEvent::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5ceb550;
+  constexpr static std::size_t addrs = 0x5cead58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnDeliveryEvent*>(),
@@ -635,7 +635,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IAsyncResult* (::LiteNetLib::EventBasedNetListener_OnDeliveryEvent::*)(::LiteNetLib::NetPeer*, ::System::Object*, ::System::AsyncCallback*, ::System::Object*)>(
         &::LiteNetLib::EventBasedNetListener_OnDeliveryEvent::BeginInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5ceb564;
+  constexpr static std::size_t addrs = 0x5cead6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnDeliveryEvent*>(),
@@ -649,7 +649,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener_OnDeliveryEvent::*)(::System::IAsyncResult*)>(
     &::LiteNetLib::EventBasedNetListener_OnDeliveryEvent::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ceb58c;
+  constexpr static std::size_t addrs = 0x5cead94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener_OnDeliveryEvent*>(),
@@ -689,7 +689,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)(::LiteNetLib::EventBasedNetListener_OnPeerConnected*)>(
     &::LiteNetLib::EventBasedNetListener::add_PeerConnectedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5ce9b50;
+  constexpr static std::size_t addrs = 0x5ce9358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -704,7 +704,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)(::LiteNetLib::EventBasedNetListener_OnPeerConnected*)>(
     &::LiteNetLib::EventBasedNetListener::remove_PeerConnectedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5ce9bfc;
+  constexpr static std::size_t addrs = 0x5ce9404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -719,7 +719,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)(::LiteNetLib::EventBasedNetListener_OnPeerDisconnected*)>(
     &::LiteNetLib::EventBasedNetListener::add_PeerDisconnectedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5ce9ca8;
+  constexpr static std::size_t addrs = 0x5ce94b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -734,7 +734,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)(::LiteNetLib::EventBasedNetListener_OnPeerDisconnected*)>(
     &::LiteNetLib::EventBasedNetListener::remove_PeerDisconnectedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5ce9d54;
+  constexpr static std::size_t addrs = 0x5ce955c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -749,7 +749,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)(::LiteNetLib::EventBasedNetListener_OnNetworkError*)>(
     &::LiteNetLib::EventBasedNetListener::add_NetworkErrorEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5ce9e00;
+  constexpr static std::size_t addrs = 0x5ce9608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -764,7 +764,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)(::LiteNetLib::EventBasedNetListener_OnNetworkError*)>(
     &::LiteNetLib::EventBasedNetListener::remove_NetworkErrorEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5ce9eac;
+  constexpr static std::size_t addrs = 0x5ce96b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -779,7 +779,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)(::LiteNetLib::EventBasedNetListener_OnNetworkReceive*)>(
     &::LiteNetLib::EventBasedNetListener::add_NetworkReceiveEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5ce9f58;
+  constexpr static std::size_t addrs = 0x5ce9760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -794,7 +794,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)(::LiteNetLib::EventBasedNetListener_OnNetworkReceive*)>(
     &::LiteNetLib::EventBasedNetListener::remove_NetworkReceiveEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5cea004;
+  constexpr static std::size_t addrs = 0x5ce980c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -809,7 +809,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)(::LiteNetLib::EventBasedNetListener_OnNetworkReceiveUnconnected*)>(
     &::LiteNetLib::EventBasedNetListener::add_NetworkReceiveUnconnectedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5cea0b0;
+  constexpr static std::size_t addrs = 0x5ce98b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -824,7 +824,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)(::LiteNetLib::EventBasedNetListener_OnNetworkReceiveUnconnected*)>(
     &::LiteNetLib::EventBasedNetListener::remove_NetworkReceiveUnconnectedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5cea15c;
+  constexpr static std::size_t addrs = 0x5ce9964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -839,7 +839,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)(::LiteNetLib::EventBasedNetListener_OnNetworkLatencyUpdate*)>(
     &::LiteNetLib::EventBasedNetListener::add_NetworkLatencyUpdateEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5cea208;
+  constexpr static std::size_t addrs = 0x5ce9a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -854,7 +854,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)(::LiteNetLib::EventBasedNetListener_OnNetworkLatencyUpdate*)>(
     &::LiteNetLib::EventBasedNetListener::remove_NetworkLatencyUpdateEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5cea2b4;
+  constexpr static std::size_t addrs = 0x5ce9abc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -869,7 +869,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)(::LiteNetLib::EventBasedNetListener_OnConnectionRequest*)>(
     &::LiteNetLib::EventBasedNetListener::add_ConnectionRequestEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5cea360;
+  constexpr static std::size_t addrs = 0x5ce9b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -884,7 +884,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)(::LiteNetLib::EventBasedNetListener_OnConnectionRequest*)>(
     &::LiteNetLib::EventBasedNetListener::remove_ConnectionRequestEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5cea40c;
+  constexpr static std::size_t addrs = 0x5ce9c14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -899,7 +899,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)(::LiteNetLib::EventBasedNetListener_OnDeliveryEvent*)>(
     &::LiteNetLib::EventBasedNetListener::add_DeliveryEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5cea4b8;
+  constexpr static std::size_t addrs = 0x5ce9cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener*>(),
@@ -913,7 +913,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)(::LiteNetLib::EventBasedNetListener_OnDeliveryEvent*)>(
     &::LiteNetLib::EventBasedNetListener::remove_DeliveryEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5cea564;
+  constexpr static std::size_t addrs = 0x5ce9d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -927,7 +927,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)()>(&::LiteNetLib::EventBasedNetListener::ClearPeerConnectedEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cea610;
+  constexpr static std::size_t addrs = 0x5ce9e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener*>(), { "ClearPeerConnectedEvent", {}, {} })));
@@ -939,7 +939,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)()>(&::LiteNetLib::EventBasedNetListener::ClearPeerDisconnectedEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cea618;
+  constexpr static std::size_t addrs = 0x5ce9e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener*>(), { "ClearPeerDisconnectedEvent", {}, {} })));
@@ -951,7 +951,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)()>(&::LiteNetLib::EventBasedNetListener::ClearNetworkErrorEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cea620;
+  constexpr static std::size_t addrs = 0x5ce9e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener*>(), { "ClearNetworkErrorEvent", {}, {} })));
@@ -963,7 +963,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)()>(&::LiteNetLib::EventBasedNetListener::ClearNetworkReceiveEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cea628;
+  constexpr static std::size_t addrs = 0x5ce9e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener*>(), { "ClearNetworkReceiveEvent", {}, {} })));
@@ -975,7 +975,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)()>(&::LiteNetLib::EventBasedNetListener::ClearNetworkReceiveUnconnectedEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cea630;
+  constexpr static std::size_t addrs = 0x5ce9e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -988,7 +988,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)()>(&::LiteNetLib::EventBasedNetListener::ClearNetworkLatencyUpdateEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cea638;
+  constexpr static std::size_t addrs = 0x5ce9e40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener*>(), { "ClearNetworkLatencyUpdateEvent", {}, {} })));
@@ -1000,7 +1000,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)()>(&::LiteNetLib::EventBasedNetListener::ClearConnectionRequestEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cea640;
+  constexpr static std::size_t addrs = 0x5ce9e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener*>(), { "ClearConnectionRequestEvent", {}, {} })));
@@ -1012,7 +1012,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)()>(&::LiteNetLib::EventBasedNetListener::ClearDeliveryEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cea648;
+  constexpr static std::size_t addrs = 0x5ce9e50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener*>(), { "ClearDeliveryEvent", {}, {} })));
@@ -1025,7 +1025,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)(::LiteNetLib::NetPeer*)>(
     &::LiteNetLib::EventBasedNetListener::LiteNetLib_INetEventListener_OnPeerConnected)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cea650;
+  constexpr static std::size_t addrs = 0x5ce9e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener*>(),
@@ -1039,7 +1039,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)(::LiteNetLib::NetPeer*, ::LiteNetLib::DisconnectInfo)>(
     &::LiteNetLib::EventBasedNetListener::LiteNetLib_INetEventListener_OnPeerDisconnected)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cea66c;
+  constexpr static std::size_t addrs = 0x5ce9e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1055,7 +1055,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)(::System::Net::IPEndPoint*, ::System::Net::Sockets::SocketError)>(
     &::LiteNetLib::EventBasedNetListener::LiteNetLib_INetEventListener_OnNetworkError)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cea688;
+  constexpr static std::size_t addrs = 0x5ce9e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1071,7 +1071,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)(::LiteNetLib::NetPeer*, ::LiteNetLib::NetPacketReader*, ::LiteNetLib::DeliveryMethod)>(
     &::LiteNetLib::EventBasedNetListener::LiteNetLib_INetEventListener_OnNetworkReceive)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cea6a4;
+  constexpr static std::size_t addrs = 0x5ce9eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1088,7 +1088,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)(::System::Net::IPEndPoint*, ::LiteNetLib::NetPacketReader*, ::LiteNetLib::UnconnectedMessageType)>(
     &::LiteNetLib::EventBasedNetListener::LiteNetLib_INetEventListener_OnNetworkReceiveUnconnected)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cea6c0;
+  constexpr static std::size_t addrs = 0x5ce9ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1106,7 +1106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)(::LiteNetLib::NetPeer*, int32_t)>(
     &::LiteNetLib::EventBasedNetListener::LiteNetLib_INetEventListener_OnNetworkLatencyUpdate)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cea6dc;
+  constexpr static std::size_t addrs = 0x5ce9ee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1121,7 +1121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)(::LiteNetLib::ConnectionRequest*)>(
     &::LiteNetLib::EventBasedNetListener::LiteNetLib_INetEventListener_OnConnectionRequest)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cea6f8;
+  constexpr static std::size_t addrs = 0x5ce9f00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1136,7 +1136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)(::LiteNetLib::NetPeer*, ::System::Object*)>(
     &::LiteNetLib::EventBasedNetListener::LiteNetLib_IDeliveryEventListener_OnMessageDelivered)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cea714;
+  constexpr static std::size_t addrs = 0x5ce9f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1150,7 +1150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::EventBasedNetListener::*)()>(&::LiteNetLib::EventBasedNetListener::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cea730;
+  constexpr static std::size_t addrs = 0x5ce9f38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::EventBasedNetListener*>(), { ".ctor", {}, {} })));

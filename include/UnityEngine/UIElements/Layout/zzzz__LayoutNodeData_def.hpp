@@ -124,25 +124,25 @@ public:
 
   __declspec(property(get = get_UsesMeasure, put = set_UsesMeasure)) bool UsesMeasure;
 
-  /// @brief Method get_HasNewLayout, addr 0x71d3f04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_HasNewLayout, addr 0x71d4fe4, size 0xc, virtual false, abstract: false, final false
   inline bool get_HasNewLayout();
 
-  /// @brief Method get_IsDirty, addr 0x71d3e08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsDirty, addr 0x71d4ee8, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsDirty();
 
-  /// @brief Method get_UsesMeasure, addr 0x71d4020, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_UsesMeasure, addr 0x71d5100, size 0xc, virtual false, abstract: false, final false
   inline bool get_UsesMeasure();
 
-  /// @brief Method set_HasNewLayout, addr 0x71d3f94, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_HasNewLayout, addr 0x71d5074, size 0x20, virtual false, abstract: false, final false
   inline void set_HasNewLayout(bool value);
 
-  /// @brief Method set_IsDirty, addr 0x71d3e88, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_IsDirty, addr 0x71d4f68, size 0x10, virtual false, abstract: false, final false
   inline void set_IsDirty(bool value);
 
-  /// @brief Method set_UsesBaseline, addr 0x71d6e10, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_UsesBaseline, addr 0x71d7ef0, size 0x20, virtual false, abstract: false, final false
   inline void set_UsesBaseline(bool value);
 
-  /// @brief Method set_UsesMeasure, addr 0x71d40b0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_UsesMeasure, addr 0x71d5190, size 0x20, virtual false, abstract: false, final false
   inline void set_UsesMeasure(bool value);
 
   // Ctor Parameters []

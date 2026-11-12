@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&::GlobalNamespace::LightBakingPersistentSettingsSO::get_reflectionsCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d37ed8;
+  constexpr static std::size_t addrs = 0x5d37b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightBakingPersistentSettingsSO::*)(int32_t)>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::set_reflectionsCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d37ee0;
+  constexpr static std::size_t addrs = 0x5d37b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::get_colorFromSchemeAlpha)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d37ee8;
+  constexpr static std::size_t addrs = 0x5d37b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightBakingPersistentSettingsSO::*)(float_t)>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::set_colorFromSchemeAlpha)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d37ef0;
+  constexpr static std::size_t addrs = 0x5d37b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Color> (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::get_bakedLightEditorColors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d37ef8;
+  constexpr static std::size_t addrs = 0x5d37b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::BakedLightDataLoader> (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::get_bakedLightDataLoaderPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d37f00;
+  constexpr static std::size_t addrs = 0x5d37b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::BakedReflectionProbe> (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::get_bakedReflectionProbePrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d37f08;
+  constexpr static std::size_t addrs = 0x5d37b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::LightmapLightsWithIds> (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::get_lightmapLightsWithIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d37f10;
+  constexpr static std::size_t addrs = 0x5d37b70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::FakeMirrorObjectsInstaller> (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::get_fakeMirrorObjectsInstallerPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d37f18;
+  constexpr static std::size_t addrs = 0x5d37b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::FakeMirrorSettings> (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::get_fakeMirrorSettingsPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d37f20;
+  constexpr static std::size_t addrs = 0x5d37b80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::get_defaultDepthOnlyWriteMaterialForFakeMirror)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d37f28;
+  constexpr static std::size_t addrs = 0x5d37b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&::GlobalNamespace::LightBakingPersistentSettingsSO::ApplySettings)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5d37f30;
+  constexpr static std::size_t addrs = 0x5d37b90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightBakingPersistentSettingsSO*>(), { "ApplySettings", {}, {} })));
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&::GlobalNamespace::LightBakingPersistentSettingsSO::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5d37fac;
+  constexpr static std::size_t addrs = 0x5d37c0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightBakingPersistentSettingsSO*>(), { ".ctor", {}, {} })));

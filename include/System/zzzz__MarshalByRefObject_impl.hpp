@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::MarshalByRefObject::*)()>(&::System::MarshalByRefObject::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x60e28ec;
+  constexpr static std::size_t addrs = 0x60e2b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::MarshalByRefObject*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::ServerIdentity* (::System::MarshalByRefObject::*)()>(&::System::MarshalByRefObject::get_ObjectIdentity)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x60e9420;
+  constexpr static std::size_t addrs = 0x60e96a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::MarshalByRefObject*>(), { "get_ObjectIdentity", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::MarshalByRefObject::*)(::System::Runtime::Remoting::ServerIdentity*)>(&::System::MarshalByRefObject::set_ObjectIdentity)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x60e9458;
+  constexpr static std::size_t addrs = 0x60e96e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::ObjRef* (::System::MarshalByRefObject::*)(::System::Type*)>(&::System::MarshalByRefObject::CreateObjRef)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x60e9490;
+  constexpr static std::size_t addrs = 0x60e9718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::MarshalByRefObject*>(), { ::i2c::class_of<::System::MarshalByRefObject*>(), 4 }));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::MarshalByRefObject::*)()>(&::System::MarshalByRefObject::InitializeLifetimeService)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x60e94c8;
+  constexpr static std::size_t addrs = 0x60e9750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::MarshalByRefObject*>(), { ::i2c::class_of<::System::MarshalByRefObject*>(), 5 }));

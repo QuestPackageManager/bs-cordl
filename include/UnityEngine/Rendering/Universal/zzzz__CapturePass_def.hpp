@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set_source(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x6cfda9c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfeb7c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -142,10 +142,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::CapturePass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__2_0, addr 0x6cfdaf8, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__2_0, addr 0x6cfebd8, size 0x260, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__2_0(::UnityEngine::Rendering::Universal::CapturePass_UnsafePassData* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* unsafeContext);
 
-  /// @brief Method .ctor, addr 0x6cfdaf4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfebd4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::CapturePass___c* getStaticF___9();
@@ -195,10 +195,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::CapturePass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
-  /// @brief Method RecordRenderGraph, addr 0x6cfd624, size 0x478, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x6cfe704, size 0x478, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method .ctor, addr 0x6cfd584, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfe664, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
 protected:

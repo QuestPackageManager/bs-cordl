@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XComment::*)(::StringW)>(&::System::Xml::Linq::XComment::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6608b60;
+  constexpr static std::size_t addrs = 0x66091b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::XComment*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XComment::*)(::System::Xml::Linq::XComment*)>(&::System::Xml::Linq::XComment::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6608bbc;
+  constexpr static std::size_t addrs = 0x660920c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNodeType (::System::Xml::Linq::XComment::*)()>(&::System::Xml::Linq::XComment::get_NodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6608c18;
+  constexpr static std::size_t addrs = 0x6609268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Linq::XComment*>(), { ::i2c::class_of<::System::Xml::Linq::XComment*>(), 7 }));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Linq::XComment::*)()>(&::System::Xml::Linq::XComment::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6608c20;
+  constexpr static std::size_t addrs = 0x6609270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::XComment*>(), { "get_Value", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XComment::*)(::StringW)>(&::System::Xml::Linq::XComment::set_Value)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6608c28;
+  constexpr static std::size_t addrs = 0x6609278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::XComment*>(), { "set_Value", {}, { ::i2c::type_of<::StringW>() } })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XComment::*)(::System::Xml::XmlWriter*)>(&::System::Xml::Linq::XComment::WriteTo)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6608d28;
+  constexpr static std::size_t addrs = 0x6609378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Linq::XComment*>(), { ::i2c::class_of<::System::Xml::Linq::XComment*>(), 8 }));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Linq::XNode* (::System::Xml::Linq::XComment::*)()>(&::System::Xml::Linq::XComment::CloneNode)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6608d94;
+  constexpr static std::size_t addrs = 0x66093e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

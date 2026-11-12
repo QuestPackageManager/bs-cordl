@@ -79,7 +79,7 @@ public:
 
   static inline ::GlobalNamespace::MaterialPropertyValuesSetter_PropertyValuePairBase* New_ctor();
 
-  /// @brief Method RefreshPropertyId, addr 0x5cc12ac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RefreshPropertyId, addr 0x5cc0a04, size 0x20, virtual false, abstract: false, final false
   inline void RefreshPropertyId();
 
   constexpr int32_t const& __cordl_internal_get__propertyId_k__BackingField() const;
@@ -94,15 +94,15 @@ public:
 
   constexpr void __cordl_internal_set__propertyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5cc12e0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cc0a38, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_propertyId, addr 0x5cc12d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_propertyId, addr 0x5cc0a28, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_propertyId();
 
   /// [CompilerGenerated]
-  /// @brief Method set_propertyId, addr 0x5cc12d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_propertyId, addr 0x5cc0a30, size 0x8, virtual false, abstract: false, final false
   inline void set_propertyId(int32_t value);
 
 protected:
@@ -120,7 +120,7 @@ public:
   MaterialPropertyValuesSetter_PropertyValuePairBase(MaterialPropertyValuesSetter_PropertyValuePairBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20055 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19978 };
 
   /// [SerializeField]
   /// @brief Field _propertyName, offset: 0x10, size: 0x8, def value: None
@@ -158,7 +158,7 @@ public:
 
   constexpr void __cordl_internal_set_value(float_t value);
 
-  /// @brief Method .ctor, addr 0x5cc1300, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cc0a58, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -176,7 +176,7 @@ public:
   MaterialPropertyValuesSetter_PropertyNameFloatValuePair(MaterialPropertyValuesSetter_PropertyNameFloatValuePair const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20056 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19979 };
 
   /// @brief Field value, offset: 0x1c, size: 0x4, def value: None
   float_t ___value;
@@ -207,7 +207,7 @@ public:
 
   constexpr void __cordl_internal_set_value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5cc1320, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cc0a78, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -225,7 +225,7 @@ public:
   MaterialPropertyValuesSetter_PropertyNameIntValuePair(MaterialPropertyValuesSetter_PropertyNameIntValuePair const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20057 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19980 };
 
   /// @brief Field value, offset: 0x1c, size: 0x4, def value: None
   int32_t ___value;
@@ -256,7 +256,7 @@ public:
 
   constexpr void __cordl_internal_set_vector(::UnityEngine::Vector4 value);
 
-  /// @brief Method .ctor, addr 0x5cc1340, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cc0a98, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -274,7 +274,7 @@ public:
   MaterialPropertyValuesSetter_PropertyNameVectorValuePair(MaterialPropertyValuesSetter_PropertyNameVectorValuePair const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20058 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19981 };
 
   /// @brief Field vector, offset: 0x1c, size: 0x10, def value: None
   ::UnityEngine::Vector4 ___vector;
@@ -305,7 +305,7 @@ public:
 
   constexpr void __cordl_internal_set_color(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x5cc1360, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cc0ab8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -323,7 +323,7 @@ public:
   MaterialPropertyValuesSetter_PropertyNameColorValuePair(MaterialPropertyValuesSetter_PropertyNameColorValuePair const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20059 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19982 };
 
   /// @brief Field color, offset: 0x1c, size: 0x10, def value: None
   ::UnityEngine::Color ___color;
@@ -371,18 +371,18 @@ public:
   /// @brief Field _vectors, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__vectors, put = __cordl_internal_set__vectors)) ::ArrayW<::GlobalNamespace::MaterialPropertyValuesSetter_PropertyNameVectorValuePair*> _vectors;
 
-  /// @brief Method ApplyParams, addr 0x5cc1060, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method ApplyParams, addr 0x5cc07b8, size 0x1ac, virtual false, abstract: false, final false
   inline void ApplyParams();
 
   static inline ::GlobalNamespace::MaterialPropertyValuesSetter* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x5cc120c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x5cc0964, size 0xa0, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method RefreshPropertyIds, addr 0x5cc0ef8, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method RefreshPropertyIds, addr 0x5cc0650, size 0x168, virtual false, abstract: false, final false
   inline void RefreshPropertyIds();
 
-  /// @brief Method Start, addr 0x5cc0ee0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5cc0638, size 0x18, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::GlobalNamespace::MaterialPropertyValuesSetter_PropertyNameColorValuePair*> const& __cordl_internal_get__colors() const;
@@ -415,7 +415,7 @@ public:
 
   constexpr void __cordl_internal_set__vectors(::ArrayW<::GlobalNamespace::MaterialPropertyValuesSetter_PropertyNameVectorValuePair*> value);
 
-  /// @brief Method .ctor, addr 0x5cc12cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cc0a24, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -433,7 +433,7 @@ public:
   MaterialPropertyValuesSetter(MaterialPropertyValuesSetter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20060 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19983 };
 
   /// [SerializeField]
   /// @brief Field _materialPropertyBlockController, offset: 0x20, size: 0x8, def value: None

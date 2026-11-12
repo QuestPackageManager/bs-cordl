@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_3<::UnityW<::GlobalNamespace::NoTransitionColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>*)>(
     &::GlobalNamespace::NoTransitionColorHueSlider::add_colorHueDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e81b28;
+  constexpr static std::size_t addrs = 0x5e81da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_3<::UnityW<::GlobalNamespace::NoTransitionColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>*)>(
     &::GlobalNamespace::NoTransitionColorHueSlider::remove_colorHueDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e81be8;
+  constexpr static std::size_t addrs = 0x5e81e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoTransitionColorHueSlider::*)()>(&::GlobalNamespace::NoTransitionColorHueSlider::Awake)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5e81ca8;
+  constexpr static std::size_t addrs = 0x5e81f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoTransitionColorHueSlider::*)()>(&::GlobalNamespace::NoTransitionColorHueSlider::OnDestroy)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5e81d38;
+  constexpr static std::size_t addrs = 0x5e81fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoTransitionColorHueSlider::*)()>(&::GlobalNamespace::NoTransitionColorHueSlider::UpdateVisuals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5e81dbc;
+  constexpr static std::size_t addrs = 0x5e8203c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoTransitionColorHueSlider::*)(::HMUI::CircleSlider*, float_t)>(
     &::GlobalNamespace::NoTransitionColorHueSlider::HandleNormalizedValueDidChange)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5e81e64;
+  constexpr static std::size_t addrs = 0x5e820e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoTransitionColorHueSlider::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::GlobalNamespace::NoTransitionColorHueSlider::OnPointerUp)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5e81e8c;
+  constexpr static std::size_t addrs = 0x5e8210c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoTransitionColorHueSlider::*)()>(&::GlobalNamespace::NoTransitionColorHueSlider::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e81ecc;
+  constexpr static std::size_t addrs = 0x5e8214c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoTransitionColorHueSlider*>(), { ".ctor", {}, {} })));

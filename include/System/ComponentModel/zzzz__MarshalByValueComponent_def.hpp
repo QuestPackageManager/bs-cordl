@@ -65,21 +65,21 @@ public:
   /// @brief Convert operator to "::System::IServiceProvider"
   constexpr operator ::System::IServiceProvider*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6827f0c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x682855c, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6827f7c, size 0x2a4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x68285cc, size 0x2a4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x6827eb4, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6828504, size 0x50, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetService, addr 0x6828220, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method GetService, addr 0x6828870, size 0xc4, virtual true, abstract: false, final false
   inline ::System::Object* GetService(::System::Type* service);
 
   static inline ::System::ComponentModel::MarshalByValueComponent* New_ctor();
 
-  /// @brief Method ToString, addr 0x68282e4, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6828934, size 0x13c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::ComponentModel::EventHandlerList* const& __cordl_internal_get__events() const;
@@ -94,12 +94,12 @@ public:
 
   constexpr void __cordl_internal_set__site(::System::ComponentModel::ISite* value);
 
-  /// @brief Method .ctor, addr 0x6827eb0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6828500, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Object* getStaticF_s_eventDisposed();
 
-  /// @brief Method get_Site, addr 0x6827f04, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Site, addr 0x6828554, size 0x8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::ISite* get_Site();
 
   /// @brief Convert to "::System::ComponentModel::IComponent"

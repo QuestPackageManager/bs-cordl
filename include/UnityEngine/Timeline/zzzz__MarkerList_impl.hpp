@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>* (::UnityEngine::Timeline::MarkerList::*)()>(
     &::UnityEngine::Timeline::MarkerList::get_markers)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e2ace4;
+  constexpr static std::size_t addrs = 0x6e2bdc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::MarkerList>(), { "get_markers", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::MarkerList::*)(int32_t)>(&::UnityEngine::Timeline::MarkerList::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6e235ec;
+  constexpr static std::size_t addrs = 0x6e246cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::MarkerList>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::MarkerList::*)(::UnityEngine::ScriptableObject*)>(&::UnityEngine::Timeline::MarkerList::Add)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6e20198;
+  constexpr static std::size_t addrs = 0x6e21278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::MarkerList::*)(::UnityEngine::Timeline::IMarker*)>(&::UnityEngine::Timeline::MarkerList::Remove)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x6e1f1e4;
+  constexpr static std::size_t addrs = 0x6e202c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::MarkerList::*)(::UnityEngine::ScriptableObject*, ::UnityEngine::Timeline::TimelineAsset*,
                                                                                                      ::UnityEngine::Playables::PlayableAsset*)>(&::UnityEngine::Timeline::MarkerList::Remove)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6e202b8;
+  constexpr static std::size_t addrs = 0x6e21398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::MarkerList::*)()>(&::UnityEngine::Timeline::MarkerList::Clear)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6e20118;
+  constexpr static std::size_t addrs = 0x6e211f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::MarkerList>(), { "Clear", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::MarkerList::*)(::UnityEngine::ScriptableObject*)>(&::UnityEngine::Timeline::MarkerList::Contains)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6e2af9c;
+  constexpr static std::size_t addrs = 0x6e2c07c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::IMarker*>* (::UnityEngine::Timeline::MarkerList::*)()>(
     &::UnityEngine::Timeline::MarkerList::GetMarkers)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e1f3cc;
+  constexpr static std::size_t addrs = 0x6e204ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::MarkerList>(), { "GetMarkers", {}, {} })));
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Timeline::MarkerList::*)()>(&::UnityEngine::Timeline::MarkerList::get_Count)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6e1f3e4;
+  constexpr static std::size_t addrs = 0x6e204c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::MarkerList>(), { "get_Count", {}, {} })));
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::IMarker* (::UnityEngine::Timeline::MarkerList::*)(int32_t)>(&::UnityEngine::Timeline::MarkerList::get_Item)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6e1f444;
+  constexpr static std::size_t addrs = 0x6e20524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::MarkerList>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>* (::UnityEngine::Timeline::MarkerList::*)()>(
     &::UnityEngine::Timeline::MarkerList::GetRawMarkerList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e2b000;
+  constexpr static std::size_t addrs = 0x6e2c0e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::MarkerList>(), { "GetRawMarkerList", {}, {} })));
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::IMarker* (::UnityEngine::Timeline::MarkerList::*)(::System::Type*, double_t, ::UnityEngine::Timeline::TrackAsset*)>(
     &::UnityEngine::Timeline::MarkerList::CreateMarker)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x6e1eee4;
+  constexpr static std::size_t addrs = 0x6e1ffc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::MarkerList::*)()>(&::UnityEngine::Timeline::MarkerList::HasNotifications)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e235d4;
+  constexpr static std::size_t addrs = 0x6e246b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::MarkerList>(), { "HasNotifications", {}, {} })));
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::MarkerList::*)()>(
     &::UnityEngine::Timeline::MarkerList::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e2b008;
+  constexpr static std::size_t addrs = 0x6e2c0e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::MarkerList::*)()>(
     &::UnityEngine::Timeline::MarkerList::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e2b00c;
+  constexpr static std::size_t addrs = 0x6e2c0ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::MarkerList::*)()>(&::UnityEngine::Timeline::MarkerList::BuildCache)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x6e2acfc;
+  constexpr static std::size_t addrs = 0x6e2bddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::MarkerList>(), { "BuildCache", {}, {} })));

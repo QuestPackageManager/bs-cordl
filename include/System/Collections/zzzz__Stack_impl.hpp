@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Stack_StackEnumerator::*)(::System::Collections::Stack*)>(&::System::Collections::Stack_StackEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x603ee2c;
+  constexpr static std::size_t addrs = 0x603f0b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Stack_StackEnumerator::*)()>(&::System::Collections::Stack_StackEnumerator::Clone)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x603f070;
+  constexpr static std::size_t addrs = 0x603f2f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Stack_StackEnumerator*>(), { "Clone", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::Stack_StackEnumerator::*)()>(&::System::Collections::Stack_StackEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x603f074;
+  constexpr static std::size_t addrs = 0x603f2fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Stack_StackEnumerator::*)()>(&::System::Collections::Stack_StackEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x603f154;
+  constexpr static std::size_t addrs = 0x603f3dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Stack_StackEnumerator::*)()>(&::System::Collections::Stack_StackEnumerator::Reset)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x603f1e0;
+  constexpr static std::size_t addrs = 0x603f468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Stack::*)()>(&::System::Collections::Stack::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x603e8c4;
+  constexpr static std::size_t addrs = 0x603eb4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Stack*>(), { ".ctor", {}, {} })));
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Stack::*)(int32_t)>(&::System::Collections::Stack::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x603e918;
+  constexpr static std::size_t addrs = 0x603eba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Stack*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Collections::Stack::*)()>(&::System::Collections::Stack::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x603e9e0;
+  constexpr static std::size_t addrs = 0x603ec68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Stack*>(), { ::i2c::class_of<::System::Collections::Stack*>(), 10 }));
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::Stack::*)()>(&::System::Collections::Stack::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x603e9e8;
+  constexpr static std::size_t addrs = 0x603ec70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Stack*>(), { ::i2c::class_of<::System::Collections::Stack*>(), 11 }));
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Stack::*)()>(&::System::Collections::Stack::get_SyncRoot)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x603e9f0;
+  constexpr static std::size_t addrs = 0x603ec78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Stack*>(), { ::i2c::class_of<::System::Collections::Stack*>(), 12 }));
@@ -233,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Stack::*)()>(&::System::Collections::Stack::Clear)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x603ea5c;
+  constexpr static std::size_t addrs = 0x603ece4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Stack*>(), { ::i2c::class_of<::System::Collections::Stack*>(), 13 }));
@@ -245,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Stack::*)()>(&::System::Collections::Stack::Clone)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x603ea8c;
+  constexpr static std::size_t addrs = 0x603ed14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Stack*>(), { ::i2c::class_of<::System::Collections::Stack*>(), 14 }));
@@ -257,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Stack::*)(::System::Array*, int32_t)>(&::System::Collections::Stack::CopyTo)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x603eb1c;
+  constexpr static std::size_t addrs = 0x603eda4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Stack*>(), { ::i2c::class_of<::System::Collections::Stack*>(), 15 }));
@@ -269,7 +269,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Collections::Stack::*)()>(&::System::Collections::Stack::GetEnumerator)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x603edc4;
+  constexpr static std::size_t addrs = 0x603f04c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Stack*>(), { ::i2c::class_of<::System::Collections::Stack*>(), 16 }));
@@ -281,7 +281,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Stack::*)()>(&::System::Collections::Stack::Peek)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x603ee50;
+  constexpr static std::size_t addrs = 0x603f0d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Stack*>(), { ::i2c::class_of<::System::Collections::Stack*>(), 17 }));
@@ -293,7 +293,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Stack::*)()>(&::System::Collections::Stack::Pop)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x603eed4;
+  constexpr static std::size_t addrs = 0x603f15c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Stack*>(), { ::i2c::class_of<::System::Collections::Stack*>(), 18 }));
@@ -305,7 +305,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Stack::*)(::System::Object*)>(&::System::Collections::Stack::Push)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x603ef68;
+  constexpr static std::size_t addrs = 0x603f1f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Stack*>(), { ::i2c::class_of<::System::Collections::Stack*>(), 19 }));

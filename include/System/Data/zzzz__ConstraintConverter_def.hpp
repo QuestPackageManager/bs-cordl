@@ -31,16 +31,16 @@ namespace System::Data {
 class CORDL_TYPE ConstraintConverter : public ::System::ComponentModel::ExpandableObjectConverter {
 public:
   // Declarations
-  /// @brief Method CanConvertTo, addr 0x6478248, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x6478898, size 0xa4, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertTo, addr 0x64782ec, size 0x964, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x647893c, size 0x964, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
   static inline ::System::Data::ConstraintConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6478244, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6478894, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

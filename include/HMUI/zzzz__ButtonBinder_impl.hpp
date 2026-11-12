@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ButtonBinder::*)()>(&::HMUI::ButtonBinder::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cc453c;
+  constexpr static std::size_t addrs = 0x5cc3c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ButtonBinder*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ButtonBinder::*)(::UnityEngine::UI::Button*, ::System::Action*)>(&::HMUI::ButtonBinder::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5cc45b4;
+  constexpr static std::size_t addrs = 0x5cc3d0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::HMUI::ButtonBinder::*)(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Button>, ::System::Action*>*>*)>(&::HMUI::ButtonBinder::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5cc4744;
+  constexpr static std::size_t addrs = 0x5cc3e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ButtonBinder::*)()>(&::HMUI::ButtonBinder::Init)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5cc4540;
+  constexpr static std::size_t addrs = 0x5cc3c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ButtonBinder*>(), { "Init", {}, {} })));
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ButtonBinder::*)(
     ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Button>, ::System::Action*>*>*)>(&::HMUI::ButtonBinder::AddBindings)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x5cc476c;
+  constexpr static std::size_t addrs = 0x5cc3ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ButtonBinder::*)(::UnityEngine::UI::Button*, ::System::Action*)>(&::HMUI::ButtonBinder::AddBinding)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x5cc45e4;
+  constexpr static std::size_t addrs = 0x5cc3d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ButtonBinder::*)()>(&::HMUI::ButtonBinder::ClearBindings)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x5cc48a8;
+  constexpr static std::size_t addrs = 0x5cc4000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ButtonBinder*>(), { "ClearBindings", {}, {} })));

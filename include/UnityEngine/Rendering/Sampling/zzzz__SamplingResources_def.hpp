@@ -122,10 +122,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Bind, addr 0x6c2eb60, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x6c2fc40, size 0x228, virtual false, abstract: false, final false
   static inline void Bind(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::Sampling::SamplingResources* resources);
 
-  /// @brief Method Dispose, addr 0x6c2ed88, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6c2fe68, size 0x14, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::UnityEngine::Rendering::Sampling::SamplingResources* New_ctor();
@@ -154,7 +154,7 @@ public:
 
   constexpr void __cordl_internal_set_m_SobolScramblingTile(::UnityW<::UnityEngine::Texture2D> value);
 
-  /// @brief Method .ctor, addr 0x6c2ed9c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2fe7c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint32_t> getStaticF_sobolMatrices();

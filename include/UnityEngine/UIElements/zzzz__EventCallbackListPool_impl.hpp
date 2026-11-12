@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventCallbackList* (
     ::UnityEngine::UIElements::EventCallbackListPool::*)(::UnityEngine::UIElements::EventCallbackList*)>(&::UnityEngine::UIElements::EventCallbackListPool::Get)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x7263108;
+  constexpr static std::size_t addrs = 0x72641e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EventCallbackListPool::*)(::UnityEngine::UIElements::EventCallbackList*)>(
     &::UnityEngine::UIElements::EventCallbackListPool::Release)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x726338c;
+  constexpr static std::size_t addrs = 0x726446c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventCallbackListPool*>(),
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EventCallbackListPool::*)()>(&::UnityEngine::UIElements::EventCallbackListPool::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x7263434;
+  constexpr static std::size_t addrs = 0x7264514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventCallbackListPool*>(), { ".ctor", {}, {} })));

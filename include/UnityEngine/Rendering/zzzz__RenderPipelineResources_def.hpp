@@ -26,13 +26,13 @@ public:
 
   static inline ::UnityEngine::Rendering::RenderPipelineResources* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6bfa728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bfb808, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_packagePath, addr 0x6bfa714, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_packagePath, addr 0x6bfb7f4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_packagePath();
 
-  /// @brief Method get_packagePath_Internal, addr 0x6bfa71c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_packagePath_Internal, addr 0x6bfb7fc, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_packagePath_Internal();
 
 protected:

@@ -94,71 +94,71 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Background>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Background>*();
 
-  /// @brief Method Equals, addr 0x72b7828, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x72b8908, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x72b77f4, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x72b88d4, size 0x34, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::Background other);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIToolkitAuthoringModule" })]
-  /// @brief Method FromObject, addr 0x72b7344, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method FromObject, addr 0x72b8424, size 0x24c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Background FromObject(::System::Object* obj);
 
-  /// @brief Method FromRenderTexture, addr 0x72b72a8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method FromRenderTexture, addr 0x72b8388, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Background FromRenderTexture(::UnityEngine::RenderTexture* rt);
 
-  /// @brief Method FromSprite, addr 0x72b72dc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method FromSprite, addr 0x72b83bc, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Background FromSprite(::UnityEngine::Sprite* s);
 
-  /// @brief Method FromTexture2D, addr 0x72b7274, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method FromTexture2D, addr 0x72b8354, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Background FromTexture2D(::UnityEngine::Texture2D* t);
 
-  /// @brief Method FromVectorImage, addr 0x72b7310, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method FromVectorImage, addr 0x72b83f0, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Background FromVectorImage(::UnityEngine::UIElements::VectorImage* vi);
 
-  /// @brief Method GetHashCode, addr 0x72b78bc, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x72b899c, size 0x98, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsEmpty, addr 0x72b7590, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x72b8670, size 0xec, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
-  /// @brief Method ToString, addr 0x72b7954, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x72b8a34, size 0x140, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_renderTexture, addr 0x72b716c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderTexture, addr 0x72b824c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> get_renderTexture();
 
-  /// @brief Method get_sprite, addr 0x72b70e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sprite, addr 0x72b81c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
-  /// @brief Method get_texture, addr 0x72b705c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_texture, addr 0x72b813c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_texture();
 
-  /// @brief Method get_vectorImage, addr 0x72b58c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vectorImage, addr 0x72b69a0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::VectorImage> get_vectorImage();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Background>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Background>* i___System__IEquatable_1___UnityEngine__UIElements__Background_();
 
-  /// @brief Method op_Equality, addr 0x72b767c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x72b875c, size 0x10c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::Background lhs, ::UnityEngine::UIElements::Background rhs);
 
-  /// @brief Method op_Implicit, addr 0x72b77c0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x72b88a0, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Background op_Implicit___UnityEngine__UIElements__Background(::UnityEngine::Texture2D* v);
 
-  /// @brief Method op_Inequality, addr 0x72b7788, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x72b8868, size 0x38, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::Background lhs, ::UnityEngine::UIElements::Background rhs);
 
-  /// @brief Method set_renderTexture, addr 0x72b7174, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_renderTexture, addr 0x72b8254, size 0x80, virtual false, abstract: false, final false
   inline void set_renderTexture(::UnityEngine::RenderTexture* value);
 
-  /// @brief Method set_sprite, addr 0x72b70ec, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_sprite, addr 0x72b81cc, size 0x80, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_texture, addr 0x72b7064, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_texture, addr 0x72b8144, size 0x80, virtual false, abstract: false, final false
   inline void set_texture(::UnityEngine::Texture2D* value);
 
-  /// @brief Method set_vectorImage, addr 0x72b71f4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_vectorImage, addr 0x72b82d4, size 0x80, virtual false, abstract: false, final false
   inline void set_vectorImage(::UnityEngine::UIElements::VectorImage* value);
 
   // Ctor Parameters []
@@ -224,12 +224,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x72b7dec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x72b8ecc, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> GetValue(::by_ref<::UnityEngine::UIElements::Background> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_Background_TextureProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x72b7df4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x72b8ed4, size 0xc, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::Background> container, ::UnityEngine::Texture2D* value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -244,15 +244,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x72b7c4c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72b8d2c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x72b7de4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x72b8ec4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x72b7ddc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x72b8ebc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -309,12 +309,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x72b7e10, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x72b8ef0, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> GetValue(::by_ref<::UnityEngine::UIElements::Background> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_Background_SpriteProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x72b7e18, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x72b8ef8, size 0xc, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::Background> container, ::UnityEngine::Sprite* value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -329,15 +329,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x72b7cb0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72b8d90, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x72b7e08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x72b8ee8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x72b7e00, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x72b8ee0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -394,12 +394,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x72b7e34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x72b8f14, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> GetValue(::by_ref<::UnityEngine::UIElements::Background> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_Background_RenderTextureProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x72b7e3c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x72b8f1c, size 0xc, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::Background> container, ::UnityEngine::RenderTexture* value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -414,15 +414,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x72b7d14, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72b8df4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x72b7e2c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x72b8f0c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x72b7e24, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x72b8f04, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -479,12 +479,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x72b7e58, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x72b8f38, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::VectorImage> GetValue(::by_ref<::UnityEngine::UIElements::Background> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_Background_VectorImageProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x72b7e60, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x72b8f40, size 0xc, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::Background> container, ::UnityEngine::UIElements::VectorImage* value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -499,15 +499,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x72b7d78, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72b8e58, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x72b7e50, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x72b8f30, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x72b7e48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x72b8f28, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -564,7 +564,7 @@ public:
 
   static inline ::UnityEngine::UIElements::Background_PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x72b7a94, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72b8b74, size 0x1b8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

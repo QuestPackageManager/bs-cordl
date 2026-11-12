@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::ArrayW<::System::Object*>)>(&::ModestTree::Log::Debug)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x731878c;
+  constexpr static std::size_t addrs = 0x731aa6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::ArrayW<::System::Object*>)>(&::ModestTree::Log::Info)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x7318790;
+  constexpr static std::size_t addrs = 0x731aa70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::ArrayW<::System::Object*>)>(&::ModestTree::Log::Warn)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x731815c;
+  constexpr static std::size_t addrs = 0x731a43c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::ArrayW<::System::Object*>)>(&::ModestTree::Log::Trace)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x731880c;
+  constexpr static std::size_t addrs = 0x731aaec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Exception*)>(&::ModestTree::Log::ErrorException)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x7318888;
+  constexpr static std::size_t addrs = 0x731ab68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::System::Exception*)>(&::ModestTree::Log::ErrorException)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x73188e4;
+  constexpr static std::size_t addrs = 0x731abc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::ArrayW<::System::Object*>)>(&::ModestTree::Log::Error)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x7318958;
+  constexpr static std::size_t addrs = 0x731ac38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

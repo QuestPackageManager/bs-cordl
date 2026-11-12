@@ -32,40 +32,40 @@ public:
 
   __declspec(property(get = get_supportsImpulse)) bool supportsImpulse;
 
-  /// @brief Method .ctor, addr 0x69f4c5c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69f5d3c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(uint32_t numChannels, uint32_t frequencyHz, uint32_t maxBufferSize);
 
-  /// @brief Method .ctor, addr 0x69f4c44, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69f5d24, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(uint32_t numChannels, bool supportsImpulse, bool supportsBuffer, uint32_t frequencyHz, uint32_t maxBufferSize, uint32_t optimalBufferSize);
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_frequencyHz, addr 0x69f4c88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_frequencyHz, addr 0x69f5d68, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_frequencyHz();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_maxBufferSize, addr 0x69f4c90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxBufferSize, addr 0x69f5d70, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_maxBufferSize();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_numChannels, addr 0x69f4c70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numChannels, addr 0x69f5d50, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_numChannels();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_optimalBufferSize, addr 0x69f4c98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_optimalBufferSize, addr 0x69f5d78, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_optimalBufferSize();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_supportsBuffer, addr 0x69f4c80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportsBuffer, addr 0x69f5d60, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportsBuffer();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_supportsImpulse, addr 0x69f4c78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportsImpulse, addr 0x69f5d58, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportsImpulse();
 
   // Ctor Parameters []

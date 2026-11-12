@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScreenModeController::*)()>(&::HMUI::ScreenModeController::Awake)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x35a09a0;
+  constexpr static std::size_t addrs = 0x35a3b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScreenModeController*>(), { "Awake", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScreenModeController::*)(::HMUI::ScreenModeData*)>(&::HMUI::ScreenModeController::SetMode)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x35a0b10;
+  constexpr static std::size_t addrs = 0x35a3cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScreenModeController::*)()>(&::HMUI::ScreenModeController::SetDefaultMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35a0d3c;
+  constexpr static std::size_t addrs = 0x35a3efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScreenModeController*>(), { "SetDefaultMode", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScreenModeController::*)()>(&::HMUI::ScreenModeController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35a0d44;
+  constexpr static std::size_t addrs = 0x35a3f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScreenModeController*>(), { ".ctor", {}, {} })));

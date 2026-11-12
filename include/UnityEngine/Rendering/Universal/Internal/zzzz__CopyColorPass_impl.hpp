@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyColorPass_PassData::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::CopyColorPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d5e6d8;
+  constexpr static std::size_t addrs = 0x6d5f7b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d5e730;
+  constexpr static std::size_t addrs = 0x6d5f810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c*>(), { ".ctor", {}, {} })));
@@ -151,7 +151,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::Universal::Internal::CopyColorPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c::_AddDownsampleAndCopyColorRenderPass_b__17_0)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6d5e734;
+  constexpr static std::size_t addrs = 0x6d5f814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c*>(),
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyColorPass::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::Internal::CopyColorPass::OnCameraSetup)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d5d5cc;
+  constexpr static std::size_t addrs = 0x6d5e6ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>(),
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyColorPass::*)(
     ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::Internal::CopyColorPass::Execute)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d5d5d0;
+  constexpr static std::size_t addrs = 0x6d5e6b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>(),
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyColorPass::*)(
     ::UnityEngine::Rendering::Universal::RenderPassEvent, ::UnityEngine::Material*, ::UnityEngine::Material*, ::StringW)>(&::UnityEngine::Rendering::Universal::Internal::CopyColorPass::_ctor)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6d5d5d4;
+  constexpr static std::size_t addrs = 0x6d5e6b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::Universal::Downsampling, ::by_ref<::UnityEngine::RenderTextureDescriptor>,
                                                                 ::by_ref<::UnityEngine::FilterMode>)>(&::UnityEngine::Rendering::Universal::Internal::CopyColorPass::ConfigureDescriptor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6d5d6cc;
+  constexpr static std::size_t addrs = 0x6d5e7ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -274,7 +274,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::Universal::RenderTargetHandle, ::UnityEngine::Rendering::Universal::Downsampling)>(
     &::UnityEngine::Rendering::Universal::Internal::CopyColorPass::Setup)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6d5d720;
+  constexpr static std::size_t addrs = 0x6d5e800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -293,7 +293,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                                               ::UnityEngine::Rendering::Universal::Downsampling)>(
     &::UnityEngine::Rendering::Universal::Internal::CopyColorPass::Setup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d5d76c;
+  constexpr static std::size_t addrs = 0x6d5e84c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -311,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::Internal::CopyColorPass_PassData*,
                                                                 ::UnityEngine::Rendering::RTHandle*, bool)>(&::UnityEngine::Rendering::Universal::Internal::CopyColorPass::ExecutePass)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x6d5d774;
+  constexpr static std::size_t addrs = 0x6d5e854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -332,7 +332,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>, ::UnityEngine::Rendering::Universal::Downsampling)>(
     &::UnityEngine::Rendering::Universal::Internal::CopyColorPass::Render)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x6d5db0c;
+  constexpr static std::size_t addrs = 0x6d5ebec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -354,7 +354,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>, ::UnityEngine::Rendering::Universal::Downsampling)>(
     &::UnityEngine::Rendering::Universal::Internal::CopyColorPass::RenderToExistingTexture)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6d5e0b4;
+  constexpr static std::size_t addrs = 0x6d5f194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -375,7 +375,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>,
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>, bool)>(&::UnityEngine::Rendering::Universal::Internal::CopyColorPass::RenderInternal)> {
   constexpr static std::size_t size = 0x3d4;
-  constexpr static std::size_t addrs = 0x6d5dce0;
+  constexpr static std::size_t addrs = 0x6d5edc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -395,7 +395,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>,
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>, bool, ::StringW)>(&::UnityEngine::Rendering::Universal::Internal::CopyColorPass::AddDownsampleAndCopyColorRenderPass)> {
   constexpr static std::size_t size = 0x4e0;
-  constexpr static std::size_t addrs = 0x6d5e168;
+  constexpr static std::size_t addrs = 0x6d5f248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

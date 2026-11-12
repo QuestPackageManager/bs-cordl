@@ -31,12 +31,12 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE GPUDrivenLODGroupDataNativeCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6fc5c58, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6fc6d38, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative const> lodGroupDataNative, ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback* callback);
 
   static inline ::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6fc5bd8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fc6cb8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

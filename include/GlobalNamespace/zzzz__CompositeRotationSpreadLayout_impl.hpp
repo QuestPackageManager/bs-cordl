@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CompositeRotationSpreadLayout::*)(::System::Collections::Generic::IReadOnlyList_1<::UnityW<::UnityEngine::Transform>>*,
                                                                                                                   int32_t, int32_t)>(&::GlobalNamespace::CompositeRotationSpreadLayout::Apply)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5deb47c;
+  constexpr static std::size_t addrs = 0x5deb594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CompositeRotationSpreadLayout::*)()>(&::GlobalNamespace::CompositeRotationSpreadLayout::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5deb480;
+  constexpr static std::size_t addrs = 0x5deb598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CompositeRotationSpreadLayout*>(), { ".ctor", {}, {} })));

@@ -6,7 +6,9 @@
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
+#include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_impl.hpp"
 #include "BGLib/MetaRemoteAssets/zzzz__MetaRemoteAssetsManager_def.hpp"
 #include "AddressablesInternalBridge/Runtime/zzzz__CatalogLocationData_def.hpp"
 #include "BGLib/MetaRemoteAssets/zzzz__IRemoteCatalogLoader_def.hpp"
@@ -36,7 +38,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemote
     ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*, ::StringW, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager_AddResourceLocatorInput::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x35c446c;
+  constexpr static std::size_t addrs = 0x35c7dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,52 +112,52 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::*)()>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35c4a04;
+  constexpr static std::size_t addrs = 0x35c856c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c.__ctor_b__23_0
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c.__ctor_b__24_0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::*)()>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::__ctor_b__23_0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::*)()>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::__ctor_b__24_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35c4a08;
+  constexpr static std::size_t addrs = 0x35c8570;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>(), { "<.ctor>b__23_0", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>(), { "<.ctor>b__24_0", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c._UpdateCatalogsInternalAsync_b__29_0
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c._UpdateCatalogsInternalAsync_b__30_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::*)(::AddressablesInternalBridge::Runtime::CatalogLocationData*)>(
-    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::_UpdateCatalogsInternalAsync_b__29_0)> {
+    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::_UpdateCatalogsInternalAsync_b__30_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x35c4a0c;
+  constexpr static std::size_t addrs = 0x35c8574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>(),
-                                                             { "<UpdateCatalogsInternalAsync>b__29_0", {}, { ::i2c::type_of<::AddressablesInternalBridge::Runtime::CatalogLocationData*>() } })));
+                                                             { "<UpdateCatalogsInternalAsync>b__30_0", {}, { ::i2c::type_of<::AddressablesInternalBridge::Runtime::CatalogLocationData*>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c._UpdateCatalogsInternalAsync_b__29_1
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c._UpdateCatalogsInternalAsync_b__30_1
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>)>(
-    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::_UpdateCatalogsInternalAsync_b__29_1)> {
+    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::_UpdateCatalogsInternalAsync_b__30_1)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x35c4a20;
+  constexpr static std::size_t addrs = 0x35c8588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>(),
-                                                { "<UpdateCatalogsInternalAsync>b__29_1", {}, { ::i2c::type_of<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>() } })));
+                                                { "<UpdateCatalogsInternalAsync>b__30_1", {}, { ::i2c::type_of<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>() } })));
     return ___internal_method;
   }
 };
@@ -166,47 +168,47 @@ inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::setStaticF___9
 inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c* BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*, "<>9", ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>();
 }
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::setStaticF___9__23_0(::System::Action* value) {
-  ::cordl_internals::setStaticField<::System::Action*, "<>9__23_0", ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>(std::forward<::System::Action*>(value));
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::setStaticF___9__24_0(::System::Action* value) {
+  ::cordl_internals::setStaticField<::System::Action*, "<>9__24_0", ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>(std::forward<::System::Action*>(value));
 }
-inline ::System::Action* BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::getStaticF___9__23_0() {
-  return ::cordl_internals::getStaticField<::System::Action*, "<>9__23_0", ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>();
+inline ::System::Action* BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::getStaticF___9__24_0() {
+  return ::cordl_internals::getStaticField<::System::Action*, "<>9__24_0", ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>();
 }
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::setStaticF___9__29_0(::System::Func_2<::AddressablesInternalBridge::Runtime::CatalogLocationData*, ::StringW>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::AddressablesInternalBridge::Runtime::CatalogLocationData*, ::StringW>*, "<>9__29_0", ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>(
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::setStaticF___9__30_0(::System::Func_2<::AddressablesInternalBridge::Runtime::CatalogLocationData*, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::AddressablesInternalBridge::Runtime::CatalogLocationData*, ::StringW>*, "<>9__30_0", ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>(
       std::forward<::System::Func_2<::AddressablesInternalBridge::Runtime::CatalogLocationData*, ::StringW>*>(value));
 }
-inline ::System::Func_2<::AddressablesInternalBridge::Runtime::CatalogLocationData*, ::StringW>* BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::getStaticF___9__29_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::AddressablesInternalBridge::Runtime::CatalogLocationData*, ::StringW>*, "<>9__29_0",
+inline ::System::Func_2<::AddressablesInternalBridge::Runtime::CatalogLocationData*, ::StringW>* BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::getStaticF___9__30_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::AddressablesInternalBridge::Runtime::CatalogLocationData*, ::StringW>*, "<>9__30_0",
                                            ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>();
 }
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::setStaticF___9__29_1(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, bool>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, bool>*, "<>9__29_1",
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::setStaticF___9__30_1(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, bool>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, bool>*, "<>9__30_1",
                                     ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>(
       std::forward<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, bool>*>(value));
 }
-inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, bool>* BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::getStaticF___9__29_1() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, bool>*, "<>9__29_1",
+inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, bool>* BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::getStaticF___9__30_1() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, bool>*, "<>9__30_1",
                                            ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>();
 }
 inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::__ctor_b__23_0() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>(), { "<.ctor>b__23_0", {}, {} })));
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::__ctor_b__24_0() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>(), { "<.ctor>b__24_0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::StringW BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::_UpdateCatalogsInternalAsync_b__29_0(::AddressablesInternalBridge::Runtime::CatalogLocationData* catalogData) {
+inline ::StringW BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::_UpdateCatalogsInternalAsync_b__30_0(::AddressablesInternalBridge::Runtime::CatalogLocationData* catalogData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>(),
-                                                           { "<UpdateCatalogsInternalAsync>b__29_0", {}, { ::i2c::type_of<::AddressablesInternalBridge::Runtime::CatalogLocationData*>() } })));
+                                                           { "<UpdateCatalogsInternalAsync>b__30_0", {}, { ::i2c::type_of<::AddressablesInternalBridge::Runtime::CatalogLocationData*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, catalogData);
 }
-inline bool BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::_UpdateCatalogsInternalAsync_b__29_1(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> entry) {
+inline bool BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::_UpdateCatalogsInternalAsync_b__30_1(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> entry) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>(),
-                                              { "<UpdateCatalogsInternalAsync>b__29_1", {}, { ::i2c::type_of<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>() } })));
+                                              { "<UpdateCatalogsInternalAsync>b__30_1", {}, { ::i2c::type_of<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, entry);
 }
 inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c* BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::New_ctor() {
@@ -214,57 +216,117 @@ inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c* BGLib::MetaRemote
 }
 // Ctor Parameters []
 constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::MetaRemoteAssetsManager___c() {}
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__24.MoveNext
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__24::*)()>(
-    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__24::MoveNext)> {
-  constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x35c4ac4;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38::*)()>(
+    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38::MoveNext)> {
+  constexpr static std::size_t size = 0x40c;
+  constexpr static std::size_t addrs = 0x35c862c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__24>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__24.SetStateMachine
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__24::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__24::SetStateMachine)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35c4d4c;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38::SetStateMachine)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x35c8a38;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__24>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__24::MoveNext() {
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__24>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__24::SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__24>(),
+inline void
+BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38::SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__24::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__24::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38::MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> __u__1) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->__u__1 = __u__1;
+}
+// Ctor Parameters []
+constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38::MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38() {}
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__25.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__25::*)()>(
+    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__25::MoveNext)> {
+  constexpr static std::size_t size = 0x288;
+  constexpr static std::size_t addrs = 0x35c8ab8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__25>(), { "MoveNext", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__25.SetStateMachine
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__25::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__25::SetStateMachine)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x35c8d40;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__25>(),
+                                                                                           { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
+    return ___internal_method;
+  }
+};
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__25::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__25>(), { "MoveNext", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
+}
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__25::SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__25>(),
+                                                                                         { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__25::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__25::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
 // "::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__24::MetaRemoteAssetsManager__Initialize_d__24(int32_t __1__state,
+constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__25::MetaRemoteAssetsManager__Initialize_d__25(int32_t __1__state,
                                                                                                                           ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                                                                           ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* __4__this,
                                                                                                                           ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept {
@@ -274,53 +336,53 @@ constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__24::
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__24::MetaRemoteAssetsManager__Initialize_d__24() {}
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__26.MoveNext
+constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__25::MetaRemoteAssetsManager__Initialize_d__25() {}
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__27.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__26::*)()>(
-    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__26::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__27::*)()>(
+    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__27::MoveNext)> {
   constexpr static std::size_t size = 0x438;
-  constexpr static std::size_t addrs = 0x35c4d54;
+  constexpr static std::size_t addrs = 0x35c8d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__26>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__27>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__26.SetStateMachine
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__27.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__26::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__26::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__27::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__27::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x35c518c;
+  constexpr static std::size_t addrs = 0x35c9180;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__26>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__27>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__26::MoveNext() {
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__27::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__26>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__27>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
 inline void
-BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__26::SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__26>(),
+BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__27::SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__27>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__26::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__27::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__26::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__27::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -328,7 +390,7 @@ BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__26:
 // "::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}"), comment: None
 // }]
-constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__26::MetaRemoteAssetsManager__InitializeInternalAsync_d__26(
+constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__27::MetaRemoteAssetsManager__InitializeInternalAsync_d__27(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* __4__this,
     ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept {
   this->__1__state = __1__state;
@@ -338,59 +400,123 @@ constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternal
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__26::MetaRemoteAssetsManager__InitializeInternalAsync_d__26() {}
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28.MoveNext
+constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__27::MetaRemoteAssetsManager__InitializeInternalAsync_d__27() {}
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28::*)()>(
-    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28::MoveNext)> {
-  constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x35c520c;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37::*)()>(
+    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37::MoveNext)> {
+  constexpr static std::size_t size = 0x414;
+  constexpr static std::size_t addrs = 0x35c9200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28.SetStateMachine
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28::SetStateMachine)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35c53f8;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37::SetStateMachine)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x35c9614;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28::MoveNext() {
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28::SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28>(),
+inline void
+BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37::SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_handle_5__2", ty:
+// "::System::Nullable_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>>", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>", modifiers:
+// "", def_value: Some("{}"), comment: None }]
+constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37::MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
+    ::System::Nullable_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>> _handle_5__2,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> __u__1) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->_handle_5__2 = _handle_5__2;
+  this->__u__1 = __u__1;
+}
+// Ctor Parameters []
+constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37::MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37() {}
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29::*)()>(
+    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29::MoveNext)> {
+  constexpr static std::size_t size = 0x1ec;
+  constexpr static std::size_t addrs = 0x35c9694;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29>(), { "MoveNext", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29.SetStateMachine
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29::SetStateMachine)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x35c9880;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29>(),
+                                                                                           { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
+    return ___internal_method;
+  }
+};
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29>(), { "MoveNext", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
+}
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29::SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29>(),
+                                                                                         { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
 // "::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28(
+constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* __4__this,
     ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
@@ -400,53 +526,53 @@ constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsyn
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28() {}
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29.MoveNext
+constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29() {}
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29::*)()>(
-    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30::*)()>(
+    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30::MoveNext)> {
   constexpr static std::size_t size = 0xc18;
-  constexpr static std::size_t addrs = 0x35c5464;
+  constexpr static std::size_t addrs = 0x35c98ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29.SetStateMachine
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35c607c;
+  constexpr static std::size_t addrs = 0x35ca504;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29::MoveNext() {
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
 inline void
-BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29::SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29>(),
+BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30::SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -456,7 +582,7 @@ BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d_
 // def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: Some("{}"), comment: None },
 // CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*>",
 // modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29(
+constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* __4__this,
     ::System::Threading::CancellationToken cancellationToken, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* _hashesBeforeUpdate_5__2,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1,
@@ -470,73 +596,75 @@ constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInte
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29() {}
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__25.MoveNext
+constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30() {}
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__26.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__25::*)()>(
-    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__25::MoveNext)> {
-  constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x35c60e8;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__26::*)()>(
+    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__26::MoveNext)> {
+  constexpr static std::size_t size = 0x2dc;
+  constexpr static std::size_t addrs = 0x35ca570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__25>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__26>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__25.SetStateMachine
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__26.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__25::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__25::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__26::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__26::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x35c6380;
+  constexpr static std::size_t addrs = 0x35ca84c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__25>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__26>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__25::MoveNext() {
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__26::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__25>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__26>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__25::SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__25>(),
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__26::SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__26>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__25::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__26::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__25::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__26::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
-// "::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__25::MetaRemoteAssetsManager__WaitInitAsync_d__25(
+// "::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_initializationTask_5__2", ty:
+// "::System::Threading::Tasks::Task_1<bool>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>",
+// modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__26::MetaRemoteAssetsManager__WaitInitAsync_d__26(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* __4__this,
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept {
+    ::System::Threading::Tasks::Task_1<bool>* _initializationTask_5__2, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
+  this->_initializationTask_5__2 = _initializationTask_5__2;
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__25::MetaRemoteAssetsManager__WaitInitAsync_d__25() {}
+constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__26::MetaRemoteAssetsManager__WaitInitAsync_d__26() {}
 //  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager.get_RemoteCatalogPath
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::get_RemoteCatalogPath)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x35c33b0;
+  constexpr static std::size_t addrs = 0x35c6d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -549,7 +677,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::SetServerHost)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x35c342c;
+  constexpr static std::size_t addrs = 0x35c6dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -562,7 +690,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::ResetServerHostForNoDomainReload)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35c3580;
+  constexpr static std::size_t addrs = 0x35c6f00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -576,7 +704,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)(::System::Action*)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::add_didCatalogLoadOrUpdateEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x35c35ec;
+  constexpr static std::size_t addrs = 0x35c6f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -591,7 +719,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)(::System::Action*)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::remove_didCatalogLoadOrUpdateEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x35c3698;
+  constexpr static std::size_t addrs = 0x35c7018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(),
@@ -606,7 +734,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemote
     ::GlobalNamespace::INetworkConfig*, ::OculusStudios::Platform::Core::IPlatform*, ::BGLib::MetaRemoteAssets::IRemoteCatalogLoader*,
     ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider*, ::StringW, ::StringW)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::_ctor)> {
   constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x35c3744;
+  constexpr static std::size_t addrs = 0x35c70c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -625,7 +753,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)()>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::Initialize)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x35c3b5c;
+  constexpr static std::size_t addrs = 0x35c74dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(), { "Initialize", {}, {} })));
@@ -637,8 +765,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)()>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::WaitInitAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x35c31a4;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x35c6b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(), { "WaitInitAsync", {}, {} })));
@@ -651,7 +779,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)(::System::Threading::CancellationToken)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::InitializeInternalAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x35c3c00;
+  constexpr static std::size_t addrs = 0x35c7580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(),
@@ -665,7 +793,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::InternalIdTransformFunc)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x35c3cf0;
+  constexpr static std::size_t addrs = 0x35c7670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -680,7 +808,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)(::System::Threading::CancellationToken)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::UpdateCatalogsAsync)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x35c3280;
+  constexpr static std::size_t addrs = 0x35c6c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(),
@@ -694,7 +822,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)(::System::Threading::CancellationToken)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::UpdateCatalogsInternalAsync)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x35c3ea8;
+  constexpr static std::size_t addrs = 0x35c7828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(),
@@ -707,7 +835,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)()>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::Dispose)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35c3f6c;
+  constexpr static std::size_t addrs = 0x35c78ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(), { "Dispose", {}, {} })));
@@ -720,7 +848,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)(::UnityEngine::Networking::UnityWebRequest*)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::WebRequestOverride)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x35c402c;
+  constexpr static std::size_t addrs = 0x35c79ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(),
@@ -735,7 +863,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager_AddResourceLocatorInput* (*)(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*, bool)>(
         &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::CreateAddResourceLocatorInput)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x35c4344;
+  constexpr static std::size_t addrs = 0x35c7cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -749,12 +877,51 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::MakeRemoteCatalogTopPriority)> {
-  constexpr static std::size_t size = 0x4c0;
-  constexpr static std::size_t addrs = 0x35c4478;
+  constexpr static std::size_t size = 0x4e8;
+  constexpr static std::size_t addrs = 0x35c7df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(), { "MakeRemoteCatalogTopPriority", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager.SetCatalogRequestsTimeout
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::SetCatalogRequestsTimeout)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x35c82e0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(), { "SetCatalogRequestsTimeout", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager.TryLoadCachedRemoteCatalogAsync
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (*)()>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::TryLoadCachedRemoteCatalogAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x35c82ec;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(), { "TryLoadCachedRemoteCatalogAsync", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager.DownloadRemoteCatalogAsync
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (*)()>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::DownloadRemoteCatalogAsync)> {
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x35c83c8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(), { "DownloadRemoteCatalogAsync", {}, {} })));
     return ___internal_method;
   }
 };
@@ -763,7 +930,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Networking::UnityWebRequest*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::IsMetaAddressableRequest)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x35c42d4;
+  constexpr static std::size_t addrs = 0x35c7c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(),
@@ -776,7 +943,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::IsMetaAddressableUrl)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x35c3e24;
+  constexpr static std::size_t addrs = 0x35c77a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -789,7 +956,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::GetSecondLevelDomain)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x35c34a0;
+  constexpr static std::size_t addrs = 0x35c6e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1043,6 +1210,21 @@ inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::MakeRemoteCatalogT
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(), { "MakeRemoteCatalogTopPriority", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
+}
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::SetCatalogRequestsTimeout() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(), { "SetCatalogRequestsTimeout", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
+}
+inline ::System::Threading::Tasks::Task_1<bool>* BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::TryLoadCachedRemoteCatalogAsync() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(), { "TryLoadCachedRemoteCatalogAsync", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<bool>*>(nullptr, ___internal_method);
+}
+inline ::System::Threading::Tasks::Task_1<bool>* BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::DownloadRemoteCatalogAsync() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(), { "DownloadRemoteCatalogAsync", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<bool>*>(nullptr, ___internal_method);
 }
 inline bool BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::IsMetaAddressableRequest(::UnityEngine::Networking::UnityWebRequest* request) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(),

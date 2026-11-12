@@ -31,7 +31,7 @@ public:
 
   static inline ::UnityEngine::VFX::Utility::ExposedProperty* New_ctor(::StringW name);
 
-  /// @brief Method ToString, addr 0x6e5c568, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6e5d648, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get_m_Id() const;
@@ -46,22 +46,22 @@ public:
 
   constexpr void __cordl_internal_set_m_Name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6e5c55c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e5d63c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6e5c4b0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e5d590, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method op_Addition, addr 0x6e5c4d4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x6e5d5b4, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::VFX::Utility::ExposedProperty* op_Addition(::UnityEngine::VFX::Utility::ExposedProperty* self, ::UnityEngine::VFX::Utility::ExposedProperty* other);
 
-  /// @brief Method op_Explicit, addr 0x6e5c4c0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x6e5d5a0, size 0x14, virtual false, abstract: false, final false
   static inline ::StringW op_Explicit___StringW(::UnityEngine::VFX::Utility::ExposedProperty* parameter);
 
-  /// @brief Method op_Implicit, addr 0x6e4b2d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6e4c3b8, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::VFX::Utility::ExposedProperty* op_Implicit___UnityEngine__VFX__Utility__ExposedProperty_(::StringW name);
 
-  /// @brief Method op_Implicit, addr 0x6e511e8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6e522c8, size 0x98, virtual false, abstract: false, final false
   static inline int32_t op_Implicit_int32_t(::UnityEngine::VFX::Utility::ExposedProperty* parameter);
 
 protected:
@@ -79,7 +79,7 @@ public:
   ExposedProperty(ExposedProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20296 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20310 };
 
   /// [SerializeField]
   /// @brief Field m_Name, offset: 0x10, size: 0x8, def value: None

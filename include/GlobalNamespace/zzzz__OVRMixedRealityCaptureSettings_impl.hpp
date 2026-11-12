@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_enableMixedReality)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635a978;
+  constexpr static std::size_t addrs = 0x635ac00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(bool)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_enableMixedReality)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635a980;
+  constexpr static std::size_t addrs = 0x635ac08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMixedRealityCaptureSettings*>(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LayerMask (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_extraHiddenLayers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635a988;
+  constexpr static std::size_t addrs = 0x635ac10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(::UnityEngine::LayerMask)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_extraHiddenLayers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635a990;
+  constexpr static std::size_t addrs = 0x635ac18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LayerMask (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_extraVisibleLayers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635a998;
+  constexpr static std::size_t addrs = 0x635ac20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(::UnityEngine::LayerMask)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_extraVisibleLayers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635a9a0;
+  constexpr static std::size_t addrs = 0x635ac28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_dynamicCullingMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635a9a8;
+  constexpr static std::size_t addrs = 0x635ac30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(bool)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_dynamicCullingMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635a9b0;
+  constexpr static std::size_t addrs = 0x635ac38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMixedRealityCaptureSettings*>(),
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRManager_CompositionMethod (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_compositionMethod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635a9b8;
+  constexpr static std::size_t addrs = 0x635ac40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(::GlobalNamespace::OVRManager_CompositionMethod)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_compositionMethod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635a9c0;
+  constexpr static std::size_t addrs = 0x635ac48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_externalCompositionBackdropColorRift)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x635a9c8;
+  constexpr static std::size_t addrs = 0x635ac50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMixedRealityCaptureSettings*>(),
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_externalCompositionBackdropColorRift)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x635a9d4;
+  constexpr static std::size_t addrs = 0x635ac5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_externalCompositionBackdropColorQuest)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x635a9e0;
+  constexpr static std::size_t addrs = 0x635ac68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMixedRealityCaptureSettings*>(),
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_externalCompositionBackdropColorQuest)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x635a9ec;
+  constexpr static std::size_t addrs = 0x635ac74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRManager_CameraDevice (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_capturingCameraDevice)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635a9f8;
+  constexpr static std::size_t addrs = 0x635ac80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(::GlobalNamespace::OVRManager_CameraDevice)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_capturingCameraDevice)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aa00;
+  constexpr static std::size_t addrs = 0x635ac88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_flipCameraFrameHorizontally)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aa08;
+  constexpr static std::size_t addrs = 0x635ac90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -260,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(bool)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_flipCameraFrameHorizontally)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aa10;
+  constexpr static std::size_t addrs = 0x635ac98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMixedRealityCaptureSettings*>(),
@@ -274,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_flipCameraFrameVertically)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aa18;
+  constexpr static std::size_t addrs = 0x635aca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -289,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(bool)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_flipCameraFrameVertically)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aa20;
+  constexpr static std::size_t addrs = 0x635aca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMixedRealityCaptureSettings*>(),
@@ -303,7 +303,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_handPoseStateLatency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aa28;
+  constexpr static std::size_t addrs = 0x635acb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -317,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(float_t)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_handPoseStateLatency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aa30;
+  constexpr static std::size_t addrs = 0x635acb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMixedRealityCaptureSettings*>(),
@@ -331,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_sandwichCompositionRenderLatency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aa38;
+  constexpr static std::size_t addrs = 0x635acc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMixedRealityCaptureSettings*>(),
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(float_t)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_sandwichCompositionRenderLatency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aa40;
+  constexpr static std::size_t addrs = 0x635acc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -360,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_sandwichCompositionBufferedFrames)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aa48;
+  constexpr static std::size_t addrs = 0x635acd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMixedRealityCaptureSettings*>(),
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(int32_t)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_sandwichCompositionBufferedFrames)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aa50;
+  constexpr static std::size_t addrs = 0x635acd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -389,7 +389,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_chromaKeyColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x635aa58;
+  constexpr static std::size_t addrs = 0x635ace0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -403,7 +403,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_chromaKeyColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x635aa64;
+  constexpr static std::size_t addrs = 0x635acec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -418,7 +418,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_chromaKeySimilarity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aa70;
+  constexpr static std::size_t addrs = 0x635acf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -432,7 +432,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(float_t)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_chromaKeySimilarity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aa78;
+  constexpr static std::size_t addrs = 0x635ad00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMixedRealityCaptureSettings*>(),
@@ -446,7 +446,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_chromaKeySmoothRange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aa80;
+  constexpr static std::size_t addrs = 0x635ad08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -460,7 +460,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(float_t)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_chromaKeySmoothRange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aa88;
+  constexpr static std::size_t addrs = 0x635ad10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMixedRealityCaptureSettings*>(),
@@ -474,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_chromaKeySpillRange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aa90;
+  constexpr static std::size_t addrs = 0x635ad18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -488,7 +488,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(float_t)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_chromaKeySpillRange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aa98;
+  constexpr static std::size_t addrs = 0x635ad20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMixedRealityCaptureSettings*>(),
@@ -502,7 +502,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_useDynamicLighting)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aaa0;
+  constexpr static std::size_t addrs = 0x635ad28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -516,7 +516,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(bool)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_useDynamicLighting)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aaa8;
+  constexpr static std::size_t addrs = 0x635ad30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMixedRealityCaptureSettings*>(),
@@ -530,7 +530,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRManager_DepthQuality (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_depthQuality)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aab0;
+  constexpr static std::size_t addrs = 0x635ad38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -544,7 +544,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(::GlobalNamespace::OVRManager_DepthQuality)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_depthQuality)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aab8;
+  constexpr static std::size_t addrs = 0x635ad40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -559,7 +559,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_dynamicLightingSmoothFactor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aac0;
+  constexpr static std::size_t addrs = 0x635ad48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -574,7 +574,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(float_t)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_dynamicLightingSmoothFactor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aac8;
+  constexpr static std::size_t addrs = 0x635ad50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -589,7 +589,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_dynamicLightingDepthVariationClampingValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aad0;
+  constexpr static std::size_t addrs = 0x635ad58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMixedRealityCaptureSettings*>(),
@@ -603,7 +603,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(float_t)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_dynamicLightingDepthVariationClampingValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aad8;
+  constexpr static std::size_t addrs = 0x635ad60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -618,7 +618,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRManager_VirtualGreenScreenType (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aae0;
+  constexpr static std::size_t addrs = 0x635ad68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -632,7 +632,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(::GlobalNamespace::OVRManager_VirtualGreenScreenType)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aae8;
+  constexpr static std::size_t addrs = 0x635ad70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -647,7 +647,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenTopY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aaf0;
+  constexpr static std::size_t addrs = 0x635ad78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -661,7 +661,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(float_t)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenTopY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635aaf8;
+  constexpr static std::size_t addrs = 0x635ad80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMixedRealityCaptureSettings*>(),
@@ -675,7 +675,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenBottomY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635ab00;
+  constexpr static std::size_t addrs = 0x635ad88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -690,7 +690,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(float_t)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenBottomY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635ab08;
+  constexpr static std::size_t addrs = 0x635ad90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -705,7 +705,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenApplyDepthCulling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635ab10;
+  constexpr static std::size_t addrs = 0x635ad98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMixedRealityCaptureSettings*>(),
@@ -719,7 +719,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(bool)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenApplyDepthCulling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635ab18;
+  constexpr static std::size_t addrs = 0x635ada0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -734,7 +734,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenDepthTolerance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635ab20;
+  constexpr static std::size_t addrs = 0x635ada8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMixedRealityCaptureSettings*>(),
@@ -748,7 +748,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(float_t)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenDepthTolerance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635ab28;
+  constexpr static std::size_t addrs = 0x635adb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -763,7 +763,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRManager_MrcActivationMode (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_mrcActivationMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635ab30;
+  constexpr static std::size_t addrs = 0x635adb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -777,7 +777,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(::GlobalNamespace::OVRManager_MrcActivationMode)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_mrcActivationMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635ab38;
+  constexpr static std::size_t addrs = 0x635adc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -792,7 +792,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_instantiateMixedRealityCameraGameObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635ab40;
+  constexpr static std::size_t addrs = 0x635adc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMixedRealityCaptureSettings*>(),
@@ -806,7 +806,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_instantiateMixedRealityCameraGameObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635ab48;
+  constexpr static std::size_t addrs = 0x635add0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMixedRealityCaptureSettings*>(),
@@ -821,7 +821,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(&::GlobalNamespace::OVRMixedRealityCaptureSettings::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x635ab50;
+  constexpr static std::size_t addrs = 0x635add8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMixedRealityCaptureSettings*>(), { ".ctor", {}, {} })));

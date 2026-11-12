@@ -20,7 +20,7 @@ class CORDL_TYPE ClassLibraryInitializer : public ::System::Object {
 public:
   // Declarations
   /// [RequiredByNativeCode]
-  /// @brief Method Init, addr 0x6f73e80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6f74f60, size 0x8, virtual false, abstract: false, final false
   static inline void Init();
 
 protected:

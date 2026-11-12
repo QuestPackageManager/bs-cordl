@@ -53,7 +53,7 @@ public:
 
   __declspec(property(get = get_sunLight)) ::UnityW<::UnityEngine::Light> sunLight;
 
-  /// @brief Method AddGameObject, addr 0x6c69768, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AddGameObject, addr 0x6c6a848, size 0x24, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> AddGameObject(bool persistent);
 
   static inline ::UnityEngine::Rendering::LookDev::StageRuntimeInterface* New_ctor(::System::Func_2<bool, ::UnityW<::UnityEngine::GameObject>>* AddGameObject,
@@ -84,14 +84,14 @@ public:
 
   constexpr void __cordl_internal_set_m_GetSunLight(::System::Func_1<::UnityW<::UnityEngine::Light>>* value);
 
-  /// @brief Method .ctor, addr 0x6c6975c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c6a83c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_2<bool, ::UnityW<::UnityEngine::GameObject>>* AddGameObject, ::System::Func_1<::UnityW<::UnityEngine::Camera>>* GetCamera,
                     ::System::Func_1<::UnityW<::UnityEngine::Light>>* GetSunLight);
 
-  /// @brief Method get_camera, addr 0x6c6978c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_camera, addr 0x6c6a86c, size 0x20, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_camera();
 
-  /// @brief Method get_sunLight, addr 0x6c697ac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_sunLight, addr 0x6c6a88c, size 0x20, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Light> get_sunLight();
 
 protected:

@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::UsedImplicitlyAttribute::*)()>(&::JetBrains::Annotations::UsedImplicitlyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x7316ae4;
+  constexpr static std::size_t addrs = 0x7318dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::UsedImplicitlyAttribute*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::UsedImplicitlyAttribute::*)(::JetBrains::Annotations::ImplicitUseKindFlags)>(
     &::JetBrains::Annotations::UsedImplicitlyAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x7316afc;
+  constexpr static std::size_t addrs = 0x7318ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::UsedImplicitlyAttribute*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::UsedImplicitlyAttribute::*)(::JetBrains::Annotations::ImplicitUseTargetFlags)>(
     &::JetBrains::Annotations::UsedImplicitlyAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x7316b08;
+  constexpr static std::size_t addrs = 0x7318de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::UsedImplicitlyAttribute*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::UsedImplicitlyAttribute::*)(
     ::JetBrains::Annotations::ImplicitUseKindFlags, ::JetBrains::Annotations::ImplicitUseTargetFlags)>(&::JetBrains::Annotations::UsedImplicitlyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7316af4;
+  constexpr static std::size_t addrs = 0x7318dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::JetBrains::Annotations::ImplicitUseKindFlags (::JetBrains::Annotations::UsedImplicitlyAttribute::*)()>(
     &::JetBrains::Annotations::UsedImplicitlyAttribute::get_UseKindFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7316b14;
+  constexpr static std::size_t addrs = 0x7318df4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::UsedImplicitlyAttribute*>(), { "get_UseKindFlags", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::UsedImplicitlyAttribute::*)(::JetBrains::Annotations::ImplicitUseKindFlags)>(
     &::JetBrains::Annotations::UsedImplicitlyAttribute::set_UseKindFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7316b1c;
+  constexpr static std::size_t addrs = 0x7318dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::UsedImplicitlyAttribute*>(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::JetBrains::Annotations::ImplicitUseTargetFlags (::JetBrains::Annotations::UsedImplicitlyAttribute::*)()>(
     &::JetBrains::Annotations::UsedImplicitlyAttribute::get_TargetFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7316b24;
+  constexpr static std::size_t addrs = 0x7318e04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::UsedImplicitlyAttribute*>(), { "get_TargetFlags", {}, {} })));
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::UsedImplicitlyAttribute::*)(::JetBrains::Annotations::ImplicitUseTargetFlags)>(
     &::JetBrains::Annotations::UsedImplicitlyAttribute::set_TargetFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7316b2c;
+  constexpr static std::size_t addrs = 0x7318e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::UsedImplicitlyAttribute*>(),

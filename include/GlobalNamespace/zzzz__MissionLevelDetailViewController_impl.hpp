@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0::*)()>(
     &::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5db3d94;
+  constexpr static std::size_t addrs = 0x5db3e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,8 +36,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0::*)(int32_t, ::GlobalNamespace::ObjectiveListItem*)>(
     &::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0::_RefreshContent_b__0)> {
-  constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x5db3dc4;
+  constexpr static std::size_t size = 0x224;
+  constexpr static std::size_t addrs = 0x5db3ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0::*)(int32_t, ::GlobalNamespace::GameplayModifierInfoListItem*)>(
     &::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass15_0::_RefreshContent_b__1)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5db4054;
+  constexpr static std::size_t addrs = 0x5db40e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>*)>(&::GlobalNamespace::MissionLevelDetailViewController::add_didPressPlayButtonEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5db38b8;
+  constexpr static std::size_t addrs = 0x5db39b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>*)>(&::GlobalNamespace::MissionLevelDetailViewController::remove_didPressPlayButtonEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5db3978;
+  constexpr static std::size_t addrs = 0x5db3a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::MissionNode> (::GlobalNamespace::MissionLevelDetailViewController::*)()>(
     &::GlobalNamespace::MissionLevelDetailViewController::get_missionNode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5db3a38;
+  constexpr static std::size_t addrs = 0x5db3b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelDetailViewController*>(), { "get_missionNode", {}, {} })));
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController::*)(::GlobalNamespace::MissionNode*)>(
     &::GlobalNamespace::MissionLevelDetailViewController::Setup)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5db3a40;
+  constexpr static std::size_t addrs = 0x5db3b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::MissionLevelDetailViewController::DidActivate)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5db3ce4;
+  constexpr static std::size_t addrs = 0x5db3de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelDetailViewController*>(),
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController::*)()>(&::GlobalNamespace::MissionLevelDetailViewController::RefreshContent)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x5db3a6c;
+  constexpr static std::size_t addrs = 0x5db3b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelDetailViewController*>(), { "RefreshContent", {}, {} })));
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController::*)()>(&::GlobalNamespace::MissionLevelDetailViewController::PlayButtonPressed)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5db3d98;
+  constexpr static std::size_t addrs = 0x5db3e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelDetailViewController*>(), { "PlayButtonPressed", {}, {} })));
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelDetailViewController::*)()>(&::GlobalNamespace::MissionLevelDetailViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5db3dc0;
+  constexpr static std::size_t addrs = 0x5db3ebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelDetailViewController*>(), { ".ctor", {}, {} })));

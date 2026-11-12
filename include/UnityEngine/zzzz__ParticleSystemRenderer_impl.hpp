@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::UnityEngine::ParticleSystemVertexStreams)>(
     &::UnityEngine::ParticleSystemRenderer::EnableVertexStreams)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7006fec;
+  constexpr static std::size_t addrs = 0x70080cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::UnityEngine::ParticleSystemVertexStreams)>(
     &::UnityEngine::ParticleSystemRenderer::DisableVertexStreams)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7007bd0;
+  constexpr static std::size_t addrs = 0x7008cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ParticleSystemRenderer::*)(::UnityEngine::ParticleSystemVertexStreams)>(
     &::UnityEngine::ParticleSystemRenderer::AreVertexStreamsEnabled)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x7007bd8;
+  constexpr static std::size_t addrs = 0x7008cb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ParticleSystemVertexStreams (::UnityEngine::ParticleSystemRenderer::*)(::UnityEngine::ParticleSystemVertexStreams)>(
     &::UnityEngine::ParticleSystemRenderer::GetEnabledVertexStreams)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x7007e3c;
+  constexpr static std::size_t addrs = 0x7008f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::UnityEngine::ParticleSystemVertexStreams, bool)>(
     &::UnityEngine::ParticleSystemRenderer::Internal_SetVertexStreams)> {
   constexpr static std::size_t size = 0xbdc;
-  constexpr static std::size_t addrs = 0x7006ff4;
+  constexpr static std::size_t addrs = 0x70080d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ParticleSystemVertexStreams (::UnityEngine::ParticleSystemRenderer::*)(::UnityEngine::ParticleSystemVertexStreams)>(
     &::UnityEngine::ParticleSystemRenderer::Internal_GetEnabledVertexStreams)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x7007bf4;
+  constexpr static std::size_t addrs = 0x7008cd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::UnityEngine::Mesh*, bool)>(&::UnityEngine::ParticleSystemRenderer::BakeMesh)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x70082c0;
+  constexpr static std::size_t addrs = 0x70093a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::UnityEngine::Mesh*, ::UnityEngine::Camera*, bool)>(
     &::UnityEngine::ParticleSystemRenderer::BakeMesh)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x7008300;
+  constexpr static std::size_t addrs = 0x70093e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::UnityEngine::Mesh*, bool)>(&::UnityEngine::ParticleSystemRenderer::BakeTrailsMesh)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x700846c;
+  constexpr static std::size_t addrs = 0x700954c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::UnityEngine::Mesh*, ::UnityEngine::Camera*, bool)>(
     &::UnityEngine::ParticleSystemRenderer::BakeTrailsMesh)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x70084ac;
+  constexpr static std::size_t addrs = 0x700958c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ParticleSystemRenderSpace (::UnityEngine::ParticleSystemRenderer::*)()>(&::UnityEngine::ParticleSystemRenderer::get_alignment)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x7008618;
+  constexpr static std::size_t addrs = 0x70096f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "get_alignment", {}, {} })));
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::UnityEngine::ParticleSystemRenderSpace)>(
     &::UnityEngine::ParticleSystemRenderer::set_alignment)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x70086d4;
+  constexpr static std::size_t addrs = 0x70097b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ParticleSystemRenderMode (::UnityEngine::ParticleSystemRenderer::*)()>(&::UnityEngine::ParticleSystemRenderer::get_renderMode)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x70087a8;
+  constexpr static std::size_t addrs = 0x7009888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "get_renderMode", {}, {} })));
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::UnityEngine::ParticleSystemRenderMode)>(
     &::UnityEngine::ParticleSystemRenderer::set_renderMode)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x7008864;
+  constexpr static std::size_t addrs = 0x7009944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ParticleSystemMeshDistribution (::UnityEngine::ParticleSystemRenderer::*)()>(
     &::UnityEngine::ParticleSystemRenderer::get_meshDistribution)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x7008938;
+  constexpr static std::size_t addrs = 0x7009a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "get_meshDistribution", {}, {} })));
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::UnityEngine::ParticleSystemMeshDistribution)>(
     &::UnityEngine::ParticleSystemRenderer::set_meshDistribution)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x70089f4;
+  constexpr static std::size_t addrs = 0x7009ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(),
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ParticleSystemSortMode (::UnityEngine::ParticleSystemRenderer::*)()>(&::UnityEngine::ParticleSystemRenderer::get_sortMode)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x7008ac8;
+  constexpr static std::size_t addrs = 0x7009ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "get_sortMode", {}, {} })));
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::UnityEngine::ParticleSystemSortMode)>(&::UnityEngine::ParticleSystemRenderer::set_sortMode)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x7008b84;
+  constexpr static std::size_t addrs = 0x7009c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ParticleSystemRenderer::*)()>(&::UnityEngine::ParticleSystemRenderer::get_lengthScale)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x7008c58;
+  constexpr static std::size_t addrs = 0x7009d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "get_lengthScale", {}, {} })));
@@ -297,7 +297,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(float_t)>(&::UnityEngine::ParticleSystemRenderer::set_lengthScale)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x7008d14;
+  constexpr static std::size_t addrs = 0x7009df4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -310,7 +310,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ParticleSystemRenderer::*)()>(&::UnityEngine::ParticleSystemRenderer::get_velocityScale)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x7008df0;
+  constexpr static std::size_t addrs = 0x7009ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "get_velocityScale", {}, {} })));
@@ -322,7 +322,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(float_t)>(&::UnityEngine::ParticleSystemRenderer::set_velocityScale)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x7008eac;
+  constexpr static std::size_t addrs = 0x7009f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -335,7 +335,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ParticleSystemRenderer::*)()>(&::UnityEngine::ParticleSystemRenderer::get_cameraVelocityScale)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x7008f88;
+  constexpr static std::size_t addrs = 0x700a068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "get_cameraVelocityScale", {}, {} })));
@@ -347,7 +347,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(float_t)>(&::UnityEngine::ParticleSystemRenderer::set_cameraVelocityScale)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x7009044;
+  constexpr static std::size_t addrs = 0x700a124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -360,7 +360,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ParticleSystemRenderer::*)()>(&::UnityEngine::ParticleSystemRenderer::get_normalDirection)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x7009120;
+  constexpr static std::size_t addrs = 0x700a200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "get_normalDirection", {}, {} })));
@@ -372,7 +372,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(float_t)>(&::UnityEngine::ParticleSystemRenderer::set_normalDirection)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x70091dc;
+  constexpr static std::size_t addrs = 0x700a2bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -385,7 +385,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ParticleSystemRenderer::*)()>(&::UnityEngine::ParticleSystemRenderer::get_shadowBias)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x70092b8;
+  constexpr static std::size_t addrs = 0x700a398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "get_shadowBias", {}, {} })));
@@ -397,7 +397,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(float_t)>(&::UnityEngine::ParticleSystemRenderer::set_shadowBias)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x7009374;
+  constexpr static std::size_t addrs = 0x700a454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -410,7 +410,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ParticleSystemRenderer::*)()>(&::UnityEngine::ParticleSystemRenderer::get_sortingFudge)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x7009450;
+  constexpr static std::size_t addrs = 0x700a530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "get_sortingFudge", {}, {} })));
@@ -422,7 +422,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(float_t)>(&::UnityEngine::ParticleSystemRenderer::set_sortingFudge)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x700950c;
+  constexpr static std::size_t addrs = 0x700a5ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -435,7 +435,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ParticleSystemRenderer::*)()>(&::UnityEngine::ParticleSystemRenderer::get_minParticleSize)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x70095e8;
+  constexpr static std::size_t addrs = 0x700a6c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "get_minParticleSize", {}, {} })));
@@ -447,7 +447,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(float_t)>(&::UnityEngine::ParticleSystemRenderer::set_minParticleSize)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x70096a4;
+  constexpr static std::size_t addrs = 0x700a784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -460,7 +460,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ParticleSystemRenderer::*)()>(&::UnityEngine::ParticleSystemRenderer::get_maxParticleSize)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x7009780;
+  constexpr static std::size_t addrs = 0x700a860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "get_maxParticleSize", {}, {} })));
@@ -472,7 +472,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(float_t)>(&::UnityEngine::ParticleSystemRenderer::set_maxParticleSize)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x700983c;
+  constexpr static std::size_t addrs = 0x700a91c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -485,7 +485,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ParticleSystemRenderer::*)()>(&::UnityEngine::ParticleSystemRenderer::get_pivot)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x7009918;
+  constexpr static std::size_t addrs = 0x700a9f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "get_pivot", {}, {} })));
@@ -497,7 +497,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::UnityEngine::Vector3)>(&::UnityEngine::ParticleSystemRenderer::set_pivot)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x70099fc;
+  constexpr static std::size_t addrs = 0x700aadc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -510,7 +510,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ParticleSystemRenderer::*)()>(&::UnityEngine::ParticleSystemRenderer::get_flip)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x7009ad8;
+  constexpr static std::size_t addrs = 0x700abb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "get_flip", {}, {} })));
@@ -522,7 +522,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::UnityEngine::Vector3)>(&::UnityEngine::ParticleSystemRenderer::set_flip)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x7009bbc;
+  constexpr static std::size_t addrs = 0x700ac9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -536,7 +536,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::SpriteMaskInteraction (::UnityEngine::ParticleSystemRenderer::*)()>(
     &::UnityEngine::ParticleSystemRenderer::get_maskInteraction)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x7009c98;
+  constexpr static std::size_t addrs = 0x700ad78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "get_maskInteraction", {}, {} })));
@@ -549,7 +549,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::UnityEngine::SpriteMaskInteraction)>(
     &::UnityEngine::ParticleSystemRenderer::set_maskInteraction)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x7009d54;
+  constexpr static std::size_t addrs = 0x700ae34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -562,7 +562,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::UnityEngine::ParticleSystemRenderer::*)()>(&::UnityEngine::ParticleSystemRenderer::get_trailMaterial)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x7009e28;
+  constexpr static std::size_t addrs = 0x700af08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "get_trailMaterial", {}, {} })));
@@ -574,7 +574,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::UnityEngine::Material*)>(&::UnityEngine::ParticleSystemRenderer::set_trailMaterial)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x7009fb4;
+  constexpr static std::size_t addrs = 0x700b094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -587,7 +587,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::UnityEngine::Material*)>(&::UnityEngine::ParticleSystemRenderer::set_oldTrailMaterial)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x700a0b8;
+  constexpr static std::size_t addrs = 0x700b198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -600,7 +600,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ParticleSystemRenderer::*)()>(&::UnityEngine::ParticleSystemRenderer::get_enableGPUInstancing)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x700a1bc;
+  constexpr static std::size_t addrs = 0x700b29c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "get_enableGPUInstancing", {}, {} })));
@@ -612,7 +612,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(bool)>(&::UnityEngine::ParticleSystemRenderer::set_enableGPUInstancing)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x700a278;
+  constexpr static std::size_t addrs = 0x700b358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -625,7 +625,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ParticleSystemRenderer::*)()>(&::UnityEngine::ParticleSystemRenderer::get_allowRoll)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x700a34c;
+  constexpr static std::size_t addrs = 0x700b42c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "get_allowRoll", {}, {} })));
@@ -637,7 +637,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(bool)>(&::UnityEngine::ParticleSystemRenderer::set_allowRoll)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x700a408;
+  constexpr static std::size_t addrs = 0x700b4e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -650,7 +650,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ParticleSystemRenderer::*)()>(&::UnityEngine::ParticleSystemRenderer::get_freeformStretching)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x700a4dc;
+  constexpr static std::size_t addrs = 0x700b5bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "get_freeformStretching", {}, {} })));
@@ -662,7 +662,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(bool)>(&::UnityEngine::ParticleSystemRenderer::set_freeformStretching)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x700a598;
+  constexpr static std::size_t addrs = 0x700b678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -675,7 +675,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ParticleSystemRenderer::*)()>(&::UnityEngine::ParticleSystemRenderer::get_rotateWithStretchDirection)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x700a66c;
+  constexpr static std::size_t addrs = 0x700b74c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "get_rotateWithStretchDirection", {}, {} })));
@@ -687,7 +687,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(bool)>(&::UnityEngine::ParticleSystemRenderer::set_rotateWithStretchDirection)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x700a728;
+  constexpr static std::size_t addrs = 0x700b808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -700,7 +700,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ParticleSystemRenderer::*)()>(&::UnityEngine::ParticleSystemRenderer::get_applyActiveColorSpace)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x700a7fc;
+  constexpr static std::size_t addrs = 0x700b8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "get_applyActiveColorSpace", {}, {} })));
@@ -712,7 +712,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(bool)>(&::UnityEngine::ParticleSystemRenderer::set_applyActiveColorSpace)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x700a8b8;
+  constexpr static std::size_t addrs = 0x700b998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -725,7 +725,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Mesh> (::UnityEngine::ParticleSystemRenderer::*)()>(&::UnityEngine::ParticleSystemRenderer::get_mesh)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x700a98c;
+  constexpr static std::size_t addrs = 0x700ba6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "get_mesh", {}, {} })));
@@ -737,7 +737,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::UnityEngine::Mesh*)>(&::UnityEngine::ParticleSystemRenderer::set_mesh)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x700ab18;
+  constexpr static std::size_t addrs = 0x700bbf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -750,7 +750,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ParticleSystemRenderer::*)(::ArrayW<::UnityEngine::Mesh*>)>(&::UnityEngine::ParticleSystemRenderer::GetMeshes)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x700ac1c;
+  constexpr static std::size_t addrs = 0x700bcfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -763,7 +763,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::ArrayW<::UnityEngine::Mesh*>, int32_t)>(&::UnityEngine::ParticleSystemRenderer::SetMeshes)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x700ad1c;
+  constexpr static std::size_t addrs = 0x700bdfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(),
@@ -776,7 +776,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::ArrayW<::UnityEngine::Mesh*>)>(&::UnityEngine::ParticleSystemRenderer::SetMeshes)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x700ae34;
+  constexpr static std::size_t addrs = 0x700bf14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -789,7 +789,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ParticleSystemRenderer::*)(::ArrayW<float_t>)>(&::UnityEngine::ParticleSystemRenderer::GetMeshWeightings)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x700ae48;
+  constexpr static std::size_t addrs = 0x700bf28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -802,7 +802,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::ArrayW<float_t>, int32_t)>(&::UnityEngine::ParticleSystemRenderer::SetMeshWeightings)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x700b01c;
+  constexpr static std::size_t addrs = 0x700c0fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -816,7 +816,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::ArrayW<float_t>)>(&::UnityEngine::ParticleSystemRenderer::SetMeshWeightings)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x700b198;
+  constexpr static std::size_t addrs = 0x700c278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -829,7 +829,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ParticleSystemRenderer::*)()>(&::UnityEngine::ParticleSystemRenderer::get_meshCount)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x700b1ac;
+  constexpr static std::size_t addrs = 0x700c28c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "get_meshCount", {}, {} })));
@@ -842,7 +842,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::UnityEngine::Mesh*, ::UnityEngine::ParticleSystemBakeMeshOptions)>(
     &::UnityEngine::ParticleSystemRenderer::BakeMesh)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x700b268;
+  constexpr static std::size_t addrs = 0x700c348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -857,7 +857,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::UnityEngine::Mesh*, ::UnityEngine::Camera*, ::UnityEngine::ParticleSystemBakeMeshOptions)>(
     &::UnityEngine::ParticleSystemRenderer::BakeMesh)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x7008314;
+  constexpr static std::size_t addrs = 0x70093f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -873,7 +873,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::UnityEngine::Mesh*, ::UnityEngine::ParticleSystemBakeMeshOptions)>(
     &::UnityEngine::ParticleSystemRenderer::BakeTrailsMesh)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x700b2fc;
+  constexpr static std::size_t addrs = 0x700c3dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -888,7 +888,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::UnityEngine::Mesh*, ::UnityEngine::Camera*, ::UnityEngine::ParticleSystemBakeMeshOptions)>(
     &::UnityEngine::ParticleSystemRenderer::BakeTrailsMesh)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x70084c0;
+  constexpr static std::size_t addrs = 0x70095a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -905,7 +905,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ParticleSystemRenderer::*)(::by_ref<::UnityEngine::Texture2D*>, ::UnityEngine::ParticleSystemBakeTextureOptions)>(
     &::UnityEngine::ParticleSystemRenderer::BakeTexture)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x700b390;
+  constexpr static std::size_t addrs = 0x700c470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -920,7 +920,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ParticleSystemRenderer::*)(
     ::by_ref<::UnityEngine::Texture2D*>, ::UnityEngine::Camera*, ::UnityEngine::ParticleSystemBakeTextureOptions)>(&::UnityEngine::ParticleSystemRenderer::BakeTexture)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x700b3c8;
+  constexpr static std::size_t addrs = 0x700c4a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -938,7 +938,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture2D> (::UnityEngine::ParticleSystemRenderer::*)(
     ::UnityEngine::Texture2D*, ::UnityEngine::Camera*, ::UnityEngine::ParticleSystemBakeTextureOptions, ::by_ref<int32_t>)>(&::UnityEngine::ParticleSystemRenderer::BakeTextureNoIndicesInternal)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x700b474;
+  constexpr static std::size_t addrs = 0x700c554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -956,7 +956,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ParticleSystemRenderer::*)(
     ::by_ref<::UnityEngine::Texture2D*>, ::by_ref<::UnityEngine::Texture2D*>, ::UnityEngine::ParticleSystemBakeTextureOptions)>(&::UnityEngine::ParticleSystemRenderer::BakeTexture)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x700b6dc;
+  constexpr static std::size_t addrs = 0x700c7bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -975,7 +975,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::P
                                                                                                           ::UnityEngine::Camera*, ::UnityEngine::ParticleSystemBakeTextureOptions)>(
     &::UnityEngine::ParticleSystemRenderer::BakeTexture)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x700b740;
+  constexpr static std::size_t addrs = 0x700c820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -994,7 +994,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ParticleSy
     ::UnityEngine::Texture2D*, ::UnityEngine::Texture2D*, ::UnityEngine::Camera*, ::UnityEngine::ParticleSystemBakeTextureOptions, ::by_ref<int32_t>)>(
     &::UnityEngine::ParticleSystemRenderer::BakeTextureInternal)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x700b780;
+  constexpr static std::size_t addrs = 0x700c860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1012,7 +1012,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ParticleSystemRenderer::*)(
     ::by_ref<::UnityEngine::Texture2D*>, ::by_ref<::UnityEngine::Texture2D*>, ::UnityEngine::ParticleSystemBakeTextureOptions)>(&::UnityEngine::ParticleSystemRenderer::BakeTrailsTexture)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x700b978;
+  constexpr static std::size_t addrs = 0x700ca58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1031,7 +1031,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::P
                                                                                                           ::UnityEngine::Camera*, ::UnityEngine::ParticleSystemBakeTextureOptions)>(
     &::UnityEngine::ParticleSystemRenderer::BakeTrailsTexture)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x700b9dc;
+  constexpr static std::size_t addrs = 0x700cabc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1050,7 +1050,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ParticleSy
     ::UnityEngine::Texture2D*, ::UnityEngine::Texture2D*, ::UnityEngine::Camera*, ::UnityEngine::ParticleSystemBakeTextureOptions, ::by_ref<int32_t>)>(
     &::UnityEngine::ParticleSystemRenderer::BakeTrailsTextureInternal)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x700ba1c;
+  constexpr static std::size_t addrs = 0x700cafc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1067,7 +1067,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ParticleSystemRenderer::*)()>(&::UnityEngine::ParticleSystemRenderer::get_activeVertexStreamsCount)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x7007e40;
+  constexpr static std::size_t addrs = 0x7008f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "get_activeVertexStreamsCount", {}, {} })));
@@ -1080,7 +1080,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemVertexStream>*)>(
     &::UnityEngine::ParticleSystemRenderer::SetActiveVertexStreams)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x70080c0;
+  constexpr static std::size_t addrs = 0x70091a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1095,7 +1095,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemVertexStream>*)>(
     &::UnityEngine::ParticleSystemRenderer::GetActiveVertexStreams)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x7007ec0;
+  constexpr static std::size_t addrs = 0x7008fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1109,7 +1109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ParticleSystemRenderer::*)()>(&::UnityEngine::ParticleSystemRenderer::get_activeTrailVertexStreamsCount)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x700bcd8;
+  constexpr static std::size_t addrs = 0x700cdb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1123,7 +1123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemVertexStream>*)>(
     &::UnityEngine::ParticleSystemRenderer::SetActiveTrailVertexStreams)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x700bd94;
+  constexpr static std::size_t addrs = 0x700ce74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1138,7 +1138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)(::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemVertexStream>*)>(
     &::UnityEngine::ParticleSystemRenderer::GetActiveTrailVertexStreams)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x700bfd8;
+  constexpr static std::size_t addrs = 0x700d0b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1152,7 +1152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystemRenderer::*)()>(&::UnityEngine::ParticleSystemRenderer::_ctor)> {
   constexpr static std::size_t size = 0x5f4;
-  constexpr static std::size_t addrs = 0x700c21c;
+  constexpr static std::size_t addrs = 0x700d2fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { ".ctor", {}, {} })));
@@ -1164,7 +1164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ParticleSystemRenderSpace (*)(::System::IntPtr)>(&::UnityEngine::ParticleSystemRenderer::get_alignment_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x7008698;
+  constexpr static std::size_t addrs = 0x7009778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1177,7 +1177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::ParticleSystemRenderSpace)>(&::UnityEngine::ParticleSystemRenderer::set_alignment_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x7008764;
+  constexpr static std::size_t addrs = 0x7009844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1191,7 +1191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ParticleSystemRenderMode (*)(::System::IntPtr)>(&::UnityEngine::ParticleSystemRenderer::get_renderMode_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x7008828;
+  constexpr static std::size_t addrs = 0x7009908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1204,7 +1204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::ParticleSystemRenderMode)>(&::UnityEngine::ParticleSystemRenderer::set_renderMode_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x70088f4;
+  constexpr static std::size_t addrs = 0x70099d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1218,7 +1218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ParticleSystemMeshDistribution (*)(::System::IntPtr)>(&::UnityEngine::ParticleSystemRenderer::get_meshDistribution_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x70089b8;
+  constexpr static std::size_t addrs = 0x7009a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1232,7 +1232,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::ParticleSystemMeshDistribution)>(
     &::UnityEngine::ParticleSystemRenderer::set_meshDistribution_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x7008a84;
+  constexpr static std::size_t addrs = 0x7009b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1246,7 +1246,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ParticleSystemSortMode (*)(::System::IntPtr)>(&::UnityEngine::ParticleSystemRenderer::get_sortMode_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x7008b48;
+  constexpr static std::size_t addrs = 0x7009c28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1259,7 +1259,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::ParticleSystemSortMode)>(&::UnityEngine::ParticleSystemRenderer::set_sortMode_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x7008c14;
+  constexpr static std::size_t addrs = 0x7009cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1273,7 +1273,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::ParticleSystemRenderer::get_lengthScale_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x7008cd8;
+  constexpr static std::size_t addrs = 0x7009db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1286,7 +1286,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::ParticleSystemRenderer::set_lengthScale_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x7008da4;
+  constexpr static std::size_t addrs = 0x7009e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(),
@@ -1299,7 +1299,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::ParticleSystemRenderer::get_velocityScale_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x7008e70;
+  constexpr static std::size_t addrs = 0x7009f50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1312,7 +1312,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::ParticleSystemRenderer::set_velocityScale_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x7008f3c;
+  constexpr static std::size_t addrs = 0x700a01c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(),
@@ -1325,7 +1325,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::ParticleSystemRenderer::get_cameraVelocityScale_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x7009008;
+  constexpr static std::size_t addrs = 0x700a0e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1338,7 +1338,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::ParticleSystemRenderer::set_cameraVelocityScale_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x70090d4;
+  constexpr static std::size_t addrs = 0x700a1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1352,7 +1352,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::ParticleSystemRenderer::get_normalDirection_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x70091a0;
+  constexpr static std::size_t addrs = 0x700a280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1365,7 +1365,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::ParticleSystemRenderer::set_normalDirection_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x700926c;
+  constexpr static std::size_t addrs = 0x700a34c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(),
@@ -1378,7 +1378,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::ParticleSystemRenderer::get_shadowBias_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x7009338;
+  constexpr static std::size_t addrs = 0x700a418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1391,7 +1391,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::ParticleSystemRenderer::set_shadowBias_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x7009404;
+  constexpr static std::size_t addrs = 0x700a4e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(),
@@ -1404,7 +1404,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::ParticleSystemRenderer::get_sortingFudge_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x70094d0;
+  constexpr static std::size_t addrs = 0x700a5b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1417,7 +1417,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::ParticleSystemRenderer::set_sortingFudge_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x700959c;
+  constexpr static std::size_t addrs = 0x700a67c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(),
@@ -1430,7 +1430,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::ParticleSystemRenderer::get_minParticleSize_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x7009668;
+  constexpr static std::size_t addrs = 0x700a748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1443,7 +1443,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::ParticleSystemRenderer::set_minParticleSize_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x7009734;
+  constexpr static std::size_t addrs = 0x700a814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(),
@@ -1456,7 +1456,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::ParticleSystemRenderer::get_maxParticleSize_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x7009800;
+  constexpr static std::size_t addrs = 0x700a8e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1469,7 +1469,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::ParticleSystemRenderer::set_maxParticleSize_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x70098cc;
+  constexpr static std::size_t addrs = 0x700a9ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(),
@@ -1482,7 +1482,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::ParticleSystemRenderer::get_pivot_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x70099b8;
+  constexpr static std::size_t addrs = 0x700aa98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1496,7 +1496,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3 const>)>(&::UnityEngine::ParticleSystemRenderer::set_pivot_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x7009a94;
+  constexpr static std::size_t addrs = 0x700ab74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1510,7 +1510,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::ParticleSystemRenderer::get_flip_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x7009b78;
+  constexpr static std::size_t addrs = 0x700ac58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1524,7 +1524,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3 const>)>(&::UnityEngine::ParticleSystemRenderer::set_flip_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x7009c54;
+  constexpr static std::size_t addrs = 0x700ad34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1538,7 +1538,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::SpriteMaskInteraction (*)(::System::IntPtr)>(&::UnityEngine::ParticleSystemRenderer::get_maskInteraction_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x7009d18;
+  constexpr static std::size_t addrs = 0x700adf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1551,7 +1551,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::SpriteMaskInteraction)>(&::UnityEngine::ParticleSystemRenderer::set_maskInteraction_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x7009de4;
+  constexpr static std::size_t addrs = 0x700aec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1565,7 +1565,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::ParticleSystemRenderer::get_trailMaterial_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x7009f78;
+  constexpr static std::size_t addrs = 0x700b058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1578,7 +1578,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::ParticleSystemRenderer::set_trailMaterial_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x700a074;
+  constexpr static std::size_t addrs = 0x700b154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1592,7 +1592,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::ParticleSystemRenderer::set_oldTrailMaterial_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x700a178;
+  constexpr static std::size_t addrs = 0x700b258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1606,7 +1606,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::ParticleSystemRenderer::get_enableGPUInstancing_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x700a23c;
+  constexpr static std::size_t addrs = 0x700b31c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1619,7 +1619,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::ParticleSystemRenderer::set_enableGPUInstancing_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x700a308;
+  constexpr static std::size_t addrs = 0x700b3e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1633,7 +1633,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::ParticleSystemRenderer::get_allowRoll_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x700a3cc;
+  constexpr static std::size_t addrs = 0x700b4ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1646,7 +1646,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::ParticleSystemRenderer::set_allowRoll_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x700a498;
+  constexpr static std::size_t addrs = 0x700b578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1660,7 +1660,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::ParticleSystemRenderer::get_freeformStretching_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x700a55c;
+  constexpr static std::size_t addrs = 0x700b63c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1673,7 +1673,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::ParticleSystemRenderer::set_freeformStretching_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x700a628;
+  constexpr static std::size_t addrs = 0x700b708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(),
@@ -1686,7 +1686,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::ParticleSystemRenderer::get_rotateWithStretchDirection_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x700a6ec;
+  constexpr static std::size_t addrs = 0x700b7cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1699,7 +1699,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::ParticleSystemRenderer::set_rotateWithStretchDirection_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x700a7b8;
+  constexpr static std::size_t addrs = 0x700b898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1713,7 +1713,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::ParticleSystemRenderer::get_applyActiveColorSpace_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x700a87c;
+  constexpr static std::size_t addrs = 0x700b95c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1726,7 +1726,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::ParticleSystemRenderer::set_applyActiveColorSpace_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x700a948;
+  constexpr static std::size_t addrs = 0x700ba28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1740,7 +1740,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::ParticleSystemRenderer::get_mesh_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x700aadc;
+  constexpr static std::size_t addrs = 0x700bbbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1753,7 +1753,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::ParticleSystemRenderer::set_mesh_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x700abd8;
+  constexpr static std::size_t addrs = 0x700bcb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(),
@@ -1766,7 +1766,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::ArrayW<::UnityEngine::Mesh*>)>(&::UnityEngine::ParticleSystemRenderer::GetMeshes_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x700acd8;
+  constexpr static std::size_t addrs = 0x700bdb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1780,7 +1780,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::ArrayW<::UnityEngine::Mesh*>, int32_t)>(&::UnityEngine::ParticleSystemRenderer::SetMeshes_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x700ade0;
+  constexpr static std::size_t addrs = 0x700bec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1795,7 +1795,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>)>(
     &::UnityEngine::ParticleSystemRenderer::GetMeshWeightings_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x700afd8;
+  constexpr static std::size_t addrs = 0x700c0b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1811,7 +1811,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, int32_t)>(
     &::UnityEngine::ParticleSystemRenderer::SetMeshWeightings_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x700b144;
+  constexpr static std::size_t addrs = 0x700c224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1827,7 +1827,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::ParticleSystemRenderer::get_meshCount_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x700b22c;
+  constexpr static std::size_t addrs = 0x700c30c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1841,7 +1841,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::UnityEngine::ParticleSystemBakeMeshOptions)>(
     &::UnityEngine::ParticleSystemRenderer::BakeMesh_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x700b2a0;
+  constexpr static std::size_t addrs = 0x700c380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1859,7 +1859,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::UnityEngine::ParticleSystemBakeMeshOptions)>(
     &::UnityEngine::ParticleSystemRenderer::BakeTrailsMesh_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x700b334;
+  constexpr static std::size_t addrs = 0x700c414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1877,7 +1877,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::UnityEngine::ParticleSystemBakeTextureOptions, ::by_ref<int32_t>)>(
     &::UnityEngine::ParticleSystemRenderer::BakeTextureNoIndicesInternal_Injected)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x700b670;
+  constexpr static std::size_t addrs = 0x700c750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1896,7 +1896,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
                                                                 ::by_ref<int32_t>, ::by_ref<::UnityEngine::ParticleSystemRenderer_BakeTextureOutput>)>(
     &::UnityEngine::ParticleSystemRenderer::BakeTextureInternal_Injected)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x700b8f4;
+  constexpr static std::size_t addrs = 0x700c9d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1916,7 +1916,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
                                                                 ::by_ref<int32_t>, ::by_ref<::UnityEngine::ParticleSystemRenderer_BakeTextureOutput>)>(
     &::UnityEngine::ParticleSystemRenderer::BakeTrailsTextureInternal_Injected)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x700bb90;
+  constexpr static std::size_t addrs = 0x700cc70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1934,7 +1934,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::ParticleSystemRenderer::get_activeVertexStreamsCount_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x700bc14;
+  constexpr static std::size_t addrs = 0x700ccf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1948,7 +1948,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::BlittableListWrapper>)>(
     &::UnityEngine::ParticleSystemRenderer::SetActiveVertexStreams_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x700bc50;
+  constexpr static std::size_t addrs = 0x700cd30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1964,7 +1964,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::BlittableListWrapper>)>(
     &::UnityEngine::ParticleSystemRenderer::GetActiveVertexStreams_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x700bc94;
+  constexpr static std::size_t addrs = 0x700cd74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1979,7 +1979,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::ParticleSystemRenderer::get_activeTrailVertexStreamsCount_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x700bd58;
+  constexpr static std::size_t addrs = 0x700ce38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1994,7 +1994,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::BlittableListWrapper>)>(
     &::UnityEngine::ParticleSystemRenderer::SetActiveTrailVertexStreams_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x700bf94;
+  constexpr static std::size_t addrs = 0x700d074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2010,7 +2010,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::BlittableListWrapper>)>(
     &::UnityEngine::ParticleSystemRenderer::GetActiveTrailVertexStreams_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x700c1d8;
+  constexpr static std::size_t addrs = 0x700d2b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

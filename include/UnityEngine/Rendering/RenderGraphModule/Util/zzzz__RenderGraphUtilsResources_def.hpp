@@ -120,7 +120,7 @@ public:
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtilsResources* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_version, addr 0x6c55be0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_version, addr 0x6c56cc0, size 0x8, virtual true, abstract: false, final true
   inline int32_t UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_version();
 
   constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_m_CoreCopyPS() const;
@@ -135,10 +135,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtilsResources_Version value);
 
-  /// @brief Method .ctor, addr 0x6c55c60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c56d40, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_coreCopyPS, addr 0x6c55be8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_coreCopyPS, addr 0x6c56cc8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_coreCopyPS();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
@@ -147,7 +147,7 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineResources"
   constexpr ::UnityEngine::Rendering::IRenderPipelineResources* i___UnityEngine__Rendering__IRenderPipelineResources() noexcept;
 
-  /// @brief Method set_coreCopyPS, addr 0x6c55bf0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_coreCopyPS, addr 0x6c56cd0, size 0x70, virtual false, abstract: false, final false
   inline void set_coreCopyPS(::UnityEngine::Shader* value);
 
 protected:

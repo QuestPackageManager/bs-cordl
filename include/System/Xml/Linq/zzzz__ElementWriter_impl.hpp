@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::ElementWriter::*)(::System::Xml::XmlWriter*)>(&::System::Xml::Linq::ElementWriter::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x660d468;
+  constexpr static std::size_t addrs = 0x660dab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::ElementWriter::*)(::System::Xml::Linq::XElement*)>(&::System::Xml::Linq::ElementWriter::WriteElement)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x660d474;
+  constexpr static std::size_t addrs = 0x660dac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Linq::ElementWriter::*)(::System::Xml::Linq::XNamespace*, bool)>(
     &::System::Xml::Linq::ElementWriter::GetPrefixOfNamespace)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x660e908;
+  constexpr static std::size_t addrs = 0x660ef58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::ElementWriter::*)(::System::Xml::Linq::XElement*)>(&::System::Xml::Linq::ElementWriter::PushAncestors)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x660e604;
+  constexpr static std::size_t addrs = 0x660ec54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::ElementWriter::*)(::System::Xml::Linq::XElement*)>(&::System::Xml::Linq::ElementWriter::PushElement)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x660eb70;
+  constexpr static std::size_t addrs = 0x660f1c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::ElementWriter::*)()>(&::System::Xml::Linq::ElementWriter::WriteEndElement)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x660e8b0;
+  constexpr static std::size_t addrs = 0x660ef00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::ElementWriter>(), { "WriteEndElement", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::ElementWriter::*)()>(&::System::Xml::Linq::ElementWriter::WriteFullEndElement)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x660e8dc;
+  constexpr static std::size_t addrs = 0x660ef2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::ElementWriter>(), { "WriteFullEndElement", {}, {} })));
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::ElementWriter::*)(::System::Xml::Linq::XElement*)>(&::System::Xml::Linq::ElementWriter::WriteStartElement)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x660e714;
+  constexpr static std::size_t addrs = 0x660ed64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

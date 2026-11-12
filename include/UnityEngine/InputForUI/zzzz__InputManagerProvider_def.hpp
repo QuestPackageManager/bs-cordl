@@ -141,19 +141,19 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
 
-  /// @brief Method FromState, addr 0x6ffcec4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method FromState, addr 0x6ffdfa4, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator FromState(bool previous, bool down, bool up, bool current);
 
-  /// @brief Method MoveNext, addr 0x6ffcfcc, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6ffe0ac, size 0x34, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x6ffdad8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x6ffebb8, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6ffdae4, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6ffebc4, size 0x2c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method get_Current, addr 0x6ffcee4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x6ffdfc4, size 0x10, virtual false, abstract: false, final false
   inline bool get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -168,7 +168,7 @@ public:
   constexpr InputManagerProvider_ButtonEventsIterator(uint32_t _mask, int32_t _bit) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22558 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22609 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -196,7 +196,7 @@ namespace UnityEngine::InputForUI {
 struct CORDL_TYPE InputManagerProvider_Configuration {
 public:
   // Declarations
-  /// @brief Method GetDefaultConfiguration, addr 0x6ffa770, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultConfiguration, addr 0x6ffb850, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputForUI::InputManagerProvider_Configuration GetDefaultConfiguration();
 
   // Ctor Parameters []
@@ -212,7 +212,7 @@ public:
                                                ::StringW NavigatePreviousButton, float_t InputActionsPerSecond, float_t RepeatDelay) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22559 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22610 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -329,7 +329,7 @@ public:
   InputManagerProvider_IInput(InputManagerProvider_IInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22560 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22611 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -357,51 +357,51 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputForUI::InputManagerProvider_IInput"
   constexpr operator ::UnityEngine::InputForUI::InputManagerProvider_IInput*() noexcept;
 
-  /// @brief Method GetAxisRaw, addr 0x6ffdb5c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetAxisRaw, addr 0x6ffec3c, size 0x8, virtual true, abstract: false, final true
   inline float_t GetAxisRaw(::StringW axis);
 
-  /// @brief Method GetButtonDown, addr 0x6ffdb54, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetButtonDown, addr 0x6ffec34, size 0x8, virtual true, abstract: false, final true
   inline bool GetButtonDown(::StringW button);
 
-  /// @brief Method GetKey, addr 0x6ffdb18, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method GetKey, addr 0x6ffebf8, size 0x3c, virtual true, abstract: false, final true
   inline bool GetKey(::UnityEngine::KeyCode key);
 
-  /// @brief Method GetLastPenContactEvent, addr 0x6ffdb64, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method GetLastPenContactEvent, addr 0x6ffec44, size 0x6c, virtual true, abstract: false, final true
   inline ::UnityEngine::PenData GetLastPenContactEvent();
 
-  /// @brief Method GetMouseButton, addr 0x6ffdc88, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method GetMouseButton, addr 0x6ffed68, size 0x3c, virtual true, abstract: false, final true
   inline bool GetMouseButton(int32_t button);
 
-  /// @brief Method GetMouseButtonDown, addr 0x6ffdcc4, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method GetMouseButtonDown, addr 0x6ffeda4, size 0x3c, virtual true, abstract: false, final true
   inline bool GetMouseButtonDown(int32_t button);
 
-  /// @brief Method GetMouseButtonUp, addr 0x6ffdd00, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method GetMouseButtonUp, addr 0x6ffede0, size 0x3c, virtual true, abstract: false, final true
   inline bool GetMouseButtonUp(int32_t button);
 
-  /// @brief Method GetTouch, addr 0x6ffdc00, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method GetTouch, addr 0x6ffece0, size 0x80, virtual true, abstract: false, final true
   inline ::UnityEngine::Touch GetTouch(int32_t index);
 
   static inline ::UnityEngine::InputForUI::InputManagerProvider_Input* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6ffa85c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ffb93c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_compositionString, addr 0x6ffdb10, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_compositionString, addr 0x6ffebf0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_compositionString();
 
-  /// @brief Method get_mousePosition, addr 0x6ffdd3c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_mousePosition, addr 0x6ffee1c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector3 get_mousePosition();
 
-  /// @brief Method get_mousePresent, addr 0x6ffdc80, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_mousePresent, addr 0x6ffed60, size 0x8, virtual true, abstract: false, final true
   inline bool get_mousePresent();
 
-  /// @brief Method get_mouseScrollDelta, addr 0x6ffdd44, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_mouseScrollDelta, addr 0x6ffee24, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 get_mouseScrollDelta();
 
-  /// @brief Method get_touchCount, addr 0x6ffdbd8, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_touchCount, addr 0x6ffecb8, size 0x28, virtual true, abstract: false, final true
   inline int32_t get_touchCount();
 
-  /// @brief Method get_touchSupported, addr 0x6ffdbd0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_touchSupported, addr 0x6ffecb0, size 0x8, virtual true, abstract: false, final true
   inline bool get_touchSupported();
 
   /// @brief Convert to "::UnityEngine::InputForUI::InputManagerProvider_IInput"
@@ -422,7 +422,7 @@ public:
   InputManagerProvider_Input(InputManagerProvider_Input const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22561 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22612 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -447,7 +447,7 @@ public:
   InputManagerProvider_ITime(InputManagerProvider_ITime const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22562 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22613 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -467,10 +467,10 @@ public:
 
   static inline ::UnityEngine::InputForUI::InputManagerProvider_Time* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6ffa860, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ffb940, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_timeAsRational, addr 0x6ffdd4c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_timeAsRational, addr 0x6ffee2c, size 0x8, virtual true, abstract: false, final true
   inline ::Unity::IntegerTime::RationalTime get_timeAsRational();
 
   /// @brief Convert to "::UnityEngine::InputForUI::InputManagerProvider_ITime"
@@ -491,7 +491,7 @@ public:
   InputManagerProvider_Time(InputManagerProvider_Time const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22563 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22614 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -572,90 +572,90 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputForUI::IEventProviderImpl"
   constexpr operator ::UnityEngine::InputForUI::IEventProviderImpl*() noexcept;
 
-  /// @brief Method AzimuthAndAlitutudeToTilt, addr 0x6ffcdb0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method AzimuthAndAlitutudeToTilt, addr 0x6ffde90, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 AzimuthAndAlitutudeToTilt(float_t altitude, float_t azimuth);
 
-  /// @brief Method CheckIfIMEChanged, addr 0x6ffc4a4, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method CheckIfIMEChanged, addr 0x6ffd584, size 0x194, virtual false, abstract: false, final false
   inline void CheckIfIMEChanged(::Unity::IntegerTime::DiscreteTime currentTime);
 
-  /// @brief Method CheckMouseEvents, addr 0x6ffbb18, size 0x64c, virtual false, abstract: false, final false
+  /// @brief Method CheckMouseEvents, addr 0x6ffcbf8, size 0x64c, virtual false, abstract: false, final false
   inline void CheckMouseEvents(::Unity::IntegerTime::DiscreteTime currentTime, bool muted);
 
-  /// @brief Method CheckMouseScroll, addr 0x6ffc164, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method CheckMouseScroll, addr 0x6ffd244, size 0x340, virtual false, abstract: false, final false
   inline void CheckMouseScroll(::Unity::IntegerTime::DiscreteTime currentTime);
 
-  /// @brief Method CheckPenEvent, addr 0x6ffb760, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method CheckPenEvent, addr 0x6ffc840, size 0x3b8, virtual false, abstract: false, final false
   inline bool CheckPenEvent(::Unity::IntegerTime::DiscreteTime currentTime, /* [IsReadOnly] */ ::by_ref<::UnityEngine::PenData const> currentPenData);
 
-  /// @brief Method CheckTouchEvents, addr 0x6ffb1b8, size 0x5a8, virtual false, abstract: false, final false
+  /// @brief Method CheckTouchEvents, addr 0x6ffc298, size 0x5a8, virtual false, abstract: false, final false
   inline bool CheckTouchEvents(::Unity::IntegerTime::DiscreteTime currentTime);
 
-  /// @brief Method DetectPen, addr 0x6ffb0b8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method DetectPen, addr 0x6ffc198, size 0x100, virtual false, abstract: false, final false
   inline void DetectPen();
 
-  /// @brief Method DirectionNavigation, addr 0x6ffc638, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method DirectionNavigation, addr 0x6ffd718, size 0x1d8, virtual false, abstract: false, final false
   inline void DirectionNavigation(::Unity::IntegerTime::DiscreteTime currentTime);
 
-  /// @brief Method GetEventSourceFromPressedKey, addr 0x6ffd140, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetEventSourceFromPressedKey, addr 0x6ffe220, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::InputForUI::EventSource GetEventSourceFromPressedKey();
 
-  /// @brief Method Initialize, addr 0x6ffa9b4, size 0x288, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x6ffba94, size 0x288, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method InputManagerGetAxisRawOrDefault, addr 0x6ffd73c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method InputManagerGetAxisRawOrDefault, addr 0x6ffe81c, size 0x14c, virtual false, abstract: false, final false
   inline float_t InputManagerGetAxisRawOrDefault(::StringW axisName);
 
-  /// @brief Method InputManagerGetButtonDownOrDefault, addr 0x6ffd000, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method InputManagerGetButtonDownOrDefault, addr 0x6ffe0e0, size 0x140, virtual false, abstract: false, final false
   inline bool InputManagerGetButtonDownOrDefault(::StringW axisName);
 
-  /// @brief Method InputManagerJoystickWasPressed, addr 0x6ffd660, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method InputManagerJoystickWasPressed, addr 0x6ffe740, size 0xdc, virtual false, abstract: false, final false
   inline bool InputManagerJoystickWasPressed();
 
-  /// @brief Method InputManagerKeyboardWasPressed, addr 0x6ffd584, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method InputManagerKeyboardWasPressed, addr 0x6ffe664, size 0xdc, virtual false, abstract: false, final false
   inline bool InputManagerKeyboardWasPressed();
 
-  /// @brief Method MultiDisplayBottomLeftToPanelPosition, addr 0x6ffcb48, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method MultiDisplayBottomLeftToPanelPosition, addr 0x6ffdc28, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 MultiDisplayBottomLeftToPanelPosition(::UnityEngine::Vector2 position, ::by_ref<int32_t> targetDisplay);
 
-  /// @brief Method MultiDisplayToLocalScreenPosition, addr 0x6ffd888, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method MultiDisplayToLocalScreenPosition, addr 0x6ffe968, size 0x150, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 MultiDisplayToLocalScreenPosition(::UnityEngine::Vector2 position, ::by_ref<::System::Nullable_1<int32_t>> targetDisplay);
 
   static inline ::UnityEngine::InputForUI::InputManagerProvider* New_ctor();
 
-  /// @brief Method NextPreviousNavigation, addr 0x6ffc9e4, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method NextPreviousNavigation, addr 0x6ffdac4, size 0x164, virtual false, abstract: false, final false
   inline void NextPreviousNavigation(::Unity::IntegerTime::DiscreteTime currentTime);
 
-  /// @brief Method OnFocusChanged, addr 0x6ffd3f8, size 0x18c, virtual true, abstract: false, final true
+  /// @brief Method OnFocusChanged, addr 0x6ffe4d8, size 0x18c, virtual true, abstract: false, final true
   inline void OnFocusChanged(bool focus);
 
-  /// @brief Method PenStatusToButton, addr 0x6ffce28, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method PenStatusToButton, addr 0x6ffdf08, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputForUI::PointerEvent_Button PenStatusToButton(::UnityEngine::PenStatus status);
 
-  /// @brief Method ReadCurrentNavigationMoveVector, addr 0x6ffd174, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ReadCurrentNavigationMoveVector, addr 0x6ffe254, size 0xe0, virtual false, abstract: false, final false
   inline ::System::ValueTuple_2<::UnityEngine::Vector2, bool> ReadCurrentNavigationMoveVector();
 
-  /// @brief Method ScreenBottomLeftToPanelDelta, addr 0x6ffcbbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ScreenBottomLeftToPanelDelta, addr 0x6ffdc9c, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 ScreenBottomLeftToPanelDelta(::UnityEngine::Vector2 delta);
 
-  /// @brief Method ScreenBottomLeftToPanelPosition, addr 0x6ffd9d8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ScreenBottomLeftToPanelPosition, addr 0x6ffeab8, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 ScreenBottomLeftToPanelPosition(::UnityEngine::Vector2 position, int32_t targetDisplay);
 
-  /// @brief Method Shutdown, addr 0x6ffad14, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Shutdown, addr 0x6ffbdf4, size 0x4, virtual true, abstract: false, final true
   inline void Shutdown();
 
-  /// @brief Method SubmitCancelNavigation, addr 0x6ffc810, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method SubmitCancelNavigation, addr 0x6ffd8f0, size 0x1d4, virtual false, abstract: false, final false
   inline void SubmitCancelNavigation(::Unity::IntegerTime::DiscreteTime currentTime);
 
-  /// @brief Method TiltToAltitude, addr 0x6ff6e94, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method TiltToAltitude, addr 0x6ff7f74, size 0x3c, virtual false, abstract: false, final false
   static inline float_t TiltToAltitude(::UnityEngine::Vector2 tilt);
 
-  /// @brief Method TiltToAzimuth, addr 0x6ff6db0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method TiltToAzimuth, addr 0x6ff7e90, size 0xa8, virtual false, abstract: false, final false
   static inline float_t TiltToAzimuth(::UnityEngine::Vector2 tilt);
 
-  /// @brief Method ToIMECompositionEvent, addr 0x6ffd3d4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ToIMECompositionEvent, addr 0x6ffe4b4, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::InputForUI::IMECompositionEvent ToIMECompositionEvent(::Unity::IntegerTime::DiscreteTime currentTime, ::StringW compositionString);
 
-  /// @brief Method Update, addr 0x6ffad18, size 0x3a0, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x6ffbdf8, size 0x3a0, virtual true, abstract: false, final true
   inline void Update();
 
   constexpr ::StringW const& __cordl_internal_get__compositionString() const;
@@ -748,10 +748,10 @@ public:
 
   constexpr void __cordl_internal_set__touchState(::UnityEngine::InputForUI::PointerState value);
 
-  /// @brief Method .ctor, addr 0x6ff8e98, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ff9f78, size 0x154, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get__eventModifiers, addr 0x6ffa758, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get__eventModifiers, addr 0x6ffb838, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::InputForUI::EventModifiers get__eventModifiers();
 
   /// @brief Convert to "::UnityEngine::InputForUI::IEventProviderImpl"
@@ -772,7 +772,7 @@ public:
   InputManagerProvider(InputManagerProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22564 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22615 };
 
   /// @brief Field _inputEventPartialProvider, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::InputForUI::InputEventPartialProvider* ____inputEventPartialProvider;

@@ -41,63 +41,63 @@ public:
   /// [NativeConditional("ENABLE_PROFILER")]
   /// [StaticAccessor("MemoryProfiler", (UnityEngine.Bindings.StaticAccessorType)2)]
   /// [NativeMethod(Name = "GetRegisteredGFXDriverMemory", IsThreadSafe = true)]
-  /// @brief Method GetAllocatedMemoryForGraphicsDriver, addr 0x6f9365c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetAllocatedMemoryForGraphicsDriver, addr 0x6f9473c, size 0x28, virtual false, abstract: false, final false
   static inline int64_t GetAllocatedMemoryForGraphicsDriver();
 
   /// [NativeMethod(Name = "scripting_gc_get_heap_size", IsFreeFunction = true)]
-  /// @brief Method GetMonoHeapSizeLong, addr 0x6f93594, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetMonoHeapSizeLong, addr 0x6f94674, size 0x28, virtual false, abstract: false, final false
   static inline int64_t GetMonoHeapSizeLong();
 
   /// [NativeMethod(Name = "scripting_gc_get_used_size", IsFreeFunction = true)]
-  /// @brief Method GetMonoUsedSizeLong, addr 0x6f935bc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetMonoUsedSizeLong, addr 0x6f9469c, size 0x28, virtual false, abstract: false, final false
   static inline int64_t GetMonoUsedSizeLong();
 
   /// [NativeMethod(Name = "ProfilerBindings::GetRuntimeMemorySizeLong", IsFreeFunction = true)]
-  /// @brief Method GetRuntimeMemorySizeLong, addr 0x6f934c8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeMemorySizeLong, addr 0x6f945a8, size 0x90, virtual false, abstract: false, final false
   static inline int64_t GetRuntimeMemorySizeLong(/* [NotNull] */ ::UnityEngine::Object* o);
 
-  /// @brief Method GetRuntimeMemorySizeLong_Injected, addr 0x6f93558, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeMemorySizeLong_Injected, addr 0x6f94638, size 0x3c, virtual false, abstract: false, final false
   static inline int64_t GetRuntimeMemorySizeLong_Injected(::System::IntPtr o);
 
   /// [StaticAccessor("GetMemoryManager()", (UnityEngine.Bindings.StaticAccessorType)0)]
   /// [NativeMethod(Name = "GetTotalAllocatedMemory")]
   /// [NativeConditional("ENABLE_MEMORY_MANAGER")]
-  /// @brief Method GetTotalAllocatedMemoryLong, addr 0x6f935e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetTotalAllocatedMemoryLong, addr 0x6f946c4, size 0x28, virtual false, abstract: false, final false
   static inline int64_t GetTotalAllocatedMemoryLong();
 
   /// [StaticAccessor("GetMemoryManager()", (UnityEngine.Bindings.StaticAccessorType)0)]
   /// [NativeConditional("ENABLE_MEMORY_MANAGER")]
   /// [NativeMethod(Name = "GetTotalReservedMemory")]
-  /// @brief Method GetTotalReservedMemoryLong, addr 0x6f93634, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetTotalReservedMemoryLong, addr 0x6f94714, size 0x28, virtual false, abstract: false, final false
   static inline int64_t GetTotalReservedMemoryLong();
 
   /// [NativeMethod(Name = "GetTotalUnusedReservedMemory")]
   /// [NativeConditional("ENABLE_MEMORY_MANAGER")]
   /// [StaticAccessor("GetMemoryManager()", (UnityEngine.Bindings.StaticAccessorType)0)]
-  /// @brief Method GetTotalUnusedReservedMemoryLong, addr 0x6f9360c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetTotalUnusedReservedMemoryLong, addr 0x6f946ec, size 0x28, virtual false, abstract: false, final false
   static inline int64_t GetTotalUnusedReservedMemoryLong();
 
   /// [NativeMethod(Name = "profiler_is_enabled", IsFreeFunction = true, IsThreadSafe = true)]
   /// [NativeConditional("ENABLE_PROFILER")]
-  /// @brief Method get_enabled, addr 0x6f93464, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x6f94544, size 0x28, virtual false, abstract: false, final false
   static inline bool get_enabled();
 
   /// [NativeMethod(Name = "ProfilerBindings::SetBinaryLogEnabled", IsFreeFunction = true)]
-  /// @brief Method set_enableBinaryLog, addr 0x6f933ec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_enableBinaryLog, addr 0x6f944cc, size 0x3c, virtual false, abstract: false, final false
   static inline void set_enableBinaryLog(bool value);
 
   /// [NativeMethod(Name = "ProfilerBindings::SetProfilerEnabled", IsFreeFunction = true)]
-  /// @brief Method set_enabled, addr 0x6f9348c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x6f9456c, size 0x3c, virtual false, abstract: false, final false
   static inline void set_enabled(bool value);
 
-  /// @brief Method set_logFile, addr 0x6f9328c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method set_logFile, addr 0x6f9436c, size 0x124, virtual false, abstract: false, final false
   static inline void set_logFile(::StringW value);
 
-  /// @brief Method set_logFile_Injected, addr 0x6f933b0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_logFile_Injected, addr 0x6f94490, size 0x3c, virtual false, abstract: false, final false
   static inline void set_logFile_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> value);
 
   /// [NativeMethod(Name = "ProfilerBindings::SetMaxUsedMemory", IsFreeFunction = true)]
-  /// @brief Method set_maxUsedMemory, addr 0x6f93428, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_maxUsedMemory, addr 0x6f94508, size 0x3c, virtual false, abstract: false, final false
   static inline void set_maxUsedMemory(int32_t value);
 
 protected:

@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::OVRSpaceQuery_Options::*)()>(&::GlobalNamespace::OVRSpaceQuery_Options::get_MaxResults)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6329980;
+  constexpr static std::size_t addrs = 0x6329c08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery_Options>(), { "get_MaxResults", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSpaceQuery_Options::*)(int32_t)>(&::GlobalNamespace::OVRSpaceQuery_Options::set_MaxResults)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6329988;
+  constexpr static std::size_t addrs = 0x6329c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::GlobalNamespace::OVRSpaceQuery_Options::*)()>(&::GlobalNamespace::OVRSpaceQuery_Options::get_Timeout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6329990;
+  constexpr static std::size_t addrs = 0x6329c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery_Options>(), { "get_Timeout", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSpaceQuery_Options::*)(double_t)>(&::GlobalNamespace::OVRSpaceQuery_Options::set_Timeout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6329998;
+  constexpr static std::size_t addrs = 0x6329c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRSpace_StorageLocation (::GlobalNamespace::OVRSpaceQuery_Options::*)()>(
     &::GlobalNamespace::OVRSpaceQuery_Options::get_Location)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63299a0;
+  constexpr static std::size_t addrs = 0x6329c28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery_Options>(), { "get_Location", {}, {} })));
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSpaceQuery_Options::*)(::GlobalNamespace::OVRSpace_StorageLocation)>(
     &::GlobalNamespace::OVRSpaceQuery_Options::set_Location)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63299a8;
+  constexpr static std::size_t addrs = 0x6329c30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_SpaceQueryType (::GlobalNamespace::OVRSpaceQuery_Options::*)()>(
     &::GlobalNamespace::OVRSpaceQuery_Options::get_QueryType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63299b0;
+  constexpr static std::size_t addrs = 0x6329c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery_Options>(), { "get_QueryType", {}, {} })));
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSpaceQuery_Options::*)(::GlobalNamespace::OVRPlugin_SpaceQueryType)>(
     &::GlobalNamespace::OVRSpaceQuery_Options::set_QueryType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63299b8;
+  constexpr static std::size_t addrs = 0x6329c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_SpaceQueryActionType (::GlobalNamespace::OVRSpaceQuery_Options::*)()>(
     &::GlobalNamespace::OVRSpaceQuery_Options::get_ActionType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63299c0;
+  constexpr static std::size_t addrs = 0x6329c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery_Options>(), { "get_ActionType", {}, {} })));
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSpaceQuery_Options::*)(::GlobalNamespace::OVRPlugin_SpaceQueryActionType)>(
     &::GlobalNamespace::OVRSpaceQuery_Options::set_ActionType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63299c8;
+  constexpr static std::size_t addrs = 0x6329c50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery_Options>(),
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_SpaceComponentType (::GlobalNamespace::OVRSpaceQuery_Options::*)()>(
     &::GlobalNamespace::OVRSpaceQuery_Options::get_ComponentFilter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63299d0;
+  constexpr static std::size_t addrs = 0x6329c58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery_Options>(), { "get_ComponentFilter", {}, {} })));
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSpaceQuery_Options::*)(::GlobalNamespace::OVRPlugin_SpaceComponentType)>(
     &::GlobalNamespace::OVRSpaceQuery_Options::set_ComponentFilter)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x63299d8;
+  constexpr static std::size_t addrs = 0x6329c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery_Options>(),
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Guid>* (::GlobalNamespace::OVRSpaceQuery_Options::*)()>(
     &::GlobalNamespace::OVRSpaceQuery_Options::get_UuidFilter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6329ae0;
+  constexpr static std::size_t addrs = 0x6329d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery_Options>(), { "get_UuidFilter", {}, {} })));
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSpaceQuery_Options::*)(::System::Collections::Generic::IEnumerable_1<::System::Guid>*)>(
     &::GlobalNamespace::OVRSpaceQuery_Options::set_UuidFilter)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x6329ae8;
+  constexpr static std::size_t addrs = 0x6329d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::System::Guid> (::GlobalNamespace::OVRSpaceQuery_Options::*)()>(
     &::GlobalNamespace::OVRSpaceQuery_Options::get_GroupFilter)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6329cac;
+  constexpr static std::size_t addrs = 0x6329f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery_Options>(), { "get_GroupFilter", {}, {} })));
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSpaceQuery_Options::*)(::System::Nullable_1<::System::Guid>)>(
     &::GlobalNamespace::OVRSpaceQuery_Options::set_GroupFilter)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6329cc0;
+  constexpr static std::size_t addrs = 0x6329f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_SpaceQueryInfo (::GlobalNamespace::OVRSpaceQuery_Options::*)()>(
     &::GlobalNamespace::OVRSpaceQuery_Options::ToQueryInfo)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x6329d14;
+  constexpr static std::size_t addrs = 0x6329f9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery_Options>(), { "ToQueryInfo", {}, {} })));
@@ -274,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 (::GlobalNamespace::OVRSpaceQuery_Options::*)()>(
     &::GlobalNamespace::OVRSpaceQuery_Options::ToQueryInfo2)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x6329ee0;
+  constexpr static std::size_t addrs = 0x632a168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery_Options>(), { "ToQueryInfo2", {}, {} })));
@@ -286,7 +286,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRSpaceQuery_Options::*)(::by_ref<uint64_t>)>(&::GlobalNamespace::OVRSpaceQuery_Options::TryQuerySpaces)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x632a108;
+  constexpr static std::size_t addrs = 0x632a390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::System::Guid>*, ::GlobalNamespace::OVRPlugin_SpaceComponentType,
                                                                 ::System::Nullable_1<::System::Guid>)>(&::GlobalNamespace::OVRSpaceQuery_Options::ValidateSingleFilter)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6329a1c;
+  constexpr static std::size_t addrs = 0x6329ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -440,7 +440,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<::GlobalNamespace::OVRPlugin_Result, ::StringW> (*)(
     ::System::Collections::Generic::IEnumerable_1<::System::Guid>*, ::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2>)>(&::GlobalNamespace::OVRSpaceQuery::ForAnchors)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6328804;
+  constexpr static std::size_t addrs = 0x6328a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -457,7 +457,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 (*)(::GlobalNamespace::OVREnumerable_1<::System::Guid>)>(
     &::GlobalNamespace::OVRSpaceQuery::ForAnchorsUnchecked)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x6328b34;
+  constexpr static std::size_t addrs = 0x6328dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery*>(),
@@ -471,7 +471,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 (*)(::System::Collections::Generic::IEnumerable_1<::System::Guid>*, ::StringW)>(
     &::GlobalNamespace::OVRSpaceQuery::ForAnchorsThrow)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x6328e14;
+  constexpr static std::size_t addrs = 0x632909c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -486,7 +486,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<::GlobalNamespace::OVRPlugin_Result, ::StringW> (*)(
     ::GlobalNamespace::OVRPlugin_SpaceComponentType, ::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2>)>(&::GlobalNamespace::OVRSpaceQuery::ForComponent)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6328fc4;
+  constexpr static std::size_t addrs = 0x632924c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -502,7 +502,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 (*)(::GlobalNamespace::OVRPlugin_SpaceComponentType)>(
     &::GlobalNamespace::OVRSpaceQuery::ForComponentUnchecked)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x632908c;
+  constexpr static std::size_t addrs = 0x6329314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery*>(),
@@ -516,7 +516,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 (*)(::GlobalNamespace::OVRPlugin_SpaceComponentType, ::StringW)>(
     &::GlobalNamespace::OVRSpaceQuery::ForComponentThrow)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x6329170;
+  constexpr static std::size_t addrs = 0x63293f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -531,7 +531,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<::GlobalNamespace::OVRPlugin_Result, ::StringW> (*)(
     ::System::Guid, ::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2>, ::System::Collections::Generic::IEnumerable_1<::System::Guid>*)>(&::GlobalNamespace::OVRSpaceQuery::ForGroup)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6329318;
+  constexpr static std::size_t addrs = 0x63295a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -549,7 +549,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 (*)(::System::Guid, ::GlobalNamespace::OVREnumerable_1<::System::Guid>)>(
     &::GlobalNamespace::OVRSpaceQuery::ForGroupUnchecked)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x6329468;
+  constexpr static std::size_t addrs = 0x63296f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -564,7 +564,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 (*)(::System::Guid, ::StringW, ::System::Collections::Generic::IEnumerable_1<::System::Guid>*)>(
     &::GlobalNamespace::OVRSpaceQuery::ForGroupThrow)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x63296a0;
+  constexpr static std::size_t addrs = 0x6329928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -581,7 +581,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_SpaceQueryInfo (*)(::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 const>)>(
     &::GlobalNamespace::OVRSpaceQuery::ToV1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6329868;
+  constexpr static std::size_t addrs = 0x6329af0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -596,7 +596,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 (*)(::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo const>)>(
     &::GlobalNamespace::OVRSpaceQuery::ToV2)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x632987c;
+  constexpr static std::size_t addrs = 0x6329b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -611,7 +611,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<::GlobalNamespace::OVRPlugin_Result, ::StringW> (*)(
     ::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2>, ::System::Collections::Generic::IEnumerable_1<::System::Guid>*)>(&::GlobalNamespace::OVRSpaceQuery::AppendAnchors)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x6328894;
+  constexpr static std::size_t addrs = 0x6328b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -628,7 +628,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<::GlobalNamespace::OVRPlugin_Result, ::StringW> (*)(
     ::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2>, ::GlobalNamespace::OVRPlugin_Result, ::by_ref<::StringW const>)>(&::GlobalNamespace::OVRSpaceQuery::PostProcessQuery)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6328d64;
+  constexpr static std::size_t addrs = 0x6328fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

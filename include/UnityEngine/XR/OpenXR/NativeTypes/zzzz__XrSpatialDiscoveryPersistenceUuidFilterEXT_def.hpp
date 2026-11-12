@@ -42,38 +42,38 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e817b0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e82890, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(void* next, uint32_t persistedUuidCount, ::UnityEngine::XR::OpenXR::NativeTypes::XrUuid* persistedUuids);
 
-  /// @brief Method .ctor, addr 0x6e817e8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e828c8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrUuid> persistedUuids);
 
-  /// @brief Method .ctor, addr 0x6e818c4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e829a4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::XR::OpenXR::NativeTypes::XrUuid> persistedUuids);
 
-  /// @brief Method .ctor, addr 0x6e817cc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e828ac, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t persistedUuidCount, ::UnityEngine::XR::OpenXR::NativeTypes::XrUuid* persistedUuids);
 
-  /// @brief Method .ctor, addr 0x6e8185c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e8293c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrUuid> persistedUuids);
 
-  /// @brief Method .ctor, addr 0x6e8194c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e82a2c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::XR::OpenXR::NativeTypes::XrUuid> persistedUuids);
 
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e81798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e82878, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [CompilerGenerated]
-  /// @brief Method get_persistedUuidCount, addr 0x6e817a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_persistedUuidCount, addr 0x6e82880, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_persistedUuidCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_persistedUuids, addr 0x6e817a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_persistedUuids, addr 0x6e82888, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrUuid* get_persistedUuids();
 
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e81790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e82870, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   // Ctor Parameters []
@@ -87,7 +87,7 @@ public:
                                                        uint32_t _persistedUuidCount_k__BackingField, ::UnityEngine::XR::OpenXR::NativeTypes::XrUuid* _persistedUuids_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17614 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17622 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

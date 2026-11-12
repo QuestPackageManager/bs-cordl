@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Zenject::IProviderExtensions::NoDomainReloadInit)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x735fab8;
+  constexpr static std::size_t addrs = 0x7361d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::IProviderExtensions*>(), { "NoDomainReloadInit", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Zenject::IProvider*, ::Zenject::InjectContext*, ::by_ref<::System::Action*>,
                                                                 ::System::Collections::Generic::List_1<::System::Object*>*)>(&::Zenject::IProviderExtensions::GetAllInstancesWithInjectSplit)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x735fb58;
+  constexpr static std::size_t addrs = 0x7361e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Zenject::IProvider*, ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::System::Object*>*)>(
     &::Zenject::IProviderExtensions::GetAllInstances)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x735fc5c;
+  constexpr static std::size_t addrs = 0x7361f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Zenject::IProvider*, ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*,
                                                                 ::System::Collections::Generic::List_1<::System::Object*>*)>(&::Zenject::IProviderExtensions::GetAllInstances)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x735fcd8;
+  constexpr static std::size_t addrs = 0x7361fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::Zenject::IProvider*, ::Zenject::InjectContext*)>(&::Zenject::IProviderExtensions::TryGetInstance)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x735fdd4;
+  constexpr static std::size_t addrs = 0x73620b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::Zenject::IProvider*, ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*)>(
     &::Zenject::IProviderExtensions::TryGetInstance)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x735fe48;
+  constexpr static std::size_t addrs = 0x7362128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::Zenject::IProvider*, ::Zenject::InjectContext*)>(&::Zenject::IProviderExtensions::GetInstance)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x7360058;
+  constexpr static std::size_t addrs = 0x7362338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::Zenject::IProvider*, ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*)>(
     &::Zenject::IProviderExtensions::GetInstance)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x73600cc;
+  constexpr static std::size_t addrs = 0x73623ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

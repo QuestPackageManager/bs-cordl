@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::System::Exception*)>(&::System::Data::ExceptionBuilder::TraceException)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x645e4b4;
+  constexpr static std::size_t addrs = 0x645eb04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Exception*)>(&::System::Data::ExceptionBuilder::TraceExceptionAsReturnValue)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x645e560;
+  constexpr static std::size_t addrs = 0x645ebb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Exception*)>(&::System::Data::ExceptionBuilder::TraceExceptionForCapture)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6459fa8;
+  constexpr static std::size_t addrs = 0x645a5f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Exception*)>(&::System::Data::ExceptionBuilder::TraceExceptionWithoutRethrow)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x645a204;
+  constexpr static std::size_t addrs = 0x645a854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::_Argument)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x645e5b4;
+  constexpr static std::size_t addrs = 0x645ec04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW, ::System::Exception*)>(&::System::Data::ExceptionBuilder::_Argument)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x645e620;
+  constexpr static std::size_t addrs = 0x645ec70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&::System::Data::ExceptionBuilder::_ArgumentNull)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x645e69c;
+  constexpr static std::size_t addrs = 0x645ecec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&::System::Data::ExceptionBuilder::_ArgumentOutOfRange)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x645e718;
+  constexpr static std::size_t addrs = 0x645ed68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::_IndexOutOfRange)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x645e794;
+  constexpr static std::size_t addrs = 0x645ede4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::_InvalidOperation)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x645e800;
+  constexpr static std::size_t addrs = 0x645ee50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::_InvalidEnumArgumentException)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x645e86c;
+  constexpr static std::size_t addrs = 0x645eebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::System::Exception*)>(&::System::Data::ExceptionBuilder::ThrowDataException)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x645e8d8;
+  constexpr static std::size_t addrs = 0x645ef28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::_Data)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x645e928;
+  constexpr static std::size_t addrs = 0x645ef78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "_Data", {}, { ::i2c::type_of<::StringW>() } })));
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::_Constraint)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x645e994;
+  constexpr static std::size_t addrs = 0x645efe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::_InvalidConstraint)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x645ea00;
+  constexpr static std::size_t addrs = 0x645f050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::_DeletedRowInaccessible)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x645ea6c;
+  constexpr static std::size_t addrs = 0x645f0bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::_DuplicateName)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x645ead8;
+  constexpr static std::size_t addrs = 0x645f128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::_InRowChangingEvent)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x645eb44;
+  constexpr static std::size_t addrs = 0x645f194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -256,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::_NoNullAllowed)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x645ebb0;
+  constexpr static std::size_t addrs = 0x645f200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -269,7 +269,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::_ReadOnly)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x645ec1c;
+  constexpr static std::size_t addrs = 0x645f26c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -282,7 +282,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::_RowNotInTable)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x645ec88;
+  constexpr static std::size_t addrs = 0x645f2d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -295,7 +295,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::_VersionNotFound)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x645ecf4;
+  constexpr static std::size_t addrs = 0x645f344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -308,7 +308,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::ArgumentNull)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x64567f8;
+  constexpr static std::size_t addrs = 0x6456e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -321,7 +321,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::ArgumentOutOfRange)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x645ed60;
+  constexpr static std::size_t addrs = 0x645f3b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -334,7 +334,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::BadObjectPropertyAccess)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x645edb8;
+  constexpr static std::size_t addrs = 0x645f408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -347,7 +347,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Type*)>(&::System::Data::ExceptionBuilder::TypeNotAllowed)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x645ee08;
+  constexpr static std::size_t addrs = 0x645f458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -360,7 +360,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::CaseInsensitiveNameConflict)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x645ee78;
+  constexpr static std::size_t addrs = 0x645f4c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -373,7 +373,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::NamespaceNameConflict)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x645eec8;
+  constexpr static std::size_t addrs = 0x645f518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -386,7 +386,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::InvalidOffsetLength)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x645ef18;
+  constexpr static std::size_t addrs = 0x645f568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "InvalidOffsetLength", {}, {} })));
@@ -398,7 +398,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&::System::Data::ExceptionBuilder::ColumnNotInTheTable)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x645ef5c;
+  constexpr static std::size_t addrs = 0x645f5ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -411,7 +411,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ColumnNotInAnyTable)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x645efbc;
+  constexpr static std::size_t addrs = 0x645f60c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "ColumnNotInAnyTable", {}, {} })));
@@ -423,7 +423,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(int32_t)>(&::System::Data::ExceptionBuilder::ColumnOutOfRange)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x645f000;
+  constexpr static std::size_t addrs = 0x645f650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -436,7 +436,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::ColumnOutOfRange)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x645f094;
+  constexpr static std::size_t addrs = 0x645f6e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -449,7 +449,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::CannotAddColumn1)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x645f0e4;
+  constexpr static std::size_t addrs = 0x645f734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -462,7 +462,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::CannotAddColumn2)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x645f134;
+  constexpr static std::size_t addrs = 0x645f784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -475,7 +475,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CannotAddColumn3)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x645bb0c;
+  constexpr static std::size_t addrs = 0x645c15c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "CannotAddColumn3", {}, {} })));
@@ -487,7 +487,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::CannotAddColumn4)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x645bb50;
+  constexpr static std::size_t addrs = 0x645c1a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -500,7 +500,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::CannotAddDuplicate)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x645f184;
+  constexpr static std::size_t addrs = 0x645f7d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -513,7 +513,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::CannotAddDuplicate2)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x645f1d4;
+  constexpr static std::size_t addrs = 0x645f824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -526,7 +526,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::CannotAddDuplicate3)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x645f224;
+  constexpr static std::size_t addrs = 0x645f874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -539,7 +539,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CannotRemoveColumn)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x645f274;
+  constexpr static std::size_t addrs = 0x645f8c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "CannotRemoveColumn", {}, {} })));
@@ -551,7 +551,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CannotRemovePrimaryKey)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x645f2b8;
+  constexpr static std::size_t addrs = 0x645f908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "CannotRemovePrimaryKey", {}, {} })));
@@ -563,7 +563,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::CannotRemoveChildKey)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x645f2fc;
+  constexpr static std::size_t addrs = 0x645f94c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -576,7 +576,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&::System::Data::ExceptionBuilder::CannotRemoveConstraint)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x645f34c;
+  constexpr static std::size_t addrs = 0x645f99c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -589,7 +589,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&::System::Data::ExceptionBuilder::CannotRemoveExpression)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x645f3ac;
+  constexpr static std::size_t addrs = 0x645f9fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -602,7 +602,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::AddPrimaryKeyConstraint)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x645f40c;
+  constexpr static std::size_t addrs = 0x645fa5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "AddPrimaryKeyConstraint", {}, {} })));
@@ -614,7 +614,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::NoConstraintName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x645f450;
+  constexpr static std::size_t addrs = 0x645faa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "NoConstraintName", {}, {} })));
@@ -626,7 +626,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::ConstraintViolation)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x645f494;
+  constexpr static std::size_t addrs = 0x645fae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -639,7 +639,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::ArrayW<::System::Object*>)>(&::System::Data::ExceptionBuilder::KeysToString)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x645f4e4;
+  constexpr static std::size_t addrs = 0x645fb34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -653,7 +653,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::ArrayW<::System::Data::DataColumn*>, ::ArrayW<::System::Object*>)>(
     &::System::Data::ExceptionBuilder::UniqueConstraintViolationText)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x645f604;
+  constexpr static std::size_t addrs = 0x645fc54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -668,7 +668,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::ArrayW<::System::Data::DataColumn*>, ::ArrayW<::System::Object*>)>(
     &::System::Data::ExceptionBuilder::ConstraintViolation)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x645f788;
+  constexpr static std::size_t addrs = 0x645fdd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -682,7 +682,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(int32_t)>(&::System::Data::ExceptionBuilder::ConstraintOutOfRange)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x645f798;
+  constexpr static std::size_t addrs = 0x645fde8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -695,7 +695,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::DuplicateConstraint)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x645f82c;
+  constexpr static std::size_t addrs = 0x645fe7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -708,7 +708,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::DuplicateConstraintName)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x645f87c;
+  constexpr static std::size_t addrs = 0x645fecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -722,7 +722,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Data::UniqueConstraint*, ::System::Data::ForeignKeyConstraint*)>(
     &::System::Data::ExceptionBuilder::NeededForForeignKeyConstraint)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x645f8cc;
+  constexpr static std::size_t addrs = 0x645ff1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -737,7 +737,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::UniqueConstraintViolation)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x645f960;
+  constexpr static std::size_t addrs = 0x645ffb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "UniqueConstraintViolation", {}, {} })));
@@ -749,7 +749,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ConstraintForeignTable)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x645f9a4;
+  constexpr static std::size_t addrs = 0x645fff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "ConstraintForeignTable", {}, {} })));
@@ -761,7 +761,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ConstraintParentValues)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x645f9e8;
+  constexpr static std::size_t addrs = 0x6460038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "ConstraintParentValues", {}, {} })));
@@ -773,7 +773,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Data::DataTable*)>(&::System::Data::ExceptionBuilder::ConstraintAddFailed)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x645fa2c;
+  constexpr static std::size_t addrs = 0x646007c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -786,7 +786,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ConstraintRemoveFailed)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x645fa84;
+  constexpr static std::size_t addrs = 0x64600d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "ConstraintRemoveFailed", {}, {} })));
@@ -798,7 +798,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::FailedCascadeDelete)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x645fac8;
+  constexpr static std::size_t addrs = 0x6460118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -811,7 +811,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::FailedCascadeUpdate)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x645fb18;
+  constexpr static std::size_t addrs = 0x6460168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -824,7 +824,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW, ::StringW, ::StringW)>(&::System::Data::ExceptionBuilder::FailedClearParentTable)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x645fb68;
+  constexpr static std::size_t addrs = 0x64601b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -838,7 +838,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW, ::ArrayW<::System::Object*>)>(&::System::Data::ExceptionBuilder::ForeignKeyViolation)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x645fbd0;
+  constexpr static std::size_t addrs = 0x6460220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -852,7 +852,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Data::ForeignKeyConstraint*)>(&::System::Data::ExceptionBuilder::RemoveParentRow)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x645fc3c;
+  constexpr static std::size_t addrs = 0x646028c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -865,7 +865,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Data::ExceptionBuilder::MaxLengthViolationText)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x645cd80;
+  constexpr static std::size_t addrs = 0x645d3d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -878,7 +878,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Data::ExceptionBuilder::NotAllowDBNullViolationText)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x645cf08;
+  constexpr static std::size_t addrs = 0x645d558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -891,7 +891,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::CantAddConstraintToMultipleNestedTable)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x645fca8;
+  constexpr static std::size_t addrs = 0x64602f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -904,7 +904,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::AutoIncrementAndExpression)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64579f4;
+  constexpr static std::size_t addrs = 0x6458044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "AutoIncrementAndExpression", {}, {} })));
@@ -916,7 +916,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::AutoIncrementAndDefaultValue)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6457a38;
+  constexpr static std::size_t addrs = 0x6458088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "AutoIncrementAndDefaultValue", {}, {} })));
@@ -928,7 +928,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::AutoIncrementSeed)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x645d684;
+  constexpr static std::size_t addrs = 0x645dcd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "AutoIncrementSeed", {}, {} })));
@@ -940,7 +940,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CantChangeDataType)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x645925c;
+  constexpr static std::size_t addrs = 0x64598ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "CantChangeDataType", {}, {} })));
@@ -952,7 +952,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::NullDataType)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64592a0;
+  constexpr static std::size_t addrs = 0x64598f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "NullDataType", {}, {} })));
@@ -964,7 +964,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ColumnNameRequired)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6458e30;
+  constexpr static std::size_t addrs = 0x6459480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "ColumnNameRequired", {}, {} })));
@@ -976,7 +976,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::DefaultValueAndAutoIncrement)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6459c58;
+  constexpr static std::size_t addrs = 0x645a2a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "DefaultValueAndAutoIncrement", {}, {} })));
@@ -989,7 +989,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW, ::System::Type*, ::System::Type*, ::System::Exception*)>(
     &::System::Data::ExceptionBuilder::DefaultValueDataType)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6459868;
+  constexpr static std::size_t addrs = 0x6459eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1006,7 +1006,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW, ::System::Type*, ::System::Type*, ::System::Exception*)>(
     &::System::Data::ExceptionBuilder::DefaultValueColumnDataType)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6459c9c;
+  constexpr static std::size_t addrs = 0x645a2ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1022,7 +1022,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ExpressionAndUnique)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6459de8;
+  constexpr static std::size_t addrs = 0x645a438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "ExpressionAndUnique", {}, {} })));
@@ -1034,7 +1034,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ExpressionAndReadOnly)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6459ffc;
+  constexpr static std::size_t addrs = 0x645a64c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "ExpressionAndReadOnly", {}, {} })));
@@ -1047,7 +1047,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Data::DataColumn*, ::System::Data::Constraint*)>(
     &::System::Data::ExceptionBuilder::ExpressionAndConstraint)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6459e2c;
+  constexpr static std::size_t addrs = 0x645a47c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1061,7 +1061,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Data::DataColumn*)>(&::System::Data::ExceptionBuilder::ExpressionInConstraint)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x645fcf8;
+  constexpr static std::size_t addrs = 0x6460348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1074,7 +1074,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ExpressionCircular)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x645a040;
+  constexpr static std::size_t addrs = 0x645a690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "ExpressionCircular", {}, {} })));
@@ -1086,7 +1086,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::NonUniqueValues)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x645be0c;
+  constexpr static std::size_t addrs = 0x645c45c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1099,7 +1099,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::NullKeyValues)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x645bd6c;
+  constexpr static std::size_t addrs = 0x645c3bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1112,7 +1112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::NullValues)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x645bdbc;
+  constexpr static std::size_t addrs = 0x645c40c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1125,7 +1125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ReadOnlyAndExpression)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x645ae84;
+  constexpr static std::size_t addrs = 0x645b4d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "ReadOnlyAndExpression", {}, {} })));
@@ -1137,7 +1137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::ReadOnly)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x645fd50;
+  constexpr static std::size_t addrs = 0x64603a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "ReadOnly", {}, { ::i2c::type_of<::StringW>() } })));
@@ -1149,7 +1149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::UniqueAndExpression)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x645b7e4;
+  constexpr static std::size_t addrs = 0x645be34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "UniqueAndExpression", {}, {} })));
@@ -1162,7 +1162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Object*, ::System::Data::DataColumn*, ::System::Type*, ::System::Exception*)>(
     &::System::Data::ExceptionBuilder::SetFailed)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x645b1c8;
+  constexpr static std::size_t addrs = 0x645b818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1178,7 +1178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Data::DataColumn*)>(&::System::Data::ExceptionBuilder::CannotSetToNull)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x645fda0;
+  constexpr static std::size_t addrs = 0x64603f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1191,7 +1191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Data::DataColumn*)>(&::System::Data::ExceptionBuilder::LongerThanMaxLength)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x645bd14;
+  constexpr static std::size_t addrs = 0x645c364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1204,7 +1204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Data::DataColumn*, int32_t)>(&::System::Data::ExceptionBuilder::CannotSetMaxLength)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x645aab0;
+  constexpr static std::size_t addrs = 0x645b100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1218,7 +1218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Data::DataColumn*)>(&::System::Data::ExceptionBuilder::CannotSetMaxLength2)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x645a6cc;
+  constexpr static std::size_t addrs = 0x645ad1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1231,7 +1231,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW, ::System::Type*)>(&::System::Data::ExceptionBuilder::CannotSetSimpleContentType)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x645998c;
+  constexpr static std::size_t addrs = 0x6459fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(),
@@ -1244,7 +1244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW, ::System::Type*)>(&::System::Data::ExceptionBuilder::CannotSetSimpleContent)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x645baac;
+  constexpr static std::size_t addrs = 0x645c0fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1258,7 +1258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::CannotChangeNamespace)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x645acd8;
+  constexpr static std::size_t addrs = 0x645b328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1271,7 +1271,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Data::DataColumn*)>(&::System::Data::ExceptionBuilder::HasToBeStringType)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x645a724;
+  constexpr static std::size_t addrs = 0x645ad74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1284,7 +1284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::AutoIncrementCannotSetIfHasData)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6457cd4;
+  constexpr static std::size_t addrs = 0x6458324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1297,7 +1297,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::INullableUDTwithoutStaticNull)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x645fdf8;
+  constexpr static std::size_t addrs = 0x6460448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1310,7 +1310,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::IComparableNotImplemented)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x645fe48;
+  constexpr static std::size_t addrs = 0x6460498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1323,7 +1323,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::UDTImplementsIChangeTrackingButnotIRevertible)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x645fe98;
+  constexpr static std::size_t addrs = 0x64604e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1336,7 +1336,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Type*)>(&::System::Data::ExceptionBuilder::InvalidDataColumnMapping)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x645fee8;
+  constexpr static std::size_t addrs = 0x6460538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1349,7 +1349,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CannotSetDateTimeModeForNonDateTimeColumns)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6459b08;
+  constexpr static std::size_t addrs = 0x645a158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1362,7 +1362,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Data::DataSetDateTime)>(&::System::Data::ExceptionBuilder::InvalidDateTimeMode)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6459c0c;
+  constexpr static std::size_t addrs = 0x645a25c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1376,7 +1376,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Data::DataSetDateTime, ::System::Data::DataSetDateTime)>(
     &::System::Data::ExceptionBuilder::CantChangeDateTimeMode)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6459b4c;
+  constexpr static std::size_t addrs = 0x645a19c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1390,7 +1390,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ColumnTypeNotSupported)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6456850;
+  constexpr static std::size_t addrs = 0x6456ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "ColumnTypeNotSupported", {}, {} })));
@@ -1402,7 +1402,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::SetFailed)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x645ff58;
+  constexpr static std::size_t addrs = 0x64605a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1415,7 +1415,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CanNotUse)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x645ffa8;
+  constexpr static std::size_t addrs = 0x64605f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "CanNotUse", {}, {} })));
@@ -1427,7 +1427,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::SetIListObject)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x645ffec;
+  constexpr static std::size_t addrs = 0x646063c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "SetIListObject", {}, {} })));
@@ -1439,7 +1439,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::AddNewNotAllowNull)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6460030;
+  constexpr static std::size_t addrs = 0x6460680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "AddNewNotAllowNull", {}, {} })));
@@ -1451,7 +1451,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::NotOpen)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6460074;
+  constexpr static std::size_t addrs = 0x64606c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "NotOpen", {}, {} })));
@@ -1463,7 +1463,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CreateChildView)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64600b8;
+  constexpr static std::size_t addrs = 0x6460708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "CreateChildView", {}, {} })));
@@ -1475,7 +1475,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CanNotDelete)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64600fc;
+  constexpr static std::size_t addrs = 0x646074c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "CanNotDelete", {}, {} })));
@@ -1487,7 +1487,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(int32_t)>(&::System::Data::ExceptionBuilder::GetElementIndex)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6460140;
+  constexpr static std::size_t addrs = 0x6460790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1500,7 +1500,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::AddExternalObject)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64601d4;
+  constexpr static std::size_t addrs = 0x6460824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "AddExternalObject", {}, {} })));
@@ -1512,7 +1512,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CanNotClear)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6460218;
+  constexpr static std::size_t addrs = 0x6460868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "CanNotClear", {}, {} })));
@@ -1524,7 +1524,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::InsertExternalObject)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x646025c;
+  constexpr static std::size_t addrs = 0x64608ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "InsertExternalObject", {}, {} })));
@@ -1536,7 +1536,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RemoveExternalObject)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64602a0;
+  constexpr static std::size_t addrs = 0x64608f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "RemoveExternalObject", {}, {} })));
@@ -1548,7 +1548,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::KeyTableMismatch)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64602e4;
+  constexpr static std::size_t addrs = 0x6460934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "KeyTableMismatch", {}, {} })));
@@ -1560,7 +1560,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::KeyNoColumns)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6460328;
+  constexpr static std::size_t addrs = 0x6460978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "KeyNoColumns", {}, {} })));
@@ -1572,7 +1572,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(int32_t)>(&::System::Data::ExceptionBuilder::KeyTooManyColumns)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x646036c;
+  constexpr static std::size_t addrs = 0x64609bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1585,7 +1585,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::KeyDuplicateColumns)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6460400;
+  constexpr static std::size_t addrs = 0x6460a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1598,7 +1598,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RelationDataSetMismatch)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6460450;
+  constexpr static std::size_t addrs = 0x6460aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "RelationDataSetMismatch", {}, {} })));
@@ -1610,7 +1610,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ColumnsTypeMismatch)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6459438;
+  constexpr static std::size_t addrs = 0x6459a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "ColumnsTypeMismatch", {}, {} })));
@@ -1622,7 +1622,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::KeyLengthMismatch)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6460494;
+  constexpr static std::size_t addrs = 0x6460ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "KeyLengthMismatch", {}, {} })));
@@ -1634,7 +1634,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::KeyLengthZero)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64604d8;
+  constexpr static std::size_t addrs = 0x6460b28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "KeyLengthZero", {}, {} })));
@@ -1646,7 +1646,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ForeignRelation)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x646051c;
+  constexpr static std::size_t addrs = 0x6460b6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "ForeignRelation", {}, {} })));
@@ -1658,7 +1658,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::KeyColumnsIdentical)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6460560;
+  constexpr static std::size_t addrs = 0x6460bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "KeyColumnsIdentical", {}, {} })));
@@ -1670,7 +1670,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&::System::Data::ExceptionBuilder::RelationForeignTable)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64605a4;
+  constexpr static std::size_t addrs = 0x6460bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1683,7 +1683,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&::System::Data::ExceptionBuilder::GetParentRowTableMismatch)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6460604;
+  constexpr static std::size_t addrs = 0x6460c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1697,7 +1697,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&::System::Data::ExceptionBuilder::SetParentRowTableMismatch)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6460664;
+  constexpr static std::size_t addrs = 0x6460cb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1711,7 +1711,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RelationForeignRow)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64606c4;
+  constexpr static std::size_t addrs = 0x6460d14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "RelationForeignRow", {}, {} })));
@@ -1723,7 +1723,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RelationNestedReadOnly)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6460708;
+  constexpr static std::size_t addrs = 0x6460d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "RelationNestedReadOnly", {}, {} })));
@@ -1735,7 +1735,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::TableCantBeNestedInTwoTables)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x646074c;
+  constexpr static std::size_t addrs = 0x6460d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1748,7 +1748,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::LoopInNestedRelations)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x646079c;
+  constexpr static std::size_t addrs = 0x6460dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1761,7 +1761,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RelationDoesNotExist)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64607ec;
+  constexpr static std::size_t addrs = 0x6460e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "RelationDoesNotExist", {}, {} })));
@@ -1773,7 +1773,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ParentOrChildColumnsDoNotHaveDataSet)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6460830;
+  constexpr static std::size_t addrs = 0x6460e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "ParentOrChildColumnsDoNotHaveDataSet", {}, {} })));
@@ -1785,7 +1785,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::InValidNestedRelation)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6460874;
+  constexpr static std::size_t addrs = 0x6460ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1798,7 +1798,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::InvalidParentNamespaceinNestedRelation)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x64608c4;
+  constexpr static std::size_t addrs = 0x6460f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1811,7 +1811,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RowNotInTheDataSet)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6460914;
+  constexpr static std::size_t addrs = 0x6460f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "RowNotInTheDataSet", {}, {} })));
@@ -1823,7 +1823,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RowNotInTheTable)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6460958;
+  constexpr static std::size_t addrs = 0x6460fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "RowNotInTheTable", {}, {} })));
@@ -1835,7 +1835,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::EditInRowChanging)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x646099c;
+  constexpr static std::size_t addrs = 0x6460fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "EditInRowChanging", {}, {} })));
@@ -1847,7 +1847,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::EndEditInRowChanging)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64609e0;
+  constexpr static std::size_t addrs = 0x6461030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "EndEditInRowChanging", {}, {} })));
@@ -1859,7 +1859,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::BeginEditInRowChanging)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6460a24;
+  constexpr static std::size_t addrs = 0x6461074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "BeginEditInRowChanging", {}, {} })));
@@ -1871,7 +1871,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CancelEditInRowChanging)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6460a68;
+  constexpr static std::size_t addrs = 0x64610b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "CancelEditInRowChanging", {}, {} })));
@@ -1883,7 +1883,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::DeleteInRowDeleting)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6460aac;
+  constexpr static std::size_t addrs = 0x64610fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "DeleteInRowDeleting", {}, {} })));
@@ -1895,7 +1895,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ValueArrayLength)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6460af0;
+  constexpr static std::size_t addrs = 0x6461140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "ValueArrayLength", {}, {} })));
@@ -1907,7 +1907,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::NoCurrentData)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6460b34;
+  constexpr static std::size_t addrs = 0x6461184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "NoCurrentData", {}, {} })));
@@ -1919,7 +1919,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::NoOriginalData)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6460b78;
+  constexpr static std::size_t addrs = 0x64611c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "NoOriginalData", {}, {} })));
@@ -1931,7 +1931,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::NoProposedData)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6460bbc;
+  constexpr static std::size_t addrs = 0x646120c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "NoProposedData", {}, {} })));
@@ -1943,7 +1943,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RowRemovedFromTheTable)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6460c00;
+  constexpr static std::size_t addrs = 0x6461250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "RowRemovedFromTheTable", {}, {} })));
@@ -1955,7 +1955,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::DeletedRowInaccessible)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6460c44;
+  constexpr static std::size_t addrs = 0x6461294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "DeletedRowInaccessible", {}, {} })));
@@ -1967,7 +1967,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RowAlreadyDeleted)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6460c88;
+  constexpr static std::size_t addrs = 0x64612d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "RowAlreadyDeleted", {}, {} })));
@@ -1979,7 +1979,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RowEmpty)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6460ccc;
+  constexpr static std::size_t addrs = 0x646131c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "RowEmpty", {}, {} })));
@@ -1991,7 +1991,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::InvalidRowVersion)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6460d10;
+  constexpr static std::size_t addrs = 0x6461360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "InvalidRowVersion", {}, {} })));
@@ -2003,7 +2003,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(int32_t)>(&::System::Data::ExceptionBuilder::RowOutOfRange)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6460d54;
+  constexpr static std::size_t addrs = 0x64613a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2016,7 +2016,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(int32_t, ::StringW)>(&::System::Data::ExceptionBuilder::RowInsertTwice)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6460de8;
+  constexpr static std::size_t addrs = 0x6461438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2029,7 +2029,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::RowInsertMissing)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6460e8c;
+  constexpr static std::size_t addrs = 0x64614dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2042,7 +2042,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RowAlreadyRemoved)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6460edc;
+  constexpr static std::size_t addrs = 0x646152c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "RowAlreadyRemoved", {}, {} })));
@@ -2054,7 +2054,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::MultipleParents)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6460f20;
+  constexpr static std::size_t addrs = 0x6461570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "MultipleParents", {}, {} })));
@@ -2066,7 +2066,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Data::DataRowState)>(&::System::Data::ExceptionBuilder::InvalidRowState)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6460f64;
+  constexpr static std::size_t addrs = 0x64615b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2079,7 +2079,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::InvalidRowBitPattern)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6460fb0;
+  constexpr static std::size_t addrs = 0x6461600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "InvalidRowBitPattern", {}, {} })));
@@ -2091,7 +2091,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::SetDataSetNameToEmpty)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6460ff4;
+  constexpr static std::size_t addrs = 0x6461644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "SetDataSetNameToEmpty", {}, {} })));
@@ -2103,7 +2103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::SetDataSetNameConflicting)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6461038;
+  constexpr static std::size_t addrs = 0x6461688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2116,7 +2116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::DataSetUnsupportedSchema)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6461088;
+  constexpr static std::size_t addrs = 0x64616d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2129,7 +2129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::MergeMissingDefinition)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x64610d8;
+  constexpr static std::size_t addrs = 0x6461728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2142,7 +2142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::TablesInDifferentSets)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6461128;
+  constexpr static std::size_t addrs = 0x6461778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "TablesInDifferentSets", {}, {} })));
@@ -2154,7 +2154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RelationAlreadyExists)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x646116c;
+  constexpr static std::size_t addrs = 0x64617bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "RelationAlreadyExists", {}, {} })));
@@ -2166,7 +2166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RowAlreadyInOtherCollection)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64611b0;
+  constexpr static std::size_t addrs = 0x6461800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "RowAlreadyInOtherCollection", {}, {} })));
@@ -2178,7 +2178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RowAlreadyInTheCollection)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64611f4;
+  constexpr static std::size_t addrs = 0x6461844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "RowAlreadyInTheCollection", {}, {} })));
@@ -2190,7 +2190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RecordStateRange)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6461238;
+  constexpr static std::size_t addrs = 0x6461888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "RecordStateRange", {}, {} })));
@@ -2202,7 +2202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(int32_t, int32_t)>(&::System::Data::ExceptionBuilder::IndexKeyLength)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x646127c;
+  constexpr static std::size_t addrs = 0x64618cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2215,7 +2215,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Data::DataTable*)>(&::System::Data::ExceptionBuilder::RemovePrimaryKey)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6461360;
+  constexpr static std::size_t addrs = 0x64619b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2228,7 +2228,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RelationAlreadyInOtherDataSet)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64613e4;
+  constexpr static std::size_t addrs = 0x6461a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "RelationAlreadyInOtherDataSet", {}, {} })));
@@ -2240,7 +2240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RelationAlreadyInTheDataSet)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6461428;
+  constexpr static std::size_t addrs = 0x6461a78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "RelationAlreadyInTheDataSet", {}, {} })));
@@ -2252,7 +2252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::RelationNotInTheDataSet)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x646146c;
+  constexpr static std::size_t addrs = 0x6461abc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2265,7 +2265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Object*)>(&::System::Data::ExceptionBuilder::RelationOutOfRange)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x64614bc;
+  constexpr static std::size_t addrs = 0x6461b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2278,7 +2278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::DuplicateRelation)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6461548;
+  constexpr static std::size_t addrs = 0x6461b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2291,7 +2291,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RelationTableNull)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6461598;
+  constexpr static std::size_t addrs = 0x6461be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "RelationTableNull", {}, {} })));
@@ -2303,7 +2303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RelationDataSetNull)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64615dc;
+  constexpr static std::size_t addrs = 0x6461c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "RelationDataSetNull", {}, {} })));
@@ -2315,7 +2315,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RelationTableWasRemoved)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6461620;
+  constexpr static std::size_t addrs = 0x6461c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "RelationTableWasRemoved", {}, {} })));
@@ -2327,7 +2327,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ParentTableMismatch)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6461664;
+  constexpr static std::size_t addrs = 0x6461cb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "ParentTableMismatch", {}, {} })));
@@ -2339,7 +2339,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ChildTableMismatch)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64616a8;
+  constexpr static std::size_t addrs = 0x6461cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "ChildTableMismatch", {}, {} })));
@@ -2351,7 +2351,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::EnforceConstraint)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64616ec;
+  constexpr static std::size_t addrs = 0x6461d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "EnforceConstraint", {}, {} })));
@@ -2363,7 +2363,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CaseLocaleMismatch)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6461730;
+  constexpr static std::size_t addrs = 0x6461d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "CaseLocaleMismatch", {}, {} })));
@@ -2375,7 +2375,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CannotChangeCaseLocale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6461774;
+  constexpr static std::size_t addrs = 0x6461dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "CannotChangeCaseLocale", {}, {} })));
@@ -2387,7 +2387,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Exception*)>(&::System::Data::ExceptionBuilder::CannotChangeCaseLocale)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x646177c;
+  constexpr static std::size_t addrs = 0x6461dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2400,7 +2400,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Data::SerializationFormat)>(&::System::Data::ExceptionBuilder::InvalidRemotingFormat)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x64617c8;
+  constexpr static std::size_t addrs = 0x6461e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2413,7 +2413,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::TableForeignPrimaryKey)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6461814;
+  constexpr static std::size_t addrs = 0x6461e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "TableForeignPrimaryKey", {}, {} })));
@@ -2425,7 +2425,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::TableCannotAddToSimpleContent)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6461858;
+  constexpr static std::size_t addrs = 0x6461ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "TableCannotAddToSimpleContent", {}, {} })));
@@ -2437,7 +2437,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::NoTableName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x646189c;
+  constexpr static std::size_t addrs = 0x6461eec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "NoTableName", {}, {} })));
@@ -2449,7 +2449,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::MultipleTextOnlyColumns)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64618e0;
+  constexpr static std::size_t addrs = 0x6461f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "MultipleTextOnlyColumns", {}, {} })));
@@ -2461,7 +2461,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::InvalidSortString)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6461924;
+  constexpr static std::size_t addrs = 0x6461f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2474,7 +2474,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::DuplicateTableName)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6461974;
+  constexpr static std::size_t addrs = 0x6461fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2487,7 +2487,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&::System::Data::ExceptionBuilder::DuplicateTableName2)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64619c4;
+  constexpr static std::size_t addrs = 0x6462014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2500,7 +2500,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::SelfnestedDatasetConflictingName)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6461a24;
+  constexpr static std::size_t addrs = 0x6462074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2513,7 +2513,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::DatasetConflictingName)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6461a74;
+  constexpr static std::size_t addrs = 0x64620c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2526,7 +2526,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::TableAlreadyInOtherDataSet)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6461ac4;
+  constexpr static std::size_t addrs = 0x6462114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "TableAlreadyInOtherDataSet", {}, {} })));
@@ -2538,7 +2538,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::TableAlreadyInTheDataSet)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6461b08;
+  constexpr static std::size_t addrs = 0x6462158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "TableAlreadyInTheDataSet", {}, {} })));
@@ -2550,7 +2550,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(int32_t)>(&::System::Data::ExceptionBuilder::TableOutOfRange)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6461b4c;
+  constexpr static std::size_t addrs = 0x646219c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2563,7 +2563,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::TableNotInTheDataSet)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6461be0;
+  constexpr static std::size_t addrs = 0x6462230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2576,7 +2576,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::TableInRelation)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6461c30;
+  constexpr static std::size_t addrs = 0x6462280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "TableInRelation", {}, {} })));
@@ -2588,7 +2588,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Data::DataTable*, ::System::Data::Constraint*)>(&::System::Data::ExceptionBuilder::TableInConstraint)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6461c74;
+  constexpr static std::size_t addrs = 0x64622c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2602,7 +2602,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CanNotSerializeDataTableHierarchy)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6461cf8;
+  constexpr static std::size_t addrs = 0x6462348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "CanNotSerializeDataTableHierarchy", {}, {} })));
@@ -2614,7 +2614,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CanNotRemoteDataTable)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6461d3c;
+  constexpr static std::size_t addrs = 0x646238c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "CanNotRemoteDataTable", {}, {} })));
@@ -2626,7 +2626,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CanNotSetRemotingFormat)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6461d80;
+  constexpr static std::size_t addrs = 0x64623d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "CanNotSetRemotingFormat", {}, {} })));
@@ -2638,7 +2638,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CanNotSerializeDataTableWithEmptyName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6461dc4;
+  constexpr static std::size_t addrs = 0x6462414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "CanNotSerializeDataTableWithEmptyName", {}, {} })));
@@ -2650,7 +2650,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::TableNotFound)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6461e08;
+  constexpr static std::size_t addrs = 0x6462458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2663,7 +2663,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Data::AggregateType, ::System::Type*)>(&::System::Data::ExceptionBuilder::AggregateException)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6461e58;
+  constexpr static std::size_t addrs = 0x64624a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2677,7 +2677,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::TypeCode)>(&::System::Data::ExceptionBuilder::InvalidStorageType)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6461f18;
+  constexpr static std::size_t addrs = 0x6462568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2690,7 +2690,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(int32_t, int32_t)>(&::System::Data::ExceptionBuilder::RangeArgument)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6461fac;
+  constexpr static std::size_t addrs = 0x64625fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2703,7 +2703,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::NullRange)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6462060;
+  constexpr static std::size_t addrs = 0x64626b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "NullRange", {}, {} })));
@@ -2715,7 +2715,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::NegativeMinimumCapacity)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64620a4;
+  constexpr static std::size_t addrs = 0x64626f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "NegativeMinimumCapacity", {}, {} })));
@@ -2727,7 +2727,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(char16_t)>(&::System::Data::ExceptionBuilder::ProblematicChars)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x64620e8;
+  constexpr static std::size_t addrs = 0x6462738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2740,7 +2740,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::StorageSetFailed)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64621d0;
+  constexpr static std::size_t addrs = 0x6462820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "StorageSetFailed", {}, {} })));
@@ -2752,7 +2752,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::SimpleTypeNotSupported)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6462214;
+  constexpr static std::size_t addrs = 0x6462864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "SimpleTypeNotSupported", {}, {} })));
@@ -2764,7 +2764,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::MissingAttribute)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6462258;
+  constexpr static std::size_t addrs = 0x64628a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2777,7 +2777,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&::System::Data::ExceptionBuilder::MissingAttribute)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6462274;
+  constexpr static std::size_t addrs = 0x64628c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2790,7 +2790,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&::System::Data::ExceptionBuilder::InvalidAttributeValue)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64622d4;
+  constexpr static std::size_t addrs = 0x6462924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2803,7 +2803,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW, ::StringW, ::StringW)>(&::System::Data::ExceptionBuilder::AttributeValues)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6462334;
+  constexpr static std::size_t addrs = 0x6462984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2817,7 +2817,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::ElementTypeNotFound)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x646239c;
+  constexpr static std::size_t addrs = 0x64629ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2830,7 +2830,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::RelationParentNameMissing)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x64623ec;
+  constexpr static std::size_t addrs = 0x6462a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2843,7 +2843,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::RelationChildNameMissing)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x646243c;
+  constexpr static std::size_t addrs = 0x6462a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2856,7 +2856,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::RelationTableKeyMissing)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x646248c;
+  constexpr static std::size_t addrs = 0x6462adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2869,7 +2869,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::RelationChildKeyMissing)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x64624dc;
+  constexpr static std::size_t addrs = 0x6462b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2882,7 +2882,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::UndefinedDatatype)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x646252c;
+  constexpr static std::size_t addrs = 0x6462b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2895,7 +2895,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::DatatypeNotDefined)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x646257c;
+  constexpr static std::size_t addrs = 0x6462bcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "DatatypeNotDefined", {}, {} })));
@@ -2907,7 +2907,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::MismatchKeyLength)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64625c0;
+  constexpr static std::size_t addrs = 0x6462c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "MismatchKeyLength", {}, {} })));
@@ -2919,7 +2919,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::InvalidField)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6462604;
+  constexpr static std::size_t addrs = 0x6462c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2932,7 +2932,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::InvalidSelector)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6462654;
+  constexpr static std::size_t addrs = 0x6462ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2945,7 +2945,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::CircularComplexType)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x64626a4;
+  constexpr static std::size_t addrs = 0x6462cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2958,7 +2958,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::CannotInstantiateAbstract)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x64626f4;
+  constexpr static std::size_t addrs = 0x6462d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2971,7 +2971,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::InvalidKey)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6462744;
+  constexpr static std::size_t addrs = 0x6462d94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2984,7 +2984,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::DiffgramMissingTable)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6462794;
+  constexpr static std::size_t addrs = 0x6462de4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2997,7 +2997,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::DiffgramMissingSQL)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64627e4;
+  constexpr static std::size_t addrs = 0x6462e34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "DiffgramMissingSQL", {}, {} })));
@@ -3009,7 +3009,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::DuplicateConstraintRead)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6462828;
+  constexpr static std::size_t addrs = 0x6462e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3022,7 +3022,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::ColumnTypeConflict)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6462878;
+  constexpr static std::size_t addrs = 0x6462ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3035,7 +3035,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&::System::Data::ExceptionBuilder::CannotConvert)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64628c8;
+  constexpr static std::size_t addrs = 0x6462f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3048,7 +3048,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::MissingRefer)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6462928;
+  constexpr static std::size_t addrs = 0x6462f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3061,7 +3061,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::InvalidPrefix)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x64590c8;
+  constexpr static std::size_t addrs = 0x6459718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3074,7 +3074,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CanNotDeserializeObjectType)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64629b0;
+  constexpr static std::size_t addrs = 0x6463000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "CanNotDeserializeObjectType", {}, {} })));
@@ -3086,7 +3086,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::IsDataSetAttributeMissingInSchema)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64629f4;
+  constexpr static std::size_t addrs = 0x6463044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "IsDataSetAttributeMissingInSchema", {}, {} })));
@@ -3098,7 +3098,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::TooManyIsDataSetAtributeInSchema)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6462a38;
+  constexpr static std::size_t addrs = 0x6463088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "TooManyIsDataSetAtributeInSchema", {}, {} })));
@@ -3110,7 +3110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::NestedCircular)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6462a7c;
+  constexpr static std::size_t addrs = 0x64630cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3123,7 +3123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::MultipleParentRows)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6462acc;
+  constexpr static std::size_t addrs = 0x646311c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3136,7 +3136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::PolymorphismNotSupported)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6462b1c;
+  constexpr static std::size_t addrs = 0x646316c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3149,7 +3149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::DataTableInferenceNotSupported)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6462b6c;
+  constexpr static std::size_t addrs = 0x64631bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "DataTableInferenceNotSupported", {}, {} })));
@@ -3161,7 +3161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Exception*)>(&::System::Data::ExceptionBuilder::ThrowMultipleTargetConverter)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6462bb0;
+  constexpr static std::size_t addrs = 0x6463200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3174,7 +3174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::DuplicateDeclaration)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6462c20;
+  constexpr static std::size_t addrs = 0x6463270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3187,7 +3187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::FoundEntity)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6462c70;
+  constexpr static std::size_t addrs = 0x64632c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "FoundEntity", {}, {} })));
@@ -3199,7 +3199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::MergeFailed)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6462cb4;
+  constexpr static std::size_t addrs = 0x6463304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3212,7 +3212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Type*, ::System::Type*)>(&::System::Data::ExceptionBuilder::ConvertFailed)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6462cb8;
+  constexpr static std::size_t addrs = 0x6463308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3226,7 +3226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&::System::Data::ExceptionBuilder::InvalidDuplicateNamedSimpleTypeDelaration)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6462d54;
+  constexpr static std::size_t addrs = 0x64633a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3240,7 +3240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Data::RBTreeError)>(&::System::Data::ExceptionBuilder::InternalRBTreeError)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6462db4;
+  constexpr static std::size_t addrs = 0x6463404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3253,7 +3253,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::EnumeratorModified)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6462e24;
+  constexpr static std::size_t addrs = 0x6463474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExceptionBuilder*>(), { "EnumeratorModified", {}, {} })));

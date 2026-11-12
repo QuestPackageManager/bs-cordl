@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSignificantWhitespace::*)(::StringW, ::System::Xml::XmlDocument*)>(&::System::Xml::XmlSignificantWhitespace::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x673184c;
+  constexpr static std::size_t addrs = 0x6731e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlSignificantWhitespace*>(),
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlSignificantWhitespace::*)()>(&::System::Xml::XmlSignificantWhitespace::get_Name)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x67318f4;
+  constexpr static std::size_t addrs = 0x6731f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlSignificantWhitespace::*)()>(&::System::Xml::XmlSignificantWhitespace::get_LocalName)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x673191c;
+  constexpr static std::size_t addrs = 0x6731f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNodeType (::System::Xml::XmlSignificantWhitespace::*)()>(&::System::Xml::XmlSignificantWhitespace::get_NodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6731944;
+  constexpr static std::size_t addrs = 0x6731f94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlSignificantWhitespace::*)()>(&::System::Xml::XmlSignificantWhitespace::get_ParentNode)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x673194c;
+  constexpr static std::size_t addrs = 0x6731f9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlSignificantWhitespace::*)(bool)>(&::System::Xml::XmlSignificantWhitespace::CloneNode)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x67319d8;
+  constexpr static std::size_t addrs = 0x6732028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlSignificantWhitespace::*)()>(&::System::Xml::XmlSignificantWhitespace::get_Value)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6731a34;
+  constexpr static std::size_t addrs = 0x6732084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSignificantWhitespace::*)(::StringW)>(&::System::Xml::XmlSignificantWhitespace::set_Value)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6731a44;
+  constexpr static std::size_t addrs = 0x6732094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSignificantWhitespace::*)(::System::Xml::XmlWriter*)>(&::System::Xml::XmlSignificantWhitespace::WriteTo)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6731ad8;
+  constexpr static std::size_t addrs = 0x6732128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSignificantWhitespace::*)(::System::Xml::XmlWriter*)>(&::System::Xml::XmlSignificantWhitespace::WriteContentTo)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6731b18;
+  constexpr static std::size_t addrs = 0x6732168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XPath::XPathNodeType (::System::Xml::XmlSignificantWhitespace::*)()>(&::System::Xml::XmlSignificantWhitespace::get_XPNodeType)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6731b1c;
+  constexpr static std::size_t addrs = 0x673216c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlSignificantWhitespace::*)()>(&::System::Xml::XmlSignificantWhitespace::get_IsText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6731b44;
+  constexpr static std::size_t addrs = 0x6732194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlSignificantWhitespace::*)()>(&::System::Xml::XmlSignificantWhitespace::get_PreviousText)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6731b4c;
+  constexpr static std::size_t addrs = 0x673219c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

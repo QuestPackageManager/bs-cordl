@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::Analytics::Gameplay::EventSenders::NoopSettingsEventSender::*)(
     ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, float_t>>*)>(&::BeatSaber::Analytics::Gameplay::EventSenders::NoopSettingsEventSender::SendSnapshot)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3504118;
+  constexpr static std::size_t addrs = 0x3506558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::EventSenders::NoopSettingsEventSender::*)(
     ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, float_t>>*)>(&::BeatSaber::Analytics::Gameplay::EventSenders::NoopSettingsEventSender::SendChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3504120;
+  constexpr static std::size_t addrs = 0x3506560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::EventSenders::NoopSettingsEventSender::*)(::StringW)>(
     &::BeatSaber::Analytics::Gameplay::EventSenders::NoopSettingsEventSender::SendColorsOverride)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3504124;
+  constexpr static std::size_t addrs = 0x3506564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::EventSenders::NoopSettingsEventSender::*)(::StringW)>(
     &::BeatSaber::Analytics::Gameplay::EventSenders::NoopSettingsEventSender::SendEnvironmentOverride)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3504128;
+  constexpr static std::size_t addrs = 0x3506568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::EventSenders::NoopSettingsEventSender*>(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::EventSenders::NoopSettingsEventSender::*)()>(
     &::BeatSaber::Analytics::Gameplay::EventSenders::NoopSettingsEventSender::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3500f04;
+  constexpr static std::size_t addrs = 0x3503344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

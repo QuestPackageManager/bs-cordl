@@ -113,12 +113,12 @@ public:
   /// @brief Field whichSideWins, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_whichSideWins, put = __cordl_internal_set_whichSideWins)) ::UnityEngine::InputSystem::Composites::AxisComposite_WhichSideWins whichSideWins;
 
-  /// @brief Method EvaluateMagnitude, addr 0x69717b4, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x6972894, size 0x48, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   static inline ::UnityEngine::InputSystem::Composites::AxisComposite* New_ctor();
 
-  /// @brief Method ReadValue, addr 0x69716a0, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x6972780, size 0x114, virtual true, abstract: false, final false
   inline float_t ReadValue(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   constexpr float_t const& __cordl_internal_get_maxValue() const;
@@ -151,10 +151,10 @@ public:
 
   constexpr void __cordl_internal_set_whichSideWins(::UnityEngine::InputSystem::Composites::AxisComposite_WhichSideWins value);
 
-  /// @brief Method .ctor, addr 0x69717fc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69728dc, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_midPoint, addr 0x697168c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_midPoint, addr 0x697276c, size 0x14, virtual false, abstract: false, final false
   inline float_t get_midPoint();
 
 protected:

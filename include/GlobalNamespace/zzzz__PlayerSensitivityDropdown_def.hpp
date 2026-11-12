@@ -30,12 +30,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE PlayerSensitivityDropdown : public ::GlobalNamespace::ValueDropdownController_1<::GlobalNamespace::PlayerSensitivityFlag> {
 public:
   // Declarations
-  /// @brief Method GetNamedValues, addr 0x5e6a3dc, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method GetNamedValues, addr 0x5e6a2f4, size 0x130, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::PlayerSensitivityFlag, ::StringW>*>* GetNamedValues();
 
   static inline ::GlobalNamespace::PlayerSensitivityDropdown* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5e6a50c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e6a424, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

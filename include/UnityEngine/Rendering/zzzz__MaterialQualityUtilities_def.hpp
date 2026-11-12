@@ -40,27 +40,27 @@ public:
   /// @brief Field Keywords, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Keywords, put = setStaticF_Keywords)) ::ArrayW<::UnityEngine::Rendering::ShaderKeyword> Keywords;
 
-  /// @brief Method FromIndex, addr 0x6c21988, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FromIndex, addr 0x6c22a68, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::MaterialQuality FromIndex(int32_t index);
 
   /// [Extension]
-  /// @brief Method GetClosestQuality, addr 0x6c217c0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetClosestQuality, addr 0x6c228a0, size 0x138, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::MaterialQuality GetClosestQuality(::UnityEngine::Rendering::MaterialQuality availableLevels, ::UnityEngine::Rendering::MaterialQuality requestedLevel);
 
   /// [Extension]
-  /// @brief Method GetHighestQuality, addr 0x6c21730, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetHighestQuality, addr 0x6c22810, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::MaterialQuality GetHighestQuality(::UnityEngine::Rendering::MaterialQuality levels);
 
   /// [Extension]
-  /// @brief Method SetGlobalShaderKeywords, addr 0x6c21994, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalShaderKeywords, addr 0x6c22a74, size 0xfc, virtual false, abstract: false, final false
   static inline void SetGlobalShaderKeywords(::UnityEngine::Rendering::MaterialQuality level);
 
   /// [Extension]
-  /// @brief Method SetGlobalShaderKeywords, addr 0x6c21a90, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalShaderKeywords, addr 0x6c22b70, size 0x118, virtual false, abstract: false, final false
   static inline void SetGlobalShaderKeywords(::UnityEngine::Rendering::MaterialQuality level, ::UnityEngine::Rendering::CommandBuffer* cmd);
 
   /// [Extension]
-  /// @brief Method ToFirstIndex, addr 0x6c218f8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ToFirstIndex, addr 0x6c229d8, size 0x90, virtual false, abstract: false, final false
   static inline int32_t ToFirstIndex(::UnityEngine::Rendering::MaterialQuality level);
 
   static inline ::ArrayW<::StringW> getStaticF_EnumNames();

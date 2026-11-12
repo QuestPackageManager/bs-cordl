@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* (::UnityEngine::UIElements::AuthoringChanges::*)()>(
     &::UnityEngine::UIElements::AuthoringChanges::get_addedOrMovedElements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70c055c;
+  constexpr static std::size_t addrs = 0x70c163c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::AuthoringChanges*>(), { "get_addedOrMovedElements", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* (::UnityEngine::UIElements::AuthoringChanges::*)()>(
     &::UnityEngine::UIElements::AuthoringChanges::get_removedFromPanel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70c0564;
+  constexpr static std::size_t addrs = 0x70c1644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::AuthoringChanges*>(), { "get_removedFromPanel", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* (::UnityEngine::UIElements::AuthoringChanges::*)()>(
     &::UnityEngine::UIElements::AuthoringChanges::get_styleChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70c056c;
+  constexpr static std::size_t addrs = 0x70c164c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::AuthoringChanges*>(), { "get_styleChanged", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* (::UnityEngine::UIElements::AuthoringChanges::*)()>(
     &::UnityEngine::UIElements::AuthoringChanges::get_stylingContextChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70c0574;
+  constexpr static std::size_t addrs = 0x70c1654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::AuthoringChanges*>(), { "get_stylingContextChanged", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* (::UnityEngine::UIElements::AuthoringChanges::*)()>(
     &::UnityEngine::UIElements::AuthoringChanges::get_bindingContextChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70c057c;
+  constexpr static std::size_t addrs = 0x70c165c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::AuthoringChanges*>(), { "get_bindingContextChanged", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::AuthoringChanges::*)()>(&::UnityEngine::UIElements::AuthoringChanges::ContainsChanges)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x70c0584;
+  constexpr static std::size_t addrs = 0x70c1664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::AuthoringChanges*>(), { "ContainsChanges", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::AuthoringChanges::*)()>(&::UnityEngine::UIElements::AuthoringChanges::Clear)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x70c0634;
+  constexpr static std::size_t addrs = 0x70c1714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::AuthoringChanges*>(), { "Clear", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::AuthoringChanges::*)()>(&::UnityEngine::UIElements::AuthoringChanges::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x70c06c8;
+  constexpr static std::size_t addrs = 0x70c17a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::AuthoringChanges*>(), { ".ctor", {}, {} })));

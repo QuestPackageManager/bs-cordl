@@ -51,43 +51,43 @@ namespace GlobalNamespace {
 class OculusLevelProductCollectionModel;
 }
 namespace GlobalNamespace {
-struct OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25;
+struct OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24;
 }
 namespace GlobalNamespace {
-struct OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24;
+struct OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23;
 }
 namespace GlobalNamespace {
-struct OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14;
+struct OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13;
 }
 namespace GlobalNamespace {
-struct OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15;
+struct OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14;
 }
 namespace GlobalNamespace {
-struct OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12;
+struct OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11;
 }
 namespace GlobalNamespace {
-struct OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13;
+struct OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12;
 }
 namespace GlobalNamespace {
-struct OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10;
+struct OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9;
 }
 namespace GlobalNamespace {
-struct OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16;
+struct OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15;
 }
 namespace GlobalNamespace {
-struct OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20;
+struct OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19;
 }
 namespace GlobalNamespace {
-struct OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19;
+struct OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18;
 }
 namespace GlobalNamespace {
-struct OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18;
+struct OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17;
 }
 namespace GlobalNamespace {
-struct OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17;
+struct OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16;
 }
 namespace GlobalNamespace {
-class OculusPlatformAdditionalContentModel___c__DisplayClass20_0;
+class OculusPlatformAdditionalContentModel___c__DisplayClass19_0;
 }
 namespace GlobalNamespace {
 struct OpenProductStoreResult;
@@ -130,85 +130,85 @@ namespace GlobalNamespace {
 class OculusPlatformAdditionalContentModel;
 }
 namespace GlobalNamespace {
-class OculusPlatformAdditionalContentModel___c__DisplayClass20_0;
+class OculusPlatformAdditionalContentModel___c__DisplayClass19_0;
 }
 namespace GlobalNamespace {
-struct OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25;
+struct OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24;
 }
 namespace GlobalNamespace {
-struct OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24;
+struct OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23;
 }
 namespace GlobalNamespace {
-struct OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14;
+struct OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13;
 }
 namespace GlobalNamespace {
-struct OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15;
+struct OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14;
 }
 namespace GlobalNamespace {
-struct OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12;
+struct OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11;
 }
 namespace GlobalNamespace {
-struct OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13;
+struct OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12;
 }
 namespace GlobalNamespace {
-struct OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10;
+struct OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9;
 }
 namespace GlobalNamespace {
-struct OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16;
+struct OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15;
 }
 namespace GlobalNamespace {
-struct OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20;
+struct OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19;
 }
 namespace GlobalNamespace {
-struct OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19;
+struct OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18;
 }
 namespace GlobalNamespace {
-struct OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18;
+struct OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17;
 }
 namespace GlobalNamespace {
-struct OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17;
+struct OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OculusPlatformAdditionalContentModel*);
-MARK_REF_T(::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0*);
-MARK_VAL_T(::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25);
-MARK_VAL_T(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24);
-MARK_VAL_T(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14);
-MARK_VAL_T(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15);
-MARK_VAL_T(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12);
-MARK_VAL_T(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13);
-MARK_VAL_T(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10);
-MARK_VAL_T(::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16);
-MARK_VAL_T(::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20);
-MARK_VAL_T(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19);
-MARK_VAL_T(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18);
-MARK_VAL_T(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17);
+MARK_REF_T(::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0*);
+MARK_VAL_T(::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24);
+MARK_VAL_T(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23);
+MARK_VAL_T(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13);
+MARK_VAL_T(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14);
+MARK_VAL_T(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11);
+MARK_VAL_T(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12);
+MARK_VAL_T(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9);
+MARK_VAL_T(::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15);
+MARK_VAL_T(::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19);
+MARK_VAL_T(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18);
+MARK_VAL_T(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17);
+MARK_VAL_T(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformAdditionalContentModel*, "", "OculusPlatformAdditionalContentModel");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0*, "", "OculusPlatformAdditionalContentModel/<>c__DisplayClass20_0");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25, "", "OculusPlatformAdditionalContentModel/<CheckForNewEntitlementsAsync>d__25");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24, "",
-                    "OculusPlatformAdditionalContentModel/<GetExcludedLevelIdsInternalAsync>d__24");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14, "",
-                    "OculusPlatformAdditionalContentModel/<GetGameDlcEntitlementStatusInternalAsync>d__14");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15, "",
-                    "OculusPlatformAdditionalContentModel/<GetLevelDataVersionInternalAsync>d__15");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12, "",
-                    "OculusPlatformAdditionalContentModel/<GetLevelEntitlementStatusInternalAsync>d__12");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13, "",
-                    "OculusPlatformAdditionalContentModel/<GetPackEntitlementStatusInternalAsync>d__13");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10, "",
-                    "OculusPlatformAdditionalContentModel/<GetRedirectedLevelPackProductData>d__10");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16, "", "OculusPlatformAdditionalContentModel/<IsDataValidAsync>d__16");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20, "", "OculusPlatformAdditionalContentModel/<LaunchCheckoutFlow>d__20");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19, "", "OculusPlatformAdditionalContentModel/<OpenGameDlcProductStoreAsync>d__19");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18, "", "OculusPlatformAdditionalContentModel/<OpenLevelPackProductStoreAsync>d__18");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17, "", "OculusPlatformAdditionalContentModel/<OpenLevelProductStoreAsync>d__17");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0*, "", "OculusPlatformAdditionalContentModel/<>c__DisplayClass19_0");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24, "", "OculusPlatformAdditionalContentModel/<CheckForNewEntitlementsAsync>d__24");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23, "",
+                    "OculusPlatformAdditionalContentModel/<GetDiscontinuedLevelIdsInternalAsync>d__23");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13, "",
+                    "OculusPlatformAdditionalContentModel/<GetGameDlcEntitlementStatusInternalAsync>d__13");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14, "",
+                    "OculusPlatformAdditionalContentModel/<GetLevelDataVersionInternalAsync>d__14");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11, "",
+                    "OculusPlatformAdditionalContentModel/<GetLevelEntitlementStatusInternalAsync>d__11");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12, "",
+                    "OculusPlatformAdditionalContentModel/<GetPackEntitlementStatusInternalAsync>d__12");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9, "",
+                    "OculusPlatformAdditionalContentModel/<GetRedirectedLevelPackProductData>d__9");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15, "", "OculusPlatformAdditionalContentModel/<IsDataValidAsync>d__15");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19, "", "OculusPlatformAdditionalContentModel/<LaunchCheckoutFlow>d__19");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18, "", "OculusPlatformAdditionalContentModel/<OpenGameDlcProductStoreAsync>d__18");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17, "", "OculusPlatformAdditionalContentModel/<OpenLevelPackProductStoreAsync>d__17");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16, "", "OculusPlatformAdditionalContentModel/<OpenLevelProductStoreAsync>d__16");
 // [CompilerGenerated]
 // Dependencies System.Object, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: OculusPlatformAdditionalContentModel/<>c__DisplayClass20_0
-class CORDL_TYPE OculusPlatformAdditionalContentModel___c__DisplayClass20_0 : public ::System::Object {
+// CS Name: OculusPlatformAdditionalContentModel/<>c__DisplayClass19_0
+class CORDL_TYPE OculusPlatformAdditionalContentModel___c__DisplayClass19_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field cancellationToken, offset 0x18, size 0x8
@@ -218,12 +218,12 @@ public:
   __declspec(property(get = __cordl_internal_get_launchCheckoutFlowTaskSource, put = __cordl_internal_set_launchCheckoutFlowTaskSource)) ::System::Threading::Tasks::TaskCompletionSource_1<
       ::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>* launchCheckoutFlowTaskSource;
 
-  static inline ::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0* New_ctor();
+  static inline ::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0* New_ctor();
 
-  /// @brief Method <LaunchCheckoutFlow>b__0, addr 0x39abdec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <LaunchCheckoutFlow>b__0, addr 0x39b00f8, size 0x58, virtual false, abstract: false, final false
   inline void _LaunchCheckoutFlow_b__0();
 
-  /// @brief Method <LaunchCheckoutFlow>b__1, addr 0x39abe44, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <LaunchCheckoutFlow>b__1, addr 0x39b0150, size 0x64, virtual false, abstract: false, final false
   inline void _LaunchCheckoutFlow_b__1(::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>* msg);
 
   constexpr ::System::Threading::CancellationToken const& __cordl_internal_get_cancellationToken() const;
@@ -238,22 +238,22 @@ public:
 
   constexpr void __cordl_internal_set_launchCheckoutFlowTaskSource(::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>* value);
 
-  /// @brief Method .ctor, addr 0x39abde8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39b00f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr OculusPlatformAdditionalContentModel___c__DisplayClass20_0();
+  constexpr OculusPlatformAdditionalContentModel___c__DisplayClass19_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformAdditionalContentModel___c__DisplayClass20_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformAdditionalContentModel___c__DisplayClass19_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  OculusPlatformAdditionalContentModel___c__DisplayClass20_0(OculusPlatformAdditionalContentModel___c__DisplayClass20_0&&) = delete;
+  OculusPlatformAdditionalContentModel___c__DisplayClass19_0(OculusPlatformAdditionalContentModel___c__DisplayClass19_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformAdditionalContentModel___c__DisplayClass20_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformAdditionalContentModel___c__DisplayClass19_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusPlatformAdditionalContentModel___c__DisplayClass20_0(OculusPlatformAdditionalContentModel___c__DisplayClass20_0 const&) = delete;
+  OculusPlatformAdditionalContentModel___c__DisplayClass19_0(OculusPlatformAdditionalContentModel___c__DisplayClass19_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14226 };
@@ -267,11 +267,11 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0, ___launchCheckoutFlowTaskSource) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0, ___launchCheckoutFlowTaskSource) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0, ___cancellationToken) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0, ___cancellationToken) == 0x18, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0) == 0x20, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
@@ -279,18 +279,18 @@ static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel___c
 // System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: OculusPlatformAdditionalContentModel/<CheckForNewEntitlementsAsync>d__25
-struct CORDL_TYPE OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25 {
+// CS Name: OculusPlatformAdditionalContentModel/<CheckForNewEntitlementsAsync>d__24
+struct CORDL_TYPE OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39abea8, size 0x1048, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39b01b4, size 0x1048, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39acef0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39b11fc, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -298,7 +298,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25();
+  constexpr OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::AdditionalContentModel_UpdateEntitlementsResult>", modifiers: "", def_value: None, comment: None }, CppParam {
@@ -307,7 +307,7 @@ public:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*>*>", modifiers: "", def_value: None, comment: None }, CppParam {
   // name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::PurchaseList*>*>", modifiers: "", def_value: None, comment: None
   // }]
-  constexpr OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25(
+  constexpr OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::AdditionalContentModel_UpdateEntitlementsResult> __t__builder,
       ::System::Threading::CancellationToken cancellationToken, ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*>*> __u__1,
@@ -340,37 +340,37 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25, cancellationToken) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24, cancellationToken) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25, __u__2) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24, __u__2) == 0x38, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25) == 0x40, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: OculusPlatformAdditionalContentModel/<GetExcludedLevelIdsInternalAsync>d__24
-struct CORDL_TYPE OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24 {
+// CS Name: OculusPlatformAdditionalContentModel/<GetDiscontinuedLevelIdsInternalAsync>d__23
+struct CORDL_TYPE OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39acf70, size 0x310, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39b127c, size 0x310, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39ad280, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39b158c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -378,17 +378,17 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24();
+  constexpr OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<::StringW>>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
   // "::GlobalNamespace::OculusPlatformAdditionalContentModel*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
-  constexpr OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24(int32_t __1__state,
-                                                                                         ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<::StringW>> __t__builder,
-                                                                                         ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this,
-                                                                                         ::System::Threading::CancellationToken cancellationToken,
-                                                                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
+  constexpr OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23(int32_t __1__state,
+                                                                                             ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<::StringW>> __t__builder,
+                                                                                             ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this,
+                                                                                             ::System::Threading::CancellationToken cancellationToken,
+                                                                                             ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14228 };
@@ -414,35 +414,35 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24, cancellationToken) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23, cancellationToken) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24) == 0x38, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies EntitlementStatus, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: OculusPlatformAdditionalContentModel/<GetGameDlcEntitlementStatusInternalAsync>d__14
-struct CORDL_TYPE OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14 {
+// CS Name: OculusPlatformAdditionalContentModel/<GetGameDlcEntitlementStatusInternalAsync>d__13
+struct CORDL_TYPE OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39ad300, size 0x2dc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39b160c, size 0x2dc, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39ad5dc, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39b18e8, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -450,7 +450,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14();
+  constexpr OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
@@ -458,7 +458,7 @@ public:
   // comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "_sku_5__2", ty:
   // "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment:
   // None }]
-  constexpr OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14(
+  constexpr OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementStatus> __t__builder,
       ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this, ::StringW gameDlcId, ::System::Threading::CancellationToken cancellationToken, ::StringW _sku_5__2,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
@@ -493,39 +493,39 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14, gameDlcId) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13, gameDlcId) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14, cancellationToken) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13, cancellationToken) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14, _sku_5__2) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13, _sku_5__2) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14, __u__1) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13, __u__1) == 0x40, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14) == 0x48, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies BeatmapLevelDataVersion, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: OculusPlatformAdditionalContentModel/<GetLevelDataVersionInternalAsync>d__15
-struct CORDL_TYPE OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15 {
+// CS Name: OculusPlatformAdditionalContentModel/<GetLevelDataVersionInternalAsync>d__14
+struct CORDL_TYPE OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39ad65c, size 0x29c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39b1968, size 0x29c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39ad8f8, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39b1c04, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -533,7 +533,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15();
+  constexpr OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::BeatmapLevelDataVersion>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
@@ -541,7 +541,7 @@ public:
   // None }, CppParam { name: "token", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "_additionalSkus_5__2", ty:
   // "::GlobalNamespace::OculusLevelProductCollectionModel_AdditionalSkus*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
-  constexpr OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15(
+  constexpr OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::BeatmapLevelDataVersion> __t__builder,
       ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this, ::StringW levelId, ::System::Threading::CancellationToken token,
       ::GlobalNamespace::OculusLevelProductCollectionModel_AdditionalSkus* _additionalSkus_5__2, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
@@ -576,39 +576,39 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15, levelId) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14, levelId) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15, token) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14, token) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15, _additionalSkus_5__2) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14, _additionalSkus_5__2) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15, __u__1) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14, __u__1) == 0x40, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15) == 0x48, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies EntitlementStatus, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: OculusPlatformAdditionalContentModel/<GetLevelEntitlementStatusInternalAsync>d__12
-struct CORDL_TYPE OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12 {
+// CS Name: OculusPlatformAdditionalContentModel/<GetLevelEntitlementStatusInternalAsync>d__11
+struct CORDL_TYPE OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39ad978, size 0x284, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39b1c84, size 0x284, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39adbfc, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39b1f08, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -616,14 +616,14 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12();
+  constexpr OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
   // "::GlobalNamespace::OculusPlatformAdditionalContentModel*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
-  constexpr OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12(
+  constexpr OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementStatus> __t__builder,
       ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this, ::System::Threading::CancellationToken cancellationToken, ::StringW levelId,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
@@ -655,37 +655,37 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12, cancellationToken) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11, cancellationToken) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12, levelId) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11, levelId) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12, __u__1) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12) == 0x40, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies EntitlementStatus, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: OculusPlatformAdditionalContentModel/<GetPackEntitlementStatusInternalAsync>d__13
-struct CORDL_TYPE OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13 {
+// CS Name: OculusPlatformAdditionalContentModel/<GetPackEntitlementStatusInternalAsync>d__12
+struct CORDL_TYPE OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39adc7c, size 0x284, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39b1f88, size 0x284, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39adf00, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39b220c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -693,14 +693,14 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13();
+  constexpr OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
   // "::GlobalNamespace::OculusPlatformAdditionalContentModel*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "packId", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
-  constexpr OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13(
+  constexpr OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementStatus> __t__builder,
       ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this, ::System::Threading::CancellationToken cancellationToken, ::StringW packId,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
@@ -732,37 +732,37 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13, cancellationToken) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12, cancellationToken) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13, packId) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12, packId) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13, __u__1) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13) == 0x40, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies EntitlementStatus, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: OculusPlatformAdditionalContentModel/<GetRedirectedLevelPackProductData>d__10
-struct CORDL_TYPE OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10 {
+// CS Name: OculusPlatformAdditionalContentModel/<GetRedirectedLevelPackProductData>d__9
+struct CORDL_TYPE OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39adf80, size 0x3b8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39b228c, size 0x3b8, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39ae338, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39b2644, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -770,7 +770,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10();
+  constexpr OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
@@ -779,11 +779,11 @@ public:
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "_levelPackRedirectionData_5__3", ty: "::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackRedirectionData*",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "",
   // def_value: None, comment: None }]
-  constexpr OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder,
-                                                                                          ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this, ::StringW packId,
-                                                                                          ::System::Threading::CancellationToken cancellationToken, ::StringW _originalSku_5__2,
-                                                                                          ::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackRedirectionData* _levelPackRedirectionData_5__3,
-                                                                                          ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
+  constexpr OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder,
+                                                                                         ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this, ::StringW packId,
+                                                                                         ::System::Threading::CancellationToken cancellationToken, ::StringW _originalSku_5__2,
+                                                                                         ::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackRedirectionData* _levelPackRedirectionData_5__3,
+                                                                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14233 };
@@ -818,23 +818,23 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10, packId) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9, packId) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10, cancellationToken) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9, cancellationToken) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10, _originalSku_5__2) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9, _originalSku_5__2) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10, _levelPackRedirectionData_5__3) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9, _levelPackRedirectionData_5__3) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10, __u__1) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9, __u__1) == 0x48, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10) == 0x50, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9) == 0x50, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
@@ -842,18 +842,18 @@ static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel__Ge
 // System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: OculusPlatformAdditionalContentModel/<IsDataValidAsync>d__16
-struct CORDL_TYPE OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16 {
+// CS Name: OculusPlatformAdditionalContentModel/<IsDataValidAsync>d__15
+struct CORDL_TYPE OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39ae3b8, size 0x43c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39b26c4, size 0x43c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39ae7f4, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39b2b00, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -861,14 +861,14 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16();
+  constexpr OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
   // "::GlobalNamespace::OculusPlatformAdditionalContentModel*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }, CppParam {
   // name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AdditionalContentModel_UpdateEntitlementsResult>", modifiers: "", def_value: None, comment: None }]
-  constexpr OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16(
+  constexpr OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this,
       ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::TaskAwaiter __u__1,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AdditionalContentModel_UpdateEntitlementsResult> __u__2) noexcept;
@@ -900,19 +900,19 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16, cancellationToken) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15, cancellationToken) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16, __u__2) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15, __u__2) == 0x38, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16) == 0x40, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
@@ -920,18 +920,18 @@ static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel__Is
 // System.Threading.CancellationToken, System.Threading.CancellationTokenRegistration
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: OculusPlatformAdditionalContentModel/<LaunchCheckoutFlow>d__20
-struct CORDL_TYPE OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20 {
+// CS Name: OculusPlatformAdditionalContentModel/<LaunchCheckoutFlow>d__19
+struct CORDL_TYPE OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39ae874, size 0x6ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39b2b80, size 0x6ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39aef60, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39b326c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -939,7 +939,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20();
+  constexpr OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>", modifiers: "", def_value: None, comment: None }, CppParam {
@@ -949,7 +949,7 @@ public:
   // ty: "::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>", modifiers: "", def_value: None, comment: None }, CppParam { name:
   // "__u__2", ty: "::System::Runtime::CompilerServices::ValueTaskAwaiter", modifiers: "", def_value: None, comment: None }]
-  constexpr OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20(
+  constexpr OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*> __t__builder,
       ::System::Threading::CancellationToken cancellationToken, ::StringW sku, ::System::Threading::CancellationTokenRegistration _ctr_5__2, ::System::Object* __7__wrap2, int32_t __7__wrap3,
       ::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>* __7__wrap4,
@@ -995,45 +995,45 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20, cancellationToken) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19, cancellationToken) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20, sku) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19, sku) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20, _ctr_5__2) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19, _ctr_5__2) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20, __7__wrap2) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19, __7__wrap2) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20, __7__wrap3) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19, __7__wrap3) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20, __7__wrap4) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19, __7__wrap4) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20, __u__1) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19, __u__1) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20, __u__2) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19, __u__2) == 0x68, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20) == 0x78, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19) == 0x78, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies OpenProductStoreResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: OculusPlatformAdditionalContentModel/<OpenGameDlcProductStoreAsync>d__19
-struct CORDL_TYPE OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19 {
+// CS Name: OculusPlatformAdditionalContentModel/<OpenGameDlcProductStoreAsync>d__18
+struct CORDL_TYPE OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39aefe0, size 0x48c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39b32ec, size 0x48c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39af46c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39b3778, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1041,14 +1041,14 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19();
+  constexpr OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::OpenProductStoreResult>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
   // "::GlobalNamespace::OculusPlatformAdditionalContentModel*", modifiers: "", def_value: None, comment: None }, CppParam { name: "gameDlcId", ty: "::StringW", modifiers: "", def_value: None,
   // comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>", modifiers: "", def_value: None, comment: None }]
-  constexpr OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19(
+  constexpr OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::OpenProductStoreResult> __t__builder,
       ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this, ::StringW gameDlcId, ::System::Threading::CancellationToken cancellationToken,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*> __u__1) noexcept;
@@ -1080,37 +1080,37 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19, gameDlcId) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18, gameDlcId) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19, cancellationToken) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18, cancellationToken) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19, __u__1) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19) == 0x40, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies OpenProductStoreResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: OculusPlatformAdditionalContentModel/<OpenLevelPackProductStoreAsync>d__18
-struct CORDL_TYPE OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18 {
+// CS Name: OculusPlatformAdditionalContentModel/<OpenLevelPackProductStoreAsync>d__17
+struct CORDL_TYPE OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39af4ec, size 0x814, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39b37f8, size 0x814, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39afd00, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39b400c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1118,7 +1118,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18();
+  constexpr OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::OpenProductStoreResult>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
@@ -1126,7 +1126,7 @@ public:
   // comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>", modifiers: "", def_value: None, comment: None }]
-  constexpr OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18(
+  constexpr OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::OpenProductStoreResult> __t__builder,
       ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this, ::StringW levelPackId, ::System::Threading::CancellationToken cancellationToken,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1,
@@ -1162,39 +1162,39 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18, levelPackId) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17, levelPackId) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18, cancellationToken) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17, cancellationToken) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18, __u__1) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18, __u__2) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17, __u__2) == 0x40, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18) == 0x48, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies OpenProductStoreResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: OculusPlatformAdditionalContentModel/<OpenLevelProductStoreAsync>d__17
-struct CORDL_TYPE OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17 {
+// CS Name: OculusPlatformAdditionalContentModel/<OpenLevelProductStoreAsync>d__16
+struct CORDL_TYPE OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39afd80, size 0x46c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39b408c, size 0x46c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39b01ec, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39b44f8, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1202,14 +1202,14 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17();
+  constexpr OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::OpenProductStoreResult>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
   // "::GlobalNamespace::OculusPlatformAdditionalContentModel*", modifiers: "", def_value: None, comment: None }, CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: None, comment:
   // None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>", modifiers: "", def_value: None, comment: None }]
-  constexpr OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17(
+  constexpr OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::OpenProductStoreResult> __t__builder,
       ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this, ::StringW levelId, ::System::Threading::CancellationToken cancellationToken,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*> __u__1) noexcept;
@@ -1241,19 +1241,19 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17, levelId) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16, levelId) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17, cancellationToken) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16, cancellationToken) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17, __u__1) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17) == 0x40, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies AdditionalContentModel, System.TimeSpan
@@ -1263,39 +1263,36 @@ namespace GlobalNamespace {
 class CORDL_TYPE OculusPlatformAdditionalContentModel : public ::GlobalNamespace::AdditionalContentModel {
 public:
   // Declarations
-  using _CheckForNewEntitlementsAsync_d__25 = ::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25;
+  using _CheckForNewEntitlementsAsync_d__24 = ::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24;
 
-  using _GetExcludedLevelIdsInternalAsync_d__24 = ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24;
+  using _GetDiscontinuedLevelIdsInternalAsync_d__23 = ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23;
 
-  using _GetGameDlcEntitlementStatusInternalAsync_d__14 = ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14;
+  using _GetGameDlcEntitlementStatusInternalAsync_d__13 = ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13;
 
-  using _GetLevelDataVersionInternalAsync_d__15 = ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15;
+  using _GetLevelDataVersionInternalAsync_d__14 = ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14;
 
-  using _GetLevelEntitlementStatusInternalAsync_d__12 = ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12;
+  using _GetLevelEntitlementStatusInternalAsync_d__11 = ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11;
 
-  using _GetPackEntitlementStatusInternalAsync_d__13 = ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13;
+  using _GetPackEntitlementStatusInternalAsync_d__12 = ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12;
 
-  using _GetRedirectedLevelPackProductData_d__10 = ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10;
+  using _GetRedirectedLevelPackProductData_d__9 = ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9;
 
-  using _IsDataValidAsync_d__16 = ::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16;
+  using _IsDataValidAsync_d__15 = ::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15;
 
-  using _LaunchCheckoutFlow_d__20 = ::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20;
+  using _LaunchCheckoutFlow_d__19 = ::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19;
 
-  using _OpenGameDlcProductStoreAsync_d__19 = ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19;
+  using _OpenGameDlcProductStoreAsync_d__18 = ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18;
 
-  using _OpenLevelPackProductStoreAsync_d__18 = ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18;
+  using _OpenLevelPackProductStoreAsync_d__17 = ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17;
 
-  using _OpenLevelProductStoreAsync_d__17 = ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17;
+  using _OpenLevelProductStoreAsync_d__16 = ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16;
 
-  using __c__DisplayClass20_0 = ::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0;
+  using __c__DisplayClass19_0 = ::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0;
 
   /// @brief Field _entitlementsSKU, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__entitlementsSKU, put = __cordl_internal_set__entitlementsSKU)) ::System::Collections::Generic::HashSet_1<::StringW>* _entitlementsSKU;
 
-  /// @brief Field _excludedLevels, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__excludedLevels, put = __cordl_internal_set__excludedLevels)) ::ArrayW<::StringW> _excludedLevels;
-
-  /// @brief Field _isDataValid, offset 0x40, size 0x1
+  /// @brief Field _isDataValid, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__isDataValid, put = __cordl_internal_set__isDataValid)) bool _isDataValid;
 
   /// @brief Field _oculusGameDlcProductCollectionModel, offset 0x20, size 0x8
@@ -1306,123 +1303,111 @@ public:
   __declspec(property(get = __cordl_internal_get__oculusLevelProductCollectionModel,
                       put = __cordl_internal_set__oculusLevelProductCollectionModel)) ::GlobalNamespace::OculusLevelProductCollectionModel* _oculusLevelProductCollectionModel;
 
-  /// @brief Field _semaphoreSlim, offset 0x38, size 0x8
+  /// @brief Field _semaphoreSlim, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__semaphoreSlim, put = __cordl_internal_set__semaphoreSlim)) ::System::Threading::SemaphoreSlim* _semaphoreSlim;
 
   /// @brief Field kOculusRequestTimeout, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_kOculusRequestTimeout, put = setStaticF_kOculusRequestTimeout)) ::System::TimeSpan kOculusRequestTimeout;
 
-  /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<CheckForNewEntitlementsAsync>d__25))]
-  /// @brief Method CheckForNewEntitlementsAsync, addr 0x39ab634, size 0xec, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<CheckForNewEntitlementsAsync>d__24))]
+  /// @brief Method CheckForNewEntitlementsAsync, addr 0x39afacc, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::AdditionalContentModel_UpdateEntitlementsResult>* CheckForNewEntitlementsAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Dispose, addr 0x39aa0e0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x39ae578, size 0x4, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<GetExcludedLevelIdsInternalAsync>d__24))]
-  /// @brief Method GetExcludedLevelIdsInternalAsync, addr 0x39ab544, size 0xf0, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* GetExcludedLevelIdsInternalAsync(::System::Threading::CancellationToken cancellationToken);
+  /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<GetDiscontinuedLevelIdsInternalAsync>d__23))]
+  /// @brief Method GetDiscontinuedLevelIdsInternalAsync, addr 0x39af9dc, size 0xf0, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* GetDiscontinuedLevelIdsInternalAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<GetGameDlcEntitlementStatusInternalAsync>d__14))]
-  /// @brief Method GetGameDlcEntitlementStatusInternalAsync, addr 0x39aa3d8, size 0xf4, virtual true, abstract: false, final false
+  /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<GetGameDlcEntitlementStatusInternalAsync>d__13))]
+  /// @brief Method GetGameDlcEntitlementStatusInternalAsync, addr 0x39ae870, size 0xf4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetGameDlcEntitlementStatusInternalAsync(::StringW gameDlcId,
                                                                                                                             ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetGameDlcSku, addr 0x39ab720, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetGameDlcSku, addr 0x39afbb8, size 0xb0, virtual false, abstract: false, final false
   inline ::StringW GetGameDlcSku(::StringW gameDlcId);
 
-  /// @brief Method GetLevelDataAdditionalSkus, addr 0x39ab950, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetLevelDataAdditionalSkus, addr 0x39afde8, size 0x40, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OculusLevelProductCollectionModel_AdditionalSkus* GetLevelDataAdditionalSkus(::StringW levelId);
 
-  /// @brief Method GetLevelDataVersion, addr 0x39ab990, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetLevelDataVersion, addr 0x39afe28, size 0x70, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelDataVersion GetLevelDataVersion(::GlobalNamespace::OculusLevelProductCollectionModel_AdditionalSkus* additionalSkus);
 
-  /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<GetLevelDataVersionInternalAsync>d__15))]
-  /// @brief Method GetLevelDataVersionInternalAsync, addr 0x39aa4cc, size 0xf4, virtual true, abstract: false, final false
+  /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<GetLevelDataVersionInternalAsync>d__14))]
+  /// @brief Method GetLevelDataVersionInternalAsync, addr 0x39ae964, size 0xf4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* GetLevelDataVersionInternalAsync(::StringW levelId, ::System::Threading::CancellationToken token);
 
-  /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<GetLevelEntitlementStatusInternalAsync>d__12))]
-  /// @brief Method GetLevelEntitlementStatusInternalAsync, addr 0x39aa1f8, size 0xf0, virtual true, abstract: false, final false
+  /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<GetLevelEntitlementStatusInternalAsync>d__11))]
+  /// @brief Method GetLevelEntitlementStatusInternalAsync, addr 0x39ae690, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetLevelEntitlementStatusInternalAsync(::StringW levelId, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetLevelProductData, addr 0x39aa0e4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetLevelProductData, addr 0x39ae57c, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData* GetLevelProductData(::StringW GetLevelProductData);
 
-  /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<GetPackEntitlementStatusInternalAsync>d__13))]
-  /// @brief Method GetPackEntitlementStatusInternalAsync, addr 0x39aa2e8, size 0xf0, virtual true, abstract: false, final false
+  /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<GetPackEntitlementStatusInternalAsync>d__12))]
+  /// @brief Method GetPackEntitlementStatusInternalAsync, addr 0x39ae780, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetPackEntitlementStatusInternalAsync(::StringW packId, ::System::Threading::CancellationToken cancellationToken);
 
-  /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<GetRedirectedLevelPackProductData>d__10))]
-  /// @brief Method GetRedirectedLevelPackProductData, addr 0x39aa0fc, size 0xf4, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<GetRedirectedLevelPackProductData>d__9))]
+  /// @brief Method GetRedirectedLevelPackProductData, addr 0x39ae594, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetRedirectedLevelPackProductData(::StringW packId, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method HasLevelEntitlement, addr 0x39ab7d0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method HasLevelEntitlement, addr 0x39afc68, size 0xd4, virtual false, abstract: false, final false
   inline bool HasLevelEntitlement(::StringW levelId);
 
-  /// @brief Method HasLevelEntitlement, addr 0x39ab8a4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method HasLevelEntitlement, addr 0x39afd3c, size 0xac, virtual false, abstract: false, final false
   inline bool HasLevelEntitlement(::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData* productData);
 
-  /// @brief Method HasLevelPackEntitlement, addr 0x39aba00, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method HasLevelPackEntitlement, addr 0x39afe98, size 0xc8, virtual false, abstract: false, final false
   inline bool HasLevelPackEntitlement(::StringW levelPackId);
 
-  /// @brief Method Initialize, addr 0x39aa0dc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x39ae574, size 0x4, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method InvalidateDataInternal, addr 0x39aa1f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method InvalidateDataInternal, addr 0x39ae688, size 0x8, virtual true, abstract: false, final false
   inline void InvalidateDataInternal();
 
-  /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<IsDataValidAsync>d__16))]
-  /// @brief Method IsDataValidAsync, addr 0x39aa5c0, size 0xec, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<IsDataValidAsync>d__15))]
+  /// @brief Method IsDataValidAsync, addr 0x39aea58, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* IsDataValidAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method IsPackBetterBuyThanLevelAsync, addr 0x39aaa78, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method IsPackBetterBuyThanLevelAsync, addr 0x39aef10, size 0x70, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IsPackBetterBuyThanLevelResult>* IsPackBetterBuyThanLevelAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
 
-  /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<LaunchCheckoutFlow>d__20))]
-  /// @brief Method LaunchCheckoutFlow, addr 0x39aa980, size 0xf8, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<LaunchCheckoutFlow>d__19))]
+  /// @brief Method LaunchCheckoutFlow, addr 0x39aee18, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>* LaunchCheckoutFlow(::StringW sku,
                                                                                                                                               ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::OculusPlatformAdditionalContentModel* New_ctor();
 
-  /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<OpenGameDlcProductStoreAsync>d__19))]
-  /// @brief Method OpenGameDlcProductStoreAsync, addr 0x39aa890, size 0xf0, virtual true, abstract: false, final false
+  /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<OpenGameDlcProductStoreAsync>d__18))]
+  /// @brief Method OpenGameDlcProductStoreAsync, addr 0x39aed28, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenGameDlcProductStoreAsync(::StringW gameDlcId, ::System::Threading::CancellationToken cancellationToken);
 
-  /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<OpenLevelPackProductStoreAsync>d__18))]
-  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x39aa79c, size 0xf4, virtual true, abstract: false, final false
+  /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<OpenLevelPackProductStoreAsync>d__17))]
+  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x39aec34, size 0xf4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelPackProductStoreAsync(::StringW levelPackId, ::System::Threading::CancellationToken cancellationToken);
 
-  /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<OpenLevelProductStoreAsync>d__17))]
-  /// @brief Method OpenLevelProductStoreAsync, addr 0x39aa6ac, size 0xf0, virtual true, abstract: false, final false
+  /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<OpenLevelProductStoreAsync>d__16))]
+  /// @brief Method OpenLevelProductStoreAsync, addr 0x39aeb44, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelProductStoreAsync(::StringW levelId, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method OpenStore, addr 0x39aaae8, size 0xa5c, virtual true, abstract: false, final false
+  /// @brief Method OpenStore, addr 0x39aef80, size 0xa5c, virtual true, abstract: false, final false
   inline void OpenStore(::StringW uri);
 
   /// [CompilerGenerated]
-  /// @brief Method <GetExcludedLevelIdsInternalAsync>b__24_0, addr 0x39abccc, size 0x44, virtual false, abstract: false, final false
-  inline bool _GetExcludedLevelIdsInternalAsync_b__24_0(::StringW levelId);
+  /// @brief Method <GetRedirectedLevelPackProductData>g__GetSku|9_0, addr 0x39b008c, size 0x38, virtual false, abstract: false, final false
+  static inline ::StringW _GetRedirectedLevelPackProductData_g__GetSku_9_0(::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData* levelPackProductData);
 
   /// [CompilerGenerated]
-  /// @brief Method <GetRedirectedLevelPackProductData>g__GetSku|10_0, addr 0x39abc64, size 0x38, virtual false, abstract: false, final false
-  static inline ::StringW _GetRedirectedLevelPackProductData_g__GetSku_10_0(::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData* levelPackProductData);
-
-  /// [CompilerGenerated]
-  /// @brief Method <HasLevelPackEntitlement>b__31_0, addr 0x39abd10, size 0xd8, virtual false, abstract: false, final false
-  inline bool _HasLevelPackEntitlement_b__31_0(::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData* levelProductData);
-
-  /// [CompilerGenerated]
-  /// @brief Method <OpenLevelProductStoreAsync>g__GetSkuForProductFlow|17_0, addr 0x39abc9c, size 0x30, virtual false, abstract: false, final false
-  static inline ::StringW _OpenLevelProductStoreAsync_g__GetSkuForProductFlow_17_0(::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData* levelProductData);
+  /// @brief Method <OpenLevelProductStoreAsync>g__GetSkuForProductFlow|16_0, addr 0x39b00c4, size 0x30, virtual false, abstract: false, final false
+  static inline ::StringW _OpenLevelProductStoreAsync_g__GetSkuForProductFlow_16_0(::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData* levelProductData);
 
   constexpr ::System::Collections::Generic::HashSet_1<::StringW>* const& __cordl_internal_get__entitlementsSKU() const;
 
   constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get__entitlementsSKU();
-
-  constexpr ::ArrayW<::StringW> const& __cordl_internal_get__excludedLevels() const;
-
-  constexpr ::ArrayW<::StringW>& __cordl_internal_get__excludedLevels();
 
   constexpr bool const& __cordl_internal_get__isDataValid() const;
 
@@ -1442,8 +1427,6 @@ public:
 
   constexpr void __cordl_internal_set__entitlementsSKU(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
-  constexpr void __cordl_internal_set__excludedLevels(::ArrayW<::StringW> value);
-
   constexpr void __cordl_internal_set__isDataValid(bool value);
 
   constexpr void __cordl_internal_set__oculusGameDlcProductCollectionModel(::GlobalNamespace::OculusGameDlcProductCollectionModel* value);
@@ -1452,7 +1435,7 @@ public:
 
   constexpr void __cordl_internal_set__semaphoreSlim(::System::Threading::SemaphoreSlim* value);
 
-  /// @brief Method .ctor, addr 0x39abad8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39aff60, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::TimeSpan getStaticF_kOculusRequestTimeout();
@@ -1490,13 +1473,10 @@ public:
   /// @brief Field _entitlementsSKU, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::StringW>* ____entitlementsSKU;
 
-  /// @brief Field _excludedLevels, offset: 0x30, size: 0x8, def value: None
-  ::ArrayW<::StringW> ____excludedLevels;
-
-  /// @brief Field _semaphoreSlim, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _semaphoreSlim, offset: 0x30, size: 0x8, def value: None
   ::System::Threading::SemaphoreSlim* ____semaphoreSlim;
 
-  /// @brief Field _isDataValid, offset: 0x40, size: 0x1, def value: None
+  /// @brief Field _isDataValid, offset: 0x38, size: 0x1, def value: None
   bool ____isDataValid;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -1508,12 +1488,10 @@ static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel, 
 
 static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel, ____entitlementsSKU) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel, ____excludedLevels) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel, ____semaphoreSlim) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel, ____semaphoreSlim) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel, ____isDataValid) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusPlatformAdditionalContentModel, ____isDataValid) == 0x40, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel) == 0x48, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::OculusPlatformAdditionalContentModel) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace

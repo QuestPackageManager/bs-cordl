@@ -74,7 +74,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Jobs::IJobParallelForTransform"
   constexpr operator ::UnityEngine::Jobs::IJobParallelForTransform*();
 
-  /// @brief Method Execute, addr 0x70166b4, size 0x228, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x7017794, size 0x228, virtual true, abstract: false, final true
   inline void Execute(int32_t index, ::UnityEngine::Jobs::TransformAccess transform);
 
   /// @brief Convert to "::UnityEngine::Jobs::IJobParallelForTransform"
@@ -91,7 +91,7 @@ public:
                                                         ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane TransformPlane, bool TransformTweening) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21629 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21643 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -129,7 +129,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Jobs::IJobParallelForTransform"
   constexpr operator ::UnityEngine::Jobs::IJobParallelForTransform*();
 
-  /// @brief Method Execute, addr 0x70168dc, size 0x27c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x70179bc, size 0x27c, virtual true, abstract: false, final true
   inline void Execute(int32_t index, ::UnityEngine::Jobs::TransformAccess transform);
 
   /// @brief Convert to "::UnityEngine::Jobs::IJobParallelForTransform"
@@ -146,7 +146,7 @@ public:
                                                           ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane TransformPlane, bool TransformTweening) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21630 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21644 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -185,7 +185,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Jobs::IJobParallelForTransform"
   constexpr operator ::UnityEngine::Jobs::IJobParallelForTransform*();
 
-  /// @brief Method Execute, addr 0x7016b58, size 0x410, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x7017c38, size 0x410, virtual true, abstract: false, final true
   inline void Execute(int32_t index, ::UnityEngine::Jobs::TransformAccess transform);
 
   /// @brief Convert to "::UnityEngine::Jobs::IJobParallelForTransform"
@@ -204,7 +204,7 @@ public:
                                                          ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane TransformPlane, float_t InterpolationTime, float_t ExtrapolationTime) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21631 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21645 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -264,25 +264,25 @@ public:
   __declspec(property(get = getStaticF_s_WorldTransformAccessArrays, put = setStaticF_s_WorldTransformAccessArrays)) ::ArrayW<::UnityEngine::Jobs::TransformAccessArray> s_WorldTransformAccessArrays;
 
   /// [RequiredByNativeCode]
-  /// @brief Method CreateWorldTransformAccessArray, addr 0x7015ec0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method CreateWorldTransformAccessArray, addr 0x7016fa0, size 0xfc, virtual false, abstract: false, final false
   static inline void CreateWorldTransformAccessArray(::UnityEngine::LowLevelPhysics2D::PhysicsWorld world, int32_t capacity, int32_t desiredJobCount);
 
   /// [RequiredByNativeCode]
-  /// @brief Method DestroyWorldTransformAccessArray, addr 0x7015fbc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method DestroyWorldTransformAccessArray, addr 0x701709c, size 0xd8, virtual false, abstract: false, final false
   static inline void DestroyWorldTransformAccessArray(::UnityEngine::LowLevelPhysics2D::PhysicsWorld world);
 
-  /// @brief Method GetWorldTransformAccessArray, addr 0x7016094, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetWorldTransformAccessArray, addr 0x7017174, size 0x104, virtual false, abstract: false, final false
   static inline ::UnityEngine::Jobs::TransformAccessArray GetWorldTransformAccessArray(::UnityEngine::LowLevelPhysics2D::PhysicsWorld world);
 
   /// [RequiredByNativeCode]
-  /// @brief Method WriteTransformTweens, addr 0x7016460, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method WriteTransformTweens, addr 0x7017540, size 0x1e4, virtual false, abstract: false, final false
   static inline void WriteTransformTweens(::UnityEngine::LowLevelPhysics2D::PhysicsWorld world, double_t lastSimulationTimestamp, float_t lastSimulationDeltaTime,
                                           ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformWriteMode transformWriteMode,
                                           ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane transformPlane,
                                           ::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D_PhysicsBuffer transformWriteTweensBuffer);
 
   /// [RequiredByNativeCode]
-  /// @brief Method WriteWorldTransforms, addr 0x7016198, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method WriteWorldTransforms, addr 0x7017278, size 0x2c8, virtual false, abstract: false, final false
   static inline void WriteWorldTransforms(::UnityEngine::LowLevelPhysics2D::PhysicsWorld world, ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformWriteMode transformWriteMode,
                                           ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane transformPlane, int32_t eventCount, bool transformTweening);
 
@@ -295,7 +295,7 @@ public:
   constexpr PhysicsNativeMethods();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21632 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21646 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

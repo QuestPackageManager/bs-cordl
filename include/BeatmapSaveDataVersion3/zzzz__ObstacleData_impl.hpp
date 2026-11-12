@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapSaveDataVersion3::ObstacleData::*)()>(&::BeatmapSaveDataVersion3::ObstacleData::get_line)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a1262c;
+  constexpr static std::size_t addrs = 0x3a176b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::ObstacleData*>(), { "get_line", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapSaveDataVersion3::ObstacleData::*)()>(&::BeatmapSaveDataVersion3::ObstacleData::get_layer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a12634;
+  constexpr static std::size_t addrs = 0x3a176bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::ObstacleData*>(), { "get_layer", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::BeatmapSaveDataVersion3::ObstacleData::*)()>(&::BeatmapSaveDataVersion3::ObstacleData::get_duration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a1263c;
+  constexpr static std::size_t addrs = 0x3a176c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::ObstacleData*>(), { "get_duration", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapSaveDataVersion3::ObstacleData::*)()>(&::BeatmapSaveDataVersion3::ObstacleData::get_width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a12644;
+  constexpr static std::size_t addrs = 0x3a176cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::ObstacleData*>(), { "get_width", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapSaveDataVersion3::ObstacleData::*)()>(&::BeatmapSaveDataVersion3::ObstacleData::get_height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a1264c;
+  constexpr static std::size_t addrs = 0x3a176d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::ObstacleData*>(), { "get_height", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVersion3::ObstacleData::*)(float_t, int32_t, int32_t, float_t, int32_t, int32_t)>(
     &::BeatmapSaveDataVersion3::ObstacleData::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3a12654;
+  constexpr static std::size_t addrs = 0x3a176dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

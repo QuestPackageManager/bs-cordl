@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy::*)(::System::Collections::IList*)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x38d3060;
+  constexpr static std::size_t addrs = 0x38d74f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy*>(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy::*)(::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy::Contains)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x38d64d0;
+  constexpr static std::size_t addrs = 0x38da968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy*>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy::*)(::System::Array*, int32_t)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy::CopyTo)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x38d6588;
+  constexpr static std::size_t addrs = 0x38daa20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy*>(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy::get_Count)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x38d6644;
+  constexpr static std::size_t addrs = 0x38daadc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy*>(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy::GetEnumerator)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x38d66ec;
+  constexpr static std::size_t addrs = 0x38dab84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy*>(),
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy::*)(::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy::IndexOf)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x38d6790;
+  constexpr static std::size_t addrs = 0x38dac28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy*>(),
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy::get_IsFixedSize)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x38d6848;
+  constexpr static std::size_t addrs = 0x38dace0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy*>(),
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy::get_IsSynchronized)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x38d68f0;
+  constexpr static std::size_t addrs = 0x38dad88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy*>(),
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy::get_SyncRoot)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x38d6998;
+  constexpr static std::size_t addrs = 0x38dae30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy*>(),
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy::*)(int32_t)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy::GetValue)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x38d6a40;
+  constexpr static std::size_t addrs = 0x38daed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy*>(),

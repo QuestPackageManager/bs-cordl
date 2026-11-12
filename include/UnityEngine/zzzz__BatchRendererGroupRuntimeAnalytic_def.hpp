@@ -26,7 +26,7 @@ public:
   __declspec(property(get = __cordl_internal_get_brgRuntimeStatus, put = __cordl_internal_set_brgRuntimeStatus)) int32_t brgRuntimeStatus;
 
   /// [RequiredByNativeCode]
-  /// @brief Method CreateBatchRendererGroupRuntimeAnalytic, addr 0x6ef98bc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateBatchRendererGroupRuntimeAnalytic, addr 0x6efa99c, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::BatchRendererGroupRuntimeAnalytic* CreateBatchRendererGroupRuntimeAnalytic();
 
   static inline ::UnityEngine::BatchRendererGroupRuntimeAnalytic* New_ctor();
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set_brgRuntimeStatus(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6ef9844, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6efa924, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

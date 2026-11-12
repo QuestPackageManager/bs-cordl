@@ -34,7 +34,7 @@ public:
       get = __cordl_internal_get__gameDlcIdToProductData,
       put = __cordl_internal_set__gameDlcIdToProductData)) ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::OculusGameDlcProductSO>>* _gameDlcIdToProductData;
 
-  /// @brief Method GetGameDlcProductData, addr 0x39f5f1c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetGameDlcProductData, addr 0x39fb16c, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OculusGameDlcProductSO> GetGameDlcProductData(::StringW gameDlcId);
 
   static inline ::GlobalNamespace::OculusGameDlcProductCollectionModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusGameDlcProductSO>>* gameDlcProducts);
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set__gameDlcIdToProductData(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::OculusGameDlcProductSO>>* value);
 
-  /// @brief Method .ctor, addr 0x39f5bb8, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39fae08, size 0x364, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusGameDlcProductSO>>* gameDlcProducts);
 
 protected:
@@ -63,7 +63,7 @@ public:
   OculusGameDlcProductCollectionModel(OculusGameDlcProductCollectionModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14608 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14617 };
 
   /// @brief Field _gameDlcIdToProductData, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::OculusGameDlcProductSO>>* ____gameDlcIdToProductData;

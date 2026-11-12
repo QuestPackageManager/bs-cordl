@@ -343,25 +343,25 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Create, addr 0x6d1fa40, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6d20b20, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::ReflectionProbeManager Create();
 
-  /// @brief Method Dispose, addr 0x6d217f0, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6d228d0, size 0xd0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetScaleOffset, addr 0x6d216fc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetScaleOffset, addr 0x6d227dc, size 0xf4, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 GetScaleOffset(int32_t level, int32_t dataIndex, bool includePadding, bool yflip);
 
-  /// @brief Method Init, addr 0x6d1fa80, size 0x460, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6d20b60, size 0x460, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method UpdateGpuData, addr 0x6d1fee0, size 0x181c, virtual false, abstract: false, final false
+  /// @brief Method UpdateGpuData, addr 0x6d20fc0, size 0x181c, virtual false, abstract: false, final false
   inline void UpdateGpuData(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::CullingResults> cullResults);
 
-  /// @brief Method get_atlasRT, addr 0x6d1fa30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_atlasRT, addr 0x6d20b10, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> get_atlasRT();
 
-  /// @brief Method get_atlasRTHandle, addr 0x6d1fa38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_atlasRTHandle, addr 0x6d20b18, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_atlasRTHandle();
 
   /// @brief Convert to "::System::IDisposable"

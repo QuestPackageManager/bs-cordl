@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::TMPro::MarkToMarkAdjustmentRecord::*)()>(&::TMPro::MarkToMarkAdjustmentRecord::get_baseMarkGlyphID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d8c274;
+  constexpr static std::size_t addrs = 0x6d8d354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::MarkToMarkAdjustmentRecord>(), { "get_baseMarkGlyphID", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::MarkToMarkAdjustmentRecord::*)(uint32_t)>(&::TMPro::MarkToMarkAdjustmentRecord::set_baseMarkGlyphID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d8c27c;
+  constexpr static std::size_t addrs = 0x6d8d35c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::GlyphAnchorPoint (::TMPro::MarkToMarkAdjustmentRecord::*)()>(&::TMPro::MarkToMarkAdjustmentRecord::get_baseMarkGlyphAnchorPoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d8c284;
+  constexpr static std::size_t addrs = 0x6d8d364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::MarkToMarkAdjustmentRecord>(), { "get_baseMarkGlyphAnchorPoint", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::MarkToMarkAdjustmentRecord::*)(::TMPro::GlyphAnchorPoint)>(&::TMPro::MarkToMarkAdjustmentRecord::set_baseMarkGlyphAnchorPoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d8c28c;
+  constexpr static std::size_t addrs = 0x6d8d36c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::TMPro::MarkToMarkAdjustmentRecord::*)()>(&::TMPro::MarkToMarkAdjustmentRecord::get_combiningMarkGlyphID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d8c294;
+  constexpr static std::size_t addrs = 0x6d8d374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::MarkToMarkAdjustmentRecord>(), { "get_combiningMarkGlyphID", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::MarkToMarkAdjustmentRecord::*)(uint32_t)>(&::TMPro::MarkToMarkAdjustmentRecord::set_combiningMarkGlyphID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d8c29c;
+  constexpr static std::size_t addrs = 0x6d8d37c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::MarkPositionAdjustment (::TMPro::MarkToMarkAdjustmentRecord::*)()>(
     &::TMPro::MarkToMarkAdjustmentRecord::get_combiningMarkPositionAdjustment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d8c2a4;
+  constexpr static std::size_t addrs = 0x6d8d384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::MarkToMarkAdjustmentRecord>(), { "get_combiningMarkPositionAdjustment", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::MarkToMarkAdjustmentRecord::*)(::TMPro::MarkPositionAdjustment)>(
     &::TMPro::MarkToMarkAdjustmentRecord::set_combiningMarkPositionAdjustment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d8c2ac;
+  constexpr static std::size_t addrs = 0x6d8d38c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::MarkToMarkAdjustmentRecord>(),

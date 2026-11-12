@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithRejoinDialogResult::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithRejoinDialogResult::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x622e4e0;
+  constexpr static std::size_t addrs = 0x622e768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::RejoinDialogResult* (::Oculus::Platform::MessageWithRejoinDialogResult::*)()>(
     &::Oculus::Platform::MessageWithRejoinDialogResult::GetRejoinDialogResult)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6233298;
+  constexpr static std::size_t addrs = 0x6233520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::RejoinDialogResult* (::Oculus::Platform::MessageWithRejoinDialogResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithRejoinDialogResult::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x62332dc;
+  constexpr static std::size_t addrs = 0x6233564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

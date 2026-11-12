@@ -84,7 +84,7 @@ public:
   static ::UnityEngine::XR::InputTracking_TrackingStateEventType const TrackingLost;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22723 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22461 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -127,29 +127,29 @@ public:
 
   /// [NativeHeader("Modules/XR/Subsystems/Input/Public/XRInputTracking.h")]
   /// [StaticAccessor("XRInputTracking::Get()", (UnityEngine.Bindings.StaticAccessorType)0)]
-  /// @brief Method GetDeviceIdAtXRNode, addr 0x730f8fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetDeviceIdAtXRNode, addr 0x73109dc, size 0x3c, virtual false, abstract: false, final false
   static inline uint64_t GetDeviceIdAtXRNode(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method GetNodeStates, addr 0x730f670, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetNodeStates, addr 0x7310750, size 0x9c, virtual false, abstract: false, final false
   static inline void GetNodeStates(::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* nodeStates);
 
   /// [NativeConditional("ENABLE_VR")]
-  /// @brief Method GetNodeStates_Internal, addr 0x730f70c, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method GetNodeStates_Internal, addr 0x73107ec, size 0x1b4, virtual false, abstract: false, final false
   static inline void GetNodeStates_Internal(/* [NotNull] */ ::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* nodeStates);
 
-  /// @brief Method GetNodeStates_Internal_Injected, addr 0x730f8c0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetNodeStates_Internal_Injected, addr 0x73109a0, size 0x3c, virtual false, abstract: false, final false
   static inline void GetNodeStates_Internal_Injected(::by_ref<::UnityEngine::Bindings::BlittableListWrapper> nodeStates);
 
   /// [RequiredByNativeCode]
-  /// @brief Method InvokeTrackingEvent, addr 0x730f4c4, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method InvokeTrackingEvent, addr 0x73105a4, size 0x190, virtual false, abstract: false, final false
   static inline void InvokeTrackingEvent(::UnityEngine::XR::InputTracking_TrackingStateEventType eventType, ::UnityEngine::XR::XRNode nodeType, int64_t uniqueID, bool tracked);
 
   /// [CompilerGenerated]
-  /// @brief Method add_nodeAdded, addr 0x730f134, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method add_nodeAdded, addr 0x7310214, size 0xe4, virtual false, abstract: false, final false
   static inline void add_nodeAdded(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_nodeRemoved, addr 0x730f2fc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method add_nodeRemoved, addr 0x73103dc, size 0xe4, virtual false, abstract: false, final false
   static inline void add_nodeRemoved(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
 
   static inline ::System::Action_1<::UnityEngine::XR::XRNodeState>* getStaticF_nodeAdded();
@@ -161,11 +161,11 @@ public:
   static inline ::System::Action_1<::UnityEngine::XR::XRNodeState>* getStaticF_trackingLost();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_nodeAdded, addr 0x730f218, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method remove_nodeAdded, addr 0x73102f8, size 0xe4, virtual false, abstract: false, final false
   static inline void remove_nodeAdded(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_nodeRemoved, addr 0x730f3e0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method remove_nodeRemoved, addr 0x73104c0, size 0xe4, virtual false, abstract: false, final false
   static inline void remove_nodeRemoved(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
 
   static inline void setStaticF_nodeAdded(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
@@ -191,7 +191,7 @@ public:
   InputTracking(InputTracking const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22724 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22462 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

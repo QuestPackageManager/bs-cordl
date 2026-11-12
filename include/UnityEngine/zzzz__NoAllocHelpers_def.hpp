@@ -123,7 +123,7 @@ public:
   template <typename T> static inline ::ArrayW<T> ExtractArrayFromList(::System::Collections::Generic::List_1<T>* list);
 
   /// [RequiredByNativeCode]
-  /// @brief Method PrepareListForNativeFill, addr 0x6f7d3c4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method PrepareListForNativeFill, addr 0x6f7e4a4, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Array* PrepareListForNativeFill(::System::Object* list, ::System::Type* elementType, int32_t newSize);
 
   /// @brief Method ResetListContents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -132,7 +132,7 @@ public:
   /// @brief Method ResetListSize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void ResetListSize(::System::Collections::Generic::List_1<T>* list, int32_t size);
 
-  /// @brief Method SafeLength, addr 0x6f7d3b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SafeLength, addr 0x6f7e494, size 0x10, virtual false, abstract: false, final false
   static inline int32_t SafeLength(::System::Array* values);
 
   /// @brief Method SafeLength, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

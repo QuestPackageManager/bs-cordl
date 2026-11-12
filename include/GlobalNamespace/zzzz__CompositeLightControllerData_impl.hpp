@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Transform>> (::GlobalNamespace::CompositeLightControllerData::*)()>(
     &::GlobalNamespace::CompositeLightControllerData::get_children)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5deb36c;
+  constexpr static std::size_t addrs = 0x5deb484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CompositeLightControllerData*>(), { "get_children", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::CompositeLightControllerData::*)()>(
     &::GlobalNamespace::CompositeLightControllerData::get_defaultTransformTarget)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5deb374;
+  constexpr static std::size_t addrs = 0x5deb48c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::LightGroupSO> (::GlobalNamespace::CompositeLightControllerData::*)()>(
     &::GlobalNamespace::CompositeLightControllerData::get_lightGroupSO)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5deb37c;
+  constexpr static std::size_t addrs = 0x5deb494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CompositeLightControllerData*>(), { "get_lightGroupSO", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::CompositeLightControllerData::*)()>(&::GlobalNamespace::CompositeLightControllerData::get_groupId)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5de7b9c;
+  constexpr static std::size_t addrs = 0x5de7cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CompositeLightControllerData*>(), { "get_groupId", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CompositeLightControllerData::*)()>(&::GlobalNamespace::CompositeLightControllerData::get_rotationXMirrored)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5deb384;
+  constexpr static std::size_t addrs = 0x5deb49c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CompositeLightControllerData*>(), { "get_rotationXMirrored", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CompositeLightControllerData::*)()>(&::GlobalNamespace::CompositeLightControllerData::get_rotationYMirrored)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5deb38c;
+  constexpr static std::size_t addrs = 0x5deb4a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CompositeLightControllerData*>(), { "get_rotationYMirrored", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CompositeLightControllerData::*)()>(&::GlobalNamespace::CompositeLightControllerData::get_rotationZMirrored)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5deb394;
+  constexpr static std::size_t addrs = 0x5deb4ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CompositeLightControllerData*>(), { "get_rotationZMirrored", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CompositeLightControllerData::*)()>(&::GlobalNamespace::CompositeLightControllerData::get_translationXMirrored)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5deb39c;
+  constexpr static std::size_t addrs = 0x5deb4b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CompositeLightControllerData::*)()>(&::GlobalNamespace::CompositeLightControllerData::get_translationYMirrored)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5deb3a4;
+  constexpr static std::size_t addrs = 0x5deb4bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CompositeLightControllerData::*)()>(&::GlobalNamespace::CompositeLightControllerData::get_translationZMirrored)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5deb3ac;
+  constexpr static std::size_t addrs = 0x5deb4c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::FloatFxTargetsBucket*> (::GlobalNamespace::CompositeLightControllerData::*)()>(
     &::GlobalNamespace::CompositeLightControllerData::get_floatFxTargets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5deb3b4;
+  constexpr static std::size_t addrs = 0x5deb4cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CompositeLightControllerData*>(), { "get_floatFxTargets", {}, {} })));
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::ColorTargetsBucket*> (::GlobalNamespace::CompositeLightControllerData::*)()>(
     &::GlobalNamespace::CompositeLightControllerData::get_colorTargets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5deb3bc;
+  constexpr static std::size_t addrs = 0x5deb4d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CompositeLightControllerData*>(), { "get_colorTargets", {}, {} })));
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::CompositeTransformMode (::GlobalNamespace::CompositeLightControllerData::*)()>(
     &::GlobalNamespace::CompositeLightControllerData::get_transformMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5deb3c4;
+  constexpr static std::size_t addrs = 0x5deb4dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CompositeLightControllerData*>(), { "get_transformMode", {}, {} })));
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Transform>> (::GlobalNamespace::CompositeLightControllerData::*)()>(
     &::GlobalNamespace::CompositeLightControllerData::get_rotationTransformsX)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5deb3cc;
+  constexpr static std::size_t addrs = 0x5deb4e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Transform>> (::GlobalNamespace::CompositeLightControllerData::*)()>(
     &::GlobalNamespace::CompositeLightControllerData::get_rotationTransformsY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5deb3d4;
+  constexpr static std::size_t addrs = 0x5deb4ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Transform>> (::GlobalNamespace::CompositeLightControllerData::*)()>(
     &::GlobalNamespace::CompositeLightControllerData::get_rotationTransformsZ)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5deb3dc;
+  constexpr static std::size_t addrs = 0x5deb4f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Transform>> (::GlobalNamespace::CompositeLightControllerData::*)()>(
     &::GlobalNamespace::CompositeLightControllerData::get_translationTransformsX)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5deb3e4;
+  constexpr static std::size_t addrs = 0x5deb4fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Transform>> (::GlobalNamespace::CompositeLightControllerData::*)()>(
     &::GlobalNamespace::CompositeLightControllerData::get_translationTransformsY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5deb3ec;
+  constexpr static std::size_t addrs = 0x5deb504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Transform>> (::GlobalNamespace::CompositeLightControllerData::*)()>(
     &::GlobalNamespace::CompositeLightControllerData::get_translationTransformsZ)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5deb3f4;
+  constexpr static std::size_t addrs = 0x5deb50c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CompositeLightControllerData::*)()>(&::GlobalNamespace::CompositeLightControllerData::IsValid)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5deb3fc;
+  constexpr static std::size_t addrs = 0x5deb514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CompositeLightControllerData*>(), { "IsValid", {}, {} })));
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CompositeLightControllerData::*)()>(&::GlobalNamespace::CompositeLightControllerData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5deb41c;
+  constexpr static std::size_t addrs = 0x5deb534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CompositeLightControllerData*>(), { ".ctor", {}, {} })));

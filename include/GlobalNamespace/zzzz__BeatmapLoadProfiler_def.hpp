@@ -22,22 +22,22 @@ public:
   // Declarations
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method BeginLoad, addr 0x5c9f598, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method BeginLoad, addr 0x5c9dcd0, size 0x4, virtual false, abstract: false, final false
   static inline void BeginLoad(::StringW levelIdentity);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method EndLoadAndLog, addr 0x5c9f5a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method EndLoadAndLog, addr 0x5c9dcdc, size 0x4, virtual false, abstract: false, final false
   static inline void EndLoadAndLog();
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method MarkCacheOutcome, addr 0x5c9f5a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method MarkCacheOutcome, addr 0x5c9dcd8, size 0x4, virtual false, abstract: false, final false
   static inline void MarkCacheOutcome(bool wasHit, bool wasTaskAlreadyComplete);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method MarkStage, addr 0x5c9f59c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method MarkStage, addr 0x5c9dcd4, size 0x4, virtual false, abstract: false, final false
   static inline void MarkStage(::StringW stage);
 
 protected:
@@ -55,7 +55,7 @@ public:
   BeatmapLoadProfiler(BeatmapLoadProfiler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23597 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23614 };
 
   /// @brief Field kEntitlementVersionStage offset 0xffffffff size 0x8
   static constexpr ::ConstString kEntitlementVersionStage{ u"EntitlementVersion" };

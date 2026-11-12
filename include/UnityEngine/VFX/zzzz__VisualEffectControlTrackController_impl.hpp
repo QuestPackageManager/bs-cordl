@@ -85,7 +85,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::V
     ::UnityEngine::VFX::VisualEffectControlPlayableBehaviour*, ::UnityEngine::VFX::VisualEffectControlPlayableBehaviour*)>(
     &::UnityEngine::VFX::VisualEffectControlTrackController_VisualEffectControlPlayableBehaviourComparer::Compare)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6e5136c;
+  constexpr static std::size_t addrs = 0x6e5244c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlTrackController_VisualEffectControlPlayableBehaviourComparer::*)()>(
     &::UnityEngine::VFX::VisualEffectControlTrackController_VisualEffectControlPlayableBehaviourComparer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e511e4;
+  constexpr static std::size_t addrs = 0x6e522c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlTrackController___c::*)()>(&::UnityEngine::VFX::VisualEffectControlTrackController___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e51434;
+  constexpr static std::size_t addrs = 0x6e52514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VisualEffectControlTrackController___c*>(), { ".ctor", {}, {} })));
@@ -160,7 +160,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::V
     ::System::ValueTuple_2<::UnityEngine::VFX::VisualEffectControlTrackController_Event, int32_t>, ::System::ValueTuple_2<::UnityEngine::VFX::VisualEffectControlTrackController_Event, int32_t>)>(
     &::UnityEngine::VFX::VisualEffectControlTrackController___c::_Init_b__24_1)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6e51438;
+  constexpr static std::size_t addrs = 0x6e52518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::V
                                                                                                                                ::UnityEngine::VFX::VisualEffectControlTrackController_Event)>(
     &::UnityEngine::VFX::VisualEffectControlTrackController___c::_Init_b__24_0)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6e5149c;
+  constexpr static std::size_t addrs = 0x6e5257c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlTrackController__ComputeRuntimeEvent_d__21::*)(int32_t)>(
     &::UnityEngine::VFX::VisualEffectControlTrackController__ComputeRuntimeEvent_d__21::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6e4ff2c;
+  constexpr static std::size_t addrs = 0x6e5100c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlTrackController__ComputeRuntimeEvent_d__21::*)()>(
     &::UnityEngine::VFX::VisualEffectControlTrackController__ComputeRuntimeEvent_d__21::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6e51500;
+  constexpr static std::size_t addrs = 0x6e525e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::VFX::VisualEffectControlTrackController__ComputeRuntimeEvent_d__21::*)()>(
     &::UnityEngine::VFX::VisualEffectControlTrackController__ComputeRuntimeEvent_d__21::MoveNext)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x6e5151c;
+  constexpr static std::size_t addrs = 0x6e525fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlTrackController__ComputeRuntimeEvent_d__21::*)()>(
     &::UnityEngine::VFX::VisualEffectControlTrackController__ComputeRuntimeEvent_d__21::__m__Finally1)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6e518a4;
+  constexpr static std::size_t addrs = 0x6e52984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -312,7 +312,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::VFX::Visua
     ::UnityEngine::VFX::VisualEffectControlTrackController__ComputeRuntimeEvent_d__21::*)()>(
     &::UnityEngine::VFX::VisualEffectControlTrackController__ComputeRuntimeEvent_d__21::System_Collections_Generic_IEnumerator_UnityEngine_VFX_VisualEffectControlTrackController_Event__get_Current)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6e51958;
+  constexpr static std::size_t addrs = 0x6e52a38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -327,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlTrackController__ComputeRuntimeEvent_d__21::*)()>(
     &::UnityEngine::VFX::VisualEffectControlTrackController__ComputeRuntimeEvent_d__21::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6e51968;
+  constexpr static std::size_t addrs = 0x6e52a48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -342,7 +342,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::VFX::VisualEffectControlTrackController__ComputeRuntimeEvent_d__21::*)()>(
     &::UnityEngine::VFX::VisualEffectControlTrackController__ComputeRuntimeEvent_d__21::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6e519a0;
+  constexpr static std::size_t addrs = 0x6e52a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VisualEffectControlTrackController__ComputeRuntimeEvent_d__21*>(),
@@ -359,7 +359,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     &::UnityEngine::VFX::VisualEffectControlTrackController__ComputeRuntimeEvent_d__21::
         System_Collections_Generic_IEnumerable_UnityEngine_VFX_VisualEffectControlTrackController_Event__GetEnumerator)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6e51a04;
+  constexpr static std::size_t addrs = 0x6e52ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::VFX::VisualEffectControlTrackController__ComputeRuntimeEvent_d__21::*)()>(
     &::UnityEngine::VFX::VisualEffectControlTrackController__ComputeRuntimeEvent_d__21::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e51aa4;
+  constexpr static std::size_t addrs = 0x6e52b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VisualEffectControlTrackController__ComputeRuntimeEvent_d__21*>(),
@@ -589,7 +589,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlTrackController::*)(int32_t)>(
     &::UnityEngine::VFX::VisualEffectControlTrackController::OnEnterChunk)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6e4ee58;
+  constexpr static std::size_t addrs = 0x6e4ff38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -603,7 +603,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlTrackController::*)(int32_t, bool)>(
     &::UnityEngine::VFX::VisualEffectControlTrackController::OnLeaveChunk)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6e4ef38;
+  constexpr static std::size_t addrs = 0x6e50018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -618,7 +618,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::VFX::VisualEffectControlTrackController::*)(double_t, int32_t)>(
     &::UnityEngine::VFX::VisualEffectControlTrackController::IsTimeInChunk)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e4f398;
+  constexpr static std::size_t addrs = 0x6e50478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VisualEffectControlTrackController*>(),
@@ -632,7 +632,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlTrackController::*)(double_t, float_t)>(
     &::UnityEngine::VFX::VisualEffectControlTrackController::Update)> {
   constexpr static std::size_t size = 0x87c;
-  constexpr static std::size_t addrs = 0x6e4f3dc;
+  constexpr static std::size_t addrs = 0x6e504bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -647,7 +647,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlTrackController::*)(
     ::UnityEngine::VFX::VisualEffectControlTrackController_Chunk, double_t, double_t)>(&::UnityEngine::VFX::VisualEffectControlTrackController::ProcessNoScrubbingEvents)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x6e4f004;
+  constexpr static std::size_t addrs = 0x6e500e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -664,7 +664,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlTrackController::*)(int32_t, ::UnityEngine::VFX::VisualEffectControlTrackController_Chunk)>(
     &::UnityEngine::VFX::VisualEffectControlTrackController::ProcessEvent)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6e4fd94;
+  constexpr static std::size_t addrs = 0x6e50e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -679,7 +679,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::VFX::VisualEffectControlTrackController_Chunk, double_t, double_t, int32_t,
                                                                 ::System::Collections::Generic::List_1<int32_t>*)>(&::UnityEngine::VFX::VisualEffectControlTrackController::GetEventsIndex)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6e4fc58;
+  constexpr static std::size_t addrs = 0x6e50d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -697,7 +697,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::VFX::VFXEventAttribute* (*)(::UnityEngine::VFX::VisualEffect*, ::UnityEngine::VFX::EventAttributes)>(
     &::UnityEngine::VFX::VisualEffectControlTrackController::ComputeAttribute)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6e4fe10;
+  constexpr static std::size_t addrs = 0x6e50ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -713,7 +713,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::UnityEngine::VFX::VisualEffectControlTrackController_Event>* (*)(::UnityEngine::VFX::VisualEffectControlPlayableBehaviour*, ::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::VisualEffectControlTrackController::ComputeRuntimeEvent)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6e4feb0;
+  constexpr static std::size_t addrs = 0x6e50f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -729,7 +729,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlTrackController::*)(bool, bool)>(
     &::UnityEngine::VFX::VisualEffectControlTrackController::RestoreVFXState)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6e4f2c8;
+  constexpr static std::size_t addrs = 0x6e503a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -744,7 +744,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlTrackController::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::VFX::VisualEffect*, ::UnityEngine::VFX::VisualEffectControlTrack*)>(&::UnityEngine::VFX::VisualEffectControlTrackController::Init)> {
   constexpr static std::size_t size = 0x1298;
-  constexpr static std::size_t addrs = 0x6e4ff4c;
+  constexpr static std::size_t addrs = 0x6e5102c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -761,7 +761,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlTrackController::*)()>(&::UnityEngine::VFX::VisualEffectControlTrackController::Release)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e51280;
+  constexpr static std::size_t addrs = 0x6e52360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VisualEffectControlTrackController*>(), { "Release", {}, {} })));
@@ -773,7 +773,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlTrackController::*)()>(&::UnityEngine::VFX::VisualEffectControlTrackController::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6e5128c;
+  constexpr static std::size_t addrs = 0x6e5236c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VisualEffectControlTrackController*>(), { ".ctor", {}, {} })));

@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::BaseTransitionSO> (::GlobalNamespace::GradientImageViewStateTransition::*)()>(
     &::GlobalNamespace::GradientImageViewStateTransition::get_transition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68a8de0;
+  constexpr static std::size_t addrs = 0x68a9434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(),
@@ -30,11 +30,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::GradientImageViewStateTransition::TransitionToNormalState)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x68a8de8;
+  constexpr static std::size_t addrs = 0x68a943c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 5 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 6 }));
     return ___internal_method;
   }
 };
@@ -44,11 +44,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::GradientImageViewStateTransition::TransitionToHighlightedState)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x68a9188;
+  constexpr static std::size_t addrs = 0x68a97dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 6 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 7 }));
     return ___internal_method;
   }
 };
@@ -58,11 +58,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::GradientImageViewStateTransition::TransitionToPressedState)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x68a9230;
+  constexpr static std::size_t addrs = 0x68a9884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 7 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 8 }));
     return ___internal_method;
   }
 };
@@ -72,11 +72,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::GradientImageViewStateTransition::TransitionToDisabledState)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x68a92d8;
+  constexpr static std::size_t addrs = 0x68a992c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 8 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 9 }));
     return ___internal_method;
   }
 };
@@ -86,11 +86,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::GradientImageViewStateTransition::TransitionToSelectedState)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x68a9380;
+  constexpr static std::size_t addrs = 0x68a99d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 9 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 10 }));
     return ___internal_method;
   }
 };
@@ -100,11 +100,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::GradientImageViewStateTransition::TransitionToSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x68a9428;
+  constexpr static std::size_t addrs = 0x68a9a7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 10 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 11 }));
     return ___internal_method;
   }
 };
@@ -114,11 +114,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)()>(
     &::GlobalNamespace::GradientImageViewStateTransition::StopCurrentTransitionAnimation)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x68a94d0;
+  constexpr static std::size_t addrs = 0x68a9b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 11 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 12 }));
     return ___internal_method;
   }
 };
@@ -127,11 +127,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)()>(&::GlobalNamespace::GradientImageViewStateTransition::SetNormalState)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x68a95a0;
+  constexpr static std::size_t addrs = 0x68a9bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 12 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 13 }));
     return ___internal_method;
   }
 };
@@ -140,11 +140,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)()>(&::GlobalNamespace::GradientImageViewStateTransition::SetHighlightedState)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x68a9690;
+  constexpr static std::size_t addrs = 0x68a9ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 13 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 14 }));
     return ___internal_method;
   }
 };
@@ -153,11 +153,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)()>(&::GlobalNamespace::GradientImageViewStateTransition::SetPressedState)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x68a9710;
+  constexpr static std::size_t addrs = 0x68a9d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 14 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 15 }));
     return ___internal_method;
   }
 };
@@ -166,11 +166,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)()>(&::GlobalNamespace::GradientImageViewStateTransition::SetDisabledState)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x68a9790;
+  constexpr static std::size_t addrs = 0x68a9de4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 15 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 16 }));
     return ___internal_method;
   }
 };
@@ -179,11 +179,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)()>(&::GlobalNamespace::GradientImageViewStateTransition::SetSelectedState)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x68a9810;
+  constexpr static std::size_t addrs = 0x68a9e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 16 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 17 }));
     return ___internal_method;
   }
 };
@@ -193,11 +193,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)()>(
     &::GlobalNamespace::GradientImageViewStateTransition::SetSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x68a9890;
+  constexpr static std::size_t addrs = 0x68a9ee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 17 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 18 }));
     return ___internal_method;
   }
 };
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)(
     ::UnityEngine::Color, ::UnityEngine::Color, ::GlobalNamespace::TransitionTimingSO*)>(&::GlobalNamespace::GradientImageViewStateTransition::StartTweens)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x68a8e90;
+  constexpr static std::size_t addrs = 0x68a94e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -224,7 +224,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::UnityEngine::Color, ::UnityEngine::Color, ::System::Action_1<::UnityEngine::Color>*, ::System::Action*, ::GlobalNamespace::TransitionTimingSO*, ::by_ref<::Tweening::ColorTween*>)>(
     &::GlobalNamespace::GradientImageViewStateTransition::StartTween)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x68a9910;
+  constexpr static std::size_t addrs = 0x68a9f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)(::UnityEngine::Color, ::UnityEngine::Color)>(
     &::GlobalNamespace::GradientImageViewStateTransition::SetColors)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x68a9620;
+  constexpr static std::size_t addrs = 0x68a9c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(),
@@ -256,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)()>(&::GlobalNamespace::GradientImageViewStateTransition::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x68a9a7c;
+  constexpr static std::size_t addrs = 0x68aa0d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), { ".ctor", {}, {} })));
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)()>(
     &::GlobalNamespace::GradientImageViewStateTransition::_StartTweens_g__Color1CompleteAction_18_0)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x68a9ac0;
+  constexpr static std::size_t addrs = 0x68aa114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)()>(
     &::GlobalNamespace::GradientImageViewStateTransition::_StartTweens_g__Color2CompleteAction_18_1)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x68a9b50;
+  constexpr static std::size_t addrs = 0x68aa1a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::GradientImageViewStateTransition::_StartTweens_b__18_2)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68a9be0;
+  constexpr static std::size_t addrs = 0x68aa234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -311,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::GradientImageViewStateTransition::_StartTweens_b__18_3)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68a9c00;
+  constexpr static std::size_t addrs = 0x68aa254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -362,67 +362,67 @@ inline ::UnityW<::GlobalNamespace::BaseTransitionSO> GlobalNamespace::GradientIm
 }
 inline void GlobalNamespace::GradientImageViewStateTransition::TransitionToNormalState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 5 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
 inline void GlobalNamespace::GradientImageViewStateTransition::TransitionToHighlightedState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 6 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
 inline void GlobalNamespace::GradientImageViewStateTransition::TransitionToPressedState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 7 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
 inline void GlobalNamespace::GradientImageViewStateTransition::TransitionToDisabledState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 8 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
 inline void GlobalNamespace::GradientImageViewStateTransition::TransitionToSelectedState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 9 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 10 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
 inline void GlobalNamespace::GradientImageViewStateTransition::TransitionToSelectedAndHighlightedState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 10 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 11 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
 inline void GlobalNamespace::GradientImageViewStateTransition::StopCurrentTransitionAnimation() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 11 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 12 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::GradientImageViewStateTransition::SetNormalState() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 12 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::GradientImageViewStateTransition::SetHighlightedState() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 13 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::GradientImageViewStateTransition::SetPressedState() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 14 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 15 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::GradientImageViewStateTransition::SetDisabledState() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 15 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 16 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::GradientImageViewStateTransition::SetSelectedState() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 16 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 17 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::GradientImageViewStateTransition::SetSelectedAndHighlightedState() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 17 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GradientImageViewStateTransition*>(), 18 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::GradientImageViewStateTransition::StartTweens(::UnityEngine::Color endColor1, ::UnityEngine::Color endColor2, ::GlobalNamespace::TransitionTimingSO* transitionTiming) {

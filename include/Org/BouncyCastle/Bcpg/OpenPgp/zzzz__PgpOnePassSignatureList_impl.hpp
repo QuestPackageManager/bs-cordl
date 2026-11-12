@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList::*)(::ArrayW<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature*>)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3832d5c;
+  constexpr static std::size_t addrs = 0x38371f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList::*)(::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature*)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3833b48;
+  constexpr static std::size_t addrs = 0x3837fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList::*)(int32_t)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList::get_Item)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3833be8;
+  constexpr static std::size_t addrs = 0x3838080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList::*)(int32_t)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList::Get)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3833c18;
+  constexpr static std::size_t addrs = 0x38380b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList::get_Size)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3833c1c;
+  constexpr static std::size_t addrs = 0x38380b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList*>(), { "get_Size", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList::get_Count)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3833c34;
+  constexpr static std::size_t addrs = 0x38380cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList*>(), { "get_Count", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList::get_IsEmpty)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3833c4c;
+  constexpr static std::size_t addrs = 0x38380e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

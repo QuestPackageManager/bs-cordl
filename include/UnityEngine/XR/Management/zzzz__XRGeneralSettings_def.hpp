@@ -52,37 +52,37 @@ public:
   __declspec(property(get = getStaticF_s_RuntimeSettingsInstance, put = setStaticF_s_RuntimeSettingsInstance)) ::UnityW<::UnityEngine::XR::Management::XRGeneralSettings> s_RuntimeSettingsInstance;
 
   /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)2)]
-  /// @brief Method AttemptInitializeXRSDKOnLoad, addr 0x6e6405c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method AttemptInitializeXRSDKOnLoad, addr 0x6e6513c, size 0xf4, virtual false, abstract: false, final false
   static inline void AttemptInitializeXRSDKOnLoad();
 
   /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)3)]
-  /// @brief Method AttemptStartXRSDKOnBeforeSplashScreen, addr 0x6e643f8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method AttemptStartXRSDKOnBeforeSplashScreen, addr 0x6e654d8, size 0xf4, virtual false, abstract: false, final false
   static inline void AttemptStartXRSDKOnBeforeSplashScreen();
 
-  /// @brief Method Awake, addr 0x6e63c98, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x6e64d78, size 0x168, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method DeInitXRSDK, addr 0x6e63eec, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method DeInitXRSDK, addr 0x6e64fcc, size 0xb4, virtual false, abstract: false, final false
   inline void DeInitXRSDK();
 
-  /// @brief Method InitXRSDK, addr 0x6e64150, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method InitXRSDK, addr 0x6e65230, size 0x2a8, virtual false, abstract: false, final false
   inline void InitXRSDK();
 
   static inline ::UnityEngine::XR::Management::XRGeneralSettings* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x6e64058, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x6e65138, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Quit, addr 0x6e63e00, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Quit, addr 0x6e64ee0, size 0xec, virtual false, abstract: false, final false
   static inline void Quit();
 
-  /// @brief Method Start, addr 0x6e63fa0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x6e65080, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartXRSDK, addr 0x6e63fa4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method StartXRSDK, addr 0x6e65084, size 0xb4, virtual false, abstract: false, final false
   inline void StartXRSDK();
 
-  /// @brief Method StopXRSDK, addr 0x6e647d8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method StopXRSDK, addr 0x6e658b8, size 0xb0, virtual false, abstract: false, final false
   inline void StopXRSDK();
 
   constexpr bool const& __cordl_internal_get_m_InitManagerOnStart() const;
@@ -115,30 +115,30 @@ public:
 
   constexpr void __cordl_internal_set_m_XRManager(::UnityW<::UnityEngine::XR::Management::XRManagerSettings> value);
 
-  /// @brief Method .ctor, addr 0x6e64a60, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e65b40, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_k_SettingsKey();
 
   static inline ::UnityW<::UnityEngine::XR::Management::XRGeneralSettings> getStaticF_s_RuntimeSettingsInstance();
 
-  /// @brief Method get_AssignedSettings, addr 0x6e63c88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssignedSettings, addr 0x6e64d68, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> get_AssignedSettings();
 
-  /// @brief Method get_InitManagerOnStart, addr 0x6e63c90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InitManagerOnStart, addr 0x6e64d70, size 0x8, virtual false, abstract: false, final false
   inline bool get_InitManagerOnStart();
 
-  /// @brief Method get_Instance, addr 0x6e63c2c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x6e64d0c, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::XR::Management::XRGeneralSettings> get_Instance();
 
-  /// @brief Method get_Manager, addr 0x6e63c1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Manager, addr 0x6e64cfc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> get_Manager();
 
   static inline void setStaticF_k_SettingsKey(::StringW value);
 
   static inline void setStaticF_s_RuntimeSettingsInstance(::UnityW<::UnityEngine::XR::Management::XRGeneralSettings> value);
 
-  /// @brief Method set_Manager, addr 0x6e63c24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Manager, addr 0x6e64d04, size 0x8, virtual false, abstract: false, final false
   inline void set_Manager(::UnityEngine::XR::Management::XRManagerSettings* value);
 
 protected:
@@ -156,7 +156,7 @@ public:
   XRGeneralSettings(XRGeneralSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23880 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23898 };
 
   /// [SerializeField]
   /// @brief Field m_LoaderManagerInstance, offset: 0x18, size: 0x8, def value: None

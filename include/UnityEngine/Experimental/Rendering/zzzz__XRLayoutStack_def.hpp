@@ -36,15 +36,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6b98f74, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6b9a054, size 0x9c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method New, addr 0x6b98d5c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method New, addr 0x6b99e3c, size 0xb8, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::XRLayout* New();
 
   static inline ::UnityEngine::Experimental::Rendering::XRLayoutStack* New_ctor();
 
-  /// @brief Method Release, addr 0x6b98e68, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x6b99f48, size 0x10c, virtual false, abstract: false, final false
   inline void Release();
 
   constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::Experimental::Rendering::XRLayout*>* const& __cordl_internal_get_m_Stack() const;
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Stack(::System::Collections::Generic::Stack_1<::UnityEngine::Experimental::Rendering::XRLayout*>* value);
 
-  /// @brief Method .ctor, addr 0x6b99010, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b9a0f0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_top, addr 0x6b98e14, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_top, addr 0x6b99ef4, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::XRLayout* get_top();
 
   /// @brief Convert to "::System::IDisposable"

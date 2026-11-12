@@ -90,13 +90,13 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x6a168b0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6a17990, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayoutCommand Create();
 
-  /// @brief Method ReadLayoutName, addr 0x6a16854, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ReadLayoutName, addr 0x6a17934, size 0x20, virtual false, abstract: false, final false
   inline ::StringW ReadLayoutName();
 
-  /// @brief Method WriteLayoutName, addr 0x6a16874, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method WriteLayoutName, addr 0x6a17954, size 0x30, virtual false, abstract: false, final false
   inline void WriteLayoutName(::StringW name);
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
@@ -111,10 +111,10 @@ public:
 
   constexpr void __cordl_internal_set_nameBuffer(::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayoutCommand__nameBuffer_e__FixedBuffer value);
 
-  /// @brief Method get_Type, addr 0x6a16848, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x6a17928, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x6a168a4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x6a17984, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"

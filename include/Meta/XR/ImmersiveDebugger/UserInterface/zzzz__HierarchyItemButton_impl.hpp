@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Meta::XR::ImmersiveDebugger::Hierarchy::Item* (::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::get_Item)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ea35dc;
+  constexpr static std::size_t addrs = 0x5ea385c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::*)(::Meta::XR::ImmersiveDebugger::Hierarchy::Item*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::set_Item)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x5ea35e4;
+  constexpr static std::size_t addrs = 0x5ea3864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton*>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::get_Counter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ea3794;
+  constexpr static std::size_t addrs = 0x5ea3a14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::*)(int32_t)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::set_Counter)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5ea379c;
+  constexpr static std::size_t addrs = 0x5ea3a1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle> (
     ::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::*)()>(&::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::get_Foldout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ea3808;
+  constexpr static std::size_t addrs = 0x5ea3a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel> (
     ::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::*)()>(&::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::get_Label)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ea3810;
+  constexpr static std::size_t addrs = 0x5ea3a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::*)(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::Setup)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x5ea3818;
+  constexpr static std::size_t addrs = 0x5ea3a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton*>(),
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::*)(bool)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::OnStateChanged)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5ea3da8;
+  constexpr static std::size_t addrs = 0x5ea4028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::Update)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5ea3ea4;
+  constexpr static std::size_t addrs = 0x5ea4124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::*)(bool)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::UpdateGameObjectState)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5ea36fc;
+  constexpr static std::size_t addrs = 0x5ea397c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::*)(bool, bool)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::UpdateGameObjectState)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5ea3f60;
+  constexpr static std::size_t addrs = 0x5ea41e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton*>(),
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ea403c;
+  constexpr static std::size_t addrs = 0x5ea42bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

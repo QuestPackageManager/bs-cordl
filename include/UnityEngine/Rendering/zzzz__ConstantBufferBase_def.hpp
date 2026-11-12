@@ -24,7 +24,7 @@ public:
   /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Release();
 
-  /// @brief Method .ctor, addr 0x6ba9734, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6baa814, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

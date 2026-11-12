@@ -26,10 +26,10 @@ namespace BeatmapDataLoaderVersion4 {
 class CORDL_TYPE IndexFilterConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x3a173bc, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x3a1c4f0, size 0x3cc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IndexFilter* Convert(::BeatmapSaveDataVersion4::IndexFilter indexFilter, int32_t groupSize, bool shouldLogWarnings);
 
-  /// @brief Method IsIndexFilterValid, addr 0x3a185d4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method IsIndexFilterValid, addr 0x3a1d708, size 0xa4, virtual false, abstract: false, final false
   static inline bool IsIndexFilterValid(::BeatmapSaveDataVersion4::IndexFilter indexFilter, int32_t groupSize);
 
 protected:
@@ -47,7 +47,7 @@ public:
   IndexFilterConverter(IndexFilterConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14926 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14934 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

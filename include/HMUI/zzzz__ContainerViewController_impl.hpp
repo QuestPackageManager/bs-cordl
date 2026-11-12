@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController___c::*)()>(&::HMUI::ContainerViewController___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x359afe4;
+  constexpr static std::size_t addrs = 0x359e1a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController___c*>(), { ".ctor", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::ContainerViewController___c::*)(::HMUI::ViewController*)>(&::HMUI::ContainerViewController___c::_IsChildInTransition_b__14_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x359afe8;
+  constexpr static std::size_t addrs = 0x359e1a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::*)(int32_t)>(
     &::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x359ac04;
+  constexpr static std::size_t addrs = 0x359ddc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::*)()>(
     &::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x359affc;
+  constexpr static std::size_t addrs = 0x359e1bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::*)()>(
     &::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::MoveNext)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x359b000;
+  constexpr static std::size_t addrs = 0x359e1c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::*)()>(
     &::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x359b22c;
+  constexpr static std::size_t addrs = 0x359e3ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*>(),
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::*)()>(
     &::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x359b234;
+  constexpr static std::size_t addrs = 0x359e3f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::*)()>(
     &::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x359b26c;
+  constexpr static std::size_t addrs = 0x359e42c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -341,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::*)(int32_t)>(
     &::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x359acdc;
+  constexpr static std::size_t addrs = 0x359de9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -355,7 +355,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::*)()>(
     &::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x359b274;
+  constexpr static std::size_t addrs = 0x359e434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -369,7 +369,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::*)()>(
     &::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::MoveNext)> {
   constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x359b278;
+  constexpr static std::size_t addrs = 0x359e438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -383,7 +383,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::*)()>(
     &::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x359b5d8;
+  constexpr static std::size_t addrs = 0x359e798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*>(),
@@ -397,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::*)()>(
     &::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x359b5e0;
+  constexpr static std::size_t addrs = 0x359e7a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -411,7 +411,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::*)()>(
     &::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x359b618;
+  constexpr static std::size_t addrs = 0x359e7d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -623,7 +623,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RectTransform> (::HMUI::ContainerViewController::*)()>(&::HMUI::ContainerViewController::get_controllersContainer)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3599e20;
+  constexpr static std::size_t addrs = 0x359cfe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(), { "get_controllersContainer", {}, {} })));
@@ -636,7 +636,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* (::HMUI::ContainerViewController::*)()>(
     &::HMUI::ContainerViewController::get_viewControllers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3599ed0;
+  constexpr static std::size_t addrs = 0x359d090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(), { "get_viewControllers", {}, {} })));
@@ -649,7 +649,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController::*)(::HMUI::Screen*, ::HMUI::ViewController*, ::HMUI::ContainerViewController*)>(
     &::HMUI::ContainerViewController::__Init)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3599ed8;
+  constexpr static std::size_t addrs = 0x359d098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -676,7 +676,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController::*)(bool, bool)>(&::HMUI::ContainerViewController::__Activate)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x359a0d0;
+  constexpr static std::size_t addrs = 0x359d290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -689,7 +689,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController::*)(bool, bool, bool)>(&::HMUI::ContainerViewController::__Deactivate)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x359a2dc;
+  constexpr static std::size_t addrs = 0x359d49c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -702,7 +702,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController::*)()>(&::HMUI::ContainerViewController::DeactivateGameObject)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x359a468;
+  constexpr static std::size_t addrs = 0x359d628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -715,7 +715,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController::*)()>(&::HMUI::ContainerViewController::ClearChildViewControllers)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x359a5a4;
+  constexpr static std::size_t addrs = 0x359d764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(), { "ClearChildViewControllers", {}, {} })));
@@ -727,7 +727,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController::*)(::HMUI::ViewController*)>(&::HMUI::ContainerViewController::SetChildViewController)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x359a6f8;
+  constexpr static std::size_t addrs = 0x359d8b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -740,7 +740,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController::*)(::ArrayW<::HMUI::ViewController*>)>(&::HMUI::ContainerViewController::SetChildViewControllers)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x359a79c;
+  constexpr static std::size_t addrs = 0x359d95c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -753,7 +753,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::ContainerViewController::*)()>(&::HMUI::ContainerViewController::IsChildInTransition)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x359a8fc;
+  constexpr static std::size_t addrs = 0x359dabc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(), { "IsChildInTransition", {}, {} })));
@@ -766,7 +766,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController::*)(
     ::HMUI::ViewController*, ::System::Action*, ::System::Action_2<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>>*, bool)>(&::HMUI::ContainerViewController::AddViewController)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x359aa00;
+  constexpr static std::size_t addrs = 0x359dbc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -785,7 +785,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IE
     ::HMUI::ContainerViewController::*)(::HMUI::ViewController*, ::System::Action*, ::System::Action_2<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>>*, bool)>(
     &::HMUI::ContainerViewController::AddViewControllerCoroutine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x359ab84;
+  constexpr static std::size_t addrs = 0x359dd44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -805,7 +805,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerVi
     ::System::Action_3<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>, ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>*, bool)>(
     &::HMUI::ContainerViewController::RemoveViewControllers)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x359ac0c;
+  constexpr static std::size_t addrs = 0x359ddcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -828,7 +828,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IE
                                         ::System::Action_3<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>, ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>*, bool)>(
     &::HMUI::ContainerViewController::RemoveViewControllersCoroutine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x359ac5c;
+  constexpr static std::size_t addrs = 0x359de1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -849,7 +849,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<float_t> (::HMUI::ContainerViewController::*)(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*, int32_t)>(
     &::HMUI::ContainerViewController::GetNewXPositionsForViewControllers)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x359ace4;
+  constexpr static std::size_t addrs = 0x359dea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -864,7 +864,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ContainerViewController::*)()>(&::HMUI::ContainerViewController::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x359af14;
+  constexpr static std::size_t addrs = 0x359e0d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ContainerViewController*>(), { ".ctor", {}, {} })));

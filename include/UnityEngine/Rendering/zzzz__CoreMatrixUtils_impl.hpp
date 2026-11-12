@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Matrix4x4>, ::UnityEngine::Vector3)>(&::UnityEngine::Rendering::CoreMatrixUtils::MatrixTimesTranslation)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6c160d8;
+  constexpr static std::size_t addrs = 0x6c171b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Matrix4x4>, ::UnityEngine::Vector3)>(&::UnityEngine::Rendering::CoreMatrixUtils::TranslationTimesMatrix)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6c16134;
+  constexpr static std::size_t addrs = 0x6c17214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4)>(
     &::UnityEngine::Rendering::CoreMatrixUtils::MultiplyPerspectiveMatrix)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6c161bc;
+  constexpr static std::size_t addrs = 0x6c1729c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4)>(
     &::UnityEngine::Rendering::CoreMatrixUtils::MultiplyOrthoMatrixCentered)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6c16264;
+  constexpr static std::size_t addrs = 0x6c17344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4)>(
     &::UnityEngine::Rendering::CoreMatrixUtils::MultiplyGenericOrthoMatrix)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6c162fc;
+  constexpr static std::size_t addrs = 0x6c173dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4, bool)>(
     &::UnityEngine::Rendering::CoreMatrixUtils::MultiplyOrthoMatrix)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6c163b8;
+  constexpr static std::size_t addrs = 0x6c17498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4, bool)>(
     &::UnityEngine::Rendering::CoreMatrixUtils::MultiplyProjectionMatrix)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6c164ac;
+  constexpr static std::size_t addrs = 0x6c1758c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::CopyNonLazyBinder::*)(::Zenject::BindInfo*)>(&::Zenject::CopyNonLazyBinder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x73249ac;
+  constexpr static std::size_t addrs = 0x7326c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::CopyNonLazyBinder::*)(::Zenject::BindInfo*)>(&::Zenject::CopyNonLazyBinder::AddSecondaryCopyBindInfo)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x7328a38;
+  constexpr static std::size_t addrs = 0x732ad18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::NonLazyBinder* (::Zenject::CopyNonLazyBinder::*)()>(&::Zenject::CopyNonLazyBinder::CopyIntoAllSubContainers)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x73227bc;
+  constexpr static std::size_t addrs = 0x7324a9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::CopyNonLazyBinder*>(), { "CopyIntoAllSubContainers", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::NonLazyBinder* (::Zenject::CopyNonLazyBinder::*)()>(&::Zenject::CopyNonLazyBinder::CopyIntoDirectSubContainers)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x7328c54;
+  constexpr static std::size_t addrs = 0x732af34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::CopyNonLazyBinder*>(), { "CopyIntoDirectSubContainers", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::NonLazyBinder* (::Zenject::CopyNonLazyBinder::*)()>(&::Zenject::CopyNonLazyBinder::MoveIntoAllSubContainers)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x7328c70;
+  constexpr static std::size_t addrs = 0x732af50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::CopyNonLazyBinder*>(), { "MoveIntoAllSubContainers", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::NonLazyBinder* (::Zenject::CopyNonLazyBinder::*)()>(&::Zenject::CopyNonLazyBinder::MoveIntoDirectSubContainers)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x7328c8c;
+  constexpr static std::size_t addrs = 0x732af6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::CopyNonLazyBinder*>(), { "MoveIntoDirectSubContainers", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::CopyNonLazyBinder::*)(::Zenject::BindingInheritanceMethods)>(&::Zenject::CopyNonLazyBinder::SetInheritanceMethod)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x7328b3c;
+  constexpr static std::size_t addrs = 0x732ae1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

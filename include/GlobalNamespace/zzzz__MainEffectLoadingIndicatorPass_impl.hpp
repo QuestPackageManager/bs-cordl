@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectLoadingIndicatorPass_PassData::*)()>(&::GlobalNamespace::MainEffectLoadingIndicatorPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x639da34;
+  constexpr static std::size_t addrs = 0x639e084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectLoadingIndicatorPass_PassData*>(), { ".ctor", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectLoadingIndicatorPass___c::*)()>(&::GlobalNamespace::MainEffectLoadingIndicatorPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x639da8c;
+  constexpr static std::size_t addrs = 0x639e0dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectLoadingIndicatorPass___c*>(), { ".ctor", {}, {} })));
@@ -113,7 +113,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                                        ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::GlobalNamespace::MainEffectLoadingIndicatorPass___c::_RecordRenderGraph_b__18_0)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x639da90;
+  constexpr static std::size_t addrs = 0x639e0e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::MainEffectLoadingIndicatorPass::*)()>(&::GlobalNamespace::MainEffectLoadingIndicatorPass::get_secSinceShown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x639d298;
+  constexpr static std::size_t addrs = 0x639d8e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectLoadingIndicatorPass*>(), { "get_secSinceShown", {}, {} })));
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectLoadingIndicatorPass::*)(float_t)>(&::GlobalNamespace::MainEffectLoadingIndicatorPass::set_secSinceShown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x639d2a0;
+  constexpr static std::size_t addrs = 0x639d8f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectLoadingIndicatorPass::*)(
     ::UnityEngine::Rendering::Universal::RenderPassEvent, ::UnityEngine::Shader*, ::UnityEngine::Texture2D*)>(&::GlobalNamespace::MainEffectLoadingIndicatorPass::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x639b848;
+  constexpr static std::size_t addrs = 0x639be98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectLoadingIndicatorPass::*)()>(&::GlobalNamespace::MainEffectLoadingIndicatorPass::Dispose)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x639b790;
+  constexpr static std::size_t addrs = 0x639bde0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectLoadingIndicatorPass*>(), { "Dispose", {}, {} })));
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectLoadingIndicatorPass::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*)>(&::GlobalNamespace::MainEffectLoadingIndicatorPass::RecordRenderGraph)> {
   constexpr static std::size_t size = 0x64c;
-  constexpr static std::size_t addrs = 0x639d2a8;
+  constexpr static std::size_t addrs = 0x639d8f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

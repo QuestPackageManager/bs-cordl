@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputDevice)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System {
 template <typename T> class IEquatable_1;
 }
@@ -16,6 +19,12 @@ class Object;
 }
 namespace UnityEngine::XR {
 struct InputDeviceCharacteristics;
+}
+namespace UnityEngine::XR {
+template <typename T> struct InputFeatureUsage_1;
+}
+namespace UnityEngine::XR {
+class XRInputSubsystem;
 }
 // Forward declare root types
 namespace UnityEngine::XR {
@@ -43,47 +52,61 @@ public:
 
   __declspec(property(get = get_name)) ::StringW name;
 
+  /// @brief Field s_InputSubsystemCache, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_InputSubsystemCache,
+                      put = setStaticF_s_InputSubsystemCache)) ::System::Collections::Generic::List_1<::UnityEngine::XR::XRInputSubsystem*>* s_InputSubsystemCache;
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::InputDevice>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::InputDevice>*();
 
-  /// @brief Method Equals, addr 0x73100ec, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method CheckValidAndSetDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> inline bool CheckValidAndSetDefault(::by_ref<T> value);
+
+  /// @brief Method Equals, addr 0x7312378, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x7310184, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x7312410, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::InputDevice other);
 
-  /// @brief Method GetHashCode, addr 0x73101ac, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x7312438, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsValidId, addr 0x730fc38, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsValidId, addr 0x7311ce4, size 0x20, virtual false, abstract: false, final false
   inline bool IsValidId();
 
-  /// @brief Method SendHapticImpulse, addr 0x730ff04, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SendHapticImpulse, addr 0x7311fb0, size 0xf8, virtual false, abstract: false, final false
   inline bool SendHapticImpulse(uint32_t channel, float_t amplitude, float_t duration);
 
-  /// @brief Method StopHaptics, addr 0x7310058, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method StopHaptics, addr 0x7312104, size 0x58, virtual false, abstract: false, final false
   inline void StopHaptics();
 
-  /// @brief Method .ctor, addr 0x730fbb4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method TryGetFeatureValue, addr 0x7312198, size 0x98, virtual false, abstract: false, final false
+  inline bool TryGetFeatureValue(::UnityEngine::XR::InputFeatureUsage_1<bool> usage, ::by_ref<bool> value);
+
+  /// @brief Method .ctor, addr 0x7311c60, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(uint64_t deviceId);
 
-  /// @brief Method get_characteristics, addr 0x730fe6c, size 0x5c, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::List_1<::UnityEngine::XR::XRInputSubsystem*>* getStaticF_s_InputSubsystemCache();
+
+  /// @brief Method get_characteristics, addr 0x7311f18, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::InputDeviceCharacteristics get_characteristics();
 
-  /// @brief Method get_deviceId, addr 0x730fbc4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_deviceId, addr 0x7311c70, size 0x18, virtual false, abstract: false, final false
   inline uint64_t get_deviceId();
 
-  /// @brief Method get_isValid, addr 0x730fbdc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_isValid, addr 0x7311c88, size 0x5c, virtual false, abstract: false, final false
   inline bool get_isValid();
 
-  /// @brief Method get_manufacturer, addr 0x730fd80, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_manufacturer, addr 0x7311e2c, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_manufacturer();
 
-  /// @brief Method get_name, addr 0x730fc94, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x7311d40, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::InputDevice>"
   constexpr ::System::IEquatable_1<::UnityEngine::XR::InputDevice>* i___System__IEquatable_1___UnityEngine__XR__InputDevice_();
+
+  static inline void setStaticF_s_InputSubsystemCache(::System::Collections::Generic::List_1<::UnityEngine::XR::XRInputSubsystem*>* value);
 
   // Ctor Parameters []
   // @brief default ctor
@@ -94,7 +117,7 @@ public:
   constexpr InputDevice(uint64_t m_DeviceId, bool m_Initialized) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22734 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22473 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

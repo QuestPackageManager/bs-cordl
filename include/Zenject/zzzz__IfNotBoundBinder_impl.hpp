@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::IfNotBoundBinder::*)(::Zenject::BindInfo*)>(&::Zenject::IfNotBoundBinder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7336644;
+  constexpr static std::size_t addrs = 0x7338924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::BindInfo* (::Zenject::IfNotBoundBinder::*)()>(&::Zenject::IfNotBoundBinder::get_BindInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x733664c;
+  constexpr static std::size_t addrs = 0x733892c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::IfNotBoundBinder*>(), { "get_BindInfo", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::IfNotBoundBinder::*)(::Zenject::BindInfo*)>(&::Zenject::IfNotBoundBinder::set_BindInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7336654;
+  constexpr static std::size_t addrs = 0x7338934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::IfNotBoundBinder::*)()>(&::Zenject::IfNotBoundBinder::IfNotBound)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x733665c;
+  constexpr static std::size_t addrs = 0x733893c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::IfNotBoundBinder*>(), { "IfNotBound", {}, {} })));

@@ -69,22 +69,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Add, addr 0x35bb554, size 0x198, virtual true, abstract: false, final true
+  /// @brief Method Add, addr 0x35beed0, size 0x198, virtual true, abstract: false, final true
   inline void Add(::System::IDisposable* item);
 
-  /// @brief Method Clear, addr 0x35bb84c, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x35bf1c8, size 0x10c, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x35bb958, size 0x114, virtual true, abstract: false, final true
+  /// @brief Method Contains, addr 0x35bf2d4, size 0x114, virtual true, abstract: false, final true
   inline bool Contains(::System::IDisposable* item);
 
-  /// @brief Method CopyTo, addr 0x35bba6c, size 0x1b8, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x35bf3e8, size 0x1b8, virtual true, abstract: false, final true
   inline void CopyTo(::ArrayW<::System::IDisposable*> array, int32_t arrayIndex);
 
-  /// @brief Method Dispose, addr 0x35bbd54, size 0x258, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x35bf6d0, size 0x258, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetEnumerator, addr 0x35bbc24, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x35bf5a0, size 0x12c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::IDisposable*>* GetEnumerator();
 
   static inline ::BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable* New_ctor();
@@ -95,10 +95,10 @@ public:
 
   static inline ::BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable* New_ctor(::System::Collections::Generic::IEnumerable_1<::System::IDisposable*>* checkers);
 
-  /// @brief Method Remove, addr 0x35bb6ec, size 0x160, virtual true, abstract: false, final true
+  /// @brief Method Remove, addr 0x35bf068, size 0x160, virtual true, abstract: false, final true
   inline bool Remove(::System::IDisposable* item);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x35bbd50, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x35bf6cc, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Collections::Generic::List_1<::System::IDisposable*>* const& __cordl_internal_get__disposables() const;
@@ -113,22 +113,22 @@ public:
 
   constexpr void __cordl_internal_set__gate(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x35bb1dc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35beb58, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x35bb278, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35bebf4, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x35bb36c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35bece8, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(/* [ParamArray] */ ::ArrayW<::System::IDisposable*> checkers);
 
-  /// @brief Method .ctor, addr 0x35bb460, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35beddc, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::System::IDisposable*>* checkers);
 
-  /// @brief Method get_Count, addr 0x35bb0e0, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x35bea5c, size 0xf4, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsReadOnly, addr 0x35bb1d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsReadOnly, addr 0x35beb50, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
   /// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::IDisposable*>"
@@ -158,7 +158,7 @@ public:
   ConcurrentCompositeDisposable(ConcurrentCompositeDisposable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21316 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21330 };
 
   /// @brief Field _gate, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____gate;

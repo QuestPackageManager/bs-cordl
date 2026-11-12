@@ -229,7 +229,7 @@ public:
     requires(::cordl_internals::value_type_constraint<TStatus> && ::cordl_internals::default_constructor_constraint<TStatus>)
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<TStatus>> ToResultTask();
 
-  /// @brief Method ToTask, addr 0x63484a8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ToTask, addr 0x6348730, size 0x50, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRPlugin_Result> ToTask();
 
   /// @brief Method ToTask, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -245,7 +245,7 @@ public:
     requires(::cordl_internals::value_type_constraint<TStatus> && ::cordl_internals::default_constructor_constraint<TStatus>)
   inline ::GlobalNamespace::OVRTask_1<TStatus> ToTask();
 
-  /// @brief Method .ctor, addr 0x634821c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63484a4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRPlugin_Result synchronousResult, ::System::Guid taskId);
 
   // Ctor Parameters []
@@ -1378,13 +1378,13 @@ public:
   template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
   using MultiTaskData_8 = ::GlobalNamespace::OVRTask_MultiTaskData_8<T1, T2, T3, T4, T5, T6, T7, T8>;
 
-  /// @brief Method Build, addr 0x634822c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x63484b4, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_Builder Build(::GlobalNamespace::OVRPlugin_Result result, uint64_t requestId);
 
-  /// @brief Method Build, addr 0x6348294, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x634851c, size 0x6c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_Builder Build(::GlobalNamespace::OVRPlugin_Result result, uint64_t requestId, ::GlobalNamespace::OVRPlugin_EventType eventType);
 
-  /// @brief Method Build, addr 0x6348150, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x63483d8, size 0x74, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_Builder Build(bool success, uint64_t requestId);
 
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1415,19 +1415,19 @@ public:
   /// @brief Method GetExisting, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TResult> static inline ::GlobalNamespace::OVRTask_1<TResult> GetExisting(uint64_t id);
 
-  /// @brief Method GetId, addr 0x6348300, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x6348588, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Guid GetId(uint64_t handle, ::GlobalNamespace::OVRPlugin_EventType eventType);
 
-  /// @brief Method GetId, addr 0x634835c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x63485e4, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Guid GetId(uint64_t part1, uint64_t part2);
 
-  /// @brief Method GetId, addr 0x63481c4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x634844c, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Guid GetId(uint64_t value);
 
-  /// @brief Method GetId, addr 0x63483bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x6348644, size 0x4, virtual false, abstract: false, final false
   static inline uint64_t GetId(::System::Guid value);
 
-  /// @brief Method GetIdParts, addr 0x63483c0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetIdParts, addr 0x6348648, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_2<uint64_t, uint64_t> GetIdParts(::System::Guid id);
 
   /// @brief Method RegisterType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

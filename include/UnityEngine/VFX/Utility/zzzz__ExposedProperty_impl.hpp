@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::VFX::Utility::ExposedProperty* (*)(::StringW)>(
     &::UnityEngine::VFX::Utility::ExposedProperty::op_Implicit___UnityEngine__VFX__Utility__ExposedProperty_)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6e4b2d8;
+  constexpr static std::size_t addrs = 0x6e4c3b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::VFX::Utility::ExposedProperty*)>(&::UnityEngine::VFX::Utility::ExposedProperty::op_Explicit___StringW)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e5c4c0;
+  constexpr static std::size_t addrs = 0x6e5d5a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::ExposedProperty*>(),
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::VFX::Utility::ExposedProperty*)>(&::UnityEngine::VFX::Utility::ExposedProperty::op_Implicit_int32_t)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6e511e8;
+  constexpr static std::size_t addrs = 0x6e522c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::ExposedProperty*>(),
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::VFX::Utility::ExposedProperty* (*)(::UnityEngine::VFX::Utility::ExposedProperty*, ::UnityEngine::VFX::Utility::ExposedProperty*)>(
     &::UnityEngine::VFX::Utility::ExposedProperty::op_Addition)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6e5c4d4;
+  constexpr static std::size_t addrs = 0x6e5d5b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::ExposedProperty::*)()>(&::UnityEngine::VFX::Utility::ExposedProperty::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e5c55c;
+  constexpr static std::size_t addrs = 0x6e5d63c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::ExposedProperty*>(), { ".ctor", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::ExposedProperty::*)(::StringW)>(&::UnityEngine::VFX::Utility::ExposedProperty::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6e5c4b0;
+  constexpr static std::size_t addrs = 0x6e5d590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::ExposedProperty::*)()>(&::UnityEngine::VFX::Utility::ExposedProperty::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e5c568;
+  constexpr static std::size_t addrs = 0x6e5d648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

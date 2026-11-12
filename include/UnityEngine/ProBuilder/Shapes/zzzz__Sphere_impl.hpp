@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Sphere::*)()>(&::UnityEngine::ProBuilder::Shapes::Sphere::SetParametersToBuiltInShape)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6b5a6c4;
+  constexpr static std::size_t addrs = 0x6b5b7a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Sphere::*)(::UnityEngine::ProBuilder::Shapes::Shape*)>(
     &::UnityEngine::ProBuilder::Shapes::Sphere::CopyShape)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b5a6d4;
+  constexpr static std::size_t addrs = 0x6b5b7b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::Sphere::*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Bounds)>(&::UnityEngine::ProBuilder::Shapes::Sphere::UpdateBounds)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6b5a764;
+  constexpr static std::size_t addrs = 0x6b5b844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::Sphere::*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::UnityEngine::ProBuilder::Shapes::Sphere::RebuildMesh)> {
   constexpr static std::size_t size = 0x948;
-  constexpr static std::size_t addrs = 0x6b5a7c0;
+  constexpr static std::size_t addrs = 0x6b5b8a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Vector3> (*)(::ArrayW<::UnityEngine::Vector3>, float_t)>(
     &::UnityEngine::ProBuilder::Shapes::Sphere::SubdivideIcosahedron)> {
   constexpr static std::size_t size = 0x514;
-  constexpr static std::size_t addrs = 0x6b5b108;
+  constexpr static std::size_t addrs = 0x6b5c1e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Sphere::*)()>(&::UnityEngine::ProBuilder::Shapes::Sphere::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6b5b61c;
+  constexpr static std::size_t addrs = 0x6b5c6fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Sphere*>(), { ".ctor", {}, {} })));

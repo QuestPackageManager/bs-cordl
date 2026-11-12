@@ -55,10 +55,10 @@ public:
   __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list)) ::System::Collections::IList* list;
 
   /// [Obsolete("Use \'object[index]\' syntax instead")]
-  /// @brief Method Get, addr 0x382ef40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x38333d8, size 0x4, virtual false, abstract: false, final false
   inline ::System::Object* Get(int32_t index);
 
-  /// @brief Method GetEncryptedDataObjects, addr 0x382f148, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetEncryptedDataObjects, addr 0x38335e0, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* GetEncryptedDataObjects();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
@@ -75,19 +75,19 @@ public:
 
   constexpr void __cordl_internal_set_list(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x382e87c, size 0x5b4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3832d14, size 0x5b4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method get_Count, addr 0x382efec, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x3833484, size 0xa8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsEmpty, addr 0x382f094, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x383352c, size 0xb4, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method get_Item, addr 0x382ee3c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x38332d4, size 0x104, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData* get_Item(int32_t index);
 
-  /// @brief Method get_Size, addr 0x382ef44, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_Size, addr 0x38333dc, size 0xa8, virtual false, abstract: false, final false
   inline int32_t get_Size();
 
 protected:

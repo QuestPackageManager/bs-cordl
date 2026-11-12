@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::LiteNetLib::NetLogLevel, ::StringW, ::ArrayW<::System::Object*>)>(&::LiteNetLib::NetDebug::WriteLogic)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x5ced0a4;
+  constexpr static std::size_t addrs = 0x5cec8ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::ArrayW<::System::Object*>)>(&::LiteNetLib::NetDebug::Write)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5ced2bc;
+  constexpr static std::size_t addrs = 0x5cecac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::LiteNetLib::NetLogLevel, ::StringW, ::ArrayW<::System::Object*>)>(&::LiteNetLib::NetDebug::Write)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5ced328;
+  constexpr static std::size_t addrs = 0x5cecb30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::ArrayW<::System::Object*>)>(&::LiteNetLib::NetDebug::WriteForce)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5ced398;
+  constexpr static std::size_t addrs = 0x5cecba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::LiteNetLib::NetLogLevel, ::StringW, ::ArrayW<::System::Object*>)>(&::LiteNetLib::NetDebug::WriteForce)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5ced404;
+  constexpr static std::size_t addrs = 0x5cecc0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::ArrayW<::System::Object*>)>(&::LiteNetLib::NetDebug::WriteError)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5ce9518;
+  constexpr static std::size_t addrs = 0x5ce8d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

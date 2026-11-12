@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MakeRunPackFileCommand___c__DisplayClass5_0::*)()>(
     &::GlobalNamespace::MakeRunPackFileCommand___c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3587654;
+  constexpr static std::size_t addrs = 0x358a7c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MakeRunPackFileCommand___c__DisplayClass5_0*>(), { ".ctor", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MakeRunPackFileCommand___c__DisplayClass5_0::*)(::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::MakeRunPackFileCommand___c__DisplayClass5_0::_TryGetLevelsToPlay_b__0)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x358770c;
+  constexpr static std::size_t addrs = 0x358a880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MakeRunPackFileCommand___c__DisplayClass5_0*>(),
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MakeRunPackFileCommand::*)()>(&::GlobalNamespace::MakeRunPackFileCommand::get_commandName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3586fa8;
+  constexpr static std::size_t addrs = 0x358a11c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MakeRunPackFileCommand::*)()>(&::GlobalNamespace::MakeRunPackFileCommand::get_description)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3586fec;
+  constexpr static std::size_t addrs = 0x358a160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::
     int32_t, ::StringW, ::GlobalNamespace::BeatmapDifficulty, ::by_ref<::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*>,
     ::by_ref<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>*>)>(&::GlobalNamespace::MakeRunPackFileCommand::TryGetLevelsToPlay)> {
   constexpr static std::size_t size = 0x624;
-  constexpr static std::size_t addrs = 0x3587030;
+  constexpr static std::size_t addrs = 0x358a1a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MakeRunPackFileCommand::*)()>(&::GlobalNamespace::MakeRunPackFileCommand::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3587658;
+  constexpr static std::size_t addrs = 0x358a7cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MakeRunPackFileCommand*>(), { ".ctor", {}, {} })));

@@ -124,267 +124,267 @@ public:
   /// @brief Field windowOffsetMax, offset 0x64, size 0x4
   __declspec(property(get = __cordl_internal_get_windowOffsetMax, put = __cordl_internal_set_windowOffsetMax)) int32_t windowOffsetMax;
 
-  /// @brief Method Advance, addr 0x65718c8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Advance, addr 0x6571f18, size 0x10, virtual false, abstract: false, final false
   inline void Advance(int32_t count);
 
-  /// @brief Method Close, addr 0x657a24c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x657a89c, size 0xac, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Compare, addr 0x657bcec, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x657c33c, size 0xe4, virtual false, abstract: false, final false
   inline int32_t Compare(int32_t offset1, int32_t length1, int32_t offset2, int32_t length2);
 
-  /// @brief Method EnsureByte, addr 0x657a440, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method EnsureByte, addr 0x657aa90, size 0x24, virtual false, abstract: false, final false
   inline void EnsureByte();
 
-  /// @brief Method EnsureBytes, addr 0x657a70c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method EnsureBytes, addr 0x657ad5c, size 0x24, virtual false, abstract: false, final false
   inline void EnsureBytes(int32_t count);
 
-  /// @brief Method Equals2, addr 0x657b864, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Equals2, addr 0x657beb4, size 0x60, virtual false, abstract: false, final false
   inline bool Equals2(int32_t key1, int32_t key2, ::System::Xml::XmlBufferReader* bufferReader2);
 
-  /// @brief Method Equals2, addr 0x657b8c4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Equals2, addr 0x657bf14, size 0x54, virtual false, abstract: false, final false
   inline bool Equals2(int32_t key1, ::System::Xml::XmlDictionaryString* xmlString2);
 
-  /// @brief Method Equals2, addr 0x657b918, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Equals2, addr 0x657bf68, size 0x8c, virtual false, abstract: false, final false
   inline bool Equals2(int32_t offset1, int32_t length1, ::ArrayW<uint8_t> buffer2);
 
-  /// @brief Method Equals2, addr 0x657b9a4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Equals2, addr 0x657bff4, size 0xb0, virtual false, abstract: false, final false
   inline bool Equals2(int32_t offset1, int32_t length1, ::System::Xml::XmlBufferReader* bufferReader2, int32_t offset2, int32_t length2);
 
-  /// @brief Method Equals2, addr 0x657ba54, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Equals2, addr 0x657c0a4, size 0x9c, virtual false, abstract: false, final false
   inline bool Equals2(int32_t offset1, int32_t length1, int32_t offset2, int32_t length2);
 
-  /// @brief Method Equals2, addr 0x657baf0, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method Equals2, addr 0x657c140, size 0x1fc, virtual false, abstract: false, final false
   inline bool Equals2(int32_t offset1, int32_t length1, ::StringW s2);
 
-  /// @brief Method GetAmpersandCharEntity, addr 0x657b31c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetAmpersandCharEntity, addr 0x657b96c, size 0x8c, virtual false, abstract: false, final false
   inline int32_t GetAmpersandCharEntity(int32_t offset, int32_t length);
 
-  /// @brief Method GetApostropheCharEntity, addr 0x657b3a8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetApostropheCharEntity, addr 0x657b9f8, size 0xa8, virtual false, abstract: false, final false
   inline int32_t GetApostropheCharEntity(int32_t offset, int32_t length);
 
-  /// @brief Method GetBase64, addr 0x657c290, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetBase64, addr 0x657c8e0, size 0xc, virtual false, abstract: false, final false
   inline void GetBase64(int32_t srcOffset, ::ArrayW<uint8_t> buffer, int32_t dstOffset, int32_t count);
 
-  /// @brief Method GetBuffer, addr 0x657a464, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetBuffer, addr 0x657aab4, size 0x34, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetBuffer(int32_t count, ::by_ref<int32_t> offset);
 
-  /// @brief Method GetBuffer, addr 0x657a4b8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetBuffer, addr 0x657ab08, size 0xb4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetBuffer(int32_t count, ::by_ref<int32_t> offset, ::by_ref<int32_t> offsetMax);
 
-  /// @brief Method GetBuffer, addr 0x657a6f0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetBuffer, addr 0x657ad40, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetBuffer(::by_ref<int32_t> offset, ::by_ref<int32_t> offsetMax);
 
-  /// @brief Method GetBufferHard, addr 0x657a498, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetBufferHard, addr 0x657aae8, size 0x20, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetBufferHard(int32_t count, ::by_ref<int32_t> offset);
 
-  /// @brief Method GetByte, addr 0x657a3ac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetByte, addr 0x657a9fc, size 0x48, virtual false, abstract: false, final false
   inline uint8_t GetByte();
 
-  /// @brief Method GetByte, addr 0x6573470, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetByte, addr 0x6573ac0, size 0x30, virtual false, abstract: false, final false
   inline uint8_t GetByte(int32_t offset);
 
-  /// @brief Method GetByteHard, addr 0x657a3f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetByteHard, addr 0x657aa44, size 0x3c, virtual false, abstract: false, final false
   inline uint8_t GetByteHard();
 
-  /// @brief Method GetCharBuffer, addr 0x657a818, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetCharBuffer, addr 0x657ae68, size 0x98, virtual false, abstract: false, final false
   inline ::ArrayW<char16_t> GetCharBuffer(int32_t count);
 
-  /// @brief Method GetCharEntity, addr 0x657afdc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetCharEntity, addr 0x657b62c, size 0xf8, virtual false, abstract: false, final false
   inline int32_t GetCharEntity(int32_t offset, int32_t length);
 
-  /// @brief Method GetChars, addr 0x657a8b0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetChars, addr 0x657af00, size 0x10c, virtual false, abstract: false, final false
   inline int32_t GetChars(int32_t offset, int32_t length, ::ArrayW<char16_t> chars);
 
-  /// @brief Method GetChars, addr 0x657aafc, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetChars, addr 0x657b14c, size 0x12c, virtual false, abstract: false, final false
   inline int32_t GetChars(int32_t offset, int32_t length, ::ArrayW<char16_t> chars, int32_t charOffset);
 
-  /// @brief Method GetDecimal, addr 0x657c0b0, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method GetDecimal, addr 0x657c700, size 0x16c, virtual false, abstract: false, final false
   inline ::System::Decimal GetDecimal(int32_t offset);
 
-  /// @brief Method GetDecimalCharEntity, addr 0x657b450, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetDecimalCharEntity, addr 0x657baa0, size 0x8c, virtual false, abstract: false, final false
   inline int32_t GetDecimalCharEntity(int32_t offset, int32_t length);
 
-  /// @brief Method GetDictionaryString, addr 0x65705bc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetDictionaryString, addr 0x6570c0c, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlDictionaryString* GetDictionaryString(int32_t key);
 
-  /// @brief Method GetDouble, addr 0x657bfb8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetDouble, addr 0x657c608, size 0xf8, virtual false, abstract: false, final false
   inline double_t GetDouble(int32_t offset);
 
-  /// @brief Method GetEscapedChars, addr 0x657ad60, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method GetEscapedChars, addr 0x657b3b0, size 0x260, virtual false, abstract: false, final false
   inline int32_t GetEscapedChars(int32_t offset, int32_t length, ::ArrayW<char16_t> chars);
 
-  /// @brief Method GetEscapedString, addr 0x657b0d4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetEscapedString, addr 0x657b724, size 0x54, virtual false, abstract: false, final false
   inline ::StringW GetEscapedString(int32_t offset, int32_t length);
 
-  /// @brief Method GetEscapedString, addr 0x657b128, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetEscapedString, addr 0x657b778, size 0x6c, virtual false, abstract: false, final false
   inline ::StringW GetEscapedString(int32_t offset, int32_t length, ::System::Xml::XmlNameTable* nameTable);
 
-  /// @brief Method GetGreaterThanCharEntity, addr 0x657b204, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetGreaterThanCharEntity, addr 0x657b854, size 0x70, virtual false, abstract: false, final false
   inline int32_t GetGreaterThanCharEntity(int32_t offset, int32_t length);
 
-  /// @brief Method GetGuid, addr 0x657a76c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetGuid, addr 0x657adbc, size 0xac, virtual false, abstract: false, final false
   inline ::System::Guid GetGuid(int32_t offset);
 
-  /// @brief Method GetHexCharEntity, addr 0x657b4dc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetHexCharEntity, addr 0x657bb2c, size 0xb4, virtual false, abstract: false, final false
   inline int32_t GetHexCharEntity(int32_t offset, int32_t length);
 
-  /// @brief Method GetInt16, addr 0x6573734, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetInt16, addr 0x6573d84, size 0x4c, virtual false, abstract: false, final false
   inline int32_t GetInt16(int32_t offset);
 
-  /// @brief Method GetInt32, addr 0x657bde4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetInt32, addr 0x657c434, size 0x74, virtual false, abstract: false, final false
   inline int32_t GetInt32(int32_t offset);
 
-  /// @brief Method GetInt64, addr 0x657be58, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetInt64, addr 0x657c4a8, size 0xd0, virtual false, abstract: false, final false
   inline int64_t GetInt64(int32_t offset);
 
-  /// @brief Method GetInt8, addr 0x657bdd0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetInt8, addr 0x657c420, size 0x14, virtual false, abstract: false, final false
   inline int32_t GetInt8(int32_t offset);
 
-  /// @brief Method GetLessThanCharEntity, addr 0x657b194, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetLessThanCharEntity, addr 0x657b7e4, size 0x70, virtual false, abstract: false, final false
   inline int32_t GetLessThanCharEntity(int32_t offset, int32_t length);
 
-  /// @brief Method GetList, addr 0x657c29c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetList, addr 0x657c8ec, size 0x194, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*> GetList(int32_t offset, int32_t count);
 
-  /// @brief Method GetNodeType, addr 0x6573890, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetNodeType, addr 0x6573ee0, size 0x14, virtual false, abstract: false, final false
   inline ::System::Xml::XmlBinaryNodeType GetNodeType();
 
-  /// @brief Method GetQuoteCharEntity, addr 0x657b274, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetQuoteCharEntity, addr 0x657b8c4, size 0xa8, virtual false, abstract: false, final false
   inline int32_t GetQuoteCharEntity(int32_t offset, int32_t length);
 
-  /// @brief Method GetRows, addr 0x657c590, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method GetRows, addr 0x657cbe0, size 0x1d8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t> GetRows();
 
-  /// @brief Method GetSingle, addr 0x657bf2c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetSingle, addr 0x657c57c, size 0x8c, virtual false, abstract: false, final false
   inline float_t GetSingle(int32_t offset);
 
-  /// @brief Method GetString, addr 0x657ac28, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x657b278, size 0x54, virtual false, abstract: false, final false
   inline ::StringW GetString(int32_t offset, int32_t length);
 
-  /// @brief Method GetString, addr 0x657acf4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x657b344, size 0x6c, virtual false, abstract: false, final false
   inline ::StringW GetString(int32_t offset, int32_t length, ::System::Xml::XmlNameTable* nameTable);
 
-  /// @brief Method GetUInt64, addr 0x657bf28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetUInt64, addr 0x657c578, size 0x4, virtual false, abstract: false, final false
   inline uint64_t GetUInt64(int32_t offset);
 
-  /// @brief Method GetUnicodeString, addr 0x657ac7c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetUnicodeString, addr 0x657b2cc, size 0x78, virtual false, abstract: false, final false
   inline ::StringW GetUnicodeString(int32_t offset, int32_t length);
 
-  /// @brief Method GetUniqueId, addr 0x657c21c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetUniqueId, addr 0x657c86c, size 0x74, virtual false, abstract: false, final false
   inline ::System::Xml::UniqueId* GetUniqueId(int32_t offset);
 
-  /// @brief Method InsertBytes, addr 0x6573780, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method InsertBytes, addr 0x6573dd0, size 0xfc, virtual false, abstract: false, final false
   inline void InsertBytes(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method IsAttrChar, addr 0x657afc0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsAttrChar, addr 0x657b610, size 0x1c, virtual false, abstract: false, final false
   inline bool IsAttrChar(int32_t ch);
 
-  /// @brief Method IsWhitespaceKey, addr 0x657b590, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method IsWhitespaceKey, addr 0x657bbe0, size 0xec, virtual false, abstract: false, final false
   inline bool IsWhitespaceKey(int32_t key);
 
-  /// @brief Method IsWhitespaceUTF8, addr 0x657b67c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method IsWhitespaceUTF8, addr 0x657bccc, size 0x10c, virtual false, abstract: false, final false
   inline bool IsWhitespaceUTF8(int32_t offset, int32_t length);
 
-  /// @brief Method IsWhitespaceUnicode, addr 0x657b788, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method IsWhitespaceUnicode, addr 0x657bdd8, size 0xdc, virtual false, abstract: false, final false
   inline bool IsWhitespaceUnicode(int32_t offset, int32_t length);
 
   static inline ::System::Xml::XmlBufferReader* New_ctor(::ArrayW<uint8_t> buffer);
 
   static inline ::System::Xml::XmlBufferReader* New_ctor(::System::Xml::XmlDictionaryReader* reader);
 
-  /// @brief Method ReadBytes, addr 0x6573420, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ReadBytes, addr 0x6573a70, size 0x50, virtual false, abstract: false, final false
   inline int32_t ReadBytes(int32_t count);
 
-  /// @brief Method ReadDateTime, addr 0x65710b4, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method ReadDateTime, addr 0x6571704, size 0x1b4, virtual false, abstract: false, final false
   inline ::System::DateTime ReadDateTime();
 
-  /// @brief Method ReadDecimal, addr 0x6570e74, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method ReadDecimal, addr 0x65714c4, size 0x194, virtual false, abstract: false, final false
   inline ::System::Decimal ReadDecimal();
 
-  /// @brief Method ReadDictionaryKey, addr 0x65738b4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ReadDictionaryKey, addr 0x6573f04, size 0x13c, virtual false, abstract: false, final false
   inline int32_t ReadDictionaryKey();
 
-  /// @brief Method ReadDouble, addr 0x6570c8c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method ReadDouble, addr 0x65712dc, size 0x134, virtual false, abstract: false, final false
   inline double_t ReadDouble();
 
-  /// @brief Method ReadGuid, addr 0x6571570, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ReadGuid, addr 0x6571bc0, size 0x50, virtual false, abstract: false, final false
   inline ::System::Guid ReadGuid();
 
-  /// @brief Method ReadInt16, addr 0x65709b0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ReadInt16, addr 0x6571000, size 0x14, virtual false, abstract: false, final false
   inline int32_t ReadInt16();
 
-  /// @brief Method ReadInt32, addr 0x65709c4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ReadInt32, addr 0x6571014, size 0xac, virtual false, abstract: false, final false
   inline int32_t ReadInt32();
 
-  /// @brief Method ReadInt64, addr 0x657a740, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ReadInt64, addr 0x657ad90, size 0x2c, virtual false, abstract: false, final false
   inline int64_t ReadInt64();
 
-  /// @brief Method ReadInt8, addr 0x657098c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReadInt8, addr 0x6570fdc, size 0x24, virtual false, abstract: false, final false
   inline int32_t ReadInt8();
 
-  /// @brief Method ReadList, addr 0x657c4bc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ReadList, addr 0x657cb0c, size 0xd4, virtual false, abstract: false, final false
   inline void ReadList(::System::Xml::ValueHandle* value);
 
-  /// @brief Method ReadMultiByteUInt31, addr 0x65739f0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ReadMultiByteUInt31, addr 0x6574040, size 0xbc, virtual false, abstract: false, final false
   inline int32_t ReadMultiByteUInt31();
 
-  /// @brief Method ReadQName, addr 0x6572b68, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ReadQName, addr 0x65731b8, size 0x68, virtual false, abstract: false, final false
   inline void ReadQName(::System::Xml::ValueHandle* value);
 
-  /// @brief Method ReadSingle, addr 0x6570b1c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ReadSingle, addr 0x657116c, size 0xc4, virtual false, abstract: false, final false
   inline float_t ReadSingle();
 
-  /// @brief Method ReadTimeSpan, addr 0x6571314, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method ReadTimeSpan, addr 0x6571964, size 0x1a8, virtual false, abstract: false, final false
   inline ::System::TimeSpan ReadTimeSpan();
 
-  /// @brief Method ReadUInt16, addr 0x6571828, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ReadUInt16, addr 0x6571e78, size 0x7c, virtual false, abstract: false, final false
   inline int32_t ReadUInt16();
 
-  /// @brief Method ReadUInt31, addr 0x65718a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReadUInt31, addr 0x6571ef4, size 0x24, virtual false, abstract: false, final false
   inline int32_t ReadUInt31();
 
-  /// @brief Method ReadUInt8, addr 0x65707d8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReadUInt8, addr 0x6570e28, size 0x24, virtual false, abstract: false, final false
   inline int32_t ReadUInt8();
 
-  /// @brief Method ReadUTF8String, addr 0x6570508, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadUTF8String, addr 0x6570b58, size 0x84, virtual false, abstract: false, final false
   inline ::StringW ReadUTF8String(int32_t length);
 
-  /// @brief Method ReadUnicodeValue, addr 0x657c49c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ReadUnicodeValue, addr 0x657caec, size 0x20, virtual false, abstract: false, final false
   inline void ReadUnicodeValue(::System::Xml::ValueHandle* value, int32_t length);
 
-  /// @brief Method ReadValue, addr 0x6572cc8, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x6573318, size 0x2bc, virtual false, abstract: false, final false
   inline void ReadValue(::System::Xml::XmlBinaryNodeType nodeType, ::System::Xml::ValueHandle* value);
 
-  /// @brief Method ReadValue, addr 0x657c430, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x657ca80, size 0x6c, virtual false, abstract: false, final false
   inline void ReadValue(::System::Xml::ValueHandle* value, ::System::Xml::ValueHandleType type, int32_t length);
 
-  /// @brief Method SetBuffer, addr 0x657a230, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetBuffer, addr 0x657a880, size 0x1c, virtual false, abstract: false, final false
   inline void SetBuffer(::System::IO::Stream* stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::Xml::IXmlDictionary* dictionary,
                         ::System::Xml::XmlBinaryReaderSession* session);
 
-  /// @brief Method SetBuffer, addr 0x6570188, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetBuffer, addr 0x65707d8, size 0x9c, virtual false, abstract: false, final false
   inline void SetBuffer(::System::IO::Stream* stream, ::System::Xml::IXmlDictionary* dictionary, ::System::Xml::XmlBinaryReaderSession* session);
 
-  /// @brief Method SetWindow, addr 0x6572418, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SetWindow, addr 0x6572a68, size 0xd0, virtual false, abstract: false, final false
   inline void SetWindow(int32_t windowOffset, int32_t windowLength);
 
-  /// @brief Method SkipByte, addr 0x657a430, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SkipByte, addr 0x657aa80, size 0x10, virtual false, abstract: false, final false
   inline void SkipByte();
 
-  /// @brief Method SkipNodeType, addr 0x65738a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SkipNodeType, addr 0x6573ef4, size 0x10, virtual false, abstract: false, final false
   inline void SkipNodeType();
 
-  /// @brief Method TryEnsureByte, addr 0x657a2f8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method TryEnsureByte, addr 0x657a948, size 0xb4, virtual false, abstract: false, final false
   inline bool TryEnsureByte();
 
-  /// @brief Method TryEnsureBytes, addr 0x657a56c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method TryEnsureBytes, addr 0x657abbc, size 0x184, virtual false, abstract: false, final false
   inline bool TryEnsureBytes(int32_t count);
 
-  /// @brief Method UnsafeReadArray, addr 0x6574130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method UnsafeReadArray, addr 0x6574780, size 0x8, virtual false, abstract: false, final false
   inline void UnsafeReadArray(uint8_t* dst, uint8_t* dstMax);
 
-  /// @brief Method UnsafeReadArray, addr 0x657a9bc, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method UnsafeReadArray, addr 0x657b00c, size 0x140, virtual false, abstract: false, final false
   inline void UnsafeReadArray(uint8_t* dst, int32_t length);
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_buffer() const;
@@ -471,36 +471,36 @@ public:
 
   constexpr void __cordl_internal_set_windowOffsetMax(int32_t value);
 
-  /// @brief Method .ctor, addr 0x657a1b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x657a800, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> buffer);
 
-  /// @brief Method .ctor, addr 0x657a1a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x657a7f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDictionaryReader* reader);
 
   static inline ::System::Xml::XmlBufferReader* getStaticF_empty();
 
   static inline ::ArrayW<uint8_t> getStaticF_emptyByteArray();
 
-  /// @brief Method get_Buffer, addr 0x657a218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Buffer, addr 0x657a868, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Buffer();
 
-  /// @brief Method get_Empty, addr 0x657a1bc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Empty, addr 0x657a80c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlBufferReader* get_Empty();
 
-  /// @brief Method get_EndOfFile, addr 0x65718d8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_EndOfFile, addr 0x6571f28, size 0x30, virtual false, abstract: false, final false
   inline bool get_EndOfFile();
 
-  /// @brief Method get_IsStreamed, addr 0x657a220, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsStreamed, addr 0x657a870, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsStreamed();
 
-  /// @brief Method get_Offset, addr 0x657a730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Offset, addr 0x657ad80, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Offset();
 
   static inline void setStaticF_empty(::System::Xml::XmlBufferReader* value);
 
   static inline void setStaticF_emptyByteArray(::ArrayW<uint8_t> value);
 
-  /// @brief Method set_Offset, addr 0x657a738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Offset, addr 0x657ad88, size 0x8, virtual false, abstract: false, final false
   inline void set_Offset(int32_t value);
 
 protected:
@@ -518,7 +518,7 @@ public:
   XmlBufferReader(XmlBufferReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16383 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16391 };
 
   /// @brief Field reader, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlDictionaryReader* ___reader;

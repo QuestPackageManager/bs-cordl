@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Internal::Threading::Tasks::Tracing::TaskTrace::get_Enabled)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5f1bd10;
+  constexpr static std::size_t addrs = 0x5f1bf98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Internal::Threading::Tasks::Tracing::TaskTrace*>(), { "get_Enabled", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t, int32_t)>(&::Internal::Threading::Tasks::Tracing::TaskTrace::TaskWaitBegin_Asynchronous)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5f1bd74;
+  constexpr static std::size_t addrs = 0x5f1bffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t, int32_t)>(&::Internal::Threading::Tasks::Tracing::TaskTrace::TaskWaitBegin_Synchronous)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5f1bdfc;
+  constexpr static std::size_t addrs = 0x5f1c084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t, int32_t)>(&::Internal::Threading::Tasks::Tracing::TaskTrace::TaskWaitEnd)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5f1be84;
+  constexpr static std::size_t addrs = 0x5f1c10c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t, int32_t, int32_t, int32_t)>(&::Internal::Threading::Tasks::Tracing::TaskTrace::TaskScheduled)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5f1bf0c;
+  constexpr static std::size_t addrs = 0x5f1c194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

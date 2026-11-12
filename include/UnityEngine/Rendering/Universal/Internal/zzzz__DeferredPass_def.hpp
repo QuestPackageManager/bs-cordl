@@ -118,7 +118,7 @@ public:
 
   constexpr void __cordl_internal_set_shadowData(::UnityEngine::Rendering::Universal::UniversalShadowData* value);
 
-  /// @brief Method .ctor, addr 0x6d6c7d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d6d8b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -187,10 +187,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DeferredPass___c* New_ctor();
 
-  /// @brief Method <Render>b__3_0, addr 0x6d6c830, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__3_0, addr 0x6d6d910, size 0x30, virtual false, abstract: false, final false
   inline void _Render_b__3_0(::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x6d6c82c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d6d90c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DeferredPass___c* getStaticF___9();
@@ -244,10 +244,10 @@ public:
   static inline ::UnityEngine::Rendering::Universal::Internal::DeferredPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt,
                                                                                       ::UnityEngine::Rendering::Universal::Internal::DeferredLights* deferredLights);
 
-  /// @brief Method OnCameraCleanup, addr 0x6d6c7bc, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method OnCameraCleanup, addr 0x6d6d89c, size 0x18, virtual true, abstract: false, final false
   inline void OnCameraCleanup(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method Render, addr 0x6d6c0b0, size 0x70c, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6d6d190, size 0x70c, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle color, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depth,
                      ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> gbuffer);
@@ -258,7 +258,7 @@ public:
 
   constexpr void __cordl_internal_set_m_DeferredLights(::UnityEngine::Rendering::Universal::Internal::DeferredLights* value);
 
-  /// @brief Method .ctor, addr 0x6d6c008, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d6d0e8, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Rendering::Universal::Internal::DeferredLights* deferredLights);
 
 protected:

@@ -98,13 +98,13 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IDataSourceProvider"
   constexpr operator ::UnityEngine::UIElements::IDataSourceProvider*() noexcept;
 
-  /// @brief Method ApplyConverterGroupToSource, addr 0x70c53fc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ApplyConverterGroupToSource, addr 0x70c64dc, size 0x40, virtual false, abstract: false, final false
   inline void ApplyConverterGroupToSource(::UnityEngine::UIElements::ConverterGroup* group);
 
-  /// @brief Method ApplyConverterGroupToUI, addr 0x70c543c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ApplyConverterGroupToUI, addr 0x70c651c, size 0x40, virtual false, abstract: false, final false
   inline void ApplyConverterGroupToUI(::UnityEngine::UIElements::ConverterGroup* group);
 
-  /// @brief Method CacheReflectionInfo, addr 0x70c5104, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method CacheReflectionInfo, addr 0x70c61e4, size 0x190, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* CacheReflectionInfo();
 
   /// @brief Method GetSetValueErrorString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -157,28 +157,28 @@ public:
 
   static inline ::System::Reflection::MethodInfo* getStaticF_s_UpdateUIMethodInfo();
 
-  /// @brief Method get_bindingMode, addr 0x70c52d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bindingMode, addr 0x70c63b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingMode get_bindingMode();
 
   /// [CompilerGenerated]
-  /// @brief Method get_dataSource, addr 0x70c5294, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_dataSource, addr 0x70c6374, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_dataSource();
 
   /// [CompilerGenerated]
-  /// @brief Method get_dataSourcePath, addr 0x70c52b4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_dataSourcePath, addr 0x70c6394, size 0x10, virtual true, abstract: false, final true
   inline ::Unity::Properties::PropertyPath get_dataSourcePath();
 
   /// [CompilerGenerated]
-  /// @brief Method get_dataSourceType, addr 0x70c52a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dataSourceType, addr 0x70c6384, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_dataSourceType();
 
-  /// @brief Method get_sourceToUiConverters, addr 0x70c52f4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_sourceToUiConverters, addr 0x70c63d4, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ConverterGroup* get_sourceToUiConverters();
 
-  /// @brief Method get_uiToSourceConverters, addr 0x70c5378, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_uiToSourceConverters, addr 0x70c6458, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ConverterGroup* get_uiToSourceConverters();
 
-  /// @brief Method get_updateUIMethod, addr 0x70c4d0c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_updateUIMethod, addr 0x70c5dec, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_updateUIMethod();
 
   /// @brief Convert to "::UnityEngine::UIElements::IDataSourceProvider"
@@ -186,19 +186,19 @@ public:
 
   static inline void setStaticF_s_UpdateUIMethodInfo(::System::Reflection::MethodInfo* value);
 
-  /// @brief Method set_bindingMode, addr 0x70c52d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_bindingMode, addr 0x70c63b8, size 0x1c, virtual false, abstract: false, final false
   inline void set_bindingMode(::UnityEngine::UIElements::BindingMode value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_dataSource, addr 0x70c529c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_dataSource, addr 0x70c637c, size 0x8, virtual false, abstract: false, final false
   inline void set_dataSource(::System::Object* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_dataSourcePath, addr 0x70c52c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_dataSourcePath, addr 0x70c63a4, size 0xc, virtual false, abstract: false, final false
   inline void set_dataSourcePath(::Unity::Properties::PropertyPath value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_dataSourceType, addr 0x70c52ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_dataSourceType, addr 0x70c638c, size 0x8, virtual false, abstract: false, final false
   inline void set_dataSourceType(::System::Type* value);
 
 protected:

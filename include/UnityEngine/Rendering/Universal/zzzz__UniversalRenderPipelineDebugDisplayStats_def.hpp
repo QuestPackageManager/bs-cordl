@@ -39,34 +39,34 @@ public:
   __declspec(property(get = __cordl_internal_get_m_RecordedSamplers,
                       put = __cordl_internal_set_m_RecordedSamplers)) ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::URPProfileId>* m_RecordedSamplers;
 
-  /// @brief Method DisableProfilingRecorders, addr 0x6cc8044, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method DisableProfilingRecorders, addr 0x6cc9124, size 0x12c, virtual true, abstract: false, final false
   inline void DisableProfilingRecorders();
 
-  /// @brief Method EnableProfilingRecorders, addr 0x6cc7ff0, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method EnableProfilingRecorders, addr 0x6cc90d0, size 0x54, virtual true, abstract: false, final false
   inline void EnableProfilingRecorders();
 
   static inline ::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats* New_ctor();
 
-  /// @brief Method RegisterDebugUI, addr 0x6cc8170, size 0x580, virtual true, abstract: false, final false
+  /// @brief Method RegisterDebugUI, addr 0x6cc9250, size 0x580, virtual true, abstract: false, final false
   inline void RegisterDebugUI(::System::Collections::Generic::List_1<::UnityEngine::Rendering::DebugUI_Widget*>* list);
 
-  /// @brief Method Update, addr 0x6cc86f0, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x6cc97d0, size 0x64, virtual true, abstract: false, final false
   inline void Update();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebugUI>b__4_0, addr 0x6cc8754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebugUI>b__4_0, addr 0x6cc9834, size 0x8, virtual false, abstract: false, final false
   inline bool _RegisterDebugUI_b__4_0();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebugUI>b__4_1, addr 0x6cc875c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebugUI>b__4_1, addr 0x6cc983c, size 0x8, virtual false, abstract: false, final false
   inline void _RegisterDebugUI_b__4_1(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebugUI>b__4_2, addr 0x6cc8764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebugUI>b__4_2, addr 0x6cc9844, size 0x8, virtual false, abstract: false, final false
   inline bool _RegisterDebugUI_b__4_2();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebugUI>b__4_3, addr 0x6cc876c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebugUI>b__4_3, addr 0x6cc984c, size 0x8, virtual false, abstract: false, final false
   inline void _RegisterDebugUI_b__4_3(bool value);
 
   constexpr ::UnityEngine::Rendering::DebugFrameTiming* const& __cordl_internal_get_m_DebugFrameTiming() const;
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set_m_RecordedSamplers(::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::URPProfileId>* value);
 
-  /// @brief Method .ctor, addr 0x6cc7e00, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc8ee0, size 0xec, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

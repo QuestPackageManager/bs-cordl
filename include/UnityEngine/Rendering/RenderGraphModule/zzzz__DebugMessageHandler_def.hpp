@@ -144,10 +144,10 @@ public:
 
   constexpr void __cordl_internal_set_version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6c2fefc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c30fdc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isCompatible, addr 0x6c2fd3c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isCompatible, addr 0x6c30e1c, size 0x10, virtual false, abstract: false, final false
   inline bool get_isCompatible();
 
 protected:
@@ -214,7 +214,7 @@ public:
 
   constexpr void __cordl_internal_set_graphName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6c2fd38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c30e18, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -309,7 +309,7 @@ public:
 
   constexpr void __cordl_internal_set_graphicsDeviceType(::UnityEngine::Rendering::GraphicsDeviceType value);
 
-  /// @brief Method .ctor, addr 0x6c2fdb4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c30e94, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -386,27 +386,27 @@ public:
   /// @brief Field s_PlayerToEditorGuid, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_s_PlayerToEditorGuid, put = setStaticF_s_PlayerToEditorGuid)) ::System::Guid s_PlayerToEditorGuid;
 
-  /// @brief Method DeserializeMessage, addr 0x6c2ef50, size 0x5c0, virtual false, abstract: false, final false
+  /// @brief Method DeserializeMessage, addr 0x6c30030, size 0x5c0, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_2<::UnityEngine::Rendering::RenderGraphModule::DebugMessageHandler_MessageType, ::UnityEngine::Rendering::RenderGraphModule::DebugMessageHandler_IPayload*>
   DeserializeMessage(::ArrayW<uint8_t> data);
 
-  /// @brief Method InternalCallback, addr 0x6c2eeb8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method InternalCallback, addr 0x6c2ff98, size 0x98, virtual false, abstract: false, final false
   inline void InternalCallback(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* msg);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::DebugMessageHandler* New_ctor();
 
-  /// @brief Method Register, addr 0x6c2f510, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x6c305f0, size 0xe8, virtual false, abstract: false, final false
   inline void
   Register(::System::Action_2<::UnityEngine::Rendering::RenderGraphModule::DebugMessageHandler_MessageType, ::UnityEngine::Rendering::RenderGraphModule::DebugMessageHandler_IPayload*>* callback);
 
-  /// @brief Method Send, addr 0x6c2f6d8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Send, addr 0x6c307b8, size 0xa4, virtual false, abstract: false, final false
   inline void Send(::UnityEngine::Rendering::RenderGraphModule::DebugMessageHandler_MessageType messageType, ::UnityEngine::Rendering::RenderGraphModule::DebugMessageHandler_IPayload* payload);
 
-  /// @brief Method SerializeMessage, addr 0x6c2f77c, size 0x598, virtual false, abstract: false, final false
+  /// @brief Method SerializeMessage, addr 0x6c3085c, size 0x598, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> SerializeMessage(::UnityEngine::Rendering::RenderGraphModule::DebugMessageHandler_MessageType type,
                                                    ::UnityEngine::Rendering::RenderGraphModule::DebugMessageHandler_IPayload* payload);
 
-  /// @brief Method UnregisterAll, addr 0x6c2f5f8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method UnregisterAll, addr 0x6c306d8, size 0xe0, virtual false, abstract: false, final false
   inline void UnregisterAll();
 
   constexpr ::System::Action_2<::UnityEngine::Rendering::RenderGraphModule::DebugMessageHandler_MessageType, ::UnityEngine::Rendering::RenderGraphModule::DebugMessageHandler_IPayload*>* const&
@@ -418,7 +418,7 @@ public:
   constexpr void __cordl_internal_set_m_UserCallback(
       ::System::Action_2<::UnityEngine::Rendering::RenderGraphModule::DebugMessageHandler_MessageType, ::UnityEngine::Rendering::RenderGraphModule::DebugMessageHandler_IPayload*>* value);
 
-  /// @brief Method .ctor, addr 0x6c2fe34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c30f14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Guid getStaticF_s_EditorToPlayerGuid();

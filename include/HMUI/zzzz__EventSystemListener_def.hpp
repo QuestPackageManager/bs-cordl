@@ -54,10 +54,10 @@ public:
 
   static inline ::HMUI::EventSystemListener* New_ctor();
 
-  /// @brief Method OnPointerEnter, addr 0x5cc7fa4, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method OnPointerEnter, addr 0x5cc76fc, size 0x1c, virtual true, abstract: false, final true
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit, addr 0x5cc7fc0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method OnPointerExit, addr 0x5cc7718, size 0x1c, virtual true, abstract: false, final true
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   constexpr ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* const& __cordl_internal_get_pointerDidEnterEvent() const;
@@ -72,15 +72,15 @@ public:
 
   constexpr void __cordl_internal_set_pointerDidExitEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
-  /// @brief Method .ctor, addr 0x5cc7fdc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cc7734, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_pointerDidEnterEvent, addr 0x5cc7ca4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_pointerDidEnterEvent, addr 0x5cc73fc, size 0xc0, virtual false, abstract: false, final false
   inline void add_pointerDidEnterEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_pointerDidExitEvent, addr 0x5cc7e24, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_pointerDidExitEvent, addr 0x5cc757c, size 0xc0, virtual false, abstract: false, final false
   inline void add_pointerDidExitEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -93,11 +93,11 @@ public:
   constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_pointerDidEnterEvent, addr 0x5cc7d64, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_pointerDidEnterEvent, addr 0x5cc74bc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_pointerDidEnterEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_pointerDidExitEvent, addr 0x5cc7ee4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_pointerDidExitEvent, addr 0x5cc763c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_pointerDidExitEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
 protected:
@@ -115,7 +115,7 @@ public:
   EventSystemListener(EventSystemListener const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19629 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19637 };
 
   /// [CompilerGenerated]
   /// @brief Field pointerDidEnterEvent, offset: 0x20, size: 0x8, def value: None

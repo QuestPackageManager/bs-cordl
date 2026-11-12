@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::
     ::StringW, ::StringW, ::GlobalNamespace::BeatmapKey, ::GlobalNamespace::GameplayModifierMask, int64_t, ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder*)>(
     &::BeatSaber::Main::Leaderboards::QueryLeaderboardAroundMe::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x354a828;
+  constexpr static std::size_t addrs = 0x354d7c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                                                 ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder*)>(
         &::BeatSaber::Main::Leaderboards::QueryLeaderboardAroundMe::CreateQuery)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x354dc08;
+  constexpr static std::size_t addrs = 0x3550ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Org::BouncyCastle::Crypto::Parameters::DHParameters*)>(&::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::AddDefaultGroup)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x36eb1a8;
+  constexpr static std::size_t addrs = 0x36ef640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier*>(),
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::*)()>(&::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x36eacec;
+  constexpr static std::size_t addrs = 0x36ef184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier*>(), { ".ctor", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::*)(int32_t)>(&::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x36eb3e8;
+  constexpr static std::size_t addrs = 0x36ef880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::*)(::System::Collections::IList*, int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x36eb45c;
+  constexpr static std::size_t addrs = 0x36ef8f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier*>(),
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::*)(::Org::BouncyCastle::Crypto::Parameters::DHParameters*)>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::Accept)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x36eb468;
+  constexpr static std::size_t addrs = 0x36ef900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier*>(),
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::get_MinimumPrimeBits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36eb4b4;
+  constexpr static std::size_t addrs = 0x36ef94c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier*>(),
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::*)(
     ::Org::BouncyCastle::Crypto::Parameters::DHParameters*, ::Org::BouncyCastle::Crypto::Parameters::DHParameters*)>(&::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::AreGroupsEqual)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x36eb4bc;
+  constexpr static std::size_t addrs = 0x36ef954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier*>(),
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::*)(
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::AreParametersEqual)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x36eb534;
+  constexpr static std::size_t addrs = 0x36ef9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier*>(),
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::*)(::Org::BouncyCastle::Crypto::Parameters::DHParameters*)>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::CheckGroup)> {
   constexpr static std::size_t size = 0x33c;
-  constexpr static std::size_t addrs = 0x36eb568;
+  constexpr static std::size_t addrs = 0x36efa00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier*>(),
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::*)(::Org::BouncyCastle::Crypto::Parameters::DHParameters*)>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::CheckMinimumPrimeBits)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x36eb8a4;
+  constexpr static std::size_t addrs = 0x36efd3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier*>(),

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::Spacing::*)()>(&::UnityEngine::UIElements::Spacing::get_horizontal)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x72b639c;
+  constexpr static std::size_t addrs = 0x72b747c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Spacing>(), { "get_horizontal", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::Spacing::*)()>(&::UnityEngine::UIElements::Spacing::get_vertical)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x72b63ac;
+  constexpr static std::size_t addrs = 0x72b748c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Spacing>(), { "get_vertical", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Spacing::*)(float_t, float_t, float_t, float_t)>(&::UnityEngine::UIElements::Spacing::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72b63bc;
+  constexpr static std::size_t addrs = 0x72b749c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (*)(::UnityEngine::Rect, ::UnityEngine::UIElements::Spacing)>(&::UnityEngine::UIElements::Spacing::op_Subtraction)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x72b63c8;
+  constexpr static std::size_t addrs = 0x72b74a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

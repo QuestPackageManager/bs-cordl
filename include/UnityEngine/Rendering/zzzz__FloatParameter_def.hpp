@@ -21,12 +21,12 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE FloatParameter : public ::UnityEngine::Rendering::VolumeParameter_1<float_t> {
 public:
   // Declarations
-  /// @brief Method Interp, addr 0x6c27910, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method Interp, addr 0x6c289f0, size 0x14, virtual true, abstract: false, final true
   inline void Interp(float_t from, float_t to, float_t t);
 
   static inline ::UnityEngine::Rendering::FloatParameter* New_ctor(float_t value, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x6c278a4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c28984, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(float_t value, bool overrideState);
 
 protected:

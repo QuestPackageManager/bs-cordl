@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x72e73b8;
+  constexpr static std::size_t addrs = 0x72e8498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback*>(),
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback::*)(
     ::UnityEngine::Ray, ::by_ref<::UnityEngine::RaycastHit>, float_t, int32_t)>(&::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback::Invoke)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x72e7424;
+  constexpr static std::size_t addrs = 0x72e8504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback*>(),
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback::*)(::UnityEngine::Ray, ::by_ref<::UnityEngine::RaycastHit>, float_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x72e7464;
+  constexpr static std::size_t addrs = 0x72e8544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback*>(),
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback::*)(::by_ref<::UnityEngine::RaycastHit>, ::System::IAsyncResult*)>(
     &::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x72e755c;
+  constexpr static std::size_t addrs = 0x72e863c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback*>(),
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x72e7580;
+  constexpr static std::size_t addrs = 0x72e8660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback*>(),
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::RaycastHit> (::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback::*)(::UnityEngine::Ray, float_t, int32_t)>(
     &::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback::Invoke)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x72e75ec;
+  constexpr static std::size_t addrs = 0x72e86cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback*>(),
@@ -130,7 +130,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IAsyncResult* (::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback::*)(::UnityEngine::Ray, float_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x72e7628;
+  constexpr static std::size_t addrs = 0x72e8708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback*>(),
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::RaycastHit> (::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback::*)(::System::IAsyncResult*)>(
     &::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72e76f0;
+  constexpr static std::size_t addrs = 0x72e87d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback*>(),
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x72e76fc;
+  constexpr static std::size_t addrs = 0x72e87dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback*>(),
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback::*)(
     ::UnityEngine::Ray, ::ArrayW<::UnityEngine::RaycastHit>, float_t, int32_t)>(&::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback::Invoke)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x72e7768;
+  constexpr static std::size_t addrs = 0x72e8848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback*>(),
@@ -213,7 +213,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback::*)(::UnityEngine::Ray, ::ArrayW<::UnityEngine::RaycastHit>, float_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x72e77a4;
+  constexpr static std::size_t addrs = 0x72e8884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback*>(),
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback::*)(::System::IAsyncResult*)>(
     &::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x72e7870;
+  constexpr static std::size_t addrs = 0x72e8950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback*>(),
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x72e7894;
+  constexpr static std::size_t addrs = 0x72e8974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback*>(),
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::RaycastHit2D (::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback::*)(
     ::UnityEngine::Vector2, ::UnityEngine::Vector2, float_t, int32_t)>(&::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x72e7900;
+  constexpr static std::size_t addrs = 0x72e89e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback*>(),
@@ -297,7 +297,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
                                                                                                                                                 int32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x72e7914;
+  constexpr static std::size_t addrs = 0x72e89f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback*>(),
@@ -311,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::RaycastHit2D (::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback::*)(::System::IAsyncResult*)>(
     &::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback::EndInvoke)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x72e79ec;
+  constexpr static std::size_t addrs = 0x72e8acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback*>(),
@@ -351,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x72e7a20;
+  constexpr static std::size_t addrs = 0x72e8b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback*>(),
@@ -365,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::RaycastHit2D> (::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback::*)(
     ::UnityEngine::Ray, float_t, int32_t)>(&::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback::Invoke)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x72e7a8c;
+  constexpr static std::size_t addrs = 0x72e8b6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback*>(),
@@ -380,7 +380,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback::*)(::UnityEngine::Ray, float_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x72e7ac8;
+  constexpr static std::size_t addrs = 0x72e8ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback*>(),
@@ -394,7 +394,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::RaycastHit2D> (::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback::*)(::System::IAsyncResult*)>(
     &::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72e7b90;
+  constexpr static std::size_t addrs = 0x72e8c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback*>(),
@@ -435,7 +435,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x72e7b9c;
+  constexpr static std::size_t addrs = 0x72e8c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback*>(),
@@ -449,7 +449,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback::*)(
     ::UnityEngine::Ray, ::ArrayW<::UnityEngine::RaycastHit2D>, float_t, int32_t)>(&::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback::Invoke)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x72e7c08;
+  constexpr static std::size_t addrs = 0x72e8ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback*>(),
@@ -465,7 +465,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                                                                                              int32_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x72e7c44;
+  constexpr static std::size_t addrs = 0x72e8d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback*>(),
@@ -479,7 +479,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback::*)(::System::IAsyncResult*)>(
     &::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x72e7d10;
+  constexpr static std::size_t addrs = 0x72e8df0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback*>(),
@@ -523,7 +523,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::ReflectionMethodsCache::*)()>(&::UnityEngine::UI::ReflectionMethodsCache::_ctor)> {
   constexpr static std::size_t size = 0xc98;
-  constexpr static std::size_t addrs = 0x72e66a8;
+  constexpr static std::size_t addrs = 0x72e7788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ReflectionMethodsCache*>(), { ".ctor", {}, {} })));
@@ -535,7 +535,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UI::ReflectionMethodsCache* (*)()>(&::UnityEngine::UI::ReflectionMethodsCache::get_Singleton)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x72e7340;
+  constexpr static std::size_t addrs = 0x72e8420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ReflectionMethodsCache*>(), { "get_Singleton", {}, {} })));

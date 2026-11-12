@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataTableCollection::*)(::System::Data::DataSet*)>(&::System::Data::DataTableCollection::_ctor)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6487b08;
+  constexpr static std::size_t addrs = 0x6488158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ArrayList* (::System::Data::DataTableCollection::*)()>(&::System::Data::DataTableCollection::get_List)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6487c68;
+  constexpr static std::size_t addrs = 0x64882b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::DataTableCollection::*)()>(&::System::Data::DataTableCollection::get_ObjectID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6487c70;
+  constexpr static std::size_t addrs = 0x64882c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataTableCollection*>(), { "get_ObjectID", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataTable* (::System::Data::DataTableCollection::*)(int32_t)>(&::System::Data::DataTableCollection::get_Item)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6487c78;
+  constexpr static std::size_t addrs = 0x64882c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataTable* (::System::Data::DataTableCollection::*)(::StringW)>(&::System::Data::DataTableCollection::get_Item)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6487db8;
+  constexpr static std::size_t addrs = 0x6488408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataTable* (::System::Data::DataTableCollection::*)(::StringW, ::StringW)>(&::System::Data::DataTableCollection::get_Item)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x648065c;
+  constexpr static std::size_t addrs = 0x6480cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataTable* (::System::Data::DataTableCollection::*)(::StringW, ::StringW)>(&::System::Data::DataTableCollection::GetTable)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x648820c;
+  constexpr static std::size_t addrs = 0x648885c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataTable* (::System::Data::DataTableCollection::*)(::StringW, ::StringW)>(
     &::System::Data::DataTableCollection::GetTableSmart)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6488324;
+  constexpr static std::size_t addrs = 0x6488974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataTableCollection::*)(::System::Data::DataTable*)>(&::System::Data::DataTableCollection::Add)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x6488458;
+  constexpr static std::size_t addrs = 0x6488aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataTableCollection::*)(::System::Data::DataTable*)>(&::System::Data::DataTableCollection::ArrayAdd)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64888cc;
+  constexpr static std::size_t addrs = 0x6488f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::DataTableCollection::*)()>(&::System::Data::DataTableCollection::AssignName)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x64889d4;
+  constexpr static std::size_t addrs = 0x6489024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataTableCollection*>(), { "AssignName", {}, {} })));
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataTableCollection::*)(::System::Data::DataTable*)>(&::System::Data::DataTableCollection::BaseAdd)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x64887b8;
+  constexpr static std::size_t addrs = 0x6488e08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataTableCollection::*)(::ArrayW<::System::Data::DataTable*>, int32_t, ::ArrayW<::System::Data::DataTable*>, int32_t)>(
     &::System::Data::DataTableCollection::BaseGroupSwitch)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x6488d6c;
+  constexpr static std::size_t addrs = 0x64893bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataTableCollection::*)(::System::Data::DataTable*)>(&::System::Data::DataTableCollection::BaseRemove)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6488ee8;
+  constexpr static std::size_t addrs = 0x6489538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataTableCollection::*)(::System::Data::DataTable*, bool)>(&::System::Data::DataTableCollection::CanRemove)> {
   constexpr static std::size_t size = 0x45c;
-  constexpr static std::size_t addrs = 0x6488f60;
+  constexpr static std::size_t addrs = 0x64895b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataTableCollection::*)()>(&::System::Data::DataTableCollection::Clear)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x64894d0;
+  constexpr static std::size_t addrs = 0x6489b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataTableCollection*>(), { "Clear", {}, {} })));
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataTableCollection::*)(::StringW)>(&::System::Data::DataTableCollection::Contains)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6488af0;
+  constexpr static std::size_t addrs = 0x6489140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataTableCollection::*)(::StringW, ::StringW, bool, bool)>(&::System::Data::DataTableCollection::Contains)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6489780;
+  constexpr static std::size_t addrs = 0x6489dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataTableCollection::*)(::StringW, bool)>(&::System::Data::DataTableCollection::Contains)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x64898f0;
+  constexpr static std::size_t addrs = 0x6489f40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::DataTableCollection::*)(::System::Data::DataTable*)>(&::System::Data::DataTableCollection::IndexOf)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6489a18;
+  constexpr static std::size_t addrs = 0x648a068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::DataTableCollection::*)(::StringW)>(&::System::Data::DataTableCollection::IndexOf)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6489b00;
+  constexpr static std::size_t addrs = 0x648a150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::DataTableCollection::*)(::StringW, ::StringW, bool)>(&::System::Data::DataTableCollection::IndexOf)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6489b18;
+  constexpr static std::size_t addrs = 0x648a168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataTableCollection*>(),
@@ -305,7 +305,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataTableCollection::*)(::System::Collections::Generic::List_1<::System::Data::DataTable*>*)>(
     &::System::Data::DataTableCollection::ReplaceFromInference)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6489b78;
+  constexpr static std::size_t addrs = 0x648a1c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -319,7 +319,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::DataTableCollection::*)(::StringW)>(&::System::Data::DataTableCollection::InternalIndexOf)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x6487eb8;
+  constexpr static std::size_t addrs = 0x6488508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -332,7 +332,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::DataTableCollection::*)(::StringW, ::StringW)>(&::System::Data::DataTableCollection::InternalIndexOf)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x6488084;
+  constexpr static std::size_t addrs = 0x64886d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -345,7 +345,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::DataTableCollection::*)(int32_t)>(&::System::Data::DataTableCollection::MakeName)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6488a1c;
+  constexpr static std::size_t addrs = 0x648906c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataTableCollection::*)(::System::ComponentModel::CollectionChangeEventArgs*)>(
     &::System::Data::DataTableCollection::OnCollectionChanged)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x64888ec;
+  constexpr static std::size_t addrs = 0x6488f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataTableCollection*>(),
@@ -373,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataTableCollection::*)(::System::ComponentModel::CollectionChangeEventArgs*)>(
     &::System::Data::DataTableCollection::OnCollectionChanging)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x64886d0;
+  constexpr static std::size_t addrs = 0x6488d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -387,7 +387,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataTableCollection::*)(::StringW, ::StringW)>(&::System::Data::DataTableCollection::RegisterName)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x6488b08;
+  constexpr static std::size_t addrs = 0x6489158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -400,7 +400,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataTableCollection::*)(::System::Data::DataTable*)>(&::System::Data::DataTableCollection::Remove)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x6489bc8;
+  constexpr static std::size_t addrs = 0x648a218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -413,7 +413,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataTableCollection::*)(::StringW)>(&::System::Data::DataTableCollection::UnregisterName)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x64893bc;
+  constexpr static std::size_t addrs = 0x6489a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

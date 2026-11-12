@@ -42,25 +42,25 @@ public:
   /// @brief Field keyIdentifier, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_keyIdentifier, put = __cordl_internal_set_keyIdentifier)) ::ArrayW<uint8_t> keyIdentifier;
 
-  /// @brief Method CreateSha1KeyIdentifier, addr 0x3911dcc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CreateSha1KeyIdentifier, addr 0x3916264, size 0x64, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier* CreateSha1KeyIdentifier(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* keyInfo);
 
-  /// @brief Method CreateTruncatedSha1KeyIdentifier, addr 0x3911e30, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method CreateTruncatedSha1KeyIdentifier, addr 0x39162c8, size 0xdc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier* CreateTruncatedSha1KeyIdentifier(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* keyInfo);
 
-  /// @brief Method FromExtensions, addr 0x39119d0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method FromExtensions, addr 0x3915e68, size 0x78, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier* FromExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method GetDigest, addr 0x3911b04, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method GetDigest, addr 0x3915f9c, size 0x1fc, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> GetDigest(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* spki);
 
-  /// @brief Method GetInstance, addr 0x39117d0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3915c68, size 0x14, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x39117e4, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3915c7c, size 0x19c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetKeyIdentifier, addr 0x3911d00, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetKeyIdentifier, addr 0x3916198, size 0x60, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetKeyIdentifier();
 
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier* New_ctor(::ArrayW<uint8_t> keyID);
@@ -69,7 +69,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier* New_ctor(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* spki);
 
-  /// @brief Method ToAsn1Object, addr 0x3911d60, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x39161f8, size 0x6c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_keyIdentifier() const;
@@ -78,13 +78,13 @@ public:
 
   constexpr void __cordl_internal_set_keyIdentifier(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x3911a48, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3915ee0, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> keyID);
 
-  /// @brief Method .ctor, addr 0x391199c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3915e34, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* keyID);
 
-  /// @brief Method .ctor, addr 0x3911980, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3915e18, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* spki);
 
 protected:

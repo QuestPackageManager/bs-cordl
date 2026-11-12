@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PresetsSettingsController::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::PresetsSettingsController::add_valueDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e6ea80;
+  constexpr static std::size_t addrs = 0x5e6e998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PresetsSettingsController::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::PresetsSettingsController::remove_valueDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e6eb40;
+  constexpr static std::size_t addrs = 0x5e6ea58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::PresetsSettingsController::*)()>(&::GlobalNamespace::PresetsSettingsController::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e6ec00;
+  constexpr static std::size_t addrs = 0x5e6eb18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PresetsSettingsController*>(), { "GetValue", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PresetsSettingsController::*)(int32_t)>(&::GlobalNamespace::PresetsSettingsController::SetValue)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5e6ec08;
+  constexpr static std::size_t addrs = 0x5e6eb20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PresetsSettingsController::*)(int32_t)>(&::GlobalNamespace::PresetsSettingsController::SetNumberOfElementsLimit)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5e6ec88;
+  constexpr static std::size_t addrs = 0x5e6eba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PresetsSettingsController::*)(bool)>(&::GlobalNamespace::PresetsSettingsController::SetInteractable)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5e6ecd0;
+  constexpr static std::size_t addrs = 0x5e6ebe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PresetsSettingsController::*)(::by_ref<int32_t>, ::by_ref<int32_t>)>(
     &::GlobalNamespace::PresetsSettingsController::GetInitValues)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5e6ed00;
+  constexpr static std::size_t addrs = 0x5e6ec18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PresetsSettingsController::*)(int32_t)>(&::GlobalNamespace::PresetsSettingsController::ApplyValue)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e6eda4;
+  constexpr static std::size_t addrs = 0x5e6ecbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PresetsSettingsController::*)(int32_t)>(&::GlobalNamespace::PresetsSettingsController::TextForValue)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5e6edc4;
+  constexpr static std::size_t addrs = 0x5e6ecdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PresetsSettingsController::*)()>(&::GlobalNamespace::PresetsSettingsController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e6ee14;
+  constexpr static std::size_t addrs = 0x5e6ed2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PresetsSettingsController*>(), { ".ctor", {}, {} })));

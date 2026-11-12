@@ -26,11 +26,11 @@ public:
   /// @brief [NullableContext(1)]
   static inline ::Newtonsoft::Json::JsonDictionaryAttribute* New_ctor(::StringW id);
 
-  /// @brief Method .ctor, addr 0x612d528, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x612d7b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [NullableContext(1)]
-  /// @brief Method .ctor, addr 0x612d52c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x612d7b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
 protected:

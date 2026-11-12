@@ -124,10 +124,10 @@ public:
 
   static inline ::UnityEngine::Rendering::VolumeProfile___c* New_ctor();
 
-  /// @brief Method <OnEnable>b__6_0, addr 0x6c29d70, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__6_0, addr 0x6c2ae50, size 0x60, virtual false, abstract: false, final false
   inline bool _OnEnable_b__6_0(::UnityEngine::Rendering::VolumeComponent* x);
 
-  /// @brief Method .ctor, addr 0x6c29d6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2ae4c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::VolumeProfile___c* getStaticF___9();
@@ -182,7 +182,7 @@ public:
   /// @brief [Obsolete("This field was only public for editor access. #from(6000.0)")]
   __declspec(property(get = get_isDirty, put = set_isDirty)) bool isDirty;
 
-  /// @brief Method Add, addr 0x6c29484, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6c2a564, size 0x188, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::VolumeComponent> Add(::System::Type* type, bool overrides);
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -190,10 +190,10 @@ public:
     requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::VolumeComponent*>)
   inline T Add(bool overrides);
 
-  /// @brief Method GetComponentListHashCode, addr 0x6c299b0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetComponentListHashCode, addr 0x6c2aa90, size 0xd4, virtual false, abstract: false, final false
   inline int32_t GetComponentListHashCode();
 
-  /// @brief Method GetStateHash, addr 0x6c29a84, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetStateHash, addr 0x6c2ab64, size 0x108, virtual false, abstract: false, final false
   inline int32_t GetStateHash();
 
   /// @brief Method Has, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -201,18 +201,18 @@ public:
     requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::VolumeComponent*>)
   inline bool Has();
 
-  /// @brief Method Has, addr 0x6c2960c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Has, addr 0x6c2a6ec, size 0x148, virtual false, abstract: false, final false
   inline bool Has(::System::Type* type);
 
-  /// @brief Method HasSubclassOf, addr 0x6c29864, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method HasSubclassOf, addr 0x6c2a944, size 0x14c, virtual false, abstract: false, final false
   inline bool HasSubclassOf(::System::Type* type);
 
   static inline ::UnityEngine::Rendering::VolumeProfile* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x6c29380, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6c2a460, size 0xf4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x6c29274, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6c2a354, size 0x10c, virtual false, abstract: false, final false
   inline void OnEnable();
 
   /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -220,13 +220,13 @@ public:
     requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::VolumeComponent*>)
   inline void Remove();
 
-  /// @brief Method Remove, addr 0x6c29754, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x6c2a834, size 0x110, virtual false, abstract: false, final false
   inline void Remove(::System::Type* type);
 
-  /// @brief Method Reset, addr 0x6c29474, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6c2a554, size 0x10, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Sanitize, addr 0x6c29b8c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Sanitize, addr 0x6c2ac6c, size 0x110, virtual false, abstract: false, final false
   inline void Sanitize();
 
   /// @brief Method TryGet, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -261,13 +261,13 @@ public:
 
   constexpr void __cordl_internal_set_dirtyState(::UnityEngine::Rendering::VolumeProfile_DirtyState value);
 
-  /// @brief Method .ctor, addr 0x6c29c9c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2ad7c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isDirty, addr 0x6c29244, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isDirty, addr 0x6c2a324, size 0x10, virtual false, abstract: false, final false
   inline bool get_isDirty();
 
-  /// @brief Method set_isDirty, addr 0x6c29254, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_isDirty, addr 0x6c2a334, size 0x20, virtual false, abstract: false, final false
   inline void set_isDirty(bool value);
 
 protected:

@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_1<::UnityEngine::XR::XRNodeState>*)>(&::UnityEngine::XR::InputTracking::add_nodeAdded)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x730f134;
+  constexpr static std::size_t addrs = 0x7310214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_1<::UnityEngine::XR::XRNodeState>*)>(&::UnityEngine::XR::InputTracking::remove_nodeAdded)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x730f218;
+  constexpr static std::size_t addrs = 0x73102f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_1<::UnityEngine::XR::XRNodeState>*)>(&::UnityEngine::XR::InputTracking::add_nodeRemoved)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x730f2fc;
+  constexpr static std::size_t addrs = 0x73103dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_1<::UnityEngine::XR::XRNodeState>*)>(&::UnityEngine::XR::InputTracking::remove_nodeRemoved)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x730f3e0;
+  constexpr static std::size_t addrs = 0x73104c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::InputTracking*>(),
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::XR::InputTracking_TrackingStateEventType, ::UnityEngine::XR::XRNode, int64_t, bool)>(
     &::UnityEngine::XR::InputTracking::InvokeTrackingEvent)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x730f4c4;
+  constexpr static std::size_t addrs = 0x73105a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::InputTracking*>(),
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>*)>(&::UnityEngine::XR::InputTracking::GetNodeStates)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x730f670;
+  constexpr static std::size_t addrs = 0x7310750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>*)>(&::UnityEngine::XR::InputTracking::GetNodeStates_Internal)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x730f70c;
+  constexpr static std::size_t addrs = 0x73107ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(::UnityEngine::XR::XRNode)>(&::UnityEngine::XR::InputTracking::GetDeviceIdAtXRNode)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x730f8fc;
+  constexpr static std::size_t addrs = 0x73109dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::BlittableListWrapper>)>(&::UnityEngine::XR::InputTracking::GetNodeStates_Internal_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x730f8c0;
+  constexpr static std::size_t addrs = 0x73109a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

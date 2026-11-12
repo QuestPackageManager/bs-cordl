@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKekGenerator::*)(::Org::BouncyCastle::Crypto::IDigest*)>(
     &::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKekGenerator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x398c4f4;
+  constexpr static std::size_t addrs = 0x399098c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKekGenerator*>(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKekGenerator::*)(::Org::BouncyCastle::Crypto::IDerivationParameters*)>(
     &::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKekGenerator::Init)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x398c4fc;
+  constexpr static std::size_t addrs = 0x3990994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKekGenerator*>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IDigest* (::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKekGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKekGenerator::get_Digest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x398c5a0;
+  constexpr static std::size_t addrs = 0x3990a38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKekGenerator*>(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKekGenerator::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKekGenerator::GenerateBytes)> {
   constexpr static std::size_t size = 0x6e8;
-  constexpr static std::size_t addrs = 0x398c5a8;
+  constexpr static std::size_t addrs = 0x3990a40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKekGenerator*>(),

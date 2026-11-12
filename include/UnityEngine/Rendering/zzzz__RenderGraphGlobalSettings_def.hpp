@@ -118,10 +118,10 @@ public:
 
   static inline ::UnityEngine::Rendering::RenderGraphGlobalSettings* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x6bfa58c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x6bfb66c, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild();
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_version, addr 0x6bfa594, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_version, addr 0x6bfb674, size 0x8, virtual true, abstract: false, final true
   inline int32_t UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_version();
 
   constexpr bool const& __cordl_internal_get_m_EnableCompilationCaching() const;
@@ -142,22 +142,22 @@ public:
 
   constexpr void __cordl_internal_set_m_version(::UnityEngine::Rendering::RenderGraphGlobalSettings_Version value);
 
-  /// @brief Method .ctor, addr 0x6bfa68c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bfb76c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_enableCompilationCaching, addr 0x6bfa59c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableCompilationCaching, addr 0x6bfb67c, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableCompilationCaching();
 
-  /// @brief Method get_enableValidityChecks, addr 0x6bfa614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableValidityChecks, addr 0x6bfb6f4, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableValidityChecks();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
   constexpr ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings* i___UnityEngine__Rendering__IRenderPipelineGraphicsSettings() noexcept;
 
-  /// @brief Method set_enableCompilationCaching, addr 0x6bfa5a4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_enableCompilationCaching, addr 0x6bfb684, size 0x70, virtual false, abstract: false, final false
   inline void set_enableCompilationCaching(bool value);
 
-  /// @brief Method set_enableValidityChecks, addr 0x6bfa61c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_enableValidityChecks, addr 0x6bfb6fc, size 0x70, virtual false, abstract: false, final false
   inline void set_enableValidityChecks(bool value);
 
 protected:

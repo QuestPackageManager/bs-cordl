@@ -36,35 +36,35 @@ public:
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::SphericalHarmonicsL2>*();
 
   /// [IsReadOnly]
-  /// @brief Method Equals, addr 0x6fb8200, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6fb92e0, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
   /// [IsReadOnly]
-  /// @brief Method Equals, addr 0x6fb8298, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6fb9378, size 0xc4, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::SphericalHarmonicsL2 other);
 
   /// [IsReadOnly]
-  /// @brief Method Equals, addr 0x6fb835c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x6fb943c, size 0xc4, virtual false, abstract: false, final false
   inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2 const> other);
 
   /// [IsReadOnly]
-  /// @brief Method GetHashCode, addr 0x6fb7f9c, size 0x264, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6fb907c, size 0x264, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// [IsReadOnly]
-  /// @brief Method get_Item, addr 0x6fb7d0c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6fb8dec, size 0x148, virtual false, abstract: false, final false
   inline float_t get_Item(int32_t rgb, int32_t coefficient);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::SphericalHarmonicsL2>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::SphericalHarmonicsL2>* i___System__IEquatable_1___UnityEngine__Rendering__SphericalHarmonicsL2_();
 
-  /// @brief Method op_Equality, addr 0x6fb8420, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6fb9500, size 0x1bc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::SphericalHarmonicsL2 lhs, ::UnityEngine::Rendering::SphericalHarmonicsL2 rhs);
 
-  /// @brief Method op_Inequality, addr 0x6fb85dc, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6fb96bc, size 0x230, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Rendering::SphericalHarmonicsL2 lhs, ::UnityEngine::Rendering::SphericalHarmonicsL2 rhs);
 
-  /// @brief Method set_Item, addr 0x6fb7e54, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x6fb8f34, size 0x148, virtual false, abstract: false, final false
   inline void set_Item(int32_t rgb, int32_t coefficient, float_t value);
 
   // Ctor Parameters []

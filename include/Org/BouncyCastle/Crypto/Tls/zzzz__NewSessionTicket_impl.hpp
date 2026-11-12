@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::NewSessionTicket::*)(int64_t, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Tls::NewSessionTicket::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3717afc;
+  constexpr static std::size_t addrs = 0x371bf94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Org::BouncyCastle::Crypto::Tls::NewSessionTicket::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::NewSessionTicket::get_TicketLifetimeHint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3717b04;
+  constexpr static std::size_t addrs = 0x371bf9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Tls::NewSessionTicket::*)()>(&::Org::BouncyCastle::Crypto::Tls::NewSessionTicket::get_Ticket)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3717b0c;
+  constexpr static std::size_t addrs = 0x371bfa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::NewSessionTicket::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::NewSessionTicket::Encode)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3717b14;
+  constexpr static std::size_t addrs = 0x371bfac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Tls::NewSessionTicket* (*)(::System::IO::Stream*)>(&::Org::BouncyCastle::Crypto::Tls::NewSessionTicket::Parse)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3717b94;
+  constexpr static std::size_t addrs = 0x371c02c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

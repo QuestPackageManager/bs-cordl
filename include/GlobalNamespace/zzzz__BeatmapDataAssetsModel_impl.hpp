@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::BeatmapDataAssetsModel::GetBeatmapLevelDataAssetFilenameForBeatmapLevel)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x39ca550;
+  constexpr static std::size_t addrs = 0x39cea4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::BeatmapDataAssetsModel::GetBeatmapLevelAssetFilenameForBeatmapLevel)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x39ca5a0;
+  constexpr static std::size_t addrs = 0x39cea9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::BeatmapDataAssetsModel::GetBeatmapLevelPackAssetFilename)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x39ca5f0;
+  constexpr static std::size_t addrs = 0x39ceaec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::BeatmapDataAssetsModel::GetBeatmapLevelDataAssetNameForBeatmapLevel)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x39ca640;
+  constexpr static std::size_t addrs = 0x39ceb3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::GlobalNamespace::BeatmapLevelDataVersion)>(
     &::GlobalNamespace::BeatmapDataAssetsModel::GetAssetBundleNameForBeatmapLevel)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x39ca690;
+  constexpr static std::size_t addrs = 0x39ceb8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::GlobalNamespace::BeatmapLevelDataVersion)>(
     &::GlobalNamespace::BeatmapDataAssetsModel::GetAssetBundleStreamingAssetsPathForBeatmapLevelId)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x39ca720;
+  constexpr static std::size_t addrs = 0x39cec1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::BeatmapDataAssetsModel::AssetBundleStreamingAssetsPathForAssetBundleName)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x39ca7d4;
+  constexpr static std::size_t addrs = 0x39cecd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

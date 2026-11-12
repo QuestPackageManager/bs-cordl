@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::UIElements::UIR::Shaders::get_defaultMaterial)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x71c19e0;
+  constexpr static std::size_t addrs = 0x71c2ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Shaders*>(), { "get_defaultMaterial", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)(::by_ref<::UnityEngine::Material*>, ::StringW)>(
     &::UnityEngine::UIElements::UIR::Shaders::GetOrCreateMaterial)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x71c1a40;
+  constexpr static std::size_t addrs = 0x71c2b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIR::Shaders::Acquire)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x71c1bc8;
+  constexpr static std::size_t addrs = 0x71c2ca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Shaders*>(), { "Acquire", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIR::Shaders::Release)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x71c1c2c;
+  constexpr static std::size_t addrs = 0x71c2d0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Shaders*>(), { "Release", {}, {} })));

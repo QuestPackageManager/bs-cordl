@@ -151,7 +151,7 @@ public:
                       put = __cordl_internal_set__parameterizedCreator)) ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* _parameterizedCreator;
 
   /// [NullableContext(1)]
-  /// @brief Method GetUninitializedObject, addr 0x619a698, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetUninitializedObject, addr 0x619a920, size 0x108, virtual false, abstract: false, final false
   inline ::System::Object* GetUninitializedObject();
 
   /// @brief [NullableContext(1)]
@@ -242,93 +242,93 @@ public:
   constexpr void __cordl_internal_set__parameterizedCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
   /// [NullableContext(1)]
-  /// @brief Method .ctor, addr 0x618d278, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x618d500, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
   /// [NullableContext(1)]
-  /// @brief Method get_CreatorParameters, addr 0x618da34, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_CreatorParameters, addr 0x618dcbc, size 0x6c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonPropertyCollection* get_CreatorParameters();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ExtensionDataGetter, addr 0x619a29c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExtensionDataGetter, addr 0x619a524, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ExtensionDataGetter* get_ExtensionDataGetter();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ExtensionDataNameResolver, addr 0x619a2b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExtensionDataNameResolver, addr 0x619a53c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::StringW, ::StringW>* get_ExtensionDataNameResolver();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ExtensionDataSetter, addr 0x619a28c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExtensionDataSetter, addr 0x619a514, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ExtensionDataSetter* get_ExtensionDataSetter();
 
-  /// @brief Method get_ExtensionDataValueType, addr 0x619a2ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExtensionDataValueType, addr 0x619a534, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ExtensionDataValueType();
 
-  /// @brief Method get_HasRequiredOrDefaultValueProperties, addr 0x619a2c4, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method get_HasRequiredOrDefaultValueProperties, addr 0x619a54c, size 0x390, virtual false, abstract: false, final false
   inline bool get_HasRequiredOrDefaultValueProperties();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ItemNullValueHandling, addr 0x619a254, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemNullValueHandling, addr 0x619a4dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> get_ItemNullValueHandling();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ItemRequired, addr 0x619a244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemRequired, addr 0x619a4cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::Required> get_ItemRequired();
 
   /// [CompilerGenerated]
-  /// @brief Method get_MemberSerialization, addr 0x619a224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberSerialization, addr 0x619a4ac, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::MemberSerialization get_MemberSerialization();
 
   /// [CompilerGenerated]
-  /// @brief Method get_MissingMemberHandling, addr 0x619a234, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MissingMemberHandling, addr 0x619a4bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::MissingMemberHandling> get_MissingMemberHandling();
 
-  /// @brief Method get_OverrideCreator, addr 0x619a26c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OverrideCreator, addr 0x619a4f4, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_OverrideCreator();
 
-  /// @brief Method get_ParameterizedCreator, addr 0x619a27c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParameterizedCreator, addr 0x619a504, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_ParameterizedCreator();
 
   /// [NullableContext(1)]
   /// [CompilerGenerated]
-  /// @brief Method get_Properties, addr 0x619a264, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x619a4ec, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonPropertyCollection* get_Properties();
 
   /// [CompilerGenerated]
-  /// @brief Method set_ExtensionDataGetter, addr 0x619a2a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ExtensionDataGetter, addr 0x619a52c, size 0x8, virtual false, abstract: false, final false
   inline void set_ExtensionDataGetter(::Newtonsoft::Json::Serialization::ExtensionDataGetter* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ExtensionDataNameResolver, addr 0x619a2bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ExtensionDataNameResolver, addr 0x619a544, size 0x8, virtual false, abstract: false, final false
   inline void set_ExtensionDataNameResolver(/* [Nullable(new[] { 2, 1, 1 })] */ ::System::Func_2<::StringW, ::StringW>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ExtensionDataSetter, addr 0x619a294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ExtensionDataSetter, addr 0x619a51c, size 0x8, virtual false, abstract: false, final false
   inline void set_ExtensionDataSetter(::Newtonsoft::Json::Serialization::ExtensionDataSetter* value);
 
-  /// @brief Method set_ExtensionDataValueType, addr 0x618edfc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method set_ExtensionDataValueType, addr 0x618f084, size 0xbc, virtual false, abstract: false, final false
   inline void set_ExtensionDataValueType(::System::Type* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ItemNullValueHandling, addr 0x619a25c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemNullValueHandling, addr 0x619a4e4, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemNullValueHandling(::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ItemRequired, addr 0x619a24c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemRequired, addr 0x619a4d4, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemRequired(::System::Nullable_1<::Newtonsoft::Json::Required> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_MemberSerialization, addr 0x619a22c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MemberSerialization, addr 0x619a4b4, size 0x8, virtual false, abstract: false, final false
   inline void set_MemberSerialization(::Newtonsoft::Json::MemberSerialization value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_MissingMemberHandling, addr 0x619a23c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MissingMemberHandling, addr 0x619a4c4, size 0x8, virtual false, abstract: false, final false
   inline void set_MissingMemberHandling(::System::Nullable_1<::Newtonsoft::Json::MissingMemberHandling> value);
 
-  /// @brief Method set_OverrideCreator, addr 0x619a274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_OverrideCreator, addr 0x619a4fc, size 0x8, virtual false, abstract: false, final false
   inline void set_OverrideCreator(/* [Nullable(new[] { 2, 1 })] */ ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
-  /// @brief Method set_ParameterizedCreator, addr 0x619a284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ParameterizedCreator, addr 0x619a50c, size 0x8, virtual false, abstract: false, final false
   inline void set_ParameterizedCreator(/* [Nullable(new[] { 2, 1 })] */ ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
 protected:

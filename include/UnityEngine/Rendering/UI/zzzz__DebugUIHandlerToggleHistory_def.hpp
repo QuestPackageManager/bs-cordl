@@ -71,26 +71,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x6c72d50, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6c73e30, size 0xb4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerToggleHistory__RefreshAfterSanitization_d__4* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x6c72e04, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x6c73ee4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6c72e0c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6c73eec, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6c72e44, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6c73f24, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x6c72d4c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x6c73e2c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -112,7 +112,7 @@ public:
   constexpr void __cordl_internal_set___4__this(::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerToggleHistory> value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x6c72d2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c73e0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -177,13 +177,13 @@ public:
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerToggleHistory* New_ctor();
 
   /// [IteratorStateMachine(typeof(UnityEngine.Rendering.UI.DebugUIHandlerToggleHistory::<RefreshAfterSanitization>d__4))]
-  /// @brief Method RefreshAfterSanitization, addr 0x6c72cd8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method RefreshAfterSanitization, addr 0x6c73db8, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RefreshAfterSanitization();
 
-  /// @brief Method SetWidget, addr 0x6c72794, size 0x3a8, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x6c73874, size 0x3a8, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
-  /// @brief Method UpdateValueLabel, addr 0x6c72b3c, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method UpdateValueLabel, addr 0x6c73c1c, size 0x19c, virtual true, abstract: false, final false
   inline void UpdateValueLabel();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Toggle>> const& __cordl_internal_get_historyToggles() const;
@@ -192,7 +192,7 @@ public:
 
   constexpr void __cordl_internal_set_historyToggles(::ArrayW<::UnityW<::UnityEngine::UI::Toggle>> value);
 
-  /// @brief Method .ctor, addr 0x6c72d34, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c73e14, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PacketPool_1<::GlobalNamespace::SyncTimePacket*>* (*)()>(&::GlobalNamespace::SyncTimePacket::get_pool)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x35d9e5c;
+  constexpr static std::size_t addrs = 0x35de2b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SyncTimePacket*>(), { "get_pool", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SyncTimePacket::*)(::LiteNetLib::Utils::NetDataWriter*)>(&::GlobalNamespace::SyncTimePacket::Serialize)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x35d9ea0;
+  constexpr static std::size_t addrs = 0x35de2f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SyncTimePacket::*)(::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::SyncTimePacket::Deserialize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x35d9eb4;
+  constexpr static std::size_t addrs = 0x35de30c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SyncTimePacket* (::GlobalNamespace::SyncTimePacket::*)(int64_t)>(&::GlobalNamespace::SyncTimePacket::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35d9ed4;
+  constexpr static std::size_t addrs = 0x35de32c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SyncTimePacket*>(), { "Init", {}, { ::i2c::type_of<int64_t>() } })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SyncTimePacket::*)()>(&::GlobalNamespace::SyncTimePacket::Release)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x35d9edc;
+  constexpr static std::size_t addrs = 0x35de334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SyncTimePacket*>(), { "Release", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SyncTimePacket::*)()>(&::GlobalNamespace::SyncTimePacket::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35d9f34;
+  constexpr static std::size_t addrs = 0x35de38c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SyncTimePacket*>(), { ".ctor", {}, {} })));

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ResourceManagement::Util::SerializedType::*)()>(
     &::UnityEngine::ResourceManagement::Util::SerializedType::get_AssemblyName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d7cbc8;
+  constexpr static std::size_t addrs = 0x6d7dca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ResourceManagement::Util::SerializedType::*)()>(
     &::UnityEngine::ResourceManagement::Util::SerializedType::get_ClassName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d7cbd0;
+  constexpr static std::size_t addrs = 0x6d7dcb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::SerializedType>(), { "get_ClassName", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ResourceManagement::Util::SerializedType::*)()>(&::UnityEngine::ResourceManagement::Util::SerializedType::ToString)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6d7cbd8;
+  constexpr static std::size_t addrs = 0x6d7dcb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::SerializedType>(),
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::UnityEngine::ResourceManagement::Util::SerializedType::*)()>(
     &::UnityEngine::ResourceManagement::Util::SerializedType::get_Value)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x6d7cc70;
+  constexpr static std::size_t addrs = 0x6d7dd50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::SerializedType>(), { "get_Value", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::Util::SerializedType::*)(::System::Type*)>(
     &::UnityEngine::ResourceManagement::Util::SerializedType::set_Value)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6d7ce14;
+  constexpr static std::size_t addrs = 0x6d7def4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ResourceManagement::Util::SerializedType::*)()>(
     &::UnityEngine::ResourceManagement::Util::SerializedType::get_ValueChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d7ce9c;
+  constexpr static std::size_t addrs = 0x6d7df7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::Util::SerializedType::*)(bool)>(
     &::UnityEngine::ResourceManagement::Util::SerializedType::set_ValueChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d7cea4;
+  constexpr static std::size_t addrs = 0x6d7df84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

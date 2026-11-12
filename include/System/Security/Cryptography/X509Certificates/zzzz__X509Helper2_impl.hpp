@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::X509::X509Certificate* (*)(::System::Security::Cryptography::X509Certificates::X509Certificate2*)>(
     &::System::Security::Cryptography::X509Certificates::X509Helper2::GetMonoCertificate)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6816120;
+  constexpr static std::size_t addrs = 0x6816770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509ChainImpl* (*)(bool)>(
     &::System::Security::Cryptography::X509Certificates::X509Helper2::CreateChainImpl)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x68161f8;
+  constexpr static std::size_t addrs = 0x6816848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Security::Cryptography::X509Certificates::X509ChainImpl*)>(
     &::System::Security::Cryptography::X509Certificates::X509Helper2::IsValid)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6816258;
+  constexpr static std::size_t addrs = 0x68168a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Security::Cryptography::X509Certificates::X509ChainImpl*)>(
     &::System::Security::Cryptography::X509Certificates::X509Helper2::ThrowIfContextInvalid)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x681626c;
+  constexpr static std::size_t addrs = 0x68168bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Security::Cryptography::X509Certificates::X509Helper2::GetInvalidChainContextException)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x68162ac;
+  constexpr static std::size_t addrs = 0x68168fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

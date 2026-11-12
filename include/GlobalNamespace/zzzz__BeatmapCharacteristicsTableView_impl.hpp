@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsTableView::*)(::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>*)>(
     &::GlobalNamespace::BeatmapCharacteristicsTableView::add_didSelectCharacteristic)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5dc0940;
+  constexpr static std::size_t addrs = 0x5dc08e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsTableView::*)(::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>*)>(
     &::GlobalNamespace::BeatmapCharacteristicsTableView::remove_didSelectCharacteristic)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5dc0a00;
+  constexpr static std::size_t addrs = 0x5dc09a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsTableView::*)()>(&::GlobalNamespace::BeatmapCharacteristicsTableView::Init)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5dc0ac0;
+  constexpr static std::size_t addrs = 0x5dc0a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsTableView*>(), { "Init", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsTableView::*)(::GlobalNamespace::BeatmapCharacteristicCollection*)>(
     &::GlobalNamespace::BeatmapCharacteristicsTableView::SetData)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5dc0b8c;
+  constexpr static std::size_t addrs = 0x5dc0b30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsTableView*>(),
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsTableView::*)()>(&::GlobalNamespace::BeatmapCharacteristicsTableView::OnDestroy)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5dc0be4;
+  constexpr static std::size_t addrs = 0x5dc0b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsTableView*>(), { "OnDestroy", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BeatmapCharacteristicsTableView::*)(int32_t)>(&::GlobalNamespace::BeatmapCharacteristicsTableView::CellSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dc0c74;
+  constexpr static std::size_t addrs = 0x5dc0c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BeatmapCharacteristicsTableView::*)()>(&::GlobalNamespace::BeatmapCharacteristicsTableView::NumberOfCells)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5dc0c7c;
+  constexpr static std::size_t addrs = 0x5dc0c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsTableView*>(), { "NumberOfCells", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::HMUI::TableCell> (::GlobalNamespace::BeatmapCharacteristicsTableView::*)(::HMUI::TableView*, int32_t)>(
     &::GlobalNamespace::BeatmapCharacteristicsTableView::CellForIdx)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x5dc0d38;
+  constexpr static std::size_t addrs = 0x5dc0cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsTableView*>(),
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsTableView::*)(::HMUI::TableView*, int32_t)>(
     &::GlobalNamespace::BeatmapCharacteristicsTableView::HandleDidSelectColumnEvent)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5dc0f00;
+  constexpr static std::size_t addrs = 0x5dc0ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsTableView*>(),
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsTableView::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicsTableView::HandleAdditionalContentModelDidInvalidateData)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5dc0fec;
+  constexpr static std::size_t addrs = 0x5dc0f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsTableView::*)(int32_t)>(&::GlobalNamespace::BeatmapCharacteristicsTableView::SelectCellWithIdx)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5dc1090;
+  constexpr static std::size_t addrs = 0x5dc1034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsTableView::*)()>(&::GlobalNamespace::BeatmapCharacteristicsTableView::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5dc10ac;
+  constexpr static std::size_t addrs = 0x5dc1050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsTableView*>(), { ".ctor", {}, {} })));

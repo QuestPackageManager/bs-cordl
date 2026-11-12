@@ -38,94 +38,94 @@ public:
   /// @brief Field syncLock, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_syncLock, put = setStaticF_syncLock)) ::System::Object* syncLock;
 
-  /// @brief Method CreateEventDescriptors, addr 0x65e9ca0, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method CreateEventDescriptors, addr 0x65ea2f0, size 0x244, virtual false, abstract: false, final false
   static inline void CreateEventDescriptors();
 
-  /// @brief Method DCDeserializeWithSurrogateStart, addr 0x65e8ec4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method DCDeserializeWithSurrogateStart, addr 0x65e9514, size 0xe8, virtual false, abstract: false, final false
   static inline void DCDeserializeWithSurrogateStart(::StringW SurrogateType);
 
-  /// @brief Method DCDeserializeWithSurrogateStartIsEnabled, addr 0x65e8e2c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method DCDeserializeWithSurrogateStartIsEnabled, addr 0x65e947c, size 0x98, virtual false, abstract: false, final false
   static inline bool DCDeserializeWithSurrogateStartIsEnabled();
 
-  /// @brief Method DCDeserializeWithSurrogateStop, addr 0x65e9044, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method DCDeserializeWithSurrogateStop, addr 0x65e9694, size 0xe0, virtual false, abstract: false, final false
   static inline void DCDeserializeWithSurrogateStop();
 
-  /// @brief Method DCDeserializeWithSurrogateStopIsEnabled, addr 0x65e8fac, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method DCDeserializeWithSurrogateStopIsEnabled, addr 0x65e95fc, size 0x98, virtual false, abstract: false, final false
   static inline bool DCDeserializeWithSurrogateStopIsEnabled();
 
-  /// @brief Method DCGenReaderStart, addr 0x65e9a2c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method DCGenReaderStart, addr 0x65ea07c, size 0xfc, virtual false, abstract: false, final false
   static inline void DCGenReaderStart(::StringW Kind, ::StringW TypeName);
 
-  /// @brief Method DCGenReaderStartIsEnabled, addr 0x65e9994, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method DCGenReaderStartIsEnabled, addr 0x65e9fe4, size 0x98, virtual false, abstract: false, final false
   static inline bool DCGenReaderStartIsEnabled();
 
-  /// @brief Method DCGenReaderStop, addr 0x65e9bc0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method DCGenReaderStop, addr 0x65ea210, size 0xe0, virtual false, abstract: false, final false
   static inline void DCGenReaderStop();
 
-  /// @brief Method DCGenReaderStopIsEnabled, addr 0x65e9b28, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method DCGenReaderStopIsEnabled, addr 0x65ea178, size 0x98, virtual false, abstract: false, final false
   static inline bool DCGenReaderStopIsEnabled();
 
-  /// @brief Method DCGenWriterStart, addr 0x65e962c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method DCGenWriterStart, addr 0x65e9c7c, size 0xfc, virtual false, abstract: false, final false
   static inline void DCGenWriterStart(::StringW Kind, ::StringW TypeName);
 
-  /// @brief Method DCGenWriterStartIsEnabled, addr 0x65e9594, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method DCGenWriterStartIsEnabled, addr 0x65e9be4, size 0x98, virtual false, abstract: false, final false
   static inline bool DCGenWriterStartIsEnabled();
 
-  /// @brief Method DCGenWriterStop, addr 0x65e98b4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method DCGenWriterStop, addr 0x65e9f04, size 0xe0, virtual false, abstract: false, final false
   static inline void DCGenWriterStop();
 
-  /// @brief Method DCGenWriterStopIsEnabled, addr 0x65e981c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method DCGenWriterStopIsEnabled, addr 0x65e9e6c, size 0x98, virtual false, abstract: false, final false
   static inline bool DCGenWriterStopIsEnabled();
 
-  /// @brief Method DCResolverResolve, addr 0x65e94ac, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method DCResolverResolve, addr 0x65e9afc, size 0xe8, virtual false, abstract: false, final false
   static inline void DCResolverResolve(::StringW TypeName);
 
-  /// @brief Method DCResolverResolveIsEnabled, addr 0x65e9414, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method DCResolverResolveIsEnabled, addr 0x65e9a64, size 0x98, virtual false, abstract: false, final false
   static inline bool DCResolverResolveIsEnabled();
 
-  /// @brief Method DCSerializeWithSurrogateStart, addr 0x65e8af0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method DCSerializeWithSurrogateStart, addr 0x65e9140, size 0xe8, virtual false, abstract: false, final false
   static inline void DCSerializeWithSurrogateStart(::StringW SurrogateType);
 
-  /// @brief Method DCSerializeWithSurrogateStartIsEnabled, addr 0x65e8a58, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method DCSerializeWithSurrogateStartIsEnabled, addr 0x65e90a8, size 0x98, virtual false, abstract: false, final false
   static inline bool DCSerializeWithSurrogateStartIsEnabled();
 
-  /// @brief Method DCSerializeWithSurrogateStop, addr 0x65e8c70, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method DCSerializeWithSurrogateStop, addr 0x65e92c0, size 0xe0, virtual false, abstract: false, final false
   static inline void DCSerializeWithSurrogateStop();
 
-  /// @brief Method DCSerializeWithSurrogateStopIsEnabled, addr 0x65e8bd8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method DCSerializeWithSurrogateStopIsEnabled, addr 0x65e9228, size 0x98, virtual false, abstract: false, final false
   static inline bool DCSerializeWithSurrogateStopIsEnabled();
 
-  /// @brief Method EnsureEventDescriptors, addr 0x65e9ee4, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method EnsureEventDescriptors, addr 0x65ea534, size 0x150, virtual false, abstract: false, final false
   static inline void EnsureEventDescriptors();
 
-  /// @brief Method ImportKnownTypesStart, addr 0x65e91bc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ImportKnownTypesStart, addr 0x65e980c, size 0xe0, virtual false, abstract: false, final false
   static inline void ImportKnownTypesStart();
 
-  /// @brief Method ImportKnownTypesStartIsEnabled, addr 0x65e9124, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ImportKnownTypesStartIsEnabled, addr 0x65e9774, size 0x98, virtual false, abstract: false, final false
   static inline bool ImportKnownTypesStartIsEnabled();
 
-  /// @brief Method ImportKnownTypesStop, addr 0x65e9334, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ImportKnownTypesStop, addr 0x65e9984, size 0xe0, virtual false, abstract: false, final false
   static inline void ImportKnownTypesStop();
 
-  /// @brief Method ImportKnownTypesStopIsEnabled, addr 0x65e929c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ImportKnownTypesStopIsEnabled, addr 0x65e98ec, size 0x98, virtual false, abstract: false, final false
   static inline bool ImportKnownTypesStopIsEnabled();
 
-  /// @brief Method IsEtwEventEnabled, addr 0x65e87d4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method IsEtwEventEnabled, addr 0x65e8e24, size 0xb0, virtual false, abstract: false, final false
   static inline bool IsEtwEventEnabled(int32_t eventIndex);
 
-  /// @brief Method ReaderQuotaExceeded, addr 0x65e8884, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ReaderQuotaExceeded, addr 0x65e8ed4, size 0xe8, virtual false, abstract: false, final false
   static inline void ReaderQuotaExceeded(::StringW param0);
 
-  /// @brief Method ReaderQuotaExceededIsEnabled, addr 0x65e873c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ReaderQuotaExceededIsEnabled, addr 0x65e8d8c, size 0x98, virtual false, abstract: false, final false
   static inline bool ReaderQuotaExceededIsEnabled();
 
-  /// @brief Method WriteEtwEvent, addr 0x65e8d50, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method WriteEtwEvent, addr 0x65e93a0, size 0xdc, virtual false, abstract: false, final false
   static inline bool WriteEtwEvent(int32_t eventIndex, ::System::Runtime::Diagnostics::EventTraceActivity* eventParam0, ::StringW eventParam1);
 
-  /// @brief Method WriteEtwEvent, addr 0x65e896c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method WriteEtwEvent, addr 0x65e8fbc, size 0xec, virtual false, abstract: false, final false
   static inline bool WriteEtwEvent(int32_t eventIndex, ::System::Runtime::Diagnostics::EventTraceActivity* eventParam0, ::StringW eventParam1, ::StringW eventParam2);
 
-  /// @brief Method WriteEtwEvent, addr 0x65e9728, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method WriteEtwEvent, addr 0x65e9d78, size 0xf4, virtual false, abstract: false, final false
   static inline bool WriteEtwEvent(int32_t eventIndex, ::System::Runtime::Diagnostics::EventTraceActivity* eventParam0, ::StringW eventParam1, ::StringW eventParam2, ::StringW eventParam3);
 
   static inline ::ArrayW<::System::Runtime::Diagnostics::EventDescriptor> getStaticF_eventDescriptors();
@@ -155,7 +155,7 @@ public:
   TD(TD const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16576 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16584 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

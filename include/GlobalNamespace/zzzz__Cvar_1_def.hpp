@@ -47,24 +47,24 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::Cvar_1___c<T>* __9;
 
-  /// @brief Field <>9__6_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__6_0, put = setStaticF___9__6_0)) ::System::Func_2<::System::Type*, bool>* __9__6_0;
+  /// @brief Field <>9__8_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__8_0, put = setStaticF___9__8_0)) ::System::Func_2<::System::Type*, bool>* __9__8_0;
 
   static inline ::GlobalNamespace::Cvar_1___c<T>* New_ctor();
 
-  /// @brief Method <Reset>b__6_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool _Reset_b__6_0(::System::Type* t);
+  /// @brief Method <EnsureAllCvarsRegistered>b__8_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool _EnsureAllCvarsRegistered_b__8_0(::System::Type* t);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::Cvar_1___c<T>* getStaticF___9();
 
-  static inline ::System::Func_2<::System::Type*, bool>* getStaticF___9__6_0();
+  static inline ::System::Func_2<::System::Type*, bool>* getStaticF___9__8_0();
 
   static inline void setStaticF___9(::GlobalNamespace::Cvar_1___c<T>* value);
 
-  static inline void setStaticF___9__6_0(::System::Func_2<::System::Type*, bool>* value);
+  static inline void setStaticF___9__8_0(::System::Func_2<::System::Type*, bool>* value);
 
 protected:
   // Ctor Parameters []
@@ -81,7 +81,7 @@ public:
   Cvar_1___c(Cvar_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21481 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21411 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -98,6 +98,9 @@ public:
   // Declarations
   using __c = ::GlobalNamespace::Cvar_1___c<T>;
 
+  /// @brief Field _areAllCvarsRegistered, offset 0xffffffff, size 0x1
+  __declspec(property(get = getStaticF__areAllCvarsRegistered, put = setStaticF__areAllCvarsRegistered)) bool _areAllCvarsRegistered;
+
   /// @brief Field _cvars, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__cvars, put = setStaticF__cvars)) ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::Cvar_1<T>*>* _cvars;
 
@@ -105,6 +108,9 @@ public:
   __declspec(property(get = __cordl_internal_get__initialValue, put = __cordl_internal_set__initialValue)) T _initialValue;
 
   __declspec(property(get = get_initialValue)) T initialValue;
+
+  /// @brief Method EnsureAllCvarsRegistered, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline void EnsureAllCvarsRegistered();
 
   static inline ::GlobalNamespace::Cvar_1<T>* New_ctor(::StringW name, T initialValue);
 
@@ -126,6 +132,8 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, T initialValue);
 
+  static inline bool getStaticF__areAllCvarsRegistered();
+
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::Cvar_1<T>*>* getStaticF__cvars();
 
   /// @brief Method get_All, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -133,6 +141,8 @@ public:
 
   /// @brief Method get_initialValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_initialValue();
+
+  static inline void setStaticF__areAllCvarsRegistered(bool value);
 
   static inline void setStaticF__cvars(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::Cvar_1<T>*>* value);
 
@@ -151,7 +161,7 @@ public:
   Cvar_1(Cvar_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21482 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21412 };
 
   /// @brief Field _initialValue, offset: 0x20, size: 0x8, def value: None
   T ____initialValue;

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::GPUInstanceIndex::*)()>(&::UnityEngine::Rendering::GPUInstanceIndex::get_index)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c94098;
+  constexpr static std::size_t addrs = 0x6c95178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUInstanceIndex>(), { "get_index", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUInstanceIndex::*)(int32_t)>(&::UnityEngine::Rendering::GPUInstanceIndex::set_index)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c940a0;
+  constexpr static std::size_t addrs = 0x6c95180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::GPUInstanceIndex::*)()>(&::UnityEngine::Rendering::GPUInstanceIndex::get_valid)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6c940a8;
+  constexpr static std::size_t addrs = 0x6c95188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUInstanceIndex>(), { "get_valid", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::GPUInstanceIndex::*)(::UnityEngine::Rendering::GPUInstanceIndex)>(
     &::UnityEngine::Rendering::GPUInstanceIndex::Equals)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6c94108;
+  constexpr static std::size_t addrs = 0x6c951e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::GPUInstanceIndex::*)(::UnityEngine::Rendering::GPUInstanceIndex)>(
     &::UnityEngine::Rendering::GPUInstanceIndex::CompareTo)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6c94174;
+  constexpr static std::size_t addrs = 0x6c95254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::GPUInstanceIndex::*)()>(&::UnityEngine::Rendering::GPUInstanceIndex::GetHashCode)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6c941e4;
+  constexpr static std::size_t addrs = 0x6c952c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

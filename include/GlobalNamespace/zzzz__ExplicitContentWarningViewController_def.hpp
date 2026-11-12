@@ -32,13 +32,13 @@ public:
   /// @brief Field _toggleExplicit, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__toggleExplicit, put = __cordl_internal_set__toggleExplicit)) ::UnityW<::UnityEngine::UI::Toggle> _toggleExplicit;
 
-  /// @brief Method DidActivate, addr 0x5e73714, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5e7362c, size 0xec, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5e73800, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5e73718, size 0x34, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleClickedEvent, addr 0x5e73834, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method HandleClickedEvent, addr 0x5e7374c, size 0x68, virtual false, abstract: false, final false
   inline void HandleClickedEvent();
 
   static inline ::GlobalNamespace::ExplicitContentWarningViewController* New_ctor();
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__toggleExplicit(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method .ctor, addr 0x5e7389c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e737b4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

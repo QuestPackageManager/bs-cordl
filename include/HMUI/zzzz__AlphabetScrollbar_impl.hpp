@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::AlphabetScrollbar__PointerMoveInsideCoroutine_d__18::*)(int32_t)>(
     &::HMUI::AlphabetScrollbar__PointerMoveInsideCoroutine_d__18::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cc3c58;
+  constexpr static std::size_t addrs = 0x5cc33b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::AlphabetScrollbar__PointerMoveInsideCoroutine_d__18::*)()>(
     &::HMUI::AlphabetScrollbar__PointerMoveInsideCoroutine_d__18::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cc3d04;
+  constexpr static std::size_t addrs = 0x5cc345c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::AlphabetScrollbar__PointerMoveInsideCoroutine_d__18::*)()>(
     &::HMUI::AlphabetScrollbar__PointerMoveInsideCoroutine_d__18::MoveNext)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5cc3d08;
+  constexpr static std::size_t addrs = 0x5cc3460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::AlphabetScrollbar__PointerMoveInsideCoroutine_d__18*>(), { "MoveNext", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::AlphabetScrollbar__PointerMoveInsideCoroutine_d__18::*)()>(
     &::HMUI::AlphabetScrollbar__PointerMoveInsideCoroutine_d__18::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cc3e48;
+  constexpr static std::size_t addrs = 0x5cc35a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::AlphabetScrollbar__PointerMoveInsideCoroutine_d__18*>(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::AlphabetScrollbar__PointerMoveInsideCoroutine_d__18::*)()>(
     &::HMUI::AlphabetScrollbar__PointerMoveInsideCoroutine_d__18::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5cc3e50;
+  constexpr static std::size_t addrs = 0x5cc35a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::AlphabetScrollbar__PointerMoveInsideCoroutine_d__18::*)()>(
     &::HMUI::AlphabetScrollbar__PointerMoveInsideCoroutine_d__18::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cc3e88;
+  constexpr static std::size_t addrs = 0x5cc35e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::AlphabetScrollbar::*)()>(&::HMUI::AlphabetScrollbar::Awake)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cc2dc8;
+  constexpr static std::size_t addrs = 0x5cc2520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::AlphabetScrollbar*>(), { ::i2c::class_of<::HMUI::AlphabetScrollbar*>(), 4 }));
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::AlphabetScrollbar::*)(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::AlphabetScrollInfo_Data*>*)>(
     &::HMUI::AlphabetScrollbar::SetData)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x5cc2de4;
+  constexpr static std::size_t addrs = 0x5cc253c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -245,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::AlphabetScrollbar::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::AlphabetScrollbar::OnPointerDown)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5cc3680;
+  constexpr static std::size_t addrs = 0x5cc2dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -258,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::AlphabetScrollbar::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::AlphabetScrollbar::OnPointerUp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cc3a50;
+  constexpr static std::size_t addrs = 0x5cc31a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -271,7 +271,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::AlphabetScrollbar::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::AlphabetScrollbar::OnPointerEnter)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5cc3a58;
+  constexpr static std::size_t addrs = 0x5cc31b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -284,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::AlphabetScrollbar::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::AlphabetScrollbar::OnPointerExit)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5cc3ad8;
+  constexpr static std::size_t addrs = 0x5cc3230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -297,7 +297,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::AlphabetScrollbar::*)()>(&::HMUI::AlphabetScrollbar::PrepareTransforms)> {
   constexpr static std::size_t size = 0x53c;
-  constexpr static std::size_t addrs = 0x5cc3144;
+  constexpr static std::size_t addrs = 0x5cc289c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::AlphabetScrollbar*>(), { "PrepareTransforms", {}, {} })));
@@ -309,7 +309,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::AlphabetScrollbar::*)()>(&::HMUI::AlphabetScrollbar::RefreshHighlight)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x5cc3afc;
+  constexpr static std::size_t addrs = 0x5cc3254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::AlphabetScrollbar*>(), { "RefreshHighlight", {}, {} })));
@@ -322,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::HMUI::AlphabetScrollbar::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::HMUI::AlphabetScrollbar::PointerMoveInsideCoroutine)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5cc3a78;
+  constexpr static std::size_t addrs = 0x5cc31d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -336,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::HMUI::AlphabetScrollbar::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::AlphabetScrollbar::GetPointerCharacterIndex)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x5cc3770;
+  constexpr static std::size_t addrs = 0x5cc2ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -350,7 +350,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::AlphabetScrollbar::*)(::TMPro::TextMeshProUGUI*, char16_t)>(&::HMUI::AlphabetScrollbar::InitText)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5cc3084;
+  constexpr static std::size_t addrs = 0x5cc27dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -363,7 +363,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::AlphabetScrollbar::*)()>(&::HMUI::AlphabetScrollbar::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5cc3c60;
+  constexpr static std::size_t addrs = 0x5cc33b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::AlphabetScrollbar*>(), { ".ctor", {}, {} })));

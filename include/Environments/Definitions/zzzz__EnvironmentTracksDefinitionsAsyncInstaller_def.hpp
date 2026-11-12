@@ -42,10 +42,10 @@ public:
 
   __declspec(property(get = get_assetLabelRuntimeKey)) ::StringW assetLabelRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x3596db0, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3599f70, size 0xc8, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x3596d3c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x3599efc, size 0x74, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>* tracksDefinitions,
                                          ::BGLib::AppFlow::Initialization::IInstallerRegistry* registry);
 
@@ -57,10 +57,10 @@ public:
 
   constexpr void __cordl_internal_set__environmentTracksDefinitions(::System::Collections::Generic::List_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>* value);
 
-  /// @brief Method .ctor, addr 0x3597024, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x359a1e4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0x3596cf8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x3599eb8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
 protected:
@@ -78,7 +78,7 @@ public:
   EnvironmentTracksDefinitionsAsyncInstaller(EnvironmentTracksDefinitionsAsyncInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23821 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23839 };
 
   /// @brief Field _environmentTracksDefinitions, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>* ____environmentTracksDefinitions;

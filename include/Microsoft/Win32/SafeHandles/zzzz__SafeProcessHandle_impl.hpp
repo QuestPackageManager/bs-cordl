@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Microsoft::Win32::SafeHandles::SafeProcessHandle::*)(::System::IntPtr)>(&::Microsoft::Win32::SafeHandles::SafeProcessHandle::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x643d110;
+  constexpr static std::size_t addrs = 0x643d760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Microsoft::Win32::SafeHandles::SafeProcessHandle::*)(::System::IntPtr, bool)>(
     &::Microsoft::Win32::SafeHandles::SafeProcessHandle::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x643cf20;
+  constexpr static std::size_t addrs = 0x643d570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Microsoft::Win32::SafeHandles::SafeProcessHandle::*)()>(&::Microsoft::Win32::SafeHandles::SafeProcessHandle::ReleaseHandle)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x643d170;
+  constexpr static std::size_t addrs = 0x643d7c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

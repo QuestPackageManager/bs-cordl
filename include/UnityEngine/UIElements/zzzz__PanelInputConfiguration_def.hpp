@@ -129,28 +129,28 @@ public:
 
   static inline ::UnityEngine::UIElements::PanelInputConfiguration_Settings getStaticF_s_Default();
 
-  /// @brief Method get_Default, addr 0x7282aa4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Default, addr 0x7283b84, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::PanelInputConfiguration_Settings get_Default();
 
-  /// @brief Method get_autoCreatePanelComponents, addr 0x7282b38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_autoCreatePanelComponents, addr 0x7283c18, size 0x8, virtual false, abstract: false, final false
   inline bool get_autoCreatePanelComponents();
 
-  /// @brief Method get_defaultEventCameraIsMainCamera, addr 0x7282b20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultEventCameraIsMainCamera, addr 0x7283c00, size 0x8, virtual false, abstract: false, final false
   inline bool get_defaultEventCameraIsMainCamera();
 
-  /// @brief Method get_eventCameras, addr 0x7282b28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventCameras, addr 0x7283c08, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Camera>> get_eventCameras();
 
-  /// @brief Method get_interactionLayers, addr 0x7282b10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interactionLayers, addr 0x7283bf0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_interactionLayers();
 
-  /// @brief Method get_maxInteractionDistance, addr 0x7282b18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxInteractionDistance, addr 0x7283bf8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxInteractionDistance();
 
-  /// @brief Method get_panelInputRedirection, addr 0x7282b30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_panelInputRedirection, addr 0x7283c10, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PanelInputConfiguration_PanelInputRedirection get_panelInputRedirection();
 
-  /// @brief Method get_processWorldSpaceInput, addr 0x7282b08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_processWorldSpaceInput, addr 0x7283be8, size 0x8, virtual false, abstract: false, final false
   inline bool get_processWorldSpaceInput();
 
   static inline void setStaticF_s_Default(::UnityEngine::UIElements::PanelInputConfiguration_Settings value);
@@ -273,15 +273,15 @@ public:
 
   __declspec(property(get = get_settings)) ::UnityEngine::UIElements::PanelInputConfiguration_Settings settings;
 
-  /// @brief Method Apply, addr 0x7281fdc, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x72830bc, size 0x418, virtual false, abstract: false, final false
   static inline void Apply(::UnityEngine::UIElements::PanelInputConfiguration* input);
 
   static inline ::UnityEngine::UIElements::PanelInputConfiguration* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x72827b0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x7283890, size 0x11c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x72824bc, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x728359c, size 0x2f4, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityEngine::UIElements::PanelInputConfiguration_Settings const& __cordl_internal_get_m_Settings() const;
@@ -290,7 +290,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Settings(::UnityEngine::UIElements::PanelInputConfiguration_Settings value);
 
-  /// @brief Method .ctor, addr 0x72829fc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7283adc, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::UnityEngine::UIElements::PanelInputConfiguration> getStaticF__current_k__BackingField();
@@ -299,32 +299,32 @@ public:
 
   static inline int32_t getStaticF_s_ActiveInstances();
 
-  /// @brief Method get_autoCreatePanelComponents, addr 0x7282498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_autoCreatePanelComponents, addr 0x7283578, size 0x8, virtual false, abstract: false, final false
   inline bool get_autoCreatePanelComponents();
 
   /// [CompilerGenerated]
-  /// @brief Method get_current, addr 0x7281f10, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x7282ff0, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::UIElements::PanelInputConfiguration> get_current();
 
-  /// @brief Method get_defaultEventCameraIsMainCamera, addr 0x7282434, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultEventCameraIsMainCamera, addr 0x7283514, size 0x8, virtual false, abstract: false, final false
   inline bool get_defaultEventCameraIsMainCamera();
 
-  /// @brief Method get_eventCameras, addr 0x7282458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventCameras, addr 0x7283538, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Camera>> get_eventCameras();
 
-  /// @brief Method get_interactionLayers, addr 0x72823f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interactionLayers, addr 0x72834d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_interactionLayers();
 
-  /// @brief Method get_maxInteractionDistance, addr 0x7282414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxInteractionDistance, addr 0x72834f4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxInteractionDistance();
 
-  /// @brief Method get_panelInputRedirection, addr 0x7282478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_panelInputRedirection, addr 0x7283558, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PanelInputConfiguration_PanelInputRedirection get_panelInputRedirection();
 
-  /// @brief Method get_processWorldSpaceInput, addr 0x7281fb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_processWorldSpaceInput, addr 0x7283098, size 0x8, virtual false, abstract: false, final false
   inline bool get_processWorldSpaceInput();
 
-  /// @brief Method get_settings, addr 0x7281fac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_settings, addr 0x728308c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PanelInputConfiguration_Settings get_settings();
 
   static inline void setStaticF__current_k__BackingField(::UnityW<::UnityEngine::UIElements::PanelInputConfiguration> value);
@@ -333,29 +333,29 @@ public:
 
   static inline void setStaticF_s_ActiveInstances(int32_t value);
 
-  /// @brief Method set_autoCreatePanelComponents, addr 0x72824a0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_autoCreatePanelComponents, addr 0x7283580, size 0x1c, virtual false, abstract: false, final false
   inline void set_autoCreatePanelComponents(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_current, addr 0x7281f5c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x728303c, size 0x50, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::UIElements::PanelInputConfiguration* value);
 
-  /// @brief Method set_defaultEventCameraIsMainCamera, addr 0x728243c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_defaultEventCameraIsMainCamera, addr 0x728351c, size 0x1c, virtual false, abstract: false, final false
   inline void set_defaultEventCameraIsMainCamera(bool value);
 
-  /// @brief Method set_eventCameras, addr 0x7282460, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_eventCameras, addr 0x7283540, size 0x18, virtual false, abstract: false, final false
   inline void set_eventCameras(::ArrayW<::UnityEngine::Camera*> value);
 
-  /// @brief Method set_interactionLayers, addr 0x72823fc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_interactionLayers, addr 0x72834dc, size 0x18, virtual false, abstract: false, final false
   inline void set_interactionLayers(::UnityEngine::LayerMask value);
 
-  /// @brief Method set_maxInteractionDistance, addr 0x728241c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_maxInteractionDistance, addr 0x72834fc, size 0x18, virtual false, abstract: false, final false
   inline void set_maxInteractionDistance(float_t value);
 
-  /// @brief Method set_panelInputRedirection, addr 0x7282480, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_panelInputRedirection, addr 0x7283560, size 0x18, virtual false, abstract: false, final false
   inline void set_panelInputRedirection(::UnityEngine::UIElements::PanelInputConfiguration_PanelInputRedirection value);
 
-  /// @brief Method set_processWorldSpaceInput, addr 0x7281fc0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_processWorldSpaceInput, addr 0x72830a0, size 0x1c, virtual false, abstract: false, final false
   inline void set_processWorldSpaceInput(bool value);
 
 protected:

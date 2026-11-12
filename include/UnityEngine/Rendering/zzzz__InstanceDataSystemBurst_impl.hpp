@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceDataSystemBurst_ReallocateInstances_000002A0$PostfixBurstDelegate::*)(
     ::System::Object*, ::System::IntPtr)>(&::UnityEngine::Rendering::InstanceDataSystemBurst_ReallocateInstances_000002A0$PostfixBurstDelegate::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6c9fec4;
+  constexpr static std::size_t addrs = 0x6ca0fa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>)>(
     &::UnityEngine::Rendering::InstanceDataSystemBurst_ReallocateInstances_000002A0$PostfixBurstDelegate::Invoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6c9ff30;
+  constexpr static std::size_t addrs = 0x6ca1010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
                                                                                       ::System::AsyncCallback*, ::System::Object*)>(
     &::UnityEngine::Rendering::InstanceDataSystemBurst_ReallocateInstances_000002A0$PostfixBurstDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x6c9ff58;
+  constexpr static std::size_t addrs = 0x6ca1038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceDataSystemBurst_ReallocateInstances_000002A0$PostfixBurstDelegate::*)(::System::IAsyncResult*)>(
     &::UnityEngine::Rendering::InstanceDataSystemBurst_ReallocateInstances_000002A0$PostfixBurstDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ca01a0;
+  constexpr static std::size_t addrs = 0x6ca1280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::System::IntPtr>)>(
     &::UnityEngine::Rendering::InstanceDataSystemBurst_ReallocateInstances_000002A0$BurstDirectCall::GetFunctionPointerDiscard)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6ca01ac;
+  constexpr static std::size_t addrs = 0x6ca128c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::Rendering::InstanceDataSystemBurst_ReallocateInstances_000002A0$BurstDirectCall::GetFunctionPointer)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6ca02b8;
+  constexpr static std::size_t addrs = 0x6ca1398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,7 +184,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>)>(
     &::UnityEngine::Rendering::InstanceDataSystemBurst_ReallocateInstances_000002A0$BurstDirectCall::Invoke)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6c9f214;
+  constexpr static std::size_t addrs = 0x6ca02f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceDataSystemBurst_FreeRendererGroupInstances_000002A1$PostfixBurstDelegate::*)(
     ::System::Object*, ::System::IntPtr)>(&::UnityEngine::Rendering::InstanceDataSystemBurst_FreeRendererGroupInstances_000002A1$PostfixBurstDelegate::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6ca02d0;
+  constexpr static std::size_t addrs = 0x6ca13b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -269,7 +269,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>)>(
     &::UnityEngine::Rendering::InstanceDataSystemBurst_FreeRendererGroupInstances_000002A1$PostfixBurstDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6ca0350;
+  constexpr static std::size_t addrs = 0x6ca1430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -293,7 +293,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
                                                                                              ::System::AsyncCallback*, ::System::Object*)>(
     &::UnityEngine::Rendering::InstanceDataSystemBurst_FreeRendererGroupInstances_000002A1$PostfixBurstDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x6ca0364;
+  constexpr static std::size_t addrs = 0x6ca1444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -308,7 +308,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceDataSystemBurst_FreeRendererGroupInstances_000002A1$PostfixBurstDelegate::*)(::System::IAsyncResult*)>(
     &::UnityEngine::Rendering::InstanceDataSystemBurst_FreeRendererGroupInstances_000002A1$PostfixBurstDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ca04f4;
+  constexpr static std::size_t addrs = 0x6ca15d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -368,7 +368,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::System::IntPtr>)>(
     &::UnityEngine::Rendering::InstanceDataSystemBurst_FreeRendererGroupInstances_000002A1$BurstDirectCall::GetFunctionPointerDiscard)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6ca0500;
+  constexpr static std::size_t addrs = 0x6ca15e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -383,7 +383,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(
     &::UnityEngine::Rendering::InstanceDataSystemBurst_FreeRendererGroupInstances_000002A1$BurstDirectCall::GetFunctionPointer)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6ca060c;
+  constexpr static std::size_t addrs = 0x6ca16ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -401,7 +401,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                          ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>)>(
         &::UnityEngine::Rendering::InstanceDataSystemBurst_FreeRendererGroupInstances_000002A1$BurstDirectCall::Invoke)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6c9f344;
+  constexpr static std::size_t addrs = 0x6ca0424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -461,7 +461,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceDataSystemBurst_FreeInstances_000002A2$PostfixBurstDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::Rendering::InstanceDataSystemBurst_FreeInstances_000002A2$PostfixBurstDelegate::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6ca0624;
+  constexpr static std::size_t addrs = 0x6ca1704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -479,7 +479,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>)>(
     &::UnityEngine::Rendering::InstanceDataSystemBurst_FreeInstances_000002A2$PostfixBurstDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6ca06a4;
+  constexpr static std::size_t addrs = 0x6ca1784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -500,7 +500,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
                                                                                 ::System::AsyncCallback*, ::System::Object*)>(
     &::UnityEngine::Rendering::InstanceDataSystemBurst_FreeInstances_000002A2$PostfixBurstDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x6ca06b8;
+  constexpr static std::size_t addrs = 0x6ca1798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -515,7 +515,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceDataSystemBurst_FreeInstances_000002A2$PostfixBurstDelegate::*)(::System::IAsyncResult*)>(
     &::UnityEngine::Rendering::InstanceDataSystemBurst_FreeInstances_000002A2$PostfixBurstDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ca0848;
+  constexpr static std::size_t addrs = 0x6ca1928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -573,7 +573,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::System::IntPtr>)>(
     &::UnityEngine::Rendering::InstanceDataSystemBurst_FreeInstances_000002A2$BurstDirectCall::GetFunctionPointerDiscard)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6ca0854;
+  constexpr static std::size_t addrs = 0x6ca1934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceDataSystemBurst_FreeInstances_000002A2$BurstDirectCall*>(),
@@ -586,7 +586,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::Rendering::InstanceDataSystemBurst_FreeInstances_000002A2$BurstDirectCall::GetFunctionPointer)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6ca0960;
+  constexpr static std::size_t addrs = 0x6ca1a40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -603,7 +603,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                          ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>)>(
         &::UnityEngine::Rendering::InstanceDataSystemBurst_FreeInstances_000002A2$BurstDirectCall::Invoke)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6c9f430;
+  constexpr static std::size_t addrs = 0x6ca0510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -662,7 +662,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
     ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>,
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>)>(&::UnityEngine::Rendering::InstanceDataSystemBurst::ReallocateInstances)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6c9f1f8;
+  constexpr static std::size_t addrs = 0x6ca02d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -688,7 +688,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
     ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>,
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>)>(&::UnityEngine::Rendering::InstanceDataSystemBurst::FreeRendererGroupInstances)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c9f20c;
+  constexpr static std::size_t addrs = 0x6ca02ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -711,7 +711,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
     ::by_ref<::UnityEngine::Rendering::CPUInstanceData>, ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>,
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>)>(&::UnityEngine::Rendering::InstanceDataSystemBurst::FreeInstances)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c9f210;
+  constexpr static std::size_t addrs = 0x6ca02f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -737,7 +737,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>)>(
     &::UnityEngine::Rendering::InstanceDataSystemBurst::ReallocateInstances$BurstManaged)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x6c9f51c;
+  constexpr static std::size_t addrs = 0x6ca05fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -764,7 +764,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                          ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>)>(
         &::UnityEngine::Rendering::InstanceDataSystemBurst::FreeRendererGroupInstances$BurstManaged)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x6c9f8ec;
+  constexpr static std::size_t addrs = 0x6ca09cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -787,7 +787,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
     ::by_ref<::UnityEngine::Rendering::CPUInstanceData>, ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>,
     ::by_ref<::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle>>)>(&::UnityEngine::Rendering::InstanceDataSystemBurst::FreeInstances$BurstManaged)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x6c9fb8c;
+  constexpr static std::size_t addrs = 0x6ca0c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

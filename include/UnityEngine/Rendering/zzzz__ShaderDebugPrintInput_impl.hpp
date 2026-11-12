@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Rendering::ShaderDebugPrintInput::*)()>(&::UnityEngine::Rendering::ShaderDebugPrintInput::get_pos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bdafb4;
+  constexpr static std::size_t addrs = 0x6bdc094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShaderDebugPrintInput>(), { "get_pos", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ShaderDebugPrintInput::*)(::UnityEngine::Vector2)>(&::UnityEngine::Rendering::ShaderDebugPrintInput::set_pos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bdafbc;
+  constexpr static std::size_t addrs = 0x6bdc09c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ShaderDebugPrintInput::*)()>(&::UnityEngine::Rendering::ShaderDebugPrintInput::get_leftDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bdafc4;
+  constexpr static std::size_t addrs = 0x6bdc0a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShaderDebugPrintInput>(), { "get_leftDown", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ShaderDebugPrintInput::*)(bool)>(&::UnityEngine::Rendering::ShaderDebugPrintInput::set_leftDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bdafcc;
+  constexpr static std::size_t addrs = 0x6bdc0ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ShaderDebugPrintInput::*)()>(&::UnityEngine::Rendering::ShaderDebugPrintInput::get_rightDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bdafd4;
+  constexpr static std::size_t addrs = 0x6bdc0b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShaderDebugPrintInput>(), { "get_rightDown", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ShaderDebugPrintInput::*)(bool)>(&::UnityEngine::Rendering::ShaderDebugPrintInput::set_rightDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bdafdc;
+  constexpr static std::size_t addrs = 0x6bdc0bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ShaderDebugPrintInput::*)()>(&::UnityEngine::Rendering::ShaderDebugPrintInput::get_middleDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bdafe4;
+  constexpr static std::size_t addrs = 0x6bdc0c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShaderDebugPrintInput>(), { "get_middleDown", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ShaderDebugPrintInput::*)(bool)>(&::UnityEngine::Rendering::ShaderDebugPrintInput::set_middleDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bdafec;
+  constexpr static std::size_t addrs = 0x6bdc0cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::ShaderDebugPrintInput::*)()>(&::UnityEngine::Rendering::ShaderDebugPrintInput::String)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x6bdaff4;
+  constexpr static std::size_t addrs = 0x6bdc0d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShaderDebugPrintInput>(), { "String", {}, {} })));

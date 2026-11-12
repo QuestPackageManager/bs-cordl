@@ -87,10 +87,10 @@ public:
   __declspec(property(get = __cordl_internal_get_didSelectHelpSubMenuEvent,
                       put = __cordl_internal_set_didSelectHelpSubMenuEvent)) ::System::Action_1<::UnityW<::HMUI::ViewController>>* didSelectHelpSubMenuEvent;
 
-  /// @brief Method DidActivate, addr 0x5d9eb24, size 0x548, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5d9eca0, size 0x548, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleHelpMenuSegmentedControlDidSelectCell, addr 0x5d9f06c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method HandleHelpMenuSegmentedControlDidSelectCell, addr 0x5d9f1e8, size 0x90, virtual false, abstract: false, final false
   inline void HandleHelpMenuSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellIdx);
 
   static inline ::GlobalNamespace::HelpMenuViewController* New_ctor();
@@ -143,15 +143,15 @@ public:
 
   constexpr void __cordl_internal_set_didSelectHelpSubMenuEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
 
-  /// @brief Method .ctor, addr 0x5d9f0fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d9f278, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_didSelectHelpSubMenuEvent, addr 0x5d9e9a4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectHelpSubMenuEvent, addr 0x5d9eb20, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectHelpSubMenuEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didSelectHelpSubMenuEvent, addr 0x5d9ea64, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectHelpSubMenuEvent, addr 0x5d9ebe0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectHelpSubMenuEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
 
 protected:

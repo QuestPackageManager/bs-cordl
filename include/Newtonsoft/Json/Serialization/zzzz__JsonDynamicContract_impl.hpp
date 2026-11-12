@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Serialization::JsonPropertyCollection* (::Newtonsoft::Json::Serialization::JsonDynamicContract::*)()>(
     &::Newtonsoft::Json::Serialization::JsonDynamicContract::get_Properties)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x619944c;
+  constexpr static std::size_t addrs = 0x61996d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonDynamicContract*>(), { "get_Properties", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_2<::StringW, ::StringW>* (::Newtonsoft::Json::Serialization::JsonDynamicContract::*)()>(
     &::Newtonsoft::Json::Serialization::JsonDynamicContract::get_PropertyNameResolver)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6199454;
+  constexpr static std::size_t addrs = 0x61996dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::JsonDynamicContract::*)(::System::Func_2<::StringW, ::StringW>*)>(
     &::Newtonsoft::Json::Serialization::JsonDynamicContract::set_PropertyNameResolver)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x619945c;
+  constexpr static std::size_t addrs = 0x61996e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonDynamicContract*>(),
@@ -60,7 +60,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Runtime::CompilerServices::CallSite_1<::System::Func_3<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*>*>* (*)(::StringW)>(
         &::Newtonsoft::Json::Serialization::JsonDynamicContract::CreateCallSiteGetter)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6199464;
+  constexpr static std::size_t addrs = 0x61996ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
     ::System::Runtime::CompilerServices::CallSite_1<::System::Func_4<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*, ::System::Object*>*>* (*)(::StringW)>(
     &::Newtonsoft::Json::Serialization::JsonDynamicContract::CreateCallSiteSetter)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6199588;
+  constexpr static std::size_t addrs = 0x6199810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::JsonDynamicContract::*)(::System::Type*)>(
     &::Newtonsoft::Json::Serialization::JsonDynamicContract::_ctor)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x6193bac;
+  constexpr static std::size_t addrs = 0x6193e34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Serialization::JsonDynamicContract::*)(
     ::System::Dynamic::IDynamicMetaObjectProvider*, ::StringW, ::by_ref<::System::Object*>)>(&::Newtonsoft::Json::Serialization::JsonDynamicContract::TryGetMember)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x61996ac;
+  constexpr static std::size_t addrs = 0x6199934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Serialization::JsonDynamicContract::*)(::System::Dynamic::IDynamicMetaObjectProvider*, ::StringW, ::System::Object*)>(
     &::Newtonsoft::Json::Serialization::JsonDynamicContract::TrySetMember)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x61997b8;
+  constexpr static std::size_t addrs = 0x6199a40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

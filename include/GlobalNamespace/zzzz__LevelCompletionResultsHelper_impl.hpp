@@ -21,7 +21,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
                                                    ::GlobalNamespace::LevelCompletionResultsBase_LevelEndStateType, ::GlobalNamespace::LevelCompletionResultsBase_LevelEndAction, float_t, float_t,
                                                    float_t, bool)>(&::GlobalNamespace::LevelCompletionResultsHelper::Create)> {
   constexpr static std::size_t size = 0x4ec;
-  constexpr static std::size_t addrs = 0x39bbd48;
+  constexpr static std::size_t addrs = 0x39c0324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Globa
                                                                 ::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IReadonlyBeatmapData*, ::GlobalNamespace::PlatformLeaderboardsModel*)>(
     &::GlobalNamespace::LevelCompletionResultsHelper::ProcessScore)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x39bc234;
+  constexpr static std::size_t addrs = 0x39c0810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

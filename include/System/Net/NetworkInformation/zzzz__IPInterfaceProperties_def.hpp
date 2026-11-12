@@ -31,7 +31,7 @@ public:
 
   static inline ::System::Net::NetworkInformation::IPInterfaceProperties* New_ctor();
 
-  /// @brief Method .ctor, addr 0x67b6e9c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67b74ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_GatewayAddresses, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

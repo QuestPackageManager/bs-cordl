@@ -66,49 +66,49 @@ public:
   __declspec(property(get = getStaticF_SpecialStringToEnumCases,
                       put = setStaticF_SpecialStringToEnumCases)) ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* SpecialStringToEnumCases;
 
-  /// @brief Method ConvertCamelToDash, addr 0x7156214, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ConvertCamelToDash, addr 0x71572f4, size 0x130, virtual false, abstract: false, final false
   static inline ::StringW ConvertCamelToDash(::StringW camel);
 
-  /// @brief Method ConvertDashToHungarian, addr 0x7156344, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ConvertDashToHungarian, addr 0x7157424, size 0x60, virtual false, abstract: false, final false
   static inline ::StringW ConvertDashToHungarian(::StringW dash);
 
-  /// @brief Method ConvertDashToUpperNoSpace, addr 0x71563a4, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method ConvertDashToUpperNoSpace, addr 0x7157484, size 0x328, virtual false, abstract: false, final false
   static inline ::StringW ConvertDashToUpperNoSpace(::StringW dash, bool firstCase, bool addSpace);
 
-  /// @brief Method CreateInstanceWithHideFlags, addr 0x7155648, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CreateInstanceWithHideFlags, addr 0x7156728, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::UIElements::StyleSheet> CreateInstanceWithHideFlags();
 
-  /// @brief Method GetDimensionUnitExportString, addr 0x71566cc, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method GetDimensionUnitExportString, addr 0x71577ac, size 0x20c, virtual false, abstract: false, final false
   static inline ::StringW GetDimensionUnitExportString(::UnityEngine::UIElements::StyleSheets::Dimension_Unit unit);
 
-  /// @brief Method GetEnumExportString, addr 0x715619c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetEnumExportString, addr 0x715727c, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW GetEnumExportString(::System::Enum* value);
 
   /// [Extension]
-  /// @brief Method ToDimension, addr 0x715582c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method ToDimension, addr 0x715690c, size 0x124, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSheets::Dimension ToDimension(::UnityEngine::UIElements::Angle angle);
 
   /// [Extension]
-  /// @brief Method ToDimension, addr 0x71556ac, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ToDimension, addr 0x715678c, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSheets::Dimension ToDimension(::UnityEngine::UIElements::Length length);
 
   /// [Extension]
-  /// @brief Method ToDimension, addr 0x71559d8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ToDimension, addr 0x7156ab8, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSheets::Dimension ToDimension(::UnityEngine::UIElements::TimeValue timeValue);
 
   /// [Extension]
-  /// @brief Method ToDimensionUnit, addr 0x7155950, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ToDimensionUnit, addr 0x7156a30, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSheets::Dimension_Unit ToDimensionUnit(::UnityEngine::UIElements::AngleUnit unit);
 
   /// [Extension]
-  /// @brief Method ToDimensionUnit, addr 0x7155798, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ToDimensionUnit, addr 0x7156878, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSheets::Dimension_Unit ToDimensionUnit(::UnityEngine::UIElements::LengthUnit unit);
 
   /// [Extension]
-  /// @brief Method ToDimensionUnit, addr 0x7155a3c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ToDimensionUnit, addr 0x7156b1c, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSheets::Dimension_Unit ToDimensionUnit(::UnityEngine::UIElements::TimeUnit unit);
 
-  /// @brief Method TransferStylePropertyHandles, addr 0x7155ad0, size 0x6bc, virtual false, abstract: false, final false
+  /// @brief Method TransferStylePropertyHandles, addr 0x7156bb0, size 0x6bc, virtual false, abstract: false, final false
   static inline void TransferStylePropertyHandles(::UnityEngine::UIElements::StyleSheet* fromStyleSheet, ::UnityEngine::UIElements::StyleProperty* fromStyleProperty,
                                                   ::UnityEngine::UIElements::StyleSheet* toStyleSheet, ::UnityEngine::UIElements::StyleProperty* toStyleProperty);
 

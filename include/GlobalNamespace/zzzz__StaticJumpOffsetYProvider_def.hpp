@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_jumpyYOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x5dd4fbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd50d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t jumpyYOffset);
 
 protected:
@@ -98,10 +98,10 @@ public:
 
   constexpr void __cordl_internal_set__initData(::GlobalNamespace::StaticJumpOffsetYProvider_InitData* value);
 
-  /// @brief Method .ctor, addr 0x5dd4fb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd50d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_jumpOffsetY, addr 0x5dd4fa0, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_jumpOffsetY, addr 0x5dd50bc, size 0x18, virtual true, abstract: false, final true
   inline float_t get_jumpOffsetY();
 
   /// @brief Convert to "::GlobalNamespace::IJumpOffsetYProvider"

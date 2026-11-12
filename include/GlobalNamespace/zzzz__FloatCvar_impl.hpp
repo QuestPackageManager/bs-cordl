@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalNamespace::FloatCvar::Init)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35d398c;
+  constexpr static std::size_t addrs = 0x35d7de4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatCvar*>(), { "Init", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatCvar::*)(::StringW, float_t)>(&::GlobalNamespace::FloatCvar::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x35d39f8;
+  constexpr static std::size_t addrs = 0x35d7e50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

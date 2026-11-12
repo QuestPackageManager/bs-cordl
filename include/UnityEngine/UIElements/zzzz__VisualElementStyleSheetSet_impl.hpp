@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElementStyleSheetSet::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualElementStyleSheetSet::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7194768;
+  constexpr static std::size_t addrs = 0x7195848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElementStyleSheetSet::*)(::UnityEngine::UIElements::StyleSheet*)>(
     &::UnityEngine::UIElements::VisualElementStyleSheetSet::Add)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x718c4cc;
+  constexpr static std::size_t addrs = 0x718d5ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElementStyleSheetSet::*)(int32_t, ::UnityEngine::UIElements::StyleSheet*)>(
     &::UnityEngine::UIElements::VisualElementStyleSheetSet::Insert)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x71947d0;
+  constexpr static std::size_t addrs = 0x71958b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementStyleSheetSet>(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElementStyleSheetSet::*)(::UnityEngine::UIElements::StyleSheet*)>(
     &::UnityEngine::UIElements::VisualElementStyleSheetSet::Remove)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x7194980;
+  constexpr static std::size_t addrs = 0x7195a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::VisualElementStyleSheetSet::*)()>(&::UnityEngine::UIElements::VisualElementStyleSheetSet::get_count)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x7194770;
+  constexpr static std::size_t addrs = 0x7195850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementStyleSheetSet>(), { "get_count", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElementStyleSheetSet::*)(::UnityEngine::UIElements::VisualElementStyleSheetSet)>(
     &::UnityEngine::UIElements::VisualElementStyleSheetSet::Equals)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x7194ad0;
+  constexpr static std::size_t addrs = 0x7195bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementStyleSheetSet>(),
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElementStyleSheetSet::*)(::System::Object*)>(
     &::UnityEngine::UIElements::VisualElementStyleSheetSet::Equals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x7194b00;
+  constexpr static std::size_t addrs = 0x7195be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementStyleSheetSet>(),
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::VisualElementStyleSheetSet::*)()>(&::UnityEngine::UIElements::VisualElementStyleSheetSet::GetHashCode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x7194ba8;
+  constexpr static std::size_t addrs = 0x7195c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementStyleSheetSet>(),

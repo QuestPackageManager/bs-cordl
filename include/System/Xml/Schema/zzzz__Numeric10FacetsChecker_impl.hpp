@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Numeric10FacetsChecker::*)(::System::Decimal, ::System::Decimal)>(
     &::System::Xml::Schema::Numeric10FacetsChecker::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x662a0fc;
+  constexpr static std::size_t addrs = 0x662a74c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Numeric10FacetsChecker*>(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::System::Xml::Schema::Numeric10FacetsChecker::*)(::System::Object*, ::System::Xml::Schema::XmlSchemaDatatype*)>(
     &::System::Xml::Schema::Numeric10FacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x66368c4;
+  constexpr static std::size_t addrs = 0x6636f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::System::Xml::Schema::Numeric10FacetsChecker::*)(::System::Decimal, ::System::Xml::Schema::XmlSchemaDatatype*)>(
     &::System::Xml::Schema::Numeric10FacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x614;
-  constexpr static std::size_t addrs = 0x6636934;
+  constexpr static std::size_t addrs = 0x6636f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::System::Xml::Schema::Numeric10FacetsChecker::*)(int64_t, ::System::Xml::Schema::XmlSchemaDatatype*)>(
     &::System::Xml::Schema::Numeric10FacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6637070;
+  constexpr static std::size_t addrs = 0x66376c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::System::Xml::Schema::Numeric10FacetsChecker::*)(int32_t, ::System::Xml::Schema::XmlSchemaDatatype*)>(
     &::System::Xml::Schema::Numeric10FacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x66370f4;
+  constexpr static std::size_t addrs = 0x6637744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::System::Xml::Schema::Numeric10FacetsChecker::*)(int16_t, ::System::Xml::Schema::XmlSchemaDatatype*)>(
     &::System::Xml::Schema::Numeric10FacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6637174;
+  constexpr static std::size_t addrs = 0x66377c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::Numeric10FacetsChecker::*)(
     ::System::Object*, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::Numeric10FacetsChecker::MatchEnumeration)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x66371f8;
+  constexpr static std::size_t addrs = 0x6637848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::Numeric10FacetsChecker::*)(
     ::System::Decimal, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlValueConverter*)>(&::System::Xml::Schema::Numeric10FacetsChecker::MatchEnumeration)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6636f48;
+  constexpr static std::size_t addrs = 0x6637598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::System::Xml::Schema::Numeric10FacetsChecker::*)(::System::Decimal, int32_t, int32_t, bool, bool)>(
     &::System::Xml::Schema::Numeric10FacetsChecker::CheckTotalAndFractionDigits)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x662fd90;
+  constexpr static std::size_t addrs = 0x66303e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

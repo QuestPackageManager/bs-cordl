@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Deflate_Config::*)(int32_t, int32_t, int32_t, int32_t, int32_t)>(
     &::Org::BouncyCastle::Utilities::Zlib::Deflate_Config::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x38e0028;
+  constexpr static std::size_t addrs = 0x38e44c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)()>(&::Org::BouncyCastle::Utilities::Zlib::Deflate::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x38dd020;
+  constexpr static std::size_t addrs = 0x38e14b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Zlib::Deflate*>(), { ".ctor", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)()>(&::Org::BouncyCastle::Utilities::Zlib::Deflate::lm_init)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x38dd150;
+  constexpr static std::size_t addrs = 0x38e15e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Zlib::Deflate*>(), { "lm_init", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)()>(&::Org::BouncyCastle::Utilities::Zlib::Deflate::tr_init)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x38dd254;
+  constexpr static std::size_t addrs = 0x38e16ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Zlib::Deflate*>(), { "tr_init", {}, {} })));
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)()>(&::Org::BouncyCastle::Utilities::Zlib::Deflate::init_block)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x38dd30c;
+  constexpr static std::size_t addrs = 0x38e17a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Zlib::Deflate*>(), { "init_block", {}, {} })));
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)(::ArrayW<int16_t>, int32_t)>(
     &::Org::BouncyCastle::Utilities::Zlib::Deflate::pqdownheap)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x38dd3e8;
+  constexpr static std::size_t addrs = 0x38e1880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<int16_t>, int32_t, int32_t, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Utilities::Zlib::Deflate::smaller)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x38dd58c;
+  constexpr static std::size_t addrs = 0x38e1a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)(::ArrayW<int16_t>, int32_t)>(
     &::Org::BouncyCastle::Utilities::Zlib::Deflate::scan_tree)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x38dd618;
+  constexpr static std::size_t addrs = 0x38e1ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)()>(&::Org::BouncyCastle::Utilities::Zlib::Deflate::build_bl_tree)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x38dd7c8;
+  constexpr static std::size_t addrs = 0x38e1c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Zlib::Deflate*>(), { "build_bl_tree", {}, {} })));
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)(int32_t, int32_t, int32_t)>(
     &::Org::BouncyCastle::Utilities::Zlib::Deflate::send_all_trees)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x38dd8e8;
+  constexpr static std::size_t addrs = 0x38e1d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)(::ArrayW<int16_t>, int32_t)>(
     &::Org::BouncyCastle::Utilities::Zlib::Deflate::send_tree)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x38ddae0;
+  constexpr static std::size_t addrs = 0x38e1f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Utilities::Zlib::Deflate::put_byte)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x38ddcc4;
+  constexpr static std::size_t addrs = 0x38e215c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -249,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)(uint8_t)>(&::Org::BouncyCastle::Utilities::Zlib::Deflate::put_byte)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x38ddd0c;
+  constexpr static std::size_t addrs = 0x38e21a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -262,7 +262,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)(int32_t)>(&::Org::BouncyCastle::Utilities::Zlib::Deflate::put_short)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x38ddd48;
+  constexpr static std::size_t addrs = 0x38e21e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)(int32_t)>(&::Org::BouncyCastle::Utilities::Zlib::Deflate::putShortMSB)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x38dddb0;
+  constexpr static std::size_t addrs = 0x38e2248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -289,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)(int32_t, ::ArrayW<int16_t>)>(
     &::Org::BouncyCastle::Utilities::Zlib::Deflate::send_code)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x38ddc80;
+  constexpr static std::size_t addrs = 0x38e2118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)(int32_t, int32_t)>(&::Org::BouncyCastle::Utilities::Zlib::Deflate::send_bits)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x38dda28;
+  constexpr static std::size_t addrs = 0x38e1ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)()>(&::Org::BouncyCastle::Utilities::Zlib::Deflate::_tr_align)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x38dde18;
+  constexpr static std::size_t addrs = 0x38e22b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Zlib::Deflate*>(), { "_tr_align", {}, {} })));
@@ -328,7 +328,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)(int32_t, int32_t)>(&::Org::BouncyCastle::Utilities::Zlib::Deflate::_tr_tally)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x38ddfcc;
+  constexpr static std::size_t addrs = 0x38e2464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -342,7 +342,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)(::ArrayW<int16_t>, ::ArrayW<int16_t>)>(
     &::Org::BouncyCastle::Utilities::Zlib::Deflate::compress_block)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x38de270;
+  constexpr static std::size_t addrs = 0x38e2708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Zlib::Deflate*>(),
@@ -355,7 +355,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)()>(&::Org::BouncyCastle::Utilities::Zlib::Deflate::set_data_type)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x38de4e4;
+  constexpr static std::size_t addrs = 0x38e297c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Zlib::Deflate*>(), { "set_data_type", {}, {} })));
@@ -367,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)()>(&::Org::BouncyCastle::Utilities::Zlib::Deflate::bi_flush)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x38ddefc;
+  constexpr static std::size_t addrs = 0x38e2394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Zlib::Deflate*>(), { "bi_flush", {}, {} })));
@@ -379,7 +379,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)()>(&::Org::BouncyCastle::Utilities::Zlib::Deflate::bi_windup)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x38de5a8;
+  constexpr static std::size_t addrs = 0x38e2a40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Zlib::Deflate*>(), { "bi_windup", {}, {} })));
@@ -391,7 +391,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)(int32_t, int32_t, bool)>(&::Org::BouncyCastle::Utilities::Zlib::Deflate::copy_block)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x38de658;
+  constexpr static std::size_t addrs = 0x38e2af0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Zlib::Deflate*>(),
@@ -404,7 +404,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)(bool)>(&::Org::BouncyCastle::Utilities::Zlib::Deflate::flush_block_only)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x38de6d8;
+  constexpr static std::size_t addrs = 0x38e2b70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -417,7 +417,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)(int32_t)>(&::Org::BouncyCastle::Utilities::Zlib::Deflate::deflate_stored)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x38de8f4;
+  constexpr static std::size_t addrs = 0x38e2d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -431,7 +431,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)(int32_t, int32_t, bool)>(
     &::Org::BouncyCastle::Utilities::Zlib::Deflate::_tr_stored_block)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x38dec20;
+  constexpr static std::size_t addrs = 0x38e30b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -446,7 +446,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)(int32_t, int32_t, bool)>(
     &::Org::BouncyCastle::Utilities::Zlib::Deflate::_tr_flush_block)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x38de71c;
+  constexpr static std::size_t addrs = 0x38e2bb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -460,7 +460,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)()>(&::Org::BouncyCastle::Utilities::Zlib::Deflate::fill_window)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x38dea60;
+  constexpr static std::size_t addrs = 0x38e2ef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Zlib::Deflate*>(), { "fill_window", {}, {} })));
@@ -472,7 +472,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)(int32_t)>(&::Org::BouncyCastle::Utilities::Zlib::Deflate::deflate_fast)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x38dec64;
+  constexpr static std::size_t addrs = 0x38e30fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -485,7 +485,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)(int32_t)>(&::Org::BouncyCastle::Utilities::Zlib::Deflate::deflate_slow)> {
   constexpr static std::size_t size = 0x3ac;
-  constexpr static std::size_t addrs = 0x38df324;
+  constexpr static std::size_t addrs = 0x38e37bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -498,7 +498,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)(int32_t)>(&::Org::BouncyCastle::Utilities::Zlib::Deflate::longest_match)> {
   constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x38def80;
+  constexpr static std::size_t addrs = 0x38e3418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -512,7 +512,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)(::Org::BouncyCastle::Utilities::Zlib::ZStream*, int32_t, int32_t)>(
     &::Org::BouncyCastle::Utilities::Zlib::Deflate::deflateInit)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x38df6d0;
+  constexpr static std::size_t addrs = 0x38e3b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -527,7 +527,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)(::Org::BouncyCastle::Utilities::Zlib::ZStream*, int32_t)>(
     &::Org::BouncyCastle::Utilities::Zlib::Deflate::deflateInit)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x38df898;
+  constexpr static std::size_t addrs = 0x38e3d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -542,7 +542,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)(::Org::BouncyCastle::Utilities::Zlib::ZStream*, int32_t, int32_t, int32_t, int32_t,
                                                                                                                   int32_t)>(&::Org::BouncyCastle::Utilities::Zlib::Deflate::deflateInit2)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x38df6e4;
+  constexpr static std::size_t addrs = 0x38e3b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -560,7 +560,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)(::Org::BouncyCastle::Utilities::Zlib::ZStream*)>(
     &::Org::BouncyCastle::Utilities::Zlib::Deflate::deflateReset)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x38df8ac;
+  constexpr static std::size_t addrs = 0x38e3d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Zlib::Deflate*>(),
@@ -573,7 +573,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)()>(&::Org::BouncyCastle::Utilities::Zlib::Deflate::deflateEnd)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x38df920;
+  constexpr static std::size_t addrs = 0x38e3db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Zlib::Deflate*>(), { "deflateEnd", {}, {} })));
@@ -586,7 +586,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)(::Org::BouncyCastle::Utilities::Zlib::ZStream*, int32_t, int32_t)>(
     &::Org::BouncyCastle::Utilities::Zlib::Deflate::deflateParams)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x38df964;
+  constexpr static std::size_t addrs = 0x38e3dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -601,7 +601,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)(::Org::BouncyCastle::Utilities::Zlib::ZStream*, ::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Utilities::Zlib::Deflate::deflateSetDictionary)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x38dfae8;
+  constexpr static std::size_t addrs = 0x38e3f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -617,7 +617,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::Deflate::*)(::Org::BouncyCastle::Utilities::Zlib::ZStream*, int32_t)>(
     &::Org::BouncyCastle::Utilities::Zlib::Deflate::deflate)> {
   constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x38dfc60;
+  constexpr static std::size_t addrs = 0x38e40f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

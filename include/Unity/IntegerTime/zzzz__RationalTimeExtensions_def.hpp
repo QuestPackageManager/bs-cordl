@@ -28,10 +28,10 @@ public:
   // Declarations
   /// [Extension]
   /// [FreeFunction("IntegerTime::RationalTime::ConvertRate", IsFreeFunction = true, ThrowsException = true)]
-  /// @brief Method Convert, addr 0x6eeb330, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x6eec410, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::IntegerTime::RationalTime Convert(::Unity::IntegerTime::RationalTime time, ::Unity::IntegerTime::RationalTime_TicksPerSecond rate);
 
-  /// @brief Method Convert_Injected, addr 0x6eeb83c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Convert_Injected, addr 0x6eec91c, size 0x54, virtual false, abstract: false, final false
   static inline void Convert_Injected(::by_ref<::Unity::IntegerTime::RationalTime const> time, ::by_ref<::Unity::IntegerTime::RationalTime_TicksPerSecond const> rate,
                                       ::by_ref<::Unity::IntegerTime::RationalTime> ret);
 

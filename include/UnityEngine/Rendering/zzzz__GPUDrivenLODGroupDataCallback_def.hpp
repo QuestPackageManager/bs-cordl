@@ -28,12 +28,12 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE GPUDrivenLODGroupDataCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6fc5bc4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6fc6ca4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData const> lodGroupData);
 
   static inline ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6fc5b48, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fc6c28, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

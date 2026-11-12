@@ -24,7 +24,7 @@ public:
   // Declarations
   __declspec(property(get = get_lodSelectionActive)) bool lodSelectionActive;
 
-  /// @brief Method get_lodSelectionActive, addr 0x6fc7180, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_lodSelectionActive, addr 0x6fc8260, size 0x10, virtual false, abstract: false, final false
   inline bool get_lodSelectionActive();
 
   // Ctor Parameters []

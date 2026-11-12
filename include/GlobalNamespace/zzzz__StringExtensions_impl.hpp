@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, int32_t, bool)>(&::GlobalNamespace::StringExtensions::Truncate)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x35b8708;
+  constexpr static std::size_t addrs = 0x35bc084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StringExtensions*>(),
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::StringW, ::System::StringComparison)>(&::GlobalNamespace::StringExtensions::Contains)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x35b87c4;
+  constexpr static std::size_t addrs = 0x35bc140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<::StringW>, ::StringW, ::System::StringComparison)>(&::GlobalNamespace::StringExtensions::AnyContains)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x35b87ec;
+  constexpr static std::size_t addrs = 0x35bc168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

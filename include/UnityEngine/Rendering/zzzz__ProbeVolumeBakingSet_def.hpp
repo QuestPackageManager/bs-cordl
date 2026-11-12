@@ -189,16 +189,16 @@ public:
   /// @brief Field sceneHash, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_sceneHash, put = __cordl_internal_set_sceneHash)) int32_t sceneHash;
 
-  /// @brief Method ComputeHasValidData, addr 0x6bedeb4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ComputeHasValidData, addr 0x6beef94, size 0x60, virtual false, abstract: false, final false
   inline bool ComputeHasValidData(::UnityEngine::Rendering::ProbeVolumeSHBands shBands);
 
-  /// @brief Method HasValidData, addr 0x6bedf14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasValidData, addr 0x6beeff4, size 0x8, virtual false, abstract: false, final false
   inline bool HasValidData(::UnityEngine::Rendering::ProbeVolumeSHBands shBands);
 
-  /// @brief Method Initialize, addr 0x6beab1c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6bebbfc, size 0x1c, virtual false, abstract: false, final false
   inline void Initialize(::UnityEngine::Rendering::ProbeVolumeSHBands shBands);
 
-  /// @brief Method IsValid, addr 0x6beb224, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6bec304, size 0x28, virtual false, abstract: false, final false
   inline bool IsValid();
 
   static inline ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo* New_ctor();
@@ -233,7 +233,7 @@ public:
 
   constexpr void __cordl_internal_set_sceneHash(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6bedf1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6beeffc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -291,7 +291,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE ProbeVolumeBakingSet_CellCounts {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x6bedf20, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6bef000, size 0x18, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts o);
 
   // Ctor Parameters []
@@ -659,52 +659,52 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method AlignUp16, addr 0x6beb680, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method AlignUp16, addr 0x6bec760, size 0x28, virtual false, abstract: false, final false
   static inline int32_t AlignUp16(int32_t count);
 
-  /// @brief Method BlendLightingScenario, addr 0x6beab68, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method BlendLightingScenario, addr 0x6bebc48, size 0x344, virtual false, abstract: false, final false
   inline void BlendLightingScenario(::StringW otherScenario, float_t blendingFactor);
 
-  /// @brief Method CheckCompatibleCellLayout, addr 0x6be9ed8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CheckCompatibleCellLayout, addr 0x6beafb8, size 0x8c, virtual false, abstract: false, final false
   inline bool CheckCompatibleCellLayout();
 
-  /// @brief Method Cleanup, addr 0x6beaeac, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x6bebf8c, size 0x378, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method ComputeHasSupportData, addr 0x6be9e68, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ComputeHasSupportData, addr 0x6beaf48, size 0x28, virtual false, abstract: false, final false
   inline bool ComputeHasSupportData();
 
-  /// @brief Method ComputeHasValidSharedData, addr 0x6be9e90, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ComputeHasValidSharedData, addr 0x6beaf70, size 0x40, virtual false, abstract: false, final false
   inline bool ComputeHasValidSharedData();
 
-  /// @brief Method ComputeRegionMasks, addr 0x6be9a58, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ComputeRegionMasks, addr 0x6beab38, size 0xe0, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::uint4 ComputeRegionMasks();
 
-  /// @brief Method FileExists, addr 0x6beb7a4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method FileExists, addr 0x6bec884, size 0x70, virtual false, abstract: false, final false
   inline bool FileExists(::StringW path);
 
-  /// @brief Method GetBakingHashCode, addr 0x6beb53c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetBakingHashCode, addr 0x6bec61c, size 0x144, virtual false, abstract: false, final false
   inline int32_t GetBakingHashCode();
 
-  /// @brief Method GetCellData, addr 0x6bed7c0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetCellData, addr 0x6bee8a0, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellData* GetCellData(int32_t cellIndex);
 
-  /// @brief Method GetCellDesc, addr 0x6bed744, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetCellDesc, addr 0x6bee824, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc* GetCellDesc(int32_t cellIndex);
 
-  /// @brief Method GetCellSizeInBricks, addr 0x6be9974, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetCellSizeInBricks, addr 0x6beaa54, size 0x30, virtual false, abstract: false, final false
   static inline int32_t GetCellSizeInBricks(int32_t simplificationLevels);
 
-  /// @brief Method GetChunkGPUMemory, addr 0x6bed83c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetChunkGPUMemory, addr 0x6bee91c, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetChunkGPUMemory(::UnityEngine::Rendering::ProbeVolumeSHBands shBands);
 
-  /// @brief Method GetMaxSubdivision, addr 0x6be99b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMaxSubdivision, addr 0x6beaa90, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetMaxSubdivision(int32_t simplificationLevels);
 
-  /// @brief Method GetMinBrickSize, addr 0x6be99d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetMinBrickSize, addr 0x6beaab8, size 0x1c, virtual false, abstract: false, final false
   static inline float_t GetMinBrickSize(float_t minDistanceBetweenProbes);
 
-  /// @brief Method GetSceneCellIndexList, addr 0x6bebc48, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetSceneCellIndexList, addr 0x6becd28, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<int32_t>* GetSceneCellIndexList(::StringW sceneGUID);
 
   /// @brief Method GetSubArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -712,19 +712,19 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline ::Unity::Collections::NativeArray_1<T> GetSubArray(::Unity::Collections::NativeArray_1<uint8_t> input, int32_t count, ::by_ref<int32_t> offset);
 
-  /// @brief Method HasBakedData, addr 0x6be9f6c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method HasBakedData, addr 0x6beb04c, size 0x15c, virtual false, abstract: false, final false
   inline bool HasBakedData(::StringW scenario);
 
-  /// @brief Method HasSameSceneGUIDs, addr 0x6bed878, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method HasSameSceneGUIDs, addr 0x6bee958, size 0x1cc, virtual false, abstract: false, final false
   inline bool HasSameSceneGUIDs(::UnityEngine::Rendering::ProbeVolumeBakingSet* other);
 
-  /// @brief Method HasSupportData, addr 0x6be9f64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasSupportData, addr 0x6beb044, size 0x8, virtual false, abstract: false, final false
   inline bool HasSupportData();
 
-  /// @brief Method HasValidSharedData, addr 0x6be9ed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasValidSharedData, addr 0x6beafb0, size 0x8, virtual false, abstract: false, final false
   inline bool HasValidSharedData();
 
-  /// @brief Method Initialize, addr 0x6bea694, size 0x488, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6beb774, size 0x488, virtual false, abstract: false, final false
   inline void Initialize(bool useStreamingAsset);
 
   /// @brief Method LoadStreambleAssetData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -732,25 +732,25 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline ::Unity::Collections::NativeArray_1<T> LoadStreambleAssetData(::UnityEngine::Rendering::ProbeVolumeStreamableAsset* asset, ::System::Collections::Generic::List_1<int32_t>* cellIndices);
 
-  /// @brief Method Migrate, addr 0x6be9d14, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Migrate, addr 0x6beadf4, size 0x154, virtual false, abstract: false, final false
   inline void Migrate();
 
   static inline ::UnityEngine::Rendering::ProbeVolumeBakingSet* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x6be9cc0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6beada0, size 0x54, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x6be9b38, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x6beac18, size 0x188, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method PruneCellIndexList, addr 0x6beb814, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method PruneCellIndexList, addr 0x6bec8f4, size 0x230, virtual false, abstract: false, final false
   inline void PruneCellIndexList(::System::Collections::Generic::List_1<int32_t>* cellIndices, ::System::Collections::Generic::List_1<int32_t>* prunedIndexList);
 
-  /// @brief Method PruneCellIndexListForScenario, addr 0x6beba44, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method PruneCellIndexListForScenario, addr 0x6becb24, size 0x204, virtual false, abstract: false, final false
   inline void PruneCellIndexListForScenario(::System::Collections::Generic::List_1<int32_t>* cellIndices, ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo* scenarioData,
                                             ::System::Collections::Generic::List_1<int32_t>* prunedIndexList);
 
-  /// @brief Method ReleaseCell, addr 0x6bed6a8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseCell, addr 0x6bee788, size 0x9c, virtual false, abstract: false, final false
   inline void ReleaseCell(int32_t cellIndex);
 
   /// @brief Method ReleaseStreamableAssetData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -758,36 +758,36 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void ReleaseStreamableAssetData(::Unity::Collections::NativeArray_1<T> buffer);
 
-  /// @brief Method RequestScratchBuffer, addr 0x6beb6a8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method RequestScratchBuffer, addr 0x6bec788, size 0xfc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<uint8_t> RequestScratchBuffer(int32_t size);
 
-  /// @brief Method ResolveAllCellData, addr 0x6beab38, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ResolveAllCellData, addr 0x6bebc18, size 0x30, virtual false, abstract: false, final false
   inline bool ResolveAllCellData();
 
-  /// @brief Method ResolveCellData, addr 0x6bec578, size 0x4a0, virtual false, abstract: false, final false
+  /// @brief Method ResolveCellData, addr 0x6bed658, size 0x4a0, virtual false, abstract: false, final false
   inline bool ResolveCellData(::System::Collections::Generic::List_1<int32_t>* cellIndices);
 
-  /// @brief Method ResolvePerScenarioCellData, addr 0x6bed120, size 0x588, virtual false, abstract: false, final false
+  /// @brief Method ResolvePerScenarioCellData, addr 0x6bee200, size 0x588, virtual false, abstract: false, final false
   inline bool ResolvePerScenarioCellData(::Unity::Collections::NativeArray_1<uint8_t> cellData, ::Unity::Collections::NativeArray_1<uint8_t> cellOptionalData,
                                          ::Unity::Collections::NativeArray_1<uint8_t> cellProbeOcclusionData, ::StringW scenario, ::System::Collections::Generic::List_1<int32_t>* cellIndices);
 
-  /// @brief Method ResolvePerScenarioCellData, addr 0x6bebef8, size 0x680, virtual false, abstract: false, final false
+  /// @brief Method ResolvePerScenarioCellData, addr 0x6becfd8, size 0x680, virtual false, abstract: false, final false
   inline bool ResolvePerScenarioCellData(::System::Collections::Generic::List_1<int32_t>* cellIndices);
 
-  /// @brief Method ResolveSharedCellData, addr 0x6bebcc4, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method ResolveSharedCellData, addr 0x6becda4, size 0x234, virtual false, abstract: false, final false
   inline bool ResolveSharedCellData(::System::Collections::Generic::List_1<int32_t>* cellIndices);
 
-  /// @brief Method ResolveSharedCellData, addr 0x6beca18, size 0x708, virtual false, abstract: false, final false
+  /// @brief Method ResolveSharedCellData, addr 0x6bedaf8, size 0x708, virtual false, abstract: false, final false
   inline void ResolveSharedCellData(::System::Collections::Generic::List_1<int32_t>* cellIndices, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ProbeBrickIndex_Brick> bricksData,
                                     ::Unity::Collections::NativeArray_1<uint8_t> cellSharedData, ::Unity::Collections::NativeArray_1<uint8_t> cellSupportData);
 
-  /// @brief Method SetActiveScenario, addr 0x6beb24c, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method SetActiveScenario, addr 0x6bec32c, size 0x2f0, virtual false, abstract: false, final false
   inline void SetActiveScenario(::StringW scenario, bool verbose);
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x6bea0c8, size 0x3e4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x6beb1a8, size 0x3e4, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x6bea4ac, size 0x1e8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x6beb58c, size 0x1e8, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
 
   constexpr int32_t const& __cordl_internal_get_L0ChunkSize() const;
@@ -1198,49 +1198,49 @@ public:
 
   constexpr void __cordl_internal_set_version(::UnityEngine::Rendering::ProbeVolumeBakingSet_Version value);
 
-  /// @brief Method .ctor, addr 0x6beda44, size 0x470, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6beeb24, size 0x470, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bakedSkyOcclusion, addr 0x6be98e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_bakedSkyOcclusion, addr 0x6bea9c0, size 0x10, virtual false, abstract: false, final false
   inline bool get_bakedSkyOcclusion();
 
-  /// @brief Method get_bakedSkyShadingDirection, addr 0x6be9908, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_bakedSkyShadingDirection, addr 0x6bea9e8, size 0x10, virtual false, abstract: false, final false
   inline bool get_bakedSkyShadingDirection();
 
-  /// @brief Method get_cellSizeInBricks, addr 0x6be9940, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_cellSizeInBricks, addr 0x6beaa20, size 0x34, virtual false, abstract: false, final false
   inline int32_t get_cellSizeInBricks();
 
-  /// @brief Method get_cellSizeInMeters, addr 0x6be99f4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_cellSizeInMeters, addr 0x6beaad4, size 0x64, virtual false, abstract: false, final false
   inline float_t get_cellSizeInMeters();
 
-  /// @brief Method get_hasDilation, addr 0x6be98b0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_hasDilation, addr 0x6bea990, size 0x20, virtual false, abstract: false, final false
   inline bool get_hasDilation();
 
-  /// @brief Method get_lightingScenarios, addr 0x6be98d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightingScenarios, addr 0x6bea9b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_lightingScenarios();
 
-  /// @brief Method get_maxSubdivision, addr 0x6be99a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_maxSubdivision, addr 0x6beaa84, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_maxSubdivision();
 
-  /// @brief Method get_minBrickSize, addr 0x6be99b8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_minBrickSize, addr 0x6beaa98, size 0x20, virtual false, abstract: false, final false
   inline float_t get_minBrickSize();
 
-  /// @brief Method get_otherScenario, addr 0x6be9930, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_otherScenario, addr 0x6beaa10, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_otherScenario();
 
-  /// @brief Method get_scenarioBlendingFactor, addr 0x6be9938, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scenarioBlendingFactor, addr 0x6beaa18, size 0x8, virtual false, abstract: false, final false
   inline float_t get_scenarioBlendingFactor();
 
-  /// @brief Method get_sceneGUIDs, addr 0x6be98d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sceneGUIDs, addr 0x6bea9b0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_sceneGUIDs();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
-  /// @brief Method set_bakedSkyOcclusion, addr 0x6be98f0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_bakedSkyOcclusion, addr 0x6bea9d0, size 0x18, virtual false, abstract: false, final false
   inline void set_bakedSkyOcclusion(bool value);
 
-  /// @brief Method set_bakedSkyShadingDirection, addr 0x6be9918, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_bakedSkyShadingDirection, addr 0x6bea9f8, size 0x18, virtual false, abstract: false, final false
   inline void set_bakedSkyShadingDirection(bool value);
 
 protected:

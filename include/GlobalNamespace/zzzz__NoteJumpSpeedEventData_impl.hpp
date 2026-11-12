@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NoteJumpSpeedEventData* (::GlobalNamespace::NoteJumpSpeedEventData::*)()>(
     &::GlobalNamespace::NoteJumpSpeedEventData::get_previousSameTypeEventData)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x34f904c;
+  constexpr static std::size_t addrs = 0x34fb48c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NoteJumpSpeedEventData* (::GlobalNamespace::NoteJumpSpeedEventData::*)()>(
     &::GlobalNamespace::NoteJumpSpeedEventData::get_nextSameTypeEventData)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x34f90c8;
+  constexpr static std::size_t addrs = 0x34fb508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteJumpSpeedEventData*>(), { "get_nextSameTypeEventData", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::NoteJumpSpeedEventData::*)()>(&::GlobalNamespace::NoteJumpSpeedEventData::get_relativeNoteJumpSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34f9144;
+  constexpr static std::size_t addrs = 0x34fb584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteJumpSpeedEventData*>(), { "get_relativeNoteJumpSpeed", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteJumpSpeedEventData::*)(float_t)>(&::GlobalNamespace::NoteJumpSpeedEventData::set_relativeNoteJumpSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34f914c;
+  constexpr static std::size_t addrs = 0x34fb58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteJumpSpeedEventData::*)(float_t, float_t, ::GlobalNamespace::EaseType, bool)>(
     &::GlobalNamespace::NoteJumpSpeedEventData::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x34f9154;
+  constexpr static std::size_t addrs = 0x34fb594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteJumpSpeedEventData::*)(float_t)>(&::GlobalNamespace::NoteJumpSpeedEventData::ChangeRelativeNoteJumpSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34f9198;
+  constexpr static std::size_t addrs = 0x34fb5d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::NoteJumpSpeedEventData::*)()>(&::GlobalNamespace::NoteJumpSpeedEventData::GetCopy)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x34f91a0;
+  constexpr static std::size_t addrs = 0x34fb5e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,11 +104,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapEventData* (::GlobalNamespace::NoteJumpSpeedEventData::*)()>(&::GlobalNamespace::NoteJumpSpeedEventData::GetDefault)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x34f9228;
+  constexpr static std::size_t addrs = 0x34fb668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteJumpSpeedEventData*>(), { ::i2c::class_of<::GlobalNamespace::NoteJumpSpeedEventData*>(), 7 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteJumpSpeedEventData*>(), { ::i2c::class_of<::GlobalNamespace::NoteJumpSpeedEventData*>(), 8 }));
     return ___internal_method;
   }
 };
@@ -188,7 +188,7 @@ inline ::GlobalNamespace::BeatmapDataItem* GlobalNamespace::NoteJumpSpeedEventDa
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapDataItem*>(this, ___internal_method);
 }
 inline ::GlobalNamespace::BeatmapEventData* GlobalNamespace::NoteJumpSpeedEventData::GetDefault() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::NoteJumpSpeedEventData*>(), 7 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::NoteJumpSpeedEventData*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapEventData*>(this, ___internal_method);
 }
 inline ::GlobalNamespace::NoteJumpSpeedEventData* GlobalNamespace::NoteJumpSpeedEventData::New_ctor(float_t time, float_t relativeNoteJumpSpeed, ::GlobalNamespace::EaseType easeType,

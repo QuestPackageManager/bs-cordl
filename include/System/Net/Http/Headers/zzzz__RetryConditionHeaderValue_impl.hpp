@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::RetryConditionHeaderValue::*)(::System::DateTimeOffset)>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6548460;
+  constexpr static std::size_t addrs = 0x6548ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::RetryConditionHeaderValue::*)(::System::TimeSpan)>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x65484c4;
+  constexpr static std::size_t addrs = 0x6548b14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::System::DateTimeOffset> (::System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::get_Date)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x65485a8;
+  constexpr static std::size_t addrs = 0x6548bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(), { "get_Date", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::RetryConditionHeaderValue::*)(::System::Nullable_1<::System::DateTimeOffset>)>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::set_Date)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x65485bc;
+  constexpr static std::size_t addrs = 0x6548c0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(),
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::System::TimeSpan> (::System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::get_Delta)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65485d0;
+  constexpr static std::size_t addrs = 0x6548c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(), { "get_Delta", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::RetryConditionHeaderValue::*)(::System::Nullable_1<::System::TimeSpan>)>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::set_Delta)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65485dc;
+  constexpr static std::size_t addrs = 0x6548c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(),
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::System_ICloneable_Clone)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65485e4;
+  constexpr static std::size_t addrs = 0x6548c34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Http::Headers::RetryConditionHeaderValue::*)(::System::Object*)>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::Equals)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x65485e8;
+  constexpr static std::size_t addrs = 0x6548c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(),
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(&::System::Net::Http::Headers::RetryConditionHeaderValue::GetHashCode)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6548798;
+  constexpr static std::size_t addrs = 0x6548de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(),
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::System::Net::Http::Headers::RetryConditionHeaderValue*>)>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::TryParse)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x6548834;
+  constexpr static std::size_t addrs = 0x6548e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(&::System::Net::Http::Headers::RetryConditionHeaderValue::ToString)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x6548a1c;
+  constexpr static std::size_t addrs = 0x654906c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::RetryConditionHeaderValue*>(),

@@ -95,7 +95,7 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Console___c__DisplayClass47_0* New_ctor();
 
-  /// @brief Method <RemoveLogEntry>b__0, addr 0x5ea0a64, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RemoveLogEntry>b__0, addr 0x5ea0ce4, size 0x70, virtual false, abstract: false, final false
   inline bool _RemoveLogEntry_b__0(::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* entry);
 
   constexpr ::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* const& __cordl_internal_get_logEntry() const;
@@ -104,7 +104,7 @@ public:
 
   constexpr void __cordl_internal_set_logEntry(::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* value);
 
-  /// @brief Method .ctor, addr 0x5e9fd64, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e9ffe4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -122,7 +122,7 @@ public:
   Console___c__DisplayClass47_0(Console___c__DisplayClass47_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18927 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18935 };
 
   /// @brief Field logEntry, offset: 0x10, size: 0x8, def value: None
   ::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* ___logEntry;
@@ -240,73 +240,73 @@ public:
   /// @brief Field _targetPosition, offset 0x16c, size 0xc
   __declspec(property(get = __cordl_internal_get__targetPosition, put = __cordl_internal_set__targetPosition)) ::UnityEngine::Vector3 _targetPosition;
 
-  /// @brief Method AppendToProxyFlex, addr 0x5e9fcd8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method AppendToProxyFlex, addr 0x5e9ff58, size 0x8c, virtual false, abstract: false, final false
   inline void AppendToProxyFlex(::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* entry);
 
-  /// @brief Method Clear, addr 0x5ea0144, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x5ea03c4, size 0x2a4, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ComputeLogHash, addr 0x5e9fa38, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ComputeLogHash, addr 0x5e9fcb8, size 0xe8, virtual false, abstract: false, final false
   static inline int32_t ComputeLogHash(::StringW content, ::StringW stackTrace);
 
-  /// @brief Method EnqueueLogEntry, addr 0x5e9f71c, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method EnqueueLogEntry, addr 0x5e9f99c, size 0x31c, virtual false, abstract: false, final false
   inline void EnqueueLogEntry(::StringW logString, ::StringW stackTrace, ::UnityEngine::LogType type);
 
-  /// @brief Method FlattenEntries, addr 0x5e9f528, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method FlattenEntries, addr 0x5e9f7a8, size 0x1f4, virtual false, abstract: false, final false
   inline void FlattenEntries();
 
-  /// @brief Method GetSeverity, addr 0x5e9d600, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetSeverity, addr 0x5e9d880, size 0x7c, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::UserInterface::SeverityEntry* GetSeverity(::UnityEngine::LogType logType);
 
-  /// @brief Method HideLogDetailsPanel, addr 0x5e9ece4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method HideLogDetailsPanel, addr 0x5e9ef64, size 0x84, virtual false, abstract: false, final false
   inline void HideLogDetailsPanel();
 
-  /// @brief Method MergeEntries, addr 0x5e9f234, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method MergeEntries, addr 0x5e9f4b4, size 0x2f4, virtual false, abstract: false, final false
   inline void MergeEntries();
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Console* New_ctor();
 
-  /// @brief Method OnConsoleLineClicked, addr 0x5ea0518, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnConsoleLineClicked, addr 0x5ea0798, size 0x100, virtual false, abstract: false, final false
   inline void OnConsoleLineClicked(::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* entry);
 
-  /// @brief Method OnDisable, addr 0x5e9ef30, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5e9f1b0, size 0x11c, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5e9ed68, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5e9efe8, size 0x1c8, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnTransparencyChanged, addr 0x5e9f04c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method OnTransparencyChanged, addr 0x5e9f2cc, size 0x80, virtual true, abstract: false, final false
   inline void OnTransparencyChanged();
 
-  /// @brief Method RefreshAllEntries, addr 0x5e9fe5c, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method RefreshAllEntries, addr 0x5ea00dc, size 0x1bc, virtual false, abstract: false, final false
   inline void RefreshAllEntries();
 
-  /// @brief Method RegisterControl, addr 0x5e9e910, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method RegisterControl, addr 0x5e9eb90, size 0x224, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle> RegisterControl(::StringW buttonName, ::UnityEngine::Texture2D* icon,
                                                                                                  ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle* style, ::System::Action* callback);
 
-  /// @brief Method RegisterCount, addr 0x5e9f0cc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method RegisterCount, addr 0x5e9f34c, size 0x100, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Label> RegisterCount();
 
-  /// @brief Method RemoveLogEntry, addr 0x5e9fb20, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method RemoveLogEntry, addr 0x5e9fda0, size 0x14c, virtual false, abstract: false, final false
   inline void RemoveLogEntry(::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* logEntry);
 
-  /// @brief Method ResetLogCount, addr 0x5ea0418, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ResetLogCount, addr 0x5ea0698, size 0x100, virtual false, abstract: false, final false
   inline void ResetLogCount();
 
-  /// @brief Method SetPanelPosition, addr 0x5ea0728, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method SetPanelPosition, addr 0x5ea09a8, size 0x144, virtual false, abstract: false, final false
   inline void SetPanelPosition(::Meta::XR::ImmersiveDebugger::RuntimeSettings_DistanceOption distanceOption, bool skipAnimation);
 
-  /// @brief Method Setup, addr 0x5e9d738, size 0xe8c, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x5e9d9b8, size 0xe8c, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
-  /// @brief Method ShowLogDetailsPanel, addr 0x5ea0618, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ShowLogDetailsPanel, addr 0x5ea0898, size 0x90, virtual false, abstract: false, final false
   inline void ShowLogDetailsPanel();
 
-  /// @brief Method ToggleCollapseMode, addr 0x5e9f1cc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ToggleCollapseMode, addr 0x5e9f44c, size 0x68, virtual false, abstract: false, final false
   inline void ToggleCollapseMode();
 
-  /// @brief Method Update, addr 0x5e9fd68, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5e9ffe8, size 0xf4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get__Dirty_k__BackingField() const;
@@ -458,34 +458,34 @@ public:
 
   constexpr void __cordl_internal_set__targetPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x5ea086c, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ea0aec, size 0x1dc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Dirty, addr 0x5e9d5f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Dirty, addr 0x5e9d870, size 0x8, virtual false, abstract: false, final false
   inline bool get_Dirty();
 
   /// [CompilerGenerated]
-  /// @brief Method get_LogCollapseMode, addr 0x5e9d67c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LogCollapseMode, addr 0x5e9d8fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_LogCollapseMode();
 
   /// [CompilerGenerated]
-  /// @brief Method get_MaximumNumberOfLogEntries, addr 0x5e9d68c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaximumNumberOfLogEntries, addr 0x5e9d90c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaximumNumberOfLogEntries();
 
   /// [CompilerGenerated]
-  /// @brief Method set_Dirty, addr 0x5e9d5f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Dirty, addr 0x5e9d878, size 0x8, virtual false, abstract: false, final false
   inline void set_Dirty(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_LogCollapseMode, addr 0x5e9d684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LogCollapseMode, addr 0x5e9d904, size 0x8, virtual false, abstract: false, final false
   inline void set_LogCollapseMode(bool value);
 
-  /// @brief Method set_LogDetailBackgroundStyle, addr 0x5e9d69c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_LogDetailBackgroundStyle, addr 0x5e9d91c, size 0x9c, virtual false, abstract: false, final false
   inline void set_LogDetailBackgroundStyle(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_MaximumNumberOfLogEntries, addr 0x5e9d694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaximumNumberOfLogEntries, addr 0x5e9d914, size 0x8, virtual false, abstract: false, final false
   inline void set_MaximumNumberOfLogEntries(int32_t value);
 
 protected:
@@ -512,7 +512,7 @@ public:
   static constexpr int32_t NumberOfLines{ static_cast<int32_t>(0xe) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18928 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18936 };
 
   /// [CompilerGenerated]
   /// @brief Field <Dirty>k__BackingField, offset: 0xe0, size: 0x1, def value: None

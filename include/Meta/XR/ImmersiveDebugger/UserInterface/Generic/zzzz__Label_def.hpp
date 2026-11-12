@@ -43,7 +43,7 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Label* New_ctor();
 
-  /// @brief Method Setup, addr 0x5eb0bdc, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x5eb0e5c, size 0xe8, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
   constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get__Text_k__BackingField() const;
@@ -58,27 +58,27 @@ public:
 
   constexpr void __cordl_internal_set__textStyle(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextStyle> value);
 
-  /// @brief Method .ctor, addr 0x5eb0ccc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5eb0f4c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Content, addr 0x5eae354, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Content, addr 0x5eae5d4, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_Content();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Text, addr 0x5eb0bcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Text, addr 0x5eb0e4c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Text> get_Text();
 
-  /// @brief Method get_TextStyle, addr 0x5eb0cc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TextStyle, addr 0x5eb0f44, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextStyle> get_TextStyle();
 
-  /// @brief Method set_Content, addr 0x5eae3a0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_Content, addr 0x5eae620, size 0x20, virtual false, abstract: false, final false
   inline void set_Content(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Text, addr 0x5eb0bd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Text, addr 0x5eb0e54, size 0x8, virtual false, abstract: false, final false
   inline void set_Text(::UnityEngine::UI::Text* value);
 
-  /// @brief Method set_TextStyle, addr 0x5eae290, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_TextStyle, addr 0x5eae510, size 0x80, virtual false, abstract: false, final false
   inline void set_TextStyle(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextStyle* value);
 
 protected:
@@ -96,7 +96,7 @@ public:
   Label(Label const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18968 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18976 };
 
   /// [CompilerGenerated]
   /// @brief Field <Text>k__BackingField, offset: 0x70, size: 0x8, def value: None

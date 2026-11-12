@@ -40,10 +40,10 @@ public:
 
   static inline ::Newtonsoft::Json::Schema::JsonSchemaResolver___c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <GetSchema>b__0, addr 0x61bdaf8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <GetSchema>b__0, addr 0x61bdd80, size 0x24, virtual false, abstract: false, final false
   inline bool _GetSchema_b__0(::Newtonsoft::Json::Schema::JsonSchema* s);
 
-  /// @brief Method <GetSchema>b__1, addr 0x61bdb1c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <GetSchema>b__1, addr 0x61bdda4, size 0x24, virtual false, abstract: false, final false
   inline bool _GetSchema_b__1(::Newtonsoft::Json::Schema::JsonSchema* s);
 
   constexpr ::StringW const& __cordl_internal_get_reference() const;
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_reference(::StringW value);
 
-  /// @brief Method .ctor, addr 0x61bdaf4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61bdd7c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -99,7 +99,7 @@ public:
   __declspec(property(get = __cordl_internal_get__LoadedSchemas_k__BackingField,
                       put = __cordl_internal_set__LoadedSchemas_k__BackingField)) ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* _LoadedSchemas_k__BackingField;
 
-  /// @brief Method GetSchema, addr 0x61bd9b0, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method GetSchema, addr 0x61bdc38, size 0x144, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchema* GetSchema(::StringW reference);
 
   static inline ::Newtonsoft::Json::Schema::JsonSchemaResolver* New_ctor();
@@ -110,15 +110,15 @@ public:
 
   constexpr void __cordl_internal_set__LoadedSchemas_k__BackingField(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* value);
 
-  /// @brief Method .ctor, addr 0x61b3dc8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61b4050, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_LoadedSchemas, addr 0x61bd9a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LoadedSchemas, addr 0x61bdc28, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* get_LoadedSchemas();
 
   /// [CompilerGenerated]
-  /// @brief Method set_LoadedSchemas, addr 0x61bd9a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LoadedSchemas, addr 0x61bdc30, size 0x8, virtual false, abstract: false, final false
   inline void set_LoadedSchemas(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* value);
 
 protected:

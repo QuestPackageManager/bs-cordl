@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Diagnostics::Debugger::IsLogging)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60357dc;
+  constexpr static std::size_t addrs = 0x6035a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Debugger*>(), { "IsLogging", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::by_ref<::StringW>, ::by_ref<::StringW>)>(&::System::Diagnostics::Debugger::Log_icall)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x60357e4;
+  constexpr static std::size_t addrs = 0x6035a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::StringW, ::StringW)>(&::System::Diagnostics::Debugger::Log)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x60357e8;
+  constexpr static std::size_t addrs = 0x6035a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Diagnostics::Debugger::NotifyOfCrossThreadDependency)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6035840;
+  constexpr static std::size_t addrs = 0x6035ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Debugger*>(), { "NotifyOfCrossThreadDependency", {}, {} })));

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Principal::WindowsImpersonationContext::*)(::System::IntPtr)>(
     &::System::Security::Principal::WindowsImpersonationContext::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5f6bd98;
+  constexpr static std::size_t addrs = 0x5f6c020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Principal::WindowsImpersonationContext::*)()>(&::System::Security::Principal::WindowsImpersonationContext::Dispose)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5f6c42c;
+  constexpr static std::size_t addrs = 0x5f6c6b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Principal::WindowsImpersonationContext*>(), { "Dispose", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Principal::WindowsImpersonationContext::*)()>(&::System::Security::Principal::WindowsImpersonationContext::Undo)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5f6c440;
+  constexpr static std::size_t addrs = 0x5f6c6c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Principal::WindowsImpersonationContext*>(), { "Undo", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::System::Security::Principal::WindowsImpersonationContext::CloseToken)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f6c47c;
+  constexpr static std::size_t addrs = 0x5f6c704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::System::Security::Principal::WindowsImpersonationContext::DuplicateToken)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f6c41c;
+  constexpr static std::size_t addrs = 0x5f6c6a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::System::Security::Principal::WindowsImpersonationContext::SetCurrentToken)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f6c424;
+  constexpr static std::size_t addrs = 0x5f6c6ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Security::Principal::WindowsImpersonationContext::RevertToSelf)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f6c474;
+  constexpr static std::size_t addrs = 0x5f6c6fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

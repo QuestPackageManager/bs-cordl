@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::Time::get_time)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6f897a4;
+  constexpr static std::size_t addrs = 0x6f8a884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Time*>(), { "get_time", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)()>(&::UnityEngine::Time::get_timeAsDouble)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6f83dfc;
+  constexpr static std::size_t addrs = 0x6f84edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Time*>(), { "get_timeAsDouble", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::IntegerTime::RationalTime (*)()>(&::UnityEngine::Time::get_timeAsRational)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f897cc;
+  constexpr static std::size_t addrs = 0x6f8a8ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Time*>(), { "get_timeAsRational", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::Time::get_timeSinceLevelLoad)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6f8984c;
+  constexpr static std::size_t addrs = 0x6f8a92c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Time*>(), { "get_timeSinceLevelLoad", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::Time::get_deltaTime)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6f89874;
+  constexpr static std::size_t addrs = 0x6f8a954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Time*>(), { "get_deltaTime", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::Time::get_unscaledTime)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6f8989c;
+  constexpr static std::size_t addrs = 0x6f8a97c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Time*>(), { "get_unscaledTime", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::Time::get_fixedUnscaledTime)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6f898c4;
+  constexpr static std::size_t addrs = 0x6f8a9a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Time*>(), { "get_fixedUnscaledTime", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::Time::get_unscaledDeltaTime)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6f898ec;
+  constexpr static std::size_t addrs = 0x6f8a9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Time*>(), { "get_unscaledDeltaTime", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::Time::get_fixedDeltaTime)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6f89914;
+  constexpr static std::size_t addrs = 0x6f8a9f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Time*>(), { "get_fixedDeltaTime", {}, {} })));
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t)>(&::UnityEngine::Time::set_fixedDeltaTime)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6f8993c;
+  constexpr static std::size_t addrs = 0x6f8aa1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Time*>(), { "set_fixedDeltaTime", {}, { ::i2c::type_of<float_t>() } })));
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::Time::get_maximumDeltaTime)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6f89974;
+  constexpr static std::size_t addrs = 0x6f8aa54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Time*>(), { "get_maximumDeltaTime", {}, {} })));
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::Time::get_smoothDeltaTime)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6f8999c;
+  constexpr static std::size_t addrs = 0x6f8aa7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Time*>(), { "get_smoothDeltaTime", {}, {} })));
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::Time::get_timeScale)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6f899c4;
+  constexpr static std::size_t addrs = 0x6f8aaa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Time*>(), { "get_timeScale", {}, {} })));
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t)>(&::UnityEngine::Time::set_timeScale)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6f899ec;
+  constexpr static std::size_t addrs = 0x6f8aacc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Time*>(), { "set_timeScale", {}, { ::i2c::type_of<float_t>() } })));
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::Time::get_frameCount)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6f89a24;
+  constexpr static std::size_t addrs = 0x6f8ab04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Time*>(), { "get_frameCount", {}, {} })));
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::Time::get_renderedFrameCount)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6f89a4c;
+  constexpr static std::size_t addrs = 0x6f8ab2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Time*>(), { "get_renderedFrameCount", {}, {} })));
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::Time::get_realtimeSinceStartup)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6f83c68;
+  constexpr static std::size_t addrs = 0x6f84d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Time*>(), { "get_realtimeSinceStartup", {}, {} })));
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)()>(&::UnityEngine::Time::get_realtimeSinceStartupAsDouble)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6f83dd4;
+  constexpr static std::size_t addrs = 0x6f84eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Time*>(), { "get_realtimeSinceStartupAsDouble", {}, {} })));
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::Time::get_captureDeltaTime)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6f89a74;
+  constexpr static std::size_t addrs = 0x6f8ab54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Time*>(), { "get_captureDeltaTime", {}, {} })));
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t)>(&::UnityEngine::Time::set_captureDeltaTime)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6f89a9c;
+  constexpr static std::size_t addrs = 0x6f8ab7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Time*>(), { "set_captureDeltaTime", {}, { ::i2c::type_of<float_t>() } })));
@@ -248,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::Time::get_captureFramerate)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6f89ad4;
+  constexpr static std::size_t addrs = 0x6f8abb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Time*>(), { "get_captureFramerate", {}, {} })));
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::UnityEngine::Time::set_captureFramerate)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6f89bc8;
+  constexpr static std::size_t addrs = 0x6f8aca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Time*>(), { "set_captureFramerate", {}, { ::i2c::type_of<int32_t>() } })));
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Time::get_inFixedTimeStep)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6f89c14;
+  constexpr static std::size_t addrs = 0x6f8acf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Time*>(), { "get_inFixedTimeStep", {}, {} })));
@@ -284,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::IntegerTime::RationalTime>)>(&::UnityEngine::Time::get_timeAsRational_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f89810;
+  constexpr static std::size_t addrs = 0x6f8a8f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

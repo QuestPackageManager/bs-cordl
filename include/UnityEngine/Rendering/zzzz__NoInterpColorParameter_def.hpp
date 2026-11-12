@@ -55,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set_showEyeDropper(bool value);
 
-  /// @brief Method .ctor, addr 0x6c27fd8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c290b8, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color value, bool hdr, bool showAlpha, bool showEyeDropper, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x6c27f4c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2902c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color value, bool overrideState);
 
 protected:

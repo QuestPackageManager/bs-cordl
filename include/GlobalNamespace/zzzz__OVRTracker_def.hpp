@@ -87,36 +87,36 @@ public:
 
   __declspec(property(get = get_isPresent)) bool isPresent;
 
-  /// @brief Method GetFrustum, addr 0x633c638, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetFrustum, addr 0x633c8c0, size 0xb4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTracker_Frustum GetFrustum(int32_t tracker);
 
-  /// @brief Method GetPose, addr 0x633c6ec, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method GetPose, addr 0x633c974, size 0x214, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPose GetPose(int32_t tracker);
 
-  /// @brief Method GetPoseValid, addr 0x633c900, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetPoseValid, addr 0x633cb88, size 0xec, virtual false, abstract: false, final false
   inline bool GetPoseValid(int32_t tracker);
 
-  /// @brief Method GetPresent, addr 0x633c54c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetPresent, addr 0x633c7d4, size 0xec, virtual false, abstract: false, final false
   inline bool GetPresent(int32_t tracker);
 
   static inline ::GlobalNamespace::OVRTracker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x633c9ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x633cc74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_count, addr 0x633c510, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_count, addr 0x633c798, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_count();
 
-  /// @brief Method get_isEnabled, addr 0x633c3dc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_isEnabled, addr 0x633c664, size 0x98, virtual false, abstract: false, final false
   inline bool get_isEnabled();
 
-  /// @brief Method get_isPositionTracked, addr 0x633c388, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_isPositionTracked, addr 0x633c610, size 0x54, virtual false, abstract: false, final false
   inline bool get_isPositionTracked();
 
-  /// @brief Method get_isPresent, addr 0x633c2f0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_isPresent, addr 0x633c578, size 0x98, virtual false, abstract: false, final false
   inline bool get_isPresent();
 
-  /// @brief Method set_isEnabled, addr 0x633c474, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_isEnabled, addr 0x633c6fc, size 0x9c, virtual false, abstract: false, final false
   inline void set_isEnabled(bool value);
 
 protected:

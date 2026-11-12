@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::RelatedView::*)(::ArrayW<::System::Data::DataColumn*>, ::ArrayW<::System::Object*>)>(
     &::System::Data::RelatedView::_ctor)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x64a4fb4;
+  constexpr static std::size_t addrs = 0x64a5604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::RelatedView::*)(::System::Data::DataRowView*, ::System::Data::DataKey, ::ArrayW<::System::Data::DataColumn*>)>(
     &::System::Data::RelatedView::_ctor)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x64a50d0;
+  constexpr static std::size_t addrs = 0x64a5720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Object*> (::System::Data::RelatedView::*)()>(&::System::Data::RelatedView::GetParentValues)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x64a51cc;
+  constexpr static std::size_t addrs = 0x64a581c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::RelatedView*>(), { "GetParentValues", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::RelatedView::*)(::System::Data::DataRow*, ::System::Data::DataRowVersion)>(&::System::Data::RelatedView::Invoke)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x64a5274;
+  constexpr static std::size_t addrs = 0x64a58c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::IFilter* (::System::Data::RelatedView::*)()>(&::System::Data::RelatedView::GetFilter)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64a5418;
+  constexpr static std::size_t addrs = 0x64a5a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::RelatedView*>(), { ::i2c::class_of<::System::Data::RelatedView*>(), 44 }));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataRowView* (::System::Data::RelatedView::*)()>(&::System::Data::RelatedView::AddNew)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64a541c;
+  constexpr static std::size_t addrs = 0x64a5a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::RelatedView*>(), { ::i2c::class_of<::System::Data::RelatedView*>(), 43 }));
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::RelatedView::*)(::StringW, ::System::Data::DataViewRowState, ::System::Data::IFilter*)>(
     &::System::Data::RelatedView::SetIndex)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x64a547c;
+  constexpr static std::size_t addrs = 0x64a5acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::RelatedView*>(), { ::i2c::class_of<::System::Data::RelatedView*>(), 47 }));

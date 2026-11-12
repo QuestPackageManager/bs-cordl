@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GetAssetBundleFileResult::*)(bool, ::StringW)>(&::GlobalNamespace::GetAssetBundleFileResult::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39df1bc;
+  constexpr static std::size_t addrs = 0x39e4264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::GetAssetBundleFileResult (*)(::StringW)>(&::GlobalNamespace::GetAssetBundleFileResult::Success)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39df1c8;
+  constexpr static std::size_t addrs = 0x39e4270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

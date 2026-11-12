@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::Block2::*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(
     &::System::Linq::Expressions::Block2::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x63d1a98;
+  constexpr static std::size_t addrs = 0x63d20e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::Block2::*)(int32_t)>(
     &::System::Linq::Expressions::Block2::GetExpression)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x63d1ac0;
+  constexpr static std::size_t addrs = 0x63d2110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::Block2::*)()>(&::System::Linq::Expressions::Block2::get_ExpressionCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63d1bc4;
+  constexpr static std::size_t addrs = 0x63d2214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* (::System::Linq::Expressions::Block2::*)()>(
     &::System::Linq::Expressions::Block2::GetOrMakeExpressions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63d1bcc;
+  constexpr static std::size_t addrs = 0x63d221c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressio
     ::System::Linq::Expressions::Block2::*)(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*,
                                             ::ArrayW<::System::Linq::Expressions::Expression*>)>(&::System::Linq::Expressions::Block2::Rewrite)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x63d1bd4;
+  constexpr static std::size_t addrs = 0x63d2224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MultiplayerAvatarsData (::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider::*)()>(
     &::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider::get_avatarsData)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3516124;
+  constexpr static std::size_t addrs = 0x3518564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider::*)()>(
     &::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider::get_isVisualDataResolved)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35161f0;
+  constexpr static std::size_t addrs = 0x3518630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider::*)(::System::Action_1<::GlobalNamespace::MultiplayerAvatarsData>*)>(
     &::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider::add_visualDataDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35161f8;
+  constexpr static std::size_t addrs = 0x3518638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider::*)(::System::Action_1<::GlobalNamespace::MultiplayerAvatarsData>*)>(
     &::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider::remove_visualDataDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35162b8;
+  constexpr static std::size_t addrs = 0x35186f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider::*)(::GlobalNamespace::IBeatSaberConnectedPlayer*)>(
     &::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider::_ctor)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x3516378;
+  constexpr static std::size_t addrs = 0x35187b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider*>(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider::*)()>(
     &::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider::Dispose)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3516578;
+  constexpr static std::size_t addrs = 0x35189b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider::*)(::GlobalNamespace::IBeatSaberConnectedPlayer*)>(
     &::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider::HandleAvatarDidChange)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3516670;
+  constexpr static std::size_t addrs = 0x3518ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider*>(),

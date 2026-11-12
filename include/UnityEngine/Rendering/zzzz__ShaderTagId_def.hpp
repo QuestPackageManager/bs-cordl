@@ -35,35 +35,35 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::ShaderTagId>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::ShaderTagId>*();
 
-  /// @brief Method Equals, addr 0x6fc2374, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6fc3454, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6fbc534, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6fbd614, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::ShaderTagId other);
 
-  /// @brief Method GetHashCode, addr 0x6fc0458, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6fc1538, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6fc2354, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fc3434, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
   static inline ::UnityEngine::Rendering::ShaderTagId getStaticF_none();
 
-  /// @brief Method get_id, addr 0x6fbc0a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x6fbd180, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::ShaderTagId>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::ShaderTagId>* i___System__IEquatable_1___UnityEngine__Rendering__ShaderTagId_();
 
-  /// @brief Method op_Equality, addr 0x6fc0240, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6fc1320, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::ShaderTagId tag1, ::UnityEngine::Rendering::ShaderTagId tag2);
 
-  /// @brief Method op_Inequality, addr 0x6fc23f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6fc34d0, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Rendering::ShaderTagId tag1, ::UnityEngine::Rendering::ShaderTagId tag2);
 
   static inline void setStaticF_none(::UnityEngine::Rendering::ShaderTagId value);
 
-  /// @brief Method set_id, addr 0x6fbc294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_id, addr 0x6fbd374, size 0x8, virtual false, abstract: false, final false
   inline void set_id(int32_t value);
 
   // Ctor Parameters []

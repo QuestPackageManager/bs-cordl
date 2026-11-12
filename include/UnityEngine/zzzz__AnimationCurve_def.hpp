@@ -49,10 +49,10 @@ namespace UnityEngine {
 class CORDL_TYPE AnimationCurve_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToManaged, addr 0x6ef5978, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ConvertToManaged, addr 0x6ef6a58, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::AnimationCurve* ConvertToManaged(::System::IntPtr ptr);
 
-  /// @brief Method ConvertToNative, addr 0x6ef59d0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x6ef6ab0, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::AnimationCurve* animationCurve);
 
 protected:
@@ -105,101 +105,101 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::AnimationCurve*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::AnimationCurve*>*() noexcept;
 
-  /// @brief Method AddKey, addr 0x6ef4fc0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AddKey, addr 0x6ef60a0, size 0x2c, virtual false, abstract: false, final false
   inline int32_t AddKey(::UnityEngine::Keyframe key);
 
   /// [FreeFunction("AnimationCurveBindings::AddKeySmoothTangents", HasExplicitThis = true, IsThreadSafe = true)]
-  /// @brief Method AddKey, addr 0x6ef4f04, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AddKey, addr 0x6ef5fe4, size 0x68, virtual false, abstract: false, final false
   inline int32_t AddKey(float_t time, float_t value);
 
-  /// @brief Method AddKey_Injected, addr 0x6ef4f6c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method AddKey_Injected, addr 0x6ef604c, size 0x54, virtual false, abstract: false, final false
   static inline int32_t AddKey_Injected(::System::IntPtr _unity_self, float_t time, float_t value);
 
   /// [NativeMethod("AddKey", IsThreadSafe = true)]
-  /// @brief Method AddKey_Internal, addr 0x6ef4fec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method AddKey_Internal, addr 0x6ef60cc, size 0x58, virtual false, abstract: false, final false
   inline int32_t AddKey_Internal(::UnityEngine::Keyframe key);
 
-  /// @brief Method AddKey_Internal_Injected, addr 0x6ef5044, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AddKey_Internal_Injected, addr 0x6ef6124, size 0x44, virtual false, abstract: false, final false
   static inline int32_t AddKey_Internal_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Keyframe const> key);
 
   /// [FreeFunction("AnimationCurveBindings::ClearKeys", HasExplicitThis = true, IsThreadSafe = true)]
-  /// @brief Method ClearKeys, addr 0x6ef5144, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ClearKeys, addr 0x6ef6224, size 0x50, virtual false, abstract: false, final false
   inline void ClearKeys();
 
-  /// @brief Method ClearKeys_Injected, addr 0x6ef5194, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClearKeys_Injected, addr 0x6ef6274, size 0x3c, virtual false, abstract: false, final false
   static inline void ClearKeys_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method CopyFrom, addr 0x6ef5964, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x6ef6a44, size 0x14, virtual false, abstract: false, final false
   inline void CopyFrom(::UnityEngine::AnimationCurve* other);
 
-  /// @brief Method EaseInOut, addr 0x6ef56a0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method EaseInOut, addr 0x6ef6780, size 0x110, virtual false, abstract: false, final false
   static inline ::UnityEngine::AnimationCurve* EaseInOut(float_t timeStart, float_t valueStart, float_t timeEnd, float_t valueEnd);
 
-  /// @brief Method Equals, addr 0x6ef57e0, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6ef68c0, size 0xf4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals, addr 0x6ef58d4, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6ef69b4, size 0x90, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::AnimationCurve* other);
 
   /// [ThreadSafe]
-  /// @brief Method Evaluate, addr 0x6ef4b94, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x6ef5c74, size 0x60, virtual false, abstract: false, final false
   inline float_t Evaluate(float_t time);
 
-  /// @brief Method Evaluate_Injected, addr 0x6ef4bf4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Evaluate_Injected, addr 0x6ef5cd4, size 0x4c, virtual false, abstract: false, final false
   static inline float_t Evaluate_Injected(::System::IntPtr _unity_self, float_t time);
 
-  /// @brief Method Finalize, addr 0x6ef4b18, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6ef5bf8, size 0x7c, virtual true, abstract: false, final false
   inline void Finalize();
 
   /// [FreeFunction("AnimationCurveBindings::GetHashCode", HasExplicitThis = true, IsThreadSafe = true)]
-  /// @brief Method GetHashCode, addr 0x6ef540c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6ef64ec, size 0x50, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetHashCode_Injected, addr 0x6ef545c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode_Injected, addr 0x6ef653c, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetHashCode_Injected(::System::IntPtr _unity_self);
 
   /// [FreeFunction("AnimationCurveBindings::GetKey", HasExplicitThis = true, IsThreadSafe = true)]
   /// [NativeThrows]
-  /// @brief Method GetKey, addr 0x6ef529c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetKey, addr 0x6ef637c, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::Keyframe GetKey(int32_t index);
 
-  /// @brief Method GetKey_Injected, addr 0x6ef53b8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetKey_Injected, addr 0x6ef6498, size 0x54, virtual false, abstract: false, final false
   static inline void GetKey_Injected(::System::IntPtr _unity_self, int32_t index, ::by_ref<::UnityEngine::Keyframe> ret);
 
   /// [FreeFunction("AnimationCurveBindings::Internal_CopyFrom", HasExplicitThis = true, IsThreadSafe = true)]
-  /// @brief Method Internal_CopyFrom, addr 0x6ef4a7c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Internal_CopyFrom, addr 0x6ef5b5c, size 0x58, virtual false, abstract: false, final false
   inline void Internal_CopyFrom(::System::IntPtr other);
 
-  /// @brief Method Internal_CopyFrom_Injected, addr 0x6ef4ad4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_CopyFrom_Injected, addr 0x6ef5bb4, size 0x44, virtual false, abstract: false, final false
   static inline void Internal_CopyFrom_Injected(::System::IntPtr _unity_self, ::System::IntPtr other);
 
   /// [FreeFunction("AnimationCurveBindings::Internal_Create", IsThreadSafe = true)]
-  /// @brief Method Internal_Create, addr 0x6ef48e0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x6ef59c0, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_Create(::ArrayW<::UnityEngine::Keyframe> keys);
 
-  /// @brief Method Internal_Create_Injected, addr 0x6ef49a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create_Injected, addr 0x6ef5a84, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_Create_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> keys);
 
   /// [FreeFunction("AnimationCurveBindings::Internal_Destroy", IsThreadSafe = true)]
-  /// @brief Method Internal_Destroy, addr 0x6ef48a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Destroy, addr 0x6ef5984, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Destroy(::System::IntPtr ptr);
 
   /// [FreeFunction("AnimationCurveBindings::Internal_Equals", HasExplicitThis = true, IsThreadSafe = true)]
-  /// @brief Method Internal_Equals, addr 0x6ef49e0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Internal_Equals, addr 0x6ef5ac0, size 0x58, virtual false, abstract: false, final false
   inline bool Internal_Equals(::System::IntPtr other);
 
-  /// @brief Method Internal_Equals_Injected, addr 0x6ef4a38, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_Equals_Injected, addr 0x6ef5b18, size 0x44, virtual false, abstract: false, final false
   static inline bool Internal_Equals_Injected(::System::IntPtr _unity_self, ::System::IntPtr other);
 
-  /// @brief Method Linear, addr 0x6ef5554, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Linear, addr 0x6ef6634, size 0x128, virtual false, abstract: false, final false
   static inline ::UnityEngine::AnimationCurve* Linear(float_t timeStart, float_t valueStart, float_t timeEnd, float_t valueEnd);
 
   /// [NativeThrows]
   /// [FreeFunction("AnimationCurveBindings::MoveKey", HasExplicitThis = true, IsThreadSafe = true)]
-  /// @brief Method MoveKey, addr 0x6ef5088, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method MoveKey, addr 0x6ef6168, size 0x68, virtual false, abstract: false, final false
   inline int32_t MoveKey(int32_t index, ::UnityEngine::Keyframe key);
 
-  /// @brief Method MoveKey_Injected, addr 0x6ef50f0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MoveKey_Injected, addr 0x6ef61d0, size 0x54, virtual false, abstract: false, final false
   static inline int32_t MoveKey_Injected(::System::IntPtr _unity_self, int32_t index, ::by_ref<::UnityEngine::Keyframe const> key);
 
   /// @brief [RequiredByNativeCode]
@@ -212,18 +212,18 @@ public:
 
   /// [NativeThrows]
   /// [FreeFunction("AnimationCurveBindings::RemoveKey", HasExplicitThis = true, IsThreadSafe = true)]
-  /// @brief Method RemoveKey, addr 0x6ef51d0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RemoveKey, addr 0x6ef62b0, size 0x58, virtual false, abstract: false, final false
   inline void RemoveKey(int32_t index);
 
-  /// @brief Method RemoveKey_Injected, addr 0x6ef5228, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RemoveKey_Injected, addr 0x6ef6308, size 0x44, virtual false, abstract: false, final false
   static inline void RemoveKey_Injected(::System::IntPtr _unity_self, int32_t index);
 
   /// [NativeThrows]
   /// [FreeFunction("AnimationCurveBindings::SmoothTangents", HasExplicitThis = true, IsThreadSafe = true)]
-  /// @brief Method SmoothTangents, addr 0x6ef5498, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SmoothTangents, addr 0x6ef6578, size 0x68, virtual false, abstract: false, final false
   inline void SmoothTangents(int32_t index, float_t weight);
 
-  /// @brief Method SmoothTangents_Injected, addr 0x6ef5500, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SmoothTangents_Injected, addr 0x6ef65e0, size 0x54, virtual false, abstract: false, final false
   static inline void SmoothTangents_Injected(::System::IntPtr _unity_self, int32_t index, float_t weight);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
@@ -239,41 +239,41 @@ public:
   constexpr void __cordl_internal_set_m_RequiresNativeCleanup(bool value);
 
   /// [RequiredByNativeCode]
-  /// @brief Method .ctor, addr 0x6ef57b0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ef6890, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6ef567c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ef675c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(/* [ParamArray] */ ::ArrayW<::UnityEngine::Keyframe> keys);
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.ParticleSystemModule" })]
-  /// @brief Method .ctor, addr 0x6ef57d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ef68b4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr, bool ownMemory);
 
-  /// @brief Method get_Item, addr 0x6ef526c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6ef634c, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Keyframe get_Item(int32_t index);
 
   /// [FreeFunction("AnimationCurveBindings::GetKeysArray", HasExplicitThis = true, IsThreadSafe = true)]
-  /// @brief Method get_keys, addr 0x6ef4c40, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method get_keys, addr 0x6ef5d20, size 0x14c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Keyframe> get_keys();
 
-  /// @brief Method get_keys_Injected, addr 0x6ef4d8c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_keys_Injected, addr 0x6ef5e6c, size 0x44, virtual false, abstract: false, final false
   static inline void get_keys_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
 
   /// [NativeMethod("GetKeyCount", IsThreadSafe = true)]
-  /// @brief Method get_length, addr 0x6ef532c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x6ef640c, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_length();
 
-  /// @brief Method get_length_Injected, addr 0x6ef537c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_length_Injected, addr 0x6ef645c, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_length_Injected(::System::IntPtr _unity_self);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::AnimationCurve*>"
   constexpr ::System::IEquatable_1<::UnityEngine::AnimationCurve*>* i___System__IEquatable_1___UnityEngine__AnimationCurve__() noexcept;
 
   /// [FreeFunction("AnimationCurveBindings::SetKeysWithSpan", HasExplicitThis = true, IsThreadSafe = true)]
-  /// @brief Method set_keys, addr 0x6ef4dd0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method set_keys, addr 0x6ef5eb0, size 0xf0, virtual false, abstract: false, final false
   inline void set_keys(::ArrayW<::UnityEngine::Keyframe> value);
 
-  /// @brief Method set_keys_Injected, addr 0x6ef4ec0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_keys_Injected, addr 0x6ef5fa0, size 0x44, virtual false, abstract: false, final false
   static inline void set_keys_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> value);
 
 protected:

@@ -177,22 +177,22 @@ public:
 
   static inline ::GlobalNamespace::MainSystemInit___c* New_ctor();
 
-  /// @brief Method <InstallBindings>b__26_1, addr 0x3a2a940, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method <InstallBindings>b__26_1, addr 0x3a30030, size 0x100, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ResettableRandom* _InstallBindings_b__26_1(::Zenject::InjectContext* ctx);
 
-  /// @brief Method <InstallBindings>b__26_2, addr 0x3a2aa40, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <InstallBindings>b__26_2, addr 0x3a30130, size 0x74, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PerceivedLoudnessPerLevelModel* _InstallBindings_b__26_2(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
-  /// @brief Method <InstallBindings>b__26_3, addr 0x3a2aab4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <InstallBindings>b__26_3, addr 0x3a301a4, size 0x74, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OculusLevelProductCollectionModel* _InstallBindings_b__26_3(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
-  /// @brief Method <InstallBindings>b__26_4, addr 0x3a2ab28, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method <InstallBindings>b__26_4, addr 0x3a30218, size 0xb8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OculusGameDlcProductCollectionModel* _InstallBindings_b__26_4(::Zenject::InjectContext* context);
 
-  /// @brief Method <InstallPlatformLeaderboardsModel>b__29_0, addr 0x3a2abe0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <InstallPlatformLeaderboardsModel>b__29_0, addr 0x3a302d0, size 0x7c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LeaderboardIdsModel* _InstallPlatformLeaderboardsModel_b__29_0(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
 
-  /// @brief Method .ctor, addr 0x3a2a93c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a3002c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::MainSystemInit___c* getStaticF___9();
@@ -238,7 +238,7 @@ public:
   MainSystemInit___c(MainSystemInit___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21835 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21850 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -259,7 +259,7 @@ public:
 
   static inline ::GlobalNamespace::MainSystemInit___c__DisplayClass26_0* New_ctor();
 
-  /// @brief Method <InstallBindings>b__0, addr 0x3a2ac5c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <InstallBindings>b__0, addr 0x3a3034c, size 0x70, virtual false, abstract: false, final false
   inline ::GlobalNamespace::DeterminismConfig* _InstallBindings_b__0(::GlobalNamespace::TimeHelper* timeHelper);
 
   constexpr bool const& __cordl_internal_get_isRunningFromTests() const;
@@ -268,7 +268,7 @@ public:
 
   constexpr void __cordl_internal_set_isRunningFromTests(bool value);
 
-  /// @brief Method .ctor, addr 0x3a2a3e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a2fad4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -286,7 +286,7 @@ public:
   MainSystemInit___c__DisplayClass26_0(MainSystemInit___c__DisplayClass26_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21836 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21851 };
 
   /// @brief Field isRunningFromTests, offset: 0x10, size: 0x1, def value: None
   bool ___isRunningFromTests;
@@ -406,19 +406,19 @@ public:
   /// @brief Field _unityXRHelperPrefab, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__unityXRHelperPrefab, put = __cordl_internal_set__unityXRHelperPrefab)) ::UnityW<::GlobalNamespace::UnityXRHelper> _unityXRHelperPrefab;
 
-  /// @brief Method Init, addr 0x3a206e4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3a25770, size 0x7c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::SettingsApplicatorSO* settingsApplicator);
 
-  /// @brief Method InstallBindings, addr 0x3a21220, size 0x2050, virtual false, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3a262ac, size 0x2050, virtual false, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container, ::BeatSaber::Destinations::Destination* destination);
 
-  /// @brief Method InstallOculusDestinationBindings, addr 0x3a2a3e8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method InstallOculusDestinationBindings, addr 0x3a2fad8, size 0x124, virtual false, abstract: false, final false
   inline void InstallOculusDestinationBindings(::Zenject::DiContainer* container);
 
-  /// @brief Method InstallPlatformLeaderboardsModel, addr 0x3a2a644, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method InstallPlatformLeaderboardsModel, addr 0x3a2fd34, size 0x298, virtual false, abstract: false, final false
   inline void InstallPlatformLeaderboardsModel(::Zenject::DiContainer* container, bool isRunningFromTests);
 
-  /// @brief Method InstallRichPresence, addr 0x3a2a50c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method InstallRichPresence, addr 0x3a2fbfc, size 0x138, virtual false, abstract: false, final false
   inline void InstallRichPresence(::Zenject::DiContainer* container, bool isRunningFromTests);
 
   static inline ::GlobalNamespace::MainSystemInit* New_ctor();
@@ -573,7 +573,7 @@ public:
 
   constexpr void __cordl_internal_set__unityXRHelperPrefab(::UnityW<::GlobalNamespace::UnityXRHelper> value);
 
-  /// @brief Method .ctor, addr 0x3a2a8dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a2ffcc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -591,7 +591,7 @@ public:
   MainSystemInit(MainSystemInit const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21837 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21852 };
 
   /// [SerializeField]
   /// @brief Field _songPackMasksModel, offset: 0x20, size: 0x8, def value: None

@@ -48,13 +48,13 @@ public:
 
   constexpr void __cordl_internal_set_m_EnumValueAsString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6bad4f4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bae5d4, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* enumType);
 
-  /// @brief Method get_value, addr 0x6bad3ac, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x6bae48c, size 0x118, virtual false, abstract: false, final false
   inline ::System::Enum* get_value();
 
-  /// @brief Method set_value, addr 0x6bad4c4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x6bae5a4, size 0x30, virtual false, abstract: false, final false
   inline void set_value(::System::Enum* value);
 
 protected:

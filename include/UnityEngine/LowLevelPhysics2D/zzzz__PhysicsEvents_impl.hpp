@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsTransform (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_BodyUpdateEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_BodyUpdateEvent::get_transform)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x701407c;
+  constexpr static std::size_t addrs = 0x701515c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsBody (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_BodyUpdateEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_BodyUpdateEvent::get_body)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7014088;
+  constexpr static std::size_t addrs = 0x7015168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_BodyUpdateEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_BodyUpdateEvent::get_fellAsleep)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7014090;
+  constexpr static std::size_t addrs = 0x7015170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_BodyUpdateEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_BodyUpdateEvent::ToString)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x7014098;
+  constexpr static std::size_t addrs = 0x7015178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsEvents_BodyUpdateEvent>(),
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsShape (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_TriggerBeginEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_TriggerBeginEvent::get_triggerShape)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7014198;
+  constexpr static std::size_t addrs = 0x7015278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsShape (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_TriggerBeginEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_TriggerBeginEvent::get_visitorShape)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70141a0;
+  constexpr static std::size_t addrs = 0x7015280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_TriggerBeginEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_TriggerBeginEvent::ToString)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x70141a8;
+  constexpr static std::size_t addrs = 0x7015288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsEvents_TriggerBeginEvent>(),
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsShape (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_TriggerEndEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_TriggerEndEvent::get_triggerShape)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7014270;
+  constexpr static std::size_t addrs = 0x7015350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsShape (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_TriggerEndEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_TriggerEndEvent::get_visitorShape)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7014278;
+  constexpr static std::size_t addrs = 0x7015358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_TriggerEndEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_TriggerEndEvent::ToString)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x7014280;
+  constexpr static std::size_t addrs = 0x7015360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsEvents_TriggerEndEvent>(),
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsShape (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactBeginEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactBeginEvent::get_shapeA)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7014348;
+  constexpr static std::size_t addrs = 0x7015428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsShape (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactBeginEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactBeginEvent::get_shapeB)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7014350;
+  constexpr static std::size_t addrs = 0x7015430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsShape_ContactId (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactBeginEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactBeginEvent::get_contactId)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x7014358;
+  constexpr static std::size_t addrs = 0x7015438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactBeginEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactBeginEvent::ToString)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x7014368;
+  constexpr static std::size_t addrs = 0x7015448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactBeginEvent>(),
@@ -331,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsShape (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactEndEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactEndEvent::get_shapeA)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x701446c;
+  constexpr static std::size_t addrs = 0x701554c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsShape (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactEndEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactEndEvent::get_shapeB)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7014474;
+  constexpr static std::size_t addrs = 0x7015554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsShape_ContactId (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactEndEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactEndEvent::get_contactId)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x701447c;
+  constexpr static std::size_t addrs = 0x701555c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -373,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactEndEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactEndEvent::ToString)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x701448c;
+  constexpr static std::size_t addrs = 0x701556c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactEndEvent>(),
@@ -419,7 +419,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsWorld (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactFilterEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactFilterEvent::get_physicsWorld)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7014590;
+  constexpr static std::size_t addrs = 0x7015670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -433,7 +433,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsShape (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactFilterEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactFilterEvent::get_shapeA)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7014598;
+  constexpr static std::size_t addrs = 0x7015678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -447,7 +447,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsShape (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactFilterEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactFilterEvent::get_shapeB)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70145a0;
+  constexpr static std::size_t addrs = 0x7015680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -461,7 +461,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactFilterEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactFilterEvent::ToString)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x70145a8;
+  constexpr static std::size_t addrs = 0x7015688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactFilterEvent>(),
@@ -507,7 +507,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsWorld (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_PreSolveEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_PreSolveEvent::get_physicsWorld)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70146ac;
+  constexpr static std::size_t addrs = 0x701578c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -521,7 +521,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsShape (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_PreSolveEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_PreSolveEvent::get_shapeA)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70146b4;
+  constexpr static std::size_t addrs = 0x7015794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -535,7 +535,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsShape (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_PreSolveEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_PreSolveEvent::get_shapeB)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70146bc;
+  constexpr static std::size_t addrs = 0x701579c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -549,7 +549,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_PreSolveEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_PreSolveEvent::get_point)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70146c4;
+  constexpr static std::size_t addrs = 0x70157a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsEvents_PreSolveEvent>(), { "get_point", {}, {} })));
@@ -562,7 +562,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_PreSolveEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_PreSolveEvent::get_normal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70146cc;
+  constexpr static std::size_t addrs = 0x70157ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -576,7 +576,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_PreSolveEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_PreSolveEvent::ToString)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x70146d4;
+  constexpr static std::size_t addrs = 0x70157b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsEvents_PreSolveEvent>(),
@@ -632,7 +632,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsJoint (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_JointThresholdEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_JointThresholdEvent::get_joint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70148f8;
+  constexpr static std::size_t addrs = 0x70159d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -646,7 +646,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_JointThresholdEvent::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_JointThresholdEvent::ToString)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x7014900;
+  constexpr static std::size_t addrs = 0x70159e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsEvents_JointThresholdEvent>(),
@@ -679,7 +679,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_PreSimulateEventHandler::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_PreSimulateEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x70149ac;
+  constexpr static std::size_t addrs = 0x7015a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsEvents_PreSimulateEventHandler*>(),
@@ -693,7 +693,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::PhysicsEvents_PreSimulateEventHandler::*)(::UnityEngine::LowLevelPhysics2D::PhysicsWorld, float_t)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents_PreSimulateEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x7014a18;
+  constexpr static std::size_t addrs = 0x7015af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsEvents_PreSimulateEventHandler*>(),
@@ -722,7 +722,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::LowLevelPhysics2D::PhysicsWorld, float_t)>(&::UnityEngine::LowLevelPhysics2D::PhysicsEvents::InvokePreSimulate)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x7013038;
+  constexpr static std::size_t addrs = 0x7014118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -736,7 +736,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::LowLevelPhysics2D::PhysicsWorld, float_t)>(&::UnityEngine::LowLevelPhysics2D::PhysicsEvents::InvokePostSimulate)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x70131a0;
+  constexpr static std::size_t addrs = 0x7014280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -751,7 +751,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Object*, ::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactFilterEvent)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents::SendContactFilterCallback)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x7013308;
+  constexpr static std::size_t addrs = 0x70143e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -767,7 +767,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Object*, ::UnityEngine::LowLevelPhysics2D::PhysicsEvents_PreSolveEvent)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsEvents::SendPreSolveCallback)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x7013400;
+  constexpr static std::size_t addrs = 0x70144e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -782,7 +782,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::LowLevelPhysics2D::PhysicsWorld)>(&::UnityEngine::LowLevelPhysics2D::PhysicsEvents::SendBodyUpdateCallbacks)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x70134f8;
+  constexpr static std::size_t addrs = 0x70145d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsEvents>(),
@@ -795,7 +795,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::LowLevelPhysics2D::PhysicsWorld)>(&::UnityEngine::LowLevelPhysics2D::PhysicsEvents::SendContactCallbacks)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x7013704;
+  constexpr static std::size_t addrs = 0x70147e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsEvents>(),
@@ -808,7 +808,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::LowLevelPhysics2D::PhysicsWorld)>(&::UnityEngine::LowLevelPhysics2D::PhysicsEvents::SendTriggerCallbacks)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x7013af8;
+  constexpr static std::size_t addrs = 0x7014bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsEvents>(),
@@ -821,7 +821,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::LowLevelPhysics2D::PhysicsWorld)>(&::UnityEngine::LowLevelPhysics2D::PhysicsEvents::SendJointThresholdCallbacks)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x7013e94;
+  constexpr static std::size_t addrs = 0x7014f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

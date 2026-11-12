@@ -95,7 +95,7 @@ public:
   static ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus_StatusCode const ValidationFailure;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17559 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17567 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -134,45 +134,45 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>*();
 
-  /// @brief Method CompareTo, addr 0x6e7b2a0, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x6e7c380, size 0xdc, virtual true, abstract: false, final true
   inline int32_t CompareTo(::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus other);
 
-  /// @brief Method Equals, addr 0x6e7b22c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6e7c30c, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus other);
 
-  /// @brief Method Equals, addr 0x6e7b254, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6e7c334, size 0x4c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::OpenXR::NativeTypes::XrResult other);
 
-  /// @brief Method IsError, addr 0x6e7b214, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsError, addr 0x6e7c2f4, size 0xc, virtual false, abstract: false, final false
   inline bool IsError();
 
-  /// @brief Method IsSuccess, addr 0x6e7b204, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsSuccess, addr 0x6e7c2e4, size 0x10, virtual false, abstract: false, final false
   inline bool IsSuccess();
 
-  /// @brief Method IsUnqualifiedSuccess, addr 0x6e7b1f4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsUnqualifiedSuccess, addr 0x6e7c2d4, size 0x10, virtual false, abstract: false, final false
   inline bool IsUnqualifiedSuccess();
 
-  /// @brief Method ToString, addr 0x6e7b37c, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6e7c45c, size 0x13c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6e7b1dc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7c2bc, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::OpenXR::NativeTypes::XrResult nativeStatusCode);
 
-  /// @brief Method .ctor, addr 0x6e7b138, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7c218, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus_StatusCode statusCode);
 
-  /// @brief Method .ctor, addr 0x6e7b120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7c200, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus_StatusCode statusCode, ::UnityEngine::XR::OpenXR::NativeTypes::XrResult nativeStatusCode);
 
   /// [CompilerGenerated]
-  /// @brief Method get_nativeStatusCode, addr 0x6e7b130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nativeStatusCode, addr 0x6e7c210, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult get_nativeStatusCode();
 
   /// [CompilerGenerated]
-  /// @brief Method get_statusCode, addr 0x6e7b128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_statusCode, addr 0x6e7c208, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus_StatusCode get_statusCode();
 
-  /// @brief Method get_unqualifiedSuccess, addr 0x6e7b118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unqualifiedSuccess, addr 0x6e7c1f8, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus get_unqualifiedSuccess();
 
   /// @brief Convert to "::System::IComparable_1<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus>"
@@ -184,7 +184,7 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>"
   constexpr ::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>* i___System__IEquatable_1___UnityEngine__XR__OpenXR__NativeTypes__XrResult_();
 
-  /// @brief Method op_Implicit, addr 0x6e7b220, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6e7c300, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Implicit_bool(::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus status);
 
   // Ctor Parameters []
@@ -197,7 +197,7 @@ public:
                                ::UnityEngine::XR::OpenXR::NativeTypes::XrResult _nativeStatusCode_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17560 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17568 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

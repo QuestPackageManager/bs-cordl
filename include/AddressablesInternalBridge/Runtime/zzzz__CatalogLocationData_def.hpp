@@ -60,19 +60,19 @@ public:
 
   constexpr void __cordl_internal_set__LocatorId_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x68af2fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68af958, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW locatorId, ::StringW localHash, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* resourceLocation);
 
   /// [CompilerGenerated]
-  /// @brief Method get_CatalogLocation, addr 0x68af93c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CatalogLocation, addr 0x68b0e58, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_CatalogLocation();
 
   /// [CompilerGenerated]
-  /// @brief Method get_LocalHash, addr 0x68af934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalHash, addr 0x68b0e50, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LocalHash();
 
   /// [CompilerGenerated]
-  /// @brief Method get_LocatorId, addr 0x68af92c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocatorId, addr 0x68b0e48, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LocatorId();
 
 protected:
@@ -90,7 +90,7 @@ public:
   CatalogLocationData(CatalogLocationData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20137 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20100 };
 
   /// [CompilerGenerated]
   /// @brief Field <LocatorId>k__BackingField, offset: 0x10, size: 0x8, def value: None

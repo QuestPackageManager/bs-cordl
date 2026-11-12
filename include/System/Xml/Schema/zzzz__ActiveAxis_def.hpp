@@ -41,18 +41,18 @@ public:
   /// @brief Field _isActive, offset 0x14, size 0x1
   __declspec(property(get = __cordl_internal_get__isActive, put = __cordl_internal_set__isActive)) bool _isActive;
 
-  /// @brief Method EndElement, addr 0x677c2c4, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method EndElement, addr 0x677c914, size 0x114, virtual true, abstract: false, final false
   inline bool EndElement(::StringW localname, ::StringW URN);
 
-  /// @brief Method MoveToAttribute, addr 0x677c3d8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method MoveToAttribute, addr 0x677ca28, size 0x110, virtual false, abstract: false, final false
   inline bool MoveToAttribute(::StringW localname, ::StringW URN);
 
-  /// @brief Method MoveToStartElement, addr 0x677c180, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method MoveToStartElement, addr 0x677c7d0, size 0x144, virtual false, abstract: false, final false
   inline bool MoveToStartElement(::StringW localname, ::StringW URN);
 
   static inline ::System::Xml::Schema::ActiveAxis* New_ctor(::System::Xml::Schema::Asttree* axisTree);
 
-  /// @brief Method Reactivate, addr 0x677bfc8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Reactivate, addr 0x677c618, size 0x14, virtual false, abstract: false, final false
   inline void Reactivate();
 
   constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__axisStack() const;
@@ -79,10 +79,10 @@ public:
 
   constexpr void __cordl_internal_set__isActive(bool value);
 
-  /// @brief Method .ctor, addr 0x677bfdc, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x677c62c, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::Asttree* axisTree);
 
-  /// @brief Method get_CurrentDepth, addr 0x677bfc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentDepth, addr 0x677c610, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CurrentDepth();
 
 protected:

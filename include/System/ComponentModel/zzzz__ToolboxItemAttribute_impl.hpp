@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::ToolboxItemAttribute::*)()>(&::System::ComponentModel::ToolboxItemAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6824e24;
+  constexpr static std::size_t addrs = 0x6825474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::ToolboxItemAttribute::*)(bool)>(&::System::ComponentModel::ToolboxItemAttribute::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6824e90;
+  constexpr static std::size_t addrs = 0x68254e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::ToolboxItemAttribute::*)(::StringW)>(&::System::ComponentModel::ToolboxItemAttribute::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6824eec;
+  constexpr static std::size_t addrs = 0x682553c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ComponentModel::ToolboxItemAttribute::*)()>(&::System::ComponentModel::ToolboxItemAttribute::get_ToolboxItemTypeName)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6824f70;
+  constexpr static std::size_t addrs = 0x68255c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::ToolboxItemAttribute*>(), { "get_ToolboxItemTypeName", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::ToolboxItemAttribute::*)(::System::Object*)>(&::System::ComponentModel::ToolboxItemAttribute::Equals)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6824f90;
+  constexpr static std::size_t addrs = 0x68255e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::ToolboxItemAttribute::*)()>(&::System::ComponentModel::ToolboxItemAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6825064;
+  constexpr static std::size_t addrs = 0x68256b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

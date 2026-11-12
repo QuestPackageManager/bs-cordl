@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::FloatFxBeatmapEventDataBox::*)()>(&::GlobalNamespace::FloatFxBeatmapEventDataBox::get_subtypeIdentifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c6e38;
+  constexpr static std::size_t addrs = 0x39cb310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::FloatFxBeatmapEventDataBox::*)()>(&::GlobalNamespace::FloatFxBeatmapEventDataBox::get_beatStep)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c6e40;
+  constexpr static std::size_t addrs = 0x39cb318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::IndexFilter*, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType, float_t, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType, float_t, bool,
     ::GlobalNamespace::EaseType, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::FloatFxBaseData*>*)>(&::GlobalNamespace::FloatFxBeatmapEventDataBox::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x39c6e48;
+  constexpr static std::size_t addrs = 0x39cb320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::GlobalNamespace::FloatFxBeatmapEventData* (::GlobalNamespace::FloatFxBeatmapEventDataBox::*)(::GlobalNamespace::FloatFxBaseData*, float_t, int32_t, int32_t, float_t)>(
         &::GlobalNamespace::FloatFxBeatmapEventDataBox::CreateVfxBeatmapEventData)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x39c6ef4;
+  constexpr static std::size_t addrs = 0x39cb3cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

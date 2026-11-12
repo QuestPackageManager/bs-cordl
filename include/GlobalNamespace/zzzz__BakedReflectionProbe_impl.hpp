@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::ReflectionProbeDataSO> (::GlobalNamespace::BakedReflectionProbe::*)()>(
     &::GlobalNamespace::BakedReflectionProbe::get_reflectionProbeData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d369b8;
+  constexpr static std::size_t addrs = 0x5d36618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BakedReflectionProbe*>(), { "get_reflectionProbeData", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BakedReflectionProbe::*)(::GlobalNamespace::ReflectionProbeDataSO*)>(
     &::GlobalNamespace::BakedReflectionProbe::set_reflectionProbeData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d369c0;
+  constexpr static std::size_t addrs = 0x5d36620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BakedReflectionProbe*>(),
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::BakedReflectionProbe::*)()>(&::GlobalNamespace::BakedReflectionProbe::get_position)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5d369c8;
+  constexpr static std::size_t addrs = 0x5d36628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BakedReflectionProbe*>(), { "get_position", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BakedReflectionProbe::*)()>(&::GlobalNamespace::BakedReflectionProbe::get_resolutionBeforeDownsample)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d369e8;
+  constexpr static std::size_t addrs = 0x5d36648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BakedReflectionProbe*>(), { "get_resolutionBeforeDownsample", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BakedReflectionProbe::*)()>(&::GlobalNamespace::BakedReflectionProbe::get_downsampleByHalfCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d369f0;
+  constexpr static std::size_t addrs = 0x5d36650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BakedReflectionProbe*>(), { "get_downsampleByHalfCount", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BakedReflectionProbe::*)()>(&::GlobalNamespace::BakedReflectionProbe::Start)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5d369f8;
+  constexpr static std::size_t addrs = 0x5d36658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BakedReflectionProbe*>(), { "Start", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BakedReflectionProbe::*)()>(&::GlobalNamespace::BakedReflectionProbe::SendDataToShaders)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x5d36abc;
+  constexpr static std::size_t addrs = 0x5d3671c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BakedReflectionProbe*>(), { "SendDataToShaders", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BakedReflectionProbe::*)()>(&::GlobalNamespace::BakedReflectionProbe::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5d36ce0;
+  constexpr static std::size_t addrs = 0x5d36940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BakedReflectionProbe*>(), { ".ctor", {}, {} })));

@@ -21,10 +21,10 @@ namespace System::Net::Mail {
 class CORDL_TYPE QuotedPairReader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CountBackslashes, addr 0x67d4940, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CountBackslashes, addr 0x67d4f90, size 0xcc, virtual false, abstract: false, final false
   static inline int32_t CountBackslashes(::StringW data, int32_t index);
 
-  /// @brief Method CountQuotedChars, addr 0x67d346c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method CountQuotedChars, addr 0x67d3abc, size 0x18c, virtual false, abstract: false, final false
   static inline int32_t CountQuotedChars(::StringW data, int32_t index, bool permitUnicodeEscaping);
 
 protected:

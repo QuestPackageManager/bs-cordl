@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_DocumentationURL(::StringW value);
 
-  /// @brief Method .ctor, addr 0x624db04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x624dd8c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW documentationURL);
 
 protected:

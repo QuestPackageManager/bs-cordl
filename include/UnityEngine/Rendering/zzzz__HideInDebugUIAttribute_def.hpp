@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::HideInDebugUIAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6ba99a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6baaa88, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

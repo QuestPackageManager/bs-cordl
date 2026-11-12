@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapDataLoaderVersion4::BpmEventConverter::*)(int32_t, ::GlobalNamespace::BpmTimeProcessor*)>(
     &::BeatmapDataLoaderVersion4::BpmEventConverter::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3a160e4;
+  constexpr static std::size_t addrs = 0x3a1b218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::BpmEventConverter*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapEventData* (::BeatmapDataLoaderVersion4::BpmEventConverter::*)(::BeatmapLevelSaveDataVersion4::BpmData*)>(
     &::BeatmapDataLoaderVersion4::BpmEventConverter::Convert)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3a160f0;
+  constexpr static std::size_t addrs = 0x3a1b224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

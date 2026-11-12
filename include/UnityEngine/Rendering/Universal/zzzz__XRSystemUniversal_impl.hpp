@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::MaterialPropertyBlock* (*)()>(&::UnityEngine::Rendering::Universal::XRSystemUniversal::GetMaterialPropertyBlock)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6d4ef14;
+  constexpr static std::size_t addrs = 0x6d4fff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Camera*, ::UnityEngine::Rendering::Universal::XRPassUniversal*)>(
     &::UnityEngine::Rendering::Universal::XRSystemUniversal::BeginLateLatching)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6d4ef70;
+  constexpr static std::size_t addrs = 0x6d50050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Camera*, ::UnityEngine::Rendering::Universal::XRPassUniversal*)>(
     &::UnityEngine::Rendering::Universal::XRSystemUniversal::EndLateLatching)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6d4f04c;
+  constexpr static std::size_t addrs = 0x6d5012c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::XRPassUniversal*)>(
     &::UnityEngine::Rendering::Universal::XRSystemUniversal::UnmarkShaderProperties)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6d4f114;
+  constexpr static std::size_t addrs = 0x6d501f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::XRPassUniversal*, bool)>(
     &::UnityEngine::Rendering::Universal::XRSystemUniversal::MarkShaderProperties)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x6d4f1a0;
+  constexpr static std::size_t addrs = 0x6d50280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XRSystemUniversal*>(),

@@ -44,44 +44,44 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e80464, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e81544, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(uint32_t entityCount, uint64_t* entities, uint32_t componentTypeCount, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT* componentTypes, uint64_t baseSpace,
                     int64_t time);
 
-  /// @brief Method .ctor, addr 0x6e8043c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e8151c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(void* next, uint32_t entityCount, uint64_t* entities, uint32_t componentTypeCount, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT* componentTypes,
                     uint64_t baseSpace, int64_t time);
 
   /// [CompilerGenerated]
-  /// @brief Method get_baseSpace, addr 0x6e8042c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_baseSpace, addr 0x6e8150c, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_baseSpace();
 
   /// [CompilerGenerated]
-  /// @brief Method get_componentTypeCount, addr 0x6e8041c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_componentTypeCount, addr 0x6e814fc, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_componentTypeCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_componentTypes, addr 0x6e80424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_componentTypes, addr 0x6e81504, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT* get_componentTypes();
 
   /// [CompilerGenerated]
-  /// @brief Method get_entities, addr 0x6e80414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_entities, addr 0x6e814f4, size 0x8, virtual false, abstract: false, final false
   inline uint64_t* get_entities();
 
   /// [CompilerGenerated]
-  /// @brief Method get_entityCount, addr 0x6e8040c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_entityCount, addr 0x6e814ec, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_entityCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e80404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e814e4, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [CompilerGenerated]
-  /// @brief Method get_time, addr 0x6e80434, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x6e81514, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_time();
 
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e803fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e814dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   // Ctor Parameters []
@@ -100,7 +100,7 @@ public:
                                                  int64_t _time_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17597 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17605 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

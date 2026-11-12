@@ -11,275 +11,275 @@
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::FadeInOutController__Fade_d__19._ctor
+//  Writing Method size for method: ::GlobalNamespace::FadeInOutController__Fade_d__21._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController__Fade_d__19::*)(int32_t)>(&::GlobalNamespace::FadeInOutController__Fade_d__19::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController__Fade_d__21::*)(int32_t)>(&::GlobalNamespace::FadeInOutController__Fade_d__21::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca4574;
+  constexpr static std::size_t addrs = 0x5ca2d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController__Fade_d__19*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController__Fade_d__21*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::FadeInOutController__Fade_d__19.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::FadeInOutController__Fade_d__21.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController__Fade_d__19::*)()>(
-    &::GlobalNamespace::FadeInOutController__Fade_d__19::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController__Fade_d__21::*)()>(
+    &::GlobalNamespace::FadeInOutController__Fade_d__21::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ca4594;
+  constexpr static std::size_t addrs = 0x5ca2d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController__Fade_d__19*>(), { "System.IDisposable.Dispose", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController__Fade_d__21*>(), { "System.IDisposable.Dispose", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::FadeInOutController__Fade_d__19.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::FadeInOutController__Fade_d__21.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::FadeInOutController__Fade_d__19::*)()>(&::GlobalNamespace::FadeInOutController__Fade_d__19::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::FadeInOutController__Fade_d__21::*)()>(&::GlobalNamespace::FadeInOutController__Fade_d__21::MoveNext)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x5ca4598;
+  constexpr static std::size_t addrs = 0x5ca2d48;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController__Fade_d__19*>(), { "MoveNext", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController__Fade_d__21*>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::FadeInOutController__Fade_d__19.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::FadeInOutController__Fade_d__21.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::FadeInOutController__Fade_d__19::*)()>(
-    &::GlobalNamespace::FadeInOutController__Fade_d__19::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::FadeInOutController__Fade_d__21::*)()>(
+    &::GlobalNamespace::FadeInOutController__Fade_d__21::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca4750;
+  constexpr static std::size_t addrs = 0x5ca2f00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController__Fade_d__19*>(), { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController__Fade_d__21*>(), { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::FadeInOutController__Fade_d__19.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::FadeInOutController__Fade_d__21.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController__Fade_d__19::*)()>(
-    &::GlobalNamespace::FadeInOutController__Fade_d__19::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController__Fade_d__21::*)()>(
+    &::GlobalNamespace::FadeInOutController__Fade_d__21::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5ca4758;
+  constexpr static std::size_t addrs = 0x5ca2f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController__Fade_d__19*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController__Fade_d__21*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::FadeInOutController__Fade_d__19.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::FadeInOutController__Fade_d__21.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::FadeInOutController__Fade_d__19::*)()>(
-    &::GlobalNamespace::FadeInOutController__Fade_d__19::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::FadeInOutController__Fade_d__21::*)()>(
+    &::GlobalNamespace::FadeInOutController__Fade_d__21::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca4790;
+  constexpr static std::size_t addrs = 0x5ca2f40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController__Fade_d__19*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController__Fade_d__21*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::System::Object* const& GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_get___2__current() const {
+constexpr ::System::Object* const& GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
-constexpr ::UnityW<::GlobalNamespace::FadeInOutController>& GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::FadeInOutController>& GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::GlobalNamespace::FadeInOutController> const& GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::FadeInOutController> const& GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::FadeInOutController> value) {
+constexpr void GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::FadeInOutController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr float_t& GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_get_startDelay() {
+constexpr float_t& GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_get_startDelay() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startDelay;
 }
-constexpr float_t const& GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_get_startDelay() const {
+constexpr float_t const& GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_get_startDelay() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startDelay;
 }
-constexpr void GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_set_startDelay(float_t value) {
+constexpr void GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_set_startDelay(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___startDelay = value;
 }
-constexpr float_t& GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_get_fromValue() {
+constexpr float_t& GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_get_fromValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fromValue;
 }
-constexpr float_t const& GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_get_fromValue() const {
+constexpr float_t const& GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_get_fromValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fromValue;
 }
-constexpr void GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_set_fromValue(float_t value) {
+constexpr void GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_set_fromValue(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___fromValue = value;
 }
-constexpr float_t& GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_get_toValue() {
+constexpr float_t& GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_get_toValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toValue;
 }
-constexpr float_t const& GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_get_toValue() const {
+constexpr float_t const& GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_get_toValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toValue;
 }
-constexpr void GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_set_toValue(float_t value) {
+constexpr void GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_set_toValue(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___toValue = value;
 }
-constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_get_curve() {
+constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_get_curve() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___curve;
 }
-constexpr ::UnityEngine::AnimationCurve* const& GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_get_curve() const {
+constexpr ::UnityEngine::AnimationCurve* const& GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_get_curve() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___curve;
 }
-constexpr void GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_set_curve(::UnityEngine::AnimationCurve* value) {
+constexpr void GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_set_curve(::UnityEngine::AnimationCurve* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___curve = value;
 }
-constexpr float_t& GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_get_duration() {
+constexpr float_t& GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_get_duration() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___duration;
 }
-constexpr float_t const& GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_get_duration() const {
+constexpr float_t const& GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_get_duration() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___duration;
 }
-constexpr void GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_set_duration(float_t value) {
+constexpr void GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_set_duration(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___duration = value;
 }
-constexpr ::System::Action*& GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_get_fadeFinishedCallback() {
+constexpr ::System::Action*& GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_get_fadeFinishedCallback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fadeFinishedCallback;
 }
-constexpr ::System::Action* const& GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_get_fadeFinishedCallback() const {
+constexpr ::System::Action* const& GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_get_fadeFinishedCallback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fadeFinishedCallback;
 }
-constexpr void GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_set_fadeFinishedCallback(::System::Action* value) {
+constexpr void GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_set_fadeFinishedCallback(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___fadeFinishedCallback = value;
 }
-constexpr float_t& GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_get__elapsedTime_5__2() {
+constexpr float_t& GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_get__elapsedTime_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elapsedTime_5__2;
 }
-constexpr float_t const& GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_get__elapsedTime_5__2() const {
+constexpr float_t const& GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_get__elapsedTime_5__2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elapsedTime_5__2;
 }
-constexpr void GlobalNamespace::FadeInOutController__Fade_d__19::__cordl_internal_set__elapsedTime_5__2(float_t value) {
+constexpr void GlobalNamespace::FadeInOutController__Fade_d__21::__cordl_internal_set__elapsedTime_5__2(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____elapsedTime_5__2 = value;
 }
-inline void GlobalNamespace::FadeInOutController__Fade_d__19::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::FadeInOutController__Fade_d__21::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController__Fade_d__19*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController__Fade_d__21*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::FadeInOutController__Fade_d__19::System_IDisposable_Dispose() {
+inline void GlobalNamespace::FadeInOutController__Fade_d__21::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController__Fade_d__19*>(), { "System.IDisposable.Dispose", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController__Fade_d__21*>(), { "System.IDisposable.Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool GlobalNamespace::FadeInOutController__Fade_d__19::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController__Fade_d__19*>(), { "MoveNext", {}, {} })));
+inline bool GlobalNamespace::FadeInOutController__Fade_d__21::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController__Fade_d__21*>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::FadeInOutController__Fade_d__19::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+inline ::System::Object* GlobalNamespace::FadeInOutController__Fade_d__21::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController__Fade_d__19*>(), { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController__Fade_d__21*>(), { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline void GlobalNamespace::FadeInOutController__Fade_d__19::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::FadeInOutController__Fade_d__21::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController__Fade_d__19*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController__Fade_d__21*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::FadeInOutController__Fade_d__19::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::FadeInOutController__Fade_d__21::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController__Fade_d__19*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController__Fade_d__21*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
 /// @brief [DebuggerHidden]
-inline ::GlobalNamespace::FadeInOutController__Fade_d__19* GlobalNamespace::FadeInOutController__Fade_d__19::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::FadeInOutController__Fade_d__19*>(__1__state));
+inline ::GlobalNamespace::FadeInOutController__Fade_d__21* GlobalNamespace::FadeInOutController__Fade_d__21::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::FadeInOutController__Fade_d__21*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::FadeInOutController__Fade_d__19::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr GlobalNamespace::FadeInOutController__Fade_d__21::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::FadeInOutController__Fade_d__19::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+GlobalNamespace::FadeInOutController__Fade_d__21::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::FadeInOutController__Fade_d__19::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::FadeInOutController__Fade_d__21::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::FadeInOutController__Fade_d__19::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::FadeInOutController__Fade_d__21::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::FadeInOutController__Fade_d__19::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::FadeInOutController__Fade_d__21::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::FadeInOutController__Fade_d__19::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::FadeInOutController__Fade_d__21::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::FadeInOutController__Fade_d__19::FadeInOutController__Fade_d__19() {}
+constexpr ::GlobalNamespace::FadeInOutController__Fade_d__21::FadeInOutController__Fade_d__21() {}
 //  Writing Method size for method: ::GlobalNamespace::FadeInOutController.get_inTransition
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::FadeInOutController::*)()>(&::GlobalNamespace::FadeInOutController::get_inTransition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca42d4;
+  constexpr static std::size_t addrs = 0x5ca2a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController*>(), { "get_inTransition", {}, {} })));
@@ -291,11 +291,23 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController::*)(bool)>(&::GlobalNamespace::FadeInOutController::set_inTransition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca42dc;
+  constexpr static std::size_t addrs = 0x5ca2a14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController*>(), { "set_inTransition", {}, { ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::FadeInOutController.get_isFadedOut
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::FadeInOutController::*)()>(&::GlobalNamespace::FadeInOutController::get_isFadedOut)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x5ca2a1c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController*>(), { "get_isFadedOut", {}, {} })));
     return ___internal_method;
   }
 };
@@ -304,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController::*)()>(&::GlobalNamespace::FadeInOutController::FadeOutInstant)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ca42e4;
+  constexpr static std::size_t addrs = 0x5ca2a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController*>(), { "FadeOutInstant", {}, {} })));
@@ -316,7 +328,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController::*)()>(&::GlobalNamespace::FadeInOutController::FadeIn)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ca43cc;
+  constexpr static std::size_t addrs = 0x5ca2b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController*>(), { "FadeIn", {}, {} })));
@@ -328,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController::*)()>(&::GlobalNamespace::FadeInOutController::FadeOut)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ca44b0;
+  constexpr static std::size_t addrs = 0x5ca2c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController*>(), { "FadeOut", {}, {} })));
@@ -340,7 +352,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController::*)(float_t)>(&::GlobalNamespace::FadeInOutController::FadeIn)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca44bc;
+  constexpr static std::size_t addrs = 0x5ca2c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -353,7 +365,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController::*)(float_t)>(&::GlobalNamespace::FadeInOutController::FadeOut)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca44c4;
+  constexpr static std::size_t addrs = 0x5ca2c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -366,7 +378,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController::*)(::System::Action*)>(&::GlobalNamespace::FadeInOutController::FadeIn)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca44cc;
+  constexpr static std::size_t addrs = 0x5ca2c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -379,7 +391,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController::*)(::System::Action*)>(&::GlobalNamespace::FadeInOutController::FadeOut)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca44d4;
+  constexpr static std::size_t addrs = 0x5ca2c84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -391,8 +403,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController::*)(float_t, ::System::Action*)>(&::GlobalNamespace::FadeInOutController::FadeIn)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5ca43d8;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x5ca2b80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -404,8 +416,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController::*)(float_t, ::System::Action*)>(&::GlobalNamespace::FadeInOutController::FadeOut)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5ca42f0;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x5ca2a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -419,7 +431,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (
     ::GlobalNamespace::FadeInOutController::*)(float_t, float_t, float_t, float_t, ::UnityEngine::AnimationCurve*, ::System::Action*)>(&::GlobalNamespace::FadeInOutController::Fade)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5ca44dc;
+  constexpr static std::size_t addrs = 0x5ca2c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -436,7 +448,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController::*)()>(&::GlobalNamespace::FadeInOutController::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5ca457c;
+  constexpr static std::size_t addrs = 0x5ca2d2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController*>(), { ".ctor", {}, {} })));
@@ -535,6 +547,10 @@ inline void GlobalNamespace::FadeInOutController::set_inTransition(bool value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController*>(), { "set_inTransition", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline bool GlobalNamespace::FadeInOutController::get_isFadedOut() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController*>(), { "get_isFadedOut", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline void GlobalNamespace::FadeInOutController::FadeOutInstant() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController*>(), { "FadeOutInstant", {}, {} })));

@@ -119,7 +119,7 @@ public:
   static inline ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* ForDevice(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source);
 
   /// [Extension]
-  /// @brief Method ForDevice, addr 0x696cc14, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ForDevice, addr 0x696dcf4, size 0xac, virtual false, abstract: false, final false
   static inline ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* ForDevice(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source,
                                                                                                         ::UnityEngine::InputSystem::InputDevice* device);
 

@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EasingMode (::UnityEngine::UIElements::EasingFunction::*)()>(&::UnityEngine::UIElements::EasingFunction::get_mode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b9c78;
+  constexpr static std::size_t addrs = 0x72bad58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EasingFunction>(), { "get_mode", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EasingFunction::*)(::UnityEngine::UIElements::EasingMode)>(
     &::UnityEngine::UIElements::EasingFunction::set_mode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b9c80;
+  constexpr static std::size_t addrs = 0x72bad60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EasingFunction::*)(::UnityEngine::UIElements::EasingMode)>(&::UnityEngine::UIElements::EasingFunction::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b9c88;
+  constexpr static std::size_t addrs = 0x72bad68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EasingFunction (*)(::UnityEngine::UIElements::EasingMode)>(
     &::UnityEngine::UIElements::EasingFunction::op_Implicit___UnityEngine__UIElements__EasingFunction)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x72b8cc4;
+  constexpr static std::size_t addrs = 0x72b9da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::EasingFunction, ::UnityEngine::UIElements::EasingFunction)>(
     &::UnityEngine::UIElements::EasingFunction::op_Equality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72b9c90;
+  constexpr static std::size_t addrs = 0x72bad70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::EasingFunction::*)(::UnityEngine::UIElements::EasingFunction)>(
     &::UnityEngine::UIElements::EasingFunction::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x72b9c9c;
+  constexpr static std::size_t addrs = 0x72bad7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::EasingFunction::*)(::System::Object*)>(&::UnityEngine::UIElements::EasingFunction::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x72b9cac;
+  constexpr static std::size_t addrs = 0x72bad8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::EasingFunction::*)()>(&::UnityEngine::UIElements::EasingFunction::ToString)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x72b9d28;
+  constexpr static std::size_t addrs = 0x72bae08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::EasingFunction::*)()>(&::UnityEngine::UIElements::EasingFunction::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b8894;
+  constexpr static std::size_t addrs = 0x72b9974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_EasingFunction_ModeProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_EasingFunction_ModeProperty::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b9ec0;
+  constexpr static std::size_t addrs = 0x72bafa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_EasingFunction_ModeProperty*>(),
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_EasingFunction_ModeProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_EasingFunction_ModeProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b9ec8;
+  constexpr static std::size_t addrs = 0x72bafa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_EasingFunction_ModeProperty*>(),
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EasingMode (::UnityEngine::UIElements::PropertyBag_EasingFunction_ModeProperty::*)(
     ::by_ref<::UnityEngine::UIElements::EasingFunction>)>(&::UnityEngine::UIElements::PropertyBag_EasingFunction_ModeProperty::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b9ed0;
+  constexpr static std::size_t addrs = 0x72bafb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_EasingFunction_ModeProperty*>(),
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_EasingFunction_ModeProperty::*)(
     ::by_ref<::UnityEngine::UIElements::EasingFunction>, ::UnityEngine::UIElements::EasingMode)>(&::UnityEngine::UIElements::PropertyBag_EasingFunction_ModeProperty::SetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b9ed8;
+  constexpr static std::size_t addrs = 0x72bafb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_EasingFunction_ModeProperty*>(),
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_EasingFunction_ModeProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_EasingFunction_ModeProperty::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x72b9e5c;
+  constexpr static std::size_t addrs = 0x72baf3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -313,7 +313,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EasingFunction_PropertyBag::*)()>(&::UnityEngine::UIElements::EasingFunction_PropertyBag::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x72b9d94;
+  constexpr static std::size_t addrs = 0x72bae74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EasingFunction_PropertyBag*>(), { ".ctor", {}, {} })));

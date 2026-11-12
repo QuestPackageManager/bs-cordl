@@ -34,15 +34,15 @@ public:
 
   constexpr void __cordl_internal_set__customTitle_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6d23fa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d25084, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW customTitle);
 
   /// [CompilerGenerated]
-  /// @brief Method get_customTitle, addr 0x6d23f9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customTitle, addr 0x6d2507c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_customTitle();
 
   /// [CompilerGenerated]
-  /// @brief Method set_customTitle, addr 0x6d23f94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_customTitle, addr 0x6d25074, size 0x8, virtual false, abstract: false, final false
   inline void set_customTitle(::StringW value);
 
 protected:

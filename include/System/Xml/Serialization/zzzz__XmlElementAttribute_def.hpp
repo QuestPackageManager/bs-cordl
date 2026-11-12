@@ -67,7 +67,7 @@ public:
   /// @brief Field type, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
 
-  /// @brief Method AddKeyHash, addr 0x675a8e0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x675af30, size 0x14c, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   static inline ::System::Xml::Serialization::XmlElementAttribute* New_ctor(::StringW elementName);
@@ -116,31 +116,31 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x675a854, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x675aea4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW elementName);
 
-  /// @brief Method .ctor, addr 0x675a864, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x675aeb4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW elementName, ::System::Type* type);
 
-  /// @brief Method get_DataType, addr 0x675a878, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_DataType, addr 0x675aec8, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_DataType();
 
-  /// @brief Method get_ElementName, addr 0x675a898, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_ElementName, addr 0x675aee8, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_ElementName();
 
-  /// @brief Method get_Form, addr 0x675a8b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Form, addr 0x675af08, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaForm get_Form();
 
-  /// @brief Method get_IsNullable, addr 0x675a8c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x675af18, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsNullable();
 
-  /// @brief Method get_Namespace, addr 0x675a8c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x675af10, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method get_Order, addr 0x675a8d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Order, addr 0x675af20, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Order();
 
-  /// @brief Method get_Type, addr 0x675a8d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x675af28, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
 protected:

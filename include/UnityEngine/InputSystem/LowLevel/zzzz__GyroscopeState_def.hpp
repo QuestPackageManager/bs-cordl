@@ -31,10 +31,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method get_format, addr 0x6a17098, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x6a18178, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
-  /// @brief Method get_kFormat, addr 0x6a1708c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_kFormat, addr 0x6a1816c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"

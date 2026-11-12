@@ -44,23 +44,23 @@ public:
 
   constexpr void __cordl_internal_set__WriteData_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x612dae4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x612dd6c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ReadData, addr 0x612dad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReadData, addr 0x612dd5c, size 0x8, virtual false, abstract: false, final false
   inline bool get_ReadData();
 
   /// [CompilerGenerated]
-  /// @brief Method get_WriteData, addr 0x612dac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WriteData, addr 0x612dd4c, size 0x8, virtual false, abstract: false, final false
   inline bool get_WriteData();
 
   /// [CompilerGenerated]
-  /// @brief Method set_ReadData, addr 0x612dadc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ReadData, addr 0x612dd64, size 0x8, virtual false, abstract: false, final false
   inline void set_ReadData(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_WriteData, addr 0x612dacc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_WriteData, addr 0x612dd54, size 0x8, virtual false, abstract: false, final false
   inline void set_WriteData(bool value);
 
 protected:

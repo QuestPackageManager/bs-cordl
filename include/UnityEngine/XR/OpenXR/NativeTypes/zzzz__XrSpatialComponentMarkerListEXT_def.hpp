@@ -42,38 +42,38 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e80e48, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e81f28, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t markerCount, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT* markers);
 
-  /// @brief Method .ctor, addr 0x6e80ed8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e81fb8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT> markers);
 
-  /// @brief Method .ctor, addr 0x6e80fc8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e820a8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT> markers);
 
-  /// @brief Method .ctor, addr 0x6e80e2c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e81f0c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(void* next, uint32_t markerCount, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT* markers);
 
-  /// @brief Method .ctor, addr 0x6e80e64, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e81f44, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT> markers);
 
-  /// @brief Method .ctor, addr 0x6e80f40, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e82020, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT> markers);
 
   /// [CompilerGenerated]
-  /// @brief Method get_markerCount, addr 0x6e80e1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_markerCount, addr 0x6e81efc, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_markerCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_markers, addr 0x6e80e24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_markers, addr 0x6e81f04, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT* get_markers();
 
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e80e14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e81ef4, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e80e0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e81eec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   // Ctor Parameters []
@@ -87,7 +87,7 @@ public:
                                             ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT* _markers_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17604 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17612 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

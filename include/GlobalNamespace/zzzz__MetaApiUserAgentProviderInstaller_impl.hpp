@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MetaApiUserAgentProviderInstaller::*)()>(&::GlobalNamespace::MetaApiUserAgentProviderInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a2accc;
+  constexpr static std::size_t addrs = 0x3a303bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MetaApiUserAgentProviderInstaller*>(),
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MetaApiUserAgentProviderInstaller::*)()>(&::GlobalNamespace::MetaApiUserAgentProviderInstaller::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a2ad44;
+  constexpr static std::size_t addrs = 0x3a30434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MetaApiUserAgentProviderInstaller*>(), { ".ctor", {}, {} })));

@@ -23,13 +23,13 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE TileLayoutUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryLayoutByCol, addr 0x6c24264, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method TryLayoutByCol, addr 0x6c25344, size 0xd8, virtual false, abstract: false, final false
   static inline bool TryLayoutByCol(::UnityEngine::RectInt src, uint32_t tileSize, ::by_ref<::UnityEngine::RectInt> main, ::by_ref<::UnityEngine::RectInt> other);
 
-  /// @brief Method TryLayoutByRow, addr 0x6c2418c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method TryLayoutByRow, addr 0x6c2526c, size 0xd8, virtual false, abstract: false, final false
   static inline bool TryLayoutByRow(::UnityEngine::RectInt src, uint32_t tileSize, ::by_ref<::UnityEngine::RectInt> main, ::by_ref<::UnityEngine::RectInt> other);
 
-  /// @brief Method TryLayoutByTiles, addr 0x6c24070, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method TryLayoutByTiles, addr 0x6c25150, size 0x11c, virtual false, abstract: false, final false
   static inline bool TryLayoutByTiles(::UnityEngine::RectInt src, uint32_t tileSize, ::by_ref<::UnityEngine::RectInt> main, ::by_ref<::UnityEngine::RectInt> topRow,
                                       ::by_ref<::UnityEngine::RectInt> rightCol, ::by_ref<::UnityEngine::RectInt> topRight);
 

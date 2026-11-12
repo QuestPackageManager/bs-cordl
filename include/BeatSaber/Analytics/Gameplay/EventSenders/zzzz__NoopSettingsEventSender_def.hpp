@@ -35,23 +35,23 @@ public:
 
   static inline ::BeatSaber::Analytics::Gameplay::EventSenders::NoopSettingsEventSender* New_ctor();
 
-  /// @brief Method SendChange, addr 0x3504120, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SendChange, addr 0x3506560, size 0x4, virtual true, abstract: false, final true
   inline void
   SendChange(/* [TupleElementNames(new[] { "metricName", "value" })] [Nullable(new[] { 1, 0, 1 })] */ ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, float_t>>* metrics);
 
   /// [NullableContext(1)]
-  /// @brief Method SendColorsOverride, addr 0x3504124, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SendColorsOverride, addr 0x3506564, size 0x4, virtual true, abstract: false, final true
   inline void SendColorsOverride(::StringW configPayload);
 
   /// [NullableContext(1)]
-  /// @brief Method SendEnvironmentOverride, addr 0x3504128, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SendEnvironmentOverride, addr 0x3506568, size 0x4, virtual true, abstract: false, final true
   inline void SendEnvironmentOverride(::StringW configPayload);
 
-  /// @brief Method SendSnapshot, addr 0x3504118, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SendSnapshot, addr 0x3506558, size 0x8, virtual true, abstract: false, final true
   inline bool
   SendSnapshot(/* [TupleElementNames(new[] { "metricName", "value" })] [Nullable(new[] { 1, 0, 1 })] */ ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, float_t>>* metrics);
 
-  /// @brief Method .ctor, addr 0x3500f04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3503344, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender"
@@ -72,7 +72,7 @@ public:
   NoopSettingsEventSender(NoopSettingsEventSender const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22883 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22927 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

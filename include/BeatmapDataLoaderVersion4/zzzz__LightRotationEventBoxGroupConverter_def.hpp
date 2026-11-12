@@ -41,16 +41,16 @@ namespace BeatmapDataLoaderVersion4 {
 class CORDL_TYPE LightRotationEventBoxGroupConverter : public ::BeatmapDataLoaderVersion4::EventBoxGroupConverter {
 public:
   // Declarations
-  /// @brief Method ConvertEvents, addr 0x3a17c14, size 0x2d4, virtual true, abstract: false, final false
+  /// @brief Method ConvertEvents, addr 0x3a1cd48, size 0x2d4, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventDataBox* ConvertEvents(::BeatmapSaveDataVersion4::EventBox eventBox, ::GlobalNamespace::IndexFilter* indexFilter);
 
-  /// @brief Method GetGroupSize, addr 0x3a17b20, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method GetGroupSize, addr 0x3a1cc54, size 0xf4, virtual true, abstract: false, final false
   inline int32_t GetGroupSize(::GlobalNamespace::ILightGroup* lightGroup, ::BeatmapSaveDataVersion4::EventBox eventBox);
 
   static inline ::BeatmapDataLoaderVersion4::LightRotationEventBoxGroupConverter*
   New_ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups, ::GlobalNamespace::IBeatmapBoxConverter* boxConverter);
 
-  /// @brief Method .ctor, addr 0x3a16dc4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a1bef8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups, ::GlobalNamespace::IBeatmapBoxConverter* boxConverter);
 
 protected:
@@ -68,7 +68,7 @@ public:
   LightRotationEventBoxGroupConverter(LightRotationEventBoxGroupConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14921 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14929 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

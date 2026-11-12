@@ -238,30 +238,30 @@ public:
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityEngine::Rendering::ShaderDebugPrintManager* s_Instance;
 
-  /// @brief Method BufferReadComplete, addr 0x6bc3370, size 0x10c0, virtual false, abstract: false, final false
+  /// @brief Method BufferReadComplete, addr 0x6bc4450, size 0x10c0, virtual false, abstract: false, final false
   inline void BufferReadComplete(::UnityEngine::Rendering::AsyncGPUReadbackRequest request);
 
-  /// @brief Method ClearShaderDebugPrintBuffer, addr 0x6bc3278, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ClearShaderDebugPrintBuffer, addr 0x6bc4358, size 0xf8, virtual false, abstract: false, final false
   inline void ClearShaderDebugPrintBuffer();
 
-  /// @brief Method DebugValueTypeToElemSize, addr 0x6bc2cc0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method DebugValueTypeToElemSize, addr 0x6bc3da0, size 0x24, virtual false, abstract: false, final false
   inline int32_t DebugValueTypeToElemSize(::UnityEngine::Rendering::ShaderDebugPrintManager_DebugValueType type);
 
-  /// @brief Method DefaultOutput, addr 0x6bc45dc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method DefaultOutput, addr 0x6bc56bc, size 0x5c, virtual false, abstract: false, final false
   inline void DefaultOutput(::StringW line);
 
-  /// @brief Method EndFrame, addr 0x6bc4430, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method EndFrame, addr 0x6bc5510, size 0xc4, virtual false, abstract: false, final false
   inline void EndFrame();
 
   static inline ::UnityEngine::Rendering::ShaderDebugPrintManager* New_ctor();
 
-  /// @brief Method PrintImmediate, addr 0x6bc44f4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method PrintImmediate, addr 0x6bc55d4, size 0xd8, virtual false, abstract: false, final false
   inline void PrintImmediate();
 
-  /// @brief Method SetShaderDebugPrintBindings, addr 0x6bc3104, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method SetShaderDebugPrintBindings, addr 0x6bc41e4, size 0x174, virtual false, abstract: false, final false
   inline void SetShaderDebugPrintBindings(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method SetShaderDebugPrintInputConstants, addr 0x6bc3038, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SetShaderDebugPrintInputConstants, addr 0x6bc4118, size 0xcc, virtual false, abstract: false, final false
   inline void SetShaderDebugPrintInputConstants(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::ShaderDebugPrintInput input);
 
   constexpr ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* const& __cordl_internal_get_m_BufferReadCompleteAction() const;
@@ -306,7 +306,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ReadbackRequests(::System::Collections::Generic::List_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* value);
 
-  /// @brief Method .ctor, addr 0x6bc2ce4, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bc3dc4, size 0x2f8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_m_ShaderPropertyIDInputFrame();
@@ -317,10 +317,10 @@ public:
 
   static inline ::UnityEngine::Rendering::ShaderDebugPrintManager* getStaticF_s_Instance();
 
-  /// @brief Method get_instance, addr 0x6bc2fdc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x6bc40bc, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::ShaderDebugPrintManager* get_instance();
 
-  /// @brief Method get_outputLine, addr 0x6bc45cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_outputLine, addr 0x6bc56ac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_outputLine();
 
   static inline void setStaticF_m_ShaderPropertyIDInputFrame(int32_t value);
@@ -331,7 +331,7 @@ public:
 
   static inline void setStaticF_s_Instance(::UnityEngine::Rendering::ShaderDebugPrintManager* value);
 
-  /// @brief Method set_outputAction, addr 0x6bc45d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_outputAction, addr 0x6bc56b4, size 0x8, virtual false, abstract: false, final false
   inline void set_outputAction(::System::Action_1<::StringW>* value);
 
 protected:

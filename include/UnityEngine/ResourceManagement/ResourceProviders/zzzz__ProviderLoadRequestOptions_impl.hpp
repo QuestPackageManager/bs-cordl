@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     &::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions_SerializationAdatapter::
         UnityEngine_ResourceManagement_Util_BinaryStorageBuffer_ISerializationAdapter_get_Dependencies)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d85454;
+  constexpr static std::size_t addrs = 0x6d86534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (
     &::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions_SerializationAdatapter::
         UnityEngine_ResourceManagement_Util_BinaryStorageBuffer_ISerializationAdapter_Deserialize)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6d8545c;
+  constexpr static std::size_t addrs = 0x6d8653c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::
     ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*, ::System::Object*)>(&::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions_SerializationAdatapter::
                                                                                                   UnityEngine_ResourceManagement_Util_BinaryStorageBuffer_ISerializationAdapter_Serialize)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6d85538;
+  constexpr static std::size_t addrs = 0x6d86618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions_SerializationAdatapter::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions_SerializationAdatapter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d85620;
+  constexpr static std::size_t addrs = 0x6d86700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions* (
     ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::*)()>(&::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::Copy)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6d853a0;
+  constexpr static std::size_t addrs = 0x6d86480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::get_IgnoreFailures)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d85420;
+  constexpr static std::size_t addrs = 0x6d86500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::*)(bool)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::set_IgnoreFailures)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d85428;
+  constexpr static std::size_t addrs = 0x6d86508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>(),
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::get_WebRequestTimeout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d85430;
+  constexpr static std::size_t addrs = 0x6d86510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::*)(int32_t)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::set_WebRequestTimeout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d85438;
+  constexpr static std::size_t addrs = 0x6d86518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>(),
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::get_LocalCachePath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d85440;
+  constexpr static std::size_t addrs = 0x6d86520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::*)(::StringW)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::set_LocalCachePath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d85448;
+  constexpr static std::size_t addrs = 0x6d86528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>(),
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d85450;
+  constexpr static std::size_t addrs = 0x6d86530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

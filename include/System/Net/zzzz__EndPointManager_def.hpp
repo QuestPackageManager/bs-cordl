@@ -36,28 +36,28 @@ public:
   /// @brief Field ip_to_endpoints, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ip_to_endpoints, put = setStaticF_ip_to_endpoints)) ::System::Collections::Hashtable* ip_to_endpoints;
 
-  /// @brief Method AddListener, addr 0x6894a4c, size 0x570, virtual false, abstract: false, final false
+  /// @brief Method AddListener, addr 0x689509c, size 0x570, virtual false, abstract: false, final false
   static inline void AddListener(::System::Net::HttpListener* listener);
 
-  /// @brief Method AddPrefix, addr 0x68952ec, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method AddPrefix, addr 0x689593c, size 0x120, virtual false, abstract: false, final false
   static inline void AddPrefix(::StringW prefix, ::System::Net::HttpListener* listener);
 
-  /// @brief Method AddPrefixInternal, addr 0x689505c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method AddPrefixInternal, addr 0x68956ac, size 0x170, virtual false, abstract: false, final false
   static inline void AddPrefixInternal(::StringW p, ::System::Net::HttpListener* listener);
 
-  /// @brief Method GetEPListener, addr 0x689540c, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method GetEPListener, addr 0x6895a5c, size 0x3b8, virtual false, abstract: false, final false
   static inline ::System::Net::EndPointListener* GetEPListener(::StringW host, int32_t port, ::System::Net::HttpListener* listener, bool secure);
 
-  /// @brief Method RemoveEndPoint, addr 0x6893cd4, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method RemoveEndPoint, addr 0x6894324, size 0x254, virtual false, abstract: false, final false
   static inline void RemoveEndPoint(::System::Net::EndPointListener* epl, ::System::Net::IPEndPoint* ep);
 
-  /// @brief Method RemoveListener, addr 0x68957c4, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method RemoveListener, addr 0x6895e14, size 0x338, virtual false, abstract: false, final false
   static inline void RemoveListener(::System::Net::HttpListener* listener);
 
-  /// @brief Method RemovePrefix, addr 0x68951cc, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method RemovePrefix, addr 0x689581c, size 0x120, virtual false, abstract: false, final false
   static inline void RemovePrefix(::StringW prefix, ::System::Net::HttpListener* listener);
 
-  /// @brief Method RemovePrefixInternal, addr 0x6895afc, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method RemovePrefixInternal, addr 0x689614c, size 0x130, virtual false, abstract: false, final false
   static inline void RemovePrefixInternal(::StringW prefix, ::System::Net::HttpListener* listener);
 
   static inline ::System::Collections::Hashtable* getStaticF_ip_to_endpoints();

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::Enumeration::FileSystemEnumerableFactory___c__DisplayClass3_0::*)()>(
     &::System::IO::Enumeration::FileSystemEnumerableFactory___c__DisplayClass3_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x607959c;
+  constexpr static std::size_t addrs = 0x6079824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::IO::Enumeration::FileSystemEnumerableFactory___c__DisplayClass3_0::*)(::by_ref<::System::IO::Enumeration::FileSystemEntry>)>(
     &::System::IO::Enumeration::FileSystemEnumerableFactory___c__DisplayClass3_0::_UserFiles_b__1)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x60799e8;
+  constexpr static std::size_t addrs = 0x6079c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Enumeration::FileSystemEnumerableFactory___c__DisplayClass3_0*>(),
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::Enumeration::FileSystemEnumerableFactory___c::*)()>(&::System::IO::Enumeration::FileSystemEnumerableFactory___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6079ae0;
+  constexpr static std::size_t addrs = 0x6079d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Enumeration::FileSystemEnumerableFactory___c*>(), { ".ctor", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::IO::Enumeration::FileSystemEnumerableFactory___c::*)(::by_ref<::System::IO::Enumeration::FileSystemEntry>)>(
     &::System::IO::Enumeration::FileSystemEnumerableFactory___c::_UserFiles_b__3_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6079ae4;
+  constexpr static std::size_t addrs = 0x6079d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Enumeration::FileSystemEnumerableFactory___c*>(),
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::IO::Enumeration::FileSystemEnumerableFactory___c::*)(::by_ref<::System::IO::Enumeration::FileSystemEntry>)>(
     &::System::IO::Enumeration::FileSystemEnumerableFactory___c::_UserDirectories_b__4_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6079aec;
+  constexpr static std::size_t addrs = 0x6079d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::IO::Enumeration::FileSystemEnumerableFactory___c::*)(::by_ref<::System::IO::Enumeration::FileSystemEntry>)>(
     &::System::IO::Enumeration::FileSystemEnumerableFactory___c::_UserEntries_b__5_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6079af4;
+  constexpr static std::size_t addrs = 0x6079d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Enumeration::FileSystemEnumerableFactory___c*>(),
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::Enumeration::FileSystemEnumerableFactory___c__DisplayClass4_0::*)()>(
     &::System::IO::Enumeration::FileSystemEnumerableFactory___c__DisplayClass4_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6079774;
+  constexpr static std::size_t addrs = 0x60799fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::IO::Enumeration::FileSystemEnumerableFactory___c__DisplayClass4_0::*)(::by_ref<::System::IO::Enumeration::FileSystemEntry>)>(
     &::System::IO::Enumeration::FileSystemEnumerableFactory___c__DisplayClass4_0::_UserDirectories_b__1)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6079afc;
+  constexpr static std::size_t addrs = 0x6079d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::Enumeration::FileSystemEnumerableFactory___c__DisplayClass5_0::*)()>(
     &::System::IO::Enumeration::FileSystemEnumerableFactory___c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x607994c;
+  constexpr static std::size_t addrs = 0x6079bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::IO::Enumeration::FileSystemEnumerableFactory___c__DisplayClass5_0::*)(::by_ref<::System::IO::Enumeration::FileSystemEntry>)>(
     &::System::IO::Enumeration::FileSystemEnumerableFactory___c__DisplayClass5_0::_UserEntries_b__1)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6079ba0;
+  constexpr static std::size_t addrs = 0x6079e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Enumeration::FileSystemEnumerableFactory___c__DisplayClass5_0*>(),
@@ -324,7 +324,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::StringW>, ::by_ref<::StringW>, ::System::IO::EnumerationOptions*)>(
     &::System::IO::Enumeration::FileSystemEnumerableFactory::NormalizeInputs)> {
   constexpr static std::size_t size = 0x494;
-  constexpr static std::size_t addrs = 0x6078840;
+  constexpr static std::size_t addrs = 0x6078ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -340,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::System::ReadOnlySpan_1<char16_t>, ::System::IO::EnumerationOptions*)>(
     &::System::IO::Enumeration::FileSystemEnumerableFactory::MatchesPattern)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x6079084;
+  constexpr static std::size_t addrs = 0x607930c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -356,7 +356,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (*)(::StringW, ::StringW, ::System::IO::EnumerationOptions*)>(
     &::System::IO::Enumeration::FileSystemEnumerableFactory::UserFiles)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x60793c8;
+  constexpr static std::size_t addrs = 0x6079650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -371,7 +371,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (*)(::StringW, ::StringW, ::System::IO::EnumerationOptions*)>(
     &::System::IO::Enumeration::FileSystemEnumerableFactory::UserDirectories)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x60795a0;
+  constexpr static std::size_t addrs = 0x6079828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -386,7 +386,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (*)(::StringW, ::StringW, ::System::IO::EnumerationOptions*)>(
     &::System::IO::Enumeration::FileSystemEnumerableFactory::UserEntries)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x6079778;
+  constexpr static std::size_t addrs = 0x6079a00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass_PassData::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d611c8;
+  constexpr static std::size_t addrs = 0x6d622a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass___c::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d61220;
+  constexpr static std::size_t addrs = 0x6d62300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass___c::_Render_b__29_0)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6d61224;
+  constexpr static std::size_t addrs = 0x6d62304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass___c*>(),
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass::OnCameraSetup)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d5fdb0;
+  constexpr static std::size_t addrs = 0x6d60e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass*>(),
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass::*)(
     ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass::Execute)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d5fdb4;
+  constexpr static std::size_t addrs = 0x6d60e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass*>(),
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* (
     ::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass::*)()>(&::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass::get_shaderTagIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d5fdb8;
+  constexpr static std::size_t addrs = 0x6d60e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>*)>(&::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass::set_shaderTagIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d5fdc0;
+  constexpr static std::size_t addrs = 0x6d60ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass::get_enableRenderingLayers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d5fdc8;
+  constexpr static std::size_t addrs = 0x6d60ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass::*)(bool)>(
     &::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass::set_enableRenderingLayers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d5fdd0;
+  constexpr static std::size_t addrs = 0x6d60eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize (::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass::get_renderingLayersMaskSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d5fdd8;
+  constexpr static std::size_t addrs = 0x6d60eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass::*)(::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize)>(
     &::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass::set_renderingLayersMaskSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d5fde0;
+  constexpr static std::size_t addrs = 0x6d60ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -285,7 +285,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::Universal::RenderPassEvent, ::UnityEngine::Rendering::RenderQueueRange, ::UnityEngine::LayerMask)>(
     &::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass::_ctor)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6d5fde8;
+  constexpr static std::size_t addrs = 0x6d60ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -303,7 +303,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::Rendering::GraphicsFormat (*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass::GetGraphicsFormat)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6d5fef8;
+  constexpr static std::size_t addrs = 0x6d60fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -317,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass::*)(
     ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*)>(&::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass::Setup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d5ff7c;
+  constexpr static std::size_t addrs = 0x6d6105c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass::*)(
     ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*)>(&::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass::Setup)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6d5ff84;
+  constexpr static std::size_t addrs = 0x6d61064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass_PassData*,
                                                                 ::UnityEngine::Rendering::RendererList)>(&::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass::ExecutePass)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6d5ff90;
+  constexpr static std::size_t addrs = 0x6d61070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass*>(),
@@ -367,7 +367,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass::*)(::UnityEngine::Rendering::CommandBuffer*)>(
     &::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass::OnCameraCleanup)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6d60098;
+  constexpr static std::size_t addrs = 0x6d61178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass*>(),
@@ -382,7 +382,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::UnityEngine::Rendering::Universal::UniversalRenderingData*, ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::UnityEngine::Rendering::Universal::UniversalLightData*)>(
     &::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass::InitRendererListParams)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x6d60154;
+  constexpr static std::size_t addrs = 0x6d61234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass*>(),
@@ -402,7 +402,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>, uint32_t, bool, bool, bool)>(
     &::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass::Render)> {
   constexpr static std::size_t size = 0xc28;
-  constexpr static std::size_t addrs = 0x6d602d0;
+  constexpr static std::size_t addrs = 0x6d613b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

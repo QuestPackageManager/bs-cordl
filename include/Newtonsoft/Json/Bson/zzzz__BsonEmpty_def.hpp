@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::Newtonsoft::Json::Bson::BsonType value);
 
-  /// @brief Method .ctor, addr 0x6204d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6204f88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Bson::BsonType type);
 
   static inline ::Newtonsoft::Json::Bson::BsonToken* getStaticF_Null();
@@ -53,7 +53,7 @@ public:
   static inline ::Newtonsoft::Json::Bson::BsonToken* getStaticF_Undefined();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Type, addr 0x6204d08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x6204f90, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
   static inline void setStaticF_Null(::Newtonsoft::Json::Bson::BsonToken* value);

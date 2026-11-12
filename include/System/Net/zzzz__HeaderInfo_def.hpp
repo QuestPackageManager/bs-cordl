@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_Parser(::System::Net::HeaderParser* value);
 
-  /// @brief Method .ctor, addr 0x687a6fc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x687ad4c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, ::System::Net::HeaderParser* p);
 
 protected:

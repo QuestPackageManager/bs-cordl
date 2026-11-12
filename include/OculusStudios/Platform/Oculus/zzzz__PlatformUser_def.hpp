@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "OculusStudios/Platform/Core/zzzz__UserAgeCategory_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cmath>
@@ -41,25 +40,25 @@ namespace OculusStudios::Platform::Core {
 struct UserAgeCategory;
 }
 namespace OculusStudios::Platform::Oculus {
-struct PlatformUser__GetAccessTokenAsync_d__11;
+struct PlatformUser__GetAccessTokenAsync_d__12;
 }
 namespace OculusStudios::Platform::Oculus {
-struct PlatformUser__GetAgeCategoryAsync_d__15;
+struct PlatformUser__GetAgeCategoryInternalAsync_d__17;
 }
 namespace OculusStudios::Platform::Oculus {
-struct PlatformUser__GetUnlockedAchievementIdsAsync_d__19;
+struct PlatformUser__GetUnlockedAchievementIdsAsync_d__21;
 }
 namespace OculusStudios::Platform::Oculus {
-struct PlatformUser__InternalGetAccessTokenAsync_d__12;
+struct PlatformUser__InternalGetAccessTokenAsync_d__13;
 }
 namespace OculusStudios::Platform::Oculus {
-struct PlatformUser__IsAchievementUnlockedAsync_d__18;
+struct PlatformUser__IsAchievementUnlockedAsync_d__20;
 }
 namespace OculusStudios::Platform::Oculus {
-class PlatformUser___c__DisplayClass17_0;
+class PlatformUser___c__DisplayClass19_0;
 }
 namespace OculusStudios::Platform::Oculus {
-class PlatformUser___c__DisplayClass18_0;
+class PlatformUser___c__DisplayClass20_0;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
@@ -81,57 +80,57 @@ namespace OculusStudios::Platform::Oculus {
 class PlatformUser;
 }
 namespace OculusStudios::Platform::Oculus {
-class PlatformUser___c__DisplayClass17_0;
+class PlatformUser___c__DisplayClass19_0;
 }
 namespace OculusStudios::Platform::Oculus {
-class PlatformUser___c__DisplayClass18_0;
+class PlatformUser___c__DisplayClass20_0;
 }
 namespace OculusStudios::Platform::Oculus {
-struct PlatformUser__GetAccessTokenAsync_d__11;
+struct PlatformUser__GetAccessTokenAsync_d__12;
 }
 namespace OculusStudios::Platform::Oculus {
-struct PlatformUser__GetAgeCategoryAsync_d__15;
+struct PlatformUser__GetAgeCategoryInternalAsync_d__17;
 }
 namespace OculusStudios::Platform::Oculus {
-struct PlatformUser__GetUnlockedAchievementIdsAsync_d__19;
+struct PlatformUser__GetUnlockedAchievementIdsAsync_d__21;
 }
 namespace OculusStudios::Platform::Oculus {
-struct PlatformUser__InternalGetAccessTokenAsync_d__12;
+struct PlatformUser__InternalGetAccessTokenAsync_d__13;
 }
 namespace OculusStudios::Platform::Oculus {
-struct PlatformUser__IsAchievementUnlockedAsync_d__18;
+struct PlatformUser__IsAchievementUnlockedAsync_d__20;
 }
 // Write type traits
 MARK_REF_T(::OculusStudios::Platform::Oculus::PlatformUser*);
-MARK_REF_T(::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass17_0*);
-MARK_REF_T(::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass18_0*);
-MARK_VAL_T(::OculusStudios::Platform::Oculus::PlatformUser__GetAccessTokenAsync_d__11);
-MARK_VAL_T(::OculusStudios::Platform::Oculus::PlatformUser__GetAgeCategoryAsync_d__15);
-MARK_VAL_T(::OculusStudios::Platform::Oculus::PlatformUser__GetUnlockedAchievementIdsAsync_d__19);
-MARK_VAL_T(::OculusStudios::Platform::Oculus::PlatformUser__InternalGetAccessTokenAsync_d__12);
-MARK_VAL_T(::OculusStudios::Platform::Oculus::PlatformUser__IsAchievementUnlockedAsync_d__18);
+MARK_REF_T(::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass19_0*);
+MARK_REF_T(::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass20_0*);
+MARK_VAL_T(::OculusStudios::Platform::Oculus::PlatformUser__GetAccessTokenAsync_d__12);
+MARK_VAL_T(::OculusStudios::Platform::Oculus::PlatformUser__GetAgeCategoryInternalAsync_d__17);
+MARK_VAL_T(::OculusStudios::Platform::Oculus::PlatformUser__GetUnlockedAchievementIdsAsync_d__21);
+MARK_VAL_T(::OculusStudios::Platform::Oculus::PlatformUser__InternalGetAccessTokenAsync_d__13);
+MARK_VAL_T(::OculusStudios::Platform::Oculus::PlatformUser__IsAchievementUnlockedAsync_d__20);
 DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Oculus::PlatformUser*, "OculusStudios.Platform.Oculus", "PlatformUser");
-DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass17_0*, "OculusStudios.Platform.Oculus", "PlatformUser/<>c__DisplayClass17_0");
-DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass18_0*, "OculusStudios.Platform.Oculus", "PlatformUser/<>c__DisplayClass18_0");
-DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Oculus::PlatformUser__GetAccessTokenAsync_d__11, "OculusStudios.Platform.Oculus", "PlatformUser/<GetAccessTokenAsync>d__11");
-DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Oculus::PlatformUser__GetAgeCategoryAsync_d__15, "OculusStudios.Platform.Oculus", "PlatformUser/<GetAgeCategoryAsync>d__15");
-DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Oculus::PlatformUser__GetUnlockedAchievementIdsAsync_d__19, "OculusStudios.Platform.Oculus", "PlatformUser/<GetUnlockedAchievementIdsAsync>d__19");
-DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Oculus::PlatformUser__InternalGetAccessTokenAsync_d__12, "OculusStudios.Platform.Oculus", "PlatformUser/<InternalGetAccessTokenAsync>d__12");
-DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Oculus::PlatformUser__IsAchievementUnlockedAsync_d__18, "OculusStudios.Platform.Oculus", "PlatformUser/<IsAchievementUnlockedAsync>d__18");
+DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass19_0*, "OculusStudios.Platform.Oculus", "PlatformUser/<>c__DisplayClass19_0");
+DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass20_0*, "OculusStudios.Platform.Oculus", "PlatformUser/<>c__DisplayClass20_0");
+DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Oculus::PlatformUser__GetAccessTokenAsync_d__12, "OculusStudios.Platform.Oculus", "PlatformUser/<GetAccessTokenAsync>d__12");
+DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Oculus::PlatformUser__GetAgeCategoryInternalAsync_d__17, "OculusStudios.Platform.Oculus", "PlatformUser/<GetAgeCategoryInternalAsync>d__17");
+DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Oculus::PlatformUser__GetUnlockedAchievementIdsAsync_d__21, "OculusStudios.Platform.Oculus", "PlatformUser/<GetUnlockedAchievementIdsAsync>d__21");
+DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Oculus::PlatformUser__InternalGetAccessTokenAsync_d__13, "OculusStudios.Platform.Oculus", "PlatformUser/<InternalGetAccessTokenAsync>d__13");
+DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Oculus::PlatformUser__IsAchievementUnlockedAsync_d__20, "OculusStudios.Platform.Oculus", "PlatformUser/<IsAchievementUnlockedAsync>d__20");
 // [CompilerGenerated]
 // Dependencies System.Object
 namespace OculusStudios::Platform::Oculus {
 // Is value type: false
-// CS Name: OculusStudios.Platform.Oculus.PlatformUser/<>c__DisplayClass17_0
-class CORDL_TYPE PlatformUser___c__DisplayClass17_0 : public ::System::Object {
+// CS Name: OculusStudios.Platform.Oculus.PlatformUser/<>c__DisplayClass19_0
+class CORDL_TYPE PlatformUser___c__DisplayClass19_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field achievementId, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_achievementId, put = __cordl_internal_set_achievementId)) ::StringW achievementId;
 
-  static inline ::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass17_0* New_ctor();
+  static inline ::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass19_0* New_ctor();
 
-  /// @brief Method <UnlockAchievement>b__0, addr 0x638d3d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <UnlockAchievement>b__0, addr 0x638d870, size 0x10, virtual false, abstract: false, final false
   inline bool _UnlockAchievement_b__0(::StringW x);
 
   constexpr ::StringW const& __cordl_internal_get_achievementId() const;
@@ -140,25 +139,25 @@ public:
 
   constexpr void __cordl_internal_set_achievementId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x638d204, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x638d6a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr PlatformUser___c__DisplayClass17_0();
+  constexpr PlatformUser___c__DisplayClass19_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformUser___c__DisplayClass17_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformUser___c__DisplayClass19_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  PlatformUser___c__DisplayClass17_0(PlatformUser___c__DisplayClass17_0&&) = delete;
+  PlatformUser___c__DisplayClass19_0(PlatformUser___c__DisplayClass19_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformUser___c__DisplayClass17_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformUser___c__DisplayClass19_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformUser___c__DisplayClass17_0(PlatformUser___c__DisplayClass17_0 const&) = delete;
+  PlatformUser___c__DisplayClass19_0(PlatformUser___c__DisplayClass19_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23093 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23034 };
 
   /// @brief Field achievementId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___achievementId;
@@ -166,28 +165,28 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass17_0, ___achievementId) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass19_0, ___achievementId) == 0x10, "Offset mismatch!");
 
-static_assert(sizeof(::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass17_0) == 0x18, "Size mismatch!");
+static_assert(sizeof(::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass19_0) == 0x18, "Size mismatch!");
 
 } // namespace OculusStudios::Platform::Oculus
 // [CompilerGenerated]
 // Dependencies System.Object
 namespace OculusStudios::Platform::Oculus {
 // Is value type: false
-// CS Name: OculusStudios.Platform.Oculus.PlatformUser/<>c__DisplayClass18_0
-class CORDL_TYPE PlatformUser___c__DisplayClass18_0 : public ::System::Object {
+// CS Name: OculusStudios.Platform.Oculus.PlatformUser/<>c__DisplayClass20_0
+class CORDL_TYPE PlatformUser___c__DisplayClass20_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field achievementId, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_achievementId, put = __cordl_internal_set_achievementId)) ::StringW achievementId;
 
-  static inline ::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass18_0* New_ctor();
+  static inline ::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass20_0* New_ctor();
 
-  /// @brief Method <IsAchievementUnlockedAsync>b__0, addr 0x638d3e8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <IsAchievementUnlockedAsync>b__0, addr 0x638d884, size 0x10, virtual false, abstract: false, final false
   inline bool _IsAchievementUnlockedAsync_b__0(::StringW x);
 
-  /// @brief Method <IsAchievementUnlockedAsync>b__1, addr 0x638d3f8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <IsAchievementUnlockedAsync>b__1, addr 0x638d894, size 0x40, virtual false, abstract: false, final false
   inline bool _IsAchievementUnlockedAsync_b__1(::Oculus::Platform::Models::AchievementProgress* x);
 
   constexpr ::StringW const& __cordl_internal_get_achievementId() const;
@@ -196,25 +195,25 @@ public:
 
   constexpr void __cordl_internal_set_achievementId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x638d3e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x638d880, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr PlatformUser___c__DisplayClass18_0();
+  constexpr PlatformUser___c__DisplayClass20_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformUser___c__DisplayClass18_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformUser___c__DisplayClass20_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  PlatformUser___c__DisplayClass18_0(PlatformUser___c__DisplayClass18_0&&) = delete;
+  PlatformUser___c__DisplayClass20_0(PlatformUser___c__DisplayClass20_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformUser___c__DisplayClass18_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformUser___c__DisplayClass20_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformUser___c__DisplayClass18_0(PlatformUser___c__DisplayClass18_0 const&) = delete;
+  PlatformUser___c__DisplayClass20_0(PlatformUser___c__DisplayClass20_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23094 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23035 };
 
   /// @brief Field achievementId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___achievementId;
@@ -222,27 +221,27 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass18_0, ___achievementId) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass20_0, ___achievementId) == 0x10, "Offset mismatch!");
 
-static_assert(sizeof(::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass18_0) == 0x18, "Size mismatch!");
+static_assert(sizeof(::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass20_0) == 0x18, "Size mismatch!");
 
 } // namespace OculusStudios::Platform::Oculus
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace OculusStudios::Platform::Oculus {
 // Is value type: true
-// CS Name: OculusStudios.Platform.Oculus.PlatformUser/<GetAccessTokenAsync>d__11
-struct CORDL_TYPE PlatformUser__GetAccessTokenAsync_d__11 {
+// CS Name: OculusStudios.Platform.Oculus.PlatformUser/<GetAccessTokenAsync>d__12
+struct CORDL_TYPE PlatformUser__GetAccessTokenAsync_d__12 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x638d438, size 0x314, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x638d8d4, size 0x314, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x638d74c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x638dbe8, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -250,17 +249,17 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr PlatformUser__GetAccessTokenAsync_d__11();
+  constexpr PlatformUser__GetAccessTokenAsync_d__12();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
   // "::OculusStudios::Platform::Oculus::PlatformUser*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None, comment: None }]
-  constexpr PlatformUser__GetAccessTokenAsync_d__11(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder,
+  constexpr PlatformUser__GetAccessTokenAsync_d__12(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder,
                                                     ::OculusStudios::Platform::Oculus::PlatformUser* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23095 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23036 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -280,33 +279,33 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__GetAccessTokenAsync_d__11, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__GetAccessTokenAsync_d__12, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__GetAccessTokenAsync_d__11, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__GetAccessTokenAsync_d__12, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__GetAccessTokenAsync_d__11, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__GetAccessTokenAsync_d__12, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__GetAccessTokenAsync_d__11, __u__1) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__GetAccessTokenAsync_d__12, __u__1) == 0x28, "Offset mismatch!");
 
-static_assert(sizeof(::OculusStudios::Platform::Oculus::PlatformUser__GetAccessTokenAsync_d__11) == 0x30, "Size mismatch!");
+static_assert(sizeof(::OculusStudios::Platform::Oculus::PlatformUser__GetAccessTokenAsync_d__12) == 0x30, "Size mismatch!");
 
 } // namespace OculusStudios::Platform::Oculus
 // [CompilerGenerated]
 // Dependencies OculusStudios.Platform.Core.UserAgeCategory, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace OculusStudios::Platform::Oculus {
 // Is value type: true
-// CS Name: OculusStudios.Platform.Oculus.PlatformUser/<GetAgeCategoryAsync>d__15
-struct CORDL_TYPE PlatformUser__GetAgeCategoryAsync_d__15 {
+// CS Name: OculusStudios.Platform.Oculus.PlatformUser/<GetAgeCategoryInternalAsync>d__17
+struct CORDL_TYPE PlatformUser__GetAgeCategoryInternalAsync_d__17 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x638d7cc, size 0x38c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x638dc68, size 0x38c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x638db58, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x638dff4, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -314,17 +313,17 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr PlatformUser__GetAgeCategoryAsync_d__15();
+  constexpr PlatformUser__GetAgeCategoryInternalAsync_d__17();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::Platform::Core::UserAgeCategory>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserAccountAgeCategory*>*>", modifiers: "", def_value: None, comment: None }]
-  constexpr PlatformUser__GetAgeCategoryAsync_d__15(
+  constexpr PlatformUser__GetAgeCategoryInternalAsync_d__17(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::Platform::Core::UserAgeCategory> __t__builder,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserAccountAgeCategory*>*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23096 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23037 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -341,31 +340,31 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__GetAgeCategoryAsync_d__15, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__GetAgeCategoryInternalAsync_d__17, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__GetAgeCategoryAsync_d__15, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__GetAgeCategoryInternalAsync_d__17, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__GetAgeCategoryAsync_d__15, __u__1) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__GetAgeCategoryInternalAsync_d__17, __u__1) == 0x20, "Offset mismatch!");
 
-static_assert(sizeof(::OculusStudios::Platform::Oculus::PlatformUser__GetAgeCategoryAsync_d__15) == 0x28, "Size mismatch!");
+static_assert(sizeof(::OculusStudios::Platform::Oculus::PlatformUser__GetAgeCategoryInternalAsync_d__17) == 0x28, "Size mismatch!");
 
 } // namespace OculusStudios::Platform::Oculus
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace OculusStudios::Platform::Oculus {
 // Is value type: true
-// CS Name: OculusStudios.Platform.Oculus.PlatformUser/<GetUnlockedAchievementIdsAsync>d__19
-struct CORDL_TYPE PlatformUser__GetUnlockedAchievementIdsAsync_d__19 {
+// CS Name: OculusStudios.Platform.Oculus.PlatformUser/<GetUnlockedAchievementIdsAsync>d__21
+struct CORDL_TYPE PlatformUser__GetUnlockedAchievementIdsAsync_d__21 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x638dbd8, size 0x6e4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x638e074, size 0x6e4, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x638e2bc, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x638e758, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -373,19 +372,19 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr PlatformUser__GetUnlockedAchievementIdsAsync_d__19();
+  constexpr PlatformUser__GetUnlockedAchievementIdsAsync_d__21();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::IReadOnlyCollection_1<::StringW>*>", modifiers: "", def_value: None, comment: None }, CppParam {
   // name: "__4__this", ty: "::OculusStudios::Platform::Oculus::PlatformUser*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementProgressList*>*>", modifiers: "", def_value: None, comment: None }]
-  constexpr PlatformUser__GetUnlockedAchievementIdsAsync_d__19(
+  constexpr PlatformUser__GetUnlockedAchievementIdsAsync_d__21(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::IReadOnlyCollection_1<::StringW>*> __t__builder,
       ::OculusStudios::Platform::Oculus::PlatformUser* __4__this,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementProgressList*>*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23097 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23038 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -405,33 +404,33 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__GetUnlockedAchievementIdsAsync_d__19, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__GetUnlockedAchievementIdsAsync_d__21, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__GetUnlockedAchievementIdsAsync_d__19, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__GetUnlockedAchievementIdsAsync_d__21, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__GetUnlockedAchievementIdsAsync_d__19, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__GetUnlockedAchievementIdsAsync_d__21, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__GetUnlockedAchievementIdsAsync_d__19, __u__1) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__GetUnlockedAchievementIdsAsync_d__21, __u__1) == 0x28, "Offset mismatch!");
 
-static_assert(sizeof(::OculusStudios::Platform::Oculus::PlatformUser__GetUnlockedAchievementIdsAsync_d__19) == 0x30, "Size mismatch!");
+static_assert(sizeof(::OculusStudios::Platform::Oculus::PlatformUser__GetUnlockedAchievementIdsAsync_d__21) == 0x30, "Size mismatch!");
 
 } // namespace OculusStudios::Platform::Oculus
 // [CompilerGenerated]
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace OculusStudios::Platform::Oculus {
 // Is value type: true
-// CS Name: OculusStudios.Platform.Oculus.PlatformUser/<InternalGetAccessTokenAsync>d__12
-struct CORDL_TYPE PlatformUser__InternalGetAccessTokenAsync_d__12 {
+// CS Name: OculusStudios.Platform.Oculus.PlatformUser/<InternalGetAccessTokenAsync>d__13
+struct CORDL_TYPE PlatformUser__InternalGetAccessTokenAsync_d__13 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x638e33c, size 0x784, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x638e7d8, size 0x844, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x638eac0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x638f01c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -439,22 +438,24 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr PlatformUser__InternalGetAccessTokenAsync_d__12();
+  constexpr PlatformUser__InternalGetAccessTokenAsync_d__13();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
   // "::OculusStudios::Platform::Oculus::PlatformUser*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_messageTask_5__2", ty:
   // "::System::Threading::Tasks::Task_1<::Oculus::Platform::Message_1<::StringW>*>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_timeoutTask_5__3", ty:
-  // "::System::Threading::Tasks::Task*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_completedFirst_5__4", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value:
-  // None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
-  constexpr PlatformUser__InternalGetAccessTokenAsync_d__12(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder,
+  // "::System::Threading::Tasks::Task*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::StringW>*>", modifiers: "", def_value: None, comment: None }]
+  constexpr PlatformUser__InternalGetAccessTokenAsync_d__13(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder,
                                                             ::OculusStudios::Platform::Oculus::PlatformUser* __4__this,
                                                             ::System::Threading::Tasks::Task_1<::Oculus::Platform::Message_1<::StringW>*>* _messageTask_5__2,
-                                                            ::System::Threading::Tasks::Task* _timeoutTask_5__3, ::System::Threading::Tasks::Task* _completedFirst_5__4,
-                                                            ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+                                                            ::System::Threading::Tasks::Task* _timeoutTask_5__3,
+                                                            ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task*> __u__1,
+                                                            ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::StringW>*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23098 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23039 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -474,48 +475,48 @@ public:
   /// @brief Field <timeoutTask>5__3, offset: 0x30, size: 0x8, def value: None
   ::System::Threading::Tasks::Task* _timeoutTask_5__3;
 
-  /// @brief Field <completedFirst>5__4, offset: 0x38, size: 0x8, def value: None
-  ::System::Threading::Tasks::Task* _completedFirst_5__4;
+  /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task*> __u__1;
 
-  /// @brief Field <>u__1, offset: 0x40, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
+  /// @brief Field <>u__2, offset: 0x40, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::StringW>*> __u__2;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__InternalGetAccessTokenAsync_d__12, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__InternalGetAccessTokenAsync_d__13, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__InternalGetAccessTokenAsync_d__12, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__InternalGetAccessTokenAsync_d__13, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__InternalGetAccessTokenAsync_d__12, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__InternalGetAccessTokenAsync_d__13, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__InternalGetAccessTokenAsync_d__12, _messageTask_5__2) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__InternalGetAccessTokenAsync_d__13, _messageTask_5__2) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__InternalGetAccessTokenAsync_d__12, _timeoutTask_5__3) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__InternalGetAccessTokenAsync_d__13, _timeoutTask_5__3) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__InternalGetAccessTokenAsync_d__12, _completedFirst_5__4) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__InternalGetAccessTokenAsync_d__13, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__InternalGetAccessTokenAsync_d__12, __u__1) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__InternalGetAccessTokenAsync_d__13, __u__2) == 0x40, "Offset mismatch!");
 
-static_assert(sizeof(::OculusStudios::Platform::Oculus::PlatformUser__InternalGetAccessTokenAsync_d__12) == 0x48, "Size mismatch!");
+static_assert(sizeof(::OculusStudios::Platform::Oculus::PlatformUser__InternalGetAccessTokenAsync_d__13) == 0x48, "Size mismatch!");
 
 } // namespace OculusStudios::Platform::Oculus
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace OculusStudios::Platform::Oculus {
 // Is value type: true
-// CS Name: OculusStudios.Platform.Oculus.PlatformUser/<IsAchievementUnlockedAsync>d__18
-struct CORDL_TYPE PlatformUser__IsAchievementUnlockedAsync_d__18 {
+// CS Name: OculusStudios.Platform.Oculus.PlatformUser/<IsAchievementUnlockedAsync>d__20
+struct CORDL_TYPE PlatformUser__IsAchievementUnlockedAsync_d__20 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x638eb40, size 0x51c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x638f09c, size 0x51c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x638f05c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x638f5b8, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -523,20 +524,20 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr PlatformUser__IsAchievementUnlockedAsync_d__18();
+  constexpr PlatformUser__IsAchievementUnlockedAsync_d__20();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "achievementId", ty: "::StringW", modifiers: "",
   // def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::OculusStudios::Platform::Oculus::PlatformUser*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__8__1",
-  // ty: "::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass18_0*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // ty: "::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass20_0*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementProgressList*>*>", modifiers: "", def_value: None, comment: None }]
-  constexpr PlatformUser__IsAchievementUnlockedAsync_d__18(
+  constexpr PlatformUser__IsAchievementUnlockedAsync_d__20(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::StringW achievementId, ::OculusStudios::Platform::Oculus::PlatformUser* __4__this,
-      ::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass18_0* __8__1,
+      ::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass20_0* __8__1,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementProgressList*>*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23040 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -554,7 +555,7 @@ public:
   ::OculusStudios::Platform::Oculus::PlatformUser* __4__this;
 
   /// @brief Field <>8__1, offset: 0x30, size: 0x8, def value: None
-  ::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass18_0* __8__1;
+  ::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass20_0* __8__1;
 
   /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementProgressList*>*> __u__1;
@@ -562,19 +563,19 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__IsAchievementUnlockedAsync_d__18, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__IsAchievementUnlockedAsync_d__20, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__IsAchievementUnlockedAsync_d__18, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__IsAchievementUnlockedAsync_d__20, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__IsAchievementUnlockedAsync_d__18, achievementId) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__IsAchievementUnlockedAsync_d__20, achievementId) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__IsAchievementUnlockedAsync_d__18, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__IsAchievementUnlockedAsync_d__20, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__IsAchievementUnlockedAsync_d__18, __8__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__IsAchievementUnlockedAsync_d__20, __8__1) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__IsAchievementUnlockedAsync_d__18, __u__1) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__IsAchievementUnlockedAsync_d__20, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(sizeof(::OculusStudios::Platform::Oculus::PlatformUser__IsAchievementUnlockedAsync_d__18) == 0x40, "Size mismatch!");
+static_assert(sizeof(::OculusStudios::Platform::Oculus::PlatformUser__IsAchievementUnlockedAsync_d__20) == 0x40, "Size mismatch!");
 
 } // namespace OculusStudios::Platform::Oculus
 // Dependencies System.Object
@@ -584,19 +585,19 @@ namespace OculusStudios::Platform::Oculus {
 class CORDL_TYPE PlatformUser : public ::System::Object {
 public:
   // Declarations
-  using _GetAccessTokenAsync_d__11 = ::OculusStudios::Platform::Oculus::PlatformUser__GetAccessTokenAsync_d__11;
+  using _GetAccessTokenAsync_d__12 = ::OculusStudios::Platform::Oculus::PlatformUser__GetAccessTokenAsync_d__12;
 
-  using _GetAgeCategoryAsync_d__15 = ::OculusStudios::Platform::Oculus::PlatformUser__GetAgeCategoryAsync_d__15;
+  using _GetAgeCategoryInternalAsync_d__17 = ::OculusStudios::Platform::Oculus::PlatformUser__GetAgeCategoryInternalAsync_d__17;
 
-  using _GetUnlockedAchievementIdsAsync_d__19 = ::OculusStudios::Platform::Oculus::PlatformUser__GetUnlockedAchievementIdsAsync_d__19;
+  using _GetUnlockedAchievementIdsAsync_d__21 = ::OculusStudios::Platform::Oculus::PlatformUser__GetUnlockedAchievementIdsAsync_d__21;
 
-  using _InternalGetAccessTokenAsync_d__12 = ::OculusStudios::Platform::Oculus::PlatformUser__InternalGetAccessTokenAsync_d__12;
+  using _InternalGetAccessTokenAsync_d__13 = ::OculusStudios::Platform::Oculus::PlatformUser__InternalGetAccessTokenAsync_d__13;
 
-  using _IsAchievementUnlockedAsync_d__18 = ::OculusStudios::Platform::Oculus::PlatformUser__IsAchievementUnlockedAsync_d__18;
+  using _IsAchievementUnlockedAsync_d__20 = ::OculusStudios::Platform::Oculus::PlatformUser__IsAchievementUnlockedAsync_d__20;
 
-  using __c__DisplayClass17_0 = ::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass17_0;
+  using __c__DisplayClass19_0 = ::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass19_0;
 
-  using __c__DisplayClass18_0 = ::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass18_0;
+  using __c__DisplayClass20_0 = ::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass20_0;
 
   /// @brief Field accessToken, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_accessToken, put = __cordl_internal_set_accessToken)) ::StringW accessToken;
@@ -604,6 +605,10 @@ public:
   /// @brief Field achievementIdDefinitions, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_achievementIdDefinitions,
                       put = __cordl_internal_set_achievementIdDefinitions)) ::System::Collections::Generic::HashSet_1<::StringW>* achievementIdDefinitions;
+
+  /// @brief Field ageCategoryTask, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_ageCategoryTask,
+                      put = __cordl_internal_set_ageCategoryTask)) ::System::Threading::Tasks::Task_1<::OculusStudios::Platform::Core::UserAgeCategory>* ageCategoryTask;
 
   __declspec(property(get = get_displayName)) ::StringW displayName;
 
@@ -622,41 +627,44 @@ public:
   /// @brief Convert operator to "::OculusStudios::Platform::Core::IPlatformUser"
   constexpr operator ::OculusStudios::Platform::Core::IPlatformUser*() noexcept;
 
-  /// @brief Method FlushAchievements, addr 0x638d3d0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method FlushAchievements, addr 0x638d86c, size 0x4, virtual true, abstract: false, final true
   inline void FlushAchievements();
 
-  /// [AsyncStateMachine(typeof(OculusStudios.Platform.Oculus.PlatformUser::<GetAccessTokenAsync>d__11))]
-  /// @brief Method GetAccessTokenAsync, addr 0x638ce18, size 0xdc, virtual true, abstract: false, final true
+  /// [AsyncStateMachine(typeof(OculusStudios.Platform.Oculus.PlatformUser::<GetAccessTokenAsync>d__12))]
+  /// @brief Method GetAccessTokenAsync, addr 0x638d260, size 0xdc, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetAccessTokenAsync();
 
-  /// [AsyncStateMachine(typeof(OculusStudios.Platform.Oculus.PlatformUser::<GetAgeCategoryAsync>d__15))]
-  /// @brief Method GetAgeCategoryAsync, addr 0x638cfe0, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method GetAgeCategoryAsync, addr 0x638d428, size 0x54, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::OculusStudios::Platform::Core::UserAgeCategory>* GetAgeCategoryAsync();
 
-  /// @brief Method GetAllAchievementIds, addr 0x638d0b8, size 0x8, virtual true, abstract: false, final true
+  /// [AsyncStateMachine(typeof(OculusStudios.Platform.Oculus.PlatformUser::<GetAgeCategoryInternalAsync>d__17))]
+  /// @brief Method GetAgeCategoryInternalAsync, addr 0x638d47c, size 0xd8, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::OculusStudios::Platform::Core::UserAgeCategory>* GetAgeCategoryInternalAsync();
+
+  /// @brief Method GetAllAchievementIds, addr 0x638d554, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyCollection_1<::StringW>* GetAllAchievementIds();
 
-  /// @brief Method GetLocale, addr 0x638cfd8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetLocale, addr 0x638d420, size 0x8, virtual true, abstract: false, final true
   inline ::StringW GetLocale();
 
-  /// [AsyncStateMachine(typeof(OculusStudios.Platform.Oculus.PlatformUser::<GetUnlockedAchievementIdsAsync>d__19))]
-  /// @brief Method GetUnlockedAchievementIdsAsync, addr 0x638d2f4, size 0xdc, virtual true, abstract: false, final true
+  /// [AsyncStateMachine(typeof(OculusStudios.Platform.Oculus.PlatformUser::<GetUnlockedAchievementIdsAsync>d__21))]
+  /// @brief Method GetUnlockedAchievementIdsAsync, addr 0x638d790, size 0xdc, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyCollection_1<::StringW>*>* GetUnlockedAchievementIdsAsync();
 
-  /// @brief Method GetXPlatformAccessTokenAsync, addr 0x638cfd4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method GetXPlatformAccessTokenAsync, addr 0x638d41c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetXPlatformAccessTokenAsync(bool skipCache);
 
-  /// [AsyncStateMachine(typeof(OculusStudios.Platform.Oculus.PlatformUser::<InternalGetAccessTokenAsync>d__12))]
-  /// @brief Method InternalGetAccessTokenAsync, addr 0x638cef4, size 0xe0, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(OculusStudios.Platform.Oculus.PlatformUser::<InternalGetAccessTokenAsync>d__13))]
+  /// @brief Method InternalGetAccessTokenAsync, addr 0x638d33c, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* InternalGetAccessTokenAsync();
 
-  /// [AsyncStateMachine(typeof(OculusStudios.Platform.Oculus.PlatformUser::<IsAchievementUnlockedAsync>d__18))]
-  /// @brief Method IsAchievementUnlockedAsync, addr 0x638d208, size 0xec, virtual true, abstract: false, final true
+  /// [AsyncStateMachine(typeof(OculusStudios.Platform.Oculus.PlatformUser::<IsAchievementUnlockedAsync>d__20))]
+  /// @brief Method IsAchievementUnlockedAsync, addr 0x638d6a4, size 0xec, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* IsAchievementUnlockedAsync(::StringW achievementId);
 
   static inline ::OculusStudios::Platform::Oculus::PlatformUser* New_ctor(::OculusStudios::Platform::Core::PlatformInitParams* initParams, ::Oculus::Platform::Models::User* user);
 
-  /// @brief Method UnlockAchievement, addr 0x638d0c0, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method UnlockAchievement, addr 0x638d55c, size 0x144, virtual true, abstract: false, final true
   inline void UnlockAchievement(::StringW achievementId);
 
   constexpr ::StringW const& __cordl_internal_get_accessToken() const;
@@ -666,6 +674,10 @@ public:
   constexpr ::System::Collections::Generic::HashSet_1<::StringW>* const& __cordl_internal_get_achievementIdDefinitions() const;
 
   constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get_achievementIdDefinitions();
+
+  constexpr ::System::Threading::Tasks::Task_1<::OculusStudios::Platform::Core::UserAgeCategory>* const& __cordl_internal_get_ageCategoryTask() const;
+
+  constexpr ::System::Threading::Tasks::Task_1<::OculusStudios::Platform::Core::UserAgeCategory>*& __cordl_internal_get_ageCategoryTask();
 
   constexpr ::System::Threading::Tasks::Task_1<::StringW>* const& __cordl_internal_get_internalGetAccessTokenTask() const;
 
@@ -683,19 +695,21 @@ public:
 
   constexpr void __cordl_internal_set_achievementIdDefinitions(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
+  constexpr void __cordl_internal_set_ageCategoryTask(::System::Threading::Tasks::Task_1<::OculusStudios::Platform::Core::UserAgeCategory>* value);
+
   constexpr void __cordl_internal_set_internalGetAccessTokenTask(::System::Threading::Tasks::Task_1<::StringW>* value);
 
   constexpr void __cordl_internal_set_logger(::OculusStudios::Platform::Core::IPlatformLogger* value);
 
   constexpr void __cordl_internal_set_user(::Oculus::Platform::Models::User* value);
 
-  /// @brief Method .ctor, addr 0x638bb6c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x638bfb4, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::OculusStudios::Platform::Core::PlatformInitParams* initParams, ::Oculus::Platform::Models::User* user);
 
-  /// @brief Method get_displayName, addr 0x638cdf4, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_displayName, addr 0x638d23c, size 0x24, virtual true, abstract: false, final true
   inline ::StringW get_displayName();
 
-  /// @brief Method get_userId, addr 0x638cddc, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_userId, addr 0x638d224, size 0x18, virtual true, abstract: false, final true
   inline uint64_t get_userId();
 
   /// @brief Convert to "::OculusStudios::Platform::Core::IPlatformUser"
@@ -716,7 +730,7 @@ public:
   PlatformUser(PlatformUser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23100 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23041 };
 
   /// @brief Field kCancelCheckUserAgeRequestTimeoutSeconds offset 0xffffffff size 0x4
   static constexpr float_t kCancelCheckUserAgeRequestTimeoutSeconds{ static_cast<float_t>(5.0f) };
@@ -736,6 +750,9 @@ public:
   /// @brief Field accessToken, offset: 0x30, size: 0x8, def value: None
   ::StringW ___accessToken;
 
+  /// @brief Field ageCategoryTask, offset: 0x38, size: 0x8, def value: None
+  ::System::Threading::Tasks::Task_1<::OculusStudios::Platform::Core::UserAgeCategory>* ___ageCategoryTask;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -749,6 +766,8 @@ static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser, ___inter
 
 static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser, ___accessToken) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::OculusStudios::Platform::Oculus::PlatformUser) == 0x38, "Size mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser, ___ageCategoryTask) == 0x38, "Offset mismatch!");
+
+static_assert(sizeof(::OculusStudios::Platform::Oculus::PlatformUser) == 0x40, "Size mismatch!");
 
 } // namespace OculusStudios::Platform::Oculus

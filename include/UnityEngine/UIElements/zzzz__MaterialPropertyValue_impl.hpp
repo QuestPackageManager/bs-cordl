@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::MaterialPropertyValue::*)()>(&::UnityEngine::UIElements::MaterialPropertyValue::GetFloat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7142fa4;
+  constexpr static std::size_t addrs = 0x7144084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MaterialPropertyValue>(), { "GetFloat", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (::UnityEngine::UIElements::MaterialPropertyValue::*)()>(&::UnityEngine::UIElements::MaterialPropertyValue::GetVector)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x7142fac;
+  constexpr static std::size_t addrs = 0x714408c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MaterialPropertyValue>(), { "GetVector", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::UIElements::MaterialPropertyValue::*)()>(&::UnityEngine::UIElements::MaterialPropertyValue::GetColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x7142fb8;
+  constexpr static std::size_t addrs = 0x7144098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MaterialPropertyValue>(), { "GetColor", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::MaterialPropertyValue::*)()>(&::UnityEngine::UIElements::MaterialPropertyValue::ToString)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x71436bc;
+  constexpr static std::size_t addrs = 0x714479c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::MaterialPropertyValue, ::UnityEngine::UIElements::MaterialPropertyValue)>(
     &::UnityEngine::UIElements::MaterialPropertyValue::op_Inequality)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x7143160;
+  constexpr static std::size_t addrs = 0x7144240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::MaterialPropertyValue::*)(::System::Object*)>(&::UnityEngine::UIElements::MaterialPropertyValue::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x7143a84;
+  constexpr static std::size_t addrs = 0x7144b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::MaterialPropertyValue::*)(::UnityEngine::UIElements::MaterialPropertyValue)>(
     &::UnityEngine::UIElements::MaterialPropertyValue::Equals)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x7143988;
+  constexpr static std::size_t addrs = 0x7144a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MaterialPropertyValue>(),
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::MaterialPropertyValue::*)()>(&::UnityEngine::UIElements::MaterialPropertyValue::GetHashCode)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x71433a0;
+  constexpr static std::size_t addrs = 0x7144480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

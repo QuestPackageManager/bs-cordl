@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MockBeatmapData::*)()>(&::GlobalNamespace::MockBeatmapData::get_numberOfLines)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ed6bec;
+  constexpr static std::size_t addrs = 0x5ed6e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockBeatmapData*>(), { "get_numberOfLines", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockBeatmapData::*)(int32_t)>(&::GlobalNamespace::MockBeatmapData::set_numberOfLines)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ed6bf4;
+  constexpr static std::size_t addrs = 0x5ed6e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::MockBeatmapData::*)()>(&::GlobalNamespace::MockBeatmapData::get_songEndTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ed6bfc;
+  constexpr static std::size_t addrs = 0x5ed6e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockBeatmapData*>(), { "get_songEndTime", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockBeatmapData::*)(float_t)>(&::GlobalNamespace::MockBeatmapData::set_songEndTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ed6c04;
+  constexpr static std::size_t addrs = 0x5ed6e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::MockNoteData*> (::GlobalNamespace::MockBeatmapData::*)()>(&::GlobalNamespace::MockBeatmapData::get_leftNotes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ed6c0c;
+  constexpr static std::size_t addrs = 0x5ed6e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockBeatmapData*>(), { "get_leftNotes", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockBeatmapData::*)(::ArrayW<::GlobalNamespace::MockNoteData*>)>(&::GlobalNamespace::MockBeatmapData::set_leftNotes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ed6c14;
+  constexpr static std::size_t addrs = 0x5ed6e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::MockNoteData*> (::GlobalNamespace::MockBeatmapData::*)()>(&::GlobalNamespace::MockBeatmapData::get_rightNotes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ed6c1c;
+  constexpr static std::size_t addrs = 0x5ed6e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockBeatmapData*>(), { "get_rightNotes", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockBeatmapData::*)(::ArrayW<::GlobalNamespace::MockNoteData*>)>(&::GlobalNamespace::MockBeatmapData::set_rightNotes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ed6c24;
+  constexpr static std::size_t addrs = 0x5ed6ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::MockNoteData*> (::GlobalNamespace::MockBeatmapData::*)()>(&::GlobalNamespace::MockBeatmapData::get_bombNotes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ed6c2c;
+  constexpr static std::size_t addrs = 0x5ed6eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockBeatmapData*>(), { "get_bombNotes", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockBeatmapData::*)(::ArrayW<::GlobalNamespace::MockNoteData*>)>(&::GlobalNamespace::MockBeatmapData::set_bombNotes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ed6c34;
+  constexpr static std::size_t addrs = 0x5ed6eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::MockObstacleData*> (::GlobalNamespace::MockBeatmapData::*)()>(&::GlobalNamespace::MockBeatmapData::get_obstacles)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ed6c3c;
+  constexpr static std::size_t addrs = 0x5ed6ebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockBeatmapData*>(), { "get_obstacles", {}, {} })));
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockBeatmapData::*)(::ArrayW<::GlobalNamespace::MockObstacleData*>)>(
     &::GlobalNamespace::MockBeatmapData::set_obstacles)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ed6c44;
+  constexpr static std::size_t addrs = 0x5ed6ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockBeatmapData::*)()>(&::GlobalNamespace::MockBeatmapData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ed6c4c;
+  constexpr static std::size_t addrs = 0x5ed6ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockBeatmapData*>(), { ".ctor", {}, {} })));

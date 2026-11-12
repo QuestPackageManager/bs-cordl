@@ -67,12 +67,12 @@ namespace UnityEngine {
 class CORDL_TYPE CullingGroup_StateChanged : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6f0520c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6f062ec, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::CullingGroupEvent sphere);
 
   static inline ::UnityEngine::CullingGroup_StateChanged* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6f051a0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f06280, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -105,7 +105,7 @@ namespace UnityEngine {
 class CORDL_TYPE CullingGroup_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToNative, addr 0x6f05220, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x6f06300, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::CullingGroup* cullingGroup);
 
 protected:
@@ -154,75 +154,75 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6f04b3c, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6f05c1c, size 0x18, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// [FreeFunction("CullingGroup_Bindings::Dispose", HasExplicitThis = true)]
-  /// @brief Method DisposeInternal, addr 0x6f04ab0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method DisposeInternal, addr 0x6f05b90, size 0x50, virtual false, abstract: false, final false
   inline void DisposeInternal();
 
-  /// @brief Method DisposeInternal_Injected, addr 0x6f04b00, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method DisposeInternal_Injected, addr 0x6f05be0, size 0x3c, virtual false, abstract: false, final false
   static inline void DisposeInternal_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method Finalize, addr 0x6f04a14, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6f05af4, size 0x4c, virtual true, abstract: false, final false
   inline void Finalize();
 
   /// [FreeFunction("CullingGroup_Bindings::FinalizerFailure", HasExplicitThis = true, IsThreadSafe = true)]
-  /// @brief Method FinalizerFailure, addr 0x6f04a60, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method FinalizerFailure, addr 0x6f05b40, size 0x50, virtual false, abstract: false, final false
   inline void FinalizerFailure();
 
-  /// @brief Method FinalizerFailure_Injected, addr 0x6f05164, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FinalizerFailure_Injected, addr 0x6f06244, size 0x3c, virtual false, abstract: false, final false
   static inline void FinalizerFailure_Injected(::System::IntPtr _unity_self);
 
   /// [FreeFunction("CullingGroup_Bindings::Init")]
-  /// @brief Method Init, addr 0x6f049d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6f05ab8, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Init(::System::Object* scripting);
 
   static inline ::UnityEngine::CullingGroup* New_ctor();
 
   /// [FreeFunction("CullingGroup_Bindings::QueryIndices", HasExplicitThis = true)]
   /// [NativeThrows]
-  /// @brief Method QueryIndices, addr 0x6f04d90, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method QueryIndices, addr 0x6f05e70, size 0x120, virtual false, abstract: false, final false
   inline int32_t QueryIndices(bool visible, int32_t distanceIndex, ::UnityEngine::CullingQueryOptions options, ::ArrayW<int32_t> result, int32_t firstIndex);
 
-  /// @brief Method QueryIndices, addr 0x6f04d7c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method QueryIndices, addr 0x6f05e5c, size 0x14, virtual false, abstract: false, final false
   inline int32_t QueryIndices(bool visible, ::ArrayW<int32_t> result, int32_t firstIndex);
 
-  /// @brief Method QueryIndices_Injected, addr 0x6f04eb0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method QueryIndices_Injected, addr 0x6f05f90, size 0x74, virtual false, abstract: false, final false
   static inline int32_t QueryIndices_Injected(::System::IntPtr _unity_self, bool visible, int32_t distanceIndex, ::UnityEngine::CullingQueryOptions options,
                                               ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> result, int32_t firstIndex);
 
   /// [RequiredByNativeCode]
-  /// @brief Method SendEvents, addr 0x6f05108, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SendEvents, addr 0x6f061e8, size 0x5c, virtual false, abstract: false, final false
   static inline void SendEvents(::UnityEngine::CullingGroup* cullingGroup, ::System::IntPtr eventsPtr, int32_t count);
 
   /// [FreeFunction("CullingGroup_Bindings::SetBoundingDistances", HasExplicitThis = true)]
-  /// @brief Method SetBoundingDistances, addr 0x6f04f24, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SetBoundingDistances, addr 0x6f06004, size 0xf0, virtual false, abstract: false, final false
   inline void SetBoundingDistances(::ArrayW<float_t> distances);
 
-  /// @brief Method SetBoundingDistances_Injected, addr 0x6f05014, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetBoundingDistances_Injected, addr 0x6f060f4, size 0x44, virtual false, abstract: false, final false
   static inline void SetBoundingDistances_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> distances);
 
-  /// @brief Method SetBoundingSphereCount, addr 0x6f04ce0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetBoundingSphereCount, addr 0x6f05dc0, size 0x58, virtual false, abstract: false, final false
   inline void SetBoundingSphereCount(int32_t count);
 
-  /// @brief Method SetBoundingSphereCount_Injected, addr 0x6f04d38, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetBoundingSphereCount_Injected, addr 0x6f05e18, size 0x44, virtual false, abstract: false, final false
   static inline void SetBoundingSphereCount_Injected(::System::IntPtr _unity_self, int32_t count);
 
-  /// @brief Method SetBoundingSpheres, addr 0x6f04c44, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetBoundingSpheres, addr 0x6f05d24, size 0x58, virtual false, abstract: false, final false
   inline void SetBoundingSpheres(/* [UnityMarshalAs((UnityEngine.Bindings.NativeType)0)] */ ::ArrayW<::UnityEngine::BoundingSphere> array);
 
-  /// @brief Method SetBoundingSpheres_Injected, addr 0x6f04c9c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetBoundingSpheres_Injected, addr 0x6f05d7c, size 0x44, virtual false, abstract: false, final false
   static inline void SetBoundingSpheres_Injected(::System::IntPtr _unity_self, ::ArrayW<::UnityEngine::BoundingSphere> array);
 
-  /// @brief Method SetDistanceReferencePoint, addr 0x6f05104, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetDistanceReferencePoint, addr 0x6f061e4, size 0x4, virtual false, abstract: false, final false
   inline void SetDistanceReferencePoint(::UnityEngine::Vector3 point);
 
   /// [FreeFunction("CullingGroup_Bindings::SetDistanceReferencePoint", HasExplicitThis = true)]
-  /// @brief Method SetDistanceReferencePoint_InternalVector3, addr 0x6f05058, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetDistanceReferencePoint_InternalVector3, addr 0x6f06138, size 0x68, virtual false, abstract: false, final false
   inline void SetDistanceReferencePoint_InternalVector3(::UnityEngine::Vector3 point);
 
-  /// @brief Method SetDistanceReferencePoint_InternalVector3_Injected, addr 0x6f050c0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetDistanceReferencePoint_InternalVector3_Injected, addr 0x6f061a0, size 0x44, virtual false, abstract: false, final false
   static inline void SetDistanceReferencePoint_InternalVector3_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> point);
 
   constexpr ::UnityEngine::CullingGroup_StateChanged* const& __cordl_internal_get_m_OnStateChanged() const;
@@ -237,16 +237,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x6f04990, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f05a70, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_targetCamera, addr 0x6f04b54, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_targetCamera, addr 0x6f05c34, size 0xac, virtual false, abstract: false, final false
   inline void set_targetCamera(::UnityEngine::Camera* value);
 
-  /// @brief Method set_targetCamera_Injected, addr 0x6f04c00, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_targetCamera_Injected, addr 0x6f05ce0, size 0x44, virtual false, abstract: false, final false
   static inline void set_targetCamera_Injected(::System::IntPtr _unity_self, ::System::IntPtr value);
 
 protected:

@@ -28,7 +28,7 @@ public:
 
   static inline ::Newtonsoft::Json::JsonNameTable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6129144, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61293cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

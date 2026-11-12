@@ -23,10 +23,10 @@ namespace UnityEngine::Device {
 class CORDL_TYPE SystemInfo : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_deviceModel, addr 0x6f9ef38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_deviceModel, addr 0x6fa0018, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW get_deviceModel();
 
-  /// @brief Method get_deviceType, addr 0x6f9ef3c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_deviceType, addr 0x6fa001c, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::DeviceType get_deviceType();
 
 protected:

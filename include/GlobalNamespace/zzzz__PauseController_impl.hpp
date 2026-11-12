@@ -28,13 +28,13 @@ constexpr ::GlobalNamespace::PauseController_PauseState GlobalNamespace::PauseCo
 //  Writing Method size for method: ::GlobalNamespace::PauseController_InitData._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController_InitData::*)(bool, bool)>(&::GlobalNamespace::PauseController_InitData::_ctor)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e0d6c4;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController_InitData::*)(bool, bool, bool)>(&::GlobalNamespace::PauseController_InitData::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x5e0daf0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController_InitData*>(), { ".ctor", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController_InitData*>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -62,74 +62,87 @@ constexpr void GlobalNamespace::PauseController_InitData::__cordl_internal_set_f
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___fpfcEnabled = value;
 }
-inline void GlobalNamespace::PauseController_InitData::_ctor(bool startPaused, bool fpfcEnabled) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController_InitData*>(), { ".ctor", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, startPaused, fpfcEnabled);
+constexpr bool& GlobalNamespace::PauseController_InitData::__cordl_internal_get_shouldPauseOnXrStateLoss() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___shouldPauseOnXrStateLoss;
 }
-inline ::GlobalNamespace::PauseController_InitData* GlobalNamespace::PauseController_InitData::New_ctor(bool startPaused, bool fpfcEnabled) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PauseController_InitData*>(startPaused, fpfcEnabled));
+constexpr bool const& GlobalNamespace::PauseController_InitData::__cordl_internal_get_shouldPauseOnXrStateLoss() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___shouldPauseOnXrStateLoss;
+}
+constexpr void GlobalNamespace::PauseController_InitData::__cordl_internal_set_shouldPauseOnXrStateLoss(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___shouldPauseOnXrStateLoss = value;
+}
+inline void GlobalNamespace::PauseController_InitData::_ctor(bool startPaused, bool fpfcEnabled, bool shouldPauseOnXrStateLoss) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController_InitData*>(), { ".ctor", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, startPaused, fpfcEnabled, shouldPauseOnXrStateLoss);
+}
+inline ::GlobalNamespace::PauseController_InitData* GlobalNamespace::PauseController_InitData::New_ctor(bool startPaused, bool fpfcEnabled, bool shouldPauseOnXrStateLoss) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PauseController_InitData*>(startPaused, fpfcEnabled, shouldPauseOnXrStateLoss));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PauseController_InitData::PauseController_InitData() {}
-//  Writing Method size for method: ::GlobalNamespace::PauseController___c__DisplayClass30_0._ctor
+//  Writing Method size for method: ::GlobalNamespace::PauseController___c__DisplayClass31_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController___c__DisplayClass30_0::*)()>(&::GlobalNamespace::PauseController___c__DisplayClass30_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController___c__DisplayClass31_0::*)()>(&::GlobalNamespace::PauseController___c__DisplayClass31_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e0bad8;
+  constexpr static std::size_t addrs = 0x5e0bedc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController___c__DisplayClass30_0*>(), { ".ctor", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController___c__DisplayClass31_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PauseController___c__DisplayClass30_0._get_canPause_b__0
+//  Writing Method size for method: ::GlobalNamespace::PauseController___c__DisplayClass31_0._get_canPause_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController___c__DisplayClass30_0::*)(bool)>(
-    &::GlobalNamespace::PauseController___c__DisplayClass30_0::_get_canPause_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController___c__DisplayClass31_0::*)(bool)>(
+    &::GlobalNamespace::PauseController___c__DisplayClass31_0::_get_canPause_b__0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5e0d6d0;
+  constexpr static std::size_t addrs = 0x5e0db00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController___c__DisplayClass30_0*>(), { "<get_canPause>b__0", {}, { ::i2c::type_of<bool>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController___c__DisplayClass31_0*>(), { "<get_canPause>b__0", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
-constexpr bool& GlobalNamespace::PauseController___c__DisplayClass30_0::__cordl_internal_get_value() {
+constexpr bool& GlobalNamespace::PauseController___c__DisplayClass31_0::__cordl_internal_get_value() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
-constexpr bool const& GlobalNamespace::PauseController___c__DisplayClass30_0::__cordl_internal_get_value() const {
+constexpr bool const& GlobalNamespace::PauseController___c__DisplayClass31_0::__cordl_internal_get_value() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
-constexpr void GlobalNamespace::PauseController___c__DisplayClass30_0::__cordl_internal_set_value(bool value) {
+constexpr void GlobalNamespace::PauseController___c__DisplayClass31_0::__cordl_internal_set_value(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___value = value;
 }
-inline void GlobalNamespace::PauseController___c__DisplayClass30_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController___c__DisplayClass30_0*>(), { ".ctor", {}, {} })));
+inline void GlobalNamespace::PauseController___c__DisplayClass31_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController___c__DisplayClass31_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::PauseController___c__DisplayClass30_0::_get_canPause_b__0(bool newValue) {
+inline void GlobalNamespace::PauseController___c__DisplayClass31_0::_get_canPause_b__0(bool newValue) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController___c__DisplayClass30_0*>(), { "<get_canPause>b__0", {}, { ::i2c::type_of<bool>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController___c__DisplayClass31_0*>(), { "<get_canPause>b__0", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, newValue);
 }
-inline ::GlobalNamespace::PauseController___c__DisplayClass30_0* GlobalNamespace::PauseController___c__DisplayClass30_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PauseController___c__DisplayClass30_0*>());
+inline ::GlobalNamespace::PauseController___c__DisplayClass31_0* GlobalNamespace::PauseController___c__DisplayClass31_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PauseController___c__DisplayClass31_0*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::PauseController___c__DisplayClass30_0::PauseController___c__DisplayClass30_0() {}
+constexpr ::GlobalNamespace::PauseController___c__DisplayClass31_0::PauseController___c__DisplayClass31_0() {}
 //  Writing Method size for method: ::GlobalNamespace::PauseController.add_didPauseEvent
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController::*)(::System::Action*)>(&::GlobalNamespace::PauseController::add_didPauseEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e0b2d4;
+  constexpr static std::size_t addrs = 0x5e0b6d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController::*)(::System::Action*)>(&::GlobalNamespace::PauseController::remove_didPauseEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e0b380;
+  constexpr static std::size_t addrs = 0x5e0b784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController::*)(::System::Action*)>(&::GlobalNamespace::PauseController::add_didStartToResumeEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e0b42c;
+  constexpr static std::size_t addrs = 0x5e0b830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -168,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController::*)(::System::Action*)>(&::GlobalNamespace::PauseController::remove_didStartToResumeEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e0b4d8;
+  constexpr static std::size_t addrs = 0x5e0b8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -181,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController::*)(::System::Action*)>(&::GlobalNamespace::PauseController::add_didResumeEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e0b584;
+  constexpr static std::size_t addrs = 0x5e0b988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -194,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController::*)(::System::Action*)>(&::GlobalNamespace::PauseController::remove_didResumeEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e0b630;
+  constexpr static std::size_t addrs = 0x5e0ba34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -208,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController::*)(::System::Action_1<::System::Action_1<bool>*>*)>(
     &::GlobalNamespace::PauseController::add_canPauseEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e0b6dc;
+  constexpr static std::size_t addrs = 0x5e0bae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController::*)(::System::Action_1<::System::Action_1<bool>*>*)>(
     &::GlobalNamespace::PauseController::remove_canPauseEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e0b79c;
+  constexpr static std::size_t addrs = 0x5e0bba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController*>(),
@@ -236,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController::*)(::System::Action*)>(&::GlobalNamespace::PauseController::add_didReturnToMenuEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e0b85c;
+  constexpr static std::size_t addrs = 0x5e0bc60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -249,7 +262,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController::*)(::System::Action*)>(&::GlobalNamespace::PauseController::remove_didReturnToMenuEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e0b908;
+  constexpr static std::size_t addrs = 0x5e0bd0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -262,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PauseController::*)()>(&::GlobalNamespace::PauseController::get_wantsToPause)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e0b9b4;
+  constexpr static std::size_t addrs = 0x5e0bdb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController*>(), { "get_wantsToPause", {}, {} })));
@@ -274,7 +287,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PauseController::*)()>(&::GlobalNamespace::PauseController::get_canPause)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x5e0b9bc;
+  constexpr static std::size_t addrs = 0x5e0bdc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController*>(), { "get_canPause", {}, {} })));
@@ -286,7 +299,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PauseController::*)()>(&::GlobalNamespace::PauseController::get_canChangePauseState)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5e0badc;
+  constexpr static std::size_t addrs = 0x5e0bee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController*>(), { "get_canChangePauseState", {}, {} })));
@@ -298,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController::*)()>(&::GlobalNamespace::PauseController::Start)> {
   constexpr static std::size_t size = 0x564;
-  constexpr static std::size_t addrs = 0x5e0bb30;
+  constexpr static std::size_t addrs = 0x5e0bf34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController*>(), { "Start", {}, {} })));
@@ -310,8 +323,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController::*)(::GlobalNamespace::XRSystemEventType)>(
     &::GlobalNamespace::PauseController::HandleSystemStateChange)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5e0c4b4;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x5e0c8b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -325,7 +338,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController::*)()>(&::GlobalNamespace::PauseController::OnDestroy)> {
   constexpr static std::size_t size = 0x5b8;
-  constexpr static std::size_t addrs = 0x5e0c6b8;
+  constexpr static std::size_t addrs = 0x5e0ca48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController*>(), { "OnDestroy", {}, {} })));
@@ -337,7 +350,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController::*)(bool)>(&::GlobalNamespace::PauseController::OnApplicationPause)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e0cfcc;
+  constexpr static std::size_t addrs = 0x5e0d35c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -350,7 +363,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController::*)()>(&::GlobalNamespace::PauseController::Restart)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5e0cfd8;
+  constexpr static std::size_t addrs = 0x5e0d368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController*>(), { "Restart", {}, {} })));
@@ -362,7 +375,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController::*)()>(&::GlobalNamespace::PauseController::Pause)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x5e0c584;
+  constexpr static std::size_t addrs = 0x5e0c914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController*>(), { "Pause", {}, {} })));
@@ -374,7 +387,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController::*)()>(&::GlobalNamespace::PauseController::Resume)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x5e0d100;
+  constexpr static std::size_t addrs = 0x5e0d490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController*>(), { "Resume", {}, {} })));
@@ -386,7 +399,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController::*)()>(&::GlobalNamespace::PauseController::TogglePause)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e0d288;
+  constexpr static std::size_t addrs = 0x5e0d618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController*>(), { "TogglePause", {}, {} })));
@@ -398,7 +411,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController::*)()>(&::GlobalNamespace::PauseController::PauseGameOnStartupIfItShouldBePaused)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5e0d2a4;
+  constexpr static std::size_t addrs = 0x5e0d634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -411,7 +424,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController::*)()>(&::GlobalNamespace::PauseController::HandleLevelDidStart)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e0d2f0;
+  constexpr static std::size_t addrs = 0x5e0d680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController*>(), { "HandleLevelDidStart", {}, {} })));
@@ -423,7 +436,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController::*)()>(&::GlobalNamespace::PauseController::HandleMenuButtonTriggered)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5e0d2f4;
+  constexpr static std::size_t addrs = 0x5e0d684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController*>(), { "HandleMenuButtonTriggered", {}, {} })));
@@ -435,7 +448,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController::*)()>(&::GlobalNamespace::PauseController::HandlePauseMenuManagerDidStartResumeAnimation)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5e0d358;
+  constexpr static std::size_t addrs = 0x5e0d6e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -448,7 +461,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController::*)()>(&::GlobalNamespace::PauseController::HandlePauseMenuManagerDidFinishResumeAnimation)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5e0d3c0;
+  constexpr static std::size_t addrs = 0x5e0d750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -461,7 +474,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController::*)()>(&::GlobalNamespace::PauseController::HandlePauseMenuManagerDidPressRestartButton)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5e0d4d0;
+  constexpr static std::size_t addrs = 0x5e0d860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -474,7 +487,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController::*)()>(&::GlobalNamespace::PauseController::HandlePauseMenuManagerDidPressMenuButton)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5e0d5b8;
+  constexpr static std::size_t addrs = 0x5e0d948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -487,10 +500,22 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PauseController::*)()>(&::GlobalNamespace::PauseController::GetDefaultPausedState)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5e0c3f0;
+  constexpr static std::size_t addrs = 0x5e0c7f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController*>(), { "GetDefaultPausedState", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PauseController.GetCanPauseOnXrStateLoss
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PauseController::*)()>(&::GlobalNamespace::PauseController::GetCanPauseOnXrStateLoss)> {
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x5e0c8e8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController*>(), { "GetCanPauseOnXrStateLoss", {}, {} })));
     return ___internal_method;
   }
 };
@@ -499,7 +524,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PauseController::*)()>(&::GlobalNamespace::PauseController::HadFpfcEnabledAtInit)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5e0c4e8;
+  constexpr static std::size_t addrs = 0x5e0da48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController*>(), { "HadFpfcEnabledAtInit", {}, {} })));
@@ -511,7 +536,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseController::*)()>(&::GlobalNamespace::PauseController::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e0d6b8;
+  constexpr static std::size_t addrs = 0x5e0dae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController*>(), { ".ctor", {}, {} })));
@@ -866,6 +891,10 @@ inline void GlobalNamespace::PauseController::HandlePauseMenuManagerDidPressMenu
 }
 inline bool GlobalNamespace::PauseController::GetDefaultPausedState() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController*>(), { "GetDefaultPausedState", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool GlobalNamespace::PauseController::GetCanPauseOnXrStateLoss() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseController*>(), { "GetCanPauseOnXrStateLoss", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline bool GlobalNamespace::PauseController::HadFpfcEnabledAtInit() {

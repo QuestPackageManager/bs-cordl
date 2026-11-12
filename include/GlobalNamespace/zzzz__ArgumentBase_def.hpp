@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(ArgumentBase)
 namespace System {
+template <typename TResult> class Func_1;
+}
+namespace System {
 class Type;
 }
 // Forward declare root types
@@ -24,8 +27,14 @@ namespace GlobalNamespace {
 class CORDL_TYPE ArgumentBase : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field autocompleteValues, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_autocompleteValues, put = __cordl_internal_set_autocompleteValues)) ::ArrayW<::StringW> autocompleteValues;
+  /// @brief Field _autocompleteValues, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__autocompleteValues, put = __cordl_internal_set__autocompleteValues)) ::ArrayW<::StringW> _autocompleteValues;
+
+  /// @brief Field _autocompleteValuesProvider, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__autocompleteValuesProvider,
+                      put = __cordl_internal_set__autocompleteValuesProvider)) ::System::Func_1<::ArrayW<::StringW>>* _autocompleteValuesProvider;
+
+  __declspec(property(get = get_autocompleteValues, put = set_autocompleteValues)) ::ArrayW<::StringW> autocompleteValues;
 
   /// @brief Field description, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_description, put = __cordl_internal_set_description)) ::StringW description;
@@ -45,12 +54,19 @@ public:
   /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Reset();
 
+  /// @brief Method SetAutocompleteValuesProvider, addr 0x3577de4, size 0x8, virtual false, abstract: false, final false
+  inline void SetAutocompleteValuesProvider(::System::Func_1<::ArrayW<::StringW>>* autocompleteValuesProvider);
+
   /// @brief Method TryParseWithValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryParseWithValue(::StringW inValue, ::by_ref<::StringW> outError);
 
-  constexpr ::ArrayW<::StringW> const& __cordl_internal_get_autocompleteValues() const;
+  constexpr ::ArrayW<::StringW> const& __cordl_internal_get__autocompleteValues() const;
 
-  constexpr ::ArrayW<::StringW>& __cordl_internal_get_autocompleteValues();
+  constexpr ::ArrayW<::StringW>& __cordl_internal_get__autocompleteValues();
+
+  constexpr ::System::Func_1<::ArrayW<::StringW>>* const& __cordl_internal_get__autocompleteValuesProvider() const;
+
+  constexpr ::System::Func_1<::ArrayW<::StringW>>*& __cordl_internal_get__autocompleteValuesProvider();
 
   constexpr ::StringW const& __cordl_internal_get_description() const;
 
@@ -64,7 +80,9 @@ public:
 
   constexpr ::System::Type*& __cordl_internal_get_valueType();
 
-  constexpr void __cordl_internal_set_autocompleteValues(::ArrayW<::StringW> value);
+  constexpr void __cordl_internal_set__autocompleteValues(::ArrayW<::StringW> value);
+
+  constexpr void __cordl_internal_set__autocompleteValuesProvider(::System::Func_1<::ArrayW<::StringW>>* value);
 
   constexpr void __cordl_internal_set_description(::StringW value);
 
@@ -72,14 +90,20 @@ public:
 
   constexpr void __cordl_internal_set_valueType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3574cc0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3577dec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
+
+  /// @brief Method get_autocompleteValues, addr 0x3577514, size 0x34, virtual false, abstract: false, final false
+  inline ::ArrayW<::StringW> get_autocompleteValues();
 
   /// @brief Method get_isOptional, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isOptional();
 
-  /// @brief Method get_supportsAutocomplete, addr 0x357440c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_supportsAutocomplete, addr 0x35774cc, size 0x48, virtual false, abstract: false, final false
   inline bool get_supportsAutocomplete();
+
+  /// @brief Method set_autocompleteValues, addr 0x3577ddc, size 0x8, virtual false, abstract: false, final false
+  inline void set_autocompleteValues(::ArrayW<::StringW> value);
 
 protected:
   // Ctor Parameters []
@@ -96,7 +120,7 @@ public:
   ArgumentBase(ArgumentBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19746 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19754 };
 
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;
@@ -107,8 +131,11 @@ public:
   /// @brief Field valueType, offset: 0x20, size: 0x8, def value: None
   ::System::Type* ___valueType;
 
-  /// @brief Field autocompleteValues, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<::StringW> ___autocompleteValues;
+  /// @brief Field _autocompleteValues, offset: 0x28, size: 0x8, def value: None
+  ::ArrayW<::StringW> ____autocompleteValues;
+
+  /// @brief Field _autocompleteValuesProvider, offset: 0x30, size: 0x8, def value: None
+  ::System::Func_1<::ArrayW<::StringW>>* ____autocompleteValuesProvider;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -119,8 +146,10 @@ static_assert(offsetof(::GlobalNamespace::ArgumentBase, ___description) == 0x18,
 
 static_assert(offsetof(::GlobalNamespace::ArgumentBase, ___valueType) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ArgumentBase, ___autocompleteValues) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ArgumentBase, ____autocompleteValues) == 0x28, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::ArgumentBase) == 0x30, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::ArgumentBase, ____autocompleteValuesProvider) == 0x30, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::ArgumentBase) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace

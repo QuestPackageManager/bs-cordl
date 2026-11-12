@@ -25,13 +25,13 @@ class CORDL_TYPE ShadingRateImage : public ::System::Object {
 public:
   // Declarations
   /// [FreeFunction("ShadingRateImage::GetAllocSizeInternal")]
-  /// @brief Method GetAllocSizeInternal, addr 0x6fb7120, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetAllocSizeInternal, addr 0x6fb8200, size 0x5c, virtual false, abstract: false, final false
   static inline void GetAllocSizeInternal(int32_t pixelWidth, int32_t pixelHeight, ::by_ref<int32_t> tileWidth, ::by_ref<int32_t> tileHeight);
 
-  /// @brief Method GetAllocTileSize, addr 0x6fb717c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAllocTileSize, addr 0x6fb825c, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2Int GetAllocTileSize(::UnityEngine::Vector2Int pixelSize);
 
-  /// @brief Method GetAllocTileSize, addr 0x6fb7184, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetAllocTileSize, addr 0x6fb8264, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2Int GetAllocTileSize(int32_t pixelWidth, int32_t pixelHeight);
 
 protected:

@@ -51,11 +51,11 @@ public:
 
   static inline ::BeatSaber::Analytics::Settings::SettingsSnapshotCondition___c* New_ctor();
 
-  /// @brief Method <ComputeHash>b__9_0, addr 0x350c348, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <ComputeHash>b__9_0, addr 0x350e788, size 0x10, virtual false, abstract: false, final false
   inline int32_t _ComputeHash_b__9_0(/* [TupleElementNames(new[] { "metricName", "value" })] */ ::System::ValueTuple_2<::StringW, float_t> a,
                                      /* [TupleElementNames(new[] { "metricName", "value" })] */ ::System::ValueTuple_2<::StringW, float_t> b);
 
-  /// @brief Method .ctor, addr 0x350c344, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x350e784, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BeatSaber::Analytics::Settings::SettingsSnapshotCondition___c* getStaticF___9();
@@ -81,7 +81,7 @@ public:
   SettingsSnapshotCondition___c(SettingsSnapshotCondition___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22779 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22792 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -101,19 +101,19 @@ public:
   /// @brief Field _todayInDays, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__todayInDays, put = __cordl_internal_set__todayInDays)) int32_t _todayInDays;
 
-  /// @brief Method ClearPersistedState, addr 0x350c264, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ClearPersistedState, addr 0x350e6a4, size 0x8c, virtual false, abstract: false, final false
   static inline void ClearPersistedState();
 
-  /// @brief Method ComputeHash, addr 0x350bd6c, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method ComputeHash, addr 0x350e1ac, size 0x354, virtual false, abstract: false, final false
   static inline ::UnityEngine::Hash128
   ComputeHash(/* [TupleElementNames(new[] { "metricName", "value" })] */ ::System::Collections::Generic::IReadOnlyList_1<::System::ValueTuple_2<::StringW, float_t>>* metrics, ::StringW extraPayload);
 
   static inline ::BeatSaber::Analytics::Settings::SettingsSnapshotCondition* New_ctor(int32_t todayInDays);
 
-  /// @brief Method RecordFired, addr 0x350c1ac, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method RecordFired, addr 0x350e5ec, size 0xb8, virtual false, abstract: false, final false
   inline void RecordFired(::UnityEngine::Hash128 currentHash);
 
-  /// @brief Method ShouldFire, addr 0x350c0c0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ShouldFire, addr 0x350e500, size 0xec, virtual false, abstract: false, final false
   inline bool ShouldFire(::UnityEngine::Hash128 currentHash);
 
   constexpr int32_t const& __cordl_internal_get__todayInDays() const;
@@ -122,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set__todayInDays(int32_t value);
 
-  /// @brief Method .ctor, addr 0x350bd64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x350e1a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t todayInDays);
 
 protected:
@@ -140,7 +140,7 @@ public:
   SettingsSnapshotCondition(SettingsSnapshotCondition const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22780 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22793 };
 
   /// @brief Field kDayKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kDayKey{ u"SettingsAnalytics.SnapshotDay" };

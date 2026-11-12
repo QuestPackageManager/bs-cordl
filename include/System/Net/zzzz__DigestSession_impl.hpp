@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::DigestSession::*)()>(&::System::Net::DigestSession::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x688f19c;
+  constexpr static std::size_t addrs = 0x688f7ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::DigestSession*>(), { ".ctor", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::DigestSession::*)()>(&::System::Net::DigestSession::get_Algorithm)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x688f204;
+  constexpr static std::size_t addrs = 0x688f854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::DigestSession*>(), { "get_Algorithm", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::DigestSession::*)()>(&::System::Net::DigestSession::get_Realm)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x688f218;
+  constexpr static std::size_t addrs = 0x688f868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::DigestSession*>(), { "get_Realm", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::DigestSession::*)()>(&::System::Net::DigestSession::get_Nonce)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x688f22c;
+  constexpr static std::size_t addrs = 0x688f87c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::DigestSession*>(), { "get_Nonce", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::DigestSession::*)()>(&::System::Net::DigestSession::get_Opaque)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x688f240;
+  constexpr static std::size_t addrs = 0x688f890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::DigestSession*>(), { "get_Opaque", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::DigestSession::*)()>(&::System::Net::DigestSession::get_QOP)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x688f254;
+  constexpr static std::size_t addrs = 0x688f8a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::DigestSession*>(), { "get_QOP", {}, {} })));
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::DigestSession::*)()>(&::System::Net::DigestSession::get_CNonce)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x688f268;
+  constexpr static std::size_t addrs = 0x688f8b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::DigestSession*>(), { "get_CNonce", {}, {} })));
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::DigestSession::*)(::StringW)>(&::System::Net::DigestSession::Parse)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x688f368;
+  constexpr static std::size_t addrs = 0x688f9b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::DigestSession*>(), { "Parse", {}, { ::i2c::type_of<::StringW>() } })));
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::DigestSession::*)(::StringW)>(&::System::Net::DigestSession::HashToHexString)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x688f44c;
+  constexpr static std::size_t addrs = 0x688fa9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::DigestSession::*)(::StringW, ::StringW)>(&::System::Net::DigestSession::HA1)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x688f5b8;
+  constexpr static std::size_t addrs = 0x688fc08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::DigestSession::*)(::System::Net::HttpWebRequest*)>(&::System::Net::DigestSession::HA2)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x688f728;
+  constexpr static std::size_t addrs = 0x688fd78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::DigestSession::*)(::StringW, ::StringW, ::System::Net::HttpWebRequest*)>(&::System::Net::DigestSession::Response)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x688f82c;
+  constexpr static std::size_t addrs = 0x688fe7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Authorization* (::System::Net::DigestSession::*)(::System::Net::WebRequest*, ::System::Net::ICredentials*)>(
     &::System::Net::DigestSession::Authenticate)> {
   constexpr static std::size_t size = 0x6a4;
-  constexpr static std::size_t addrs = 0x688f9e0;
+  constexpr static std::size_t addrs = 0x6890030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Net::DigestSession::*)()>(&::System::Net::DigestSession::get_LastUse)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6890084;
+  constexpr static std::size_t addrs = 0x68906d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::DigestSession*>(), { "get_LastUse", {}, {} })));

@@ -36,16 +36,16 @@ public:
     requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
   static inline ::ArrayW<T> LoadAllAssetsFromAssetDatabase();
 
-  /// @brief Method LoadBeatmapLevelDataFromAssetDatabase, addr 0x3a08930, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelDataFromAssetDatabase, addr 0x3a0d9b8, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::BeatmapLevelDataSO> LoadBeatmapLevelDataFromAssetDatabase(::StringW levelId);
 
-  /// @brief Method LoadBeatmapLevelDataFromAssetDatabaseOrNull, addr 0x3a089a8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelDataFromAssetDatabaseOrNull, addr 0x3a0da30, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::BeatmapLevelDataSO> LoadBeatmapLevelDataFromAssetDatabaseOrNull(::StringW levelId);
 
-  /// @brief Method LoadBeatmapLevelFromAssetDatabase, addr 0x3a08a20, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelFromAssetDatabase, addr 0x3a0daa8, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::BeatmapLevelSO> LoadBeatmapLevelFromAssetDatabase(::StringW levelId);
 
-  /// @brief Method LoadBeatmapLevelPackFromAssetDatabase, addr 0x3a08a98, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelPackFromAssetDatabase, addr 0x3a0db20, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::BeatmapLevelPackSO> LoadBeatmapLevelPackFromAssetDatabase(::StringW packId);
 
   /// @brief Method LoadUniqueAssetFromAssetDatabase, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -73,7 +73,7 @@ public:
   UnityEditorBeatmapLevelDataAssetFileModel(UnityEditorBeatmapLevelDataAssetFileModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14729 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14737 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

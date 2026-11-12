@@ -53,24 +53,24 @@ public:
   /// @brief Field m_Pass, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Pass, put = __cordl_internal_set_m_Pass)) ::UnityEngine::Experimental::Rendering::XRPass* m_Pass;
 
-  /// @brief Method CreateOcclusionMeshCombined, addr 0x6b9ace4, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method CreateOcclusionMeshCombined, addr 0x6b9bdc4, size 0x354, virtual false, abstract: false, final false
   inline void CreateOcclusionMeshCombined();
 
-  /// @brief Method IsOcclusionMeshSupported, addr 0x6b9a34c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsOcclusionMeshSupported, addr 0x6b9b42c, size 0x8c, virtual false, abstract: false, final false
   inline bool IsOcclusionMeshSupported();
 
   static inline ::UnityEngine::Experimental::Rendering::XROcclusionMesh* New_ctor(::UnityEngine::Experimental::Rendering::XRPass* xrPass);
 
-  /// @brief Method RenderOcclusionMesh, addr 0x6b9a450, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method RenderOcclusionMesh, addr 0x6b9b530, size 0x3bc, virtual false, abstract: false, final false
   inline void RenderOcclusionMesh(::UnityEngine::Rendering::CommandBuffer* cmd, float_t occlusionMeshScale, bool yFlip);
 
-  /// @brief Method SetMaterial, addr 0x6b9a28c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetMaterial, addr 0x6b9b36c, size 0x8, virtual false, abstract: false, final false
   inline void SetMaterial(::UnityEngine::Material* mat);
 
-  /// @brief Method TryGetOcclusionMeshCombinedHashCode, addr 0x6b9abec, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method TryGetOcclusionMeshCombinedHashCode, addr 0x6b9bccc, size 0xf8, virtual false, abstract: false, final false
   inline bool TryGetOcclusionMeshCombinedHashCode(::by_ref<int32_t> hashCode);
 
-  /// @brief Method UpdateCombinedMesh, addr 0x6b9ab18, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method UpdateCombinedMesh, addr 0x6b9bbf8, size 0xd4, virtual false, abstract: false, final false
   inline void UpdateCombinedMesh();
 
   constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get_m_CombinedMesh() const;
@@ -97,12 +97,12 @@ public:
 
   constexpr void __cordl_internal_set_m_Pass(::UnityEngine::Experimental::Rendering::XRPass* value);
 
-  /// @brief Method .ctor, addr 0x6b9a284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b9b364, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Experimental::Rendering::XRPass* xrPass);
 
   static inline ::UnityEngine::Rendering::ProfilingSampler* getStaticF_k_OcclusionMeshProfilingSampler();
 
-  /// @brief Method get_hasValidOcclusionMesh, addr 0x6b9a294, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_hasValidOcclusionMesh, addr 0x6b9b374, size 0xb8, virtual false, abstract: false, final false
   inline bool get_hasValidOcclusionMesh();
 
   static inline void setStaticF_k_OcclusionMeshProfilingSampler(::UnityEngine::Rendering::ProfilingSampler* value);

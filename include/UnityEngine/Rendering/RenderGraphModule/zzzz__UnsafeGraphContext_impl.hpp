@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::RenderGraphDefaultResources* (
     ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext::*)()>(&::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext::get_defaultResources)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c3ff20;
+  constexpr static std::size_t addrs = 0x6c41000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool* (::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext::get_renderGraphPool)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c3ff38;
+  constexpr static std::size_t addrs = 0x6c41018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext::*)(
     ::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*)>(&::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext::FromInternalContext)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6c3ff50;
+  constexpr static std::size_t addrs = 0x6c41030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin (::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>)>(&::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext::GetTextureUVOrigin)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6c3fff4;
+  constexpr static std::size_t addrs = 0x6c410d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c40064;
+  constexpr static std::size_t addrs = 0x6c41144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>(), { ".ctor", {}, {} })));
@@ -87,7 +87,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>)>(
     &::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext::UnityEngine_Rendering_RenderGraphModule_IDerivedRendergraphContext_GetTextureUVOrigin)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c400d8;
+  constexpr static std::size_t addrs = 0x6c411b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>(),

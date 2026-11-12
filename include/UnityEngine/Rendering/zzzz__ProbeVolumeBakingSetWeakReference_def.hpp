@@ -26,20 +26,20 @@ public:
   /// @brief Field m_InstanceID, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_InstanceID, put = __cordl_internal_set_m_InstanceID)) int32_t m_InstanceID;
 
-  /// @brief Method Get, addr 0x6bedfd8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x6bef0b8, size 0x64, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::ProbeVolumeBakingSet> Get();
 
-  /// @brief Method IsLoaded, addr 0x6bee03c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method IsLoaded, addr 0x6bef11c, size 0x48, virtual false, abstract: false, final false
   inline bool IsLoaded();
 
   static inline ::UnityEngine::Rendering::ProbeVolumeBakingSetWeakReference* New_ctor();
 
   static inline ::UnityEngine::Rendering::ProbeVolumeBakingSetWeakReference* New_ctor(::UnityEngine::Rendering::ProbeVolumeBakingSet* bakingSet);
 
-  /// @brief Method Set, addr 0x6bedf3c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x6bef01c, size 0x94, virtual false, abstract: false, final false
   inline void Set(::UnityEngine::Rendering::ProbeVolumeBakingSet* bakingSet);
 
-  /// @brief Method Unload, addr 0x6bee084, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Unload, addr 0x6bef164, size 0x64, virtual false, abstract: false, final false
   inline void Unload();
 
   constexpr int32_t const& __cordl_internal_get_m_InstanceID() const;
@@ -48,10 +48,10 @@ public:
 
   constexpr void __cordl_internal_set_m_InstanceID(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6bedfd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bef0b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6bedf38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bef018, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::ProbeVolumeBakingSet* bakingSet);
 
 protected:

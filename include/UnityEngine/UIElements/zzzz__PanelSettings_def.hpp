@@ -135,30 +135,30 @@ public:
 
   __declspec(property(get = get_panel)) ::UnityEngine::UIElements::BaseRuntimePanel* panel;
 
-  /// @brief Method CreateRelatedRuntimePanel, addr 0x7284a20, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method CreateRelatedRuntimePanel, addr 0x7285b00, size 0x100, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BaseRuntimePanel* CreateRelatedRuntimePanel();
 
-  /// @brief Method DisposePanel, addr 0x72837b8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method DisposePanel, addr 0x7284898, size 0x20, virtual false, abstract: false, final false
   inline void DisposePanel();
 
-  /// @brief Method DisposeRelatedPanel, addr 0x7284b7c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method DisposeRelatedPanel, addr 0x7285c5c, size 0x60, virtual false, abstract: false, final false
   inline void DisposeRelatedPanel();
 
-  /// @brief Method MarkPotentiallyEmpty, addr 0x72849b0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method MarkPotentiallyEmpty, addr 0x7285a90, size 0x60, virtual false, abstract: false, final false
   inline void MarkPotentiallyEmpty();
 
   static inline ::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess* New_ctor(::UnityEngine::UIElements::PanelSettings* settings);
 
-  /// @brief Method SetPanelChangeReceiver, addr 0x7283830, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetPanelChangeReceiver, addr 0x7284910, size 0x2c, virtual false, abstract: false, final false
   inline void SetPanelChangeReceiver();
 
-  /// @brief Method SetSortingPriority, addr 0x7282fe0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetSortingPriority, addr 0x72840c0, size 0x2c, virtual false, abstract: false, final false
   inline void SetSortingPriority();
 
-  /// @brief Method SetTargetDisplay, addr 0x7283048, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetTargetDisplay, addr 0x7284128, size 0x24, virtual false, abstract: false, final false
   inline void SetTargetDisplay();
 
-  /// @brief Method SetTargetTexture, addr 0x7282e84, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetTargetTexture, addr 0x7283f64, size 0x24, virtual false, abstract: false, final false
   inline void SetTargetTexture();
 
   constexpr bool const& __cordl_internal_get__isTransient_k__BackingField() const;
@@ -179,21 +179,21 @@ public:
 
   constexpr void __cordl_internal_set_m_Settings(::UnityW<::UnityEngine::UIElements::PanelSettings> value);
 
-  /// @brief Method .ctor, addr 0x7283424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7284504, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::PanelSettings* settings);
 
-  /// @brief Method get_isInitialized, addr 0x72832e8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isInitialized, addr 0x72843c8, size 0x10, virtual false, abstract: false, final false
   inline bool get_isInitialized();
 
   /// [CompilerGenerated]
-  /// @brief Method get_isTransient, addr 0x7284a10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isTransient, addr 0x7285af0, size 0x8, virtual false, abstract: false, final false
   inline bool get_isTransient();
 
-  /// @brief Method get_panel, addr 0x7283130, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method get_panel, addr 0x7284210, size 0x198, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BaseRuntimePanel* get_panel();
 
   /// [CompilerGenerated]
-  /// @brief Method set_isTransient, addr 0x7284a18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isTransient, addr 0x7285af8, size 0x8, virtual false, abstract: false, final false
   inline void set_isTransient(bool value);
 
 protected:
@@ -250,7 +250,7 @@ public:
 
   static inline ::UnityEngine::UIElements::PanelSettings___c__DisplayClass146_0* New_ctor();
 
-  /// @brief Method <SetScreenToPanelSpaceFunction>b__0, addr 0x7284bdc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <SetScreenToPanelSpaceFunction>b__0, addr 0x7285cbc, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 _SetScreenToPanelSpaceFunction_b__0(::UnityEngine::Vector2 p);
 
   constexpr ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* const& __cordl_internal_get_screenToPanelSpaceFunction() const;
@@ -259,7 +259,7 @@ public:
 
   constexpr void __cordl_internal_set_screenToPanelSpaceFunction(::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* value);
 
-  /// @brief Method .ctor, addr 0x7284450, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7285530, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -492,61 +492,61 @@ public:
   __declspec(property(get = get_visualTree)) ::UnityEngine::UIElements::VisualElement* visualTree;
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.VectorGraphicsModule" })]
-  /// @brief Method ApplyPanelSettings, addr 0x7283864, size 0x864, virtual false, abstract: false, final false
+  /// @brief Method ApplyPanelSettings, addr 0x7284944, size 0x864, virtual false, abstract: false, final false
   inline void ApplyPanelSettings();
 
-  /// @brief Method ApplySortingOrder, addr 0x7282fcc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ApplySortingOrder, addr 0x72840ac, size 0x14, virtual false, abstract: false, final false
   inline void ApplySortingOrder();
 
-  /// @brief Method ApplyThemeStyleSheet, addr 0x7282c4c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method ApplyThemeStyleSheet, addr 0x7283d2c, size 0x1ec, virtual false, abstract: false, final false
   inline void ApplyThemeStyleSheet(::UnityEngine::UIElements::VisualElement* root);
 
-  /// @brief Method AssignICUData, addr 0x7283784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AssignICUData, addr 0x7284864, size 0x8, virtual false, abstract: false, final false
   inline bool AssignICUData();
 
-  /// @brief Method AttachAndInsertUIDocumentToVisualTree, addr 0x7284454, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method AttachAndInsertUIDocumentToVisualTree, addr 0x7285534, size 0xa0, virtual false, abstract: false, final false
   inline void AttachAndInsertUIDocumentToVisualTree(::UnityEngine::UIElements::UIDocument* uiDocument);
 
-  /// @brief Method DetachUIDocument, addr 0x7284920, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method DetachUIDocument, addr 0x7285a00, size 0x90, virtual false, abstract: false, final false
   inline void DetachUIDocument(::UnityEngine::UIElements::UIDocument* uiDocument);
 
-  /// @brief Method DisposePanel, addr 0x72837d8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method DisposePanel, addr 0x72848b8, size 0x2c, virtual false, abstract: false, final false
   inline void DisposePanel();
 
-  /// @brief Method GetDisplayRect, addr 0x72840c8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayRect, addr 0x72851a8, size 0x100, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect GetDisplayRect();
 
-  /// @brief Method GetPanelChangeReceiver, addr 0x728385c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetPanelChangeReceiver, addr 0x728493c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IDebugPanelChangeReceiver* GetPanelChangeReceiver();
 
-  /// @brief Method InitializeShaders, addr 0x72834b4, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method InitializeShaders, addr 0x7284594, size 0x2d0, virtual false, abstract: false, final false
   inline void InitializeShaders();
 
   static inline ::UnityEngine::UIElements::PanelSettings* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x728378c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x728486c, size 0x2c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x7283430, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x7284510, size 0x44, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Reset, addr 0x728342c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x728450c, size 0x4, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ResolveScale, addr 0x72841c8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ResolveScale, addr 0x72852a8, size 0x14c, virtual false, abstract: false, final false
   inline float_t ResolveScale(::UnityEngine::Rect targetRect, float_t screenDpi);
 
   /// [Conditional("ENABLE_PROFILER")]
-  /// @brief Method SetPanelChangeReceiver, addr 0x7283814, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetPanelChangeReceiver, addr 0x72848f4, size 0x1c, virtual false, abstract: false, final false
   inline void SetPanelChangeReceiver(::UnityEngine::UIElements::IDebugPanelChangeReceiver* value);
 
-  /// @brief Method SetScreenToPanelSpaceFunction, addr 0x7284344, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method SetScreenToPanelSpaceFunction, addr 0x7285424, size 0x10c, virtual false, abstract: false, final false
   inline void SetScreenToPanelSpaceFunction(::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* screenToPanelSpaceFunction);
 
-  /// @brief Method SetScreenToPanelSpaceFunction3D, addr 0x7284314, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetScreenToPanelSpaceFunction3D, addr 0x72853f4, size 0x30, virtual false, abstract: false, final false
   inline void SetScreenToPanelSpaceFunction3D(::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector3>* screenToPanelSpaceFunction);
 
-  /// @brief Method UpdateScreenDPI, addr 0x7283474, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method UpdateScreenDPI, addr 0x7284554, size 0x40, virtual false, abstract: false, final false
   inline void UpdateScreenDPI();
 
   constexpr float_t const& __cordl_internal_get__ScreenDPI_k__BackingField() const;
@@ -801,178 +801,178 @@ public:
 
   constexpr void __cordl_internal_set_themeUss(::UnityW<::UnityEngine::UIElements::ThemeStyleSheet> value);
 
-  /// @brief Method .ctor, addr 0x7283368, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7284448, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ScreenDPI, addr 0x7283804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ScreenDPI, addr 0x72848e4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_ScreenDPI();
 
-  /// @brief Method get_bindingLogLevel, addr 0x728306c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bindingLogLevel, addr 0x728414c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingLogLevel get_bindingLogLevel();
 
-  /// @brief Method get_clearColor, addr 0x72830e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clearColor, addr 0x72841c8, size 0x8, virtual false, abstract: false, final false
   inline bool get_clearColor();
 
-  /// @brief Method get_clearDepthStencil, addr 0x72830cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clearDepthStencil, addr 0x72841ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_clearDepthStencil();
 
-  /// @brief Method get_colliderIsTrigger, addr 0x7282ec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colliderIsTrigger, addr 0x7283fa8, size 0x8, virtual false, abstract: false, final false
   inline bool get_colliderIsTrigger();
 
-  /// @brief Method get_colliderUpdateMode, addr 0x7282eb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colliderUpdateMode, addr 0x7283f98, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ColliderUpdateMode get_colliderUpdateMode();
 
-  /// @brief Method get_colorClearValue, addr 0x72830f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_colorClearValue, addr 0x72841d8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_colorClearValue();
 
-  /// @brief Method get_depthClearValue, addr 0x72830dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_depthClearValue, addr 0x72841bc, size 0xc, virtual false, abstract: false, final false
   inline float_t get_depthClearValue();
 
-  /// @brief Method get_disableNoThemeWarning, addr 0x7282e38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disableNoThemeWarning, addr 0x7283f18, size 0x8, virtual false, abstract: false, final false
   inline bool get_disableNoThemeWarning();
 
-  /// @brief Method get_dynamicAtlasSettings, addr 0x7283358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dynamicAtlasSettings, addr 0x7284438, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DynamicAtlasSettings* get_dynamicAtlasSettings();
 
-  /// @brief Method get_fallbackDpi, addr 0x7282f48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fallbackDpi, addr 0x7284028, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fallbackDpi();
 
-  /// @brief Method get_isInitialized, addr 0x72832c8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_isInitialized, addr 0x72843a8, size 0x20, virtual false, abstract: false, final false
   inline bool get_isInitialized();
 
-  /// @brief Method get_isTransient, addr 0x72832f8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_isTransient, addr 0x72843d8, size 0x18, virtual false, abstract: false, final false
   inline bool get_isTransient();
 
-  /// @brief Method get_match, addr 0x7282f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_match, addr 0x7284078, size 0x8, virtual false, abstract: false, final false
   inline float_t get_match();
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.VectorGraphicsModule" })]
-  /// @brief Method get_panel, addr 0x72830b8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_panel, addr 0x7284198, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BaseRuntimePanel* get_panel();
 
-  /// @brief Method get_pixelsPerUnit, addr 0x7282ef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pixelsPerUnit, addr 0x7283fd8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pixelsPerUnit();
 
-  /// @brief Method get_referenceDpi, addr 0x7282f18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_referenceDpi, addr 0x7283ff8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_referenceDpi();
 
-  /// @brief Method get_referenceResolution, addr 0x7282f78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_referenceResolution, addr 0x7284058, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2Int get_referenceResolution();
 
-  /// @brief Method get_referenceSpritePixelsPerUnit, addr 0x7282ee8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_referenceSpritePixelsPerUnit, addr 0x7283fc8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_referenceSpritePixelsPerUnit();
 
-  /// @brief Method get_renderMode, addr 0x7282ea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderMode, addr 0x7283f88, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PanelRenderMode get_renderMode();
 
-  /// @brief Method get_scale, addr 0x7282f08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scale, addr 0x7283fe8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_scale();
 
-  /// @brief Method get_scaleMode, addr 0x7282ed8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scaleMode, addr 0x7283fb8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PanelScaleMode get_scaleMode();
 
-  /// @brief Method get_screenMatchMode, addr 0x7282f88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_screenMatchMode, addr 0x7284068, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PanelScreenMatchMode get_screenMatchMode();
 
-  /// @brief Method get_sortingOrder, addr 0x7282fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sortingOrder, addr 0x7284088, size 0x8, virtual false, abstract: false, final false
   inline float_t get_sortingOrder();
 
-  /// @brief Method get_targetDisplay, addr 0x728300c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetDisplay, addr 0x72840ec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_targetDisplay();
 
-  /// @brief Method get_targetTexture, addr 0x7282e48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetTexture, addr 0x7283f28, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> get_targetTexture();
 
-  /// @brief Method get_textureSlotCount, addr 0x7283120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textureSlotCount, addr 0x7284200, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextureSlotCount get_textureSlotCount();
 
-  /// @brief Method get_themeStyleSheet, addr 0x7282c34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_themeStyleSheet, addr 0x7283d14, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::ThemeStyleSheet> get_themeStyleSheet();
 
-  /// @brief Method get_vertexBudget, addr 0x7283110, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vertexBudget, addr 0x72841f0, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_vertexBudget();
 
-  /// @brief Method get_visualTree, addr 0x728332c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_visualTree, addr 0x728440c, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_visualTree();
 
   /// [CompilerGenerated]
-  /// @brief Method set_ScreenDPI, addr 0x728380c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ScreenDPI, addr 0x72848ec, size 0x8, virtual false, abstract: false, final false
   inline void set_ScreenDPI(float_t value);
 
-  /// @brief Method set_bindingLogLevel, addr 0x7283074, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_bindingLogLevel, addr 0x7284154, size 0x44, virtual false, abstract: false, final false
   inline void set_bindingLogLevel(::UnityEngine::UIElements::BindingLogLevel value);
 
-  /// @brief Method set_clearColor, addr 0x72830f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clearColor, addr 0x72841d0, size 0x8, virtual false, abstract: false, final false
   inline void set_clearColor(bool value);
 
-  /// @brief Method set_clearDepthStencil, addr 0x72830d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clearDepthStencil, addr 0x72841b4, size 0x8, virtual false, abstract: false, final false
   inline void set_clearDepthStencil(bool value);
 
-  /// @brief Method set_colliderIsTrigger, addr 0x7282ed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colliderIsTrigger, addr 0x7283fb0, size 0x8, virtual false, abstract: false, final false
   inline void set_colliderIsTrigger(bool value);
 
-  /// @brief Method set_colliderUpdateMode, addr 0x7282ec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colliderUpdateMode, addr 0x7283fa0, size 0x8, virtual false, abstract: false, final false
   inline void set_colliderUpdateMode(::UnityEngine::UIElements::ColliderUpdateMode value);
 
-  /// @brief Method set_colorClearValue, addr 0x7283104, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_colorClearValue, addr 0x72841e4, size 0xc, virtual false, abstract: false, final false
   inline void set_colorClearValue(::UnityEngine::Color value);
 
-  /// @brief Method set_disableNoThemeWarning, addr 0x7282e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disableNoThemeWarning, addr 0x7283f20, size 0x8, virtual false, abstract: false, final false
   inline void set_disableNoThemeWarning(bool value);
 
-  /// @brief Method set_dynamicAtlasSettings, addr 0x7283360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_dynamicAtlasSettings, addr 0x7284440, size 0x8, virtual false, abstract: false, final false
   inline void set_dynamicAtlasSettings(::UnityEngine::UIElements::DynamicAtlasSettings* value);
 
-  /// @brief Method set_fallbackDpi, addr 0x7282f50, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_fallbackDpi, addr 0x7284030, size 0x28, virtual false, abstract: false, final false
   inline void set_fallbackDpi(float_t value);
 
-  /// @brief Method set_isTransient, addr 0x7283310, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_isTransient, addr 0x72843f0, size 0x1c, virtual false, abstract: false, final false
   inline void set_isTransient(bool value);
 
-  /// @brief Method set_match, addr 0x7282fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_match, addr 0x7284080, size 0x8, virtual false, abstract: false, final false
   inline void set_match(float_t value);
 
-  /// @brief Method set_pixelsPerUnit, addr 0x7282f00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pixelsPerUnit, addr 0x7283fe0, size 0x8, virtual false, abstract: false, final false
   inline void set_pixelsPerUnit(float_t value);
 
-  /// @brief Method set_referenceDpi, addr 0x7282f20, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_referenceDpi, addr 0x7284000, size 0x28, virtual false, abstract: false, final false
   inline void set_referenceDpi(float_t value);
 
-  /// @brief Method set_referenceResolution, addr 0x7282f80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_referenceResolution, addr 0x7284060, size 0x8, virtual false, abstract: false, final false
   inline void set_referenceResolution(::UnityEngine::Vector2Int value);
 
-  /// @brief Method set_referenceSpritePixelsPerUnit, addr 0x7282ef0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_referenceSpritePixelsPerUnit, addr 0x7283fd0, size 0x8, virtual false, abstract: false, final false
   inline void set_referenceSpritePixelsPerUnit(float_t value);
 
-  /// @brief Method set_renderMode, addr 0x7282eb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_renderMode, addr 0x7283f90, size 0x8, virtual false, abstract: false, final false
   inline void set_renderMode(::UnityEngine::UIElements::PanelRenderMode value);
 
-  /// @brief Method set_scale, addr 0x7282f10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_scale, addr 0x7283ff0, size 0x8, virtual false, abstract: false, final false
   inline void set_scale(float_t value);
 
-  /// @brief Method set_scaleMode, addr 0x7282ee0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_scaleMode, addr 0x7283fc0, size 0x8, virtual false, abstract: false, final false
   inline void set_scaleMode(::UnityEngine::UIElements::PanelScaleMode value);
 
-  /// @brief Method set_screenMatchMode, addr 0x7282f90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_screenMatchMode, addr 0x7284070, size 0x8, virtual false, abstract: false, final false
   inline void set_screenMatchMode(::UnityEngine::UIElements::PanelScreenMatchMode value);
 
-  /// @brief Method set_sortingOrder, addr 0x7282fb0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_sortingOrder, addr 0x7284090, size 0x1c, virtual false, abstract: false, final false
   inline void set_sortingOrder(float_t value);
 
-  /// @brief Method set_targetDisplay, addr 0x7283014, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_targetDisplay, addr 0x72840f4, size 0x34, virtual false, abstract: false, final false
   inline void set_targetDisplay(int32_t value);
 
-  /// @brief Method set_targetTexture, addr 0x7282e50, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_targetTexture, addr 0x7283f30, size 0x34, virtual false, abstract: false, final false
   inline void set_targetTexture(::UnityEngine::RenderTexture* value);
 
-  /// @brief Method set_textureSlotCount, addr 0x7283128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_textureSlotCount, addr 0x7284208, size 0x8, virtual false, abstract: false, final false
   inline void set_textureSlotCount(::UnityEngine::UIElements::TextureSlotCount value);
 
-  /// @brief Method set_themeStyleSheet, addr 0x7282c3c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_themeStyleSheet, addr 0x7283d1c, size 0x10, virtual false, abstract: false, final false
   inline void set_themeStyleSheet(::UnityEngine::UIElements::ThemeStyleSheet* value);
 
-  /// @brief Method set_vertexBudget, addr 0x7283118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_vertexBudget, addr 0x72841f8, size 0x8, virtual false, abstract: false, final false
   inline void set_vertexBudget(uint32_t value);
 
 protected:

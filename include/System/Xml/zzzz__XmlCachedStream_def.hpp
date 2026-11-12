@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set_uri(::System::Uri* value);
 
-  /// @brief Method .ctor, addr 0x67468e8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6746f38, size 0x164, virtual false, abstract: false, final false
   inline void _ctor(::System::Uri* uri, ::System::IO::Stream* stream);
 
 protected:

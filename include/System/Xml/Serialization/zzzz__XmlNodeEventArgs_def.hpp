@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_xmlNode(::System::Xml::XmlNode* value);
 
-  /// @brief Method .ctor, addr 0x675041c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6750a6c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNode* xmlNode, int32_t lineNumber, int32_t linePosition, ::System::Object* o);
 
 protected:

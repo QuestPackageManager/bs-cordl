@@ -41,7 +41,7 @@ public:
   /// @brief Field isOpenBSD, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_isOpenBSD, put = setStaticF_isOpenBSD)) bool isOpenBSD;
 
-  /// @brief Method CheckOS, addr 0x67df774, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method CheckOS, addr 0x67dfdc4, size 0x200, virtual false, abstract: false, final false
   static inline void CheckOS();
 
   static inline bool getStaticF_checkedOS();
@@ -56,19 +56,19 @@ public:
 
   static inline bool getStaticF_isOpenBSD();
 
-  /// @brief Method get_IsAix, addr 0x67dfb80, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_IsAix, addr 0x67e01d0, size 0x60, virtual false, abstract: false, final false
   static inline bool get_IsAix();
 
-  /// @brief Method get_IsFreeBSD, addr 0x67dfa60, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_IsFreeBSD, addr 0x67e00b0, size 0x60, virtual false, abstract: false, final false
   static inline bool get_IsFreeBSD();
 
-  /// @brief Method get_IsIBMi, addr 0x67dfb20, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_IsIBMi, addr 0x67e0170, size 0x60, virtual false, abstract: false, final false
   static inline bool get_IsIBMi();
 
-  /// @brief Method get_IsMacOS, addr 0x67df974, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method get_IsMacOS, addr 0x67dffc4, size 0xec, virtual false, abstract: false, final false
   static inline bool get_IsMacOS();
 
-  /// @brief Method get_IsOpenBSD, addr 0x67dfac0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_IsOpenBSD, addr 0x67e0110, size 0x60, virtual false, abstract: false, final false
   static inline bool get_IsOpenBSD();
 
   static inline void setStaticF_checkedOS(bool value);
@@ -83,7 +83,7 @@ public:
 
   static inline void setStaticF_isOpenBSD(bool value);
 
-  /// @brief Method uname, addr 0x67df6f8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method uname, addr 0x67dfd48, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t uname(::System::IntPtr buf);
 
 protected:

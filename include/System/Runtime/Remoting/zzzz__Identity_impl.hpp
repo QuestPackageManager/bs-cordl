@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Identity::*)(::StringW)>(&::System::Runtime::Remoting::Identity::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f757b4;
+  constexpr static std::size_t addrs = 0x5f75a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Messaging::IMessageSink* (::System::Runtime::Remoting::Identity::*)()>(
     &::System::Runtime::Remoting::Identity::get_ChannelSink)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f757bc;
+  constexpr static std::size_t addrs = 0x5f75a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Identity*>(), { "get_ChannelSink", {}, {} })));
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Identity::*)(::System::Runtime::Remoting::Messaging::IMessageSink*)>(
     &::System::Runtime::Remoting::Identity::set_ChannelSink)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f757c4;
+  constexpr static std::size_t addrs = 0x5f75a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Identity*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Messaging::IMessageSink* (::System::Runtime::Remoting::Identity::*)()>(
     &::System::Runtime::Remoting::Identity::get_EnvoySink)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f757cc;
+  constexpr static std::size_t addrs = 0x5f75a54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Identity*>(), { "get_EnvoySink", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Remoting::Identity::*)()>(&::System::Runtime::Remoting::Identity::get_ObjectUri)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f757d4;
+  constexpr static std::size_t addrs = 0x5f75a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Identity*>(), { "get_ObjectUri", {}, {} })));
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Identity::*)(::StringW)>(&::System::Runtime::Remoting::Identity::set_ObjectUri)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f757dc;
+  constexpr static std::size_t addrs = 0x5f75a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Remoting::Identity::*)()>(&::System::Runtime::Remoting::Identity::get_IsConnected)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f757e4;
+  constexpr static std::size_t addrs = 0x5f75a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Identity*>(), { "get_IsConnected", {}, {} })));
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Remoting::Identity::*)()>(&::System::Runtime::Remoting::Identity::get_Disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f757f4;
+  constexpr static std::size_t addrs = 0x5f75a7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Identity*>(), { "get_Disposed", {}, {} })));
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Identity::*)(bool)>(&::System::Runtime::Remoting::Identity::set_Disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f757fc;
+  constexpr static std::size_t addrs = 0x5f75a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* (::System::Runtime::Remoting::Identity::*)()>(
     &::System::Runtime::Remoting::Identity::get_ClientDynamicProperties)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5f75804;
+  constexpr static std::size_t addrs = 0x5f75a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Identity*>(), { "get_ClientDynamicProperties", {}, {} })));
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Remoting::Identity::*)()>(&::System::Runtime::Remoting::Identity::get_HasServerDynamicSinks)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5f7586c;
+  constexpr static std::size_t addrs = 0x5f75af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Identity*>(), { "get_HasServerDynamicSinks", {}, {} })));
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Identity::*)(bool, ::System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(
     &::System::Runtime::Remoting::Identity::NotifyClientDynamicSinks)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5f758ac;
+  constexpr static std::size_t addrs = 0x5f75b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Identity::*)(bool, ::System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(
     &::System::Runtime::Remoting::Identity::NotifyServerDynamicSinks)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5f75934;
+  constexpr static std::size_t addrs = 0x5f75bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -34,7 +34,7 @@ public:
   /// @brief Field showEyeDropper, offset 0x26, size 0x1
   __declspec(property(get = __cordl_internal_get_showEyeDropper, put = __cordl_internal_set_showEyeDropper)) bool showEyeDropper;
 
-  /// @brief Method Interp, addr 0x6c27f1c, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Interp, addr 0x6c28ffc, size 0x30, virtual true, abstract: false, final false
   inline void Interp(::UnityEngine::Color from, ::UnityEngine::Color to, float_t t);
 
   static inline ::UnityEngine::Rendering::ColorParameter* New_ctor(::UnityEngine::Color value, bool hdr, bool showAlpha, bool showEyeDropper, bool overrideState);
@@ -59,10 +59,10 @@ public:
 
   constexpr void __cordl_internal_set_showEyeDropper(bool value);
 
-  /// @brief Method .ctor, addr 0x6c27e50, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c28f30, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color value, bool hdr, bool showAlpha, bool showEyeDropper, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x6c27dc4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c28ea4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color value, bool overrideState);
 
 protected:

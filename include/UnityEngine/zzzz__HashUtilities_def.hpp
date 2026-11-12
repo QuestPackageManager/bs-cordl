@@ -22,7 +22,7 @@ namespace UnityEngine {
 class CORDL_TYPE HashUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AppendHash, addr 0x6f5ddf4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AppendHash, addr 0x6f5eed4, size 0xc, virtual false, abstract: false, final false
   static inline void AppendHash(::by_ref<::UnityEngine::Hash128> inHash, ::by_ref<::UnityEngine::Hash128> outHash);
 
 protected:

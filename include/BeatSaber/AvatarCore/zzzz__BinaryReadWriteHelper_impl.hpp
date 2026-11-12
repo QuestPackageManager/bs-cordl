@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::BinaryWriter*, ::UnityEngine::Color)>(&::BeatSaber::AvatarCore::BinaryReadWriteHelper::Write)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3515978;
+  constexpr static std::size_t addrs = 0x3517db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (*)(::System::IO::BinaryReader*)>(&::BeatSaber::AvatarCore::BinaryReadWriteHelper::ReadColor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3515a00;
+  constexpr static std::size_t addrs = 0x3517e40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

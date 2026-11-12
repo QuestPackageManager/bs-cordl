@@ -89,63 +89,63 @@ public:
   /// @brief Method Accepts, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Accepts(::UnityEngine::UIElements::UxmlAsset* asset, ::by_ref<::StringW> errorMessage);
 
-  /// @brief Method Add, addr 0x71842d4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x71853b4, size 0xb4, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::UIElements::UxmlAsset* asset);
 
-  /// @brief Method GetChildrenUxmlObjectAssets, addr 0x7183ec0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetChildrenUxmlObjectAssets, addr 0x7184fa0, size 0x194, virtual false, abstract: false, final false
   inline void GetChildrenUxmlObjectAssets(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UxmlObjectAsset*>* children);
 
-  /// @brief Method GetField, addr 0x7184054, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetField, addr 0x7185134, size 0x10c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UxmlObjectAsset* GetField(::StringW fieldName);
 
-  /// @brief Method HasParent, addr 0x7184ab8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method HasParent, addr 0x7185b98, size 0x10, virtual true, abstract: false, final false
   inline bool HasParent();
 
-  /// @brief Method IndexOf, addr 0x71849d4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x7185ab4, size 0x7c, virtual false, abstract: false, final false
   inline int32_t IndexOf(::UnityEngine::UIElements::UxmlAsset* asset);
 
-  /// @brief Method Insert, addr 0x7184388, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method Insert, addr 0x7185468, size 0x340, virtual false, abstract: false, final false
   inline void Insert(int32_t index, ::UnityEngine::UIElements::UxmlAsset* asset);
 
-  /// @brief Method InsertInChildren, addr 0x71848a8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method InsertInChildren, addr 0x7185988, size 0xbc, virtual false, abstract: false, final false
   inline void InsertInChildren(int32_t index, ::UnityEngine::UIElements::UxmlAsset* asset);
 
-  /// @brief Method IsAncestorOf, addr 0x71846c8, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method IsAncestorOf, addr 0x71857a8, size 0x1e0, virtual false, abstract: false, final false
   inline bool IsAncestorOf(::UnityEngine::UIElements::UxmlAsset* other);
 
   static inline ::UnityEngine::UIElements::UxmlAsset* New_ctor(::StringW fullTypeName, ::UnityEngine::UIElements::UxmlNamespaceDefinition xmlNamespace);
 
-  /// @brief Method OnVisualTreeAssetChanged, addr 0x7184ab4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnVisualTreeAssetChanged, addr 0x7185b94, size 0x4, virtual true, abstract: false, final false
   inline void OnVisualTreeAssetChanged(::UnityEngine::UIElements::VisualTreeAsset* previousVta, ::UnityEngine::UIElements::VisualTreeAsset* newVta);
 
-  /// @brief Method RemoveAttribute, addr 0x7181a60, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method RemoveAttribute, addr 0x7182b40, size 0xec, virtual false, abstract: false, final false
   inline void RemoveAttribute(::StringW attributeName);
 
-  /// @brief Method RemoveFromChildren, addr 0x71849b8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromChildren, addr 0x7185a98, size 0x1c, virtual false, abstract: false, final false
   inline void RemoveFromChildren(::UnityEngine::UIElements::UxmlAsset* child);
 
-  /// @brief Method RemoveFromChildren, addr 0x7184a50, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromChildren, addr 0x7185b30, size 0x64, virtual false, abstract: false, final false
   inline void RemoveFromChildren(int32_t index);
 
-  /// @brief Method SetAttribute, addr 0x7181b4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetAttribute, addr 0x7182c2c, size 0x4, virtual false, abstract: false, final false
   inline void SetAttribute(::StringW name, ::StringW value);
 
-  /// @brief Method SetOrAddProperty, addr 0x7184b9c, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method SetOrAddProperty, addr 0x7185c7c, size 0x1c4, virtual false, abstract: false, final false
   inline void SetOrAddProperty(::StringW propertyName, ::StringW propertyValue);
 
-  /// @brief Method SetParent, addr 0x7184964, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetParent, addr 0x7185a44, size 0x54, virtual false, abstract: false, final false
   inline void SetParent(::UnityEngine::UIElements::UxmlAsset* parent);
 
-  /// @brief Method SetVisualTreeAsset, addr 0x7184168, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method SetVisualTreeAsset, addr 0x7185248, size 0x16c, virtual false, abstract: false, final false
   inline void SetVisualTreeAsset(::UnityEngine::UIElements::VisualTreeAsset* vta);
 
-  /// @brief Method SetVisualTreeAssetWithOutNotify, addr 0x7184160, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetVisualTreeAssetWithOutNotify, addr 0x7185240, size 0x8, virtual false, abstract: false, final false
   inline void SetVisualTreeAssetWithOutNotify(::UnityEngine::UIElements::VisualTreeAsset* vta);
 
-  /// @brief Method ToString, addr 0x7184d60, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x7185e40, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryGetAttributeValue, addr 0x7184ac8, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method TryGetAttributeValue, addr 0x7185ba8, size 0xd4, virtual true, abstract: false, final true
   inline bool TryGetAttributeValue(::StringW propertyName, ::by_ref<::StringW> value);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UxmlAsset*>* const& __cordl_internal_get_m_Children() const;
@@ -196,37 +196,37 @@ public:
 
   constexpr void __cordl_internal_set_m_XmlNamespace(::UnityEngine::UIElements::UxmlNamespaceDefinition value);
 
-  /// @brief Method .ctor, addr 0x7183c80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7184d60, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW fullTypeName, ::UnityEngine::UIElements::UxmlNamespaceDefinition xmlNamespace);
 
-  /// @brief Method get_Item, addr 0x7183ddc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x7184ebc, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UxmlAsset* get_Item(int32_t index);
 
-  /// @brief Method get_childCount, addr 0x7183d88, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_childCount, addr 0x7184e68, size 0x54, virtual false, abstract: false, final false
   inline int32_t get_childCount();
 
-  /// @brief Method get_fullTypeName, addr 0x7183c8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fullTypeName, addr 0x7184d6c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_fullTypeName();
 
-  /// @brief Method get_id, addr 0x7183c94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x7184d74, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
-  /// @brief Method get_isRoot, addr 0x7183ca4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method get_isRoot, addr 0x7184d84, size 0xd4, virtual false, abstract: false, final false
   inline bool get_isRoot();
 
-  /// @brief Method get_namespaceDefinitions, addr 0x7183e40, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_namespaceDefinitions, addr 0x7184f20, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UxmlNamespaceDefinition>* get_namespaceDefinitions();
 
-  /// @brief Method get_parentAsset, addr 0x7183d78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parentAsset, addr 0x7184e58, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UxmlAsset* get_parentAsset();
 
-  /// @brief Method get_visualTreeAsset, addr 0x7183d80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_visualTreeAsset, addr 0x7184e60, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> get_visualTreeAsset();
 
   /// @brief Convert to "::UnityEngine::UIElements::IUxmlAttributes"
   constexpr ::UnityEngine::UIElements::IUxmlAttributes* i___UnityEngine__UIElements__IUxmlAttributes() noexcept;
 
-  /// @brief Method set_id, addr 0x7183c9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_id, addr 0x7184d7c, size 0x8, virtual false, abstract: false, final false
   inline void set_id(int32_t value);
 
 protected:

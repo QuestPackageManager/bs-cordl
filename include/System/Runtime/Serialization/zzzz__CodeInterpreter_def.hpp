@@ -31,19 +31,19 @@ namespace System::Runtime::Serialization {
 class CORDL_TYPE CodeInterpreter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CanConvert, addr 0x65e0414, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x65e0a64, size 0x10, virtual false, abstract: false, final false
   static inline bool CanConvert(::System::TypeCode typeCode);
 
-  /// @brief Method ConvertValue, addr 0x65e01b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ConvertValue, addr 0x65e0804, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Object* ConvertValue(::System::Object* arg, ::System::Type* source, ::System::Type* target);
 
-  /// @brief Method GetMember, addr 0x65e0424, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetMember, addr 0x65e0a74, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Object* GetMember(::System::Reflection::MemberInfo* memberInfo, ::System::Object* instance);
 
-  /// @brief Method InternalConvert, addr 0x65e01bc, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method InternalConvert, addr 0x65e080c, size 0x258, virtual false, abstract: false, final false
   static inline ::System::Object* InternalConvert(::System::Object* arg, ::System::Type* source, ::System::Type* target, bool isAddress);
 
-  /// @brief Method SetMember, addr 0x65e0520, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method SetMember, addr 0x65e0b70, size 0x104, virtual false, abstract: false, final false
   static inline void SetMember(::System::Reflection::MemberInfo* memberInfo, ::System::Object* instance, ::System::Object* value);
 
 protected:
@@ -61,7 +61,7 @@ public:
   CodeInterpreter(CodeInterpreter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16561 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16569 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

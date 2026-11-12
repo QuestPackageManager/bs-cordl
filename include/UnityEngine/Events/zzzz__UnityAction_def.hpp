@@ -25,12 +25,12 @@ namespace UnityEngine::Events {
 class CORDL_TYPE UnityAction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6f96ae0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6f97bc0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::UnityEngine::Events::UnityAction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6f96a78, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f97b58, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

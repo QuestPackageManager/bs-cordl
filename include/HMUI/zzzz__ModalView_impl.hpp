@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ModalView___c__DisplayClass18_0::*)()>(&::HMUI::ModalView___c__DisplayClass18_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35a982c;
+  constexpr static std::size_t addrs = 0x35ac9ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ModalView___c__DisplayClass18_0*>(), { ".ctor", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ModalView___c__DisplayClass18_0::*)()>(&::HMUI::ModalView___c__DisplayClass18_0::_Hide_b__0)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x35aa36c;
+  constexpr static std::size_t addrs = 0x35ad52c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ModalView___c__DisplayClass18_0*>(), { "<Hide>b__0", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ModalView___c__DisplayClass22_0::*)()>(&::HMUI::ModalView___c__DisplayClass22_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35aa35c;
+  constexpr static std::size_t addrs = 0x35ad51c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ModalView___c__DisplayClass22_0*>(), { ".ctor", {}, {} })));
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ModalView___c__DisplayClass22_0::*)()>(&::HMUI::ModalView___c__DisplayClass22_0::_HandleParentViewControllerDidDeactivate_b__0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x35aa3e8;
+  constexpr static std::size_t addrs = 0x35ad5a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ModalView::*)(::System::Action*)>(&::HMUI::ModalView::add_blockerClickedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x35a910c;
+  constexpr static std::size_t addrs = 0x35ac2cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::ModalView*>(), { ::i2c::class_of<::HMUI::ModalView*>(), 4 }));
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ModalView::*)(::System::Action*)>(&::HMUI::ModalView::remove_blockerClickedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x35a91b8;
+  constexpr static std::size_t addrs = 0x35ac378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::ModalView*>(), { ::i2c::class_of<::HMUI::ModalView*>(), 5 }));
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::ModalView::*)()>(&::HMUI::ModalView::get_isShown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35a9264;
+  constexpr static std::size_t addrs = 0x35ac424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ModalView*>(), { "get_isShown", {}, {} })));
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ModalView::*)()>(&::HMUI::ModalView::OnDisable)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x35a926c;
+  constexpr static std::size_t addrs = 0x35ac42c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ModalView*>(), { "OnDisable", {}, {} })));
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ModalView::*)()>(&::HMUI::ModalView::OnDestroy)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x35a9280;
+  constexpr static std::size_t addrs = 0x35ac440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ModalView*>(), { "OnDestroy", {}, {} })));
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ModalView::*)(::UnityEngine::Transform*)>(&::HMUI::ModalView::SetupView)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x35a9310;
+  constexpr static std::size_t addrs = 0x35ac4d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ModalView::*)(bool, ::System::Action*)>(&::HMUI::ModalView::Hide)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x35a95ac;
+  constexpr static std::size_t addrs = 0x35ac76c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::ModalView*>(), { ::i2c::class_of<::HMUI::ModalView*>(), 7 }));
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ModalView::*)(bool, bool, ::System::Action*)>(&::HMUI::ModalView::Show)> {
   constexpr static std::size_t size = 0x464;
-  constexpr static std::size_t addrs = 0x35a9830;
+  constexpr static std::size_t addrs = 0x35ac9f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::ModalView*>(), { ::i2c::class_of<::HMUI::ModalView*>(), 6 }));
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::HMUI::ModalView::*)()>(&::HMUI::ModalView::CreateBlocker)> {
   constexpr static std::size_t size = 0x48c;
-  constexpr static std::size_t addrs = 0x35a9da4;
+  constexpr static std::size_t addrs = 0x35acf64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ModalView*>(), { "CreateBlocker", {}, {} })));
@@ -250,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ModalView::*)()>(&::HMUI::ModalView::HandleBlockerButtonClicked)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x35aa230;
+  constexpr static std::size_t addrs = 0x35ad3f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ModalView*>(), { "HandleBlockerButtonClicked", {}, {} })));
@@ -262,7 +262,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ModalView::*)(bool, bool)>(&::HMUI::ModalView::HandleParentViewControllerDidDeactivate)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x35aa24c;
+  constexpr static std::size_t addrs = 0x35ad40c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -276,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (*)(::UnityEngine::Transform*, ::by_ref<::UnityEngine::Canvas*>, ::by_ref<::HMUI::ViewControllerBase*>)>(
     &::HMUI::ModalView::GetModalRootTransform)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x35a9c94;
+  constexpr static std::size_t addrs = 0x35ace54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ModalView::*)()>(&::HMUI::ModalView::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x35aa360;
+  constexpr static std::size_t addrs = 0x35ad520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ModalView*>(), { ".ctor", {}, {} })));

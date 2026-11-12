@@ -25,7 +25,7 @@ public:
 
   static inline int32_t getStaticF_s_allowArbitraryTypeInstantiation();
 
-  /// @brief Method get_AllowArbitraryTypeInstantiation, addr 0x6456180, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_AllowArbitraryTypeInstantiation, addr 0x64567d0, size 0x88, virtual false, abstract: false, final false
   static inline bool get_AllowArbitraryTypeInstantiation();
 
   static inline void setStaticF_s_allowArbitraryTypeInstantiation(int32_t value);

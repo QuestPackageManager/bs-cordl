@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirrorRendererFeature_IterationHandle::*)()>(&::GlobalNamespace::MirrorRendererFeature_IterationHandle::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63a0e48;
+  constexpr static std::size_t addrs = 0x63a1498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererFeature_IterationHandle*>(), { ".ctor", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirrorRendererFeature___c__DisplayClass17_0::*)()>(
     &::GlobalNamespace::MirrorRendererFeature___c__DisplayClass17_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x639ff50;
+  constexpr static std::size_t addrs = 0x63a05a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererFeature___c__DisplayClass17_0*>(), { ".ctor", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirrorRendererFeature___c__DisplayClass17_0::*)(::GlobalNamespace::BloomPrePassEffectSO*)>(
     &::GlobalNamespace::MirrorRendererFeature___c__DisplayClass17_0::_Create_b__0)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x63a0ebc;
+  constexpr static std::size_t addrs = 0x63a150c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererFeature___c__DisplayClass17_0*>(),
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirrorRendererFeature___c__DisplayClass17_0::*)(::GlobalNamespace::MirrorRendererSO*)>(
     &::GlobalNamespace::MirrorRendererFeature___c__DisplayClass17_0::_Create_b__1)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x63a0fb4;
+  constexpr static std::size_t addrs = 0x63a1604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererFeature___c__DisplayClass17_0*>(),
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirrorRendererFeature::*)()>(&::GlobalNamespace::MirrorRendererFeature::Create)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x639fc90;
+  constexpr static std::size_t addrs = 0x63a02e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirrorRendererFeature::*)(
     ::UnityEngine::Rendering::Universal::ScriptableRenderer*, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::GlobalNamespace::MirrorRendererFeature::AddRenderPasses)> {
   constexpr static std::size_t size = 0x8b0;
-  constexpr static std::size_t addrs = 0x63a00a8;
+  constexpr static std::size_t addrs = 0x63a06f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirrorRendererFeature::*)(bool)>(&::GlobalNamespace::MirrorRendererFeature::Dispose)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x63a0c40;
+  constexpr static std::size_t addrs = 0x63a1290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirrorRendererFeature::*)()>(&::GlobalNamespace::MirrorRendererFeature::ReleaseHandles)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x639ff54;
+  constexpr static std::size_t addrs = 0x63a05a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererFeature*>(), { "ReleaseHandles", {}, {} })));
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<::UnityEngine::Plane>, ::ArrayW<::UnityEngine::Plane>, ::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4,
                                                                 ::ArrayW<::UnityEngine::Plane>)>(&::GlobalNamespace::MirrorRendererFeature::UnionFrustumPlanes)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x63a098c;
+  constexpr static std::size_t addrs = 0x63a0fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirrorRendererFeature::*)(::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*)>(
     &::GlobalNamespace::MirrorRendererFeature::HandleBeginCameraRendering)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63a0d10;
+  constexpr static std::size_t addrs = 0x63a1360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirrorRendererFeature::*)(::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*)>(
     &::GlobalNamespace::MirrorRendererFeature::HandleEndCameraRendering)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x63a0d18;
+  constexpr static std::size_t addrs = 0x63a1368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirrorRendererFeature::*)()>(&::GlobalNamespace::MirrorRendererFeature::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x63a0d94;
+  constexpr static std::size_t addrs = 0x63a13e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererFeature*>(), { ".ctor", {}, {} })));

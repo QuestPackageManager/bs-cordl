@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioTimeSyncController_InitData::*)(::UnityEngine::AudioClip*, float_t, float_t, float_t)>(
     &::GlobalNamespace::AudioTimeSyncController_InitData::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5d05d1c;
+  constexpr static std::size_t addrs = 0x5d05554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IAudioTimeSource_State (::GlobalNamespace::AudioTimeSyncController::*)()>(
     &::GlobalNamespace::AudioTimeSyncController::get_state)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d0489c;
+  constexpr static std::size_t addrs = 0x5d040a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { "get_state", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::get_songTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d048a4;
+  constexpr static std::size_t addrs = 0x5d040ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { "get_songTime", {}, {} })));
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::get_lastFrameDeltaSongTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d048ac;
+  constexpr static std::size_t addrs = 0x5d040b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { "get_lastFrameDeltaSongTime", {}, {} })));
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::get_songLength)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5d048b4;
+  constexpr static std::size_t addrs = 0x5d040bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { "get_songLength", {}, {} })));
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::get_songFailedToLoad)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5d04950;
+  constexpr static std::size_t addrs = 0x5d04158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { "get_songFailedToLoad", {}, {} })));
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::get_isAudioLoaded)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5d04a2c;
+  constexpr static std::size_t addrs = 0x5d04234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { "get_isAudioLoaded", {}, {} })));
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::get_startSongTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d04b0c;
+  constexpr static std::size_t addrs = 0x5d04314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { "get_startSongTime", {}, {} })));
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::get_songEndTime)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d04b14;
+  constexpr static std::size_t addrs = 0x5d0431c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { "get_songEndTime", {}, {} })));
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::get_timeScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d04b38;
+  constexpr static std::size_t addrs = 0x5d04340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { "get_timeScale", {}, {} })));
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::get_dspTimeOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d04b40;
+  constexpr static std::size_t addrs = 0x5d04348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { "get_dspTimeOffset", {}, {} })));
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::WaitUntil* (::GlobalNamespace::AudioTimeSyncController::*)()>(
     &::GlobalNamespace::AudioTimeSyncController::get_waitUntilAudioIsLoaded)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5d04b48;
+  constexpr static std::size_t addrs = 0x5d04350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { "get_waitUntilAudioIsLoaded", {}, {} })));
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::get_isReady)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d04bec;
+  constexpr static std::size_t addrs = 0x5d043f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { "get_isReady", {}, {} })));
@@ -238,10 +238,22 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::get_songTimeOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d04bf4;
+  constexpr static std::size_t addrs = 0x5d043fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { "get_songTimeOffset", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::AudioTimeSyncController.get_audioLatency
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::get_audioLatency)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5d04404;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { "get_audioLatency", {}, {} })));
     return ___internal_method;
   }
 };
@@ -251,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::AudioTimeSyncController::*)()>(
     &::GlobalNamespace::AudioTimeSyncController::get_forceNoAudioSyncOrAudioSyncErrorFixing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d04bfc;
+  constexpr static std::size_t addrs = 0x5d0440c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)(bool)>(
     &::GlobalNamespace::AudioTimeSyncController::set_forceNoAudioSyncOrAudioSyncErrorFixing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d04c04;
+  constexpr static std::size_t addrs = 0x5d04414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -278,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)(::System::Action*)>(&::GlobalNamespace::AudioTimeSyncController::add_stateChangedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5d04c0c;
+  constexpr static std::size_t addrs = 0x5d0441c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -292,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)(::System::Action*)>(
     &::GlobalNamespace::AudioTimeSyncController::remove_stateChangedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5d04cb8;
+  constexpr static std::size_t addrs = 0x5d044c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -305,7 +317,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::get_timeSinceStart)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5d04d64;
+  constexpr static std::size_t addrs = 0x5d04574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { "get_timeSinceStart", {}, {} })));
@@ -317,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::Awake)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5d04da8;
+  constexpr static std::size_t addrs = 0x5d045b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { "Awake", {}, {} })));
@@ -329,7 +341,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::Start)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x5d04df0;
+  constexpr static std::size_t addrs = 0x5d04600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { "Start", {}, {} })));
@@ -341,7 +353,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::OnDestroy)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5d04f94;
+  constexpr static std::size_t addrs = 0x5d047a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { "OnDestroy", {}, {} })));
@@ -353,7 +365,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)(bool)>(&::GlobalNamespace::AudioTimeSyncController::HandleAudioConfigurationChanged)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5d05014;
+  constexpr static std::size_t addrs = 0x5d04824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -366,7 +378,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::Update)> {
   constexpr static std::size_t size = 0x9d0;
-  constexpr static std::size_t addrs = 0x5d05058;
+  constexpr static std::size_t addrs = 0x5d04868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { "Update", {}, {} })));
@@ -378,7 +390,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)(float_t)>(&::GlobalNamespace::AudioTimeSyncController::StartSong)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5d05a28;
+  constexpr static std::size_t addrs = 0x5d05238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -391,7 +403,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)(float_t)>(&::GlobalNamespace::AudioTimeSyncController::SeekTo)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x5d05a6c;
+  constexpr static std::size_t addrs = 0x5d0527c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -404,7 +416,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::StopSong)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5d05c18;
+  constexpr static std::size_t addrs = 0x5d05428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { "StopSong", {}, {} })));
@@ -416,7 +428,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::Pause)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5d05c60;
+  constexpr static std::size_t addrs = 0x5d05470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { "Pause", {}, {} })));
@@ -428,10 +440,23 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::Resume)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5d05cb8;
+  constexpr static std::size_t addrs = 0x5d054c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { "Resume", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::AudioTimeSyncController.SetTimeScale
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)(float_t)>(&::GlobalNamespace::AudioTimeSyncController::SetTimeScale)> {
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x5d05518;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { "SetTimeScale", {}, { ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
@@ -440,7 +465,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5d05d08;
+  constexpr static std::size_t addrs = 0x5d05540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { ".ctor", {}, {} })));
@@ -452,7 +477,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::_get_waitUntilAudioIsLoaded_b__31_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d05d18;
+  constexpr static std::size_t addrs = 0x5d05550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -872,6 +897,10 @@ inline float_t GlobalNamespace::AudioTimeSyncController::get_songTimeOffset() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { "get_songTimeOffset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
+inline float_t GlobalNamespace::AudioTimeSyncController::get_audioLatency() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { "get_audioLatency", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
+}
 inline bool GlobalNamespace::AudioTimeSyncController::get_forceNoAudioSyncOrAudioSyncErrorFixing() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { "get_forceNoAudioSyncOrAudioSyncErrorFixing", {}, {} })));
@@ -938,6 +967,11 @@ inline void GlobalNamespace::AudioTimeSyncController::Pause() {
 inline void GlobalNamespace::AudioTimeSyncController::Resume() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { "Resume", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void GlobalNamespace::AudioTimeSyncController::SetTimeScale(float_t timeScale) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { "SetTimeScale", {}, { ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, timeScale);
 }
 inline void GlobalNamespace::AudioTimeSyncController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioTimeSyncController*>(), { ".ctor", {}, {} })));

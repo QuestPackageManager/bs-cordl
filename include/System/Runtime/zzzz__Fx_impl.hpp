@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Fx_InternalException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Runtime::Fx_InternalException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65ebb28;
+  constexpr static std::size_t addrs = 0x65ec178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Fx_FatalInternalException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Runtime::Fx_FatalInternalException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65ebb30;
+  constexpr static std::size_t addrs = 0x65ec180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Fx___c::*)()>(&::System::Runtime::Fx___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65ebb8c;
+  constexpr static std::size_t addrs = 0x65ec1dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Fx___c*>(), { ".ctor", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Fx___c::*)()>(&::System::Runtime::Fx___c::_InitializeTracing_b__8_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x65ebb90;
+  constexpr static std::size_t addrs = 0x65ec1e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Fx___c*>(), { "<InitializeTracing>b__8_0", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::ExceptionTrace* (*)()>(&::System::Runtime::Fx::get_Exception)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x65eae90;
+  constexpr static std::size_t addrs = 0x65eb4e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Fx*>(), { "get_Exception", {}, {} })));
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Diagnostics::EtwDiagnosticTrace* (*)()>(&::System::Runtime::Fx::get_Trace)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x65eaf48;
+  constexpr static std::size_t addrs = 0x65eb598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Fx*>(), { "get_Trace", {}, {} })));
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Diagnostics::EtwDiagnosticTrace* (*)()>(&::System::Runtime::Fx::InitializeTracing)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x65eafa8;
+  constexpr static std::size_t addrs = 0x65eb5f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Fx*>(), { "InitializeTracing", {}, {} })));
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Exception*)>(&::System::Runtime::Fx::IsFatal)> {
   constexpr static std::size_t size = 0x470;
-  constexpr static std::size_t addrs = 0x65eb5d4;
+  constexpr static std::size_t addrs = 0x65ebc24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Fx*>(), { "IsFatal", {}, { ::i2c::type_of<::System::Exception*>() } })));
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Runtime::Diagnostics::EtwDiagnosticTrace*)>(&::System::Runtime::Fx::UpdateLevel)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x65eb540;
+  constexpr static std::size_t addrs = 0x65ebb90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Runtime::Fx::UpdateLevel)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x65ebb18;
+  constexpr static std::size_t addrs = 0x65ec168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Fx*>(), { "UpdateLevel", {}, {} })));

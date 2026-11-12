@@ -144,7 +144,7 @@ public:
   FactoryFromBinder4Extensions___c__1_5(FactoryFromBinder4Extensions___c__1_5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15135 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15143 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -204,7 +204,7 @@ public:
   FactoryFromBinder4Extensions___c__3_5(FactoryFromBinder4Extensions___c__3_5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15136 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15144 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -264,7 +264,7 @@ public:
   FactoryFromBinder4Extensions___c__5_6(FactoryFromBinder4Extensions___c__5_6 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15137 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15145 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -319,7 +319,7 @@ public:
   FactoryFromBinder4Extensions___c__DisplayClass0_0_5(FactoryFromBinder4Extensions___c__DisplayClass0_0_5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15138 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15146 };
 
   /// @brief Field factoryId, offset: 0x10, size: 0x10, def value: None
   ::System::Guid ___factoryId;
@@ -377,7 +377,7 @@ public:
   FactoryFromBinder4Extensions___c__DisplayClass6_0_6(FactoryFromBinder4Extensions___c__DisplayClass6_0_6 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15139 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15147 };
 
   /// @brief Field poolId, offset: 0x10, size: 0x10, def value: None
   ::System::Guid ___poolId;
@@ -474,7 +474,7 @@ public:
   FactoryFromBinder4Extensions(FactoryFromBinder4Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15140 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15148 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

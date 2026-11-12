@@ -25,12 +25,12 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE Vector2Parameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityEngine::Vector2> {
 public:
   // Declarations
-  /// @brief Method Interp, addr 0x6c28114, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Interp, addr 0x6c291f4, size 0x20, virtual true, abstract: false, final false
   inline void Interp(::UnityEngine::Vector2 from, ::UnityEngine::Vector2 to, float_t t);
 
   static inline ::UnityEngine::Rendering::Vector2Parameter* New_ctor(::UnityEngine::Vector2 value, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x6c280a4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c29184, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 value, bool overrideState);
 
 protected:

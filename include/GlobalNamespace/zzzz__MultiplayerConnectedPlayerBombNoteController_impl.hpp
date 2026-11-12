@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController_Pool::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController_Pool::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5e15cb8;
+  constexpr static std::size_t addrs = 0x5e160e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController::*)(
     ::GlobalNamespace::NoteData*, ::by_ref<::GlobalNamespace::NoteSpawnData const>)>(&::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController::Init)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5e11fc0;
+  constexpr static std::size_t addrs = 0x5e123f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e15ca8;
+  constexpr static std::size_t addrs = 0x5e160d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController*>(), { ".ctor", {}, {} })));

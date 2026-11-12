@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::Haptics::HapticState::*)(uint32_t, uint32_t)>(
     &::UnityEngine::InputSystem::XR::Haptics::HapticState::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f4be8;
+  constexpr static std::size_t addrs = 0x69f5cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::InputSystem::XR::Haptics::HapticState::*)()>(
     &::UnityEngine::InputSystem::XR::Haptics::HapticState::get_samplesQueued)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f4bf0;
+  constexpr static std::size_t addrs = 0x69f5cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::Haptics::HapticState>(), { "get_samplesQueued", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::Haptics::HapticState::*)(uint32_t)>(
     &::UnityEngine::InputSystem::XR::Haptics::HapticState::set_samplesQueued)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f4bf8;
+  constexpr static std::size_t addrs = 0x69f5cd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::InputSystem::XR::Haptics::HapticState::*)()>(
     &::UnityEngine::InputSystem::XR::Haptics::HapticState::get_samplesAvailable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f4c00;
+  constexpr static std::size_t addrs = 0x69f5ce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::Haptics::HapticState::*)(uint32_t)>(
     &::UnityEngine::InputSystem::XR::Haptics::HapticState::set_samplesAvailable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f4c08;
+  constexpr static std::size_t addrs = 0x69f5ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -22,7 +22,7 @@ struct CORDL_TYPE SortingLayer {
 public:
   // Declarations
   /// [FreeFunction("GetTagManager().GetSortingLayerValueFromUniqueID")]
-  /// @brief Method GetLayerValueFromID, addr 0x6ef47d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetLayerValueFromID, addr 0x6ef58b4, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetLayerValueFromID(int32_t id);
 
   // Ctor Parameters []

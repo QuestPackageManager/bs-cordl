@@ -33,22 +33,22 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrVector2f>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrVector2f>*();
 
-  /// @brief Method AsVector2, addr 0x6e7ade4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AsVector2, addr 0x6e7bec4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 AsVector2();
 
-  /// @brief Method Equals, addr 0x6e7ae70, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6e7bf50, size 0xe8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6e7adec, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6e7becc, size 0x84, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::OpenXR::NativeTypes::XrVector2f other);
 
-  /// @brief Method GetHashCode, addr 0x6e7af58, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6e7c038, size 0x84, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6e7addc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7bebc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x6e7add4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7beb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t x, float_t y);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrVector2f>"
@@ -62,7 +62,7 @@ public:
   constexpr XrVector2f(float_t X, float_t Y) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17555 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17563 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

@@ -161,7 +161,7 @@ public:
   static ::GlobalNamespace::GameplayModifiers_PlayerSaveDataV1_0_1_EnabledObstacleType const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14684 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14692 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -216,7 +216,7 @@ public:
   static ::GlobalNamespace::GameplayModifiers_PlayerSaveDataV1_0_1_EnergyType const Battery;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14685 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14693 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -275,7 +275,7 @@ public:
   static ::GlobalNamespace::GameplayModifiers_PlayerSaveDataV1_0_1_SongSpeed const Slower;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14686 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14694 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -397,7 +397,7 @@ public:
 
   constexpr void __cordl_internal_set_strictAngles(bool value);
 
-  /// @brief Method .ctor, addr 0x3a072b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0c33c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -415,7 +415,7 @@ public:
   PlayerSaveDataV1_0_1_GameplayModifiers(PlayerSaveDataV1_0_1_GameplayModifiers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14687 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14695 };
 
   /// @brief Field energyType, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::GameplayModifiers_PlayerSaveDataV1_0_1_EnergyType ___energyType;
@@ -554,7 +554,7 @@ public:
 
   constexpr void __cordl_internal_set_swapColors(bool value);
 
-  /// @brief Method .ctor, addr 0x3a072b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0c340, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -572,7 +572,7 @@ public:
   PlayerSaveDataV1_0_1_PlayerSpecificSettings(PlayerSaveDataV1_0_1_PlayerSpecificSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14688 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14696 };
 
   /// @brief Field staticLights, offset: 0x10, size: 0x1, def value: None
   bool ___staticLights;
@@ -663,10 +663,10 @@ public:
 
   constexpr void __cordl_internal_set_soloFreePlayOverallStatsData(::GlobalNamespace::PlayerSaveDataV1_0_1_PlayerOverallStatsData* value);
 
-  /// @brief Method .ctor, addr 0x3a072bc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0c344, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3a07330, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0c3b8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::PlayerSaveDataV1_0_1_PlayerOverallStatsData* campaignOverallStatsData,
                     ::GlobalNamespace::PlayerSaveDataV1_0_1_PlayerOverallStatsData* soloFreePlayOverallStatsData,
                     ::GlobalNamespace::PlayerSaveDataV1_0_1_PlayerOverallStatsData* partyFreePlayOverallStatsData);
@@ -686,7 +686,7 @@ public:
   PlayerSaveDataV1_0_1_PlayerAllOverallStatsData(PlayerSaveDataV1_0_1_PlayerAllOverallStatsData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14689 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14697 };
 
   /// @brief Field campaignOverallStatsData, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::PlayerSaveDataV1_0_1_PlayerOverallStatsData* ___campaignOverallStatsData;
@@ -821,10 +821,10 @@ public:
 
   constexpr void __cordl_internal_set_totalScore(int64_t value);
 
-  /// @brief Method .ctor, addr 0x3a0732c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0c3b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3a0733c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0c3c4, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t cleardLevelsCount, int32_t failedLevelsCount,
                     int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier);
 
@@ -843,7 +843,7 @@ public:
   PlayerSaveDataV1_0_1_PlayerOverallStatsData(PlayerSaveDataV1_0_1_PlayerOverallStatsData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14690 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14698 };
 
   /// @brief Field goodCutsCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___goodCutsCount;
@@ -987,7 +987,7 @@ public:
 
   constexpr void __cordl_internal_set_validScore(bool value);
 
-  /// @brief Method .ctor, addr 0x3a07390, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0c418, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1005,7 +1005,7 @@ public:
   PlayerSaveDataV1_0_1_PlayerLevelStatsData(PlayerSaveDataV1_0_1_PlayerLevelStatsData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14691 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14699 };
 
   /// @brief Field levelId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___levelId;
@@ -1080,7 +1080,7 @@ public:
 
   constexpr void __cordl_internal_set_missionId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3a07394, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0c41c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1098,7 +1098,7 @@ public:
   PlayerSaveDataV1_0_1_PlayerMissionStatsData(PlayerSaveDataV1_0_1_PlayerMissionStatsData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14692 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14700 };
 
   /// @brief Field missionId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___missionId;
@@ -1143,7 +1143,7 @@ public:
 
   constexpr void __cordl_internal_set_unlockedAchievementsToUpload(::ArrayW<::StringW> value);
 
-  /// @brief Method .ctor, addr 0x3a07398, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0c420, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1161,7 +1161,7 @@ public:
   PlayerSaveDataV1_0_1_AchievementsData(PlayerSaveDataV1_0_1_AchievementsData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14693 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14701 };
 
   /// @brief Field unlockedAchievements, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::StringW> ___unlockedAchievements;
@@ -1282,7 +1282,7 @@ public:
 
   constexpr void __cordl_internal_set_showedMissionHelpIds(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x3a0739c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0c424, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1300,7 +1300,7 @@ public:
   PlayerSaveDataV1_0_1_LocalPlayer(PlayerSaveDataV1_0_1_LocalPlayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14694 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14702 };
 
   /// @brief Field playerId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___playerId;
@@ -1386,7 +1386,7 @@ public:
 
   constexpr void __cordl_internal_set_playerSpecificSettings(::GlobalNamespace::PlayerSaveDataV1_0_1_PlayerSpecificSettings* value);
 
-  /// @brief Method .ctor, addr 0x3a073a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0c430, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1404,7 +1404,7 @@ public:
   PlayerSaveDataV1_0_1_GuestPlayer(PlayerSaveDataV1_0_1_GuestPlayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14695 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14703 };
 
   /// @brief Field playerName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___playerName;
@@ -1488,7 +1488,7 @@ public:
 
   constexpr void __cordl_internal_set_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3a072a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0c330, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1506,7 +1506,7 @@ public:
   PlayerSaveDataV1_0_1(PlayerSaveDataV1_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14696 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14704 };
 
   /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString kCurrentVersion{ u"" };

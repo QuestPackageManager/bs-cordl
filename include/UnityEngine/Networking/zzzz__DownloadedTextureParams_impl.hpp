@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Networking::DownloadedTextureParams (*)()>(&::UnityEngine::Networking::DownloadedTextureParams::get_Default)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7303dd4;
+  constexpr static std::size_t addrs = 0x7304eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadedTextureParams>(), { "get_Default", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Networking::DownloadedTextureParams::*)(bool)>(&::UnityEngine::Networking::DownloadedTextureParams::set_readable)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x7303ddc;
+  constexpr static std::size_t addrs = 0x7304ebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Networking::DownloadedTextureParams::*)(::UnityEngine::Networking::DownloadedTextureFlags, bool)>(
     &::UnityEngine::Networking::DownloadedTextureParams::SetFlags)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x7303dec;
+  constexpr static std::size_t addrs = 0x7304ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

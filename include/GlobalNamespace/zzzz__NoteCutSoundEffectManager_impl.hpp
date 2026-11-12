@@ -17,13 +17,14 @@
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "GlobalNamespace/zzzz__RandomObjectPicker_1_def.hpp"
 #include "GlobalNamespace/zzzz__SaberManager_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NoteCutSoundEffectManager_InitData._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager_InitData::*)(bool, bool)>(&::GlobalNamespace::NoteCutSoundEffectManager_InitData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d094f8;
+  constexpr static std::size_t addrs = 0x5d094a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::NoteCutSoundEffectManager::*)()>(&::GlobalNamespace::NoteCutSoundEffectManager::get_handleWrongSaberTypeAsGood)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d08618;
+  constexpr static std::size_t addrs = 0x5d07fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)(bool)>(&::GlobalNamespace::NoteCutSoundEffectManager::set_handleWrongSaberTypeAsGood)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d08620;
+  constexpr static std::size_t addrs = 0x5d07fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,8 +96,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)()>(&::GlobalNamespace::NoteCutSoundEffectManager::Start)> {
-  constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x5d08628;
+  constexpr static std::size_t size = 0x334;
+  constexpr static std::size_t addrs = 0x5d07fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutSoundEffectManager*>(), { "Start", {}, {} })));
@@ -107,8 +108,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)()>(&::GlobalNamespace::NoteCutSoundEffectManager::OnDestroy)> {
-  constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x5d088f8;
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x5d082fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutSoundEffectManager*>(), { "OnDestroy", {}, {} })));
@@ -119,11 +120,95 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)()>(&::GlobalNamespace::NoteCutSoundEffectManager::LateUpdate)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5d08a5c;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x5d084b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutSoundEffectManager*>(), { "LateUpdate", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::NoteCutSoundEffectManager.IsNoteCutSoundEffectDue
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::NoteCutSoundEffectManager::*)(::GlobalNamespace::NoteData*)>(
+    &::GlobalNamespace::NoteCutSoundEffectManager::IsNoteCutSoundEffectDue)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x5d08630;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutSoundEffectManager*>(), { "IsNoteCutSoundEffectDue", {}, { ::i2c::type_of<::GlobalNamespace::NoteData*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::NoteCutSoundEffectManager.SpawnDueWaitingNoteCutSoundEffects
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)()>(&::GlobalNamespace::NoteCutSoundEffectManager::SpawnDueWaitingNoteCutSoundEffects)> {
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x5d0857c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutSoundEffectManager*>(), { "SpawnDueWaitingNoteCutSoundEffects", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::NoteCutSoundEffectManager.SpawnFirstWaitingNoteCutSoundEffects
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)(int32_t)>(
+    &::GlobalNamespace::NoteCutSoundEffectManager::SpawnFirstWaitingNoteCutSoundEffects)> {
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x5d08670;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutSoundEffectManager*>(), { "SpawnFirstWaitingNoteCutSoundEffects", {}, { ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::NoteCutSoundEffectManager.IndexOfWaitingNoteController
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::NoteCutSoundEffectManager::*)(::GlobalNamespace::NoteController*)>(
+    &::GlobalNamespace::NoteCutSoundEffectManager::IndexOfWaitingNoteController)> {
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x5d08c90;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutSoundEffectManager*>(),
+                                                                                           { "IndexOfWaitingNoteController", {}, { ::i2c::type_of<::GlobalNamespace::NoteController*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::NoteCutSoundEffectManager.RemoveWaitingNoteController
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)(::GlobalNamespace::NoteController*)>(
+    &::GlobalNamespace::NoteCutSoundEffectManager::RemoveWaitingNoteController)> {
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x5d08dbc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutSoundEffectManager*>(),
+                                                                                           { "RemoveWaitingNoteController", {}, { ::i2c::type_of<::GlobalNamespace::NoteController*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::NoteCutSoundEffectManager.SpawnNoteCutSoundEffect
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)(::GlobalNamespace::NoteController*)>(
+    &::GlobalNamespace::NoteCutSoundEffectManager::SpawnNoteCutSoundEffect)> {
+  constexpr static std::size_t size = 0x568;
+  constexpr static std::size_t addrs = 0x5d08728;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutSoundEffectManager*>(),
+                                                                                           { "SpawnNoteCutSoundEffect", {}, { ::i2c::type_of<::GlobalNamespace::NoteController*>() } })));
     return ___internal_method;
   }
 };
@@ -132,8 +217,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)(::GlobalNamespace::NoteController*)>(
     &::GlobalNamespace::NoteCutSoundEffectManager::HandleNoteWasSpawned)> {
-  constexpr static std::size_t size = 0x584;
-  constexpr static std::size_t addrs = 0x5d08b18;
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x5d08e40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,13 +227,27 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::NoteCutSoundEffectManager.HandleNoteWasDespawned
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)(::GlobalNamespace::NoteController*)>(
+    &::GlobalNamespace::NoteCutSoundEffectManager::HandleNoteWasDespawned)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5d08fc0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutSoundEffectManager*>(),
+                                                                                           { "HandleNoteWasDespawned", {}, { ::i2c::type_of<::GlobalNamespace::NoteController*>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::NoteCutSoundEffectManager.HandleNoteWasCut
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)(::GlobalNamespace::NoteController*, ::by_ref<::GlobalNamespace::NoteCutInfo const>)>(
     &::GlobalNamespace::NoteCutSoundEffectManager::HandleNoteWasCut)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x5d090cc;
+  constexpr static std::size_t size = 0x18c;
+  constexpr static std::size_t addrs = 0x5d08fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -163,8 +262,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)(::GlobalNamespace::NoteControllerBase*)>(
     &::GlobalNamespace::NoteCutSoundEffectManager::HandleNoteDidStartDissolving)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5d0923c;
+  constexpr static std::size_t size = 0x1b8;
+  constexpr static std::size_t addrs = 0x5d09150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutSoundEffectManager*>(),
@@ -178,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)(::GlobalNamespace::NoteCutSoundEffect*)>(
     &::GlobalNamespace::NoteCutSoundEffectManager::HandleNoteCutSoundEffectDidFinish)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5d093a4;
+  constexpr static std::size_t addrs = 0x5d09308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutSoundEffectManager*>(),
@@ -192,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::NoteCutSoundEffectManager::*)(::GlobalNamespace::NoteData*)>(
     &::GlobalNamespace::NoteCutSoundEffectManager::IsSupportedNote)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5d0909c;
+  constexpr static std::size_t addrs = 0x5d08f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -204,8 +303,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)()>(&::GlobalNamespace::NoteCutSoundEffectManager::_ctor)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5d0948c;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x5d093f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutSoundEffectManager*>(), { ".ctor", {}, {} })));
@@ -428,6 +527,18 @@ constexpr void GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beatAlignOffset = value;
 }
+constexpr float_t& GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_get__scheduleAheadTimeSec() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____scheduleAheadTimeSec;
+}
+constexpr float_t const& GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_get__scheduleAheadTimeSec() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____scheduleAheadTimeSec;
+}
+constexpr void GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_set__scheduleAheadTimeSec(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____scheduleAheadTimeSec = value;
+}
 constexpr bool& GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_get__useTestAudioClips() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useTestAudioClips;
@@ -455,6 +566,21 @@ GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_set__noteCutSoundEf
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noteCutSoundEffectPoolContainer = value;
 }
+constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::NoteController>>*&
+GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_get__noteControllersWaitingForSoundEffect() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____noteControllersWaitingForSoundEffect;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::NoteController>>* const&
+GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_get__noteControllersWaitingForSoundEffect() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____noteControllersWaitingForSoundEffect;
+}
+constexpr void
+GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_set__noteControllersWaitingForSoundEffect(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::NoteController>>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____noteControllersWaitingForSoundEffect = value;
+}
 inline bool GlobalNamespace::NoteCutSoundEffectManager::get_handleWrongSaberTypeAsGood() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutSoundEffectManager*>(), { "get_handleWrongSaberTypeAsGood", {}, {} })));
@@ -477,10 +603,48 @@ inline void GlobalNamespace::NoteCutSoundEffectManager::LateUpdate() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutSoundEffectManager*>(), { "LateUpdate", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
+inline bool GlobalNamespace::NoteCutSoundEffectManager::IsNoteCutSoundEffectDue(::GlobalNamespace::NoteData* noteData) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutSoundEffectManager*>(), { "IsNoteCutSoundEffectDue", {}, { ::i2c::type_of<::GlobalNamespace::NoteData*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, noteData);
+}
+inline void GlobalNamespace::NoteCutSoundEffectManager::SpawnDueWaitingNoteCutSoundEffects() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutSoundEffectManager*>(), { "SpawnDueWaitingNoteCutSoundEffects", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void GlobalNamespace::NoteCutSoundEffectManager::SpawnFirstWaitingNoteCutSoundEffects(int32_t count) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutSoundEffectManager*>(), { "SpawnFirstWaitingNoteCutSoundEffects", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, count);
+}
+inline int32_t GlobalNamespace::NoteCutSoundEffectManager::IndexOfWaitingNoteController(::GlobalNamespace::NoteController* noteController) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutSoundEffectManager*>(),
+                                                                                         { "IndexOfWaitingNoteController", {}, { ::i2c::type_of<::GlobalNamespace::NoteController*>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, noteController);
+}
+inline void GlobalNamespace::NoteCutSoundEffectManager::RemoveWaitingNoteController(::GlobalNamespace::NoteController* noteController) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutSoundEffectManager*>(),
+                                                                                         { "RemoveWaitingNoteController", {}, { ::i2c::type_of<::GlobalNamespace::NoteController*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, noteController);
+}
+inline void GlobalNamespace::NoteCutSoundEffectManager::SpawnNoteCutSoundEffect(::GlobalNamespace::NoteController* noteController) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutSoundEffectManager*>(), { "SpawnNoteCutSoundEffect", {}, { ::i2c::type_of<::GlobalNamespace::NoteController*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, noteController);
+}
 inline void GlobalNamespace::NoteCutSoundEffectManager::HandleNoteWasSpawned(::GlobalNamespace::NoteController* noteController) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutSoundEffectManager*>(), { "HandleNoteWasSpawned", {}, { ::i2c::type_of<::GlobalNamespace::NoteController*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, noteController);
+}
+inline void GlobalNamespace::NoteCutSoundEffectManager::HandleNoteWasDespawned(::GlobalNamespace::NoteController* noteController) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutSoundEffectManager*>(), { "HandleNoteWasDespawned", {}, { ::i2c::type_of<::GlobalNamespace::NoteController*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, noteController);
 }
 inline void GlobalNamespace::NoteCutSoundEffectManager::HandleNoteWasCut(::GlobalNamespace::NoteController* noteController,

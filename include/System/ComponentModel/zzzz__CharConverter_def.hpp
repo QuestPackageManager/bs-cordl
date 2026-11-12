@@ -31,19 +31,19 @@ namespace System::ComponentModel {
 class CORDL_TYPE CharConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method CanConvertFrom, addr 0x681c024, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x681c674, size 0x80, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method ConvertFrom, addr 0x681c188, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x681c7d8, size 0x10c, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo, addr 0x681c0a4, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x681c6f4, size 0xe4, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
   static inline ::System::ComponentModel::CharConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x681c294, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x681c8e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

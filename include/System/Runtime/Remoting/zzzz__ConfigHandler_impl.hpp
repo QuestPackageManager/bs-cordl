@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ConfigHandler::*)(bool)>(&::System::Runtime::Remoting::ConfigHandler::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5f7729c;
+  constexpr static std::size_t addrs = 0x5f77524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ConfigHandler::*)(::StringW, ::ArrayW<::StringW>)>(
     &::System::Runtime::Remoting::ConfigHandler::ValidatePath)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5f7965c;
+  constexpr static std::size_t addrs = 0x5f798e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::ConfigHandler*>(),
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Remoting::ConfigHandler::*)(::StringW)>(&::System::Runtime::Remoting::ConfigHandler::CheckPath)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5f7973c;
+  constexpr static std::size_t addrs = 0x5f799c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ConfigHandler::*)(::Mono::Xml::SmallXmlParser*)>(
     &::System::Runtime::Remoting::ConfigHandler::OnStartParsing)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f79820;
+  constexpr static std::size_t addrs = 0x5f79aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ConfigHandler::*)(::StringW, ::StringW)>(
     &::System::Runtime::Remoting::ConfigHandler::OnProcessingInstruction)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f79824;
+  constexpr static std::size_t addrs = 0x5f79aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::ConfigHandler*>(),
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ConfigHandler::*)(::StringW)>(&::System::Runtime::Remoting::ConfigHandler::OnIgnorableWhitespace)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f79828;
+  constexpr static std::size_t addrs = 0x5f79ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ConfigHandler::*)(::StringW, ::Mono::Xml::SmallXmlParser_IAttrList*)>(
     &::System::Runtime::Remoting::ConfigHandler::OnStartElement)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x5f7982c;
+  constexpr static std::size_t addrs = 0x5f79ab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ConfigHandler::*)(::StringW, ::Mono::Xml::SmallXmlParser_IAttrList*)>(
     &::System::Runtime::Remoting::ConfigHandler::ParseElement)> {
   constexpr static std::size_t size = 0xdb4;
-  constexpr static std::size_t addrs = 0x5f799ec;
+  constexpr static std::size_t addrs = 0x5f79c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ConfigHandler::*)(::StringW)>(&::System::Runtime::Remoting::ConfigHandler::OnEndElement)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f7c184;
+  constexpr static std::size_t addrs = 0x5f7c40c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ConfigHandler::*)(::StringW, ::Mono::Xml::SmallXmlParser_IAttrList*)>(
     &::System::Runtime::Remoting::ConfigHandler::ReadCustomProviderData)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x5f7a7a0;
+  constexpr static std::size_t addrs = 0x5f7aa28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ConfigHandler::*)(::Mono::Xml::SmallXmlParser_IAttrList*)>(
     &::System::Runtime::Remoting::ConfigHandler::ReadLifetine)> {
   constexpr static std::size_t size = 0x578;
-  constexpr static std::size_t addrs = 0x5f7ab10;
+  constexpr static std::size_t addrs = 0x5f7ad98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TimeSpan (::System::Runtime::Remoting::ConfigHandler::*)(::StringW)>(&::System::Runtime::Remoting::ConfigHandler::ParseTime)> {
   constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x5f7c204;
+  constexpr static std::size_t addrs = 0x5f7c48c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ConfigHandler::*)(::Mono::Xml::SmallXmlParser_IAttrList*, bool)>(
     &::System::Runtime::Remoting::ConfigHandler::ReadChannel)> {
   constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x5f7b088;
+  constexpr static std::size_t addrs = 0x5f7b310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::ProviderData* (
     ::System::Runtime::Remoting::ConfigHandler::*)(::StringW, ::Mono::Xml::SmallXmlParser_IAttrList*, bool)>(&::System::Runtime::Remoting::ConfigHandler::ReadProvider)> {
   constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x5f7b454;
+  constexpr static std::size_t addrs = 0x5f7b6dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ConfigHandler::*)(::Mono::Xml::SmallXmlParser_IAttrList*)>(
     &::System::Runtime::Remoting::ConfigHandler::ReadClientActivated)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5f7bb48;
+  constexpr static std::size_t addrs = 0x5f7bdd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ConfigHandler::*)(::Mono::Xml::SmallXmlParser_IAttrList*)>(
     &::System::Runtime::Remoting::ConfigHandler::ReadServiceActivated)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5f7bc90;
+  constexpr static std::size_t addrs = 0x5f7bf18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::ConfigHandler*>(),
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ConfigHandler::*)(::Mono::Xml::SmallXmlParser_IAttrList*)>(
     &::System::Runtime::Remoting::ConfigHandler::ReadClientWellKnown)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5f7b860;
+  constexpr static std::size_t addrs = 0x5f7bae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ConfigHandler::*)(::Mono::Xml::SmallXmlParser_IAttrList*)>(
     &::System::Runtime::Remoting::ConfigHandler::ReadServiceWellKnown)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x5f7b95c;
+  constexpr static std::size_t addrs = 0x5f7bbe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::ConfigHandler*>(),
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ConfigHandler::*)(::Mono::Xml::SmallXmlParser_IAttrList*, bool)>(
     &::System::Runtime::Remoting::ConfigHandler::ReadInteropXml)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x5f7bd54;
+  constexpr static std::size_t addrs = 0x5f7bfdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ConfigHandler::*)(::Mono::Xml::SmallXmlParser_IAttrList*)>(
     &::System::Runtime::Remoting::ConfigHandler::ReadPreload)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x5f7bf00;
+  constexpr static std::size_t addrs = 0x5f7c188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Remoting::ConfigHandler::*)(::Mono::Xml::SmallXmlParser_IAttrList*, ::StringW)>(
     &::System::Runtime::Remoting::ConfigHandler::GetNotNull)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5f7c5dc;
+  constexpr static std::size_t addrs = 0x5f7c864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -311,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Remoting::ConfigHandler::*)(::by_ref<::StringW>)>(&::System::Runtime::Remoting::ConfigHandler::ExtractAssembly)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5f7c71c;
+  constexpr static std::size_t addrs = 0x5f7c9a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -324,7 +324,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ConfigHandler::*)(::StringW)>(&::System::Runtime::Remoting::ConfigHandler::OnChars)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f7c7ec;
+  constexpr static std::size_t addrs = 0x5f7ca74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -337,7 +337,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ConfigHandler::*)(::Mono::Xml::SmallXmlParser*)>(&::System::Runtime::Remoting::ConfigHandler::OnEndParsing)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5f7c7f0;
+  constexpr static std::size_t addrs = 0x5f7ca78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

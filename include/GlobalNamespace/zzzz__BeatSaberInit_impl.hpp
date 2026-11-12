@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatSaberInit__TransitionToNextSceneAsync_d__14::*)()>(
     &::GlobalNamespace::BeatSaberInit__TransitionToNextSceneAsync_d__14::MoveNext)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x3a23274;
+  constexpr static std::size_t addrs = 0x3a28300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatSaberInit__TransitionToNextSceneAsync_d__14::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::BeatSaberInit__TransitionToNextSceneAsync_d__14::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3a23460;
+  constexpr static std::size_t addrs = 0x3a284ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatSaberInit__TransitionToNextSceneAsync_d__14>(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::SettingsApplicatorSO> (::GlobalNamespace::BeatSaberInit::*)()>(
     &::GlobalNamespace::BeatSaberInit::get_settingsApplicator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a205c0;
+  constexpr static std::size_t addrs = 0x3a2564c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatSaberInit*>(), { "get_settingsApplicator", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::BeatSaberInit::*)()>(&::GlobalNamespace::BeatSaberInit::RepeatableSetupAsync)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3a205c8;
+  constexpr static std::size_t addrs = 0x3a25654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::BeatSaberInit::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::BeatSaberInit::PreInitializeAsync)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x3a20760;
+  constexpr static std::size_t addrs = 0x3a257ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalNamespace::BeatSaberInit::LogBuildInfoAndRequestQuit)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3a209d0;
+  constexpr static std::size_t addrs = 0x3a25a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatSaberInit*>(), { "LogBuildInfoAndRequestQuit", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::BeatSaberInit::*)()>(&::GlobalNamespace::BeatSaberInit::TransitionToNextSceneAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3a20ca8;
+  constexpr static std::size_t addrs = 0x3a25d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Destinations::Destination* (::GlobalNamespace::BeatSaberInit::*)()>(&::GlobalNamespace::BeatSaberInit::EvaluateTargetDestination)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x3a20aec;
+  constexpr static std::size_t addrs = 0x3a25b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatSaberInit*>(), { "EvaluateTargetDestination", {}, {} })));
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatSaberInit::*)()>(&::GlobalNamespace::BeatSaberInit::InstallBindings)> {
   constexpr static std::size_t size = 0x4c8;
-  constexpr static std::size_t addrs = 0x3a20d58;
+  constexpr static std::size_t addrs = 0x3a25de4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatSaberInit::*)()>(&::GlobalNamespace::BeatSaberInit::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a23270;
+  constexpr static std::size_t addrs = 0x3a282fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatSaberInit*>(), { ".ctor", {}, {} })));

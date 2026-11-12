@@ -36,13 +36,13 @@ public:
 
   constexpr void __cordl_internal_set_refer(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method .ctor, addr 0x66962e0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6696930, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Refer, addr 0x6696244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Refer, addr 0x6696894, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_Refer();
 
-  /// @brief Method set_Refer, addr 0x669624c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method set_Refer, addr 0x669689c, size 0x94, virtual false, abstract: false, final false
   inline void set_Refer(::System::Xml::XmlQualifiedName* value);
 
 protected:

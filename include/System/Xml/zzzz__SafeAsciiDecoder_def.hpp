@@ -21,19 +21,19 @@ namespace System::Xml {
 class CORDL_TYPE SafeAsciiDecoder : public ::System::Text::Decoder {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x6747f9c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x67485ec, size 0x8c, virtual true, abstract: false, final false
   inline void Convert(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t> chars, int32_t charIndex, int32_t charCount, bool flush, ::by_ref<int32_t> bytesUsed,
                       ::by_ref<int32_t> charsUsed, ::by_ref<bool> completed);
 
-  /// @brief Method GetCharCount, addr 0x6747f24, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetCharCount, addr 0x6748574, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetCharCount(::ArrayW<uint8_t> bytes, int32_t index, int32_t count);
 
-  /// @brief Method GetChars, addr 0x6747f2c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetChars, addr 0x674857c, size 0x70, virtual true, abstract: false, final false
   inline int32_t GetChars(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t> chars, int32_t charIndex);
 
   static inline ::System::Xml::SafeAsciiDecoder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6747f20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6748570, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

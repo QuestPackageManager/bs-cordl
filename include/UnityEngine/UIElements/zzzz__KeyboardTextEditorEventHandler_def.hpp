@@ -56,27 +56,27 @@ public:
   /// @brief Field m_ShouldInvokeUpdateValue, offset 0x21, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ShouldInvokeUpdateValue, put = __cordl_internal_set_m_ShouldInvokeUpdateValue)) bool m_ShouldInvokeUpdateValue;
 
-  /// @brief Method ApplyTextIfNeeded, addr 0x71fbdcc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ApplyTextIfNeeded, addr 0x71fceac, size 0xd0, virtual false, abstract: false, final false
   inline void ApplyTextIfNeeded();
 
-  /// @brief Method HandleEventBubbleUp, addr 0x71fab20, size 0x354, virtual true, abstract: false, final false
+  /// @brief Method HandleEventBubbleUp, addr 0x71fbc00, size 0x354, virtual true, abstract: false, final false
   inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt);
 
   static inline ::UnityEngine::UIElements::KeyboardTextEditorEventHandler* New_ctor(::UnityEngine::UIElements::TextElement* textElement, ::UnityEngine::TextEditingUtilities* editingUtilities);
 
-  /// @brief Method OnBlur, addr 0x71fba48, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OnBlur, addr 0x71fcb28, size 0x74, virtual false, abstract: false, final false
   inline void OnBlur(::UnityEngine::UIElements::BlurEvent* _);
 
-  /// @brief Method OnExecuteCommandEvent, addr 0x71fb700, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method OnExecuteCommandEvent, addr 0x71fc7e0, size 0x250, virtual false, abstract: false, final false
   inline void OnExecuteCommandEvent(::UnityEngine::UIElements::ExecuteCommandEvent* evt);
 
-  /// @brief Method OnFocus, addr 0x71fb950, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method OnFocus, addr 0x71fca30, size 0xf8, virtual false, abstract: false, final false
   inline void OnFocus(::UnityEngine::UIElements::FocusEvent* _);
 
-  /// @brief Method OnIMEInput, addr 0x71fbabc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OnIMEInput, addr 0x71fcb9c, size 0x5c, virtual false, abstract: false, final false
   inline void OnIMEInput(::UnityEngine::UIElements::IMEEvent* _);
 
-  /// @brief Method OnKeyDown, addr 0x71fae78, size 0x67c, virtual false, abstract: false, final false
+  /// @brief Method OnKeyDown, addr 0x71fbf58, size 0x67c, virtual false, abstract: false, final false
   inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt);
 
   /// @brief Method OnNavigationEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -84,10 +84,10 @@ public:
     requires(::cordl_internals::type_constraint<TEvent, ::UnityEngine::UIElements::NavigationEventBase_1<TEvent>*> && ::cordl_internals::default_constructor_constraint<TEvent>)
   inline void OnNavigationEvent(::UnityEngine::UIElements::NavigationEventBase_1<TEvent>* evt);
 
-  /// @brief Method OnValidateCommandEvent, addr 0x71fb4f4, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method OnValidateCommandEvent, addr 0x71fc5d4, size 0x20c, virtual false, abstract: false, final false
   inline void OnValidateCommandEvent(::UnityEngine::UIElements::ValidateCommandEvent* evt);
 
-  /// @brief Method UpdateLabel, addr 0x71fbb18, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method UpdateLabel, addr 0x71fcbf8, size 0x2b4, virtual false, abstract: false, final false
   inline void UpdateLabel(bool generatePreview);
 
   constexpr bool const& __cordl_internal_get_m_Changed() const;
@@ -102,7 +102,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ShouldInvokeUpdateValue(bool value);
 
-  /// @brief Method .ctor, addr 0x71faa54, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71fbb34, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextElement* textElement, ::UnityEngine::TextEditingUtilities* editingUtilities);
 
 protected:

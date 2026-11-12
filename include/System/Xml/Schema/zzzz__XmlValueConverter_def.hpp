@@ -216,7 +216,7 @@ public:
   /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW ToString(int64_t value);
 
-  /// @brief Method .ctor, addr 0x66abd28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66ac378, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

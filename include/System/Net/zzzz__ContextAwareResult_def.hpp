@@ -134,10 +134,10 @@ public:
 
   static inline ::System::Net::ContextAwareResult___c* New_ctor();
 
-  /// @brief Method <Complete>b__17_0, addr 0x685c928, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method <Complete>b__17_0, addr 0x685cf78, size 0x84, virtual false, abstract: false, final false
   inline void _Complete_b__17_0(::System::Object* s);
 
-  /// @brief Method .ctor, addr 0x685c924, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x685cf74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::ContextAwareResult___c* getStaticF___9();
@@ -191,22 +191,22 @@ public:
   /// @brief Field _lock, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__lock, put = __cordl_internal_set__lock)) ::System::Object* _lock;
 
-  /// @brief Method CaptureOrComplete, addr 0x685be50, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method CaptureOrComplete, addr 0x685c4a0, size 0x408, virtual false, abstract: false, final false
   inline bool CaptureOrComplete(::by_ref<::System::Threading::ExecutionContext*> cachedContext, bool returnContext);
 
-  /// @brief Method Cleanup, addr 0x685c258, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x685c8a8, size 0x9c, virtual true, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method CleanupInternal, addr 0x685bb7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CleanupInternal, addr 0x685c1cc, size 0x4, virtual false, abstract: false, final false
   inline void CleanupInternal();
 
-  /// @brief Method Complete, addr 0x685c528, size 0x2f0, virtual true, abstract: false, final false
+  /// @brief Method Complete, addr 0x685cb78, size 0x2f0, virtual true, abstract: false, final false
   inline void Complete(::System::IntPtr userToken);
 
-  /// @brief Method CompleteCallback, addr 0x685c818, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CompleteCallback, addr 0x685ce68, size 0xb8, virtual false, abstract: false, final false
   inline void CompleteCallback();
 
-  /// @brief Method FinishPostingAsyncOp, addr 0x685be14, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FinishPostingAsyncOp, addr 0x685c464, size 0x3c, virtual false, abstract: false, final false
   inline bool FinishPostingAsyncOp();
 
   static inline ::System::Net::ContextAwareResult* New_ctor(bool captureIdentity, bool forceCaptureContext, ::System::Object* myObject, ::System::Object* myState, ::System::AsyncCallback* myCallBack);
@@ -216,13 +216,13 @@ public:
 
   static inline ::System::Net::ContextAwareResult* New_ctor(::System::Object* myObject, ::System::Object* myState, ::System::AsyncCallback* myCallBack);
 
-  /// @brief Method SafeCaptureIdentity, addr 0x685bb78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SafeCaptureIdentity, addr 0x685c1c8, size 0x4, virtual false, abstract: false, final false
   inline void SafeCaptureIdentity();
 
-  /// @brief Method StartPostingAsyncOp, addr 0x685bc50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method StartPostingAsyncOp, addr 0x685c2a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* StartPostingAsyncOp();
 
-  /// @brief Method StartPostingAsyncOp, addr 0x685bc58, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method StartPostingAsyncOp, addr 0x685c2a8, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Object* StartPostingAsyncOp(bool lockCapture);
 
   constexpr ::System::Threading::ExecutionContext* const& __cordl_internal_get__context() const;
@@ -243,13 +243,13 @@ public:
 
   constexpr void __cordl_internal_set__lock(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x685bb88, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x685c1d8, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(bool captureIdentity, bool forceCaptureContext, ::System::Object* myObject, ::System::Object* myState, ::System::AsyncCallback* myCallBack);
 
-  /// @brief Method .ctor, addr 0x685bbd8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x685c228, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(bool captureIdentity, bool forceCaptureContext, bool threadSafeContextCopy, ::System::Object* myObject, ::System::Object* myState, ::System::AsyncCallback* myCallBack);
 
-  /// @brief Method .ctor, addr 0x685bb80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x685c1d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* myObject, ::System::Object* myState, ::System::AsyncCallback* myCallBack);
 
 protected:

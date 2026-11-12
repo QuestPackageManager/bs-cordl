@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set__Row_k__BackingField(::System::Data::DataRow* value);
 
-  /// @brief Method .ctor, addr 0x64865f4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6486c44, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataRow* row, ::System::Data::DataRowAction action);
 
 protected:

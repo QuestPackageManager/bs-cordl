@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_exitCode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x35b38c8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b7244, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t exitCode);
 
 protected:
@@ -49,7 +49,7 @@ public:
   AppInitQuitRequestedException(AppInitQuitRequestedException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22317 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22329 };
 
   /// @brief Field exitCode, offset: 0x8c, size: 0x4, def value: None
   int32_t ___exitCode;

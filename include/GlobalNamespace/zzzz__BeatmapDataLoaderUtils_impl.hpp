@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::EnvironmentKeywords* (*)(::GlobalNamespace::IEnvironmentInfo*, ::GlobalNamespace::BeatmapLevelDataVersion)>(
     &::GlobalNamespace::BeatmapDataLoaderUtils::GetEnvironmentKeywords)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x39c2488;
+  constexpr static std::size_t addrs = 0x39c6a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IEnvironmentLightGroups* (*)(::GlobalNamespace::IEnvironmentInfo*)>(
     &::GlobalNamespace::BeatmapDataLoaderUtils::GetEnvironmentLightGroups)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x39c25f8;
+  constexpr static std::size_t addrs = 0x39c6bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataLoaderUtils*>(),

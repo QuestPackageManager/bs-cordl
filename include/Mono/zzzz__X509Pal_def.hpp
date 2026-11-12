@@ -22,7 +22,7 @@ namespace Mono {
 class CORDL_TYPE X509Pal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_Instance, addr 0x6428f04, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x6429554, size 0x64, virtual false, abstract: false, final false
   static inline ::Mono::X509PalImpl* get_Instance();
 
 protected:

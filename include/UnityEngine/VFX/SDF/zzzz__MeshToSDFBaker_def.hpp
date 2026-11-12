@@ -449,7 +449,7 @@ public:
   MeshToSDFBaker_ShaderProperties(MeshToSDFBaker_ShaderProperties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20284 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20298 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -655,7 +655,7 @@ public:
 
   constexpr void __cordl_internal_set_toTextureNormalized(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6e5426c, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e5534c, size 0x3f4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ComputeShader* computeShader);
 
 protected:
@@ -673,7 +673,7 @@ public:
   MeshToSDFBaker_Kernels(MeshToSDFBaker_Kernels const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20285 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20299 };
 
   /// @brief Field inBucketSum, offset: 0x10, size: 0x4, def value: None
   int32_t ___inBucketSum;
@@ -958,96 +958,96 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method BakeSDF, addr 0x6e57afc, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method BakeSDF, addr 0x6e58bdc, size 0x2bc, virtual false, abstract: false, final false
   inline void BakeSDF();
 
-  /// @brief Method BuildGeometry, addr 0x6e585f4, size 0x6f8, virtual false, abstract: false, final false
+  /// @brief Method BuildGeometry, addr 0x6e596d4, size 0x6f8, virtual false, abstract: false, final false
   inline void BuildGeometry();
 
-  /// @brief Method ClearRenderTexturesAndBuffers, addr 0x6e57f3c, size 0x63c, virtual false, abstract: false, final false
+  /// @brief Method ClearRenderTexturesAndBuffers, addr 0x6e5901c, size 0x63c, virtual false, abstract: false, final false
   inline void ClearRenderTexturesAndBuffers();
 
-  /// @brief Method ComputeOrthographicWorldToClip, addr 0x6e54a18, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method ComputeOrthographicWorldToClip, addr 0x6e55af8, size 0x264, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 ComputeOrthographicWorldToClip(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot, float_t width, float_t height, float_t near, float_t far,
                                                                  ::by_ref<::UnityEngine::Matrix4x4> proj, ::by_ref<::UnityEngine::Matrix4x4> view);
 
-  /// @brief Method CreateGraphicsBufferIfNeeded, addr 0x6e53f34, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CreateGraphicsBufferIfNeeded, addr 0x6e55014, size 0xcc, virtual false, abstract: false, final false
   inline void CreateGraphicsBufferIfNeeded(::by_ref<::UnityEngine::GraphicsBuffer*> gb, int32_t length, int32_t stride);
 
-  /// @brief Method CreateRenderTextureIfNeeded, addr 0x6e53db8, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method CreateRenderTextureIfNeeded, addr 0x6e54e98, size 0x17c, virtual false, abstract: false, final false
   inline void CreateRenderTextureIfNeeded(::by_ref<::UnityEngine::RenderTexture*> rt, ::UnityEngine::RenderTextureDescriptor rtDesc);
 
-  /// @brief Method Dispose, addr 0x6e59e48, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6e5af28, size 0x78, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Finalize, addr 0x6e536a8, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6e54788, size 0xb4, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method FirstDraw, addr 0x6e58cec, size 0x52c, virtual false, abstract: false, final false
+  /// @brief Method FirstDraw, addr 0x6e59dcc, size 0x52c, virtual false, abstract: false, final false
   inline void FirstDraw();
 
-  /// @brief Method GenerateRayMap, addr 0x6e56664, size 0xbd0, virtual false, abstract: false, final false
+  /// @brief Method GenerateRayMap, addr 0x6e57744, size 0xbd0, virtual false, abstract: false, final false
   inline void GenerateRayMap();
 
-  /// @brief Method GetActualBoxSize, addr 0x6e52cf8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetActualBoxSize, addr 0x6e53dd8, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetActualBoxSize();
 
-  /// @brief Method GetGridSize, addr 0x6e52cb8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetGridSize, addr 0x6e53d98, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3Int GetGridSize();
 
-  /// @brief Method GetRayMapBis, addr 0x6e57270, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetRayMapBis, addr 0x6e58350, size 0x40, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> GetRayMapBis(int32_t step);
 
-  /// @brief Method GetRayMapPrincipal, addr 0x6e57234, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetRayMapPrincipal, addr 0x6e58314, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> GetRayMapPrincipal(int32_t step);
 
-  /// @brief Method GetSignMapBis, addr 0x6e572b0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetSignMapBis, addr 0x6e58390, size 0x40, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> GetSignMapBis(int32_t step);
 
-  /// @brief Method GetSignMapPrincipal, addr 0x6e558d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetSignMapPrincipal, addr 0x6e569b4, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> GetSignMapPrincipal(int32_t step);
 
-  /// @brief Method GetTextureVoxelBis, addr 0x6e55928, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetTextureVoxelBis, addr 0x6e56a08, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> GetTextureVoxelBis(int32_t step);
 
-  /// @brief Method GetTextureVoxelPrincipal, addr 0x6e55910, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetTextureVoxelPrincipal, addr 0x6e569f0, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> GetTextureVoxelPrincipal(int32_t step);
 
-  /// @brief Method GetThreadGroupsCount, addr 0x6e54c90, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetThreadGroupsCount, addr 0x6e55d70, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2Int GetThreadGroupsCount(int32_t nbThreads, int32_t threadCountPerGroup);
 
-  /// @brief Method GetTotalVoxelCount, addr 0x6e5245c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetTotalVoxelCount, addr 0x6e5353c, size 0x44, virtual false, abstract: false, final false
   inline int32_t GetTotalVoxelCount();
 
-  /// @brief Method Init, addr 0x6e53034, size 0x50c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6e54114, size 0x50c, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method InitCommandBuffer, addr 0x6e523b0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method InitCommandBuffer, addr 0x6e53490, size 0xac, virtual false, abstract: false, final false
   inline void InitCommandBuffer();
 
-  /// @brief Method InitGeometryBuffers, addr 0x6e58578, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method InitGeometryBuffers, addr 0x6e59658, size 0x7c, virtual false, abstract: false, final false
   inline void InitGeometryBuffers(int32_t upperBoundCount);
 
-  /// @brief Method InitMeshBuffers, addr 0x6e57db8, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method InitMeshBuffers, addr 0x6e58e98, size 0x184, virtual false, abstract: false, final false
   inline void InitMeshBuffers();
 
-  /// @brief Method InitMeshFromList, addr 0x6e5208c, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method InitMeshFromList, addr 0x6e5316c, size 0x324, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Mesh> InitMeshFromList(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes,
                                                                ::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* transforms);
 
-  /// @brief Method InitPrefixSumBuffers, addr 0x6e54000, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method InitPrefixSumBuffers, addr 0x6e550e0, size 0x26c, virtual false, abstract: false, final false
   inline void InitPrefixSumBuffers();
 
-  /// @brief Method InitSizeBox, addr 0x6e524a0, size 0x818, virtual false, abstract: false, final false
+  /// @brief Method InitSizeBox, addr 0x6e53580, size 0x818, virtual false, abstract: false, final false
   inline void InitSizeBox();
 
-  /// @brief Method InitTextures, addr 0x6e53a60, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method InitTextures, addr 0x6e54b40, size 0x358, virtual false, abstract: false, final false
   inline void InitTextures();
 
-  /// @brief Method JFA, addr 0x6e55940, size 0xd24, virtual false, abstract: false, final false
+  /// @brief Method JFA, addr 0x6e56a20, size 0xd24, virtual false, abstract: false, final false
   inline void JFA();
 
-  /// @brief Method LoadRuntimeResources, addr 0x6e52e7c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method LoadRuntimeResources, addr 0x6e53f5c, size 0x134, virtual false, abstract: false, final false
   inline void LoadRuntimeResources();
 
   static inline ::UnityEngine::VFX::SDF::MeshToSDFBaker* New_ctor(::UnityEngine::Vector3 sizeBox, ::UnityEngine::Vector3 center, int32_t maxRes, ::UnityEngine::Mesh* mesh, bool ownsMesh,
@@ -1061,48 +1061,48 @@ public:
                                                                   ::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* transforms, int32_t signPassesCount, float_t threshold,
                                                                   float_t sdfOffset, ::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method PerformDistanceTransformWinding, addr 0x6e5958c, size 0x4e0, virtual false, abstract: false, final false
+  /// @brief Method PerformDistanceTransformWinding, addr 0x6e5a66c, size 0x4e0, virtual false, abstract: false, final false
   inline void PerformDistanceTransformWinding();
 
-  /// @brief Method PrefixSumCount, addr 0x6e54d10, size 0x920, virtual false, abstract: false, final false
+  /// @brief Method PrefixSumCount, addr 0x6e55df0, size 0x920, virtual false, abstract: false, final false
   inline void PrefixSumCount();
 
-  /// @brief Method Reinit, addr 0x6e5375c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Reinit, addr 0x6e5483c, size 0xb0, virtual false, abstract: false, final false
   inline void Reinit(::UnityEngine::Vector3 sizeBox, ::UnityEngine::Vector3 center, int32_t maxRes, ::UnityEngine::Mesh* mesh, bool ownsMesh, int32_t signPassesCount, float_t threshold,
                      float_t sdfOffset);
 
-  /// @brief Method Reinit, addr 0x6e5390c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reinit, addr 0x6e549ec, size 0xc, virtual false, abstract: false, final false
   inline void Reinit(::UnityEngine::Vector3 sizeBox, ::UnityEngine::Vector3 center, int32_t maxRes, ::UnityEngine::Mesh* mesh, int32_t signPassesCount, float_t threshold, float_t sdfOffset);
 
-  /// @brief Method Reinit, addr 0x6e53918, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Reinit, addr 0x6e549f8, size 0x148, virtual false, abstract: false, final false
   inline void Reinit(::UnityEngine::Vector3 sizeBox, ::UnityEngine::Vector3 center, int32_t maxRes, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes,
                      ::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* transforms, int32_t signPassesCount, float_t threshold, float_t sdfOffset);
 
-  /// @brief Method ReleaseBuffersAndTextures, addr 0x6e59a6c, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method ReleaseBuffersAndTextures, addr 0x6e5ab4c, size 0x2b0, virtual false, abstract: false, final false
   inline void ReleaseBuffersAndTextures();
 
-  /// @brief Method ReleaseGraphicsBuffer, addr 0x6e59e28, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ReleaseGraphicsBuffer, addr 0x6e5af08, size 0x20, virtual false, abstract: false, final false
   inline void ReleaseGraphicsBuffer(::by_ref<::UnityEngine::GraphicsBuffer*> gb);
 
-  /// @brief Method ReleaseMeshIfOwned, addr 0x6e5380c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ReleaseMeshIfOwned, addr 0x6e548ec, size 0x100, virtual false, abstract: false, final false
   inline void ReleaseMeshIfOwned();
 
-  /// @brief Method ReleaseRenderTexture, addr 0x6e59d1c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseRenderTexture, addr 0x6e5adfc, size 0x10c, virtual false, abstract: false, final false
   inline void ReleaseRenderTexture(::by_ref<::UnityEngine::RenderTexture*> rt);
 
-  /// @brief Method SecondDraw, addr 0x6e59218, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method SecondDraw, addr 0x6e5a2f8, size 0x374, virtual false, abstract: false, final false
   inline void SecondDraw();
 
-  /// @brief Method SetParameters, addr 0x6e52fb0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetParameters, addr 0x6e54090, size 0x84, virtual false, abstract: false, final false
   inline void SetParameters(::UnityEngine::Vector3 sizeBox, ::UnityEngine::Vector3 center, int32_t maxRes, int32_t signPassesCount, float_t threshold, float_t sdfOffset);
 
-  /// @brief Method SignPass, addr 0x6e572f0, size 0x80c, virtual false, abstract: false, final false
+  /// @brief Method SignPass, addr 0x6e583d0, size 0x80c, virtual false, abstract: false, final false
   inline void SignPass();
 
-  /// @brief Method SurfaceClosing, addr 0x6e55630, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method SurfaceClosing, addr 0x6e56710, size 0x2a4, virtual false, abstract: false, final false
   inline void SurfaceClosing();
 
-  /// @brief Method UpdateCameras, addr 0x6e54660, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method UpdateCameras, addr 0x6e55740, size 0x3b8, virtual false, abstract: false, final false
   inline void UpdateCameras();
 
   constexpr ::UnityEngine::GraphicsBuffer* const& __cordl_internal_get_m_AabbBuffer() const;
@@ -1399,15 +1399,15 @@ public:
 
   constexpr void __cordl_internal_set_nTriangles(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6e52d08, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e53de8, size 0x174, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 sizeBox, ::UnityEngine::Vector3 center, int32_t maxRes, ::UnityEngine::Mesh* mesh, bool ownsMesh, int32_t signPassesCount, float_t threshold,
                     float_t sdfOffset, ::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method .ctor, addr 0x6e53540, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e54620, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 sizeBox, ::UnityEngine::Vector3 center, int32_t maxRes, ::UnityEngine::Mesh* mesh, int32_t signPassesCount, float_t threshold, float_t sdfOffset,
                     ::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method .ctor, addr 0x6e53550, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e54630, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 sizeBox, ::UnityEngine::Vector3 center, int32_t maxRes, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes,
                     ::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* transforms, int32_t signPassesCount, float_t threshold, float_t sdfOffset,
                     ::UnityEngine::Rendering::CommandBuffer* cmd);
@@ -1418,10 +1418,10 @@ public:
 
   static inline int32_t getStaticF_kNbActualRT();
 
-  /// @brief Method get_SdfTexture, addr 0x6e52084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SdfTexture, addr 0x6e53164, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> get_SdfTexture();
 
-  /// @brief Method iDivUp, addr 0x6e54c7c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method iDivUp, addr 0x6e55d5c, size 0x14, virtual false, abstract: false, final false
   inline int32_t iDivUp(int32_t a, int32_t b);
 
   /// @brief Convert to "::System::IDisposable"
@@ -1448,7 +1448,7 @@ public:
   MeshToSDFBaker(MeshToSDFBaker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20286 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20300 };
 
   /// @brief Field m_RayMaps, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::RenderTexture>> ___m_RayMaps;

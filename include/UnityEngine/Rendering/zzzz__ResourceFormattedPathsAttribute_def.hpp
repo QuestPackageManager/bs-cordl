@@ -26,7 +26,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::ResourceFormattedPathsAttribute* New_ctor(::StringW pathFormat, int32_t rangeMin, int32_t rangeMax, ::UnityEngine::Rendering::SearchType location);
 
-  /// @brief Method .ctor, addr 0x6fa3a28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fa4b08, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW pathFormat, int32_t rangeMin, int32_t rangeMax, ::UnityEngine::Rendering::SearchType location);
 
 protected:

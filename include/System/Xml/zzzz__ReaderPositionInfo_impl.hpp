@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::ReaderPositionInfo::*)(::System::Xml::IXmlLineInfo*)>(&::System::Xml::ReaderPositionInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6732990;
+  constexpr static std::size_t addrs = 0x6732fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::ReaderPositionInfo::*)()>(&::System::Xml::ReaderPositionInfo::HasLineInfo)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x673299c;
+  constexpr static std::size_t addrs = 0x6732fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::ReaderPositionInfo::*)()>(&::System::Xml::ReaderPositionInfo::get_LineNumber)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6732a40;
+  constexpr static std::size_t addrs = 0x6733090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::ReaderPositionInfo::*)()>(&::System::Xml::ReaderPositionInfo::get_LinePosition)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6732ae8;
+  constexpr static std::size_t addrs = 0x6733138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

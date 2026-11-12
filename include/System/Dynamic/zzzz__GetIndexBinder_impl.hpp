@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::DynamicMetaObject* (
     ::System::Dynamic::GetIndexBinder::*)(::System::Dynamic::DynamicMetaObject*, ::ArrayW<::System::Dynamic::DynamicMetaObject*>)>(&::System::Dynamic::GetIndexBinder::Bind)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x64212b0;
+  constexpr static std::size_t addrs = 0x6421900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::DynamicMetaObject* (
     ::System::Dynamic::GetIndexBinder::*)(::System::Dynamic::DynamicMetaObject*, ::ArrayW<::System::Dynamic::DynamicMetaObject*>)>(&::System::Dynamic::GetIndexBinder::FallbackGetIndex)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x642136c;
+  constexpr static std::size_t addrs = 0x64219bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

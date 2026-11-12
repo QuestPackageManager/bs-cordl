@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Jobs::TransformAccess::*)()>(&::UnityEngine::Jobs::TransformAccess::get_position)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6f93c18;
+  constexpr static std::size_t addrs = 0x6f94cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Jobs::TransformAccess>(), { "get_position", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Jobs::TransformAccess::*)(::UnityEngine::Vector3)>(&::UnityEngine::Jobs::TransformAccess::set_position)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6f93cb8;
+  constexpr static std::size_t addrs = 0x6f94d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (::UnityEngine::Jobs::TransformAccess::*)()>(&::UnityEngine::Jobs::TransformAccess::get_rotation)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6f93d50;
+  constexpr static std::size_t addrs = 0x6f94e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Jobs::TransformAccess>(), { "get_rotation", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Jobs::TransformAccess::*)(::UnityEngine::Quaternion)>(&::UnityEngine::Jobs::TransformAccess::set_rotation)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6f93dec;
+  constexpr static std::size_t addrs = 0x6f94ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Jobs::TransformAccess::*)(::UnityEngine::Vector3)>(&::UnityEngine::Jobs::TransformAccess::set_localPosition)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6f93e84;
+  constexpr static std::size_t addrs = 0x6f94f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Jobs::TransformAccess::*)(::UnityEngine::Quaternion)>(&::UnityEngine::Jobs::TransformAccess::set_localRotation)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6f93f1c;
+  constexpr static std::size_t addrs = 0x6f94ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Jobs::TransformAccess::*)()>(&::UnityEngine::Jobs::TransformAccess::get_localScale)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6f93fb4;
+  constexpr static std::size_t addrs = 0x6f95094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Jobs::TransformAccess>(), { "get_localScale", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Jobs::TransformAccess::*)(::UnityEngine::Vector3)>(&::UnityEngine::Jobs::TransformAccess::set_localScale)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6f94054;
+  constexpr static std::size_t addrs = 0x6f95134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (::UnityEngine::Jobs::TransformAccess::*)()>(&::UnityEngine::Jobs::TransformAccess::get_localToWorldMatrix)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6f940ec;
+  constexpr static std::size_t addrs = 0x6f951cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Jobs::TransformAccess>(), { "get_localToWorldMatrix", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Jobs::TransformAccess::*)()>(&::UnityEngine::Jobs::TransformAccess::get_isValid)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6f9419c;
+  constexpr static std::size_t addrs = 0x6f9527c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Jobs::TransformAccess>(), { "get_isValid", {}, {} })));
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Jobs::TransformAccess::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
     &::UnityEngine::Jobs::TransformAccess::SetPositionAndRotation)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6f941ac;
+  constexpr static std::size_t addrs = 0x6f9528c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Jobs::TransformAccess::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
     &::UnityEngine::Jobs::TransformAccess::SetLocalPositionAndRotation)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6f94260;
+  constexpr static std::size_t addrs = 0x6f95340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Jobs::TransformAccess>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Quaternion>)>(
     &::UnityEngine::Jobs::TransformAccess::SetPositionAndRotation_Internal)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6f9420c;
+  constexpr static std::size_t addrs = 0x6f952ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Jobs::TransformAccess>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Quaternion>)>(
     &::UnityEngine::Jobs::TransformAccess::SetLocalPositionAndRotation_Internal)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6f942c0;
+  constexpr static std::size_t addrs = 0x6f953a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Jobs::TransformAccess>, ::by_ref<::UnityEngine::Vector3>)>(
     &::UnityEngine::Jobs::TransformAccess::GetPosition)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f93c74;
+  constexpr static std::size_t addrs = 0x6f94d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Jobs::TransformAccess>, ::by_ref<::UnityEngine::Vector3>)>(
     &::UnityEngine::Jobs::TransformAccess::SetPosition)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f93d0c;
+  constexpr static std::size_t addrs = 0x6f94dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Jobs::TransformAccess>, ::by_ref<::UnityEngine::Quaternion>)>(
     &::UnityEngine::Jobs::TransformAccess::GetRotation)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f93da8;
+  constexpr static std::size_t addrs = 0x6f94e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Jobs::TransformAccess>, ::by_ref<::UnityEngine::Quaternion>)>(
     &::UnityEngine::Jobs::TransformAccess::SetRotation)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f93e40;
+  constexpr static std::size_t addrs = 0x6f94f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Jobs::TransformAccess>, ::by_ref<::UnityEngine::Vector3>)>(
     &::UnityEngine::Jobs::TransformAccess::SetLocalPosition)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f93ed8;
+  constexpr static std::size_t addrs = 0x6f94fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Jobs::TransformAccess>, ::by_ref<::UnityEngine::Quaternion>)>(
     &::UnityEngine::Jobs::TransformAccess::SetLocalRotation)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f93f70;
+  constexpr static std::size_t addrs = 0x6f95050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Jobs::TransformAccess>, ::by_ref<::UnityEngine::Vector3>)>(
     &::UnityEngine::Jobs::TransformAccess::GetLocalScale)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f94010;
+  constexpr static std::size_t addrs = 0x6f950f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -308,7 +308,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Jobs::TransformAccess>, ::by_ref<::UnityEngine::Vector3>)>(
     &::UnityEngine::Jobs::TransformAccess::SetLocalScale)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f940a8;
+  constexpr static std::size_t addrs = 0x6f95188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -323,7 +323,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Jobs::TransformAccess>, ::by_ref<::UnityEngine::Matrix4x4>)>(
     &::UnityEngine::Jobs::TransformAccess::GetLocalToWorldMatrix)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f94158;
+  constexpr static std::size_t addrs = 0x6f95238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

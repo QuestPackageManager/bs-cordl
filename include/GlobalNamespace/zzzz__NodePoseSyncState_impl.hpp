@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NodePoseSyncState::*)(::LiteNetLib::Utils::NetDataWriter*)>(&::GlobalNamespace::NodePoseSyncState::Serialize)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3565b68;
+  constexpr static std::size_t addrs = 0x3568be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NodePoseSyncState::*)(::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::NodePoseSyncState::Deserialize)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3565bc0;
+  constexpr static std::size_t addrs = 0x3568c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NodePoseSyncState::*)(::GlobalNamespace::NodePoseSyncState_NodePose, ::GlobalNamespace::PoseSerializable)>(
     &::GlobalNamespace::NodePoseSyncState::SetState)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3565c18;
+  constexpr static std::size_t addrs = 0x3568c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PoseSerializable (::GlobalNamespace::NodePoseSyncState::*)(::GlobalNamespace::NodePoseSyncState_NodePose)>(
     &::GlobalNamespace::NodePoseSyncState::GetState)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3565c4c;
+  constexpr static std::size_t addrs = 0x3568ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::NodePoseSyncState::*)(::by_ref<::GlobalNamespace::NodePoseSyncState const>)>(
     &::GlobalNamespace::NodePoseSyncState::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3565c98;
+  constexpr static std::size_t addrs = 0x3568d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NodePoseSyncState (::GlobalNamespace::NodePoseSyncState::*)(::by_ref<::GlobalNamespace::NodePoseSyncState const>)>(
     &::GlobalNamespace::NodePoseSyncState::GetDelta)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3565d2c;
+  constexpr static std::size_t addrs = 0x3568dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NodePoseSyncState (::GlobalNamespace::NodePoseSyncState::*)(::by_ref<::GlobalNamespace::NodePoseSyncState const>)>(
     &::GlobalNamespace::NodePoseSyncState::ApplyDelta)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3565e50;
+  constexpr static std::size_t addrs = 0x3568ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::NodePoseSyncState::*)()>(&::GlobalNamespace::NodePoseSyncState::GetSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3565f74;
+  constexpr static std::size_t addrs = 0x3568ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NodePoseSyncState>(), { "GetSize", {}, {} })));
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NodePoseSyncState (::GlobalNamespace::NodePoseSyncState::*)(::by_ref<::GlobalNamespace::NodePoseSyncState const>)>(
     &::GlobalNamespace::NodePoseSyncState::IStateTable_NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable__GetDelta)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3565ff0;
+  constexpr static std::size_t addrs = 0x3569070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NodePoseSyncState (::GlobalNamespace::NodePoseSyncState::*)(::by_ref<::GlobalNamespace::NodePoseSyncState const>)>(
     &::GlobalNamespace::NodePoseSyncState::IStateTable_NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable__ApplyDelta)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3566020;
+  constexpr static std::size_t addrs = 0x35690a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::NodePoseSyncState::*)(::by_ref<::GlobalNamespace::NodePoseSyncState const>)>(
     &::GlobalNamespace::NodePoseSyncState::IEquatableByReference_NodePoseSyncState__Equals)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3566050;
+  constexpr static std::size_t addrs = 0x35690d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

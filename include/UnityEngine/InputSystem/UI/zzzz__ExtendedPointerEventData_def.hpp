@@ -86,24 +86,24 @@ public:
 
   __declspec(property(get = get_uiToolkitPointerId, put = set_uiToolkitPointerId)) int32_t uiToolkitPointerId;
 
-  /// @brief Method GetPenPointerId, addr 0x69fb4b8, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method GetPenPointerId, addr 0x69fc598, size 0x224, virtual false, abstract: false, final false
   static inline int32_t GetPenPointerId(::UnityEngine::InputSystem::Pen* pen);
 
-  /// @brief Method GetTouchPointerId, addr 0x69fb6dc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetTouchPointerId, addr 0x69fc7bc, size 0x104, virtual false, abstract: false, final false
   static inline int32_t GetTouchPointerId(::UnityEngine::InputSystem::Controls::TouchControl* touchControl);
 
-  /// @brief Method MakePointerIdForTouch, addr 0x69fb1c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MakePointerIdForTouch, addr 0x69fc2a4, size 0x8, virtual false, abstract: false, final false
   static inline int32_t MakePointerIdForTouch(int32_t deviceId, int32_t touchId);
 
   static inline ::UnityEngine::InputSystem::UI::ExtendedPointerEventData* New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method ReadDeviceState, addr 0x69fb1d4, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method ReadDeviceState, addr 0x69fc2b4, size 0x2e4, virtual false, abstract: false, final false
   inline void ReadDeviceState();
 
-  /// @brief Method ToString, addr 0x69fabf4, size 0x5d0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x69fbcd4, size 0x5d0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TouchIdFromPointerId, addr 0x69fb1cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method TouchIdFromPointerId, addr 0x69fc2ac, size 0x8, virtual false, abstract: false, final false
   static inline int32_t TouchIdFromPointerId(int32_t pointerId);
 
   constexpr ::UnityEngine::InputSystem::InputControl* const& __cordl_internal_get__control_k__BackingField() const;
@@ -148,63 +148,63 @@ public:
 
   constexpr void __cordl_internal_set__uiToolkitPointerId_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x69fab54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69fbc34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
   /// [CompilerGenerated]
-  /// @brief Method get_control, addr 0x69fab5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_control, addr 0x69fbc3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControl* get_control();
 
   /// [CompilerGenerated]
-  /// @brief Method get_device, addr 0x69fab6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_device, addr 0x69fbc4c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* get_device();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pointerType, addr 0x69fab8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerType, addr 0x69fbc6c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::UI::UIPointerType get_pointerType();
 
   /// [CompilerGenerated]
-  /// @brief Method get_touchId, addr 0x69fab7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_touchId, addr 0x69fbc5c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_touchId();
 
   /// [CompilerGenerated]
-  /// @brief Method get_trackedDeviceOrientation, addr 0x69fabcc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_trackedDeviceOrientation, addr 0x69fbcac, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_trackedDeviceOrientation();
 
   /// [CompilerGenerated]
-  /// @brief Method get_trackedDevicePosition, addr 0x69fabac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_trackedDevicePosition, addr 0x69fbc8c, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_trackedDevicePosition();
 
   /// [CompilerGenerated]
-  /// @brief Method get_uiToolkitPointerId, addr 0x69fab9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_uiToolkitPointerId, addr 0x69fbc7c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_uiToolkitPointerId();
 
   /// [CompilerGenerated]
-  /// @brief Method set_control, addr 0x69fab64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_control, addr 0x69fbc44, size 0x8, virtual false, abstract: false, final false
   inline void set_control(::UnityEngine::InputSystem::InputControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_device, addr 0x69fab74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_device, addr 0x69fbc54, size 0x8, virtual false, abstract: false, final false
   inline void set_device(::UnityEngine::InputSystem::InputDevice* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pointerType, addr 0x69fab94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pointerType, addr 0x69fbc74, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerType(::UnityEngine::InputSystem::UI::UIPointerType value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_touchId, addr 0x69fab84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_touchId, addr 0x69fbc64, size 0x8, virtual false, abstract: false, final false
   inline void set_touchId(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_trackedDeviceOrientation, addr 0x69fabe0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_trackedDeviceOrientation, addr 0x69fbcc0, size 0x14, virtual false, abstract: false, final false
   inline void set_trackedDeviceOrientation(::UnityEngine::Quaternion value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_trackedDevicePosition, addr 0x69fabbc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_trackedDevicePosition, addr 0x69fbc9c, size 0x10, virtual false, abstract: false, final false
   inline void set_trackedDevicePosition(::UnityEngine::Vector3 value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_uiToolkitPointerId, addr 0x69faba4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_uiToolkitPointerId, addr 0x69fbc84, size 0x8, virtual false, abstract: false, final false
   inline void set_uiToolkitPointerId(int32_t value);
 
 protected:

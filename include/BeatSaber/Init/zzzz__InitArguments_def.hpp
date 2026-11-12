@@ -109,7 +109,7 @@ public:
   InitArguments(InitArguments const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23352 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23393 };
 
   /// @brief Field kAutoPlayOptionIdentifier offset 0xffffffff size 0x8
   static constexpr ::ConstString kAutoPlayOptionIdentifier{ u"--auto_play" };

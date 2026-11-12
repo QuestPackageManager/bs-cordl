@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::Universal::URPHelpURLAttribute* New_ctor(::StringW pageName, ::StringW pageHash);
 
-  /// @brief Method .ctor, addr 0x6cf2178, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cf3258, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW pageName, ::StringW pageHash);
 
 protected:

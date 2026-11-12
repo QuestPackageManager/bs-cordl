@@ -32,143 +32,143 @@
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0._ctor
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0::*)()>(
-    &::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0::*)()>(
+    &::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39abde8;
+  constexpr static std::size_t addrs = 0x39b00f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0*>(), { ".ctor", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0._LaunchCheckoutFlow_b__0
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0._LaunchCheckoutFlow_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0::*)()>(
-    &::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0::_LaunchCheckoutFlow_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0::*)()>(
+    &::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0::_LaunchCheckoutFlow_b__0)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x39abdec;
+  constexpr static std::size_t addrs = 0x39b00f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0*>(), { "<LaunchCheckoutFlow>b__0", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0*>(), { "<LaunchCheckoutFlow>b__0", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0._LaunchCheckoutFlow_b__1
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0._LaunchCheckoutFlow_b__1
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0::*)(
-    ::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0::_LaunchCheckoutFlow_b__1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0::*)(
+    ::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0::_LaunchCheckoutFlow_b__1)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x39abe44;
+  constexpr static std::size_t addrs = 0x39b0150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0*>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0*>(),
                                                              { "<LaunchCheckoutFlow>b__1", {}, { ::i2c::type_of<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>() } })));
     return ___internal_method;
   }
 };
 constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>*&
-GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0::__cordl_internal_get_launchCheckoutFlowTaskSource() {
+GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0::__cordl_internal_get_launchCheckoutFlowTaskSource() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___launchCheckoutFlowTaskSource;
 }
 constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>* const&
-GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0::__cordl_internal_get_launchCheckoutFlowTaskSource() const {
+GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0::__cordl_internal_get_launchCheckoutFlowTaskSource() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___launchCheckoutFlowTaskSource;
 }
-constexpr void GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0::__cordl_internal_set_launchCheckoutFlowTaskSource(
+constexpr void GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0::__cordl_internal_set_launchCheckoutFlowTaskSource(
     ::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___launchCheckoutFlowTaskSource = value;
 }
-constexpr ::System::Threading::CancellationToken& GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0::__cordl_internal_get_cancellationToken() {
+constexpr ::System::Threading::CancellationToken& GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0::__cordl_internal_get_cancellationToken() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cancellationToken;
 }
-constexpr ::System::Threading::CancellationToken const& GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0::__cordl_internal_get_cancellationToken() const {
+constexpr ::System::Threading::CancellationToken const& GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0::__cordl_internal_get_cancellationToken() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cancellationToken;
 }
-constexpr void GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0::__cordl_internal_set_cancellationToken(::System::Threading::CancellationToken value) {
+constexpr void GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0::__cordl_internal_set_cancellationToken(::System::Threading::CancellationToken value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cancellationToken = value;
 }
-inline void GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0::_ctor() {
+inline void GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0*>(), { ".ctor", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0::_LaunchCheckoutFlow_b__0() {
+inline void GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0::_LaunchCheckoutFlow_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0*>(), { "<LaunchCheckoutFlow>b__0", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0*>(), { "<LaunchCheckoutFlow>b__0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0::_LaunchCheckoutFlow_b__1(::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>* msg) {
+inline void GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0::_LaunchCheckoutFlow_b__1(::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>* msg) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0*>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0*>(),
                                                            { "<LaunchCheckoutFlow>b__1", {}, { ::i2c::type_of<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, msg);
 }
-inline ::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0* GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0*>());
+inline ::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0* GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass20_0::OculusPlatformAdditionalContentModel___c__DisplayClass20_0() {}
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25.MoveNext
+constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass19_0::OculusPlatformAdditionalContentModel___c__DisplayClass19_0() {}
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25::*)()>(
-    &::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24::*)()>(
+    &::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24::MoveNext)> {
   constexpr static std::size_t size = 0x1048;
-  constexpr static std::size_t addrs = 0x39abea8;
+  constexpr static std::size_t addrs = 0x39b01b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39acef0;
+  constexpr static std::size_t addrs = 0x39b11fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24>(),
                                                              { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25::MoveNext() {
+inline void GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25>(),
+inline void GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -178,7 +178,7 @@ GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAs
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*>*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
 // { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::PurchaseList*>*>", modifiers: "", def_value: Some("{}"), comment:
 // None }]
-constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25(
+constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::AdditionalContentModel_UpdateEntitlementsResult> __t__builder,
     ::System::Threading::CancellationToken cancellationToken, ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*>*> __u__1,
@@ -191,54 +191,54 @@ constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEn
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__25() {}
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24.MoveNext
+constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24::OculusPlatformAdditionalContentModel__CheckForNewEntitlementsAsync_d__24() {}
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24::*)()>(
-    &::GlobalNamespace::OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23::*)()>(
+    &::GlobalNamespace::OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23::MoveNext)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x39acf70;
+  constexpr static std::size_t addrs = 0x39b127c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24>(), { "MoveNext", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39ad280;
+  constexpr static std::size_t addrs = 0x39b158c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23>(),
                                                              { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24::MoveNext() {
+inline void GlobalNamespace::OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24>(), { "MoveNext", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23>(),
                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -246,7 +246,7 @@ GlobalNamespace::OculusPlatformAdditionalContentModel__GetExcludedLevelIdsIntern
 // "::GlobalNamespace::OculusPlatformAdditionalContentModel*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cancellationToken", ty:
 // "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>",
 // modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24::OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24(
+constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23::OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<::StringW>> __t__builder, ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this,
     ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept {
   this->__1__state = __1__state;
@@ -256,55 +256,55 @@ constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetExcludedLe
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24::OculusPlatformAdditionalContentModel__GetExcludedLevelIdsInternalAsync_d__24() {}
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14.MoveNext
+constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23::OculusPlatformAdditionalContentModel__GetDiscontinuedLevelIdsInternalAsync_d__23() {}
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14::*)()>(
-    &::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13::*)()>(
+    &::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13::MoveNext)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x39ad300;
+  constexpr static std::size_t addrs = 0x39b160c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14>(), { "MoveNext", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39ad5dc;
+  constexpr static std::size_t addrs = 0x39b18e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13>(),
                                                              { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14::MoveNext() {
+inline void GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14>(), { "MoveNext", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
 inline void
-GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13>(),
                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -313,7 +313,7 @@ GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStat
 // Some("{}"), comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_sku_5__2",
 // ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value:
 // Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14(
+constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementStatus> __t__builder,
     ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this, ::StringW gameDlcId, ::System::Threading::CancellationToken cancellationToken, ::StringW _sku_5__2,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept {
@@ -326,55 +326,55 @@ constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEnt
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14::
-    OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__14() {}
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15.MoveNext
+constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13::
+    OculusPlatformAdditionalContentModel__GetGameDlcEntitlementStatusInternalAsync_d__13() {}
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15::*)()>(
-    &::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14::*)()>(
+    &::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14::MoveNext)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x39ad65c;
+  constexpr static std::size_t addrs = 0x39b1968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15>(), { "MoveNext", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39ad8f8;
+  constexpr static std::size_t addrs = 0x39b1c04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14>(),
                                                              { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15::MoveNext() {
+inline void GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15>(), { "MoveNext", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14>(),
                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -383,7 +383,7 @@ GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionIntern
 // comment: None }, CppParam { name: "token", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_additionalSkus_5__2", ty:
 // "::GlobalNamespace::OculusLevelProductCollectionModel_AdditionalSkus*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15(
+constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::BeatmapLevelDataVersion> __t__builder,
     ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this, ::StringW levelId, ::System::Threading::CancellationToken token,
     ::GlobalNamespace::OculusLevelProductCollectionModel_AdditionalSkus* _additionalSkus_5__2, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept {
@@ -396,55 +396,55 @@ constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataV
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__15() {}
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12.MoveNext
+constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14::OculusPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__14() {}
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12::*)()>(
-    &::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11::*)()>(
+    &::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11::MoveNext)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x39ad978;
+  constexpr static std::size_t addrs = 0x39b1c84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12>(), { "MoveNext", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39adbfc;
+  constexpr static std::size_t addrs = 0x39b1f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11>(),
                                                              { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12::MoveNext() {
+inline void GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12>(), { "MoveNext", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
 inline void
-GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11>(),
                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -452,7 +452,7 @@ GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatus
 // "::GlobalNamespace::OculusPlatformAdditionalContentModel*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cancellationToken", ty:
 // "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None },
 // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12(
+constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementStatus> __t__builder,
     ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this, ::System::Threading::CancellationToken cancellationToken, ::StringW levelId,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept {
@@ -464,54 +464,54 @@ constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntit
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__12() {}
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13.MoveNext
+constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11::OculusPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__11() {}
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13::*)()>(
-    &::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12::*)()>(
+    &::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12::MoveNext)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x39adc7c;
+  constexpr static std::size_t addrs = 0x39b1f88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13>(), { "MoveNext", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39adf00;
+  constexpr static std::size_t addrs = 0x39b220c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12>(),
                                                              { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13::MoveNext() {
+inline void GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13>(), { "MoveNext", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12>(),
                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -519,7 +519,7 @@ GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusI
 // "::GlobalNamespace::OculusPlatformAdditionalContentModel*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cancellationToken", ty:
 // "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "packId", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None },
 // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13(
+constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementStatus> __t__builder,
     ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this, ::System::Threading::CancellationToken cancellationToken, ::StringW packId,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept {
@@ -531,54 +531,54 @@ constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitl
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__13() {}
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10.MoveNext
+constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12::OculusPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__12() {}
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10::*)()>(
-    &::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9::*)()>(
+    &::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9::MoveNext)> {
   constexpr static std::size_t size = 0x3b8;
-  constexpr static std::size_t addrs = 0x39adf80;
+  constexpr static std::size_t addrs = 0x39b228c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10>(), { "MoveNext", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39ae338;
+  constexpr static std::size_t addrs = 0x39b2644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9>(),
                                                              { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10::MoveNext() {
+inline void GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10>(), { "MoveNext", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9>(),
                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -588,7 +588,7 @@ GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackPro
 // "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_levelPackRedirectionData_5__3", ty:
 // "::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackRedirectionData*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10(
+constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder, ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this, ::StringW packId,
     ::System::Threading::CancellationToken cancellationToken, ::StringW _originalSku_5__2,
     ::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackRedirectionData* _levelPackRedirectionData_5__3,
@@ -603,52 +603,52 @@ constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirected
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__10() {}
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16.MoveNext
+constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9::OculusPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__9() {}
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16::*)()>(
-    &::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15::*)()>(
+    &::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15::MoveNext)> {
   constexpr static std::size_t size = 0x43c;
-  constexpr static std::size_t addrs = 0x39ae3b8;
+  constexpr static std::size_t addrs = 0x39b26c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39ae7f4;
+  constexpr static std::size_t addrs = 0x39b2b00;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16::MoveNext() {
+inline void GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16>(),
+inline void GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -657,7 +657,7 @@ GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16::i
 // "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "",
 // def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AdditionalContentModel_UpdateEntitlementsResult>",
 // modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16(
+constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this,
     ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::TaskAwaiter __u__1,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AdditionalContentModel_UpdateEntitlementsResult> __u__2) noexcept {
@@ -669,52 +669,52 @@ constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAs
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__16() {}
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20.MoveNext
+constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15::OculusPlatformAdditionalContentModel__IsDataValidAsync_d__15() {}
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20::*)()>(
-    &::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19::*)()>(
+    &::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19::MoveNext)> {
   constexpr static std::size_t size = 0x6ec;
-  constexpr static std::size_t addrs = 0x39ae874;
+  constexpr static std::size_t addrs = 0x39b2b80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39aef60;
+  constexpr static std::size_t addrs = 0x39b326c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20::MoveNext() {
+inline void GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20>(),
+inline void GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -725,7 +725,7 @@ GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20:
 // }, CppParam { name: "__7__wrap4", ty: "::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
 // "__u__2", ty: "::System::Runtime::CompilerServices::ValueTaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20(
+constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*> __t__builder,
     ::System::Threading::CancellationToken cancellationToken, ::StringW sku, ::System::Threading::CancellationTokenRegistration _ctr_5__2, ::System::Object* __7__wrap2, int32_t __7__wrap3,
     ::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>* __7__wrap4,
@@ -743,53 +743,53 @@ constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckou
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__20() {}
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19.MoveNext
+constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19::OculusPlatformAdditionalContentModel__LaunchCheckoutFlow_d__19() {}
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19::*)()>(
-    &::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18::*)()>(
+    &::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18::MoveNext)> {
   constexpr static std::size_t size = 0x48c;
-  constexpr static std::size_t addrs = 0x39aefe0;
+  constexpr static std::size_t addrs = 0x39b32ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39af46c;
+  constexpr static std::size_t addrs = 0x39b3778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18>(),
                                                              { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19::MoveNext() {
+inline void GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19>(),
+inline void GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -797,7 +797,7 @@ GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAs
 // "::GlobalNamespace::OculusPlatformAdditionalContentModel*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "gameDlcId", ty: "::StringW", modifiers: "", def_value:
 // Some("{}"), comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1",
 // ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19(
+constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::OpenProductStoreResult> __t__builder,
     ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this, ::StringW gameDlcId, ::System::Threading::CancellationToken cancellationToken,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*> __u__1) noexcept {
@@ -809,54 +809,54 @@ constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcPr
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__19() {}
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18.MoveNext
+constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18::OculusPlatformAdditionalContentModel__OpenGameDlcProductStoreAsync_d__18() {}
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18::*)()>(
-    &::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17::*)()>(
+    &::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17::MoveNext)> {
   constexpr static std::size_t size = 0x814;
-  constexpr static std::size_t addrs = 0x39af4ec;
+  constexpr static std::size_t addrs = 0x39b37f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18>(), { "MoveNext", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39afd00;
+  constexpr static std::size_t addrs = 0x39b400c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17>(),
                                                              { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18::MoveNext() {
+inline void GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17>(),
                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -865,7 +865,7 @@ GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStore
 // Some("{}"), comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1",
 // ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18(
+constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::OpenProductStoreResult> __t__builder,
     ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this, ::StringW levelPackId, ::System::Threading::CancellationToken cancellationToken,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1,
@@ -879,52 +879,52 @@ constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPack
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__18() {}
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17.MoveNext
+constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17::OculusPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__17() {}
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17::*)()>(
-    &::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16::*)()>(
+    &::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16::MoveNext)> {
   constexpr static std::size_t size = 0x46c;
-  constexpr static std::size_t addrs = 0x39afd80;
+  constexpr static std::size_t addrs = 0x39b408c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39b01ec;
+  constexpr static std::size_t addrs = 0x39b44f8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17::MoveNext() {
+inline void GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17>(),
+inline void GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -932,7 +932,7 @@ GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsyn
 // "::GlobalNamespace::OculusPlatformAdditionalContentModel*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: Some("{}"),
 // comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17(
+constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::OpenProductStoreResult> __t__builder,
     ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this, ::StringW levelId, ::System::Threading::CancellationToken cancellationToken,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*> __u__1) noexcept {
@@ -944,13 +944,13 @@ constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProd
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__17() {}
+constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16::OculusPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__16() {}
 //  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel.Initialize
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel::*)()>(&::GlobalNamespace::OculusPlatformAdditionalContentModel::Initialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39aa0dc;
+  constexpr static std::size_t addrs = 0x39ae574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel*>(),
@@ -963,7 +963,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel::*)()>(&::GlobalNamespace::OculusPlatformAdditionalContentModel::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39aa0e0;
+  constexpr static std::size_t addrs = 0x39ae578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel*>(),
@@ -977,7 +977,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData* (::GlobalNamespace::OculusPlatformAdditionalContentModel::*)(::StringW)>(
     &::GlobalNamespace::OculusPlatformAdditionalContentModel::GetLevelProductData)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x39aa0e4;
+  constexpr static std::size_t addrs = 0x39ae57c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -992,7 +992,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task_1<::StringW>* (::GlobalNamespace::OculusPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
         &::GlobalNamespace::OculusPlatformAdditionalContentModel::GetRedirectedLevelPackProductData)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x39aa0fc;
+  constexpr static std::size_t addrs = 0x39ae594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1007,7 +1007,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel::*)()>(
     &::GlobalNamespace::OculusPlatformAdditionalContentModel::InvalidateDataInternal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39aa1f0;
+  constexpr static std::size_t addrs = 0x39ae688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel*>(),
@@ -1022,7 +1022,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::OculusPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::OculusPlatformAdditionalContentModel::GetLevelEntitlementStatusInternalAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x39aa1f8;
+  constexpr static std::size_t addrs = 0x39ae690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel*>(),
@@ -1037,7 +1037,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::OculusPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::OculusPlatformAdditionalContentModel::GetPackEntitlementStatusInternalAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x39aa2e8;
+  constexpr static std::size_t addrs = 0x39ae780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel*>(),
@@ -1052,7 +1052,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::OculusPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::OculusPlatformAdditionalContentModel::GetGameDlcEntitlementStatusInternalAsync)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x39aa3d8;
+  constexpr static std::size_t addrs = 0x39ae870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel*>(),
@@ -1067,7 +1067,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::OculusPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::OculusPlatformAdditionalContentModel::GetLevelDataVersionInternalAsync)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x39aa4cc;
+  constexpr static std::size_t addrs = 0x39ae964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel*>(),
@@ -1081,7 +1081,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::OculusPlatformAdditionalContentModel::*)(::System::Threading::CancellationToken)>(
     &::GlobalNamespace::OculusPlatformAdditionalContentModel::IsDataValidAsync)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x39aa5c0;
+  constexpr static std::size_t addrs = 0x39aea58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel*>(),
@@ -1096,7 +1096,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::OculusPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::OculusPlatformAdditionalContentModel::OpenLevelProductStoreAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x39aa6ac;
+  constexpr static std::size_t addrs = 0x39aeb44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel*>(),
@@ -1111,7 +1111,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::OculusPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::OculusPlatformAdditionalContentModel::OpenLevelPackProductStoreAsync)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x39aa79c;
+  constexpr static std::size_t addrs = 0x39aec34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel*>(),
@@ -1126,7 +1126,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::OculusPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::OculusPlatformAdditionalContentModel::OpenGameDlcProductStoreAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x39aa890;
+  constexpr static std::size_t addrs = 0x39aed28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel*>(),
@@ -1141,7 +1141,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>* (*)(::StringW, ::System::Threading::CancellationToken)>(
         &::GlobalNamespace::OculusPlatformAdditionalContentModel::LaunchCheckoutFlow)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x39aa980;
+  constexpr static std::size_t addrs = 0x39aee18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1157,7 +1157,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::OculusPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::OculusPlatformAdditionalContentModel::IsPackBetterBuyThanLevelAsync)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x39aaa78;
+  constexpr static std::size_t addrs = 0x39aef10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel*>(),
@@ -1171,7 +1171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel::*)(::StringW)>(
     &::GlobalNamespace::OculusPlatformAdditionalContentModel::OpenStore)> {
   constexpr static std::size_t size = 0xa5c;
-  constexpr static std::size_t addrs = 0x39aaae8;
+  constexpr static std::size_t addrs = 0x39aef80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel*>(),
@@ -1179,13 +1179,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel.GetExcludedLevelIdsInternalAsync
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel.GetDiscontinuedLevelIdsInternalAsync
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* (
-    ::GlobalNamespace::OculusPlatformAdditionalContentModel::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel::GetExcludedLevelIdsInternalAsync)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* (::GlobalNamespace::OculusPlatformAdditionalContentModel::*)(::System::Threading::CancellationToken)>(
+        &::GlobalNamespace::OculusPlatformAdditionalContentModel::GetDiscontinuedLevelIdsInternalAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x39ab544;
+  constexpr static std::size_t addrs = 0x39af9dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel*>(),
@@ -1199,7 +1200,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::AdditionalContentModel_UpdateEntitlementsResult>* (
     ::GlobalNamespace::OculusPlatformAdditionalContentModel::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel::CheckForNewEntitlementsAsync)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x39ab634;
+  constexpr static std::size_t addrs = 0x39afacc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel*>(),
@@ -1213,7 +1214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::OculusPlatformAdditionalContentModel::*)(::StringW)>(
     &::GlobalNamespace::OculusPlatformAdditionalContentModel::GetGameDlcSku)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x39ab720;
+  constexpr static std::size_t addrs = 0x39afbb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1227,7 +1228,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OculusPlatformAdditionalContentModel::*)(::StringW)>(
     &::GlobalNamespace::OculusPlatformAdditionalContentModel::HasLevelEntitlement)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x39ab7d0;
+  constexpr static std::size_t addrs = 0x39afc68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1241,7 +1242,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OculusPlatformAdditionalContentModel::*)(::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData*)>(
     &::GlobalNamespace::OculusPlatformAdditionalContentModel::HasLevelEntitlement)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x39ab8a4;
+  constexpr static std::size_t addrs = 0x39afd3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1256,7 +1257,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OculusLevelProductCollectionModel_AdditionalSkus* (::GlobalNamespace::OculusPlatformAdditionalContentModel::*)(::StringW)>(
     &::GlobalNamespace::OculusPlatformAdditionalContentModel::GetLevelDataAdditionalSkus)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x39ab950;
+  constexpr static std::size_t addrs = 0x39afde8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1270,7 +1271,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapLevelDataVersion (::GlobalNamespace::OculusPlatformAdditionalContentModel::*)(
     ::GlobalNamespace::OculusLevelProductCollectionModel_AdditionalSkus*)>(&::GlobalNamespace::OculusPlatformAdditionalContentModel::GetLevelDataVersion)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x39ab990;
+  constexpr static std::size_t addrs = 0x39afe28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1284,8 +1285,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OculusPlatformAdditionalContentModel::*)(::StringW)>(
     &::GlobalNamespace::OculusPlatformAdditionalContentModel::HasLevelPackEntitlement)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x39aba00;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x39afe98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1297,72 +1298,43 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformAdditionalContentModel::*)()>(&::GlobalNamespace::OculusPlatformAdditionalContentModel::_ctor)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x39abad8;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x39aff60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel._GetRedirectedLevelPackProductData_g__GetSku_10_0
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel._GetRedirectedLevelPackProductData_g__GetSku_9_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData*)>(
-    &::GlobalNamespace::OculusPlatformAdditionalContentModel::_GetRedirectedLevelPackProductData_g__GetSku_10_0)> {
+    &::GlobalNamespace::OculusPlatformAdditionalContentModel::_GetRedirectedLevelPackProductData_g__GetSku_9_0)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x39abc64;
+  constexpr static std::size_t addrs = 0x39b008c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel*>(),
-                            { "<GetRedirectedLevelPackProductData>g__GetSku|10_0", {}, { ::i2c::type_of<::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData*>() } })));
+                            { "<GetRedirectedLevelPackProductData>g__GetSku|9_0", {}, { ::i2c::type_of<::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData*>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel._OpenLevelProductStoreAsync_g__GetSkuForProductFlow_17_0
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel._OpenLevelProductStoreAsync_g__GetSkuForProductFlow_16_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData*)>(
-    &::GlobalNamespace::OculusPlatformAdditionalContentModel::_OpenLevelProductStoreAsync_g__GetSkuForProductFlow_17_0)> {
+    &::GlobalNamespace::OculusPlatformAdditionalContentModel::_OpenLevelProductStoreAsync_g__GetSkuForProductFlow_16_0)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x39abc9c;
+  constexpr static std::size_t addrs = 0x39b00c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel*>(),
-                            { "<OpenLevelProductStoreAsync>g__GetSkuForProductFlow|17_0", {}, { ::i2c::type_of<::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel._GetExcludedLevelIdsInternalAsync_b__24_0
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OculusPlatformAdditionalContentModel::*)(::StringW)>(
-    &::GlobalNamespace::OculusPlatformAdditionalContentModel::_GetExcludedLevelIdsInternalAsync_b__24_0)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x39abccc;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel*>(),
-                                                                                           { "<GetExcludedLevelIdsInternalAsync>b__24_0", {}, { ::i2c::type_of<::StringW>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformAdditionalContentModel._HasLevelPackEntitlement_b__31_0
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OculusPlatformAdditionalContentModel::*)(::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData*)>(
-    &::GlobalNamespace::OculusPlatformAdditionalContentModel::_HasLevelPackEntitlement_b__31_0)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x39abd10;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel*>(),
-                                                { "<HasLevelPackEntitlement>b__31_0", {}, { ::i2c::type_of<::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData*>() } })));
+                            { "<OpenLevelProductStoreAsync>g__GetSkuForProductFlow|16_0", {}, { ::i2c::type_of<::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData*>() } })));
     return ___internal_method;
   }
 };
@@ -1401,18 +1373,6 @@ constexpr ::System::Collections::Generic::HashSet_1<::StringW>* const& GlobalNam
 constexpr void GlobalNamespace::OculusPlatformAdditionalContentModel::__cordl_internal_set__entitlementsSKU(::System::Collections::Generic::HashSet_1<::StringW>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____entitlementsSKU = value;
-}
-constexpr ::ArrayW<::StringW>& GlobalNamespace::OculusPlatformAdditionalContentModel::__cordl_internal_get__excludedLevels() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____excludedLevels;
-}
-constexpr ::ArrayW<::StringW> const& GlobalNamespace::OculusPlatformAdditionalContentModel::__cordl_internal_get__excludedLevels() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____excludedLevels;
-}
-constexpr void GlobalNamespace::OculusPlatformAdditionalContentModel::__cordl_internal_set__excludedLevels(::ArrayW<::StringW> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____excludedLevels = value;
 }
 constexpr ::System::Threading::SemaphoreSlim*& GlobalNamespace::OculusPlatformAdditionalContentModel::__cordl_internal_get__semaphoreSlim() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -1538,7 +1498,7 @@ inline void GlobalNamespace::OculusPlatformAdditionalContentModel::OpenStore(::S
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, uri);
 }
 inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>*
-GlobalNamespace::OculusPlatformAdditionalContentModel::GetExcludedLevelIdsInternalAsync(::System::Threading::CancellationToken cancellationToken) {
+GlobalNamespace::OculusPlatformAdditionalContentModel::GetDiscontinuedLevelIdsInternalAsync(::System::Threading::CancellationToken cancellationToken) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel*>(), 30 })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>*>(this, ___internal_method, cancellationToken);
@@ -1586,32 +1546,21 @@ inline void GlobalNamespace::OculusPlatformAdditionalContentModel::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::OculusPlatformAdditionalContentModel::_GetRedirectedLevelPackProductData_g__GetSku_10_0(
+inline ::StringW GlobalNamespace::OculusPlatformAdditionalContentModel::_GetRedirectedLevelPackProductData_g__GetSku_9_0(
     ::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData* levelPackProductData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel*>(),
-                                       { "<GetRedirectedLevelPackProductData>g__GetSku|10_0", {}, { ::i2c::type_of<::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData*>() } })));
+                                       { "<GetRedirectedLevelPackProductData>g__GetSku|9_0", {}, { ::i2c::type_of<::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, levelPackProductData);
 }
-inline ::StringW GlobalNamespace::OculusPlatformAdditionalContentModel::_OpenLevelProductStoreAsync_g__GetSkuForProductFlow_17_0(
+inline ::StringW GlobalNamespace::OculusPlatformAdditionalContentModel::_OpenLevelProductStoreAsync_g__GetSkuForProductFlow_16_0(
     ::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData* levelProductData) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel*>(),
-                          { "<OpenLevelProductStoreAsync>g__GetSkuForProductFlow|17_0", {}, { ::i2c::type_of<::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData*>() } })));
+                          { "<OpenLevelProductStoreAsync>g__GetSkuForProductFlow|16_0", {}, { ::i2c::type_of<::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, levelProductData);
-}
-inline bool GlobalNamespace::OculusPlatformAdditionalContentModel::_GetExcludedLevelIdsInternalAsync_b__24_0(::StringW levelId) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel*>(),
-                                                                                         { "<GetExcludedLevelIdsInternalAsync>b__24_0", {}, { ::i2c::type_of<::StringW>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, levelId);
-}
-inline bool GlobalNamespace::OculusPlatformAdditionalContentModel::_HasLevelPackEntitlement_b__31_0(::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData* levelProductData) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformAdditionalContentModel*>(),
-                                                           { "<HasLevelPackEntitlement>b__31_0", {}, { ::i2c::type_of<::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData*>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, levelProductData);
 }
 inline ::GlobalNamespace::OculusPlatformAdditionalContentModel* GlobalNamespace::OculusPlatformAdditionalContentModel::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OculusPlatformAdditionalContentModel*>());

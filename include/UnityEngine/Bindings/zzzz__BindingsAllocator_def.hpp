@@ -65,14 +65,14 @@ public:
   using NativeOwnedMemory = ::UnityEngine::Bindings::BindingsAllocator_NativeOwnedMemory;
 
   /// [ThreadSafe]
-  /// @brief Method Free, addr 0x6f96ebc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x6f97f9c, size 0x3c, virtual false, abstract: false, final false
   static inline void Free(void* ptr);
 
   /// [ThreadSafe]
-  /// @brief Method FreeNativeOwnedMemory, addr 0x6f96ef8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FreeNativeOwnedMemory, addr 0x6f97fd8, size 0x3c, virtual false, abstract: false, final false
   static inline void FreeNativeOwnedMemory(void* ptr);
 
-  /// @brief Method GetNativeOwnedDataPointer, addr 0x6f96f34, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetNativeOwnedDataPointer, addr 0x6f98014, size 0x14, virtual false, abstract: false, final false
   static inline void* GetNativeOwnedDataPointer(void* ptr);
 
 protected:

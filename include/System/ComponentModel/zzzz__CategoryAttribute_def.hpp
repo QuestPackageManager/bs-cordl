@@ -36,16 +36,16 @@ public:
   /// @brief Field localized, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_localized, put = __cordl_internal_set_localized)) bool localized;
 
-  /// @brief Method Equals, addr 0x682f538, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x682fb88, size 0x144, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x682f67c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x682fccc, size 0x50, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetLocalizedString, addr 0x682f6cc, size 0x40c, virtual true, abstract: false, final false
+  /// @brief Method GetLocalizedString, addr 0x682fd1c, size 0x40c, virtual true, abstract: false, final false
   inline ::StringW GetLocalizedString(::StringW value);
 
-  /// @brief Method IsDefaultAttribute, addr 0x682fad8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x6830128, size 0x94, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   static inline ::System::ComponentModel::CategoryAttribute* New_ctor();
@@ -64,18 +64,18 @@ public:
 
   constexpr void __cordl_internal_set_localized(bool value);
 
-  /// @brief Method .ctor, addr 0x682f49c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x682faec, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x682f4ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x682fb3c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW category);
 
   static inline ::System::ComponentModel::CategoryAttribute* getStaticF_defAttr();
 
-  /// @brief Method get_Category, addr 0x682f4f8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_Category, addr 0x682fb48, size 0x40, virtual false, abstract: false, final false
   inline ::StringW get_Category();
 
-  /// @brief Method get_Default, addr 0x682f3dc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_Default, addr 0x682fa2c, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::CategoryAttribute* get_Default();
 
   static inline void setStaticF_defAttr(::System::ComponentModel::CategoryAttribute* value);

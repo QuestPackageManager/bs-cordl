@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData::*)()>(
     &::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData::get_fieldOfVision)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d3dbc8;
+  constexpr static std::size_t addrs = 0x5d3d828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData::*)()>(
     &::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData::get_nearClip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d3dbd0;
+  constexpr static std::size_t addrs = 0x5d3d830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData::*)()>(
     &::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData::get_farClip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d3dbd8;
+  constexpr static std::size_t addrs = 0x5d3d838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData::*)()>(
     &::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData::get_hmdOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d3dbe0;
+  constexpr static std::size_t addrs = 0x5d3d840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData::*)()>(
     &::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData::get_nearOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d3dbe8;
+  constexpr static std::size_t addrs = 0x5d3d848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData::*)(float_t, float_t, float_t, float_t, float_t)>(
     &::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5d3dbf0;
+  constexpr static std::size_t addrs = 0x5d3d850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PosesRecordingInfoSaveData::*)()>(&::GlobalNamespace::PosesRecordingInfoSaveData::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d3db3c;
+  constexpr static std::size_t addrs = 0x5d3d79c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PosesRecordingInfoSaveData*>(), { "get_version", {}, {} })));
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (::GlobalNamespace::PosesRecordingInfoSaveData::*)()>(&::GlobalNamespace::PosesRecordingInfoSaveData::get_objectIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d3db44;
+  constexpr static std::size_t addrs = 0x5d3d7a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PosesRecordingInfoSaveData*>(), { "get_objectIds", {}, {} })));
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData* (::GlobalNamespace::PosesRecordingInfoSaveData::*)()>(
     &::GlobalNamespace::PosesRecordingInfoSaveData::get_externalCameraCalibration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d3db4c;
+  constexpr static std::size_t addrs = 0x5d3d7ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PosesRecordingInfoSaveData::*)()>(&::GlobalNamespace::PosesRecordingInfoSaveData::get_dataFileName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d3db54;
+  constexpr static std::size_t addrs = 0x5d3d7b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PosesRecordingInfoSaveData*>(), { "get_dataFileName", {}, {} })));
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PosesRecordingInfoSaveData::*)(
     ::ArrayW<::StringW>, ::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData*, ::StringW)>(&::GlobalNamespace::PosesRecordingInfoSaveData::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5d3db5c;
+  constexpr static std::size_t addrs = 0x5d3d7bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

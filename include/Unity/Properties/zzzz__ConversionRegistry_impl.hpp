@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::ConversionRegistry::*)(
     ::System::Collections::Generic::Dictionary_2<::Unity::Properties::ConverterKey, ::System::Delegate*>*)>(&::Unity::Properties::ConversionRegistry::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x704aeac;
+  constexpr static std::size_t addrs = 0x704bf8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::ConversionRegistry (*)()>(&::Unity::Properties::ConversionRegistry::Create)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x704af6c;
+  constexpr static std::size_t addrs = 0x704c04c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::ConversionRegistry>(), { "Create", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::ConversionRegistry::*)(::System::Type*, ::System::Type*, ::System::Delegate*)>(
     &::Unity::Properties::ConversionRegistry::Register)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x704b030;
+  constexpr static std::size_t addrs = 0x704c110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::ConversionRegistry::*)(::System::Type*, ::System::Type*, ::System::Func_1<::System::Delegate*>*)>(
     &::Unity::Properties::ConversionRegistry::LazyRegister)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x704b108;
+  constexpr static std::size_t addrs = 0x704c1e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::ConversionRegistry::*)(::Unity::Properties::ConversionRegistry)>(&::Unity::Properties::ConversionRegistry::Apply)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x704b1e0;
+  constexpr static std::size_t addrs = 0x704c2c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Delegate* (::Unity::Properties::ConversionRegistry::*)(::System::Type*, ::System::Type*)>(
     &::Unity::Properties::ConversionRegistry::GetConverter)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x704b32c;
+  constexpr static std::size_t addrs = 0x704c40c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::ConversionRegistry>(),
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::ConversionRegistry::*)(::System::Type*, ::System::Type*, ::by_ref<::System::Delegate*>)>(
     &::Unity::Properties::ConversionRegistry::TryGetConverter)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x704b450;
+  constexpr static std::size_t addrs = 0x704c530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::ConversionRegistry::*)(::Unity::Properties::ConversionRegistry, ::Unity::Properties::ConversionRegistry)>(
     &::Unity::Properties::ConversionRegistry::Equals)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x704b474;
+  constexpr static std::size_t addrs = 0x704c554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Properties::ConversionRegistry::*)(::Unity::Properties::ConversionRegistry)>(
     &::Unity::Properties::ConversionRegistry::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x704b480;
+  constexpr static std::size_t addrs = 0x704c560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

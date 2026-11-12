@@ -25,7 +25,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::Universal::MotionBlurQualityParameter* New_ctor(::UnityEngine::Rendering::Universal::MotionBlurQuality value, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x6cfb36c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfc44c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::MotionBlurQuality value, bool overrideState);
 
 protected:

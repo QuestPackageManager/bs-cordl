@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::*)(uint64_t)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::OnInstanceCreate)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6e82458;
+  constexpr static std::size_t addrs = 0x6e83538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::*)(uint64_t)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::OnInstanceDestroy)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6e825c0;
+  constexpr static std::size_t addrs = 0x6e836a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::*)(uint64_t)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::OnSessionCreate)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6e8260c;
+  constexpr static std::size_t addrs = 0x6e836ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::*)(uint64_t)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::OnSessionDestroy)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6e8265c;
+  constexpr static std::size_t addrs = 0x6e8373c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::StringW, bool)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::ConformanceAutomationSetActive)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6e826a8;
+  constexpr static std::size_t addrs = 0x6e83788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::StringW, bool)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::ConformanceAutomationSetBool)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6e827f8;
+  constexpr static std::size_t addrs = 0x6e838d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::StringW, float_t)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::ConformanceAutomationSetFloat)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6e82948;
+  constexpr static std::size_t addrs = 0x6e83a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::StringW, ::UnityEngine::Vector2)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::ConformanceAutomationSetVec2)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6e82aa8;
+  constexpr static std::size_t addrs = 0x6e83b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::StringW, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::ConformanceAutomationSetPose)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6e82c18;
+  constexpr static std::size_t addrs = 0x6e83cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::StringW, bool, ::UnityEngine::Vector3, bool, ::UnityEngine::Vector3)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::ConformanceAutomationSetVelocity)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6e82e00;
+  constexpr static std::size_t addrs = 0x6e83ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, uint64_t)>(&::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::initialize)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6e8253c;
+  constexpr static std::size_t addrs = 0x6e8361c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature*>(),
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint64_t, uint64_t, uint64_t, bool)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::xrSetInputDeviceActiveEXT)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6e82754;
+  constexpr static std::size_t addrs = 0x6e83834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint64_t, uint64_t, uint64_t, bool)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::xrSetInputDeviceStateBoolEXT)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6e828a4;
+  constexpr static std::size_t addrs = 0x6e83984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint64_t, uint64_t, uint64_t, float_t)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::xrSetInputDeviceStateFloatEXT)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6e829fc;
+  constexpr static std::size_t addrs = 0x6e83adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint64_t, uint64_t, uint64_t, ::UnityEngine::XR::OpenXR::NativeTypes::XrVector2f)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::xrSetInputDeviceStateVector2fEXT)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6e82b64;
+  constexpr static std::size_t addrs = 0x6e83c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint64_t, uint64_t, uint64_t, uint64_t, ::UnityEngine::XR::OpenXR::NativeTypes::XrPosef)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::xrSetInputDeviceLocationEXT)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6e82d3c;
+  constexpr static std::size_t addrs = 0x6e83e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature*>(),
@@ -267,7 +267,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (*)(uint64_t, uint64_t, uint64_t, bool, ::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f, bool, ::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f)>(
         &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::xrSetInputDeviceVelocityUNITY)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6e82f04;
+  constexpr static std::size_t addrs = 0x6e83fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature*>(),
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::*)()>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e83000;
+  constexpr static std::size_t addrs = 0x6e840e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

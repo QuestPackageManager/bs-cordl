@@ -24,7 +24,7 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 struct CORDL_TYPE RendererListResource {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6c4dc64, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c4ed44, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RendererListParams const> desc);
 
   // Ctor Parameters []

@@ -38,22 +38,22 @@ public:
 
   __declspec(property(put = set_staticShadowCaster)) bool staticShadowCaster;
 
-  /// @brief Method set_allDepthSorted, addr 0x6fc4cf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_allDepthSorted, addr 0x6fc5dd4, size 0x8, virtual false, abstract: false, final false
   inline void set_allDepthSorted(bool value);
 
-  /// @brief Method set_batchLayer, addr 0x6fc4ccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_batchLayer, addr 0x6fc5dac, size 0x8, virtual false, abstract: false, final false
   inline void set_batchLayer(uint8_t value);
 
-  /// @brief Method set_motionMode, addr 0x6fc4cd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_motionMode, addr 0x6fc5db4, size 0x8, virtual false, abstract: false, final false
   inline void set_motionMode(::UnityEngine::MotionVectorGenerationMode value);
 
-  /// @brief Method set_receiveShadows, addr 0x6fc4ce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_receiveShadows, addr 0x6fc5dc4, size 0x8, virtual false, abstract: false, final false
   inline void set_receiveShadows(bool value);
 
-  /// @brief Method set_shadowCastingMode, addr 0x6fc4cdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_shadowCastingMode, addr 0x6fc5dbc, size 0x8, virtual false, abstract: false, final false
   inline void set_shadowCastingMode(::UnityEngine::Rendering::ShadowCastingMode value);
 
-  /// @brief Method set_staticShadowCaster, addr 0x6fc4cec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_staticShadowCaster, addr 0x6fc5dcc, size 0x8, virtual false, abstract: false, final false
   inline void set_staticShadowCaster(bool value);
 
   // Ctor Parameters []

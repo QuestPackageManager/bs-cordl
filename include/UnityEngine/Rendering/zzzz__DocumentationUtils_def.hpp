@@ -29,7 +29,7 @@ public:
     requires(::cordl_internals::type_constraint<TEnum, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TEnum> && ::cordl_internals::default_constructor_constraint<TEnum>)
   static inline ::StringW GetHelpURL(TEnum mask);
 
-  /// @brief Method TryGetHelpURL, addr 0x6bdfb8c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TryGetHelpURL, addr 0x6be0c6c, size 0x90, virtual false, abstract: false, final false
   static inline bool TryGetHelpURL(::System::Type* type, ::by_ref<::StringW> url);
 
 protected:

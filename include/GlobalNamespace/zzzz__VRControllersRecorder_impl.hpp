@@ -10,6 +10,8 @@
 #include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEditorStartTestLevelData_def.hpp"
 #include "GlobalNamespace/zzzz__IConstructorStringGenerator_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerVRControllersManager_def.hpp"
+#include "GlobalNamespace/zzzz__SmoothCameraController_def.hpp"
 #include "GlobalNamespace/zzzz__VRController_def.hpp"
 #include "GlobalNamespace/zzzz__VRControllersRecorder_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -45,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRControllersRecorder_InitData::*)(::StringW, ::GlobalNamespace::VRControllersRecorder_Mode)>(
     &::GlobalNamespace::VRControllersRecorder_InitData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d34148;
+  constexpr static std::size_t addrs = 0x5d33da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::GlobalNamespace::VRControllersRecorder_TypeSerializationBinder::*)(::StringW, ::StringW)>(
     &::GlobalNamespace::VRControllersRecorder_TypeSerializationBinder::BindToType)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5d34154;
+  constexpr static std::size_t addrs = 0x5d33db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersRecorder_TypeSerializationBinder*>(),
@@ -110,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRControllersRecorder_TypeSerializationBinder::*)()>(
     &::GlobalNamespace::VRControllersRecorder_TypeSerializationBinder::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d334b8;
+  constexpr static std::size_t addrs = 0x5d33118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersRecorder_TypeSerializationBinder*>(), { ".ctor", {}, {} })));
@@ -137,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SavedData_VRControllersRecorder_KeyframeSerializable::*)()>(
     &::GlobalNamespace::SavedData_VRControllersRecorder_KeyframeSerializable::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d341d0;
+  constexpr static std::size_t addrs = 0x5d33e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -424,7 +426,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRControllersRecorder_SavedData::*)()>(&::GlobalNamespace::VRControllersRecorder_SavedData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d32a14;
+  constexpr static std::size_t addrs = 0x5d32674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersRecorder_SavedData*>(), { ".ctor", {}, {} })));
@@ -458,7 +460,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (::GlobalNamespace::VRControllersRecorder_Keyframe::*)()>(
     &::GlobalNamespace::VRControllersRecorder_Keyframe::get_leftControllerPose)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5d341d4;
+  constexpr static std::size_t addrs = 0x5d33e34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -472,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (::GlobalNamespace::VRControllersRecorder_Keyframe::*)()>(
     &::GlobalNamespace::VRControllersRecorder_Keyframe::get_rightControllerPose)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5d34200;
+  constexpr static std::size_t addrs = 0x5d33e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -486,7 +488,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (::GlobalNamespace::VRControllersRecorder_Keyframe::*)()>(
     &::GlobalNamespace::VRControllersRecorder_Keyframe::get_headPose)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5d3422c;
+  constexpr static std::size_t addrs = 0x5d33e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersRecorder_Keyframe*>(), { "get_headPose", {}, {} })));
@@ -499,7 +501,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRControllersRecorder_Keyframe::*)(::UnityEngine::Pose, ::UnityEngine::Pose, ::UnityEngine::Pose, float_t)>(
     &::GlobalNamespace::VRControllersRecorder_Keyframe::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5d32590;
+  constexpr static std::size_t addrs = 0x5d321f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -516,7 +518,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion, float_t)>(
     &::GlobalNamespace::VRControllersRecorder_Keyframe::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5d34258;
+  constexpr static std::size_t addrs = 0x5d33eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -535,7 +537,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SavedData_VRControllersRecorder_KeyframeSerializable* (::GlobalNamespace::VRControllersRecorder_Keyframe::*)()>(
     &::GlobalNamespace::VRControllersRecorder_Keyframe::ToSerializable)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5d32a18;
+  constexpr static std::size_t addrs = 0x5d32678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersRecorder_Keyframe*>(), { "ToSerializable", {}, {} })));
@@ -548,7 +550,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::VRControllersRecorder_Keyframe* (*)(::GlobalNamespace::SavedData_VRControllersRecorder_KeyframeSerializable*)>(
     &::GlobalNamespace::VRControllersRecorder_Keyframe::FromSerializable)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5d3429c;
+  constexpr static std::size_t addrs = 0x5d33efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -563,7 +565,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRControllersRecorder_Keyframe::*)(::System::IO::BinaryWriter*)>(
     &::GlobalNamespace::VRControllersRecorder_Keyframe::WriteTo)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5d34338;
+  constexpr static std::size_t addrs = 0x5d33f98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -577,7 +579,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::VRControllersRecorder_Keyframe* (*)(::System::IO::BinaryReader*)>(
     &::GlobalNamespace::VRControllersRecorder_Keyframe::ReadFrom)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x5d343e8;
+  constexpr static std::size_t addrs = 0x5d34048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -590,7 +592,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::VRControllersRecorder_Keyframe::*)()>(&::GlobalNamespace::VRControllersRecorder_Keyframe::ToConstructorString)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x5d3454c;
+  constexpr static std::size_t addrs = 0x5d341ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersRecorder_Keyframe*>(), { "ToConstructorString", {}, {} })));
@@ -603,7 +605,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::VRControllersRecorder_Keyframe::*)(::GlobalNamespace::VRControllersRecorder_Keyframe*)>(
     &::GlobalNamespace::VRControllersRecorder_Keyframe::Equals)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5d34744;
+  constexpr static std::size_t addrs = 0x5d343a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersRecorder_Keyframe*>(),
@@ -616,7 +618,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::VRControllersRecorder_Keyframe::*)(::System::Object*)>(&::GlobalNamespace::VRControllersRecorder_Keyframe::Equals)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5d348ac;
+  constexpr static std::size_t addrs = 0x5d3450c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -629,7 +631,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::VRControllersRecorder_Keyframe::*)()>(&::GlobalNamespace::VRControllersRecorder_Keyframe::GetHashCode)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5d34958;
+  constexpr static std::size_t addrs = 0x5d345b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -825,7 +827,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::State_VRControllersRecorder___c::*)()>(&::GlobalNamespace::State_VRControllersRecorder___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d34d08;
+  constexpr static std::size_t addrs = 0x5d34968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::State_VRControllersRecorder___c*>(), { ".ctor", {}, {} })));
@@ -838,7 +840,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::State_VRControllersRecorder___c::*)(::System::IO::BinaryWriter*, ::GlobalNamespace::VRControllersRecorder_Keyframe*)>(
     &::GlobalNamespace::State_VRControllersRecorder___c::_WriteTo_b__12_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5d34d0c;
+  constexpr static std::size_t addrs = 0x5d3496c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -885,7 +887,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::VRControllersRecorder_Keyframe*>*, ::UnityEngine::Pose, ::UnityEngine::Pose)>(
     &::GlobalNamespace::VRControllersRecorder_State::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5d34a7c;
+  constexpr static std::size_t addrs = 0x5d346dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -903,7 +905,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRControllersRecorder_State::*)(
     ::System::Collections::Generic::List_1<::GlobalNamespace::VRControllersRecorder_Keyframe*>*, ::UnityEngine::Pose, ::UnityEngine::Pose)>(&::GlobalNamespace::VRControllersRecorder_State::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5d34b98;
+  constexpr static std::size_t addrs = 0x5d347f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -922,7 +924,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Collections::Generic::List_1<::GlobalNamespace::VRControllersRecorder_Keyframe*>*, ::UnityEngine::Pose, ::UnityEngine::Pose, uint32_t)>(
     &::GlobalNamespace::VRControllersRecorder_State::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5d34b60;
+  constexpr static std::size_t addrs = 0x5d347c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -939,7 +941,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRControllersRecorder_State::*)()>(&::GlobalNamespace::VRControllersRecorder_State::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5d31320;
+  constexpr static std::size_t addrs = 0x5d31044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersRecorder_State*>(), { ".ctor", {}, {} })));
@@ -952,7 +954,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::VRControllersRecorder_Keyframe*>* (
     ::GlobalNamespace::VRControllersRecorder_State::*)()>(&::GlobalNamespace::VRControllersRecorder_State::get_keyframes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d34bf0;
+  constexpr static std::size_t addrs = 0x5d34850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersRecorder_State*>(), { "get_keyframes", {}, {} })));
@@ -964,7 +966,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::GlobalNamespace::VRControllersRecorder_State::*)()>(&::GlobalNamespace::VRControllersRecorder_State::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d34bf8;
+  constexpr static std::size_t addrs = 0x5d34858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersRecorder_State*>(), { "get_version", {}, {} })));
@@ -977,7 +979,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRControllersRecorder_State::*)(::System::IO::BinaryWriter*)>(
     &::GlobalNamespace::VRControllersRecorder_State::WriteTo)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x5d32adc;
+  constexpr static std::size_t addrs = 0x5d3273c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -990,7 +992,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::VRControllersRecorder_State* (*)(::System::IO::BinaryReader*)>(&::GlobalNamespace::VRControllersRecorder_State::ReadFrom)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x5d332ac;
+  constexpr static std::size_t addrs = 0x5d32f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1004,7 +1006,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::VRControllersRecorder_State* (*)(::GlobalNamespace::VRControllersRecorder_SavedData*, ::UnityEngine::Pose,
                                                                                                            ::UnityEngine::Pose)>(&::GlobalNamespace::VRControllersRecorder_State::FromSavedData)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x5d330ec;
+  constexpr static std::size_t addrs = 0x5d32d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1021,7 +1023,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::VRControllersRecorder_State* (::GlobalNamespace::VRControllersRecorder_State::*)(::UnityEngine::Pose, ::UnityEngine::Pose)>(
     &::GlobalNamespace::VRControllersRecorder_State::Upgrade)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5d34c00;
+  constexpr static std::size_t addrs = 0x5d34860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersRecorder_State*>(),
@@ -1035,7 +1037,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRControllersRecorder_State::*)(::GlobalNamespace::VRControllersRecorder_Keyframe*)>(
     &::GlobalNamespace::VRControllersRecorder_State::AddKeyframe)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5d32604;
+  constexpr static std::size_t addrs = 0x5d32264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersRecorder_State*>(),
@@ -1190,7 +1192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRControllersRecorder::*)(
     ::GlobalNamespace::AudioTimeSyncController*, ::GlobalNamespace::VRControllersRecorder_InitData*)>(&::GlobalNamespace::VRControllersRecorder::InjectDependencies)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5d30628;
+  constexpr static std::size_t addrs = 0x5d30344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1206,7 +1208,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_3<::UnityEngine::Pose, ::UnityEngine::Pose, ::UnityEngine::Pose> (::GlobalNamespace::VRControllersRecorder::*)()>(
     &::GlobalNamespace::VRControllersRecorder::get_currentPoses)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5d3065c;
+  constexpr static std::size_t addrs = 0x5d30378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersRecorder*>(), { "get_currentPoses", {}, {} })));
@@ -1218,7 +1220,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRControllersRecorder::*)(bool)>(&::GlobalNamespace::VRControllersRecorder::set_changeToNonVRCamera)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d307c4;
+  constexpr static std::size_t addrs = 0x5d304e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1231,7 +1233,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::VRControllersRecorder::*)()>(&::GlobalNamespace::VRControllersRecorder::get_changeToNonVRCamera)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d307cc;
+  constexpr static std::size_t addrs = 0x5d304e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersRecorder*>(), { "get_changeToNonVRCamera", {}, {} })));
@@ -1242,8 +1244,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRControllersRecorder::*)()>(&::GlobalNamespace::VRControllersRecorder::Start)> {
-  constexpr static std::size_t size = 0x52c;
-  constexpr static std::size_t addrs = 0x5d307d4;
+  constexpr static std::size_t size = 0x534;
+  constexpr static std::size_t addrs = 0x5d304f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersRecorder*>(), { "Start", {}, {} })));
@@ -1256,7 +1258,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRControllersRecorder::*)(::GlobalNamespace::VRController*, ::UnityEngine::Pose)>(
     &::GlobalNamespace::VRControllersRecorder::HandleControllerAnchorUpdate)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x5d31394;
+  constexpr static std::size_t addrs = 0x5d310b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1270,7 +1272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRControllersRecorder::*)()>(&::GlobalNamespace::VRControllersRecorder::CheckNodes)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x5d30d00;
+  constexpr static std::size_t addrs = 0x5d30a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersRecorder*>(), { "CheckNodes", {}, {} })));
@@ -1282,7 +1284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRControllersRecorder::*)()>(&::GlobalNamespace::VRControllersRecorder::OnDestroy)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5d31548;
+  constexpr static std::size_t addrs = 0x5d3126c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersRecorder*>(), { "OnDestroy", {}, {} })));
@@ -1294,8 +1296,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRControllersRecorder::*)(::GlobalNamespace::BeatmapEditorStartTestLevelData_RecordingData)>(
     &::GlobalNamespace::VRControllersRecorder::SetBeatmapEditorPlaybackSettings)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5d31948;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5d3166c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1308,8 +1310,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRControllersRecorder::*)()>(&::GlobalNamespace::VRControllersRecorder::PlaybackTick)> {
-  constexpr static std::size_t size = 0x790;
-  constexpr static std::size_t addrs = 0x5d31a04;
+  constexpr static std::size_t size = 0x70c;
+  constexpr static std::size_t addrs = 0x5d316e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersRecorder*>(), { "PlaybackTick", {}, {} })));
@@ -1322,7 +1324,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRControllersRecorder::*)(::UnityEngine::Transform*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, float_t)>(
     &::GlobalNamespace::VRControllersRecorder::SetPositionAndRotation)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x5d32194;
+  constexpr static std::size_t addrs = 0x5d31df4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1338,7 +1340,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRControllersRecorder::*)()>(&::GlobalNamespace::VRControllersRecorder::RecordTick)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x5d322b4;
+  constexpr static std::size_t addrs = 0x5d31f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersRecorder*>(), { "RecordTick", {}, {} })));
@@ -1350,7 +1352,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRControllersRecorder::*)()>(&::GlobalNamespace::VRControllersRecorder::Update)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5d326b8;
+  constexpr static std::size_t addrs = 0x5d32318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersRecorder*>(), { "Update", {}, {} })));
@@ -1362,7 +1364,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRControllersRecorder::*)()>(&::GlobalNamespace::VRControllersRecorder::LateUpdate)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5d327a0;
+  constexpr static std::size_t addrs = 0x5d32400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersRecorder*>(), { "LateUpdate", {}, {} })));
@@ -1374,7 +1376,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRControllersRecorder::*)()>(&::GlobalNamespace::VRControllersRecorder::Save)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x5d31634;
+  constexpr static std::size_t addrs = 0x5d31358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersRecorder*>(), { "Save", {}, {} })));
@@ -1388,7 +1390,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::GlobalNamespace::VRControllersRecorder_SavedData* (*)(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::VRControllersRecorder_Keyframe*>*)>(
         &::GlobalNamespace::VRControllersRecorder::GetSavedData)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x5d327e0;
+  constexpr static std::size_t addrs = 0x5d32440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1402,7 +1404,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::BinaryWriter*, ::GlobalNamespace::VRControllersRecorder_State*)>(&::GlobalNamespace::VRControllersRecorder::WriteTo)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5d327b0;
+  constexpr static std::size_t addrs = 0x5d32410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1416,7 +1418,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::BinaryWriter*)>(&::GlobalNamespace::VRControllersRecorder::WriteHeader)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5d32a9c;
+  constexpr static std::size_t addrs = 0x5d326fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1429,7 +1431,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::System::IO::BinaryReader*)>(&::GlobalNamespace::VRControllersRecorder::ReadHeader)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5d32c3c;
+  constexpr static std::size_t addrs = 0x5d3289c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1442,7 +1444,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::VRControllersRecorder::*)()>(&::GlobalNamespace::VRControllersRecorder::Load)> {
   constexpr static std::size_t size = 0x3b8;
-  constexpr static std::size_t addrs = 0x5d30f68;
+  constexpr static std::size_t addrs = 0x5d30c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersRecorder*>(), { "Load", {}, {} })));
@@ -1454,7 +1456,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::VRControllersRecorder::*)()>(&::GlobalNamespace::VRControllersRecorder::get_path)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5d32d20;
+  constexpr static std::size_t addrs = 0x5d32980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersRecorder*>(), { "get_path", {}, {} })));
@@ -1467,7 +1469,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::VRControllersRecorder_State* (::GlobalNamespace::VRControllersRecorder::*)(::System::IO::Stream*)>(
     &::GlobalNamespace::VRControllersRecorder::LoadState)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5d32c88;
+  constexpr static std::size_t addrs = 0x5d328e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1481,7 +1483,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::VRControllersRecorder_State* (*)(::System::IO::Stream*)>(
     &::GlobalNamespace::VRControllersRecorder::LoadStateWithDefaultOffset)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5d32fd8;
+  constexpr static std::size_t addrs = 0x5d32c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1495,7 +1497,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::VRControllersRecorder_State* (*)(::System::IO::Stream*, ::UnityEngine::Pose, ::UnityEngine::Pose)>(
     &::GlobalNamespace::VRControllersRecorder::LoadState)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x5d32d70;
+  constexpr static std::size_t addrs = 0x5d329d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1509,7 +1511,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter* (*)()>(&::GlobalNamespace::VRControllersRecorder::GetBinaryFormatter)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5d3341c;
+  constexpr static std::size_t addrs = 0x5d3307c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersRecorder*>(), { "GetBinaryFormatter", {}, {} })));
@@ -1521,7 +1523,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::VRControllersRecorder_SavedData* (*)(::System::IO::Stream*)>(&::GlobalNamespace::VRControllersRecorder::LoadSavedData)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5d3305c;
+  constexpr static std::size_t addrs = 0x5d32cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1535,7 +1537,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::Stream*, ::GlobalNamespace::VRControllersRecorder_SavedData*)>(
     &::GlobalNamespace::VRControllersRecorder::SerializeSavedData)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5d334bc;
+  constexpr static std::size_t addrs = 0x5d3311c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1549,7 +1551,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::AnimationClip> (*)(::StringW)>(&::GlobalNamespace::VRControllersRecorder::CreateAnimationClipFromRecording)> {
   constexpr static std::size_t size = 0xbf0;
-  constexpr static std::size_t addrs = 0x5d334ec;
+  constexpr static std::size_t addrs = 0x5d3314c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1562,7 +1564,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRControllersRecorder::*)()>(&::GlobalNamespace::VRControllersRecorder::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5d340dc;
+  constexpr static std::size_t addrs = 0x5d33d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersRecorder*>(), { ".ctor", {}, {} })));
@@ -1749,6 +1751,30 @@ constexpr void GlobalNamespace::VRControllersRecorder::__cordl_internal_set__ori
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____originTransform = value;
 }
+constexpr ::UnityW<::GlobalNamespace::PlayerVRControllersManager>& GlobalNamespace::VRControllersRecorder::__cordl_internal_get__playerVRControllersManager() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____playerVRControllersManager;
+}
+constexpr ::UnityW<::GlobalNamespace::PlayerVRControllersManager> const& GlobalNamespace::VRControllersRecorder::__cordl_internal_get__playerVRControllersManager() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____playerVRControllersManager;
+}
+constexpr void GlobalNamespace::VRControllersRecorder::__cordl_internal_set__playerVRControllersManager(::UnityW<::GlobalNamespace::PlayerVRControllersManager> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____playerVRControllersManager = value;
+}
+constexpr ::UnityW<::GlobalNamespace::SmoothCameraController>& GlobalNamespace::VRControllersRecorder::__cordl_internal_get__smoothCameraController() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____smoothCameraController;
+}
+constexpr ::UnityW<::GlobalNamespace::SmoothCameraController> const& GlobalNamespace::VRControllersRecorder::__cordl_internal_get__smoothCameraController() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____smoothCameraController;
+}
+constexpr void GlobalNamespace::VRControllersRecorder::__cordl_internal_set__smoothCameraController(::UnityW<::GlobalNamespace::SmoothCameraController> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____smoothCameraController = value;
+}
 constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& GlobalNamespace::VRControllersRecorder::__cordl_internal_get__audioTimeSyncController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSyncController;
@@ -1868,6 +1894,18 @@ constexpr int32_t const& GlobalNamespace::VRControllersRecorder::__cordl_interna
 constexpr void GlobalNamespace::VRControllersRecorder::__cordl_internal_set__keyframeIndex(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____keyframeIndex = value;
+}
+constexpr bool& GlobalNamespace::VRControllersRecorder::__cordl_internal_get__hasStarted() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____hasStarted;
+}
+constexpr bool const& GlobalNamespace::VRControllersRecorder::__cordl_internal_get__hasStarted() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____hasStarted;
+}
+constexpr void GlobalNamespace::VRControllersRecorder::__cordl_internal_set__hasStarted(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____hasStarted = value;
 }
 inline void GlobalNamespace::VRControllersRecorder::InjectDependencies(::GlobalNamespace::AudioTimeSyncController* audioTimeSyncController,
                                                                        ::GlobalNamespace::VRControllersRecorder_InitData* initData) {

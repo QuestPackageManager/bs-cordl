@@ -10,6 +10,9 @@ CORDL_MODULE_EXPORT(GameplayAdditionalInformation)
 namespace GlobalNamespace {
 struct PlaymodeOptions;
 }
+namespace GlobalNamespace {
+class RecordingPlaybackSettings;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GameplayAdditionalInformation;
@@ -29,20 +32,27 @@ public:
   /// @brief Field backButtonText, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_backButtonText, put = __cordl_internal_set_backButtonText)) ::StringW backButtonText;
 
-  /// @brief Field fpfcEnabled, offset 0x38, size 0x1
+  /// @brief Field fpfcEnabled, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get_fpfcEnabled, put = __cordl_internal_set_fpfcEnabled)) bool fpfcEnabled;
 
   /// @brief Field playmodeOptions, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_playmodeOptions, put = __cordl_internal_set_playmodeOptions)) ::GlobalNamespace::PlaymodeOptions playmodeOptions;
 
-  /// @brief Field profileSong, offset 0x28, size 0x1
+  /// @brief Field profileSong, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_profileSong, put = __cordl_internal_set_profileSong)) bool profileSong;
+
+  /// @brief Field recordingPlaybackSettings, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_recordingPlaybackSettings,
+                      put = __cordl_internal_set_recordingPlaybackSettings)) ::GlobalNamespace::RecordingPlaybackSettings* recordingPlaybackSettings;
 
   /// @brief Field recordingRelativePath, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_recordingRelativePath, put = __cordl_internal_set_recordingRelativePath)) ::StringW recordingRelativePath;
 
-  /// @brief Field reportDescriptor, offset 0x30, size 0x8
+  /// @brief Field reportDescriptor, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_reportDescriptor, put = __cordl_internal_set_reportDescriptor)) ::StringW reportDescriptor;
+
+  /// @brief Field shouldPauseOnXrStateLoss, offset 0x41, size 0x1
+  __declspec(property(get = __cordl_internal_get_shouldPauseOnXrStateLoss, put = __cordl_internal_set_shouldPauseOnXrStateLoss)) bool shouldPauseOnXrStateLoss;
 
   /// @brief Field startPaused, offset 0x19, size 0x1
   __declspec(property(get = __cordl_internal_get_startPaused, put = __cordl_internal_set_startPaused)) bool startPaused;
@@ -52,8 +62,9 @@ public:
 
   /// @brief [NullableContext(2)]
   static inline ::GlobalNamespace::GameplayAdditionalInformation* New_ctor(::StringW backButtonText, bool useTestNoteCutSoundEffects, bool startPaused,
-                                                                           ::GlobalNamespace::PlaymodeOptions playmodeOptions, ::StringW recordingRelativePath, bool profileSong,
-                                                                           /* [Nullable(1)] */ ::StringW reportDescriptor, bool fpfcEnabled);
+                                                                           ::GlobalNamespace::PlaymodeOptions playmodeOptions, ::StringW recordingRelativePath,
+                                                                           ::GlobalNamespace::RecordingPlaybackSettings* recordingPlaybackSettings, bool profileSong,
+                                                                           /* [Nullable(1)] */ ::StringW reportDescriptor, bool fpfcEnabled, bool shouldPauseOnXrStateLoss);
 
   constexpr ::StringW const& __cordl_internal_get_backButtonText() const;
 
@@ -71,6 +82,10 @@ public:
 
   constexpr bool& __cordl_internal_get_profileSong();
 
+  constexpr ::GlobalNamespace::RecordingPlaybackSettings* const& __cordl_internal_get_recordingPlaybackSettings() const;
+
+  constexpr ::GlobalNamespace::RecordingPlaybackSettings*& __cordl_internal_get_recordingPlaybackSettings();
+
   constexpr ::StringW const& __cordl_internal_get_recordingRelativePath() const;
 
   constexpr ::StringW& __cordl_internal_get_recordingRelativePath();
@@ -78,6 +93,10 @@ public:
   constexpr ::StringW const& __cordl_internal_get_reportDescriptor() const;
 
   constexpr ::StringW& __cordl_internal_get_reportDescriptor();
+
+  constexpr bool const& __cordl_internal_get_shouldPauseOnXrStateLoss() const;
+
+  constexpr bool& __cordl_internal_get_shouldPauseOnXrStateLoss();
 
   constexpr bool const& __cordl_internal_get_startPaused() const;
 
@@ -95,18 +114,23 @@ public:
 
   constexpr void __cordl_internal_set_profileSong(bool value);
 
+  constexpr void __cordl_internal_set_recordingPlaybackSettings(::GlobalNamespace::RecordingPlaybackSettings* value);
+
   constexpr void __cordl_internal_set_recordingRelativePath(::StringW value);
 
   constexpr void __cordl_internal_set_reportDescriptor(::StringW value);
+
+  constexpr void __cordl_internal_set_shouldPauseOnXrStateLoss(bool value);
 
   constexpr void __cordl_internal_set_startPaused(bool value);
 
   constexpr void __cordl_internal_set_useTestNoteCutSoundEffects(bool value);
 
   /// [NullableContext(2)]
-  /// @brief Method .ctor, addr 0x39ba35c, size 0xdc, virtual false, abstract: false, final false
-  inline void _ctor(::StringW backButtonText, bool useTestNoteCutSoundEffects, bool startPaused, ::GlobalNamespace::PlaymodeOptions playmodeOptions, ::StringW recordingRelativePath, bool profileSong,
-                    /* [Nullable(1)] */ ::StringW reportDescriptor, bool fpfcEnabled);
+  /// @brief Method .ctor, addr 0x39be928, size 0xec, virtual false, abstract: false, final false
+  inline void _ctor(::StringW backButtonText, bool useTestNoteCutSoundEffects, bool startPaused, ::GlobalNamespace::PlaymodeOptions playmodeOptions, ::StringW recordingRelativePath,
+                    ::GlobalNamespace::RecordingPlaybackSettings* recordingPlaybackSettings, bool profileSong, /* [Nullable(1)] */ ::StringW reportDescriptor, bool fpfcEnabled,
+                    bool shouldPauseOnXrStateLoss);
 
 protected:
   // Ctor Parameters []
@@ -123,7 +147,7 @@ public:
   GameplayAdditionalInformation(GameplayAdditionalInformation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14322 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14323 };
 
   /// @brief Field backButtonText, offset: 0x10, size: 0x8, def value: None
   ::StringW ___backButtonText;
@@ -140,14 +164,21 @@ public:
   /// @brief Field recordingRelativePath, offset: 0x20, size: 0x8, def value: None
   ::StringW ___recordingRelativePath;
 
-  /// @brief Field profileSong, offset: 0x28, size: 0x1, def value: None
+  /// [Nullable(2)]
+  /// @brief Field recordingPlaybackSettings, offset: 0x28, size: 0x8, def value: None
+  ::GlobalNamespace::RecordingPlaybackSettings* ___recordingPlaybackSettings;
+
+  /// @brief Field profileSong, offset: 0x30, size: 0x1, def value: None
   bool ___profileSong;
 
-  /// @brief Field reportDescriptor, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field reportDescriptor, offset: 0x38, size: 0x8, def value: None
   ::StringW ___reportDescriptor;
 
-  /// @brief Field fpfcEnabled, offset: 0x38, size: 0x1, def value: None
+  /// @brief Field fpfcEnabled, offset: 0x40, size: 0x1, def value: None
   bool ___fpfcEnabled;
+
+  /// @brief Field shouldPauseOnXrStateLoss, offset: 0x41, size: 0x1, def value: None
+  bool ___shouldPauseOnXrStateLoss;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -162,12 +193,16 @@ static_assert(offsetof(::GlobalNamespace::GameplayAdditionalInformation, ___play
 
 static_assert(offsetof(::GlobalNamespace::GameplayAdditionalInformation, ___recordingRelativePath) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayAdditionalInformation, ___profileSong) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayAdditionalInformation, ___recordingPlaybackSettings) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayAdditionalInformation, ___reportDescriptor) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayAdditionalInformation, ___profileSong) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayAdditionalInformation, ___fpfcEnabled) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayAdditionalInformation, ___reportDescriptor) == 0x38, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::GameplayAdditionalInformation) == 0x40, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayAdditionalInformation, ___fpfcEnabled) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayAdditionalInformation, ___shouldPauseOnXrStateLoss) == 0x41, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::GameplayAdditionalInformation) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace

@@ -183,17 +183,17 @@ public:
   static inline int32_t EnumToInt(T enumValue);
 
   /// [ThreadSafe(ThrowsException = true)]
-  /// @brief Method Free, addr 0x6eeea64, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x6eefb44, size 0x44, virtual false, abstract: false, final false
   static inline void Free(void* memory, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method Free, addr 0x6eeeaa8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x6eefb88, size 0x44, virtual false, abstract: false, final false
   static inline void Free(void* memory, ::Unity::Collections::MemoryLabel label);
 
   /// [ThreadSafe(ThrowsException = true)]
-  /// @brief Method FreeTracked, addr 0x6eee5e8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method FreeTracked, addr 0x6eef6c8, size 0x44, virtual false, abstract: false, final false
   static inline void FreeTracked(void* memory, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method GetReasonForArrayNonBlittable, addr 0x6eef080, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetReasonForArrayNonBlittable, addr 0x6ef0160, size 0x50, virtual false, abstract: false, final false
   static inline ::StringW GetReasonForArrayNonBlittable(::System::Array* arr);
 
   /// @brief Method GetReasonForGenericListNonBlittable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -201,11 +201,11 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   static inline ::StringW GetReasonForGenericListNonBlittable();
 
-  /// @brief Method GetReasonForTypeNonBlittableImpl, addr 0x6eeee1c, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method GetReasonForTypeNonBlittableImpl, addr 0x6eefefc, size 0x230, virtual false, abstract: false, final false
   static inline ::StringW GetReasonForTypeNonBlittableImpl(::System::Type* t, ::StringW name);
 
   /// [ThreadSafe]
-  /// @brief Method GetScriptingTypeFlags, addr 0x6eeed78, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetScriptingTypeFlags, addr 0x6eefe58, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetScriptingTypeFlags(::System::Type* type);
 
   /// @brief Method InternalCopyPtrToStructure, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -221,7 +221,7 @@ public:
   /// @brief Method InternalEnumToInt, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void InternalEnumToInt(::by_ref<T> enumValue, ::by_ref<int32_t> intValue);
 
-  /// @brief Method IsArrayBlittable, addr 0x6eef04c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsArrayBlittable, addr 0x6ef012c, size 0x34, virtual false, abstract: false, final false
   static inline bool IsArrayBlittable(::System::Array* arr);
 
   /// @brief Method IsBlittable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -230,10 +230,10 @@ public:
   static inline bool IsBlittable();
 
   /// [ThreadSafe]
-  /// @brief Method IsBlittable, addr 0x6eeed3c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsBlittable, addr 0x6eefe1c, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsBlittable(::System::Type* type);
 
-  /// @brief Method IsBlittableValueType, addr 0x6eeedb4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method IsBlittableValueType, addr 0x6eefe94, size 0x68, virtual false, abstract: false, final false
   static inline bool IsBlittableValueType(::System::Type* t);
 
   /// @brief Method IsGenericListBlittable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -247,57 +247,57 @@ public:
   /// [ThreadSafe(ThrowsException = false)]
   /// [BurstAuthorizedExternalMethod]
   /// [VisibleToOtherModules(new[] { "UnityEngine.AIModule" })]
-  /// @brief Method LeakErase, addr 0x6eee844, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method LeakErase, addr 0x6eef924, size 0x44, virtual false, abstract: false, final false
   static inline int32_t LeakErase(::System::IntPtr handle, ::Unity::Collections::LeakCategory category);
 
   /// [ThreadSafe(ThrowsException = false)]
   /// [VisibleToOtherModules(new[] { "UnityEngine.AIModule" })]
   /// [BurstAuthorizedExternalMethod]
-  /// @brief Method LeakRecord, addr 0x6eee7f0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method LeakRecord, addr 0x6eef8d0, size 0x54, virtual false, abstract: false, final false
   static inline int32_t LeakRecord(::System::IntPtr handle, ::Unity::Collections::LeakCategory category, int32_t callstacksToSkip);
 
-  /// @brief Method Malloc, addr 0x6eee954, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Malloc, addr 0x6eefa34, size 0x58, virtual false, abstract: false, final false
   static inline void* Malloc(int64_t size, int32_t alignment, ::Unity::Collections::Allocator allocator);
 
   /// [ThreadSafe(ThrowsException = true)]
-  /// @brief Method Malloc, addr 0x6eee9ac, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Malloc, addr 0x6eefa8c, size 0x5c, virtual false, abstract: false, final false
   static inline void* Malloc(int64_t size, int32_t alignment, ::Unity::Collections::Allocator allocator, ::System::IntPtr label);
 
-  /// @brief Method Malloc, addr 0x6eeea08, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Malloc, addr 0x6eefae8, size 0x5c, virtual false, abstract: false, final false
   static inline void* Malloc(int64_t size, int32_t alignment, ::Unity::Collections::MemoryLabel label);
 
-  /// @brief Method MallocTracked, addr 0x6eee888, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method MallocTracked, addr 0x6eef968, size 0x60, virtual false, abstract: false, final false
   static inline void* MallocTracked(int64_t size, int32_t alignment, ::Unity::Collections::Allocator allocator, int32_t callstacksToSkip);
 
   /// [ThreadSafe(ThrowsException = true)]
-  /// @brief Method MallocTracked, addr 0x6eee8e8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method MallocTracked, addr 0x6eef9c8, size 0x6c, virtual false, abstract: false, final false
   static inline void* MallocTracked(int64_t size, int32_t alignment, ::Unity::Collections::Allocator allocator, int32_t callstacksToSkip, ::System::IntPtr label);
 
-  /// @brief Method MemClear, addr 0x6eeec64, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method MemClear, addr 0x6eefd44, size 0x48, virtual false, abstract: false, final false
   static inline void MemClear(void* destination, int64_t size);
 
   /// [ThreadSafe(ThrowsException = true)]
-  /// @brief Method MemCmp, addr 0x6eeecac, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MemCmp, addr 0x6eefd8c, size 0x54, virtual false, abstract: false, final false
   static inline int32_t MemCmp(void* ptr1, void* ptr2, int64_t size);
 
   /// [ThreadSafe(ThrowsException = true)]
-  /// @brief Method MemCpy, addr 0x6eed480, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MemCpy, addr 0x6eee560, size 0x54, virtual false, abstract: false, final false
   static inline void MemCpy(void* destination, void* source, int64_t size);
 
   /// [ThreadSafe(ThrowsException = true)]
-  /// @brief Method MemCpyReplicate, addr 0x6eeeaec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method MemCpyReplicate, addr 0x6eefbcc, size 0x5c, virtual false, abstract: false, final false
   static inline void MemCpyReplicate(void* destination, void* source, int32_t size, int32_t count);
 
   /// [ThreadSafe(ThrowsException = true)]
-  /// @brief Method MemCpyStride, addr 0x6eeeb48, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method MemCpyStride, addr 0x6eefc28, size 0x74, virtual false, abstract: false, final false
   static inline void MemCpyStride(void* destination, int32_t destinationStride, void* source, int32_t sourceStride, int32_t elementSize, int32_t count);
 
   /// [ThreadSafe(ThrowsException = true)]
-  /// @brief Method MemMove, addr 0x6eeebbc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MemMove, addr 0x6eefc9c, size 0x54, virtual false, abstract: false, final false
   static inline void MemMove(void* destination, void* source, int64_t size);
 
   /// [ThreadSafe(ThrowsException = true)]
-  /// @brief Method MemSet, addr 0x6eeec10, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MemSet, addr 0x6eefcf0, size 0x54, virtual false, abstract: false, final false
   static inline void MemSet(void* destination, uint8_t value, int64_t size);
 
   /// @brief Method ReadArrayElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -312,7 +312,7 @@ public:
   static inline int32_t SizeOf();
 
   /// [ThreadSafe]
-  /// @brief Method SizeOf, addr 0x6eeed00, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SizeOf, addr 0x6eefde0, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t SizeOf(::System::Type* type);
 
   /// @brief Method WriteArrayElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

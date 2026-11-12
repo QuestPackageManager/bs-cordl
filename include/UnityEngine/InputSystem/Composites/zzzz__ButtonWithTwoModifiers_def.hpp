@@ -112,18 +112,18 @@ public:
   /// @brief Field overrideModifiersNeedToBePressedFirst, offset 0x1c, size 0x1
   __declspec(property(get = __cordl_internal_get_overrideModifiersNeedToBePressedFirst, put = __cordl_internal_set_overrideModifiersNeedToBePressedFirst)) bool overrideModifiersNeedToBePressedFirst;
 
-  /// @brief Method EvaluateMagnitude, addr 0x6971b58, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x6972c38, size 0xc, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method FinishSetup, addr 0x6971b64, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x6972c44, size 0x90, virtual true, abstract: false, final false
   inline void FinishSetup(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method ModifiersArePressed, addr 0x6971aa4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ModifiersArePressed, addr 0x6972b84, size 0xb4, virtual false, abstract: false, final false
   inline bool ModifiersArePressed(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   static inline ::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers* New_ctor();
 
-  /// @brief Method ReadValue, addr 0x6971a24, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x6972b04, size 0x80, virtual true, abstract: false, final false
   inline float_t ReadValue(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   constexpr int32_t const& __cordl_internal_get_button() const;
@@ -156,7 +156,7 @@ public:
 
   constexpr void __cordl_internal_set_overrideModifiersNeedToBePressedFirst(bool value);
 
-  /// @brief Method .ctor, addr 0x6971bf4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6972cd4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

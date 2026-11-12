@@ -64,7 +64,7 @@ namespace UnityEngine {
 class CORDL_TYPE Gradient_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToNative, addr 0x6f63458, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x6f64538, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::Gradient* graident);
 
 protected:
@@ -121,40 +121,40 @@ public:
   constexpr operator ::System::IEquatable_1<::UnityEngine::Gradient*>*() noexcept;
 
   /// [FreeFunction(Name = "Gradient_Bindings::Cleanup", IsThreadSafe = true, HasExplicitThis = true)]
-  /// @brief Method Cleanup, addr 0x6f62618, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x6f636f8, size 0x50, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method Cleanup_Injected, addr 0x6f62668, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup_Injected, addr 0x6f63748, size 0x3c, virtual false, abstract: false, final false
   static inline void Cleanup_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method Equals, addr 0x6f63324, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f64404, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals, addr 0x6f633c0, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6f644a0, size 0x90, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Gradient* other);
 
   /// [FreeFunction(Name = "Gradient_Bindings::Evaluate", IsThreadSafe = true, HasExplicitThis = true)]
-  /// @brief Method Evaluate, addr 0x6f627e0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x6f638c0, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color Evaluate(float_t time);
 
-  /// @brief Method Evaluate_Injected, addr 0x6f6285c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Evaluate_Injected, addr 0x6f6393c, size 0x54, virtual false, abstract: false, final false
   static inline void Evaluate_Injected(::System::IntPtr _unity_self, float_t time, ::by_ref<::UnityEngine::Color> ret);
 
-  /// @brief Method Finalize, addr 0x6f62794, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6f63874, size 0x4c, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetHashCode, addr 0x6f63450, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6f64530, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// [FreeFunction(Name = "Gradient_Bindings::Init", IsThreadSafe = true)]
-  /// @brief Method Init, addr 0x6f625f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6f636d0, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr Init();
 
   /// [FreeFunction("Gradient_Bindings::Internal_Equals", IsThreadSafe = true, HasExplicitThis = true)]
-  /// @brief Method Internal_Equals, addr 0x6f626a4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Internal_Equals, addr 0x6f63784, size 0x58, virtual false, abstract: false, final false
   inline bool Internal_Equals(::System::IntPtr other);
 
-  /// @brief Method Internal_Equals_Injected, addr 0x6f626fc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_Equals_Injected, addr 0x6f637dc, size 0x44, virtual false, abstract: false, final false
   static inline bool Internal_Equals_Injected(::System::IntPtr _unity_self, ::System::IntPtr other);
 
   /// @brief [RequiredByNativeCode]
@@ -163,14 +163,14 @@ public:
   /// @brief [VisibleToOtherModules(new[] { "UnityEngine.ParticleSystemModule" })]
   static inline ::UnityEngine::Gradient* New_ctor(::System::IntPtr ptr);
 
-  /// @brief Method SetKeys, addr 0x6f63088, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SetKeys, addr 0x6f64168, size 0x130, virtual false, abstract: false, final false
   inline void SetKeys(::ArrayW<::UnityEngine::GradientColorKey> colorKeys, ::ArrayW<::UnityEngine::GradientAlphaKey> alphaKeys);
 
   /// [FreeFunction(Name = "Gradient_Bindings::SetKeysWithSpans", HasExplicitThis = true, IsThreadSafe = true)]
-  /// @brief Method SetKeys, addr 0x6f631b8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SetKeys, addr 0x6f64298, size 0x118, virtual false, abstract: false, final false
   inline void SetKeys(::System::ReadOnlySpan_1<::UnityEngine::GradientColorKey> colorKeys, ::System::ReadOnlySpan_1<::UnityEngine::GradientAlphaKey> alphaKeys);
 
-  /// @brief Method SetKeys_Injected, addr 0x6f632d0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetKeys_Injected, addr 0x6f643b0, size 0x54, virtual false, abstract: false, final false
   static inline void SetKeys_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> colorKeys, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> alphaKeys);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
@@ -186,66 +186,66 @@ public:
   constexpr void __cordl_internal_set_m_RequiresNativeCleanup(bool value);
 
   /// [RequiredByNativeCode]
-  /// @brief Method .ctor, addr 0x6f62740, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f63820, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.ParticleSystemModule" })]
-  /// @brief Method .ctor, addr 0x6f62788, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f63868, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
   /// [FreeFunction("Gradient_Bindings::GetAlphaKeysArray", IsThreadSafe = true, HasExplicitThis = true)]
-  /// @brief Method get_alphaKeys, addr 0x6f62b74, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method get_alphaKeys, addr 0x6f63c54, size 0x14c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::GradientAlphaKey> get_alphaKeys();
 
-  /// @brief Method get_alphaKeys_Injected, addr 0x6f62cc0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_alphaKeys_Injected, addr 0x6f63da0, size 0x44, virtual false, abstract: false, final false
   static inline void get_alphaKeys_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
 
   /// [FreeFunction("Gradient_Bindings::GetColorKeysArray", IsThreadSafe = true, HasExplicitThis = true)]
-  /// @brief Method get_colorKeys, addr 0x6f628b0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method get_colorKeys, addr 0x6f63990, size 0x14c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::GradientColorKey> get_colorKeys();
 
-  /// @brief Method get_colorKeys_Injected, addr 0x6f629fc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_colorKeys_Injected, addr 0x6f63adc, size 0x44, virtual false, abstract: false, final false
   static inline void get_colorKeys_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
 
-  /// @brief Method get_colorSpace, addr 0x6f62f60, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_colorSpace, addr 0x6f64040, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::ColorSpace get_colorSpace();
 
-  /// @brief Method get_colorSpace_Injected, addr 0x6f62fb0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_colorSpace_Injected, addr 0x6f64090, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ColorSpace get_colorSpace_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_mode, addr 0x6f62e38, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_mode, addr 0x6f63f18, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::GradientMode get_mode();
 
-  /// @brief Method get_mode_Injected, addr 0x6f62e88, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_mode_Injected, addr 0x6f63f68, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::GradientMode get_mode_Injected(::System::IntPtr _unity_self);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Gradient*>"
   constexpr ::System::IEquatable_1<::UnityEngine::Gradient*>* i___System__IEquatable_1___UnityEngine__Gradient__() noexcept;
 
   /// [FreeFunction("Gradient_Bindings::SetAlphaKeysWithSpan", IsThreadSafe = true, HasExplicitThis = true)]
-  /// @brief Method set_alphaKeys, addr 0x6f62d04, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method set_alphaKeys, addr 0x6f63de4, size 0xf0, virtual false, abstract: false, final false
   inline void set_alphaKeys(::ArrayW<::UnityEngine::GradientAlphaKey> value);
 
-  /// @brief Method set_alphaKeys_Injected, addr 0x6f62df4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_alphaKeys_Injected, addr 0x6f63ed4, size 0x44, virtual false, abstract: false, final false
   static inline void set_alphaKeys_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> value);
 
   /// [FreeFunction("Gradient_Bindings::SetColorKeysWithSpan", IsThreadSafe = true, HasExplicitThis = true)]
-  /// @brief Method set_colorKeys, addr 0x6f62a40, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method set_colorKeys, addr 0x6f63b20, size 0xf0, virtual false, abstract: false, final false
   inline void set_colorKeys(::ArrayW<::UnityEngine::GradientColorKey> value);
 
-  /// @brief Method set_colorKeys_Injected, addr 0x6f62b30, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_colorKeys_Injected, addr 0x6f63c10, size 0x44, virtual false, abstract: false, final false
   static inline void set_colorKeys_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> value);
 
-  /// @brief Method set_colorSpace, addr 0x6f62fec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_colorSpace, addr 0x6f640cc, size 0x58, virtual false, abstract: false, final false
   inline void set_colorSpace(::UnityEngine::ColorSpace value);
 
-  /// @brief Method set_colorSpace_Injected, addr 0x6f63044, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_colorSpace_Injected, addr 0x6f64124, size 0x44, virtual false, abstract: false, final false
   static inline void set_colorSpace_Injected(::System::IntPtr _unity_self, ::UnityEngine::ColorSpace value);
 
-  /// @brief Method set_mode, addr 0x6f62ec4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_mode, addr 0x6f63fa4, size 0x58, virtual false, abstract: false, final false
   inline void set_mode(::UnityEngine::GradientMode value);
 
-  /// @brief Method set_mode_Injected, addr 0x6f62f1c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_mode_Injected, addr 0x6f63ffc, size 0x44, virtual false, abstract: false, final false
   static inline void set_mode_Injected(::System::IntPtr _unity_self, ::UnityEngine::GradientMode value);
 
 protected:

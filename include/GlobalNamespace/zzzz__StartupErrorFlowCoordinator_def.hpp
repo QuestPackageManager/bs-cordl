@@ -33,7 +33,7 @@ public:
   __declspec(property(get = __cordl_internal_get__startupErrorViewController, put = __cordl_internal_set__startupErrorViewController)) ::UnityW<::GlobalNamespace::StartupErrorViewController>
       _startupErrorViewController;
 
-  /// @brief Method DidActivate, addr 0x5e68b74, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5e68a8c, size 0x98, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::StartupErrorFlowCoordinator* New_ctor();
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set__startupErrorViewController(::UnityW<::GlobalNamespace::StartupErrorViewController> value);
 
-  /// @brief Method .ctor, addr 0x5e68c2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e68b44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -59,36 +59,36 @@ public:
     requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::DebugUI_Widget*>)
   inline T CastWidget();
 
-  /// @brief Method GetWidget, addr 0x6c75aac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetWidget, addr 0x6c76b8c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DebugUI_Widget* GetWidget();
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* New_ctor();
 
-  /// @brief Method Next, addr 0x6c6a47c, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method Next, addr 0x6c6b55c, size 0x108, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> Next();
 
-  /// @brief Method OnAction, addr 0x6c75ac0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnAction, addr 0x6c76ba0, size 0x4, virtual true, abstract: false, final false
   inline void OnAction();
 
-  /// @brief Method OnDecrement, addr 0x6c75ac8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDecrement, addr 0x6c76ba8, size 0x4, virtual true, abstract: false, final false
   inline void OnDecrement(bool fast);
 
-  /// @brief Method OnDeselection, addr 0x6c75abc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDeselection, addr 0x6c76b9c, size 0x4, virtual true, abstract: false, final false
   inline void OnDeselection();
 
-  /// @brief Method OnEnable, addr 0x6c75aa0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6c76b80, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnIncrement, addr 0x6c75ac4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnIncrement, addr 0x6c76ba4, size 0x4, virtual true, abstract: false, final false
   inline void OnIncrement(bool fast);
 
-  /// @brief Method OnSelection, addr 0x6c75ab4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnSelection, addr 0x6c76b94, size 0x8, virtual true, abstract: false, final false
   inline bool OnSelection(bool fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous);
 
-  /// @brief Method Previous, addr 0x6c75acc, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Previous, addr 0x6c76bac, size 0x7c, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> Previous();
 
-  /// @brief Method SetWidget, addr 0x6c75aa4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x6c76b84, size 0x8, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
   constexpr ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> const& __cordl_internal_get__nextUIHandler_k__BackingField() const;
@@ -127,31 +127,31 @@ public:
 
   constexpr void __cordl_internal_set_m_Widget(::UnityEngine::Rendering::DebugUI_Widget* value);
 
-  /// @brief Method .ctor, addr 0x6c6a638, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c6b718, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_nextUIHandler, addr 0x6c75a90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nextUIHandler, addr 0x6c76b70, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> get_nextUIHandler();
 
   /// [CompilerGenerated]
-  /// @brief Method get_parentUIHandler, addr 0x6c75a70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parentUIHandler, addr 0x6c76b50, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> get_parentUIHandler();
 
   /// [CompilerGenerated]
-  /// @brief Method get_previousUIHandler, addr 0x6c75a80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_previousUIHandler, addr 0x6c76b60, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> get_previousUIHandler();
 
   /// [CompilerGenerated]
-  /// @brief Method set_nextUIHandler, addr 0x6c75a98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_nextUIHandler, addr 0x6c76b78, size 0x8, virtual false, abstract: false, final false
   inline void set_nextUIHandler(::UnityEngine::Rendering::UI::DebugUIHandlerWidget* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_parentUIHandler, addr 0x6c75a78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parentUIHandler, addr 0x6c76b58, size 0x8, virtual false, abstract: false, final false
   inline void set_parentUIHandler(::UnityEngine::Rendering::UI::DebugUIHandlerWidget* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_previousUIHandler, addr 0x6c75a88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_previousUIHandler, addr 0x6c76b68, size 0x8, virtual false, abstract: false, final false
   inline void set_previousUIHandler(::UnityEngine::Rendering::UI::DebugUIHandlerWidget* value);
 
 protected:

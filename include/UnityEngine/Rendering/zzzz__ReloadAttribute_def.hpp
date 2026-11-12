@@ -99,13 +99,13 @@ public:
 
   static inline ::UnityEngine::Rendering::ReloadAttribute* New_ctor(::ArrayW<::StringW> paths, ::UnityEngine::Rendering::ReloadAttribute_Package package);
 
-  /// @brief Method .ctor, addr 0x6bad33c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bae41c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW path, ::UnityEngine::Rendering::ReloadAttribute_Package package);
 
-  /// @brief Method .ctor, addr 0x6bad3a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bae484, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW pathFormat, int32_t rangeMin, int32_t rangeMax, ::UnityEngine::Rendering::ReloadAttribute_Package package);
 
-  /// @brief Method .ctor, addr 0x6bad338, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bae418, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW> paths, ::UnityEngine::Rendering::ReloadAttribute_Package package);
 
 protected:

@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::Newtonsoft::Json::Schema::JsonSchemaGenerator_TypeSchema::*)()>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator_TypeSchema::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61bb48c;
+  constexpr static std::size_t addrs = 0x61bb714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Schema::JsonSchemaGenerator_TypeSchema*>(), { "get_Type", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Schema::JsonSchema* (::Newtonsoft::Json::Schema::JsonSchemaGenerator_TypeSchema::*)()>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator_TypeSchema::get_Schema)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61bb494;
+  constexpr static std::size_t addrs = 0x61bb71c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Schema::JsonSchemaGenerator_TypeSchema*>(), { "get_Schema", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaGenerator_TypeSchema::*)(::System::Type*, ::Newtonsoft::Json::Schema::JsonSchema*)>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator_TypeSchema::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x61bac7c;
+  constexpr static std::size_t addrs = 0x61baf04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaGenerator___c__DisplayClass23_0::*)()>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator___c__DisplayClass23_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x61babdc;
+  constexpr static std::size_t addrs = 0x61bae64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Schema::JsonSchemaGenerator___c__DisplayClass23_0::*)(::Newtonsoft::Json::Schema::JsonSchemaGenerator_TypeSchema*)>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator___c__DisplayClass23_0::_GenerateInternal_b__0)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x61bb49c;
+  constexpr static std::size_t addrs = 0x61bb724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Schema::UndefinedSchemaIdHandling (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)()>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator::get_UndefinedSchemaIdHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61b9820;
+  constexpr static std::size_t addrs = 0x61b9aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(::Newtonsoft::Json::Schema::UndefinedSchemaIdHandling)>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator::set_UndefinedSchemaIdHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61b9828;
+  constexpr static std::size_t addrs = 0x61b9ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Serialization::IContractResolver* (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)()>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator::get_ContractResolver)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x61b9830;
+  constexpr static std::size_t addrs = 0x61b9ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Schema::JsonSchemaGenerator*>(), { "get_ContractResolver", {}, {} })));
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(::Newtonsoft::Json::Serialization::IContractResolver*)>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator::set_ContractResolver)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61b98d0;
+  constexpr static std::size_t addrs = 0x61b9b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Schema::JsonSchema* (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)()>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator::get_CurrentSchema)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61b98d8;
+  constexpr static std::size_t addrs = 0x61b9b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Schema::JsonSchemaGenerator*>(), { "get_CurrentSchema", {}, {} })));
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(::Newtonsoft::Json::Schema::JsonSchemaGenerator_TypeSchema*)>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator::Push)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x61b98e0;
+  constexpr static std::size_t addrs = 0x61b9b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Schema::JsonSchemaGenerator*>(),
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Schema::JsonSchemaGenerator_TypeSchema* (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)()>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator::Pop)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x61b9a30;
+  constexpr static std::size_t addrs = 0x61b9cb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Schema::JsonSchemaGenerator*>(), { "Pop", {}, {} })));
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Schema::JsonSchema* (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(::System::Type*)>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator::Generate)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x61b9c5c;
+  constexpr static std::size_t addrs = 0x61b9ee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Schema::JsonSchema* (
     ::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(::System::Type*, ::Newtonsoft::Json::Schema::JsonSchemaResolver*)>(&::Newtonsoft::Json::Schema::JsonSchemaGenerator::Generate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61b9d80;
+  constexpr static std::size_t addrs = 0x61ba008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -290,7 +290,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Schema::JsonSchema* (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(::System::Type*, bool)>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator::Generate)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x61b9d88;
+  constexpr static std::size_t addrs = 0x61ba010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -305,7 +305,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Schema::JsonSchema* (
     ::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(::System::Type*, ::Newtonsoft::Json::Schema::JsonSchemaResolver*, bool)>(&::Newtonsoft::Json::Schema::JsonSchemaGenerator::Generate)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x61b9ccc;
+  constexpr static std::size_t addrs = 0x61b9f54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -319,7 +319,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(::System::Type*)>(&::Newtonsoft::Json::Schema::JsonSchemaGenerator::GetTitle)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x61ba950;
+  constexpr static std::size_t addrs = 0x61babd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(::System::Type*)>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator::GetDescription)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x61ba9e0;
+  constexpr static std::size_t addrs = 0x61bac68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -347,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(::System::Type*, bool)>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator::GetTypeId)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x61baad0;
+  constexpr static std::size_t addrs = 0x61bad58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -362,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Schema::JsonSchema* (
     ::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(::System::Type*, ::Newtonsoft::Json::Required, bool)>(&::Newtonsoft::Json::Schema::JsonSchemaGenerator::GenerateInternal)> {
   constexpr static std::size_t size = 0xb54;
-  constexpr static std::size_t addrs = 0x61b9dfc;
+  constexpr static std::size_t addrs = 0x61ba084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -377,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Schema::JsonSchemaType (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(
     ::Newtonsoft::Json::Schema::JsonSchemaType, ::Newtonsoft::Json::Required)>(&::Newtonsoft::Json::Schema::JsonSchemaGenerator::AddNullType)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x61bad0c;
+  constexpr static std::size_t addrs = 0x61baf94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -392,7 +392,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(::Newtonsoft::Json::DefaultValueHandling, ::Newtonsoft::Json::DefaultValueHandling)>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator::HasFlag)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x61bb40c;
+  constexpr static std::size_t addrs = 0x61bb694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -407,7 +407,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(::System::Type*, ::Newtonsoft::Json::Serialization::JsonObjectContract*)>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator::GenerateObjectSchema)> {
   constexpr static std::size_t size = 0x50c;
-  constexpr static std::size_t addrs = 0x61bad1c;
+  constexpr static std::size_t addrs = 0x61bafa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -422,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(::System::Type*, ::Newtonsoft::Json::Serialization::JsonISerializableContract*)>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator::GenerateISerializableContract)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x61bb3f0;
+  constexpr static std::size_t addrs = 0x61bb678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -438,7 +438,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Nullable_1<::Newtonsoft::Json::Schema::JsonSchemaType>, ::Newtonsoft::Json::Schema::JsonSchemaType)>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator::HasFlag)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x61babe0;
+  constexpr static std::size_t addrs = 0x61bae68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -454,7 +454,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Schema::JsonSchemaType (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)(::System::Type*, ::Newtonsoft::Json::Required)>(
     &::Newtonsoft::Json::Schema::JsonSchemaGenerator::GetJsonSchemaType)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x61bb228;
+  constexpr static std::size_t addrs = 0x61bb4b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -468,7 +468,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaGenerator::*)()>(&::Newtonsoft::Json::Schema::JsonSchemaGenerator::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x61bb418;
+  constexpr static std::size_t addrs = 0x61bb6a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Schema::JsonSchemaGenerator*>(), { ".ctor", {}, {} })));

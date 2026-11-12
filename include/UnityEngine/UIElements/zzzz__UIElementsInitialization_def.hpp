@@ -247,214 +247,214 @@ public:
 
   static inline ::UnityEngine::UIElements::UIElementsInitialization___c* New_ctor();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_0, addr 0x7177024, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_0, addr 0x7178104, size 0x58, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_0();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_1, addr 0x717707c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_1, addr 0x717815c, size 0x58, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_1();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_10, addr 0x7177454, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_10, addr 0x7178534, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_10();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_11, addr 0x71774c4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_11, addr 0x71785a4, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_11();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_12, addr 0x7177534, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_12, addr 0x7178614, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_12();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_13, addr 0x71775a4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_13, addr 0x7178684, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_13();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_14, addr 0x7177614, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_14, addr 0x71786f4, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_14();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_15, addr 0x7177684, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_15, addr 0x7178764, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_15();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_16, addr 0x71776f4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_16, addr 0x71787d4, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_16();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_17, addr 0x7177764, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_17, addr 0x7178844, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_17();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_18, addr 0x71777d4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_18, addr 0x71788b4, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_18();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_19, addr 0x7177844, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_19, addr 0x7178924, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_19();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_2, addr 0x71770d4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_2, addr 0x71781b4, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_2();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_20, addr 0x71778b4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_20, addr 0x7178994, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_20();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_21, addr 0x7177924, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_21, addr 0x7178a04, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_21();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_22, addr 0x7177994, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_22, addr 0x7178a74, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_22();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_23, addr 0x7177a04, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_23, addr 0x7178ae4, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_23();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_24, addr 0x7177a74, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_24, addr 0x7178b54, size 0x58, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_24();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_25, addr 0x7177acc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_25, addr 0x7178bac, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_25();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_26, addr 0x7177b3c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_26, addr 0x7178c1c, size 0x58, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_26();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_27, addr 0x7177b94, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_27, addr 0x7178c74, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_27();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_28, addr 0x7177c04, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_28, addr 0x7178ce4, size 0x58, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_28();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_29, addr 0x7177c5c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_29, addr 0x7178d3c, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_29();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_3, addr 0x7177144, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_3, addr 0x7178224, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_3();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_30, addr 0x7177ccc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_30, addr 0x7178dac, size 0x58, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_30();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_31, addr 0x7177d24, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_31, addr 0x7178e04, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_31();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_32, addr 0x7177d94, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_32, addr 0x7178e74, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_32();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_33, addr 0x7177e04, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_33, addr 0x7178ee4, size 0x58, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_33();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_34, addr 0x7177e5c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_34, addr 0x7178f3c, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_34();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_35, addr 0x7177ecc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_35, addr 0x7178fac, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_35();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_36, addr 0x7177f3c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_36, addr 0x717901c, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_36();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_37, addr 0x7177fac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_37, addr 0x717908c, size 0x58, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_37();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_38, addr 0x7178004, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_38, addr 0x71790e4, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_38();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_39, addr 0x7178074, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_39, addr 0x7179154, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_39();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_4, addr 0x71771b4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_4, addr 0x7178294, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_4();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_40, addr 0x71780e4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_40, addr 0x71791c4, size 0x58, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_40();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_41, addr 0x717813c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_41, addr 0x717921c, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_41();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_42, addr 0x71781ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_42, addr 0x717928c, size 0x58, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_42();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_43, addr 0x7178204, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_43, addr 0x71792e4, size 0x7c, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_43();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_44, addr 0x7178280, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_44, addr 0x7179360, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_44();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_45, addr 0x71782f0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_45, addr 0x71793d0, size 0x58, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_45();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_46, addr 0x7178348, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_46, addr 0x7179428, size 0x7c, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_46();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_47, addr 0x71783c4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_47, addr 0x71794a4, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_47();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_48, addr 0x7178434, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_48, addr 0x7179514, size 0x58, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_48();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_49, addr 0x717848c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_49, addr 0x717956c, size 0x7c, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_49();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_5, addr 0x7177224, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_5, addr 0x7178304, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_5();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_50, addr 0x7178508, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_50, addr 0x71795e8, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_50();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_51, addr 0x7178578, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_51, addr 0x7179658, size 0x58, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_51();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_52, addr 0x71785d0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_52, addr 0x71796b0, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_52();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_53, addr 0x7178640, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_53, addr 0x7179720, size 0x58, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_53();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_54, addr 0x7178698, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_54, addr 0x7179778, size 0x58, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_54();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_55, addr 0x71786f0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_55, addr 0x71797d0, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_55();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_56, addr 0x7178760, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_56, addr 0x7179840, size 0x58, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_56();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_57, addr 0x71787b8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_57, addr 0x7179898, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_57();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_58, addr 0x7178828, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_58, addr 0x7179908, size 0x58, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_58();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_59, addr 0x7178880, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_59, addr 0x7179960, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_59();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_6, addr 0x7177294, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_6, addr 0x7178374, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_6();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_60, addr 0x71788f0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_60, addr 0x71799d0, size 0x58, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_60();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_61, addr 0x7178948, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_61, addr 0x7179a28, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_61();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_62, addr 0x71789b8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_62, addr 0x7179a98, size 0x54, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_62();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_63, addr 0x7178a0c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_63, addr 0x7179aec, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_63();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_64, addr 0x7178a7c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_64, addr 0x7179b5c, size 0x54, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_64();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_65, addr 0x7178ad0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_65, addr 0x7179bb0, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_65();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_66, addr 0x7178b40, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_66, addr 0x7179c20, size 0x7c, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_66();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_67, addr 0x7178bbc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_67, addr 0x7179c9c, size 0x58, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_67();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_68, addr 0x7178c14, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_68, addr 0x7179cf4, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_68();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_7, addr 0x7177304, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_7, addr 0x71783e4, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_7();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_8, addr 0x7177374, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_8, addr 0x7178454, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_8();
 
-  /// @brief Method <RegisterBuiltInPropertyBags>b__2_9, addr 0x71773e4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBuiltInPropertyBags>b__2_9, addr 0x71784c4, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* _RegisterBuiltInPropertyBags_b__2_9();
 
-  /// @brief Method .ctor, addr 0x7177020, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7178100, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIElementsInitialization___c* getStaticF___9();
@@ -774,13 +774,13 @@ public:
                       put = setStaticF_s_InitializeUIElementsManagedMarker)) ::Unity::Profiling::ProfilerMarker s_InitializeUIElementsManagedMarker;
 
   /// [RequiredByNativeCode(true)]
-  /// @brief Method InitializeUIElementsManaged, addr 0x717320c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method InitializeUIElementsManaged, addr 0x71742ec, size 0x58, virtual false, abstract: false, final false
   static inline void InitializeUIElementsManaged();
 
-  /// @brief Method RegisterBuiltInPropertyBags, addr 0x7173264, size 0x3cdc, virtual false, abstract: false, final false
+  /// @brief Method RegisterBuiltInPropertyBags, addr 0x7174344, size 0x3cdc, virtual false, abstract: false, final false
   static inline void RegisterBuiltInPropertyBags();
 
-  /// @brief Method RegisterConverters, addr 0x7176f40, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method RegisterConverters, addr 0x7178020, size 0x10, virtual false, abstract: false, final false
   static inline void RegisterConverters();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_InitializeUIElementsManagedMarker();

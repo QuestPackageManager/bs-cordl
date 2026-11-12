@@ -15,6 +15,9 @@ class NetDataReader;
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
+namespace System {
+template <typename T> class IEquatable_1;
+}
 namespace UnityEngine {
 struct Color;
 }
@@ -35,18 +38,27 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*();
 
-  /// @brief Method Deserialize, addr 0x3550ecc, size 0x80, virtual true, abstract: false, final true
+  /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::ColorSchemeNetSerializable>"
+  constexpr operator ::System::IEquatable_1<::GlobalNamespace::ColorSchemeNetSerializable>*();
+
+  /// @brief Method Deserialize, addr 0x3553e80, size 0x80, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Serialize, addr 0x3550e4c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3553f00, size 0xc8, virtual true, abstract: false, final true
+  inline bool Equals(::GlobalNamespace::ColorSchemeNetSerializable other);
+
+  /// @brief Method Serialize, addr 0x3553e00, size 0x80, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method .ctor, addr 0x3550e10, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3553dc4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0,
                     ::UnityEngine::Color environmentColor1, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost);
 
   /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
   constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable();
+
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::ColorSchemeNetSerializable>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::ColorSchemeNetSerializable>* i___System__IEquatable_1___GlobalNamespace__ColorSchemeNetSerializable_();
 
   // Ctor Parameters []
   // @brief default ctor
@@ -64,7 +76,7 @@ public:
                                        ::GlobalNamespace::ColorNoAlphaSerializable environmentColor1Boost) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19436 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19444 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };

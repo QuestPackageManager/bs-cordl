@@ -26,7 +26,7 @@ namespace System::IO {
 class CORDL_TYPE DirectoryInfo : public ::System::IO::FileSystemInfo {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x605bee4, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x605c16c, size 0x27c, virtual false, abstract: false, final false
   inline void Init(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized);
 
   static inline ::System::IO::DirectoryInfo* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
@@ -35,13 +35,13 @@ public:
 
   static inline ::System::IO::DirectoryInfo* New_ctor(::StringW path);
 
-  /// @brief Method .ctor, addr 0x605c160, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x605c3e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x605b764, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x605b9ec, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized);
 
-  /// @brief Method .ctor, addr 0x604a588, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x604a810, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW path);
 
 protected:

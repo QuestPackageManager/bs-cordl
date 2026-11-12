@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::WeakHashtable_WeakKeyComparer::*)(::System::Object*, ::System::Object*)>(
     &::System::ComponentModel::WeakHashtable_WeakKeyComparer::System_Collections_IEqualityComparer_Equals)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x684ffc0;
+  constexpr static std::size_t addrs = 0x6850610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::WeakHashtable_WeakKeyComparer::*)(::System::Object*)>(
     &::System::ComponentModel::WeakHashtable_WeakKeyComparer::System_Collections_IEqualityComparer_GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6850120;
+  constexpr static std::size_t addrs = 0x6850770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::WeakHashtable_WeakKeyComparer*>(),
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::WeakHashtable_WeakKeyComparer::*)()>(&::System::ComponentModel::WeakHashtable_WeakKeyComparer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x684ffbc;
+  constexpr static std::size_t addrs = 0x685060c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::WeakHashtable_WeakKeyComparer*>(), { ".ctor", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::WeakHashtable::*)()>(&::System::ComponentModel::WeakHashtable::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x684fecc;
+  constexpr static std::size_t addrs = 0x685051c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::WeakHashtable*>(), { ".ctor", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::WeakHashtable::*)()>(&::System::ComponentModel::WeakHashtable::Clear)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x684ff40;
+  constexpr static std::size_t addrs = 0x6850590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::WeakHashtable::*)(::System::Object*)>(&::System::ComponentModel::WeakHashtable::Remove)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x684ff48;
+  constexpr static std::size_t addrs = 0x6850598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

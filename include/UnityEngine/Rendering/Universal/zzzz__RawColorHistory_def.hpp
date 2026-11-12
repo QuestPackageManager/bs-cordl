@@ -45,33 +45,33 @@ public:
   /// @brief Field m_Names, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_m_Names, put = setStaticF_m_Names)) ::ArrayW<::StringW> m_Names;
 
-  /// @brief Method Alloc, addr 0x6cf3f24, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method Alloc, addr 0x6cf5004, size 0x15c, virtual false, abstract: false, final false
   inline void Alloc(::by_ref<::UnityEngine::RenderTextureDescriptor> desc, bool xrMultipassEnabled);
 
-  /// @brief Method GetCurrentTexture, addr 0x6cf3e04, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentTexture, addr 0x6cf4ee4, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* GetCurrentTexture(int32_t eyeIndex);
 
-  /// @brief Method GetHistoryDescriptor, addr 0x6cf40e4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetHistoryDescriptor, addr 0x6cf51c4, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::RenderTextureDescriptor GetHistoryDescriptor(::by_ref<::UnityEngine::RenderTextureDescriptor> cameraDesc);
 
-  /// @brief Method GetPreviousTexture, addr 0x6cf3e50, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetPreviousTexture, addr 0x6cf4f30, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* GetPreviousTexture(int32_t eyeIndex);
 
-  /// @brief Method IsAllocated, addr 0x6cf3e9c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsAllocated, addr 0x6cf4f7c, size 0x1c, virtual false, abstract: false, final false
   inline bool IsAllocated();
 
-  /// @brief Method IsDirty, addr 0x6cf3eb8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsDirty, addr 0x6cf4f98, size 0x6c, virtual false, abstract: false, final false
   inline bool IsDirty(::by_ref<::UnityEngine::RenderTextureDescriptor> desc);
 
   static inline ::UnityEngine::Rendering::Universal::RawColorHistory* New_ctor();
 
-  /// @brief Method OnCreate, addr 0x6cf3db8, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method OnCreate, addr 0x6cf4e98, size 0x4c, virtual true, abstract: false, final false
   inline void OnCreate(::UnityEngine::Rendering::BufferedRTHandleSystem* owner, uint32_t typeId);
 
-  /// @brief Method Reset, addr 0x6cf4080, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x6cf5160, size 0x64, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x6cf411c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6cf51fc, size 0xc8, virtual false, abstract: false, final false
   inline bool Update(::by_ref<::UnityEngine::RenderTextureDescriptor> cameraDesc, bool xrMultipassEnabled);
 
   constexpr ::UnityEngine::Hash128 const& __cordl_internal_get_m_DescKey() const;
@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Ids(::ArrayW<int32_t> value);
 
-  /// @brief Method .ctor, addr 0x6cf41e4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cf52c4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::StringW> getStaticF_m_Names();

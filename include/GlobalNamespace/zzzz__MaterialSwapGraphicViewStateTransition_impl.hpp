@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::BaseTransitionSO> (::GlobalNamespace::MaterialSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::MaterialSwapGraphicViewStateTransition::get_transition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68a9c20;
+  constexpr static std::size_t addrs = 0x68aa274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(),
@@ -25,12 +25,12 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialSwapGraphicViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::MaterialSwapGraphicViewStateTransition::TransitionToNormalState)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68a9c28;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x68aa27c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 5 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 6 }));
     return ___internal_method;
   }
 };
@@ -40,11 +40,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialSwapGraphicViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::MaterialSwapGraphicViewStateTransition::TransitionToHighlightedState)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68a9c34;
+  constexpr static std::size_t addrs = 0x68aa28c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 6 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 7 }));
     return ___internal_method;
   }
 };
@@ -54,11 +54,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialSwapGraphicViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::MaterialSwapGraphicViewStateTransition::TransitionToPressedState)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68a9c44;
+  constexpr static std::size_t addrs = 0x68aa29c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 7 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 8 }));
     return ___internal_method;
   }
 };
@@ -68,11 +68,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialSwapGraphicViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::MaterialSwapGraphicViewStateTransition::TransitionToDisabledState)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68a9c54;
+  constexpr static std::size_t addrs = 0x68aa2ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 8 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 9 }));
     return ___internal_method;
   }
 };
@@ -82,11 +82,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialSwapGraphicViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::MaterialSwapGraphicViewStateTransition::TransitionToSelectedState)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68a9c64;
+  constexpr static std::size_t addrs = 0x68aa2bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 9 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 10 }));
     return ___internal_method;
   }
 };
@@ -96,11 +96,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialSwapGraphicViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::MaterialSwapGraphicViewStateTransition::TransitionToSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68a9c74;
+  constexpr static std::size_t addrs = 0x68aa2cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 10 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 11 }));
     return ___internal_method;
   }
 };
@@ -110,11 +110,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::MaterialSwapGraphicViewStateTransition::SetNormalState)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x68a9c84;
+  constexpr static std::size_t addrs = 0x68aa2dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 12 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 13 }));
     return ___internal_method;
   }
 };
@@ -124,11 +124,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::MaterialSwapGraphicViewStateTransition::SetHighlightedState)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x68a9cb4;
+  constexpr static std::size_t addrs = 0x68aa30c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 13 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 14 }));
     return ___internal_method;
   }
 };
@@ -138,11 +138,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::MaterialSwapGraphicViewStateTransition::SetPressedState)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x68a9ce4;
+  constexpr static std::size_t addrs = 0x68aa33c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 14 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 15 }));
     return ___internal_method;
   }
 };
@@ -152,11 +152,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::MaterialSwapGraphicViewStateTransition::SetDisabledState)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x68a9d14;
+  constexpr static std::size_t addrs = 0x68aa36c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 15 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 16 }));
     return ___internal_method;
   }
 };
@@ -166,11 +166,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::MaterialSwapGraphicViewStateTransition::SetSelectedState)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x68a9d44;
+  constexpr static std::size_t addrs = 0x68aa39c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 16 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 17 }));
     return ___internal_method;
   }
 };
@@ -180,11 +180,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::MaterialSwapGraphicViewStateTransition::SetSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x68a9d74;
+  constexpr static std::size_t addrs = 0x68aa3cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 17 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 18 }));
     return ___internal_method;
   }
 };
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialSwapGraphicViewStateTransition::*)()>(&::GlobalNamespace::MaterialSwapGraphicViewStateTransition::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x68a9da4;
+  constexpr static std::size_t addrs = 0x68aa3fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), { ".ctor", {}, {} })));
@@ -219,62 +219,62 @@ inline ::UnityW<::GlobalNamespace::BaseTransitionSO> GlobalNamespace::MaterialSw
 }
 inline void GlobalNamespace::MaterialSwapGraphicViewStateTransition::TransitionToNormalState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 5 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
 inline void GlobalNamespace::MaterialSwapGraphicViewStateTransition::TransitionToHighlightedState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 6 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
 inline void GlobalNamespace::MaterialSwapGraphicViewStateTransition::TransitionToPressedState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 7 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
 inline void GlobalNamespace::MaterialSwapGraphicViewStateTransition::TransitionToDisabledState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 8 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
 inline void GlobalNamespace::MaterialSwapGraphicViewStateTransition::TransitionToSelectedState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 9 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 10 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
 inline void GlobalNamespace::MaterialSwapGraphicViewStateTransition::TransitionToSelectedAndHighlightedState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 10 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 11 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
 inline void GlobalNamespace::MaterialSwapGraphicViewStateTransition::SetNormalState() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 12 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::MaterialSwapGraphicViewStateTransition::SetHighlightedState() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 13 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::MaterialSwapGraphicViewStateTransition::SetPressedState() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 14 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 15 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::MaterialSwapGraphicViewStateTransition::SetDisabledState() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 15 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 16 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::MaterialSwapGraphicViewStateTransition::SetSelectedState() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 16 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 17 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::MaterialSwapGraphicViewStateTransition::SetSelectedAndHighlightedState() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 17 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MaterialSwapGraphicViewStateTransition*>(), 18 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::MaterialSwapGraphicViewStateTransition::_ctor() {

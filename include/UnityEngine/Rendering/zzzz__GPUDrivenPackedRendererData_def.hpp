@@ -46,31 +46,31 @@ public:
 
   __declspec(property(get = get_staticShadowCaster)) bool staticShadowCaster;
 
-  /// @brief Method .ctor, addr 0x6fc71f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fc82d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasTree, addr 0x6fc71d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_hasTree, addr 0x6fc82b8, size 0xc, virtual false, abstract: false, final false
   inline bool get_hasTree();
 
-  /// @brief Method get_isPartOfStaticBatch, addr 0x6fc71cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isPartOfStaticBatch, addr 0x6fc82ac, size 0xc, virtual false, abstract: false, final false
   inline bool get_isPartOfStaticBatch();
 
-  /// @brief Method get_lightProbeUsage, addr 0x6fc71b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_lightProbeUsage, addr 0x6fc8294, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::LightProbeUsage get_lightProbeUsage();
 
-  /// @brief Method get_lodMask, addr 0x6fc719c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_lodMask, addr 0x6fc827c, size 0xc, virtual false, abstract: false, final false
   inline uint8_t get_lodMask();
 
-  /// @brief Method get_motionVecGenMode, addr 0x6fc71c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_motionVecGenMode, addr 0x6fc82a0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::MotionVectorGenerationMode get_motionVecGenMode();
 
-  /// @brief Method get_shadowCastingMode, addr 0x6fc71a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_shadowCastingMode, addr 0x6fc8288, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ShadowCastingMode get_shadowCastingMode();
 
-  /// @brief Method get_smallMeshCulling, addr 0x6fc71e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_smallMeshCulling, addr 0x6fc82c4, size 0xc, virtual false, abstract: false, final false
   inline bool get_smallMeshCulling();
 
-  /// @brief Method get_staticShadowCaster, addr 0x6fc7190, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_staticShadowCaster, addr 0x6fc8270, size 0xc, virtual false, abstract: false, final false
   inline bool get_staticShadowCaster();
 
   // Ctor Parameters []

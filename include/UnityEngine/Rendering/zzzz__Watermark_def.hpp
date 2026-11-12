@@ -21,7 +21,7 @@ class CORDL_TYPE Watermark : public ::System::Object {
 public:
   // Declarations
   /// [FreeFunction("IsAnyWatermarkVisible")]
-  /// @brief Method IsVisible, addr 0x6fb7ce4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsVisible, addr 0x6fb8dc4, size 0x28, virtual false, abstract: false, final false
   static inline bool IsVisible();
 
 protected:

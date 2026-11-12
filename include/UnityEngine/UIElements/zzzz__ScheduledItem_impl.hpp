@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ScheduledItem___c::*)()>(&::UnityEngine::UIElements::ScheduledItem___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x72b5ea0;
+  constexpr static std::size_t addrs = 0x72b6f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ScheduledItem___c*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ScheduledItem___c::*)()>(&::UnityEngine::UIElements::ScheduledItem___c::__cctor_b__26_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b5ea4;
+  constexpr static std::size_t addrs = 0x72b6f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ScheduledItem___c*>(), { "<.cctor>b__26_0", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ScheduledItem___c::*)()>(&::UnityEngine::UIElements::ScheduledItem___c::__cctor_b__26_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b5eac;
+  constexpr static std::size_t addrs = 0x72b6f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ScheduledItem___c*>(), { "<.cctor>b__26_1", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::UIElements::ScheduledItem::*)()>(&::UnityEngine::UIElements::ScheduledItem::get_startMs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b5c54;
+  constexpr static std::size_t addrs = 0x72b6d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ScheduledItem*>(), { "get_startMs", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ScheduledItem::*)(int64_t)>(&::UnityEngine::UIElements::ScheduledItem::set_startMs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b5c5c;
+  constexpr static std::size_t addrs = 0x72b6d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::UIElements::ScheduledItem::*)()>(&::UnityEngine::UIElements::ScheduledItem::get_delayMs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b5c64;
+  constexpr static std::size_t addrs = 0x72b6d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ScheduledItem*>(), { "get_delayMs", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ScheduledItem::*)(int64_t)>(&::UnityEngine::UIElements::ScheduledItem::set_delayMs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b5c6c;
+  constexpr static std::size_t addrs = 0x72b6d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::UIElements::ScheduledItem::*)()>(&::UnityEngine::UIElements::ScheduledItem::get_intervalMs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b5c74;
+  constexpr static std::size_t addrs = 0x72b6d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ScheduledItem*>(), { "get_intervalMs", {}, {} })));
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ScheduledItem::*)(int64_t)>(&::UnityEngine::UIElements::ScheduledItem::set_intervalMs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b5c7c;
+  constexpr static std::size_t addrs = 0x72b6d5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::UIElements::ScheduledItem::*)()>(&::UnityEngine::UIElements::ScheduledItem::get_endTimeMs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b5c84;
+  constexpr static std::size_t addrs = 0x72b6d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ScheduledItem*>(), { "get_endTimeMs", {}, {} })));
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ScheduledItem::*)(int64_t)>(&::UnityEngine::UIElements::ScheduledItem::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x72b5c8c;
+  constexpr static std::size_t addrs = 0x72b6d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ScheduledItem::*)(int64_t)>(&::UnityEngine::UIElements::ScheduledItem::ResetStartTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b5d00;
+  constexpr static std::size_t addrs = 0x72b6de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ScheduledItem::*)()>(&::UnityEngine::UIElements::ScheduledItem::OnItemUnscheduled)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x72b5d08;
+  constexpr static std::size_t addrs = 0x72b6de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ScheduledItem::*)()>(&::UnityEngine::UIElements::ScheduledItem::ShouldUnschedule)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x72b5d0c;
+  constexpr static std::size_t addrs = 0x72b6dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

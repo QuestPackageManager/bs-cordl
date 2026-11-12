@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Utilities::FilterStream::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Asn1::Utilities::FilterStream::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3801d28;
+  constexpr static std::size_t addrs = 0x38061c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Asn1::Utilities::FilterStream::*)()>(&::Org::BouncyCastle::Asn1::Utilities::FilterStream::get_CanRead)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3801d8c;
+  constexpr static std::size_t addrs = 0x3806224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Asn1::Utilities::FilterStream::*)()>(&::Org::BouncyCastle::Asn1::Utilities::FilterStream::get_CanSeek)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3801da8;
+  constexpr static std::size_t addrs = 0x3806240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Asn1::Utilities::FilterStream::*)()>(&::Org::BouncyCastle::Asn1::Utilities::FilterStream::get_CanWrite)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3801dc4;
+  constexpr static std::size_t addrs = 0x380625c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Org::BouncyCastle::Asn1::Utilities::FilterStream::*)()>(&::Org::BouncyCastle::Asn1::Utilities::FilterStream::get_Length)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3801de0;
+  constexpr static std::size_t addrs = 0x3806278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Org::BouncyCastle::Asn1::Utilities::FilterStream::*)()>(&::Org::BouncyCastle::Asn1::Utilities::FilterStream::get_Position)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3801dfc;
+  constexpr static std::size_t addrs = 0x3806294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Utilities::FilterStream::*)(int64_t)>(&::Org::BouncyCastle::Asn1::Utilities::FilterStream::set_Position)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3801e1c;
+  constexpr static std::size_t addrs = 0x38062b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Utilities::FilterStream::*)()>(&::Org::BouncyCastle::Asn1::Utilities::FilterStream::Close)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3801e3c;
+  constexpr static std::size_t addrs = 0x38062d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Utilities::FilterStream::*)()>(&::Org::BouncyCastle::Asn1::Utilities::FilterStream::Flush)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3801eb8;
+  constexpr static std::size_t addrs = 0x3806350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Org::BouncyCastle::Asn1::Utilities::FilterStream::*)(int64_t, ::System::IO::SeekOrigin)>(
     &::Org::BouncyCastle::Asn1::Utilities::FilterStream::Seek)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3801ed8;
+  constexpr static std::size_t addrs = 0x3806370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Utilities::FilterStream::*)(int64_t)>(&::Org::BouncyCastle::Asn1::Utilities::FilterStream::SetLength)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3801ef8;
+  constexpr static std::size_t addrs = 0x3806390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::Utilities::FilterStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Asn1::Utilities::FilterStream::Read)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3801f18;
+  constexpr static std::size_t addrs = 0x38063b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::Utilities::FilterStream::*)()>(&::Org::BouncyCastle::Asn1::Utilities::FilterStream::ReadByte)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3801f38;
+  constexpr static std::size_t addrs = 0x38063d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Utilities::FilterStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Asn1::Utilities::FilterStream::Write)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3801f58;
+  constexpr static std::size_t addrs = 0x38063f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Utilities::FilterStream::*)(uint8_t)>(&::Org::BouncyCastle::Asn1::Utilities::FilterStream::WriteByte)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3801f78;
+  constexpr static std::size_t addrs = 0x3806410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

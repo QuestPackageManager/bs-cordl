@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::HableCurve_Segment::*)(float_t)>(&::UnityEngine::Rendering::HableCurve_Segment::Eval)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6c1fc60;
+  constexpr static std::size_t addrs = 0x6c20d40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HableCurve_Segment::*)()>(&::UnityEngine::Rendering::HableCurve_Segment::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c1fba4;
+  constexpr static std::size_t addrs = 0x6c20c84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HableCurve_Segment*>(), { ".ctor", {}, {} })));
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HableCurve_Uniforms::*)(::UnityEngine::Rendering::HableCurve*)>(
     &::UnityEngine::Rendering::HableCurve_Uniforms::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c1fba8;
+  constexpr static std::size_t addrs = 0x6c20c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::HableCurve_Uniforms::*)()>(&::UnityEngine::Rendering::HableCurve_Uniforms::get_curve)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c20170;
+  constexpr static std::size_t addrs = 0x6c21250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HableCurve_Uniforms*>(), { "get_curve", {}, {} })));
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::HableCurve_Uniforms::*)()>(&::UnityEngine::Rendering::HableCurve_Uniforms::get_toeSegmentA)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6c20190;
+  constexpr static std::size_t addrs = 0x6c21270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HableCurve_Uniforms*>(), { "get_toeSegmentA", {}, {} })));
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::HableCurve_Uniforms::*)()>(&::UnityEngine::Rendering::HableCurve_Uniforms::get_toeSegmentB)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6c201cc;
+  constexpr static std::size_t addrs = 0x6c212ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HableCurve_Uniforms*>(), { "get_toeSegmentB", {}, {} })));
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::HableCurve_Uniforms::*)()>(&::UnityEngine::Rendering::HableCurve_Uniforms::get_midSegmentA)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6c2020c;
+  constexpr static std::size_t addrs = 0x6c212ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HableCurve_Uniforms*>(), { "get_midSegmentA", {}, {} })));
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::HableCurve_Uniforms::*)()>(&::UnityEngine::Rendering::HableCurve_Uniforms::get_midSegmentB)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c2024c;
+  constexpr static std::size_t addrs = 0x6c2132c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HableCurve_Uniforms*>(), { "get_midSegmentB", {}, {} })));
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::HableCurve_Uniforms::*)()>(&::UnityEngine::Rendering::HableCurve_Uniforms::get_shoSegmentA)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6c20290;
+  constexpr static std::size_t addrs = 0x6c21370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HableCurve_Uniforms*>(), { "get_shoSegmentA", {}, {} })));
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::HableCurve_Uniforms::*)()>(&::UnityEngine::Rendering::HableCurve_Uniforms::get_shoSegmentB)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c202d0;
+  constexpr static std::size_t addrs = 0x6c213b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HableCurve_Uniforms*>(), { "get_shoSegmentB", {}, {} })));
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::HableCurve::*)()>(&::UnityEngine::Rendering::HableCurve::get_whitePoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c1fa50;
+  constexpr static std::size_t addrs = 0x6c20b30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HableCurve*>(), { "get_whitePoint", {}, {} })));
@@ -297,7 +297,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HableCurve::*)(float_t)>(&::UnityEngine::Rendering::HableCurve::set_whitePoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c1fa58;
+  constexpr static std::size_t addrs = 0x6c20b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -310,7 +310,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::HableCurve::*)()>(&::UnityEngine::Rendering::HableCurve::get_inverseWhitePoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c1fa60;
+  constexpr static std::size_t addrs = 0x6c20b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HableCurve*>(), { "get_inverseWhitePoint", {}, {} })));
@@ -322,7 +322,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HableCurve::*)(float_t)>(&::UnityEngine::Rendering::HableCurve::set_inverseWhitePoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c1fa68;
+  constexpr static std::size_t addrs = 0x6c20b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -335,7 +335,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::HableCurve::*)()>(&::UnityEngine::Rendering::HableCurve::get_x0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c1fa70;
+  constexpr static std::size_t addrs = 0x6c20b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HableCurve*>(), { "get_x0", {}, {} })));
@@ -347,7 +347,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HableCurve::*)(float_t)>(&::UnityEngine::Rendering::HableCurve::set_x0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c1fa78;
+  constexpr static std::size_t addrs = 0x6c20b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HableCurve*>(), { "set_x0", {}, { ::i2c::type_of<float_t>() } })));
@@ -359,7 +359,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::HableCurve::*)()>(&::UnityEngine::Rendering::HableCurve::get_x1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c1fa80;
+  constexpr static std::size_t addrs = 0x6c20b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HableCurve*>(), { "get_x1", {}, {} })));
@@ -371,7 +371,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HableCurve::*)(float_t)>(&::UnityEngine::Rendering::HableCurve::set_x1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c1fa88;
+  constexpr static std::size_t addrs = 0x6c20b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HableCurve*>(), { "set_x1", {}, { ::i2c::type_of<float_t>() } })));
@@ -383,7 +383,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HableCurve::*)()>(&::UnityEngine::Rendering::HableCurve::_ctor)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6c1fa90;
+  constexpr static std::size_t addrs = 0x6c20b70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HableCurve*>(), { ".ctor", {}, {} })));
@@ -395,7 +395,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::HableCurve::*)(float_t)>(&::UnityEngine::Rendering::HableCurve::Eval)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c1fbb0;
+  constexpr static std::size_t addrs = 0x6c20c90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HableCurve*>(), { "Eval", {}, { ::i2c::type_of<float_t>() } })));
@@ -408,7 +408,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HableCurve::*)(float_t, float_t, float_t, float_t, float_t, float_t)>(
     &::UnityEngine::Rendering::HableCurve::Init)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6c1fcc0;
+  constexpr static std::size_t addrs = 0x6c20da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -425,7 +425,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HableCurve::*)(::UnityEngine::Rendering::HableCurve_DirectParams)>(
     &::UnityEngine::Rendering::HableCurve::InitSegments)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x6c1fdfc;
+  constexpr static std::size_t addrs = 0x6c20edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -440,7 +440,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HableCurve::*)(::by_ref<float_t>, ::by_ref<float_t>, float_t, float_t, float_t)>(
     &::UnityEngine::Rendering::HableCurve::SolveAB)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6c20120;
+  constexpr static std::size_t addrs = 0x6c21200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -457,7 +457,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HableCurve::*)(::by_ref<float_t>, ::by_ref<float_t>, float_t, float_t, float_t, float_t)>(
     &::UnityEngine::Rendering::HableCurve::AsSlopeIntercept)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6c200b8;
+  constexpr static std::size_t addrs = 0x6c21198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HableCurve*>(),
@@ -474,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::HableCurve::*)(float_t, float_t, float_t, float_t)>(
     &::UnityEngine::Rendering::HableCurve::EvalDerivativeLinearGamma)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6c200e4;
+  constexpr static std::size_t addrs = 0x6c211c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

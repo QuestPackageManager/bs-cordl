@@ -104,13 +104,13 @@ public:
 
   __declspec(property(get = get_translationZCount)) int32_t translationZCount;
 
-  /// @brief Method GetMaxCount, addr 0x5cba280, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetMaxCount, addr 0x5cb8ab8, size 0x14, virtual false, abstract: false, final false
   inline int32_t GetMaxCount();
 
-  /// @brief Method GetRotationCount, addr 0x5cba218, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetRotationCount, addr 0x5cb8a50, size 0x34, virtual false, abstract: false, final false
   inline int32_t GetRotationCount(::GlobalNamespace::LightGroupAxis axis);
 
-  /// @brief Method GetTranslationCount, addr 0x5cba24c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetTranslationCount, addr 0x5cb8a84, size 0x34, virtual false, abstract: false, final false
   inline int32_t GetTranslationCount(::GlobalNamespace::LightGroupAxis axis);
 
   static inline ::GlobalNamespace::LightGroupCountProviderComposite_SetCounts* New_ctor();
@@ -163,31 +163,31 @@ public:
 
   constexpr void __cordl_internal_set__translationZCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5cba294, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cb8acc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colorCount, addr 0x5cba1d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorCount, addr 0x5cb8a10, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_colorCount();
 
-  /// @brief Method get_floatFxCount, addr 0x5cba1e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_floatFxCount, addr 0x5cb8a18, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_floatFxCount();
 
-  /// @brief Method get_rotationXCount, addr 0x5cba1e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationXCount, addr 0x5cb8a20, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_rotationXCount();
 
-  /// @brief Method get_rotationYCount, addr 0x5cba1f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationYCount, addr 0x5cb8a28, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_rotationYCount();
 
-  /// @brief Method get_rotationZCount, addr 0x5cba1f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationZCount, addr 0x5cb8a30, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_rotationZCount();
 
-  /// @brief Method get_translationXCount, addr 0x5cba200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translationXCount, addr 0x5cb8a38, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_translationXCount();
 
-  /// @brief Method get_translationYCount, addr 0x5cba208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translationYCount, addr 0x5cb8a40, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_translationYCount();
 
-  /// @brief Method get_translationZCount, addr 0x5cba210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translationZCount, addr 0x5cb8a48, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_translationZCount();
 
 protected:
@@ -205,7 +205,7 @@ public:
   LightGroupCountProviderComposite_SetCounts(LightGroupCountProviderComposite_SetCounts const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19976 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19896 };
 
   /// [SerializeField]
   /// [Min(0)]
@@ -291,16 +291,16 @@ public:
 
   static inline ::GlobalNamespace::LightGroupCountProviderComposite___c* New_ctor();
 
-  /// @brief Method <GetColorCount>b__6_0, addr 0x5cba310, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <GetColorCount>b__6_0, addr 0x5cb8b48, size 0x14, virtual false, abstract: false, final false
   inline int32_t _GetColorCount_b__6_0(::GlobalNamespace::LightGroupCountProviderComposite_SetCounts* s);
 
-  /// @brief Method <GetFloatFxCount>b__7_0, addr 0x5cba324, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <GetFloatFxCount>b__7_0, addr 0x5cb8b5c, size 0x14, virtual false, abstract: false, final false
   inline int32_t _GetFloatFxCount_b__7_0(::GlobalNamespace::LightGroupCountProviderComposite_SetCounts* s);
 
-  /// @brief Method .ctor, addr 0x5cba2ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cb8b24, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_numberOfElements>b__5_0, addr 0x5cba2f0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <get_numberOfElements>b__5_0, addr 0x5cb8b28, size 0x20, virtual false, abstract: false, final false
   inline int32_t _get_numberOfElements_b__5_0(::GlobalNamespace::LightGroupCountProviderComposite_SetCounts* setCount);
 
   static inline ::GlobalNamespace::LightGroupCountProviderComposite___c* getStaticF___9();
@@ -334,7 +334,7 @@ public:
   LightGroupCountProviderComposite___c(LightGroupCountProviderComposite___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19977 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19897 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -355,7 +355,7 @@ public:
 
   static inline ::GlobalNamespace::LightGroupCountProviderComposite___c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method <GetRotationCount>b__0, addr 0x5cba338, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <GetRotationCount>b__0, addr 0x5cb8b70, size 0x44, virtual false, abstract: false, final false
   inline int32_t _GetRotationCount_b__0(::GlobalNamespace::LightGroupCountProviderComposite_SetCounts* s);
 
   constexpr ::GlobalNamespace::LightGroupAxis const& __cordl_internal_get_axis() const;
@@ -364,7 +364,7 @@ public:
 
   constexpr void __cordl_internal_set_axis(::GlobalNamespace::LightGroupAxis value);
 
-  /// @brief Method .ctor, addr 0x5cba074, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cb88ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -382,7 +382,7 @@ public:
   LightGroupCountProviderComposite___c__DisplayClass8_0(LightGroupCountProviderComposite___c__DisplayClass8_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19978 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19898 };
 
   /// @brief Field axis, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::LightGroupAxis ___axis;
@@ -408,7 +408,7 @@ public:
 
   static inline ::GlobalNamespace::LightGroupCountProviderComposite___c__DisplayClass9_0* New_ctor();
 
-  /// @brief Method <GetTranslationCount>b__0, addr 0x5cba37c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <GetTranslationCount>b__0, addr 0x5cb8bb4, size 0x44, virtual false, abstract: false, final false
   inline int32_t _GetTranslationCount_b__0(::GlobalNamespace::LightGroupCountProviderComposite_SetCounts* s);
 
   constexpr ::GlobalNamespace::LightGroupAxis const& __cordl_internal_get_axis() const;
@@ -417,7 +417,7 @@ public:
 
   constexpr void __cordl_internal_set_axis(::GlobalNamespace::LightGroupAxis value);
 
-  /// @brief Method .ctor, addr 0x5cba134, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cb896c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -435,7 +435,7 @@ public:
   LightGroupCountProviderComposite___c__DisplayClass9_0(LightGroupCountProviderComposite___c__DisplayClass9_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19979 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19899 };
 
   /// @brief Field axis, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::LightGroupAxis ___axis;
@@ -470,19 +470,19 @@ public:
 
   __declspec(property(get = get_sets)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightGroupCountProviderComposite_SetCounts*>* sets;
 
-  /// @brief Method GetColorCount, addr 0x5cb9de0, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method GetColorCount, addr 0x5cb8618, size 0xec, virtual true, abstract: false, final false
   inline int32_t GetColorCount();
 
-  /// @brief Method GetFloatFxCount, addr 0x5cb9ecc, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method GetFloatFxCount, addr 0x5cb8704, size 0xec, virtual true, abstract: false, final false
   inline int32_t GetFloatFxCount();
 
-  /// @brief Method GetRotationCount, addr 0x5cb9fb8, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method GetRotationCount, addr 0x5cb87f0, size 0xbc, virtual true, abstract: false, final false
   inline int32_t GetRotationCount(::GlobalNamespace::LightGroupAxis axis);
 
-  /// @brief Method GetTranslationCount, addr 0x5cba078, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method GetTranslationCount, addr 0x5cb88b0, size 0xbc, virtual true, abstract: false, final false
   inline int32_t GetTranslationCount(::GlobalNamespace::LightGroupAxis axis);
 
-  /// @brief Method Max, addr 0x5cb9d54, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x5cb858c, size 0x8c, virtual false, abstract: false, final false
   inline int32_t Max(::System::Func_2<::GlobalNamespace::LightGroupCountProviderComposite_SetCounts*, int32_t>* selector);
 
   static inline ::GlobalNamespace::LightGroupCountProviderComposite* New_ctor();
@@ -493,13 +493,13 @@ public:
 
   constexpr void __cordl_internal_set__sets(::ArrayW<::GlobalNamespace::LightGroupCountProviderComposite_SetCounts*> value);
 
-  /// @brief Method .ctor, addr 0x5cba138, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cb8970, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_numberOfElements, addr 0x5cb9c68, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method get_numberOfElements, addr 0x5cb84a0, size 0xec, virtual true, abstract: false, final false
   inline int32_t get_numberOfElements();
 
-  /// @brief Method get_sets, addr 0x5cb9c60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sets, addr 0x5cb8498, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightGroupCountProviderComposite_SetCounts*>* get_sets();
 
 protected:
@@ -517,7 +517,7 @@ public:
   LightGroupCountProviderComposite(LightGroupCountProviderComposite const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19980 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19900 };
 
   /// [SerializeField]
   /// @brief Field _sets, offset: 0x10, size: 0x8, def value: None

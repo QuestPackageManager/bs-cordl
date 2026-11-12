@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MissionDataSO::*)()>(&::GlobalNamespace::MissionDataSO::get_songName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a090c4;
+  constexpr static std::size_t addrs = 0x3a0e14c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionDataSO*>(), { "get_songName", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::MissionObjective*> (::GlobalNamespace::MissionDataSO::*)()>(
     &::GlobalNamespace::MissionDataSO::get_missionObjectives)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a090cc;
+  constexpr static std::size_t addrs = 0x3a0e154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionDataSO*>(), { "get_missionObjectives", {}, {} })));
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapKey (::GlobalNamespace::MissionDataSO::*)()>(&::GlobalNamespace::MissionDataSO::get_beatmapKey)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3a090d4;
+  constexpr static std::size_t addrs = 0x3a0e15c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionDataSO*>(), { "get_beatmapKey", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapCharacteristic (::GlobalNamespace::MissionDataSO::*)()>(
     &::GlobalNamespace::MissionDataSO::get_beatmapCharacteristic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a090e8;
+  constexpr static std::size_t addrs = 0x3a0e170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionDataSO*>(), { "get_beatmapCharacteristic", {}, {} })));
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapDifficulty (::GlobalNamespace::MissionDataSO::*)()>(&::GlobalNamespace::MissionDataSO::get_beatmapDifficulty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a090f0;
+  constexpr static std::size_t addrs = 0x3a0e178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionDataSO*>(), { "get_beatmapDifficulty", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::GameplayModifiers* (::GlobalNamespace::MissionDataSO::*)()>(&::GlobalNamespace::MissionDataSO::get_gameplayModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a090f8;
+  constexpr static std::size_t addrs = 0x3a0e180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionDataSO*>(), { "get_gameplayModifiers", {}, {} })));
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::MissionHelpSO> (::GlobalNamespace::MissionDataSO::*)()>(&::GlobalNamespace::MissionDataSO::get_missionHelp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a09100;
+  constexpr static std::size_t addrs = 0x3a0e188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionDataSO*>(), { "get_missionHelp", {}, {} })));
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionDataSO::*)()>(&::GlobalNamespace::MissionDataSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a09108;
+  constexpr static std::size_t addrs = 0x3a0e190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionDataSO*>(), { ".ctor", {}, {} })));

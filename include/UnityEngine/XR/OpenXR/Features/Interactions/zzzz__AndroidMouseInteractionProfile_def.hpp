@@ -63,7 +63,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method get_format, addr 0x6e8a164, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x6e8b244, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
@@ -79,7 +79,7 @@ public:
   constexpr AndroidMouseInteractionProfile_AndroidMouseInteractionState(bool click, bool secondaryClick, bool tertiaryClick, ::UnityEngine::Vector2 scroll) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17655 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17663 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -155,7 +155,7 @@ public:
 
   __declspec(property(get = get_tertiaryClick, put = set_tertiaryClick)) ::UnityEngine::InputSystem::Controls::ButtonControl* tertiaryClick;
 
-  /// @brief Method FinishSetup, addr 0x6e8a1b0, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x6e8b290, size 0x10c, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile_AndroidMouseInteraction* New_ctor();
@@ -184,39 +184,39 @@ public:
 
   constexpr void __cordl_internal_set__tertiaryClick_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method .ctor, addr 0x6e8a2bc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e8b39c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_click, addr 0x6e8a170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_click, addr 0x6e8b250, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_click();
 
   /// [CompilerGenerated]
-  /// @brief Method get_scroll, addr 0x6e8a1a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scroll, addr 0x6e8b280, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_scroll();
 
   /// [CompilerGenerated]
-  /// @brief Method get_secondaryClick, addr 0x6e8a180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_secondaryClick, addr 0x6e8b260, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_secondaryClick();
 
   /// [CompilerGenerated]
-  /// @brief Method get_tertiaryClick, addr 0x6e8a190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tertiaryClick, addr 0x6e8b270, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_tertiaryClick();
 
   /// [CompilerGenerated]
-  /// @brief Method set_click, addr 0x6e8a178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_click, addr 0x6e8b258, size 0x8, virtual false, abstract: false, final false
   inline void set_click(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_scroll, addr 0x6e8a1a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_scroll, addr 0x6e8b288, size 0x8, virtual false, abstract: false, final false
   inline void set_scroll(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_secondaryClick, addr 0x6e8a188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_secondaryClick, addr 0x6e8b268, size 0x8, virtual false, abstract: false, final false
   inline void set_secondaryClick(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_tertiaryClick, addr 0x6e8a198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_tertiaryClick, addr 0x6e8b278, size 0x8, virtual false, abstract: false, final false
   inline void set_tertiaryClick(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
 protected:
@@ -234,7 +234,7 @@ public:
   AndroidMouseInteractionProfile_AndroidMouseInteraction(AndroidMouseInteractionProfile_AndroidMouseInteraction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17656 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17664 };
 
   /// [CompilerGenerated]
   /// @brief Field <click>k__BackingField, offset: 0x188, size: 0x8, def value: None
@@ -277,27 +277,27 @@ public:
 
   using AndroidMouseInteractionState = ::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile_AndroidMouseInteractionState;
 
-  /// @brief Method GetDeviceLayoutName, addr 0x6e8977c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetDeviceLayoutName, addr 0x6e8a85c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW GetDeviceLayoutName();
 
-  /// @brief Method GetInteractionProfileType, addr 0x6e897c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetInteractionProfileType, addr 0x6e8a8a0, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_InteractionProfileType GetInteractionProfileType();
 
   static inline ::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile* New_ctor();
 
-  /// @brief Method OnInstanceCreate, addr 0x6e89558, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method OnInstanceCreate, addr 0x6e8a638, size 0x6c, virtual true, abstract: false, final false
   inline bool OnInstanceCreate(uint64_t instance);
 
-  /// @brief Method RegisterActionMapsWithRuntime, addr 0x6e897c8, size 0x940, virtual true, abstract: false, final false
+  /// @brief Method RegisterActionMapsWithRuntime, addr 0x6e8a8a8, size 0x940, virtual true, abstract: false, final false
   inline void RegisterActionMapsWithRuntime();
 
-  /// @brief Method RegisterDeviceLayout, addr 0x6e895c4, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method RegisterDeviceLayout, addr 0x6e8a6a4, size 0x148, virtual true, abstract: false, final false
   inline void RegisterDeviceLayout();
 
-  /// @brief Method UnregisterDeviceLayout, addr 0x6e8970c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method UnregisterDeviceLayout, addr 0x6e8a7ec, size 0x70, virtual true, abstract: false, final false
   inline void UnregisterDeviceLayout();
 
-  /// @brief Method .ctor, addr 0x6e8a108, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e8b1e8, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -315,7 +315,7 @@ public:
   AndroidMouseInteractionProfile(AndroidMouseInteractionProfile const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17657 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17665 };
 
   /// @brief Field aimPath offset 0xffffffff size 0x8
   static constexpr ::ConstString aimPath{ u"/input/aim/pose" };

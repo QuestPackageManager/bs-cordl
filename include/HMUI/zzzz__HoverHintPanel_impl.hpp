@@ -5,6 +5,7 @@
 #include "HMUI/zzzz__HoverHintPanel_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__BaseRaycaster_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IPointerExitHandler_def.hpp"
@@ -17,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::HoverHintPanel::*)()>(&::HMUI::HoverHintPanel::get_isShown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cc9a18;
+  constexpr static std::size_t addrs = 0x5cc91ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintPanel*>(), { "get_isShown", {}, {} })));
@@ -29,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintPanel::*)(bool)>(&::HMUI::HoverHintPanel::set_isShown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cc9a20;
+  constexpr static std::size_t addrs = 0x5cc91f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintPanel*>(), { "set_isShown", {}, { ::i2c::type_of<bool>() } })));
@@ -41,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::HoverHintPanel::*)()>(&::HMUI::HoverHintPanel::get_isPointerOver)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cc9a28;
+  constexpr static std::size_t addrs = 0x5cc91fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintPanel*>(), { "get_isPointerOver", {}, {} })));
@@ -53,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintPanel::*)(bool)>(&::HMUI::HoverHintPanel::set_isPointerOver)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cc9a30;
+  constexpr static std::size_t addrs = 0x5cc9204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintPanel*>(), { "set_isPointerOver", {}, { ::i2c::type_of<bool>() } })));
@@ -65,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintPanel::*)(::System::Action*)>(&::HMUI::HoverHintPanel::add_pointerDidEnterEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5cc8bc4;
+  constexpr static std::size_t addrs = 0x5cc831c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintPanel::*)(::System::Action*)>(&::HMUI::HoverHintPanel::remove_pointerDidEnterEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5cc8ea8;
+  constexpr static std::size_t addrs = 0x5cc8600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintPanel::*)(::System::Action*)>(&::HMUI::HoverHintPanel::add_pointerDidExitEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5cc8c70;
+  constexpr static std::size_t addrs = 0x5cc83c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintPanel::*)(::System::Action*)>(&::HMUI::HoverHintPanel::remove_pointerDidExitEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5cc8f54;
+  constexpr static std::size_t addrs = 0x5cc86ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintPanel::*)()>(&::HMUI::HoverHintPanel::Awake)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5cc9a38;
+  constexpr static std::size_t addrs = 0x5cc920c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintPanel*>(), { "Awake", {}, {} })));
@@ -130,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintPanel::*)(::StringW, ::UnityEngine::Transform*, ::UnityEngine::Vector2, ::UnityEngine::Rect)>(
     &::HMUI::HoverHintPanel::Show)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x5cc94d8;
+  constexpr static std::size_t addrs = 0x5cc8cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -146,10 +147,22 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintPanel::*)()>(&::HMUI::HoverHintPanel::Hide)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5cc8b9c;
+  constexpr static std::size_t addrs = 0x5cc82f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintPanel*>(), { "Hide", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::HMUI::HoverHintPanel.SetHoverable
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintPanel::*)(bool)>(&::HMUI::HoverHintPanel::SetHoverable)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5cc8794;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintPanel*>(), { "SetHoverable", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -158,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintPanel::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::HoverHintPanel::OnPointerEnter)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5cc9c18;
+  constexpr static std::size_t addrs = 0x5cc93ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintPanel::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::HoverHintPanel::OnPointerExit)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5cc9c3c;
+  constexpr static std::size_t addrs = 0x5cc9410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -185,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::HMUI::HoverHintPanel::*)(::UnityEngine::Vector2, ::UnityEngine::Rect, ::UnityEngine::Vector2)>(
     &::HMUI::HoverHintPanel::CalculatePanelPosition)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x5cc9ae4;
+  constexpr static std::size_t addrs = 0x5cc92b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -200,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintPanel::*)()>(&::HMUI::HoverHintPanel::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cc9c5c;
+  constexpr static std::size_t addrs = 0x5cc9430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintPanel*>(), { ".ctor", {}, {} })));
@@ -266,6 +279,18 @@ constexpr float_t const& HMUI::HoverHintPanel::__cordl_internal_get__zOffset() c
 constexpr void HMUI::HoverHintPanel::__cordl_internal_set__zOffset(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____zOffset = value;
+}
+constexpr ::UnityW<::UnityEngine::EventSystems::BaseRaycaster>& HMUI::HoverHintPanel::__cordl_internal_get__raycaster() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____raycaster;
+}
+constexpr ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> const& HMUI::HoverHintPanel::__cordl_internal_get__raycaster() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____raycaster;
+}
+constexpr void HMUI::HoverHintPanel::__cordl_internal_set__raycaster(::UnityW<::UnityEngine::EventSystems::BaseRaycaster> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____raycaster = value;
 }
 constexpr bool& HMUI::HoverHintPanel::__cordl_internal_get__isShown_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -366,6 +391,10 @@ inline void HMUI::HoverHintPanel::Show(::StringW text, ::UnityEngine::Transform*
 inline void HMUI::HoverHintPanel::Hide() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintPanel*>(), { "Hide", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void HMUI::HoverHintPanel::SetHoverable(bool isHoverable) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintPanel*>(), { "SetHoverable", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, isHoverable);
 }
 inline void HMUI::HoverHintPanel::OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData) {
   static auto* ___internal_method = THROW_UNLESS(

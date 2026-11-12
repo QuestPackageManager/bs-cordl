@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityDebugLogger::*)(::StringW)>(&::GlobalNamespace::UnityDebugLogger::Log)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5d399b0;
+  constexpr static std::size_t addrs = 0x5d39610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityDebugLogger*>(), { "Log", {}, { ::i2c::type_of<::StringW>() } })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityDebugLogger::*)(::StringW, ::System::Object*)>(&::GlobalNamespace::UnityDebugLogger::Log)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d39a0c;
+  constexpr static std::size_t addrs = 0x5d3966c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityDebugLogger::*)(::StringW)>(&::GlobalNamespace::UnityDebugLogger::LogWarning)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5d39acc;
+  constexpr static std::size_t addrs = 0x5d3972c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityDebugLogger::*)(::StringW, ::System::Object*)>(&::GlobalNamespace::UnityDebugLogger::LogWarning)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d39b28;
+  constexpr static std::size_t addrs = 0x5d39788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityDebugLogger::*)(::StringW)>(&::GlobalNamespace::UnityDebugLogger::LogError)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5d39be8;
+  constexpr static std::size_t addrs = 0x5d39848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityDebugLogger::*)(::StringW, ::System::Object*)>(&::GlobalNamespace::UnityDebugLogger::LogError)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d39c44;
+  constexpr static std::size_t addrs = 0x5d398a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityDebugLogger::*)(::System::Exception*)>(&::GlobalNamespace::UnityDebugLogger::LogException)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5d39d04;
+  constexpr static std::size_t addrs = 0x5d39964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityDebugLogger::*)(::System::Exception*, ::System::Object*)>(&::GlobalNamespace::UnityDebugLogger::LogException)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d39d60;
+  constexpr static std::size_t addrs = 0x5d399c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityDebugLogger*>(),
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityDebugLogger::*)()>(&::GlobalNamespace::UnityDebugLogger::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d39e20;
+  constexpr static std::size_t addrs = 0x5d39a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityDebugLogger*>(), { ".ctor", {}, {} })));

@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView___c::*)()>(&::GlobalNamespace::StandardLevelDetailView___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5dc6b8c;
+  constexpr static std::size_t addrs = 0x5dc6cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelDetailView___c*>(), { ".ctor", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapCharacteristic (::GlobalNamespace::StandardLevelDetailView___c::*)(::GlobalNamespace::BeatmapKey)>(
     &::GlobalNamespace::StandardLevelDetailView___c::_SetContent_b__45_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dc6b90;
+  constexpr static std::size_t addrs = 0x5dc6cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView___c__DisplayClass45_0::*)()>(
     &::GlobalNamespace::StandardLevelDetailView___c__DisplayClass45_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5dc6b98;
+  constexpr static std::size_t addrs = 0x5dc5b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelDetailView___c__DisplayClass45_0*>(), { ".ctor", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::StandardLevelDetailView___c__DisplayClass45_0::*)(::GlobalNamespace::BeatmapKey)>(
     &::GlobalNamespace::StandardLevelDetailView___c__DisplayClass45_0::_SetContent_b__0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5dc6b9c;
+  constexpr static std::size_t addrs = 0x5dc6ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelDetailView___c__DisplayClass45_0*>(),
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::StandardLevelDetailView___c__DisplayClass45_0::*)(::GlobalNamespace::BeatmapCharacteristic)>(
     &::GlobalNamespace::StandardLevelDetailView___c__DisplayClass45_0::_SetContent_b__2)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5dc6bb8;
+  constexpr static std::size_t addrs = 0x5dc6ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelDetailView___c__DisplayClass45_0*>(),
@@ -196,8 +196,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__63::*)()>(
     &::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__63::MoveNext)> {
-  constexpr static std::size_t size = 0x884;
-  constexpr static std::size_t addrs = 0x5dc6c28;
+  constexpr static std::size_t size = 0x880;
+  constexpr static std::size_t addrs = 0x5dc6d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__63::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__63::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5dc74ac;
+  constexpr static std::size_t addrs = 0x5dc75d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__63>(),
@@ -273,8 +273,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView__CheckIfBeatmapLevelDataExists_d__57::*)()>(
     &::GlobalNamespace::StandardLevelDetailView__CheckIfBeatmapLevelDataExists_d__57::MoveNext)> {
-  constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x5dc7518;
+  constexpr static std::size_t size = 0x2dc;
+  constexpr static std::size_t addrs = 0x5dc7644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -288,7 +288,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView__CheckIfBeatmapLevelDataExists_d__57::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::StandardLevelDetailView__CheckIfBeatmapLevelDataExists_d__57::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dc77f8;
+  constexpr static std::size_t addrs = 0x5dc7920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelDetailView__CheckIfBeatmapLevelDataExists_d__57>(),
@@ -334,8 +334,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView__CheckIfBeatmapLevelDataExistsAsync_d__58::*)()>(
     &::GlobalNamespace::StandardLevelDetailView__CheckIfBeatmapLevelDataExistsAsync_d__58::MoveNext)> {
-  constexpr static std::size_t size = 0x574;
-  constexpr static std::size_t addrs = 0x5dc7800;
+  constexpr static std::size_t size = 0x568;
+  constexpr static std::size_t addrs = 0x5dc7928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView__CheckIfBeatmapLevelDataExistsAsync_d__58::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::StandardLevelDetailView__CheckIfBeatmapLevelDataExistsAsync_d__58::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5dc7d74;
+  constexpr static std::size_t addrs = 0x5dc7e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelDetailView__CheckIfBeatmapLevelDataExistsAsync_d__58>(),
@@ -402,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView__SetBeatmapLevelVersions_d__64::*)()>(
     &::GlobalNamespace::StandardLevelDetailView__SetBeatmapLevelVersions_d__64::MoveNext)> {
   constexpr static std::size_t size = 0x658;
-  constexpr static std::size_t addrs = 0x5dc7de0;
+  constexpr static std::size_t addrs = 0x5dc7efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -416,7 +416,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView__SetBeatmapLevelVersions_d__64::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::StandardLevelDetailView__SetBeatmapLevelVersions_d__64::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dc8438;
+  constexpr static std::size_t addrs = 0x5dc8554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelDetailView__SetBeatmapLevelVersions_d__64>(),
@@ -466,7 +466,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailView>>*)>(
     &::GlobalNamespace::StandardLevelDetailView::add_didChangeDifficultyBeatmapEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5dc5194;
+  constexpr static std::size_t addrs = 0x5dc52c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -481,7 +481,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailView>>*)>(
     &::GlobalNamespace::StandardLevelDetailView::remove_didChangeDifficultyBeatmapEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5dc5254;
+  constexpr static std::size_t addrs = 0x5dc5384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -496,7 +496,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>*)>(
     &::GlobalNamespace::StandardLevelDetailView::add_didFavoriteToggleChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5dc5314;
+  constexpr static std::size_t addrs = 0x5dc5444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -511,7 +511,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>*)>(
     &::GlobalNamespace::StandardLevelDetailView::remove_didFavoriteToggleChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5dc53d4;
+  constexpr static std::size_t addrs = 0x5dc5504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -526,7 +526,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Button> (::GlobalNamespace::StandardLevelDetailView::*)()>(
     &::GlobalNamespace::StandardLevelDetailView::get_actionButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dc5494;
+  constexpr static std::size_t addrs = 0x5dc55c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelDetailView*>(), { "get_actionButton", {}, {} })));
@@ -538,7 +538,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(::StringW)>(&::GlobalNamespace::StandardLevelDetailView::set_actionButtonText)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5dc549c;
+  constexpr static std::size_t addrs = 0x5dc55cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -552,7 +552,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Button> (::GlobalNamespace::StandardLevelDetailView::*)()>(
     &::GlobalNamespace::StandardLevelDetailView::get_practiceButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dc54bc;
+  constexpr static std::size_t addrs = 0x5dc55ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelDetailView*>(), { "get_practiceButton", {}, {} })));
@@ -564,7 +564,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(bool)>(&::GlobalNamespace::StandardLevelDetailView::set_hidePracticeButton)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5dc54c4;
+  constexpr static std::size_t addrs = 0x5dc55f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -577,7 +577,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapKey (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::get_beatmapKey)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5dc54f8;
+  constexpr static std::size_t addrs = 0x5dc5628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelDetailView*>(), { "get_beatmapKey", {}, {} })));
@@ -590,7 +590,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(::GlobalNamespace::BeatmapKey)>(
     &::GlobalNamespace::StandardLevelDetailView::set_beatmapKey)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5dc550c;
+  constexpr static std::size_t addrs = 0x5dc563c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -605,7 +605,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::BeatmapDifficultyMask, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapCharacteristic>*,
     ::GlobalNamespace::BeatmapDifficulty, ::System::Nullable_1<::GlobalNamespace::BeatmapCharacteristic>, ::GlobalNamespace::PlayerData*)>(&::GlobalNamespace::StandardLevelDetailView::SetContent)> {
   constexpr static std::size_t size = 0x4c0;
-  constexpr static std::size_t addrs = 0x5dc5520;
+  constexpr static std::size_t addrs = 0x5dc5650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -624,7 +624,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::ClearBeatmapLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dc5bbc;
+  constexpr static std::size_t addrs = 0x5dc5cf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelDetailView*>(), { "ClearBeatmapLevel", {}, {} })));
@@ -636,7 +636,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::Awake)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x5dc5bc4;
+  constexpr static std::size_t addrs = 0x5dc5cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelDetailView*>(), { "Awake", {}, {} })));
@@ -648,7 +648,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::OnEnable)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x5dc5d88;
+  constexpr static std::size_t addrs = 0x5dc5ebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelDetailView*>(), { "OnEnable", {}, {} })));
@@ -660,7 +660,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::OnDisable)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x5dc5f88;
+  constexpr static std::size_t addrs = 0x5dc60bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelDetailView*>(), { "OnDisable", {}, {} })));
@@ -672,7 +672,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::OnDestroy)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x5dc6128;
+  constexpr static std::size_t addrs = 0x5dc625c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelDetailView*>(), { "OnDestroy", {}, {} })));
@@ -685,7 +685,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(::GlobalNamespace::BeatmapLevelLoader_LevelDownloadingUpdate)>(
     &::GlobalNamespace::StandardLevelDetailView::HandleBeatmapLevelsModelLevelDownloadingUpdate)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5dc62e8;
+  constexpr static std::size_t addrs = 0x5dc641c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -699,7 +699,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::HandleDidPressRefreshButton)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5dc64c8;
+  constexpr static std::size_t addrs = 0x5dc65fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelDetailView*>(), { "HandleDidPressRefreshButton", {}, {} })));
@@ -713,7 +713,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(::GlobalNamespace::BeatmapDifficultySegmentedControlController*, ::GlobalNamespace::BeatmapDifficulty)>(
         &::GlobalNamespace::StandardLevelDetailView::HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5dc64cc;
+  constexpr static std::size_t addrs = 0x5dc6600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -731,7 +731,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, ::GlobalNamespace::BeatmapCharacteristic)>(
         &::GlobalNamespace::StandardLevelDetailView::HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5dc6520;
+  constexpr static std::size_t addrs = 0x5dc6654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -749,7 +749,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(::GlobalNamespace::StandardLevelDetailViewController_ContentType, float_t)>(
     &::GlobalNamespace::StandardLevelDetailView::ShowContent)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x5dc6348;
+  constexpr static std::size_t addrs = 0x5dc647c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -763,7 +763,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::RefreshContent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5dc5a7c;
+  constexpr static std::size_t addrs = 0x5dc5bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelDetailView*>(), { "RefreshContent", {}, {} })));
@@ -775,7 +775,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::CheckIfBeatmapLevelDataExists)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5dc5b18;
+  constexpr static std::size_t addrs = 0x5dc5c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -789,7 +789,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::StandardLevelDetailView::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::StandardLevelDetailView::CheckIfBeatmapLevelDataExistsAsync)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5dc6624;
+  constexpr static std::size_t addrs = 0x5dc6758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -803,7 +803,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::SetContentForBeatmapData)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5dc65ec;
+  constexpr static std::size_t addrs = 0x5dc6720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelDetailView*>(), { "SetContentForBeatmapData", {}, {} })));
@@ -815,7 +815,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::ClearContent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5dc59e0;
+  constexpr static std::size_t addrs = 0x5dc5b14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelDetailView*>(), { "ClearContent", {}, {} })));
@@ -827,7 +827,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::SetContent)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5dc66ec;
+  constexpr static std::size_t addrs = 0x5dc6820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelDetailView*>(), { "SetContent", {}, {} })));
@@ -839,7 +839,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::CalculateAndSetContent)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x5dc677c;
+  constexpr static std::size_t addrs = 0x5dc68b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelDetailView*>(), { "CalculateAndSetContent", {}, {} })));
@@ -852,7 +852,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::GlobalNamespace::StandardLevelDetailView::*)(::GlobalNamespace::BeatmapKey, ::System::Threading::CancellationToken)>(&::GlobalNamespace::StandardLevelDetailView::CalculateAndSetContentAsync)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5dc6a24;
+  constexpr static std::size_t addrs = 0x5dc6b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -866,7 +866,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::SetBeatmapLevelVersions)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5dc6984;
+  constexpr static std::size_t addrs = 0x5dc6ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelDetailView*>(), { "SetBeatmapLevelVersions", {}, {} })));
@@ -879,7 +879,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(int32_t, int32_t, int32_t, float_t)>(
     &::GlobalNamespace::StandardLevelDetailView::SetData)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5dc68f4;
+  constexpr static std::size_t addrs = 0x5dc6a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -894,7 +894,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapKey (::GlobalNamespace::StandardLevelDetailView::*)()>(
     &::GlobalNamespace::StandardLevelDetailView::CreateBeatmapKey)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5dc65b0;
+  constexpr static std::size_t addrs = 0x5dc66e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelDetailView*>(), { "CreateBeatmapKey", {}, {} })));
@@ -906,7 +906,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::TriggerEvent)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5dc6500;
+  constexpr static std::size_t addrs = 0x5dc6634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelDetailView*>(), { "TriggerEvent", {}, {} })));
@@ -918,7 +918,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5dc6afc;
+  constexpr static std::size_t addrs = 0x5dc6c30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelDetailView*>(), { ".ctor", {}, {} })));
@@ -930,7 +930,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(bool)>(&::GlobalNamespace::StandardLevelDetailView::_Awake_b__47_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5dc6b00;
+  constexpr static std::size_t addrs = 0x5dc6c34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -944,7 +944,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(float_t)>(
     &::GlobalNamespace::StandardLevelDetailView::_CalculateAndSetContentAsync_b__63_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5dc6b20;
+  constexpr static std::size_t addrs = 0x5dc6c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

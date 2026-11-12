@@ -27,7 +27,7 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaInferenceException : public ::System::Xml::Schema::XmlSchemaException {
 public:
   // Declarations
-  /// @brief Method GetObjectData, addr 0x664262c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x6642c7c, size 0x8, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Xml::Schema::XmlSchemaInferenceException* New_ctor();
@@ -38,16 +38,16 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaInferenceException* New_ctor(::StringW res, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method .ctor, addr 0x6642634, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6642c84, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6642624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6642c74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x6640a90, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66410e0, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::StringW arg);
 
-  /// @brief Method .ctor, addr 0x663a1fc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x663a84c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, int32_t lineNumber, int32_t linePosition);
 
 protected:

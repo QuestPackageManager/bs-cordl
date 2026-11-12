@@ -122,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set_terrainDetailLitPS(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x6ce07bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce189c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -243,7 +243,7 @@ public:
 
   constexpr void __cordl_internal_set_terrainLit(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x6ce07c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce18a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -326,7 +326,7 @@ public:
 
   constexpr void __cordl_internal_set_shaders(::UnityEngine::Rendering::Universal::UniversalRenderPipelineEditorResources_ShaderResources* value);
 
-  /// @brief Method .ctor, addr 0x6ce07b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce1894, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

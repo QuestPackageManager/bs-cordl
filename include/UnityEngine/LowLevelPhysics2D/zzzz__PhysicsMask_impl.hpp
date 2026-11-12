@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::PhysicsMask_SetBitIterator::*)(::UnityEngine::LowLevelPhysics2D::PhysicsMask)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsMask_SetBitIterator::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x7011408;
+  constexpr static std::size_t addrs = 0x70124e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsMask_SetBitIterator>(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::LowLevelPhysics2D::PhysicsMask_SetBitIterator::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsMask_SetBitIterator::System_Collections_Generic_IEnumerator_System_Int32__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70115dc;
+  constexpr static std::size_t addrs = 0x70126bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsMask_SetBitIterator>(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::LowLevelPhysics2D::PhysicsMask_SetBitIterator::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsMask_SetBitIterator::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x70115e4;
+  constexpr static std::size_t addrs = 0x70126c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::LowLevelPhysics2D::PhysicsMask_SetBitIterator::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsMask_SetBitIterator::System_Collections_IEnumerator_MoveNext)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x7011608;
+  constexpr static std::size_t addrs = 0x70126e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::PhysicsMask_SetBitIterator::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsMask_SetBitIterator::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x7011658;
+  constexpr static std::size_t addrs = 0x7012738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<int32_t>* (::UnityEngine::LowLevelPhysics2D::PhysicsMask_SetBitIterator::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsMask_SetBitIterator::GetEnumerator)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x7011664;
+  constexpr static std::size_t addrs = 0x7012744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::LowLevelPhysics2D::PhysicsMask_SetBitIterator::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsMask_SetBitIterator::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x70116c4;
+  constexpr static std::size_t addrs = 0x70127a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::PhysicsMask_SetBitIterator::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsMask_SetBitIterator::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x70116c8;
+  constexpr static std::size_t addrs = 0x70127a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(::UnityEngine::LowLevelPhysics2D::PhysicsMask)>(&::UnityEngine::LowLevelPhysics2D::PhysicsMask::op_Implicit_uint64_t)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x701139c;
+  constexpr static std::size_t addrs = 0x701247c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsMask>(),
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<int32_t>* (::UnityEngine::LowLevelPhysics2D::PhysicsMask::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsMask::GetEnumerator)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x70113a0;
+  constexpr static std::size_t addrs = 0x7012480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsMask>(), { "GetEnumerator", {}, {} })));
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::LowLevelPhysics2D::PhysicsMask::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsMask::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x7011474;
+  constexpr static std::size_t addrs = 0x7012554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::LowLevelPhysics2D::PhysicsMask::*)()>(&::UnityEngine::LowLevelPhysics2D::PhysicsMask::ToString)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x70114dc;
+  constexpr static std::size_t addrs = 0x70125bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -36,36 +36,36 @@ class CORDL_TYPE CameraExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method DestroyVolumeStack, addr 0x6d3c464, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method DestroyVolumeStack, addr 0x6d3d544, size 0x14, virtual false, abstract: false, final false
   static inline void DestroyVolumeStack(::UnityEngine::Camera* camera);
 
   /// [Extension]
-  /// @brief Method DestroyVolumeStack, addr 0x6d3c478, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method DestroyVolumeStack, addr 0x6d3d558, size 0x8c, virtual false, abstract: false, final false
   static inline void DestroyVolumeStack(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* cameraData);
 
   /// [Extension]
-  /// @brief Method GetUniversalAdditionalCameraData, addr 0x6d3be18, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetUniversalAdditionalCameraData, addr 0x6d3cef8, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData> GetUniversalAdditionalCameraData(::UnityEngine::Camera* camera);
 
   /// [Extension]
-  /// @brief Method GetVolumeFrameworkUpdateMode, addr 0x6d3bec8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetVolumeFrameworkUpdateMode, addr 0x6d3cfa8, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode GetVolumeFrameworkUpdateMode(::UnityEngine::Camera* camera);
 
   /// [Extension]
-  /// @brief Method GetVolumeLayerMaskAndTrigger, addr 0x6d3c288, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetVolumeLayerMaskAndTrigger, addr 0x6d3d368, size 0x1dc, virtual false, abstract: false, final false
   static inline void GetVolumeLayerMaskAndTrigger(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* cameraData,
                                                   ::by_ref<::UnityEngine::LayerMask> layerMask, ::by_ref<::UnityEngine::Transform*> trigger);
 
   /// [Extension]
-  /// @brief Method SetVolumeFrameworkUpdateMode, addr 0x6d3bee4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetVolumeFrameworkUpdateMode, addr 0x6d3cfc4, size 0x68, virtual false, abstract: false, final false
   static inline void SetVolumeFrameworkUpdateMode(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode mode);
 
   /// [Extension]
-  /// @brief Method UpdateVolumeStack, addr 0x6d3c124, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method UpdateVolumeStack, addr 0x6d3d204, size 0x1c, virtual false, abstract: false, final false
   static inline void UpdateVolumeStack(::UnityEngine::Camera* camera);
 
   /// [Extension]
-  /// @brief Method UpdateVolumeStack, addr 0x6d3bfd0, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method UpdateVolumeStack, addr 0x6d3d0b0, size 0x154, virtual false, abstract: false, final false
   static inline void UpdateVolumeStack(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* cameraData);
 
 protected:

@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::Calendar* (*)()>(&::System::Globalization::TaiwanCalendar::GetDefaultInstance)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x60224e0;
+  constexpr static std::size_t addrs = 0x6022768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TaiwanCalendar*>(), { "GetDefaultInstance", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Globalization::TaiwanCalendar::*)()>(&::System::Globalization::TaiwanCalendar::get_MinSupportedDateTime)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6022754;
+  constexpr static std::size_t addrs = 0x60229dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Globalization::TaiwanCalendar::*)()>(&::System::Globalization::TaiwanCalendar::get_MaxSupportedDateTime)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x60227b0;
+  constexpr static std::size_t addrs = 0x6022a38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::TaiwanCalendar::*)()>(&::System::Globalization::TaiwanCalendar::_ctor)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x6022590;
+  constexpr static std::size_t addrs = 0x6022818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TaiwanCalendar*>(), { ".ctor", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::TaiwanCalendar::*)()>(&::System::Globalization::TaiwanCalendar::get_ID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x602280c;
+  constexpr static std::size_t addrs = 0x6022a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::TaiwanCalendar::*)(int32_t, int32_t, int32_t)>(&::System::Globalization::TaiwanCalendar::GetDaysInMonth)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6022814;
+  constexpr static std::size_t addrs = 0x6022a9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::TaiwanCalendar::*)(int32_t, int32_t)>(&::System::Globalization::TaiwanCalendar::GetDaysInYear)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6022828;
+  constexpr static std::size_t addrs = 0x6022ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::TaiwanCalendar::*)(::System::DateTime)>(&::System::Globalization::TaiwanCalendar::GetDayOfMonth)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x602283c;
+  constexpr static std::size_t addrs = 0x6022ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DayOfWeek (::System::Globalization::TaiwanCalendar::*)(::System::DateTime)>(&::System::Globalization::TaiwanCalendar::GetDayOfWeek)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6022850;
+  constexpr static std::size_t addrs = 0x6022ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::TaiwanCalendar::*)(int32_t, int32_t)>(&::System::Globalization::TaiwanCalendar::GetMonthsInYear)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6022864;
+  constexpr static std::size_t addrs = 0x6022aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::TaiwanCalendar::*)(::System::DateTime)>(&::System::Globalization::TaiwanCalendar::GetEra)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6022888;
+  constexpr static std::size_t addrs = 0x6022b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::TaiwanCalendar::*)(::System::DateTime)>(&::System::Globalization::TaiwanCalendar::GetMonth)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x602289c;
+  constexpr static std::size_t addrs = 0x6022b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::TaiwanCalendar::*)(::System::DateTime)>(&::System::Globalization::TaiwanCalendar::GetYear)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x60228b0;
+  constexpr static std::size_t addrs = 0x6022b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::TaiwanCalendar::*)(int32_t, int32_t)>(&::System::Globalization::TaiwanCalendar::IsLeapYear)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x60228c4;
+  constexpr static std::size_t addrs = 0x6022b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Globalization::TaiwanCalendar::*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(
     &::System::Globalization::TaiwanCalendar::ToDateTime)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x60228d8;
+  constexpr static std::size_t addrs = 0x6022b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (::System::Globalization::TaiwanCalendar::*)()>(&::System::Globalization::TaiwanCalendar::get_Eras)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x60228f8;
+  constexpr static std::size_t addrs = 0x6022b80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -220,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::TaiwanCalendar::*)()>(&::System::Globalization::TaiwanCalendar::get_TwoDigitYearMax)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x602290c;
+  constexpr static std::size_t addrs = 0x6022b94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -233,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::TaiwanCalendar::*)(int32_t)>(&::System::Globalization::TaiwanCalendar::set_TwoDigitYearMax)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6022950;
+  constexpr static std::size_t addrs = 0x6022bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -246,7 +246,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::TaiwanCalendar::*)(int32_t)>(&::System::Globalization::TaiwanCalendar::ToFourDigitYear)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6022a74;
+  constexpr static std::size_t addrs = 0x6022cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -26,10 +26,10 @@ public:
 
   static inline ::System::Net::Configuration::PerformanceCountersElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x67d6db4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67d7404, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties, addr 0x67d6df0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x67d7440, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:

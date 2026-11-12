@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::DigestHeaderParser::*)(::StringW)>(&::System::Net::DigestHeaderParser::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x688ea1c;
+  constexpr static std::size_t addrs = 0x688f06c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::DigestHeaderParser*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::DigestHeaderParser::*)()>(&::System::Net::DigestHeaderParser::get_Realm)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x688eacc;
+  constexpr static std::size_t addrs = 0x688f11c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::DigestHeaderParser*>(), { "get_Realm", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::DigestHeaderParser::*)()>(&::System::Net::DigestHeaderParser::get_Opaque)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x688eaf4;
+  constexpr static std::size_t addrs = 0x688f144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::DigestHeaderParser*>(), { "get_Opaque", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::DigestHeaderParser::*)()>(&::System::Net::DigestHeaderParser::get_Nonce)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x688eb20;
+  constexpr static std::size_t addrs = 0x688f170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::DigestHeaderParser*>(), { "get_Nonce", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::DigestHeaderParser::*)()>(&::System::Net::DigestHeaderParser::get_Algorithm)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x688eb4c;
+  constexpr static std::size_t addrs = 0x688f19c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::DigestHeaderParser*>(), { "get_Algorithm", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::DigestHeaderParser::*)()>(&::System::Net::DigestHeaderParser::get_QOP)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x688eb78;
+  constexpr static std::size_t addrs = 0x688f1c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::DigestHeaderParser*>(), { "get_QOP", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::DigestHeaderParser::*)()>(&::System::Net::DigestHeaderParser::Parse)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x688eba4;
+  constexpr static std::size_t addrs = 0x688f1f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::DigestHeaderParser*>(), { "Parse", {}, {} })));
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::DigestHeaderParser::*)()>(&::System::Net::DigestHeaderParser::SkipWhitespace)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x688eedc;
+  constexpr static std::size_t addrs = 0x688f52c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::DigestHeaderParser*>(), { "SkipWhitespace", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::DigestHeaderParser::*)()>(&::System::Net::DigestHeaderParser::GetKey)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x688ef74;
+  constexpr static std::size_t addrs = 0x688f5c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::DigestHeaderParser*>(), { "GetKey", {}, {} })));
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::DigestHeaderParser::*)(::by_ref<::StringW>, ::by_ref<::StringW>)>(&::System::Net::DigestHeaderParser::GetKeywordAndValue)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x688ed58;
+  constexpr static std::size_t addrs = 0x688f3a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

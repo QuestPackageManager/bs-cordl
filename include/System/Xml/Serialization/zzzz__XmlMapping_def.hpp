@@ -68,7 +68,7 @@ public:
 
   static inline ::System::Xml::Serialization::XmlMapping* New_ctor(::StringW elementName, ::StringW ns);
 
-  /// @brief Method SetKey, addr 0x675b040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetKey, addr 0x675b690, size 0x8, virtual false, abstract: false, final false
   inline void SetKey(::StringW key);
 
   constexpr ::StringW const& __cordl_internal_get__elementName() const;
@@ -113,34 +113,34 @@ public:
 
   constexpr void __cordl_internal_set_source(::System::Xml::Serialization::SerializationSource* value);
 
-  /// @brief Method .ctor, addr 0x675b028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x675b678, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW elementName, ::StringW ns);
 
-  /// @brief Method get_ElementName, addr 0x675b030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ElementName, addr 0x675b680, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ElementName();
 
-  /// @brief Method get_Format, addr 0x675b068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x675b6b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::SerializationFormat get_Format();
 
-  /// @brief Method get_Namespace, addr 0x675b038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x675b688, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method get_ObjectMap, addr 0x675b048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectMap, addr 0x675b698, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::ObjectMap* get_ObjectMap();
 
-  /// @brief Method get_RelatedMaps, addr 0x675b058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RelatedMaps, addr 0x675b6a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_RelatedMaps();
 
-  /// @brief Method get_Source, addr 0x675b078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Source, addr 0x675b6c8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::SerializationSource* get_Source();
 
-  /// @brief Method set_Format, addr 0x675b070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Format, addr 0x675b6c0, size 0x8, virtual false, abstract: false, final false
   inline void set_Format(::System::Xml::Serialization::SerializationFormat value);
 
-  /// @brief Method set_ObjectMap, addr 0x675b050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ObjectMap, addr 0x675b6a0, size 0x8, virtual false, abstract: false, final false
   inline void set_ObjectMap(::System::Xml::Serialization::ObjectMap* value);
 
-  /// @brief Method set_RelatedMaps, addr 0x675b060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RelatedMaps, addr 0x675b6b0, size 0x8, virtual false, abstract: false, final false
   inline void set_RelatedMaps(::System::Collections::ArrayList* value);
 
 protected:

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair::*)()>(
     &::GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5db38b4;
+  constexpr static std::size_t addrs = 0x5db39b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionHelpViewController::*)(::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>*)>(
     &::GlobalNamespace::MissionHelpViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5db3558;
+  constexpr static std::size_t addrs = 0x5db3654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionHelpViewController::*)(::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>*)>(
     &::GlobalNamespace::MissionHelpViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5db3618;
+  constexpr static std::size_t addrs = 0x5db3714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionHelpViewController::*)(::GlobalNamespace::MissionHelpSO*)>(
     &::GlobalNamespace::MissionHelpViewController::Setup)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5db36d8;
+  constexpr static std::size_t addrs = 0x5db37d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionHelpViewController::*)(bool, bool, bool)>(&::GlobalNamespace::MissionHelpViewController::DidActivate)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5db37e0;
+  constexpr static std::size_t addrs = 0x5db38dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionHelpViewController::*)()>(&::GlobalNamespace::MissionHelpViewController::RefreshContent)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5db3704;
+  constexpr static std::size_t addrs = 0x5db3800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionHelpViewController*>(), { "RefreshContent", {}, {} })));
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionHelpViewController::*)()>(&::GlobalNamespace::MissionHelpViewController::OkButtonPressed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5db3890;
+  constexpr static std::size_t addrs = 0x5db398c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionHelpViewController*>(), { "OkButtonPressed", {}, {} })));
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionHelpViewController::*)()>(&::GlobalNamespace::MissionHelpViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5db38b0;
+  constexpr static std::size_t addrs = 0x5db39ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionHelpViewController*>(), { ".ctor", {}, {} })));

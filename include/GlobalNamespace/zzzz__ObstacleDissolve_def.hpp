@@ -33,18 +33,18 @@ public:
   /// @brief Field _obstacleController, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__obstacleController, put = __cordl_internal_set__obstacleController)) ::UnityW<::GlobalNamespace::ObstacleControllerBase> _obstacleController;
 
-  /// @brief Method Awake, addr 0x5dcc09c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5dcc1b8, size 0xec, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleObcstacleDidStartDissolvingEvent, addr 0x5dcc310, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleObcstacleDidStartDissolvingEvent, addr 0x5dcc42c, size 0x20, virtual false, abstract: false, final false
   inline void HandleObcstacleDidStartDissolvingEvent(::GlobalNamespace::ObstacleControllerBase* obstacleController, float_t duration);
 
-  /// @brief Method HandleObstacleDidInitEvent, addr 0x5dcc2bc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleDidInitEvent, addr 0x5dcc3d8, size 0x30, virtual false, abstract: false, final false
   inline void HandleObstacleDidInitEvent(::GlobalNamespace::ObstacleControllerBase* obstacleController);
 
   static inline ::GlobalNamespace::ObstacleDissolve* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5dcc188, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5dcc2a4, size 0x134, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::CutoutAnimateEffect> const& __cordl_internal_get__cutoutAnimateEffect() const;
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__obstacleController(::UnityW<::GlobalNamespace::ObstacleControllerBase> value);
 
-  /// @brief Method .ctor, addr 0x5dcc384, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dcc4a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

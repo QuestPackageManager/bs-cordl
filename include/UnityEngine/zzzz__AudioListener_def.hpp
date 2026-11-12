@@ -39,60 +39,60 @@ public:
   __declspec(property(get = get_velocityUpdateMode, put = set_velocityUpdateMode)) ::UnityEngine::AudioVelocityUpdateMode velocityUpdateMode;
 
   /// [Obsolete("GetOutputData returning a float[] is deprecated, use GetOutputData and pass a pre allocated array instead.")]
-  /// @brief Method GetOutputData, addr 0x6eda690, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetOutputData, addr 0x6edb770, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<float_t> GetOutputData(int32_t numSamples, int32_t channel);
 
-  /// @brief Method GetOutputData, addr 0x6eda6fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetOutputData, addr 0x6edb7dc, size 0x4, virtual false, abstract: false, final false
   static inline void GetOutputData(::ArrayW<float_t> samples, int32_t channel);
 
   /// [NativeThrows]
-  /// @brief Method GetOutputDataHelper, addr 0x6eda150, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetOutputDataHelper, addr 0x6edb230, size 0x128, virtual false, abstract: false, final false
   static inline void GetOutputDataHelper(::ArrayW<float_t> samples, int32_t channel);
 
-  /// @brief Method GetOutputDataHelper_Injected, addr 0x6eda278, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetOutputDataHelper_Injected, addr 0x6edb358, size 0x44, virtual false, abstract: false, final false
   static inline void GetOutputDataHelper_Injected(::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> samples, int32_t channel);
 
   /// [Obsolete("GetSpectrumData returning a float[] is deprecated, use GetSpectrumData and pass a pre allocated array instead.")]
-  /// @brief Method GetSpectrumData, addr 0x6eda700, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetSpectrumData, addr 0x6edb7e0, size 0x74, virtual false, abstract: false, final false
   static inline ::ArrayW<float_t> GetSpectrumData(int32_t numSamples, int32_t channel, ::UnityEngine::FFTWindow window);
 
-  /// @brief Method GetSpectrumData, addr 0x6eda774, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetSpectrumData, addr 0x6edb854, size 0x4, virtual false, abstract: false, final false
   static inline void GetSpectrumData(::ArrayW<float_t> samples, int32_t channel, ::UnityEngine::FFTWindow window);
 
   /// [NativeThrows]
-  /// @brief Method GetSpectrumDataHelper, addr 0x6eda2bc, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetSpectrumDataHelper, addr 0x6edb39c, size 0x12c, virtual false, abstract: false, final false
   static inline void GetSpectrumDataHelper(::ArrayW<float_t> samples, int32_t channel, ::UnityEngine::FFTWindow window);
 
-  /// @brief Method GetSpectrumDataHelper_Injected, addr 0x6eda3e8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetSpectrumDataHelper_Injected, addr 0x6edb4c8, size 0x54, virtual false, abstract: false, final false
   static inline void GetSpectrumDataHelper_Injected(::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> samples, int32_t channel, ::UnityEngine::FFTWindow window);
 
   static inline ::UnityEngine::AudioListener* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6eda778, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6edb858, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pause, addr 0x6eda49c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_pause, addr 0x6edb57c, size 0x28, virtual false, abstract: false, final false
   static inline bool get_pause();
 
-  /// @brief Method get_velocityUpdateMode, addr 0x6eda500, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_velocityUpdateMode, addr 0x6edb5e0, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::AudioVelocityUpdateMode get_velocityUpdateMode();
 
-  /// @brief Method get_velocityUpdateMode_Injected, addr 0x6eda580, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_velocityUpdateMode_Injected, addr 0x6edb660, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::AudioVelocityUpdateMode get_velocityUpdateMode_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_volume, addr 0x6eda43c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_volume, addr 0x6edb51c, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_volume();
 
-  /// @brief Method set_pause, addr 0x6eda4c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_pause, addr 0x6edb5a4, size 0x3c, virtual false, abstract: false, final false
   static inline void set_pause(bool value);
 
-  /// @brief Method set_velocityUpdateMode, addr 0x6eda5bc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_velocityUpdateMode, addr 0x6edb69c, size 0x90, virtual false, abstract: false, final false
   inline void set_velocityUpdateMode(::UnityEngine::AudioVelocityUpdateMode value);
 
-  /// @brief Method set_velocityUpdateMode_Injected, addr 0x6eda64c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_velocityUpdateMode_Injected, addr 0x6edb72c, size 0x44, virtual false, abstract: false, final false
   static inline void set_velocityUpdateMode_Injected(::System::IntPtr _unity_self, ::UnityEngine::AudioVelocityUpdateMode value);
 
-  /// @brief Method set_volume, addr 0x6eda464, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_volume, addr 0x6edb544, size 0x38, virtual false, abstract: false, final false
   static inline void set_volume(float_t value);
 
 protected:
@@ -110,7 +110,7 @@ public:
   AudioListener(AudioListener const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20357 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20371 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

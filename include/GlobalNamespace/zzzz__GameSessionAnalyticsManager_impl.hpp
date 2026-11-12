@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameSessionAnalyticsManager::*)(bool)>(&::GlobalNamespace::GameSessionAnalyticsManager::OnApplicationFocus)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d008ac;
+  constexpr static std::size_t addrs = 0x5d000b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameSessionAnalyticsManager::*)(bool)>(&::GlobalNamespace::GameSessionAnalyticsManager::LogSessionEventOnFocus)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d008b8;
+  constexpr static std::size_t addrs = 0x5d000c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameSessionAnalyticsManager::*)()>(&::GlobalNamespace::GameSessionAnalyticsManager::LogSessionFinish)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5d00998;
+  constexpr static std::size_t addrs = 0x5d001a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameSessionAnalyticsManager*>(), { "LogSessionFinish", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameSessionAnalyticsManager::*)()>(&::GlobalNamespace::GameSessionAnalyticsManager::LogSessionStart)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5d008c4;
+  constexpr static std::size_t addrs = 0x5d000cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameSessionAnalyticsManager*>(), { "LogSessionStart", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameSessionAnalyticsManager::*)()>(&::GlobalNamespace::GameSessionAnalyticsManager::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d00a90;
+  constexpr static std::size_t addrs = 0x5d00298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameSessionAnalyticsManager*>(), { ".ctor", {}, {} })));

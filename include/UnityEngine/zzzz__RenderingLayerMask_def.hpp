@@ -34,45 +34,45 @@ public:
                       put = setStaticF__defaultRenderingLayerMask_k__BackingField)) ::UnityEngine::RenderingLayerMask _defaultRenderingLayerMask_k__BackingField;
 
   /// [StaticAccessor("GetTagManager()", (UnityEngine.Bindings.StaticAccessorType)0)]
-  /// @brief Method GetDefinedRenderingLayerCount, addr 0x6f6f8c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetDefinedRenderingLayerCount, addr 0x6f709a0, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetDefinedRenderingLayerCount();
 
   /// [StaticAccessor("GetTagManager()", (UnityEngine.Bindings.StaticAccessorType)0)]
-  /// @brief Method GetDefinedRenderingLayerNames, addr 0x6f6f910, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetDefinedRenderingLayerNames, addr 0x6f709f0, size 0x28, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> GetDefinedRenderingLayerNames();
 
   /// [StaticAccessor("GetTagManager()", (UnityEngine.Bindings.StaticAccessorType)0)]
-  /// @brief Method GetDefinedRenderingLayersCombinedMaskValue, addr 0x6f6f8e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetDefinedRenderingLayersCombinedMaskValue, addr 0x6f709c8, size 0x28, virtual false, abstract: false, final false
   static inline uint32_t GetDefinedRenderingLayersCombinedMaskValue();
 
   /// [StaticAccessor("GetTagManager()", (UnityEngine.Bindings.StaticAccessorType)0)]
-  /// @brief Method GetRenderingLayerCount, addr 0x6f6f938, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetRenderingLayerCount, addr 0x6f70a18, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetRenderingLayerCount();
 
   /// [NativeMethod("RenderingLayerToString")]
   /// [StaticAccessor("GetTagManager()", (UnityEngine.Bindings.StaticAccessorType)0)]
-  /// @brief Method RenderingLayerToName, addr 0x6f6f774, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method RenderingLayerToName, addr 0x6f70854, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW RenderingLayerToName(int32_t layer);
 
-  /// @brief Method RenderingLayerToName_Injected, addr 0x6f6f87c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RenderingLayerToName_Injected, addr 0x6f7095c, size 0x44, virtual false, abstract: false, final false
   static inline void RenderingLayerToName_Injected(int32_t layer, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
   static inline ::UnityEngine::RenderingLayerMask getStaticF__defaultRenderingLayerMask_k__BackingField();
 
   /// [CompilerGenerated]
-  /// @brief Method get_defaultRenderingLayerMask, addr 0x6f6f708, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_defaultRenderingLayerMask, addr 0x6f707e8, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::RenderingLayerMask get_defaultRenderingLayerMask();
 
-  /// @brief Method op_Implicit, addr 0x6f6f770, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6f70850, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::RenderingLayerMask op_Implicit___UnityEngine__RenderingLayerMask(int32_t intVal);
 
-  /// @brief Method op_Implicit, addr 0x6f6f768, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6f70848, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::RenderingLayerMask op_Implicit___UnityEngine__RenderingLayerMask(uint32_t intVal);
 
-  /// @brief Method op_Implicit, addr 0x6f6f76c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6f7084c, size 0x4, virtual false, abstract: false, final false
   static inline int32_t op_Implicit_int32_t(::UnityEngine::RenderingLayerMask mask);
 
-  /// @brief Method op_Implicit, addr 0x6f6f764, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6f70844, size 0x4, virtual false, abstract: false, final false
   static inline uint32_t op_Implicit_uint32_t(::UnityEngine::RenderingLayerMask mask);
 
   static inline void setStaticF__defaultRenderingLayerMask_k__BackingField(::UnityEngine::RenderingLayerMask value);

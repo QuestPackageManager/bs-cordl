@@ -97,7 +97,7 @@ namespace UnityEngine::Rendering::Universal {
 struct CORDL_TYPE UniversalCameraHistory_Item {
 public:
   // Declarations
-  /// @brief Method Reset, addr 0x6d3e158, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6d3f238, size 0x2c, virtual false, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters []
@@ -174,10 +174,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPerFrameHistoryAccessTracker"
   constexpr operator ::UnityEngine::Rendering::IPerFrameHistoryAccessTracker*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6d3d628, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6d3e708, size 0x90, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GatherHistoryRequests, addr 0x6d3e184, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GatherHistoryRequests, addr 0x6d3f264, size 0x20, virtual false, abstract: false, final false
   inline void GatherHistoryRequests();
 
   /// @brief Method GetHistoryForRead, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -195,10 +195,10 @@ public:
     requires(::cordl_internals::type_constraint<Type, ::UnityEngine::Rendering::ContextItem*>)
   inline bool IsAccessRequested();
 
-  /// @brief Method IsValid, addr 0x6d3e1e4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6d3f2c4, size 0x40, virtual false, abstract: false, final false
   inline bool IsValid(int32_t i);
 
-  /// @brief Method IsValidRequest, addr 0x6d3e1a4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method IsValidRequest, addr 0x6d3f284, size 0x40, virtual false, abstract: false, final false
   inline bool IsValidRequest(int32_t i);
 
   /// @brief Method IsWritten, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -208,7 +208,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::UniversalCameraHistory* New_ctor();
 
-  /// @brief Method ReleaseUnusedHistory, addr 0x6d3e224, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ReleaseUnusedHistory, addr 0x6d3f304, size 0xbc, virtual false, abstract: false, final false
   inline void ReleaseUnusedHistory();
 
   /// @brief Method RequestAccess, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -216,7 +216,7 @@ public:
     requires(::cordl_internals::type_constraint<Type, ::UnityEngine::Rendering::ContextItem*>)
   inline void RequestAccess();
 
-  /// @brief Method SwapAndSetReferenceSize, addr 0x6d3e2e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SwapAndSetReferenceSize, addr 0x6d3f3c0, size 0x18, virtual false, abstract: false, final false
   inline void SwapAndSetReferenceSize(int32_t cameraWidth, int32_t cameraHeight);
 
   constexpr ::UnityEngine::Rendering::ICameraHistoryReadAccess_HistoryRequestDelegate* const& __cordl_internal_get_OnGatherHistoryRequests() const;
@@ -243,11 +243,11 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6d3d70c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d3e7ec, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_OnGatherHistoryRequests, addr 0x6d3e000, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_OnGatherHistoryRequests, addr 0x6d3f0e0, size 0xac, virtual true, abstract: false, final true
   inline void add_OnGatherHistoryRequests(::UnityEngine::Rendering::ICameraHistoryReadAccess_HistoryRequestDelegate* value);
 
   static inline uint32_t getStaticF_s_TypeCount();
@@ -265,7 +265,7 @@ public:
   constexpr ::UnityEngine::Rendering::IPerFrameHistoryAccessTracker* i___UnityEngine__Rendering__IPerFrameHistoryAccessTracker() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_OnGatherHistoryRequests, addr 0x6d3e0ac, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_OnGatherHistoryRequests, addr 0x6d3f18c, size 0xac, virtual true, abstract: false, final true
   inline void remove_OnGatherHistoryRequests(::UnityEngine::Rendering::ICameraHistoryReadAccess_HistoryRequestDelegate* value);
 
   static inline void setStaticF_s_TypeCount(uint32_t value);

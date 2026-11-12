@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LightConstants_BakeId (::GlobalNamespace::LightmapLightsWithIds_LightIntensitiesWithId::*)()>(
     &::GlobalNamespace::LightmapLightsWithIds_LightIntensitiesWithId::get_bakeId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cbe224;
+  constexpr static std::size_t addrs = 0x5cbcb84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::LightmapLightsWithIds_LightIntensitiesWithId::*)()>(
     &::GlobalNamespace::LightmapLightsWithIds_LightIntensitiesWithId::get_intensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cbe22c;
+  constexpr static std::size_t addrs = 0x5cbcb8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightmapLightsWithIds_LightIntensitiesWithId::*)(float_t)>(
     &::GlobalNamespace::LightmapLightsWithIds_LightIntensitiesWithId::set_intensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cbe234;
+  constexpr static std::size_t addrs = 0x5cbcb94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::LightmapLightsWithIds_LightIntensitiesWithId::*)()>(
     &::GlobalNamespace::LightmapLightsWithIds_LightIntensitiesWithId::get_weight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cbe23c;
+  constexpr static std::size_t addrs = 0x5cbcb9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightmapLightsWithIds_LightIntensitiesWithId::*)(float_t)>(
     &::GlobalNamespace::LightmapLightsWithIds_LightIntensitiesWithId::set_weight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cbe244;
+  constexpr static std::size_t addrs = 0x5cbcba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,8 +83,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightmapLightsWithIds_LightIntensitiesWithId::*)(::UnityEngine::Color, ::UnityEngine::Color)>(
     &::GlobalNamespace::LightmapLightsWithIds_LightIntensitiesWithId::SetDataToShaders)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5cbe120;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x5cbcbac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,8 +98,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightmapLightsWithIds_LightIntensitiesWithId::*)()>(
     &::GlobalNamespace::LightmapLightsWithIds_LightIntensitiesWithId::_ctor)> {
-  constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x5cbe24c;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5cbcca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightmapLightsWithIds_LightIntensitiesWithId*>(), { ".ctor", {}, {} })));
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::LightmapLightsWithIds::*)()>(&::GlobalNamespace::LightmapLightsWithIds::get_maxTotalIntensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cbde88;
+  constexpr static std::size_t addrs = 0x5cbc744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightmapLightsWithIds*>(), { "get_maxTotalIntensity", {}, {} })));
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightmapLightsWithIds::*)(float_t)>(&::GlobalNamespace::LightmapLightsWithIds::set_maxTotalIntensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cbde90;
+  constexpr static std::size_t addrs = 0x5cbc74c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,8 +247,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightmapLightsWithIds::*)()>(&::GlobalNamespace::LightmapLightsWithIds::ProcessNewColorData)> {
-  constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x5cbde98;
+  constexpr static std::size_t size = 0x28c;
+  constexpr static std::size_t addrs = 0x5cbc754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds_LightWithId*>* (::GlobalNamespace::LightmapLightsWithIds::*)()>(
     &::GlobalNamespace::LightmapLightsWithIds::GetLightWithIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cbe210;
+  constexpr static std::size_t addrs = 0x5cbc9e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -274,8 +274,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightmapLightsWithIds::*)()>(&::GlobalNamespace::LightmapLightsWithIds::_ctor)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5cbe218;
+  constexpr static std::size_t size = 0x19c;
+  constexpr static std::size_t addrs = 0x5cbc9e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightmapLightsWithIds*>(), { ".ctor", {}, {} })));

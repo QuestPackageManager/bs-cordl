@@ -30,16 +30,16 @@ public:
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::Newtonsoft::Json::Linq::JToken*>*() noexcept;
 
   /// [NullableContext(2)]
-  /// @brief Method Equals, addr 0x61dc464, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x61dc6ec, size 0x9c, virtual true, abstract: false, final true
   inline bool Equals(::Newtonsoft::Json::Linq::JToken* x, ::Newtonsoft::Json::Linq::JToken* y);
 
   /// [NullableContext(1)]
-  /// @brief Method GetHashCode, addr 0x61dc500, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x61dc788, size 0x24, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::Newtonsoft::Json::Linq::JToken* obj);
 
   static inline ::Newtonsoft::Json::Linq::JTokenEqualityComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x61dc524, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61dc7ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::Newtonsoft::Json::Linq::JToken*>"

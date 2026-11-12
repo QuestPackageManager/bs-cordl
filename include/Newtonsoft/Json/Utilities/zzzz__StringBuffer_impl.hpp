@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Newtonsoft::Json::Utilities::StringBuffer::*)()>(&::Newtonsoft::Json::Utilities::StringBuffer::get_Position)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6189c58;
+  constexpr static std::size_t addrs = 0x6189ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::StringBuffer>(), { "get_Position", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::StringBuffer::*)(int32_t)>(&::Newtonsoft::Json::Utilities::StringBuffer::set_Position)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6189c60;
+  constexpr static std::size_t addrs = 0x6189ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Utilities::StringBuffer::*)()>(&::Newtonsoft::Json::Utilities::StringBuffer::get_IsEmpty)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6189c68;
+  constexpr static std::size_t addrs = 0x6189ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::StringBuffer>(), { "get_IsEmpty", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::StringBuffer::*)(::Newtonsoft::Json::IArrayPool_1<char16_t>*, int32_t)>(
     &::Newtonsoft::Json::Utilities::StringBuffer::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6189c78;
+  constexpr static std::size_t addrs = 0x6189f00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::StringBuffer::*)(::ArrayW<char16_t>)>(&::Newtonsoft::Json::Utilities::StringBuffer::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6189ca0;
+  constexpr static std::size_t addrs = 0x6189f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::StringBuffer::*)(::Newtonsoft::Json::IArrayPool_1<char16_t>*, char16_t)>(
     &::Newtonsoft::Json::Utilities::StringBuffer::Append)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6189cac;
+  constexpr static std::size_t addrs = 0x6189f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::StringBuffer::*)(::Newtonsoft::Json::IArrayPool_1<char16_t>*, ::ArrayW<char16_t>, int32_t, int32_t)>(
     &::Newtonsoft::Json::Utilities::StringBuffer::Append)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6189d94;
+  constexpr static std::size_t addrs = 0x618a01c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::StringBuffer::*)(::Newtonsoft::Json::IArrayPool_1<char16_t>*)>(
     &::Newtonsoft::Json::Utilities::StringBuffer::Clear)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6189e14;
+  constexpr static std::size_t addrs = 0x618a09c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::StringBuffer::*)(::Newtonsoft::Json::IArrayPool_1<char16_t>*, int32_t)>(
     &::Newtonsoft::Json::Utilities::StringBuffer::EnsureSize)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6189d28;
+  constexpr static std::size_t addrs = 0x6189fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Newtonsoft::Json::Utilities::StringBuffer::*)()>(&::Newtonsoft::Json::Utilities::StringBuffer::ToString)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6189e44;
+  constexpr static std::size_t addrs = 0x618a0cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Newtonsoft::Json::Utilities::StringBuffer::*)(int32_t, int32_t)>(&::Newtonsoft::Json::Utilities::StringBuffer::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6189e54;
+  constexpr static std::size_t addrs = 0x618a0dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<char16_t> (::Newtonsoft::Json::Utilities::StringBuffer::*)()>(&::Newtonsoft::Json::Utilities::StringBuffer::get_InternalBuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6189e5c;
+  constexpr static std::size_t addrs = 0x618a0e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::StringBuffer>(), { "get_InternalBuffer", {}, {} })));

@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X9ECPoint::*)(::Org::BouncyCastle::Math::EC::ECPoint*)>(&::Org::BouncyCastle::Asn1::X9::X9ECPoint::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x392aaf8;
+  constexpr static std::size_t addrs = 0x392ef90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X9ECPoint::*)(::Org::BouncyCastle::Math::EC::ECPoint*, bool)>(
     &::Org::BouncyCastle::Asn1::X9::X9ECPoint::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x392b2e8;
+  constexpr static std::size_t addrs = 0x392f780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X9::X9ECPoint*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X9ECPoint::*)(::Org::BouncyCastle::Math::EC::ECCurve*, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Asn1::X9::X9ECPoint::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3924480;
+  constexpr static std::size_t addrs = 0x3928918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X9ECPoint::*)(::Org::BouncyCastle::Math::EC::ECCurve*, ::Org::BouncyCastle::Asn1::Asn1OctetString*)>(
     &::Org::BouncyCastle::Asn1::X9::X9ECPoint::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x392aa04;
+  constexpr static std::size_t addrs = 0x392ee9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Asn1::X9::X9ECPoint::*)()>(&::Org::BouncyCastle::Asn1::X9::X9ECPoint::GetPointEncoding)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x392b398;
+  constexpr static std::size_t addrs = 0x392f830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X9::X9ECPoint*>(), { "GetPointEncoding", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Asn1::X9::X9ECPoint::*)()>(&::Org::BouncyCastle::Asn1::X9::X9ECPoint::get_Point)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x392452c;
+  constexpr static std::size_t addrs = 0x39289c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X9::X9ECPoint*>(), { "get_Point", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Asn1::X9::X9ECPoint::*)()>(&::Org::BouncyCastle::Asn1::X9::X9ECPoint::get_IsPointCompressed)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x392b414;
+  constexpr static std::size_t addrs = 0x392f8ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X9::X9ECPoint*>(), { "get_IsPointCompressed", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X9::X9ECPoint::*)()>(
     &::Org::BouncyCastle::Asn1::X9::X9ECPoint::ToAsn1Object)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x392b460;
+  constexpr static std::size_t addrs = 0x392f8f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

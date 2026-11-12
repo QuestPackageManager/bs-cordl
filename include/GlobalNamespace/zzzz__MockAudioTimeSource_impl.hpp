@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::MockAudioTimeSource::*)()>(&::GlobalNamespace::MockAudioTimeSource::get_songTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d07a58;
+  constexpr static std::size_t addrs = 0x5d07290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockAudioTimeSource*>(), { "get_songTime", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockAudioTimeSource::*)(float_t)>(&::GlobalNamespace::MockAudioTimeSource::set_songTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d07a60;
+  constexpr static std::size_t addrs = 0x5d07298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::MockAudioTimeSource::*)()>(&::GlobalNamespace::MockAudioTimeSource::get_lastFrameDeltaSongTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d07a68;
+  constexpr static std::size_t addrs = 0x5d072a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockAudioTimeSource*>(), { "get_lastFrameDeltaSongTime", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockAudioTimeSource::*)(float_t)>(&::GlobalNamespace::MockAudioTimeSource::set_lastFrameDeltaSongTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d07a70;
+  constexpr static std::size_t addrs = 0x5d072a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::MockAudioTimeSource::*)()>(&::GlobalNamespace::MockAudioTimeSource::get_songEndTime)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d07a78;
+  constexpr static std::size_t addrs = 0x5d072b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockAudioTimeSource*>(), { "get_songEndTime", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::MockAudioTimeSource::*)()>(&::GlobalNamespace::MockAudioTimeSource::get_songLength)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d07a84;
+  constexpr static std::size_t addrs = 0x5d072bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockAudioTimeSource*>(), { "get_songLength", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::MockAudioTimeSource::*)()>(&::GlobalNamespace::MockAudioTimeSource::get_timeScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d07a90;
+  constexpr static std::size_t addrs = 0x5d072c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockAudioTimeSource*>(), { "get_timeScale", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockAudioTimeSource::*)()>(&::GlobalNamespace::MockAudioTimeSource::get_isReady)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d07a98;
+  constexpr static std::size_t addrs = 0x5d072d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockAudioTimeSource*>(), { "get_isReady", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IAudioTimeSource_State (::GlobalNamespace::MockAudioTimeSource::*)()>(&::GlobalNamespace::MockAudioTimeSource::get_state)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d07aa0;
+  constexpr static std::size_t addrs = 0x5d072d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockAudioTimeSource*>(), { "get_state", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockAudioTimeSource::*)()>(&::GlobalNamespace::MockAudioTimeSource::Update)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5d07aa8;
+  constexpr static std::size_t addrs = 0x5d072e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockAudioTimeSource*>(), { "Update", {}, {} })));
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockAudioTimeSource::*)()>(&::GlobalNamespace::MockAudioTimeSource::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d07b14;
+  constexpr static std::size_t addrs = 0x5d0734c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockAudioTimeSource*>(), { ".ctor", {}, {} })));

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, int32_t)>(&::System::Globalization::CharUnicodeInfo::InternalConvertToUtf32)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5fe8928;
+  constexpr static std::size_t addrs = 0x5fe8bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, int32_t, ::by_ref<int32_t>)>(&::System::Globalization::CharUnicodeInfo::InternalConvertToUtf32)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5fe89bc;
+  constexpr static std::size_t addrs = 0x5fe8c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::UnicodeCategory (*)(char16_t)>(&::System::Globalization::CharUnicodeInfo::GetUnicodeCategory)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5fe8a60;
+  constexpr static std::size_t addrs = 0x5fe8ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::UnicodeCategory (*)(::StringW, int32_t)>(&::System::Globalization::CharUnicodeInfo::GetUnicodeCategory)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5fe8a94;
+  constexpr static std::size_t addrs = 0x5fe8d1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::UnicodeCategory (*)(int32_t)>(&::System::Globalization::CharUnicodeInfo::GetUnicodeCategory)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5fe8a7c;
+  constexpr static std::size_t addrs = 0x5fe8d04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (*)(int32_t, int32_t)>(&::System::Globalization::CharUnicodeInfo::InternalGetCategoryValue)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5fe8b58;
+  constexpr static std::size_t addrs = 0x5fe8de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::UnicodeCategory (*)(::StringW, int32_t)>(&::System::Globalization::CharUnicodeInfo::InternalGetUnicodeCategory)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5fe8b3c;
+  constexpr static std::size_t addrs = 0x5fe8dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::CharUnicodeInfo*>(),
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::UnicodeCategory (*)(::StringW, int32_t, ::by_ref<int32_t>)>(
     &::System::Globalization::CharUnicodeInfo::InternalGetUnicodeCategory)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5fe8d74;
+  constexpr static std::size_t addrs = 0x5fe8ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Globalization::UnicodeCategory)>(&::System::Globalization::CharUnicodeInfo::IsCombiningCategory)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5fe8d90;
+  constexpr static std::size_t addrs = 0x5fe9018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, int32_t)>(&::System::Globalization::CharUnicodeInfo::IsWhiteSpace)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5fe8da0;
+  constexpr static std::size_t addrs = 0x5fe9028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::Globalization::CharUnicodeInfo::IsWhiteSpace)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5fe8dbc;
+  constexpr static std::size_t addrs = 0x5fe9044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<uint8_t> (*)()>(&::System::Globalization::CharUnicodeInfo::get_CategoryLevel1Index)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5fe8c04;
+  constexpr static std::size_t addrs = 0x5fe8e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::CharUnicodeInfo*>(), { "get_CategoryLevel1Index", {}, {} })));
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<uint8_t> (*)()>(&::System::Globalization::CharUnicodeInfo::get_CategoryLevel2Index)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5fe8c60;
+  constexpr static std::size_t addrs = 0x5fe8ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::CharUnicodeInfo*>(), { "get_CategoryLevel2Index", {}, {} })));
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<uint8_t> (*)()>(&::System::Globalization::CharUnicodeInfo::get_CategoryLevel3Index)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5fe8cbc;
+  constexpr static std::size_t addrs = 0x5fe8f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::CharUnicodeInfo*>(), { "get_CategoryLevel3Index", {}, {} })));
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<uint8_t> (*)()>(&::System::Globalization::CharUnicodeInfo::get_CategoriesValue)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5fe8d18;
+  constexpr static std::size_t addrs = 0x5fe8fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::CharUnicodeInfo*>(), { "get_CategoriesValue", {}, {} })));

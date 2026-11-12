@@ -42,24 +42,24 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceDataEXT>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceDataEXT>*();
 
-  /// @brief Method Equals, addr 0x6e81a54, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6e82b34, size 0xa0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6e81a18, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6e82af8, size 0x3c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceDataEXT other);
 
-  /// @brief Method GetHashCode, addr 0x6e81af4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6e82bd4, size 0x84, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6e81a0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e82aec, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::OpenXR::NativeTypes::XrUuid persistUuid, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceStateEXT persistState);
 
   /// [CompilerGenerated]
-  /// @brief Method get_persistState, addr 0x6e81a04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_persistState, addr 0x6e82ae4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceStateEXT get_persistState();
 
   /// [CompilerGenerated]
-  /// @brief Method get_persistUuid, addr 0x6e819f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_persistUuid, addr 0x6e82ad8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrUuid get_persistUuid();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceDataEXT>"
@@ -76,7 +76,7 @@ public:
                                         ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceStateEXT _persistState_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17616 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17624 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

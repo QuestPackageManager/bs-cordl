@@ -97,55 +97,55 @@ public:
 
   constexpr void __cordl_internal_set_serverKey(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3a09834, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0e8bc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(bool succeeded, ::StringW playerId, ::StringW playerName, ::StringW playerKey, ::StringW authType, ::StringW playerFriends);
 
   /// [CompilerGenerated]
-  /// @brief Method get_authType, addr 0x3a09804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_authType, addr 0x3a0e88c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_authType();
 
   /// [CompilerGenerated]
-  /// @brief Method get_playerFriends, addr 0x3a09814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerFriends, addr 0x3a0e89c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerFriends();
 
   /// [CompilerGenerated]
-  /// @brief Method get_playerId, addr 0x3a097d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerId, addr 0x3a0e85c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerId();
 
   /// [CompilerGenerated]
-  /// @brief Method get_playerKey, addr 0x3a097f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerKey, addr 0x3a0e87c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerKey();
 
   /// [CompilerGenerated]
-  /// @brief Method get_playerName, addr 0x3a097e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerName, addr 0x3a0e86c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerName();
 
   /// [CompilerGenerated]
-  /// @brief Method get_succeeded, addr 0x3a09824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_succeeded, addr 0x3a0e8ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_succeeded();
 
   /// [CompilerGenerated]
-  /// @brief Method set_authType, addr 0x3a0980c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_authType, addr 0x3a0e894, size 0x8, virtual false, abstract: false, final false
   inline void set_authType(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_playerFriends, addr 0x3a0981c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerFriends, addr 0x3a0e8a4, size 0x8, virtual false, abstract: false, final false
   inline void set_playerFriends(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_playerId, addr 0x3a097dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerId, addr 0x3a0e864, size 0x8, virtual false, abstract: false, final false
   inline void set_playerId(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_playerKey, addr 0x3a097fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerKey, addr 0x3a0e884, size 0x8, virtual false, abstract: false, final false
   inline void set_playerKey(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_playerName, addr 0x3a097ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerName, addr 0x3a0e874, size 0x8, virtual false, abstract: false, final false
   inline void set_playerName(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_succeeded, addr 0x3a0982c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_succeeded, addr 0x3a0e8b4, size 0x8, virtual false, abstract: false, final false
   inline void set_succeeded(bool value);
 
 protected:
@@ -163,7 +163,7 @@ public:
   LeaderboardPlayerInfo(LeaderboardPlayerInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14750 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14758 };
 
   /// @brief Field serverKey, offset: 0x10, size: 0x8, def value: None
   ::StringW ___serverKey;

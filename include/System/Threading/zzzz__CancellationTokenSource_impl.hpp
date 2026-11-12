@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::LinkedNCancellationTokenSource_CancellationTokenSource___c::*)()>(
     &::System::Threading::LinkedNCancellationTokenSource_CancellationTokenSource___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6103b64;
+  constexpr static std::size_t addrs = 0x6103dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::LinkedNCancellationTokenSource_CancellationTokenSource___c::*)(::System::Object*)>(
     &::System::Threading::LinkedNCancellationTokenSource_CancellationTokenSource___c::__cctor_b__4_0)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6103b68;
+  constexpr static std::size_t addrs = 0x6103df0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::LinkedNCancellationTokenSource_CancellationTokenSource___c*>(),
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::CancellationTokenSource::*)()>(&::System::Threading::CancellationTokenSource::get_IsCancellationRequested)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x60ff8e8;
+  constexpr static std::size_t addrs = 0x60ffb70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::CancellationTokenSource::*)()>(&::System::Threading::CancellationTokenSource::get_IsCancellationCompleted)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6101e08;
+  constexpr static std::size_t addrs = 0x6102090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::CancellationTokenSource::*)()>(&::System::Threading::CancellationTokenSource::get_IsDisposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61020ec;
+  constexpr static std::size_t addrs = 0x6102374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::CancellationTokenSource*>(), { "get_IsDisposed", {}, {} })));
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Threading::CancellationTokenSource::*)()>(&::System::Threading::CancellationTokenSource::get_ThreadIDExecutingCallbacks)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6101e1c;
+  constexpr static std::size_t addrs = 0x61020a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::CancellationTokenSource::*)(int32_t)>(
     &::System::Threading::CancellationTokenSource::set_ThreadIDExecutingCallbacks)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x61020f4;
+  constexpr static std::size_t addrs = 0x610237c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::CancellationToken (::System::Threading::CancellationTokenSource::*)()>(
     &::System::Threading::CancellationTokenSource::get_Token)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6102100;
+  constexpr static std::size_t addrs = 0x6102388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::CancellationTokenSource*>(), { "get_Token", {}, {} })));
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::CancellationCallbackInfo* (::System::Threading::CancellationTokenSource::*)()>(
     &::System::Threading::CancellationTokenSource::get_ExecutingCallback)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6102178;
+  constexpr static std::size_t addrs = 0x6102400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::CancellationTokenSource*>(), { "get_ExecutingCallback", {}, {} })));
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::CancellationTokenSource::*)()>(&::System::Threading::CancellationTokenSource::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6102184;
+  constexpr static std::size_t addrs = 0x610240c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::CancellationTokenSource*>(), { ".ctor", {}, {} })));
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::CancellationTokenSource::*)(::System::TimeSpan)>(&::System::Threading::CancellationTokenSource::_ctor)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x61021a0;
+  constexpr static std::size_t addrs = 0x6102428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::CancellationTokenSource::*)(int32_t)>(&::System::Threading::CancellationTokenSource::InitializeWithTimer)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x61022b0;
+  constexpr static std::size_t addrs = 0x6102538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::CancellationTokenSource::*)()>(&::System::Threading::CancellationTokenSource::Cancel)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6102368;
+  constexpr static std::size_t addrs = 0x61025f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::CancellationTokenSource*>(), { "Cancel", {}, {} })));
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::CancellationTokenSource::*)(bool)>(&::System::Threading::CancellationTokenSource::Cancel)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6102384;
+  constexpr static std::size_t addrs = 0x610260c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::CancellationTokenSource::*)(::System::TimeSpan)>(&::System::Threading::CancellationTokenSource::CancelAfter)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6102444;
+  constexpr static std::size_t addrs = 0x61026cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::CancellationTokenSource::*)(int32_t)>(&::System::Threading::CancellationTokenSource::CancelAfter)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x6102548;
+  constexpr static std::size_t addrs = 0x61027d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -256,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::System::Threading::CancellationTokenSource::TimerCallbackLogic)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6102734;
+  constexpr static std::size_t addrs = 0x61029bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -269,7 +269,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::CancellationTokenSource::*)()>(&::System::Threading::CancellationTokenSource::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6102854;
+  constexpr static std::size_t addrs = 0x6102adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::CancellationTokenSource*>(), { "Dispose", {}, {} })));
@@ -281,7 +281,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::CancellationTokenSource::*)(bool)>(&::System::Threading::CancellationTokenSource::Dispose)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x61028c4;
+  constexpr static std::size_t addrs = 0x6102b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -294,7 +294,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::CancellationTokenSource::*)()>(&::System::Threading::CancellationTokenSource::ThrowIfDisposed)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6102118;
+  constexpr static std::size_t addrs = 0x61023a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::CancellationTokenSource*>(), { "ThrowIfDisposed", {}, {} })));
@@ -306,7 +306,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Threading::CancellationTokenSource::ThrowObjectDisposedException)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6102940;
+  constexpr static std::size_t addrs = 0x6102bc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -321,7 +321,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Canc
     ::System::Action_1<::System::Object*>*, ::System::Object*, ::System::Threading::SynchronizationContext*, ::System::Threading::ExecutionContext*)>(
     &::System::Threading::CancellationTokenSource::InternalRegister)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x60ffdb4;
+  constexpr static std::size_t addrs = 0x610003c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -338,7 +338,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::CancellationTokenSource::*)(bool)>(&::System::Threading::CancellationTokenSource::NotifyCancellation)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x61023ac;
+  constexpr static std::size_t addrs = 0x6102634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -351,7 +351,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::CancellationTokenSource::*)(bool)>(&::System::Threading::CancellationTokenSource::ExecuteCallbackHandlers)> {
   constexpr static std::size_t size = 0x4b8;
-  constexpr static std::size_t addrs = 0x61029ac;
+  constexpr static std::size_t addrs = 0x6102c34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -365,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::CancellationTokenSource::*)(::System::Object*)>(
     &::System::Threading::CancellationTokenSource::CancellationCallbackCoreWork_OnSyncContext)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6102f2c;
+  constexpr static std::size_t addrs = 0x61031b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::CancellationTokenSource*>(),
@@ -379,7 +379,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::CancellationTokenSource::*)(::System::Threading::CancellationCallbackCoreWorkArguments)>(
     &::System::Threading::CancellationTokenSource::CancellationCallbackCoreWork)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6102e70;
+  constexpr static std::size_t addrs = 0x61030f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -394,7 +394,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::CancellationTokenSource* (*)(::System::Threading::CancellationToken, ::System::Threading::CancellationToken)>(
     &::System::Threading::CancellationTokenSource::CreateLinkedTokenSource)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x61030b0;
+  constexpr static std::size_t addrs = 0x6103338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -410,7 +410,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::CancellationTokenSource* (*)(::System::Threading::CancellationToken)>(
     &::System::Threading::CancellationTokenSource::CreateLinkedTokenSource)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x61033f4;
+  constexpr static std::size_t addrs = 0x610367c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::CancellationTokenSource*>(),
@@ -424,7 +424,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::CancellationTokenSource* (*)(::ArrayW<::System::Threading::CancellationToken>)>(
     &::System::Threading::CancellationTokenSource::CreateLinkedTokenSource)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x61034c0;
+  constexpr static std::size_t addrs = 0x6103748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::CancellationTokenSource*>(),
@@ -438,7 +438,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::CancellationTokenSource::*)(::System::Threading::CancellationCallbackInfo*)>(
     &::System::Threading::CancellationTokenSource::WaitForCallbackToComplete)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6101e28;
+  constexpr static std::size_t addrs = 0x61020b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::CancellationTokenSource*>(),

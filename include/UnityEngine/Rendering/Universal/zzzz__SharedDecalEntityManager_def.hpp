@@ -38,30 +38,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6d23c90, size 0x1e4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6d24d70, size 0x1e4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Get, addr 0x6d239b4, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x6d24a94, size 0x2c0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DecalEntityManager* Get();
 
   static inline ::UnityEngine::Rendering::Universal::SharedDecalEntityManager* New_ctor();
 
-  /// @brief Method OnAllDecalPropertyChange, addr 0x6d23f50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnAllDecalPropertyChange, addr 0x6d25030, size 0x18, virtual false, abstract: false, final false
   inline void OnAllDecalPropertyChange();
 
-  /// @brief Method OnDecalAdd, addr 0x6d23e74, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method OnDecalAdd, addr 0x6d24f54, size 0x58, virtual false, abstract: false, final false
   inline void OnDecalAdd(::UnityEngine::Rendering::Universal::DecalProjector* decalProjector);
 
-  /// @brief Method OnDecalMaterialChange, addr 0x6d23f68, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnDecalMaterialChange, addr 0x6d25048, size 0x28, virtual false, abstract: false, final false
   inline void OnDecalMaterialChange(::UnityEngine::Rendering::Universal::DecalProjector* decalProjector);
 
-  /// @brief Method OnDecalPropertyChange, addr 0x6d23ef0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnDecalPropertyChange, addr 0x6d24fd0, size 0x60, virtual false, abstract: false, final false
   inline void OnDecalPropertyChange(::UnityEngine::Rendering::Universal::DecalProjector* decalProjector);
 
-  /// @brief Method OnDecalRemove, addr 0x6d23ecc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnDecalRemove, addr 0x6d24fac, size 0x24, virtual false, abstract: false, final false
   inline void OnDecalRemove(::UnityEngine::Rendering::Universal::DecalProjector* decalProjector);
 
-  /// @brief Method Release, addr 0x6d23c74, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x6d24d54, size 0x1c, virtual false, abstract: false, final false
   inline void Release(::UnityEngine::Rendering::Universal::DecalEntityManager* decalEntityManager);
 
   constexpr ::UnityEngine::Rendering::Universal::DecalEntityManager* const& __cordl_internal_get_m_DecalEntityManager() const;
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ReferenceCounter(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6d23f90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d25070, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"

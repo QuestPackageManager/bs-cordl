@@ -37,7 +37,7 @@ public:
   /// @brief [InputControl(noisy = true)]
   __declspec(property(get = get_deviceVelocity, put = set_deviceVelocity)) ::UnityEngine::InputSystem::Controls::Vector3Control* deviceVelocity;
 
-  /// @brief Method FinishSetup, addr 0x6936ac4, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x6937ba4, size 0xa8, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::Unity::XR::OpenVR::ViveTracker* New_ctor();
@@ -54,23 +54,23 @@ public:
 
   constexpr void __cordl_internal_set__deviceVelocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method .ctor, addr 0x6936b6c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6937c4c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_deviceAngularVelocity, addr 0x6936ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceAngularVelocity, addr 0x6937b94, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceAngularVelocity();
 
   /// [CompilerGenerated]
-  /// @brief Method get_deviceVelocity, addr 0x6936aa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceVelocity, addr 0x6937b84, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceVelocity();
 
   /// [CompilerGenerated]
-  /// @brief Method set_deviceAngularVelocity, addr 0x6936abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceAngularVelocity, addr 0x6937b9c, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_deviceVelocity, addr 0x6936aac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceVelocity, addr 0x6937b8c, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
 protected:

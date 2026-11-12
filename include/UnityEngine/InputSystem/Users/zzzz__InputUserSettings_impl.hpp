@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::Users::InputUserSettings::*)()>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::get_customBindings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69fa988;
+  constexpr static std::size_t addrs = 0x69fba68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserSettings::*)(::StringW)>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::set_customBindings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69fa990;
+  constexpr static std::size_t addrs = 0x69fba70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Users::InputUserSettings::*)()>(&::UnityEngine::InputSystem::Users::InputUserSettings::get_invertMouseX)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69fa998;
+  constexpr static std::size_t addrs = 0x69fba78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUserSettings*>(), { "get_invertMouseX", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserSettings::*)(bool)>(&::UnityEngine::InputSystem::Users::InputUserSettings::set_invertMouseX)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69fa9a0;
+  constexpr static std::size_t addrs = 0x69fba80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Users::InputUserSettings::*)()>(&::UnityEngine::InputSystem::Users::InputUserSettings::get_invertMouseY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69fa9a8;
+  constexpr static std::size_t addrs = 0x69fba88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUserSettings*>(), { "get_invertMouseY", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserSettings::*)(bool)>(&::UnityEngine::InputSystem::Users::InputUserSettings::set_invertMouseY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69fa9b0;
+  constexpr static std::size_t addrs = 0x69fba90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<float_t> (::UnityEngine::InputSystem::Users::InputUserSettings::*)()>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::get_mouseSmoothing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69fa9b8;
+  constexpr static std::size_t addrs = 0x69fba98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserSettings::*)(::System::Nullable_1<float_t>)>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::set_mouseSmoothing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69fa9c0;
+  constexpr static std::size_t addrs = 0x69fbaa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<float_t> (::UnityEngine::InputSystem::Users::InputUserSettings::*)()>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::get_mouseSensitivity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69fa9c8;
+  constexpr static std::size_t addrs = 0x69fbaa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserSettings::*)(::System::Nullable_1<float_t>)>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::set_mouseSensitivity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69fa9d0;
+  constexpr static std::size_t addrs = 0x69fbab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUserSettings*>(),
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Users::InputUserSettings::*)()>(&::UnityEngine::InputSystem::Users::InputUserSettings::get_invertStickX)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69fa9d8;
+  constexpr static std::size_t addrs = 0x69fbab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUserSettings*>(), { "get_invertStickX", {}, {} })));
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserSettings::*)(bool)>(&::UnityEngine::InputSystem::Users::InputUserSettings::set_invertStickX)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69fa9e0;
+  constexpr static std::size_t addrs = 0x69fbac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Users::InputUserSettings::*)()>(&::UnityEngine::InputSystem::Users::InputUserSettings::get_invertStickY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69fa9e8;
+  constexpr static std::size_t addrs = 0x69fbac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUserSettings*>(), { "get_invertStickY", {}, {} })));
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserSettings::*)(bool)>(&::UnityEngine::InputSystem::Users::InputUserSettings::set_invertStickY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69fa9f0;
+  constexpr static std::size_t addrs = 0x69fbad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Users::InputUserSettings::*)()>(&::UnityEngine::InputSystem::Users::InputUserSettings::get_swapSticks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69fa9f8;
+  constexpr static std::size_t addrs = 0x69fbad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUserSettings*>(), { "get_swapSticks", {}, {} })));
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserSettings::*)(bool)>(&::UnityEngine::InputSystem::Users::InputUserSettings::set_swapSticks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69faa00;
+  constexpr static std::size_t addrs = 0x69fbae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -220,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Users::InputUserSettings::*)()>(&::UnityEngine::InputSystem::Users::InputUserSettings::get_swapBumpers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69faa08;
+  constexpr static std::size_t addrs = 0x69fbae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUserSettings*>(), { "get_swapBumpers", {}, {} })));
@@ -232,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserSettings::*)(bool)>(&::UnityEngine::InputSystem::Users::InputUserSettings::set_swapBumpers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69faa10;
+  constexpr static std::size_t addrs = 0x69fbaf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -245,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Users::InputUserSettings::*)()>(&::UnityEngine::InputSystem::Users::InputUserSettings::get_swapTriggers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69faa18;
+  constexpr static std::size_t addrs = 0x69fbaf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUserSettings*>(), { "get_swapTriggers", {}, {} })));
@@ -257,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserSettings::*)(bool)>(&::UnityEngine::InputSystem::Users::InputUserSettings::set_swapTriggers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69faa20;
+  constexpr static std::size_t addrs = 0x69fbb00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Users::InputUserSettings::*)()>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::get_swapDpadAndLeftStick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69faa28;
+  constexpr static std::size_t addrs = 0x69fbb08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserSettings::*)(bool)>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::set_swapDpadAndLeftStick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69faa30;
+  constexpr static std::size_t addrs = 0x69fbb10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::Users::InputUserSettings::*)()>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::get_vibrationStrength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69faa38;
+  constexpr static std::size_t addrs = 0x69fbb18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -313,7 +313,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserSettings::*)(float_t)>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::set_vibrationStrength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69faa40;
+  constexpr static std::size_t addrs = 0x69fbb20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -327,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserSettings::*)(::UnityEngine::InputSystem::IInputActionCollection*)>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::Apply)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69faa48;
+  constexpr static std::size_t addrs = 0x69fbb28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUserSettings*>(),
@@ -340,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserSettings::*)()>(&::UnityEngine::InputSystem::Users::InputUserSettings::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69faa4c;
+  constexpr static std::size_t addrs = 0x69fbb2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUserSettings*>(), { ".ctor", {}, {} })));

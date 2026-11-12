@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSelectionView::*)(::System::Action*)>(
     &::BeatSaber::AvatarCore::AvatarSelectionView::add_didPressEditButtonEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x35122e8;
+  constexpr static std::size_t addrs = 0x3514728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSelectionView::*)(::System::Action*)>(
     &::BeatSaber::AvatarCore::AvatarSelectionView::remove_didPressEditButtonEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3512394;
+  constexpr static std::size_t addrs = 0x35147d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSelectionView::*)(::System::Action*)>(
     &::BeatSaber::AvatarCore::AvatarSelectionView::add_didPressCreateButtonEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3512440;
+  constexpr static std::size_t addrs = 0x3514880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSelectionView::*)(::System::Action*)>(
     &::BeatSaber::AvatarCore::AvatarSelectionView::remove_didPressCreateButtonEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x35124ec;
+  constexpr static std::size_t addrs = 0x351492c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSelectionView::*)(::System::Action*)>(
     &::BeatSaber::AvatarCore::AvatarSelectionView::add_didPressPreferredButtonEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3512598;
+  constexpr static std::size_t addrs = 0x35149d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSelectionView::*)(::System::Action*)>(
     &::BeatSaber::AvatarCore::AvatarSelectionView::remove_didPressPreferredButtonEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3512644;
+  constexpr static std::size_t addrs = 0x3514a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RectTransform> (::BeatSaber::AvatarCore::AvatarSelectionView::*)()>(
     &::BeatSaber::AvatarCore::AvatarSelectionView::get_rectTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35126f0;
+  constexpr static std::size_t addrs = 0x3514b30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSelectionView*>(), { "get_rectTransform", {}, {} })));
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSelectionView::*)()>(&::BeatSaber::AvatarCore::AvatarSelectionView::Start)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x35126f8;
+  constexpr static std::size_t addrs = 0x3514b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSelectionView::*)(bool)>(&::BeatSaber::AvatarCore::AvatarSelectionView::SetPreferred)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x35128a0;
+  constexpr static std::size_t addrs = 0x3514ce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSelectionView::*)(bool)>(&::BeatSaber::AvatarCore::AvatarSelectionView::SetCreated)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3512950;
+  constexpr static std::size_t addrs = 0x3514d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSelectionView::*)()>(&::BeatSaber::AvatarCore::AvatarSelectionView::Activate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35129c4;
+  constexpr static std::size_t addrs = 0x3514e04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSelectionView::*)()>(&::BeatSaber::AvatarCore::AvatarSelectionView::Deactivate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35129c8;
+  constexpr static std::size_t addrs = 0x3514e08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSelectionView::*)()>(&::BeatSaber::AvatarCore::AvatarSelectionView::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x35129cc;
+  constexpr static std::size_t addrs = 0x3514e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSelectionView*>(), { ".ctor", {}, {} })));
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSelectionView::*)()>(&::BeatSaber::AvatarCore::AvatarSelectionView::_Start_b__20_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3512a28;
+  constexpr static std::size_t addrs = 0x3514e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSelectionView*>(), { "<Start>b__20_0", {}, {} })));
@@ -203,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSelectionView::*)()>(&::BeatSaber::AvatarCore::AvatarSelectionView::_Start_b__20_1)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3512a44;
+  constexpr static std::size_t addrs = 0x3514e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSelectionView*>(), { "<Start>b__20_1", {}, {} })));
@@ -215,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSelectionView::*)()>(&::BeatSaber::AvatarCore::AvatarSelectionView::_Start_b__20_2)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3512a60;
+  constexpr static std::size_t addrs = 0x3514ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSelectionView*>(), { "<Start>b__20_2", {}, {} })));

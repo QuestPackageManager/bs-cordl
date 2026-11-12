@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::OpenXRApiVersion* (*)()>(&::UnityEngine::XR::OpenXR::OpenXRApiVersion::get_Current)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6e6c968;
+  constexpr static std::size_t addrs = 0x6e6da48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRApiVersion*>(), { "get_Current", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::UnityEngine::XR::OpenXR::OpenXRApiVersion::*)()>(&::UnityEngine::XR::OpenXR::OpenXRApiVersion::get_Major)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e6c9d0;
+  constexpr static std::size_t addrs = 0x6e6dab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRApiVersion*>(), { "get_Major", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::UnityEngine::XR::OpenXR::OpenXRApiVersion::*)()>(&::UnityEngine::XR::OpenXR::OpenXRApiVersion::get_Minor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e6c9d8;
+  constexpr static std::size_t addrs = 0x6e6dab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRApiVersion*>(), { "get_Minor", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::XR::OpenXR::OpenXRApiVersion::*)()>(&::UnityEngine::XR::OpenXR::OpenXRApiVersion::get_Patch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e6c9e0;
+  constexpr static std::size_t addrs = 0x6e6dac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRApiVersion*>(), { "get_Patch", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRApiVersion::*)(uint16_t, uint16_t, uint32_t)>(&::UnityEngine::XR::OpenXR::OpenXRApiVersion::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6e6c9c0;
+  constexpr static std::size_t addrs = 0x6e6daa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRApiVersion*>(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::XR::OpenXR::OpenXRApiVersion*, ::UnityEngine::XR::OpenXR::OpenXRApiVersion*)>(
     &::UnityEngine::XR::OpenXR::OpenXRApiVersion::op_Equality)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6e6c9e8;
+  constexpr static std::size_t addrs = 0x6e6dac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::XR::OpenXR::OpenXRApiVersion*, ::UnityEngine::XR::OpenXR::OpenXRApiVersion*)>(
     &::UnityEngine::XR::OpenXR::OpenXRApiVersion::op_Inequality)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6e6ca3c;
+  constexpr static std::size_t addrs = 0x6e6db1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::XR::OpenXR::OpenXRApiVersion*, ::UnityEngine::XR::OpenXR::OpenXRApiVersion*)>(
     &::UnityEngine::XR::OpenXR::OpenXRApiVersion::op_GreaterThan)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6e6ca90;
+  constexpr static std::size_t addrs = 0x6e6db70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::XR::OpenXR::OpenXRApiVersion*, ::UnityEngine::XR::OpenXR::OpenXRApiVersion*)>(
     &::UnityEngine::XR::OpenXR::OpenXRApiVersion::op_LessThan)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6e6cb1c;
+  constexpr static std::size_t addrs = 0x6e6dbfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::XR::OpenXR::OpenXRApiVersion*, ::UnityEngine::XR::OpenXR::OpenXRApiVersion*)>(
     &::UnityEngine::XR::OpenXR::OpenXRApiVersion::op_GreaterThanOrEqual)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6e6cba8;
+  constexpr static std::size_t addrs = 0x6e6dc88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::XR::OpenXR::OpenXRApiVersion*, ::UnityEngine::XR::OpenXR::OpenXRApiVersion*)>(
     &::UnityEngine::XR::OpenXR::OpenXRApiVersion::op_LessThanOrEqual)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6e6cc24;
+  constexpr static std::size_t addrs = 0x6e6dd04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::OpenXRApiVersion::*)(::System::Object*)>(&::UnityEngine::XR::OpenXR::OpenXRApiVersion::Equals)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6e6cca0;
+  constexpr static std::size_t addrs = 0x6e6dd80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::XR::OpenXR::OpenXRApiVersion::*)()>(&::UnityEngine::XR::OpenXR::OpenXRApiVersion::GetHashCode)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6e6cd60;
+  constexpr static std::size_t addrs = 0x6e6de40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::UnityEngine::XR::OpenXR::OpenXRApiVersion*>)>(&::UnityEngine::XR::OpenXR::OpenXRApiVersion::TryParse)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x6e6cde8;
+  constexpr static std::size_t addrs = 0x6e6dec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::XR::OpenXR::OpenXRApiVersion::*)()>(&::UnityEngine::XR::OpenXR::OpenXRApiVersion::ToString)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6e6cf64;
+  constexpr static std::size_t addrs = 0x6e6e044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::XR::OpenXR::OpenXRApiVersion::*)(::UnityEngine::XR::OpenXR::OpenXRApiVersion*)>(
     &::UnityEngine::XR::OpenXR::OpenXRApiVersion::CompareTo)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6e6d040;
+  constexpr static std::size_t addrs = 0x6e6e120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::OpenXRApiVersion::*)(::UnityEngine::XR::OpenXR::OpenXRApiVersion*)>(
     &::UnityEngine::XR::OpenXR::OpenXRApiVersion::Equals)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6e6d0f0;
+  constexpr static std::size_t addrs = 0x6e6e1d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

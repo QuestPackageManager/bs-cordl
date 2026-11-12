@@ -38,21 +38,21 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetBlendState>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetBlendState>*();
 
-  /// @brief Method Equals, addr 0x6fbf8a0, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6fc0980, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6fb9100, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6fba1e0, size 0x78, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::RenderTargetBlendState other);
 
-  /// @brief Method GetHashCode, addr 0x6fb94c4, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6fba5a4, size 0x54, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6fbf87c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fc095c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::ColorWriteMask writeMask, ::UnityEngine::Rendering::BlendMode sourceColorBlendMode, ::UnityEngine::Rendering::BlendMode destinationColorBlendMode,
                     ::UnityEngine::Rendering::BlendMode sourceAlphaBlendMode, ::UnityEngine::Rendering::BlendMode destinationAlphaBlendMode, ::UnityEngine::Rendering::BlendOp colorBlendOperation,
                     ::UnityEngine::Rendering::BlendOp alphaBlendOperation);
 
-  /// @brief Method get_defaultValue, addr 0x6fb902c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_defaultValue, addr 0x6fba10c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderTargetBlendState get_defaultValue();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetBlendState>"

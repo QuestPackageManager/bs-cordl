@@ -44,10 +44,10 @@ public:
 
   static inline ::UnityEngine::Rendering::RenderGraphGraphicsAutomatedTests___c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6cb270c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cb37ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_activatedFromCommandLine>b__1_0, addr 0x6cb2710, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <get_activatedFromCommandLine>b__1_0, addr 0x6cb37f0, size 0x4c, virtual false, abstract: false, final false
   inline bool _get_activatedFromCommandLine_b__1_0(::StringW arg);
 
   static inline ::UnityEngine::Rendering::RenderGraphGraphicsAutomatedTests___c* getStaticF___9();
@@ -101,15 +101,15 @@ public:
 
   static inline ::System::Nullable_1<bool> getStaticF__forceRenderGraphState_k__BackingField();
 
-  /// @brief Method get_activatedFromCommandLine, addr 0x6cb23ac, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method get_activatedFromCommandLine, addr 0x6cb348c, size 0x10c, virtual false, abstract: false, final false
   static inline bool get_activatedFromCommandLine();
 
   /// [CompilerGenerated]
-  /// @brief Method get_enabled, addr 0x6cb24b8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x6cb3598, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_enabled();
 
   /// [CompilerGenerated]
-  /// @brief Method get_forceRenderGraphState, addr 0x6cb2578, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_forceRenderGraphState, addr 0x6cb3658, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<bool> get_forceRenderGraphState();
 
   static inline void setStaticF__enabled_k__BackingField(bool value);
@@ -117,11 +117,11 @@ public:
   static inline void setStaticF__forceRenderGraphState_k__BackingField(::System::Nullable_1<bool> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_enabled, addr 0x6cb2514, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x6cb35f4, size 0x64, virtual false, abstract: false, final false
   static inline void set_enabled(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_forceRenderGraphState, addr 0x6cb25d4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_forceRenderGraphState, addr 0x6cb36b4, size 0x60, virtual false, abstract: false, final false
   static inline void set_forceRenderGraphState(::System::Nullable_1<bool> value);
 
 protected:

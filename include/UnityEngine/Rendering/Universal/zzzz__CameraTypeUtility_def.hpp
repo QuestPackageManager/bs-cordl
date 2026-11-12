@@ -29,7 +29,7 @@ public:
   __declspec(property(get = getStaticF_s_CameraTypeNames, put = setStaticF_s_CameraTypeNames)) ::ArrayW<::StringW> s_CameraTypeNames;
 
   /// [Extension]
-  /// @brief Method GetName, addr 0x6d3c648, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x6d3d728, size 0xb4, virtual false, abstract: false, final false
   static inline ::StringW GetName(::UnityEngine::Rendering::Universal::CameraRenderType type);
 
   static inline ::ArrayW<::StringW> getStaticF_s_CameraTypeNames();

@@ -161,43 +161,43 @@ public:
 
   constexpr void __cordl_internal_set__selectedColor2(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  /// @brief Method .ctor, addr 0x68aa45c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68aaab4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledColor1, addr 0x68a9368, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledColor1, addr 0x68a99bc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_disabledColor1();
 
-  /// @brief Method get_disabledColor2, addr 0x68a9374, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledColor2, addr 0x68a99c8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_disabledColor2();
 
-  /// @brief Method get_highlightColor1, addr 0x68a9218, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_highlightColor1, addr 0x68a986c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_highlightColor1();
 
-  /// @brief Method get_highlightColor2, addr 0x68a9224, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_highlightColor2, addr 0x68a9878, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_highlightColor2();
 
-  /// @brief Method get_normalColor1, addr 0x68a8e78, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalColor1, addr 0x68a94cc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_normalColor1();
 
-  /// @brief Method get_normalColor2, addr 0x68a8e84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalColor2, addr 0x68a94d8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_normalColor2();
 
-  /// @brief Method get_pressedColor1, addr 0x68a92c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressedColor1, addr 0x68a9914, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_pressedColor1();
 
-  /// @brief Method get_pressedColor2, addr 0x68a92cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressedColor2, addr 0x68a9920, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_pressedColor2();
 
-  /// @brief Method get_selectedAndHighlightedColor1, addr 0x68a94b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedColor1, addr 0x68a9b0c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedAndHighlightedColor1();
 
-  /// @brief Method get_selectedAndHighlightedColor2, addr 0x68a94c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedColor2, addr 0x68a9b18, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedAndHighlightedColor2();
 
-  /// @brief Method get_selectedColor1, addr 0x68a9410, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedColor1, addr 0x68a9a64, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedColor1();
 
-  /// @brief Method get_selectedColor2, addr 0x68a941c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedColor2, addr 0x68a9a70, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedColor2();
 
 protected:
@@ -215,7 +215,7 @@ public:
   GradientTransitionSO(GradientTransitionSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23180 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23195 };
 
   /// [SerializeField]
   /// @brief Field _normalColor1, offset: 0x20, size: 0x8, def value: None

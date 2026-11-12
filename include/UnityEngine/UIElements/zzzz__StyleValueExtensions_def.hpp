@@ -63,35 +63,35 @@ public:
   template <typename T> static inline ::StringW DebugString(::UnityEngine::UIElements::IStyleValue_1<T>* styleValue);
 
   /// [Extension]
-  /// @brief Method ToLayoutValue, addr 0x7147edc, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ToLayoutValue, addr 0x7148fbc, size 0x164, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Layout::LayoutValue ToLayoutValue(::UnityEngine::UIElements::Length length);
 
   /// [Extension]
-  /// @brief Method ToLength, addr 0x7148040, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ToLength, addr 0x7149120, size 0x110, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length ToLength(::UnityEngine::UIElements::StyleKeyword keyword);
 
   /// [Extension]
-  /// @brief Method ToLength, addr 0x7148620, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ToLength, addr 0x7149700, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length ToLength(::UnityEngine::UIElements::StyleLength styleLength);
 
   /// [Extension]
-  /// @brief Method ToRotate, addr 0x7148150, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method ToRotate, addr 0x7149230, size 0x168, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Rotate ToRotate(::UnityEngine::UIElements::StyleKeyword keyword);
 
   /// [Extension]
-  /// @brief Method ToScale, addr 0x71482b8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ToScale, addr 0x7149398, size 0x10c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Scale ToScale(::UnityEngine::UIElements::StyleKeyword keyword);
 
   /// [Extension]
-  /// @brief Method ToStyleRatio, addr 0x7148650, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ToStyleRatio, addr 0x7149730, size 0x104, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleRatio ToStyleRatio(::UnityEngine::UIElements::StyleKeyword keyword);
 
   /// [Extension]
-  /// @brief Method ToTextAutoSize, addr 0x7148508, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ToTextAutoSize, addr 0x71495e8, size 0x118, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::TextAutoSize ToTextAutoSize(::UnityEngine::UIElements::StyleKeyword keyword);
 
   /// [Extension]
-  /// @brief Method ToTranslate, addr 0x71483c4, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ToTranslate, addr 0x71494a4, size 0x144, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Translate ToTranslate(::UnityEngine::UIElements::StyleKeyword keyword);
 
 protected:

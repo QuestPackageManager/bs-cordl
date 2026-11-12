@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugActionState::*)()>(&::UnityEngine::Rendering::DebugActionState::get_runningAction)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bbba30;
+  constexpr static std::size_t addrs = 0x6bbcb10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugActionState*>(), { "get_runningAction", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugActionState::*)(bool)>(&::UnityEngine::Rendering::DebugActionState::set_runningAction)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bbba38;
+  constexpr static std::size_t addrs = 0x6bbcb18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::DebugActionState::*)()>(&::UnityEngine::Rendering::DebugActionState::get_actionState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bbba40;
+  constexpr static std::size_t addrs = 0x6bbcb20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugActionState*>(), { "get_actionState", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugActionState::*)(float_t)>(&::UnityEngine::Rendering::DebugActionState::set_actionState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bbba48;
+  constexpr static std::size_t addrs = 0x6bbcb28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugActionState::*)(int32_t, float_t)>(&::UnityEngine::Rendering::DebugActionState::Trigger)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6bbba50;
+  constexpr static std::size_t addrs = 0x6bbcb30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugActionState::*)(::UnityEngine::InputSystem::InputAction*, float_t)>(
     &::UnityEngine::Rendering::DebugActionState::TriggerWithButton)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6bb7834;
+  constexpr static std::size_t addrs = 0x6bb8914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugActionState::*)()>(&::UnityEngine::Rendering::DebugActionState::Reset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6bbbb04;
+  constexpr static std::size_t addrs = 0x6bbcbe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugActionState*>(), { "Reset", {}, {} })));
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugActionState::*)(::UnityEngine::Rendering::DebugActionDesc*)>(
     &::UnityEngine::Rendering::DebugActionState::Update)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x6bb7914;
+  constexpr static std::size_t addrs = 0x6bb89f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugActionState::*)()>(&::UnityEngine::Rendering::DebugActionState::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6bb76e4;
+  constexpr static std::size_t addrs = 0x6bb87c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugActionState*>(), { ".ctor", {}, {} })));

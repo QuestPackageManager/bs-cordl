@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::EventTrigger_TriggerEvent::*)()>(&::UnityEngine::EventSystems::EventTrigger_TriggerEvent::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x72f2f54;
+  constexpr static std::size_t addrs = 0x72f4034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::EventTrigger_TriggerEvent*>(), { ".ctor", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::EventTrigger_Entry::*)()>(&::UnityEngine::EventSystems::EventTrigger_Entry::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x72f2fa0;
+  constexpr static std::size_t addrs = 0x72f4080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::EventTrigger_Entry*>(), { ".ctor", {}, {} })));
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventTrigger_Entry*>* (::UnityEngine::EventSystems::EventTrigger::*)()>(
     &::UnityEngine::EventSystems::EventTrigger::get_delegates)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x72f2cfc;
+  constexpr static std::size_t addrs = 0x72f3ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::EventTrigger*>(), { "get_delegates", {}, {} })));
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventTrigger_Entry*>*)>(
     &::UnityEngine::EventSystems::EventTrigger::set_delegates)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72f2d80;
+  constexpr static std::size_t addrs = 0x72f3e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)()>(&::UnityEngine::EventSystems::EventTrigger::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x72f2d88;
+  constexpr static std::size_t addrs = 0x72f3e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::EventTrigger*>(), { ".ctor", {}, {} })));
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventTrigger_Entry*>* (::UnityEngine::EventSystems::EventTrigger::*)()>(
     &::UnityEngine::EventSystems::EventTrigger::get_triggers)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x72f2d00;
+  constexpr static std::size_t addrs = 0x72f3de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::EventTrigger*>(), { "get_triggers", {}, {} })));
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventTrigger_Entry*>*)>(
     &::UnityEngine::EventSystems::EventTrigger::set_triggers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72f2d8c;
+  constexpr static std::size_t addrs = 0x72f3e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::EventTriggerType, ::UnityEngine::EventSystems::BaseEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::Execute)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x72f2d94;
+  constexpr static std::size_t addrs = 0x72f3e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnPointerEnter)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72f2e88;
+  constexpr static std::size_t addrs = 0x72f3f68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnPointerExit)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72f2e94;
+  constexpr static std::size_t addrs = 0x72f3f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnDrag)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72f2ea0;
+  constexpr static std::size_t addrs = 0x72f3f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnDrop)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72f2eac;
+  constexpr static std::size_t addrs = 0x72f3f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnPointerDown)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72f2eb8;
+  constexpr static std::size_t addrs = 0x72f3f98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnPointerUp)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72f2ec4;
+  constexpr static std::size_t addrs = 0x72f3fa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnPointerClick)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72f2ed0;
+  constexpr static std::size_t addrs = 0x72f3fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::BaseEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnSelect)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72f2edc;
+  constexpr static std::size_t addrs = 0x72f3fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::BaseEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnDeselect)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72f2ee8;
+  constexpr static std::size_t addrs = 0x72f3fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -311,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnScroll)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72f2ef4;
+  constexpr static std::size_t addrs = 0x72f3fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -325,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::AxisEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnMove)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72f2f00;
+  constexpr static std::size_t addrs = 0x72f3fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -339,7 +339,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::BaseEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnUpdateSelected)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72f2f0c;
+  constexpr static std::size_t addrs = 0x72f3fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -353,7 +353,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnInitializePotentialDrag)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72f2f18;
+  constexpr static std::size_t addrs = 0x72f3ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -367,7 +367,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnBeginDrag)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72f2f24;
+  constexpr static std::size_t addrs = 0x72f4004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -381,7 +381,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnEndDrag)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72f2f30;
+  constexpr static std::size_t addrs = 0x72f4010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -395,7 +395,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::BaseEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnSubmit)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72f2f3c;
+  constexpr static std::size_t addrs = 0x72f401c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -409,7 +409,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::BaseEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnCancel)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72f2f48;
+  constexpr static std::size_t addrs = 0x72f4028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

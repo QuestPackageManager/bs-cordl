@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::PbeParametersGenerator::*)()>(&::Org::BouncyCastle::Crypto::PbeParametersGenerator::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x368c904;
+  constexpr static std::size_t addrs = 0x3690d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::PbeParametersGenerator*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::PbeParametersGenerator::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::PbeParametersGenerator::Init)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x368c908;
+  constexpr static std::size_t addrs = 0x3690da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::PbeParametersGenerator*>(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::PbeParametersGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::PbeParametersGenerator::get_Password)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x368ca0c;
+  constexpr static std::size_t addrs = 0x3690ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::PbeParametersGenerator*>(),
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::PbeParametersGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::PbeParametersGenerator::GetPassword)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x368ca6c;
+  constexpr static std::size_t addrs = 0x3690f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::PbeParametersGenerator*>(), { "GetPassword", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::PbeParametersGenerator::*)()>(&::Org::BouncyCastle::Crypto::PbeParametersGenerator::get_Salt)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x368ca78;
+  constexpr static std::size_t addrs = 0x3690f10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::PbeParametersGenerator*>(),
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::PbeParametersGenerator::*)()>(&::Org::BouncyCastle::Crypto::PbeParametersGenerator::GetSalt)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x368cad8;
+  constexpr static std::size_t addrs = 0x3690f70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::PbeParametersGenerator*>(), { "GetSalt", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::PbeParametersGenerator::*)()>(&::Org::BouncyCastle::Crypto::PbeParametersGenerator::get_IterationCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x368cae4;
+  constexpr static std::size_t addrs = 0x3690f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::PbeParametersGenerator*>(),
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<char16_t>)>(&::Org::BouncyCastle::Crypto::PbeParametersGenerator::Pkcs5PasswordToBytes)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x368caec;
+  constexpr static std::size_t addrs = 0x3690f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::StringW)>(&::Org::BouncyCastle::Crypto::PbeParametersGenerator::Pkcs5PasswordToBytes)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x368cb50;
+  constexpr static std::size_t addrs = 0x3690fe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<char16_t>)>(&::Org::BouncyCastle::Crypto::PbeParametersGenerator::Pkcs5PasswordToUtf8Bytes)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x368cbb4;
+  constexpr static std::size_t addrs = 0x369104c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::StringW)>(&::Org::BouncyCastle::Crypto::PbeParametersGenerator::Pkcs5PasswordToUtf8Bytes)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x368cc30;
+  constexpr static std::size_t addrs = 0x36910c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<char16_t>)>(&::Org::BouncyCastle::Crypto::PbeParametersGenerator::Pkcs12PasswordToBytes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x368ccac;
+  constexpr static std::size_t addrs = 0x3691144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<char16_t>, bool)>(&::Org::BouncyCastle::Crypto::PbeParametersGenerator::Pkcs12PasswordToBytes)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x368ccb4;
+  constexpr static std::size_t addrs = 0x369114c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::PbeParametersGenerator*>(),

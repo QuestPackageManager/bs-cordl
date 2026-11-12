@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IPacketPool_1<::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>* (*)()>(
     &::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::get_pool)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3566e30;
+  constexpr static std::size_t addrs = 0x3569eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>(), { "get_pool", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SyncStateId (::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::*)()>(
     &::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::get_baseId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3566e74;
+  constexpr static std::size_t addrs = 0x3569ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::*)(::GlobalNamespace::SyncStateId)>(
     &::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::set_baseId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3566e7c;
+  constexpr static std::size_t addrs = 0x3569efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>(),
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::*)()>(
     &::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::get_timeOffsetMs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3566e84;
+  constexpr static std::size_t addrs = 0x3569f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::*)(int32_t)>(
     &::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::set_timeOffsetMs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3566e8c;
+  constexpr static std::size_t addrs = 0x3569f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::StandardScoreSyncState (::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::*)()>(
     &::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::get_delta)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3566e94;
+  constexpr static std::size_t addrs = 0x3569f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::*)(::GlobalNamespace::StandardScoreSyncState)>(
     &::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::set_delta)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3566ea8;
+  constexpr static std::size_t addrs = 0x3569f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>(),
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::Serialize)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3566ebc;
+  constexpr static std::size_t addrs = 0x3569f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>(),
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::Deserialize)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3566fa0;
+  constexpr static std::size_t addrs = 0x356a020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>(),
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::*)()>(
     &::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::Release)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3567018;
+  constexpr static std::size_t addrs = 0x356a098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>(), { "Release", {}, {} })));
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::*)()>(
     &::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35670c8;
+  constexpr static std::size_t addrs = 0x356a148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>(), { ".ctor", {}, {} })));

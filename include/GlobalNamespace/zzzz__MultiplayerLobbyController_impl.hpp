@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerLobbyController::*)()>(&::GlobalNamespace::MultiplayerLobbyController::get_lobbyActivated)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e6b1cc;
+  constexpr static std::size_t addrs = 0x5e6b0e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLobbyController*>(), { "get_lobbyActivated", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyController::*)(bool)>(&::GlobalNamespace::MultiplayerLobbyController::set_lobbyActivated)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e6b1d4;
+  constexpr static std::size_t addrs = 0x5e6b0ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyController::*)()>(&::GlobalNamespace::MultiplayerLobbyController::ActivateMultiplayerLobby)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e6b1dc;
+  constexpr static std::size_t addrs = 0x5e6b0f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLobbyController*>(), { "ActivateMultiplayerLobby", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyController::*)()>(&::GlobalNamespace::MultiplayerLobbyController::DeactivateMultiplayerLobby)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5e6b29c;
+  constexpr static std::size_t addrs = 0x5e6b1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyController::*)()>(&::GlobalNamespace::MultiplayerLobbyController::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5e6b31c;
+  constexpr static std::size_t addrs = 0x5e6b234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLobbyController*>(), { ".ctor", {}, {} })));

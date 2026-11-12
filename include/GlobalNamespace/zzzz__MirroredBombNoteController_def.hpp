@@ -33,7 +33,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::MirroredBombNoteController_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5d226ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d22888, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -70,7 +70,7 @@ public:
 
   static inline ::GlobalNamespace::MirroredBombNoteController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5d22660, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d2283c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

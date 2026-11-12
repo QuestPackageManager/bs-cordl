@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData_V100_DifficultyBeatmap::*)()>(
     &::GlobalNamespace::StandardLevelInfoSaveData_V100_DifficultyBeatmap::get_difficulty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a06f8c;
+  constexpr static std::size_t addrs = 0x3a0c014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::StandardLevelInfoSaveData_V100_DifficultyBeatmap::*)()>(
     &::GlobalNamespace::StandardLevelInfoSaveData_V100_DifficultyBeatmap::get_difficultyRank)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a06f94;
+  constexpr static std::size_t addrs = 0x3a0c01c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData_V100_DifficultyBeatmap::*)()>(
     &::GlobalNamespace::StandardLevelInfoSaveData_V100_DifficultyBeatmap::get_beatmapFilename)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a06f9c;
+  constexpr static std::size_t addrs = 0x3a0c024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData_V100_DifficultyBeatmap::*)()>(
     &::GlobalNamespace::StandardLevelInfoSaveData_V100_DifficultyBeatmap::get_noteJumpMovementSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a06fa4;
+  constexpr static std::size_t addrs = 0x3a0c02c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::StandardLevelInfoSaveData_V100_DifficultyBeatmap::*)()>(
     &::GlobalNamespace::StandardLevelInfoSaveData_V100_DifficultyBeatmap::get_noteJumpStartBeatOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a06fac;
+  constexpr static std::size_t addrs = 0x3a0c034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelInfoSaveData_V100_DifficultyBeatmap::*)(::StringW, int32_t, ::StringW, float_t, int32_t)>(
     &::GlobalNamespace::StandardLevelInfoSaveData_V100_DifficultyBeatmap::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3a06fb4;
+  constexpr static std::size_t addrs = 0x3a0c03c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData_V100::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a06f10;
+  constexpr static std::size_t addrs = 0x3a0bf98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_V100*>(), { "get_version", {}, {} })));
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData_V100::get_songName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a06f18;
+  constexpr static std::size_t addrs = 0x3a0bfa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_V100*>(), { "get_songName", {}, {} })));
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData_V100::get_songSubName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a06f20;
+  constexpr static std::size_t addrs = 0x3a0bfa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_V100*>(), { "get_songSubName", {}, {} })));
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData_V100::get_songAuthorName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a06f28;
+  constexpr static std::size_t addrs = 0x3a0bfb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_V100*>(), { "get_songAuthorName", {}, {} })));
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData_V100::get_levelAuthorName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a06f30;
+  constexpr static std::size_t addrs = 0x3a0bfb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_V100*>(), { "get_levelAuthorName", {}, {} })));
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData_V100::get_beatsPerMinute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a06f38;
+  constexpr static std::size_t addrs = 0x3a0bfc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_V100*>(), { "get_beatsPerMinute", {}, {} })));
@@ -267,7 +267,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData_V100::get_songTimeOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a06f40;
+  constexpr static std::size_t addrs = 0x3a0bfc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_V100*>(), { "get_songTimeOffset", {}, {} })));
@@ -279,7 +279,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData_V100::get_shuffle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a06f48;
+  constexpr static std::size_t addrs = 0x3a0bfd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_V100*>(), { "get_shuffle", {}, {} })));
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData_V100::get_shufflePeriod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a06f50;
+  constexpr static std::size_t addrs = 0x3a0bfd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_V100*>(), { "get_shufflePeriod", {}, {} })));
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData_V100::get_previewStartTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a06f58;
+  constexpr static std::size_t addrs = 0x3a0bfe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_V100*>(), { "get_previewStartTime", {}, {} })));
@@ -315,7 +315,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData_V100::get_previewDuration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a06f60;
+  constexpr static std::size_t addrs = 0x3a0bfe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_V100*>(), { "get_previewDuration", {}, {} })));
@@ -327,7 +327,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData_V100::get_songFilename)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a06f68;
+  constexpr static std::size_t addrs = 0x3a0bff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_V100*>(), { "get_songFilename", {}, {} })));
@@ -340,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(
     &::GlobalNamespace::StandardLevelInfoSaveData_V100::get_coverImageFilename)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a06f70;
+  constexpr static std::size_t addrs = 0x3a0bff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -353,7 +353,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData_V100::get_environmentName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a06f78;
+  constexpr static std::size_t addrs = 0x3a0c000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_V100*>(), { "get_environmentName", {}, {} })));
@@ -366,7 +366,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_V100_DifficultyBeatmap*> (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(
     &::GlobalNamespace::StandardLevelInfoSaveData_V100::get_difficultyBeatmaps)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a06f80;
+  constexpr static std::size_t addrs = 0x3a0c008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -379,7 +379,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&::GlobalNamespace::StandardLevelInfoSaveData_V100::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a06f88;
+  constexpr static std::size_t addrs = 0x3a0c010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelInfoSaveData_V100*>(), { ".ctor", {}, {} })));

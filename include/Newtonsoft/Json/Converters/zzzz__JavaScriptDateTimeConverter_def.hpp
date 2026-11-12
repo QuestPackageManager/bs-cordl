@@ -38,14 +38,14 @@ public:
   // Declarations
   static inline ::Newtonsoft::Json::Converters::JavaScriptDateTimeConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x61f2420, size 0x324, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x61f26a8, size 0x324, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, /* [Nullable(2)] */ ::System::Object* existingValue,
                                     ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x61f2250, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x61f24d8, size 0x1d0, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, /* [Nullable(2)] */ ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x61f2744, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61f29cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

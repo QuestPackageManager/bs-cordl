@@ -107,17 +107,17 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*();
 
-  /// @brief Method From, addr 0x6a1797c, size 0x3e0, virtual false, abstract: false, final false
+  /// @brief Method From, addr 0x6a18a5c, size 0x3e0, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeArray_1<uint8_t> From(::UnityEngine::InputSystem::InputControl* control, ::by_ref<::UnityEngine::InputSystem::LowLevel::InputEventPtr> eventPtr,
                                                                   ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method From, addr 0x6a17848, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method From, addr 0x6a18928, size 0x130, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::DeltaStateEvent* From(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
 
-  /// @brief Method FromUnchecked, addr 0x6a17978, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FromUnchecked, addr 0x6a18a58, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::DeltaStateEvent* FromUnchecked(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
 
-  /// @brief Method ToEventPtr, addr 0x6a17844, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToEventPtr, addr 0x6a18924, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventPtr ToEventPtr();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __cordl_internal_get_baseEvent() const;
@@ -144,13 +144,13 @@ public:
 
   constexpr void __cordl_internal_set_stateOffset(uint32_t value);
 
-  /// @brief Method get_deltaState, addr 0x6a17830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deltaState, addr 0x6a18910, size 0x8, virtual false, abstract: false, final false
   inline void* get_deltaState();
 
-  /// @brief Method get_deltaStateSizeInBytes, addr 0x6a17824, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_deltaStateSizeInBytes, addr 0x6a18904, size 0xc, virtual false, abstract: false, final false
   inline uint32_t get_deltaStateSizeInBytes();
 
-  /// @brief Method get_typeStatic, addr 0x6a17838, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x6a18918, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"

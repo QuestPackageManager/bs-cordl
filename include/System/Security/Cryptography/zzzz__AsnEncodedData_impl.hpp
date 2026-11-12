@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::AsnEncodedData::*)()>(&::System::Security::Cryptography::AsnEncodedData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68076f4;
+  constexpr static std::size_t addrs = 0x6807d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::AsnEncodedData*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::AsnEncodedData::*)(::StringW, ::ArrayW<uint8_t>)>(
     &::System::Security::Cryptography::AsnEncodedData::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x68076f8;
+  constexpr static std::size_t addrs = 0x6807d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::AsnEncodedData::*)(::System::Security::Cryptography::Oid*, ::ArrayW<uint8_t>)>(
     &::System::Security::Cryptography::AsnEncodedData::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6807850;
+  constexpr static std::size_t addrs = 0x6807ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::AsnEncodedData::*)(::System::Security::Cryptography::AsnEncodedData*)>(
     &::System::Security::Cryptography::AsnEncodedData::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x68078f0;
+  constexpr static std::size_t addrs = 0x6807f40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::AsnEncodedData*>(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::Oid* (::System::Security::Cryptography::AsnEncodedData::*)()>(
     &::System::Security::Cryptography::AsnEncodedData::get_Oid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68079c0;
+  constexpr static std::size_t addrs = 0x6808010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::AsnEncodedData*>(), { "get_Oid", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::AsnEncodedData::*)(::System::Security::Cryptography::Oid*)>(
     &::System::Security::Cryptography::AsnEncodedData::set_Oid)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6807878;
+  constexpr static std::size_t addrs = 0x6807ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Security::Cryptography::AsnEncodedData::*)()>(&::System::Security::Cryptography::AsnEncodedData::get_RawData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68079c8;
+  constexpr static std::size_t addrs = 0x6808018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::AsnEncodedData*>(), { "get_RawData", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::AsnEncodedData::*)(::ArrayW<uint8_t>)>(&::System::Security::Cryptography::AsnEncodedData::set_RawData)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x680776c;
+  constexpr static std::size_t addrs = 0x6807dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::AsnEncodedData::*)(::System::Security::Cryptography::AsnEncodedData*)>(
     &::System::Security::Cryptography::AsnEncodedData::CopyFrom)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x68079d0;
+  constexpr static std::size_t addrs = 0x6808020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Cryptography::AsnEncodedData::*)(bool)>(&::System::Security::Cryptography::AsnEncodedData::Format)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6807ad0;
+  constexpr static std::size_t addrs = 0x6808120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Cryptography::AsnEncodedData::*)(bool)>(&::System::Security::Cryptography::AsnEncodedData::ToString)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x6807c30;
+  constexpr static std::size_t addrs = 0x6808280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Cryptography::AsnEncodedData::*)(bool)>(&::System::Security::Cryptography::AsnEncodedData::Default)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6807b0c;
+  constexpr static std::size_t addrs = 0x680815c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Cryptography::AsnEncodedData::*)(bool)>(
     &::System::Security::Cryptography::AsnEncodedData::BasicConstraintsExtension)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6807e00;
+  constexpr static std::size_t addrs = 0x6808450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Cryptography::AsnEncodedData::*)(bool)>(
     &::System::Security::Cryptography::AsnEncodedData::EnhancedKeyUsageExtension)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6807f08;
+  constexpr static std::size_t addrs = 0x6808558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Cryptography::AsnEncodedData::*)(bool)>(&::System::Security::Cryptography::AsnEncodedData::KeyUsageExtension)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6808014;
+  constexpr static std::size_t addrs = 0x6808664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Cryptography::AsnEncodedData::*)(bool)>(
     &::System::Security::Cryptography::AsnEncodedData::SubjectKeyIdentifierExtension)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6808120;
+  constexpr static std::size_t addrs = 0x6808770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Cryptography::AsnEncodedData::*)(bool)>(&::System::Security::Cryptography::AsnEncodedData::SubjectAltName)> {
   constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x680822c;
+  constexpr static std::size_t addrs = 0x680887c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Cryptography::AsnEncodedData::*)(bool)>(&::System::Security::Cryptography::AsnEncodedData::NetscapeCertType)> {
   constexpr static std::size_t size = 0x3fc;
-  constexpr static std::size_t addrs = 0x6808638;
+  constexpr static std::size_t addrs = 0x6808c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

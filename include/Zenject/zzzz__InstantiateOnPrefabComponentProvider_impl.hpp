@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InstantiateOnPrefabComponentProvider::*)(::System::Type*, ::Zenject::IPrefabInstantiator*)>(
     &::Zenject::InstantiateOnPrefabComponentProvider::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x735f5dc;
+  constexpr static std::size_t addrs = 0x73618bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InstantiateOnPrefabComponentProvider*>(),
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::InstantiateOnPrefabComponentProvider::*)()>(&::Zenject::InstantiateOnPrefabComponentProvider::get_IsCached)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x735f5e4;
+  constexpr static std::size_t addrs = 0x73618c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InstantiateOnPrefabComponentProvider*>(), { "get_IsCached", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::InstantiateOnPrefabComponentProvider::*)()>(
     &::Zenject::InstantiateOnPrefabComponentProvider::get_TypeVariesBasedOnMemberType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x735f5ec;
+  constexpr static std::size_t addrs = 0x73618cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::Zenject::InstantiateOnPrefabComponentProvider::*)(::Zenject::InjectContext*)>(
     &::Zenject::InstantiateOnPrefabComponentProvider::GetInstanceType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x735f5f4;
+  constexpr static std::size_t addrs = 0x73618d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::Instanti
     ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::by_ref<::System::Action*>, ::System::Collections::Generic::List_1<::System::Object*>*)>(
     &::Zenject::InstantiateOnPrefabComponentProvider::GetAllInstancesWithInjectSplit)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x735f5fc;
+  constexpr static std::size_t addrs = 0x73618dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

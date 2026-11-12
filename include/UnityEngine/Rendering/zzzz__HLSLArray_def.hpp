@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_elementType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x6bff83c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c0091c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t arraySize, ::System::Type* elementType);
 
 protected:

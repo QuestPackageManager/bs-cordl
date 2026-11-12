@@ -26,12 +26,12 @@ namespace UnityEngine::Rendering::Universal {
 class CORDL_TYPE DecalDrawGBufferSystem : public ::UnityEngine::Rendering::Universal::DecalDrawSystem {
 public:
   // Declarations
-  /// @brief Method GetPassIndex, addr 0x6cd4c3c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetPassIndex, addr 0x6cd5d1c, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetPassIndex(::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk);
 
   static inline ::UnityEngine::Rendering::Universal::DecalDrawGBufferSystem* New_ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager);
 
-  /// @brief Method .ctor, addr 0x6cd4bb8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cd5c98, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager);
 
 protected:

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::ContractAnnotationAttribute::*)(::StringW)>(&::JetBrains::Annotations::ContractAnnotationAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x7316a6c;
+  constexpr static std::size_t addrs = 0x7318d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::ContractAnnotationAttribute::*)(::StringW, bool)>(
     &::JetBrains::Annotations::ContractAnnotationAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x7316a78;
+  constexpr static std::size_t addrs = 0x7318d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::JetBrains::Annotations::ContractAnnotationAttribute::*)()>(&::JetBrains::Annotations::ContractAnnotationAttribute::get_Contract)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7316a84;
+  constexpr static std::size_t addrs = 0x7318d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::ContractAnnotationAttribute*>(), { "get_Contract", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::ContractAnnotationAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::ContractAnnotationAttribute::set_Contract)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7316a8c;
+  constexpr static std::size_t addrs = 0x7318d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::JetBrains::Annotations::ContractAnnotationAttribute::*)()>(
     &::JetBrains::Annotations::ContractAnnotationAttribute::get_ForceFullStates)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7316a94;
+  constexpr static std::size_t addrs = 0x7318d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::ContractAnnotationAttribute::*)(bool)>(
     &::JetBrains::Annotations::ContractAnnotationAttribute::set_ForceFullStates)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7316a9c;
+  constexpr static std::size_t addrs = 0x7318d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

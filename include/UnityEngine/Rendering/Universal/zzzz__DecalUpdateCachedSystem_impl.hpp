@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem_UpdateTransformsJob::*)(
     ::Unity::Mathematics::quaternion, ::Unity::Mathematics::quaternion)>(&::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem_UpdateTransformsJob::DistanceBetweenQuaternions)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6cd3ac4;
+  constexpr static std::size_t addrs = 0x6cd4ba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem_UpdateTransformsJob::*)(int32_t, ::UnityEngine::Jobs::TransformAccess)>(
     &::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem_UpdateTransformsJob::Execute)> {
   constexpr static std::size_t size = 0x590;
-  constexpr static std::size_t addrs = 0x6cd3af4;
+  constexpr static std::size_t addrs = 0x6cd4bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem_UpdateTransformsJob>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::BoundingSphere (::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem_UpdateTransformsJob::*)(::UnityEngine::Matrix4x4)>(
     &::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem_UpdateTransformsJob::GetDecalProjectBoundingSphere)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6cd4084;
+  constexpr static std::size_t addrs = 0x6cd5164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem_UpdateTransformsJob>(),
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem::*)(::UnityEngine::Rendering::Universal::DecalEntityManager*)>(
     &::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6cd3600;
+  constexpr static std::size_t addrs = 0x6cd46e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem*>(),
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem::*)()>(
     &::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem::Execute)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6cd36bc;
+  constexpr static std::size_t addrs = 0x6cd479c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem*>(), { "Execute", {}, {} })));
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem::*)(
     ::UnityEngine::Rendering::Universal::DecalEntityChunk*, ::UnityEngine::Rendering::Universal::DecalCachedChunk*, int32_t)>(&::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem::Execute)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x6cd382c;
+  constexpr static std::size_t addrs = 0x6cd490c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

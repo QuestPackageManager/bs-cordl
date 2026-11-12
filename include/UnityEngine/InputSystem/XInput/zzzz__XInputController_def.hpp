@@ -353,12 +353,12 @@ public:
 
   __declspec(property(get = get_view, put = set_view)) ::UnityEngine::InputSystem::Controls::ButtonControl* view;
 
-  /// @brief Method FinishSetup, addr 0x69f4dc0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x69f5ea0, size 0x24, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::XInput::XInputController* New_ctor();
 
-  /// @brief Method ParseCapabilities, addr 0x69f4d2c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ParseCapabilities, addr 0x69f5e0c, size 0x70, virtual false, abstract: false, final false
   inline void ParseCapabilities();
 
   constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& __cordl_internal_get__menu_k__BackingField() const;
@@ -391,29 +391,29 @@ public:
 
   constexpr void __cordl_internal_set_m_SubType(::UnityEngine::InputSystem::XInput::XInputController_DeviceSubType value);
 
-  /// @brief Method .ctor, addr 0x69f4de4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69f5ec4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_flags, addr 0x69f4d9c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_flags, addr 0x69f5e7c, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::XInput::XInputController_DeviceFlags get_flags();
 
   /// [CompilerGenerated]
-  /// @brief Method get_menu, addr 0x69f4ce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_menu, addr 0x69f5dc8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_menu();
 
-  /// @brief Method get_subType, addr 0x69f4d08, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_subType, addr 0x69f5de8, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::XInput::XInputController_DeviceSubType get_subType();
 
   /// [CompilerGenerated]
-  /// @brief Method get_view, addr 0x69f4cf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_view, addr 0x69f5dd8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_view();
 
   /// [CompilerGenerated]
-  /// @brief Method set_menu, addr 0x69f4cf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_menu, addr 0x69f5dd0, size 0x8, virtual false, abstract: false, final false
   inline void set_menu(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_view, addr 0x69f4d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_view, addr 0x69f5de0, size 0x8, virtual false, abstract: false, final false
   inline void set_view(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
 protected:

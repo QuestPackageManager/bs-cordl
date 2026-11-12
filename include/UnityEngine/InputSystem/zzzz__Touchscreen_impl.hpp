@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::TouchControl* (::UnityEngine::InputSystem::Touchscreen::*)()>(
     &::UnityEngine::InputSystem::Touchscreen::get_primaryTouch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cfa34;
+  constexpr static std::size_t addrs = 0x69d0b14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Touchscreen*>(), { "get_primaryTouch", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Touchscreen::*)(::UnityEngine::InputSystem::Controls::TouchControl*)>(
     &::UnityEngine::InputSystem::Touchscreen::set_primaryTouch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cfa3c;
+  constexpr static std::size_t addrs = 0x69d0b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Touchscreen*>(),
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Controls::TouchControl*> (
     ::UnityEngine::InputSystem::Touchscreen::*)()>(&::UnityEngine::InputSystem::Touchscreen::get_touches)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69cfa44;
+  constexpr static std::size_t addrs = 0x69d0b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Touchscreen*>(), { "get_touches", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Touchscreen::*)(
     ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Controls::TouchControl*>)>(&::UnityEngine::InputSystem::Touchscreen::set_touches)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cfa50;
+  constexpr static std::size_t addrs = 0x69d0b30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::InputSystem::Controls::TouchControl*> (::UnityEngine::InputSystem::Touchscreen::*)()>(
     &::UnityEngine::InputSystem::Touchscreen::get_touchControlArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cfa58;
+  constexpr static std::size_t addrs = 0x69d0b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Touchscreen*>(), { "get_touchControlArray", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Touchscreen::*)(::ArrayW<::UnityEngine::InputSystem::Controls::TouchControl*>)>(
     &::UnityEngine::InputSystem::Touchscreen::set_touchControlArray)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69cfa60;
+  constexpr static std::size_t addrs = 0x69d0b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Touchscreen* (*)()>(&::UnityEngine::InputSystem::Touchscreen::get_current)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69cfac4;
+  constexpr static std::size_t addrs = 0x69d0ba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Touchscreen*>(), { "get_current", {}, {} })));
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::Touchscreen*)>(&::UnityEngine::InputSystem::Touchscreen::set_current)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x69cfb20;
+  constexpr static std::size_t addrs = 0x69d0c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Touchscreen::*)()>(&::UnityEngine::InputSystem::Touchscreen::MakeCurrent)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x69cfb80;
+  constexpr static std::size_t addrs = 0x69d0c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Touchscreen::*)()>(&::UnityEngine::InputSystem::Touchscreen::OnRemoved)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x69cfc58;
+  constexpr static std::size_t addrs = 0x69d0d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Touchscreen::*)()>(&::UnityEngine::InputSystem::Touchscreen::FinishSetup)> {
   constexpr static std::size_t size = 0x37c;
-  constexpr static std::size_t addrs = 0x69cfd58;
+  constexpr static std::size_t addrs = 0x69d0e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Touchscreen::*)()>(&::UnityEngine::InputSystem::Touchscreen::OnNextUpdate)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x69d00d4;
+  constexpr static std::size_t addrs = 0x69d11b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Touchscreen*>(), { "OnNextUpdate", {}, {} })));
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Touchscreen::*)(::UnityEngine::InputSystem::LowLevel::InputEventPtr)>(
     &::UnityEngine::InputSystem::Touchscreen::OnStateEvent)> {
   constexpr static std::size_t size = 0x758;
-  constexpr static std::size_t addrs = 0x69d0460;
+  constexpr static std::size_t addrs = 0x69d1540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Touchscreen*>(),
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Touchscreen::*)()>(
     &::UnityEngine::InputSystem::Touchscreen::UnityEngine_InputSystem_LowLevel_IInputStateCallbackReceiver_OnNextUpdate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69d0c68;
+  constexpr static std::size_t addrs = 0x69d1d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Touchscreen::*)(::UnityEngine::InputSystem::LowLevel::InputEventPtr)>(
     &::UnityEngine::InputSystem::Touchscreen::UnityEngine_InputSystem_LowLevel_IInputStateCallbackReceiver_OnStateEvent)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69d0c6c;
+  constexpr static std::size_t addrs = 0x69d1d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -223,7 +223,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (::UnityEngine::InputSystem::Touchscreen::*)(::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::by_ref<uint32_t>)>(
         &::UnityEngine::InputSystem::Touchscreen::UnityEngine_InputSystem_LowLevel_IInputStateCallbackReceiver_GetStateOffsetForEvent)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x69d0c70;
+  constexpr static std::size_t addrs = 0x69d1d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Touchscreen::*)()>(
     &::UnityEngine::InputSystem::Touchscreen::UnityEngine_InputSystem_LowLevel_ICustomDeviceReset_Reset)> {
   constexpr static std::size_t size = 0x484;
-  constexpr static std::size_t addrs = 0x69d0f10;
+  constexpr static std::size_t addrs = 0x69d1ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::LowLevel::InputEventPtr)>(
     &::UnityEngine::InputSystem::Touchscreen::MergeForward)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x69d1394;
+  constexpr static std::size_t addrs = 0x69d2474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -272,7 +272,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (::UnityEngine::InputSystem::Touchscreen::*)(::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::LowLevel::InputEventPtr)>(
         &::UnityEngine::InputSystem::Touchscreen::UnityEngine_InputSystem_LowLevel_IEventMerger_MergeForward)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x69d1434;
+  constexpr static std::size_t addrs = 0x69d2514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -289,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::Controls::TouchControl*, ::by_ref<::UnityEngine::InputSystem::LowLevel::TouchState>,
                                                                 ::UnityEngine::InputSystem::LowLevel::InputEventPtr)>(&::UnityEngine::InputSystem::Touchscreen::TriggerTap)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x69d0bb8;
+  constexpr static std::size_t addrs = 0x69d1c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -306,7 +306,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Touchscreen::*)()>(&::UnityEngine::InputSystem::Touchscreen::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69d149c;
+  constexpr static std::size_t addrs = 0x69d257c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Touchscreen*>(), { ".ctor", {}, {} })));

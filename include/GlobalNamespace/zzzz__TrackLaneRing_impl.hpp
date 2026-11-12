@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TrackLaneRing::*)()>(&::GlobalNamespace::TrackLaneRing::get_destRotZ)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e0078c;
+  constexpr static std::size_t addrs = 0x5e00b90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TrackLaneRing*>(), { "get_destRotZ", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrackLaneRing::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::GlobalNamespace::TrackLaneRing::Init)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5e00794;
+  constexpr static std::size_t addrs = 0x5e00b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TrackLaneRing*>(),
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrackLaneRing::*)(float_t)>(&::GlobalNamespace::TrackLaneRing::FixedUpdateRing)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5e0080c;
+  constexpr static std::size_t addrs = 0x5e00c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrackLaneRing::*)(float_t)>(&::GlobalNamespace::TrackLaneRing::LateUpdateRing)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5e0087c;
+  constexpr static std::size_t addrs = 0x5e00c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrackLaneRing::*)(float_t, float_t)>(&::GlobalNamespace::TrackLaneRing::SetDestRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e008e4;
+  constexpr static std::size_t addrs = 0x5e00ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TrackLaneRing::*)()>(&::GlobalNamespace::TrackLaneRing::GetRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e008ec;
+  constexpr static std::size_t addrs = 0x5e00cf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TrackLaneRing*>(), { "GetRotation", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TrackLaneRing::*)()>(&::GlobalNamespace::TrackLaneRing::GetDestinationRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e008f4;
+  constexpr static std::size_t addrs = 0x5e00cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TrackLaneRing*>(), { "GetDestinationRotation", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrackLaneRing::*)(float_t, float_t)>(&::GlobalNamespace::TrackLaneRing::SetPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e008fc;
+  constexpr static std::size_t addrs = 0x5e00d00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrackLaneRing::*)()>(&::GlobalNamespace::TrackLaneRing::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e00904;
+  constexpr static std::size_t addrs = 0x5e00d08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TrackLaneRing*>(), { ".ctor", {}, {} })));

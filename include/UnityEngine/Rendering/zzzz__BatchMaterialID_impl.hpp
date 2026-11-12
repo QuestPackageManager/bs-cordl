@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::BatchMaterialID::*)()>(&::UnityEngine::Rendering::BatchMaterialID::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fc4934;
+  constexpr static std::size_t addrs = 0x6fc5a14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::BatchMaterialID::*)(::System::Object*)>(&::UnityEngine::Rendering::BatchMaterialID::Equals)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6fc493c;
+  constexpr static std::size_t addrs = 0x6fc5a1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::BatchMaterialID::*)(::UnityEngine::Rendering::BatchMaterialID)>(
     &::UnityEngine::Rendering::BatchMaterialID::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6fc49ec;
+  constexpr static std::size_t addrs = 0x6fc5acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::BatchMaterialID, ::UnityEngine::Rendering::BatchMaterialID)>(
     &::UnityEngine::Rendering::BatchMaterialID::op_Equality)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6fc49fc;
+  constexpr static std::size_t addrs = 0x6fc5adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

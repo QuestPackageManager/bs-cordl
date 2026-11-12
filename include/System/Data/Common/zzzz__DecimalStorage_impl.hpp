@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DecimalStorage::*)(::System::Data::DataColumn*)>(&::System::Data::Common::DecimalStorage::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x64ff6f8;
+  constexpr static std::size_t addrs = 0x64ffd48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::DecimalStorage::*)(::ArrayW<int32_t>, ::System::Data::AggregateType)>(
     &::System::Data::Common::DecimalStorage::Aggregate)> {
   constexpr static std::size_t size = 0xc20;
-  constexpr static std::size_t addrs = 0x6503bcc;
+  constexpr static std::size_t addrs = 0x650421c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::Common::DecimalStorage::*)(int32_t, int32_t)>(&::System::Data::Common::DecimalStorage::Compare)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x65047ec;
+  constexpr static std::size_t addrs = 0x6504e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::Common::DecimalStorage::*)(int32_t, ::System::Object*)>(&::System::Data::Common::DecimalStorage::CompareValueTo)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x6504968;
+  constexpr static std::size_t addrs = 0x6504fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::DecimalStorage::*)(::System::Object*)>(&::System::Data::Common::DecimalStorage::ConvertValue)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x6504ad4;
+  constexpr static std::size_t addrs = 0x6505124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DecimalStorage::*)(int32_t, int32_t)>(&::System::Data::Common::DecimalStorage::Copy)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6504c84;
+  constexpr static std::size_t addrs = 0x65052d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::DecimalStorage::*)(int32_t)>(&::System::Data::Common::DecimalStorage::Get)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6504cd8;
+  constexpr static std::size_t addrs = 0x6505328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DecimalStorage::*)(int32_t, ::System::Object*)>(&::System::Data::Common::DecimalStorage::Set)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x6504dbc;
+  constexpr static std::size_t addrs = 0x650540c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DecimalStorage::*)(int32_t)>(&::System::Data::Common::DecimalStorage::SetCapacity)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6504f68;
+  constexpr static std::size_t addrs = 0x65055b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::DecimalStorage::*)(::StringW)>(&::System::Data::Common::DecimalStorage::ConvertXmlToObject)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6505028;
+  constexpr static std::size_t addrs = 0x6505678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::Common::DecimalStorage::*)(::System::Object*)>(&::System::Data::Common::DecimalStorage::ConvertObjectToXml)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x65050e4;
+  constexpr static std::size_t addrs = 0x6505734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::DecimalStorage::*)(int32_t)>(&::System::Data::Common::DecimalStorage::GetEmptyStorage)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6505180;
+  constexpr static std::size_t addrs = 0x65057d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DecimalStorage::*)(int32_t, ::System::Object*, ::System::Collections::BitArray*, int32_t)>(
     &::System::Data::Common::DecimalStorage::CopyValue)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x65051cc;
+  constexpr static std::size_t addrs = 0x650581c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DecimalStorage::*)(::System::Object*, ::System::Collections::BitArray*)>(
     &::System::Data::Common::DecimalStorage::SetStorage)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x65052d4;
+  constexpr static std::size_t addrs = 0x6505924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

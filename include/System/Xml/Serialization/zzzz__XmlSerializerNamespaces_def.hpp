@@ -40,15 +40,15 @@ public:
   /// @brief Field namespaces, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_namespaces, put = __cordl_internal_set_namespaces)) ::System::Collections::Hashtable* namespaces;
 
-  /// @brief Method Add, addr 0x674f86c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x674febc, size 0xb4, virtual false, abstract: false, final false
   inline void Add(::StringW prefix, ::StringW ns);
 
-  /// @brief Method AddInternal, addr 0x674f920, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method AddInternal, addr 0x674ff70, size 0x3c, virtual false, abstract: false, final false
   inline void AddInternal(::StringW prefix, ::StringW ns);
 
   static inline ::System::Xml::Serialization::XmlSerializerNamespaces* New_ctor();
 
-  /// @brief Method ToArray, addr 0x674f9c8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToArray, addr 0x6750018, size 0xf8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Xml::XmlQualifiedName*> ToArray();
 
   constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_namespaces() const;
@@ -57,19 +57,19 @@ public:
 
   constexpr void __cordl_internal_set_namespaces(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x674f868, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x674feb8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x674fec4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x6750514, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_NamespaceList, addr 0x674fac0, size 0x404, virtual false, abstract: false, final false
+  /// @brief Method get_NamespaceList, addr 0x6750110, size 0x404, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_NamespaceList();
 
-  /// @brief Method get_Namespaces, addr 0x674f95c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_Namespaces, addr 0x674ffac, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Collections::Hashtable* get_Namespaces();
 
-  /// @brief Method set_Namespaces, addr 0x674fee8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Namespaces, addr 0x6750538, size 0x8, virtual false, abstract: false, final false
   inline void set_Namespaces(::System::Collections::Hashtable* value);
 
 protected:

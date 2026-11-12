@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::MeshFilter> (::GlobalNamespace::NoteLODGroup::*)()>(&::GlobalNamespace::NoteLODGroup::get_meshFilter)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5dd5b64;
+  constexpr static std::size_t addrs = 0x5dd5c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteLODGroup*>(), { "get_meshFilter", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::MeshRenderer> (::GlobalNamespace::NoteLODGroup::*)()>(&::GlobalNamespace::NoteLODGroup::get_meshRenderer)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5dd5be0;
+  constexpr static std::size_t addrs = 0x5dd5cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteLODGroup*>(), { "get_meshRenderer", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::NoteLODGroup::*)()>(&::GlobalNamespace::NoteLODGroup::GetStartupLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd5c5c;
+  constexpr static std::size_t addrs = 0x5dd5d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteLODGroup::*)()>(&::GlobalNamespace::NoteLODGroup::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5dd5c64;
+  constexpr static std::size_t addrs = 0x5dd5d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteLODGroup*>(), { ".ctor", {}, {} })));

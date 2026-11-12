@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::by_ref<::UnityEngine::Vector2>, ::by_ref<bool>)>(&::UnityEngine::Rendering::Universal::StpUtils::CalculateJitter)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6d322d8;
+  constexpr static std::size_t addrs = 0x6d333b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +32,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, int32_t, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle,
     ::UnityEngine::Texture2D*, ::by_ref<::UnityEngine::Rendering::STP_Config>)>(&::UnityEngine::Rendering::Universal::StpUtils::PopulateStpConfig)> {
   constexpr static std::size_t size = 0x61c;
-  constexpr static std::size_t addrs = 0x6d32358;
+  constexpr static std::size_t addrs = 0x6d33438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle,
     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Texture2D*)>(&::UnityEngine::Rendering::Universal::StpUtils::Execute)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x6d329b4;
+  constexpr static std::size_t addrs = 0x6d33a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

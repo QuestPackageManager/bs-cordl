@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute::*)(bool)>(&::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6129070;
+  constexpr static std::size_t addrs = 0x61292f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute::*)()>(
     &::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute::get_ReturnValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6129078;
+  constexpr static std::size_t addrs = 0x6129300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

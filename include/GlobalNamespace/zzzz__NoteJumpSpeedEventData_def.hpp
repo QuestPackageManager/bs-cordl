@@ -33,11 +33,11 @@ public:
   /// @brief Field _default, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__default, put = setStaticF__default)) ::GlobalNamespace::NoteJumpSpeedEventData* _default;
 
-  /// @brief Field <relativeNoteJumpSpeed>k__BackingField, offset 0x38, size 0x4
+  /// @brief Field <relativeNoteJumpSpeed>k__BackingField, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__relativeNoteJumpSpeed_k__BackingField,
                       put = __cordl_internal_set__relativeNoteJumpSpeed_k__BackingField)) float_t _relativeNoteJumpSpeed_k__BackingField;
 
-  /// @brief Field easeType, offset 0x3c, size 0x4
+  /// @brief Field easeType, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_easeType, put = __cordl_internal_set_easeType)) ::GlobalNamespace::EaseType easeType;
 
   __declspec(property(get = get_nextSameTypeEventData)) ::GlobalNamespace::NoteJumpSpeedEventData* nextSameTypeEventData;
@@ -46,16 +46,16 @@ public:
 
   __declspec(property(get = get_relativeNoteJumpSpeed, put = set_relativeNoteJumpSpeed)) float_t relativeNoteJumpSpeed;
 
-  /// @brief Field usePreviousValue, offset 0x40, size 0x1
+  /// @brief Field usePreviousValue, offset 0x44, size 0x1
   __declspec(property(get = __cordl_internal_get_usePreviousValue, put = __cordl_internal_set_usePreviousValue)) bool usePreviousValue;
 
-  /// @brief Method ChangeRelativeNoteJumpSpeed, addr 0x34f9198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ChangeRelativeNoteJumpSpeed, addr 0x34fb5d8, size 0x8, virtual false, abstract: false, final false
   inline void ChangeRelativeNoteJumpSpeed(float_t value);
 
-  /// @brief Method GetCopy, addr 0x34f91a0, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0x34fb5e0, size 0x88, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method GetDefault, addr 0x34f9228, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetDefault, addr 0x34fb668, size 0x5c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
   static inline ::GlobalNamespace::NoteJumpSpeedEventData* New_ctor(float_t time, float_t relativeNoteJumpSpeed, ::GlobalNamespace::EaseType easeType, bool usePreviousValue);
@@ -78,25 +78,25 @@ public:
 
   constexpr void __cordl_internal_set_usePreviousValue(bool value);
 
-  /// @brief Method .ctor, addr 0x34f9154, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34fb594, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t relativeNoteJumpSpeed, ::GlobalNamespace::EaseType easeType, bool usePreviousValue);
 
   static inline ::GlobalNamespace::NoteJumpSpeedEventData* getStaticF__default();
 
-  /// @brief Method get_nextSameTypeEventData, addr 0x34f90c8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_nextSameTypeEventData, addr 0x34fb508, size 0x7c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteJumpSpeedEventData* get_nextSameTypeEventData();
 
-  /// @brief Method get_previousSameTypeEventData, addr 0x34f904c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_previousSameTypeEventData, addr 0x34fb48c, size 0x7c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteJumpSpeedEventData* get_previousSameTypeEventData();
 
   /// [CompilerGenerated]
-  /// @brief Method get_relativeNoteJumpSpeed, addr 0x34f9144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_relativeNoteJumpSpeed, addr 0x34fb584, size 0x8, virtual false, abstract: false, final false
   inline float_t get_relativeNoteJumpSpeed();
 
   static inline void setStaticF__default(::GlobalNamespace::NoteJumpSpeedEventData* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_relativeNoteJumpSpeed, addr 0x34f914c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_relativeNoteJumpSpeed, addr 0x34fb58c, size 0x8, virtual false, abstract: false, final false
   inline void set_relativeNoteJumpSpeed(float_t value);
 
 protected:
@@ -114,26 +114,26 @@ public:
   NoteJumpSpeedEventData(NoteJumpSpeedEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22019 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21963 };
 
   /// [CompilerGenerated]
-  /// @brief Field <relativeNoteJumpSpeed>k__BackingField, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field <relativeNoteJumpSpeed>k__BackingField, offset: 0x3c, size: 0x4, def value: None
   float_t ____relativeNoteJumpSpeed_k__BackingField;
 
-  /// @brief Field easeType, offset: 0x3c, size: 0x4, def value: None
+  /// @brief Field easeType, offset: 0x40, size: 0x4, def value: None
   ::GlobalNamespace::EaseType ___easeType;
 
-  /// @brief Field usePreviousValue, offset: 0x40, size: 0x1, def value: None
+  /// @brief Field usePreviousValue, offset: 0x44, size: 0x1, def value: None
   bool ___usePreviousValue;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::NoteJumpSpeedEventData, ____relativeNoteJumpSpeed_k__BackingField) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteJumpSpeedEventData, ____relativeNoteJumpSpeed_k__BackingField) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteJumpSpeedEventData, ___easeType) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteJumpSpeedEventData, ___easeType) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteJumpSpeedEventData, ___usePreviousValue) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteJumpSpeedEventData, ___usePreviousValue) == 0x44, "Offset mismatch!");
 
 static_assert(sizeof(::GlobalNamespace::NoteJumpSpeedEventData) == 0x48, "Size mismatch!");
 

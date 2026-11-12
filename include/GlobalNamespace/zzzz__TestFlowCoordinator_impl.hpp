@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TestFlowCoordinator::*)(bool, bool, bool)>(&::GlobalNamespace::TestFlowCoordinator::DidActivate)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5d8f128;
+  constexpr static std::size_t addrs = 0x5d8ef1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TestFlowCoordinator::*)()>(&::GlobalNamespace::TestFlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d8f150;
+  constexpr static std::size_t addrs = 0x5d8ef44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TestFlowCoordinator*>(), { ".ctor", {}, {} })));

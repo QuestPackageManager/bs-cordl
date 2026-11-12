@@ -28,13 +28,13 @@ namespace UnityEngine {
 class CORDL_TYPE FrameTimingManager : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CaptureFrameTimings, addr 0x6f19438, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CaptureFrameTimings, addr 0x6f1a518, size 0x28, virtual false, abstract: false, final false
   static inline void CaptureFrameTimings();
 
-  /// @brief Method GetLatestTimings, addr 0x6f19460, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetLatestTimings, addr 0x6f1a540, size 0xd4, virtual false, abstract: false, final false
   static inline uint32_t GetLatestTimings(uint32_t numFrames, ::ArrayW<::UnityEngine::FrameTiming> timings);
 
-  /// @brief Method GetLatestTimings_Injected, addr 0x6f19534, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetLatestTimings_Injected, addr 0x6f1a614, size 0x44, virtual false, abstract: false, final false
   static inline uint32_t GetLatestTimings_Injected(uint32_t numFrames, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> timings);
 
 protected:

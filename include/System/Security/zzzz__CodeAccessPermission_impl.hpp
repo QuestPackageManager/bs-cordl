@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::CodeAccessPermission::*)()>(&::System::Security::CodeAccessPermission::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f4370c;
+  constexpr static std::size_t addrs = 0x5f43994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::CodeAccessPermission*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::CodeAccessPermission::*)()>(&::System::Security::CodeAccessPermission::Demand)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5f43710;
+  constexpr static std::size_t addrs = 0x5f43998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::CodeAccessPermission*>(), { "Demand", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::CodeAccessPermission::*)(::System::Object*)>(&::System::Security::CodeAccessPermission::Equals)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5f4381c;
+  constexpr static std::size_t addrs = 0x5f43aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::CodeAccessPermission::*)()>(&::System::Security::CodeAccessPermission::GetHashCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5f43928;
+  constexpr static std::size_t addrs = 0x5f43bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::CodeAccessPermission::*)()>(&::System::Security::CodeAccessPermission::ToString)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5f4393c;
+  constexpr static std::size_t addrs = 0x5f43bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Permissions::PermissionState (*)(::System::Security::Permissions::PermissionState, bool)>(
     &::System::Security::CodeAccessPermission::CheckPermissionState)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5f43964;
+  constexpr static std::size_t addrs = 0x5f43bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::CodeAccessPermission::*)()>(&::System::Security::CodeAccessPermission::System_Security_IPermission_Demand)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f43a08;
+  constexpr static std::size_t addrs = 0x5f43c90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

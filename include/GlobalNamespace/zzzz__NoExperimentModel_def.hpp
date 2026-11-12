@@ -31,15 +31,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IExperimentModel"
   constexpr operator ::GlobalNamespace::IExperimentModel*() noexcept;
 
-  /// @brief Method IsEmployee, addr 0x39b7798, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method IsEmployee, addr 0x39bbd64, size 0x70, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* IsEmployee();
 
-  /// @brief Method IsInTest, addr 0x39b7808, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method IsInTest, addr 0x39bbdd4, size 0x70, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* IsInTest(::GlobalNamespace::IExperimentData* data);
 
   static inline ::GlobalNamespace::NoExperimentModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x39b7878, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39bbe44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IExperimentModel"
@@ -60,7 +60,7 @@ public:
   NoExperimentModel(NoExperimentModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14311 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14312 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

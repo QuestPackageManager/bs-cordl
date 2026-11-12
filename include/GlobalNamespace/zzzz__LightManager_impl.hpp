@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightManager::*)()>(&::GlobalNamespace::LightManager::OnEnable)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5cb67e4;
+  constexpr static std::size_t addrs = 0x5cb501c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightManager*>(), { "OnEnable", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightManager::*)()>(&::GlobalNamespace::LightManager::OnDisable)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5cb6864;
+  constexpr static std::size_t addrs = 0x5cb509c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightManager*>(), { "OnDisable", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightManager::*)(::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*)>(
     &::GlobalNamespace::LightManager::OnCameraPreRender)> {
   constexpr static std::size_t size = 0x628;
-  constexpr static std::size_t addrs = 0x5cb68e4;
+  constexpr static std::size_t addrs = 0x5cb511c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightManager::*)()>(&::GlobalNamespace::LightManager::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cb6f0c;
+  constexpr static std::size_t addrs = 0x5cb5744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightManager*>(), { "OnDestroy", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightManager::*)()>(&::GlobalNamespace::LightManager::ResetColors)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5cb6f10;
+  constexpr static std::size_t addrs = 0x5cb5748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightManager*>(), { "ResetColors", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightManager::*)()>(&::GlobalNamespace::LightManager::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5cb6ff8;
+  constexpr static std::size_t addrs = 0x5cb5830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightManager*>(), { ".ctor", {}, {} })));

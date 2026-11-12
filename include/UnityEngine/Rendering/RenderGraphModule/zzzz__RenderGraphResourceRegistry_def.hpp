@@ -172,19 +172,19 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 class CORDL_TYPE RenderGraphResourceRegistry_ResourceCreateCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6c4ff8c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6c5106c, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* rgContext, ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource* res,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x6c4ffb4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6c51094, size 0x24, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x6c4ff78, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6c51058, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* rgContext, ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource* res);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry_ResourceCreateCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6c4b320, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c4c400, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -217,19 +217,19 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 class CORDL_TYPE RenderGraphResourceRegistry_ResourceCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6c4ffec, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6c510cc, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* rgContext, ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource* res,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x6c50014, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6c510f4, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x6c4ffd8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6c510b8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* rgContext, ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource* res);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry_ResourceCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6c4b468, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c4c548, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -285,15 +285,15 @@ public:
     requires(::cordl_internals::type_constraint<ResType, ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource*> && ::cordl_internals::default_constructor_constraint<ResType>)
   inline int32_t AddNewRenderGraphResource(::by_ref<ResType> outRes, bool pooledResource);
 
-  /// @brief Method Cleanup, addr 0x6c4fde8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x6c50ec8, size 0xc8, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method Clear, addr 0x6c4fc18, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6c50cf8, size 0xb4, virtual false, abstract: false, final false
   inline void Clear(bool onException, int32_t frameIndex);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry_RenderGraphResourcesData* New_ctor();
 
-  /// @brief Method PurgeUnusedGraphicsResources, addr 0x6c4fd34, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method PurgeUnusedGraphicsResources, addr 0x6c50e14, size 0x18, virtual false, abstract: false, final false
   inline void PurgeUnusedGraphicsResources(int32_t frameIndex);
 
   constexpr ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry_ResourceCreateCallback* const& __cordl_internal_get_createResourceCallback() const;
@@ -326,7 +326,7 @@ public:
 
   constexpr void __cordl_internal_set_sharedResourcesCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6c4b264, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c4c344, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -441,255 +441,255 @@ public:
   /// @brief Field m_ResourceLogger, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ResourceLogger, put = __cordl_internal_set_m_ResourceLogger)) ::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger* m_ResourceLogger;
 
-  /// @brief Method BeginExecute, addr 0x6c4b7a8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method BeginExecute, addr 0x6c4c888, size 0xb0, virtual false, abstract: false, final false
   inline void BeginExecute(int32_t currentFrameIndex);
 
-  /// @brief Method BeginRenderGraph, addr 0x6c4b624, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method BeginRenderGraph, addr 0x6c4c704, size 0xc0, virtual false, abstract: false, final false
   inline void BeginRenderGraph(int32_t executionCount);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method CheckBufferResource, addr 0x6c4a980, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CheckBufferResource, addr 0x6c4ba60, size 0xa8, virtual false, abstract: false, final false
   inline void CheckBufferResource(::UnityEngine::Rendering::RenderGraphModule::BufferResource* bufferResource);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method CheckHandleValidity, addr 0x6c4baa4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CheckHandleValidity, addr 0x6c4cb84, size 0x4, virtual false, abstract: false, final false
   inline void CheckHandleValidity(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> res);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method CheckHandleValidity, addr 0x6c4baa8, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method CheckHandleValidity, addr 0x6c4cb88, size 0x1d4, virtual false, abstract: false, final false
   inline void CheckHandleValidity(::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType type, int32_t index);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method CheckTextureResource, addr 0x6c4a3fc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CheckTextureResource, addr 0x6c4b4dc, size 0xb0, virtual false, abstract: false, final false
   inline void CheckTextureResource(::UnityEngine::Rendering::RenderGraphModule::TextureResource* texResource);
 
-  /// @brief Method Cleanup, addr 0x6c4fd4c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x6c50e2c, size 0x9c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method Clear, addr 0x6c4f960, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6c50a40, size 0xec, virtual false, abstract: false, final false
   inline void Clear(bool onException);
 
-  /// @brief Method ClearResource, addr 0x6c4ed2c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ClearResource, addr 0x6c4fe0c, size 0x108, virtual false, abstract: false, final false
   inline bool ClearResource(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* rgContext, int32_t type, int32_t index);
 
-  /// @brief Method ClearTexture, addr 0x6c4ebbc, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method ClearTexture, addr 0x6c4fc9c, size 0x170, virtual false, abstract: false, final false
   inline void ClearTexture(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* rgContext, ::UnityEngine::Rendering::RenderGraphModule::TextureResource* resource);
 
-  /// @brief Method CreateBuffer, addr 0x6c4e454, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method CreateBuffer, addr 0x6c4f534, size 0xdc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::BufferHandle CreateBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferDesc const> desc,
                                                                                 int32_t transientPassIndex);
 
-  /// @brief Method CreateGizmoRendererList, addr 0x6c4de24, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method CreateGizmoRendererList, addr 0x6c4ef04, size 0xd4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateGizmoRendererList(::UnityEngine::Rendering::ScriptableRenderContext context,
                                                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Camera* const> camera,
                                                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GizmoSubset const> gizmoSubset);
 
-  /// @brief Method CreatePooledResource, addr 0x6c4ea18, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CreatePooledResource, addr 0x6c4faf8, size 0xb4, virtual false, abstract: false, final false
   inline bool CreatePooledResource(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* rgContext,
                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> handle);
 
-  /// @brief Method CreatePooledResource, addr 0x6c4e8a0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method CreatePooledResource, addr 0x6c4f980, size 0x178, virtual false, abstract: false, final false
   inline bool CreatePooledResource(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* rgContext, int32_t type, int32_t index);
 
-  /// @brief Method CreateRendererList, addr 0x6c4dc98, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CreateRendererList, addr 0x6c4ed78, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateRendererList(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RendererListParams const> desc);
 
-  /// @brief Method CreateRendererList, addr 0x6c4db50, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method CreateRendererList, addr 0x6c4ec30, size 0x114, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateRendererList(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RendererUtils::RendererListDesc const> desc);
 
-  /// @brief Method CreateRendererLists, addr 0x6c4f67c, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method CreateRendererLists, addr 0x6c5075c, size 0x2e4, virtual false, abstract: false, final false
   inline void CreateRendererLists(::System::Collections::Generic::List_1<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle>* rendererLists,
                                   ::UnityEngine::Rendering::ScriptableRenderContext context, bool manualDispatch);
 
-  /// @brief Method CreateShadowRendererList, addr 0x6c4dd64, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method CreateShadowRendererList, addr 0x6c4ee44, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateShadowRendererList(::UnityEngine::Rendering::ScriptableRenderContext context,
                                                                                                   ::by_ref<::UnityEngine::Rendering::ShadowDrawingSettings> shadowDrawinSettings);
 
-  /// @brief Method CreateSharedTexture, addr 0x6c4cdb0, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method CreateSharedTexture, addr 0x6c4de90, size 0x1bc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle CreateSharedTexture(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> desc,
                                                                                         bool explicitRelease);
 
-  /// @brief Method CreateSkyboxRendererList, addr 0x6c4e090, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CreateSkyboxRendererList, addr 0x6c4f170, size 0xc4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateSkyboxRendererList(::UnityEngine::Rendering::ScriptableRenderContext context,
                                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Camera* const> camera);
 
-  /// @brief Method CreateSkyboxRendererList, addr 0x6c4e154, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method CreateSkyboxRendererList, addr 0x6c4f234, size 0xfc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateSkyboxRendererList(::UnityEngine::Rendering::ScriptableRenderContext context,
                                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Camera* const> camera,
                                                                                                   ::UnityEngine::Matrix4x4 projectionMatrix, ::UnityEngine::Matrix4x4 viewMatrix);
 
-  /// @brief Method CreateSkyboxRendererList, addr 0x6c4e250, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method CreateSkyboxRendererList, addr 0x6c4f330, size 0x138, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateSkyboxRendererList(::UnityEngine::Rendering::ScriptableRenderContext context,
                                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Camera* const> camera,
                                                                                                   ::UnityEngine::Matrix4x4 projectionMatrixL, ::UnityEngine::Matrix4x4 viewMatrixL,
                                                                                                   ::UnityEngine::Matrix4x4 projectionMatrixR, ::UnityEngine::Matrix4x4 viewMatrixR);
 
-  /// @brief Method CreateTexture, addr 0x6c4d914, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method CreateTexture, addr 0x6c4e9f4, size 0xec, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle CreateTexture(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> desc,
                                                                                   int32_t transientPassIndex);
 
-  /// @brief Method CreateTextureCallback, addr 0x6c4eacc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method CreateTextureCallback, addr 0x6c4fbac, size 0xf0, virtual false, abstract: false, final false
   inline bool CreateTextureCallback(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* rgContext, ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource* res);
 
-  /// @brief Method CreateUIOverlayRendererList, addr 0x6c4def8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method CreateUIOverlayRendererList, addr 0x6c4efd8, size 0xd4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateUIOverlayRendererList(::UnityEngine::Rendering::ScriptableRenderContext context,
                                                                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Camera* const> camera,
                                                                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UISubset const> uiSubset);
 
-  /// @brief Method CreateWireOverlayRendererList, addr 0x6c4dfcc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CreateWireOverlayRendererList, addr 0x6c4f0ac, size 0xc4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateWireOverlayRendererList(::UnityEngine::Rendering::ScriptableRenderContext context,
                                                                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Camera* const> camera);
 
-  /// @brief Method EnableIntraFrameMemoryAliasing, addr 0x6c4ba4c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method EnableIntraFrameMemoryAliasing, addr 0x6c4cb2c, size 0x58, virtual false, abstract: false, final false
   inline void EnableIntraFrameMemoryAliasing(bool enabled);
 
-  /// @brief Method EndExecute, addr 0x6c4b9b8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method EndExecute, addr 0x6c4ca98, size 0x94, virtual false, abstract: false, final false
   inline void EndExecute();
 
-  /// @brief Method FlushLogs, addr 0x6c4feb0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method FlushLogs, addr 0x6c50f90, size 0x18, virtual false, abstract: false, final false
   inline void FlushLogs();
 
-  /// @brief Method GetBuffer, addr 0x6c49d00, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetBuffer, addr 0x6c4ade0, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* GetBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferHandle const> handle);
 
-  /// @brief Method GetBuffer, addr 0x6c4ab38, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetBuffer, addr 0x6c4bc18, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* GetBuffer(int32_t index);
 
-  /// @brief Method GetBufferResource, addr 0x6c4aa28, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetBufferResource, addr 0x6c4bb08, size 0x110, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::BufferResource* GetBufferResource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> handle);
 
-  /// @brief Method GetBufferResource, addr 0x6c4ab54, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetBufferResource, addr 0x6c4bc34, size 0xe4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::BufferResource* GetBufferResource(int32_t index);
 
-  /// @brief Method GetBufferResourceCount, addr 0x6c4e6a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetBufferResourceCount, addr 0x6c4f788, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetBufferResourceCount();
 
-  /// @brief Method GetBufferResourceDesc, addr 0x6c4e530, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetBufferResourceDesc, addr 0x6c4f610, size 0x178, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferDesc> GetBufferResourceDesc(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> handle,
                                                                                                  bool noThrowOnInvalidDesc);
 
-  /// @brief Method GetFormat, addr 0x6c4d70c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetFormat, addr 0x6c4e7ec, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat color,
                                                                           ::UnityEngine::Experimental::Rendering::GraphicsFormat depthStencil);
 
-  /// @brief Method GetLatestVersionHandle, addr 0x6c4bf34, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetLatestVersionHandle, addr 0x6c4d014, size 0x12c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle GetLatestVersionHandle(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> res);
 
-  /// @brief Method GetRayTracingAccelerationStructure, addr 0x6c499a4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetRayTracingAccelerationStructure, addr 0x6c4aa84, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RayTracingAccelerationStructure*
   GetRayTracingAccelerationStructure(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle const> handle);
 
-  /// @brief Method GetRayTracingAccelerationStructureResource, addr 0x6c4ac38, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetRayTracingAccelerationStructureResource, addr 0x6c4bd18, size 0x110, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureResource*
   GetRayTracingAccelerationStructureResource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> handle);
 
-  /// @brief Method GetRayTracingAccelerationStructureResourceCount, addr 0x6c4e6b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetRayTracingAccelerationStructureResourceCount, addr 0x6c4f790, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetRayTracingAccelerationStructureResourceCount();
 
-  /// @brief Method GetRenderGraphResourceName, addr 0x6c4c190, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetRenderGraphResourceName, addr 0x6c4d270, size 0x10c, virtual false, abstract: false, final false
   inline ::StringW GetRenderGraphResourceName(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> res);
 
-  /// @brief Method GetRenderGraphResourceName, addr 0x6c4c29c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetRenderGraphResourceName, addr 0x6c4d37c, size 0xa8, virtual false, abstract: false, final false
   inline ::StringW GetRenderGraphResourceName(::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType type, int32_t index);
 
-  /// @brief Method GetRenderGraphResourceTransientIndex, addr 0x6c4c70c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetRenderGraphResourceTransientIndex, addr 0x6c4d7ec, size 0x108, virtual false, abstract: false, final false
   inline int32_t GetRenderGraphResourceTransientIndex(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> res);
 
-  /// @brief Method GetRenderTargetInfo, addr 0x6c4d31c, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method GetRenderTargetInfo, addr 0x6c4e3fc, size 0x3f0, virtual false, abstract: false, final false
   inline void GetRenderTargetInfo(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> res,
                                   ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo> outInfo);
 
-  /// @brief Method GetRendererList, addr 0x6c4a820, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetRendererList, addr 0x6c4b900, size 0x158, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RendererList GetRendererList(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle const> handle);
 
-  /// @brief Method GetResourceCount, addr 0x6c4dac8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetResourceCount, addr 0x6c4eba8, size 0x80, virtual false, abstract: false, final false
   inline int32_t GetResourceCount(::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType type);
 
-  /// @brief Method GetResourceLowLevel, addr 0x6c4c090, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetResourceLowLevel, addr 0x6c4d170, size 0x100, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource* GetResourceLowLevel(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> res);
 
-  /// @brief Method GetSharedResourceCount, addr 0x6c4ad48, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetSharedResourceCount, addr 0x6c4be28, size 0x38, virtual false, abstract: false, final false
   inline int32_t GetSharedResourceCount(::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType type);
 
-  /// @brief Method GetTexture, addr 0x6c4a4ac, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetTexture, addr 0x6c4b58c, size 0x134, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* GetTexture(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> handle);
 
-  /// @brief Method GetTexture, addr 0x6c4a5e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetTexture, addr 0x6c4b6c0, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* GetTexture(int32_t index);
 
-  /// @brief Method GetTextureResource, addr 0x6c486d8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetTextureResource, addr 0x6c497b8, size 0x10c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureResource* GetTextureResource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> handle);
 
-  /// @brief Method GetTextureResource, addr 0x6c4a5fc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetTextureResource, addr 0x6c4b6dc, size 0xe0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureResource* GetTextureResource(int32_t index);
 
-  /// @brief Method GetTextureResourceCount, addr 0x6c4db48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTextureResourceCount, addr 0x6c4ec28, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetTextureResourceCount();
 
-  /// @brief Method GetTextureResourceDesc, addr 0x6c487e4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetTextureResourceDesc, addr 0x6c498c4, size 0x174, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>
   GetTextureResourceDesc(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> handle, bool noThrowOnInvalidDesc);
 
-  /// @brief Method GetZeroVersionHandle, addr 0x6c4c060, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetZeroVersionHandle, addr 0x6c4d140, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle GetZeroVersionHandle(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> res);
 
-  /// @brief Method ImportBackbuffer, addr 0x6c4d07c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method ImportBackbuffer, addr 0x6c4e15c, size 0x1d8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ImportBackbuffer(::UnityEngine::Rendering::RenderTargetIdentifier rt,
                                                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo const> info,
                                                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ImportResourceParams const> importParams);
 
-  /// @brief Method ImportBuffer, addr 0x6c4e388, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ImportBuffer, addr 0x6c4f468, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::BufferHandle ImportBuffer(::UnityEngine::GraphicsBuffer* graphicsBuffer);
 
-  /// @brief Method ImportRayTracingAccelerationStructure, addr 0x6c4e6b8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ImportRayTracingAccelerationStructure, addr 0x6c4f798, size 0xd4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle
   ImportRayTracingAccelerationStructure(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RayTracingAccelerationStructure* const> accelStruct, ::StringW name);
 
-  /// @brief Method ImportTexture, addr 0x6c4c840, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method ImportTexture, addr 0x6c4d920, size 0x26c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ImportTexture(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle* const> rt,
                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ImportResourceParams const> importParams,
                                                                                   bool isBuiltin);
 
-  /// @brief Method ImportTexture, addr 0x6c4cbbc, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method ImportTexture, addr 0x6c4dc9c, size 0x1f4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ImportTexture(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle* const> rt,
                                                                                   ::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo info,
                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ImportResourceParams const> importParams);
 
-  /// @brief Method ImportTexture, addr 0x6c4c814, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ImportTexture, addr 0x6c4d8f4, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ImportTexture(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle* const> rt, bool isBuiltin);
 
-  /// @brief Method IncrementReadCount, addr 0x6c4be28, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method IncrementReadCount, addr 0x6c4cf08, size 0x10c, virtual false, abstract: false, final false
   inline void IncrementReadCount(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> res);
 
-  /// @brief Method IncrementWriteCount, addr 0x6c4bc7c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method IncrementWriteCount, addr 0x6c4cd5c, size 0x138, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle IncrementWriteCount(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> res);
 
-  /// @brief Method IsGraphicsResourceCreated, addr 0x6c4c3f0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method IsGraphicsResourceCreated, addr 0x6c4d4d0, size 0x10c, virtual false, abstract: false, final false
   inline bool IsGraphicsResourceCreated(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> res);
 
-  /// @brief Method IsRenderGraphResourceImported, addr 0x6c485d0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method IsRenderGraphResourceImported, addr 0x6c496b0, size 0x108, virtual false, abstract: false, final false
   inline bool IsRenderGraphResourceImported(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> res);
 
-  /// @brief Method IsRenderGraphResourceImported, addr 0x6c4c668, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method IsRenderGraphResourceImported, addr 0x6c4d748, size 0xa4, virtual false, abstract: false, final false
   inline bool IsRenderGraphResourceImported(::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType type, int32_t index);
 
-  /// @brief Method IsRenderGraphResourceShared, addr 0x6c4c384, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsRenderGraphResourceShared, addr 0x6c4d464, size 0x6c, virtual false, abstract: false, final false
   inline bool IsRenderGraphResourceShared(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> res);
 
-  /// @brief Method IsRenderGraphResourceShared, addr 0x6c4c344, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method IsRenderGraphResourceShared, addr 0x6c4d424, size 0x40, virtual false, abstract: false, final false
   inline bool IsRenderGraphResourceShared(::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType type, int32_t index);
 
-  /// @brief Method IsRendererListCreated, addr 0x6c4c4fc, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method IsRendererListCreated, addr 0x6c4d5dc, size 0x16c, virtual false, abstract: false, final false
   inline bool IsRendererListCreated(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle const> res);
 
-  /// @brief Method LogResources, addr 0x6c4fa4c, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method LogResources, addr 0x6c50b2c, size 0x1cc, virtual false, abstract: false, final false
   inline void LogResources();
 
-  /// @brief Method ManageSharedRenderGraphResources, addr 0x6c4b858, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method ManageSharedRenderGraphResources, addr 0x6c4c938, size 0x160, virtual false, abstract: false, final false
   inline void ManageSharedRenderGraphResources();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* New_ctor();
@@ -697,61 +697,61 @@ public:
   static inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* New_ctor(::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams* renderGraphDebug,
                                                                                                    ::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger* frameInformationLogger);
 
-  /// @brief Method PurgeUnusedGraphicsResources, addr 0x6c4fccc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method PurgeUnusedGraphicsResources, addr 0x6c50dac, size 0x68, virtual false, abstract: false, final false
   inline void PurgeUnusedGraphicsResources();
 
-  /// @brief Method RefreshSharedTextureDesc, addr 0x6c4cf6c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RefreshSharedTextureDesc, addr 0x6c4e04c, size 0x44, virtual false, abstract: false, final false
   inline void RefreshSharedTextureDesc(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> texture,
                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> desc);
 
-  /// @brief Method ReleasePooledResource, addr 0x6c4ef60, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ReleasePooledResource, addr 0x6c50040, size 0xb4, virtual false, abstract: false, final false
   inline void ReleasePooledResource(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* rgContext,
                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> handle);
 
-  /// @brief Method ReleasePooledResource, addr 0x6c4ee34, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ReleasePooledResource, addr 0x6c4ff14, size 0x12c, virtual false, abstract: false, final false
   inline void ReleasePooledResource(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* rgContext, int32_t type, int32_t index);
 
-  /// @brief Method ReleaseSharedTexture, addr 0x6c4cfb0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ReleaseSharedTexture, addr 0x6c4e090, size 0xcc, virtual false, abstract: false, final false
   inline void ReleaseSharedTexture(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> texture);
 
-  /// @brief Method ReleaseTextureCallback, addr 0x6c4f014, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method ReleaseTextureCallback, addr 0x6c500f4, size 0x174, virtual false, abstract: false, final false
   inline void ReleaseTextureCallback(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* rgContext, ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource* res);
 
-  /// @brief Method SetTextureAsMemoryLess, addr 0x6c4da00, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetTextureAsMemoryLess, addr 0x6c4eae0, size 0xc8, virtual false, abstract: false, final false
   inline void SetTextureAsMemoryLess(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> handle);
 
-  /// @brief Method TextureNeedsFallback, addr 0x6c4a6dc, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method TextureNeedsFallback, addr 0x6c4b7bc, size 0x144, virtual false, abstract: false, final false
   inline bool TextureNeedsFallback(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> handle);
 
-  /// @brief Method UpdateSharedResourceLastFrameIndex, addr 0x6c4e834, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method UpdateSharedResourceLastFrameIndex, addr 0x6c4f914, size 0x6c, virtual false, abstract: false, final false
   inline void UpdateSharedResourceLastFrameIndex(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> handle);
 
-  /// @brief Method UpdateSharedResourceLastFrameIndex, addr 0x6c4e78c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method UpdateSharedResourceLastFrameIndex, addr 0x6c4f86c, size 0xa8, virtual false, abstract: false, final false
   inline void UpdateSharedResourceLastFrameIndex(int32_t type, int32_t index);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method ValidateBufferDesc, addr 0x6c4f55c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ValidateBufferDesc, addr 0x6c5063c, size 0x120, virtual false, abstract: false, final false
   inline void ValidateBufferDesc(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferDesc const> desc);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method ValidateFormat, addr 0x6c4d814, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ValidateFormat, addr 0x6c4e8f4, size 0x100, virtual false, abstract: false, final false
   inline void ValidateFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat color, ::UnityEngine::Experimental::Rendering::GraphicsFormat depthStencil);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method ValidateRenderTarget, addr 0x6c4d254, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ValidateRenderTarget, addr 0x6c4e334, size 0xc8, virtual false, abstract: false, final false
   inline void ValidateRenderTarget(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> res);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method ValidateRendererListDesc, addr 0x6c4f39c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method ValidateRendererListDesc, addr 0x6c5047c, size 0x1c0, virtual false, abstract: false, final false
   inline void ValidateRendererListDesc(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RendererUtils::RendererListDesc const> desc);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method ValidateTextureDesc, addr 0x6c4f188, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method ValidateTextureDesc, addr 0x6c50268, size 0x214, virtual false, abstract: false, final false
   inline void ValidateTextureDesc(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> desc);
 
   constexpr bool const& __cordl_internal_get_forceManualClearOfResource() const;
@@ -820,10 +820,10 @@ public:
 
   constexpr void __cordl_internal_set_m_ResourceLogger(::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger* value);
 
-  /// @brief Method .ctor, addr 0x6c4ad80, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c4be60, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6c4aeec, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c4bfcc, size 0x378, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams* renderGraphDebug, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger* frameInformationLogger);
 
   static inline ::UnityEngine::Rendering::RenderTargetIdentifier getStaticF_builtinCameraRenderTarget();
@@ -832,7 +832,7 @@ public:
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* getStaticF_m_CurrentRegistry();
 
-  /// @brief Method get_current, addr 0x6c4a340, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x6c4b420, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* get_current();
 
   static inline void setStaticF_builtinCameraRenderTarget(::UnityEngine::Rendering::RenderTargetIdentifier value);
@@ -841,7 +841,7 @@ public:
 
   static inline void setStaticF_m_CurrentRegistry(::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* value);
 
-  /// @brief Method set_current, addr 0x6c4a39c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x6c4b47c, size 0x60, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* value);
 
 protected:

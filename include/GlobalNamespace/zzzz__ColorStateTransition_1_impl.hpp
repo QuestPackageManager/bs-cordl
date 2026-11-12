@@ -24,32 +24,32 @@ template <typename T> inline ::UnityW<::GlobalNamespace::BaseTransitionSO> Globa
 }
 template <typename T> inline ::UnityEngine::Color GlobalNamespace::ColorStateTransition_1<T>::get_normalColor() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorStateTransition_1<T>*>(), 18 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorStateTransition_1<T>*>(), 19 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
 }
 template <typename T> inline ::UnityEngine::Color GlobalNamespace::ColorStateTransition_1<T>::get_highlightedColor() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorStateTransition_1<T>*>(), 19 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorStateTransition_1<T>*>(), 20 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
 }
 template <typename T> inline ::UnityEngine::Color GlobalNamespace::ColorStateTransition_1<T>::get_pressedColor() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorStateTransition_1<T>*>(), 20 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorStateTransition_1<T>*>(), 21 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
 }
 template <typename T> inline ::UnityEngine::Color GlobalNamespace::ColorStateTransition_1<T>::get_disabledColor() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorStateTransition_1<T>*>(), 21 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorStateTransition_1<T>*>(), 22 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
 }
 template <typename T> inline ::UnityEngine::Color GlobalNamespace::ColorStateTransition_1<T>::get_selectedColor() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorStateTransition_1<T>*>(), 22 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorStateTransition_1<T>*>(), 23 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
 }
 template <typename T> inline ::UnityEngine::Color GlobalNamespace::ColorStateTransition_1<T>::get_selectedAndHighlightedColor() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorStateTransition_1<T>*>(), 23 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorStateTransition_1<T>*>(), 24 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
 }
 template <typename T> inline void GlobalNamespace::ColorStateTransition_1<T>::_ctor() {

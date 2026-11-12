@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set_update(::UnityEngine::Rendering::ProbeSamplingDebugUpdate value);
 
-  /// @brief Method .ctor, addr 0x6be92f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bea3d8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

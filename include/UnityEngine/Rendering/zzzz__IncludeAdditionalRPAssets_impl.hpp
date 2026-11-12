@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::IncludeAdditionalRPAssets::*)()>(
     &::UnityEngine::Rendering::IncludeAdditionalRPAssets::UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bff390;
+  constexpr static std::size_t addrs = 0x6c00470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::IncludeAdditionalRPAssets::*)()>(
     &::UnityEngine::Rendering::IncludeAdditionalRPAssets::get_includeReferencedInScenes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bff398;
+  constexpr static std::size_t addrs = 0x6c00478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::IncludeAdditionalRPAssets::*)(bool)>(
     &::UnityEngine::Rendering::IncludeAdditionalRPAssets::set_includeReferencedInScenes)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6bff3a0;
+  constexpr static std::size_t addrs = 0x6c00480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::IncludeAdditionalRPAssets::*)()>(
     &::UnityEngine::Rendering::IncludeAdditionalRPAssets::get_includeAssetsByLabel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bff410;
+  constexpr static std::size_t addrs = 0x6c004f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::IncludeAdditionalRPAssets::*)(bool)>(
     &::UnityEngine::Rendering::IncludeAdditionalRPAssets::set_includeAssetsByLabel)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6bff418;
+  constexpr static std::size_t addrs = 0x6c004f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::IncludeAdditionalRPAssets::*)()>(
     &::UnityEngine::Rendering::IncludeAdditionalRPAssets::get_labelToInclude)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bff488;
+  constexpr static std::size_t addrs = 0x6c00568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::IncludeAdditionalRPAssets*>(), { "get_labelToInclude", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::IncludeAdditionalRPAssets::*)(::StringW)>(
     &::UnityEngine::Rendering::IncludeAdditionalRPAssets::set_labelToInclude)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6bff490;
+  constexpr static std::size_t addrs = 0x6c00570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::IncludeAdditionalRPAssets::*)()>(&::UnityEngine::Rendering::IncludeAdditionalRPAssets::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6bff500;
+  constexpr static std::size_t addrs = 0x6c005e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::IncludeAdditionalRPAssets*>(), { ".ctor", {}, {} })));

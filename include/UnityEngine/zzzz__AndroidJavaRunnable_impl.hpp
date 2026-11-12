@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AndroidJavaRunnable::*)(::System::Object*, ::System::IntPtr)>(&::UnityEngine::AndroidJavaRunnable::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6eb8998;
+  constexpr static std::size_t addrs = 0x6eb9a78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AndroidJavaRunnable::*)()>(&::UnityEngine::AndroidJavaRunnable::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6eb8a00;
+  constexpr static std::size_t addrs = 0x6eb9ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

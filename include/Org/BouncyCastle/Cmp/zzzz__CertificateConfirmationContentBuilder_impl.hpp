@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder::*)()>(
     &::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x394d7dc;
+  constexpr static std::size_t addrs = 0x3951c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder*>(), { ".ctor", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder::*)(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*)>(
     &::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x394d830;
+  constexpr static std::size_t addrs = 0x3951cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder*>(),
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Cmp:
     ::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder::*)(::Org::BouncyCastle::X509::X509Certificate*, ::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder::AddAcceptedCertificate)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x394d8ac;
+  constexpr static std::size_t addrs = 0x3951d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Cmp::CertificateConfirmationContent* (::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder::*)()>(
     &::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder::Build)> {
   constexpr static std::size_t size = 0x474;
-  constexpr static std::size_t addrs = 0x394d9d8;
+  constexpr static std::size_t addrs = 0x3951e70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder*>(), { "Build", {}, {} })));

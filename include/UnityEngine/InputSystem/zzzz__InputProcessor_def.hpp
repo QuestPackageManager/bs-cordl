@@ -101,7 +101,7 @@ public:
   /// @brief Field s_Processors, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_s_Processors, put = setStaticF_s_Processors)) ::UnityEngine::InputSystem::Utilities::TypeTable s_Processors;
 
-  /// @brief Method GetValueTypeFromType, addr 0x6984e80, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetValueTypeFromType, addr 0x6985f60, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Type* GetValueTypeFromType(::System::Type* processorType);
 
   static inline ::UnityEngine::InputSystem::InputProcessor* New_ctor();
@@ -112,12 +112,12 @@ public:
   /// @brief Method ProcessAsObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* ProcessAsObject(::System::Object* value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method .ctor, addr 0x6984f5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x698603c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Utilities::TypeTable getStaticF_s_Processors();
 
-  /// @brief Method get_cachingPolicy, addr 0x6984f54, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_cachingPolicy, addr 0x6986034, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputProcessor_CachingPolicy get_cachingPolicy();
 
   static inline void setStaticF_s_Processors(::UnityEngine::InputSystem::Utilities::TypeTable value);

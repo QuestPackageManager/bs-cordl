@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::MemoryPoolSettings::*)()>(&::Zenject::MemoryPoolSettings::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x7342264;
+  constexpr static std::size_t addrs = 0x7344544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::MemoryPoolSettings*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::MemoryPoolSettings::*)(int32_t, int32_t, ::Zenject::PoolExpandMethods, bool)>(&::Zenject::MemoryPoolSettings::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x7342280;
+  constexpr static std::size_t addrs = 0x7344560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::MemoryPoolSettings* (*)()>(&::Zenject::MemoryPoolSettings::get_Default)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x7342290;
+  constexpr static std::size_t addrs = 0x7344570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::MemoryPoolSettings*>(), { "get_Default", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Zenject::MemoryPoolSettings*)>(&::Zenject::MemoryPoolSettings::set_Default)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x73422ec;
+  constexpr static std::size_t addrs = 0x73445cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Zenject::MemoryPoolSettings::NoDomainReloadInit)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x734234c;
+  constexpr static std::size_t addrs = 0x734462c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::MemoryPoolSettings*>(), { "NoDomainReloadInit", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*>)>(&::Zenject::MemoryPoolSettings::__zenCreate)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x7342478;
+  constexpr static std::size_t addrs = 0x7344758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::MemoryPoolSettings::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x73424d8;
+  constexpr static std::size_t addrs = 0x73447b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::MemoryPoolSettings*>(), { "__zenCreateInjectTypeInfo", {}, {} })));

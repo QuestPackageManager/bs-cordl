@@ -105,10 +105,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::RenderGraphSettings* New_ctor();
 
-  /// @brief Method SetCompatibilityModeFromUpgrade, addr 0x6d2df6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCompatibilityModeFromUpgrade, addr 0x6d2f04c, size 0x8, virtual false, abstract: false, final false
   inline void SetCompatibilityModeFromUpgrade(bool value);
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x6d2df58, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x6d2f038, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild();
 
   constexpr bool const& __cordl_internal_get_m_EnableRenderCompatibilityMode() const;
@@ -123,20 +123,20 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(::UnityEngine::Rendering::Universal::RenderGraphSettings_Version value);
 
-  /// @brief Method .ctor, addr 0x6d2df74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d2f054, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_enableRenderCompatibilityMode, addr 0x6d2df60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableRenderCompatibilityMode, addr 0x6d2f040, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableRenderCompatibilityMode();
 
-  /// @brief Method get_version, addr 0x6d2df50, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x6d2f030, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
   constexpr ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings* i___UnityEngine__Rendering__IRenderPipelineGraphicsSettings() noexcept;
 
   /// [Obsolete("Compatibility Mode is being removed. This setter is not accessible without the define URP_COMPATIBILITY_MODE. #from(6000.3) #breakingFrom(6000.3)", true)]
-  /// @brief Method set_enableRenderCompatibilityMode, addr 0x6d2df68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_enableRenderCompatibilityMode, addr 0x6d2f048, size 0x4, virtual false, abstract: false, final false
   inline void set_enableRenderCompatibilityMode(bool value);
 
 protected:

@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::DiscreteButtonControl::*)()>(
     &::UnityEngine::InputSystem::Controls::DiscreteButtonControl::FinishSetup)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6960af4;
+  constexpr static std::size_t addrs = 0x6961bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::DiscreteButtonControl*>(),
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::Controls::DiscreteButtonControl::*)(void*)>(
     &::UnityEngine::InputSystem::Controls::DiscreteButtonControl::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x6960bf4;
+  constexpr static std::size_t addrs = 0x6961cd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::DiscreteButtonControl*>(),
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::DiscreteButtonControl::*)(float_t, void*)>(
     &::UnityEngine::InputSystem::Controls::DiscreteButtonControl::WriteValueIntoState)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6960d84;
+  constexpr static std::size_t addrs = 0x6961e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::DiscreteButtonControl*>(),
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::DiscreteButtonControl::*)()>(&::UnityEngine::InputSystem::Controls::DiscreteButtonControl::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6960ec8;
+  constexpr static std::size_t addrs = 0x6961fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::DiscreteButtonControl*>(), { ".ctor", {}, {} })));

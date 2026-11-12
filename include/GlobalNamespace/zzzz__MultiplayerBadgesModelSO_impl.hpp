@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>* (
     ::GlobalNamespace::MultiplayerBadgesModelSO::*)()>(&::GlobalNamespace::MultiplayerBadgesModelSO::get_positiveBadges)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39e4dbc;
+  constexpr static std::size_t addrs = 0x39e9e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerBadgesModelSO*>(), { "get_positiveBadges", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>* (
     ::GlobalNamespace::MultiplayerBadgesModelSO::*)()>(&::GlobalNamespace::MultiplayerBadgesModelSO::get_negativeBadges)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39e4dc4;
+  constexpr static std::size_t addrs = 0x39e9e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerBadgesModelSO*>(), { "get_negativeBadges", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerBadgesModelSO::*)()>(&::GlobalNamespace::MultiplayerBadgesModelSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39e4dcc;
+  constexpr static std::size_t addrs = 0x39e9e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerBadgesModelSO*>(), { ".ctor", {}, {} })));

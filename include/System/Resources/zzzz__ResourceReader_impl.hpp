@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::ResourceReader_ResourceEnumerator::*)(::System::Resources::ResourceReader*)>(
     &::System::Resources::ResourceReader_ResourceEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5fcebe4;
+  constexpr static std::size_t addrs = 0x5fcee6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Resources::ResourceReader_ResourceEnumerator::*)()>(&::System::Resources::ResourceReader_ResourceEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5fc9434;
+  constexpr static std::size_t addrs = 0x5fc96bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::ResourceReader_ResourceEnumerator*>(), { "MoveNext", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Resources::ResourceReader_ResourceEnumerator::*)()>(
     &::System::Resources::ResourceReader_ResourceEnumerator::get_Key)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5fc938c;
+  constexpr static std::size_t addrs = 0x5fc9614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::ResourceReader_ResourceEnumerator*>(), { "get_Key", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Resources::ResourceReader_ResourceEnumerator::*)()>(
     &::System::Resources::ResourceReader_ResourceEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5fd146c;
+  constexpr static std::size_t addrs = 0x5fd16f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::ResourceReader_ResourceEnumerator*>(), { "get_Current", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Resources::ResourceReader_ResourceEnumerator::*)()>(
     &::System::Resources::ResourceReader_ResourceEnumerator::get_DataPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fd17c8;
+  constexpr static std::size_t addrs = 0x5fd1a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::DictionaryEntry (::System::Resources::ResourceReader_ResourceEnumerator::*)()>(
     &::System::Resources::ResourceReader_ResourceEnumerator::get_Entry)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x5fd14d4;
+  constexpr static std::size_t addrs = 0x5fd175c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::ResourceReader_ResourceEnumerator*>(), { "get_Entry", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Resources::ResourceReader_ResourceEnumerator::*)()>(
     &::System::Resources::ResourceReader_ResourceEnumerator::get_Value)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5fd17d0;
+  constexpr static std::size_t addrs = 0x5fd1a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::ResourceReader_ResourceEnumerator*>(), { "get_Value", {}, {} })));
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::ResourceReader_ResourceEnumerator::*)()>(&::System::Resources::ResourceReader_ResourceEnumerator::Reset)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5fd1870;
+  constexpr static std::size_t addrs = 0x5fd1af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::ResourceReader_ResourceEnumerator*>(), { "Reset", {}, {} })));
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::ResourceReader::*)(
     ::System::IO::Stream*, ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*)>(&::System::Resources::ResourceReader::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5fc7df4;
+  constexpr static std::size_t addrs = 0x5fc807c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -249,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::ResourceReader::*)()>(&::System::Resources::ResourceReader::Close)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5fc8120;
+  constexpr static std::size_t addrs = 0x5fc83a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::ResourceReader*>(), { "Close", {}, {} })));
@@ -261,7 +261,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::ResourceReader::*)()>(&::System::Resources::ResourceReader::Dispose)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5fce8f0;
+  constexpr static std::size_t addrs = 0x5fceb78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::ResourceReader*>(), { "Dispose", {}, {} })));
@@ -273,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::ResourceReader::*)(bool)>(&::System::Resources::ResourceReader::Dispose)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5fce8b0;
+  constexpr static std::size_t addrs = 0x5fceb38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::ResourceReader*>(), { "Dispose", {}, { ::i2c::type_of<bool>() } })));
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t*)>(&::System::Resources::ResourceReader::ReadUnalignedI4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fce92c;
+  constexpr static std::size_t addrs = 0x5fcebb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -298,7 +298,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::ResourceReader::*)()>(&::System::Resources::ResourceReader::SkipString)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5fce934;
+  constexpr static std::size_t addrs = 0x5fcebbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::ResourceReader*>(), { "SkipString", {}, {} })));
@@ -310,7 +310,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Resources::ResourceReader::*)(int32_t)>(&::System::Resources::ResourceReader::GetNameHash)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5fce9dc;
+  constexpr static std::size_t addrs = 0x5fcec64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -323,7 +323,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Resources::ResourceReader::*)(int32_t)>(&::System::Resources::ResourceReader::GetNamePosition)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x5fcea20;
+  constexpr static std::size_t addrs = 0x5fceca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -337,7 +337,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Resources::ResourceReader::*)()>(
     &::System::Resources::ResourceReader::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5fceb34;
+  constexpr static std::size_t addrs = 0x5fcedbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -350,7 +350,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IDictionaryEnumerator* (::System::Resources::ResourceReader::*)()>(&::System::Resources::ResourceReader::GetEnumerator)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5fceb38;
+  constexpr static std::size_t addrs = 0x5fcedc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::ResourceReader*>(), { "GetEnumerator", {}, {} })));
@@ -363,7 +363,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Resources::ResourceReader_ResourceEnumerator* (::System::Resources::ResourceReader::*)()>(
     &::System::Resources::ResourceReader::GetEnumeratorInternal)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5fc9330;
+  constexpr static std::size_t addrs = 0x5fc95b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::ResourceReader*>(), { "GetEnumeratorInternal", {}, {} })));
@@ -375,7 +375,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Resources::ResourceReader::*)(::StringW)>(&::System::Resources::ResourceReader::FindPosForResource)> {
   constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x5fc8c88;
+  constexpr static std::size_t addrs = 0x5fc8f10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -388,7 +388,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Resources::ResourceReader::*)(::StringW)>(&::System::Resources::ResourceReader::CompareStringEqualsName)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x5fcebf8;
+  constexpr static std::size_t addrs = 0x5fcee80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -402,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Resources::ResourceReader::*)(int32_t, ::by_ref<int32_t>)>(
     &::System::Resources::ResourceReader::AllocateStringForNameIndex)> {
   constexpr static std::size_t size = 0x7bc;
-  constexpr static std::size_t addrs = 0x5fcedec;
+  constexpr static std::size_t addrs = 0x5fcf074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::ResourceReader*>(),
@@ -415,7 +415,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Resources::ResourceReader::*)(int32_t)>(&::System::Resources::ResourceReader::GetValueForNameIndex)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x5fcf5a8;
+  constexpr static std::size_t addrs = 0x5fcf830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -428,7 +428,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Resources::ResourceReader::*)(int32_t)>(&::System::Resources::ResourceReader::LoadString)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x5fc9060;
+  constexpr static std::size_t addrs = 0x5fc92e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -441,7 +441,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Resources::ResourceReader::*)(int32_t)>(&::System::Resources::ResourceReader::LoadObject)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5fcfdd8;
+  constexpr static std::size_t addrs = 0x5fd0060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -455,7 +455,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Resources::ResourceReader::*)(int32_t, ::by_ref<::System::Resources::ResourceTypeCode>)>(
     &::System::Resources::ResourceReader::LoadObject)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5fc92cc;
+  constexpr static std::size_t addrs = 0x5fc9554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -469,7 +469,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Resources::ResourceReader::*)(int32_t)>(&::System::Resources::ResourceReader::LoadObjectV1)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5fcf844;
+  constexpr static std::size_t addrs = 0x5fcfacc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -482,7 +482,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Resources::ResourceReader::*)(int32_t)>(&::System::Resources::ResourceReader::_LoadObjectV1)> {
   constexpr static std::size_t size = 0x6f4;
-  constexpr static std::size_t addrs = 0x5fcfdfc;
+  constexpr static std::size_t addrs = 0x5fd0084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -496,7 +496,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Resources::ResourceReader::*)(int32_t, ::by_ref<::System::Resources::ResourceTypeCode>)>(
     &::System::Resources::ResourceReader::LoadObjectV2)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5fcf93c;
+  constexpr static std::size_t addrs = 0x5fcfbc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -511,7 +511,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Resources::ResourceReader::*)(int32_t, ::by_ref<::System::Resources::ResourceTypeCode>)>(
     &::System::Resources::ResourceReader::_LoadObjectV2)> {
   constexpr static std::size_t size = 0x744;
-  constexpr static std::size_t addrs = 0x5fd067c;
+  constexpr static std::size_t addrs = 0x5fd0904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -525,7 +525,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Resources::ResourceReader::*)(int32_t)>(&::System::Resources::ResourceReader::DeserializeObject)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x5fd04f0;
+  constexpr static std::size_t addrs = 0x5fd0778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -538,7 +538,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::ResourceReader::*)()>(&::System::Resources::ResourceReader::ReadResources)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x5fce75c;
+  constexpr static std::size_t addrs = 0x5fce9e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::ResourceReader*>(), { "ReadResources", {}, {} })));
@@ -550,7 +550,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::ResourceReader::*)()>(&::System::Resources::ResourceReader::_ReadResources)> {
   constexpr static std::size_t size = 0x6ac;
-  constexpr static std::size_t addrs = 0x5fd0dc0;
+  constexpr static std::size_t addrs = 0x5fd1048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::ResourceReader*>(), { "_ReadResources", {}, {} })));
@@ -562,7 +562,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::RuntimeType* (::System::Resources::ResourceReader::*)(int32_t)>(&::System::Resources::ResourceReader::FindType)> {
   constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x5fcfa34;
+  constexpr static std::size_t addrs = 0x5fcfcbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

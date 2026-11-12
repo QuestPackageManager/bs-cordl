@@ -83,36 +83,36 @@ public:
 
   constexpr void __cordl_internal_set_m_splitParams(::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* value);
 
-  /// @brief Method .ctor, addr 0x37b8bb4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37bd04c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* beta, ::Org::BouncyCastle::Math::BigInteger* lambda, ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* splitParams);
 
   /// [Obsolete("Use constructor taking a ScalarSplitParameters instead")]
-  /// @brief Method .ctor, addr 0x37b8a10, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37bcea8, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* beta, ::Org::BouncyCastle::Math::BigInteger* lambda, ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> v1,
                     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> v2, ::Org::BouncyCastle::Math::BigInteger* g1, ::Org::BouncyCastle::Math::BigInteger* g2, int32_t bits);
 
-  /// @brief Method get_Beta, addr 0x37b8bc0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Beta, addr 0x37bd058, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Beta();
 
-  /// @brief Method get_Bits, addr 0x37b8df0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Bits, addr 0x37bd288, size 0x1c, virtual true, abstract: false, final false
   inline int32_t get_Bits();
 
-  /// @brief Method get_G1, addr 0x37b8db8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_G1, addr 0x37bd250, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G1();
 
-  /// @brief Method get_G2, addr 0x37b8dd4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_G2, addr 0x37bd26c, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G2();
 
-  /// @brief Method get_Lambda, addr 0x37b8bc8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Lambda, addr 0x37bd060, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Lambda();
 
-  /// @brief Method get_SplitParams, addr 0x37b8bd0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SplitParams, addr 0x37bd068, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* get_SplitParams();
 
-  /// @brief Method get_V1, addr 0x37b8bd8, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method get_V1, addr 0x37bd070, size 0xf0, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> get_V1();
 
-  /// @brief Method get_V2, addr 0x37b8cc8, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method get_V2, addr 0x37bd160, size 0xf0, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> get_V2();
 
 protected:

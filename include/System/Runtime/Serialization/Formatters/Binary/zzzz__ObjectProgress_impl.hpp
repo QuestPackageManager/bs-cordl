@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::ObjectProgress::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::ObjectProgress::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5faeb1c;
+  constexpr static std::size_t addrs = 0x5faeda4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::ObjectProgress::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::ObjectProgress::Init)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5faeb74;
+  constexpr static std::size_t addrs = 0x5faedfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::ObjectProgress::*)(int32_t)>(
     &::System::Runtime::Serialization::Formatters::Binary::ObjectProgress::ArrayCountIncrement)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5faec08;
+  constexpr static std::size_t addrs = 0x5faee90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::Formatters::Binary::ObjectProgress::*)(
     ::by_ref<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>, ::by_ref<::System::Object*>)>(&::System::Runtime::Serialization::Formatters::Binary::ObjectProgress::GetNext)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5faec18;
+  constexpr static std::size_t addrs = 0x5faeea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

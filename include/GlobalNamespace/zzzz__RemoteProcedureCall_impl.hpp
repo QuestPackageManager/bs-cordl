@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::GlobalNamespace::RemoteProcedureCall::*)()>(&::GlobalNamespace::RemoteProcedureCall::get_syncTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35ec28c;
+  constexpr static std::size_t addrs = 0x35f0724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RemoteProcedureCall*>(), { "get_syncTime", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RemoteProcedureCall::*)(int64_t)>(&::GlobalNamespace::RemoteProcedureCall::set_syncTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35ec294;
+  constexpr static std::size_t addrs = 0x35f072c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RemoteProcedureCall::*)(::LiteNetLib::Utils::NetDataWriter*, uint32_t)>(
     &::GlobalNamespace::RemoteProcedureCall::SerializeData)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35ec29c;
+  constexpr static std::size_t addrs = 0x35f0734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RemoteProcedureCall::*)(::LiteNetLib::Utils::NetDataReader*, uint32_t)>(
     &::GlobalNamespace::RemoteProcedureCall::DeserializeData)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35ec2a0;
+  constexpr static std::size_t addrs = 0x35f0738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RemoteProcedureCall::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::RemoteProcedureCall::LiteNetLib_Utils_INetSerializable_Serialize)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x35ec2a4;
+  constexpr static std::size_t addrs = 0x35f073c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RemoteProcedureCall::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::RemoteProcedureCall::LiteNetLib_Utils_INetSerializable_Deserialize)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x35ec2e8;
+  constexpr static std::size_t addrs = 0x35f0780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RemoteProcedureCall::*)()>(&::GlobalNamespace::RemoteProcedureCall::Release)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35ec32c;
+  constexpr static std::size_t addrs = 0x35f07c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IRemoteProcedureCall* (::GlobalNamespace::RemoteProcedureCall::*)(int64_t)>(&::GlobalNamespace::RemoteProcedureCall::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35ec444;
+  constexpr static std::size_t addrs = 0x35f08dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RemoteProcedureCall*>(), { "Init", {}, { ::i2c::type_of<int64_t>() } })));
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RemoteProcedureCall::*)()>(&::GlobalNamespace::RemoteProcedureCall::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35ec44c;
+  constexpr static std::size_t addrs = 0x35f08e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RemoteProcedureCall*>(), { ".ctor", {}, {} })));

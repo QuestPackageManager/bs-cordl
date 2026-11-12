@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Type*, ::System::Func_1<::Unity::Properties::IPropertyBag*>*)>(
     &::Unity::Properties::Internal::PropertyBagLazyInitialization::AddLazyRegistration)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x7050130;
+  constexpr static std::size_t addrs = 0x7051210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::Unity::Properties::Internal::PropertyBagLazyInitialization::HasLazyRegistration)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x70501d8;
+  constexpr static std::size_t addrs = 0x70512b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::by_ref<::System::Func_1<::Unity::Properties::IPropertyBag*>*>)>(
     &::Unity::Properties::Internal::PropertyBagLazyInitialization::TryGetRegistrationDelegate)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x7050278;
+  constexpr static std::size_t addrs = 0x7051358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Type*)>(&::Unity::Properties::Internal::PropertyBagLazyInitialization::RemoveRegistration)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x7050310;
+  constexpr static std::size_t addrs = 0x70513f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

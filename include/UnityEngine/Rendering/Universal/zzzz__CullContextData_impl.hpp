@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::CullContextData::*)()>(&::UnityEngine::Rendering::Universal::CullContextData::Reset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c2e8e8;
+  constexpr static std::size_t addrs = 0x6c2f9c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::CullContextData*>(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::CullContextData::*)(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext const>)>(
     &::UnityEngine::Rendering::Universal::CullContextData::SetRenderContext)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6c2e8f0;
+  constexpr static std::size_t addrs = 0x6c2f9d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::CullingResults (::UnityEngine::Rendering::Universal::CullContextData::*)(
     ::by_ref<::UnityEngine::Rendering::ScriptableCullingParameters>)>(&::UnityEngine::Rendering::Universal::CullContextData::Cull)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6c2e954;
+  constexpr static std::size_t addrs = 0x6c2fa34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::CullContextData*>(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::CullContextData::*)(
     ::UnityEngine::Rendering::CullingResults, ::UnityEngine::Rendering::ShadowCastersCullingInfos)>(&::UnityEngine::Rendering::Universal::CullContextData::CullShadowCasters)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6c2ea44;
+  constexpr static std::size_t addrs = 0x6c2fb24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::CullContextData::*)()>(&::UnityEngine::Rendering::Universal::CullContextData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c2eb5c;
+  constexpr static std::size_t addrs = 0x6c2fc3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::CullContextData*>(), { ".ctor", {}, {} })));

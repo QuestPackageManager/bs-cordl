@@ -119,7 +119,7 @@ public:
 
   static inline ::UnityEngine::Rendering::ShaderStrippingSetting* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x6bff5ac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x6c0068c, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild();
 
   constexpr bool const& __cordl_internal_get_m_ExportShaderVariants() const;
@@ -146,31 +146,31 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(::UnityEngine::Rendering::ShaderStrippingSetting_Version value);
 
-  /// @brief Method .ctor, addr 0x6bff71c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c007fc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_exportShaderVariants, addr 0x6bff5b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_exportShaderVariants, addr 0x6c00694, size 0x8, virtual false, abstract: false, final false
   inline bool get_exportShaderVariants();
 
-  /// @brief Method get_shaderVariantLogLevel, addr 0x6bff62c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shaderVariantLogLevel, addr 0x6c0070c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ShaderVariantLogLevel get_shaderVariantLogLevel();
 
-  /// @brief Method get_stripRuntimeDebugShaders, addr 0x6bff6a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stripRuntimeDebugShaders, addr 0x6c00784, size 0x8, virtual false, abstract: false, final false
   inline bool get_stripRuntimeDebugShaders();
 
-  /// @brief Method get_version, addr 0x6bff5a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x6c00684, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
   constexpr ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings* i___UnityEngine__Rendering__IRenderPipelineGraphicsSettings() noexcept;
 
-  /// @brief Method set_exportShaderVariants, addr 0x6bff5bc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_exportShaderVariants, addr 0x6c0069c, size 0x70, virtual false, abstract: false, final false
   inline void set_exportShaderVariants(bool value);
 
-  /// @brief Method set_shaderVariantLogLevel, addr 0x6bff634, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_shaderVariantLogLevel, addr 0x6c00714, size 0x70, virtual false, abstract: false, final false
   inline void set_shaderVariantLogLevel(::UnityEngine::Rendering::ShaderVariantLogLevel value);
 
-  /// @brief Method set_stripRuntimeDebugShaders, addr 0x6bff6ac, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_stripRuntimeDebugShaders, addr 0x6c0078c, size 0x70, virtual false, abstract: false, final false
   inline void set_stripRuntimeDebugShaders(bool value);
 
 protected:

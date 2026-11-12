@@ -51,15 +51,15 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x6204bcc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6204e54, size 0xb4, virtual false, abstract: false, final false
   inline void Add(::Newtonsoft::Json::Bson::BsonToken* token);
 
-  /// @brief Method GetEnumerator, addr 0x6202980, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x6202c08, size 0x88, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Bson::BsonToken*>* GetEnumerator();
 
   static inline ::Newtonsoft::Json::Bson::BsonArray* New_ctor();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6204c88, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6204f10, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::BsonToken*>* const& __cordl_internal_get__children() const;
@@ -68,10 +68,10 @@ public:
 
   constexpr void __cordl_internal_set__children(::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::BsonToken*>* value);
 
-  /// @brief Method .ctor, addr 0x6204c8c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6204f14, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Type, addr 0x6204c80, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x6204f08, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Bson::BsonToken*>"

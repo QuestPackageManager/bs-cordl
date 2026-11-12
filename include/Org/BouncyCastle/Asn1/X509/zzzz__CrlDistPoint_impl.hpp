@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::CrlDistPoint* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::X509::CrlDistPoint::GetInstance)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x39058c0;
+  constexpr static std::size_t addrs = 0x3909d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::CrlDistPoint* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::X509::CrlDistPoint::GetInstance)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39058d4;
+  constexpr static std::size_t addrs = 0x3909d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::CrlDistPoint* (*)(::Org::BouncyCastle::Asn1::X509::X509Extensions*)>(
     &::Org::BouncyCastle::Asn1::X509::CrlDistPoint::FromExtensions)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3905978;
+  constexpr static std::size_t addrs = 0x3909e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::CrlDistPoint*>(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::CrlDistPoint::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::X509::CrlDistPoint::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3905970;
+  constexpr static std::size_t addrs = 0x3909e08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::CrlDistPoint::*)(::ArrayW<::Org::BouncyCastle::Asn1::X509::DistributionPoint*>)>(
     &::Org::BouncyCastle::Asn1::X509::CrlDistPoint::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x39059fc;
+  constexpr static std::size_t addrs = 0x3909e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::CrlDistPoint*>(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::X509::DistributionPoint*> (::Org::BouncyCastle::Asn1::X509::CrlDistPoint::*)()>(
     &::Org::BouncyCastle::Asn1::X509::CrlDistPoint::GetDistributionPoints)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3905a64;
+  constexpr static std::size_t addrs = 0x3909efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::CrlDistPoint*>(), { "GetDistributionPoints", {}, {} })));
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::CrlDistPoint::*)()>(
     &::Org::BouncyCastle::Asn1::X509::CrlDistPoint::ToAsn1Object)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3905ce8;
+  constexpr static std::size_t addrs = 0x390a180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Asn1::X509::CrlDistPoint::*)()>(&::Org::BouncyCastle::Asn1::X509::CrlDistPoint::ToString)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x3905cf0;
+  constexpr static std::size_t addrs = 0x390a188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

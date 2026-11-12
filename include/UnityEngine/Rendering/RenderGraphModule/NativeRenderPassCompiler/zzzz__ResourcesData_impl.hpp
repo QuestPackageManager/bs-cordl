@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourcesData::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourcesData::_ctor)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x6c68878;
+  constexpr static std::size_t addrs = 0x6c69958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourcesData::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourcesData::Clear)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x6c68a40;
+  constexpr static std::size_t addrs = 0x6c69b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourcesData::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry*)>(&::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourcesData::Initialize)> {
   constexpr static std::size_t size = 0x800;
-  constexpr static std::size_t addrs = 0x6c68bf8;
+  constexpr static std::size_t addrs = 0x6c69cd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourcesData::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>)>(&::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourcesData::Index)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6c693f8;
+  constexpr static std::size_t addrs = 0x6c6a4d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourcesData::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>, int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourcesData::IndexReader)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x6c694cc;
+  constexpr static std::size_t addrs = 0x6c6a5ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::R
     ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourcesData::*)(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle)>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourcesData::get_Item)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x6c64da0;
+  constexpr static std::size_t addrs = 0x6c65e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourcesData*>(),
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourcesData::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourcesData::Dispose)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6c69604;
+  constexpr static std::size_t addrs = 0x6c6a6e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -77,12 +77,12 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 class CORDL_TYPE RenderGraphObjectPool_SharedObjectPoolBase : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Clear, addr 0x6c4604c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x6c4712c, size 0x4, virtual true, abstract: false, final false
   inline void Clear();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPoolBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6c46048, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c47128, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -246,7 +246,7 @@ public:
       get = getStaticF_s_AllocatedPools,
       put = setStaticF_s_AllocatedPools)) ::UnityEngine::Rendering::DynamicArray_1<::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPoolBase*>* s_AllocatedPools;
 
-  /// @brief Method Cleanup, addr 0x6c45e14, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x6c46ef4, size 0x1a4, virtual false, abstract: false, final false
   inline void Cleanup();
 
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -257,10 +257,10 @@ public:
   /// @brief Method GetTempArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::ArrayW<T> GetTempArray(int32_t size);
 
-  /// @brief Method GetTempMaterialPropertyBlock, addr 0x6c45998, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetTempMaterialPropertyBlock, addr 0x6c46a78, size 0xfc, virtual false, abstract: false, final false
   inline ::UnityEngine::MaterialPropertyBlock* GetTempMaterialPropertyBlock();
 
-  /// @brief Method IsEmpty, addr 0x6c45d90, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x6c46e70, size 0x84, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool* New_ctor();
@@ -270,7 +270,7 @@ public:
     requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void Release(T value);
 
-  /// @brief Method ReleaseAllTempAlloc, addr 0x6c45a94, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method ReleaseAllTempAlloc, addr 0x6c46b74, size 0x2fc, virtual false, abstract: false, final false
   inline void ReleaseAllTempAlloc();
 
   constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Object*, ::System::ValueTuple_2<::System::Type*, int32_t>>>* const& __cordl_internal_get_m_AllocatedArrays() const;
@@ -294,7 +294,7 @@ public:
   constexpr void
   __cordl_internal_set_m_ArrayPool(::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::System::Collections::Generic::Stack_1<::System::Object*>*>* value);
 
-  /// @brief Method .ctor, addr 0x6c45870, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c46950, size 0x128, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::DynamicArray_1<::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPoolBase*>* getStaticF_s_AllocatedPools();

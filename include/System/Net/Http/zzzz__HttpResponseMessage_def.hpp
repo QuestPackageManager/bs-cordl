@@ -78,18 +78,18 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6538aa8, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x65390f8, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6538ab8, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6539108, size 0x34, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EnsureSuccessStatusCode, addr 0x653611c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method EnsureSuccessStatusCode, addr 0x653676c, size 0x9c, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpResponseMessage* EnsureSuccessStatusCode();
 
   static inline ::System::Net::Http::HttpResponseMessage* New_ctor(::System::Net::HttpStatusCode statusCode);
 
-  /// @brief Method ToString, addr 0x6538aec, size 0x238, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x653913c, size 0x238, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Net::Http::HttpContent* const& __cordl_internal_get__Content_k__BackingField() const;
@@ -134,43 +134,43 @@ public:
 
   constexpr void __cordl_internal_set_version(::System::Version* value);
 
-  /// @brief Method .ctor, addr 0x6531360, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65319b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpStatusCode statusCode);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Content, addr 0x6538988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Content, addr 0x6538fd8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpContent* get_Content();
 
-  /// @brief Method get_Headers, addr 0x65314a0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x6531af0, size 0x64, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::HttpResponseHeaders* get_Headers();
 
-  /// @brief Method get_IsSuccessStatusCode, addr 0x65389fc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_IsSuccessStatusCode, addr 0x653904c, size 0x14, virtual false, abstract: false, final false
   inline bool get_IsSuccessStatusCode();
 
-  /// @brief Method get_ReasonPhrase, addr 0x6538a10, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ReasonPhrase, addr 0x6539060, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_ReasonPhrase();
 
-  /// @brief Method get_StatusCode, addr 0x6538a38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StatusCode, addr 0x6539088, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpStatusCode get_StatusCode();
 
-  /// @brief Method get_Version, addr 0x6538a40, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x6539090, size 0x68, virtual false, abstract: false, final false
   inline ::System::Version* get_Version();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_Content, addr 0x6538990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Content, addr 0x6538fe0, size 0x8, virtual false, abstract: false, final false
   inline void set_Content(::System::Net::Http::HttpContent* value);
 
-  /// @brief Method set_ReasonPhrase, addr 0x6538a28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ReasonPhrase, addr 0x6539078, size 0x8, virtual false, abstract: false, final false
   inline void set_ReasonPhrase(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_RequestMessage, addr 0x6538a30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RequestMessage, addr 0x6539080, size 0x8, virtual false, abstract: false, final false
   inline void set_RequestMessage(::System::Net::Http::HttpRequestMessage* value);
 
-  /// @brief Method set_StatusCode, addr 0x6538944, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_StatusCode, addr 0x6538f94, size 0x44, virtual false, abstract: false, final false
   inline void set_StatusCode(::System::Net::HttpStatusCode value);
 
 protected:
@@ -188,7 +188,7 @@ public:
   HttpResponseMessage(HttpResponseMessage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20990 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21004 };
 
   /// @brief Field headers, offset: 0x10, size: 0x8, def value: None
   ::System::Net::Http::Headers::HttpResponseHeaders* ___headers;

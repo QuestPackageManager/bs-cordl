@@ -32,19 +32,19 @@ public:
 
   /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)0)]
   /// [StaticAccessor("ScriptableRuntimeReflectionSystem", (UnityEngine.Bindings.StaticAccessorType)2)]
-  /// @brief Method ScriptingDirtyReflectionSystemInstance, addr 0x6fcb6b4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ScriptingDirtyReflectionSystemInstance, addr 0x6fcc794, size 0x28, virtual false, abstract: false, final false
   static inline void ScriptingDirtyReflectionSystemInstance();
 
   static inline ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* getStaticF_s_Instance();
 
   /// [RequiredByNativeCode]
-  /// @brief Method get_Internal_ScriptableRuntimeReflectionSystemSettings_instance, addr 0x6fcb658, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Internal_ScriptableRuntimeReflectionSystemSettings_instance, addr 0x6fcc738, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* get_Internal_ScriptableRuntimeReflectionSystemSettings_instance();
 
   static inline void setStaticF_s_Instance(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* value);
 
   /// [RequiredByNativeCode]
-  /// @brief Method set_Internal_ScriptableRuntimeReflectionSystemSettings_system, addr 0x6fcb500, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method set_Internal_ScriptableRuntimeReflectionSystemSettings_system, addr 0x6fcc5e0, size 0x158, virtual false, abstract: false, final false
   static inline void set_Internal_ScriptableRuntimeReflectionSystemSettings_system(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
 
 protected:

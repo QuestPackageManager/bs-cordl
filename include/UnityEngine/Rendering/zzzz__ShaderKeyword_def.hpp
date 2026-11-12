@@ -30,30 +30,30 @@ public:
   __declspec(property(get = get_name)) ::StringW name;
 
   /// [FreeFunction("ShaderScripting::CreateGlobalKeyword")]
-  /// @brief Method CreateGlobalKeyword, addr 0x6fc8678, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method CreateGlobalKeyword, addr 0x6fc9758, size 0x124, virtual false, abstract: false, final false
   static inline void CreateGlobalKeyword(::StringW keyword);
 
-  /// @brief Method CreateGlobalKeyword_Injected, addr 0x6fc879c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CreateGlobalKeyword_Injected, addr 0x6fc987c, size 0x3c, virtual false, abstract: false, final false
   static inline void CreateGlobalKeyword_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> keyword);
 
   /// [FreeFunction("ShaderScripting::GetGlobalKeywordCount")]
-  /// @brief Method GetGlobalKeywordCount, addr 0x6fc84e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetGlobalKeywordCount, addr 0x6fc95c8, size 0x28, virtual false, abstract: false, final false
   static inline uint32_t GetGlobalKeywordCount();
 
   /// [FreeFunction("ShaderScripting::GetGlobalKeywordIndex")]
-  /// @brief Method GetGlobalKeywordIndex, addr 0x6fc8510, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetGlobalKeywordIndex, addr 0x6fc95f0, size 0x12c, virtual false, abstract: false, final false
   static inline uint32_t GetGlobalKeywordIndex(::StringW keyword);
 
-  /// @brief Method GetGlobalKeywordIndex_Injected, addr 0x6fc863c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetGlobalKeywordIndex_Injected, addr 0x6fc971c, size 0x3c, virtual false, abstract: false, final false
   static inline uint32_t GetGlobalKeywordIndex_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> keyword);
 
-  /// @brief Method ToString, addr 0x6fc8864, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6fc9944, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6fc87e0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fc98c0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::StringW keywordName);
 
-  /// @brief Method get_name, addr 0x6fc87d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x6fc98b8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
   // Ctor Parameters []

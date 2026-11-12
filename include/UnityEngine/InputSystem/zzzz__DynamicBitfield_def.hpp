@@ -21,22 +21,22 @@ namespace UnityEngine::InputSystem {
 struct CORDL_TYPE DynamicBitfield {
 public:
   // Declarations
-  /// @brief Method AnyBitIsSet, addr 0x69ef3ac, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method AnyBitIsSet, addr 0x69f048c, size 0x8c, virtual false, abstract: false, final false
   inline bool AnyBitIsSet();
 
-  /// @brief Method BitCountToULongCount, addr 0x69ef280, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method BitCountToULongCount, addr 0x69f0360, size 0x18, virtual false, abstract: false, final false
   static inline int32_t BitCountToULongCount(int32_t bitCount);
 
-  /// @brief Method ClearBit, addr 0x69dec70, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ClearBit, addr 0x69dfd50, size 0xa0, virtual false, abstract: false, final false
   inline void ClearBit(int32_t bitIndex);
 
-  /// @brief Method SetBit, addr 0x69ef298, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetBit, addr 0x69f0378, size 0xa0, virtual false, abstract: false, final false
   inline void SetBit(int32_t bitIndex);
 
-  /// @brief Method SetLength, addr 0x69deb3c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetLength, addr 0x69dfc1c, size 0x80, virtual false, abstract: false, final false
   inline void SetLength(int32_t newLength);
 
-  /// @brief Method TestBit, addr 0x69ef338, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method TestBit, addr 0x69f0418, size 0x74, virtual false, abstract: false, final false
   inline bool TestBit(int32_t bitIndex);
 
   // Ctor Parameters []

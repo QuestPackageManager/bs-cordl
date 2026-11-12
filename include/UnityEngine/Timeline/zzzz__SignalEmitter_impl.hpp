@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::SignalEmitter::*)()>(&::UnityEngine::Timeline::SignalEmitter::get_retroactive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e2b47c;
+  constexpr static std::size_t addrs = 0x6e2c55c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::SignalEmitter*>(), { "get_retroactive", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::SignalEmitter::*)(bool)>(&::UnityEngine::Timeline::SignalEmitter::set_retroactive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e2b484;
+  constexpr static std::size_t addrs = 0x6e2c564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::SignalEmitter::*)()>(&::UnityEngine::Timeline::SignalEmitter::get_emitOnce)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e2b48c;
+  constexpr static std::size_t addrs = 0x6e2c56c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::SignalEmitter*>(), { "get_emitOnce", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::SignalEmitter::*)(bool)>(&::UnityEngine::Timeline::SignalEmitter::set_emitOnce)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e2b494;
+  constexpr static std::size_t addrs = 0x6e2c574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Timeline::SignalAsset> (::UnityEngine::Timeline::SignalEmitter::*)()>(
     &::UnityEngine::Timeline::SignalEmitter::get_asset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e2b49c;
+  constexpr static std::size_t addrs = 0x6e2c57c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::SignalEmitter*>(), { "get_asset", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::SignalEmitter::*)(::UnityEngine::Timeline::SignalAsset*)>(&::UnityEngine::Timeline::SignalEmitter::set_asset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e2b4a4;
+  constexpr static std::size_t addrs = 0x6e2c584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::PropertyName (::UnityEngine::Timeline::SignalEmitter::*)()>(
     &::UnityEngine::Timeline::SignalEmitter::UnityEngine_Playables_INotification_get_id)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e2b4ac;
+  constexpr static std::size_t addrs = 0x6e2c58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::NotificationFlags (::UnityEngine::Timeline::SignalEmitter::*)()>(
     &::UnityEngine::Timeline::SignalEmitter::UnityEngine_Timeline_INotificationOptionProvider_get_flags)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6e2b53c;
+  constexpr static std::size_t addrs = 0x6e2c61c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::SignalEmitter::*)()>(&::UnityEngine::Timeline::SignalEmitter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e2b558;
+  constexpr static std::size_t addrs = 0x6e2c638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::SignalEmitter*>(), { ".ctor", {}, {} })));

@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AchievementsEvaluationHandler::*)()>(&::GlobalNamespace::AchievementsEvaluationHandler::Start)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x39a49c0;
+  constexpr static std::size_t addrs = 0x39a8e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AchievementsEvaluationHandler*>(), { "Start", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AchievementsEvaluationHandler::*)()>(&::GlobalNamespace::AchievementsEvaluationHandler::OnDestroy)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x39a4b38;
+  constexpr static std::size_t addrs = 0x39a8fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AchievementsEvaluationHandler*>(), { "OnDestroy", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AchievementsEvaluationHandler::*)(::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapDifficulty)>(
     &::GlobalNamespace::AchievementsEvaluationHandler::HandleSoloFreePlayOverallStatsDataDidUpdate)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x39a4d00;
+  constexpr static std::size_t addrs = 0x39a9198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AchievementsEvaluationHandler::*)(::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapDifficulty)>(
     &::GlobalNamespace::AchievementsEvaluationHandler::HandlePartyFreePlayOverallStatsDataDidUpdate)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x39a6670;
+  constexpr static std::size_t addrs = 0x39aab08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AchievementsEvaluationHandler::*)(::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::IMissionNode*)>(
     &::GlobalNamespace::AchievementsEvaluationHandler::HandleCampaignOverallStatsDataDidUpdate)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x39a67d0;
+  constexpr static std::size_t addrs = 0x39aac68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AchievementsEvaluationHandler::*)(::GlobalNamespace::IMissionNode*, ::GlobalNamespace::MissionCompletionResults*)>(
     &::GlobalNamespace::AchievementsEvaluationHandler::ProcessMissionFinishData)> {
   constexpr static std::size_t size = 0x664;
-  constexpr static std::size_t addrs = 0x39a69c4;
+  constexpr static std::size_t addrs = 0x39aae5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AchievementsEvaluationHandler::*)(::GlobalNamespace::BeatmapDifficulty, ::GlobalNamespace::LevelCompletionResults*)>(
     &::GlobalNamespace::AchievementsEvaluationHandler::ProcessSoloFreePlayLevelFinishData)> {
   constexpr static std::size_t size = 0x5d0;
-  constexpr static std::size_t addrs = 0x39a60a0;
+  constexpr static std::size_t addrs = 0x39aa538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AchievementsEvaluationHandler::*)(::GlobalNamespace::BeatmapDifficulty, ::GlobalNamespace::LevelCompletionResults*)>(
     &::GlobalNamespace::AchievementsEvaluationHandler::ProcessLevelFinishData)> {
   constexpr static std::size_t size = 0x1230;
-  constexpr static std::size_t addrs = 0x39a4e70;
+  constexpr static std::size_t addrs = 0x39a9308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AchievementsEvaluationHandler::*)()>(&::GlobalNamespace::AchievementsEvaluationHandler::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39a7028;
+  constexpr static std::size_t addrs = 0x39ab4c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AchievementsEvaluationHandler*>(), { ".ctor", {}, {} })));

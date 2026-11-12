@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaInference::*)(::System::Xml::Schema::XmlSchemaInference_InferenceOption)>(
     &::System::Xml::Schema::XmlSchemaInference::set_Occurrence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66396ec;
+  constexpr static std::size_t addrs = 0x6639d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaInference*>(),
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaInference_InferenceOption (::System::Xml::Schema::XmlSchemaInference::*)()>(
     &::System::Xml::Schema::XmlSchemaInference::get_Occurrence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66396f4;
+  constexpr static std::size_t addrs = 0x6639d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaInference*>(), { "get_Occurrence", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaInference::*)(::System::Xml::Schema::XmlSchemaInference_InferenceOption)>(
     &::System::Xml::Schema::XmlSchemaInference::set_TypeInference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66396fc;
+  constexpr static std::size_t addrs = 0x6639d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaInference::*)()>(&::System::Xml::Schema::XmlSchemaInference::_ctor)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6639704;
+  constexpr static std::size_t addrs = 0x6639d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaInference*>(), { ".ctor", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaSet* (::System::Xml::Schema::XmlSchemaInference::*)(::System::Xml::XmlReader*)>(
     &::System::Xml::Schema::XmlSchemaInference::InferSchema)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6639814;
+  constexpr static std::size_t addrs = 0x6639e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaSet* (
     ::System::Xml::Schema::XmlSchemaInference::*)(::System::Xml::XmlReader*, ::System::Xml::Schema::XmlSchemaSet*)>(&::System::Xml::Schema::XmlSchemaInference::InferSchema1)> {
   constexpr static std::size_t size = 0x970;
-  constexpr static std::size_t addrs = 0x663988c;
+  constexpr static std::size_t addrs = 0x6639edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::Xm
     ::System::Xml::Schema::XmlSchemaInference::*)(::StringW, ::StringW, ::StringW, ::StringW, bool, ::System::Xml::Schema::XmlSchema*, ::System::Xml::Schema::XmlSchemaObjectCollection*,
                                                   ::System::Xml::Schema::XmlSchemaObjectTable*)>(&::System::Xml::Schema::XmlSchemaInference::AddAttribute)> {
   constexpr static std::size_t size = 0x7f0;
-  constexpr static std::size_t addrs = 0x663bbb4;
+  constexpr static std::size_t addrs = 0x663c204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchema* (::System::Xml::Schema::XmlSchemaInference::*)(::StringW)>(
     &::System::Xml::Schema::XmlSchemaInference::CreateXmlSchema)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x663e320;
+  constexpr static std::size_t addrs = 0x663e970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::Xm
     ::System::Xml::Schema::XmlSchemaInference::*)(::StringW, ::StringW, ::StringW, ::System::Xml::Schema::XmlSchema*, ::System::Xml::Schema::XmlSchemaObjectCollection*, int32_t)>(
     &::System::Xml::Schema::XmlSchemaInference::AddElement)> {
   constexpr static std::size_t size = 0x5b8;
-  constexpr static std::size_t addrs = 0x663a250;
+  constexpr static std::size_t addrs = 0x663a8a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaInference::*)(::System::Xml::Schema::XmlSchemaElement*, bool, ::System::Xml::Schema::XmlSchema*)>(
     &::System::Xml::Schema::XmlSchemaInference::InferElement)> {
   constexpr static std::size_t size = 0x13ac;
-  constexpr static std::size_t addrs = 0x663a808;
+  constexpr static std::size_t addrs = 0x663ae58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaSimpleContentExtension* (
     ::System::Xml::Schema::XmlSchemaInference::*)(::System::Xml::Schema::XmlSchemaComplexType*)>(&::System::Xml::Schema::XmlSchemaInference::CheckSimpleContentExtension)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x663efd4;
+  constexpr static std::size_t addrs = 0x663f624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaInference*>(),
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaType* (::System::Xml::Schema::XmlSchemaInference::*)(::System::Xml::Schema::XmlSchemaElement*, bool)>(
     &::System::Xml::Schema::XmlSchemaInference::GetEffectiveSchemaType)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x663e718;
+  constexpr static std::size_t addrs = 0x663ed68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -215,7 +215,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::Xm
     ::System::Xml::Schema::XmlSchemaInference::*)(bool, ::System::Xml::XmlReader*, ::System::Xml::Schema::XmlSchemaComplexType*, ::by_ref<int32_t>, ::by_ref<bool>, ::System::Xml::Schema::XmlSchema*,
                                                   bool)>(&::System::Xml::Schema::XmlSchemaInference::FindMatchingElement)> {
   constexpr static std::size_t size = 0xf5c;
-  constexpr static std::size_t addrs = 0x663f588;
+  constexpr static std::size_t addrs = 0x663fbd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -235,7 +235,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Sche
                                                                                                            bool, ::System::Xml::Schema::XmlSchema*)>(
     &::System::Xml::Schema::XmlSchemaInference::ProcessAttributes)> {
   constexpr static std::size_t size = 0x6f4;
-  constexpr static std::size_t addrs = 0x663e858;
+  constexpr static std::size_t addrs = 0x663eea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaInference::*)(
     ::System::Xml::Schema::XmlSchemaSimpleContentExtension*, ::System::Xml::Schema::XmlSchemaComplexType*)>(&::System::Xml::Schema::XmlSchemaInference::MoveAttributes)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x663f4dc;
+  constexpr static std::size_t addrs = 0x663fb2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaInference::*)(
     ::System::Xml::Schema::XmlSchemaComplexType*, ::System::Xml::Schema::XmlSchemaSimpleContentExtension*, bool)>(&::System::Xml::Schema::XmlSchemaInference::MoveAttributes)> {
   constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x663f114;
+  constexpr static std::size_t addrs = 0x663f764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaInference*>(),
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaAttribute* (::System::Xml::Schema::XmlSchemaInference::*)(::System::Collections::ICollection*, ::StringW)>(
     &::System::Xml::Schema::XmlSchemaInference::FindAttribute)> {
   constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x663c74c;
+  constexpr static std::size_t addrs = 0x663cd9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaElement* (
     ::System::Xml::Schema::XmlSchemaInference::*)(::StringW, ::StringW, ::by_ref<::System::Xml::Schema::XmlSchema*>)>(&::System::Xml::Schema::XmlSchemaInference::FindGlobalElement)> {
   constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x663e3b4;
+  constexpr static std::size_t addrs = 0x663ea04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -317,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaElement* (
     ::System::Xml::Schema::XmlSchemaInference::*)(::System::Xml::Schema::XmlSchemaObjectCollection*, ::StringW)>(&::System::Xml::Schema::XmlSchemaInference::FindElement)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6640640;
+  constexpr static std::size_t addrs = 0x6640c90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaAttribute* (
     ::System::Xml::Schema::XmlSchemaInference::*)(::System::Collections::ICollection*, ::StringW, ::StringW)>(&::System::Xml::Schema::XmlSchemaInference::FindAttributeRef)> {
   constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x663c3a4;
+  constexpr static std::size_t addrs = 0x663c9f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -347,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaElement* (
     ::System::Xml::Schema::XmlSchemaInference::*)(::System::Xml::Schema::XmlSchemaObjectCollection*, ::StringW, ::StringW)>(&::System::Xml::Schema::XmlSchemaInference::FindElementRef)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6640774;
+  constexpr static std::size_t addrs = 0x6640dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -363,7 +363,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaInference::*)(
     ::System::Xml::Schema::XmlSchemaComplexType*, ::System::Xml::Schema::XmlSchemaObjectCollection*)>(&::System::Xml::Schema::XmlSchemaInference::MakeExistingAttributesOptional)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x663ef4c;
+  constexpr static std::size_t addrs = 0x663f59c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -380,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaInference::*)(
     ::System::Xml::Schema::XmlSchemaObjectCollection*, ::System::Xml::Schema::XmlSchemaObjectCollection*)>(&::System::Xml::Schema::XmlSchemaInference::SwitchUseToOptional)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6640b44;
+  constexpr static std::size_t addrs = 0x6641194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -397,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlQualifiedName* (::System::Xml::Schema::XmlSchemaInference::*)(::StringW, ::by_ref<int32_t>)>(
     &::System::Xml::Schema::XmlSchemaInference::RefineSimpleType)> {
   constexpr static std::size_t size = 0x10a8;
-  constexpr static std::size_t addrs = 0x663cab0;
+  constexpr static std::size_t addrs = 0x663d100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaInference*>(),
@@ -410,7 +410,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, ::by_ref<bool>)>(&::System::Xml::Schema::XmlSchemaInference::InferSimpleType)> {
   constexpr static std::size_t size = 0xf00;
-  constexpr static std::size_t addrs = 0x6640c6c;
+  constexpr static std::size_t addrs = 0x66412bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -424,7 +424,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, bool, bool)>(&::System::Xml::Schema::XmlSchemaInference::DateTime)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6641b6c;
+  constexpr static std::size_t addrs = 0x66421bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaInference*>(),
@@ -438,7 +438,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaElement* (::System::Xml::Schema::XmlSchemaInference::*)(::System::Xml::Schema::XmlSchemaElement*)>(
     &::System::Xml::Schema::XmlSchemaInference::CreateNewElementforChoice)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x66408d4;
+  constexpr static std::size_t addrs = 0x6640f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaInference*>(),
@@ -451,7 +451,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Xml::XmlQualifiedName*)>(&::System::Xml::Schema::XmlSchemaInference::GetSchemaType)> {
   constexpr static std::size_t size = 0x7c8;
-  constexpr static std::size_t addrs = 0x663db58;
+  constexpr static std::size_t addrs = 0x663e1a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -465,7 +465,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaInference::*)(::System::Xml::Schema::XmlSchemaElement*, bool)>(
     &::System::Xml::Schema::XmlSchemaInference::SetMinMaxOccurs)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x66404e4;
+  constexpr static std::size_t addrs = 0x6640b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

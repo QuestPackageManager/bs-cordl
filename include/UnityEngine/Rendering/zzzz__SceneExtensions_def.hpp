@@ -31,7 +31,7 @@ public:
   __declspec(property(get = getStaticF_s_SceneGUID, put = setStaticF_s_SceneGUID)) ::System::Reflection::PropertyInfo* s_SceneGUID;
 
   /// [Extension]
-  /// @brief Method GetGUID, addr 0x6be956c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetGUID, addr 0x6bea64c, size 0xd0, virtual false, abstract: false, final false
   static inline ::StringW GetGUID(::UnityEngine::SceneManagement::Scene scene);
 
   static inline ::System::Reflection::PropertyInfo* getStaticF_s_SceneGUID();

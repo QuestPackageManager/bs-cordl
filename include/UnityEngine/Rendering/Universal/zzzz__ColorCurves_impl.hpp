@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ColorCurves::*)()>(&::UnityEngine::Rendering::Universal::ColorCurves::IsActive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cfa0c4;
+  constexpr static std::size_t addrs = 0x6cfb1a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ColorCurves*>(), { "IsActive", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ColorCurves::*)()>(&::UnityEngine::Rendering::Universal::ColorCurves::IsTileCompatible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cfa0cc;
+  constexpr static std::size_t addrs = 0x6cfb1ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ColorCurves*>(), { "IsTileCompatible", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ColorCurves::*)()>(&::UnityEngine::Rendering::Universal::ColorCurves::_ctor)> {
   constexpr static std::size_t size = 0x454;
-  constexpr static std::size_t addrs = 0x6cfa0d4;
+  constexpr static std::size_t addrs = 0x6cfb1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ColorCurves*>(), { ".ctor", {}, {} })));

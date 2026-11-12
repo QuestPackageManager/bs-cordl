@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle::get_LeftMargin)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5eb52a0;
+  constexpr static std::size_t addrs = 0x5eb5520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle::get_TopMargin)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5eb52a8;
+  constexpr static std::size_t addrs = 0x5eb5528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle::get_RightMargin)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5eb52b0;
+  constexpr static std::size_t addrs = 0x5eb5530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle::get_BottomMargin)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5eb52cc;
+  constexpr static std::size_t addrs = 0x5eb554c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle::get_TopLeftMargin)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5eb52e8;
+  constexpr static std::size_t addrs = 0x5eb5568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle::get_BottomRightMargin)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5eafac0;
+  constexpr static std::size_t addrs = 0x5eafd40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle::*)(float_t)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle::SetHeight)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5eb52f0;
+  constexpr static std::size_t addrs = 0x5eb5570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle::*)(float_t)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle::SetWidth)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5eb5318;
+  constexpr static std::size_t addrs = 0x5eb5598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle::*)(float_t)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle::SetIndent)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5eb5340;
+  constexpr static std::size_t addrs = 0x5eb55c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5eb5380;
+  constexpr static std::size_t addrs = 0x5eb5600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

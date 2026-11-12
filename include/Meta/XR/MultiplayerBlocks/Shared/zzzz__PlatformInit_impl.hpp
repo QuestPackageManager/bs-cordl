@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::PlatformInit___c__DisplayClass5_0::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::PlatformInit___c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ecda38;
+  constexpr static std::size_t addrs = 0x5ecdcb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::PlatformInit___c__DisplayClass5_0::*)(::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>*)>(
         &::Meta::XR::MultiplayerBlocks::Shared::PlatformInit___c__DisplayClass5_0::_GetEntitlementInformation_g__InitializeComplete_0)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x5ecda3c;
+  constexpr static std::size_t addrs = 0x5ecdcbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::PlatformInit___c__DisplayClass5_0::*)(::Oculus::Platform::Message*)>(
     &::Meta::XR::MultiplayerBlocks::Shared::PlatformInit___c__DisplayClass5_0::_GetEntitlementInformation_g__CheckEntitlement_1)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x5ecdc30;
+  constexpr static std::size_t addrs = 0x5ecdeb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::PlatformInit___c__DisplayClass5_0::*)(::Oculus::Platform::Message_1<::StringW>*)>(
     &::Meta::XR::MultiplayerBlocks::Shared::PlatformInit___c__DisplayClass5_0::_GetEntitlementInformation_g__GetAccessTokenComplete_2)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x5ecde64;
+  constexpr static std::size_t addrs = 0x5ece0e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::PlatformInit___c__DisplayClass5_1::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::PlatformInit___c__DisplayClass5_1::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ece13c;
+  constexpr static std::size_t addrs = 0x5ece3bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::PlatformInit___c__DisplayClass5_1::*)(
     ::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*)>(&::Meta::XR::MultiplayerBlocks::Shared::PlatformInit___c__DisplayClass5_1::_GetEntitlementInformation_b__3)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x5ece140;
+  constexpr static std::size_t addrs = 0x5ece3c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Meta::XR::MultiplayerBlocks::Shared::BBPlatformInitStatus (*)()>(&::Meta::XR::MultiplayerBlocks::Shared::PlatformInit::get_status)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5ecd99c;
+  constexpr static std::size_t addrs = 0x5ecdc1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::PlatformInit*>(), { "get_status", {}, {} })));
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Meta::XR::MultiplayerBlocks::Shared::BBPlatformInitStatus)>(&::Meta::XR::MultiplayerBlocks::Shared::PlatformInit::set_status)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5ecd9e8;
+  constexpr static std::size_t addrs = 0x5ecdc68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::PlatformInit*>(),
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_1<::Meta::XR::MultiplayerBlocks::Shared::PlatformInfo>*)>(
     &::Meta::XR::MultiplayerBlocks::Shared::PlatformInit::GetEntitlementInformation)> {
   constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x5ec91b8;
+  constexpr static std::size_t addrs = 0x5ec9438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

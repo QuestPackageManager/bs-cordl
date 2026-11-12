@@ -92,7 +92,7 @@ public:
 
   static inline ::GlobalNamespace::MissionSelectionMapViewController___c__DisplayClass16_0* New_ctor();
 
-  /// @brief Method <SongPlayerCrossfadeToLevelAsync>b__0, addr 0x5db5868, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <SongPlayerCrossfadeToLevelAsync>b__0, addr 0x5db57f8, size 0x24, virtual false, abstract: false, final false
   inline void _SongPlayerCrossfadeToLevelAsync_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::MissionSelectionMapViewController> const& __cordl_internal_get___4__this() const;
@@ -107,7 +107,7 @@ public:
 
   constexpr void __cordl_internal_set_level(::GlobalNamespace::BeatmapLevel* value);
 
-  /// @brief Method .ctor, addr 0x5db5864, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5db57f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -154,11 +154,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5db588c, size 0x374, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5db581c, size 0x374, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5db5c00, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5db5b90, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -271,25 +271,25 @@ public:
                       put = __cordl_internal_set_didSelectMissionLevelEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>,
                                                                                                  ::UnityW<::GlobalNamespace::MissionNode>>* didSelectMissionLevelEvent;
 
-  /// @brief Method DeselectSelectedNode, addr 0x5db5848, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method DeselectSelectedNode, addr 0x5db57d8, size 0x18, virtual false, abstract: false, final false
   inline void DeselectSelectedNode();
 
-  /// @brief Method DidActivate, addr 0x5db5468, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5db53f8, size 0x14c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5db55b4, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5db5544, size 0x138, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleMissionNodeSelectionManagerDidSelectMissionNode, addr 0x5db56ec, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionNodeSelectionManagerDidSelectMissionNode, addr 0x5db567c, size 0x8c, virtual false, abstract: false, final false
   inline void HandleMissionNodeSelectionManagerDidSelectMissionNode(::GlobalNamespace::MissionNodeVisualController* missionNodeVisualController);
 
   static inline ::GlobalNamespace::MissionSelectionMapViewController* New_ctor();
 
-  /// @brief Method ShowMissionClearedAnimation, addr 0x5db5828, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ShowMissionClearedAnimation, addr 0x5db57b8, size 0x20, virtual false, abstract: false, final false
   inline void ShowMissionClearedAnimation(::System::Action* finishCallback);
 
   /// [AsyncStateMachine(typeof(MissionSelectionMapViewController::<SongPlayerCrossfadeToLevelAsync>d__16))]
-  /// @brief Method SongPlayerCrossfadeToLevelAsync, addr 0x5db5778, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SongPlayerCrossfadeToLevelAsync, addr 0x5db5708, size 0xb0, virtual false, abstract: false, final false
   inline void SongPlayerCrossfadeToLevelAsync(::GlobalNamespace::BeatmapLevel* level);
 
   constexpr ::GlobalNamespace::AudioClipAsyncLoader* const& __cordl_internal_get__audioClipAsyncLoader() const;
@@ -347,18 +347,18 @@ public:
 
   constexpr void __cordl_internal_set_didSelectMissionLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>* value);
 
-  /// @brief Method .ctor, addr 0x5db5860, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5db57f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_didSelectMissionLevelEvent, addr 0x5db52d0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectMissionLevelEvent, addr 0x5db5260, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectMissionLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>* value);
 
-  /// @brief Method get_animatedUpdateIsRequired, addr 0x5db5450, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_animatedUpdateIsRequired, addr 0x5db53e0, size 0x18, virtual false, abstract: false, final false
   inline bool get_animatedUpdateIsRequired();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didSelectMissionLevelEvent, addr 0x5db5390, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectMissionLevelEvent, addr 0x5db5320, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectMissionLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>* value);
 
 protected:

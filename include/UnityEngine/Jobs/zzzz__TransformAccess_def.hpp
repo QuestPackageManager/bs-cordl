@@ -46,84 +46,84 @@ public:
   __declspec(property(get = get_rotation, put = set_rotation)) ::UnityEngine::Quaternion rotation;
 
   /// [NativeMethod(Name = "TransformAccessBindings::GetLocalScale", IsThreadSafe = true, IsFreeFunction = true, ThrowsException = true)]
-  /// @brief Method GetLocalScale, addr 0x6f94010, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetLocalScale, addr 0x6f950f0, size 0x44, virtual false, abstract: false, final false
   static inline void GetLocalScale(::by_ref<::UnityEngine::Jobs::TransformAccess> access, ::by_ref<::UnityEngine::Vector3> r);
 
   /// [NativeMethod(Name = "TransformAccessBindings::GetLocalToWorldMatrix", IsThreadSafe = true, IsFreeFunction = true, ThrowsException = true)]
-  /// @brief Method GetLocalToWorldMatrix, addr 0x6f94158, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetLocalToWorldMatrix, addr 0x6f95238, size 0x44, virtual false, abstract: false, final false
   static inline void GetLocalToWorldMatrix(::by_ref<::UnityEngine::Jobs::TransformAccess> access, ::by_ref<::UnityEngine::Matrix4x4> m);
 
   /// [NativeMethod(Name = "TransformAccessBindings::GetPosition", IsThreadSafe = true, IsFreeFunction = true, ThrowsException = true)]
-  /// @brief Method GetPosition, addr 0x6f93c74, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetPosition, addr 0x6f94d54, size 0x44, virtual false, abstract: false, final false
   static inline void GetPosition(::by_ref<::UnityEngine::Jobs::TransformAccess> access, ::by_ref<::UnityEngine::Vector3> p);
 
   /// [NativeMethod(Name = "TransformAccessBindings::GetRotation", IsThreadSafe = true, IsFreeFunction = true, ThrowsException = true)]
-  /// @brief Method GetRotation, addr 0x6f93da8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetRotation, addr 0x6f94e88, size 0x44, virtual false, abstract: false, final false
   static inline void GetRotation(::by_ref<::UnityEngine::Jobs::TransformAccess> access, ::by_ref<::UnityEngine::Quaternion> r);
 
   /// [NativeMethod(Name = "TransformAccessBindings::SetLocalPosition", IsThreadSafe = true, IsFreeFunction = true, ThrowsException = true)]
-  /// @brief Method SetLocalPosition, addr 0x6f93ed8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetLocalPosition, addr 0x6f94fb8, size 0x44, virtual false, abstract: false, final false
   static inline void SetLocalPosition(::by_ref<::UnityEngine::Jobs::TransformAccess> access, ::by_ref<::UnityEngine::Vector3> p);
 
-  /// @brief Method SetLocalPositionAndRotation, addr 0x6f94260, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetLocalPositionAndRotation, addr 0x6f95340, size 0x60, virtual false, abstract: false, final false
   inline void SetLocalPositionAndRotation(::UnityEngine::Vector3 localPosition, ::UnityEngine::Quaternion localRotation);
 
   /// [NativeMethod(Name = "TransformAccessBindings::SetLocalPositionAndRotation", IsThreadSafe = true, IsFreeFunction = true, ThrowsException = true)]
-  /// @brief Method SetLocalPositionAndRotation_Internal, addr 0x6f942c0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetLocalPositionAndRotation_Internal, addr 0x6f953a0, size 0x54, virtual false, abstract: false, final false
   static inline void SetLocalPositionAndRotation_Internal(::by_ref<::UnityEngine::Jobs::TransformAccess> access, ::by_ref<::UnityEngine::Vector3> localPosition,
                                                           ::by_ref<::UnityEngine::Quaternion> localRotation);
 
   /// [NativeMethod(Name = "TransformAccessBindings::SetLocalRotation", IsThreadSafe = true, IsFreeFunction = true, ThrowsException = true)]
-  /// @brief Method SetLocalRotation, addr 0x6f93f70, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetLocalRotation, addr 0x6f95050, size 0x44, virtual false, abstract: false, final false
   static inline void SetLocalRotation(::by_ref<::UnityEngine::Jobs::TransformAccess> access, ::by_ref<::UnityEngine::Quaternion> r);
 
   /// [NativeMethod(Name = "TransformAccessBindings::SetLocalScale", IsThreadSafe = true, IsFreeFunction = true, ThrowsException = true)]
-  /// @brief Method SetLocalScale, addr 0x6f940a8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetLocalScale, addr 0x6f95188, size 0x44, virtual false, abstract: false, final false
   static inline void SetLocalScale(::by_ref<::UnityEngine::Jobs::TransformAccess> access, ::by_ref<::UnityEngine::Vector3> r);
 
   /// [NativeMethod(Name = "TransformAccessBindings::SetPosition", IsThreadSafe = true, IsFreeFunction = true, ThrowsException = true)]
-  /// @brief Method SetPosition, addr 0x6f93d0c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetPosition, addr 0x6f94dec, size 0x44, virtual false, abstract: false, final false
   static inline void SetPosition(::by_ref<::UnityEngine::Jobs::TransformAccess> access, ::by_ref<::UnityEngine::Vector3> p);
 
-  /// @brief Method SetPositionAndRotation, addr 0x6f941ac, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetPositionAndRotation, addr 0x6f9528c, size 0x60, virtual false, abstract: false, final false
   inline void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
   /// [NativeMethod(Name = "TransformAccessBindings::SetPositionAndRotation", IsThreadSafe = true, IsFreeFunction = true, ThrowsException = true)]
-  /// @brief Method SetPositionAndRotation_Internal, addr 0x6f9420c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetPositionAndRotation_Internal, addr 0x6f952ec, size 0x54, virtual false, abstract: false, final false
   static inline void SetPositionAndRotation_Internal(::by_ref<::UnityEngine::Jobs::TransformAccess> access, ::by_ref<::UnityEngine::Vector3> position, ::by_ref<::UnityEngine::Quaternion> rotation);
 
   /// [NativeMethod(Name = "TransformAccessBindings::SetRotation", IsThreadSafe = true, IsFreeFunction = true, ThrowsException = true)]
-  /// @brief Method SetRotation, addr 0x6f93e40, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetRotation, addr 0x6f94f20, size 0x44, virtual false, abstract: false, final false
   static inline void SetRotation(::by_ref<::UnityEngine::Jobs::TransformAccess> access, ::by_ref<::UnityEngine::Quaternion> r);
 
-  /// @brief Method get_isValid, addr 0x6f9419c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isValid, addr 0x6f9527c, size 0x10, virtual false, abstract: false, final false
   inline bool get_isValid();
 
-  /// @brief Method get_localScale, addr 0x6f93fb4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_localScale, addr 0x6f95094, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_localScale();
 
-  /// @brief Method get_localToWorldMatrix, addr 0x6f940ec, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_localToWorldMatrix, addr 0x6f951cc, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_localToWorldMatrix();
 
-  /// @brief Method get_position, addr 0x6f93c18, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x6f94cf8, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method get_rotation, addr 0x6f93d50, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x6f94e30, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rotation();
 
-  /// @brief Method set_localPosition, addr 0x6f93e84, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_localPosition, addr 0x6f94f64, size 0x54, virtual false, abstract: false, final false
   inline void set_localPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_localRotation, addr 0x6f93f1c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_localRotation, addr 0x6f94ffc, size 0x54, virtual false, abstract: false, final false
   inline void set_localRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method set_localScale, addr 0x6f94054, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_localScale, addr 0x6f95134, size 0x54, virtual false, abstract: false, final false
   inline void set_localScale(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_position, addr 0x6f93cb8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x6f94d98, size 0x54, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_rotation, addr 0x6f93dec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_rotation, addr 0x6f94ecc, size 0x54, virtual false, abstract: false, final false
   inline void set_rotation(::UnityEngine::Quaternion value);
 
   // Ctor Parameters []

@@ -23,10 +23,10 @@ template <typename T>
 class CORDL_TYPE RequiredArgument_1 : public ::GlobalNamespace::ArgumentBase {
 public:
   // Declarations
-  /// @brief Field _hasValue, offset 0x38, size 0x1
+  /// @brief Field _hasValue, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get__hasValue, put = __cordl_internal_set__hasValue)) bool _hasValue;
 
-  /// @brief Field _value, offset 0x30, size 0x8
+  /// @brief Field _value, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) T _value;
 
   __declspec(property(get = get_hasValue)) bool hasValue;
@@ -91,12 +91,12 @@ public:
   RequiredArgument_1(RequiredArgument_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19747 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19755 };
 
-  /// @brief Field _value, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _value, offset: 0x38, size: 0x8, def value: None
   T ____value;
 
-  /// @brief Field _hasValue, offset: 0x38, size: 0x1, def value: None
+  /// @brief Field _hasValue, offset: 0x40, size: 0x1, def value: None
   bool ____hasValue;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

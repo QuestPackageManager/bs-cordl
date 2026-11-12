@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXInputMouseBinder::*)()>(
     &::UnityEngine::VFX::Utility::VFXInputMouseBinder::get_MouseLeftClickProperty)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e5e444;
+  constexpr static std::size_t addrs = 0x6e5f524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXInputMouseBinder::*)(::StringW)>(
     &::UnityEngine::VFX::Utility::VFXInputMouseBinder::set_MouseLeftClickProperty)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6e5e45c;
+  constexpr static std::size_t addrs = 0x6e5f53c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXInputMouseBinder::*)()>(
     &::UnityEngine::VFX::Utility::VFXInputMouseBinder::get_MouseRightClickProperty)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e5e478;
+  constexpr static std::size_t addrs = 0x6e5f558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXInputMouseBinder::*)(::StringW)>(
     &::UnityEngine::VFX::Utility::VFXInputMouseBinder::set_MouseRightClickProperty)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6e5e490;
+  constexpr static std::size_t addrs = 0x6e5f570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXInputMouseBinder::*)()>(&::UnityEngine::VFX::Utility::VFXInputMouseBinder::get_PositionProperty)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e5e4ac;
+  constexpr static std::size_t addrs = 0x6e5f58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXInputMouseBinder*>(), { "get_PositionProperty", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXInputMouseBinder::*)(::StringW)>(
     &::UnityEngine::VFX::Utility::VFXInputMouseBinder::set_PositionProperty)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6e5e4c4;
+  constexpr static std::size_t addrs = 0x6e5f5a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXInputMouseBinder::*)()>(&::UnityEngine::VFX::Utility::VFXInputMouseBinder::get_VelocityProperty)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e5e4e0;
+  constexpr static std::size_t addrs = 0x6e5f5c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXInputMouseBinder*>(), { "get_VelocityProperty", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXInputMouseBinder::*)(::StringW)>(
     &::UnityEngine::VFX::Utility::VFXInputMouseBinder::set_VelocityProperty)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6e5e4f8;
+  constexpr static std::size_t addrs = 0x6e5f5d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::VFX::Utility::VFXInputMouseBinder::*)(::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::Utility::VFXInputMouseBinder::IsValid)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6e5e514;
+  constexpr static std::size_t addrs = 0x6e5f5f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXInputMouseBinder::*)(::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::Utility::VFXInputMouseBinder::UpdateBinding)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x6e5e5d0;
+  constexpr static std::size_t addrs = 0x6e5f6b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::VFX::Utility::VFXInputMouseBinder::*)()>(&::UnityEngine::VFX::Utility::VFXInputMouseBinder::IsRightClickPressed)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6e5e850;
+  constexpr static std::size_t addrs = 0x6e5f930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXInputMouseBinder*>(), { "IsRightClickPressed", {}, {} })));
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::VFX::Utility::VFXInputMouseBinder::*)()>(&::UnityEngine::VFX::Utility::VFXInputMouseBinder::IsLeftClickPressed)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6e5e7e0;
+  constexpr static std::size_t addrs = 0x6e5f8c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXInputMouseBinder*>(), { "IsLeftClickPressed", {}, {} })));
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::VFX::Utility::VFXInputMouseBinder::*)()>(
     &::UnityEngine::VFX::Utility::VFXInputMouseBinder::GetMousePosition)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6e5e8c0;
+  constexpr static std::size_t addrs = 0x6e5f9a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXInputMouseBinder*>(), { "GetMousePosition", {}, {} })));
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXInputMouseBinder::*)()>(&::UnityEngine::VFX::Utility::VFXInputMouseBinder::ToString)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6e5e960;
+  constexpr static std::size_t addrs = 0x6e5fa40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXInputMouseBinder::*)()>(&::UnityEngine::VFX::Utility::VFXInputMouseBinder::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6e5ea60;
+  constexpr static std::size_t addrs = 0x6e5fb40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXInputMouseBinder*>(), { ".ctor", {}, {} })));

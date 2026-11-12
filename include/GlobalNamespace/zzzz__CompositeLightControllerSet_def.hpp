@@ -108,28 +108,28 @@ public:
 
   constexpr void __cordl_internal_set__modification(::GlobalNamespace::CompositeModification* value);
 
-  /// @brief Method .ctor, addr 0x5deb1d8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5deb2f0, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_description, addr 0x5deb440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_description, addr 0x5deb558, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_description();
 
-  /// @brief Method get_displayName, addr 0x5deb438, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x5deb550, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method get_editorCategory, addr 0x5deb450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_editorCategory, addr 0x5deb568, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_editorCategory();
 
-  /// @brief Method get_editorName, addr 0x5deb448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_editorName, addr 0x5deb560, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_editorName();
 
-  /// @brief Method get_lightControllerData, addr 0x5deb428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightControllerData, addr 0x5deb540, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::CompositeLightControllerData* get_lightControllerData();
 
-  /// @brief Method get_lightGroup, addr 0x5deb430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroup, addr 0x5deb548, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightGroup> get_lightGroup();
 
-  /// @brief Method get_modification, addr 0x5deb420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_modification, addr 0x5deb538, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::CompositeModification* get_modification();
 
 protected:

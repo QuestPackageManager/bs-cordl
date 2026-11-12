@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters::*)(::Org::BouncyCastle::Security::SecureRandom*)>(
     &::Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x36c3c8c;
+  constexpr static std::size_t addrs = 0x36c8124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters::*)(::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x36c3d30;
+  constexpr static std::size_t addrs = 0x36c81c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x36c3dec;
+  constexpr static std::size_t addrs = 0x36c8284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters::*)(::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters::Encode)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x36c3ef0;
+  constexpr static std::size_t addrs = 0x36c8388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters::GetEncoded)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x36c3f78;
+  constexpr static std::size_t addrs = 0x36c8410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters* (::Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters::GeneratePublicKey)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x36c3fd8;
+  constexpr static std::size_t addrs = 0x36c8470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters::*)(
     ::Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters*, ::ArrayW<uint8_t>, int32_t)>(&::Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters::GenerateSecret)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x36c4130;
+  constexpr static std::size_t addrs = 0x36c85c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::VRControllersValueSettingsOffsets::*)()>(
     &::GlobalNamespace::VRControllersValueSettingsOffsets::get_alternativeHandling)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3a08b10;
+  constexpr static std::size_t addrs = 0x3a0db98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersValueSettingsOffsets*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::VRControllersValueSettingsOffsets::*)()>(
     &::GlobalNamespace::VRControllersValueSettingsOffsets::get_leftPositionOffset)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3a08b38;
+  constexpr static std::size_t addrs = 0x3a0dbc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersValueSettingsOffsets*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::VRControllersValueSettingsOffsets::*)()>(
     &::GlobalNamespace::VRControllersValueSettingsOffsets::get_leftRotationOffset)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3a08b64;
+  constexpr static std::size_t addrs = 0x3a0dbec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersValueSettingsOffsets*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::VRControllersValueSettingsOffsets::*)()>(
     &::GlobalNamespace::VRControllersValueSettingsOffsets::get_rightPositionOffset)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3a08b90;
+  constexpr static std::size_t addrs = 0x3a0dc18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersValueSettingsOffsets*>(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::VRControllersValueSettingsOffsets::*)()>(
     &::GlobalNamespace::VRControllersValueSettingsOffsets::get_rightRotationOffset)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3a08bbc;
+  constexpr static std::size_t addrs = 0x3a0dc44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersValueSettingsOffsets*>(),
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRControllersValueSettingsOffsets::*)()>(&::GlobalNamespace::VRControllersValueSettingsOffsets::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a08be8;
+  constexpr static std::size_t addrs = 0x3a0dc70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersValueSettingsOffsets*>(), { ".ctor", {}, {} })));

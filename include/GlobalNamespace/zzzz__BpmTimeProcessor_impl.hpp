@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BpmTimeProcessor_BpmChangeData::*)(float_t, float_t, float_t)>(
     &::GlobalNamespace::BpmTimeProcessor_BpmChangeData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39c2aa8;
+  constexpr static std::size_t addrs = 0x39c7084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BpmTimeProcessor_BpmChangeData>(),
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BpmTimeProcessor___c::*)()>(&::GlobalNamespace::BpmTimeProcessor___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39c32c0;
+  constexpr static std::size_t addrs = 0x39c789c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BpmTimeProcessor___c*>(), { ".ctor", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BpmTimeProcessor___c::*)(::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*)>(
     &::GlobalNamespace::BpmTimeProcessor___c::__ctor_b__3_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39c32c4;
+  constexpr static std::size_t addrs = 0x39c78a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BpmTimeProcessor___c*>(),
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BpmTimeProcessor::*)(
     float_t, ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>*)>(&::GlobalNamespace::BpmTimeProcessor::_ctor)> {
   constexpr static std::size_t size = 0x3a0;
-  constexpr static std::size_t addrs = 0x39c2708;
+  constexpr static std::size_t addrs = 0x39c6ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BpmTimeProcessor::*)(
     float_t, ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::BpmChangeEventData*>*)>(&::GlobalNamespace::BpmTimeProcessor::_ctor)> {
   constexpr static std::size_t size = 0x500;
-  constexpr static std::size_t addrs = 0x39c2ad0;
+  constexpr static std::size_t addrs = 0x39c70ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BpmTimeProcessor::*)(::BeatmapLevelSaveDataVersion4::AudioSaveData*)>(&::GlobalNamespace::BpmTimeProcessor::_ctor)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x39c2fd0;
+  constexpr static std::size_t addrs = 0x39c75ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BpmTimeProcessor::*)(float_t)>(&::GlobalNamespace::BpmTimeProcessor::ConvertBeatToTime)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x39c3154;
+  constexpr static std::size_t addrs = 0x39c7730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BpmTimeProcessor::*)()>(&::GlobalNamespace::BpmTimeProcessor::Reset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c3264;
+  constexpr static std::size_t addrs = 0x39c7840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BpmTimeProcessor*>(), { "Reset", {}, {} })));
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::GlobalNamespace::BpmTimeProcessor_BpmChangeData, float_t)>(&::GlobalNamespace::BpmTimeProcessor::CalculateTime)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39c2ab4;
+  constexpr static std::size_t addrs = 0x39c7090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

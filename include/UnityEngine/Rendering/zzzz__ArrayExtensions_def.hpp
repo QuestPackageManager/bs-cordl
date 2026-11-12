@@ -44,7 +44,7 @@ public:
   static inline void ResizeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> array, int32_t capacity);
 
   /// [Extension]
-  /// @brief Method ResizeArray, addr 0x6c0d7f0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ResizeArray, addr 0x6c0e8d0, size 0xb4, virtual false, abstract: false, final false
   static inline void ResizeArray(::by_ref<::UnityEngine::Jobs::TransformAccessArray> array, int32_t capacity);
 
 protected:

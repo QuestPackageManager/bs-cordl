@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_Type(::GlobalNamespace::OVRPlugin_ActionTypes value);
 
-  /// @brief Method .ctor, addr 0x62a7864, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62a7aec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

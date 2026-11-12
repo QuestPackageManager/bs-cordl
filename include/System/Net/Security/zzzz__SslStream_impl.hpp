@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream___c__DisplayClass21_0::*)()>(&::System::Net::Security::SslStream___c__DisplayClass21_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67d61d0;
+  constexpr static std::size_t addrs = 0x67d6820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Security::SslStream___c__DisplayClass21_0*>(), { ".ctor", {}, {} })));
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Crypt
                                                                  ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayW<::StringW>)>(
     &::System::Net::Security::SslStream___c__DisplayClass21_0::_SetAndVerifySelectionCallback_b__0)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x67d697c;
+  constexpr static std::size_t addrs = 0x67d6fcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Net::Security::MobileAuthenticatedStream* (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_Impl)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x67d5cb8;
+  constexpr static std::size_t addrs = 0x67d6308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Security::SslStream*>(), { "get_Impl", {}, {} })));
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_InternalTargetHost)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x67d5d28;
+  constexpr static std::size_t addrs = 0x67d6378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Security::SslStream*>(), { "get_InternalTargetHost", {}, {} })));
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Net::Security::MobileTlsProvider* (*)()>(&::System::Net::Security::SslStream::GetProvider)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x67d5d4c;
+  constexpr static std::size_t addrs = 0x67d639c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Security::SslStream*>(), { "GetProvider", {}, {} })));
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(::System::IO::Stream*, bool, ::System::Net::Security::RemoteCertificateValidationCallback*)>(
     &::System::Net::Security::SslStream::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67d5dc8;
+  constexpr static std::size_t addrs = 0x67d6418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +156,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Secu
                                                                                                     ::System::Net::Security::LocalCertificateSelectionCallback*)>(
     &::System::Net::Security::SslStream::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x67d5dd0;
+  constexpr static std::size_t addrs = 0x67d6420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(::System::IO::Stream*, bool, ::Mono::Security::Interface::MonoTlsProvider*,
                                                                                                     ::Mono::Security::Interface::MonoTlsSettings*)>(&::System::Net::Security::SslStream::_ctor)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x67d60a4;
+  constexpr static std::size_t addrs = 0x67d66f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(::System::Net::Security::RemoteCertificateValidationCallback*)>(
     &::System::Net::Security::SslStream::SetAndVerifyValidationCallback)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x67d5e5c;
+  constexpr static std::size_t addrs = 0x67d64ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(::System::Net::Security::LocalCertificateSelectionCallback*)>(
     &::System::Net::Security::SslStream::SetAndVerifySelectionCallback)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x67d5f30;
+  constexpr static std::size_t addrs = 0x67d6580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Secu
                                                                                                     ::System::Security::Authentication::SslProtocols, bool)>(
     &::System::Net::Security::SslStream::AuthenticateAsClient)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x67d61d4;
+  constexpr static std::size_t addrs = 0x67d6824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::System::Net::Security::SslStream::*)(::StringW, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Security::Authentication::SslProtocols, bool,
                                            ::System::AsyncCallback*, ::System::Object*)>(&::System::Net::Security::SslStream::BeginAuthenticateAsClient)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x67d6228;
+  constexpr static std::size_t addrs = 0x67d6878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(::System::IAsyncResult*)>(&::System::Net::Security::SslStream::EndAuthenticateAsClient)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x67d629c;
+  constexpr static std::size_t addrs = 0x67d68ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(
     ::System::Security::Cryptography::X509Certificates::X509Certificate*, bool, ::System::Security::Authentication::SslProtocols, bool)>(&::System::Net::Security::SslStream::AuthenticateAsServer)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x67d62a8;
+  constexpr static std::size_t addrs = 0x67d68f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -280,7 +280,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::System::Net::Security::SslStream::*)(::StringW, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Security::Authentication::SslProtocols, bool)>(
     &::System::Net::Security::SslStream::AuthenticateAsClientAsync)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x67d62fc;
+  constexpr static std::size_t addrs = 0x67d694c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -293,7 +293,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_IsAuthenticated)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x67d6350;
+  constexpr static std::size_t addrs = 0x67d69a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate* (::System::Net::Security::SslStream::*)()>(
     &::System::Net::Security::SslStream::get_LocalCertificate)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x67d637c;
+  constexpr static std::size_t addrs = 0x67d69cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -320,7 +320,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_CanSeek)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67d63a0;
+  constexpr static std::size_t addrs = 0x67d69f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -333,7 +333,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_CanRead)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x67d63a8;
+  constexpr static std::size_t addrs = 0x67d69f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -346,7 +346,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_CanTimeout)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x67d63c0;
+  constexpr static std::size_t addrs = 0x67d6a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -359,7 +359,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_CanWrite)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x67d63dc;
+  constexpr static std::size_t addrs = 0x67d6a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -372,7 +372,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_ReadTimeout)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x67d63f4;
+  constexpr static std::size_t addrs = 0x67d6a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -385,7 +385,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(int32_t)>(&::System::Net::Security::SslStream::set_ReadTimeout)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x67d6420;
+  constexpr static std::size_t addrs = 0x67d6a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -398,7 +398,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_WriteTimeout)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x67d645c;
+  constexpr static std::size_t addrs = 0x67d6aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -411,7 +411,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(int32_t)>(&::System::Net::Security::SslStream::set_WriteTimeout)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x67d6488;
+  constexpr static std::size_t addrs = 0x67d6ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -424,7 +424,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_Length)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x67d64c4;
+  constexpr static std::size_t addrs = 0x67d6b14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -437,7 +437,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_Position)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x67d64ec;
+  constexpr static std::size_t addrs = 0x67d6b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -450,7 +450,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(int64_t)>(&::System::Net::Security::SslStream::set_Position)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x67d6518;
+  constexpr static std::size_t addrs = 0x67d6b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -463,7 +463,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(int64_t)>(&::System::Net::Security::SslStream::SetLength)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x67d6568;
+  constexpr static std::size_t addrs = 0x67d6bb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -476,7 +476,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Net::Security::SslStream::*)(int64_t, ::System::IO::SeekOrigin)>(&::System::Net::Security::SslStream::Seek)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x67d65a4;
+  constexpr static std::size_t addrs = 0x67d6bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -490,7 +490,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::System::Net::Security::SslStream::*)(::System::Threading::CancellationToken)>(
     &::System::Net::Security::SslStream::FlushAsync)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x67d65f4;
+  constexpr static std::size_t addrs = 0x67d6c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -503,7 +503,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::Flush)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x67d6614;
+  constexpr static std::size_t addrs = 0x67d6c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -516,7 +516,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::CheckDisposed)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x67d5cd0;
+  constexpr static std::size_t addrs = 0x67d6320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Security::SslStream*>(), { "CheckDisposed", {}, {} })));
@@ -528,7 +528,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(bool)>(&::System::Net::Security::SslStream::Dispose)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x67d6634;
+  constexpr static std::size_t addrs = 0x67d6c84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -541,7 +541,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Security::SslStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Net::Security::SslStream::Read)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x67d66ec;
+  constexpr static std::size_t addrs = 0x67d6d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -554,7 +554,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Net::Security::SslStream::Write)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x67d6740;
+  constexpr static std::size_t addrs = 0x67d6d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -568,7 +568,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<int32_t>* (
     ::System::Net::Security::SslStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::System::Net::Security::SslStream::ReadAsync)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x67d6794;
+  constexpr static std::size_t addrs = 0x67d6de4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -582,7 +582,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::System::Net::Security::SslStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::System::Net::Security::SslStream::WriteAsync)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x67d67f0;
+  constexpr static std::size_t addrs = 0x67d6e40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -596,7 +596,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::System::Net::Security::SslStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::AsyncCallback*,
                                                                                                                        ::System::Object*)>(&::System::Net::Security::SslStream::BeginRead)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x67d684c;
+  constexpr static std::size_t addrs = 0x67d6e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -609,7 +609,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Security::SslStream::*)(::System::IAsyncResult*)>(&::System::Net::Security::SslStream::EndRead)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x67d68b8;
+  constexpr static std::size_t addrs = 0x67d6f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -623,7 +623,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::System::Net::Security::SslStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::AsyncCallback*,
                                                                                                                        ::System::Object*)>(&::System::Net::Security::SslStream::BeginWrite)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x67d6904;
+  constexpr static std::size_t addrs = 0x67d6f54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -636,7 +636,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(::System::IAsyncResult*)>(&::System::Net::Security::SslStream::EndWrite)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x67d6970;
+  constexpr static std::size_t addrs = 0x67d6fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

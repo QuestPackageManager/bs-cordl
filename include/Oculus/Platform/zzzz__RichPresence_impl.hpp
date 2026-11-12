@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request* (*)()>(&::Oculus::Platform::RichPresence::Clear)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x624119c;
+  constexpr static std::size_t addrs = 0x6241424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::RichPresence*>(), { "Clear", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* (*)()>(&::Oculus::Platform::RichPresence::GetDestinations)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x62412e0;
+  constexpr static std::size_t addrs = 0x6241568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::RichPresence*>(), { "GetDestinations", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request* (*)(::Oculus::Platform::RichPresenceOptions*)>(&::Oculus::Platform::RichPresence::Set)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x6241438;
+  constexpr static std::size_t addrs = 0x62416c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* (*)(::Oculus::Platform::Models::DestinationList*)>(
     &::Oculus::Platform::RichPresence::GetNextDestinationListPage)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x62415a0;
+  constexpr static std::size_t addrs = 0x6241828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::RichPresence*>(),

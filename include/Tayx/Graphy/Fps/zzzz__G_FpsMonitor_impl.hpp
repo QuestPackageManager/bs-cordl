@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Fps::G_FpsMonitor___c::*)()>(&::Tayx::Graphy::Fps::G_FpsMonitor___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68a57fc;
+  constexpr static std::size_t addrs = 0x68a5e4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Fps::G_FpsMonitor___c*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Tayx::Graphy::Fps::G_FpsMonitor___c::*)(int16_t, int16_t)>(&::Tayx::Graphy::Fps::G_FpsMonitor___c::_Update_b__25_0)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68a5800;
+  constexpr static std::size_t addrs = 0x68a5e50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::Tayx::Graphy::Fps::G_FpsMonitor::*)()>(&::Tayx::Graphy::Fps::G_FpsMonitor::get_CurrentFPS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68a5398;
+  constexpr static std::size_t addrs = 0x68a59e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Fps::G_FpsMonitor*>(), { "get_CurrentFPS", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Fps::G_FpsMonitor::*)(int16_t)>(&::Tayx::Graphy::Fps::G_FpsMonitor::set_CurrentFPS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68a53a0;
+  constexpr static std::size_t addrs = 0x68a59f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::Tayx::Graphy::Fps::G_FpsMonitor::*)()>(&::Tayx::Graphy::Fps::G_FpsMonitor::get_AverageFPS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68a53a8;
+  constexpr static std::size_t addrs = 0x68a59f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Fps::G_FpsMonitor*>(), { "get_AverageFPS", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Fps::G_FpsMonitor::*)(int16_t)>(&::Tayx::Graphy::Fps::G_FpsMonitor::set_AverageFPS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68a53b0;
+  constexpr static std::size_t addrs = 0x68a5a00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::Tayx::Graphy::Fps::G_FpsMonitor::*)()>(&::Tayx::Graphy::Fps::G_FpsMonitor::get_OnePercentFPS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68a53b8;
+  constexpr static std::size_t addrs = 0x68a5a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Fps::G_FpsMonitor*>(), { "get_OnePercentFPS", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Fps::G_FpsMonitor::*)(int16_t)>(&::Tayx::Graphy::Fps::G_FpsMonitor::set_OnePercentFPS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68a53c0;
+  constexpr static std::size_t addrs = 0x68a5a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::Tayx::Graphy::Fps::G_FpsMonitor::*)()>(&::Tayx::Graphy::Fps::G_FpsMonitor::get_Zero1PercentFps)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68a53c8;
+  constexpr static std::size_t addrs = 0x68a5a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Fps::G_FpsMonitor*>(), { "get_Zero1PercentFps", {}, {} })));
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Fps::G_FpsMonitor::*)(int16_t)>(&::Tayx::Graphy::Fps::G_FpsMonitor::set_Zero1PercentFps)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68a53d0;
+  constexpr static std::size_t addrs = 0x68a5a20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Fps::G_FpsMonitor::*)()>(&::Tayx::Graphy::Fps::G_FpsMonitor::Awake)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68a53d8;
+  constexpr static std::size_t addrs = 0x68a5a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Fps::G_FpsMonitor*>(), { "Awake", {}, {} })));
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Fps::G_FpsMonitor::*)()>(&::Tayx::Graphy::Fps::G_FpsMonitor::Update)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x68a53dc;
+  constexpr static std::size_t addrs = 0x68a5a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Fps::G_FpsMonitor*>(), { "Update", {}, {} })));
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Fps::G_FpsMonitor::*)()>(&::Tayx::Graphy::Fps::G_FpsMonitor::UpdateParameters)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x68a5108;
+  constexpr static std::size_t addrs = 0x68a5758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Fps::G_FpsMonitor*>(), { "UpdateParameters", {}, {} })));
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Fps::G_FpsMonitor::*)()>(&::Tayx::Graphy::Fps::G_FpsMonitor::Init)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x689ffa0;
+  constexpr static std::size_t addrs = 0x68a05f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Fps::G_FpsMonitor*>(), { "Init", {}, {} })));
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Fps::G_FpsMonitor::*)()>(&::Tayx::Graphy::Fps::G_FpsMonitor::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x68a5790;
+  constexpr static std::size_t addrs = 0x68a5de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Fps::G_FpsMonitor*>(), { ".ctor", {}, {} })));

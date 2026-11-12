@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ResettableRandom::*)(::GlobalNamespace::DeterminismConfig*, int32_t)>(&::GlobalNamespace::ResettableRandom::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x35d2224;
+  constexpr static std::size_t addrs = 0x35d667c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ResettableRandom*>(),
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::GlobalNamespace::ResettableRandom::*)()>(&::GlobalNamespace::ResettableRandom::Sample)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x35d2364;
+  constexpr static std::size_t addrs = 0x35d67bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ResettableRandom*>(), { "Sample", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ResettableRandom::*)(bool)>(&::GlobalNamespace::ResettableRandom::HandleDeterminismSet)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x35d22d8;
+  constexpr static std::size_t addrs = 0x35d6730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ResettableRandom::*)()>(&::GlobalNamespace::ResettableRandom::Dispose)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x35d2380;
+  constexpr static std::size_t addrs = 0x35d67d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ResettableRandom*>(), { "Dispose", {}, {} })));

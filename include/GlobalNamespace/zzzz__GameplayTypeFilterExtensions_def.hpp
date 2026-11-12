@@ -108,34 +108,34 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x39d9ed0, size 0x2b4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39deb8c, size 0x2b4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::GameplayTypeFilterExtensions__LevelsWithGameplayType_d__1* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerable<BeatmapLevel>.GetEnumerator, addr 0x39da280, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<BeatmapLevel>.GetEnumerator, addr 0x39def3c, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapLevel*>* System_Collections_Generic_IEnumerable_BeatmapLevel__GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<BeatmapLevel>.get_Current, addr 0x39da238, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<BeatmapLevel>.get_Current, addr 0x39deef4, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapLevel* System_Collections_Generic_IEnumerator_BeatmapLevel__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x39da320, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x39defdc, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39da240, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39deefc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39da278, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39def34, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x39d9eb4, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x39deb70, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -186,11 +186,11 @@ public:
 
   constexpr void __cordl_internal_set_levels(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevel*>* value);
 
-  /// @brief Method <>m__Finally1, addr 0x39da184, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x39dee40, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x39d9dd0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39dea8c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevel*>"
@@ -223,7 +223,7 @@ public:
   GameplayTypeFilterExtensions__LevelsWithGameplayType_d__1(GameplayTypeFilterExtensions__LevelsWithGameplayType_d__1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14457 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14460 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -326,34 +326,34 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x39da340, size 0x2a0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39deffc, size 0x2a0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::GameplayTypeFilterExtensions__PacksWithGameplayType_d__0* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerable<BeatmapLevelPack>.GetEnumerator, addr 0x39da6dc, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<BeatmapLevelPack>.GetEnumerator, addr 0x39df398, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapLevelPack*>* System_Collections_Generic_IEnumerable_BeatmapLevelPack__GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<BeatmapLevelPack>.get_Current, addr 0x39da694, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<BeatmapLevelPack>.get_Current, addr 0x39df350, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapLevelPack* System_Collections_Generic_IEnumerator_BeatmapLevelPack__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x39da77c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x39df438, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39da69c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39df358, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39da6d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39df390, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x39da324, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x39defe0, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -404,11 +404,11 @@ public:
 
   constexpr void __cordl_internal_set_packs(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevelPack*>* value);
 
-  /// @brief Method <>m__Finally1, addr 0x39da5e0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x39df29c, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x39d9d34, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39de9f0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevelPack*>"
@@ -441,7 +441,7 @@ public:
   GameplayTypeFilterExtensions__PacksWithGameplayType_d__0(GameplayTypeFilterExtensions__PacksWithGameplayType_d__0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14458 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14461 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -507,18 +507,18 @@ public:
   using _PacksWithGameplayType_d__0 = ::GlobalNamespace::GameplayTypeFilterExtensions__PacksWithGameplayType_d__0;
 
   /// [Extension]
-  /// @brief Method ContainsGameplayType, addr 0x39d9df0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ContainsGameplayType, addr 0x39deaac, size 0xc4, virtual false, abstract: false, final false
   static inline bool ContainsGameplayType(::GlobalNamespace::BeatmapLevelPack* pack, ::GlobalNamespace::GameplayType gameplayType);
 
   /// [IteratorStateMachine(typeof(GameplayTypeFilterExtensions::<LevelsWithGameplayType>d__1))]
   /// [Extension]
-  /// @brief Method LevelsWithGameplayType, addr 0x39d9d54, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method LevelsWithGameplayType, addr 0x39dea10, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevel*>*
   LevelsWithGameplayType(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevel*>* levels, ::GlobalNamespace::GameplayType gameplayType);
 
   /// [IteratorStateMachine(typeof(GameplayTypeFilterExtensions::<PacksWithGameplayType>d__0))]
   /// [Extension]
-  /// @brief Method PacksWithGameplayType, addr 0x39d9cb8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method PacksWithGameplayType, addr 0x39de974, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevelPack*>*
   PacksWithGameplayType(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevelPack*>* packs, ::GlobalNamespace::GameplayType gameplayType);
 
@@ -537,7 +537,7 @@ public:
   GameplayTypeFilterExtensions(GameplayTypeFilterExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14459 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14462 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

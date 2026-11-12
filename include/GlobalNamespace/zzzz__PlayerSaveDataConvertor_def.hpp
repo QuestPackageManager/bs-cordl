@@ -39,27 +39,27 @@ class CORDL_TYPE PlayerSaveDataConvertor : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method GetRuntimeData, addr 0x39fecdc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeData, addr 0x3a03a30, size 0x10, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ArcVisibilityType GetRuntimeData(::GlobalNamespace::PlayerSpecificSettings_PlayerSaveData_ArcVisibilityTypeSaveData saveData);
 
   /// [Extension]
-  /// @brief Method GetRuntimeData, addr 0x39fecec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeData, addr 0x3a03a40, size 0x14, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentEffectsFilterPreset GetRuntimeData(::GlobalNamespace::PlayerSpecificSettings_PlayerSaveData_EnvironmentEffectsFilterPresetSaveData saveData);
 
   /// [Extension]
-  /// @brief Method GetRuntimeData, addr 0x39fecd0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeData, addr 0x3a03a24, size 0xc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteJumpDurationTypeSettings GetRuntimeData(::GlobalNamespace::PlayerSpecificSettings_PlayerSaveData_NoteJumpDurationTypeSettingsSaveData saveData);
 
   /// [Extension]
-  /// @brief Method GetSaveData, addr 0x39fcc34, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetSaveData, addr 0x3a01988, size 0x10, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlayerSpecificSettings_PlayerSaveData_ArcVisibilityTypeSaveData GetSaveData(::GlobalNamespace::ArcVisibilityType data);
 
   /// [Extension]
-  /// @brief Method GetSaveData, addr 0x39fcc44, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetSaveData, addr 0x3a01998, size 0x14, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlayerSpecificSettings_PlayerSaveData_EnvironmentEffectsFilterPresetSaveData GetSaveData(::GlobalNamespace::EnvironmentEffectsFilterPreset data);
 
   /// [Extension]
-  /// @brief Method GetSaveData, addr 0x39fcc28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetSaveData, addr 0x3a0197c, size 0xc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlayerSpecificSettings_PlayerSaveData_NoteJumpDurationTypeSettingsSaveData GetSaveData(::GlobalNamespace::NoteJumpDurationTypeSettings data);
 
 protected:
@@ -77,7 +77,7 @@ public:
   PlayerSaveDataConvertor(PlayerSaveDataConvertor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14722 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14730 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

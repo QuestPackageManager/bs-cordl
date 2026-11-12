@@ -29,21 +29,21 @@ public:
   /// @brief Field m_Index, offset 0x88, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Index, put = __cordl_internal_set_m_Index)) int32_t m_Index;
 
-  /// @brief Method ChangeSelectedObject, addr 0x6c70414, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ChangeSelectedObject, addr 0x6c714f4, size 0xe8, virtual false, abstract: false, final false
   inline void ChangeSelectedObject();
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField* New_ctor();
 
-  /// @brief Method OnDecrement, addr 0x6c7050c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method OnDecrement, addr 0x6c715ec, size 0x10, virtual true, abstract: false, final false
   inline void OnDecrement(bool fast);
 
-  /// @brief Method OnIncrement, addr 0x6c704fc, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method OnIncrement, addr 0x6c715dc, size 0x10, virtual true, abstract: false, final false
   inline void OnIncrement(bool fast);
 
-  /// @brief Method SetWidget, addr 0x6c703b0, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x6c71490, size 0x64, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
-  /// @brief Method UpdateValueLabel, addr 0x6c7051c, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method UpdateValueLabel, addr 0x6c715fc, size 0xf8, virtual true, abstract: false, final false
   inline void UpdateValueLabel();
 
   constexpr int32_t const& __cordl_internal_get_m_Index() const;
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6c70614, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c716f4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

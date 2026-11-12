@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking___c__DisplayClass21_0::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking___c__DisplayClass21_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ec9a68;
+  constexpr static std::size_t addrs = 0x5ec9ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking___c__DisplayClass21_0::*)(::Oculus::Platform::Message_1<::Oculus::Platform::Models::InvitePanelResultInfo*>*)>(
         &::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking___c__DisplayClass21_0::_LaunchFriendsInvitePanelAsync_b__0)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5eca4a0;
+  constexpr static std::size_t addrs = 0x5eca720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking___c__DisplayClass23_0::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking___c__DisplayClass23_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ec9bdc;
+  constexpr static std::size_t addrs = 0x5ec9e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking___c__DisplayClass23_0::*)(::Oculus::Platform::Message*)>(
     &::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking___c__DisplayClass23_0::_LaunchRosterPanelAsync_b__0)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5eca588;
+  constexpr static std::size_t addrs = 0x5eca808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking___c__DisplayClass23_0*>(),
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking___c__DisplayClass28_0::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking___c__DisplayClass28_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ec9f5c;
+  constexpr static std::size_t addrs = 0x5eca1dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking___c__DisplayClass28_0::*)(::Oculus::Platform::Message*)>(
     &::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking___c__DisplayClass28_0::_ClearGroupPresence_b__0)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5eca670;
+  constexpr static std::size_t addrs = 0x5eca8f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking___c__DisplayClass28_0*>(),
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking___c__DisplayClass29_0::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking___c__DisplayClass29_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5eca098;
+  constexpr static std::size_t addrs = 0x5eca318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking___c__DisplayClass29_0::*)(::Oculus::Platform::Message*)>(
     &::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking___c__DisplayClass29_0::_SetGroupPresence_b__0)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5eca758;
+  constexpr static std::size_t addrs = 0x5eca9d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking___c__DisplayClass29_0*>(),
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking__JoinRoom_d__25::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking__JoinRoom_d__25::MoveNext)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x5eca7bc;
+  constexpr static std::size_t addrs = 0x5ecaa3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking__JoinRoom_d__25::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking__JoinRoom_d__25::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5ecaa48;
+  constexpr static std::size_t addrs = 0x5ecacc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking__JoinRoom_d__25>(),
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking__OnJoinIntentReceived_d__31::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking__OnJoinIntentReceived_d__31::MoveNext)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x5ecaab4;
+  constexpr static std::size_t addrs = 0x5ecad34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking__OnJoinIntentReceived_d__31::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking__OnJoinIntentReceived_d__31::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ecad04;
+  constexpr static std::size_t addrs = 0x5ecaf84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking__OnJoinIntentReceived_d__31>(),
@@ -393,7 +393,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking__OnRoomOperationResult_d__24::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking__OnRoomOperationResult_d__24::MoveNext)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x5ecad0c;
+  constexpr static std::size_t addrs = 0x5ecaf8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -407,7 +407,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking__OnRoomOperationResult_d__24::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking__OnRoomOperationResult_d__24::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ecaea4;
+  constexpr static std::size_t addrs = 0x5ecb124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking__OnRoomOperationResult_d__24>(),
@@ -456,7 +456,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking__RegisterGameRoom_d__27::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking__RegisterGameRoom_d__27::MoveNext)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x5ecaeac;
+  constexpr static std::size_t addrs = 0x5ecb12c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -470,7 +470,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking__RegisterGameRoom_d__27::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking__RegisterGameRoom_d__27::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5ecb1c0;
+  constexpr static std::size_t addrs = 0x5ecb440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking__RegisterGameRoom_d__27>(),
@@ -522,7 +522,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::get_DestinationApi)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ec9034;
+  constexpr static std::size_t addrs = 0x5ec92b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -536,7 +536,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::*)(::StringW)>(
     &::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::set_DestinationApi)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ec903c;
+  constexpr static std::size_t addrs = 0x5ec92bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -550,7 +550,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::get_InviteMessage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ec9044;
+  constexpr static std::size_t addrs = 0x5ec92c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -564,7 +564,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::*)(::StringW)>(
     &::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::set_InviteMessage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ec904c;
+  constexpr static std::size_t addrs = 0x5ec92cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -578,7 +578,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::get_MaxRetries)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ec9054;
+  constexpr static std::size_t addrs = 0x5ec92d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -592,7 +592,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::*)(uint32_t)>(
     &::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::set_MaxRetries)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ec905c;
+  constexpr static std::size_t addrs = 0x5ec92dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -605,7 +605,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::*)()>(&::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::Awake)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x5ec9064;
+  constexpr static std::size_t addrs = 0x5ec92e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking*>(), { "Awake", {}, {} })));
@@ -617,7 +617,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::*)()>(&::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::OnEnable)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x5ec9518;
+  constexpr static std::size_t addrs = 0x5ec9798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking*>(), { "OnEnable", {}, {} })));
@@ -629,7 +629,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::*)()>(&::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::OnDisable)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x5ec96fc;
+  constexpr static std::size_t addrs = 0x5ec997c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking*>(), { "OnDisable", {}, {} })));
@@ -642,7 +642,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::LaunchFriendsInvitePanel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ec98e0;
+  constexpr static std::size_t addrs = 0x5ec9b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -656,7 +656,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::InvitePanelResultInfo*>*>* (
     ::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::*)(::Oculus::Platform::InviteOptions*)>(&::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::LaunchFriendsInvitePanelAsync)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x5ec98e8;
+  constexpr static std::size_t addrs = 0x5ec9b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking*>(),
@@ -670,7 +670,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::LaunchRosterPanel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ec9a6c;
+  constexpr static std::size_t addrs = 0x5ec9cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -684,7 +684,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::Oculus::Platform::Message*>* (
     ::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::*)(::Oculus::Platform::RosterOptions*)>(&::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::LaunchRosterPanelAsync)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5ec9a74;
+  constexpr static std::size_t addrs = 0x5ec9cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking*>(),
@@ -698,7 +698,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::*)(
     ::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult)>(&::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::OnRoomOperationResult)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5ec9be0;
+  constexpr static std::size_t addrs = 0x5ec9e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking*>(),
@@ -712,7 +712,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::*)(::StringW, ::StringW)>(
     &::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::JoinRoom)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5ec9c9c;
+  constexpr static std::size_t addrs = 0x5ec9f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking*>(),
@@ -726,7 +726,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::ClearGroupPresenceCallback)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ec9d60;
+  constexpr static std::size_t addrs = 0x5ec9fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking*>(),
@@ -740,7 +740,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::*)(::StringW, ::StringW)>(
     &::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::RegisterGameRoom)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5ec9e94;
+  constexpr static std::size_t addrs = 0x5eca114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking*>(),
@@ -754,7 +754,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::Oculus::Platform::Message*>* (*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::ClearGroupPresence)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x5ec9d64;
+  constexpr static std::size_t addrs = 0x5ec9fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -768,7 +768,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::Oculus::Platform::Message*>* (*)(::Oculus::Platform::GroupPresenceOptions*)>(
     &::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::SetGroupPresence)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5ec9f60;
+  constexpr static std::size_t addrs = 0x5eca1e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking*>(),
@@ -782,7 +782,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::*)(::Meta::XR::MultiplayerBlocks::Shared::PlatformInfo)>(
     &::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::OnEntitlementFinished)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5eca09c;
+  constexpr static std::size_t addrs = 0x5eca31c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -797,7 +797,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::*)(
     ::Oculus::Platform::Message_1<::Oculus::Platform::Models::GroupPresenceJoinIntent*>*)>(&::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::OnJoinIntentReceived)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5eca1c0;
+  constexpr static std::size_t addrs = 0x5eca440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking*>(),
@@ -811,7 +811,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::*)(
     ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LaunchInvitePanelFlowResult*>*)>(&::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::OnInvitationsSent)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5eca26c;
+  constexpr static std::size_t addrs = 0x5eca4ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -826,7 +826,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::*)(
     ::Oculus::Platform::Message_1<::Oculus::Platform::Models::GroupPresenceLeaveIntent*>*)>(&::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::OnLeaveIntentNotification)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5eca2dc;
+  constexpr static std::size_t addrs = 0x5eca55c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -841,7 +841,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::GroupPresenceOptions* (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::*)(::StringW, ::StringW)>(
     &::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::GetGroupPresenceOptions)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5eca34c;
+  constexpr static std::size_t addrs = 0x5eca5cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking*>(),
@@ -854,7 +854,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::*)()>(&::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5eca42c;
+  constexpr static std::size_t addrs = 0x5eca6ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking*>(), { ".ctor", {}, {} })));

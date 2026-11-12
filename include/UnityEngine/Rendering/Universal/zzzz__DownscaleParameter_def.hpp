@@ -25,7 +25,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::Universal::DownscaleParameter* New_ctor(::UnityEngine::Rendering::Universal::BloomDownscaleMode value, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x6cf9a0c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfaaec, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::BloomDownscaleMode value, bool overrideState);
 
 protected:

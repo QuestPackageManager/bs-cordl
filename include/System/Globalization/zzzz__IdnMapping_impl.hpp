@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::IdnMapping::*)()>(&::System::Globalization::IdnMapping::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x60339a0;
+  constexpr static std::size_t addrs = 0x6033c28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::IdnMapping*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::IdnMapping::*)(::System::Object*)>(&::System::Globalization::IdnMapping::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6033a44;
+  constexpr static std::size_t addrs = 0x6033ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::IdnMapping::*)()>(&::System::Globalization::IdnMapping::GetHashCode)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6033ad0;
+  constexpr static std::size_t addrs = 0x6033d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::IdnMapping::*)(::StringW)>(&::System::Globalization::IdnMapping::GetAscii)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6033ae0;
+  constexpr static std::size_t addrs = 0x6033d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::IdnMapping::*)(::StringW, int32_t, int32_t)>(&::System::Globalization::IdnMapping::GetAscii)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6033b3c;
+  constexpr static std::size_t addrs = 0x6033dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::IdnMapping*>(),
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::IdnMapping::*)(::StringW, int32_t, int32_t, bool)>(&::System::Globalization::IdnMapping::Convert)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x6033c04;
+  constexpr static std::size_t addrs = 0x6033e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::IdnMapping::*)(::StringW, int32_t)>(&::System::Globalization::IdnMapping::ToAscii)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x6033e04;
+  constexpr static std::size_t addrs = 0x603408c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::IdnMapping::*)(::StringW, int32_t)>(&::System::Globalization::IdnMapping::VerifyLength)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x603473c;
+  constexpr static std::size_t addrs = 0x60349c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::IdnMapping::*)(::StringW, int32_t)>(&::System::Globalization::IdnMapping::NamePrep)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x60341c0;
+  constexpr static std::size_t addrs = 0x6034448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::IdnMapping::*)(::StringW, int32_t)>(&::System::Globalization::IdnMapping::VerifyProhibitedCharacters)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x60347f8;
+  constexpr static std::size_t addrs = 0x6034a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::IdnMapping::*)(::StringW, int32_t)>(&::System::Globalization::IdnMapping::VerifyStd3AsciiRules)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x60342d8;
+  constexpr static std::size_t addrs = 0x6034560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::IdnMapping::*)(::StringW)>(&::System::Globalization::IdnMapping::GetUnicode)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x60349f8;
+  constexpr static std::size_t addrs = 0x6034c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::IdnMapping::*)(::StringW, int32_t, int32_t)>(&::System::Globalization::IdnMapping::GetUnicode)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6034a54;
+  constexpr static std::size_t addrs = 0x6034cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::IdnMapping::*)(::StringW, int32_t)>(&::System::Globalization::IdnMapping::ToUnicode)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x6033fec;
+  constexpr static std::size_t addrs = 0x6034274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

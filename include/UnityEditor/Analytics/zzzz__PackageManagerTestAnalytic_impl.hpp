@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEditor::Analytics::PackageManagerTestAnalytic::*)()>(&::UnityEditor::Analytics::PackageManagerTestAnalytic::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x72fd628;
+  constexpr static std::size_t addrs = 0x72fe708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEditor::Analytics::PackageManagerTestAnalytic*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEditor::Analytics::PackageManagerTestAnalytic* (*)()>(
     &::UnityEditor::Analytics::PackageManagerTestAnalytic::CreatePackageManagerTestAnalytic)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x72fd6bc;
+  constexpr static std::size_t addrs = 0x72fe79c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

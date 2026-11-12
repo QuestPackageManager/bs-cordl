@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MockPlatformEntitlement::*)()>(&::GlobalNamespace::MockPlatformEntitlement::get_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39aa0cc;
+  constexpr static std::size_t addrs = 0x39ae564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlatformEntitlement*>(), { "get_id", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::EntitlementStatus (::GlobalNamespace::MockPlatformEntitlement::*)()>(
     &::GlobalNamespace::MockPlatformEntitlement::get_status)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39aa0d4;
+  constexpr static std::size_t addrs = 0x39ae56c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlatformEntitlement*>(), { "get_status", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlatformEntitlement::*)(::StringW, ::GlobalNamespace::EntitlementStatus)>(
     &::GlobalNamespace::MockPlatformEntitlement::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39a7e94;
+  constexpr static std::size_t addrs = 0x39ac32c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlatformEntitlement*>(),
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlatformEntitlement::*)()>(&::GlobalNamespace::MockPlatformEntitlement::GetIt)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39a86a4;
+  constexpr static std::size_t addrs = 0x39acb3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlatformEntitlement*>(), { "GetIt", {}, {} })));

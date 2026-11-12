@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::FPSCounter::*)()>(&::GlobalNamespace::FPSCounter::get_currentFPS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c9f900;
+  constexpr static std::size_t addrs = 0x5c9e038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FPSCounter*>(), { "get_currentFPS", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FPSCounter::*)(int32_t)>(&::GlobalNamespace::FPSCounter::set_currentFPS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c9f908;
+  constexpr static std::size_t addrs = 0x5c9e040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::FPSCounter::*)()>(&::GlobalNamespace::FPSCounter::get_lowestFPS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c9f910;
+  constexpr static std::size_t addrs = 0x5c9e048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FPSCounter*>(), { "get_lowestFPS", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FPSCounter::*)(int32_t)>(&::GlobalNamespace::FPSCounter::set_lowestFPS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c9f918;
+  constexpr static std::size_t addrs = 0x5c9e050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FPSCounter*>(), { "set_lowestFPS", {}, { ::i2c::type_of<int32_t>() } })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::FPSCounter::*)()>(&::GlobalNamespace::FPSCounter::get_highestFPS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c9f920;
+  constexpr static std::size_t addrs = 0x5c9e058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FPSCounter*>(), { "get_highestFPS", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FPSCounter::*)(int32_t)>(&::GlobalNamespace::FPSCounter::set_highestFPS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c9f928;
+  constexpr static std::size_t addrs = 0x5c9e060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::FPSCounter::*)()>(&::GlobalNamespace::FPSCounter::get_droppedFrames)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c9f930;
+  constexpr static std::size_t addrs = 0x5c9e068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FPSCounter*>(), { "get_droppedFrames", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FPSCounter::*)(int32_t)>(&::GlobalNamespace::FPSCounter::set_droppedFrames)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c9f938;
+  constexpr static std::size_t addrs = 0x5c9e070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FPSCounter::*)()>(&::GlobalNamespace::FPSCounter::Awake)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5c9f940;
+  constexpr static std::size_t addrs = 0x5c9e078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FPSCounter*>(), { "Awake", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FPSCounter::*)()>(&::GlobalNamespace::FPSCounter::Update)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5c9f950;
+  constexpr static std::size_t addrs = 0x5c9e088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FPSCounter*>(), { "Update", {}, {} })));
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FPSCounter::*)()>(&::GlobalNamespace::FPSCounter::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c9fa20;
+  constexpr static std::size_t addrs = 0x5c9e158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FPSCounter*>(), { ".ctor", {}, {} })));

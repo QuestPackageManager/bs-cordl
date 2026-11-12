@@ -24,7 +24,7 @@ public:
   /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Reset();
 
-  /// @brief Method .ctor, addr 0x6b9f3d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ba04b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

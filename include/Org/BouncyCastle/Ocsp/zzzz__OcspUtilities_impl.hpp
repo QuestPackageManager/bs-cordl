@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (*)(::StringW)>(&::Org::BouncyCastle::Ocsp::OcspUtilities::GetAlgorithmOid)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x3823620;
+  constexpr static std::size_t addrs = 0x3827ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::Ocsp::OcspUtilities::GetAlgorithmName)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x381de78;
+  constexpr static std::size_t addrs = 0x3822310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Ocsp::OcspUtilities*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Ocsp::OcspUtilities::GetSigAlgID)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x38203b4;
+  constexpr static std::size_t addrs = 0x382484c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerable* (*)()>(&::Org::BouncyCastle::Ocsp::OcspUtilities::get_AlgNames)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x382069c;
+  constexpr static std::size_t addrs = 0x3824b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Ocsp::OcspUtilities*>(), { "get_AlgNames", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Ocsp::OcspUtilities::*)()>(&::Org::BouncyCastle::Ocsp::OcspUtilities::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3826654;
+  constexpr static std::size_t addrs = 0x382aaec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Ocsp::OcspUtilities*>(), { ".ctor", {}, {} })));

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<uint8_t>, int32_t)>(&::Mono::Security::Cryptography::CryptoConvert::ToInt32LE)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5ef383c;
+  constexpr static std::size_t addrs = 0x5ef3ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::ArrayW<uint8_t>, int32_t)>(&::Mono::Security::Cryptography::CryptoConvert::ToUInt32LE)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5ef38b0;
+  constexpr static std::size_t addrs = 0x5ef3b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>)>(&::Mono::Security::Cryptography::CryptoConvert::Trim)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5ef3924;
+  constexpr static std::size_t addrs = 0x5ef3bac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::RSA* (*)(::ArrayW<uint8_t>)>(&::Mono::Security::Cryptography::CryptoConvert::FromCapiPrivateKeyBlob)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ef39e0;
+  constexpr static std::size_t addrs = 0x5ef3c68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::RSA* (*)(::ArrayW<uint8_t>, int32_t)>(
     &::Mono::Security::Cryptography::CryptoConvert::FromCapiPrivateKeyBlob)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x5ef39e8;
+  constexpr static std::size_t addrs = 0x5ef3c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::CryptoConvert*>(),
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::RSAParameters (*)(::ArrayW<uint8_t>, int32_t)>(
     &::Mono::Security::Cryptography::CryptoConvert::GetParametersFromCapiPrivateKeyBlob)> {
   constexpr static std::size_t size = 0x590;
-  constexpr static std::size_t addrs = 0x5ef3c0c;
+  constexpr static std::size_t addrs = 0x5ef3e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::ArrayW<uint8_t>)>(&::Mono::Security::Cryptography::CryptoConvert::ToHex)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x5ef419c;
+  constexpr static std::size_t addrs = 0x5ef4424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

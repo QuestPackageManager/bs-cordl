@@ -76,27 +76,27 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x38d4664, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x38d8afc, size 0x140, virtual true, abstract: false, final false
   inline void Add(::System::Object* k, ::System::Object* v);
 
-  /// @brief Method Clear, addr 0x38d47a4, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x38d8c3c, size 0x124, virtual true, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x38d48c8, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Contains, addr 0x38d8d60, size 0xb8, virtual true, abstract: false, final false
   inline bool Contains(::System::Object* k);
 
-  /// @brief Method CopyTo, addr 0x38d4980, size 0x370, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x38d8e18, size 0x370, virtual true, abstract: false, final false
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method GetEnumerator, addr 0x38d4da8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x38d9240, size 0x58, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
   static inline ::Org::BouncyCastle::Utilities::Collections::LinkedDictionary* New_ctor();
 
-  /// @brief Method Remove, addr 0x38d4e10, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x38d92a8, size 0x138, virtual true, abstract: false, final false
   inline void Remove(::System::Object* k);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x38d4d98, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x38d9230, size 0x10, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Collections::IDictionary* const& __cordl_internal_get_hash() const;
@@ -111,31 +111,31 @@ public:
 
   constexpr void __cordl_internal_set_keys(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x38d45f8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x38d8a90, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x38d4cf0, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x38d9188, size 0xa8, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsFixedSize, addr 0x38d4f48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsFixedSize, addr 0x38d93e0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsReadOnly, addr 0x38d4f50, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x38d93e8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_IsSynchronized, addr 0x38d4f58, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsSynchronized, addr 0x38d93f0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_Item, addr 0x38d5468, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x38d9900, size 0xb4, virtual true, abstract: false, final false
   inline ::System::Object* get_Item(::System::Object* k);
 
-  /// @brief Method get_Keys, addr 0x38d4f80, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_Keys, addr 0x38d9418, size 0x60, virtual true, abstract: false, final false
   inline ::System::Collections::ICollection* get_Keys();
 
-  /// @brief Method get_SyncRoot, addr 0x38d4f60, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x38d93f8, size 0x20, virtual true, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method get_Values, addr 0x38d4fe0, size 0x488, virtual true, abstract: false, final false
+  /// @brief Method get_Values, addr 0x38d9478, size 0x488, virtual true, abstract: false, final false
   inline ::System::Collections::ICollection* get_Values();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -147,7 +147,7 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Method set_Item, addr 0x38d551c, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method set_Item, addr 0x38d99b4, size 0x1ac, virtual true, abstract: false, final false
   inline void set_Item(::System::Object* k, ::System::Object* value);
 
 protected:

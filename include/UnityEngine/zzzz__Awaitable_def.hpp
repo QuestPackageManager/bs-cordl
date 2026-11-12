@@ -331,12 +331,12 @@ public:
 
   /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_Awaitable, addr 0x6f73984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Awaitable, addr 0x6f74a64, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Awaitable* get_Awaitable();
 
   /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_FrameIndex, addr 0x6f7398c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FrameIndex, addr 0x6f74a6c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_FrameIndex();
 
   // Ctor Parameters []
@@ -387,12 +387,12 @@ public:
   /// @brief Field _scratch, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__scratch, put = __cordl_internal_set__scratch)) ::System::Collections::Generic::List_1<::UnityEngine::Awaitable_AwaitableAndFrameIndex>* _scratch;
 
-  /// @brief Method Clear, addr 0x6f72204, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6f732e4, size 0x78, virtual false, abstract: false, final false
   inline void Clear();
 
   static inline ::UnityEngine::Awaitable_DoubleBufferedAwaitableList* New_ctor();
 
-  /// @brief Method SwapAndComplete, addr 0x6f722e0, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method SwapAndComplete, addr 0x6f733c0, size 0x298, virtual false, abstract: false, final false
   inline void SwapAndComplete();
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Awaitable_AwaitableAndFrameIndex>* const& __cordl_internal_get__awaitables() const;
@@ -407,7 +407,7 @@ public:
 
   constexpr void __cordl_internal_set__scratch(::System::Collections::Generic::List_1<::UnityEngine::Awaitable_AwaitableAndFrameIndex>* value);
 
-  /// @brief Method .ctor, addr 0x6f738f0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f749d0, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -461,20 +461,20 @@ public:
   /// @brief Field NullHandle, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_NullHandle, put = setStaticF_NullHandle)) ::UnityEngine::Awaitable_AwaitableHandle NullHandle;
 
-  /// @brief Method .ctor, addr 0x6f73994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f74a74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr handle);
 
   static inline ::UnityEngine::Awaitable_AwaitableHandle getStaticF_ManagedHandle();
 
   static inline ::UnityEngine::Awaitable_AwaitableHandle getStaticF_NullHandle();
 
-  /// @brief Method get_IsManaged, addr 0x6f73084, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_IsManaged, addr 0x6f74164, size 0x6c, virtual false, abstract: false, final false
   inline bool get_IsManaged();
 
-  /// @brief Method get_IsNull, addr 0x6f730f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsNull, addr 0x6f741d0, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsNull();
 
-  /// @brief Method op_Implicit, addr 0x6f7399c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6f74a7c, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr op_Implicit___System__IntPtr(::UnityEngine::Awaitable_AwaitableHandle handle);
 
   static inline void setStaticF_ManagedHandle(::UnityEngine::Awaitable_AwaitableHandle value);
@@ -521,13 +521,13 @@ public:
 
   static inline ::UnityEngine::Awaitable___c* New_ctor();
 
-  /// @brief Method <.cctor>b__76_0, addr 0x6f73a4c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__76_0, addr 0x6f74b2c, size 0x140, virtual false, abstract: false, final false
   inline ::UnityEngine::Pool::ObjectPool_1<::UnityEngine::Awaitable*>* __cctor_b__76_0();
 
-  /// @brief Method <.cctor>b__76_1, addr 0x6f73b8c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__76_1, addr 0x6f74c6c, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Awaitable* __cctor_b__76_1();
 
-  /// @brief Method .ctor, addr 0x6f73a48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f74b28, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Awaitable___c* getStaticF___9();
@@ -648,70 +648,70 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method CheckPointerValidity, addr 0x6f73690, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CheckPointerValidity, addr 0x6f74770, size 0xa8, virtual false, abstract: false, final false
   inline ::UnityEngine::Awaitable_AwaitableHandle CheckPointerValidity();
 
-  /// @brief Method DoRunContinuationOnSynchonizationContext, addr 0x6f72b24, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method DoRunContinuationOnSynchonizationContext, addr 0x6f73c04, size 0x70, virtual false, abstract: false, final false
   static inline void DoRunContinuationOnSynchonizationContext(::System::Object* continuation);
 
   /// [FreeFunction("Scripting::Awaitables::IsCompleted", IsThreadSafe = true)]
-  /// @brief Method IsNativeAwaitableCompleted, addr 0x6f7214c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsNativeAwaitableCompleted, addr 0x6f7322c, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t IsNativeAwaitableCompleted(::System::IntPtr nativeAwaitable);
 
-  /// @brief Method MatchCompletionThreadAffinity, addr 0x6f72744, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method MatchCompletionThreadAffinity, addr 0x6f73824, size 0xe8, virtual false, abstract: false, final false
   static inline bool MatchCompletionThreadAffinity(::UnityEngine::Awaitable_AwaiterCompletionThreadAffinity awaiterCompletionThreadAffinity);
 
-  /// @brief Method NewManagedAwaitable, addr 0x6f72654, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method NewManagedAwaitable, addr 0x6f73734, size 0xf0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Awaitable* NewManagedAwaitable();
 
   static inline ::UnityEngine::Awaitable* New_ctor();
 
   /// [RequiredByNativeCode]
-  /// @brief Method OnDelayedCallManagerCleared, addr 0x6f72188, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method OnDelayedCallManagerCleared, addr 0x6f73268, size 0x7c, virtual false, abstract: false, final false
   static inline void OnDelayedCallManagerCleared();
 
   /// [RequiredByNativeCode]
-  /// @brief Method OnEndOfFrame, addr 0x6f72578, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method OnEndOfFrame, addr 0x6f73658, size 0x64, virtual false, abstract: false, final false
   static inline void OnEndOfFrame();
 
   /// [RequiredByNativeCode]
-  /// @brief Method OnUpdate, addr 0x6f7227c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method OnUpdate, addr 0x6f7335c, size 0x64, virtual false, abstract: false, final false
   static inline void OnUpdate();
 
-  /// @brief Method PropagateExceptionAndRelease, addr 0x6f72ce0, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method PropagateExceptionAndRelease, addr 0x6f73dc0, size 0x3a4, virtual false, abstract: false, final false
   inline void PropagateExceptionAndRelease();
 
-  /// @brief Method RaiseManagedCompletion, addr 0x6f72b94, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method RaiseManagedCompletion, addr 0x6f73c74, size 0x14c, virtual false, abstract: false, final false
   inline void RaiseManagedCompletion();
 
-  /// @brief Method RaiseManagedCompletion, addr 0x6f7282c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method RaiseManagedCompletion, addr 0x6f7390c, size 0x184, virtual false, abstract: false, final false
   inline void RaiseManagedCompletion(::System::Exception* exception);
 
   /// [FreeFunction("Scripting::Awaitables::Release", IsThreadSafe = true)]
-  /// @brief Method ReleaseNativeAwaitable, addr 0x6f72110, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseNativeAwaitable, addr 0x6f731f0, size 0x3c, virtual false, abstract: false, final false
   static inline void ReleaseNativeAwaitable(::System::IntPtr nativeAwaitable);
 
   /// [RequiredByNativeCode(GenerateProxy = true)]
-  /// @brief Method RunContinuation, addr 0x6f71fd8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method RunContinuation, addr 0x6f730b8, size 0x138, virtual false, abstract: false, final false
   inline void RunContinuation();
 
-  /// @brief Method RunOrScheduleContinuation, addr 0x6f729b0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method RunOrScheduleContinuation, addr 0x6f73a90, size 0x174, virtual false, abstract: false, final false
   inline void RunOrScheduleContinuation(::UnityEngine::Awaitable_AwaiterCompletionThreadAffinity awaiterCompletionThreadAffinity, ::System::Action* continuation);
 
   /// [RequiredByNativeCode(GenerateProxy = true)]
-  /// @brief Method SetExceptionFromNative, addr 0x6f71ea4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method SetExceptionFromNative, addr 0x6f72f84, size 0x134, virtual false, abstract: false, final false
   inline void SetExceptionFromNative(::System::Exception* ex);
 
-  /// @brief Method SetSynchronizationContext, addr 0x6f725dc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetSynchronizationContext, addr 0x6f736bc, size 0x70, virtual false, abstract: false, final false
   static inline void SetSynchronizationContext(::UnityEngine::UnitySynchronizationContext* synchronizationContext);
 
-  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x6f73738, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x6f74818, size 0x34, virtual true, abstract: false, final true
   inline bool System_Collections_IEnumerator_MoveNext();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6f7376c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6f7484c, size 0x4, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6f73770, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6f74850, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   constexpr ::System::Nullable_1<::System::Threading::CancellationTokenRegistration> const& __cordl_internal_get__cancelTokenRegistration() const;
@@ -762,7 +762,7 @@ public:
 
   constexpr void __cordl_internal_set__spinLock(::System::Threading::SpinLock value);
 
-  /// @brief Method .ctor, addr 0x6f7264c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f7372c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Awaitable_DoubleBufferedAwaitableList* getStaticF__endOfFrameAwaitables();
@@ -779,13 +779,13 @@ public:
 
   static inline ::System::Threading::SynchronizationContext* getStaticF__synchronizationContext();
 
-  /// @brief Method get_IsCompleted, addr 0x6f732a0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x6f74380, size 0x12c, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
-  /// @brief Method get_IsCompletedNoLock, addr 0x6f73100, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompletedNoLock, addr 0x6f741e0, size 0x1a0, virtual false, abstract: false, final false
   inline bool get_IsCompletedNoLock();
 
-  /// @brief Method get_IsDettachedOrCompleted, addr 0x6f733cc, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method get_IsDettachedOrCompleted, addr 0x6f744ac, size 0x2c4, virtual false, abstract: false, final false
   inline bool get_IsDettachedOrCompleted();
 
   /// @brief Convert to "::System::Collections::IEnumerator"

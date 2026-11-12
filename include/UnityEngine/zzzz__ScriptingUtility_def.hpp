@@ -66,11 +66,11 @@ public:
   using TestClass = ::UnityEngine::ScriptingUtility_TestClass;
 
   /// [RequiredByNativeCode]
-  /// @brief Method IsManagedCodeWorking, addr 0x6f7d700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsManagedCodeWorking, addr 0x6f7e7e0, size 0x8, virtual false, abstract: false, final false
   static inline bool IsManagedCodeWorking();
 
   /// [RequiredByNativeCode]
-  /// @brief Method SetupCallbacks, addr 0x6f7d708, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetupCallbacks, addr 0x6f7e7e8, size 0x4, virtual false, abstract: false, final false
   static inline void SetupCallbacks(::System::IntPtr p);
 
 protected:

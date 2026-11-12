@@ -55,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Type2(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x6f71da0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f72e80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* requiredComponent);
 
-  /// @brief Method .ctor, addr 0x6f71da8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f72e88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* requiredComponent, ::System::Type* requiredComponent2);
 
 protected:

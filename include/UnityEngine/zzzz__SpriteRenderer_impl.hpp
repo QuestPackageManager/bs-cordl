@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::SpriteRenderer::*)(::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::SpriteRenderer>>*)>(
     &::UnityEngine::SpriteRenderer::RegisterSpriteChangeCallback)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6eef794;
+  constexpr static std::size_t addrs = 0x6ef0874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::SpriteRenderer::*)(::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::SpriteRenderer>>*)>(
     &::UnityEngine::SpriteRenderer::UnregisterSpriteChangeCallback)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6eef8dc;
+  constexpr static std::size_t addrs = 0x6ef09bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::SpriteRenderer::*)()>(&::UnityEngine::SpriteRenderer::InvokeSpriteChanged)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6eef974;
+  constexpr static std::size_t addrs = 0x6ef0a54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpriteRenderer*>(), { "InvokeSpriteChanged", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::SpriteRenderer::*)()>(&::UnityEngine::SpriteRenderer::get_shouldSupportTiling)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6eefb94;
+  constexpr static std::size_t addrs = 0x6ef0c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpriteRenderer*>(), { "get_shouldSupportTiling", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::SpriteRenderer::*)()>(&::UnityEngine::SpriteRenderer::get_hasSpriteChangeEvents)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6eefc50;
+  constexpr static std::size_t addrs = 0x6ef0d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpriteRenderer*>(), { "get_hasSpriteChangeEvents", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::SpriteRenderer::*)(bool)>(&::UnityEngine::SpriteRenderer::set_hasSpriteChangeEvents)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6eef84c;
+  constexpr static std::size_t addrs = 0x6ef092c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Sprite> (::UnityEngine::SpriteRenderer::*)()>(&::UnityEngine::SpriteRenderer::get_sprite)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6eefd50;
+  constexpr static std::size_t addrs = 0x6ef0e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpriteRenderer*>(), { "get_sprite", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::SpriteRenderer::*)(::UnityEngine::Sprite*)>(&::UnityEngine::SpriteRenderer::set_sprite)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6eefedc;
+  constexpr static std::size_t addrs = 0x6ef0fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::SpriteDrawMode (::UnityEngine::SpriteRenderer::*)()>(&::UnityEngine::SpriteRenderer::get_drawMode)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6eeffe0;
+  constexpr static std::size_t addrs = 0x6ef10c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpriteRenderer*>(), { "get_drawMode", {}, {} })));
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::SpriteRenderer::*)(::UnityEngine::SpriteDrawMode)>(&::UnityEngine::SpriteRenderer::set_drawMode)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6ef009c;
+  constexpr static std::size_t addrs = 0x6ef117c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::SpriteRenderer::*)()>(&::UnityEngine::SpriteRenderer::get_size)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6ef0170;
+  constexpr static std::size_t addrs = 0x6ef1250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpriteRenderer*>(), { "get_size", {}, {} })));
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::SpriteRenderer::*)(::UnityEngine::Vector2)>(&::UnityEngine::SpriteRenderer::set_size)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6ef024c;
+  constexpr static std::size_t addrs = 0x6ef132c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::SpriteRenderer::*)()>(&::UnityEngine::SpriteRenderer::get_adaptiveModeThreshold)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6ef0324;
+  constexpr static std::size_t addrs = 0x6ef1404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpriteRenderer*>(), { "get_adaptiveModeThreshold", {}, {} })));
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::SpriteRenderer::*)(float_t)>(&::UnityEngine::SpriteRenderer::set_adaptiveModeThreshold)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6ef03e0;
+  constexpr static std::size_t addrs = 0x6ef14c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::SpriteTileMode (::UnityEngine::SpriteRenderer::*)()>(&::UnityEngine::SpriteRenderer::get_tileMode)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6ef04bc;
+  constexpr static std::size_t addrs = 0x6ef159c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpriteRenderer*>(), { "get_tileMode", {}, {} })));
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::SpriteRenderer::*)(::UnityEngine::SpriteTileMode)>(&::UnityEngine::SpriteRenderer::set_tileMode)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6ef0578;
+  constexpr static std::size_t addrs = 0x6ef1658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::SpriteRenderer::*)()>(&::UnityEngine::SpriteRenderer::get_color)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6ef064c;
+  constexpr static std::size_t addrs = 0x6ef172c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpriteRenderer*>(), { "get_color", {}, {} })));
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::SpriteRenderer::*)(::UnityEngine::Color)>(&::UnityEngine::SpriteRenderer::set_color)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6ef072c;
+  constexpr static std::size_t addrs = 0x6ef180c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -249,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::SpriteMaskInteraction (::UnityEngine::SpriteRenderer::*)()>(&::UnityEngine::SpriteRenderer::get_maskInteraction)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6ef0808;
+  constexpr static std::size_t addrs = 0x6ef18e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpriteRenderer*>(), { "get_maskInteraction", {}, {} })));
@@ -261,7 +261,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::SpriteRenderer::*)(::UnityEngine::SpriteMaskInteraction)>(&::UnityEngine::SpriteRenderer::set_maskInteraction)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6ef08c4;
+  constexpr static std::size_t addrs = 0x6ef19a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -274,7 +274,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::SpriteRenderer::*)()>(&::UnityEngine::SpriteRenderer::get_flipX)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6ef0998;
+  constexpr static std::size_t addrs = 0x6ef1a78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpriteRenderer*>(), { "get_flipX", {}, {} })));
@@ -286,7 +286,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::SpriteRenderer::*)(bool)>(&::UnityEngine::SpriteRenderer::set_flipX)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6ef0a54;
+  constexpr static std::size_t addrs = 0x6ef1b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpriteRenderer*>(), { "set_flipX", {}, { ::i2c::type_of<bool>() } })));
@@ -298,7 +298,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::SpriteRenderer::*)()>(&::UnityEngine::SpriteRenderer::get_flipY)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6ef0b28;
+  constexpr static std::size_t addrs = 0x6ef1c08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpriteRenderer*>(), { "get_flipY", {}, {} })));
@@ -310,7 +310,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::SpriteRenderer::*)(bool)>(&::UnityEngine::SpriteRenderer::set_flipY)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6ef0be4;
+  constexpr static std::size_t addrs = 0x6ef1cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpriteRenderer*>(), { "set_flipY", {}, { ::i2c::type_of<bool>() } })));
@@ -322,7 +322,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::SpriteSortPoint (::UnityEngine::SpriteRenderer::*)()>(&::UnityEngine::SpriteRenderer::get_spriteSortPoint)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6ef0cb8;
+  constexpr static std::size_t addrs = 0x6ef1d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpriteRenderer*>(), { "get_spriteSortPoint", {}, {} })));
@@ -334,7 +334,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::SpriteRenderer::*)(::UnityEngine::SpriteSortPoint)>(&::UnityEngine::SpriteRenderer::set_spriteSortPoint)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6ef0d74;
+  constexpr static std::size_t addrs = 0x6ef1e54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -347,7 +347,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::UnityEngine::SpriteRenderer::*)()>(&::UnityEngine::SpriteRenderer::GetCurrentMeshDataPtr)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6ef0e48;
+  constexpr static std::size_t addrs = 0x6ef1f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpriteRenderer*>(), { "GetCurrentMeshDataPtr", {}, {} })));
@@ -359,7 +359,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Mesh_MeshDataArray (::UnityEngine::SpriteRenderer::*)()>(&::UnityEngine::SpriteRenderer::GetCurrentMeshData)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6ef0f04;
+  constexpr static std::size_t addrs = 0x6ef1fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpriteRenderer*>(), { "GetCurrentMeshData", {}, {} })));
@@ -372,7 +372,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::UnityEngine::SpriteRenderer::*)(::UnityEngine::SpriteDrawMode)>(
     &::UnityEngine::SpriteRenderer::Internal_GetSpriteBounds)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6ef0f5c;
+  constexpr static std::size_t addrs = 0x6ef203c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -385,7 +385,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::SpriteRenderer::*)(::UnityEngine::MaterialPropertyBlock*)>(&::UnityEngine::SpriteRenderer::GetSecondaryTextureProperties)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6ef106c;
+  constexpr static std::size_t addrs = 0x6ef214c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -399,7 +399,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::UnityEngine::SpriteRenderer::*)()>(&::UnityEngine::SpriteRenderer::GetSpriteBounds)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ef1180;
+  constexpr static std::size_t addrs = 0x6ef2260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpriteRenderer*>(), { "GetSpriteBounds", {}, {} })));
@@ -411,7 +411,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::SpriteRenderer::*)()>(&::UnityEngine::SpriteRenderer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ef11c4;
+  constexpr static std::size_t addrs = 0x6ef22a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpriteRenderer*>(), { ".ctor", {}, {} })));
@@ -423,7 +423,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::SpriteRenderer::get_shouldSupportTiling_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eefc14;
+  constexpr static std::size_t addrs = 0x6ef0cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -436,7 +436,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::SpriteRenderer::get_hasSpriteChangeEvents_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eefcd0;
+  constexpr static std::size_t addrs = 0x6ef0db0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -449,7 +449,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::SpriteRenderer::set_hasSpriteChangeEvents_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eefd0c;
+  constexpr static std::size_t addrs = 0x6ef0dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -463,7 +463,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::SpriteRenderer::get_sprite_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eefea0;
+  constexpr static std::size_t addrs = 0x6ef0f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -476,7 +476,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::SpriteRenderer::set_sprite_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eeff9c;
+  constexpr static std::size_t addrs = 0x6ef107c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpriteRenderer*>(),
@@ -489,7 +489,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::SpriteDrawMode (*)(::System::IntPtr)>(&::UnityEngine::SpriteRenderer::get_drawMode_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ef0060;
+  constexpr static std::size_t addrs = 0x6ef1140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -502,7 +502,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::SpriteDrawMode)>(&::UnityEngine::SpriteRenderer::set_drawMode_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ef012c;
+  constexpr static std::size_t addrs = 0x6ef120c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -516,7 +516,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector2>)>(&::UnityEngine::SpriteRenderer::get_size_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ef0208;
+  constexpr static std::size_t addrs = 0x6ef12e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -530,7 +530,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector2 const>)>(&::UnityEngine::SpriteRenderer::set_size_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ef02e0;
+  constexpr static std::size_t addrs = 0x6ef13c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -544,7 +544,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::SpriteRenderer::get_adaptiveModeThreshold_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ef03a4;
+  constexpr static std::size_t addrs = 0x6ef1484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -557,7 +557,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::SpriteRenderer::set_adaptiveModeThreshold_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6ef0470;
+  constexpr static std::size_t addrs = 0x6ef1550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -571,7 +571,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::SpriteTileMode (*)(::System::IntPtr)>(&::UnityEngine::SpriteRenderer::get_tileMode_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ef053c;
+  constexpr static std::size_t addrs = 0x6ef161c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -584,7 +584,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::SpriteTileMode)>(&::UnityEngine::SpriteRenderer::set_tileMode_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ef0608;
+  constexpr static std::size_t addrs = 0x6ef16e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -598,7 +598,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Color>)>(&::UnityEngine::SpriteRenderer::get_color_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ef06e8;
+  constexpr static std::size_t addrs = 0x6ef17c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -612,7 +612,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Color const>)>(&::UnityEngine::SpriteRenderer::set_color_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ef07c4;
+  constexpr static std::size_t addrs = 0x6ef18a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -626,7 +626,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::SpriteMaskInteraction (*)(::System::IntPtr)>(&::UnityEngine::SpriteRenderer::get_maskInteraction_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ef0888;
+  constexpr static std::size_t addrs = 0x6ef1968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -639,7 +639,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::SpriteMaskInteraction)>(&::UnityEngine::SpriteRenderer::set_maskInteraction_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ef0954;
+  constexpr static std::size_t addrs = 0x6ef1a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -653,7 +653,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::SpriteRenderer::get_flipX_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ef0a18;
+  constexpr static std::size_t addrs = 0x6ef1af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -666,7 +666,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::SpriteRenderer::set_flipX_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ef0ae4;
+  constexpr static std::size_t addrs = 0x6ef1bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -679,7 +679,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::SpriteRenderer::get_flipY_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ef0ba8;
+  constexpr static std::size_t addrs = 0x6ef1c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -692,7 +692,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::SpriteRenderer::set_flipY_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ef0c74;
+  constexpr static std::size_t addrs = 0x6ef1d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -705,7 +705,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::SpriteSortPoint (*)(::System::IntPtr)>(&::UnityEngine::SpriteRenderer::get_spriteSortPoint_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ef0d38;
+  constexpr static std::size_t addrs = 0x6ef1e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -718,7 +718,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::SpriteSortPoint)>(&::UnityEngine::SpriteRenderer::set_spriteSortPoint_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ef0e04;
+  constexpr static std::size_t addrs = 0x6ef1ee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -732,7 +732,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::SpriteRenderer::GetCurrentMeshDataPtr_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ef0ec8;
+  constexpr static std::size_t addrs = 0x6ef1fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -746,7 +746,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::SpriteDrawMode, ::by_ref<::UnityEngine::Bounds>)>(
     &::UnityEngine::SpriteRenderer::Internal_GetSpriteBounds_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6ef1018;
+  constexpr static std::size_t addrs = 0x6ef20f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -762,7 +762,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::SpriteRenderer::GetSecondaryTextureProperties_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ef113c;
+  constexpr static std::size_t addrs = 0x6ef221c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

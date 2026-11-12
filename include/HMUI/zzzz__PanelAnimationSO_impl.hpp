@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::PanelAnimationSO::*)(::UnityEngine::GameObject*)>(&::HMUI::PanelAnimationSO::ExecuteAnimation)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5cc43ac;
+  constexpr static std::size_t addrs = 0x5cc3b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::PanelAnimationSO::*)(::UnityEngine::GameObject*, ::System::Action*)>(&::HMUI::PanelAnimationSO::ExecuteAnimation)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5cc4488;
+  constexpr static std::size_t addrs = 0x5cc3be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::PanelAnimationSO::*)(::UnityEngine::GameObject*, ::UnityEngine::CanvasGroup*, ::System::Action*)>(
     &::HMUI::PanelAnimationSO::ExecuteAnimation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5cc4498;
+  constexpr static std::size_t addrs = 0x5cc3bf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::PanelAnimationSO::*)(::UnityEngine::GameObject*, ::UnityEngine::CanvasGroup*, bool, ::System::Action*)>(
     &::HMUI::PanelAnimationSO::ExecuteAnimation)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5cc43bc;
+  constexpr static std::size_t addrs = 0x5cc3b14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::PanelAnimationSO::*)()>(&::HMUI::PanelAnimationSO::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5cc44a4;
+  constexpr static std::size_t addrs = 0x5cc3bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::PanelAnimationSO*>(), { ".ctor", {}, {} })));

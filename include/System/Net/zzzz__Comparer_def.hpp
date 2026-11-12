@@ -31,10 +31,10 @@ public:
 
   static inline ::System::Net::Comparer* New_ctor();
 
-  /// @brief Method System.Collections.IComparer.Compare, addr 0x6881004, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IComparer.Compare, addr 0x6881654, size 0xe8, virtual true, abstract: false, final true
   inline int32_t System_Collections_IComparer_Compare(::System::Object* ol, ::System::Object* _cordl_or);
 
-  /// @brief Method .ctor, addr 0x68810ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x688173c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::IComparer"

@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectRendererFeature::*)()>(&::GlobalNamespace::MainEffectRendererFeature::Create)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x639b698;
+  constexpr static std::size_t addrs = 0x639bce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectRendererFeature::*)(bool)>(&::GlobalNamespace::MainEffectRendererFeature::Dispose)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x639b924;
+  constexpr static std::size_t addrs = 0x639bf74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectRendererFeature::*)(
     ::UnityEngine::Rendering::Universal::ScriptableRenderer*, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::GlobalNamespace::MainEffectRendererFeature::AddRenderPasses)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x639b934;
+  constexpr static std::size_t addrs = 0x639bf84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectRendererFeature::*)(
     ::UnityEngine::Rendering::Universal::ScriptableRenderer*, ::GlobalNamespace::MainEffectController*)>(&::GlobalNamespace::MainEffectRendererFeature::EnqueueLoadingIndicatorPassIfDue)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x639b9a0;
+  constexpr static std::size_t addrs = 0x639bff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::MainEffectController> (*)(::UnityEngine::Camera*)>(
     &::GlobalNamespace::MainEffectRendererFeature::ResolveController)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x639b99c;
+  constexpr static std::size_t addrs = 0x639bfec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::MainEffectController> (*)(::UnityEngine::Camera*)>(
     &::GlobalNamespace::MainEffectRendererFeature::GetEnabledController)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x639bad8;
+  constexpr static std::size_t addrs = 0x639c128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectRendererFeature::*)()>(&::GlobalNamespace::MainEffectRendererFeature::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x639bb94;
+  constexpr static std::size_t addrs = 0x639c1e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectRendererFeature*>(), { ".ctor", {}, {} })));

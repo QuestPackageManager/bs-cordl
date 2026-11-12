@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlDateTimeConverter::*)(::System::Xml::Schema::XmlSchemaType*)>(
     &::System::Xml::Schema::XmlDateTimeConverter::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x66b68bc;
+  constexpr static std::size_t addrs = 0x66b6f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlValueConverter* (*)(::System::Xml::Schema::XmlSchemaType*)>(&::System::Xml::Schema::XmlDateTimeConverter::Create)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x66b6928;
+  constexpr static std::size_t addrs = 0x66b6f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Xml::Schema::XmlDateTimeConverter::*)(::System::DateTimeOffset)>(
     &::System::Xml::Schema::XmlDateTimeConverter::ToDateTime)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x66b6984;
+  constexpr static std::size_t addrs = 0x66b6fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Xml::Schema::XmlDateTimeConverter::*)(::StringW)>(&::System::Xml::Schema::XmlDateTimeConverter::ToDateTime)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x66b69f0;
+  constexpr static std::size_t addrs = 0x66b7040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Xml::Schema::XmlDateTimeConverter::*)(::System::Object*)>(
     &::System::Xml::Schema::XmlDateTimeConverter::ToDateTime)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x66b6bd0;
+  constexpr static std::size_t addrs = 0x66b7220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTimeOffset (::System::Xml::Schema::XmlDateTimeConverter::*)(::System::DateTime)>(
     &::System::Xml::Schema::XmlDateTimeConverter::ToDateTimeOffset)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x66b6ee8;
+  constexpr static std::size_t addrs = 0x66b7538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTimeOffset (::System::Xml::Schema::XmlDateTimeConverter::*)(::StringW)>(
     &::System::Xml::Schema::XmlDateTimeConverter::ToDateTimeOffset)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x66b6f10;
+  constexpr static std::size_t addrs = 0x66b7560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTimeOffset (::System::Xml::Schema::XmlDateTimeConverter::*)(::System::Object*)>(
     &::System::Xml::Schema::XmlDateTimeConverter::ToDateTimeOffset)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x66b70f0;
+  constexpr static std::size_t addrs = 0x66b7740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::XmlDateTimeConverter::*)(::System::DateTime)>(&::System::Xml::Schema::XmlDateTimeConverter::ToString)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x66b741c;
+  constexpr static std::size_t addrs = 0x66b7a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::XmlDateTimeConverter::*)(::System::DateTimeOffset)>(&::System::Xml::Schema::XmlDateTimeConverter::ToString)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x66b75b0;
+  constexpr static std::size_t addrs = 0x66b7c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::XmlDateTimeConverter::*)(::System::Object*, ::System::Xml::IXmlNamespaceResolver*)>(
     &::System::Xml::Schema::XmlDateTimeConverter::ToString)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x66b7768;
+  constexpr static std::size_t addrs = 0x66b7db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlDateTimeConverter::*)(::System::DateTime, ::System::Type*)>(
     &::System::Xml::Schema::XmlDateTimeConverter::ChangeType)> {
   constexpr static std::size_t size = 0x33c;
-  constexpr static std::size_t addrs = 0x66b7a5c;
+  constexpr static std::size_t addrs = 0x66b80ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlDateTimeConverter::*)(::StringW, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(
     &::System::Xml::Schema::XmlDateTimeConverter::ChangeType)> {
   constexpr static std::size_t size = 0x33c;
-  constexpr static std::size_t addrs = 0x66b7d98;
+  constexpr static std::size_t addrs = 0x66b83e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlDateTimeConverter::*)(::System::Object*, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(
     &::System::Xml::Schema::XmlDateTimeConverter::ChangeType)> {
   constexpr static std::size_t size = 0x634;
-  constexpr static std::size_t addrs = 0x66b80d4;
+  constexpr static std::size_t addrs = 0x66b8724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

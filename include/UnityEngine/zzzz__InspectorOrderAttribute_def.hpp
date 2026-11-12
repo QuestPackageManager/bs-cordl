@@ -53,11 +53,11 @@ public:
   constexpr void __cordl_internal_set__m_sortDirection_k__BackingField(::UnityEngine::InspectorSortDirection value);
 
   /// [CompilerGenerated]
-  /// @brief Method get_m_inspectorSort, addr 0x6f7b408, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_m_inspectorSort, addr 0x6f7c4e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InspectorSort get_m_inspectorSort();
 
   /// [CompilerGenerated]
-  /// @brief Method get_m_sortDirection, addr 0x6f7b410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_m_sortDirection, addr 0x6f7c4f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InspectorSortDirection get_m_sortDirection();
 
 protected:

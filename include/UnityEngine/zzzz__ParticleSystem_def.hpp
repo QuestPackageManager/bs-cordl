@@ -463,154 +463,154 @@ public:
 
   __declspec(property(get = get_startSpeedMultiplier, put = set_startSpeedMultiplier)) float_t startSpeedMultiplier;
 
-  /// @brief Method .ctor, addr 0x7006410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70074f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ParticleSystem* particleSystem);
 
-  /// @brief Method get_duration, addr 0x7001ce0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_duration, addr 0x7002dc0, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method get_gravityModifierMultiplier, addr 0x700298c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_gravityModifierMultiplier, addr 0x7003a6c, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_gravityModifierMultiplier();
 
-  /// @brief Method get_loop, addr 0x7001acc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_loop, addr 0x7002bac, size 0x3c, virtual false, abstract: false, final false
   inline bool get_loop();
 
-  /// @brief Method get_maxParticles, addr 0x7002a9c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_maxParticles, addr 0x7003b7c, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_maxParticles();
 
-  /// @brief Method get_playOnAwake, addr 0x7001bd8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_playOnAwake, addr 0x7002cb8, size 0x3c, virtual false, abstract: false, final false
   inline bool get_playOnAwake();
 
-  /// @brief Method get_scalingMode, addr 0x7002cac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_scalingMode, addr 0x7003d8c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystemScalingMode get_scalingMode();
 
-  /// @brief Method get_simulationSpace, addr 0x7002ba4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_simulationSpace, addr 0x7003c84, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystemSimulationSpace get_simulationSpace();
 
-  /// @brief Method get_simulationSpeed, addr 0x7001d5c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_simulationSpeed, addr 0x7002e3c, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_simulationSpeed();
 
-  /// @brief Method get_startColor, addr 0x70022b4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_startColor, addr 0x7003394, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystem_MinMaxGradient get_startColor();
 
-  /// @brief Method get_startColorBlittable, addr 0x700673c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_startColorBlittable, addr 0x700781c, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystem_MinMaxGradientBlittable get_startColorBlittable();
 
-  /// @brief Method get_startColorBlittable_Injected, addr 0x7006878, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_startColorBlittable_Injected, addr 0x7007958, size 0x44, virtual false, abstract: false, final false
   static inline void get_startColorBlittable_Injected(::by_ref<::UnityEngine::ParticleSystem_MainModule> _unity_self, ::by_ref<::UnityEngine::ParticleSystem_MinMaxGradientBlittable> ret);
 
-  /// @brief Method get_startDelayMultiplier, addr 0x70019b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_startDelayMultiplier, addr 0x7002a98, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_startDelayMultiplier();
 
-  /// @brief Method get_startLifetimeMultiplier, addr 0x700287c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_startLifetimeMultiplier, addr 0x700395c, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_startLifetimeMultiplier();
 
-  /// @brief Method get_startRotationMultiplier, addr 0x7002470, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_startRotationMultiplier, addr 0x7003550, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_startRotationMultiplier();
 
-  /// @brief Method get_startRotationXMultiplier, addr 0x70025f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_startRotationXMultiplier, addr 0x70036d4, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_startRotationXMultiplier();
 
-  /// @brief Method get_startRotationYMultiplier, addr 0x7002630, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_startRotationYMultiplier, addr 0x7003710, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_startRotationYMultiplier();
 
-  /// @brief Method get_startRotationZMultiplier, addr 0x700266c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_startRotationZMultiplier, addr 0x700374c, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_startRotationZMultiplier();
 
-  /// @brief Method get_startSizeMultiplier, addr 0x70021bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_startSizeMultiplier, addr 0x700329c, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_startSizeMultiplier();
 
-  /// @brief Method get_startSpeedMultiplier, addr 0x70020ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_startSpeedMultiplier, addr 0x700318c, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_startSpeedMultiplier();
 
   /// [NativeThrows]
-  /// @brief Method set_gravityModifierMultiplier, addr 0x7002a10, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_gravityModifierMultiplier, addr 0x7003af0, size 0x4c, virtual false, abstract: false, final false
   inline void set_gravityModifierMultiplier(float_t value);
 
   /// [NativeThrows]
-  /// @brief Method set_loop, addr 0x7001b50, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_loop, addr 0x7002c30, size 0x44, virtual false, abstract: false, final false
   inline void set_loop(bool value);
 
   /// [NativeThrows]
-  /// @brief Method set_maxParticles, addr 0x7002b20, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_maxParticles, addr 0x7003c00, size 0x44, virtual false, abstract: false, final false
   inline void set_maxParticles(int32_t value);
 
   /// [NativeThrows]
-  /// @brief Method set_playOnAwake, addr 0x7001c5c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_playOnAwake, addr 0x7002d3c, size 0x44, virtual false, abstract: false, final false
   inline void set_playOnAwake(bool value);
 
   /// [NativeThrows]
-  /// @brief Method set_scalingMode, addr 0x7002d30, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_scalingMode, addr 0x7003e10, size 0x44, virtual false, abstract: false, final false
   inline void set_scalingMode(::UnityEngine::ParticleSystemScalingMode value);
 
   /// [NativeThrows]
-  /// @brief Method set_simulationSpace, addr 0x7002c28, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_simulationSpace, addr 0x7003d08, size 0x44, virtual false, abstract: false, final false
   inline void set_simulationSpace(::UnityEngine::ParticleSystemSimulationSpace value);
 
   /// [NativeThrows]
-  /// @brief Method set_simulationSpeed, addr 0x7001de0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_simulationSpeed, addr 0x7002ec0, size 0x4c, virtual false, abstract: false, final false
   inline void set_simulationSpeed(float_t value);
 
-  /// @brief Method set_startColor, addr 0x70023b0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_startColor, addr 0x7003490, size 0x80, virtual false, abstract: false, final false
   inline void set_startColor(::UnityEngine::ParticleSystem_MinMaxGradient value);
 
   /// [NativeThrows]
-  /// @brief Method set_startColorBlittable, addr 0x7006834, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_startColorBlittable, addr 0x7007914, size 0x44, virtual false, abstract: false, final false
   inline void set_startColorBlittable(::UnityEngine::ParticleSystem_MinMaxGradientBlittable value);
 
-  /// @brief Method set_startColorBlittable_Injected, addr 0x70068bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_startColorBlittable_Injected, addr 0x700799c, size 0x44, virtual false, abstract: false, final false
   static inline void set_startColorBlittable_Injected(::by_ref<::UnityEngine::ParticleSystem_MainModule> _unity_self, ::by_ref<::UnityEngine::ParticleSystem_MinMaxGradientBlittable const> value);
 
   /// [NativeThrows]
-  /// @brief Method set_startDelayMultiplier, addr 0x7001a3c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_startDelayMultiplier, addr 0x7002b1c, size 0x4c, virtual false, abstract: false, final false
   inline void set_startDelayMultiplier(float_t value);
 
-  /// @brief Method set_startLifetime, addr 0x7006524, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_startLifetime, addr 0x7007604, size 0x70, virtual false, abstract: false, final false
   inline void set_startLifetime(::UnityEngine::ParticleSystem_MinMaxCurve value);
 
   /// [NativeThrows]
-  /// @brief Method set_startLifetimeBlittable, addr 0x70065bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_startLifetimeBlittable, addr 0x700769c, size 0x44, virtual false, abstract: false, final false
   inline void set_startLifetimeBlittable(::UnityEngine::ParticleSystem_MinMaxCurveBlittable value);
 
-  /// @brief Method set_startLifetimeBlittable_Injected, addr 0x7006600, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_startLifetimeBlittable_Injected, addr 0x70076e0, size 0x44, virtual false, abstract: false, final false
   static inline void set_startLifetimeBlittable_Injected(::by_ref<::UnityEngine::ParticleSystem_MainModule> _unity_self, ::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable const> value);
 
   /// [NativeThrows]
-  /// @brief Method set_startLifetimeMultiplier, addr 0x7002900, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_startLifetimeMultiplier, addr 0x70039e0, size 0x4c, virtual false, abstract: false, final false
   inline void set_startLifetimeMultiplier(float_t value);
 
   /// [NativeThrows]
-  /// @brief Method set_startRotationMultiplier, addr 0x70024f4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_startRotationMultiplier, addr 0x70035d4, size 0x4c, virtual false, abstract: false, final false
   inline void set_startRotationMultiplier(float_t value);
 
   /// [NativeThrows]
-  /// @brief Method set_startRotationXMultiplier, addr 0x7002758, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_startRotationXMultiplier, addr 0x7003838, size 0x4c, virtual false, abstract: false, final false
   inline void set_startRotationXMultiplier(float_t value);
 
   /// [NativeThrows]
-  /// @brief Method set_startRotationYMultiplier, addr 0x70027a4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_startRotationYMultiplier, addr 0x7003884, size 0x4c, virtual false, abstract: false, final false
   inline void set_startRotationYMultiplier(float_t value);
 
   /// [NativeThrows]
-  /// @brief Method set_startRotationZMultiplier, addr 0x70027f0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_startRotationZMultiplier, addr 0x70038d0, size 0x4c, virtual false, abstract: false, final false
   inline void set_startRotationZMultiplier(float_t value);
 
   /// [NativeThrows]
-  /// @brief Method set_startSizeMultiplier, addr 0x7002240, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_startSizeMultiplier, addr 0x7003320, size 0x4c, virtual false, abstract: false, final false
   inline void set_startSizeMultiplier(float_t value);
 
-  /// @brief Method set_startSpeed, addr 0x7006644, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_startSpeed, addr 0x7007724, size 0x70, virtual false, abstract: false, final false
   inline void set_startSpeed(::UnityEngine::ParticleSystem_MinMaxCurve value);
 
   /// [NativeThrows]
-  /// @brief Method set_startSpeedBlittable, addr 0x70066b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_startSpeedBlittable, addr 0x7007794, size 0x44, virtual false, abstract: false, final false
   inline void set_startSpeedBlittable(::UnityEngine::ParticleSystem_MinMaxCurveBlittable value);
 
-  /// @brief Method set_startSpeedBlittable_Injected, addr 0x70066f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_startSpeedBlittable_Injected, addr 0x70077d8, size 0x44, virtual false, abstract: false, final false
   static inline void set_startSpeedBlittable_Injected(::by_ref<::UnityEngine::ParticleSystem_MainModule> _unity_self, ::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable const> value);
 
   /// [NativeThrows]
-  /// @brief Method set_startSpeedMultiplier, addr 0x7002130, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_startSpeedMultiplier, addr 0x7003210, size 0x4c, virtual false, abstract: false, final false
   inline void set_startSpeedMultiplier(float_t value);
 
   // Ctor Parameters []
@@ -621,7 +621,7 @@ public:
   constexpr ParticleSystem_MainModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21864 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21879 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -653,27 +653,27 @@ public:
 
   __declspec(property(get = get_rateOverTimeMultiplier)) float_t rateOverTimeMultiplier;
 
-  /// @brief Method .ctor, addr 0x7006418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70074f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ParticleSystem* particleSystem);
 
-  /// @brief Method get_enabled, addr 0x7001e74, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x7002f54, size 0x3c, virtual false, abstract: false, final false
   inline bool get_enabled();
 
-  /// @brief Method get_rateOverTimeMultiplier, addr 0x7001f7c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_rateOverTimeMultiplier, addr 0x700305c, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_rateOverTimeMultiplier();
 
   /// [NativeThrows]
-  /// @brief Method set_enabled, addr 0x7001ef8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x7002fd8, size 0x44, virtual false, abstract: false, final false
   inline void set_enabled(bool value);
 
-  /// @brief Method set_rateOverTime, addr 0x7001ffc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_rateOverTime, addr 0x70030dc, size 0x70, virtual false, abstract: false, final false
   inline void set_rateOverTime(::UnityEngine::ParticleSystem_MinMaxCurve value);
 
   /// [NativeThrows]
-  /// @brief Method set_rateOverTimeBlittable, addr 0x7006900, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_rateOverTimeBlittable, addr 0x70079e0, size 0x44, virtual false, abstract: false, final false
   inline void set_rateOverTimeBlittable(::UnityEngine::ParticleSystem_MinMaxCurveBlittable value);
 
-  /// @brief Method set_rateOverTimeBlittable_Injected, addr 0x7006944, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_rateOverTimeBlittable_Injected, addr 0x7007a24, size 0x44, virtual false, abstract: false, final false
   static inline void set_rateOverTimeBlittable_Injected(::by_ref<::UnityEngine::ParticleSystem_EmissionModule> _unity_self, ::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable const> value);
 
   // Ctor Parameters []
@@ -684,7 +684,7 @@ public:
   constexpr ParticleSystem_EmissionModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21865 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21880 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -711,27 +711,27 @@ public:
 
   __declspec(property(put = set_rotation)) ::UnityEngine::Vector3 rotation;
 
-  /// @brief Method .ctor, addr 0x7006424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7007504, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ParticleSystem* particleSystem);
 
-  /// @brief Method get_meshRenderer, addr 0x7006988, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method get_meshRenderer, addr 0x7007a68, size 0x120, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::MeshRenderer> get_meshRenderer();
 
-  /// @brief Method get_meshRenderer_Injected, addr 0x7006aa8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_meshRenderer_Injected, addr 0x7007b88, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_meshRenderer_Injected(::by_ref<::UnityEngine::ParticleSystem_ShapeModule> _unity_self);
 
   /// [NativeThrows]
-  /// @brief Method set_meshRenderer, addr 0x7006ae4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_meshRenderer, addr 0x7007bc4, size 0x90, virtual false, abstract: false, final false
   inline void set_meshRenderer(::UnityEngine::MeshRenderer* value);
 
-  /// @brief Method set_meshRenderer_Injected, addr 0x7006b74, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_meshRenderer_Injected, addr 0x7007c54, size 0x44, virtual false, abstract: false, final false
   static inline void set_meshRenderer_Injected(::by_ref<::UnityEngine::ParticleSystem_ShapeModule> _unity_self, ::System::IntPtr value);
 
   /// [NativeThrows]
-  /// @brief Method set_rotation, addr 0x7006bb8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_rotation, addr 0x7007c98, size 0x54, virtual false, abstract: false, final false
   inline void set_rotation(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_rotation_Injected, addr 0x7006c0c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_rotation_Injected, addr 0x7007cec, size 0x44, virtual false, abstract: false, final false
   static inline void set_rotation_Injected(::by_ref<::UnityEngine::ParticleSystem_ShapeModule> _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   // Ctor Parameters []
@@ -742,7 +742,7 @@ public:
   constexpr ParticleSystem_ShapeModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21866 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21881 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -765,7 +765,7 @@ namespace UnityEngine {
 struct CORDL_TYPE ParticleSystem_CollisionModule {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x70064cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70075ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ParticleSystem* particleSystem);
 
   // Ctor Parameters []
@@ -776,7 +776,7 @@ public:
   constexpr ParticleSystem_CollisionModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21867 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21882 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -799,7 +799,7 @@ namespace UnityEngine {
 struct CORDL_TYPE ParticleSystem_TriggerModule {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x70064d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70075b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ParticleSystem* particleSystem);
 
   // Ctor Parameters []
@@ -810,7 +810,7 @@ public:
   constexpr ParticleSystem_TriggerModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21868 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21883 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -836,16 +836,16 @@ public:
   __declspec(property(get = get_subEmittersCount)) int32_t subEmittersCount;
 
   /// [NativeThrows]
-  /// @brief Method GetSubEmitterSystem, addr 0x7006c8c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetSubEmitterSystem, addr 0x7007d6c, size 0x128, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ParticleSystem> GetSubEmitterSystem(int32_t index);
 
-  /// @brief Method GetSubEmitterSystem_Injected, addr 0x7006db4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetSubEmitterSystem_Injected, addr 0x7007e94, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetSubEmitterSystem_Injected(::by_ref<::UnityEngine::ParticleSystem_SubEmittersModule> _unity_self, int32_t index);
 
-  /// @brief Method .ctor, addr 0x70064e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70075c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ParticleSystem* particleSystem);
 
-  /// @brief Method get_subEmittersCount, addr 0x7006c50, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_subEmittersCount, addr 0x7007d30, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_subEmittersCount();
 
   // Ctor Parameters []
@@ -856,7 +856,7 @@ public:
   constexpr ParticleSystem_SubEmittersModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21869 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21884 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -879,7 +879,7 @@ namespace UnityEngine {
 struct CORDL_TYPE ParticleSystem_TextureSheetAnimationModule {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x70064f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70075d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ParticleSystem* particleSystem);
 
   // Ctor Parameters []
@@ -890,7 +890,7 @@ public:
   constexpr ParticleSystem_TextureSheetAnimationModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21870 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21885 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -935,34 +935,34 @@ public:
 
   __declspec(property(put = set_velocity)) ::UnityEngine::Vector3 velocity;
 
-  /// @brief Method set_angularVelocity3D, addr 0x7001898, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_angularVelocity3D, addr 0x7002978, size 0x38, virtual false, abstract: false, final false
   inline void set_angularVelocity3D(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_lifetime, addr 0x7001844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lifetime, addr 0x7002924, size 0x8, virtual false, abstract: false, final false
   inline void set_lifetime(float_t value);
 
-  /// @brief Method set_position, addr 0x700182c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x700290c, size 0xc, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_randomSeed, addr 0x70018d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_randomSeed, addr 0x70029b8, size 0x8, virtual false, abstract: false, final false
   inline void set_randomSeed(uint32_t value);
 
-  /// @brief Method set_remainingLifetime, addr 0x7006df8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_remainingLifetime, addr 0x7007ed8, size 0x8, virtual false, abstract: false, final false
   inline void set_remainingLifetime(float_t value);
 
-  /// @brief Method set_rotation3D, addr 0x7001860, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_rotation3D, addr 0x7002940, size 0x38, virtual false, abstract: false, final false
   inline void set_rotation3D(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_startColor, addr 0x70018d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_startColor, addr 0x70029b0, size 0x8, virtual false, abstract: false, final false
   inline void set_startColor(::UnityEngine::Color32 value);
 
-  /// @brief Method set_startLifetime, addr 0x700184c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_startLifetime, addr 0x700292c, size 0x8, virtual false, abstract: false, final false
   inline void set_startLifetime(float_t value);
 
-  /// @brief Method set_startSize, addr 0x7001854, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_startSize, addr 0x7002934, size 0xc, virtual false, abstract: false, final false
   inline void set_startSize(float_t value);
 
-  /// @brief Method set_velocity, addr 0x7001838, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_velocity, addr 0x7002918, size 0xc, virtual false, abstract: false, final false
   inline void set_velocity(::UnityEngine::Vector3 value);
 
   // Ctor Parameters []
@@ -985,7 +985,7 @@ public:
                                     float_t m_EmitAccumulator0, float_t m_EmitAccumulator1, uint32_t m_Flags) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21871 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21886 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x84 };
@@ -1092,19 +1092,19 @@ public:
 
   __declspec(property(put = set_constantMin)) float_t constantMin;
 
-  /// @brief Method .ctor, addr 0x7006e00, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7007ee0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t constant);
 
-  /// @brief Method .ctor, addr 0x7006e14, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7007ef4, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(float_t min, float_t max);
 
-  /// @brief Method op_Implicit, addr 0x7001fe8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x70030c8, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::ParticleSystem_MinMaxCurve op_Implicit___UnityEngine__ParticleSystem_MinMaxCurve(float_t constant);
 
-  /// @brief Method set_constantMax, addr 0x7006e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_constantMax, addr 0x7007f10, size 0x8, virtual false, abstract: false, final false
   inline void set_constantMax(float_t value);
 
-  /// @brief Method set_constantMin, addr 0x7006e38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_constantMin, addr 0x7007f18, size 0x8, virtual false, abstract: false, final false
   inline void set_constantMin(float_t value);
 
   // Ctor Parameters []
@@ -1119,7 +1119,7 @@ public:
                                        float_t m_ConstantMin, float_t m_ConstantMax) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21872 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21887 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -1175,10 +1175,10 @@ namespace UnityEngine {
 struct CORDL_TYPE ParticleSystem_MinMaxCurveBlittable {
 public:
   // Declarations
-  /// @brief Method FromMixMaxCurve, addr 0x7006e40, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method FromMixMaxCurve, addr 0x7007f20, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::ParticleSystem_MinMaxCurveBlittable FromMixMaxCurve(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ParticleSystem_MinMaxCurve const> minMaxCurve);
 
-  /// @brief Method op_Implicit, addr 0x7006594, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x7007674, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::ParticleSystem_MinMaxCurveBlittable op_Implicit___UnityEngine__ParticleSystem_MinMaxCurveBlittable(::UnityEngine::ParticleSystem_MinMaxCurve minMaxCurve);
 
   // Ctor Parameters []
@@ -1193,7 +1193,7 @@ public:
                                                 float_t m_ConstantMin, float_t m_ConstantMax) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21873 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21888 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -1243,13 +1243,13 @@ public:
   // Declarations
   __declspec(property(get = get_color)) ::UnityEngine::Color color;
 
-  /// @brief Method .ctor, addr 0x7006e68, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7007f48, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color);
 
-  /// @brief Method get_color, addr 0x7002350, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x7003430, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method op_Implicit, addr 0x7002394, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x7003474, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ParticleSystem_MinMaxGradient op_Implicit___UnityEngine__ParticleSystem_MinMaxGradient(::UnityEngine::Color color);
 
   // Ctor Parameters []
@@ -1264,7 +1264,7 @@ public:
                                           ::UnityEngine::Color m_ColorMin, ::UnityEngine::Color m_ColorMax) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21874 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21889 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -1314,16 +1314,16 @@ namespace UnityEngine {
 struct CORDL_TYPE ParticleSystem_MinMaxGradientBlittable {
 public:
   // Declarations
-  /// @brief Method FromMixMaxGradient, addr 0x7006f3c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method FromMixMaxGradient, addr 0x700801c, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::ParticleSystem_MinMaxGradientBlittable FromMixMaxGradient(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ParticleSystem_MinMaxGradient const> minMaxGradient);
 
-  /// @brief Method ToMinMaxGradient, addr 0x7006e84, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ToMinMaxGradient, addr 0x7007f64, size 0xb8, virtual false, abstract: false, final false
   static inline ::UnityEngine::ParticleSystem_MinMaxGradient ToMinMaxGradient(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ParticleSystem_MinMaxGradientBlittable const> minMaxGradientBlittable);
 
-  /// @brief Method op_Implicit, addr 0x70067b4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x7007894, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ParticleSystem_MinMaxGradient op_Implicit___UnityEngine__ParticleSystem_MinMaxGradient(::UnityEngine::ParticleSystem_MinMaxGradientBlittable minMaxGradientBlittable);
 
-  /// @brief Method op_Implicit, addr 0x70067f0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x70078d0, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::ParticleSystem_MinMaxGradientBlittable op_Implicit___UnityEngine__ParticleSystem_MinMaxGradientBlittable(::UnityEngine::ParticleSystem_MinMaxGradient minMaxGradient);
 
   // Ctor Parameters []
@@ -1338,7 +1338,7 @@ public:
                                                    ::UnityEngine::Color m_ColorMax) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21875 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21890 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -1389,16 +1389,16 @@ public:
 
   __declspec(property(put = set_startColor)) ::UnityEngine::Color32 startColor;
 
-  /// @brief Method set_applyShapeToPosition, addr 0x7006f94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_applyShapeToPosition, addr 0x7008074, size 0x8, virtual false, abstract: false, final false
   inline void set_applyShapeToPosition(bool value);
 
-  /// @brief Method set_position, addr 0x7006f80, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x7008060, size 0x14, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_rotation3D, addr 0x7006f9c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_rotation3D, addr 0x700807c, size 0x40, virtual false, abstract: false, final false
   inline void set_rotation3D(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_startColor, addr 0x7006fdc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_startColor, addr 0x70080bc, size 0x10, virtual false, abstract: false, final false
   inline void set_startColor(::UnityEngine::Color32 value);
 
   // Ctor Parameters []
@@ -1417,7 +1417,7 @@ public:
                                       bool m_ApplyShapeToPosition) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21876 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21891 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };
@@ -1516,7 +1516,7 @@ public:
   constexpr PlaybackState_ParticleSystem_Seed(uint32_t x, uint32_t y, uint32_t z, uint32_t w) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21877 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21892 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -1565,7 +1565,7 @@ public:
                                                ::UnityEngine::PlaybackState_ParticleSystem_Seed z, ::UnityEngine::PlaybackState_ParticleSystem_Seed w) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21878 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21893 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -1612,7 +1612,7 @@ public:
   constexpr PlaybackState_ParticleSystem_Emission(float_t m_ParticleSpacing, float_t m_ToEmitAccumulator, ::UnityEngine::PlaybackState_ParticleSystem_Seed m_Random) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21879 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21894 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -1653,7 +1653,7 @@ public:
   constexpr PlaybackState_ParticleSystem_Initial(::UnityEngine::PlaybackState_ParticleSystem_Seed4 m_Random) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21880 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21895 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -1689,7 +1689,7 @@ public:
                                                float_t m_MeshSpawnTimer, float_t m_MeshSpawnTimerPrev, int32_t m_OrderedMeshVertexIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21881 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21896 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x5c };
@@ -1755,7 +1755,7 @@ public:
   constexpr PlaybackState_ParticleSystem_Force(::UnityEngine::PlaybackState_ParticleSystem_Seed4 m_Random) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21882 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21897 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -1786,7 +1786,7 @@ public:
   constexpr PlaybackState_ParticleSystem_Collision(::UnityEngine::PlaybackState_ParticleSystem_Seed4 m_Random) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21883 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21898 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -1817,7 +1817,7 @@ public:
   constexpr PlaybackState_ParticleSystem_Noise(float_t m_ScrollOffset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21884 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21899 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1849,7 +1849,7 @@ public:
   constexpr PlaybackState_ParticleSystem_Lights(::UnityEngine::PlaybackState_ParticleSystem_Seed m_Random, float_t m_ParticleEmissionCounter) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21885 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21900 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
@@ -1885,7 +1885,7 @@ public:
   constexpr PlaybackState_ParticleSystem_Trail(float_t m_Timer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21886 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21901 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1950,7 +1950,7 @@ public:
                                          ::UnityEngine::PlaybackState_ParticleSystem_Lights m_Lights, ::UnityEngine::PlaybackState_ParticleSystem_Trail m_Trail) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21887 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21902 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x160 };
@@ -2029,7 +2029,7 @@ namespace UnityEngine {
 struct CORDL_TYPE ParticleSystem_Trails {
 public:
   // Declarations
-  /// @brief Method Allocate, addr 0x70049f4, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x7005ad4, size 0x16c, virtual false, abstract: false, final false
   inline void Allocate();
 
   // Ctor Parameters []
@@ -2047,7 +2047,7 @@ public:
                                   ::System::Collections::Generic::List_1<float_t>* textureOffsets, int32_t maxTrailCount, int32_t maxPositionsPerTrailCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21888 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21903 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -2100,7 +2100,7 @@ namespace UnityEngine {
 struct CORDL_TYPE ParticleSystem_VelocityOverLifetimeModule {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x7006430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7007510, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ParticleSystem* particleSystem);
 
   // Ctor Parameters []
@@ -2111,7 +2111,7 @@ public:
   constexpr ParticleSystem_VelocityOverLifetimeModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21889 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21904 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -2134,7 +2134,7 @@ namespace UnityEngine {
 struct CORDL_TYPE ParticleSystem_LimitVelocityOverLifetimeModule {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x700643c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x700751c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ParticleSystem* particleSystem);
 
   // Ctor Parameters []
@@ -2145,7 +2145,7 @@ public:
   constexpr ParticleSystem_LimitVelocityOverLifetimeModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21890 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21905 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -2168,7 +2168,7 @@ namespace UnityEngine {
 struct CORDL_TYPE ParticleSystem_InheritVelocityModule {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x7006448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7007528, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ParticleSystem* particleSystem);
 
   // Ctor Parameters []
@@ -2179,7 +2179,7 @@ public:
   constexpr ParticleSystem_InheritVelocityModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21891 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21906 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -2202,7 +2202,7 @@ namespace UnityEngine {
 struct CORDL_TYPE ParticleSystem_LifetimeByEmitterSpeedModule {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x7006454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7007534, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ParticleSystem* particleSystem);
 
   // Ctor Parameters []
@@ -2213,7 +2213,7 @@ public:
   constexpr ParticleSystem_LifetimeByEmitterSpeedModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21892 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21907 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -2236,7 +2236,7 @@ namespace UnityEngine {
 struct CORDL_TYPE ParticleSystem_ForceOverLifetimeModule {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x7006460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7007540, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ParticleSystem* particleSystem);
 
   // Ctor Parameters []
@@ -2247,7 +2247,7 @@ public:
   constexpr ParticleSystem_ForceOverLifetimeModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21893 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21908 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -2270,7 +2270,7 @@ namespace UnityEngine {
 struct CORDL_TYPE ParticleSystem_ColorOverLifetimeModule {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x700646c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x700754c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ParticleSystem* particleSystem);
 
   // Ctor Parameters []
@@ -2281,7 +2281,7 @@ public:
   constexpr ParticleSystem_ColorOverLifetimeModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21894 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21909 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -2304,7 +2304,7 @@ namespace UnityEngine {
 struct CORDL_TYPE ParticleSystem_ColorBySpeedModule {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x7006478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7007558, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ParticleSystem* particleSystem);
 
   // Ctor Parameters []
@@ -2315,7 +2315,7 @@ public:
   constexpr ParticleSystem_ColorBySpeedModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21895 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21910 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -2338,7 +2338,7 @@ namespace UnityEngine {
 struct CORDL_TYPE ParticleSystem_SizeOverLifetimeModule {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x7006484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7007564, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ParticleSystem* particleSystem);
 
   // Ctor Parameters []
@@ -2349,7 +2349,7 @@ public:
   constexpr ParticleSystem_SizeOverLifetimeModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21896 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21911 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -2372,7 +2372,7 @@ namespace UnityEngine {
 struct CORDL_TYPE ParticleSystem_SizeBySpeedModule {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x7006490, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7007570, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ParticleSystem* particleSystem);
 
   // Ctor Parameters []
@@ -2383,7 +2383,7 @@ public:
   constexpr ParticleSystem_SizeBySpeedModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21897 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21912 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -2406,7 +2406,7 @@ namespace UnityEngine {
 struct CORDL_TYPE ParticleSystem_RotationOverLifetimeModule {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x700649c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x700757c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ParticleSystem* particleSystem);
 
   // Ctor Parameters []
@@ -2417,7 +2417,7 @@ public:
   constexpr ParticleSystem_RotationOverLifetimeModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21898 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21913 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -2440,7 +2440,7 @@ namespace UnityEngine {
 struct CORDL_TYPE ParticleSystem_RotationBySpeedModule {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x70064a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7007588, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ParticleSystem* particleSystem);
 
   // Ctor Parameters []
@@ -2451,7 +2451,7 @@ public:
   constexpr ParticleSystem_RotationBySpeedModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21899 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21914 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -2474,7 +2474,7 @@ namespace UnityEngine {
 struct CORDL_TYPE ParticleSystem_ExternalForcesModule {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x70064b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7007594, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ParticleSystem* particleSystem);
 
   // Ctor Parameters []
@@ -2485,7 +2485,7 @@ public:
   constexpr ParticleSystem_ExternalForcesModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21900 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21915 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -2508,7 +2508,7 @@ namespace UnityEngine {
 struct CORDL_TYPE ParticleSystem_NoiseModule {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x70064c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70075a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ParticleSystem* particleSystem);
 
   // Ctor Parameters []
@@ -2519,7 +2519,7 @@ public:
   constexpr ParticleSystem_NoiseModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21901 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21916 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -2542,7 +2542,7 @@ namespace UnityEngine {
 struct CORDL_TYPE ParticleSystem_LightsModule {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x70064fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70075dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ParticleSystem* particleSystem);
 
   // Ctor Parameters []
@@ -2553,7 +2553,7 @@ public:
   constexpr ParticleSystem_LightsModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21902 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21917 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -2576,7 +2576,7 @@ namespace UnityEngine {
 struct CORDL_TYPE ParticleSystem_TrailModule {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x7006508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70075e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ParticleSystem* particleSystem);
 
   // Ctor Parameters []
@@ -2587,7 +2587,7 @@ public:
   constexpr ParticleSystem_TrailModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21903 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21918 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -2610,7 +2610,7 @@ namespace UnityEngine {
 struct CORDL_TYPE ParticleSystem_CustomDataModule {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x7006514, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70075f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ParticleSystem* particleSystem);
 
   // Ctor Parameters []
@@ -2621,7 +2621,7 @@ public:
   constexpr ParticleSystem_CustomDataModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21904 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21919 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -2843,645 +2843,645 @@ public:
   __declspec(property(get = get_velocityOverLifetime)) ::UnityEngine::ParticleSystem_VelocityOverLifetimeModule velocityOverLifetime;
 
   /// [NativeName("SetUsesAxisOfRotation")]
-  /// @brief Method AllocateAxisOfRotationAttribute, addr 0x7005cc0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method AllocateAxisOfRotationAttribute, addr 0x7006da0, size 0x80, virtual false, abstract: false, final false
   inline void AllocateAxisOfRotationAttribute();
 
-  /// @brief Method AllocateAxisOfRotationAttribute_Injected, addr 0x7005d40, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method AllocateAxisOfRotationAttribute_Injected, addr 0x7006e20, size 0x3c, virtual false, abstract: false, final false
   static inline void AllocateAxisOfRotationAttribute_Injected(::System::IntPtr _unity_self);
 
   /// [NativeName("SetUsesCustomData")]
-  /// @brief Method AllocateCustomDataAttribute, addr 0x7005e38, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method AllocateCustomDataAttribute, addr 0x7006f18, size 0x90, virtual false, abstract: false, final false
   inline void AllocateCustomDataAttribute(::UnityEngine::ParticleSystemCustomData stream);
 
-  /// @brief Method AllocateCustomDataAttribute_Injected, addr 0x7005ec8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AllocateCustomDataAttribute_Injected, addr 0x7006fa8, size 0x44, virtual false, abstract: false, final false
   static inline void AllocateCustomDataAttribute_Injected(::System::IntPtr _unity_self, ::UnityEngine::ParticleSystemCustomData stream);
 
   /// [NativeName("SetUsesMeshIndex")]
-  /// @brief Method AllocateMeshIndexAttribute, addr 0x7005d7c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method AllocateMeshIndexAttribute, addr 0x7006e5c, size 0x80, virtual false, abstract: false, final false
   inline void AllocateMeshIndexAttribute();
 
-  /// @brief Method AllocateMeshIndexAttribute_Injected, addr 0x7005dfc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method AllocateMeshIndexAttribute_Injected, addr 0x7006edc, size 0x3c, virtual false, abstract: false, final false
   static inline void AllocateMeshIndexAttribute_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method Clear, addr 0x7005528, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x7006608, size 0x8, virtual false, abstract: false, final false
   inline void Clear();
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::Clear", HasExplicitThis = true)]
-  /// @brief Method Clear, addr 0x7005454, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x7006534, size 0x90, virtual false, abstract: false, final false
   inline void Clear(/* [DefaultValue("true")] */ bool withChildren);
 
-  /// @brief Method Clear_Injected, addr 0x70054e4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Clear_Injected, addr 0x70065c4, size 0x44, virtual false, abstract: false, final false
   static inline void Clear_Injected(::System::IntPtr _unity_self, /* [DefaultValue("true")] */ bool withChildren);
 
   /// [ThreadSafe]
-  /// @brief Method CopyManagedJobData, addr 0x70063a4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CopyManagedJobData, addr 0x7007484, size 0x44, virtual false, abstract: false, final false
   static inline void CopyManagedJobData(void* systemPtr, ::by_ref<::UnityEngine::ParticleSystemJobs::NativeParticleData> particleData);
 
   /// [RequiredByNativeCode]
-  /// @brief Method Emit, addr 0x700560c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Emit, addr 0x70066ec, size 0x4, virtual false, abstract: false, final false
   inline void Emit(int32_t count);
 
   /// [NativeName("SyncJobs()->EmitParticlesExternal")]
-  /// @brief Method Emit, addr 0x70056e4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Emit, addr 0x70067c4, size 0x98, virtual false, abstract: false, final false
   inline void Emit(::UnityEngine::ParticleSystem_EmitParams emitParams, int32_t count);
 
   /// [Obsolete("Emit with a single particle structure is deprecated. Pass a ParticleSystem.EmitParams parameter instead, which allows you to override some/all of the emission properties", false)]
-  /// @brief Method Emit, addr 0x7001970, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Emit, addr 0x7002a50, size 0x4, virtual false, abstract: false, final false
   inline void Emit(::UnityEngine::ParticleSystem_Particle particle);
 
   /// [Obsolete("Emit with specific parameters is deprecated. Pass a ParticleSystem.EmitParams parameter instead, which allows you to override some/all of the emission properties", false)]
-  /// @brief Method Emit, addr 0x7001744, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Emit, addr 0x7002824, size 0xe8, virtual false, abstract: false, final false
   inline void Emit(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 velocity, float_t size, float_t lifetime, ::UnityEngine::Color32 color);
 
   /// [NativeName("SyncJobs()->EmitParticleExternal")]
-  /// @brief Method EmitOld_Internal, addr 0x70018e0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method EmitOld_Internal, addr 0x70029c0, size 0x90, virtual false, abstract: false, final false
   inline void EmitOld_Internal(::by_ref<::UnityEngine::ParticleSystem_Particle> particle);
 
-  /// @brief Method EmitOld_Internal_Injected, addr 0x70057d0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method EmitOld_Internal_Injected, addr 0x70068b0, size 0x44, virtual false, abstract: false, final false
   static inline void EmitOld_Internal_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ParticleSystem_Particle> particle);
 
-  /// @brief Method Emit_Injected, addr 0x700577c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Emit_Injected, addr 0x700685c, size 0x54, virtual false, abstract: false, final false
   static inline void Emit_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ParticleSystem_EmitParams const> emitParams, int32_t count);
 
   /// [NativeName("SyncJobs()->Emit")]
-  /// @brief Method Emit_Internal, addr 0x7005610, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Emit_Internal, addr 0x70066f0, size 0x90, virtual false, abstract: false, final false
   inline void Emit_Internal(int32_t count);
 
-  /// @brief Method Emit_Internal_Injected, addr 0x70056a0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Emit_Internal_Injected, addr 0x7006780, size 0x44, virtual false, abstract: false, final false
   static inline void Emit_Internal_Injected(::System::IntPtr _unity_self, int32_t count);
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::GetCustomParticleData", HasExplicitThis = true, ThrowsException = true)]
-  /// @brief Method GetCustomParticleData, addr 0x7004494, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method GetCustomParticleData, addr 0x7005574, size 0x210, virtual false, abstract: false, final false
   inline int32_t GetCustomParticleData(/* [NotNull] */ ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* customData, ::UnityEngine::ParticleSystemCustomData streamIndex);
 
-  /// @brief Method GetCustomParticleData_Injected, addr 0x70046a4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetCustomParticleData_Injected, addr 0x7005784, size 0x54, virtual false, abstract: false, final false
   static inline int32_t GetCustomParticleData_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableListWrapper> customData,
                                                        ::UnityEngine::ParticleSystemCustomData streamIndex);
 
-  /// @brief Method GetManagedJobData, addr 0x7006084, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetManagedJobData, addr 0x7007164, size 0x80, virtual false, abstract: false, final false
   inline void* GetManagedJobData();
 
-  /// @brief Method GetManagedJobData_Injected, addr 0x7006104, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetManagedJobData_Injected, addr 0x70071e4, size 0x3c, virtual false, abstract: false, final false
   static inline void* GetManagedJobData_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method GetManagedJobHandle, addr 0x7006140, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetManagedJobHandle, addr 0x7007220, size 0x98, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle GetManagedJobHandle();
 
-  /// @brief Method GetManagedJobHandle_Injected, addr 0x70061d8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetManagedJobHandle_Injected, addr 0x70072b8, size 0x44, virtual false, abstract: false, final false
   static inline void GetManagedJobHandle_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Jobs::JobHandle> ret);
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::GetParticleCurrentColor", HasExplicitThis = true)]
-  /// @brief Method GetParticleCurrentColor, addr 0x700392c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetParticleCurrentColor, addr 0x7004a0c, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Color32 GetParticleCurrentColor(::by_ref<::UnityEngine::ParticleSystem_Particle> particle);
 
-  /// @brief Method GetParticleCurrentColor_Injected, addr 0x70039cc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetParticleCurrentColor_Injected, addr 0x7004aac, size 0x54, virtual false, abstract: false, final false
   static inline void GetParticleCurrentColor_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ParticleSystem_Particle> particle, ::by_ref<::UnityEngine::Color32> ret);
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::GetParticleCurrentSize", HasExplicitThis = true)]
-  /// @brief Method GetParticleCurrentSize, addr 0x7003754, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetParticleCurrentSize, addr 0x7004834, size 0x90, virtual false, abstract: false, final false
   inline float_t GetParticleCurrentSize(::by_ref<::UnityEngine::ParticleSystem_Particle> particle);
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::GetParticleCurrentSize3D", HasExplicitThis = true)]
-  /// @brief Method GetParticleCurrentSize3D, addr 0x7003828, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetParticleCurrentSize3D, addr 0x7004908, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetParticleCurrentSize3D(::by_ref<::UnityEngine::ParticleSystem_Particle> particle);
 
-  /// @brief Method GetParticleCurrentSize3D_Injected, addr 0x70038d8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetParticleCurrentSize3D_Injected, addr 0x70049b8, size 0x54, virtual false, abstract: false, final false
   static inline void GetParticleCurrentSize3D_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ParticleSystem_Particle> particle, ::by_ref<::UnityEngine::Vector3> ret);
 
-  /// @brief Method GetParticleCurrentSize_Injected, addr 0x70037e4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetParticleCurrentSize_Injected, addr 0x70048c4, size 0x44, virtual false, abstract: false, final false
   static inline float_t GetParticleCurrentSize_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ParticleSystem_Particle> particle);
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::GetParticleMeshIndex", HasExplicitThis = true)]
-  /// @brief Method GetParticleMeshIndex, addr 0x7003a20, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetParticleMeshIndex, addr 0x7004b00, size 0x90, virtual false, abstract: false, final false
   inline int32_t GetParticleMeshIndex(::by_ref<::UnityEngine::ParticleSystem_Particle> particle);
 
-  /// @brief Method GetParticleMeshIndex_Injected, addr 0x7003ab0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetParticleMeshIndex_Injected, addr 0x7004b90, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetParticleMeshIndex_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ParticleSystem_Particle> particle);
 
-  /// @brief Method GetParticles, addr 0x700408c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetParticles, addr 0x700516c, size 0xc, virtual false, abstract: false, final false
   inline int32_t GetParticles(::ArrayW<::UnityEngine::ParticleSystem_Particle> particles);
 
-  /// @brief Method GetParticles, addr 0x7004084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetParticles, addr 0x7005164, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetParticles(::ArrayW<::UnityEngine::ParticleSystem_Particle> particles, int32_t size);
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::GetParticles", HasExplicitThis = true, ThrowsException = true)]
-  /// @brief Method GetParticles, addr 0x7003e80, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method GetParticles, addr 0x7004f60, size 0x1a8, virtual false, abstract: false, final false
   inline int32_t GetParticles(/* [NotNull] */ ::ArrayW<::UnityEngine::ParticleSystem_Particle> particles, int32_t size, int32_t offset);
 
-  /// @brief Method GetParticles, addr 0x7004230, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetParticles, addr 0x7005310, size 0xc, virtual false, abstract: false, final false
   inline int32_t GetParticles(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle> particles);
 
-  /// @brief Method GetParticles, addr 0x7004228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetParticles, addr 0x7005308, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetParticles(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle> particles, int32_t size);
 
-  /// @brief Method GetParticles, addr 0x70041b4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetParticles, addr 0x7005294, size 0x74, virtual false, abstract: false, final false
   inline int32_t GetParticles(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle> particles, int32_t size, int32_t offset);
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::GetParticlesWithNativeArray", HasExplicitThis = true, ThrowsException = true)]
-  /// @brief Method GetParticlesWithNativeArray, addr 0x7004098, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetParticlesWithNativeArray, addr 0x7005178, size 0xb0, virtual false, abstract: false, final false
   inline int32_t GetParticlesWithNativeArray(::System::IntPtr particles, int32_t particlesLength, int32_t size, int32_t offset);
 
-  /// @brief Method GetParticlesWithNativeArray_Injected, addr 0x7004148, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetParticlesWithNativeArray_Injected, addr 0x7005228, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t GetParticlesWithNativeArray_Injected(::System::IntPtr _unity_self, ::System::IntPtr particles, int32_t particlesLength, int32_t size, int32_t offset);
 
-  /// @brief Method GetParticles_Injected, addr 0x7004028, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetParticles_Injected, addr 0x7005108, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t GetParticles_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> particles, int32_t size, int32_t offset);
 
-  /// @brief Method GetPlaybackState, addr 0x70046f8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetPlaybackState, addr 0x70057d8, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystem_PlaybackState GetPlaybackState();
 
-  /// @brief Method GetPlaybackState_Injected, addr 0x70047b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetPlaybackState_Injected, addr 0x7005894, size 0x44, virtual false, abstract: false, final false
   static inline void GetPlaybackState_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ParticleSystem_PlaybackState> ret);
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::GetTrailData", HasExplicitThis = true)]
-  /// @brief Method GetTrailDataInternal, addr 0x70048cc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetTrailDataInternal, addr 0x70059ac, size 0x90, virtual false, abstract: false, final false
   inline void GetTrailDataInternal(::by_ref<::UnityEngine::ParticleSystem_Trails> trailData);
 
-  /// @brief Method GetTrailDataInternal_Injected, addr 0x700495c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetTrailDataInternal_Injected, addr 0x7005a3c, size 0x44, virtual false, abstract: false, final false
   static inline void GetTrailDataInternal_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ParticleSystem_Trails> trailData);
 
-  /// @brief Method GetTrails, addr 0x70049a0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetTrails, addr 0x7005a80, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystem_Trails GetTrails();
 
-  /// @brief Method GetTrails, addr 0x7004b60, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetTrails, addr 0x7005c40, size 0x70, virtual false, abstract: false, final false
   inline int32_t GetTrails(::by_ref<::UnityEngine::ParticleSystem_Trails> trailData);
 
-  /// @brief Method IsAlive, addr 0x7005604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsAlive, addr 0x70066e4, size 0x8, virtual false, abstract: false, final false
   inline bool IsAlive();
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::IsAlive", HasExplicitThis = true)]
-  /// @brief Method IsAlive, addr 0x7005530, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsAlive, addr 0x7006610, size 0x90, virtual false, abstract: false, final false
   inline bool IsAlive(/* [DefaultValue("true")] */ bool withChildren);
 
-  /// @brief Method IsAlive_Injected, addr 0x70055c0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsAlive_Injected, addr 0x70066a0, size 0x44, virtual false, abstract: false, final false
   static inline bool IsAlive_Injected(::System::IntPtr _unity_self, /* [DefaultValue("true")] */ bool withChildren);
 
   static inline ::UnityEngine::ParticleSystem* New_ctor();
 
-  /// @brief Method Pause, addr 0x700534c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x700642c, size 0x8, virtual false, abstract: false, final false
   inline void Pause();
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::Pause", HasExplicitThis = true)]
-  /// @brief Method Pause, addr 0x7005278, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x7006358, size 0x90, virtual false, abstract: false, final false
   inline void Pause(/* [DefaultValue("true")] */ bool withChildren);
 
-  /// @brief Method Pause_Injected, addr 0x7005308, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Pause_Injected, addr 0x70063e8, size 0x44, virtual false, abstract: false, final false
   static inline void Pause_Injected(::System::IntPtr _unity_self, /* [DefaultValue("true")] */ bool withChildren);
 
-  /// @brief Method Play, addr 0x7005270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x7006350, size 0x8, virtual false, abstract: false, final false
   inline void Play();
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::Play", HasExplicitThis = true)]
-  /// @brief Method Play, addr 0x700519c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x700627c, size 0x90, virtual false, abstract: false, final false
   inline void Play(/* [DefaultValue("true")] */ bool withChildren);
 
-  /// @brief Method Play_Injected, addr 0x700522c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Play_Injected, addr 0x700630c, size 0x44, virtual false, abstract: false, final false
   static inline void Play_Injected(::System::IntPtr _unity_self, /* [DefaultValue("true")] */ bool withChildren);
 
   /// [FreeFunction(Name = "ParticleSystemGeometryJob::ResetPreMappedBufferMemory")]
-  /// @brief Method ResetPreMappedBufferMemory, addr 0x7005c54, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ResetPreMappedBufferMemory, addr 0x7006d34, size 0x28, virtual false, abstract: false, final false
   static inline void ResetPreMappedBufferMemory();
 
   /// [FreeFunction("ScheduleManagedJob", ThrowsException = true)]
-  /// @brief Method ScheduleManagedJob, addr 0x70062f4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleManagedJob, addr 0x70073d4, size 0x5c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleManagedJob(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, void* additionalData);
 
-  /// @brief Method ScheduleManagedJob_Injected, addr 0x7006350, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ScheduleManagedJob_Injected, addr 0x7007430, size 0x54, virtual false, abstract: false, final false
   static inline void ScheduleManagedJob_Injected(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, void* additionalData, ::by_ref<::Unity::Jobs::JobHandle> ret);
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::SetCustomParticleData", HasExplicitThis = true, ThrowsException = true)]
-  /// @brief Method SetCustomParticleData, addr 0x700423c, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method SetCustomParticleData, addr 0x700531c, size 0x204, virtual false, abstract: false, final false
   inline void SetCustomParticleData(/* [NotNull] */ ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* customData, ::UnityEngine::ParticleSystemCustomData streamIndex);
 
-  /// @brief Method SetCustomParticleData_Injected, addr 0x7004440, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetCustomParticleData_Injected, addr 0x7005520, size 0x54, virtual false, abstract: false, final false
   static inline void SetCustomParticleData_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableListWrapper> customData,
                                                     ::UnityEngine::ParticleSystemCustomData streamIndex);
 
-  /// @brief Method SetManagedJobHandle, addr 0x700621c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetManagedJobHandle, addr 0x70072fc, size 0x94, virtual false, abstract: false, final false
   inline void SetManagedJobHandle(::Unity::Jobs::JobHandle handle);
 
-  /// @brief Method SetManagedJobHandle_Injected, addr 0x70062b0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetManagedJobHandle_Injected, addr 0x7007390, size 0x44, virtual false, abstract: false, final false
   static inline void SetManagedJobHandle_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Jobs::JobHandle const> handle);
 
   /// [FreeFunction(Name = "ParticleSystemGeometryJob::SetMaximumPreMappedBufferCounts")]
-  /// @brief Method SetMaximumPreMappedBufferCounts, addr 0x7005c7c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetMaximumPreMappedBufferCounts, addr 0x7006d5c, size 0x44, virtual false, abstract: false, final false
   static inline void SetMaximumPreMappedBufferCounts(int32_t vertexBuffersCount, int32_t indexBuffersCount);
 
-  /// @brief Method SetParticles, addr 0x7003cd0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetParticles, addr 0x7004db0, size 0xc, virtual false, abstract: false, final false
   inline void SetParticles(::ArrayW<::UnityEngine::ParticleSystem_Particle> particles);
 
-  /// @brief Method SetParticles, addr 0x7003cc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetParticles, addr 0x7004da8, size 0x8, virtual false, abstract: false, final false
   inline void SetParticles(::ArrayW<::UnityEngine::ParticleSystem_Particle> particles, int32_t size);
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::SetParticles", HasExplicitThis = true, ThrowsException = true)]
-  /// @brief Method SetParticles, addr 0x7003af4, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method SetParticles, addr 0x7004bd4, size 0x178, virtual false, abstract: false, final false
   inline void SetParticles(::ArrayW<::UnityEngine::ParticleSystem_Particle> particles, int32_t size, int32_t offset);
 
-  /// @brief Method SetParticles, addr 0x7003e74, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetParticles, addr 0x7004f54, size 0xc, virtual false, abstract: false, final false
   inline void SetParticles(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle> particles);
 
-  /// @brief Method SetParticles, addr 0x7003e6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetParticles, addr 0x7004f4c, size 0x8, virtual false, abstract: false, final false
   inline void SetParticles(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle> particles, int32_t size);
 
-  /// @brief Method SetParticles, addr 0x7003df8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetParticles, addr 0x7004ed8, size 0x74, virtual false, abstract: false, final false
   inline void SetParticles(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle> particles, int32_t size, int32_t offset);
 
-  /// @brief Method SetParticlesAndTrails, addr 0x7004de8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SetParticlesAndTrails, addr 0x7005ec8, size 0x34, virtual false, abstract: false, final false
   inline void SetParticlesAndTrails(::ArrayW<::UnityEngine::ParticleSystem_Particle> particles, ::UnityEngine::ParticleSystem_Trails trailData);
 
-  /// @brief Method SetParticlesAndTrails, addr 0x7004db8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetParticlesAndTrails, addr 0x7005e98, size 0x30, virtual false, abstract: false, final false
   inline void SetParticlesAndTrails(::ArrayW<::UnityEngine::ParticleSystem_Particle> particles, ::UnityEngine::ParticleSystem_Trails trailData, int32_t size);
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::SetParticlesAndTrailData", HasExplicitThis = true, ThrowsException = true)]
-  /// @brief Method SetParticlesAndTrails, addr 0x7004bd0, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method SetParticlesAndTrails, addr 0x7005cb0, size 0x17c, virtual false, abstract: false, final false
   inline void SetParticlesAndTrails(::ArrayW<::UnityEngine::ParticleSystem_Particle> particles, ::UnityEngine::ParticleSystem_Trails trailData, int32_t size, int32_t offset);
 
-  /// @brief Method SetParticlesAndTrails, addr 0x7005020, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SetParticlesAndTrails, addr 0x7006100, size 0x34, virtual false, abstract: false, final false
   inline void SetParticlesAndTrails(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle> particles, ::UnityEngine::ParticleSystem_Trails trailData);
 
-  /// @brief Method SetParticlesAndTrails, addr 0x7004ff0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetParticlesAndTrails, addr 0x70060d0, size 0x30, virtual false, abstract: false, final false
   inline void SetParticlesAndTrails(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle> particles, ::UnityEngine::ParticleSystem_Trails trailData, int32_t size);
 
-  /// @brief Method SetParticlesAndTrails, addr 0x7004f50, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetParticlesAndTrails, addr 0x7006030, size 0xa0, virtual false, abstract: false, final false
   inline void SetParticlesAndTrails(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle> particles, ::UnityEngine::ParticleSystem_Trails trailData, int32_t size,
                                     int32_t offset);
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::SetParticlesAndTrailDataWithNativeArray", HasExplicitThis = true, ThrowsException = true)]
-  /// @brief Method SetParticlesAndTrailsWithNativeArray, addr 0x7004e1c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetParticlesAndTrailsWithNativeArray, addr 0x7005efc, size 0xc0, virtual false, abstract: false, final false
   inline void SetParticlesAndTrailsWithNativeArray(::System::IntPtr particles, ::UnityEngine::ParticleSystem_Trails trailData, int32_t particlesLength, int32_t size, int32_t offset);
 
-  /// @brief Method SetParticlesAndTrailsWithNativeArray_Injected, addr 0x7004edc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetParticlesAndTrailsWithNativeArray_Injected, addr 0x7005fbc, size 0x74, virtual false, abstract: false, final false
   static inline void SetParticlesAndTrailsWithNativeArray_Injected(::System::IntPtr _unity_self, ::System::IntPtr particles, ::by_ref<::UnityEngine::ParticleSystem_Trails const> trailData,
                                                                    int32_t particlesLength, int32_t size, int32_t offset);
 
-  /// @brief Method SetParticlesAndTrails_Injected, addr 0x7004d4c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetParticlesAndTrails_Injected, addr 0x7005e2c, size 0x6c, virtual false, abstract: false, final false
   static inline void SetParticlesAndTrails_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> particles,
                                                     ::by_ref<::UnityEngine::ParticleSystem_Trails const> trailData, int32_t size, int32_t offset);
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::SetParticlesWithNativeArray", HasExplicitThis = true, ThrowsException = true)]
-  /// @brief Method SetParticlesWithNativeArray, addr 0x7003cdc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SetParticlesWithNativeArray, addr 0x7004dbc, size 0xb0, virtual false, abstract: false, final false
   inline void SetParticlesWithNativeArray(::System::IntPtr particles, int32_t particlesLength, int32_t size, int32_t offset);
 
-  /// @brief Method SetParticlesWithNativeArray_Injected, addr 0x7003d8c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetParticlesWithNativeArray_Injected, addr 0x7004e6c, size 0x6c, virtual false, abstract: false, final false
   static inline void SetParticlesWithNativeArray_Injected(::System::IntPtr _unity_self, ::System::IntPtr particles, int32_t particlesLength, int32_t size, int32_t offset);
 
-  /// @brief Method SetParticles_Injected, addr 0x7003c6c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetParticles_Injected, addr 0x7004d4c, size 0x5c, virtual false, abstract: false, final false
   static inline void SetParticles_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> particles, int32_t size, int32_t offset);
 
-  /// @brief Method SetPlaybackState, addr 0x70047f8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetPlaybackState, addr 0x70058d8, size 0x90, virtual false, abstract: false, final false
   inline void SetPlaybackState(::UnityEngine::ParticleSystem_PlaybackState playbackState);
 
-  /// @brief Method SetPlaybackState_Injected, addr 0x7004888, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetPlaybackState_Injected, addr 0x7005968, size 0x44, virtual false, abstract: false, final false
   static inline void SetPlaybackState_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ParticleSystem_PlaybackState const> playbackState);
 
   /// [Obsolete("SetTrails is deprecated. Use SetParticlesAndTrails() instead. Avoid SetTrails when ParticleSystem.trails.dieWithParticles is false.", false)]
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::SetTrailData", HasExplicitThis = true)]
-  /// @brief Method SetTrails, addr 0x7001670, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetTrails, addr 0x7002750, size 0x90, virtual false, abstract: false, final false
   inline void SetTrails(::UnityEngine::ParticleSystem_Trails trailData);
 
-  /// @brief Method SetTrails_Injected, addr 0x7001700, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetTrails_Injected, addr 0x70027e0, size 0x44, virtual false, abstract: false, final false
   static inline void SetTrails_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ParticleSystem_Trails const> trailData);
 
-  /// @brief Method Simulate, addr 0x700518c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Simulate, addr 0x700626c, size 0x10, virtual false, abstract: false, final false
   inline void Simulate(float_t t);
 
-  /// @brief Method Simulate, addr 0x7005180, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Simulate, addr 0x7006260, size 0xc, virtual false, abstract: false, final false
   inline void Simulate(float_t t, /* [DefaultValue("true")] */ bool withChildren);
 
-  /// @brief Method Simulate, addr 0x7005178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Simulate, addr 0x7006258, size 0x8, virtual false, abstract: false, final false
   inline void Simulate(float_t t, /* [DefaultValue("true")] */ bool withChildren, /* [DefaultValue("true")] */ bool restart);
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::Simulate", HasExplicitThis = true)]
-  /// @brief Method Simulate, addr 0x7005054, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Simulate, addr 0x7006134, size 0xb8, virtual false, abstract: false, final false
   inline void Simulate(float_t t, /* [DefaultValue("true")] */ bool withChildren, /* [DefaultValue("true")] */ bool restart, /* [DefaultValue("true")] */ bool fixedTimeStep);
 
-  /// @brief Method Simulate_Injected, addr 0x700510c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Simulate_Injected, addr 0x70061ec, size 0x6c, virtual false, abstract: false, final false
   static inline void Simulate_Injected(::System::IntPtr _unity_self, float_t t, /* [DefaultValue("true")] */ bool withChildren, /* [DefaultValue("true")] */ bool restart,
                                        /* [DefaultValue("true")] */ bool fixedTimeStep);
 
-  /// @brief Method Stop, addr 0x7005448, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x7006528, size 0xc, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method Stop, addr 0x7005440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x7006520, size 0x8, virtual false, abstract: false, final false
   inline void Stop(/* [DefaultValue("true")] */ bool withChildren);
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::Stop", HasExplicitThis = true)]
-  /// @brief Method Stop, addr 0x7005354, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x7006434, size 0x98, virtual false, abstract: false, final false
   inline void Stop(/* [DefaultValue("true")] */ bool withChildren, /* [DefaultValue("ParticleSystemStopBehavior.StopEmitting")] */ ::UnityEngine::ParticleSystemStopBehavior stopBehavior);
 
-  /// @brief Method Stop_Injected, addr 0x70053ec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Stop_Injected, addr 0x70064cc, size 0x54, virtual false, abstract: false, final false
   static inline void Stop_Injected(::System::IntPtr _unity_self, /* [DefaultValue("true")] */ bool withChildren,
                                    /* [DefaultValue("ParticleSystemStopBehavior.StopEmitting")] */ ::UnityEngine::ParticleSystemStopBehavior stopBehavior);
 
-  /// @brief Method TriggerSubEmitter, addr 0x7005814, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TriggerSubEmitter, addr 0x70068f4, size 0x4, virtual false, abstract: false, final false
   inline void TriggerSubEmitter(int32_t subEmitterIndex);
 
-  /// @brief Method TriggerSubEmitter, addr 0x70058a8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method TriggerSubEmitter, addr 0x7006988, size 0x44, virtual false, abstract: false, final false
   inline void TriggerSubEmitter(int32_t subEmitterIndex, ::by_ref<::UnityEngine::ParticleSystem_Particle> particle);
 
-  /// @brief Method TriggerSubEmitter, addr 0x7005984, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method TriggerSubEmitter, addr 0x7006a64, size 0xc, virtual false, abstract: false, final false
   inline void TriggerSubEmitter(int32_t subEmitterIndex, ::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem_Particle>* particles);
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::TriggerSubEmitterForAllParticles", HasExplicitThis = true)]
-  /// @brief Method TriggerSubEmitterForAllParticles, addr 0x7005818, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TriggerSubEmitterForAllParticles, addr 0x70068f8, size 0x90, virtual false, abstract: false, final false
   inline void TriggerSubEmitterForAllParticles(int32_t subEmitterIndex);
 
-  /// @brief Method TriggerSubEmitterForAllParticles_Injected, addr 0x7005c10, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method TriggerSubEmitterForAllParticles_Injected, addr 0x7006cf0, size 0x44, virtual false, abstract: false, final false
   static inline void TriggerSubEmitterForAllParticles_Injected(::System::IntPtr _unity_self, int32_t subEmitterIndex);
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::TriggerSubEmitterForParticle", HasExplicitThis = true)]
-  /// @brief Method TriggerSubEmitterForParticle, addr 0x70058ec, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method TriggerSubEmitterForParticle, addr 0x70069cc, size 0x98, virtual false, abstract: false, final false
   inline void TriggerSubEmitterForParticle(int32_t subEmitterIndex, ::UnityEngine::ParticleSystem_Particle particle);
 
-  /// @brief Method TriggerSubEmitterForParticle_Injected, addr 0x7005b68, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method TriggerSubEmitterForParticle_Injected, addr 0x7006c48, size 0x54, virtual false, abstract: false, final false
   static inline void TriggerSubEmitterForParticle_Injected(::System::IntPtr _unity_self, int32_t subEmitterIndex, ::by_ref<::UnityEngine::ParticleSystem_Particle const> particle);
 
   /// [FreeFunction(Name = "ParticleSystemScriptBindings::TriggerSubEmitterForParticles", HasExplicitThis = true)]
-  /// @brief Method TriggerSubEmitterForParticles, addr 0x7005990, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method TriggerSubEmitterForParticles, addr 0x7006a70, size 0x1d8, virtual false, abstract: false, final false
   inline void TriggerSubEmitterForParticles(int32_t subEmitterIndex, ::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem_Particle>* particles);
 
-  /// @brief Method TriggerSubEmitterForParticles_Injected, addr 0x7005bbc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method TriggerSubEmitterForParticles_Injected, addr 0x7006c9c, size 0x54, virtual false, abstract: false, final false
   static inline void TriggerSubEmitterForParticles_Injected(::System::IntPtr _unity_self, int32_t subEmitterIndex, ::by_ref<::UnityEngine::Bindings::BlittableListWrapper> particles);
 
-  /// @brief Method UserJobCanBeScheduled, addr 0x70063e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method UserJobCanBeScheduled, addr 0x70074c8, size 0x28, virtual false, abstract: false, final false
   static inline bool UserJobCanBeScheduled();
 
-  /// @brief Method .ctor, addr 0x700651c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70075fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_automaticCullingEnabled, addr 0x7002d74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_automaticCullingEnabled, addr 0x7003e54, size 0x4, virtual false, abstract: false, final false
   inline bool get_automaticCullingEnabled();
 
-  /// @brief Method get_collision, addr 0x70064c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_collision, addr 0x70075a8, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystem_CollisionModule get_collision();
 
-  /// @brief Method get_colorBySpeed, addr 0x7006474, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_colorBySpeed, addr 0x7007554, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystem_ColorBySpeedModule get_colorBySpeed();
 
-  /// @brief Method get_colorOverLifetime, addr 0x7006468, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_colorOverLifetime, addr 0x7007548, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystem_ColorOverLifetimeModule get_colorOverLifetime();
 
-  /// @brief Method get_customData, addr 0x7006510, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_customData, addr 0x70075f0, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystem_CustomDataModule get_customData();
 
-  /// @brief Method get_duration, addr 0x7001ca0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_duration, addr 0x7002d80, size 0x40, virtual false, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method get_emission, addr 0x7001e70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_emission, addr 0x7002f50, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystem_EmissionModule get_emission();
 
-  /// @brief Method get_emissionRate, addr 0x7001f3c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_emissionRate, addr 0x700301c, size 0x40, virtual false, abstract: false, final false
   inline float_t get_emissionRate();
 
-  /// @brief Method get_enableEmission, addr 0x7001e2c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_enableEmission, addr 0x7002f0c, size 0x44, virtual false, abstract: false, final false
   inline bool get_enableEmission();
 
-  /// @brief Method get_externalForces, addr 0x70064b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_externalForces, addr 0x7007590, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystem_ExternalForcesModule get_externalForces();
 
-  /// @brief Method get_forceOverLifetime, addr 0x700645c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_forceOverLifetime, addr 0x700753c, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystem_ForceOverLifetimeModule get_forceOverLifetime();
 
-  /// @brief Method get_gravityModifier, addr 0x700294c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_gravityModifier, addr 0x7003a2c, size 0x40, virtual false, abstract: false, final false
   inline float_t get_gravityModifier();
 
   /// [NativeName("Has3DParticleRotations")]
-  /// @brief Method get_has3DParticleRotations, addr 0x7005f0c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_has3DParticleRotations, addr 0x7006fec, size 0x80, virtual false, abstract: false, final false
   inline bool get_has3DParticleRotations();
 
-  /// @brief Method get_has3DParticleRotations_Injected, addr 0x7005f8c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_has3DParticleRotations_Injected, addr 0x700706c, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_has3DParticleRotations_Injected(::System::IntPtr _unity_self);
 
   /// [NativeName("HasNonUniformParticleSizes")]
-  /// @brief Method get_hasNonUniformParticleSizes, addr 0x7005fc8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_hasNonUniformParticleSizes, addr 0x70070a8, size 0x80, virtual false, abstract: false, final false
   inline bool get_hasNonUniformParticleSizes();
 
-  /// @brief Method get_hasNonUniformParticleSizes_Injected, addr 0x7006048, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_hasNonUniformParticleSizes_Injected, addr 0x7007128, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_hasNonUniformParticleSizes_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_inheritVelocity, addr 0x7006444, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_inheritVelocity, addr 0x7007524, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystem_InheritVelocityModule get_inheritVelocity();
 
   /// [NativeName("SyncJobs(false)->IsEmitting")]
-  /// @brief Method get_isEmitting, addr 0x7002eb4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_isEmitting, addr 0x7003f94, size 0x80, virtual false, abstract: false, final false
   inline bool get_isEmitting();
 
-  /// @brief Method get_isEmitting_Injected, addr 0x7002f34, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isEmitting_Injected, addr 0x7004014, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isEmitting_Injected(::System::IntPtr _unity_self);
 
   /// [NativeName("SyncJobs(false)->IsPaused")]
-  /// @brief Method get_isPaused, addr 0x700302c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_isPaused, addr 0x700410c, size 0x80, virtual false, abstract: false, final false
   inline bool get_isPaused();
 
-  /// @brief Method get_isPaused_Injected, addr 0x70030ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isPaused_Injected, addr 0x700418c, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isPaused_Injected(::System::IntPtr _unity_self);
 
   /// [NativeName("SyncJobs(false)->IsPlaying")]
-  /// @brief Method get_isPlaying, addr 0x7002df8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_isPlaying, addr 0x7003ed8, size 0x80, virtual false, abstract: false, final false
   inline bool get_isPlaying();
 
-  /// @brief Method get_isPlaying_Injected, addr 0x7002e78, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isPlaying_Injected, addr 0x7003f58, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isPlaying_Injected(::System::IntPtr _unity_self);
 
   /// [NativeName("SyncJobs(false)->IsStopped")]
-  /// @brief Method get_isStopped, addr 0x7002f70, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_isStopped, addr 0x7004050, size 0x80, virtual false, abstract: false, final false
   inline bool get_isStopped();
 
-  /// @brief Method get_isStopped_Injected, addr 0x7002ff0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isStopped_Injected, addr 0x70040d0, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isStopped_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_lifetimeByEmitterSpeed, addr 0x7006450, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_lifetimeByEmitterSpeed, addr 0x7007530, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystem_LifetimeByEmitterSpeedModule get_lifetimeByEmitterSpeed();
 
-  /// @brief Method get_lights, addr 0x70064f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_lights, addr 0x70075d8, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystem_LightsModule get_lights();
 
-  /// @brief Method get_limitVelocityOverLifetime, addr 0x7006438, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_limitVelocityOverLifetime, addr 0x7007518, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystem_LimitVelocityOverLifetimeModule get_limitVelocityOverLifetime();
 
-  /// @brief Method get_loop, addr 0x7001a88, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_loop, addr 0x7002b68, size 0x44, virtual false, abstract: false, final false
   inline bool get_loop();
 
-  /// @brief Method get_main, addr 0x70019b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_main, addr 0x7002a94, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystem_MainModule get_main();
 
-  /// @brief Method get_maxParticles, addr 0x7002a5c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_maxParticles, addr 0x7003b3c, size 0x40, virtual false, abstract: false, final false
   inline int32_t get_maxParticles();
 
-  /// @brief Method get_noise, addr 0x70064bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_noise, addr 0x700759c, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystem_NoiseModule get_noise();
 
   /// [NativeName("SyncJobs(false)->GetParticleCount")]
-  /// @brief Method get_particleCount, addr 0x70030e8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_particleCount, addr 0x70041c8, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_particleCount();
 
-  /// @brief Method get_particleCount_Injected, addr 0x7003168, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_particleCount_Injected, addr 0x7004248, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_particleCount_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_playOnAwake, addr 0x7001b94, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_playOnAwake, addr 0x7002c74, size 0x44, virtual false, abstract: false, final false
   inline bool get_playOnAwake();
 
-  /// @brief Method get_playbackSpeed, addr 0x7001d1c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_playbackSpeed, addr 0x7002dfc, size 0x40, virtual false, abstract: false, final false
   inline float_t get_playbackSpeed();
 
-  /// @brief Method get_proceduralSimulationSupported, addr 0x7002d78, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_proceduralSimulationSupported, addr 0x7003e58, size 0x80, virtual false, abstract: false, final false
   inline bool get_proceduralSimulationSupported();
 
-  /// @brief Method get_proceduralSimulationSupported_Injected, addr 0x7003718, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_proceduralSimulationSupported_Injected, addr 0x70047f8, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_proceduralSimulationSupported_Injected(::System::IntPtr _unity_self);
 
   /// [NativeName("GetRandomSeed")]
-  /// @brief Method get_randomSeed, addr 0x70033f8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_randomSeed, addr 0x70044d8, size 0x80, virtual false, abstract: false, final false
   inline uint32_t get_randomSeed();
 
-  /// @brief Method get_randomSeed_Injected, addr 0x7003478, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_randomSeed_Injected, addr 0x7004558, size 0x3c, virtual false, abstract: false, final false
   static inline uint32_t get_randomSeed_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_rotationBySpeed, addr 0x70064a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_rotationBySpeed, addr 0x7007584, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystem_RotationBySpeedModule get_rotationBySpeed();
 
-  /// @brief Method get_rotationOverLifetime, addr 0x7006498, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_rotationOverLifetime, addr 0x7007578, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystem_RotationOverLifetimeModule get_rotationOverLifetime();
 
-  /// @brief Method get_scalingMode, addr 0x7002c6c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_scalingMode, addr 0x7003d4c, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystemScalingMode get_scalingMode();
 
-  /// @brief Method get_shape, addr 0x7006420, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_shape, addr 0x7007500, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystem_ShapeModule get_shape();
 
-  /// @brief Method get_simulationSpace, addr 0x7002b64, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_simulationSpace, addr 0x7003c44, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystemSimulationSpace get_simulationSpace();
 
-  /// @brief Method get_sizeBySpeed, addr 0x700648c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_sizeBySpeed, addr 0x700756c, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystem_SizeBySpeedModule get_sizeBySpeed();
 
-  /// @brief Method get_sizeOverLifetime, addr 0x7006480, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_sizeOverLifetime, addr 0x7007560, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystem_SizeOverLifetimeModule get_sizeOverLifetime();
 
-  /// @brief Method get_startColor, addr 0x700228c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_startColor, addr 0x700336c, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_startColor();
 
-  /// @brief Method get_startDelay, addr 0x7001974, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_startDelay, addr 0x7002a54, size 0x40, virtual false, abstract: false, final false
   inline float_t get_startDelay();
 
-  /// @brief Method get_startLifetime, addr 0x700283c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_startLifetime, addr 0x700391c, size 0x40, virtual false, abstract: false, final false
   inline float_t get_startLifetime();
 
-  /// @brief Method get_startRotation, addr 0x7002430, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_startRotation, addr 0x7003510, size 0x40, virtual false, abstract: false, final false
   inline float_t get_startRotation();
 
-  /// @brief Method get_startRotation3D, addr 0x7002540, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_startRotation3D, addr 0x7003620, size 0xb4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_startRotation3D();
 
-  /// @brief Method get_startSize, addr 0x700217c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_startSize, addr 0x700325c, size 0x40, virtual false, abstract: false, final false
   inline float_t get_startSize();
 
-  /// @brief Method get_startSpeed, addr 0x700206c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_startSpeed, addr 0x700314c, size 0x40, virtual false, abstract: false, final false
   inline float_t get_startSpeed();
 
-  /// @brief Method get_subEmitters, addr 0x70064e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_subEmitters, addr 0x70075c0, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystem_SubEmittersModule get_subEmitters();
 
-  /// @brief Method get_textureSheetAnimation, addr 0x70064ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_textureSheetAnimation, addr 0x70075cc, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystem_TextureSheetAnimationModule get_textureSheetAnimation();
 
   /// [NativeName("SyncJobs(false)->GetSecPosition")]
-  /// @brief Method get_time, addr 0x70031a4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x7004284, size 0x80, virtual false, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_time_Injected, addr 0x7003224, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_time_Injected, addr 0x7004304, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_time_Injected(::System::IntPtr _unity_self);
 
   /// [NativeName("SyncJobs(false)->GetTotalSecPosition")]
-  /// @brief Method get_totalTime, addr 0x700333c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_totalTime, addr 0x700441c, size 0x80, virtual false, abstract: false, final false
   inline float_t get_totalTime();
 
-  /// @brief Method get_totalTime_Injected, addr 0x70033bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_totalTime_Injected, addr 0x700449c, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_totalTime_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_trails, addr 0x7006504, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_trails, addr 0x70075e4, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystem_TrailModule get_trails();
 
-  /// @brief Method get_trigger, addr 0x70064d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_trigger, addr 0x70075b4, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystem_TriggerModule get_trigger();
 
   /// [NativeName("GetAutoRandomSeed")]
-  /// @brief Method get_useAutoRandomSeed, addr 0x7003588, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_useAutoRandomSeed, addr 0x7004668, size 0x80, virtual false, abstract: false, final false
   inline bool get_useAutoRandomSeed();
 
-  /// @brief Method get_useAutoRandomSeed_Injected, addr 0x7003608, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_useAutoRandomSeed_Injected, addr 0x70046e8, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_useAutoRandomSeed_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_velocityOverLifetime, addr 0x700642c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_velocityOverLifetime, addr 0x700750c, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystem_VelocityOverLifetimeModule get_velocityOverLifetime();
 
-  /// @brief Method set_emissionRate, addr 0x7001fb8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_emissionRate, addr 0x7003098, size 0x30, virtual false, abstract: false, final false
   inline void set_emissionRate(float_t value);
 
-  /// @brief Method set_enableEmission, addr 0x7001eb0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_enableEmission, addr 0x7002f90, size 0x48, virtual false, abstract: false, final false
   inline void set_enableEmission(bool value);
 
-  /// @brief Method set_gravityModifier, addr 0x70029c8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_gravityModifier, addr 0x7003aa8, size 0x48, virtual false, abstract: false, final false
   inline void set_gravityModifier(float_t value);
 
-  /// @brief Method set_loop, addr 0x7001b08, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_loop, addr 0x7002be8, size 0x48, virtual false, abstract: false, final false
   inline void set_loop(bool value);
 
-  /// @brief Method set_maxParticles, addr 0x7002ad8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_maxParticles, addr 0x7003bb8, size 0x48, virtual false, abstract: false, final false
   inline void set_maxParticles(int32_t value);
 
-  /// @brief Method set_playOnAwake, addr 0x7001c14, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_playOnAwake, addr 0x7002cf4, size 0x48, virtual false, abstract: false, final false
   inline void set_playOnAwake(bool value);
 
-  /// @brief Method set_playbackSpeed, addr 0x7001d98, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_playbackSpeed, addr 0x7002e78, size 0x48, virtual false, abstract: false, final false
   inline void set_playbackSpeed(float_t value);
 
   /// [NativeName("SyncJobs(false)->SetRandomSeed")]
-  /// @brief Method set_randomSeed, addr 0x70034b4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_randomSeed, addr 0x7004594, size 0x90, virtual false, abstract: false, final false
   inline void set_randomSeed(uint32_t value);
 
-  /// @brief Method set_randomSeed_Injected, addr 0x7003544, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_randomSeed_Injected, addr 0x7004624, size 0x44, virtual false, abstract: false, final false
   static inline void set_randomSeed_Injected(::System::IntPtr _unity_self, uint32_t value);
 
-  /// @brief Method set_scalingMode, addr 0x7002ce8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_scalingMode, addr 0x7003dc8, size 0x48, virtual false, abstract: false, final false
   inline void set_scalingMode(::UnityEngine::ParticleSystemScalingMode value);
 
-  /// @brief Method set_simulationSpace, addr 0x7002be0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_simulationSpace, addr 0x7003cc0, size 0x48, virtual false, abstract: false, final false
   inline void set_simulationSpace(::UnityEngine::ParticleSystemSimulationSpace value);
 
-  /// @brief Method set_startColor, addr 0x700235c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_startColor, addr 0x700343c, size 0x38, virtual false, abstract: false, final false
   inline void set_startColor(::UnityEngine::Color value);
 
-  /// @brief Method set_startDelay, addr 0x70019f4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_startDelay, addr 0x7002ad4, size 0x48, virtual false, abstract: false, final false
   inline void set_startDelay(float_t value);
 
-  /// @brief Method set_startLifetime, addr 0x70028b8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_startLifetime, addr 0x7003998, size 0x48, virtual false, abstract: false, final false
   inline void set_startLifetime(float_t value);
 
-  /// @brief Method set_startRotation, addr 0x70024ac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_startRotation, addr 0x700358c, size 0x48, virtual false, abstract: false, final false
   inline void set_startRotation(float_t value);
 
-  /// @brief Method set_startRotation3D, addr 0x70026a8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_startRotation3D, addr 0x7003788, size 0xb0, virtual false, abstract: false, final false
   inline void set_startRotation3D(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_startSize, addr 0x70021f8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_startSize, addr 0x70032d8, size 0x48, virtual false, abstract: false, final false
   inline void set_startSize(float_t value);
 
-  /// @brief Method set_startSpeed, addr 0x70020e8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_startSpeed, addr 0x70031c8, size 0x48, virtual false, abstract: false, final false
   inline void set_startSpeed(float_t value);
 
   /// [NativeName("SyncJobs(false)->SetSecPosition")]
-  /// @brief Method set_time, addr 0x7003260, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x7004340, size 0x90, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
-  /// @brief Method set_time_Injected, addr 0x70032f0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_time_Injected, addr 0x70043d0, size 0x4c, virtual false, abstract: false, final false
   static inline void set_time_Injected(::System::IntPtr _unity_self, float_t value);
 
   /// [NativeName("SyncJobs(false)->SetAutoRandomSeed")]
-  /// @brief Method set_useAutoRandomSeed, addr 0x7003644, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_useAutoRandomSeed, addr 0x7004724, size 0x90, virtual false, abstract: false, final false
   inline void set_useAutoRandomSeed(bool value);
 
-  /// @brief Method set_useAutoRandomSeed_Injected, addr 0x70036d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_useAutoRandomSeed_Injected, addr 0x70047b4, size 0x44, virtual false, abstract: false, final false
   static inline void set_useAutoRandomSeed_Injected(::System::IntPtr _unity_self, bool value);
 
 protected:
@@ -3499,7 +3499,7 @@ public:
   ParticleSystem(ParticleSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21905 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21920 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

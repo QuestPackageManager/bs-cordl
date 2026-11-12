@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TimelineCreateUtilities___c__DisplayClass0_0::*)()>(
     &::UnityEngine::Timeline::TimelineCreateUtilities___c__DisplayClass0_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e36ea4;
+  constexpr static std::size_t addrs = 0x6e37f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TimelineCreateUtilities___c__DisplayClass0_0::*)(::UnityEngine::ScriptableObject*)>(
     &::UnityEngine::Timeline::TimelineCreateUtilities___c__DisplayClass0_0::_GenerateUniqueActorName_b__0)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6e37364;
+  constexpr static std::size_t addrs = 0x6e38444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TimelineCreateUtilities___c__DisplayClass0_0*>(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TimelineCreateUtilities___c__DisplayClass0_1::*)()>(
     &::UnityEngine::Timeline::TimelineCreateUtilities___c__DisplayClass0_1::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e36ea8;
+  constexpr static std::size_t addrs = 0x6e37f88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TimelineCreateUtilities___c__DisplayClass0_1::*)(::UnityEngine::ScriptableObject*)>(
     &::UnityEngine::Timeline::TimelineCreateUtilities___c__DisplayClass0_1::_GenerateUniqueActorName_b__1)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6e3738c;
+  constexpr static std::size_t addrs = 0x6e3846c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TimelineCreateUtilities___c__DisplayClass0_1*>(),
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>*, ::StringW)>(
     &::UnityEngine::Timeline::TimelineCreateUtilities::GenerateUniqueActorName)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x6e36bac;
+  constexpr static std::size_t addrs = 0x6e37c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Object*, ::UnityEngine::Object*)>(&::UnityEngine::Timeline::TimelineCreateUtilities::SaveAssetIntoObject)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6e369ac;
+  constexpr static std::size_t addrs = 0x6e37a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Object*, ::UnityEngine::Object*)>(&::UnityEngine::Timeline::TimelineCreateUtilities::RemoveAssetFromObject)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6e36aa4;
+  constexpr static std::size_t addrs = 0x6e37b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::AnimationClip> (*)(::StringW, ::UnityEngine::Timeline::TrackAsset*, bool)>(
     &::UnityEngine::Timeline::TimelineCreateUtilities::CreateAnimationClipForTrack)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x6e36eac;
+  constexpr static std::size_t addrs = 0x6e37f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Timeline::TrackAsset*, ::System::Type*)>(&::UnityEngine::Timeline::TimelineCreateUtilities::ValidateParentTrack)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x6e3706c;
+  constexpr static std::size_t addrs = 0x6e3814c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

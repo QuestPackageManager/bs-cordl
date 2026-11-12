@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Shader*, ::UnityEngine::Shader*)>(&::UnityEngine::Rendering::Blitter::Initialize)> {
   constexpr static std::size_t size = 0x918;
-  constexpr static std::size_t addrs = 0x6c10ca0;
+  constexpr static std::size_t addrs = 0x6c11d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Rendering::Blitter::Cleanup)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x6c118f0;
+  constexpr static std::size_t addrs = 0x6c129d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Blitter*>(), { "Cleanup", {}, {} })));
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::Rendering::TextureDimension, bool)>(&::UnityEngine::Rendering::Blitter::GetBlitMaterial)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6c11a28;
+  constexpr static std::size_t addrs = 0x6c12b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Material*, int32_t)>(&::UnityEngine::Rendering::Blitter::DrawTriangle)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6c11b20;
+  constexpr static std::size_t addrs = 0x6c12c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Material*, int32_t)>(&::UnityEngine::Rendering::Blitter::DrawTriangle)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6c11b9c;
+  constexpr static std::size_t addrs = 0x6c12c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Material*, int32_t, ::UnityEngine::MaterialPropertyBlock*)>(
     &::UnityEngine::Rendering::Blitter::DrawTriangle)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x6c11c18;
+  constexpr static std::size_t addrs = 0x6c12cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Blitter*>(),
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Material*, int32_t, ::UnityEngine::MaterialPropertyBlock*)>(
     &::UnityEngine::Rendering::Blitter::DrawQuadMesh)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6c11da8;
+  constexpr static std::size_t addrs = 0x6c12e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Blitter*>(),
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Material*, int32_t, ::UnityEngine::MaterialPropertyBlock*)>(
     &::UnityEngine::Rendering::Blitter::DrawQuad)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6c11e9c;
+  constexpr static std::size_t addrs = 0x6c12f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -268,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Material*, int32_t)>(&::UnityEngine::Rendering::Blitter::DrawQuad)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6c120b8;
+  constexpr static std::size_t addrs = 0x6c13198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Material*, int32_t, ::UnityEngine::MaterialPropertyBlock*)>(
     &::UnityEngine::Rendering::Blitter::DrawQuad)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x6c11f28;
+  constexpr static std::size_t addrs = 0x6c13008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Blitter*>(),
@@ -300,7 +300,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::Blitter::CanCopyMSAA)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6c12134;
+  constexpr static std::size_t addrs = 0x6c13214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Blitter*>(), { "CanCopyMSAA", {}, {} })));
@@ -312,7 +312,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(bool)>(&::UnityEngine::Rendering::Blitter::CanCopyMSAA)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6c121d8;
+  constexpr static std::size_t addrs = 0x6c132b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Blitter*>(), { "CanCopyMSAA", {}, { ::i2c::type_of<bool>() } })));
@@ -324,7 +324,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, bool, bool)>(&::UnityEngine::Rendering::Blitter::CopyTexture)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6c122e0;
+  constexpr static std::size_t addrs = 0x6c133c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -339,7 +339,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Vector4, float_t, int32_t, bool)>(
     &::UnityEngine::Rendering::Blitter::BlitTexture)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6c123dc;
+  constexpr static std::size_t addrs = 0x6c134bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -357,7 +357,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Vector4, ::UnityEngine::Material*,
                                                                 int32_t, float_t, int32_t)>(&::UnityEngine::Rendering::Blitter::BlitTexture)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6c124f4;
+  constexpr static std::size_t addrs = 0x6c135d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -376,7 +376,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Vector4, float_t, bool)>(
     &::UnityEngine::Rendering::Blitter::BlitTexture)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6c1276c;
+  constexpr static std::size_t addrs = 0x6c1384c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -394,7 +394,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Vector4, float_t, bool)>(
     &::UnityEngine::Rendering::Blitter::BlitTexture)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x6c12828;
+  constexpr static std::size_t addrs = 0x6c13908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -412,7 +412,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Vector4, float_t, bool)>(
     &::UnityEngine::Rendering::Blitter::BlitTexture2D)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6c12a14;
+  constexpr static std::size_t addrs = 0x6c13af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -430,7 +430,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Vector4, float_t, bool)>(
     &::UnityEngine::Rendering::Blitter::BlitTexture2D)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6c12ad0;
+  constexpr static std::size_t addrs = 0x6c13bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -448,7 +448,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Texture*, ::UnityEngine::RenderTexture*, ::UnityEngine::Vector4, float_t,
                                                                 bool)>(&::UnityEngine::Rendering::Blitter::BlitColorAndDepth)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6c12c30;
+  constexpr static std::size_t addrs = 0x6c13d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -466,7 +466,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Texture*, ::UnityEngine::RenderTexture*, ::UnityEngine::Vector4, float_t,
                                                                 bool)>(&::UnityEngine::Rendering::Blitter::BlitColorAndDepth)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x6c12cfc;
+  constexpr static std::size_t addrs = 0x6c13ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -484,7 +484,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::RenderTexture*, ::UnityEngine::Vector4, float_t)>(
     &::UnityEngine::Rendering::Blitter::BlitDepth)> {
   constexpr static std::size_t size = 0x344;
-  constexpr static std::size_t addrs = 0x6c12ef4;
+  constexpr static std::size_t addrs = 0x6c13fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -502,7 +502,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Vector4, ::UnityEngine::Material*,
                                                                 int32_t)>(&::UnityEngine::Rendering::Blitter::BlitTexture)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6c13238;
+  constexpr static std::size_t addrs = 0x6c14318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -520,7 +520,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::UnsafeCommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Vector4, ::UnityEngine::Material*,
                                                                 int32_t)>(&::UnityEngine::Rendering::Blitter::BlitTexture)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6c132f4;
+  constexpr static std::size_t addrs = 0x6c143d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -538,7 +538,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Vector4, ::UnityEngine::Material*,
                                                                 int32_t)>(&::UnityEngine::Rendering::Blitter::BlitTexture)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6c12638;
+  constexpr static std::size_t addrs = 0x6c13718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -556,7 +556,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Vector4,
                                                                 ::UnityEngine::Material*, int32_t)>(&::UnityEngine::Rendering::Blitter::BlitTexture)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6c133b0;
+  constexpr static std::size_t addrs = 0x6c14490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -574,7 +574,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Vector4,
                                                                 ::UnityEngine::Material*, int32_t)>(&::UnityEngine::Rendering::Blitter::BlitTexture)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6c13488;
+  constexpr static std::size_t addrs = 0x6c14568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -593,7 +593,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
                                                                 ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Material*, int32_t)>(
     &::UnityEngine::Rendering::Blitter::BlitTexture)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x6c135d8;
+  constexpr static std::size_t addrs = 0x6c146b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -612,7 +612,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RenderBufferLoadAction,
     ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Material*, int32_t)>(&::UnityEngine::Rendering::Blitter::BlitTexture)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x6c13770;
+  constexpr static std::size_t addrs = 0x6c14850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -631,7 +631,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Vector4, ::UnityEngine::Material*, int32_t)>(
     &::UnityEngine::Rendering::Blitter::BlitTexture)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6c13918;
+  constexpr static std::size_t addrs = 0x6c149f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Blitter*>(),
@@ -648,7 +648,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Vector4, ::UnityEngine::Material*, int32_t)>(
     &::UnityEngine::Rendering::Blitter::BlitTexture)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6c13a0c;
+  constexpr static std::size_t addrs = 0x6c14aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -666,7 +666,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*, float_t, bool)>(
     &::UnityEngine::Rendering::Blitter::BlitCameraTexture)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x6c13b00;
+  constexpr static std::size_t addrs = 0x6c14be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -684,7 +684,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*, float_t, bool)>(
     &::UnityEngine::Rendering::Blitter::BlitCameraTexture2D)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x6c13c68;
+  constexpr static std::size_t addrs = 0x6c14d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -702,7 +702,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*,
                                                                 ::UnityEngine::Material*, int32_t)>(&::UnityEngine::Rendering::Blitter::BlitCameraTexture)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6c13dd0;
+  constexpr static std::size_t addrs = 0x6c14eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -721,7 +721,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
                                                                 ::UnityEngine::Vector4, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction,
                                                                 ::UnityEngine::Material*, int32_t)>(&::UnityEngine::Rendering::Blitter::BlitCameraTexture)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6c13f30;
+  constexpr static std::size_t addrs = 0x6c15010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -742,7 +742,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RenderBufferLoadAction,
                          ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Material*, int32_t)>(&::UnityEngine::Rendering::Blitter::BlitCameraTexture)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6c1405c;
+  constexpr static std::size_t addrs = 0x6c1513c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -761,7 +761,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*,
                                                                 ::UnityEngine::Vector4, float_t, bool)>(&::UnityEngine::Rendering::Blitter::BlitCameraTexture)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6c14190;
+  constexpr static std::size_t addrs = 0x6c15270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -780,7 +780,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rect,
                                                                 float_t, bool)>(&::UnityEngine::Rendering::Blitter::BlitCameraTexture)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x6c14294;
+  constexpr static std::size_t addrs = 0x6c15374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -799,7 +799,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Texture*, ::UnityEngine::Vector4, ::UnityEngine::Vector4, int32_t, bool)>(
     &::UnityEngine::Rendering::Blitter::BlitQuad)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x6c0a2d0;
+  constexpr static std::size_t addrs = 0x6c0b3b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -817,7 +817,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Texture*, ::UnityEngine::Vector2, ::UnityEngine::Vector4,
                                                                 ::UnityEngine::Vector4, int32_t, bool, int32_t)>(&::UnityEngine::Rendering::Blitter::BlitQuadWithPadding)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x6c0239c;
+  constexpr static std::size_t addrs = 0x6c0347c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -836,7 +836,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Texture*, ::UnityEngine::Vector2, ::UnityEngine::Vector4,
                                                                 ::UnityEngine::Vector4, int32_t, bool, int32_t)>(&::UnityEngine::Rendering::Blitter::BlitQuadWithPaddingMultiply)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x6c02648;
+  constexpr static std::size_t addrs = 0x6c03728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -855,7 +855,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Texture*, ::UnityEngine::Vector2, ::UnityEngine::Vector4,
                                                                 ::UnityEngine::Vector4, int32_t, bool, int32_t)>(&::UnityEngine::Rendering::Blitter::BlitOctahedralWithPadding)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x6c028f4;
+  constexpr static std::size_t addrs = 0x6c039d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -874,7 +874,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Texture*, ::UnityEngine::Vector2, ::UnityEngine::Vector4,
                                                                 ::UnityEngine::Vector4, int32_t, bool, int32_t)>(&::UnityEngine::Rendering::Blitter::BlitOctahedralWithPaddingMultiply)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x6c02b1c;
+  constexpr static std::size_t addrs = 0x6c03bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -893,7 +893,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Texture*, ::UnityEngine::Vector4, int32_t)>(
     &::UnityEngine::Rendering::Blitter::BlitCubeToOctahedral2DQuad)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x6c0aae8;
+  constexpr static std::size_t addrs = 0x6c0bbc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Blitter*>(),
@@ -910,7 +910,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Texture*, ::UnityEngine::Vector2, ::UnityEngine::Vector4, int32_t, bool,
                                                                 int32_t, ::System::Nullable_1<::UnityEngine::Vector4>)>(&::UnityEngine::Rendering::Blitter::BlitCubeToOctahedral2DQuadWithPadding)> {
   constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x6c1443c;
+  constexpr static std::size_t addrs = 0x6c1551c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -929,7 +929,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Texture*, ::UnityEngine::Vector4, int32_t)>(
     &::UnityEngine::Rendering::Blitter::BlitCubeToOctahedral2DQuadSingleChannel)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x6c0af9c;
+  constexpr static std::size_t addrs = 0x6c0c07c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Blitter*>(),
@@ -946,7 +946,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Texture*, ::UnityEngine::Vector4, ::UnityEngine::Vector4, int32_t)>(
     &::UnityEngine::Rendering::Blitter::BlitQuadSingleChannel)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x6c0ac98;
+  constexpr static std::size_t addrs = 0x6c0bd78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -963,7 +963,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Vector3> (*)(float_t)>(&::UnityEngine::Rendering::Blitter::_Initialize_g__GetFullScreenTriangleVertexPosition_17_0)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6c115b8;
+  constexpr static std::size_t addrs = 0x6c12698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -977,7 +977,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Vector2> (*)()>(&::UnityEngine::Rendering::Blitter::_Initialize_g__GetFullScreenTriangleTexCoord_17_1)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6c1166c;
+  constexpr static std::size_t addrs = 0x6c1274c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -990,7 +990,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Vector3> (*)(float_t)>(&::UnityEngine::Rendering::Blitter::_Initialize_g__GetQuadVertexPosition_17_2)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6c11768;
+  constexpr static std::size_t addrs = 0x6c12848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1003,7 +1003,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Vector2> (*)()>(&::UnityEngine::Rendering::Blitter::_Initialize_g__GetQuadTexCoord_17_3)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6c11810;
+  constexpr static std::size_t addrs = 0x6c128f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Blitter*>(), { "<Initialize>g__GetQuadTexCoord|17_3", {}, {} })));

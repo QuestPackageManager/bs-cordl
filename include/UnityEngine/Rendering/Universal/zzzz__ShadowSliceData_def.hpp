@@ -22,7 +22,7 @@ namespace UnityEngine::Rendering::Universal {
 struct CORDL_TYPE ShadowSliceData {
 public:
   // Declarations
-  /// @brief Method Clear, addr 0x6d2fcc4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6d30da4, size 0x90, virtual false, abstract: false, final false
   inline void Clear();
 
   // Ctor Parameters []

@@ -52,22 +52,22 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerProgressBar* New_ctor();
 
-  /// @brief Method OnDeselection, addr 0x6c7145c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method OnDeselection, addr 0x6c7253c, size 0x2c, virtual true, abstract: false, final false
   inline void OnDeselection();
 
-  /// @brief Method OnEnable, addr 0x6c712b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6c72398, size 0x8, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnSelection, addr 0x6c71424, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method OnSelection, addr 0x6c72504, size 0x38, virtual true, abstract: false, final false
   inline bool OnSelection(bool fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous);
 
-  /// @brief Method SetWidget, addr 0x6c712c0, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x6c723a0, size 0x90, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
-  /// @brief Method Update, addr 0x6c71488, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6c72568, size 0x84, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateValue, addr 0x6c71350, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method UpdateValue, addr 0x6c72430, size 0xd4, virtual false, abstract: false, final false
   inline void UpdateValue();
 
   constexpr float_t const& __cordl_internal_get_m_Timer() const;
@@ -100,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set_valueLabel(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x6c7150c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c725ec, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

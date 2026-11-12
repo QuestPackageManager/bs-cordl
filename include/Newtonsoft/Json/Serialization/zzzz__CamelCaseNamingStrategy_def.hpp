@@ -27,16 +27,16 @@ public:
   static inline ::Newtonsoft::Json::Serialization::CamelCaseNamingStrategy* New_ctor(bool processDictionaryKeys, bool overrideSpecifiedNames, bool processExtensionDataNames);
 
   /// [NullableContext(1)]
-  /// @brief Method ResolvePropertyName, addr 0x618b5e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ResolvePropertyName, addr 0x618b868, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ResolvePropertyName(::StringW name);
 
-  /// @brief Method .ctor, addr 0x618b5dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x618b864, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x618b5c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x618b848, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool processDictionaryKeys, bool overrideSpecifiedNames);
 
-  /// @brief Method .ctor, addr 0x618b5cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x618b854, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool processDictionaryKeys, bool overrideSpecifiedNames, bool processExtensionDataNames);
 
 protected:

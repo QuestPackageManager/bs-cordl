@@ -6,6 +6,7 @@ module;
 #include "BeatSaber/BeatAvatarSDK/AvatarData.hpp"
 #include "BeatSaber/BeatAvatarSDK/AvatarDataModel.hpp"
 #include "BeatSaber/BeatAvatarSDK/AvatarMeshPartSO.hpp"
+#include "BeatSaber/BeatAvatarSDK/AvatarOrigin.hpp"
 #include "BeatSaber/BeatAvatarSDK/AvatarPart.hpp"
 #include "BeatSaber/BeatAvatarSDK/AvatarPartCollection_1.hpp"
 #include "BeatSaber/BeatAvatarSDK/AvatarPartSO_1.hpp"

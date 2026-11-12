@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::SecretKeyPacket::*)(::Org::BouncyCastle::Bcpg::BcpgInputStream*)>(
     &::Org::BouncyCastle::Bcpg::SecretKeyPacket::_ctor)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x3946e94;
+  constexpr static std::size_t addrs = 0x394b32c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Bcpg::PublicKeyPacket*, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag, ::Org::BouncyCastle::Bcpg::S2k*, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Bcpg::SecretKeyPacket::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x394bad8;
+  constexpr static std::size_t addrs = 0x394ff70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Bcpg::PublicKeyPacket*, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag, int32_t, ::Org::BouncyCastle::Bcpg::S2k*, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Bcpg::SecretKeyPacket::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x394bb84;
+  constexpr static std::size_t addrs = 0x395001c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag (::Org::BouncyCastle::Bcpg::SecretKeyPacket::*)()>(
     &::Org::BouncyCastle::Bcpg::SecretKeyPacket::get_EncAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x394bc28;
+  constexpr static std::size_t addrs = 0x39500c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::SecretKeyPacket*>(), { "get_EncAlgorithm", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::SecretKeyPacket::*)()>(&::Org::BouncyCastle::Bcpg::SecretKeyPacket::get_S2kUsage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x394bc30;
+  constexpr static std::size_t addrs = 0x39500c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::SecretKeyPacket*>(), { "get_S2kUsage", {}, {} })));
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Bcpg::SecretKeyPacket::*)()>(&::Org::BouncyCastle::Bcpg::SecretKeyPacket::GetIV)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x394bc38;
+  constexpr static std::size_t addrs = 0x39500d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::SecretKeyPacket*>(), { "GetIV", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::S2k* (::Org::BouncyCastle::Bcpg::SecretKeyPacket::*)()>(&::Org::BouncyCastle::Bcpg::SecretKeyPacket::get_S2k)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x394bc98;
+  constexpr static std::size_t addrs = 0x3950130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::SecretKeyPacket*>(), { "get_S2k", {}, {} })));
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::PublicKeyPacket* (::Org::BouncyCastle::Bcpg::SecretKeyPacket::*)()>(
     &::Org::BouncyCastle::Bcpg::SecretKeyPacket::get_PublicKeyPacket)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x394bca0;
+  constexpr static std::size_t addrs = 0x3950138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::SecretKeyPacket*>(), { "get_PublicKeyPacket", {}, {} })));
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Bcpg::SecretKeyPacket::*)()>(&::Org::BouncyCastle::Bcpg::SecretKeyPacket::GetSecretKeyData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x394bca8;
+  constexpr static std::size_t addrs = 0x3950140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::SecretKeyPacket*>(), { "GetSecretKeyData", {}, {} })));
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Bcpg::SecretKeyPacket::*)()>(&::Org::BouncyCastle::Bcpg::SecretKeyPacket::GetEncodedContents)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x394bcb0;
+  constexpr static std::size_t addrs = 0x3950148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::SecretKeyPacket*>(), { "GetEncodedContents", {}, {} })));
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::SecretKeyPacket::*)(::Org::BouncyCastle::Bcpg::BcpgOutputStream*)>(
     &::Org::BouncyCastle::Bcpg::SecretKeyPacket::Encode)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x394be18;
+  constexpr static std::size_t addrs = 0x39502b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

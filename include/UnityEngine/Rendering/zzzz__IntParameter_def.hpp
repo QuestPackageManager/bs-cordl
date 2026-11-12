@@ -22,12 +22,12 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE IntParameter : public ::UnityEngine::Rendering::VolumeParameter_1<int32_t> {
 public:
   // Declarations
-  /// @brief Method Interp, addr 0x6c2756c, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method Interp, addr 0x6c2864c, size 0x34, virtual true, abstract: false, final true
   inline void Interp(int32_t from, int32_t to, float_t t);
 
   static inline ::UnityEngine::Rendering::IntParameter* New_ctor(int32_t value, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x6c27508, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c285e8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(int32_t value, bool overrideState);
 
 protected:

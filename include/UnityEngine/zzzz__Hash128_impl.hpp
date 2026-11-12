@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Hash128::*)(uint64_t, uint64_t)>(&::UnityEngine::Hash128::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f5d4b0;
+  constexpr static std::size_t addrs = 0x6f5e590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Hash128::*)()>(&::UnityEngine::Hash128::get_isValid)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6f5d4b8;
+  constexpr static std::size_t addrs = 0x6f5e598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Hash128>(), { "get_isValid", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Hash128::*)(::UnityEngine::Hash128)>(&::UnityEngine::Hash128::CompareTo)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6f5d4d8;
+  constexpr static std::size_t addrs = 0x6f5e5b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Hash128::*)()>(&::UnityEngine::Hash128::ToString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6f5d564;
+  constexpr static std::size_t addrs = 0x6f5e644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Hash128>(), { ::i2c::class_of<::UnityEngine::Hash128>(), 3 }));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Hash128 (*)(::StringW)>(&::UnityEngine::Hash128::Parse)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6f5d640;
+  constexpr static std::size_t addrs = 0x6f5e720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Hash128>(), { "Parse", {}, { ::i2c::type_of<::StringW>() } })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::Hash128)>(&::UnityEngine::Hash128::Hash128ToStringImpl)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6f5d570;
+  constexpr static std::size_t addrs = 0x6f5e650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::by_ref<::UnityEngine::Hash128>)>(&::UnityEngine::Hash128::ComputeFromString)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6f5d7fc;
+  constexpr static std::size_t addrs = 0x6f5e8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, int32_t, int32_t, ::by_ref<::UnityEngine::Hash128>)>(&::UnityEngine::Hash128::ComputeFromPtr)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6f5d974;
+  constexpr static std::size_t addrs = 0x6f5ea54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Hash128 (*)(::StringW)>(&::UnityEngine::Hash128::Compute)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6f5d9e0;
+  constexpr static std::size_t addrs = 0x6f5eac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Hash128>(), { "Compute", {}, { ::i2c::type_of<::StringW>() } })));
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Hash128 (*)(int32_t)>(&::UnityEngine::Hash128::Compute)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6f5da04;
+  constexpr static std::size_t addrs = 0x6f5eae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Hash128>(), { "Compute", {}, { ::i2c::type_of<int32_t>() } })));
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Hash128::*)(int32_t)>(&::UnityEngine::Hash128::Append)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6f5da5c;
+  constexpr static std::size_t addrs = 0x6f5eb3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Hash128>(), { "Append", {}, { ::i2c::type_of<int32_t>() } })));
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Hash128::*)(::System::Object*)>(&::UnityEngine::Hash128::Equals)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6f5dac8;
+  constexpr static std::size_t addrs = 0x6f5eba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Hash128>(), { ::i2c::class_of<::UnityEngine::Hash128>(), 0 }));
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Hash128::*)(::UnityEngine::Hash128)>(&::UnityEngine::Hash128::Equals)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6f5db58;
+  constexpr static std::size_t addrs = 0x6f5ec38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Hash128>(), { "Equals", {}, { ::i2c::type_of<::UnityEngine::Hash128>() } })));
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Hash128::*)()>(&::UnityEngine::Hash128::GetHashCode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6f5db6c;
+  constexpr static std::size_t addrs = 0x6f5ec4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Hash128>(), { ::i2c::class_of<::UnityEngine::Hash128>(), 2 }));
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Hash128::*)(::System::Object*)>(&::UnityEngine::Hash128::CompareTo)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6f5db84;
+  constexpr static std::size_t addrs = 0x6f5ec64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Hash128>(), { "CompareTo", {}, { ::i2c::type_of<::System::Object*>() } })));
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Hash128, ::UnityEngine::Hash128)>(&::UnityEngine::Hash128::op_Equality)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6f5db48;
+  constexpr static std::size_t addrs = 0x6f5ec28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -215,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Hash128, ::UnityEngine::Hash128)>(&::UnityEngine::Hash128::op_Inequality)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6f5dc3c;
+  constexpr static std::size_t addrs = 0x6f5ed1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Hash128, ::UnityEngine::Hash128)>(&::UnityEngine::Hash128::op_LessThan)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6f5d524;
+  constexpr static std::size_t addrs = 0x6f5e604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Hash128, ::UnityEngine::Hash128)>(&::UnityEngine::Hash128::op_GreaterThan)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6f5d53c;
+  constexpr static std::size_t addrs = 0x6f5e61c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Hash128::*)(uint32_t)>(&::UnityEngine::Hash128::ShortHash4)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6f5da60;
+  constexpr static std::size_t addrs = 0x6f5eb40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Hash128>(), { "ShortHash4", {}, { ::i2c::type_of<uint32_t>() } })));
@@ -269,7 +269,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>)>(&::UnityEngine::Hash128::ShortEnd)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x6f5dc4c;
+  constexpr static std::size_t addrs = 0x6f5ed2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<uint64_t>, int32_t)>(&::UnityEngine::Hash128::Rot64)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6f5dde0;
+  constexpr static std::size_t addrs = 0x6f5eec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -298,7 +298,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Hash128>)>(&::UnityEngine::Hash128::Parse_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f5d774;
+  constexpr static std::size_t addrs = 0x6f5e854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -314,7 +314,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Hash128 const>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::Hash128::Hash128ToStringImpl_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f5d7b8;
+  constexpr static std::size_t addrs = 0x6f5e898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -331,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Hash128>)>(
     &::UnityEngine::Hash128::ComputeFromString_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f5d930;
+  constexpr static std::size_t addrs = 0x6f5ea10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

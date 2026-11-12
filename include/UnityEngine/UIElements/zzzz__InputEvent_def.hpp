@@ -35,10 +35,10 @@ public:
 
   static inline ::UnityEngine::UIElements::InputEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x72680d8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x72691b8, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::InputEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x72680d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72691b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::InputEvent___c* getStaticF___9();
@@ -87,13 +87,13 @@ public:
 
   __declspec(property(put = set_previousData)) ::StringW previousData;
 
-  /// @brief Method GetPooled, addr 0x7267f70, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x7269050, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::InputEvent* GetPooled(::StringW previousData, ::StringW newData);
 
-  /// @brief Method Init, addr 0x7267f04, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x7268fe4, size 0x5c, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x7267f60, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x7269040, size 0x10, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::InputEvent* New_ctor();
@@ -110,15 +110,15 @@ public:
 
   constexpr void __cordl_internal_set__previousData_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x7267ffc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72690dc, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method set_newData, addr 0x7267efc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_newData, addr 0x7268fdc, size 0x8, virtual false, abstract: false, final false
   inline void set_newData(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_previousData, addr 0x7267ef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_previousData, addr 0x7268fd4, size 0x8, virtual false, abstract: false, final false
   inline void set_previousData(::StringW value);
 
 protected:

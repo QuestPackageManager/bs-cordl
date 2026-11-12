@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DragAndDropArgs::*)(::System::Object*)>(&::UnityEngine::UIElements::DragAndDropArgs::set_target)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7256340;
+  constexpr static std::size_t addrs = 0x7257420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::DragAndDropArgs::*)()>(&::UnityEngine::UIElements::DragAndDropArgs::get_insertAtIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7256348;
+  constexpr static std::size_t addrs = 0x7257428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DragAndDropArgs>(), { "get_insertAtIndex", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DragAndDropArgs::*)(int32_t)>(&::UnityEngine::UIElements::DragAndDropArgs::set_insertAtIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7256350;
+  constexpr static std::size_t addrs = 0x7257430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::DragAndDropArgs::*)()>(&::UnityEngine::UIElements::DragAndDropArgs::get_parentId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7256358;
+  constexpr static std::size_t addrs = 0x7257438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DragAndDropArgs>(), { "get_parentId", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DragAndDropArgs::*)(int32_t)>(&::UnityEngine::UIElements::DragAndDropArgs::set_parentId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7256360;
+  constexpr static std::size_t addrs = 0x7257440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::DragAndDropArgs::*)()>(&::UnityEngine::UIElements::DragAndDropArgs::get_childIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7256368;
+  constexpr static std::size_t addrs = 0x7257448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DragAndDropArgs>(), { "get_childIndex", {}, {} })));
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DragAndDropArgs::*)(int32_t)>(&::UnityEngine::UIElements::DragAndDropArgs::set_childIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7256370;
+  constexpr static std::size_t addrs = 0x7257450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::DragAndDropPosition (::UnityEngine::UIElements::DragAndDropArgs::*)()>(
     &::UnityEngine::UIElements::DragAndDropArgs::get_dragAndDropPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7256378;
+  constexpr static std::size_t addrs = 0x7257458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DragAndDropArgs>(), { "get_dragAndDropPosition", {}, {} })));
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DragAndDropArgs::*)(::UnityEngine::UIElements::DragAndDropPosition)>(
     &::UnityEngine::UIElements::DragAndDropArgs::set_dragAndDropPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7256380;
+  constexpr static std::size_t addrs = 0x7257460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DragAndDropArgs>(),
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::DragAndDropData* (::UnityEngine::UIElements::DragAndDropArgs::*)()>(
     &::UnityEngine::UIElements::DragAndDropArgs::get_dragAndDropData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7256388;
+  constexpr static std::size_t addrs = 0x7257468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DragAndDropArgs>(), { "get_dragAndDropData", {}, {} })));
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DragAndDropArgs::*)(::UnityEngine::UIElements::DragAndDropData*)>(
     &::UnityEngine::UIElements::DragAndDropArgs::set_dragAndDropData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7256390;
+  constexpr static std::size_t addrs = 0x7257470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DragAndDropArgs>(),
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DragAndDropArgs::*)(::UnityEngine::EventModifiers)>(
     &::UnityEngine::UIElements::DragAndDropArgs::set_modifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7256398;
+  constexpr static std::size_t addrs = 0x7257478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

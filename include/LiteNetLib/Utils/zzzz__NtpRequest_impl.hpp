@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Utils::NtpRequest::*)(::System::Net::IPEndPoint*, ::System::Action_1<::LiteNetLib::Utils::NtpPacket*>*)>(
     &::LiteNetLib::Utils::NtpRequest::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5cfd274;
+  constexpr static std::size_t addrs = 0x5cfca7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::Utils::NtpRequest* (*)(::System::Net::IPEndPoint*, ::System::Action_1<::LiteNetLib::Utils::NtpPacket*>*)>(
     &::LiteNetLib::Utils::NtpRequest::Create)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5cfd358;
+  constexpr static std::size_t addrs = 0x5cfcb60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::Utils::NtpRequest* (*)(::System::Net::IPAddress*, ::System::Action_1<::LiteNetLib::Utils::NtpPacket*>*)>(
     &::LiteNetLib::Utils::NtpRequest::Create)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5cfd3c4;
+  constexpr static std::size_t addrs = 0x5cfcbcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::Utils::NtpRequest* (*)(::StringW, int32_t, ::System::Action_1<::LiteNetLib::Utils::NtpPacket*>*)>(
     &::LiteNetLib::Utils::NtpRequest::Create)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5cfd438;
+  constexpr static std::size_t addrs = 0x5cfcc40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::Utils::NtpRequest* (*)(::StringW, ::System::Action_1<::LiteNetLib::Utils::NtpPacket*>*)>(
     &::LiteNetLib::Utils::NtpRequest::Create)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5cfd4b0;
+  constexpr static std::size_t addrs = 0x5cfccb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Utils::NtpRequest::*)()>(&::LiteNetLib::Utils::NtpRequest::Send)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5cfd524;
+  constexpr static std::size_t addrs = 0x5cfcd2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NtpRequest*>(), { "Send", {}, {} })));
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Utils::NtpRequest::*)()>(&::LiteNetLib::Utils::NtpRequest::Close)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cfd5f0;
+  constexpr static std::size_t addrs = 0x5cfcdf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NtpRequest*>(), { "Close", {}, {} })));
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Utils::NtpRequest::*)(::ArrayW<uint8_t>, int32_t, ::System::Net::Sockets::SocketError, ::System::Net::IPEndPoint*)>(
     &::LiteNetLib::Utils::NtpRequest::LiteNetLib_INetSocketListener_OnMessageReceived)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x5cfd60c;
+  constexpr static std::size_t addrs = 0x5cfce14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

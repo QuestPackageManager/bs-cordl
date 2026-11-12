@@ -91,25 +91,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedSprite(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x68aa4cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68aab24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledSprite, addr 0x68aa4b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledSprite, addr 0x68aab0c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_disabledSprite();
 
-  /// @brief Method get_highlightedSprite, addr 0x68aa4a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedSprite, addr 0x68aaafc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_highlightedSprite();
 
-  /// @brief Method get_normalSprite, addr 0x68aa49c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalSprite, addr 0x68aaaf4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_normalSprite();
 
-  /// @brief Method get_pressedSprite, addr 0x68aa4ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedSprite, addr 0x68aab04, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_pressedSprite();
 
-  /// @brief Method get_selectedAndHighlightedSprite, addr 0x68aa4c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedSprite, addr 0x68aab1c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_selectedAndHighlightedSprite();
 
-  /// @brief Method get_selectedSprite, addr 0x68aa4bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedSprite, addr 0x68aab14, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_selectedSprite();
 
 protected:
@@ -127,7 +127,7 @@ public:
   SpriteSwapTransitionSO(SpriteSwapTransitionSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23182 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23197 };
 
   /// [SerializeField]
   /// @brief Field _normalSprite, offset: 0x20, size: 0x8, def value: None

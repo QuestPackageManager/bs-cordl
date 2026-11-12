@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Sprite> (::GlobalNamespace::ConditionalSpriteSwitcher::*)()>(
     &::GlobalNamespace::ConditionalSpriteSwitcher::get_falseSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d55afc;
+  constexpr static std::size_t addrs = 0x5d55070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ConditionalSpriteSwitcher*>(), { "get_falseSprite", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ConditionalSpriteSwitcher::*)(::UnityEngine::Sprite*)>(
     &::GlobalNamespace::ConditionalSpriteSwitcher::set_falseSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d55b04;
+  constexpr static std::size_t addrs = 0x5d55078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Sprite> (::GlobalNamespace::ConditionalSpriteSwitcher::*)()>(
     &::GlobalNamespace::ConditionalSpriteSwitcher::get_trueSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d55b0c;
+  constexpr static std::size_t addrs = 0x5d55080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ConditionalSpriteSwitcher*>(), { "get_trueSprite", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ConditionalSpriteSwitcher::*)(::UnityEngine::Sprite*)>(&::GlobalNamespace::ConditionalSpriteSwitcher::set_trueSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d55b14;
+  constexpr static std::size_t addrs = 0x5d55088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ConditionalSpriteSwitcher::*)()>(&::GlobalNamespace::ConditionalSpriteSwitcher::Awake)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d55b1c;
+  constexpr static std::size_t addrs = 0x5d55090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ConditionalSpriteSwitcher*>(), { "Awake", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ConditionalSpriteSwitcher::*)()>(&::GlobalNamespace::ConditionalSpriteSwitcher::Apply)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5d55b20;
+  constexpr static std::size_t addrs = 0x5d55094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ConditionalSpriteSwitcher*>(), { "Apply", {}, {} })));
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ConditionalSpriteSwitcher::*)()>(&::GlobalNamespace::ConditionalSpriteSwitcher::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d55bc0;
+  constexpr static std::size_t addrs = 0x5d55134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ConditionalSpriteSwitcher*>(), { ".ctor", {}, {} })));

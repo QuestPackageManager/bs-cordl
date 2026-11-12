@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::UnityEngine::XR::HashCodeHelper::Combine)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x7312360;
+  constexpr static std::size_t addrs = 0x7314640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t)>(&::UnityEngine::XR::HashCodeHelper::Combine)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x7312370;
+  constexpr static std::size_t addrs = 0x7314650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::HashCodeHelper*>(),
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t)>(&::UnityEngine::XR::HashCodeHelper::Combine)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x7312384;
+  constexpr static std::size_t addrs = 0x7314664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t, int32_t)>(&::UnityEngine::XR::HashCodeHelper::Combine)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x731239c;
+  constexpr static std::size_t addrs = 0x731467c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(&::UnityEngine::XR::HashCodeHelper::Combine)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x73123b8;
+  constexpr static std::size_t addrs = 0x7314698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(&::UnityEngine::XR::HashCodeHelper::Combine)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x73123d8;
+  constexpr static std::size_t addrs = 0x73146b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(&::UnityEngine::XR::HashCodeHelper::Combine)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x73123fc;
+  constexpr static std::size_t addrs = 0x73146dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

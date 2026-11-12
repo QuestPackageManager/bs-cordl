@@ -43,25 +43,25 @@ namespace BeatSaber::Analytics::Settings {
 class CORDL_TYPE SettingsTrackerFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateAudio, addr 0x3506128, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CreateAudio, addr 0x3508568, size 0x50, virtual false, abstract: false, final false
   static inline ::BeatSaber::Analytics::Settings::AudioSettingsTracker* CreateAudio(::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* sender);
 
-  /// @brief Method CreateColors, addr 0x3506180, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CreateColors, addr 0x35085c0, size 0x50, virtual false, abstract: false, final false
   static inline ::BeatSaber::Analytics::Settings::ColorsSettingsTracker* CreateColors(::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* sender);
 
-  /// @brief Method CreateController, addr 0x35061d8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CreateController, addr 0x3508618, size 0x50, virtual false, abstract: false, final false
   static inline ::BeatSaber::Analytics::Settings::ControllerSettingsTracker* CreateController(::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* sender);
 
-  /// @brief Method CreateEnvironments, addr 0x3506230, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CreateEnvironments, addr 0x3508670, size 0x50, virtual false, abstract: false, final false
   static inline ::BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker* CreateEnvironments(::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* sender);
 
-  /// @brief Method CreateGraphics, addr 0x3506288, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CreateGraphics, addr 0x35086c8, size 0x50, virtual false, abstract: false, final false
   static inline ::BeatSaber::Analytics::Settings::GraphicsSettingsTracker* CreateGraphics(::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* sender);
 
-  /// @brief Method CreateMisc, addr 0x35062e0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CreateMisc, addr 0x3508720, size 0x50, virtual false, abstract: false, final false
   static inline ::BeatSaber::Analytics::Settings::MiscSettingsTracker* CreateMisc(::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* sender);
 
-  /// @brief Method CreatePlayer, addr 0x3506338, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CreatePlayer, addr 0x3508778, size 0x50, virtual false, abstract: false, final false
   static inline ::BeatSaber::Analytics::Settings::PlayerSettingsTracker* CreatePlayer(::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* sender);
 
 protected:
@@ -79,7 +79,7 @@ public:
   SettingsTrackerFactory(SettingsTrackerFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22764 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22777 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

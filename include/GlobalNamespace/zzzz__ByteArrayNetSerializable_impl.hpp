@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::ByteArrayNetSerializable::*)()>(&::GlobalNamespace::ByteArrayNetSerializable::get_length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35d8988;
+  constexpr static std::size_t addrs = 0x35dcde0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ByteArrayNetSerializable*>(), { "get_length", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::GlobalNamespace::ByteArrayNetSerializable::*)()>(&::GlobalNamespace::ByteArrayNetSerializable::get_data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35d8990;
+  constexpr static std::size_t addrs = 0x35dcde8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ByteArrayNetSerializable*>(), { "get_data", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ByteArrayNetSerializable::*)(::ArrayW<uint8_t>)>(&::GlobalNamespace::ByteArrayNetSerializable::set_data)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35d8a9c;
+  constexpr static std::size_t addrs = 0x35dcef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ByteArrayNetSerializable::*)(::StringW, int32_t, int32_t, bool)>(&::GlobalNamespace::ByteArrayNetSerializable::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x35d8ac4;
+  constexpr static std::size_t addrs = 0x35dcf1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ByteArrayNetSerializable::*)(::StringW, int32_t, bool)>(&::GlobalNamespace::ByteArrayNetSerializable::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x35d8ad8;
+  constexpr static std::size_t addrs = 0x35dcf30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ByteArrayNetSerializable*>(),
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ByteArrayNetSerializable::*)(::ArrayW<uint8_t>)>(&::GlobalNamespace::ByteArrayNetSerializable::SetData)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x35d8aa0;
+  constexpr static std::size_t addrs = 0x35dcef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ByteArrayNetSerializable::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::GlobalNamespace::ByteArrayNetSerializable::SetData)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x35d8aec;
+  constexpr static std::size_t addrs = 0x35dcf44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::GlobalNamespace::ByteArrayNetSerializable::*)(bool)>(&::GlobalNamespace::ByteArrayNetSerializable::GetData)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x35d8998;
+  constexpr static std::size_t addrs = 0x35dcdf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ByteArrayNetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::ByteArrayNetSerializable::Serialize)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x35d8e10;
+  constexpr static std::size_t addrs = 0x35dd268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ByteArrayNetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::ByteArrayNetSerializable::Deserialize)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x35d8ef4;
+  constexpr static std::size_t addrs = 0x35dd34c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ByteArrayNetSerializable::*)()>(&::GlobalNamespace::ByteArrayNetSerializable::Clear)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x35d8cdc;
+  constexpr static std::size_t addrs = 0x35dd134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ByteArrayNetSerializable*>(), { "Clear", {}, {} })));
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ByteArrayNetSerializable::*)(int32_t)>(&::GlobalNamespace::ByteArrayNetSerializable::Resize)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x35d8d54;
+  constexpr static std::size_t addrs = 0x35dd1ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::GlobalNamespace::ByteArrayNetSerializable*)>(
     &::GlobalNamespace::ByteArrayNetSerializable::op_Implicit___ArrayW_uint8_t_)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x35d93e8;
+  constexpr static std::size_t addrs = 0x35dd840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ByteArrayNetSerializable::*)(::ArrayW<uint8_t>)>(&::GlobalNamespace::ByteArrayNetSerializable::CopyTo)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x35d8df4;
+  constexpr static std::size_t addrs = 0x35dd24c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ByteArrayNetSerializable::*)(::ArrayW<uint8_t>, ::by_ref<int32_t>)>(
     &::GlobalNamespace::ByteArrayNetSerializable::CopyTo)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x35d93fc;
+  constexpr static std::size_t addrs = 0x35dd854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ByteArrayNetSerializable*>(),

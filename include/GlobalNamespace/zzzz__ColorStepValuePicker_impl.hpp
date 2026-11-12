@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorStepValuePicker::*)(::System::Action*)>(&::GlobalNamespace::ColorStepValuePicker::add_decButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e82d78;
+  constexpr static std::size_t addrs = 0x5e82ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorStepValuePicker::*)(::System::Action*)>(
     &::GlobalNamespace::ColorStepValuePicker::remove_decButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e82e24;
+  constexpr static std::size_t addrs = 0x5e830a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorStepValuePicker::*)(::System::Action*)>(&::GlobalNamespace::ColorStepValuePicker::add_incButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e82ed0;
+  constexpr static std::size_t addrs = 0x5e83150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorStepValuePicker::*)(::System::Action*)>(
     &::GlobalNamespace::ColorStepValuePicker::remove_incButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e82f7c;
+  constexpr static std::size_t addrs = 0x5e831fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorStepValuePicker::*)()>(&::GlobalNamespace::ColorStepValuePicker::get_color)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e83028;
+  constexpr static std::size_t addrs = 0x5e832a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorStepValuePicker*>(), { "get_color", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorStepValuePicker::*)(::UnityEngine::Color)>(&::GlobalNamespace::ColorStepValuePicker::set_color)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e83048;
+  constexpr static std::size_t addrs = 0x5e832c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorStepValuePicker::*)(bool)>(&::GlobalNamespace::ColorStepValuePicker::set_decButtonInteractable)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e83068;
+  constexpr static std::size_t addrs = 0x5e832e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorStepValuePicker::*)(bool)>(&::GlobalNamespace::ColorStepValuePicker::set_incButtonInteractable)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e83084;
+  constexpr static std::size_t addrs = 0x5e83304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorStepValuePicker::*)()>(&::GlobalNamespace::ColorStepValuePicker::OnEnable)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x5e830a0;
+  constexpr static std::size_t addrs = 0x5e83320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorStepValuePicker::*)()>(&::GlobalNamespace::ColorStepValuePicker::OnDisable)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x5e831f4;
+  constexpr static std::size_t addrs = 0x5e83474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorStepValuePicker*>(), { "OnDisable", {}, {} })));
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorStepValuePicker::*)()>(&::GlobalNamespace::ColorStepValuePicker::IncButtonPressed)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e83348;
+  constexpr static std::size_t addrs = 0x5e835c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorStepValuePicker*>(), { "IncButtonPressed", {}, {} })));
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorStepValuePicker::*)()>(&::GlobalNamespace::ColorStepValuePicker::DecButtonPressed)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e83364;
+  constexpr static std::size_t addrs = 0x5e835e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorStepValuePicker*>(), { "DecButtonPressed", {}, {} })));
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorStepValuePicker::*)()>(&::GlobalNamespace::ColorStepValuePicker::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e83380;
+  constexpr static std::size_t addrs = 0x5e83600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorStepValuePicker*>(), { ".ctor", {}, {} })));

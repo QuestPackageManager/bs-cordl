@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<bool>)>(&::System::Threading::Volatile::Read)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6111690;
+  constexpr static std::size_t addrs = 0x6111918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Volatile*>(), { "Read", {}, { ::i2c::type_of<::by_ref<bool>>() } })));
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<bool>, bool)>(&::System::Threading::Volatile::Write)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x611169c;
+  constexpr static std::size_t addrs = 0x6111924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<int32_t>)>(&::System::Threading::Volatile::Read)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x61116a8;
+  constexpr static std::size_t addrs = 0x6111930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<int32_t>, int32_t)>(&::System::Threading::Volatile::Write)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x61116b4;
+  constexpr static std::size_t addrs = 0x611193c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::by_ref<int64_t>)>(&::System::Threading::Volatile::Read)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x61116c0;
+  constexpr static std::size_t addrs = 0x6111948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<int64_t>, int64_t)>(&::System::Threading::Volatile::Write)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x61116cc;
+  constexpr static std::size_t addrs = 0x6111954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

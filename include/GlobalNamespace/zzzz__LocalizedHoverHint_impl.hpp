@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalizedHoverHint::*)(::HMUI::HoverHint*, ::StringW)>(&::GlobalNamespace::LocalizedHoverHint::SetText)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e6945c;
+  constexpr static std::size_t addrs = 0x5e69374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalizedHoverHint::*)(::HMUI::HoverHint*, ::BGLib::Polyglot::LanguageDirection)>(
     &::GlobalNamespace::LocalizedHoverHint::UpdateAlignment)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e69470;
+  constexpr static std::size_t addrs = 0x5e69388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalizedHoverHint::*)()>(&::GlobalNamespace::LocalizedHoverHint::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5e69474;
+  constexpr static std::size_t addrs = 0x5e6938c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalizedHoverHint*>(), { ".ctor", {}, {} })));

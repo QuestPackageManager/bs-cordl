@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::BeatSaber::Init::BuildInfoDiagnostic::CollectAndFormat)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x3540dac;
+  constexpr static std::size_t addrs = 0x3543d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Init::BuildInfoDiagnostic*>(), { "CollectAndFormat", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW, uint64_t, ::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::StringW)>(
     &::BeatSaber::Init::BuildInfoDiagnostic::Format)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x354144c;
+  constexpr static std::size_t addrs = 0x35443ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::TraceSwitch::*)(::StringW, ::StringW)>(&::System::Diagnostics::TraceSwitch::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6800554;
+  constexpr static std::size_t addrs = 0x6800ba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::TraceSwitch::*)()>(&::System::Diagnostics::TraceSwitch::OnSwitchSettingChanged)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x68005c4;
+  constexpr static std::size_t addrs = 0x6800c14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::TraceSwitch::*)()>(&::System::Diagnostics::TraceSwitch::OnValueChanged)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x68005fc;
+  constexpr static std::size_t addrs = 0x6800c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

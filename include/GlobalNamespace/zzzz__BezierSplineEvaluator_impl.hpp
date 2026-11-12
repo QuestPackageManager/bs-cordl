@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierSplineEvaluator_CubicSolveResult::*)(float_t)>(
     &::GlobalNamespace::BezierSplineEvaluator_CubicSolveResult::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x352f884;
+  constexpr static std::size_t addrs = 0x3531ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierSplineEvaluator_CubicSolveResult::*)(float_t, float_t)>(
     &::GlobalNamespace::BezierSplineEvaluator_CubicSolveResult::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x352f898;
+  constexpr static std::size_t addrs = 0x3531ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierSplineEvaluator_CubicSolveResult::*)(float_t, float_t, float_t)>(
     &::GlobalNamespace::BezierSplineEvaluator_CubicSolveResult::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x352f8ac;
+  constexpr static std::size_t addrs = 0x3531eec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BezierSplineEvaluator_CubicSolveResult>(),
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierSplineEvaluator::*)(::GlobalNamespace::BezierSpline*)>(&::GlobalNamespace::BezierSplineEvaluator::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x352e424;
+  constexpr static std::size_t addrs = 0x3530a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::BezierSplineEvaluator::*)(float_t)>(&::GlobalNamespace::BezierSplineEvaluator::EvaluatePosition)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x352c374;
+  constexpr static std::size_t addrs = 0x352e9b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::BezierSplineEvaluator::*)(float_t)>(&::GlobalNamespace::BezierSplineEvaluator::Evaluate)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x352edc4;
+  constexpr static std::size_t addrs = 0x3531404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::BezierSplineEvaluator::*)(float_t)>(
     &::GlobalNamespace::BezierSplineEvaluator::EvaluateFirstDerivation)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x352ef20;
+  constexpr static std::size_t addrs = 0x3531560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::BezierSplineEvaluator::*)(float_t)>(
     &::GlobalNamespace::BezierSplineEvaluator::EvaluateSecondDerivation)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x352f08c;
+  constexpr static std::size_t addrs = 0x35316cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BezierSplineEvaluator::*)(float_t)>(&::GlobalNamespace::BezierSplineEvaluator::OffsetSegmentAndGetT)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x352eca8;
+  constexpr static std::size_t addrs = 0x35312e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BezierSplineEvaluator::*)(int32_t, float_t)>(&::GlobalNamespace::BezierSplineEvaluator::GetTForSegment)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x352f314;
+  constexpr static std::size_t addrs = 0x3531954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierSplineEvaluator::*)(int32_t, ::by_ref<float_t>, ::by_ref<float_t>)>(
     &::GlobalNamespace::BezierSplineEvaluator::GetTimeValuesForSegment)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x352f78c;
+  constexpr static std::size_t addrs = 0x3531dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierSplineEvaluator::*)(float_t)>(&::GlobalNamespace::BezierSplineEvaluator::OffsetStartIndexToDistance)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x352f1e8;
+  constexpr static std::size_t addrs = 0x3531828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t)>(&::GlobalNamespace::BezierSplineEvaluator::CubeRoot)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x352f850;
+  constexpr static std::size_t addrs = 0x3531e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BezierSplineEvaluator_CubicSolveResult (*)(float_t, float_t, float_t, float_t)>(
     &::GlobalNamespace::BezierSplineEvaluator::SolveCubic)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x352f46c;
+  constexpr static std::size_t addrs = 0x3531aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

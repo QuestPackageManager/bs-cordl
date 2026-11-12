@@ -38,13 +38,13 @@ public:
   /// @brief Field _simplePhysics, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__simplePhysics, put = __cordl_internal_set__simplePhysics)) ::UnityW<::GlobalNamespace::NoteDebrisSimplePhysics> _simplePhysics;
 
-  /// @brief Method Awake, addr 0x5d250bc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5d25298, size 0x48, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method FixedUpdate, addr 0x5d25104, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x5d252e0, size 0x138, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method Init, addr 0x5d253d0, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x5d255ac, size 0x148, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::Vector3 linearVelocity, ::UnityEngine::Vector3 angularVelocity, bool forceOnlySimplePhysics);
 
   static inline ::GlobalNamespace::NoteDebrisRigidbodyPhysics* New_ctor();
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set__simplePhysics(::UnityW<::GlobalNamespace::NoteDebrisSimplePhysics> value);
 
-  /// @brief Method .ctor, addr 0x5d25518, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d256f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

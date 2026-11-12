@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::FtpMethodInfo::*)(::StringW, ::System::Net::FtpOperation, ::System::Net::FtpMethodFlags, ::StringW)>(
     &::System::Net::FtpMethodInfo::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68689d0;
+  constexpr static std::size_t addrs = 0x6869020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::FtpMethodInfo::*)(::System::Net::FtpMethodFlags)>(&::System::Net::FtpMethodInfo::HasFlag)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68689e0;
+  constexpr static std::size_t addrs = 0x6869030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::FtpMethodInfo::*)()>(&::System::Net::FtpMethodInfo::get_IsCommandOnly)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68689f0;
+  constexpr static std::size_t addrs = 0x6869040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::FtpMethodInfo*>(), { "get_IsCommandOnly", {}, {} })));
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::FtpMethodInfo::*)()>(&::System::Net::FtpMethodInfo::get_IsUpload)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6868a00;
+  constexpr static std::size_t addrs = 0x6869050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::FtpMethodInfo*>(), { "get_IsUpload", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::FtpMethodInfo::*)()>(&::System::Net::FtpMethodInfo::get_IsDownload)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6868a0c;
+  constexpr static std::size_t addrs = 0x686905c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::FtpMethodInfo*>(), { "get_IsDownload", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::FtpMethodInfo::*)()>(&::System::Net::FtpMethodInfo::get_ShouldParseForResponseUri)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6868a18;
+  constexpr static std::size_t addrs = 0x6869068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::FtpMethodInfo*>(), { "get_ShouldParseForResponseUri", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::FtpMethodInfo* (*)(::StringW)>(&::System::Net::FtpMethodInfo::GetMethodInfo)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6868a24;
+  constexpr static std::size_t addrs = 0x6869074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

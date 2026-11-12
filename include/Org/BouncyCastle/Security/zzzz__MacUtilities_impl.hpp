@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::MacUtilities::*)()>(&::Org::BouncyCastle::Security::MacUtilities::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x38aba38;
+  constexpr static std::size_t addrs = 0x38afed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::MacUtilities*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IMac* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::Security::MacUtilities::GetMac)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x38ad75c;
+  constexpr static std::size_t addrs = 0x38b1bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IMac* (*)(::StringW)>(&::Org::BouncyCastle::Security::MacUtilities::GetMac)> {
   constexpr static std::size_t size = 0xb3c;
-  constexpr static std::size_t addrs = 0x38ad7c0;
+  constexpr static std::size_t addrs = 0x38b1c58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::Security::MacUtilities::GetAlgorithmName)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x38ae2fc;
+  constexpr static std::size_t addrs = 0x38b2794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::MacUtilities*>(),
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::StringW, ::Org::BouncyCastle::Crypto::ICipherParameters*, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Security::MacUtilities::CalculateMac)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x38ae3fc;
+  constexpr static std::size_t addrs = 0x38b2894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::Org::BouncyCastle::Crypto::IMac*)>(&::Org::BouncyCastle::Security::MacUtilities::DoFinal)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x38ae55c;
+  constexpr static std::size_t addrs = 0x38b29f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::Org::BouncyCastle::Crypto::IMac*, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Security::MacUtilities::DoFinal)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x38ae698;
+  constexpr static std::size_t addrs = 0x38b2b30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

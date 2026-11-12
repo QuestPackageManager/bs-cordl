@@ -77,10 +77,10 @@ public:
 
   __declspec(property(get = get_scatter, put = set_scatter)) ::UnityW<::UnityEngine::ComputeShader> scatter;
 
-  /// @brief Method LoadFromAssetBundle, addr 0x6e4ad6c, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method LoadFromAssetBundle, addr 0x6e4be4c, size 0x1e4, virtual false, abstract: false, final false
   inline void LoadFromAssetBundle(::UnityEngine::AssetBundle* assetBundle);
 
-  /// @brief Method LoadFromRenderPipelineResources, addr 0x6e4af50, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method LoadFromRenderPipelineResources, addr 0x6e4c030, size 0xc0, virtual false, abstract: false, final false
   inline bool LoadFromRenderPipelineResources();
 
   static inline ::UnityEngine::Rendering::UnifiedRayTracing::RayTracingResources* New_ctor();
@@ -139,79 +139,79 @@ public:
 
   constexpr void __cordl_internal_set__scatter_k__BackingField(::UnityW<::UnityEngine::ComputeShader> value);
 
-  /// @brief Method .ctor, addr 0x6e4b010, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e4c0f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_bitHistogram, addr 0x6e4ad0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bitHistogram, addr 0x6e4bdec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_bitHistogram();
 
   /// [CompilerGenerated]
-  /// @brief Method get_blockReducePart, addr 0x6e4ad2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_blockReducePart, addr 0x6e4be0c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_blockReducePart();
 
   /// [CompilerGenerated]
-  /// @brief Method get_blockScan, addr 0x6e4ad3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_blockScan, addr 0x6e4be1c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_blockScan();
 
   /// [CompilerGenerated]
-  /// @brief Method get_buildHlbvh, addr 0x6e4ad4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buildHlbvh, addr 0x6e4be2c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_buildHlbvh();
 
   /// [CompilerGenerated]
-  /// @brief Method get_copyBuffer, addr 0x6e4acec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_copyBuffer, addr 0x6e4bdcc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_copyBuffer();
 
   /// [CompilerGenerated]
-  /// @brief Method get_copyPositions, addr 0x6e4acfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_copyPositions, addr 0x6e4bddc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_copyPositions();
 
   /// [CompilerGenerated]
-  /// @brief Method get_geometryPoolKernels, addr 0x6e4acdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_geometryPoolKernels, addr 0x6e4bdbc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_geometryPoolKernels();
 
   /// [CompilerGenerated]
-  /// @brief Method get_restructureBvh, addr 0x6e4ad5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_restructureBvh, addr 0x6e4be3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_restructureBvh();
 
   /// [CompilerGenerated]
-  /// @brief Method get_scatter, addr 0x6e4ad1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scatter, addr 0x6e4bdfc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_scatter();
 
   /// [CompilerGenerated]
-  /// @brief Method set_bitHistogram, addr 0x6e4ad14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bitHistogram, addr 0x6e4bdf4, size 0x8, virtual false, abstract: false, final false
   inline void set_bitHistogram(::UnityEngine::ComputeShader* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_blockReducePart, addr 0x6e4ad34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_blockReducePart, addr 0x6e4be14, size 0x8, virtual false, abstract: false, final false
   inline void set_blockReducePart(::UnityEngine::ComputeShader* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_blockScan, addr 0x6e4ad44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_blockScan, addr 0x6e4be24, size 0x8, virtual false, abstract: false, final false
   inline void set_blockScan(::UnityEngine::ComputeShader* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_buildHlbvh, addr 0x6e4ad54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_buildHlbvh, addr 0x6e4be34, size 0x8, virtual false, abstract: false, final false
   inline void set_buildHlbvh(::UnityEngine::ComputeShader* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_copyBuffer, addr 0x6e4acf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_copyBuffer, addr 0x6e4bdd4, size 0x8, virtual false, abstract: false, final false
   inline void set_copyBuffer(::UnityEngine::ComputeShader* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_copyPositions, addr 0x6e4ad04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_copyPositions, addr 0x6e4bde4, size 0x8, virtual false, abstract: false, final false
   inline void set_copyPositions(::UnityEngine::ComputeShader* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_geometryPoolKernels, addr 0x6e4ace4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_geometryPoolKernels, addr 0x6e4bdc4, size 0x8, virtual false, abstract: false, final false
   inline void set_geometryPoolKernels(::UnityEngine::ComputeShader* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_restructureBvh, addr 0x6e4ad64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_restructureBvh, addr 0x6e4be44, size 0x8, virtual false, abstract: false, final false
   inline void set_restructureBvh(::UnityEngine::ComputeShader* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_scatter, addr 0x6e4ad24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_scatter, addr 0x6e4be04, size 0x8, virtual false, abstract: false, final false
   inline void set_scatter(::UnityEngine::ComputeShader* value);
 
 protected:
@@ -229,7 +229,7 @@ public:
   RayTracingResources(RayTracingResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20550 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20564 };
 
   /// [CompilerGenerated]
   /// @brief Field <geometryPoolKernels>k__BackingField, offset: 0x10, size: 0x8, def value: None

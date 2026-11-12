@@ -67,7 +67,7 @@ public:
   constexpr OccluderDepthPyramidConstants___InvViewProjMatrix_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18330 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18338 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x180 };
@@ -105,7 +105,7 @@ public:
   constexpr OccluderDepthPyramidConstants___MipOffsetAndSize_e__FixedBuffer(uint32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18331 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18339 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -143,7 +143,7 @@ public:
   constexpr OccluderDepthPyramidConstants___SilhouettePlanes_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18332 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18340 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -181,7 +181,7 @@ public:
   constexpr OccluderDepthPyramidConstants___SrcOffset_e__FixedBuffer(uint32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18333 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18341 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -240,7 +240,7 @@ public:
                                           uint32_t _DstSubviewIndices, uint32_t _MipCount, uint32_t _SilhouettePlaneCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18334 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18342 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2b0 };

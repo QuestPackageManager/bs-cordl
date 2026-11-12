@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::UnityEngine::DelayedAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6f6ef4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f7002c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

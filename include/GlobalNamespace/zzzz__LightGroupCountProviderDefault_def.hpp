@@ -30,16 +30,16 @@ public:
 
   __declspec(property(get = get_numberOfElements)) int32_t numberOfElements;
 
-  /// @brief Method GetColorCount, addr 0x5cba3d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetColorCount, addr 0x5cb8c08, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetColorCount();
 
-  /// @brief Method GetFloatFxCount, addr 0x5cba3d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetFloatFxCount, addr 0x5cb8c10, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetFloatFxCount();
 
-  /// @brief Method GetRotationCount, addr 0x5cba3e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetRotationCount, addr 0x5cb8c18, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetRotationCount(::GlobalNamespace::LightGroupAxis axis);
 
-  /// @brief Method GetTranslationCount, addr 0x5cba3e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetTranslationCount, addr 0x5cb8c20, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetTranslationCount(::GlobalNamespace::LightGroupAxis axis);
 
   static inline ::GlobalNamespace::LightGroupCountProviderDefault* New_ctor();
@@ -52,16 +52,16 @@ public:
 
   constexpr void __cordl_internal_set__count(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5cb920c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cb7a44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5cba3f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cb8c28, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t count);
 
-  /// @brief Method get_count, addr 0x5cba3c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_count, addr 0x5cb8bf8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_count();
 
-  /// @brief Method get_numberOfElements, addr 0x5cba3c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_numberOfElements, addr 0x5cb8c00, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_numberOfElements();
 
 protected:
@@ -79,7 +79,7 @@ public:
   LightGroupCountProviderDefault(LightGroupCountProviderDefault const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19981 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19901 };
 
   /// [SerializeField]
   /// [Min(0)]

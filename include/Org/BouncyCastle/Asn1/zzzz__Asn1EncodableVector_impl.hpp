@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1EncodableVector* (*)(::System::Collections::IEnumerable*)>(
     &::Org::BouncyCastle::Asn1::Asn1EncodableVector::FromEnumerable)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x392c75c;
+  constexpr static std::size_t addrs = 0x3930bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Asn1EncodableVector::*)()>(&::Org::BouncyCastle::Asn1::Asn1EncodableVector::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x392a114;
+  constexpr static std::size_t addrs = 0x392e5ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Asn1EncodableVector*>(), { ".ctor", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Asn1EncodableVector::*)(int32_t)>(&::Org::BouncyCastle::Asn1::Asn1EncodableVector::_ctor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x392caa4;
+  constexpr static std::size_t addrs = 0x3930f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Asn1EncodableVector::*)(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*>)>(
     &::Org::BouncyCastle::Asn1::Asn1EncodableVector::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x39241b8;
+  constexpr static std::size_t addrs = 0x3928650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Asn1EncodableVector*>(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Asn1EncodableVector::*)(::Org::BouncyCastle::Asn1::Asn1Encodable*)>(
     &::Org::BouncyCastle::Asn1::Asn1EncodableVector::Add)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3924294;
+  constexpr static std::size_t addrs = 0x392872c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Asn1EncodableVector::*)(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*>)>(
     &::Org::BouncyCastle::Asn1::Asn1EncodableVector::Add)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x392b804;
+  constexpr static std::size_t addrs = 0x392fc9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Asn1EncodableVector*>(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Asn1EncodableVector::*)(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*>)>(
     &::Org::BouncyCastle::Asn1::Asn1EncodableVector::AddOptional)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x392cc78;
+  constexpr static std::size_t addrs = 0x3931110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Asn1EncodableVector*>(),
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Asn1EncodableVector::*)(bool, int32_t, ::Org::BouncyCastle::Asn1::Asn1Encodable*)>(
     &::Org::BouncyCastle::Asn1::Asn1EncodableVector::AddOptionalTagged)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39241e4;
+  constexpr static std::size_t addrs = 0x392867c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Asn1EncodableVector::*)(::Org::BouncyCastle::Asn1::Asn1EncodableVector*)>(
     &::Org::BouncyCastle::Asn1::Asn1EncodableVector::AddAll)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x392cce8;
+  constexpr static std::size_t addrs = 0x3931180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (::Org::BouncyCastle::Asn1::Asn1EncodableVector::*)(int32_t)>(
     &::Org::BouncyCastle::Asn1::Asn1EncodableVector::get_Item)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x392ce4c;
+  constexpr static std::size_t addrs = 0x39312e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::Asn1EncodableVector::*)()>(&::Org::BouncyCastle::Asn1::Asn1EncodableVector::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x392cf2c;
+  constexpr static std::size_t addrs = 0x39313c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Asn1EncodableVector*>(), { "get_Count", {}, {} })));
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::Org::BouncyCastle::Asn1::Asn1EncodableVector::*)()>(
     &::Org::BouncyCastle::Asn1::Asn1EncodableVector::GetEnumerator)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x392cf34;
+  constexpr static std::size_t addrs = 0x39313cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Asn1EncodableVector*>(), { "GetEnumerator", {}, {} })));
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> (::Org::BouncyCastle::Asn1::Asn1EncodableVector::*)()>(
     &::Org::BouncyCastle::Asn1::Asn1EncodableVector::CopyElements)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x392cf50;
+  constexpr static std::size_t addrs = 0x39313e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Asn1EncodableVector*>(), { "CopyElements", {}, {} })));
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> (::Org::BouncyCastle::Asn1::Asn1EncodableVector::*)()>(
     &::Org::BouncyCastle::Asn1::Asn1EncodableVector::TakeElements)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x392d004;
+  constexpr static std::size_t addrs = 0x393149c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Asn1EncodableVector*>(), { "TakeElements", {}, {} })));
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Asn1EncodableVector::*)(int32_t)>(&::Org::BouncyCastle::Asn1::Asn1EncodableVector::Reallocate)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x392cbb0;
+  constexpr static std::size_t addrs = 0x3931048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> (*)(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*>)>(
     &::Org::BouncyCastle::Asn1::Asn1EncodableVector::CloneElements)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x392d0dc;
+  constexpr static std::size_t addrs = 0x3931574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Asn1EncodableVector*>(),

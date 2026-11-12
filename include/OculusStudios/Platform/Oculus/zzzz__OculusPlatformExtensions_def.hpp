@@ -135,7 +135,7 @@ public:
   OculusPlatformExtensions___c__DisplayClass0_0_1(OculusPlatformExtensions___c__DisplayClass0_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23082 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23023 };
 
   /// @brief Field tcs, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message_1<T>*>* ___tcs;
@@ -190,7 +190,7 @@ public:
                                                        ::System::Runtime::CompilerServices::ValueTaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23083 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23024 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };
@@ -270,7 +270,7 @@ public:
                                                                   ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<T>*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23025 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -318,7 +318,7 @@ public:
   template <typename T> using __c__DisplayClass0_0_1 = ::OculusStudios::Platform::Oculus::OculusPlatformExtensions___c__DisplayClass0_0_1<T>;
 
   /// [Extension]
-  /// @brief Method GetAwaiter, addr 0x638acc8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x638b110, size 0x108, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message*> GetAwaiter(::Oculus::Platform::Request* oculusRequest);
 
   /// [Extension]
@@ -354,7 +354,7 @@ public:
   OculusPlatformExtensions(OculusPlatformExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23026 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

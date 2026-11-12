@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MetaXREyeTrackedFoveationFeature::*)(uint64_t)>(&::Meta::XR::MetaXREyeTrackedFoveationFeature::OnSessionCreate)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x62a5d20;
+  constexpr static std::size_t addrs = 0x62a5fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Meta::XR::MetaXREyeTrackedFoveationFeature::get_eyeTrackedFoveatedRenderingEnabled)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x62a5d70;
+  constexpr static std::size_t addrs = 0x62a5ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::Meta::XR::MetaXREyeTrackedFoveationFeature::set_eyeTrackedFoveatedRenderingEnabled)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x62a5e1c;
+  constexpr static std::size_t addrs = 0x62a60a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Meta::XR::MetaXREyeTrackedFoveationFeature::get_eyeTrackedFoveatedRenderingSupported)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x62a5ef4;
+  constexpr static std::size_t addrs = 0x62a617c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t, bool)>(&::Meta::XR::MetaXREyeTrackedFoveationFeature::MetaSetFoveationEyeTracked)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x62a5e70;
+  constexpr static std::size_t addrs = 0x62a60f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MetaXREyeTrackedFoveationFeature*>(),
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<bool>)>(&::Meta::XR::MetaXREyeTrackedFoveationFeature::MetaGetFoveationEyeTracked)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x62a5d8c;
+  constexpr static std::size_t addrs = 0x62a6014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<bool>)>(&::Meta::XR::MetaXREyeTrackedFoveationFeature::MetaGetEyeTrackedFoveationSupported)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x62a5f10;
+  constexpr static std::size_t addrs = 0x62a6198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MetaXREyeTrackedFoveationFeature::*)()>(&::Meta::XR::MetaXREyeTrackedFoveationFeature::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62a5fa0;
+  constexpr static std::size_t addrs = 0x62a6228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MetaXREyeTrackedFoveationFeature*>(), { ".ctor", {}, {} })));

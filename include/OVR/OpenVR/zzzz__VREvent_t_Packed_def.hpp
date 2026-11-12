@@ -26,10 +26,10 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE VREvent_t_Packed {
 public:
   // Declarations
-  /// @brief Method Unpack, addr 0x62999f0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Unpack, addr 0x6299c78, size 0x20, virtual false, abstract: false, final false
   inline void Unpack(::by_ref<::OVR::OpenVR::VREvent_t> unpacked);
 
-  /// @brief Method .ctor, addr 0x629e950, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x629ebd8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::OVR::OpenVR::VREvent_t unpacked);
 
   // Ctor Parameters []

@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AnimatorOverrideController_OnOverrideControllerDirtyCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::AnimatorOverrideController_OnOverrideControllerDirtyCallback::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6ed1570;
+  constexpr static std::size_t addrs = 0x6ed2650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AnimatorOverrideController_OnOverrideControllerDirtyCallback*>(),
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AnimatorOverrideController_OnOverrideControllerDirtyCallback::*)()>(
     &::UnityEngine::AnimatorOverrideController_OnOverrideControllerDirtyCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6ed15d8;
+  constexpr static std::size_t addrs = 0x6ed26b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::AnimatorOverrideController_OnOverrideControllerDirtyCallback*>(),
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AnimatorOverrideController::*)(::UnityEngine::RuntimeAnimatorController*)>(
     &::UnityEngine::AnimatorOverrideController::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6ed0fc0;
+  constexpr static std::size_t addrs = 0x6ed20a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::AnimatorOverrideController*, ::UnityEngine::RuntimeAnimatorController*)>(
     &::UnityEngine::AnimatorOverrideController::Internal_Create)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6ed1048;
+  constexpr static std::size_t addrs = 0x6ed2128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AnimatorOverrideController::*)(::UnityEngine::AnimationClip*, ::UnityEngine::AnimationClip*, bool)>(
     &::UnityEngine::AnimatorOverrideController::SetClip)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6ed111c;
+  constexpr static std::size_t addrs = 0x6ed21fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AnimatorOverrideController::*)()>(&::UnityEngine::AnimatorOverrideController::SendNotification)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6ed1268;
+  constexpr static std::size_t addrs = 0x6ed2348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AnimatorOverrideController*>(), { "SendNotification", {}, {} })));
@@ -118,7 +118,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Anim
     ::System::Collections::Generic::IList_1<::System::Collections::Generic::KeyValuePair_2<::UnityW<::UnityEngine::AnimationClip>, ::UnityW<::UnityEngine::AnimationClip>>>*)>(
     &::UnityEngine::AnimatorOverrideController::ApplyOverrides)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x6ed1324;
+  constexpr static std::size_t addrs = 0x6ed2404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::AnimatorOverrideController*)>(&::UnityEngine::AnimatorOverrideController::OnInvalidateOverrideController)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6ed1548;
+  constexpr static std::size_t addrs = 0x6ed2628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::AnimatorOverrideController*, ::System::IntPtr)>(&::UnityEngine::AnimatorOverrideController::Internal_Create_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ed10d8;
+  constexpr static std::size_t addrs = 0x6ed21b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr, bool)>(&::UnityEngine::AnimatorOverrideController::SetClip_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6ed120c;
+  constexpr static std::size_t addrs = 0x6ed22ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::AnimatorOverrideController::SendNotification_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ed12e8;
+  constexpr static std::size_t addrs = 0x6ed23c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

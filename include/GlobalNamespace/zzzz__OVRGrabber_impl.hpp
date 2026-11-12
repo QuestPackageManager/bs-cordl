@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::OVRGrabbable> (::GlobalNamespace::OVRGrabber::*)()>(&::GlobalNamespace::OVRGrabber::get_grabbedObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6352ff4;
+  constexpr static std::size_t addrs = 0x635327c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGrabber*>(), { "get_grabbedObject", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGrabber::*)(::GlobalNamespace::OVRGrabbable*)>(&::GlobalNamespace::OVRGrabber::ForceRelease)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6352f34;
+  constexpr static std::size_t addrs = 0x63531bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGrabber::*)()>(&::GlobalNamespace::OVRGrabber::Awake)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6353268;
+  constexpr static std::size_t addrs = 0x63534f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGrabber*>(), { ::i2c::class_of<::GlobalNamespace::OVRGrabber*>(), 4 }));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGrabber::*)()>(&::GlobalNamespace::OVRGrabber::Start)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x63533b8;
+  constexpr static std::size_t addrs = 0x6353640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGrabber*>(), { ::i2c::class_of<::GlobalNamespace::OVRGrabber*>(), 5 }));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGrabber::*)()>(&::GlobalNamespace::OVRGrabber::Update)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6353648;
+  constexpr static std::size_t addrs = 0x63538d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGrabber*>(), { ::i2c::class_of<::GlobalNamespace::OVRGrabber*>(), 6 }));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGrabber::*)()>(&::GlobalNamespace::OVRGrabber::OnUpdatedAnchors)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x6353658;
+  constexpr static std::size_t addrs = 0x63538e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGrabber*>(), { "OnUpdatedAnchors", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGrabber::*)()>(&::GlobalNamespace::OVRGrabber::OnDestroy)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x63538c0;
+  constexpr static std::size_t addrs = 0x6353b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGrabber*>(), { "OnDestroy", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGrabber::*)(::UnityEngine::Collider*)>(&::GlobalNamespace::OVRGrabber::OnTriggerEnter)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x635393c;
+  constexpr static std::size_t addrs = 0x6353bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGrabber::*)(::UnityEngine::Collider*)>(&::GlobalNamespace::OVRGrabber::OnTriggerExit)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x6353a90;
+  constexpr static std::size_t addrs = 0x6353d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGrabber::*)(float_t)>(&::GlobalNamespace::OVRGrabber::CheckForGrabOrRelease)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6353884;
+  constexpr static std::size_t addrs = 0x6353b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGrabber::*)()>(&::GlobalNamespace::OVRGrabber::GrabBegin)> {
   constexpr static std::size_t size = 0x698;
-  constexpr static std::size_t addrs = 0x6353c24;
+  constexpr static std::size_t addrs = 0x6353eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGrabber*>(), { ::i2c::class_of<::GlobalNamespace::OVRGrabber*>(), 7 }));
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGrabber::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion, bool)>(
     &::GlobalNamespace::OVRGrabber::MoveGrabbedObject)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x63542bc;
+  constexpr static std::size_t addrs = 0x6354544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGrabber*>(), { ::i2c::class_of<::GlobalNamespace::OVRGrabber*>(), 8 }));
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGrabber::*)()>(&::GlobalNamespace::OVRGrabber::GrabEnd)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x6352ffc;
+  constexpr static std::size_t addrs = 0x6353284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGrabber*>(), { "GrabEnd", {}, {} })));
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGrabber::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::GlobalNamespace::OVRGrabber::GrabbableRelease)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x63544e4;
+  constexpr static std::size_t addrs = 0x635476c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGrabber::*)(bool)>(&::GlobalNamespace::OVRGrabber::GrabVolumeEnable)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6354538;
+  constexpr static std::size_t addrs = 0x63547c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGrabber*>(), { ::i2c::class_of<::GlobalNamespace::OVRGrabber*>(), 9 }));
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGrabber::*)(::GlobalNamespace::OVRGrabbable*)>(&::GlobalNamespace::OVRGrabber::OffhandGrabbed)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x63545fc;
+  constexpr static std::size_t addrs = 0x6354884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGrabber::*)(::UnityEngine::GameObject*, bool)>(&::GlobalNamespace::OVRGrabber::SetPlayerIgnoreCollision)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x635349c;
+  constexpr static std::size_t addrs = 0x6353724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -233,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGrabber::*)()>(&::GlobalNamespace::OVRGrabber::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x63546d0;
+  constexpr static std::size_t addrs = 0x6354958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGrabber*>(), { ".ctor", {}, {} })));
@@ -245,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGrabber::*)(::GlobalNamespace::OVRCameraRig*)>(&::GlobalNamespace::OVRGrabber::_Awake_b__23_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6354784;
+  constexpr static std::size_t addrs = 0x6354a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

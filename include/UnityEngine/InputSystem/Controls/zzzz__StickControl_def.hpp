@@ -49,7 +49,7 @@ public:
   /// @brief [InputControl(name = "y", minValue = -1, maxValue = 1, layout = "Axis", processors = "axisDeadzone")]
   __declspec(property(get = get_up, put = set_up)) ::UnityEngine::InputSystem::Controls::ButtonControl* up;
 
-  /// @brief Method FinishSetup, addr 0x696234c, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x696342c, size 0xfc, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::Controls::StickControl* New_ctor();
@@ -78,39 +78,39 @@ public:
 
   constexpr void __cordl_internal_set__up_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method .ctor, addr 0x6962448, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6963528, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_down, addr 0x696231c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_down, addr 0x69633fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_down();
 
   /// [CompilerGenerated]
-  /// @brief Method get_left, addr 0x696232c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_left, addr 0x696340c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_left();
 
   /// [CompilerGenerated]
-  /// @brief Method get_right, addr 0x696233c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_right, addr 0x696341c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_right();
 
   /// [CompilerGenerated]
-  /// @brief Method get_up, addr 0x696230c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_up, addr 0x69633ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_up();
 
   /// [CompilerGenerated]
-  /// @brief Method set_down, addr 0x6962324, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_down, addr 0x6963404, size 0x8, virtual false, abstract: false, final false
   inline void set_down(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_left, addr 0x6962334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_left, addr 0x6963414, size 0x8, virtual false, abstract: false, final false
   inline void set_left(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_right, addr 0x6962344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_right, addr 0x6963424, size 0x8, virtual false, abstract: false, final false
   inline void set_right(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_up, addr 0x6962314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_up, addr 0x69633f4, size 0x8, virtual false, abstract: false, final false
   inline void set_up(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
 protected:

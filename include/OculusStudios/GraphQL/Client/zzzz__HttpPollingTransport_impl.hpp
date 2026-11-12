@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass15_0::*)()>(
     &::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass15_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x637df78;
+  constexpr static std::size_t addrs = 0x637e318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass15_0::*)()>(
     &::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass15_0::_ExecuteAsync_b__0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x637df7c;
+  constexpr static std::size_t addrs = 0x637e31c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__15::*)()>(
     &::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__15::MoveNext)> {
   constexpr static std::size_t size = 0x428;
-  constexpr static std::size_t addrs = 0x637df98;
+  constexpr static std::size_t addrs = 0x637e338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__15::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__15::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x637e560;
+  constexpr static std::size_t addrs = 0x637e900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__15>(),
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__16::*)()>(
     &::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__16::MoveNext)> {
   constexpr static std::size_t size = 0x460;
-  constexpr static std::size_t addrs = 0x637e5e0;
+  constexpr static std::size_t addrs = 0x637e980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__16::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__16::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x637ea40;
+  constexpr static std::size_t addrs = 0x637ede0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__16>(),
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::GraphQL::Client::HttpPollingTransport::*)()>(
     &::OculusStudios::GraphQL::Client::HttpPollingTransport::get_Endpoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x637dc40;
+  constexpr static std::size_t addrs = 0x637dfe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport*>(), { "get_Endpoint", {}, {} })));
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPollingTransport::*)(::StringW)>(
     &::OculusStudios::GraphQL::Client::HttpPollingTransport::set_Endpoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x637dc48;
+  constexpr static std::size_t addrs = 0x637dfe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::GraphQL::Client::HttpPollingTransport::*)()>(
     &::OculusStudios::GraphQL::Client::HttpPollingTransport::get_AccessToken)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x637dc50;
+  constexpr static std::size_t addrs = 0x637dff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport*>(), { "get_AccessToken", {}, {} })));
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPollingTransport::*)(::StringW)>(
     &::OculusStudios::GraphQL::Client::HttpPollingTransport::set_AccessToken)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x637dc58;
+  constexpr static std::size_t addrs = 0x637dff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* (::OculusStudios::GraphQL::Client::HttpPollingTransport::*)()>(
     &::OculusStudios::GraphQL::Client::HttpPollingTransport::get_CustomAppHeaders)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x637dc60;
+  constexpr static std::size_t addrs = 0x637e000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPollingTransport::*)(::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*)>(
     &::OculusStudios::GraphQL::Client::HttpPollingTransport::set_CustomAppHeaders)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x637dc6c;
+  constexpr static std::size_t addrs = 0x637e00c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -308,7 +308,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OculusStudios::GraphQL:
     ::OculusStudios::GraphQL::Client::HttpPollingTransport::*)(::StringW, ::StringW, ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*)>(
     &::OculusStudios::GraphQL::Client::HttpPollingTransport::GetHttpTransport)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x637dc88;
+  constexpr static std::size_t addrs = 0x637e028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -326,7 +326,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::OculusStudios::GraphQL::Client::HttpPollingTransport::*)(::OculusStudios::GraphQL::Client::GraphQLRequest*, ::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor*)>(
     &::OculusStudios::GraphQL::Client::HttpPollingTransport::ExecuteAsync)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x637dd1c;
+  constexpr static std::size_t addrs = 0x637e0bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -344,7 +344,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Gr
     ::OculusStudios::GraphQL::Client::GraphQLLiveQuery*, ::OculusStudios::GraphQL::Client::GraphQLResponseStream*, ::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor*)>(
     &::OculusStudios::GraphQL::Client::HttpPollingTransport::StartHttpPollingAsync)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x637de10;
+  constexpr static std::size_t addrs = 0x637e1b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -361,7 +361,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPollingTransport::*)()>(&::OculusStudios::GraphQL::Client::HttpPollingTransport::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x637ded8;
+  constexpr static std::size_t addrs = 0x637e278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport*>(), { "Dispose", {}, {} })));
@@ -373,7 +373,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPollingTransport::*)()>(&::OculusStudios::GraphQL::Client::HttpPollingTransport::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x637dedc;
+  constexpr static std::size_t addrs = 0x637e27c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport*>(), { ".ctor", {}, {} })));

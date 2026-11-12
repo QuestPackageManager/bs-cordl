@@ -168,21 +168,21 @@ public:
   /// @brief Field volumetricCloudOcclusion, offset 0x6d, size 0x1
   __declspec(property(get = __cordl_internal_get_volumetricCloudOcclusion, put = __cordl_internal_set_volumetricCloudOcclusion)) bool volumetricCloudOcclusion;
 
-  /// @brief Method Awake, addr 0x6bf8ec0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x6bf9fa0, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::UnityEngine::Rendering::LensFlareComponentSRP* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x6bf8fec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x6bfa0cc, size 0x18, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x6bf8f88, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6bfa068, size 0x64, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x6bf8ec4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6bf9fa4, size 0xc4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x6bf8de0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x6bf9ec0, size 0xe0, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr bool const& __cordl_internal_get_allowOffScreen() const;
@@ -311,20 +311,20 @@ public:
 
   constexpr void __cordl_internal_set_volumetricCloudOcclusion(bool value);
 
-  /// @brief Method .ctor, addr 0x6bf9004, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bfa0e4, size 0x248, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method celestialProjectedOcclusionRadius, addr 0x6bf512c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method celestialProjectedOcclusionRadius, addr 0x6bf620c, size 0xd0, virtual false, abstract: false, final false
   inline float_t celestialProjectedOcclusionRadius(::UnityEngine::Camera* mainCam);
 
   static inline float_t getStaticF_sCelestialAngularRadius();
 
-  /// @brief Method get_lensFlareData, addr 0x6bf8dd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lensFlareData, addr 0x6bf9eb0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::LensFlareDataSRP> get_lensFlareData();
 
   static inline void setStaticF_sCelestialAngularRadius(float_t value);
 
-  /// @brief Method set_lensFlareData, addr 0x6bf8dd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lensFlareData, addr 0x6bf9eb8, size 0x8, virtual false, abstract: false, final false
   inline void set_lensFlareData(::UnityEngine::Rendering::LensFlareDataSRP* value);
 
 protected:

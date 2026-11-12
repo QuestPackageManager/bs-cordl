@@ -204,83 +204,83 @@ public:
 
   __declspec(property(get = get_viewCount)) int32_t viewCount;
 
-  /// @brief Method AddView, addr 0x6b9c7f0, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method AddView, addr 0x6b9d8d0, size 0x210, virtual false, abstract: false, final false
   inline void AddView(::UnityEngine::Experimental::Rendering::XRView xrView);
 
-  /// @brief Method ApplyXRViewCenterOffset, addr 0x6b9c448, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ApplyXRViewCenterOffset, addr 0x6b9d528, size 0x154, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 ApplyXRViewCenterOffset(::UnityEngine::Vector2 center);
 
-  /// @brief Method AssignCullingParams, addr 0x6b9c69c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method AssignCullingParams, addr 0x6b9d77c, size 0x80, virtual false, abstract: false, final false
   inline void AssignCullingParams(int32_t cullingPassId, ::UnityEngine::Rendering::ScriptableCullingParameters cullingParams);
 
-  /// @brief Method AssignView, addr 0x6b9c59c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method AssignView, addr 0x6b9d67c, size 0x100, virtual false, abstract: false, final false
   inline void AssignView(int32_t viewId, ::UnityEngine::Experimental::Rendering::XRView xrView);
 
-  /// @brief Method CreateDefault, addr 0x6b9b1a8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CreateDefault, addr 0x6b9c288, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::XRPass* CreateDefault(::UnityEngine::Experimental::Rendering::XRPassCreateInfo createInfo);
 
-  /// @brief Method GetOcclusionMesh, addr 0x6b9a3d8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetOcclusionMesh, addr 0x6b9b4b8, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> GetOcclusionMesh(int32_t viewIndex);
 
-  /// @brief Method GetPrevViewMatrix, addr 0x6b9bc58, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetPrevViewMatrix, addr 0x6b9cd38, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 GetPrevViewMatrix(int32_t viewIndex);
 
-  /// @brief Method GetPrevViewValid, addr 0x6b9bbdc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetPrevViewValid, addr 0x6b9ccbc, size 0x7c, virtual false, abstract: false, final false
   inline bool GetPrevViewValid(int32_t viewIndex);
 
-  /// @brief Method GetProjMatrix, addr 0x6b9754c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetProjMatrix, addr 0x6b9862c, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 GetProjMatrix(int32_t viewIndex);
 
-  /// @brief Method GetTextureArraySlice, addr 0x6b98c20, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetTextureArraySlice, addr 0x6b99d00, size 0x78, virtual false, abstract: false, final false
   inline int32_t GetTextureArraySlice(int32_t viewIndex);
 
-  /// @brief Method GetViewMatrix, addr 0x6b974bc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetViewMatrix, addr 0x6b9859c, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 GetViewMatrix(int32_t viewIndex);
 
-  /// @brief Method GetViewport, addr 0x6b98ba4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetViewport, addr 0x6b99c84, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect GetViewport(int32_t viewIndex);
 
-  /// @brief Method GetVisibleMesh, addr 0x6b9bce8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetVisibleMesh, addr 0x6b9cdc8, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> GetVisibleMesh(int32_t viewIndex);
 
-  /// @brief Method InitBase, addr 0x6b9b288, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method InitBase, addr 0x6b9c368, size 0x22c, virtual false, abstract: false, final false
   inline void InitBase(::UnityEngine::Experimental::Rendering::XRPassCreateInfo createInfo);
 
   static inline ::UnityEngine::Experimental::Rendering::XRPass* New_ctor();
 
-  /// @brief Method Release, addr 0x6b9b4b4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Release, addr 0x6b9c594, size 0x84, virtual true, abstract: false, final false
   inline void Release();
 
-  /// @brief Method RenderDebugXRViewsFrustum, addr 0x6b9c1b8, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method RenderDebugXRViewsFrustum, addr 0x6b9d298, size 0x290, virtual false, abstract: false, final false
   inline void RenderDebugXRViewsFrustum();
 
-  /// @brief Method RenderOcclusionMesh, addr 0x6b9bf88, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method RenderOcclusionMesh, addr 0x6b9d068, size 0x28, virtual false, abstract: false, final false
   inline void RenderOcclusionMesh(::UnityEngine::Rendering::CommandBuffer* cmd, bool renderIntoTexture);
 
-  /// @brief Method RenderOcclusionMesh, addr 0x6b9bfb0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method RenderOcclusionMesh, addr 0x6b9d090, size 0x38, virtual false, abstract: false, final false
   inline void RenderOcclusionMesh(::UnityEngine::Rendering::RasterCommandBuffer* cmd, bool renderIntoTexture);
 
-  /// @brief Method RenderVisibleMeshCustomMaterial, addr 0x6b9c194, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method RenderVisibleMeshCustomMaterial, addr 0x6b9d274, size 0x24, virtual false, abstract: false, final false
   inline void RenderVisibleMeshCustomMaterial(::UnityEngine::Rendering::CommandBuffer* cmd, float_t occlusionMeshScale, ::UnityEngine::Material* material,
                                               ::UnityEngine::MaterialPropertyBlock* materialBlock, int32_t shaderPass, bool renderIntoTexture);
 
-  /// @brief Method RenderVisibleMeshCustomMaterial, addr 0x6b9bfe8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method RenderVisibleMeshCustomMaterial, addr 0x6b9d0c8, size 0x34, virtual false, abstract: false, final false
   inline void RenderVisibleMeshCustomMaterial(::UnityEngine::Rendering::RasterCommandBuffer* cmd, float_t occlusionMeshScale, ::UnityEngine::Material* material,
                                               ::UnityEngine::MaterialPropertyBlock* materialBlock, int32_t shaderPass, bool renderIntoTexture);
 
-  /// @brief Method StartSinglePass, addr 0x6b9a900, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method StartSinglePass, addr 0x6b9b9e0, size 0x218, virtual false, abstract: false, final false
   inline void StartSinglePass(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method StartSinglePass, addr 0x6b9bd60, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method StartSinglePass, addr 0x6b9ce40, size 0x8c, virtual false, abstract: false, final false
   inline void StartSinglePass(::UnityEngine::Rendering::IRasterCommandBuffer* cmd);
 
-  /// @brief Method StopSinglePass, addr 0x6b9bdec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method StopSinglePass, addr 0x6b9cecc, size 0x14, virtual false, abstract: false, final false
   inline void StopSinglePass(::UnityEngine::Rendering::BaseCommandBuffer* cmd);
 
-  /// @brief Method StopSinglePass, addr 0x6b9a80c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method StopSinglePass, addr 0x6b9b8ec, size 0xf4, virtual false, abstract: false, final false
   inline void StopSinglePass(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method UpdateCombinedOcclusionMesh, addr 0x6b985b4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method UpdateCombinedOcclusionMesh, addr 0x6b99694, size 0x28, virtual false, abstract: false, final false
   inline void UpdateCombinedOcclusionMesh();
 
   constexpr bool const& __cordl_internal_get__copyDepth_k__BackingField() const;
@@ -391,157 +391,157 @@ public:
 
   constexpr void __cordl_internal_set_m_VisibleMesh(::UnityEngine::Experimental::Rendering::XRVisibleMesh* value);
 
-  /// @brief Method .ctor, addr 0x6b9b0cc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b9c1ac, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_copyDepth, addr 0x6b9b69c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_copyDepth, addr 0x6b9c77c, size 0x8, virtual false, abstract: false, final false
   inline bool get_copyDepth();
 
   /// [CompilerGenerated]
-  /// @brief Method get_cullingParams, addr 0x6b9b7fc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_cullingParams, addr 0x6b9c8dc, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ScriptableCullingParameters get_cullingParams();
 
   /// [CompilerGenerated]
-  /// @brief Method get_cullingPassId, addr 0x6b9b6fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cullingPassId, addr 0x6b9c7dc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cullingPassId();
 
-  /// @brief Method get_enabled, addr 0x6b974a4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x6b98584, size 0x18, virtual false, abstract: false, final false
   inline bool get_enabled();
 
   /// [CompilerGenerated]
-  /// @brief Method get_foveatedRenderingInfo, addr 0x6b9b818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_foveatedRenderingInfo, addr 0x6b9c8f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::IntPtr get_foveatedRenderingInfo();
 
   /// [CompilerGenerated]
-  /// @brief Method get_hasMotionVectorPass, addr 0x6b9b6ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasMotionVectorPass, addr 0x6b9c78c, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasMotionVectorPass();
 
-  /// @brief Method get_hasValidOcclusionMesh, addr 0x6b9be00, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_hasValidOcclusionMesh, addr 0x6b9cee0, size 0x14, virtual false, abstract: false, final false
   inline bool get_hasValidOcclusionMesh();
 
-  /// @brief Method get_hasValidVisibleMesh, addr 0x6b9be14, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get_hasValidVisibleMesh, addr 0x6b9cef4, size 0xbc, virtual false, abstract: false, final false
   inline bool get_hasValidVisibleMesh();
 
-  /// @brief Method get_hdrDisplayOutputColorGamut, addr 0x6b9b8e0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_hdrDisplayOutputColorGamut, addr 0x6b9c9c0, size 0xb8, virtual false, abstract: false, final false
   inline ::UnityEngine::ColorGamut get_hdrDisplayOutputColorGamut();
 
-  /// @brief Method get_hdrDisplayOutputInformation, addr 0x6b9b998, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method get_hdrDisplayOutputInformation, addr 0x6b9ca78, size 0x234, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::HDROutputUtils_HDRDisplayInformation get_hdrDisplayOutputInformation();
 
-  /// @brief Method get_isFirstCameraPass, addr 0x6b9b6cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isFirstCameraPass, addr 0x6b9c7ac, size 0x10, virtual false, abstract: false, final false
   inline bool get_isFirstCameraPass();
 
-  /// @brief Method get_isHDRDisplayOutputActive, addr 0x6b9b828, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_isHDRDisplayOutputActive, addr 0x6b9c908, size 0xb8, virtual false, abstract: false, final false
   inline bool get_isHDRDisplayOutputActive();
 
   /// [CompilerGenerated]
-  /// @brief Method get_isLastCameraPass, addr 0x6b9b6dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isLastCameraPass, addr 0x6b9c7bc, size 0x8, virtual false, abstract: false, final false
   inline bool get_isLastCameraPass();
 
   /// [CompilerGenerated]
-  /// @brief Method get_motionVectorRenderTarget, addr 0x6b9b794, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_motionVectorRenderTarget, addr 0x6b9c874, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderTargetIdentifier get_motionVectorRenderTarget();
 
   /// [CompilerGenerated]
-  /// @brief Method get_motionVectorRenderTargetDesc, addr 0x6b9b7bc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_motionVectorRenderTargetDesc, addr 0x6b9c89c, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::RenderTextureDescriptor get_motionVectorRenderTargetDesc();
 
   /// [CompilerGenerated]
-  /// @brief Method get_multipassId, addr 0x6b9b6ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multipassId, addr 0x6b9c7cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_multipassId();
 
   /// [CompilerGenerated]
-  /// @brief Method get_occlusionMeshScale, addr 0x6b9bbcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_occlusionMeshScale, addr 0x6b9ccac, size 0x8, virtual false, abstract: false, final false
   inline float_t get_occlusionMeshScale();
 
   /// [CompilerGenerated]
-  /// @brief Method get_renderTarget, addr 0x6b9b72c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_renderTarget, addr 0x6b9c80c, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderTargetIdentifier get_renderTarget();
 
   /// [CompilerGenerated]
-  /// @brief Method get_renderTargetDesc, addr 0x6b9b754, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_renderTargetDesc, addr 0x6b9c834, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::RenderTextureDescriptor get_renderTargetDesc();
 
   /// [CompilerGenerated]
-  /// @brief Method get_renderTargetScaledHeight, addr 0x6b9b71c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderTargetScaledHeight, addr 0x6b9c7fc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_renderTargetScaledHeight();
 
   /// [CompilerGenerated]
-  /// @brief Method get_renderTargetScaledWidth, addr 0x6b9b70c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderTargetScaledWidth, addr 0x6b9c7ec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_renderTargetScaledWidth();
 
-  /// @brief Method get_singlePassEnabled, addr 0x6b975dc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_singlePassEnabled, addr 0x6b986bc, size 0x18, virtual false, abstract: false, final false
   inline bool get_singlePassEnabled();
 
   /// [CompilerGenerated]
-  /// @brief Method get_spaceWarpRightHandedNDC, addr 0x6b9b6bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spaceWarpRightHandedNDC, addr 0x6b9c79c, size 0x8, virtual false, abstract: false, final false
   inline bool get_spaceWarpRightHandedNDC();
 
-  /// @brief Method get_supportsFoveatedRendering, addr 0x6b9b5dc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_supportsFoveatedRendering, addr 0x6b9c6bc, size 0xc0, virtual false, abstract: false, final false
   inline bool get_supportsFoveatedRendering();
 
-  /// @brief Method get_viewCount, addr 0x6b98c98, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_viewCount, addr 0x6b99d78, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_viewCount();
 
   /// [CompilerGenerated]
-  /// @brief Method set_copyDepth, addr 0x6b9b6a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_copyDepth, addr 0x6b9c784, size 0x8, virtual false, abstract: false, final false
   inline void set_copyDepth(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_cullingParams, addr 0x6b9b80c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_cullingParams, addr 0x6b9c8ec, size 0xc, virtual false, abstract: false, final false
   inline void set_cullingParams(::UnityEngine::Rendering::ScriptableCullingParameters value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_cullingPassId, addr 0x6b9b704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cullingPassId, addr 0x6b9c7e4, size 0x8, virtual false, abstract: false, final false
   inline void set_cullingPassId(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_foveatedRenderingInfo, addr 0x6b9b820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_foveatedRenderingInfo, addr 0x6b9c900, size 0x8, virtual false, abstract: false, final false
   inline void set_foveatedRenderingInfo(::System::IntPtr value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_hasMotionVectorPass, addr 0x6b9b6b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hasMotionVectorPass, addr 0x6b9c794, size 0x8, virtual false, abstract: false, final false
   inline void set_hasMotionVectorPass(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_isLastCameraPass, addr 0x6b9b6e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isLastCameraPass, addr 0x6b9c7c4, size 0x8, virtual false, abstract: false, final false
   inline void set_isLastCameraPass(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_motionVectorRenderTarget, addr 0x6b9b7a8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_motionVectorRenderTarget, addr 0x6b9c888, size 0x14, virtual false, abstract: false, final false
   inline void set_motionVectorRenderTarget(::UnityEngine::Rendering::RenderTargetIdentifier value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_motionVectorRenderTargetDesc, addr 0x6b9b7dc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_motionVectorRenderTargetDesc, addr 0x6b9c8bc, size 0x20, virtual false, abstract: false, final false
   inline void set_motionVectorRenderTargetDesc(::UnityEngine::RenderTextureDescriptor value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_multipassId, addr 0x6b9b6f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_multipassId, addr 0x6b9c7d4, size 0x8, virtual false, abstract: false, final false
   inline void set_multipassId(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_occlusionMeshScale, addr 0x6b9bbd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_occlusionMeshScale, addr 0x6b9ccb4, size 0x8, virtual false, abstract: false, final false
   inline void set_occlusionMeshScale(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_renderTarget, addr 0x6b9b740, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_renderTarget, addr 0x6b9c820, size 0x14, virtual false, abstract: false, final false
   inline void set_renderTarget(::UnityEngine::Rendering::RenderTargetIdentifier value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_renderTargetDesc, addr 0x6b9b774, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_renderTargetDesc, addr 0x6b9c854, size 0x20, virtual false, abstract: false, final false
   inline void set_renderTargetDesc(::UnityEngine::RenderTextureDescriptor value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_renderTargetScaledHeight, addr 0x6b9b724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_renderTargetScaledHeight, addr 0x6b9c804, size 0x8, virtual false, abstract: false, final false
   inline void set_renderTargetScaledHeight(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_renderTargetScaledWidth, addr 0x6b9b714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_renderTargetScaledWidth, addr 0x6b9c7f4, size 0x8, virtual false, abstract: false, final false
   inline void set_renderTargetScaledWidth(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_spaceWarpRightHandedNDC, addr 0x6b9b6c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_spaceWarpRightHandedNDC, addr 0x6b9c7a4, size 0x8, virtual false, abstract: false, final false
   inline void set_spaceWarpRightHandedNDC(bool value);
 
 protected:

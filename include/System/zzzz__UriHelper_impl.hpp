@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t*, uint16_t, char16_t*, uint16_t, bool)>(&::System::UriHelper::TestForSubPath)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x67db6cc;
+  constexpr static std::size_t addrs = 0x67dbd1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<char16_t> (*)(::StringW, int32_t, int32_t, ::ArrayW<char16_t>, ::by_ref<int32_t>, bool, char16_t, char16_t, char16_t)>(
     &::System::UriHelper::EscapeString)> {
   constexpr static std::size_t size = 0x588;
-  constexpr static std::size_t addrs = 0x67db890;
+  constexpr static std::size_t addrs = 0x67dbee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<char16_t> (*)(char16_t*, ::ArrayW<char16_t>, int32_t, int16_t, int16_t, ::by_ref<int32_t>, int32_t)>(
     &::System::UriHelper::EnsureDestinationSize)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x67dbe18;
+  constexpr static std::size_t addrs = 0x67dc468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<char16_t> (*)(::StringW, int32_t, int32_t, ::ArrayW<char16_t>, ::by_ref<int32_t>, char16_t, char16_t, char16_t, ::System::UnescapeMode,
                                                                               ::System::UriParser*, bool)>(&::System::UriHelper::UnescapeString)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x67dc168;
+  constexpr static std::size_t addrs = 0x67dc7b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<char16_t> (*)(char16_t*, int32_t, int32_t, ::ArrayW<char16_t>, ::by_ref<int32_t>, char16_t, char16_t, char16_t, ::System::UnescapeMode,
                                                                               ::System::UriParser*, bool)>(&::System::UriHelper::UnescapeString)> {
   constexpr static std::size_t size = 0x97c;
-  constexpr static std::size_t addrs = 0x67dc278;
+  constexpr static std::size_t addrs = 0x67dc8c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(char16_t*, ::ArrayW<char16_t>, ::by_ref<int32_t>, ::ArrayW<char16_t>, int32_t, ::ArrayW<uint8_t>, int32_t, bool, bool)>(
     &::System::UriHelper::MatchUTF8Sequence)> {
   constexpr static std::size_t size = 0x4ec;
-  constexpr static std::size_t addrs = 0x67db090;
+  constexpr static std::size_t addrs = 0x67db6e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(char16_t, ::ArrayW<char16_t>, ::by_ref<int32_t>)>(&::System::UriHelper::EscapeAsciiChar)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x67db57c;
+  constexpr static std::size_t addrs = 0x67dbbcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(char16_t, char16_t)>(&::System::UriHelper::EscapedAscii)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x67daf90;
+  constexpr static std::size_t addrs = 0x67db5e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::UriHelper::IsNotSafeForUnescape)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x67db008;
+  constexpr static std::size_t addrs = 0x67db658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::UriHelper*>(), { "IsNotSafeForUnescape", {}, { ::i2c::type_of<char16_t>() } })));
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::UriHelper::IsReservedUnreservedOrHash)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x67dc048;
+  constexpr static std::size_t addrs = 0x67dc698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::UriHelper::IsUnreserved)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x67dbf4c;
+  constexpr static std::size_t addrs = 0x67dc59c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::UriHelper*>(), { "IsUnreserved", {}, { ::i2c::type_of<char16_t>() } })));
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::UriHelper::Is3986Unreserved)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x67dcc58;
+  constexpr static std::size_t addrs = 0x67dd2a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::UriHelper*>(), { "Is3986Unreserved", {}, { ::i2c::type_of<char16_t>() } })));

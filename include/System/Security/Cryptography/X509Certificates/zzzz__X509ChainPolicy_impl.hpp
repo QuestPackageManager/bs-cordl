@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509ChainPolicy::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68142e8;
+  constexpr static std::size_t addrs = 0x6814938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* (
     ::System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)()>(&::System::Security::Cryptography::X509Certificates::X509ChainPolicy::get_ExtraStore)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x68143e0;
+  constexpr static std::size_t addrs = 0x6814a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509RevocationFlag (
     ::System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)()>(&::System::Security::Cryptography::X509Certificates::X509ChainPolicy::get_RevocationFlag)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6814614;
+  constexpr static std::size_t addrs = 0x6814c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509RevocationMode (
     ::System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)()>(&::System::Security::Cryptography::X509Certificates::X509ChainPolicy::get_RevocationMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x681461c;
+  constexpr static std::size_t addrs = 0x6814c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)(
     ::System::Security::Cryptography::X509Certificates::X509RevocationMode)>(&::System::Security::Cryptography::X509Certificates::X509ChainPolicy::set_RevocationMode)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6814624;
+  constexpr static std::size_t addrs = 0x6814c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509VerificationFlags (
     ::System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)()>(&::System::Security::Cryptography::X509Certificates::X509ChainPolicy::get_VerificationFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6814680;
+  constexpr static std::size_t addrs = 0x6814cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)(
     ::System::Security::Cryptography::X509Certificates::X509VerificationFlags)>(&::System::Security::Cryptography::X509Certificates::X509ChainPolicy::set_VerificationFlags)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6814688;
+  constexpr static std::size_t addrs = 0x6814cd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509ChainPolicy::get_VerificationTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68146e4;
+  constexpr static std::size_t addrs = 0x6814d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509ChainPolicy::Reset)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x68142ec;
+  constexpr static std::size_t addrs = 0x681493c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -29,28 +29,28 @@ public:
 
   __declspec(property(get = get_red, put = set_red)) float_t red;
 
-  /// @brief Method Black, addr 0x6fc9af0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Black, addr 0x6fcabd0, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::GlobalIllumination::LinearColor Black();
 
-  /// @brief Method Convert, addr 0x6fc97b8, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x6fca898, size 0x338, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::GlobalIllumination::LinearColor Convert(::UnityEngine::Color color, float_t intensity);
 
-  /// @brief Method get_blue, addr 0x6fc9704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_blue, addr 0x6fca7e4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_blue();
 
-  /// @brief Method get_green, addr 0x6fc9650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_green, addr 0x6fca730, size 0x8, virtual false, abstract: false, final false
   inline float_t get_green();
 
-  /// @brief Method get_red, addr 0x6fc959c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_red, addr 0x6fca67c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_red();
 
-  /// @brief Method set_blue, addr 0x6fc970c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_blue, addr 0x6fca7ec, size 0xac, virtual false, abstract: false, final false
   inline void set_blue(float_t value);
 
-  /// @brief Method set_green, addr 0x6fc9658, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_green, addr 0x6fca738, size 0xac, virtual false, abstract: false, final false
   inline void set_green(float_t value);
 
-  /// @brief Method set_red, addr 0x6fc95a4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_red, addr 0x6fca684, size 0xac, virtual false, abstract: false, final false
   inline void set_red(float_t value);
 
   // Ctor Parameters []

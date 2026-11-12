@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StepFloatMaterialPropertyEffectTarget::*)()>(&::GlobalNamespace::StepFloatMaterialPropertyEffectTarget::Awake)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5df0078;
+  constexpr static std::size_t addrs = 0x5df0334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StepFloatMaterialPropertyEffectTarget*>(), { "Awake", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StepFloatMaterialPropertyEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::StepFloatMaterialPropertyEffectTarget::SetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5df0098;
+  constexpr static std::size_t addrs = 0x5df0354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::StepFloatMaterialPropertyEffectTarget*>(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StepFloatMaterialPropertyEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::StepFloatMaterialPropertyEffectTarget::TriggerValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5df00f4;
+  constexpr static std::size_t addrs = 0x5df03b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::StepFloatMaterialPropertyEffectTarget*>(),
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StepFloatMaterialPropertyEffectTarget::*)(float_t)>(
     &::GlobalNamespace::StepFloatMaterialPropertyEffectTarget::SetFloat)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5df009c;
+  constexpr static std::size_t addrs = 0x5df0358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StepFloatMaterialPropertyEffectTarget::*)()>(&::GlobalNamespace::StepFloatMaterialPropertyEffectTarget::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5df00f8;
+  constexpr static std::size_t addrs = 0x5df03b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StepFloatMaterialPropertyEffectTarget*>(), { ".ctor", {}, {} })));

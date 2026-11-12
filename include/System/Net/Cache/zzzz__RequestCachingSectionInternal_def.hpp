@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_DisableAllCaching(bool value);
 
-  /// @brief Method .ctor, addr 0x67bc600, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67bcc50, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

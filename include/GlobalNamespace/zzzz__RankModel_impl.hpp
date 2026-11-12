@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::RankModel_Rank)>(&::GlobalNamespace::RankModel::GetRankName)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3a35b9c;
+  constexpr static std::size_t addrs = 0x3a3a330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::RankModel_Rank (*)(::by_ref<::GlobalNamespace::LevelScore const>)>(&::GlobalNamespace::RankModel::GetRankForScore)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3a35ca0;
+  constexpr static std::size_t addrs = 0x3a3a434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::RankModel_Rank (*)(int32_t, int32_t, int32_t, int32_t)>(&::GlobalNamespace::RankModel::GetRankForScore)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3a35cc0;
+  constexpr static std::size_t addrs = 0x3a3a454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

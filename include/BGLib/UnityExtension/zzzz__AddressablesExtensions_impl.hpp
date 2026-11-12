@@ -4,8 +4,8 @@
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_impl.hpp"
 #include "BGLib/UnityExtension/zzzz__AddressablesExtensions_def.hpp"
 #include "BGLib/UnityExtension/zzzz__AddressablesExtensions_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
@@ -89,13 +89,14 @@ BGLib::UnityExtension::AddressablesExtensions::GetAssetLoadingAsyncOperationHand
       nullptr, ___internal_method, runtimeKey);
 }
 template <typename T>
-inline ::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*
-BGLib::UnityExtension::AddressablesExtensions::GetLocations(::StringW runtimeKey) {
-  static auto* ___internal_method_base = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::AddressablesExtensions*>(), { "GetLocations", { ::i2c::class_of<T>() }, { ::i2c::type_of<::StringW>() } })));
+inline ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*
+BGLib::UnityExtension::AddressablesExtensions::GetUniqueAssetLocations(::StringW runtimeKey) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::AddressablesExtensions*>(), { "GetUniqueAssetLocations", { ::i2c::class_of<T>() }, { ::i2c::type_of<::StringW>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>(nullptr, ___internal_method,
-                                                                                                                                                                   runtimeKey);
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>(nullptr, ___internal_method,
+                                                                                                                                                                runtimeKey);
 }
 template <typename T>
 inline ::System::Runtime::CompilerServices::TaskAwaiter_1<T>

@@ -77,7 +77,7 @@ public:
   constexpr CullingJob_CrossFadeType(int32_t value__) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18195 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18203 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -121,25 +121,25 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method CalculateLODVisibility, addr 0x6c851d4, size 0x574, virtual false, abstract: false, final false
+  /// @brief Method CalculateLODVisibility, addr 0x6c862b4, size 0x574, virtual false, abstract: false, final false
   inline uint32_t CalculateLODVisibility(int32_t instanceIndex, int32_t sharedInstanceIndex, ::UnityEngine::Rendering::InstanceFlags instanceFlags);
 
-  /// @brief Method CalculateVisibilityMask, addr 0x6c85748, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method CalculateVisibilityMask, addr 0x6c86828, size 0x1f8, virtual false, abstract: false, final false
   inline uint32_t CalculateVisibilityMask(int32_t instanceIndex, int32_t sharedInstanceIndex, ::UnityEngine::Rendering::InstanceFlags instanceFlags);
 
-  /// @brief Method ComputeMeshLODCrossfade, addr 0x6c85c30, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ComputeMeshLODCrossfade, addr 0x6c86d10, size 0xf8, virtual false, abstract: false, final false
   inline uint32_t ComputeMeshLODCrossfade(int32_t instanceIndex, ::by_ref<uint32_t> meshLodLevel);
 
-  /// @brief Method ComputeMeshLODLevel, addr 0x6c85940, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method ComputeMeshLODLevel, addr 0x6c86a20, size 0x2f0, virtual false, abstract: false, final false
   inline uint32_t ComputeMeshLODLevel(int32_t instanceIndex, int32_t sharedInstanceIndex);
 
-  /// @brief Method EnforcePreviousFrameMeshLOD, addr 0x6c85d28, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method EnforcePreviousFrameMeshLOD, addr 0x6c86e08, size 0x64, virtual false, abstract: false, final false
   inline void EnforcePreviousFrameMeshLOD(int32_t instanceIndex, ::by_ref<uint32_t> meshLodLevel);
 
-  /// @brief Method Execute, addr 0x6c85d8c, size 0x20c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6c86e6c, size 0x20c, virtual true, abstract: false, final true
   inline void Execute(int32_t instanceIndex);
 
-  /// @brief Method PackFloatToUint8, addr 0x6c85174, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method PackFloatToUint8, addr 0x6c86254, size 0x60, virtual false, abstract: false, final false
   static inline uint32_t PackFloatToUint8(float_t percent);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -180,7 +180,7 @@ public:
                        ::Unity::Collections::NativeArray_1<uint8_t> rendererMeshLodSettings, ::Unity::Collections::NativeArray_1<uint8_t> rendererCrossFadeValues) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18196 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18204 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2b0 };

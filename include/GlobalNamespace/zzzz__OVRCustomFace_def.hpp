@@ -113,15 +113,15 @@ public:
   /// @brief Field retargetingType, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get_retargetingType, put = __cordl_internal_set_retargetingType)) ::GlobalNamespace::OVRCustomFace_RetargetingType retargetingType;
 
-  /// @brief Method GetCustomBlendShapeNameAndExpressionPairs, addr 0x624e73c, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method GetCustomBlendShapeNameAndExpressionPairs, addr 0x624e9c4, size 0x104, virtual true, abstract: false, final false
   inline ::System::ValueTuple_2<::ArrayW<::StringW>, ::ArrayW<::GlobalNamespace::OVRFaceExpressions_FaceExpression>> GetCustomBlendShapeNameAndExpressionPairs();
 
-  /// @brief Method GetFaceExpression, addr 0x624e70c, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetFaceExpression, addr 0x624e994, size 0x30, virtual true, abstract: false, final false
   inline ::GlobalNamespace::OVRFaceExpressions_FaceExpression GetFaceExpression(int32_t blendShapeIndex);
 
   static inline ::GlobalNamespace::OVRCustomFace* New_ctor();
 
-  /// @brief Method Start, addr 0x624e678, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x624e900, size 0x4, virtual true, abstract: false, final false
   inline void Start();
 
   constexpr bool const& __cordl_internal_get__allowDuplicateMapping() const;
@@ -142,25 +142,25 @@ public:
 
   constexpr void __cordl_internal_set_retargetingType(::GlobalNamespace::OVRCustomFace_RetargetingType value);
 
-  /// @brief Method .ctor, addr 0x624e840, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x624eac8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AllowDuplicateMapping, addr 0x624e668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowDuplicateMapping, addr 0x624e8f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowDuplicateMapping();
 
-  /// @brief Method get_Mappings, addr 0x624e648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Mappings, addr 0x624e8d0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::OVRFaceExpressions_FaceExpression> get_Mappings();
 
-  /// @brief Method get_RetargetingValue, addr 0x624e658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RetargetingValue, addr 0x624e8e0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRCustomFace_RetargetingType get_RetargetingValue();
 
-  /// @brief Method set_AllowDuplicateMapping, addr 0x624e670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AllowDuplicateMapping, addr 0x624e8f8, size 0x8, virtual false, abstract: false, final false
   inline void set_AllowDuplicateMapping(bool value);
 
-  /// @brief Method set_Mappings, addr 0x624e650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Mappings, addr 0x624e8d8, size 0x8, virtual false, abstract: false, final false
   inline void set_Mappings(::ArrayW<::GlobalNamespace::OVRFaceExpressions_FaceExpression> value);
 
-  /// @brief Method set_RetargetingValue, addr 0x624e660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RetargetingValue, addr 0x624e8e8, size 0x8, virtual false, abstract: false, final false
   inline void set_RetargetingValue(::GlobalNamespace::OVRCustomFace_RetargetingType value);
 
 protected:

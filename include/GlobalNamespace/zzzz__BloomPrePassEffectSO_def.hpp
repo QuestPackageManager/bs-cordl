@@ -87,25 +87,25 @@ public:
 
   constexpr void __cordl_internal_set__textureWidth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5cafa8c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cae10c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_fov, addr 0x5cafa74, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_fov, addr 0x5cae0f4, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 get_fov();
 
-  /// @brief Method get_linesWidth, addr 0x5cafa7c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_linesWidth, addr 0x5cae0fc, size 0x8, virtual true, abstract: false, final true
   inline float_t get_linesWidth();
 
-  /// @brief Method get_textureEffect, addr 0x5cafa60, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method get_textureEffect, addr 0x5cae0e0, size 0x4, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::TextureEffectSO> get_textureEffect();
 
-  /// @brief Method get_textureHeight, addr 0x5cafa6c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_textureHeight, addr 0x5cae0ec, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_textureHeight();
 
-  /// @brief Method get_textureWidth, addr 0x5cafa64, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_textureWidth, addr 0x5cae0e4, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_textureWidth();
 
-  /// @brief Method get_toneMapping, addr 0x5cafa84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_toneMapping, addr 0x5cae104, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ToneMapping get_toneMapping();
 
   /// @brief Convert to "::GlobalNamespace::IBloomPrePassParams"
@@ -126,7 +126,7 @@ public:
   BloomPrePassEffectSO(BloomPrePassEffectSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19930 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19850 };
 
   /// [SerializeField]
   /// @brief Field _textureWidth, offset: 0x18, size: 0x4, def value: None

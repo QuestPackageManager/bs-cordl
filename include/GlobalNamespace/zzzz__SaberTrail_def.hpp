@@ -113,42 +113,42 @@ public:
   /// @brief Field _whiteSectionMaxDuration, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get__whiteSectionMaxDuration, put = __cordl_internal_set__whiteSectionMaxDuration)) float_t _whiteSectionMaxDuration;
 
-  /// @brief Method ApplyRenderOrder, addr 0x63abfc0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ApplyRenderOrder, addr 0x63ac610, size 0xb0, virtual false, abstract: false, final false
   inline void ApplyRenderOrder(bool isDeterministic);
 
-  /// @brief Method GetTrailWidth, addr 0x63abf34, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetTrailWidth, addr 0x63ac584, size 0x8c, virtual false, abstract: false, final false
   inline float_t GetTrailWidth(::GlobalNamespace::BladeMovementDataElement lastAddedData);
 
-  /// @brief Method HandleDeterminismSet, addr 0x63ac088, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandleDeterminismSet, addr 0x63ac6d8, size 0x3c, virtual false, abstract: false, final false
   inline void HandleDeterminismSet(bool isDeterministic);
 
-  /// @brief Method Init, addr 0x63abae0, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x63ac130, size 0x2c0, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LateUpdate, addr 0x63ac238, size 0x3fc, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x63ac888, size 0x3fc, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SaberTrail* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x63acba0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x63ad1f0, size 0xac, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x63aca7c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x63ad0cc, size 0x124, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x63acc4c, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x63ad29c, size 0x214, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method OnEnable, addr 0x63ac930, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x63acf80, size 0x14c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResetTrailData, addr 0x63ac0c4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ResetTrailData, addr 0x63ac714, size 0xe4, virtual false, abstract: false, final false
   inline void ResetTrailData();
 
-  /// @brief Method Setup, addr 0x63ababc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x63ac10c, size 0x24, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Color color, ::GlobalNamespace::IBladeMovementData* movementData, ::GlobalNamespace::SaberType saberType);
 
-  /// @brief Method Start, addr 0x63ab964, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x63abfb4, size 0x158, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -277,7 +277,7 @@ public:
 
   constexpr void __cordl_internal_set__whiteSectionMaxDuration(float_t value);
 
-  /// @brief Method .ctor, addr 0x63ace60, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63ad4b0, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -295,7 +295,7 @@ public:
   SaberTrail(SaberTrail const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24021 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24039 };
 
   /// @brief Field kIgnoredFramesCount offset 0xffffffff size 0x4
   static constexpr int32_t kIgnoredFramesCount{ static_cast<int32_t>(0x4) };

@@ -27,14 +27,14 @@ public:
   /// @brief Field lastBytesCount, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_lastBytesCount, put = __cordl_internal_set_lastBytesCount)) int32_t lastBytesCount;
 
-  /// @brief Method Convert, addr 0x6748928, size 0x234, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x6748f78, size 0x234, virtual true, abstract: false, final false
   inline void Convert(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t> chars, int32_t charIndex, int32_t charCount, bool flush, ::by_ref<int32_t> bytesUsed,
                       ::by_ref<int32_t> charsUsed, ::by_ref<bool> completed);
 
-  /// @brief Method GetCharCount, addr 0x674875c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetCharCount, addr 0x6748dac, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetCharCount(::ArrayW<uint8_t> bytes, int32_t index, int32_t count);
 
-  /// @brief Method GetChars, addr 0x6748778, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method GetChars, addr 0x6748dc8, size 0x1b0, virtual true, abstract: false, final false
   inline int32_t GetChars(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t> chars, int32_t charIndex);
 
   /// @brief Method GetFullChars, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -42,7 +42,7 @@ public:
 
   static inline ::System::Xml::Ucs4Decoder* New_ctor();
 
-  /// @brief Method Ucs4ToUTF16, addr 0x6748b5c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Ucs4ToUTF16, addr 0x67491ac, size 0x58, virtual false, abstract: false, final false
   inline void Ucs4ToUTF16(uint32_t code, ::ArrayW<char16_t> chars, int32_t charIndex);
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_lastBytes() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_lastBytesCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6748bb4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6749204, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

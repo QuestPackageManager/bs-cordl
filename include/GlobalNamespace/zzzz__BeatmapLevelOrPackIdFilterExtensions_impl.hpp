@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevelOrPackIdFilter)>(&::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions::ShouldAllowPacks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a011d8;
+  constexpr static std::size_t addrs = 0x3a05f2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions*>(),
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevelOrPackIdFilter)>(&::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions::ShouldAllowLevels)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a011ec;
+  constexpr static std::size_t addrs = 0x3a05f40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions*>(),
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevelOrPackIdFilter)>(&::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions::ShouldAllowEmpty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a01200;
+  constexpr static std::size_t addrs = 0x3a05f54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions*>(),
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapLevelOrPackIdFilter (*)(::GlobalNamespace::BeatmapLevelOrPackIdFilter)>(
     &::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions::WithoutEmpty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a01214;
+  constexpr static std::size_t addrs = 0x3a05f68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions*>(),

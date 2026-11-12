@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlProcessingInstruction::*)(::StringW, ::StringW, ::System::Xml::XmlDocument*)>(
     &::System::Xml::XmlProcessingInstruction::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x67316b8;
+  constexpr static std::size_t addrs = 0x6731d08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlProcessingInstruction::*)()>(&::System::Xml::XmlProcessingInstruction::get_Name)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x67316e8;
+  constexpr static std::size_t addrs = 0x6731d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlProcessingInstruction::*)()>(&::System::Xml::XmlProcessingInstruction::get_LocalName)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6731708;
+  constexpr static std::size_t addrs = 0x6731d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlProcessingInstruction::*)()>(&::System::Xml::XmlProcessingInstruction::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6731714;
+  constexpr static std::size_t addrs = 0x6731d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlProcessingInstruction::*)(::StringW)>(&::System::Xml::XmlProcessingInstruction::set_Value)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x673171c;
+  constexpr static std::size_t addrs = 0x6731d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlProcessingInstruction::*)(::StringW)>(&::System::Xml::XmlProcessingInstruction::set_Data)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6731720;
+  constexpr static std::size_t addrs = 0x6731d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlProcessingInstruction::*)()>(&::System::Xml::XmlProcessingInstruction::get_InnerText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67317c0;
+  constexpr static std::size_t addrs = 0x6731e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlProcessingInstruction::*)(::StringW)>(&::System::Xml::XmlProcessingInstruction::set_InnerText)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67317c8;
+  constexpr static std::size_t addrs = 0x6731e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNodeType (::System::Xml::XmlProcessingInstruction::*)()>(&::System::Xml::XmlProcessingInstruction::get_NodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67317cc;
+  constexpr static std::size_t addrs = 0x6731e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlProcessingInstruction::*)(bool)>(&::System::Xml::XmlProcessingInstruction::CloneNode)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x67317d4;
+  constexpr static std::size_t addrs = 0x6731e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlProcessingInstruction::*)(::System::Xml::XmlWriter*)>(&::System::Xml::XmlProcessingInstruction::WriteTo)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x673180c;
+  constexpr static std::size_t addrs = 0x6731e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlProcessingInstruction::*)(::System::Xml::XmlWriter*)>(&::System::Xml::XmlProcessingInstruction::WriteContentTo)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6731834;
+  constexpr static std::size_t addrs = 0x6731e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlProcessingInstruction::*)()>(&::System::Xml::XmlProcessingInstruction::get_XPLocalName)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6731838;
+  constexpr static std::size_t addrs = 0x6731e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XPath::XPathNodeType (::System::Xml::XmlProcessingInstruction::*)()>(&::System::Xml::XmlProcessingInstruction::get_XPNodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6731844;
+  constexpr static std::size_t addrs = 0x6731e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (*)()>(&::System::Runtime::Serialization::XmlFormatGeneratorStatics::get_BoxPointer)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x65c6d18;
+  constexpr static std::size_t addrs = 0x65c7368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (*)()>(&::System::Runtime::Serialization::XmlFormatGeneratorStatics::get_MoveNextMethod)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x65c6de8;
+  constexpr static std::size_t addrs = 0x65c7438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (*)()>(&::System::Runtime::Serialization::XmlFormatGeneratorStatics::get_GetCurrentMethod)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x65c6eac;
+  constexpr static std::size_t addrs = 0x65c74fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (*)()>(&::System::Runtime::Serialization::XmlFormatGeneratorStatics::get_UnboxPointer)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x65c6f88;
+  constexpr static std::size_t addrs = 0x65c75d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::ConstructorInfo* (*)()>(&::System::Runtime::Serialization::XmlFormatGeneratorStatics::get_HashtableCtor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x65c704c;
+  constexpr static std::size_t addrs = 0x65c769c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (*)()>(&::System::Runtime::Serialization::XmlFormatGeneratorStatics::get_IncrementItemCountMethod)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x65c713c;
+  constexpr static std::size_t addrs = 0x65c778c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (*)()>(&::System::Runtime::Serialization::XmlFormatGeneratorStatics::get_EnsureArraySizeMethod)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x65c7204;
+  constexpr static std::size_t addrs = 0x65c7854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (*)()>(&::System::Runtime::Serialization::XmlFormatGeneratorStatics::get_TrimArraySizeMethod)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x65c72cc;
+  constexpr static std::size_t addrs = 0x65c791c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (*)()>(&::System::Runtime::Serialization::XmlFormatGeneratorStatics::get_WriteNullMethod)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x65c7394;
+  constexpr static std::size_t addrs = 0x65c79e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (*)()>(&::System::Runtime::Serialization::XmlFormatGeneratorStatics::get_IncrementCollectionCountMethod)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x65c7584;
+  constexpr static std::size_t addrs = 0x65c7bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (*)()>(
     &::System::Runtime::Serialization::XmlFormatGeneratorStatics::get_IncrementCollectionCountGenericMethod)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x65c7748;
+  constexpr static std::size_t addrs = 0x65c7d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (*)()>(&::System::Runtime::Serialization::XmlFormatGeneratorStatics::get_GetDefaultValueMethod)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x65c7810;
+  constexpr static std::size_t addrs = 0x65c7e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (*)()>(&::System::Runtime::Serialization::XmlFormatGeneratorStatics::get_GetNullableValueMethod)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x65c78d8;
+  constexpr static std::size_t addrs = 0x65c7f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (*)()>(&::System::Runtime::Serialization::XmlFormatGeneratorStatics::get_GetHasValueMethod)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x65c79a0;
+  constexpr static std::size_t addrs = 0x65c7ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (*)()>(&::System::Runtime::Serialization::XmlFormatGeneratorStatics::get_ExtensionDataSetExplicitMethodInfo)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x65c7a68;
+  constexpr static std::size_t addrs = 0x65c80b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

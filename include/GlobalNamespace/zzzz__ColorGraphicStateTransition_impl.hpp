@@ -12,11 +12,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::ColorGraphicStateTransition::TransitionToNormalState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x68a7f00;
+  constexpr static std::size_t addrs = 0x68a8550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 5 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 6 }));
     return ___internal_method;
   }
 };
@@ -26,11 +26,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::ColorGraphicStateTransition::TransitionToHighlightedState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x68a81b0;
+  constexpr static std::size_t addrs = 0x68a8800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 6 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 7 }));
     return ___internal_method;
   }
 };
@@ -40,11 +40,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::ColorGraphicStateTransition::TransitionToPressedState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x68a81e8;
+  constexpr static std::size_t addrs = 0x68a8838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 7 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 8 }));
     return ___internal_method;
   }
 };
@@ -54,11 +54,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::ColorGraphicStateTransition::TransitionToDisabledState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x68a8220;
+  constexpr static std::size_t addrs = 0x68a8870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 8 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 9 }));
     return ___internal_method;
   }
 };
@@ -68,11 +68,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::ColorGraphicStateTransition::TransitionToSelectedState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x68a8258;
+  constexpr static std::size_t addrs = 0x68a88a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 9 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 10 }));
     return ___internal_method;
   }
 };
@@ -82,11 +82,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::ColorGraphicStateTransition::TransitionToSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x68a8290;
+  constexpr static std::size_t addrs = 0x68a88e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 10 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 11 }));
     return ___internal_method;
   }
 };
@@ -95,11 +95,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)()>(&::GlobalNamespace::ColorGraphicStateTransition::StopCurrentTransitionAnimation)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x68a82c8;
+  constexpr static std::size_t addrs = 0x68a8918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 11 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 12 }));
     return ___internal_method;
   }
 };
@@ -108,11 +108,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)()>(&::GlobalNamespace::ColorGraphicStateTransition::SetNormalState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x68a8360;
+  constexpr static std::size_t addrs = 0x68a89b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 12 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 13 }));
     return ___internal_method;
   }
 };
@@ -121,11 +121,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)()>(&::GlobalNamespace::ColorGraphicStateTransition::SetHighlightedState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x68a8398;
+  constexpr static std::size_t addrs = 0x68a89e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 13 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 14 }));
     return ___internal_method;
   }
 };
@@ -134,11 +134,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)()>(&::GlobalNamespace::ColorGraphicStateTransition::SetPressedState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x68a83d0;
+  constexpr static std::size_t addrs = 0x68a8a20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 14 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 15 }));
     return ___internal_method;
   }
 };
@@ -147,11 +147,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)()>(&::GlobalNamespace::ColorGraphicStateTransition::SetDisabledState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x68a8408;
+  constexpr static std::size_t addrs = 0x68a8a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 15 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 16 }));
     return ___internal_method;
   }
 };
@@ -160,11 +160,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)()>(&::GlobalNamespace::ColorGraphicStateTransition::SetSelectedState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x68a8440;
+  constexpr static std::size_t addrs = 0x68a8a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 16 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 17 }));
     return ___internal_method;
   }
 };
@@ -173,11 +173,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)()>(&::GlobalNamespace::ColorGraphicStateTransition::SetSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x68a8478;
+  constexpr static std::size_t addrs = 0x68a8ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 17 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 18 }));
     return ___internal_method;
   }
 };
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)(::UnityEngine::Color, ::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::ColorGraphicStateTransition::StartTween)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x68a7f38;
+  constexpr static std::size_t addrs = 0x68a8588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)()>(&::GlobalNamespace::ColorGraphicStateTransition::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x68a84b0;
+  constexpr static std::size_t addrs = 0x68a8b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { ".ctor", {}, {} })));
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::ColorGraphicStateTransition::_StartTween_b__14_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68a84f4;
+  constexpr static std::size_t addrs = 0x68a8b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -227,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)()>(&::GlobalNamespace::ColorGraphicStateTransition::_StartTween_b__14_1)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x68a8514;
+  constexpr static std::size_t addrs = 0x68a8b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { "<StartTween>b__14_1", {}, {} })));
@@ -248,67 +248,67 @@ constexpr void GlobalNamespace::ColorGraphicStateTransition::__cordl_internal_se
 }
 inline void GlobalNamespace::ColorGraphicStateTransition::TransitionToNormalState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 5 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
 inline void GlobalNamespace::ColorGraphicStateTransition::TransitionToHighlightedState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 6 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
 inline void GlobalNamespace::ColorGraphicStateTransition::TransitionToPressedState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 7 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
 inline void GlobalNamespace::ColorGraphicStateTransition::TransitionToDisabledState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 8 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
 inline void GlobalNamespace::ColorGraphicStateTransition::TransitionToSelectedState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 9 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 10 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
 inline void GlobalNamespace::ColorGraphicStateTransition::TransitionToSelectedAndHighlightedState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 10 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 11 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
 inline void GlobalNamespace::ColorGraphicStateTransition::StopCurrentTransitionAnimation() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 11 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 12 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::ColorGraphicStateTransition::SetNormalState() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 12 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::ColorGraphicStateTransition::SetHighlightedState() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 13 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::ColorGraphicStateTransition::SetPressedState() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 14 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 15 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::ColorGraphicStateTransition::SetDisabledState() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 15 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 16 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::ColorGraphicStateTransition::SetSelectedState() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 16 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 17 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::ColorGraphicStateTransition::SetSelectedAndHighlightedState() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 17 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), 18 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::ColorGraphicStateTransition::StartTween(::UnityEngine::Color endColor, ::GlobalNamespace::TransitionTimingSO* transitionTiming) {

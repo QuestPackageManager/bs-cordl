@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField::Init)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c6d4cc;
+  constexpr static std::size_t addrs = 0x6c6e5ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField*>(), { "Init", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField::*)(bool, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField::OnSelection)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6c6f6c4;
+  constexpr static std::size_t addrs = 0x6c707a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField::OnDeselection)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6c6f71c;
+  constexpr static std::size_t addrs = 0x6c707fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField*>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField::*)(bool)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField::OnIncrement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c6f76c;
+  constexpr static std::size_t addrs = 0x6c7084c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField::*)(bool)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField::OnDecrement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c6f82c;
+  constexpr static std::size_t addrs = 0x6c7090c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField*>(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField::*)(bool, float_t)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField::ChangeValue)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6c6f774;
+  constexpr static std::size_t addrs = 0x6c70854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField*>(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField::UpdateValueLabel)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6c6f5a0;
+  constexpr static std::size_t addrs = 0x6c70680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c6f834;
+  constexpr static std::size_t addrs = 0x6c70914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField*>(), { ".ctor", {}, {} })));

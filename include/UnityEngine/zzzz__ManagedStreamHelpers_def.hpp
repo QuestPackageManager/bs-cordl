@@ -28,18 +28,18 @@ class CORDL_TYPE ManagedStreamHelpers : public ::System::Object {
 public:
   // Declarations
   /// [RequiredByNativeCode]
-  /// @brief Method ManagedStreamLength, addr 0x6f7b8e8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ManagedStreamLength, addr 0x6f7c9c8, size 0x9c, virtual false, abstract: false, final false
   static inline void ManagedStreamLength(::System::IO::Stream* stream, ::System::IntPtr returnValueAddress);
 
   /// [RequiredByNativeCode]
-  /// @brief Method ManagedStreamRead, addr 0x6f7b768, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ManagedStreamRead, addr 0x6f7c848, size 0xc4, virtual false, abstract: false, final false
   static inline void ManagedStreamRead(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::IO::Stream* stream, ::System::IntPtr returnValueAddress);
 
   /// [RequiredByNativeCode]
-  /// @brief Method ManagedStreamSeek, addr 0x6f7b82c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ManagedStreamSeek, addr 0x6f7c90c, size 0xbc, virtual false, abstract: false, final false
   static inline void ManagedStreamSeek(int64_t offset, uint32_t origin, ::System::IO::Stream* stream, ::System::IntPtr returnValueAddress);
 
-  /// @brief Method ValidateLoadFromStream, addr 0x6f7b664, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ValidateLoadFromStream, addr 0x6f7c744, size 0x104, virtual false, abstract: false, final false
   static inline void ValidateLoadFromStream(::System::IO::Stream* stream);
 
 protected:

@@ -141,16 +141,16 @@ public:
 
   __declspec(property(get = get_softShadow, put = set_softShadow)) bool softShadow;
 
-  /// @brief Method get_pointLightShadow, addr 0x6cfd30c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pointLightShadow, addr 0x6cfe3ec, size 0xc, virtual false, abstract: false, final false
   inline bool get_pointLightShadow();
 
-  /// @brief Method get_softShadow, addr 0x6cfd300, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_softShadow, addr 0x6cfe3e0, size 0xc, virtual false, abstract: false, final false
   inline bool get_softShadow();
 
-  /// @brief Method set_pointLightShadow, addr 0x6cfd280, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_pointLightShadow, addr 0x6cfe360, size 0x20, virtual false, abstract: false, final false
   inline void set_pointLightShadow(bool value);
 
-  /// @brief Method set_softShadow, addr 0x6cfd270, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_softShadow, addr 0x6cfe350, size 0x10, virtual false, abstract: false, final false
   inline void set_softShadow(bool value);
 
   // Ctor Parameters []
@@ -231,11 +231,11 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout___c* New_ctor();
 
-  /// @brief Method <CreateCompareShadowResolutionRequesPredicate>b__24_0, addr 0x6cfd45c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method <CreateCompareShadowResolutionRequesPredicate>b__24_0, addr 0x6cfe53c, size 0x128, virtual false, abstract: false, final false
   inline int32_t _CreateCompareShadowResolutionRequesPredicate_b__24_0(::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest curr,
                                                                        ::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest other);
 
-  /// @brief Method .ctor, addr 0x6cfd458, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfe538, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout___c* getStaticF___9();
@@ -305,44 +305,44 @@ public:
   __declspec(property(get = getStaticF_s_VisibleLightIndexToCameraSquareDistance, put = setStaticF_s_VisibleLightIndexToCameraSquareDistance)) ::ArrayW<float_t>
       s_VisibleLightIndexToCameraSquareDistance;
 
-  /// @brief Method ClearStaticCaches, addr 0x6cfd3a4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ClearStaticCaches, addr 0x6cfe484, size 0x60, virtual false, abstract: false, final false
   static inline void ClearStaticCaches();
 
-  /// @brief Method CreateCompareShadowResolutionRequesPredicate, addr 0x6cfd19c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method CreateCompareShadowResolutionRequesPredicate, addr 0x6cfe27c, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Func_3<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest,
                                  ::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest, int32_t>*
   CreateCompareShadowResolutionRequesPredicate();
 
-  /// @brief Method EstimateScaleFactorNeededToFitAllShadowsInAtlas, addr 0x6cfd2a0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method EstimateScaleFactorNeededToFitAllShadowsInAtlas, addr 0x6cfe380, size 0x60, virtual false, abstract: false, final false
   static inline int32_t EstimateScaleFactorNeededToFitAllShadowsInAtlas(
       /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest> const> shadowResolutionRequests,
       int32_t endIndex, int32_t atlasSize);
 
-  /// @brief Method GetAtlasSize, addr 0x6cfd338, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAtlasSize, addr 0x6cfe418, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetAtlasSize();
 
-  /// @brief Method GetShadowSlicesScaleFactor, addr 0x6cfd330, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetShadowSlicesScaleFactor, addr 0x6cfe410, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetShadowSlicesScaleFactor();
 
-  /// @brief Method GetSliceShadowResolutionRequest, addr 0x6cfd378, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetSliceShadowResolutionRequest, addr 0x6cfe458, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest GetSliceShadowResolutionRequest(int32_t originalVisibleLightIndex, int32_t sliceIndex);
 
-  /// @brief Method GetSortedShadowResolutionRequest, addr 0x6cfd354, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetSortedShadowResolutionRequest, addr 0x6cfe434, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest GetSortedShadowResolutionRequest(int32_t sortedShadowResolutionRequestIndex);
 
-  /// @brief Method GetTotalShadowResolutionRequestCount, addr 0x6cfd320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTotalShadowResolutionRequestCount, addr 0x6cfe400, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetTotalShadowResolutionRequestCount();
 
-  /// @brief Method GetTotalShadowSlicesCount, addr 0x6cfd318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTotalShadowSlicesCount, addr 0x6cfe3f8, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetTotalShadowSlicesCount();
 
-  /// @brief Method HasSpaceForLight, addr 0x6cfd340, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HasSpaceForLight, addr 0x6cfe420, size 0x14, virtual false, abstract: false, final false
   inline bool HasSpaceForLight(int32_t originalVisibleLightIndex);
 
-  /// @brief Method HasTooManyShadowMaps, addr 0x6cfd328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasTooManyShadowMaps, addr 0x6cfe408, size 0x8, virtual false, abstract: false, final false
   inline bool HasTooManyShadowMaps();
 
-  /// @brief Method .ctor, addr 0x6cfc314, size 0xe88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfd3f4, size 0xe88, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::UniversalLightData* lightData, ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData,
                     ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 

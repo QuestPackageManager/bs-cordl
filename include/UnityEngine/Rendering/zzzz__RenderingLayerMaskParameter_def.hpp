@@ -26,7 +26,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::RenderingLayerMaskParameter* New_ctor(::UnityEngine::RenderingLayerMask value, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x6c274a4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c28584, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::RenderingLayerMask value, bool overrideState);
 
 protected:

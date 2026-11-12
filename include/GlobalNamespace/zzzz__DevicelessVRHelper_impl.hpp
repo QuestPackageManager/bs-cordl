@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DevicelessVRHelper::*)(::System::Action*)>(&::GlobalNamespace::DevicelessVRHelper::add_inputFocusWasCapturedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5ca7318;
+  constexpr static std::size_t addrs = 0x5ca5ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DevicelessVRHelper::*)(::System::Action*)>(&::GlobalNamespace::DevicelessVRHelper::remove_inputFocusWasCapturedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5ca73c4;
+  constexpr static std::size_t addrs = 0x5ca5b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DevicelessVRHelper::*)(::System::Action*)>(&::GlobalNamespace::DevicelessVRHelper::add_inputFocusWasReleasedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5ca7470;
+  constexpr static std::size_t addrs = 0x5ca5c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DevicelessVRHelper::*)(::System::Action*)>(&::GlobalNamespace::DevicelessVRHelper::remove_inputFocusWasReleasedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5ca751c;
+  constexpr static std::size_t addrs = 0x5ca5ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DevicelessVRHelper::*)(::System::Action*)>(&::GlobalNamespace::DevicelessVRHelper::add_vrFocusWasCapturedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5ca75c8;
+  constexpr static std::size_t addrs = 0x5ca5d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DevicelessVRHelper::*)(::System::Action*)>(&::GlobalNamespace::DevicelessVRHelper::remove_vrFocusWasCapturedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5ca7674;
+  constexpr static std::size_t addrs = 0x5ca5e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DevicelessVRHelper::*)(::System::Action*)>(&::GlobalNamespace::DevicelessVRHelper::add_vrFocusWasReleasedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5ca7720;
+  constexpr static std::size_t addrs = 0x5ca5ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DevicelessVRHelper::*)(::System::Action*)>(&::GlobalNamespace::DevicelessVRHelper::remove_vrFocusWasReleasedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5ca77cc;
+  constexpr static std::size_t addrs = 0x5ca5f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DevicelessVRHelper::*)(::System::Action*)>(&::GlobalNamespace::DevicelessVRHelper::add_hmdUnmountedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5ca7878;
+  constexpr static std::size_t addrs = 0x5ca6028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DevicelessVRHelper::*)(::System::Action*)>(&::GlobalNamespace::DevicelessVRHelper::remove_hmdUnmountedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5ca7924;
+  constexpr static std::size_t addrs = 0x5ca60d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DevicelessVRHelper::*)(::System::Action*)>(&::GlobalNamespace::DevicelessVRHelper::add_hmdMountedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5ca79d0;
+  constexpr static std::size_t addrs = 0x5ca6180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DevicelessVRHelper::*)(::System::Action*)>(&::GlobalNamespace::DevicelessVRHelper::remove_hmdMountedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5ca7a7c;
+  constexpr static std::size_t addrs = 0x5ca622c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DevicelessVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::DevicelessVRHelper::add_controllersDidChangeReferenceEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5ca7b28;
+  constexpr static std::size_t addrs = 0x5ca62d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DevicelessVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::DevicelessVRHelper::remove_controllersDidChangeReferenceEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5ca7bd4;
+  constexpr static std::size_t addrs = 0x5ca6384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DevicelessVRHelper::*)(::System::Action*)>(&::GlobalNamespace::DevicelessVRHelper::add_controllersDidDisconnectEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5ca7c80;
+  constexpr static std::size_t addrs = 0x5ca6430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DevicelessVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::DevicelessVRHelper::remove_controllersDidDisconnectEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5ca7d2c;
+  constexpr static std::size_t addrs = 0x5ca64dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -227,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DevicelessVRHelper::*)()>(&::GlobalNamespace::DevicelessVRHelper::get_debugUpdateOffsetsContinuously)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca7dd8;
+  constexpr static std::size_t addrs = 0x5ca6588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DevicelessVRHelper::*)()>(&::GlobalNamespace::DevicelessVRHelper::get_hasInputFocus)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca7de0;
+  constexpr static std::size_t addrs = 0x5ca6590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DevicelessVRHelper*>(), { "get_hasInputFocus", {}, {} })));
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DevicelessVRHelper::*)()>(&::GlobalNamespace::DevicelessVRHelper::get_hasVrFocus)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca7de8;
+  constexpr static std::size_t addrs = 0x5ca6598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DevicelessVRHelper*>(), { "get_hasVrFocus", {}, {} })));
@@ -264,7 +264,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DevicelessVRHelper::*)()>(&::GlobalNamespace::DevicelessVRHelper::get_isAlwaysWireless)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca7df0;
+  constexpr static std::size_t addrs = 0x5ca65a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DevicelessVRHelper*>(), { "get_isAlwaysWireless", {}, {} })));
@@ -276,7 +276,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::DevicelessVRHelper::*)()>(&::GlobalNamespace::DevicelessVRHelper::get_loggerPrefix)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5ca7df8;
+  constexpr static std::size_t addrs = 0x5ca65a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DevicelessVRHelper*>(), { "get_loggerPrefix", {}, {} })));
@@ -288,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DevicelessVRHelper::*)()>(&::GlobalNamespace::DevicelessVRHelper::Update)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x5ca7e3c;
+  constexpr static std::size_t addrs = 0x5ca65ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DevicelessVRHelper*>(), { "Update", {}, {} })));
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DevicelessVRHelper::*)(::UnityEngine::XR::XRNode, float_t, float_t, float_t)>(
     &::GlobalNamespace::DevicelessVRHelper::TriggerHapticPulse)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ca809c;
+  constexpr static std::size_t addrs = 0x5ca684c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DevicelessVRHelper::*)(::UnityEngine::XR::XRNode)>(&::GlobalNamespace::DevicelessVRHelper::StopHaptics)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ca80a0;
+  constexpr static std::size_t addrs = 0x5ca6850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DevicelessVRHelper::*)(::UnityEngine::XR::XRNode, ::by_ref<::UnityEngine::Pose>)>(
     &::GlobalNamespace::DevicelessVRHelper::TryGetPoseOffsetForNode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5ca80a4;
+  constexpr static std::size_t addrs = 0x5ca6854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DevicelessVRHelper::*)(::UnityEngine::XR::XRNode, int32_t, ::by_ref<::UnityEngine::Vector3>,
                                                                                                        ::by_ref<::UnityEngine::Quaternion>)>(&::GlobalNamespace::DevicelessVRHelper::GetNodePose)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5ca8120;
+  constexpr static std::size_t addrs = 0x5ca68d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -363,7 +363,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (::GlobalNamespace::DevicelessVRHelper::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::DevicelessVRHelper::GetRootPositionOffsetForLegacyNodePose)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5ca81c8;
+  constexpr static std::size_t addrs = 0x5ca6978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DevicelessVRHelper*>(),
@@ -377,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DevicelessVRHelper::*)(::UnityEngine::XR::XRNode, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>)>(
     &::GlobalNamespace::DevicelessVRHelper::TryGetLegacyPoseOffsetForNode)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5ca8240;
+  constexpr static std::size_t addrs = 0x5ca69f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -394,7 +394,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::DevicelessVRHelper::*)()>(&::GlobalNamespace::DevicelessVRHelper::GetAnyJoystickMaxAxis)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5ca82c4;
+  constexpr static std::size_t addrs = 0x5ca6a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DevicelessVRHelper*>(), { "GetAnyJoystickMaxAxis", {}, {} })));
@@ -406,7 +406,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::DevicelessVRHelper::*)(::UnityEngine::XR::XRNode)>(&::GlobalNamespace::DevicelessVRHelper::GetTriggerValue)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5ca8328;
+  constexpr static std::size_t addrs = 0x5ca6ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -420,7 +420,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::DevicelessVRHelper::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::DevicelessVRHelper::GetThumbstickValue)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5ca836c;
+  constexpr static std::size_t addrs = 0x5ca6b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -434,7 +434,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DevicelessVRHelper::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::DevicelessVRHelper::IsAdvancedHapticsSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca83d0;
+  constexpr static std::size_t addrs = 0x5ca6b80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -447,7 +447,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DevicelessVRHelper::*)()>(&::GlobalNamespace::DevicelessVRHelper::GetMenuButton)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ca83d8;
+  constexpr static std::size_t addrs = 0x5ca6b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DevicelessVRHelper*>(), { "GetMenuButton", {}, {} })));
@@ -459,7 +459,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DevicelessVRHelper::*)()>(&::GlobalNamespace::DevicelessVRHelper::GetMenuButtonDown)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ca8454;
+  constexpr static std::size_t addrs = 0x5ca6c04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DevicelessVRHelper*>(), { "GetMenuButtonDown", {}, {} })));
@@ -471,7 +471,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DevicelessVRHelper::*)()>(&::GlobalNamespace::DevicelessVRHelper::RefreshControllersReference)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5ca84d0;
+  constexpr static std::size_t addrs = 0x5ca6c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DevicelessVRHelper*>(), { "RefreshControllersReference", {}, {} })));
@@ -483,7 +483,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DevicelessVRHelper::*)()>(&::GlobalNamespace::DevicelessVRHelper::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ca84ec;
+  constexpr static std::size_t addrs = 0x5ca6c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DevicelessVRHelper*>(), { ".ctor", {}, {} })));

@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AdditionalContentModel::*)(::System::Action*)>(
     &::GlobalNamespace::AdditionalContentModel::add_didInvalidateDataEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x39a7358;
+  constexpr static std::size_t addrs = 0x39ab7f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AdditionalContentModel::*)(::System::Action*)>(
     &::GlobalNamespace::AdditionalContentModel::remove_didInvalidateDataEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x39a7404;
+  constexpr static std::size_t addrs = 0x39ab89c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AdditionalContentModel::*)()>(&::GlobalNamespace::AdditionalContentModel::InvalidateData)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x39a74b0;
+  constexpr static std::size_t addrs = 0x39ab948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AdditionalContentModel*>(), { "InvalidateData", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AdditionalContentModel::*)()>(&::GlobalNamespace::AdditionalContentModel::NotifyDataChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39a74ec;
+  constexpr static std::size_t addrs = 0x39ab984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AdditionalContentModel*>(), { "NotifyDataChanged", {}, {} })));
@@ -238,11 +238,11 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::AdditionalContentModel.GetExcludedLevelIdsInternalAsync
+//  Writing Method size for method: ::GlobalNamespace::AdditionalContentModel.GetDiscontinuedLevelIdsInternalAsync
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* (::GlobalNamespace::AdditionalContentModel::*)(::System::Threading::CancellationToken)>(
-    &::GlobalNamespace::AdditionalContentModel::GetExcludedLevelIdsInternalAsync)> {
+    &::GlobalNamespace::AdditionalContentModel::GetDiscontinuedLevelIdsInternalAsync)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
@@ -259,7 +259,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* (::GlobalNamespace::AdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
         &::GlobalNamespace::AdditionalContentModel::IAdditionalContentEntitlementModel_GetLevelEntitlementStatusAsync)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39a7508;
+  constexpr static std::size_t addrs = 0x39ab9a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -276,7 +276,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* (::GlobalNamespace::AdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
         &::GlobalNamespace::AdditionalContentModel::IAdditionalContentEntitlementModel_GetPackEntitlementStatusAsync)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39a7518;
+  constexpr static std::size_t addrs = 0x39ab9b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -293,7 +293,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* (::GlobalNamespace::AdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
         &::GlobalNamespace::AdditionalContentModel::IAdditionalContentEntitlementModel_GetGameDlcEntitlementStatusAsync)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39a7528;
+  constexpr static std::size_t addrs = 0x39ab9c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -310,7 +310,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* (::GlobalNamespace::AdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
         &::GlobalNamespace::AdditionalContentModel::IAdditionalContentEntitlementModel_GetLevelDataVersionAsync)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39a7538;
+  constexpr static std::size_t addrs = 0x39ab9d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -320,18 +320,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::AdditionalContentModel.IAdditionalContentEntitlementModel_GetExcludedLevelIdsAsync
+//  Writing Method size for method: ::GlobalNamespace::AdditionalContentModel.IAdditionalContentEntitlementModel_GetDiscontinuedLevelIdsAsync
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* (::GlobalNamespace::AdditionalContentModel::*)(::System::Threading::CancellationToken)>(
-    &::GlobalNamespace::AdditionalContentModel::IAdditionalContentEntitlementModel_GetExcludedLevelIdsAsync)> {
+    &::GlobalNamespace::AdditionalContentModel::IAdditionalContentEntitlementModel_GetDiscontinuedLevelIdsAsync)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39a7548;
+  constexpr static std::size_t addrs = 0x39ab9e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AdditionalContentModel*>(),
-                                                             { "IAdditionalContentEntitlementModel.GetExcludedLevelIdsAsync", {}, { ::i2c::type_of<::System::Threading::CancellationToken>() } })));
+                                                             { "IAdditionalContentEntitlementModel.GetDiscontinuedLevelIdsAsync", {}, { ::i2c::type_of<::System::Threading::CancellationToken>() } })));
     return ___internal_method;
   }
 };
@@ -340,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AdditionalContentModel::*)()>(&::GlobalNamespace::AdditionalContentModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39a7558;
+  constexpr static std::size_t addrs = 0x39ab9f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AdditionalContentModel*>(), { ".ctor", {}, {} })));
@@ -445,7 +445,7 @@ inline void GlobalNamespace::AdditionalContentModel::OpenStore(::StringW uri) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::AdditionalContentModel*>(), 29 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, uri);
 }
-inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* GlobalNamespace::AdditionalContentModel::GetExcludedLevelIdsInternalAsync(::System::Threading::CancellationToken token) {
+inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* GlobalNamespace::AdditionalContentModel::GetDiscontinuedLevelIdsInternalAsync(::System::Threading::CancellationToken token) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::AdditionalContentModel*>(), 30 })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>*>(this, ___internal_method, token);
@@ -483,10 +483,10 @@ GlobalNamespace::AdditionalContentModel::IAdditionalContentEntitlementModel_GetL
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>*>(this, ___internal_method, levelId, token);
 }
 inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>*
-GlobalNamespace::AdditionalContentModel::IAdditionalContentEntitlementModel_GetExcludedLevelIdsAsync(::System::Threading::CancellationToken token) {
+GlobalNamespace::AdditionalContentModel::IAdditionalContentEntitlementModel_GetDiscontinuedLevelIdsAsync(::System::Threading::CancellationToken token) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AdditionalContentModel*>(),
-                                                           { "IAdditionalContentEntitlementModel.GetExcludedLevelIdsAsync", {}, { ::i2c::type_of<::System::Threading::CancellationToken>() } })));
+                                                           { "IAdditionalContentEntitlementModel.GetDiscontinuedLevelIdsAsync", {}, { ::i2c::type_of<::System::Threading::CancellationToken>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>*>(this, ___internal_method, token);
 }
 inline void GlobalNamespace::AdditionalContentModel::_ctor() {

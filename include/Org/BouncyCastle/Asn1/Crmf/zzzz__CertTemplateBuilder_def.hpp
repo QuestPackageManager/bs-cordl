@@ -80,42 +80,42 @@ public:
   /// @brief Field version, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method AddOptional, addr 0x3612468, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddOptional, addr 0x3616900, size 0xa8, virtual false, abstract: false, final false
   inline void AddOptional(::Org::BouncyCastle::Asn1::Asn1EncodableVector* v, int32_t tagNo, bool isExplicit, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method Build, addr 0x3612318, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method Build, addr 0x36167b0, size 0x150, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* Build();
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* New_ctor();
 
-  /// @brief Method SetExtensions, addr 0x3612310, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetExtensions, addr 0x36167a8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* SetExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extens);
 
-  /// @brief Method SetIssuer, addr 0x36122e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetIssuer, addr 0x3616778, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* SetIssuer(::Org::BouncyCastle::Asn1::X509::X509Name* name);
 
-  /// @brief Method SetIssuerUID, addr 0x3612300, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetIssuerUID, addr 0x3616798, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* SetIssuerUID(::Org::BouncyCastle::Asn1::DerBitString* uid);
 
-  /// @brief Method SetPublicKey, addr 0x36122f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetPublicKey, addr 0x3616790, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* SetPublicKey(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* spki);
 
-  /// @brief Method SetSerialNumber, addr 0x36122d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetSerialNumber, addr 0x3616768, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* SetSerialNumber(::Org::BouncyCastle::Asn1::DerInteger* ser);
 
-  /// @brief Method SetSigningAlg, addr 0x36122d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetSigningAlg, addr 0x3616770, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* SetSigningAlg(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* aid);
 
-  /// @brief Method SetSubject, addr 0x36122f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetSubject, addr 0x3616788, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* SetSubject(::Org::BouncyCastle::Asn1::X509::X509Name* name);
 
-  /// @brief Method SetSubjectUID, addr 0x3612308, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetSubjectUID, addr 0x36167a0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* SetSubjectUID(::Org::BouncyCastle::Asn1::DerBitString* uid);
 
-  /// @brief Method SetValidity, addr 0x36122e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValidity, addr 0x3616780, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* SetValidity(::Org::BouncyCastle::Asn1::Crmf::OptionalValidity* v);
 
-  /// @brief Method SetVersion, addr 0x3612264, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method SetVersion, addr 0x36166fc, size 0x6c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* SetVersion(int32_t ver);
 
   constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions* const& __cordl_internal_get_extensions() const;
@@ -178,7 +178,7 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x3612510, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36169a8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

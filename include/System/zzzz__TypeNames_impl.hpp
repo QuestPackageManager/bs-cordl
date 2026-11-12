@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::TypeNames_ATypeName::*)(::System::TypeName*)>(&::System::TypeNames_ATypeName::Equals)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x60f4b04;
+  constexpr static std::size_t addrs = 0x60f4d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::TypeNames_ATypeName::*)()>(&::System::TypeNames_ATypeName::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x60f4be0;
+  constexpr static std::size_t addrs = 0x60f4e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::TypeNames_ATypeName*>(), { ::i2c::class_of<::System::TypeNames_ATypeName*>(), 2 }));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::TypeNames_ATypeName::*)(::System::Object*)>(&::System::TypeNames_ATypeName::Equals)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x60f4c08;
+  constexpr static std::size_t addrs = 0x60f4e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::TypeNames_ATypeName*>(), { ::i2c::class_of<::System::TypeNames_ATypeName*>(), 0 }));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::TypeNames_ATypeName::*)()>(&::System::TypeNames_ATypeName::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x60f4c6c;
+  constexpr static std::size_t addrs = 0x60f4ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TypeNames_ATypeName*>(), { ".ctor", {}, {} })));

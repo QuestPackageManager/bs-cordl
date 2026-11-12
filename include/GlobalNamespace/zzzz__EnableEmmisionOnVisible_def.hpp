@@ -27,15 +27,15 @@ public:
   /// @brief Field _particleSystems, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__particleSystems, put = __cordl_internal_set__particleSystems)) ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>> _particleSystems;
 
-  /// @brief Method Awake, addr 0x5ca3b08, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5ca2240, size 0x108, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::EnableEmmisionOnVisible* New_ctor();
 
-  /// @brief Method OnBecameInvisible, addr 0x5ca3cb8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnBecameInvisible, addr 0x5ca23f0, size 0xa8, virtual false, abstract: false, final false
   inline void OnBecameInvisible();
 
-  /// @brief Method OnBecameVisible, addr 0x5ca3c10, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnBecameVisible, addr 0x5ca2348, size 0xa8, virtual false, abstract: false, final false
   inline void OnBecameVisible();
 
   constexpr ::ArrayW<::UnityEngine::ParticleSystem_EmissionModule> const& __cordl_internal_get__emmisionModules() const;
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set__particleSystems(::ArrayW<::UnityW<::UnityEngine::ParticleSystem>> value);
 
-  /// @brief Method .ctor, addr 0x5ca3d60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ca2498, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,7 +68,7 @@ public:
   EnableEmmisionOnVisible(EnableEmmisionOnVisible const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22176 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22187 };
 
   /// [SerializeField]
   /// @brief Field _particleSystems, offset: 0x20, size: 0x8, def value: None

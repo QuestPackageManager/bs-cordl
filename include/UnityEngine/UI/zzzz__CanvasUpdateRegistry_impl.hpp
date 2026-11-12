@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::CanvasUpdateRegistry::*)()>(&::UnityEngine::UI::CanvasUpdateRegistry::_ctor)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x70a9238;
+  constexpr static std::size_t addrs = 0x70aa318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::CanvasUpdateRegistry*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UI::CanvasUpdateRegistry* (*)()>(&::UnityEngine::UI::CanvasUpdateRegistry::get_instance)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x70a9420;
+  constexpr static std::size_t addrs = 0x70aa500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::CanvasUpdateRegistry*>(), { "get_instance", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::CanvasUpdateRegistry::*)(::UnityEngine::UI::ICanvasElement*)>(
     &::UnityEngine::UI::CanvasUpdateRegistry::ObjectValidForUpdate)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x70a94c4;
+  constexpr static std::size_t addrs = 0x70aa5a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::CanvasUpdateRegistry::*)()>(&::UnityEngine::UI::CanvasUpdateRegistry::CleanInvalidItems)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x70a9598;
+  constexpr static std::size_t addrs = 0x70aa678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::CanvasUpdateRegistry*>(), { "CleanInvalidItems", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::CanvasUpdateRegistry::*)()>(&::UnityEngine::UI::CanvasUpdateRegistry::PerformUpdate)> {
   constexpr static std::size_t size = 0x654;
-  constexpr static std::size_t addrs = 0x70a987c;
+  constexpr static std::size_t addrs = 0x70aa95c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::CanvasUpdateRegistry*>(), { "PerformUpdate", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Transform*)>(&::UnityEngine::UI::CanvasUpdateRegistry::ParentCount)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x70aa064;
+  constexpr static std::size_t addrs = 0x70ab144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::UI::ICanvasElement*, ::UnityEngine::UI::ICanvasElement*)>(&::UnityEngine::UI::CanvasUpdateRegistry::SortLayoutList)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x70aa120;
+  constexpr static std::size_t addrs = 0x70ab200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UI::ICanvasElement*)>(&::UnityEngine::UI::CanvasUpdateRegistry::RegisterCanvasElementForLayoutRebuild)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x70aa280;
+  constexpr static std::size_t addrs = 0x70ab360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::CanvasUpdateRegistry*>(),
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UI::ICanvasElement*)>(&::UnityEngine::UI::CanvasUpdateRegistry::TryRegisterCanvasElementForLayoutRebuild)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x70aa390;
+  constexpr static std::size_t addrs = 0x70ab470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::CanvasUpdateRegistry::*)(::UnityEngine::UI::ICanvasElement*)>(
     &::UnityEngine::UI::CanvasUpdateRegistry::InternalRegisterCanvasElementForLayoutRebuild)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x70aa2e4;
+  constexpr static std::size_t addrs = 0x70ab3c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UI::ICanvasElement*)>(&::UnityEngine::UI::CanvasUpdateRegistry::RegisterCanvasElementForGraphicRebuild)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x70aa3f4;
+  constexpr static std::size_t addrs = 0x70ab4d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UI::ICanvasElement*)>(&::UnityEngine::UI::CanvasUpdateRegistry::TryRegisterCanvasElementForGraphicRebuild)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x70aa570;
+  constexpr static std::size_t addrs = 0x70ab650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::CanvasUpdateRegistry::*)(::UnityEngine::UI::ICanvasElement*)>(
     &::UnityEngine::UI::CanvasUpdateRegistry::InternalRegisterCanvasElementForGraphicRebuild)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x70aa458;
+  constexpr static std::size_t addrs = 0x70ab538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UI::ICanvasElement*)>(&::UnityEngine::UI::CanvasUpdateRegistry::UnRegisterCanvasElementForRebuild)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x70aa5d4;
+  constexpr static std::size_t addrs = 0x70ab6b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::CanvasUpdateRegistry*>(),
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UI::ICanvasElement*)>(&::UnityEngine::UI::CanvasUpdateRegistry::DisableCanvasElementForRebuild)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x70aa9b0;
+  constexpr static std::size_t addrs = 0x70aba90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::CanvasUpdateRegistry*>(),
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::CanvasUpdateRegistry::*)(::UnityEngine::UI::ICanvasElement*)>(
     &::UnityEngine::UI::CanvasUpdateRegistry::InternalUnRegisterCanvasElementForLayoutRebuild)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x70aa648;
+  constexpr static std::size_t addrs = 0x70ab728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::CanvasUpdateRegistry::*)(::UnityEngine::UI::ICanvasElement*)>(
     &::UnityEngine::UI::CanvasUpdateRegistry::InternalUnRegisterCanvasElementForGraphicRebuild)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x70aa7fc;
+  constexpr static std::size_t addrs = 0x70ab8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::CanvasUpdateRegistry::*)(::UnityEngine::UI::ICanvasElement*)>(
     &::UnityEngine::UI::CanvasUpdateRegistry::InternalDisableCanvasElementForLayoutRebuild)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x70aaa24;
+  constexpr static std::size_t addrs = 0x70abb04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::CanvasUpdateRegistry::*)(::UnityEngine::UI::ICanvasElement*)>(
     &::UnityEngine::UI::CanvasUpdateRegistry::InternalDisableCanvasElementForGraphicRebuild)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x70aabd8;
+  constexpr static std::size_t addrs = 0x70abcb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::UI::CanvasUpdateRegistry::IsRebuildingLayout)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x70aad8c;
+  constexpr static std::size_t addrs = 0x70abe6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::CanvasUpdateRegistry*>(), { "IsRebuildingLayout", {}, {} })));
@@ -284,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::UI::CanvasUpdateRegistry::IsRebuildingGraphics)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x70aadec;
+  constexpr static std::size_t addrs = 0x70abecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::CanvasUpdateRegistry*>(), { "IsRebuildingGraphics", {}, {} })));

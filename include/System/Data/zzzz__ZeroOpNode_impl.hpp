@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::ZeroOpNode::*)(int32_t)>(&::System::Data::ZeroOpNode::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649dea8;
+  constexpr static std::size_t addrs = 0x649e4f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ZeroOpNode*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::ZeroOpNode::*)(::System::Data::DataTable*, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>*)>(
     &::System::Data::ZeroOpNode::Bind)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x649deb4;
+  constexpr static std::size_t addrs = 0x649e504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::ZeroOpNode*>(), { ::i2c::class_of<::System::Data::ZeroOpNode*>(), 5 }));
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::ZeroOpNode::*)()>(&::System::Data::ZeroOpNode::Eval)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x649deb8;
+  constexpr static std::size_t addrs = 0x649e508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::ZeroOpNode*>(), { ::i2c::class_of<::System::Data::ZeroOpNode*>(), 6 }));
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::ZeroOpNode::*)(::System::Data::DataRow*, ::System::Data::DataRowVersion)>(
     &::System::Data::ZeroOpNode::Eval)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649df6c;
+  constexpr static std::size_t addrs = 0x649e5bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::ZeroOpNode*>(), { ::i2c::class_of<::System::Data::ZeroOpNode*>(), 7 }));
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::ZeroOpNode::*)(::ArrayW<int32_t>)>(&::System::Data::ZeroOpNode::Eval)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649df78;
+  constexpr static std::size_t addrs = 0x649e5c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::ZeroOpNode*>(), { ::i2c::class_of<::System::Data::ZeroOpNode*>(), 8 }));
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::ZeroOpNode::*)()>(&::System::Data::ZeroOpNode::IsConstant)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649df84;
+  constexpr static std::size_t addrs = 0x649e5d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::ZeroOpNode*>(), { ::i2c::class_of<::System::Data::ZeroOpNode*>(), 9 }));
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::ZeroOpNode::*)()>(&::System::Data::ZeroOpNode::IsTableConstant)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649df8c;
+  constexpr static std::size_t addrs = 0x649e5dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::ZeroOpNode*>(), { ::i2c::class_of<::System::Data::ZeroOpNode*>(), 10 }));
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::ZeroOpNode::*)()>(&::System::Data::ZeroOpNode::HasLocalAggregate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649df94;
+  constexpr static std::size_t addrs = 0x649e5e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::ZeroOpNode*>(), { ::i2c::class_of<::System::Data::ZeroOpNode*>(), 11 }));
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::ZeroOpNode::*)()>(&::System::Data::ZeroOpNode::HasRemoteAggregate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649df9c;
+  constexpr static std::size_t addrs = 0x649e5ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::ZeroOpNode*>(), { ::i2c::class_of<::System::Data::ZeroOpNode*>(), 12 }));
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::ExpressionNode* (::System::Data::ZeroOpNode::*)()>(&::System::Data::ZeroOpNode::Optimize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x649dfa4;
+  constexpr static std::size_t addrs = 0x649e5f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::ZeroOpNode*>(), { ::i2c::class_of<::System::Data::ZeroOpNode*>(), 13 }));

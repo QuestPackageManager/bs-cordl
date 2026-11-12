@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::get_select)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e9628c;
+  constexpr static std::size_t addrs = 0x6e9736c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::set_select)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e96294;
+  constexpr static std::size_t addrs = 0x6e97374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::get_menu)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e9629c;
+  constexpr static std::size_t addrs = 0x6e9737c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::set_menu)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e962a4;
+  constexpr static std::size_t addrs = 0x6e97384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::XR::OpenXR::Input::PoseControl* (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::get_devicePose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e962ac;
+  constexpr static std::size_t addrs = 0x6e9738c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::*)(
     ::UnityEngine::XR::OpenXR::Input::PoseControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::set_devicePose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e962b4;
+  constexpr static std::size_t addrs = 0x6e97394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::XR::OpenXR::Input::PoseControl* (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::get_pointer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e962bc;
+  constexpr static std::size_t addrs = 0x6e9739c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::*)(
     ::UnityEngine::XR::OpenXR::Input::PoseControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::set_pointer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e962c4;
+  constexpr static std::size_t addrs = 0x6e973a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::get_isTracked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e962cc;
+  constexpr static std::size_t addrs = 0x6e973ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::set_isTracked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e962d4;
+  constexpr static std::size_t addrs = 0x6e973b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::IntegerControl* (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::get_trackingState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e962dc;
+  constexpr static std::size_t addrs = 0x6e973bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::*)(
     ::UnityEngine::InputSystem::Controls::IntegerControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::set_trackingState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e962e4;
+  constexpr static std::size_t addrs = 0x6e973c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::get_devicePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e962ec;
+  constexpr static std::size_t addrs = 0x6e973cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::*)(
     ::UnityEngine::InputSystem::Controls::Vector3Control*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::set_devicePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e962f4;
+  constexpr static std::size_t addrs = 0x6e973d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -229,7 +229,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::QuaternionControl* (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::get_deviceRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e962fc;
+  constexpr static std::size_t addrs = 0x6e973dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::*)(
     ::UnityEngine::InputSystem::Controls::QuaternionControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::set_deviceRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e96304;
+  constexpr static std::size_t addrs = 0x6e973e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -260,7 +260,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::get_pointerPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e9630c;
+  constexpr static std::size_t addrs = 0x6e973ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::*)(
     ::UnityEngine::InputSystem::Controls::Vector3Control*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::set_pointerPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e96314;
+  constexpr static std::size_t addrs = 0x6e973f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -291,7 +291,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::QuaternionControl* (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::get_pointerRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e9631c;
+  constexpr static std::size_t addrs = 0x6e973fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::*)(
     ::UnityEngine::InputSystem::Controls::QuaternionControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::set_pointerRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e96324;
+  constexpr static std::size_t addrs = 0x6e97404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -322,7 +322,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::XR::OpenXR::Input::HapticControl* (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::get_haptic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e9632c;
+  constexpr static std::size_t addrs = 0x6e9740c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -336,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::*)(
     ::UnityEngine::XR::OpenXR::Input::HapticControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::set_haptic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e96334;
+  constexpr static std::size_t addrs = 0x6e97414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -351,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::FinishSetup)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x6e9633c;
+  constexpr static std::size_t addrs = 0x6e9741c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -366,7 +366,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6e965e8;
+  constexpr static std::size_t addrs = 0x6e976c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -687,7 +687,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile::RegisterDeviceLayout)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6e952e4;
+  constexpr static std::size_t addrs = 0x6e963c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile*>(),
@@ -701,7 +701,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile::UnregisterDeviceLayout)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6e9542c;
+  constexpr static std::size_t addrs = 0x6e9650c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile*>(),
@@ -715,7 +715,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile::GetDeviceLayoutName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e954dc;
+  constexpr static std::size_t addrs = 0x6e965bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile*>(),
@@ -729,7 +729,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile::RegisterActionMapsWithRuntime)> {
   constexpr static std::size_t size = 0xd10;
-  constexpr static std::size_t addrs = 0x6e95520;
+  constexpr static std::size_t addrs = 0x6e96600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile*>(),
@@ -743,7 +743,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6e96230;
+  constexpr static std::size_t addrs = 0x6e97310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -34,13 +34,13 @@ public:
 
   constexpr void __cordl_internal_set_min(float_t value);
 
-  /// @brief Method .ctor, addr 0x6c279ac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c28a8c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(float_t value, float_t min, bool overrideState);
 
-  /// @brief Method get_value, addr 0x6c27990, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_value, addr 0x6c28a70, size 0x8, virtual true, abstract: false, final false
   inline float_t get_value();
 
-  /// @brief Method set_value, addr 0x6c27998, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method set_value, addr 0x6c28a78, size 0x14, virtual true, abstract: false, final false
   inline void set_value(float_t value);
 
 protected:

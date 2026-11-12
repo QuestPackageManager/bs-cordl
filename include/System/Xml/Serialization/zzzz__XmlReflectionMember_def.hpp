@@ -83,25 +83,25 @@ public:
 
   constexpr void __cordl_internal_set_xmlAttributes(::System::Xml::Serialization::XmlAttributes* value);
 
-  /// @brief Method .ctor, addr 0x675fa14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6760064, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Type* type, ::System::Xml::Serialization::XmlAttributes* attributes);
 
-  /// @brief Method get_DeclaringType, addr 0x6761a30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DeclaringType, addr 0x6762080, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_DeclaringType();
 
-  /// @brief Method get_IsReturnValue, addr 0x6761a18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsReturnValue, addr 0x6762068, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsReturnValue();
 
-  /// @brief Method get_MemberName, addr 0x6761a20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberName, addr 0x6762070, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_MemberName();
 
-  /// @brief Method get_MemberType, addr 0x6761a28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberType, addr 0x6762078, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_MemberType();
 
-  /// @brief Method get_XmlAttributes, addr 0x675ee10, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_XmlAttributes, addr 0x675f460, size 0x68, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlAttributes* get_XmlAttributes();
 
-  /// @brief Method set_DeclaringType, addr 0x6761a38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DeclaringType, addr 0x6762088, size 0x8, virtual false, abstract: false, final false
   inline void set_DeclaringType(::System::Type* value);
 
 protected:

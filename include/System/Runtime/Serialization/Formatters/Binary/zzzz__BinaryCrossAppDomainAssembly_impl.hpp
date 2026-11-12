@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5facd0c;
+  constexpr static std::size_t addrs = 0x5facf94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly::*)(
     ::System::Runtime::Serialization::Formatters::Binary::__BinaryParser*)>(&::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly::Read)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5facd10;
+  constexpr static std::size_t addrs = 0x5facf98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly::Dump)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5facd70;
+  constexpr static std::size_t addrs = 0x5facff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

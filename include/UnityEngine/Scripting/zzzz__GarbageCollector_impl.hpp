@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Scripting::GarbageCollector_Mode (*)()>(&::UnityEngine::Scripting::GarbageCollector::get_GCMode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6f97090;
+  constexpr static std::size_t addrs = 0x6f98170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Scripting::GarbageCollector*>(), { "get_GCMode", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Scripting::GarbageCollector_Mode)>(&::UnityEngine::Scripting::GarbageCollector::set_GCMode)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6f970e0;
+  constexpr static std::size_t addrs = 0x6f981c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Scripting::GarbageCollector_Mode)>(&::UnityEngine::Scripting::GarbageCollector::SetMode)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f971a0;
+  constexpr static std::size_t addrs = 0x6f98280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Scripting::GarbageCollector_Mode (*)()>(&::UnityEngine::Scripting::GarbageCollector::GetMode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6f970b8;
+  constexpr static std::size_t addrs = 0x6f98198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Scripting::GarbageCollector*>(), { "GetMode", {}, {} })));

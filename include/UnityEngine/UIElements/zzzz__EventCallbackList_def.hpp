@@ -46,23 +46,23 @@ public:
   /// @brief Field m_Count, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Count, put = __cordl_internal_set_m_Count)) int32_t m_Count;
 
-  /// @brief Method Add, addr 0x726365c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x726473c, size 0xf0, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::UIElements::EventCallbackFunctorBase* item);
 
-  /// @brief Method AddRange, addr 0x72632c0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method AddRange, addr 0x72643a0, size 0xcc, virtual false, abstract: false, final false
   inline void AddRange(::UnityEngine::UIElements::EventCallbackList* list);
 
-  /// @brief Method Clear, addr 0x726340c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x72644ec, size 0x28, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Find, addr 0x72634a8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Find, addr 0x7264588, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventCallbackFunctorBase* Find(int64_t eventTypeId, /* [NotNull] */ ::System::Delegate* callback);
 
   static inline ::UnityEngine::UIElements::EventCallbackList* New_ctor();
 
   static inline ::UnityEngine::UIElements::EventCallbackList* New_ctor(::UnityEngine::UIElements::EventCallbackList* source);
 
-  /// @brief Method Remove, addr 0x7263558, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x7264638, size 0x104, virtual false, abstract: false, final false
   inline bool Remove(int64_t eventTypeId, /* [NotNull] */ ::System::Delegate* callback, ::by_ref<::UnityEngine::UIElements::EventCallbackFunctorBase*> removedFunctor);
 
   constexpr ::ArrayW<::UnityEngine::UIElements::EventCallbackFunctorBase*> const& __cordl_internal_get_m_Array() const;
@@ -77,17 +77,17 @@ public:
 
   constexpr void __cordl_internal_set_m_Count(int32_t value);
 
-  /// @brief Method .ctor, addr 0x726325c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x726433c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x72631e0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72642c0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventCallbackList* source);
 
   static inline ::ArrayW<::UnityEngine::UIElements::EventCallbackFunctorBase*> getStaticF_EmptyArray();
 
   static inline ::UnityEngine::UIElements::EventCallbackList* getStaticF_EmptyList();
 
-  /// @brief Method get_Span, addr 0x726374c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method get_Span, addr 0x726482c, size 0xec, virtual false, abstract: false, final false
   inline ::System::Span_1<::UnityEngine::UIElements::EventCallbackFunctorBase*> get_Span();
 
   static inline void setStaticF_EmptyArray(::ArrayW<::UnityEngine::UIElements::EventCallbackFunctorBase*> value);

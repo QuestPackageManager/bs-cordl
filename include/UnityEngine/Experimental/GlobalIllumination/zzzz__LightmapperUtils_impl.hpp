@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::GlobalIllumination::LightMode (*)(::UnityEngine::LightmapBakeType)>(
     &::UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6fc9e98;
+  constexpr static std::size_t addrs = 0x6fcaf78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::GlobalIllumination::LightmapperUtils*>(),
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::GlobalIllumination::LinearColor (*)(::UnityEngine::Light*)>(
     &::UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::ExtractIndirect)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6fc9eb0;
+  constexpr static std::size_t addrs = 0x6fcaf90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::GlobalIllumination::LightmapperUtils*>(),
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Light*)>(&::UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::ExtractInnerCone)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6fc9f28;
+  constexpr static std::size_t addrs = 0x6fcb008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::GlobalIllumination::LightmapperUtils*>(),
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Light*)>(&::UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::ExtractColorTemperature)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6fc9f7c;
+  constexpr static std::size_t addrs = 0x6fcb05c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::GlobalIllumination::LightmapperUtils*>(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Color, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::LinearColor>)>(
     &::UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::ApplyColorTemperature)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6fca050;
+  constexpr static std::size_t addrs = 0x6fcb130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Light*, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::DirectionalLight>)>(
     &::UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x6fca098;
+  constexpr static std::size_t addrs = 0x6fcb178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Light*, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::PointLight>)>(
     &::UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x6fca234;
+  constexpr static std::size_t addrs = 0x6fcb314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Light*, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::SpotLight>)>(
     &::UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x6fca3e8;
+  constexpr static std::size_t addrs = 0x6fcb4c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Light*, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::RectangleLight>)>(
     &::UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x6fca5c4;
+  constexpr static std::size_t addrs = 0x6fcb6a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Light*, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::DiscLight>)>(
     &::UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x6fca778;
+  constexpr static std::size_t addrs = 0x6fcb858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Light*, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::Cookie>)>(
     &::UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x6fca92c;
+  constexpr static std::size_t addrs = 0x6fcba0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

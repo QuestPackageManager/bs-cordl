@@ -56,34 +56,34 @@ public:
   /// @brief Field _preserveChanges, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__preserveChanges, put = __cordl_internal_set__preserveChanges)) bool _preserveChanges;
 
-  /// @brief Method GetSrcKey, addr 0x64a3328, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetSrcKey, addr 0x64a3978, size 0x150, virtual false, abstract: false, final false
   inline ::System::Data::DataKey GetSrcKey(::System::Data::DataTable* src, ::System::Data::DataTable* dst);
 
-  /// @brief Method MergeConstraints, addr 0x64a2170, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method MergeConstraints, addr 0x64a27c0, size 0x70, virtual false, abstract: false, final false
   inline void MergeConstraints(::System::Data::DataSet* source);
 
-  /// @brief Method MergeConstraints, addr 0x64a3b6c, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method MergeConstraints, addr 0x64a41bc, size 0x2b0, virtual false, abstract: false, final false
   inline void MergeConstraints(::System::Data::DataTable* table);
 
-  /// @brief Method MergeDataSet, addr 0x64a114c, size 0xf70, virtual false, abstract: false, final false
+  /// @brief Method MergeDataSet, addr 0x64a179c, size 0xf70, virtual false, abstract: false, final false
   inline void MergeDataSet(::System::Data::DataSet* source);
 
-  /// @brief Method MergeExtendedProperties, addr 0x64a29fc, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method MergeExtendedProperties, addr 0x64a304c, size 0x25c, virtual false, abstract: false, final false
   inline void MergeExtendedProperties(::System::Data::PropertyCollection* src, ::System::Data::PropertyCollection* dst);
 
-  /// @brief Method MergeRelation, addr 0x64a21e0, size 0x81c, virtual false, abstract: false, final false
+  /// @brief Method MergeRelation, addr 0x64a2830, size 0x81c, virtual false, abstract: false, final false
   inline void MergeRelation(::System::Data::DataRelation* relation);
 
-  /// @brief Method MergeSchema, addr 0x64a3478, size 0x6f4, virtual false, abstract: false, final false
+  /// @brief Method MergeSchema, addr 0x64a3ac8, size 0x6f4, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* MergeSchema(::System::Data::DataTable* table);
 
-  /// @brief Method MergeTable, addr 0x64a2c58, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method MergeTable, addr 0x64a32a8, size 0x230, virtual false, abstract: false, final false
   inline void MergeTable(::System::Data::DataTable* src);
 
-  /// @brief Method MergeTable, addr 0x64a2e88, size 0x4a0, virtual false, abstract: false, final false
+  /// @brief Method MergeTable, addr 0x64a34d8, size 0x4a0, virtual false, abstract: false, final false
   inline void MergeTable(::System::Data::DataTable* src, ::System::Data::DataTable* dst);
 
-  /// @brief Method MergeTableData, addr 0x64a20bc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method MergeTableData, addr 0x64a270c, size 0xb4, virtual false, abstract: false, final false
   inline void MergeTableData(::System::Data::DataTable* src);
 
   static inline ::System::Data::Merger* New_ctor(::System::Data::DataSet* dataSet, bool preserveChanges, ::System::Data::MissingSchemaAction missingSchemaAction);
@@ -126,10 +126,10 @@ public:
 
   constexpr void __cordl_internal_set__preserveChanges(bool value);
 
-  /// @brief Method .ctor, addr 0x64a1114, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64a1764, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataSet* dataSet, bool preserveChanges, ::System::Data::MissingSchemaAction missingSchemaAction);
 
-  /// @brief Method .ctor, addr 0x64a112c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64a177c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* dataTable, bool preserveChanges, ::System::Data::MissingSchemaAction missingSchemaAction);
 
 protected:

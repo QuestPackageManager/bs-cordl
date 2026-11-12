@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set_Offset(int32_t value);
 
-  /// @brief Method .ctor, addr 0x688df08, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x688e558, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::Net::HttpStreamAsyncResult* ares);
 
 protected:
@@ -170,21 +170,21 @@ public:
   /// @brief Field no_more_data, offset 0x68, size 0x1
   __declspec(property(get = __cordl_internal_get_no_more_data, put = __cordl_internal_set_no_more_data)) bool no_more_data;
 
-  /// @brief Method BeginRead, addr 0x688dbfc, size 0x30c, virtual true, abstract: false, final false
+  /// @brief Method BeginRead, addr 0x688e24c, size 0x30c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* cback, ::System::Object* state);
 
-  /// @brief Method Close, addr 0x688e7b8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x688ee08, size 0x1c, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method EndRead, addr 0x688e51c, size 0x29c, virtual true, abstract: false, final false
+  /// @brief Method EndRead, addr 0x688eb6c, size 0x29c, virtual true, abstract: false, final false
   inline int32_t EndRead(::System::IAsyncResult* ares);
 
   static inline ::System::Net::ChunkedInputStream* New_ctor(::System::Net::HttpListenerContext* context, ::System::IO::Stream* stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length);
 
-  /// @brief Method OnRead, addr 0x688df1c, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method OnRead, addr 0x688e56c, size 0x3c4, virtual false, abstract: false, final false
   inline void OnRead(::System::IAsyncResult* base_ares);
 
-  /// @brief Method Read, addr 0x688dbc0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x688e210, size 0x3c, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count);
 
   constexpr ::System::Net::HttpListenerContext* const& __cordl_internal_get_context() const;
@@ -211,7 +211,7 @@ public:
 
   constexpr void __cordl_internal_set_no_more_data(bool value);
 
-  /// @brief Method .ctor, addr 0x688dab0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x688e100, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpListenerContext* context, ::System::IO::Stream* stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length);
 
 protected:

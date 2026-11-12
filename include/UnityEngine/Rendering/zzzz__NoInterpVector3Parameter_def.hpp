@@ -26,7 +26,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::NoInterpVector3Parameter* New_ctor(::UnityEngine::Vector3 value, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x6c28254, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c29334, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 value, bool overrideState);
 
 protected:

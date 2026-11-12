@@ -28,30 +28,30 @@ public:
   /// @brief Field zero, offset 0xffffffff, size 0x30
   __declspec(property(get = getStaticF_zero, put = setStaticF_zero)) ::UnityEngine::Rendering::SphericalHarmonicsL1 zero;
 
-  /// @brief Method Equals, addr 0x6bf16e4, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6bf27c4, size 0xd8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method GetHashCode, addr 0x6bf17bc, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6bf289c, size 0x114, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::Rendering::SphericalHarmonicsL1 getStaticF_zero();
 
-  /// @brief Method op_Addition, addr 0x6bf1504, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x6bf25e4, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::SphericalHarmonicsL1 op_Addition(::UnityEngine::Rendering::SphericalHarmonicsL1 lhs, ::UnityEngine::Rendering::SphericalHarmonicsL1 rhs);
 
-  /// @brief Method op_Division, addr 0x6bf1574, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_Division, addr 0x6bf2654, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::SphericalHarmonicsL1 op_Division(::UnityEngine::Rendering::SphericalHarmonicsL1 lhs, float_t rhs);
 
-  /// @brief Method op_Equality, addr 0x6bf1598, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6bf2678, size 0xb0, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::SphericalHarmonicsL1 lhs, ::UnityEngine::Rendering::SphericalHarmonicsL1 rhs);
 
-  /// @brief Method op_Inequality, addr 0x6bf1648, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6bf2728, size 0x9c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Rendering::SphericalHarmonicsL1 lhs, ::UnityEngine::Rendering::SphericalHarmonicsL1 rhs);
 
-  /// @brief Method op_Multiply, addr 0x6bf1554, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x6bf2634, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::SphericalHarmonicsL1 op_Multiply(::UnityEngine::Rendering::SphericalHarmonicsL1 lhs, float_t rhs);
 
-  /// @brief Method op_Subtraction, addr 0x6bf152c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x6bf260c, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::SphericalHarmonicsL1 op_Subtraction(::UnityEngine::Rendering::SphericalHarmonicsL1 lhs, ::UnityEngine::Rendering::SphericalHarmonicsL1 rhs);
 
   static inline void setStaticF_zero(::UnityEngine::Rendering::SphericalHarmonicsL1 value);

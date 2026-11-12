@@ -63,25 +63,25 @@ public:
 
   constexpr void __cordl_internal_set__image(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x5cd5840, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cd5014, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_imageColor, addr 0x5cd5780, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_imageColor, addr 0x5cd4f54, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_imageColor();
 
-  /// @brief Method get_imageViewBase, addr 0x5cd57c0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_imageViewBase, addr 0x5cd4f94, size 0x80, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::ImageViewBase> get_imageViewBase();
 
-  /// @brief Method get_sprite, addr 0x5cd5750, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_sprite, addr 0x5cd4f24, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
-  /// @brief Method set_hintText, addr 0x5cd5768, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_hintText, addr 0x5cd4f3c, size 0x18, virtual false, abstract: false, final false
   inline void set_hintText(::StringW value);
 
-  /// @brief Method set_imageColor, addr 0x5cd57a0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_imageColor, addr 0x5cd4f74, size 0x20, virtual false, abstract: false, final false
   inline void set_imageColor(::UnityEngine::Color value);
 
-  /// @brief Method set_sprite, addr 0x5cd5738, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_sprite, addr 0x5cd4f0c, size 0x18, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
 protected:
@@ -99,7 +99,7 @@ public:
   ImageWithHint(ImageWithHint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19676 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19684 };
 
   /// [SerializeField]
   /// @brief Field _image, offset: 0x20, size: 0x8, def value: None

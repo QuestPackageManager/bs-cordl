@@ -20,12 +20,12 @@ namespace UnityEngine::Rendering::Universal {
 class CORDL_TYPE Documentation : public ::UnityEngine::Rendering::DocumentationInfo {
 public:
   // Declarations
-  /// @brief Method GetPageLink, addr 0x6cf21e0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetPageLink, addr 0x6cf32c0, size 0x50, virtual false, abstract: false, final false
   static inline ::StringW GetPageLink(::StringW pageName);
 
   static inline ::UnityEngine::Rendering::Universal::Documentation* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6cf2230, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cf3310, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

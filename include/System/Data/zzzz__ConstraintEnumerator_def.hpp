@@ -39,13 +39,13 @@ public:
   /// @brief Field _tables, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__tables, put = __cordl_internal_set__tables)) ::System::Collections::IEnumerator* _tables;
 
-  /// @brief Method GetConstraint, addr 0x6478fac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetConstraint, addr 0x64795fc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::Constraint* GetConstraint();
 
-  /// @brief Method GetNext, addr 0x6478cc0, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method GetNext, addr 0x6479310, size 0x2ec, virtual false, abstract: false, final false
   inline bool GetNext();
 
-  /// @brief Method IsValidCandidate, addr 0x6478fb4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsValidCandidate, addr 0x6479604, size 0x8, virtual true, abstract: false, final false
   inline bool IsValidCandidate(::System::Data::Constraint* constraint);
 
   static inline ::System::Data::ConstraintEnumerator* New_ctor(::System::Data::DataSet* dataSet);
@@ -68,10 +68,10 @@ public:
 
   constexpr void __cordl_internal_set__tables(::System::Collections::IEnumerator* value);
 
-  /// @brief Method .ctor, addr 0x6478c80, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64792d0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataSet* dataSet);
 
-  /// @brief Method get_CurrentObject, addr 0x6478fbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentObject, addr 0x647960c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::Constraint* get_CurrentObject();
 
 protected:

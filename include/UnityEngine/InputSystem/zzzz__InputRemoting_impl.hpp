@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputRemoting_Subscriber::*)()>(&::UnityEngine::InputSystem::InputRemoting_Subscriber::Dispose)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69cc1c0;
+  constexpr static std::size_t addrs = 0x69cd2a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputRemoting_Subscriber*>(), { "Dispose", {}, {} })));
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputRemoting_Subscriber::*)()>(&::UnityEngine::InputSystem::InputRemoting_Subscriber::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69ca8c0;
+  constexpr static std::size_t addrs = 0x69cb9a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputRemoting_Subscriber*>(), { ".ctor", {}, {} })));
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::InputRemoting*)>(&::UnityEngine::InputSystem::InputRemoting_ConnectMsg::Process)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x69c9cb0;
+  constexpr static std::size_t addrs = 0x69cad90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputRemoting_ConnectMsg*>(),
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::InputRemoting*)>(&::UnityEngine::InputSystem::InputRemoting_StartSendingMsg::Process)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x69ca7b8;
+  constexpr static std::size_t addrs = 0x69cb898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputRemoting_StartSendingMsg*>(),
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::InputRemoting*)>(&::UnityEngine::InputSystem::InputRemoting_StopSendingMsg::Process)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x69ca7c8;
+  constexpr static std::size_t addrs = 0x69cb8a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputRemoting_StopSendingMsg*>(),
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::InputRemoting*, ::UnityEngine::InputSystem::InputRemoting_Message)>(
     &::UnityEngine::InputSystem::InputRemoting_DisconnectMsg::Process)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x69c9cf4;
+  constexpr static std::size_t addrs = 0x69cadd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::UnityEngine::InputSystem::InputRemoting_Message> (*)(::UnityEngine::InputSystem::InputRemoting*, ::StringW)>(
     &::UnityEngine::InputSystem::InputRemoting_NewLayoutMsg::Create)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x69cac24;
+  constexpr static std::size_t addrs = 0x69cbd04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::InputRemoting*, ::UnityEngine::InputSystem::InputRemoting_Message)>(
     &::UnityEngine::InputSystem::InputRemoting_NewLayoutMsg::Process)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x69c9d90;
+  constexpr static std::size_t addrs = 0x69cae70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -302,7 +302,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::NewDeviceMsg_InputRemoting___c::*)()>(&::UnityEngine::InputSystem::NewDeviceMsg_InputRemoting___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69cca2c;
+  constexpr static std::size_t addrs = 0x69cdb0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::NewDeviceMsg_InputRemoting___c*>(), { ".ctor", {}, {} })));
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::NewDeviceMsg_InputRemoting___c::*)(::UnityEngine::InputSystem::Utilities::InternedString)>(
     &::UnityEngine::InputSystem::NewDeviceMsg_InputRemoting___c::_Create_b__1_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69cca30;
+  constexpr static std::size_t addrs = 0x69cdb10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::NewDeviceMsg_InputRemoting___c*>(),
@@ -358,7 +358,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputRemoting_Message (*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::InputRemoting_NewDeviceMsg::Create)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x69cb064;
+  constexpr static std::size_t addrs = 0x69cc144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputRemoting_NewDeviceMsg*>(),
@@ -372,7 +372,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::InputRemoting*, ::UnityEngine::InputSystem::InputRemoting_Message)>(
     &::UnityEngine::InputSystem::InputRemoting_NewDeviceMsg::Process)> {
   constexpr static std::size_t size = 0x500;
-  constexpr static std::size_t addrs = 0x69c9e90;
+  constexpr static std::size_t addrs = 0x69caf70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -403,7 +403,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputRemoting_Message (*)(::UnityEngine::InputSystem::InputDevice*, bool)>(
     &::UnityEngine::InputSystem::InputRemoting_NewEventsMsg::CreateResetEvent)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x69cb74c;
+  constexpr static std::size_t addrs = 0x69cc82c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -418,7 +418,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputRemoting_Message (*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::InputRemoting_NewEventsMsg::CreateStateEvent)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x69cb284;
+  constexpr static std::size_t addrs = 0x69cc364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputRemoting_NewEventsMsg*>(),
@@ -432,7 +432,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputRemoting_Message (*)(::UnityEngine::InputSystem::LowLevel::InputEvent*, int32_t)>(
     &::UnityEngine::InputSystem::InputRemoting_NewEventsMsg::Create)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x69cb3c4;
+  constexpr static std::size_t addrs = 0x69cc4a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -447,7 +447,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::InputRemoting*, ::UnityEngine::InputSystem::InputRemoting_Message)>(
     &::UnityEngine::InputSystem::InputRemoting_NewEventsMsg::Process)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x69ca390;
+  constexpr static std::size_t addrs = 0x69cb470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -497,7 +497,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::ChangeUsageMsg_InputRemoting___c::*)()>(
     &::UnityEngine::InputSystem::ChangeUsageMsg_InputRemoting___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69ccbf0;
+  constexpr static std::size_t addrs = 0x69cdcd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::ChangeUsageMsg_InputRemoting___c*>(), { ".ctor", {}, {} })));
@@ -510,7 +510,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::ChangeUsageMsg_InputRemoting___c::*)(::UnityEngine::InputSystem::Utilities::InternedString)>(
     &::UnityEngine::InputSystem::ChangeUsageMsg_InputRemoting___c::_Create_b__1_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69ccbf4;
+  constexpr static std::size_t addrs = 0x69cdcd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::ChangeUsageMsg_InputRemoting___c*>(),
@@ -553,7 +553,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputRemoting_Message (*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::InputRemoting_ChangeUsageMsg::Create)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x69cb5a0;
+  constexpr static std::size_t addrs = 0x69cc680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputRemoting_ChangeUsageMsg*>(),
@@ -567,7 +567,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::InputRemoting*, ::UnityEngine::InputSystem::InputRemoting_Message)>(
     &::UnityEngine::InputSystem::InputRemoting_ChangeUsageMsg::Process)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x69ca45c;
+  constexpr static std::size_t addrs = 0x69cb53c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -597,7 +597,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputRemoting_Message (*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::InputRemoting_RemoveDeviceMsg::Create)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x69cb578;
+  constexpr static std::size_t addrs = 0x69cc658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputRemoting_RemoveDeviceMsg*>(),
@@ -611,7 +611,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::InputRemoting*, ::UnityEngine::InputSystem::InputRemoting_Message)>(
     &::UnityEngine::InputSystem::InputRemoting_RemoveDeviceMsg::Process)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x69ca74c;
+  constexpr static std::size_t addrs = 0x69cb82c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -640,7 +640,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::InputRemoting::*)()>(&::UnityEngine::InputSystem::InputRemoting::get_sending)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69c95dc;
+  constexpr static std::size_t addrs = 0x69ca6bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputRemoting*>(), { "get_sending", {}, {} })));
@@ -652,7 +652,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)(bool)>(&::UnityEngine::InputSystem::InputRemoting::set_sending)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x69c95e8;
+  constexpr static std::size_t addrs = 0x69ca6c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -666,7 +666,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)(::UnityEngine::InputSystem::InputManager*, bool)>(
     &::UnityEngine::InputSystem::InputRemoting::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x69c95f8;
+  constexpr static std::size_t addrs = 0x69ca6d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputRemoting*>(),
@@ -679,7 +679,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)()>(&::UnityEngine::InputSystem::InputRemoting::StartSending)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x69c9660;
+  constexpr static std::size_t addrs = 0x69ca740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputRemoting*>(), { "StartSending", {}, {} })));
@@ -691,7 +691,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)()>(&::UnityEngine::InputSystem::InputRemoting::StopSending)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x69c9940;
+  constexpr static std::size_t addrs = 0x69caa20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputRemoting*>(), { "StopSending", {}, {} })));
@@ -704,7 +704,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)(::UnityEngine::InputSystem::InputRemoting_Message)>(
     &::UnityEngine::InputSystem::InputRemoting::System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnNext)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x69c9bf0;
+  constexpr static std::size_t addrs = 0x69cacd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -720,7 +720,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)(::System::Exception*)>(
     &::UnityEngine::InputSystem::InputRemoting::System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnError)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69ca7d8;
+  constexpr static std::size_t addrs = 0x69cb8b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -735,7 +735,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)()>(
     &::UnityEngine::InputSystem::InputRemoting::System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnCompleted)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69ca7dc;
+  constexpr static std::size_t addrs = 0x69cb8bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -750,7 +750,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IDisposable* (
     ::UnityEngine::InputSystem::InputRemoting::*)(::System::IObserver_1<::UnityEngine::InputSystem::InputRemoting_Message>*)>(&::UnityEngine::InputSystem::InputRemoting::Subscribe)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x69ca7e0;
+  constexpr static std::size_t addrs = 0x69cb8c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -764,7 +764,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)()>(&::UnityEngine::InputSystem::InputRemoting::SendInitialMessages)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69c9928;
+  constexpr static std::size_t addrs = 0x69caa08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputRemoting*>(), { "SendInitialMessages", {}, {} })));
@@ -776,7 +776,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)()>(&::UnityEngine::InputSystem::InputRemoting::SendAllGeneratedLayouts)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x69ca8c4;
+  constexpr static std::size_t addrs = 0x69cb9a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputRemoting*>(), { "SendAllGeneratedLayouts", {}, {} })));
@@ -788,7 +788,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)(::StringW)>(&::UnityEngine::InputSystem::InputRemoting::SendLayout)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x69cab78;
+  constexpr static std::size_t addrs = 0x69cbc58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -801,7 +801,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)()>(&::UnityEngine::InputSystem::InputRemoting::SendAllDevices)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x69caa0c;
+  constexpr static std::size_t addrs = 0x69cbaec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputRemoting*>(), { "SendAllDevices", {}, {} })));
@@ -814,7 +814,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::InputRemoting::SendDevice)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x69cafe8;
+  constexpr static std::size_t addrs = 0x69cc0c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -828,7 +828,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)(
     ::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*)>(&::UnityEngine::InputSystem::InputRemoting::SendEvent)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x69cb378;
+  constexpr static std::size_t addrs = 0x69cc458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -844,7 +844,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)(::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange)>(
     &::UnityEngine::InputSystem::InputRemoting::SendDeviceChange)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x69cb4c4;
+  constexpr static std::size_t addrs = 0x69cc5a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -860,7 +860,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)(::StringW, ::UnityEngine::InputSystem::InputControlLayoutChange)>(
     &::UnityEngine::InputSystem::InputRemoting::SendLayoutChange)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x69cb808;
+  constexpr static std::size_t addrs = 0x69cc8e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -875,7 +875,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)(::UnityEngine::InputSystem::InputRemoting_Message)>(
     &::UnityEngine::InputSystem::InputRemoting::Send)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x69cae94;
+  constexpr static std::size_t addrs = 0x69cbf74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -889,7 +889,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::InputRemoting::*)(int32_t)>(&::UnityEngine::InputSystem::InputRemoting::FindOrCreateSenderRecord)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x69cb8f8;
+  constexpr static std::size_t addrs = 0x69cc9d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -902,7 +902,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::InternedString (*)(int32_t)>(&::UnityEngine::InputSystem::InputRemoting::BuildLayoutNamespace)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x69cb9a8;
+  constexpr static std::size_t addrs = 0x69cca88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -915,7 +915,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::InputRemoting::*)(int32_t, int32_t)>(&::UnityEngine::InputSystem::InputRemoting::FindLocalDeviceId)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x69cba54;
+  constexpr static std::size_t addrs = 0x69ccb34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -929,7 +929,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputDevice* (::UnityEngine::InputSystem::InputRemoting::*)(int32_t, int32_t)>(
     &::UnityEngine::InputSystem::InputRemoting::TryGetDeviceByRemoteId)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x69cbac4;
+  constexpr static std::size_t addrs = 0x69ccba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -944,7 +944,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputManager* (::UnityEngine::InputSystem::InputRemoting::*)()>(
     &::UnityEngine::InputSystem::InputRemoting::get_manager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cbb68;
+  constexpr static std::size_t addrs = 0x69ccc48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputRemoting*>(), { "get_manager", {}, {} })));
@@ -956,7 +956,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)(int32_t)>(&::UnityEngine::InputSystem::InputRemoting::RemoveRemoteDevices)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x69cbb70;
+  constexpr static std::size_t addrs = 0x69ccc50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

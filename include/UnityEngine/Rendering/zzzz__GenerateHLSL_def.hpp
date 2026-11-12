@@ -120,7 +120,7 @@ public:
 
   constexpr void __cordl_internal_set_sourcePath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6bff72c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c0080c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::PackingRules rules, bool needAccessors, bool needSetters, bool needParamDebug, int32_t paramDefinesStart, bool omitStructDeclaration,
                     bool containsPackedFields, bool generateCBuffer, int32_t constantRegister, /* [CallerFilePath] */ ::StringW sourcePath);
 

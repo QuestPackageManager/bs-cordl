@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithNetSyncConnection::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithNetSyncConnection::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x622e148;
+  constexpr static std::size_t addrs = 0x622e3d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::NetSyncConnection* (::Oculus::Platform::MessageWithNetSyncConnection::*)()>(
     &::Oculus::Platform::MessageWithNetSyncConnection::GetNetSyncConnection)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x62323ac;
+  constexpr static std::size_t addrs = 0x6232634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::NetSyncConnection* (::Oculus::Platform::MessageWithNetSyncConnection::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithNetSyncConnection::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x62323f0;
+  constexpr static std::size_t addrs = 0x6232678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

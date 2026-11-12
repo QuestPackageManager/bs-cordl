@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::PropertyInfo*, ::System::Type*, bool)>(
     &::System::Attribute::InternalGetCustomAttributes)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x60c909c;
+  constexpr static std::size_t addrs = 0x60c9324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::EventInfo*, ::System::Type*, bool)>(
     &::System::Attribute::InternalGetCustomAttributes)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x60c9150;
+  constexpr static std::size_t addrs = 0x60c93d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::ParameterInfo*, ::System::Type*, bool)>(
     &::System::Attribute::InternalParamGetCustomAttributes)> {
   constexpr static std::size_t size = 0x54c;
-  constexpr static std::size_t addrs = 0x60c9204;
+  constexpr static std::size_t addrs = 0x60c948c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Reflection::PropertyInfo*, ::System::Type*, bool)>(&::System::Attribute::InternalIsDefined)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x60c9750;
+  constexpr static std::size_t addrs = 0x60c99d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Reflection::EventInfo*, ::System::Type*, bool)>(&::System::Attribute::InternalIsDefined)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x60c97c4;
+  constexpr static std::size_t addrs = 0x60c9a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::MemberInfo*, ::System::Type*)>(&::System::Attribute::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60c9838;
+  constexpr static std::size_t addrs = 0x60c9ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::MemberInfo*, ::System::Type*, bool)>(&::System::Attribute::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x60c9840;
+  constexpr static std::size_t addrs = 0x60c9ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::MemberInfo*)>(&::System::Attribute::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60c9b0c;
+  constexpr static std::size_t addrs = 0x60c9d94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::MemberInfo*, bool)>(&::System::Attribute::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x60c9b14;
+  constexpr static std::size_t addrs = 0x60c9d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Reflection::MemberInfo*, ::System::Type*)>(&::System::Attribute::IsDefined)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60c9d40;
+  constexpr static std::size_t addrs = 0x60c9fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Reflection::MemberInfo*, ::System::Type*, bool)>(&::System::Attribute::IsDefined)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x60c9d48;
+  constexpr static std::size_t addrs = 0x60c9fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Attribute* (*)(::System::Reflection::MemberInfo*, ::System::Type*)>(&::System::Attribute::GetCustomAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60c9ff0;
+  constexpr static std::size_t addrs = 0x60ca278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Attribute* (*)(::System::Reflection::MemberInfo*, ::System::Type*, bool)>(&::System::Attribute::GetCustomAttribute)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x60c9ff8;
+  constexpr static std::size_t addrs = 0x60ca280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::ParameterInfo*, ::System::Type*, bool)>(&::System::Attribute::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x60ca078;
+  constexpr static std::size_t addrs = 0x60ca300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::ParameterInfo*, bool)>(&::System::Attribute::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x60ca2f4;
+  constexpr static std::size_t addrs = 0x60ca57c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::Module*, bool)>(&::System::Attribute::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x60ca4b4;
+  constexpr static std::size_t addrs = 0x60ca73c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::Module*, ::System::Type*, bool)>(&::System::Attribute::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x60ca5f4;
+  constexpr static std::size_t addrs = 0x60ca87c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -257,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::Assembly*, ::System::Type*)>(&::System::Attribute::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60ca800;
+  constexpr static std::size_t addrs = 0x60caa88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -271,7 +271,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::Assembly*, ::System::Type*, bool)>(&::System::Attribute::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x60ca808;
+  constexpr static std::size_t addrs = 0x60caa90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::Assembly*)>(&::System::Attribute::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60caa04;
+  constexpr static std::size_t addrs = 0x60cac8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -298,7 +298,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::Assembly*, bool)>(&::System::Attribute::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x60caa0c;
+  constexpr static std::size_t addrs = 0x60cac94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -312,7 +312,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Attribute* (*)(::System::Reflection::Assembly*, ::System::Type*)>(&::System::Attribute::GetCustomAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60cab3c;
+  constexpr static std::size_t addrs = 0x60cadc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -326,7 +326,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Attribute* (*)(::System::Reflection::Assembly*, ::System::Type*, bool)>(&::System::Attribute::GetCustomAttribute)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x60cab44;
+  constexpr static std::size_t addrs = 0x60cadcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -340,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Attribute::*)()>(&::System::Attribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x60c6ac0;
+  constexpr static std::size_t addrs = 0x60c6d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Attribute*>(), { ".ctor", {}, {} })));
@@ -352,7 +352,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Attribute::*)(::System::Object*)>(&::System::Attribute::Equals)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x60cabc4;
+  constexpr static std::size_t addrs = 0x60cae4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Attribute*>(), { ::i2c::class_of<::System::Attribute*>(), 0 }));
@@ -364,7 +364,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Object*, ::System::Object*)>(&::System::Attribute::AreFieldValuesEqual)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x60cae08;
+  constexpr static std::size_t addrs = 0x60cb090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -377,7 +377,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Attribute::*)()>(&::System::Attribute::GetHashCode)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x60cafa8;
+  constexpr static std::size_t addrs = 0x60cb230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Attribute*>(), { ::i2c::class_of<::System::Attribute*>(), 2 }));
@@ -389,7 +389,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Attribute::*)()>(&::System::Attribute::get_TypeId)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x60cb0e4;
+  constexpr static std::size_t addrs = 0x60cb36c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Attribute*>(), { ::i2c::class_of<::System::Attribute*>(), 4 }));
@@ -401,7 +401,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Attribute::*)(::System::Object*)>(&::System::Attribute::Match)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x60cb0f0;
+  constexpr static std::size_t addrs = 0x60cb378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Attribute*>(), { ::i2c::class_of<::System::Attribute*>(), 5 }));
@@ -413,7 +413,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Attribute::*)()>(&::System::Attribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60cb0fc;
+  constexpr static std::size_t addrs = 0x60cb384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Attribute*>(), { ::i2c::class_of<::System::Attribute*>(), 6 }));

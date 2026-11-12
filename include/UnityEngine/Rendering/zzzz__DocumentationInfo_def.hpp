@@ -20,30 +20,30 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE DocumentationInfo : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetDefaultPackageLink, addr 0x6bdfad8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultPackageLink, addr 0x6be0bb8, size 0xb0, virtual false, abstract: false, final false
   static inline ::StringW GetDefaultPackageLink(::StringW packageName);
 
-  /// @brief Method GetDefaultPackageLink, addr 0x6bdfa48, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultPackageLink, addr 0x6be0b28, size 0x90, virtual false, abstract: false, final false
   static inline ::StringW GetDefaultPackageLink(::StringW packageName, ::StringW packageVersion);
 
-  /// @brief Method GetPackageLink, addr 0x6bdf5d8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetPackageLink, addr 0x6be06b8, size 0x158, virtual false, abstract: false, final false
   static inline ::StringW GetPackageLink(::StringW packageName, ::StringW packageVersion, ::StringW pageName);
 
-  /// @brief Method GetPackageLink, addr 0x6bdf730, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetPackageLink, addr 0x6be0810, size 0x194, virtual false, abstract: false, final false
   static inline ::StringW GetPackageLink(::StringW packageName, ::StringW packageVersion, ::StringW pageName, ::StringW pageHash);
 
-  /// @brief Method GetPageLink, addr 0x6bdf8c4, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetPageLink, addr 0x6be09a4, size 0x184, virtual false, abstract: false, final false
   static inline ::StringW GetPageLink(::StringW packageName, ::StringW pageName);
 
-  /// @brief Method GetPageLink, addr 0x6bdf248, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method GetPageLink, addr 0x6be0328, size 0x1b8, virtual false, abstract: false, final false
   static inline ::StringW GetPageLink(::StringW packageName, ::StringW pageName, ::StringW pageHash);
 
   static inline ::UnityEngine::Rendering::DocumentationInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6bdfb88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be0c68, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_version, addr 0x6bdf594, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x6be0674, size 0x44, virtual false, abstract: false, final false
   static inline ::StringW get_version();
 
 protected:

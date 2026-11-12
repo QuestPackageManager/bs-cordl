@@ -65,7 +65,7 @@ public:
   /// @brief Method SetExtendedFeatureFlags, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetExtendedFeatureFlags(::UnityEngine::Rendering::RenderGraphModule::ExtendedFeatureFlags extendedFeatureFlags);
 
-  /// @brief Method SetInputAttachment, addr 0x6c3f9fc, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method SetInputAttachment, addr 0x6c40adc, size 0xd4, virtual true, abstract: false, final false
   inline void SetInputAttachment(::UnityEngine::Rendering::RenderGraphModule::TextureHandle tex, int32_t index, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags);
 
   /// @brief Method SetInputAttachment, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

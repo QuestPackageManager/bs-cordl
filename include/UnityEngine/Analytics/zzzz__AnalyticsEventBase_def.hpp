@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_sendEventOptions(::UnityEngine::Analytics::SendEventOptions value);
 
-  /// @brief Method .ctor, addr 0x6f9fc88, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fa0d68, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW eventName, int32_t eventVersion, ::UnityEngine::Analytics::SendEventOptions sendEventOptions, ::StringW eventPrefix);
 
 protected:
